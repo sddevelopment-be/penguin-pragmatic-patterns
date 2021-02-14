@@ -1,5 +1,7 @@
 # Compiled class file
 *.class
+docs/img/
+output/docsite/
 
 # Log file
 *.log

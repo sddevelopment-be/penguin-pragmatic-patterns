@@ -1,0 +1,25 @@
+name: Documentation Conversion
+
+on: push
+
+jobs:
+  convert_via_pandoc:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v2
+      - name: Spin up Containers
+        run: |
+          echo "<(^v^)> -{ Creating docker containers! }"
+          docker-compose -f ./ops/docker-compose.yml up -d --remove-orphans
+      - name: List Containers
+        run: docker ps
+      - name: Start Conversion
+        run: |
+          echo "<(^v^)> - { Converting documents })"
+          sh ./ops/scripts/convert_documents.sh
+      - name: Upload Examples
+        uses: actions/upload-artifact@master
+        with:
+          name: output
+          path: output

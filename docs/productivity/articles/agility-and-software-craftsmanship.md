@@ -35,7 +35,7 @@ Around the start of the new millennium, the software industry was being frowned 
 The result was that a lot of companies and governments were not sure their software would be able to cope with the new date that ended in double zeroes. 
 Representing dates in software code has always been a challenge. Just before New Year's Eve 2000, auditing companies around the world started reporting that the majority of software solutions were likely going to crash and burn.
   
-The reason for this was that a bunch of developers had used the last two digits of the gregorian calendar's years in date representations and calculations. This meant that affected software would assume the current year was actually '1900', instead of '2000'. This led to the world as a whole looking at our cozy IT bubble with a magnifying glass. 
+The reason for this was that a bunch of developers had used the last two digits of the Gregorian calendar's years in date representations and calculations. This meant that affected software would assume the current year was actually '1900', instead of '2000'. This led to the world as a whole looking at our cozy IT bubble with a magnifying glass. 
 Stories of projects gone bad, expensive bugs, and movies demonstrating how the world would basically end if we did not get our stuff together, came to the foreground of news reporting.
 
 The increasing scrutiny, and the general feeling of discontentment with their current processes, led to a few bright developers creating their own systems.
@@ -43,7 +43,7 @@ These systems were a structured bundling of the lessons these development gurus 
 As with all thing IT, debates began about which system was the best. Developers all over the world started looking for the _"one system to rule them all"_.
 
 Responding to this, that bright few who created the most popular systems, decided to get together at a ski resort to discuss their shared beliefs. 
-This free-form discussion ultimatly resulted in [The Manifesto for Agile Software Development](https://agilemanifesto.org/). One of them made a simple website with nothing more than their four core beliefs,
+This free-form discussion ultimately resulted in [The Manifesto for Agile Software Development](https://agilemanifesto.org/). One of them made a simple website with nothing more than their four core beliefs,
 and a set of complimentary principles that demystify the four core beliefs. The development world jumped on this wisdom like a pack of starved dogs on a steak.
 The manifesto and principles started to become revered as the Holy Bible of software development. The values and principles were regarded as commandments, more so than a set of good advices.
 
@@ -52,7 +52,7 @@ The manifesto and principles started to become revered as the Holy Bible of soft
 
 At first, it were mostly software developers that bought into the manifesto. They held conferences, and tried to deliver software in a better and more relaxed way.
 The few, who were allowed the freedom to work as they pleased, reported good results. Fast forward a decade or two, and we see an abundance of agile consulting firms.
-Each offering training in their "optimized method of agile". The agile movement started feeling more and more like an industry of cultist preachers, like you would see on american tv,
+Each offering training in their "optimized method of agile". The agile movement started feeling more and more like an industry of cultist preachers, like you would see on American TV shows,
 than as a group of developers trying to deliver good software. Many of these consulting firms market their agile methodologies as the end-all-be-all of project management.
 As such, a lot of project leads and managers got very interested in these methods that claim the team will be able to cope with any change of requirements, will always have good estimates,
 and always deliver on time, no matter what happens or who leaves the team. I must admit it sounds like a wet dream to professionals in a leadership position.
@@ -97,7 +97,7 @@ It's great to have tools and processes that help your team communicate in a stru
 The idea of speaking the same language, and using the same formats, is of great value to teams far and wide.
 The downside of this way of working is what we in Belgium call the _"Over the wall"_-principle. It means that an individual in a team does not feel like part of a team, just does what he is asked, and then throws the task over to the next person (on the other side of the wall).
 Ticketing systems are notorious for enabling this behaviour. If you ever hear the words _"The ticket isn't formatted correctly, so I am not able to help you"_, chances are you are working in somewhat of an "over the wall"-process.
-Even teams that claim to _be doing agile_ often fall into this trap. They tend to be overly reliant on their tooling (jira, kanban boards, excel sheets, ...) and lose focus of what these tools are there for: **communicating with each other**.
+Even teams that claim to _be doing agile_ often fall into this trap. They tend to be overly reliant on their tooling (Jira, Kanban boards, excel sheets, ...) and lose focus of what these tools are there for: **communicating with each other**.
 
 The authors of the manifesto say they believe that simply talking to each other, being open in your communication, and informally sharing ideas, make for a more efficient and relaxed way of sharing information.
 The back and forth dialogue that results from just speaking to each other often uncovers hidden, or unspecified knowledge. In more formal systems, information that is missing grinds the process to a halt: analyses have to be redone, the specs needs to be rewritten, etc.
@@ -106,7 +106,7 @@ If our core process is to have more **casual and honest conversations** about wh
 > Working software over comprehensive documentation
 
 At the end of the day, we want to build something that works. In certain methodologies, schematic drawings, long functional descriptions, and presentations about software that does not exist yet, are seen as deliverables.
-This means that a large part of what the client expects and pays for is highly detailed documentation. The question rises if this really brings value to them. Would they be better off if you invested that time spent on documention
+This means that a large part of what the client expects and pays for is highly detailed documentation. The question rises if this really brings value to them. Would they be better off if you invested that time spent on documentation
 in writing code for a piece of the application they hired you to build?  Sometimes development teams spend more time on keeping their documentation up to date than on actually writing code.
 That sounds like a team which has their priorities messed up, doesn't it?
 
@@ -118,7 +118,7 @@ Months (or years) down the line, the specifications have all been met, and the p
 This is followed by back and forth bickering, along the lines of: _"This is not what we paid you for!"_, _'Yes it is! Look, we have it in writing, and your signature is on the bottom of the page'_, and so on.
 
 What matters most is that the customer is satisfied with the software you deliver. Whether that corresponds to what they originally asked of you or not, is not very relevant at the time of delivery.
-A satisfied customer will write a good review, or recommend you to their peers. A customer that is strongarmed into accepting and paying for something they did not want, will not be inclined to give you the same courtesy.
+A satisfied customer will write a good review, or recommend you to their peers. A customer that is strong-armed into accepting and paying for something they did not want, will not be inclined to give you the same courtesy.
 The question here is _"what hurts you the most?"_. Is it putting in extra effort to make sure the client is happy, or dealing with a bad reputation down the line?
  
 > Responding to change over following a plan
@@ -143,13 +143,22 @@ In my opinion, **this is the most important sentence from the original text**. U
 The examples and notions I wrote down are simplifications of reality.
 Aiming to have more direct communication, having working software, _working with_ instead of _fighting against_ your customers, and being adaptable, are things to strive towards.
 This does not mean that having a contract in place, having some formalized processes, or even having a plan should be avoided altogether. Those things are also very valuable.
-[Rini van Solingen](https://rinivansolingen.nl/) phrased this point very well: _"It is important to have a plan, because you need something to deviate from"_.
+[prof. Rini van Solingen](https://rinivansolingen.nl/) phrased this point very well: _"It is important to have a plan, because you need something to deviate from"_.
 You **need** a general outline, a map with a general direction to steer the ship towards. That does not mean you should sail into that huge iceberg, just because the map says that is the intended course. 
 
 
-#### How can we improve our process?
+#### The next chapter: Return of the agile developer
+
+> In my personal opinion, we as an industry and us developers in particular, should aim to transition from 
+> "doing agile" to "being agile".
 
 We started to notice that the combination of agile approaches and our modern _cut-and-paste_ way of applying best practices can be a recipe for disaster.
+So, how can we do better? As I elaborately discussed above, there is no silver bullet approach to this.
+We should aim to be good at our jobs, and strive for agility in our daily jobs. I can tell you from personal experience 
+that sometimes the most agile teams are the ones that officially follow a "waterfall process" but live the values of 
+the manifesto on a daily basis. Your project structure will not stop you or your team from working in an efficient way.
+I doubt there is any boss or customer that will sit next to you, look at your computer screen, and tell you not to use TDD, or keep developer notes, etc. 
+
 In this section, I will take lessons from the concepts of pragmatism and craftsmanship to try and propose a different way of applying agile approaches. 
 
 ##### A Pragmatic Paradigm
@@ -168,7 +177,7 @@ This means that even if a new software architecture is really hip, you would loo
 A few years ago [blockchain](https://en.wikipedia.org/wiki/Blockchain) was all the rage. Many leading technologists wanted to use it on their projects, just to add a fancy buzzword to their sales pitch or resume.
 Back then, you would find articles all over the place claiming blockchain technology would solve any technological issue. In the end, a lot of time and effort was put in by developers, only to realise that their software had not become better by the inclusion of the new technology.
 Sometimes their software turned out to be slower, more expensive, and more confusing to their users. A pragmatist would likely have hesitated to jump on this hype train.
-he, or she obviously, would not do something just because everyone else is doing it. They would not use a technology if it added little value to the project they were working on. 
+He, or she obviously, would not do something just because everyone else is doing it. They would not use a technology if it added little value to the project they were working on. 
 
 Put the words _Pragmatic_ and _Paradigm_ together, and you know what I am getting at. Pragmatists look at processes, tools, frameworks, and life in general with an open mind and buy in to the things which help them progress, but change and amend the practices that deliver little value. 
 
@@ -179,7 +188,7 @@ The Pragmatic Programmers (Dave and Andy) often use the metaphor of _workshops f
 People who view their vocation as a craft understand and appreciate that they will have to put in significant effort to excel at their jobs, they see themselves on the long road towards mastery.
 
 We see this theme in the [Dreyfus model of skill acquisition](https://en.wikipedia.org/wiki/Dreyfus_model_of_skill_acquisition). 
-Everyone starts of as a _'Novice'_ and as their skills progress they go up in level. A select few will eventually reach the level of _"Expert"_ through hard work, commitment, and dedication.
+Everyone starts of as a _'Novice'_ and as their skills progress they go up in level. A few motivated individuals will eventually reach the level of _"Expert"_ through hard work, commitment, and dedication.
 Note that while someone might be an expert in one area, he can very well be a novice in another area.
 The main difference between the lower and upper end of these levels is how they look at challenges, and how they apply their knowledge.
 
@@ -226,7 +235,7 @@ External advisors and consultants might have a very deep understanding of a spec
 If you want to make your project operate more efficiently, or get out of the mess you've gotten yourself into, **you and your team** will have to do most of the heavy lifting.
 
 Adding experienced and skilled people to your team can help you gather new knowledge and practices. These people are invaluable as they have seen what works and what does not in different environments.
-If these people stick around on your project for a significant time, and are activly involved in your process, they might uncover some inefficiencies or _'weirdness'_ in your approach.
+If these people stick around on your project for a significant time, and are actively involved in your process, they might uncover some inefficiencies or _'weirdness'_ in your approach.
 Team members that have been on the project for a long time can likely tell you why your team is currently doing things the way you are. These senior members can also provide you with knowledge of the business processes of your clients, and the history of your project.
 Information such as _"We tried  to switch to a different server technology five years ago, but in the end the change did not go through because the client has very specific privacy requirements"_ can help you narrow down
  which of the alternatives you are thinking of is actually viable.
@@ -240,10 +249,10 @@ If adding experienced practitioners to your team is not an option for you, emplo
 Just remember that if you do choose this option, it is up to you to understand the approaches they are trying to sell and the problems those approaches can solve.
 These consults and training seminars are useful to change your perspective of things, and to show you possible alternatives to your way of working.
 Armed with this knowledge, you can go back to your daily tasks and be mindful of inefficiencies. 
-Maybe that _"Test Driven Development"_ training you took a few months ago was on to something, and maybe applying those practices will help our team produce less bugs and miss less deadlines.
+Maybe that _"Test Driven Development"_ training you took a few months ago was on to something, and maybe applying those practices will help your team produce less bugs and miss less deadlines.
 
 You can always start trying a new approach. If you continually evaluate if it is helping your team, or rather slowing it down in the long run, you will know whether to keep the process or not.
-The core values of the [The Manifesto for Agile Software Development](https://agilemanifesto.org/), and it's [twelfde principles of agile software](https://agilemanifesto.org/principles.html) are a great point of reference if you are in doubt of what to try next.
+The core values of the [The Manifesto for Agile Software Development](https://agilemanifesto.org/), and it's [twelve principles of agile software](https://agilemanifesto.org/principles.html) are a great point of reference if you are in doubt of what to try next.
 But remember they are **references and advise**, not the law. 
 
 **Listen to your team, gather ideas from skilled people (internal and external), and be on the lookout for improvements to your process.

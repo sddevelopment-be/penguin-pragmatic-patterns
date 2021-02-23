@@ -15,6 +15,21 @@ Following changes are known:
 
 # Changes
 
+## v1.1.0
+
+### Changed
+* Update README to include references to tech Stack
+* Update the script used to generate the documentation 
+* Update gitignore file for IntelliJ artifacts and configurations
+
+### Added
+
+* Template: add pattern template to github issue tracker and update labels
+* Productivity: Essay on agile software development
+* Programming: Patterns on writing clean code
+  * Baptize your code: the value of giving code artifacts proper names
+* Add a Glossary containing terminology used in this tome
+
 ## v1.0.0 Initial Version
 ### Added 
 * Repository structure 

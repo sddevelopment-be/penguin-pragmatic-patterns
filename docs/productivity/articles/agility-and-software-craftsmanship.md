@@ -1,12 +1,10 @@
-### [Article] Back to the basics of agile software development
-
-![A stylized Death Star persiflage of the old Scrum logo](img/blog_agile_is_dead.png){ width=50% }
-
-| Property | Value |
-|---|---|
-| Published on: | 2020-05-04 |
-| Author: | Stijn Dejongh |
-| Original title: | Pragmatism and Software Craftsmanship |
+---
+title: The Rise and fall of agile software development
+published: true
+description: 
+tags: agile, mindset, learning, essay
+cover_image: ./img/agile_rise_and_fall.png
+---
 
 #### Introduction
 
@@ -48,7 +46,7 @@ and a set of complimentary principles that demystify the four core beliefs. The 
 The manifesto and principles started to become revered as the Holy Bible of software development. The values and principles were regarded as commandments, more so than a set of good advices.
 
 
-##### Our hero is defeated by its own success! 
+##### Our creed is defeated by its own success! 
 
 At first, it were mostly software developers that bought into the manifesto. They held conferences, and tried to deliver software in a better and more relaxed way.
 The few, who were allowed the freedom to work as they pleased, reported good results. Fast forward a decade or two, and we see an abundance of agile consulting firms.
@@ -147,7 +145,7 @@ This does not mean that having a contract in place, having some formalized proce
 You **need** a general outline, a map with a general direction to steer the ship towards. That does not mean you should sail into that huge iceberg, just because the map says that is the intended course. 
 
 
-#### The next chapter: Return of the agile developer
+#### Return of the agile developer
 
 > In my personal opinion, we as an industry and us developers in particular, should aim to transition from 
 > "doing agile" to "being agile".
@@ -161,7 +159,7 @@ I doubt there is any boss or customer that will sit next to you, look at your co
 
 In this section, I will take lessons from the concepts of pragmatism and craftsmanship to try and propose a different way of applying agile approaches. 
 
-##### A Pragmatic Paradigm
+## A Pragmatic Paradigm
 
 A _"paradigm"_ is a fancy word for "point of view". It is the belief system that you hold and use in order to make sense of what is happening around you.
 You can look at it as walking around in an unknown city, armed with a town map. If the map is not sufficiently accurate, you will find yourself ending up in the wrong place.
@@ -269,7 +267,19 @@ But most of all, care deeply about what you are doing.**
 * Listen to your team, gather ideas from skilled people (internal and external), be on the lookout for improvements to your process.
 
 
-#### References and Further reading
+#### Appendix
+##### Metadata
+
+| Property | Value |
+|---|---|
+| Originally Published on: | 2020-05-04 |
+| Author: | Stijn C. Dejongh |
+| Original title: | Pragmatism and Software Craftsmanship |
+| Article source: | https://github.com/sddevelopment-be/penguin-programming |
+| Licensed under: | [EUPL](https://github.com/sddevelopment-be/penguin-programming/blob/main/LICENSE) |
+
+
+##### References and Further reading
 
 If this overview of agile software development and craftsmanship has inspired you to read more about the subject, I invite you to take a look at the books and video material I based this article on.
 
@@ -282,3 +292,5 @@ If this overview of agile software development and craftsmanship has inspired yo
 | Hunt, A; Subramaniam, V | 2006 | [pragprog.com](https://pragprog.com/book/pad/practices-of-an-agile-developer) | Practices of an Agile Developer | online publishing, USA | Pragmatic Bookshelf |
 | Hoover, D; Oshineye, A | 2009 | [oreilly.com/library](https://www.oreilly.com/library/view/apprenticeship-patterns/9780596806842/ch01.html) | Apprenticeship Patterns: Guidance for the Aspiring Software Craftsman | Sebastopol, CA, USA | O'Reilly Media, Inc |
 | van Solingen, R | 2019 | [talk on youtube](https://www.youtube.com/watch?v=z8gTFDY9Lj8) | De Kracht van Agile (8 ankerpunten voor de praktijk) | Delft, NL | Agile 2019 talks - distributed on youtube.com |
+
+

@@ -29,6 +29,14 @@ Following changes are known:
 * Programming: Patterns on writing clean code
   * Baptize your code: the value of giving code artifacts proper names
 * Add a Glossary containing terminology used in this tome
+* Add LUA filter to include pagebreaks into the markdown
+* GitOps: Quality of life gitops updates:
+  * Add Issue template for pattern suggestions 
+
+### Deleted
+
+* Runner for docsite and docsite example output
+
 
 ## v1.0.0 Initial Version
 ### Added 

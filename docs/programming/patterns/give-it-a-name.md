@@ -1,3 +1,6 @@
+
+\newpage
+
 ## Baptizing your code
 
 In a surprising amount of fairy tales, myths, and legends the _"power of naming"_ is an ancient magical ability that allows you to control things if you just know how it is
@@ -24,4 +27,5 @@ Some of the thoughts that are likely to cross your mind while reading the code a
 |---|---|---|
 | Some thingy | Why it is here | What to do with it? |
 
+\newpage
 

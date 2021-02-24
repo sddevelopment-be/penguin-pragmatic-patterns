@@ -15,4 +15,6 @@ As explained, software characteristics describe the requirements and the expecta
 
 A list of Software characteristics, known as _"quality attributes"_ can be found on [wikipedia](https://en.wikipedia.org/wiki/List_of_system_quality_attributes).
 
+\newpage
 
+## Architecural Patterns

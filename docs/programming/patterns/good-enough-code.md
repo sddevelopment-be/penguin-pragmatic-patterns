@@ -1,3 +1,6 @@
+
+\newpage
+
 ## Good Enough Code
 
 ### Applicable Context

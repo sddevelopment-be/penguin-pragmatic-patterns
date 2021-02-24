@@ -19,7 +19,9 @@ original author will be asked for approval before the content is included here.
 
 ### List of Patterns
 
-|Pattern | Description |
-|---|---|
-| ROI metrics | Keep track of cost/benefits ratios and apply these to your work and reporting |
+|Pattern | Pattern type | Description |
+|---|---|---|
+| ROI metrics | Method | Keep track of cost/benefits ratios and apply these to your work and reporting |
+
+\newpage
 

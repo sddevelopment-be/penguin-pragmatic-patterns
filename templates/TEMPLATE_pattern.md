@@ -1,5 +1,7 @@
-## Pattern name
 
+\newpage
+
+## Pattern name
 
 ### Applicable Context
 

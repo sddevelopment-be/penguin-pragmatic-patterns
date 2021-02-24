@@ -1,4 +1,5 @@
-# Penguin Programming Patterns
+#  :clipboard: Penguin Pragmatic Patterns
+
 [![Documentation Conversion](https://github.com/sddevelopment-be/penguin-programming/actions/workflows/document_conversion.yml/badge.svg)](https://github.com/sddevelopment-be/penguin-programming/actions/workflows/document_conversion.yml)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
@@ -18,6 +19,8 @@ information that has been collected from various sources, and is extended with s
 * [Contributors ✨](#contributors-)
 
 <!-- vim-markdown-toc -->
+
+----
 
 ## Goal, Philosophy and outline
 

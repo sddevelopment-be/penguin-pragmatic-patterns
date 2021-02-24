@@ -6,6 +6,8 @@ tags: agile, mindset, learning, essay
 cover_image: ./img/agile_rise_and_fall.png
 ---
 
+\newpage
+
 #### Introduction
 
 Not so long ago, in development teams all over the world, methodologies of ‘ye olden days’ are popping up.
@@ -69,7 +71,7 @@ and a bunch of gurus claiming their flavor of SCRUM is the only right way to do 
 Recently, my developer heroes, the pragmatic programmers ( [Dave Thomas](https://pragdave.me/) and [Andy Hunt](https://toolshed.com/)), have started proclaiming they regret how popular the 'Agile' system they co-created has become.
 Dave gave a very insightful and interesting talk on the subject at the GOTO conference in 2015, basically pleading for people to stop sheepishly following the latest and greatest flavor of SCRUM, and to grab back to the original values of the Manifesto.  
 
-[![Dave Thomas GOTO talk](http://img.youtube.com/vi/a-BOSpxYJ9M/0.jpg)](https://www.youtube.com/watch?v=a-BOSpxYJ9M "Dave Thomas GOTO talk")
+[![Dave Thomas GOTO talk](http://img.youtube.com/vi/a-BOSpxYJ9M/0.jpg){width=40%}](https://www.youtube.com/watch?v=a-BOSpxYJ9M "Dave Thomas GOTO talk")
 
 #### The manifesto strikes back
 
@@ -278,19 +280,18 @@ But most of all, care deeply about what you are doing.**
 | Article source: | https://github.com/sddevelopment-be/penguin-programming |
 | Licensed under: | [EUPL](https://github.com/sddevelopment-be/penguin-programming/blob/main/LICENSE) |
 
-
 ##### References and Further reading
 
 If this overview of agile software development and craftsmanship has inspired you to read more about the subject, I invite you to take a look at the books and video material I based this article on.
 
-| author | year | url | title | location | publisher |
-|---|---|---|---|---|---|
-| Beck, K; et al | 2001 | [agilemanifesto.org](https://agilemanifesto.org) | Manifesto for Agile Software Development | Public Domain Internet | Ward Cunningham |
-| Dreyfus, Stuart E; Dreyfus, Hubert L | 1980 | [http://www.dtic.mil](http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA084551&Location=U2&doc=GetTRDoc.pdf)| A Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition | Washington, DC | Storming Media |
-| Hunt, A | 2008 | [pragprog.com](https://pragprog.com/book/ahptl/pragmatic-thinking-and-learning) | Pragmatic Thinking and Learning: Refactor Your 'wetware' | online publishing, USA | Pragmatic Bookshelf |
-| Hunt, A; Thomas, D | 2019 | [pragprog.com](https://pragprog.com/book/tpp20/the-pragmatic-programmer-20th-anniversary-edition) | The Pragmatic Programmer, your journey to mastery | Boston, Massachusetts, USA | Addison Wesley/Pragmatic Bookshelf |
-| Hunt, A; Subramaniam, V | 2006 | [pragprog.com](https://pragprog.com/book/pad/practices-of-an-agile-developer) | Practices of an Agile Developer | online publishing, USA | Pragmatic Bookshelf |
-| Hoover, D; Oshineye, A | 2009 | [oreilly.com/library](https://www.oreilly.com/library/view/apprenticeship-patterns/9780596806842/ch01.html) | Apprenticeship Patterns: Guidance for the Aspiring Software Craftsman | Sebastopol, CA, USA | O'Reilly Media, Inc |
-| van Solingen, R | 2019 | [talk on youtube](https://www.youtube.com/watch?v=z8gTFDY9Lj8) | De Kracht van Agile (8 ankerpunten voor de praktijk) | Delft, NL | Agile 2019 talks - distributed on youtube.com |
+| author | url | title | publisher |
+|---|---|---|---|
+| Beck, K; et al | [agilemanifesto.org](https://agilemanifesto.org) | Manifesto for Agile Software Development | Ward Cunningham |
+| Dreyfus, Stuart E; Dreyfus, Hubert L | [http://www.dtic.mil](http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA084551&Location=U2&doc=GetTRDoc.pdf)| A Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition | Storming Media |
+| Hunt, A | [pragprog.com](https://pragprog.com/book/ahptl/pragmatic-thinking-and-learning) | Pragmatic Thinking and Learning: Refactor Your 'wetware' | Pragmatic Bookshelf |
+| Hunt, A; Thomas, D | [pragprog.com](https://pragprog.com/book/tpp20/the-pragmatic-programmer-20th-anniversary-edition) | The Pragmatic Programmer, your journey to mastery | Addison Wesley/Pragmatic Bookshelf |
+| Hunt, A; Subramaniam, V | [pragprog.com](https://pragprog.com/book/pad/practices-of-an-agile-developer) | Practices of an Agile Developer | Pragmatic Bookshelf |
+| Hoover, D; Oshineye, A | [oreilly.com/library](https://www.oreilly.com/library/view/apprenticeship-patterns/9780596806842/ch01.html) | Apprenticeship Patterns: Guidance for the Aspiring Software Craftsman | O'Reilly Media, Inc |
+| van Solingen, R | [talk on youtube](https://www.youtube.com/watch?v=z8gTFDY9Lj8) | De Kracht van Agile (8 ankerpunten voor de praktijk) | Agile 2019 talks - distributed on youtube.com |
 
 

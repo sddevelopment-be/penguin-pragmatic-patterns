@@ -1,3 +1,6 @@
+
+\newpage
+
 ### [Pattern] Return on investment
 
 #### Applicable Context

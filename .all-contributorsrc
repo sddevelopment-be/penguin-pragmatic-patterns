@@ -15,6 +15,15 @@
         "doc",
         "design"
       ]
+    },
+    {
+      "login": "gustinsi",
+      "name": "gustinsi",
+      "avatar_url": "https://avatars.githubusercontent.com/u/73937666?v=4",
+      "profile": "https://github.com/gustinsi",
+      "contributions": [
+        "review"
+      ]
     }
   ],
   "contributorsPerLine": 7,

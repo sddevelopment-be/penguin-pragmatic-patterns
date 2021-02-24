@@ -32,11 +32,18 @@ Following changes are known:
 * Add LUA filter to include pagebreaks into the markdown
 * GitOps: Quality of life gitops updates:
   * Add Issue template for pattern suggestions 
+  * Add Issue template for Learning Resource recommendations/Reviews
+  * Add labels
+  * Add contributors automation
+* Automation:
+  * Add JustDoIt script
+  * Add script to create new section directory structure and empty files
 
 ### Deleted
 
 * Runner for docsite and docsite example output
-
+* Old example documents
+* DocSite as deployment of HTML files will not happen any time soon
 
 ## v1.0.0 Initial Version
 ### Added 

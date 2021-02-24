@@ -21,6 +21,12 @@ These fit the structure of the existing patterns.
 You can submit this template as an easier way to add to the collection, as an alternative
 to creating your own github fork.
 
+
+
+> Please edit and fill out the following sections 
+
+---
+
 ## Pattern name
 
 > Add introduction to your pattern here

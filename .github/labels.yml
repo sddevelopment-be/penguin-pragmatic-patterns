@@ -83,3 +83,8 @@
   color: '3333cc'
   description: 'Suggestion for a technical or behavioural pattern that could be a good addition to the collection.'
   aliases: ['pattern', 'suggestion']
+
+- name: 'type: resource-recommendation'
+  color: '3434cc'
+  description: 'Recommendations and Reviews of learning resources.'
+  aliases: ['recommended-reads', 'reasource-review']

@@ -28,6 +28,9 @@ Following changes are known:
 * Productivity: Essay on agile software development
 * Programming: Patterns on writing clean code
   * Baptize your code: the value of giving code artifacts proper names
+* Productivity: Patterns on doing things and making progressing
+  * Add Return on Investment pattern
+  * Add OPERAS method pattern
 * Add a Glossary containing terminology used in this tome
 * Add LUA filter to include pagebreaks into the markdown
 * GitOps: Quality of life gitops updates:

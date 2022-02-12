@@ -32,7 +32,7 @@ But finding your way in this vast ocean of knowledge can be a challenge.
 In order to assist fellow learners, we have started to collect our personal experiences in this repository.
 
 The initiative was started by [@stijn-dejongh](https://github.com/stijn-Dejongh), who is a self-improvement enthousiast, and an avid software developer.
-In order to avoid confusing terminology and avoid having to explain the definition of certain words multiple times, please take a look at the [Glossary](./docs/0\ Glossary).
+In order to avoid confusing terminology and avoid having to explain the definition of certain words multiple times, please take a look at the [Glossary](<./docs/0 Glossary>).
 
 ## Repository Structure
 
@@ -42,8 +42,8 @@ Some general purpose information will be stored at the top level.
 ### Noteworthy sections and files
 | Item | Location | Description |
 |---|---|---|
-| Glossary | [`./docs/GLOSSARY.md`]('./docs/0\ Glossary') | A list of Terminology, acronyms and definitions that are used throughout the different files and knowledge resources. This can be used as a dictionary, or as a reference guide.
-| Changelog | [`./CHANGELOG.md`](./CHANGELOG.md) | Keeping track of your changes is hard work, documenting after the facts even more so. This file aims to allow small granular updates to help with this effort. |
+| Glossary | [`./docs/GLOSSARY.md`](<./docs/0 Glossary>) | A list of Terminology, acronyms and definitions that are used throughout the different files and knowledge resources. This can be used as a dictionary, or as a reference guide.
+| Changelog | [`./CHANGELOG.md`](./CHANGELOG.md) | Keeping track of your changes is hard work, documenting after the facts even more so. This file aims to allow small granular updates to help with this effort. 
 
 
 ## Tech Stack

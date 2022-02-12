@@ -11,7 +11,7 @@ A learning and development repository, aimed to share knowledge with other techn
 The [docs](./docs) section of this repository is somewhat of a "personal wiki". It contains knowledge and
 information that has been collected from various sources, and is extended with some personal interpretations and experiences of the author.  
 
-**Table of Contents:**
+**Table of Contents:**
 
 <!-- vim-markdown-toc GitLab -->
 
@@ -42,7 +42,7 @@ Some general purpose information will be stored at the top level.
 ### Noteworthy sections and files
 | Item | Location | Description |
 |---|---|---|
-| Glossary | [`./docs/GLOSSARY.md`](./docs/0\ Glossary) | A list of Terminology, acronyms and definitions that are used throughout the different files and knowledge resources. This can be used as a dictionary, or as a reference guide.
+| Glossary | [`./docs/GLOSSARY.md`]('./docs/0\ Glossary') | A list of Terminology, acronyms and definitions that are used throughout the different files and knowledge resources. This can be used as a dictionary, or as a reference guide.
 | Changelog | [`./CHANGELOG.md`](./CHANGELOG.md) | Keeping track of your changes is hard work, documenting after the facts even more so. This file aims to allow small granular updates to help with this effort. |
 
 

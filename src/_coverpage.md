@@ -1,11 +1,12 @@
-# **Open Learning: Knowledge Base**
+<!-- _coverpage.md -->
+![logo](./logo.png)
 
-**A learning and development knowledge based, aimed to share knowledge with other (technical) professionals**
+# Pragmatic Penguin Patterns <small>2.0.0-BETA</small>
+## Open Learning Knowledge Base
 
 [GitHub](https://github.com/sddevelopment-be/penguin-pragmatic-patterns)
-[Outline](#outline)
+[Start Reading](#Outline)
 
-![](./pp_open-learning.png)
-
-
+<!-- background color -->
+![color](#f9f9f9)
 

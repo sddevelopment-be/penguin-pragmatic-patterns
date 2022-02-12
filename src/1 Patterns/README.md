@@ -1,5 +1,3 @@
-# 1 Patterns
-
 
 
 > Nothing here yet. Keep reading

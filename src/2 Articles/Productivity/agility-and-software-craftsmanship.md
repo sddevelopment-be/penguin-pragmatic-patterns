@@ -1,17 +1,17 @@
-# Why should you be concerned about the rise of the Agile Empire?
+## Why should you be concerned about the rise of the Agile Empire?
 
 > A story about the dangers of blindly adopting “best practices”
 
 ![./rise_agile_empire.png](./rise_agile_empire.png)
 
-## Introduction
+### Introduction
 
 Not so long ago, in development teams all over the world, methodologies of ‘ye olden days’ are popping up.
 Project managers and senior developers are rediscovering the written wisdom of the giants in our fields. Past ideas have been given a second life.
 Alongside, newer derivative systems are emerging. Clever marketeers have found a way of selling their variations of agile processes as a silver bullet solution for struggling teams.
 Within this turmoil, a brave alliance of underground freedom fighters is challenging the tyranny and oppression of the awesome AGILE EMPIRE.
 
-## A new hope: agile software development
+### A new hope: agile software development
 
 In the world of software development, there is an undercurrent of people that believe that _"if we can just find the right system, everything will go perfect"_.
 If anyone ever manages to come up with the perfect cut-and-paste methodology that can be applied to any failing software project, and instantly transform it into a high-performing
@@ -25,7 +25,7 @@ The downside of this resurgence is the incremental pollution of the original val
 For those of you that are unaware of the origins of Agile Software Development, I'll start with a very brief look at the history of agile software development.
 
 
-### The story of agile software development
+#### The story of agile software development
 
 Around the start of the new millennium, the software industry was being frowned upon. First there was the dreaded 'millennium bug', that exposed hundreds of thousands of shortcuts taken by developers over the years.
 The result was that a lot of companies and governments were not sure their software would be able to cope with the new date that ended in double zeroes. 
@@ -44,7 +44,7 @@ and a set of complimentary principles that demystify the four core beliefs. The 
 The manifesto and principles started to become revered as the Holy Bible of software development. The values and principles were regarded as commandments, more so than a set of good advices.
 
 
-## Our creed is defeated by its own success! 
+### Our creed is defeated by its own success! 
 
 At first, it were mostly software developers that bought into the manifesto. They held conferences, and tried to deliver software in a better and more relaxed way.
 The few, who were allowed the freedom to work as they pleased, reported good results. Fast forward a decade or two, and we see an abundance of agile consulting firms.
@@ -69,7 +69,7 @@ Dave gave a very insightful and interesting talk on the subject at the GOTO conf
 
 [![Dave Thomas GOTO talk](http://img.youtube.com/vi/a-BOSpxYJ9M/0.jpg)](https://www.youtube.com/watch?v=a-BOSpxYJ9M "Dave Thomas GOTO talk")
 
-## The manifesto strikes back
+### The manifesto strikes back
 
 I fully agree with Dave when he says that the branding of Agile has taken a turn for the worse.
 Let's take a look at the values that were championed by the original authors of the Manifesto for agile software development, as
@@ -77,7 +77,7 @@ published on [agilemanifesto.org](https://agilemanifesto.org/). The authors of t
 they refactored their initial text countless times to come to a manifesto that had "all the right words, in all the right places".
 This is the reason that their website contains the line _"this declaration may be freely copied in any form, but only in its entirety through this notice"_. Unfortunately, the last sentences and the header of the text are often omitted or regarded as of little value.
 
-### The original values
+#### The original values
 
 I will dissect the values from the original publication, and offer some personal annotations to them. 
 
@@ -143,7 +143,7 @@ This does not mean that having a contract in place, having some formalized proce
 You **need** a general outline, a map with a general direction to steer the ship towards. That does not mean you should sail into that huge iceberg, just because the map says that is the intended course. 
 
 
-## Return of the agile developer
+### Return of the agile developer
 
 > In my personal opinion, we as an industry and us developers in particular, should aim to transition from 
 > "doing agile" to "being agile".
@@ -177,7 +177,7 @@ He, or she obviously, would not do something just because everyone else is doing
 
 Put the words _Pragmatic_ and _Paradigm_ together, and you know what I am getting at. Pragmatists look at processes, tools, frameworks, and life in general with an open mind and buy in to the things which help them progress, but change and amend the practices that deliver little value. 
 
-### Mastery and Craftsmanship
+#### Mastery and Craftsmanship
 
 To get to the bottom of the problem with blindly following advise from external experts, it's valuable to understand how one acquires skills.
 The Pragmatic Programmers (Dave and Andy) often use the metaphor of _workshops for craftsmen_ in their publications to this end.
@@ -224,7 +224,7 @@ You could try to convince your management to improve the existing processes, ins
 This way, you can steer your project towards the path of pragmatism and continuous improvement. 
 If that fails miserably, you always have the last resort of hauling ass and looking for a less whimsical environment.
 
-# I read this article and all I got was this lousy insight
+## I read this article and all I got was this lousy insight
 
 The most important lesson to take away from this article is that **context matters**.
 External advisors and consultants might have a very deep understanding of a specific process, but they have little knowledge of your team, company, and the issue you are trying to solve.
@@ -254,7 +254,7 @@ But remember they are **references and advise**, not the law.
 **Listen to your team, gather ideas from skilled people (internal and external), and be on the lookout for improvements to your process.
 But most of all, care deeply about what you are doing.**
 
-# TL;DR
+## TL;DR
 
 * _"doing Agile"_ will not fix all your problems
 * just because some company is successful while doing something, does not mean you will be successful if you blindly copy their approach, Consider the context.
@@ -265,8 +265,8 @@ But most of all, care deeply about what you are doing.**
 * Listen to your team, gather ideas from skilled people (internal and external), be on the lookout for improvements to your process.
 
 
-## Appendix
-### Metadata
+### Appendix
+#### Metadata
 
 | Property | Value |
 |---|---|
@@ -276,7 +276,7 @@ But most of all, care deeply about what you are doing.**
 | Article source: | https://github.com/sddevelopment-be/penguin-programming |
 | Licensed under: | [EUPL](https://github.com/sddevelopment-be/penguin-programming/blob/main/LICENSE) |
 
-### References and Further reading
+#### References and Further reading
 
 If this overview of agile software development and craftsmanship has inspired you to read more about the subject, I invite you to take a look at the books and video material I based this article on.
 

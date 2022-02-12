@@ -1,9 +1,9 @@
 
-# Why learn about learning? 
+## Why learn about learning? 
 
 > General description
 
-## Learning styles
+### Learning styles
 
 ### Patterns Overview
 

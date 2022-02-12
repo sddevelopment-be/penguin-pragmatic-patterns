@@ -1,4 +1,4 @@
-# Overview
+## Clean Coding
 
 This section is a collection of Programming related patterns.
 The patterns are meant as a guideline for your day-to-day development activities and will
@@ -9,9 +9,9 @@ As we all know, **context matters**. This is why each pattern is prefaced with a
 when it can be useful to consider using it. The aim is not to apply as many of them as you can on any given task.
 **This is not a bingo chart.**
 
-# Why does code quality matters?
+## Why does code quality matters?
 
-## Introduction to clean coding
+### Introduction to clean coding
 
 > You should write working, understandable and maintainable code. 
 
@@ -21,7 +21,7 @@ The big challenge here is knowing just exactly **how** you write good code.
 Experienced developer seem to have a gut instinct, allowing them to know when their code is good and when it needs to be cleaned.
 Over time, you will develop this skill. But when starting out, it helps to know a set of of best practices and see if they apply to the code you have just written.
 
-## But it works! That's all that matters, right?
+### But it works! That's all that matters, right?
 
 When writing software, it is easy to fall into the trap of thinking that your only priority is making it work.
 It is true that this is the most important goal of your task. If you have spent some time working on a bigger piece of software, you will probably have noticed that you spent a lot of time reading code that is already there.
@@ -41,9 +41,9 @@ it can feel like a trip through the depths of hell to meet the changing requirem
 
 > People prefer pretty things
 
-# Section Contents
+## Section Contents
 
-## Code Samples
+### Code Samples
 This section includes a variety of programming patterns that have been collected, and put to use 
 in both personal and professional projects. In order to make learning them a bit easier, we have included 
 code samples to these patterns. They can help you understand the approaches described in the patterns and offer 

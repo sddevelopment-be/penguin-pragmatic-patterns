@@ -1,6 +1,4 @@
-# Productivity Patterns 
-
-## Patterns Overview
+## Productivity Patterns 
 
 This section is a collection of Productivity related patterns.
 The patterns are meant as a guideline for your day-to-day development activities and will
@@ -15,10 +13,10 @@ The pattern section is followed by a series of **articles** that were written in
 or others. If I do not hold the copyright of the material included here, it will be mentioned and the 
 original author will be asked for approval before the content is included here.
 
-### List of Patterns
+## List of Concepts
 
-|Pattern | Pattern type | Description |
-|---|---|---|
-| ROI metrics | Method | Keep track of cost/benefits ratios and apply these to your work and reporting |
+| Concept | Description |
+|---|---|
+| ROI metrics | Keep track of cost/benefits ratios and apply these to your work and reporting |
 
 

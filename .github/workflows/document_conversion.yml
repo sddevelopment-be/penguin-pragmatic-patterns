@@ -21,6 +21,7 @@ jobs:
              node-version: 10
         - run: npm i -g c4builder
         - run: c4builder
+        - run: cp ./src/_coverpage.md ./docs/
 
         - name: push
           uses: actions-x/commit@v2

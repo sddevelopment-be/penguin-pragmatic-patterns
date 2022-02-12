@@ -1,11 +1,11 @@
+![./pp_open-learning.png](./pp_open-learning.png)
 
-# Document Overview
+# Outline
 
-## Purpose of the document
+# Purpose
 
 ## Intended Audience
 
-## Document Structure
+# Structure
 
-\newpage
 

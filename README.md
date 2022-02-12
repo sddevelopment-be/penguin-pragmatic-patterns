@@ -4,6 +4,9 @@
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-3-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
+
+![./docs/pp_open-learning.png](./docs/pp_open-learning.png)
+
 A learning and development repository, aimed to share knowledge with other technical professionals.
 The [docs](./docs) section of this repository is somewhat of a "personal wiki". It contains knowledge and
 information that has been collected from various sources, and is extended with some personal interpretations and experiences of the author.  
@@ -29,7 +32,7 @@ But finding your way in this vast ocean of knowledge can be a challenge.
 In order to assist fellow learners, we have started to collect our personal experiences in this repository.
 
 The initiative was started by [@stijn-dejongh](https://github.com/stijn-Dejongh), who is a self-improvement enthousiast, and an avid software developer.
-In order to avoid confusing terminology and avoid having to explain the definition of certain words multiple times, please take a look at the [Glossary](./docs/GLOSSARY.md).
+In order to avoid confusing terminology and avoid having to explain the definition of certain words multiple times, please take a look at the [Glossary](./docs/0\ Glossary).
 
 ## Repository Structure
 
@@ -39,9 +42,8 @@ Some general purpose information will be stored at the top level.
 ### Noteworthy sections and files
 | Item | Location | Description |
 |---|---|---|
-| Glossary | [`./docs/GLOSSARY.md`](./docs/GLOSSARY.md) | A list of Terminology, acronyms and definitions that are used throughout the different files and knowledge resources. This can be used as a dictionary, or as a reference guide.
+| Glossary | [`./docs/GLOSSARY.md`](./docs/0\ Glossary) | A list of Terminology, acronyms and definitions that are used throughout the different files and knowledge resources. This can be used as a dictionary, or as a reference guide.
 | Changelog | [`./CHANGELOG.md`](./CHANGELOG.md) | Keeping track of your changes is hard work, documenting after the facts even more so. This file aims to allow small granular updates to help with this effort. |
-| JustDoIt script | [`jdi.sh`](./jdi.sh) | Utility script that runs the entire document generation on your local machine, for testing and publishing purposes. Please be aware that this will consume significant resourcers. **Not recommended on potato computers** |
 
 
 ## Tech Stack
@@ -49,6 +51,8 @@ Some general purpose information will be stored at the top level.
 | Library | Usage |
 |---|---|
 | [SDDevelopment DocGen v2.0.0](https://github.com/sddevelopment-be/document-generation) | Converting the markdown documents into various document formats |
+| [adrianvlupu/C4-Builder](https://adrianvlupu.github.io/C4-Builder) | Node.js based documentation parser, adding C4 and PlantUML support to [Docsify](https://docsify.js.org/#/) |
+| [PlantUML](https://plantuml.com/) | Diagrams as text |
 
 
 ## Contributors ✨

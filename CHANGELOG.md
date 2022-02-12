@@ -15,6 +15,15 @@ Following changes are known:
 
 # Changes
 
+## v2.0.0
+
+## Changed
+* Restructured Content to fit the docsify structure
+
+## Added
+* Docsify deployment conig
+* New project banner image
+
 ## v1.1.0
 
 ### Changed

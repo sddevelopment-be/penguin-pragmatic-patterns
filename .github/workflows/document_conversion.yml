@@ -1,25 +1,29 @@
 name: Documentation Conversion
 
-on: push
+on: 
+  push:
+     branches:
+        - main
+        - stable
+  pull_request:
+    types: [open, synchronize]
 
 jobs:
-  convert_via_pandoc:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout source code
-        uses: actions/checkout@v2
-      - name: Spin up Containers
-        run: |
-          echo "<(^v^)> -{ Creating docker containers! }"
-          docker-compose -f ./ops/docker-compose.yml up -d --remove-orphans
-      - name: List Containers
-        run: docker ps
-      - name: Start Conversion
-        run: |
-          echo "<(^v^)> - { Converting documents })"
-          sh ./ops/scripts/convert_documents.sh
-      - name: Upload Examples
-        uses: actions/upload-artifact@master
-        with:
-          name: output
-          path: output
+  build: 
+     name: 
+     runs-on: ubuntu-latest
+     steps:
+        - name: Checkout source code
+          uses: actions/checkout@v2
+         
+        - name: C4 Builder
+          uses: clippings/c4builder-action@v1
+
+        - name: push
+          uses: actions-x/commit@v2
+          env:
+             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
+          with:
+             name: GitHub Actions Autocommitter
+             files: ./output
+             message: '[GITOPS] Pipeline updated documentation'

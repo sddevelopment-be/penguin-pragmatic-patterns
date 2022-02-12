@@ -1,8 +1,8 @@
 {
 	"projectName": "Pragmatic Penguin Patterns",
 	"homepageName": "Open Learning Knowledge Base",
-	"rootFolder": "docs",
-	"distFolder": "output",
+	"rootFolder": "src",
+	"distFolder": "docs",
 	"generateMD": false,
 	"generatePDF": false,
 	"generateCompleteMD": false,

@@ -28,5 +28,5 @@ jobs:
              GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           with:
              name: GitHub Actions Autocommitter
-             files: ./output
+             files: ./docs
              message: '[GITOPS] Pipeline updated documentation'

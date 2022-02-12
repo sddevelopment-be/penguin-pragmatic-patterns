@@ -1,4 +1,4 @@
-![./docs/pp_open-learning.png](./docs/pp_open-learning.png)
+![./src/pp_open-learning.png](./src/pp_open-learning.png)
 
 [![Documentation Conversion](https://github.com/sddevelopment-be/penguin-programming/actions/workflows/document_conversion.yml/badge.svg)](https://github.com/sddevelopment-be/penguin-programming/actions/workflows/document_conversion.yml)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->

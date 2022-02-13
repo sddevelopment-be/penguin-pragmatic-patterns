@@ -14,5 +14,8 @@ It contains knowledge and information that has been collected from various sourc
 
 This documentation wiki is built of a few different parts, the most notable being:
 
-- [A collection of patternt](/1_Patterns/)
+- [A collection of Patterns](/1_Patterns/HOME)
+- [Articles and short form information](/2_Articles/NOME)
+- [Reviews of learning tools](/3_Reviews/HOME)
+
 

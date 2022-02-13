@@ -4,7 +4,7 @@
 
 ![./rise_agile_empire.png](./rise_agile_empire.png)
 
-### Introduction
+## Introduction
 
 Not so long ago, in development teams all over the world, methodologies of ‘ye olden days’ are popping up.
 Project managers and senior developers are rediscovering the written wisdom of the giants in our fields. Past ideas have been given a second life.
@@ -224,7 +224,7 @@ You could try to convince your management to improve the existing processes, ins
 This way, you can steer your project towards the path of pragmatism and continuous improvement. 
 If that fails miserably, you always have the last resort of hauling ass and looking for a less whimsical environment.
 
-## I read this article and all I got was this lousy insight
+### I read this article and all I got was this lousy insight
 
 The most important lesson to take away from this article is that **context matters**.
 External advisors and consultants might have a very deep understanding of a specific process, but they have little knowledge of your team, company, and the issue you are trying to solve.
@@ -254,7 +254,7 @@ But remember they are **references and advise**, not the law.
 **Listen to your team, gather ideas from skilled people (internal and external), and be on the lookout for improvements to your process.
 But most of all, care deeply about what you are doing.**
 
-## TL;DR
+### TL;DR
 
 * _"doing Agile"_ will not fix all your problems
 * just because some company is successful while doing something, does not mean you will be successful if you blindly copy their approach, Consider the context.

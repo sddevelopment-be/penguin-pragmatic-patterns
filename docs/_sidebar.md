@@ -6,6 +6,7 @@
     * [Productivity](1_Patterns/Productivity/HOME)
       * [Concepts](1_Patterns/Productivity/Concepts/HOME)
       * [Practices](1_Patterns/Productivity/Practices/HOME)
+        * [OPERAs](1_Patterns/Productivity/Practices/OPERAs/HOME)
     * [Programming](1_Patterns/Programming/HOME)
       * [Concepts](1_Patterns/Programming/Concepts/HOME)
       * [Practices](1_Patterns/Programming/Practices/HOME)

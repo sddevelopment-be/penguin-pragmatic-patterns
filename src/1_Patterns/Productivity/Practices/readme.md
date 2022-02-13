@@ -1,5 +1,3 @@
-# Practices
-
 
 Practices are a set of actionable recipes, that can help you achieve certain goals.
 As with all advise, these are not guaranteed to give results. These is no such thing as a 

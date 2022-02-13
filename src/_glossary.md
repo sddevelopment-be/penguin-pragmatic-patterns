@@ -20,3 +20,6 @@ A term that is used to describe the act of combining (often diverse) conceptions
 - The circumstances in which an event occurs; a setting.
 - The part of a text or statement that surrounds a particular word or passage and determines its meaning.
 
+##### CLI
+Short for Command Line Interface.
+A text based environement that gives you control over your system.

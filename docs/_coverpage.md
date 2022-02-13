@@ -5,7 +5,7 @@
 ## Open Learning Knowledge Base
 
 [GitHub](https://github.com/sddevelopment-be/penguin-pragmatic-patterns)
-[Start Reading](#Outline)
+[Start Reading](/HOME)
 
 <!-- background color -->
 ![color](#f9f9f9)

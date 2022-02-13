@@ -16,4 +16,4 @@ This documentation wiki is built of a few different parts, the most notable bein
 - [Articles and short form information](/2_Articles/NOME)
 - [Reviews of learning tools](/3_Reviews/HOME)
 
-
+A set of concepts and common abbreviations can be found in the [glossary](/_glossary).

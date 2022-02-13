@@ -1,3 +1,5 @@
+# 4_Resources
+
 
 There are so many awesome learning materials that the simple act of finding something 
 to read is challenging in and of itself. The list below is a currated index of knowledge resources,
@@ -54,6 +56,7 @@ The meaning of which can be found in the table below.
 | [First Things First](https://www.goodreads.com/book/show/36071.First_Things_First) | Stephen R. Covey, A. Roger Merrill, Rebecca R. Merrill  | :fas fa-user-ninja: |
 | [The 8th Habit: From Effectiveness to Greatness](https://www.goodreads.com/book/show/1044141.The_8th_Habit) | Stephen R. Covey | :fas fa-trophy: :fas fa-user-ninja: :fas fa-jet-fighter: |
 | [Principle-Centered Leadership](https://www.goodreads.com/book/show/44644.Principle_Centered_Leadership) | Stephen R. Covey | :fas fa-user-ninja: |
+| [The Five Dysfunctions of a Team: A Leadership Fable](https://www.goodreads.com/book/show/21343.The_Five_Dysfunctions_of_a_Team?from_search=true&from_srp=true&qid=gvzpNFeQpW&rank=1) | Patrick Lencioni | :fas fa-trophy: :fas fa-user-ninja: |
 
 ### **Articles && Short-form publications**
 

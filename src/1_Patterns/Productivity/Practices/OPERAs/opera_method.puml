@@ -10,13 +10,50 @@
 !include DEVICONS/msql_server.puml
 !include FONTAWESOME/users.puml
 
+<style>
+activityDiagram {
+  BackgroundColor #0290e8
+  BorderColor #171c26
+  FontName arial
+  FontColor #fefefe
+  LineColor #171c26
+
+  diamond {
+    BackgroundColor #171c26
+    LineColor #0290e8
+    FontColor #fefefe
+    FontName arial
+    FontSize 15
+  }
+  arrow {
+    FontColor #171c26
+    FontName arial
+    FontSize 15
+  }
+  partition {
+    LineColor #0290e8
+    FontColor #fefefe
+    RoundCorner 10
+    BackgroundColor #1f2532
+  }
+  note {
+    FontColor #0290e8
+    LineColor Navy
+    BackgroundColor #22272e
+  }
+}
+document {
+   BackgroundColor transparent
+}
+</style>
+
 '' Diagram starts here
 
 title The `OPERAS´ mental model for goal achievement
 
 start
 
-#crimson:**TODO**;
+#orange:**TODO**;
 repeat :**O**rientate;
   :**P**repare;
   repeat :**E**xecute;
@@ -30,10 +67,10 @@ repeat while (milestone reached?) is (no)
 ->yes;
 :**S**ynthesize;
 if(share with others?) then (yes)
-  #AAAAAA:Document findings for target audience;
+  #175574:Document findings for target audience;
 else (no)
 endif
 ->no;
-#palegreen:**DONE** for now;
+#green:**DONE** for now;
 stop
 @enduml

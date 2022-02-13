@@ -18,6 +18,23 @@ Fill out the [required template](../.github/ISSUE_TEMPLATE/bug_report.md), the i
 
 If you have a pattern (micro strategy / technique) to add, please feel free to create a ticket on the [issue tracker](./issues). In order to submit a pattern, kindly use the provided template. You can select this template when you create a new issue ticket. The relevant fields will be provided, and a short outline is given of which content is expected in the different sections. If you include any images in your information, kindly add them as an attachment to the ticket you are creating.
 
+## Running and building the project locally
+
+You will need to install `node.js` and `npm` on your machine.
+Take a look at [the official installatioh instructions](https://nodejs.org/en/download/) on the node.js website.
+Once this step is completed, run `npm --version` ti make sure the installatioh was successful.
+
+Fork this repository into your own github account and clone it to your lical machine. 
+
+Next up, you will neet to install c4builder locally.
+Do this by running:
+
+````bash
+npm i -g c4builder
+````
+
+Now you can run `c4builder site` to deploy the wiki locally.
+Make changes to the markdown files using your favorite IDE.
 
 ## Submitting Changes
 

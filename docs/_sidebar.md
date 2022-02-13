@@ -6,6 +6,7 @@
     * [Productivity](1_Patterns/Productivity/HOME)
       * [Concepts](1_Patterns/Productivity/Concepts/HOME)
       * [Practices](1_Patterns/Productivity/Practices/HOME)
+        * [OPERAs](1_Patterns/Productivity/Practices/OPERAs/HOME)
     * [Programming](1_Patterns/Programming/HOME)
       * [Concepts](1_Patterns/Programming/Concepts/HOME)
       * [Practices](1_Patterns/Programming/Practices/HOME)
@@ -13,3 +14,5 @@
   * [2_Articles](2_Articles/HOME)
     * [Productivity](2_Articles/Productivity/HOME)
   * [3_Reviews](3_Reviews/HOME)
+  * [4_Resources](4_Resources/HOME)
+    * [cli](4_Resources/cli/HOME)

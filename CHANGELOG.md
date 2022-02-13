@@ -21,8 +21,16 @@ Following changes are known:
 * Restructured Content to fit the docsify structure
 
 ## Added
-* Docsify deployment conig
+* Docsify deployment config
 * New project banner image
+* Glossary and Sidenav plugin
+* Cover page and logo
+* Reading list
+
+## Removed
+* Dockerized document generation support
+* Javascript slideshow library (for now)
+
 
 ## v1.1.0
 

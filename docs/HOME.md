@@ -1,11 +1,11 @@
 # Open Learning Knowledge Base
 
-# Outline
+## Outline
 
-# Purpose
+## Purpose
 
 ## Intended Audience
 
-# Structure
+## Structure
 
 

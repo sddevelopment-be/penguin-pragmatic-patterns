@@ -32,9 +32,9 @@ Use your mouse to select text, then press `ctrl`+`C` to copy the selected text.
 Use your mouse to move your cursor to somewhere else, then press `ctrl`+`V` to paste the selected text.  
 
 ### **Mac**
-Using `⌘ `+`C`, `⌘ `+`V`, copy the Chapter1 constructor to create a new one without a number, initialize the `number` field to the default value of `0`.    
-Use your mouse to select text, then press `⌘ `+`C` to copy the selected text.  
-Use your mouse to move your cursor to somewhere else, then press `⌘ `+`V` to paste the selected text.  
+Using `⌘ (cmd)`+`C`, `⌘ (cmd)`+`V`, copy the Chapter1 constructor to create a new one without a number, initialize the `number` field to the default value of `0`.    
+Use your mouse to select text, then press `⌘ (cmd)`+`C` to copy the selected text.  
+Use your mouse to move your cursor to somewhere else, then press `⌘ (cmd)`+`V` to paste the selected text.  
 
 <!-- tabs:end -->
 
@@ -46,35 +46,37 @@ Do the same exercise, but **ONLY** use your keyboard to select text.
 
 <!-- tabs:start -->
 ### **Windows**
-Repeat Exercise 1, but instead of uring `ctrl`+`C` and `ctrl`+`V`, use `ctrl`+`⇧`+`A` to look up your copy and paste actions in the quick help menu.  
-Alternatively, you can double-tab the `⇧` key do open the quick action menu.
+Repeat Exercise 1, but instead of using `ctrl`+`C` and `ctrl`+`V`, use `ctrl`+`⇧(shift)`+`A` to look up your copy and paste actions in the quick help menu.  
+Alternatively, you can double-tab the `⇧(shift)` key do open the quick action menu.
 
 ### **Mac**
 
-Repeat Exercise 1, but instead of uring `⌘`+`C` and `⌘`+`V` use `⇧`+`⌘ `+`A` to look up your copy and paste actions in the quick help menu.  
-Alternatively, you can double-tab the `⇧` key do open the quick action menu.
+Repeat Exercise 1, but instead of using `⌘ (cmd)`+`C` and `⌘(cmd)`+`V` use `⇧(shift)`+`⌘ (cmd)`+`A` to look up your copy and paste actions in the quick help menu.  
+Alternatively, you can double-tab the `⇧(shift)` key do open the quick action menu.
 <!-- tabs:end -->
 
 ## IntelliJ's _Productivity Guide_
+
+<!-- tabs:start -->
 ### **Windows**
 Open IntelliJ's Productivity Guide using these key combinations:
 First press `alt`+`H` for _(H)elp_ (in the taskbar), then press `P` to select _(P)roductivity Guide_.
 
 As a bonus:
-Try opening the Productivity Guide using `ctrl`+`⇧`+` A`.
+Try opening the Productivity Guide using `ctrl`+`⇧(shift)`+` A`.
 
 ### **Mac**
 Open IntelliJ's Productivity Guide using these key combinations:
-First press `alt`+`H` for _(H)elp_ (in the taskbar), then press `P` to select _(P)roductivity Guide_.
+First press `⌥ (opt)`+`H` for _(H)elp_ (in the taskbar), then press `P` to select _(P)roductivity Guide_.
 
 As a bonus:
-Try opening the Productivity Guide using `⇧`+`⌘`+` A`.
+Try opening the Productivity Guide using `⇧(shift)`+`⌘ (cmd)`+` A`.
 <!-- tabs:end -->
 
 ## Indenting code
 
 <!-- tabs:start -->
-### **Class 'Fugly.java'**
+### **Class `Fugly.java`**
 ````java
 package be.swsb.productivity.chapter1.indentation;
 
@@ -106,7 +108,7 @@ public class Fugly {
 }
 ````
 
-### **Class 'FuglyToo.java'**
+### **Class `FuglyToo.java`**
 ````java
 package be.swsb.productivity.chapter1.indentation;
 
@@ -134,6 +136,7 @@ public class FuglyToo {
 ````
 <!-- tabs:end -->
 
+
 <!-- tabs:start -->
 ### **Windows**
 Open Fugly.java, use selection and indent the test builder patterns properly.
@@ -151,14 +154,10 @@ Use `⇥ ` to indent them manually, or use `⌃`+`⌥ `+`L` to autoformat the se
 Hint: When manually indenting, first use `⇧`+`⇥` to unindent everything until the entire selection is against the left side, then `⇥` the entire selection into its first indentation, decrease your selection and `⇥` that into its second indentation. Rinse and repeat.
 <!-- tabs:end -->
 
-## Auto-indent with ![Windows](icons/glyph-windows-20.png)`ctrl+alt+l`
+
+## Undo, Redo 
 <!-- tabs:start -->
 ### **Windows**
-
-### **Mac**
-<!-- tabs:end -->
-
-## Undo, Redo ![Windows](icons/glyph-windows-20.png)`ctrl+z` and ![Windows](icons/glyph-windows-20.png)`ctrl+shift+z`
 In most editors, Redo is mapped to ![Windows](icons/glyph-windows-20.png)`ctrl+y`. Not in IntelliJ. This can lead to hilarious (or super annoying) situations where you'll lose your _undo buffer_.
 
 Let's try it out and see what happens so you'll remember it better.
@@ -190,6 +189,11 @@ So try ![Windows](icons/glyph-windows-20.png)`ctrl+y`, then try ![Windows](icons
 Try ![Windows](icons/glyph-windows-20.png)`ctrl+z` and see what that does. Try ![Windows](icons/glyph-windows-20.png)`ctrl+shift+z` again now.
 
 Keep this in mind when you work in IntelliJ, or in another editor that doesn't have ![Windows](icons/glyph-windows-20.png)`ctrl+y` for _Redo_ :)
+
+### **Mac**
+
+<!-- tabs:end -->
+
 
 [_Next Chapter_](chapter2.md)
 

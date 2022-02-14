@@ -23,5 +23,30 @@ exercises that will help you move forward at a consistent pace.
 ### Good Luck, Have Fun!
 If you like these exercises, share them with your friends and colleagues, and drop a line to thank the [original author](https://github.com/Sch3lp).
 
+### Code snippets
+
+
+<!-- tabs:start -->
+### **Class `Face`**
+````java
+
+````
+
+### **Class `FaceTestBuilder`**
+
+````java
+
+````
+
+### **Class `AFuggly`**
+````java
+
+````
+
+### **Class `FuglyTestBuilder`**
+````java
+
+````
+<!-- tabs:end -->
 ---
 

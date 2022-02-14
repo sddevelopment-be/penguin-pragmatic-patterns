@@ -85,14 +85,14 @@ public class Chapter1 {
 <!-- tabs:start -->
 
 ### **Windows**
-Using `ctrl`+`c`, `ctrl`+`v`, copy the Chapter1 constructor to create a new one without a number, initialize the `number` field to the default value of `0`.    
-Use your mouse to select text, then press `ctrl`+`c` to copy the selected text.  
-Use your mouse to move your cursor to somewhere else, then press `ctrl`+`v` to paste the selected text.  
+Using `ctrl`+`C`, `ctrl`+`V`, copy the Chapter1 constructor to create a new one without a number, initialize the `number` field to the default value of `0`.    
+Use your mouse to select text, then press `ctrl`+`C` to copy the selected text.  
+Use your mouse to move your cursor to somewhere else, then press `ctrl`+`V` to paste the selected text.  
 
 ### **Mac**
-Using `⌘ `+`c`, `⌘ `+`v`, copy the Chapter1 constructor to create a new one without a number, initialize the `number` field to the default value of `0`.    
-Use your mouse to select text, then press `⌘ `+`c` to copy the selected text.  
-Use your mouse to move your cursor to somewhere else, then press `⌘ `+`v` to paste the selected text.  
+Using `⌘ `+`C`, `⌘ `+`V`, copy the Chapter1 constructor to create a new one without a number, initialize the `number` field to the default value of `0`.    
+Use your mouse to select text, then press `⌘ `+`C` to copy the selected text.  
+Use your mouse to move your cursor to somewhere else, then press `⌘ `+`V` to paste the selected text.  
 
 <!-- tabs:end -->
 
@@ -104,31 +104,117 @@ Do the same exercise, but **ONLY** use your keyboard to select text.
 
 <!-- tabs:start -->
 ### **Windows**
-Repeat Exercise 1, but instead of uring `ctrl`+`c` and `ctrl`+`v`, use `ctrl`+`⇧`+`a` to look up your copy and paste actions in the quick help menu.  
+Repeat Exercise 1, but instead of uring `ctrl`+`C` and `ctrl`+`V`, use `ctrl`+`⇧`+`A` to look up your copy and paste actions in the quick help menu.  
 Alternatively, you can double-tab the `⇧` key do open the quick action menu.
 
 ### **Mac**
 
-Repeat Exercise 1, but instead of uring `⌘`+`c` and `⌘`+`v` use `⇧`+`⌘ `+`a` to look up your copy and paste actions in the quick help menu.  
+Repeat Exercise 1, but instead of uring `⌘`+`C` and `⌘`+`V` use `⇧`+`⌘ `+`A` to look up your copy and paste actions in the quick help menu.  
 Alternatively, you can double-tab the `⇧` key do open the quick action menu.
 <!-- tabs:end -->
 
 ## IntelliJ's _Productivity Guide_
+### **Windows**
 Open IntelliJ's Productivity Guide using these key combinations:
-First press ![Windows](icons/glyph-windows-20.png)`alt+h` for _(H)elp_ (in the taskbar), then press `p` to select _(P)roductivity Guide_.
+First press `alt`+`H` for _(H)elp_ (in the taskbar), then press `P` to select _(P)roductivity Guide_.
 
-## Bonus
-Try opening the Productivity Guide using ![Windows](icons/glyph-windows-20.png)`ctrl+shift+a`.
+As a bonus:
+Try opening the Productivity Guide using `ctrl`+`⇧`+` A`.
 
-## Indenting, formatting with ![Windows](icons/glyph-windows-20.png)`tab`, `shift+tab`
+### **Mac**
+Open IntelliJ's Productivity Guide using these key combinations:
+First press `alt`+`H` for _(H)elp_ (in the taskbar), then press `P` to select _(P)roductivity Guide_.
+
+As a bonus:
+Try opening the Productivity Guide using `⇧`+`⌘`+` A`.
+<!-- tabs:end -->
+
+## Indenting code
+
+<!-- tabs:start -->
+### **Class 'Fugly.java'**
+````java
+package be.swsb.productivity.chapter1.indentation;
+
+import static be.swsb.productivity.common.FaceTestBuilder.face;
+import static be.swsb.productivity.common.FuglyTestBuilder.fugly;
+
+public class Fugly {
+
+    public static void indentMeProperlyPlease() {
+        System.out.println(fugly().withEff("f").withYew("u").withGee("g").withEll("l").withYew("y").withFace(face().withEyes(1).withColor("poop-brown").withNosewidth(500).build()).build().toString());
+    }
+
+    public static void indentedItShouldLookLikeThis() {
+        System.out.println(fugly()
+                .withEff("f")
+                .withYew("u")
+                .withGee("g")
+                .withEll("l")
+                .withYew("y")
+                .withFace(face()
+                        .withEyes(1)
+                        .withColor("poop-brown")
+                        .withNosewidth(500)
+                        .build())
+                .build()
+                .toString());
+    }
+
+}
+````
+
+### **Class 'FuglyToo.java'**
+````java
+package be.swsb.productivity.chapter1.indentation;
+
+import static be.swsb.productivity.common.FaceTestBuilder.face;
+import static be.swsb.productivity.common.FuglyTestBuilder.fugly;
+
+public class FuglyToo {
+
+    public static void indentMeProperlyPlease() {
+        System.out.println(fugly()
+                .withEff("f")
+                                            .withYew("u")
+    .withGee("g")
+                    .withEll("l")
+                                                    .withYew("y")
+            .withFace(face()
+                                    .withEyes(1)
+                        .withColor("poop-brown")
+        .withNosewidth(500)
+.build())
+                            .build()
+                                                                    .toString());
+    }
+}
+````
+<!-- tabs:end -->
+
+<!-- tabs:start -->
+### **Windows**
 Open Fugly.java, use selection and indent the test builder patterns properly.
+For this exercise, you can use `⇧` and your arrow keys to select lines.
+Use `Tab` to indent them manually, or use `ctrl`+`alt`+`L` to autoformat the selected lines.
 
-Hint: First ![Windows](icons/glyph-windows-20.png)`shift+tab` everything until the entire selection is against the left side, then `tab` the entire selection into its first indentation, decrease your selection and `tab` that into its second indentation. Rinse and repeat.
+
+Hint: When manually indenting, first use `⇧`+`tab` to unindent everything until the entire selection is against the left side, then `tab` the entire selection into its first indentation, decrease your selection and `tab` that into its second indentation. Rinse and repeat.
+
+### **Mac**
+Open Fugly.java, use selection and indent the test builder patterns properly.
+For this exercise, you can use `⇧` and your arrow keys to select lines.
+Use `⇥ ` to indent them manually, or use `⌃`+`⌥ `+`L` to autoformat the selected lines.
+
+Hint: When manually indenting, first use `⇧`+`⇥` to unindent everything until the entire selection is against the left side, then `⇥` the entire selection into its first indentation, decrease your selection and `⇥` that into its second indentation. Rinse and repeat.
+<!-- tabs:end -->
 
 ## Auto-indent with ![Windows](icons/glyph-windows-20.png)`ctrl+alt+l`
-Open FuglyToo.java, select a couple of lines starting with the `.withFace(face()` line and press ![Windows](icons/glyph-windows-20.png)`ctrl+alt+l`.
+<!-- tabs:start -->
+### **Windows**
 
-Now empty your selection (select nothing), and press ![Windows](icons/glyph-windows-20.png)`ctrl+alt+l` again.
+### **Mac**
+<!-- tabs:end -->
 
 ## Undo, Redo ![Windows](icons/glyph-windows-20.png)`ctrl+z` and ![Windows](icons/glyph-windows-20.png)`ctrl+shift+z`
 In most editors, Redo is mapped to ![Windows](icons/glyph-windows-20.png)`ctrl+y`. Not in IntelliJ. This can lead to hilarious (or super annoying) situations where you'll lose your _undo buffer_.

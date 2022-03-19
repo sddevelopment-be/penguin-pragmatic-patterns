@@ -47,27 +47,22 @@ table em {
 | **Decision**  <br /> _Describes the way the practitioner decides on a course of action._ |	Analytical <br /> _The learner checks whether they know the script for the current situation. They are not comfortable making decisions about their approach._ |	Analytical <br /> _The learner is able to find some key characteristics of their current situation and how these could influence their standard approach. They are able to make some decisions, but often require direction._ |	Analytical <br /> _The learner is able to accurately assess most situations through careful inspection. Based on this assessment, they plan their approach._ |	Intuitive <br /> _The learner has less need for a deep analysis of the full situation before they can decide on a plan of action. They deeply analyze only the most important situational factors._ |	Intuitive <br /> _The learner's decisions are driven mostly by their gut feeling. They are able to fluently combine their instincts and a deeper analysis of novelties. Often they find it difficult to explain exactly WHY they took a certain decision._ |
 | **Awareness**  <br /> _Describes the way the practitioner is able to extract information from their context / environment._ |	Monitoring <br /> _The learner  has little understanding of what to look out for, and is closely monitoring the desired outcome of their current action/task._ |	Monitoring <br /> _The learner is starting to know some things to look out for, and is constantly paying close attention to them._|	Monitoring <br /> _The learner knows the characteristics that have an effect on their approach and meticulously keeps track of all of them._ |	Monitoring <br /> _The learner keeps a close eye on the key characteristics of their environment. They know what to pay attention to in the given situation._ |	Absorbed <br /> _The learner subconsciously takes mental note of behaviors and characteristics of their environment. They **feel** when something is going well, or when risks are on the horizon._ | 
 
-## Outline and applicable Context
+[download infographic](./dreyfus.jpg)
 
-### When to use
+## Usage
 
-#### Tailoring coaching approach to the learners skill level
+### Tailoring coaching approach to the learners skill level
 
 In general, the more experienced one becomes, the more they start internalizing a concept of "the bigger picture".
 Inexperienced practitioners of a skill are pleased when someone provides them with clear-cut instructions, especially if they've heard applying these instructions will lead to certain success.
 Adapt your coaching and teachings styles to the needs of the learner. 
 
-
-
-### Compatible with
+## Compatible with
 
 * Most incremental improvement techniques
 * Self-reflection patterns
 * Personal knowledge management
 
-## Usage
-
-## Measuring success
 
 ## References and further reading
 
@@ -86,21 +81,22 @@ Shu Ha Ri is a Japanese martial art concept that is used to describe the stages 
 ![Shu Ha Ri visual guide](./shuhari.jpg)
 
 
-## Applicable Context
-
-## Description of Pattern
+## Description
 
 > When we learn or train in something, we pass through the stages of shu, ha, and ri. These stages are explained as follows. In shu, we repeat the forms and discipline ourselves so that our bodies absorb the forms that our forebears created. We remain faithful to these forms with no deviation. Next, in the stage of ha, once we have disciplined ourselves to acquire the forms and movements, we make innovations. In this process the forms may be broken and discarded. Finally, in ri, we completely depart from the forms, open the door to creative technique, and arrive in a place where we act in accordance with what our heart/mind desires, unhindered while not overstepping laws.
 > ~ sensei Seishiro Endo [2005](https://web.archive.org/web/20110610205348/http://homepage3.nifty.com/aikido_sakudojo/Shihan_Interview_Dou144-e.html)
 
+### Shu 守: Obey / Protect
 
-### Shu 守:
+You are learning the fundamentals, following the traditions and techniques that are passed down to you. Learning happens by mimicking your superiors, and repetition of the forms you were taught. You do not deviate from the instructions you were given
 
-### Ha 破:
+### Ha 破: Detach / Digress
 
-### Ri 離: 
+You know when to bend or break the traditions that were passed down to you. You begin to explore and innovate.
 
-## Key Performance Metrics
+### Ri 離: Leave / Transcend
+
+You are in a state of flow, not thinking about techniques or principles. You act instinctively, decisive, and effortless.
 
 ## Related Patterns and Resources
 

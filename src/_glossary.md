@@ -22,3 +22,12 @@ A term that is used to describe the act of combining (often diverse) conceptions
 ##### CLI
 Short for Command Line Interface.
 A text based environement that gives you control over your system.
+
+##### Paradigm
+A _"paradigm"_ is a fancy word for "point of view". It is the belief system that you hold and use in order to make sense of what is happening around you.
+You can look at it as walking around in an unknown city, armed with a town map. If the map is not sufficiently accurate, you will find yourself ending up in the wrong place. You might even end up driving into a lake if the map is inaccurate, digital, and talks to you.
+
+##### Pragmatic
+The word _'Pragmatic'_ originally means "skilled in business". You can interpret this as  thinking about the added benefit (return on investment) of an action before deciding to do it. 
+A pragmatist will take pieces from various toolsets and methodologies, and apply them to the problem at hand only if it makes sense to use them.
+This means that even if a new software architecture is really hip, you would look at the issue you are trying to solve first and see if the new approach is worth doing.

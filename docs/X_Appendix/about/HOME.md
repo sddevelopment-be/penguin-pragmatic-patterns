@@ -1,6 +1,8 @@
 # about
 
-# Keeping a Changelog
+# CHANGELOG
+
+## Keeping a Changelog
 All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
@@ -15,33 +17,41 @@ Following changes are known:
   - **Security** in case of vulnerabilities.
 
 
-# Changes
+## Changes
 
-## v2.0.0
+### v2.0.0
 
-## Changed
+#### Changed
 * Restructured Content to fit the docsify structure
+* Rearranged hierarchy to be domain-based over type-based
+* Structure descriptions
 
-## Added
+#### Added
 * Docsify deployment config
 * New project banner image
 * Glossary and Sidenav plugin
 * Cover page and logo
 * Reading list
+* Sidebar dircetory markings (arrows)
+* Patterns on Learning: ShuHaRi and Dreyfus
+* Patterns on leadership: Lewin's leadership styles
 
-## Removed
+#### Removed
 * Dockerized document generation support
 * Javascript slideshow library (for now)
+* Unneeded duplicated descriptions
 
+#### Fixed
+* Resolved various typo's
 
-## v1.1.0
+### v1.1.0
 
-### Changed
+#### Changed
 * Update README to include references to tech Stack
 * Update the script used to generate the documentation 
 * Update gitignore file for IntelliJ artifacts and configurations
 
-### Added
+#### Added
 
 * Template: add pattern template to github issue tracker and update labels
 * Productivity: Essay on agile software development
@@ -61,14 +71,14 @@ Following changes are known:
   * Add JustDoIt script
   * Add script to create new section directory structure and empty files
 
-### Deleted
+#### Deleted
 
 * Runner for docsite and docsite example output
 * Old example documents
 * DocSite as deployment of HTML files will not happen any time soon
 
-## v1.0.0 Initial Version
-### Added 
+### v1.0.0 Initial Version
+#### Added 
 * Repository structure 
 * Add documentation outlines
   ** Add overview pages per sections

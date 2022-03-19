@@ -1,5 +1,3 @@
-# Leadership
-
 # Lewin's Leadership Styles
 
 ## Description
@@ -33,10 +31,4 @@ Delegative leaders offer little or no guidance to group members and leave decisi
 | [The Leadership Style Matrix](https://jeffdoolittle.com/2020/11/06/leadership-style-matrix/) | Jeff Doolittle |  |
 | [Definition of Leadership](https://nofinchaos.wordpress.com/2012/03/07/definition-of-leadership-kurt-lewin/) | Kurt Lewin && al.| |
 | [Patterns of aggressive behavior in experimentally created social climates.](https://www.tandfonline.com/doi/abs/10.1080/00224545.1939.9713366?journalCode=vsoc20) | Lewin, K., Lippit, R. and White, R.K. (1939) | |
-
-
-
-
-![Depiction of the core values of leadership](./leadership_values.jpg)
-
 

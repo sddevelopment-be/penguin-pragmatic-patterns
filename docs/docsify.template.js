@@ -1,15 +1,15 @@
 module.exports = options => {
   return `<!DOCTYPE html>
     <html lang="en">
-    
+
     <head>
       <meta charset="UTF-8">
-      <title>Pragmatic Penguin Knowledge Base</title> 
+      <title>Pragmatic Penguin Knowledge Base</title>
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
       <meta name="description" content="A learning and development repository, aimed to share knowledge with other technical professionals. ">
       <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
       <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/themes/vue.css" />
-      
+
       <link rel="icon" href="./favicon.ico" type="favicon.ico" />
 
       <!-- Font awesome -->
@@ -18,9 +18,10 @@ module.exports = options => {
       <link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/regular.css" />
       <link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/solid.css" />
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet"/>
+      <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
       <link rel="stylesheet" href="./custom.css">
     </head>
-    
+
     <body>
       <div id="app"></div>
       <script>
@@ -34,6 +35,7 @@ module.exports = options => {
   		},
 		maxLevel: 2,
 		subMaxLevel: 3,
+		sidebarDisplayLevel: 1,
 		coverpage: true,
 		homepage: 'HOME.md',
 		auto2top: true,
@@ -42,7 +44,7 @@ module.exports = options => {
 		},
 		logo: './logo.png',
 		themeColor: 'rgb(2, 144, 232)',
-		
+
 		timeUpdater: {
 		       text: "_last updated: {docsify-updated}_",
 		       formatUpdated: "{YYYY}/{MM}/{DD}",
@@ -81,7 +83,6 @@ module.exports = options => {
       <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
       <script src="//unpkg.com/docsify-fontawesome/dist/docsify-fontawesome.min.js"></script>
 </body>
-    
+
     </html>`;
 };
-

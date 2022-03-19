@@ -12,10 +12,19 @@ It contains knowledge and information that has been collected from various sourc
 
 ## Structure
 
-This documentation wiki is built of a few different parts, the most notable being:
+This open knowledge collection is ordered by categories. Each of these categories contains 
+some of the following resources: 
 
-- [A collection of Patterns](/1_Patterns/HOME)
-- [Articles and short form information](/2_Articles/NOME)
-- [Reviews of learning tools](/3_Reviews/HOME)
+- **A collection of Patterns:**  
+- **Articles and short form information:** These sections contain a list of articles that were written by either myself or others and added with their permission. These articles can be opinionated pieces, additional context, or specific case-studies.
+- **Resources and Reviews :** 
 
 A set of concepts and common abbreviations can be found in the [glossary](/_glossary).
+
+### Patterns
+
+For consistency, the patterns follow a similar structure.
+As we all know, **context matters**. This is why each pattern is prefaced with a short description of 
+when it can be useful to consider using it. The aim is not to apply as many of them as you can on any given task.
+**This is not a bingo chart.**
+

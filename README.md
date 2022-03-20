@@ -15,11 +15,25 @@ information that has been collected from various sources, and is extended with s
 
 <!-- vim-markdown-toc GitLab -->
 
-* [Goal, Philosophy and outline](#goal-philosophy-and-outline)
-* [Repository Structure](#repository-structure)
-  * [Noteworthy sections and files](#noteworthy-sections-and-files)
-* [Tech Stack](#tech-stack)
-* [Contributors ✨](#contributors-)
+  * [Goal, Philosophy and outline](#goal-philosophy-and-outline)
+  * [Repository Structure](#repository-structure)
+    * [Noteworthy sections and files](#noteworthy-sections-and-files)
+  * [Tech Stack](#tech-stack)
+  * [Contributors ✨](#contributors-)
+* [CHANGELOG](#changelog)
+  * [Keeping a Changelog](#keeping-a-changelog)
+  * [Changes](#changes)
+    * [v2.0.0](#v200)
+      * [Changed](#changed)
+      * [Added](#added)
+      * [Removed](#removed)
+      * [Fixed](#fixed)
+    * [v1.1.0](#v110)
+      * [Changed](#changed-1)
+      * [Added](#added-1)
+      * [Deleted](#deleted)
+    * [v1.0.0 Initial Version](#v100-initial-version)
+      * [Added](#added-2)
 
 <!-- vim-markdown-toc -->
 
@@ -74,7 +88,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
 
-
+<!-- CHANGELOG:START -->
 # CHANGELOG
 
 ## Keeping a Changelog

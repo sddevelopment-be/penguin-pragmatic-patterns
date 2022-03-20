@@ -16,8 +16,8 @@ jobs:
         - name: Checkout source code
           uses: actions/checkout@v2
 
-        - run: echo '<!-- CHANGELOG:START -->' >> README.md
         - run: sed -i '/<!-- CHANGELOG:START -->/,/<!-- CHANGELOG:END -->/d' README.md
+        - run: echo '<!-- CHANGELOG:START -->' >> README.md
         - run: cat src/X_Appendix/CHANGELOG.md >> README.md
         - run: echo '<!-- CHANGELOG:END -->' >> README.md
 

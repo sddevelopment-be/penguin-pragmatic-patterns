@@ -1,6 +1,6 @@
-# Return on investment
+## Return on investment
 
-## Applicable Context
+### Applicable Context
 
 There is great difficulty is in expressing the "Value" and "Cost" of activities and projects.
 In a simplified business environment, these terms are usually substituted by "money earned / money invested". While this is a useful metric for sure, I feel that it lacks some of the non-monetary gains. There are those that try to calculate the value of everything by converting it into an amount of money. While there is value in this, I find it a difficult exercise to align with my personal ethics.
@@ -14,7 +14,7 @@ Even though this subjectivity is not something we can get rid of, it does not me
 It is the same for a metric such as ROI. It's use is to be one of many metrics that can help guide you to make more informed decisions. But as with all metrics, it is up to you to interpret the data and make decisions. If you go one step further in this reasoning: it is the person who defines what "value" and "cost" means that decides what to include in their strategic decision making process.
 This in turn means that the metric itself is only as good as the contextual knowledge and expertise of the person (or group) defining the input.
 
-## Description of Pattern
+### Description of Pattern
 
 ROI or "Return on investment" is a very useful metric for strategic planning.
 The idea is to maximize for value over time. This helps you to stay focused on the activities or task that bring the most value to your organization/project/customer, or even your own life.
@@ -25,13 +25,13 @@ I will leave the exact formula's to go from this calculation into percentage bas
 Embrace the fluffiness of this metric, and focus on what is important to you and your context. Try and find a way to go from a qualitative to a quantitative evaluation of tasks. Once you and your context agree on those, the ROI metric becomes a useful tool for tracking the impact of the work you do to reach your goals. It is to be used as a tool for comparison to a previous period in your path. This way, you can see if you are progressing in the way you wish to progress or if you need to adjust your course.
 
 
-## Key Performance Metrics
+### Key Performance Metrics
 
 - Your reports and analysis documents contain an ROI indication
 - You think about cost/benefit ratio's while working
 
 
-## Related Patterns and Resources
+### Related Patterns and Resources
 
 | Item | Description | Action |
 |---|---|---|

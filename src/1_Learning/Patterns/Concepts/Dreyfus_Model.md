@@ -1,10 +1,12 @@
-# Dreyfus model of skill acquisition
+## Dreyfus model of skill acquisition
 
 > Every journey begins with one step in the right direction. In order to know the direction to take, it is important to know where you are at right now.
 >
 > ~ paraphrasing Sun Tzu
   
-  
+
+### Description of Pattern
+
 The Dreyfus model of skill acquisition is a very formalized model, that defines 5 distinct steps of mastery.  
 As a learner progresses from left to right, their way of using the skill in question changes.
 Even more interesting is that they start thinking in different ways. 
@@ -47,22 +49,22 @@ table em {
 
 [download infographic](./dreyfus.jpg)
 
-## Usage
+### Usage
 
-### Tailoring coaching approach to the learners skill level
+#### Tailoring coaching approach to the learners skill level
 
 In general, the more experienced one becomes, the more they start internalizing a concept of "the bigger picture".
 Inexperienced practitioners of a skill are pleased when someone provides them with clear-cut instructions, especially if they've heard applying these instructions will lead to certain success.
 Adapt your coaching and teachings styles to the needs of the learner. 
 
-## Compatible with
+### Compatible with
 
 * Most incremental improvement techniques
 * Self-reflection patterns
 * Personal knowledge management
 
 
-## References and further reading
+### References and further reading
 
 | author | url | title | publisher |
 |---|---|---|---|

@@ -1,6 +1,6 @@
-# Good Enough Code
+## Good Enough Code
 
-## Applicable Context
+### Applicable Context
 
 **Issue: You get told that you overcomplicate simple tasks.**
 
@@ -12,7 +12,7 @@ Creating a specific design by applying a pattern is to be done when it solves th
 
 ![Sometimes it is okay to keep it simple](./overdesign.png)
 
-## Description of Pattern
+### Description of Pattern
 
 **Ask yourself:** _"Is this code likely to be changed/expanded in the future?""Is my design solving an issue that is here NOW, or am I solving an issue that might never happen?""If this expected issue occurs in the future, can it be fixed easily at that time?"_
 
@@ -22,7 +22,7 @@ If in the future the problem you anticipated actually happens, or the code you w
 
 Make sure the code you write at this point in time adheres to the basic principles of clean code and design, but do not solve future problems that might never happen.
 
-## Key Performance Metrics
+### Key Performance Metrics
 
 - Throughput time of changes
 - Regression introduced during tasks
@@ -30,7 +30,7 @@ Make sure the code you write at this point in time adheres to the basic principl
 - Cyclomatic complexity
 - Readability
 
-## Related Patterns and Resources
+### Related Patterns and Resources
 
 | Item | Description | Action |
 |---|---|---|

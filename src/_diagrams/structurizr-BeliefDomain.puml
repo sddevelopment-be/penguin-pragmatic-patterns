@@ -1,0 +1,26 @@
+@startuml
+title Beliefs - Containers
+
+top to bottom direction
+
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+System_Boundary("Beliefs_boundary", "Beliefs") {
+  Container(Beliefs.Knowledge, "Knowledge", "A body of useful knowledge", $tags="Element+Container")
+  Container(Beliefs.Subject, "Subject", "Someone or something", $tags="Element+Container")
+  Container(Beliefs.ContextualBoundary, "Contextual Boundary", "Situational, historical, or cognitive boundary", $tags="Element+Container")
+  Container(Beliefs.Evidence, "Evidence", "A piece of information", $tags="Element+Container")
+  Container(Beliefs.Nugget, "Nugget", "A personal synthesized strategy of dealing with a certain situation", $tags="Element+Container")
+  Container(Beliefs.Visualisation, "Visualisation", "any technique for creating images, diagrams, or animations", $tags="Element+Container")
+}
+
+Rel_D(Beliefs.Knowledge, Beliefs.ContextualBoundary, "Is useful in", $tags="Relationship")
+Rel_D(Beliefs.Knowledge, Beliefs.Subject, "is a familiarity, awareness, or understanding of", $tags="Relationship")
+Rel_D(Beliefs.Evidence, Beliefs.Knowledge, "validates or refines", $tags="Relationship")
+Rel_D(Beliefs.Evidence, Beliefs.Subject, "can be related to", $tags="Relationship")
+Rel_D(Beliefs.Evidence, Beliefs.ContextualBoundary, "is acquired within", $tags="Relationship")
+
+SHOW_LEGEND()
+@enduml

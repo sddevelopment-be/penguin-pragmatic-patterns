@@ -1,0 +1,20 @@
+@startuml
+title Linguistic - Containers
+
+top to bottom direction
+
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+System_Boundary("Linguistic_boundary", "Linguistic") {
+  Container(Linguistic.PatternLanguage, "Pattern Language", "an organized and coherent set of patterns", $tags="Element+Container")
+  Container(Linguistic.InformationOntology, "Information Ontology", "a formal, explicit specification of a shared conceptualization", $tags="Element+Container")
+  Container(Linguistic.Message, "Message", "a discrete unit of communication", $tags="Element+Container")
+}
+
+Rel_D(Linguistic.InformationOntology, Linguistic.PatternLanguage, "provides terminology for", $tags="Relationship")
+Rel_D(Linguistic.PatternLanguage, Linguistic.Message, "facilitates the discription of", $tags="Relationship")
+
+SHOW_LEGEND()
+@enduml

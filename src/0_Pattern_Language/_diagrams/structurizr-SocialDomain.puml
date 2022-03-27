@@ -1,12 +1,10 @@
 @startuml
-title Process - System Context
+title Social - Containers
 
 top to bottom direction
 
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4.puml
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
-
-System(Process, "Process", "a system in which actions take place and observations are made", $tags="Element+Software System")
 
 
 SHOW_LEGEND()

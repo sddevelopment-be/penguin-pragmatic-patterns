@@ -1,0 +1,31 @@
+@startuml
+title Experimental - entities - Components
+
+top to bottom direction
+
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+
+Container(Experimental.process, "process", "", $tags="Element+Container")
+Container(Experimental.inspection, "inspection", "", $tags="Element+Container")
+
+Container_Boundary("Experimental.entities_boundary", "entities") {
+  Component(Experimental.entities.Agent, "Agent", "something that produces or is capable of producing an effect : an active or efficient cause", $tags="Element+Component")
+  Component(Experimental.entities.Resource, "Resource", "a source of supply or support : an available means", $tags="Element+Component")
+  Component(Experimental.entities.Subject, "Subject", "the entity whereupon change can be induced", $tags="Element+Component")
+}
+
+Rel_D(Experimental.entities.Resource, Experimental.entities.Agent, "is available to", $tags="Relationship+domain")
+Rel_D(Experimental.entities.Agent, Experimental.entities.Subject, "acts upon", $tags="Relationship+domain")
+Rel_D(Experimental.inspection, Experimental.process, "interpretation of", $tags="Relationship+domain")
+Rel_D(Experimental.process, Experimental.inspection, "is reference for", $tags="Relationship")
+Rel_D(Experimental.inspection, Experimental.entities.Agent, "perfomed on", $tags="Relationship+domain")
+Rel_D(Experimental.inspection, Experimental.entities.Resource, "perfomed on", $tags="Relationship+domain")
+Rel_D(Experimental.inspection, Experimental.entities.Subject, "perfomed on", $tags="Relationship+domain")
+Rel_D(Experimental.entities.Agent, Experimental.process, "performs", $tags="Relationship+domain")
+Rel_D(Experimental.entities.Resource, Experimental.process, "facilitates", $tags="Relationship+domain")
+
+SHOW_LEGEND()
+@enduml

@@ -1,0 +1,26 @@
+@startuml
+title Linguistic - Containers
+
+left to right direction
+
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+System(Beliefs, "Beliefs", "a rule-based system used to reason, structure, and abstract", $tags="Element+Software System+mind")
+
+System_Boundary("Linguistic_boundary", "Linguistic") {
+  Container(Linguistic.PatternLanguage, "Pattern Language", "an organized and coherent set of patterns", $tags="Element+Container")
+  Container(Linguistic.InformationOntology, "Information Ontology", "a formal, explicit specification of a shared conceptualization", $tags="Element+Container")
+  Container(Linguistic.Communication, "Communication", "a wide range of different behaviors involved in the propagation of information", $tags="Element+Container")
+  Container(Linguistic.Representation, "Representation", "anything that represents, such as a verbal or pictorial portrait", $tags="Element+Container")
+}
+
+Rel_D(Beliefs, Linguistic.Representation, "is expressed using", $tags="Relationship")
+Rel_D(Linguistic.InformationOntology, Linguistic.PatternLanguage, "provides terminology for", $tags="Relationship")
+Rel_D(Linguistic.PatternLanguage, Linguistic.Communication, "facilitates", $tags="Relationship")
+Rel_D(Linguistic.PatternLanguage, Linguistic.Representation, "is expressed as", $tags="Relationship")
+Rel_D(Linguistic.Communication, Linguistic.Representation, "uses", $tags="Relationship")
+
+SHOW_LEGEND()
+@enduml

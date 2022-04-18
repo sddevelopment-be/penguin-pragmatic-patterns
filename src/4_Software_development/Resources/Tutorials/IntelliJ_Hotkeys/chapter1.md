@@ -117,20 +117,20 @@ import static be.swsb.productivity.common.FuglyTestBuilder.fugly;
 
 public class FuglyToo {
 
-    public static void indentMeProperlyPlease() {
-        System.out.println(fugly()
-                .withEff("f")
-                                            .withYew("u")
-    .withGee("g")
-                    .withEll("l")
-                                                    .withYew("y")
-            .withFace(face()
-                                    .withEyes(1)
-                        .withColor("poop-brown")
-        .withNosewidth(500)
+  public static void indentMeProperlyPlease() {
+          System.out.println(fugly()
+                  .withEff("f")
+                                              .withYew("u")
+      .withGee("g")
+                      .withEll("l")
+                                                      .withYew("y")
+              .withFace(face()
+                                     .withEyes(1)
+                         .withColor("poop-brown")
+         .withNosewidth(500)
 .build())
-                            .build()
-                                                                    .toString());
+                                .build()
+                                                                   .toString());
     }
 }
 ````
@@ -158,43 +158,44 @@ Hint: When manually indenting, first use `⇧`+`⇥` to unindent everything unti
 ## Undo, Redo 
 <!-- tabs:start -->
 ### **Windows**
-In most editors, Redo is mapped to ![Windows](icons/glyph-windows-20.png)`ctrl+y`. Not in IntelliJ. This can lead to hilarious (or super annoying) situations where you'll lose your _undo buffer_.
+In most editors, Redo is mapped to `ctrl`+`y`. Not so in IntelliJ.  
+This can lead to hilarious (or super annoying) situations where you'll lose your _undo buffer_.
 
 Let's try it out and see what happens so you'll remember it better.
 
-Open FuglyToo.java once more.
+Open `FuglyToo.java` once more.
 
 Add a comment above the method that reads `// this method is fugly`.
 
 Add a comment on a new line that reads `// such fugliness should never be allowed`.
 
-Press ![Windows](icons/glyph-windows-20.png)`ctrl+z` (_Undo_) and see what happens.
+Press `ctrl`+`z` (_Undo_) and see what happens.
 
 Press it a couple times.
 
-Now press ![Windows](icons/glyph-windows-20.png)`ctrl+shift+z` (_Redo_) and see what happens.
+Now press `ctrl`+`shift`+`z` (_Redo_) and see what happens.
 
-Add three comments each on a different line:
+Add these three comments to the file, each starting on a different line:
 ```
 // herpty
 // derpty
 // derp
 ```
-After you've typed the last line, press ![Windows](icons/glyph-windows-20.png)`ctrl+z` until you only have `// herpty` left.
+After you've typed the last line, press `ctrl`+`z` until you only have `// herpty` left.
 
-As most people will have the reflex to press ![Windows](icons/glyph-windows-20.png)`ctrl+y` to _Redo_ their work, let's see what happens when we do just that.
+As most people will have the reflex to press `ctrl`+`y` to _Redo_ their work, let's see what happens when we do just that.
+Use `ctrl`+`y`, then try `ctrl`+`shift`+`z` to attempt and redo the revert you wish to reapply.
 
-So try ![Windows](icons/glyph-windows-20.png)`ctrl+y`, then try ![Windows](icons/glyph-windows-20.png)`ctrl+shift+z` like you meant to do.
+Try `ctrl`+`z` and see what that does. `ctrl`+`shift`+`z` again now.
 
-Try ![Windows](icons/glyph-windows-20.png)`ctrl+z` and see what that does. Try ![Windows](icons/glyph-windows-20.png)`ctrl+shift+z` again now.
-
-Keep this in mind when you work in IntelliJ, or in another editor that doesn't have ![Windows](icons/glyph-windows-20.png)`ctrl+y` for _Redo_ :)
+Keep this strange behaviour in mind when you work in IntelliJ, or in another editor that doesn't have `ctrl`+`y` for _Redo_ :)
 
 ### **Mac**
+
 
 <!-- tabs:end -->
 
 
 [_Next Chapter_](chapter2.md)
 
-[_Back to outline_](outline.md)
+[_Back to outline_](./README.md)

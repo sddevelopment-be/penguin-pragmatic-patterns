@@ -2,6 +2,19 @@
 
 ## Copy and Pasting
 
+<!-- tabs:start -->
+### **Windows**
+Using `ctrl`+`C`, `ctrl`+`V`, copy the Chapter1 constructor to create a new one without a number, initialize the `number` field to the default value of `0`.    
+Use your mouse to select text, then press `ctrl`+`C` to copy the selected text.  
+Use your mouse to move your cursor to somewhere else, then press `ctrl`+`V` to paste the selected text.  
+
+### **Mac**
+Using `⌘ (cmd)`+`C`, `⌘ (cmd)`+`V`, copy the Chapter1 constructor to create a new one without a number, initialize the `number` field to the default value of `0`.    
+Use your mouse to select text, then press `⌘ (cmd)`+`C` to copy the selected text.  
+Use your mouse to move your cursor to somewhere else, then press `⌘ (cmd)`+`V` to paste the selected text.  
+
+<!-- tabs:end -->
+
 ````java
 public class Chapter1 {
 
@@ -24,25 +37,10 @@ public class Chapter1 {
 }
 ````
 
-<!-- tabs:start -->
-
-### **Windows**
-Using `ctrl`+`C`, `ctrl`+`V`, copy the Chapter1 constructor to create a new one without a number, initialize the `number` field to the default value of `0`.    
-Use your mouse to select text, then press `ctrl`+`C` to copy the selected text.  
-Use your mouse to move your cursor to somewhere else, then press `ctrl`+`V` to paste the selected text.  
-
-### **Mac**
-Using `⌘ (cmd)`+`C`, `⌘ (cmd)`+`V`, copy the Chapter1 constructor to create a new one without a number, initialize the `number` field to the default value of `0`.    
-Use your mouse to select text, then press `⌘ (cmd)`+`C` to copy the selected text.  
-Use your mouse to move your cursor to somewhere else, then press `⌘ (cmd)`+`V` to paste the selected text.  
-
-<!-- tabs:end -->
-
-## Keep your hands on your keyboard
+## Excercise 2: Keep your hands on your keyboard
 Do the same exercise, but **ONLY** use your keyboard to select text.
 
-## How to look up any actions' shortcut
-
+## Excercise 3: How to look up any actions' shortcut
 
 <!-- tabs:start -->
 ### **Windows**
@@ -196,6 +194,6 @@ Keep this strange behaviour in mind when you work in IntelliJ, or in another edi
 <!-- tabs:end -->
 
 
-[_Next Chapter_](chapter2.md)
-
-[_Back to outline_](./README.md)
+> Congratz! You finished the first chapter of the tutorial.
+> If you learned a few new tricks, feel free to take a break and let the information sink in.
+> Otherwise, we look forward to seeying you in chapter 2. 

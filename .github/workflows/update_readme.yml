@@ -22,7 +22,7 @@ jobs:
         - run: echo '<!-- CHANGELOG:END -->' >> README.md
 
         - name: push
-          uses: actions-x/commit@v2
+          uses: actions-x/commit@v6
           env:
              GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           with:

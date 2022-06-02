@@ -16,6 +16,7 @@
       * [Concepts](3_People_Skills/Patterns/Concepts/HOME)
         * [Leadership](3_People_Skills/Patterns/Concepts/Leadership/HOME)
       * [Practices](3_People_Skills/Patterns/Practices/HOME)
+  * [4_Lessons_and_Excercises](4_Lessons_and_Excercises/HOME)
   * [4_Software_development](4_Software_development/HOME)
     * [Articles](4_Software_development/Articles/HOME)
     * [Patterns](4_Software_development/Patterns/HOME)

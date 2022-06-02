@@ -1,5 +1,3 @@
-# Articles
-
 # A reflection on communication failures 
 
 > Originally published on 2019-08-10 by Stijn Dejongh (personal blog)

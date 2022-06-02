@@ -25,7 +25,7 @@ jobs:
         - run: cp ./src/_glossary.md ./docs/
 
         - name: push
-          uses: actions-x/commit@v2
+          uses: actions-x/commit@v6
           env:
              GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           with:

@@ -1,15 +1,14 @@
 :root {
-    --docsifytabs-border-color: #d4dfea;
-    --docsifytabs-border-radius-px: 0.75em;
+  --docsifytabs-border-color: #d4dfea;
+  --docsifytabs-border-radius-px: 0.75em;
 }
 
 .app-name-link img {
-    max-height: 3.75rem;
+  max-height: 3.75rem;
 }
 
-
 summary {
-  cursor:pointer;
+  cursor: pointer;
   list-style: none;
   font-weight: 600;
   color: #505d6b;
@@ -33,11 +32,11 @@ details[open] summary {
 details summary::before {
   color: #505d6b;
   font-weight: 600;
-  margin-right:1.75em;
+  margin-right: 1.75em;
   line-height: 1.6rem;
   word-spacing: 0.05rem;
-  transition: transform .1s;
-  content: '>';
+  transition: transform 0.1s;
+  content: ">";
   display: block;
 }
 
@@ -49,7 +48,8 @@ details[open] summary::before {
 }
 
 details {
-  border-radius: 0 var(--docsifytabs-border-radius-px) var(--docsifytabs-border-radius-px) var(--docsifytabs-border-radius-px);
+  border-radius: 0 var(--docsifytabs-border-radius-px)
+    var(--docsifytabs-border-radius-px) var(--docsifytabs-border-radius-px);
   background: #edeef05c;
   border-top: 0;
   margin-top: calc(0px - var(--docsifytabs-border-px));
@@ -57,14 +57,12 @@ details {
   margin-bottom: 0.75em;
 }
 
-
 /* STYLE OVERRIDES */
 
 .markdown-section h1 {
   border-bottom: 2px solid var(--theme-color, #42b983);
   margin-top: 1.5em;
 }
-
 
 .markdown-section h2 {
   border-bottom: 2px dotted var(--theme-color, #42b983);

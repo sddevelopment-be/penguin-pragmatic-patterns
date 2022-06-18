@@ -24,15 +24,13 @@ I will leave the exact formula's to go from this calculation into percentage bas
 
 Embrace the fluffiness of this metric, and focus on what is important to you and your context. Try and find a way to go from a qualitative to a quantitative evaluation of tasks. Once you and your context agree on those, the ROI metric becomes a useful tool for tracking the impact of the work you do to reach your goals. It is to be used as a tool for comparison to a previous period in your path. This way, you can see if you are progressing in the way you wish to progress or if you need to adjust your course.
 
-
 ### Key Performance Metrics
 
 - Your reports and analysis documents contain an ROI indication
 - You think about cost/benefit ratio's while working
 
-
 ### Related Patterns and Resources
 
-| Item | Description | Action |
-|---|---|---|
+| Item             | Description                                                                               | Action                                                                                 |
+| ---------------- | ----------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
 | Good Enough Code | A programmer mindset pattern that aims to match code quality recuirements to intended use | Read the GEC pattern in the Programming section and reflect on how it relates to this. |

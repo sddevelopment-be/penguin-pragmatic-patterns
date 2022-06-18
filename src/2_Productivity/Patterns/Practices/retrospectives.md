@@ -1,8 +1,8 @@
-## Engaging retrospectives 
+## Engaging retrospectives
 
 > A retrospective, generally, is a look back at events that took place, or works that were produced, in the past.
 
-Hosting a useful retrospective session is quite difficult. You aim to have a group share their frustrations, obstacles, and 
+Hosting a useful retrospective session is quite difficult. You aim to have a group share their frustrations, obstacles, and
 share knowledge about what went well. One of the risks of having a static retro format, are that teams lose interest in the sessions, and are less engaged during the meeting.
 We aim to avoid this staleness by varying the "theme" of the retro, while keeping the general structure the same.
 
@@ -11,48 +11,54 @@ Every group can employ slight variations on the approach used, based on a simila
 ### Applicable Context
 
 Helping a team or project being in a rut, going through the motions without engaging or following-up on issues and frustrations. Successful application of this practice highly depends on:
-- Team/Management is willing to try, and dedicate time to improve their process 
-- Trust in the intentions and skills of the facilitator or person taking the initiative 
+
+- Team/Management is willing to try, and dedicate time to improve their process
+- Trust in the intentions and skills of the facilitator or person taking the initiative
 - Team members feel safe to share their opinions without fear of reprisals
 
 Do not use when:
+
 - The group has no motivation to experiment with alternative ways of working
 - You are operating in a low trust, high conflict environment
-- You can not invest the time to be a driving force of change 
-
+- You can not invest the time to be a driving force of change
 
 ### Description of Pattern
 
 > "A plan or framework is very useful, as you need something to adapt and deviate from as you gain experience."
 > ~ Paraphrased quote by [Rini van Solingen](https://rinivansolingen.nl/)
 
-The sections below are intended as a starting point for hosting your own retrospective sessions. You are obviously welcome, and even encouraged, to adapt them to fit your group's specific needs. We do recommend giving the described structure a try first, to get a feel for the practice before changing it. 
+The sections below are intended as a starting point for hosting your own retrospective sessions. You are obviously welcome, and even encouraged, to adapt them to fit your group's specific needs. We do recommend giving the described structure a try first, to get a feel for the practice before changing it.
 
 #### Retro participant roles
 
 <!-- tabs:start -->
+
 ##### **Facilitator**
+
 Guards the integrity of the retro. He/she is the timekeeper, and the lord-and-master of the retro. During the retro, this person is allowed to overrule any participant or tell them to shut up (Even if they are their superior in the group hierarchy).
 
 > From personal experience, the person executing this role is more effective when not participating in discussions or votes. The downside of sitting out the session is made up for by rotating this role.
 
 ##### **Participant**
+
 Joins the retro, raises issues (tickets/stickies, etc), votes on discussion points, engages in constructive dialogue.
 
 ##### **Observer**
+
 > "You can sit in the room/meeting/call but you are not to speak"
 
 Is invited to listen to the retro, but does not participate.
 If an observer does not stick to their accepted role, the facilitator should give them the choice between switching to a participator role, or leaving the meeting.
 
 ##### **Scribe**
+
 **can be combined with any other role**
 
 Responsible for taking notes on discussions and actions taken.Personal experience teaches that this is best combined with the roles "Facilitator" or "Observer".
 
 <!-- tabs:end -->
 
-#### Retro structure 
+#### Retro structure
 
 When using a specific retro theme, feel free to tell a small story (1-2 minute fluff). Bonus points for everyone that looks amused.Verify everyone understands the goals and outline of the retro.
 
@@ -61,6 +67,7 @@ When using a specific retro theme, feel free to tell a small story (1-2 minute f
 <p>
 
 Welcome the participants, reiterate the goal of the retro:
+
 - constructive dialogue
 - evaluation of previous actions (if not first retro)
 - definition of safe-to-fail experiments (actionable items)
@@ -70,7 +77,6 @@ When using a specific theme, feel free to tell a small story (1-2 minute fluff).
 
 </p>
 </details>
-
 
 <details>
 <summary>
@@ -85,6 +91,7 @@ If _"how are you feeling right now?"_ is not a comfortable question, change it u
 There is a wide selection of icebreaker exercises that can make this process more comfortable and enjoyable.
 
 We have had good results with:
+
 - _"What is your favorite movie, and why?"_
 - _"Tell us two things about yourself that we did not know"_
 - _"Who is your favorite pirate?"_
@@ -112,6 +119,7 @@ This generally helps keep things fresh. You might also notice that responses var
 **Important to note:** when raising a personal experienced issue, participates are not expected to also have a solution ready.
 
 > There are a lot of resources out there to help you. Take a look at the _"references"_ section below to dig for cool ideas.
+
 </p>
 </details>
 
@@ -151,6 +159,7 @@ The group may decide to give the facilitator the trust to handle this without mu
 
 After voting is completed, the tickets are ordered by amounts of votes in descending order.
 This means the most voted-upon topics are at the top of the discussion list.
+
 </p>
 </details>
 
@@ -165,10 +174,11 @@ This means the most voted-upon topics are at the top of the discussion list.
 - The facilitator can elect to ask somebody's opinion if they notice a certain participant has been quiet for a while (or they know this person has something of value to add to the dialogue)
 - The goal of the discussion is to define an actionable item or safe-to-fail experiment, or to agree that no action is needed.
 
-> **PRO-TIP:** Timebox discussions, using a pomodoro technique 
+> **PRO-TIP:** Timebox discussions, using a pomodoro technique
 > To ensure a good pace, you can use the _"pomodoro technique"_ to timebox discussions.
 > The facilitator sets a timer for the first round of discussion. When the timer expires, the group votes to continue the discussion or move to the next point. If the discussion is continued, a new timer is set (using a smaller timebox).
 > Repeat until the group decides that the raised topic has been resolved.
+
 </p>
 </details>
 
@@ -182,7 +192,7 @@ Reiterate over the key points of the different discussions and the actions that 
 As a group, ask for volunteers to take ownership over the actionable items.Note that this does not necessarily mean they have to do all the required work, they are just accountable to ensure that the team follows up on the action.
 
 > Once the actionable items are all assigned, it is advisory to go over the action list again.
->   
+>
 > Because, repetition works.  
 > Also, repeating stuff helps people remember it.  
 > And on top of that, repetition works.
@@ -201,6 +211,7 @@ Thank everyone for attending and participating.
 
 Closing statements by facilitator/team lead can happen here.
 Leave some room for general messages or updates.
+
 </p>
 </details>
 
@@ -217,7 +228,6 @@ The facilitator (or person assigned to take notes) creates a write-up of the ret
 </p>
 </details>
 
-
 ### Key Performance Metrics
 
 - The group is engaged during the sessions
@@ -227,10 +237,10 @@ The facilitator (or person assigned to take notes) creates a write-up of the ret
 
 ### Related Patterns and Resources
 
-| Item | Description | Action |
-|---|---|---|
-| [FunRetrospectives.com](https://www.funretrospectives.com/) | Paulo Caroli && al. | Get inspired by these plug-and-play mini-themes and icebreaker exercises |
-| [Agile retrospective ideas to keep your team engaged](https://miro.com/guides/retrospectives/ideas-games) | Michael de le Maza | |
-| [40 ideas to spice up your retrospective](https://agilestrides.com/blog/40-ideas-to-spice-up-your-retrospective/) | Ralph van Roosmalen | |
-| [ 11 Ideas to Spice up Your Retrospective ](https://www.scrum.org/resources/blog/11-ideas-spice-your-retrospective) |  Barry Overeem  | |
-| [ Sprint retrospectives ideas ](https://easyretro.io/retrospective-ideas/) | Various authors | |
+| Item                                                                                                                | Description         | Action                                                                   |
+| ------------------------------------------------------------------------------------------------------------------- | ------------------- | ------------------------------------------------------------------------ |
+| [FunRetrospectives.com](https://www.funretrospectives.com/)                                                         | Paulo Caroli && al. | Get inspired by these plug-and-play mini-themes and icebreaker exercises |
+| [Agile retrospective ideas to keep your team engaged](https://miro.com/guides/retrospectives/ideas-games)           | Michael de le Maza  |                                                                          |
+| [40 ideas to spice up your retrospective](https://agilestrides.com/blog/40-ideas-to-spice-up-your-retrospective/)   | Ralph van Roosmalen |                                                                          |
+| [ 11 Ideas to Spice up Your Retrospective ](https://www.scrum.org/resources/blog/11-ideas-spice-your-retrospective) | Barry Overeem       |                                                                          |
+| [ Sprint retrospectives ideas ](https://easyretro.io/retrospective-ideas/)                                          | Various authors     |                                                                          |

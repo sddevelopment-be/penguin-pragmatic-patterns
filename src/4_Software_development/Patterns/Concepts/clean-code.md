@@ -2,10 +2,10 @@
 
 This section is a collection of Programming related patterns.
 The patterns are meant as a guideline for your day-to-day development activities and will
- hopefully offer you a mental framework to reason about the tasks you are asked to perform.
+hopefully offer you a mental framework to reason about the tasks you are asked to perform.
 
 For consistency, the patterns follow a similar structure.
-As we all know, **context matters**. This is why each pattern is prefaced with a short description of 
+As we all know, **context matters**. This is why each pattern is prefaced with a short description of
 when it can be useful to consider using it. The aim is not to apply as many of them as you can on any given task.
 **This is not a bingo chart.**
 
@@ -13,7 +13,7 @@ when it can be useful to consider using it. The aim is not to apply as many of t
 
 #### Introduction to clean coding
 
-> You should write working, understandable and maintainable code. 
+> You should write working, understandable and maintainable code.
 
 Most of us have heard this or similar phrases being uttered by our seniors.
 It's easy to understand the concept: when you write clean and understandable code, it will be easier to extend and maintain.
@@ -26,7 +26,7 @@ Over time, you will develop this skill. But when starting out, it helps to know 
 When writing software, it is easy to fall into the trap of thinking that your only priority is making it work.
 It is true that this is the most important goal of your task. If you have spent some time working on a bigger piece of software, you will probably have noticed that you spent a lot of time reading code that is already there.
 You might be familiar with a sense of confusion when looking at code that was written by someone else. Even if you mainly work in isolation, this confusion can rear it's head when you revisit code you have written a long time ago.
-The mean reason this happens is because the code is plain **hard to understand**. It is usually not expressive enough, or very verbose.  
+The mean reason this happens is because the code is plain **hard to understand**. It is usually not expressive enough, or very verbose.
 
 > Code is write once, but read very often.
 
@@ -40,4 +40,3 @@ Things that were once not important at all are suddenly critical to the success 
 it can feel like a trip through the depths of hell to meet the changing requirements. So do yourself a favor, and keep your code understandable at a glance.
 
 > People prefer pretty things
-

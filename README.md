@@ -89,7 +89,6 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- prettier-ignore-end -->
 
 <!-- CHANGELOG:START -->
-
 # CHANGELOG
 
 ## Keeping a Changelog
@@ -179,6 +178,6 @@ Following changes are known:
 
 - Repository structure
 - Add documentation outlines
-** Add overview pages per sections
-** Add high-level description of software architecture
+  ** Add overview pages per sections
+  ** Add high-level description of software architecture
 <!-- CHANGELOG:END -->

@@ -1,0 +1,22 @@
+@startuml
+title Deployment - cognitive network
+
+top to bottom direction
+
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Deployment.puml
+
+Deployment_Node(cognitivenetwork.Private, "Private", $tags="Element+Deployment Node") {
+  System(cognitivenetwork.Private.Beliefs_1, "Beliefs", "a rule-based system used to reason, structure, and abstract", $tags="Element+Software System+mind+Software System Instance")
+}
+
+Deployment_Node(cognitivenetwork.Shared, "Shared", $tags="Element+Deployment Node") {
+  System(cognitivenetwork.Shared.Beliefs_1, "Beliefs", "a rule-based system used to reason, structure, and abstract", $tags="Element+Software System+mind+Software System Instance")
+}
+
+Rel_D(cognitivenetwork.Private, cognitivenetwork.Shared, "influences", $tags="Relationship")
+Rel_D(cognitivenetwork.Shared, cognitivenetwork.Private, "influences", $tags="Relationship")
+
+SHOW_LEGEND()
+@enduml

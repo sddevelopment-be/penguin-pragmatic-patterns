@@ -1,7 +1,6 @@
-
 The command line interface, or CLI for short, is a powerpul utility.
 Unfortunatly, all this power can be quite overwhelming when you first become aqcuinted with it.
-Quite a few computer enthousiasts will remember the first time they accidentally found themselves in a 
+Quite a few computer enthousiasts will remember the first time they accidentally found themselves in a
 `vi`-shell and having no idea how to get out of it.
 
 Althoudh intimidating, once you become familiar with using the command line, you might notice how it alows you to work much faster then using a GUI.
@@ -19,10 +18,12 @@ Luckily, most \*NIX based systems have a good bash-like terminal out of the box.
 Let's take a look at making it work even beter.
 
 ### Bash aliases for developers
+
 from [gist bash_aliases](https://gist.github.com/stijn-dejongh/b55e91a775b6b6e95fbbc5d529132a87)
 
 #### .bashrc
-````bash
+
+```bash
 # TEXT aliases
 alias v="vim"
 alias em="emacs"
@@ -58,10 +59,11 @@ alias dockerps="docker ps --format 'table {{.ID}}\t{{.Image}}\t{{.Status}}\t{{.N
 
 # Bash aliases
 alias breload="source ~/.bashrc"
-````
+```
 
 #### .gitconfig
-````bash
+
+```bash
 # General git usage
 squash = "!f(){ git reset --soft HEAD~${1} && git commit --edit -m\"$(git log --format=%B --reverse HEAD..HEAD@{1})\"; };f"
 lg = "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
@@ -101,4 +103,4 @@ colt = "!f(){ local latest=`git tag | sort -V | tail -1`; git checkout $latest; 
 
 # Read aliases
 alias = "config --get-regexp 'alias.*'"
-````
+```

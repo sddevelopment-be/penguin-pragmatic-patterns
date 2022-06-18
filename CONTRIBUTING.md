@@ -24,14 +24,14 @@ You will need to install `node.js` and `npm` on your machine.
 Take a look at [the official installatioh instructions](https://nodejs.org/en/download/) on the node.js website.
 Once this step is completed, run `npm --version` ti make sure the installatioh was successful.
 
-Fork this repository into your own github account and clone it to your lical machine. 
+Fork this repository into your own github account and clone it to your lical machine.
 
-Next up, you will neet to install c4builder locally.
+Next up, you will need to install c4builder locally.
 Do this by running:
 
-````bash
+```bash
 npm i -g c4builder
-````
+```
 
 Now you can run `c4builder site` to deploy the wiki locally.
 Make changes to the markdown files using your favorite IDE.
@@ -41,7 +41,7 @@ Make changes to the markdown files using your favorite IDE.
 Whether you are contributing to the source code, or want to add your example files (including themes) to the repository,
 please follow these steps:
 
-  - Fork the repository
-  - [Create a new branch](https://guides.github.com/introduction/flow/), and work on it
-  - When your change is DONE (implemented, and tested), submit a Pull Request using our [PR Template](../github/pull_request_template.md)
-  - After the review process is completed, your changes will be merged into our `main` branch and included in a future release
+- Fork the repository
+- [Create a new branch](https://guides.github.com/introduction/flow/), and work on it
+- When your change is DONE (implemented, and tested), submit a Pull Request using our [PR Template](../github/pull_request_template.md)
+- After the review process is completed, your changes will be merged into our `main` branch and included in a future release

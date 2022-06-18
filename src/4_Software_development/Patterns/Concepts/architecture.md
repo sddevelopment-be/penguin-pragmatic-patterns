@@ -12,5 +12,3 @@ In simple words, software architecture is the process of converting software cha
 As explained, software characteristics describe the requirements and the expectations of a software in operational and technical levels. Thus, when a product owner says they are competing in a rapidly changing markets, and they should adapt their business model quickly. The software should be “extendable, modular and maintainable” if a business deals with urgent requests that need to be completed successfully in the matter of time. As a software architect, you should note that the performance and low fault tolerance, scalability and reliability are your key characteristics. Now, after defining the previous characteristics the business owner tells you that they have a limited budget for that project, another characteristic comes up here which is “the feasibility.”
 
 A list of Software characteristics, known as _"quality attributes"_ can be found on [wikipedia](https://en.wikipedia.org/wiki/List_of_system_quality_attributes).
-
-

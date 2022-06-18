@@ -1,17 +1,16 @@
-
 \newpage
 
 ## Resource Name
 
-| Property | Value | Comment |
-|---|---|---|
-| Title | `add title here` | |
-| Type | `select one of:` :book: `Book` / :speech_balloon: `Keynote` / :clipboard: `Article` / :sound: `Podcast` | Describe the type of content, etc |
-| Authors |  `Name of author` | |
-| Score /5 | :penguin::penguin::penguin::penguin::penguin: | rating out of 5, remove penguins as needed |
-| Link | [publication website permalink](www.somesite.dev) | Information on how to access the resource |
-| Related Learning Paths | `list of learning paths or knowledge sections in this repository` | |
-| Target audience | Short description of target audience, and indication of proficiency level | Add reasoning here |
+| Property               | Value                                                                                                   | Comment                                    |
+| ---------------------- | ------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
+| Title                  | `add title here`                                                                                        |                                            |
+| Type                   | `select one of:` :book: `Book` / :speech_balloon: `Keynote` / :clipboard: `Article` / :sound: `Podcast` | Describe the type of content, etc          |
+| Authors                | `Name of author`                                                                                        |                                            |
+| Score /5               | :penguin::penguin::penguin::penguin::penguin:                                                           | rating out of 5, remove penguins as needed |
+| Link                   | [publication website permalink](www.somesite.dev)                                                       | Information on how to access the resource  |
+| Related Learning Paths | `list of learning paths or knowledge sections in this repository`                                       |                                            |
+| Target audience        | Short description of target audience, and indication of proficiency level                               | Add reasoning here                         |
 
 ### Why did I read it?
 
@@ -31,6 +30,6 @@
 
 ### Related Patterns and Resources
 
-| Item | Description | Action |
-|---|---|---|
+| Item        | Description    | Action              |
+| ----------- | -------------- | ------------------- |
 | Some thingy | Why it is here | What to do with it? |

@@ -1,18 +1,18 @@
 ## Give it a name: Baptizing your code, models, and ideas
- 
+
 > There are only two hard things in Computer Science: cache invalidation and naming things.
-> 
-> ~ Phil Karlton 
+>
+> ~ Phil Karlton
 
 In a surprising amount of fairy tales, myths, and legends the _"power of naming"_ is an ancient magical ability that allows you to control things if you just know how it is
 really called. Programming is not much different. If the entities and variables you work with have revealing names, a confusing piece of code becomes very clear.
-This clarity is achieved by simple renaming things to be expressive, a feat most modern IDE's can do for you at little cost.  
+This clarity is achieved by simple renaming things to be expressive, a feat most modern IDE's can do for you at little cost.
 
 ### Context
 
 As a software professional, you spend a lot of time reading code. Some of this code was written by yourself at an earlier point in time, other code is written by others. You notice that functions or parameters have names that do not help you understand their intent.
 
-If the code is significantly harder to read than your average fantasy novel, chances are the names of the `functions`, `parameters`, and `variables` are in need of some attention and nursing.   
+If the code is significantly harder to read than your average fantasy novel, chances are the names of the `functions`, `parameters`, and `variables` are in need of some attention and nursing.
 
 ### Forces
 
@@ -26,30 +26,30 @@ If the code is significantly harder to read than your average fantasy novel, cha
 
 Give variables, methods, and classes a clear and descriptive name.  
 A good name should:
+
 - be a concept that can be used in natural speach (avoid abreviations)
 - not contain technical concepts
 - aim to live in the problem domain, rather than the solution domain
 
-
 If you are unable to find a good name:
-- rethink your model 
+
+- rethink your model
 - browse a dictionary for alternative names
 - try and extract part of your concept into something that you are able to baptize
 - explain what you are trying to model to someone, and ask their input
 
 ### Examples
 
-Consider the following code snippets, it is likely you understand the second iteration of the code a lot easier than the first one. 
+Consider the following code snippets, it is likely you understand the second iteration of the code a lot easier than the first one.
 Some of you might even recognize it as the 'Bowling game kata' [Popularized by Uncle Bob](butunclebob.com/ArticleS.UncleBob.TheBowlingGameKata). To a compiler both code snippets are identical. Humans however are not computers, Even though most developers would like them to be.
 
-As humans we understand text fragments, including code, better if we are given sufficient context and if we understand most of the words that are used in the fragment. Good code should allow anyone with a fundamental understanding of the language of choice to understand what is going on at a glance. The older you get, the harder it becomes to keep a large stack of working knowledge in your head. If your code requires you to hold a lot of this knowledge just to be able  to understand what is going on, it is probably not very well written.
-
+As humans we understand text fragments, including code, better if we are given sufficient context and if we understand most of the words that are used in the fragment. Good code should allow anyone with a fundamental understanding of the language of choice to understand what is going on at a glance. The older you get, the harder it becomes to keep a large stack of working knowledge in your head. If your code requires you to hold a lot of this knowledge just to be able to understand what is going on, it is probably not very well written.
 
 <!-- tabs:start -->
 
 #### **original version**
 
-````java
+```java
 package be.doji.sandbox.kata;
 
 public class Main {
@@ -103,11 +103,11 @@ public class Main {
 		return down[in + 1] + down[in + 2];
 	}
 }
-````
+```
 
 #### **with names extracted**
 
-````java
+```java
 package be.doji.sandbox.kata;
 
 public class Game {
@@ -161,8 +161,6 @@ public class Game {
 		return pinsKnockedOver[rollCounter + 1] + pinsKnockedOver[rollCounter + 2];
 	}
 }
-````
+```
 
 <!-- tabs:end -->
-
-

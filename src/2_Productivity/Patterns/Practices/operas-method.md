@@ -24,7 +24,7 @@ These steps are described in more detail in the section below.
 - have a clear idea of progress made, when combined with the KPI pattern
 - split big goals into bite-sized chunks
 - stay committed to your goals without feeling like you are drowning in a never ending cycle of irrelevant 'sidequests
-  
+
 #### Synergies
 
 - most agile frameworks (increments, reflection and adaption)
@@ -50,11 +50,13 @@ Each of these sub-goals is a milestone to be reached in order to get towards you
 The preparation step is where you gather the tools needed to perform the action. These can either be physical assets, pieces of knowledge, or people whose assistance you need to enlist. This step is the transition between the more strategical aspects of your process to the practical execution of one of the milestones.
 Ask yourself: "What do I need to get the started?", and then gather the resources needed to go ahead.
 
->An example: You wish to do the dishes, so you check that the dishwasher is not obviously broken. 
+> An example: You wish to do the dishes, so you check that the dishwasher is not obviously broken.
 > Then you go around the house and gather all the dirty utensils and plates you can find. The preparation step ends with a pile of dirty dishes on your kitchen counter.
+
 #### **E**xecute
 
-You set out and do the task you intended to do. This is the operational phase of the process. You work on completion of the next sensible step to reach your first milestone. 
+You set out and do the task you intended to do. This is the operational phase of the process. You work on completion of the next sensible step to reach your first milestone.
+
 > An example: You load the dirty plates and cups into the dishwasher.
 
 #### **R**eflect
@@ -79,11 +81,9 @@ After a milestone is reached, you can choose to synthesize the lessons you learn
 
 Note that indirect learning is not for everyone, and others might repeat some of the mistakes you made. Even so, armed with your story, they might know a few coping strategies to resolve the situation in case it goes bad.
 
-
 ### Measuring success
 
 - While working towards a goal, you can measure your progress in a numerical manner, if the goal so allows.
 - Are you reaching more milestones?
 - Do you feel like you are more productive?
 - Do you have an enhanced sense of purpose and/or productivity?
-

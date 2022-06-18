@@ -1,6 +1,5 @@
 ## Shu Ha Ri
 
-
 Shu Ha Ri is a Japanese martial art concept that is used to describe the stages of learning on the path to mastery.
 
 ### Description of pattern
@@ -24,6 +23,6 @@ You are in a state of flow, not thinking about techniques or principles. You act
 
 ### Related Patterns and Resources
 
-| Item | Author | Description |
-|---|---|---|
+| Item                                                                                                   | Author               | Description                    |
+| ------------------------------------------------------------------------------------------------------ | -------------------- | ------------------------------ |
 | [Kokoro extends Shu-Ha-Ri with “Heart”](https://heartofagile.com/kokoro-extends-shu-ha-ri-with-heart/) | by Alistair Cockburn | :fas fa-ninja: :fas fa-trophy: |

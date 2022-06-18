@@ -100,6 +100,7 @@ You know when to bend or break the traditions that were passed down to you. You 
 
 You are in a state of flow, not thinking about techniques or principles. You act instinctively, decisive, and effortless.
 
+
 ### Related Patterns and Resources
 
 | Item | Author | Description |

@@ -26,7 +26,7 @@ Once this step is completed, run `npm --version` ti make sure the installatioh w
 
 Fork this repository into your own github account and clone it to your lical machine. 
 
-Next up, you will neet to install c4builder locally.
+Next up, you will need to install c4builder locally.
 Do this by running:
 
 ````bash

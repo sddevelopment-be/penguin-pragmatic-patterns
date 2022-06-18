@@ -22,7 +22,6 @@ jobs:
         - run: npm i -g c4builder
         - run: c4builder
         - run: cp ./src/_coverpage.md ./docs/
-        - run: cp ./src/_glossary.md ./docs/
 
         - name: push
           uses: actions-x/commit@v6

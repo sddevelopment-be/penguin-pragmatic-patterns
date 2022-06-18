@@ -23,7 +23,7 @@ some of the following resources:
 - **Articles and short form information:** These sections contain a list of articles that were written by either myself or others and added with their permission. These articles can be opinionated pieces, additional context, or specific case-studies.
 - **Resources and Reviews :** 
 
-A set of concepts and common abbreviations can be found in the [glossary](/_glossary).
+A set of concepts and common abbreviations can be found in the [glossary](./X_APPENDIX/glossary).
 
 ### Patterns
 

@@ -1,4 +1,4 @@
-module.exports = options => {
+module.exports = (options) => {
   return `<!DOCTYPE html>
     <html lang="en">
 
@@ -18,7 +18,7 @@ module.exports = options => {
       <link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/regular.css" />
       <link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/solid.css" />
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet"/>
-      <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
+      <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css" />
       <link rel="stylesheet" href="./custom.css">
     </head>
 
@@ -29,10 +29,10 @@ module.exports = options => {
 		name: '{{name}}',
 		repo: 'sddevelopment-be/penguin-pragmatic-patterns',
 		loadSidebar: true,
-		mergeNavbar: true,
+		mergeNavbar: false,
 		alias: {
-                    '/.*/_sidebar.md': '/_sidebar.md',
-  		},
+          '/.*/_sidebar.md': '/_sidebar.md',
+    },
 		maxLevel: 2,
 		subMaxLevel: 3,
 		sidebarDisplayLevel: 1,
@@ -51,7 +51,7 @@ module.exports = options => {
 		},
 
 		share: {
-		        reddit: true,
+      reddit: true,
 			linkedin: true,
 			twitter: true,
 			whatsapp: true,
@@ -72,14 +72,12 @@ module.exports = options => {
 
       <!-- plugins -->
       <script src="//unpkg.com/docsify-copy-code@2"></script>
-      <script src="//unpkg.com/docsify-slides/dist/docsify-slides.min.js"></script>
-      <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
-      <script src="//unpkg.com/docsify-material-icons/dist/docsify-material-icons.min.js"></script>
-      <script src="//unpkg.com/@rakutentech/docsify-code-inline/dist/index.min.js"></script>
+      <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script> -->
+       <script src="//unpkg.com/docsify-material-icons/dist/docsify-material-icons.min.js"></script>
+      <script src="//unpkg.com/@rakutentech/docsify-code-inline/dist/index.min.js"></script> 
       <script src="//unpkg.com/docsify-accordify/src/index.js"></script>
       <script src="//cdn.jsdelivr.net/npm/docsify-updated@1/src/time-updater.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
-      <script src="//unpkg.com/docsify-glossary/dist/docsify-glossary.min.js"></script>
       <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
       <script src="//unpkg.com/docsify-fontawesome/dist/docsify-fontawesome.min.js"></script>
 </body>

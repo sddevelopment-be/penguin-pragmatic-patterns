@@ -19,6 +19,7 @@ module.exports = (options) => {
       <link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/solid.css" />
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet"/>
       <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css" />
+      <script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>
       <link rel="stylesheet" href="./custom.css">
     </head>
 
@@ -63,7 +64,10 @@ module.exports = (options) => {
 		    theme      : 'classic', // default
 		    tabComments: true,      // default
 		    tabHeadings: true       // default
-  		}
+  		},
+      'flexible-alerts': {
+        style: 'flat'
+      }
 	};
       </script>
       <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
@@ -80,6 +84,26 @@ module.exports = (options) => {
       <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
       <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
       <script src="//unpkg.com/docsify-fontawesome/dist/docsify-fontawesome.min.js"></script>
+
+
+      <script>
+  window.$docsify = {
+    'flexible-alerts': {
+      note: {
+        label: "Note"
+      },
+      tip: {
+        label: "Tip"
+      },
+      warning: {
+        label: "Be warned"
+      },
+      attention: {
+        label: "Watch out"
+      }
+    }
+  };
+</script>
 </body>
 
     </html>`;

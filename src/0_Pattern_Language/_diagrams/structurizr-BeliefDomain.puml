@@ -19,7 +19,7 @@ System_Boundary("Beliefs_boundary", "Beliefs") {
 }
 
 Rel_D(Beliefs.Knowledge, Linguistic, "is expressed using", $tags="Relationship")
-Rel_D(Social, Beliefs.ContextualBoundary, "->", "has a common", $tags="Relationship")
+Rel_D(Social, Beliefs.ContextualBoundary, "has a comon", $tags="Relationship")
 Rel_D(Beliefs.Knowledge, Social, "is shared within", $tags="Relationship")
 Rel_D(Beliefs.Knowledge, Beliefs.ContextualBoundary, "Is useful in", $tags="Relationship")
 Rel_D(Beliefs.Knowledge, Beliefs.SubjectMatter, "is a familiarity, awareness, or understanding of", $tags="Relationship")

@@ -57,6 +57,7 @@ module.exports = (options) => {
 			whatsapp: true,
 			telegram: true,
 		},
+    
 		tabs: {
 		    persist    : true,      // default
 		    sync       : true,      // default

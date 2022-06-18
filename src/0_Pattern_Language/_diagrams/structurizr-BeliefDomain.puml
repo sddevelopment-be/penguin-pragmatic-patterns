@@ -26,8 +26,8 @@ Rel_D(Beliefs.Knowledge, Beliefs.SubjectMatter, "is a familiarity, awareness, or
 Rel_D(Beliefs.Evidence, Beliefs.Knowledge, "validates or refines", $tags="Relationship")
 Rel_D(Beliefs.Evidence, Beliefs.SubjectMatter, "can be related to", $tags="Relationship")
 Rel_D(Beliefs.Evidence, Beliefs.ContextualBoundary, "is acquired within", $tags="Relationship")
-Rel_D(Social, Linguistic, "maintains an (often specialized) specific", "[systemInt]", $tags="Relationship")
-Rel_D(Social, Experimental, "imposes constraints on", "[systemInt]", $tags="Relationship")
+Rel_D(Social, Linguistic, "maintains an (often specialized) specific", $tags="Relationship")
+Rel_D(Social, Experimental, "imposes constraints on", $tags="Relationship")
 Rel_D(Beliefs.Evidence, Experimental, "originates from", $tags="Relationship")
 
 SHOW_LEGEND()

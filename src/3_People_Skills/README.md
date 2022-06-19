@@ -1,5 +1,3 @@
-## Expressing yourself
-
 When reading stories or career advice for people in the technical sector on social media,
 much content is dedicated to technical excellence and workflow processes.
 

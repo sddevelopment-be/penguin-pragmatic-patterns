@@ -1,5 +1,6 @@
 # Avoid Cargo Cult database design
 
+> [!INFO]
 > Originally published on 2019-08-28, by Stijn Dejongh as `Beware of hibernate killing your design`
 
 ## Shooting yourself in the foot because of Hibernate "Best practices"

@@ -37,10 +37,11 @@ public class Chapter1 {
 }
 ````
 
-## Excercise 2: Keep your hands on your keyboard
-Do the same exercise, but **ONLY** use your keyboard to select text.
+> [!ATTENTION]
+> Repeat the exercise, this time using **ONLY** your keyboard to select text.
+> Turn your mouse on its head if you have to!
 
-## Excercise 3: How to look up any actions' shortcut
+##  How to look up any actions' shortcut
 
 <!-- tabs:start -->
 ### **Windows**

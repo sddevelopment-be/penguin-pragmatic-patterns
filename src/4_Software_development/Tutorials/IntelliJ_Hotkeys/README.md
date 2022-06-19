@@ -1,8 +1,5 @@
 
-## Tutorial Outline
-
-> Code with exercises to learn shortcuts and their associated thinking patterns
-> Based on the repository [ProductivityWithShortcuts](https://github.com/Sch3lp/ProductivityWithShortcuts) by [Tim Schraepen](https://github.com/Sch3lp).
+## Tutorial structure
 
 Each chapter contains a thorough explanation and a set of exercises. 
 Even though the progression in these chapters might seem to be increasing in difficulty, you don't need to think of them as thresholds.

@@ -4,6 +4,19 @@ Each chapter contains a thorough explanation and a set of exercises.
 Even though the progression in these chapters might seem to be increasing in difficulty, you don't need to think of them as thresholds.
 The main reason this series is divided into chapters is to help your brain make new neural pathways even better by trying to categorize certain types of shortcuts. This way, we hope you'll think of Using them more frequently in real life.
 
+### Quality of life improvements
+In addition to a few visual upgrades over the original version of this series, this tutorial includes shortcuts for both the Windows and Macintosh operating systems. As they differ significantly in some places, different descriptions are given for each OS.
+In the online version of this text, you will find tabular panes like the one below.
+
+<!-- tabs:start -->
+#### **Windows**
+description for the Windows operating system family
+
+#### **Mac**
+description for the MacOS operating system family
+
+<!-- tabs:end -->
+
 
 ### What you'll learn
 * Increase your productivity by using IntelliJ shortcuts.
@@ -12,9 +25,13 @@ The main reason this series is divided into chapters is to help your brain make 
 * Some patterns for multi-cursor usage.
 
 ### How you'll learn
-By doing! The only way to get shortcuts into muscle memory is by using them. **All.** **The.** **Time.**
+By doing! The only way to get shortcuts into muscle memory is by using them. **All.** **Of.** **The.** **Darn.** **Time.**
 This tutorial series provides a structured approach to learn productivity shortcuts Using incrementally challenging 
 exercises that will help you move forward at a consistent pace.
+
+> [!TIP]
+> To use a keyboard shortcut, press and hold one or more modifier keys and then press the last key of the shortcut.  
+> If you are using a keyboard made for a windows PC while working on a Mac, use the <kbd>Alt</kbd> key instead of <kbd>&#8997;</kbd>, and the Windows logo key ( <kbd>&#8862;</kbd>) instead of <kbd>&#8984;</kbd>.
 
 ### Good Luck, Have Fun!
 If you like these exercises, share them with your friends and colleagues, and drop a line to thank [Tim](https://github.com/Sch3lp) for making this tutorial publicly available.

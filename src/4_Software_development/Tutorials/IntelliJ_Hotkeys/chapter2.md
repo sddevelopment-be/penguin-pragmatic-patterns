@@ -1,24 +1,71 @@
 # Chapter 2 - Navigation
 
-## Word-skipping ![Windows](icons/glyph-windows-32.png)`ctrl+arrows`
-Open Chapter2.java, place your cursor in front of the `The` of the popular phrase, and tap ![Windows](icons/glyph-windows-20.png)`ctrl+right` 8 times.
+## Word-skipping with the arrow keys
+<!-- tabs:start -->
 
-You should now have your cursor at the beginning of the word `camel`.
+### **Windows**
 
-## Begin/End of Line ![Windows](icons/glyph-windows-32.png)`home`, `end`
-Still in Chapter2.java, place your cursor at the start of the popular phrase, and do ![Windows](icons/glyph-windows-20.png)`end`.
-Press ![Windows](icons/glyph-windows-20.png)`home` once, look at your position, then press ![Windows](icons/glyph-windows-20.png)`home` again and see what happens.
-Press ![Windows](icons/glyph-windows-20.png)`home` one more time and again look at what happens.
+Open `Chapter2.java`, and place your cursor in front of the word _"The"_ of the popular phrase, and tap <kbd>ctrl</kbd><kbd>&#8594</kbd> 8 times.
+You should now have your cursor at the beginning of the word _"camel"_.
 
-If you wanna see a stroboscope effect, put your cursor at the beginning of the word ![Windows](icons/glyph-windows-20.png)`return`, hold down ![Windows](icons/glyph-windows-20.png)`shift+home`. ;)
+### **Mac**
 
-## Begin/End of File ![Windows](icons/glyph-windows-32.png)`ctrl+home`, `ctrl+end`
-Try out ![Windows](icons/glyph-windows-20.png)`ctrl+home` and ![Windows](icons/glyph-windows-20.png)`ctrl+end` in Chapter2.java.
+Open `Chapter2.java`, and place your cursor in front of the _"The"_ of the popular phrase, and tap <kbd>&#8997</kbd><kbd>&#8594</kbd> 8 times.
+You should now have your cursor at the beginning of the word _"camel"_.
+
+<!-- tabs:end -->
+
+
+## Jump to Start/End of Line
+<!-- tabs:start -->
+
+### **Windows**
+
+Still in `Chapter2.java`, place your cursor at the start of the popular phrase, and press <kbd>end</kbd>.
+Press <kbd>home</kbd> once, look at your cursors position, then press <kbd>home</kbd> again and see what happens. Press <kbd>home</kbd> one more time.
+
+If you would like to see a stroboscopic effect, put your cursor at the beginning of the word _"return"_, and hold down <kbd>shift</kbd><kbd>home</kbd>.  
+Enjoy annoying anyone that might be watching over your shoulder.
+
+### **Mac**
+
+Still in `Chapter2.java`, place your cursor at the start of the popular phrase, and press <kbd>&#8984;</kbd><kbd>&#8594;</kbd>.
+Press <kbd>&#8984;</kbd><kbd>&#8592;</kbd> once, look at your cursors position, then press <kbd>&#8984;</kbd><kbd>&#8592;</kbd> again and see what happens. Press <kbd>&#8984;</kbd><kbd>&#8592;</kbd> one more time.
+
+If you would like to see a stroboscopic effect, put your cursor at the beginning of the word _"return"_, and hold down <kbd>shift</kbd><kbd>&#8984;</kbd><kbd>&#8592;</kbd>.  
+Enjoy annoying anyone that might be watching over your shoulder.
+
+<!-- tabs:end -->
+
+
+
+
+## Jump to Begin/End of File
+
+<!-- tabs:start -->
+
+### **Windows**
+
+Try out <kbd>ctrl</kbd><kbd>home</kbd> and <kbd>ctrl</kbd><kbd>end</kbd> in `Chapter2.java`.  
+Alternatively, you can accomplish the same using <kbd>PgUp</kbd> and <kbd>PgDn</kbd>.
+
+### **Mac**
+
+Try out <kbd>&#8984</kbd><kbd>&#8593;</kbd> and <kbd>&#8984</kbd><kbd>&#8595;</kbd> in `Chapter2.java`.  
+Alternatively, you can accomplish the same using <kbd>Fn</kbd><kbd>&#8593;</kbd> and <kbd>Fn</kbd><kbd>&#8595</kbd>.
+
+<!-- tabs:end -->
+
 
 ## CamelHumps (+ how to toggle)
-In Chapter2.java, put your cursor at the beginning of the method `theQuickBrownFoxJumpedOverTheLazyCamel`.
 
-Try to use _Skip Word_ with ![Windows](icons/glyph-windows-20.png)`ctrl+right` on that method.
+<!-- tabs:start -->
+
+### **Windows**
+
+In `Chapter2.java`, put your cursor at the beginning of the method `theQuickBrownFoxJumpedOverTheLazyCamel`.
+
+Try to use _Skip Word_ with <kbd>ctrl</kbd><kbd>&#8594;</kbd> on that method.
 
 Depending on your CamelHumps setting, your cursor either ended up on the `Q` or it skipped the entire method name and you ended up on the `(`.
 
@@ -29,6 +76,14 @@ Navigate to that option and select it by pressing ![Windows](icons/glyph-windows
 Try to use _Skip Word_ again with ![Windows](icons/glyph-windows-20.png)`ctrl+right`.
 
 Other tools, like SublimeText, have different key combination to skip the entire word (![Windows](icons/glyph-windows-20.png)`ctrl+right`), or skip based on CamelCasing (![Windows](icons/glyph-windows-20.png)`alt+right`).
+
+### **Mac**
+
+Try out <kbd>&#8984</kbd><kbd>&#8593</kbd> and <kbd>&#8984</kbd><kbd>&#8595</kbd> in `Chapter2.java`.  
+Alternatively, you can accomplish the same using <kbd>Fn</kbd><kbd>&#8593</kbd> and <kbd>Fn</kbd><kbd>&#8595</kbd>.
+
+<!-- tabs:end -->
+
 
 ## Jumping methods ![Windows](icons/glyph-windows-32.png)`alt+up,down`
 Put your cursor at the `theQuickBrownFoxJumpedOverTheLazyCamel` method.

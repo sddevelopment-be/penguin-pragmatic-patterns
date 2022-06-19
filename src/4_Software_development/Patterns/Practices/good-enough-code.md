@@ -1,36 +1,50 @@
-## Good Enough Code
+## Write 'Good Enough' Code
 
-### Applicable Context
+### Context
 
-**Issue: You get told that you overcomplicate simple tasks.**
+![Sometimes it is okay to keep it simple >](./overdesign.png ':size=380')   
 
-A mistake passionate programmers tend to make is to over-design simple things to make them theoretically and aesthetically more beautiful than they need to be at that point in time.
-In doing so, they often end up spending much more time and mental effort on a piece of software than is needed (or will ever be valuable).
+A mistake passionate programmers tend to make is to over-design simple things to make them theoretically and aesthetically more beautiful than they need to be at that point in time. In doing so, they often end up spending much more time and mental effort on a piece of software than is needed (or will ever be valuable).
 
-Writing clean code is admirable, but it also has to make sense for the problem at hand.
-Creating a specific design by applying a pattern is to be done when it solves the problem at hand and makes the code more readable, robust, extensible or reusable.
+### Drivers
 
-![Sometimes it is okay to keep it simple](./overdesign.png)
+* the level of refinement of a codebase should make sense for the problem at hand
+* people like to show how clever they are
+* readable code is easier to maintain
+* thinking about future problems can help mitigate them
+* unpredictability of future requirements
+* development time costs a LOT of money
+* not all code will have a significant lifespan
 
-### Description of Pattern
+### Solution 
 
-**Ask yourself:** _"Is this code likely to be changed/expanded in the future?""Is my design solving an issue that is here NOW, or am I solving an issue that might never happen?""If this expected issue occurs in the future, can it be fixed easily at that time?"_
+* write code that is as well designed as it needs to be at this point in time.
+* make sure the code you write at this point in time adheres to the basic principles of clean code and design
+* when an idea for a more generic solution comes to mind during your implementation, take note of it and revisit it afterwards
+* iteratively enhance the codebase when it makes sense to do so: when tackling a new code challenge, look for reusable components or structural improvements
 
-The idea of Good Enough Code is to write code as well designed as it needs to be AT THIS POINT IN TIME.
-If an idea for a more generic solution comes to mind during your implementation, take note of it.
-If in the future the problem you anticipated actually happens, or the code you wrote now is reused, it will be solved at that time.
+> [!NOTE]
+> This approach is also referred to as "avoiding gold plating"
 
-Make sure the code you write at this point in time adheres to the basic principles of clean code and design, but do not solve future problems that might never happen.
+### Examples
 
-### Key Performance Metrics
+#### Self-diagnosis
+
+Ask yourself: 
+* _"Is this code likely to be changed/expanded in the future?"_
+* _"Is my design solving an issue that is here NOW, or am I solving an issue that might never happen?"_
+* _"If this expected issue occurs in the future, can it be easily fixed at that time"_
+
+
+### Indicators
 
 - Throughput time of changes
 - Regression introduced during tasks
 - Function point count of changes
-- Cyclomatic complexity
+- Cyclic complexity
 - Readability
 
-### Related Patterns and Resources
+### Related Resources
 
 | Item                                                                                                | Description                                                                                                                                                            | Action                                                                                                                                                                                |
 | --------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

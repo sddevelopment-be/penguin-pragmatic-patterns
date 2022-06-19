@@ -40,7 +40,7 @@ Sharing knowledge with other practitioners in a formalized manner is an activity
 
 ## The pattern structure used in this knowledge base
 
-![memes work ... sometimes <](./meta-meming.png ':size=480')
+![memes work ... sometimes >](./meta-meming.png ':size=480')
 
 ### Patterns
 
@@ -49,9 +49,7 @@ As we all know, **context matters**. This is why each pattern is prefaced with a
 when it can be useful to consider using it.
 
 We want to share information about both things you can do, as well as about ideas and models that can change the way you perceive a situation.
-In order to achieve this, the patterns in this knowledge base are grouped in:
-- Concepts
-- Practices
+In order to achieve this, the patterns in this knowledge base are divided into: `Concepts` and `Practices`.
 
 #### Concepts
 

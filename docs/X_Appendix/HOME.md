@@ -138,7 +138,8 @@ A pragmatist will take pieces from various toolsets and methodologies, and apply
 This means that even if a new software architecture is really hip, you would look at the issue you are trying to solve first and see if the new approach is worth doing.
 
 ### Pattern language
-[from wikipedia](https://en.wikipedia.org/wiki/Pattern_language): A pattern language is an organized and coherent set of patterns, each of which describes a problem and the core of a solution that can be used in many ways within a specific field of expertise. 
+
+[from wikipedia](https://en.wikipedia.org/wiki/Pattern_language): A pattern language is an organized and coherent set of patterns, each of which describes a problem and the core of a solution that can be used in many ways within a specific field of expertise.
 
 
 # Reading List

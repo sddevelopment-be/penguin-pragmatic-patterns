@@ -14,7 +14,7 @@ As a software professional, you spend a lot of time reading code. Some of this c
 
 If the code is significantly harder to read than your average fantasy novel, chances are the names of the `functions`, `parameters`, and `variables` are in need of some attention and nursing.
 
-### Forces
+### Drivers
 
 - Holding a lot of different ideas in your brain is **mentally taxing**
 - Poorly understood code leads to **lazy changes**, or introduction of **bugs** (aka. Code rot, Broken windows)

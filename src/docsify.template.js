@@ -66,7 +66,6 @@ module.exports = (options) => {
 		    tabHeadings: true       // default
   		},
       'flexible-alerts': {
-        style: 'flat'
       }
 	};
       </script>

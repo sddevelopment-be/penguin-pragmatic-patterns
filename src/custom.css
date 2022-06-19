@@ -60,13 +60,17 @@ details {
 /* STYLE OVERRIDES */
 
 .markdown-section h1 {
-  border-bottom: 2px solid var(--theme-color, #42b983);
-  margin-top: 1.5em;
+  border-bottom: 1px solid var(--theme-color, #42b983);
+  clear: both;
+  display: block;
+  padding-top: 2.5rem;
 }
 
 .markdown-section h2 {
-  border-bottom: 2px dotted var(--theme-color, #42b983);
-  margin-top: 1.5em;
+  border-bottom: 1px dotted var(--theme-color, #42b983);
+  clear: both;
+  display: block;
+  padding-top: 1.75rem;
 }
 
 /* From: https://stackoverflow.com/questions/255170/markdown-and-image-alignment */
@@ -93,4 +97,12 @@ img[alt$="><"] {
   height: auto;
   margin: auto;
   float: none!important;
+}
+
+.markdown-section blockquote {
+  clear: both;
+}
+
+.alert.flat {
+  clear: both;
 }

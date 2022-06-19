@@ -38,7 +38,7 @@ Sharing knowledge with other practitioners in a formalized manner is an activity
 
 ## The pattern structure used in this knowledge base
 
-![memes work ... sometimes <](./meta-meming.png ':size=480')
+![memes work ... sometimes >](./meta-meming.png ':size=480')
 
 ### Patterns
 

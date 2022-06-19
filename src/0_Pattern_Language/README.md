@@ -47,9 +47,7 @@ As we all know, **context matters**. This is why each pattern is prefaced with a
 when it can be useful to consider using it.
 
 We want to share information about both things you can do, as well as about ideas and models that can change the way you perceive a situation.
-In order to achieve this, the patterns in this knowledge base are grouped in:
-- Concepts
-- Practices
+In order to achieve this, the patterns in this knowledge base are divided into: `Concepts` and `Practices`.
 
 #### Concepts
 

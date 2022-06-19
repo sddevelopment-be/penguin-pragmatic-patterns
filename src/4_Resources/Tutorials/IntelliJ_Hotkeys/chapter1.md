@@ -1,17 +1,59 @@
 # Chapter 1 - Basics
-[_Back to outline_](outline.md)
-## ![Windows](icons/glyph-windows-32.png)ctrl+c, ctrl+v
-Copy the Chapter1 constructor to create a new one without a number, have the default number be 0.
 
-Use your mouse to select text, then press ![Windows](icons/glyph-windows-20.png)`ctrl+c` to copy the selected text.
+## Copy and Pasting
 
-Use your mouse to move your cursor to somewhere else, then press ![Windows](icons/glyph-windows-20.png)`ctrl+v` to paste the selected text.
+````java
+public class Chapter1 {
+
+    private String name;
+    private int number;
+
+    public Chapter1(String name, int number) {
+        this.name = name;
+        this.number = number;
+    }
+
+    // Exercise 1
+    // Copy the Chapter1 constructor to create a new one without a number, have the default number be 0.
+
+    // Exercise 2
+    // Do the same but with a default name of "Chapter". This time only use your keyboard.
+
+    // Exercise 3
+    // Try to repeat Exercise 1, but instead of ctrl+c and ctrl+v, use ctrl+shift+a to look up your copy and paste actions
+}
+````
+
+<!-- tabs:start -->
+
+### **Windows**
+Using `ctrl`+`c`, `ctrl`+`v`, copy the Chapter1 constructor to create a new one without a number, initialize the `number` field to the default value of `0`.    
+Use your mouse to select text, then press `ctrl`+`c` to copy the selected text.  
+Use your mouse to move your cursor to somewhere else, then press `ctrl`+`v` to paste the selected text.  
+
+### **Mac**
+Using `⌘ `+`c`, `⌘ `+`v`, copy the Chapter1 constructor to create a new one without a number, initialize the `number` field to the default value of `0`.    
+Use your mouse to select text, then press `⌘ `+`c` to copy the selected text.  
+Use your mouse to move your cursor to somewhere else, then press `⌘ `+`v` to paste the selected text.  
+
+<!-- tabs:end -->
 
 ## Keep your hands on your keyboard
 Do the same exercise, but **ONLY** use your keyboard to select text.
 
-## How to look up any actions' shortcut ![Windows](icons/glyph-windows-32.png)`ctrl+shift+a`, `double shift`
-Repeat Exercise 1, but instead of ![Windows](icons/glyph-windows-20.png)`ctrl+c` and ![Windows](icons/glyph-windows-20.png)`ctrl+v`, use ![Windows](icons/glyph-windows-20.png)`ctrl+shift+a` to look up your copy and paste actions
+## How to look up any actions' shortcut
+
+
+<!-- tabs:start -->
+### **Windows**
+Repeat Exercise 1, but instead of uring `ctrl`+`c` and `ctrl`+`v`, use `ctrl`+`⇧`+`a` to look up your copy and paste actions in the quick help menu.  
+Alternatively, you can double-tab the `⇧` key do open the quick action menu.
+
+### **Mac**
+
+Repeat Exercise 1, but instead of uring `⌘`+`c` and `⌘`+`v` use `⇧`+`⌘ `+`a` to look up your copy and paste actions in the quick help menu.  
+Alternatively, you can double-tab the `⇧` key do open the quick action menu.
+<!-- tabs:end -->
 
 ## IntelliJ's _Productivity Guide_
 Open IntelliJ's Productivity Guide using these key combinations:

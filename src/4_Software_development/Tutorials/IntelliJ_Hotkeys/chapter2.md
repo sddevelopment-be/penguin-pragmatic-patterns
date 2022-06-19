@@ -67,32 +67,58 @@ In `Chapter2.java`, put your cursor at the beginning of the method `theQuickBrow
 
 Try to use _Skip Word_ with <kbd>ctrl</kbd><kbd>&#8594;</kbd> on that method.
 
-Depending on your CamelHumps setting, your cursor either ended up on the `Q` or it skipped the entire method name and you ended up on the `(`.
+Depending on your CamelHumps setting, your cursor either ended up on the _"Q"_ or it skipped the entire method name and ended up on the _"("_.
 
-Return to the beginning of the method name and press ![Windows](icons/glyph-windows-20.png)`ctrl+shift+a`, then type `CamelHump`. There should be a setting `Smart Keys: Use "CamelHumps" words` with a toggle button.
+Return to the beginning of the method name and press <kbd>ctrl</kbd><kbd>shift</kbd><kbd>a</kbd>, then type `CamelHump`. There should be a setting named `Smart Keys: Use "CamelHumps" words` with a toggle indicator.
 
-Navigate to that option and select it by pressing ![Windows](icons/glyph-windows-20.png)`Enter`, then press ![Windows](icons/glyph-windows-20.png)`Escape` to cancel out of the action menu.
+Navigate to that option using the arrow keys, and toggle it by pressing <kbd>Enter</kbd>, then press <kbd>Escape</kbd> to exit the action menu.
 
-Try to use _Skip Word_ again with ![Windows](icons/glyph-windows-20.png)`ctrl+right`.
+Try to use _Skip Word_ again with <kbd>ctrl</kbd><kbd>&#8594;</kbd>.
 
-Other tools, like SublimeText, have different key combination to skip the entire word (![Windows](icons/glyph-windows-20.png)`ctrl+right`), or skip based on CamelCasing (![Windows](icons/glyph-windows-20.png)`alt+right`).
+> [!TIP]
+> Other tools, like SublimeText, have different key combinations to skip the entire word (<kbd>ctrl</kbd><kbd>&#8594;</kbd>), or skip based on CamelCasing (<kbd>alt</kbd><kbd>&#8594;</kbd>).
 
 ### **Mac**
 
-Try out <kbd>&#8984</kbd><kbd>&#8593</kbd> and <kbd>&#8984</kbd><kbd>&#8595</kbd> in `Chapter2.java`.  
-Alternatively, you can accomplish the same using <kbd>Fn</kbd><kbd>&#8593</kbd> and <kbd>Fn</kbd><kbd>&#8595</kbd>.
+In `Chapter2.java`, put your cursor at the beginning of the method `theQuickBrownFoxJumpedOverTheLazyCamel`.
+
+Try to use _Skip Word_ with <kbd>&#8997;</kbd><kbd>&#8594;</kbd> on that method.
+
+Depending on your CamelHumps setting, your cursor either ended up on the _"Q"_ or it skipped the entire method name and ended up on the _"("_.
+
+Return to the beginning of the method name and press<kbd>&#8984;</kbd><kbd>a</kbd>, then type `CamelHump`. There should be a setting named `Smart Keys: Use "CamelHumps" words` with a toggle indicator.
+
+Navigate to that option using the arrow keys, and toggle it by pressing <kbd>Enter</kbd>, then press <kbd>Escape</kbd> to exit the action menu.
+
+Try to use _Skip Word_ again with <kbd>&#8997;</kbd><kbd>&#8594;</kbd>
+
+> [!TIP]
+> Other tools, like SublimeText, have different key combinations to skip the entire word (<kbd>&#8963;</kbd><kbd>&#8594;</kbd>), or skip based on CamelCasing (<kbd>&#8997;</kbd><kbd>&#8594;</kbd>).
 
 <!-- tabs:end -->
 
 
-## Jumping methods ![Windows](icons/glyph-windows-32.png)`alt+up,down`
-Put your cursor at the `theQuickBrownFoxJumpedOverTheLazyCamel` method.
+## Jumping methods
 
-Keep pressing ![Windows](icons/glyph-windows-20.png)`alt+down` and see what happens.
+<!-- tabs:start -->
 
-Keep pressing ![Windows](icons/glyph-windows-20.png)`alt+up` and see what happens.
+### **Windows**
 
-## Jump to "error" ![Windows](icons/glyph-windows-32.png)`F2`
+In `Chapter2.java`, place your cursor at the `theQuickBrownFoxJumpedOverTheLazyCamel` method.  
+Press <kbd>alt</kbd><kbd>&#8595;</kbd> a few times and see what happens.  
+Now use <kbd>alt</kbd><kbd>&#8593;</kbd> to go back the way you came.
+
+### **Mac**
+
+In `Chapter2.java`, place your cursor at the `theQuickBrownFoxJumpedOverTheLazyCamel` method.  
+Press <kbd>&#8963;</kbd><kbd>Shift</kbd><kbd>&#8595;</kbd> a few times and see what happens.  
+Now use <kbd>&#8963;</kbd><kbd>Shift</kbd><kbd>&#8593;</kbd> to go back the way you came.
+
+<!-- tabs:end -->
+
+
+
+## Jump to "error"
 Move to the top of the file with ![Windows](icons/glyph-windows-20.png)`ctrl+Home` and from there press ![Windows](icons/glyph-windows-20.png)`F2`.
 
 This should navigate your cursor to the class name `Chapter2` because IntelliJ marks it as _unused_.

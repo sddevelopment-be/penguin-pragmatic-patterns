@@ -1,5 +1,4 @@
 # Chapter 2 - Navigation
-[_Back to outline_](README.md)
 
 ## Word-skipping ![Windows](icons/glyph-windows-32.png)`ctrl+arrows`
 Open Chapter2.java, place your cursor in front of the `The` of the popular phrase, and tap ![Windows](icons/glyph-windows-20.png)`ctrl+right` 8 times.

@@ -1,4 +1,3 @@
-
 ## Tutorial structure
 
 Each chapter contains a thorough explanation and a set of exercises. 
@@ -13,19 +12,19 @@ The main reason this series is divided into chapters is to help your brain make 
 * Some patterns for multi-cursor usage.
 
 ### How you'll learn
-By doing! The only way to get shortcuts into mussle memory is by using them. **All.** **The.** **Time.**
-This tutorial series provides a structured aproach to learn productivity shortcuts Using incrementally challenging 
+By doing! The only way to get shortcuts into muscle memory is by using them. **All.** **The.** **Time.**
+This tutorial series provides a structured approach to learn productivity shortcuts Using incrementally challenging 
 exercises that will help you move forward at a consistent pace.
 
 ### Good Luck, Have Fun!
-If you like these exercises, share them with your friends and colleagues, and drop a line to thank the [original author](https://github.com/Sch3lp).
+If you like these exercises, share them with your friends and colleagues, and drop a line to thank [Tim](https://github.com/Sch3lp) for making this tutorial publicly available.
 
 ### Code snippets
 
 #### Package: be.swsb.productivity.common
 <!-- tabs:start -->
 ### **Class `AFugly`**
-````java
+```java
 package be.swsb.productivity.common;
 
 public class AFugly {
@@ -69,11 +68,11 @@ public class AFugly {
         return face;
     }
 }
-````
+```
 
 ### **Class `FuglyTestBuilder`**
 
-````java
+```java
 package be.swsb.productivity.common;
 
 public class FuglyTestBuilder {
@@ -125,11 +124,10 @@ public class FuglyTestBuilder {
         return this;
     }
 }
-
-````
+```
 
 ### **Class `Face`**
-````java
+```java
 package be.swsb.productivity.common;
 
 public class Face {
@@ -155,10 +153,10 @@ public class Face {
         return nosewidth;
     }
 }
-````
+```
 
 ### **Class `FaceTestBuilder`**
-````java
+```java
 package be.swsb.productivity.common;
 
 public class FaceTestBuilder {
@@ -191,7 +189,8 @@ public class FaceTestBuilder {
         return this;
     }
 }
-````
+```
 <!-- tabs:end -->
+
 ---
 

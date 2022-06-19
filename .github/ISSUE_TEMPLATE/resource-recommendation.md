@@ -1,9 +1,9 @@
 ---
 name: Learning resource recommendation / review
-about: 'Recommendations and Reviews of learning resources that you would like to share with other learners.'
-title: ''
-labels: 'type: resource-recommendation'
-assignees: 'stijn-dejongh'
+about: "Recommendations and Reviews of learning resources that you would like to share with other learners."
+title: ""
+labels: "type: resource-recommendation"
+assignees: "stijn-dejongh"
 ---
 
 # PATTERN SUGGESTION: name of pattern
@@ -14,28 +14,28 @@ By submitting this pull request, I comply with the license in the [Developer Cer
 Specifically, I acknowledge that the owner of this repository has the right to use my contribution as he/she sees fit.
 I will not take legal action against the owner or maintainer of this repository on the basis of copyright infringement.
 
-## How to make a Suggestion 
+## How to make a Suggestion
 
 Remove verbatim content, and fill out the sections below.
 These fit the structure of the existing patterns.
 You can submit this template as an easier way to add to the collection, as an alternative
 to creating your own github fork.
 
-> Please edit and fill out the following sections 
+> Please edit and fill out the following sections
 
 ---
 
 ## Resource Name
 
-| Property | Value | Comment |
-|---|---|---|
-| Title | `add title here` | |
-| Type | `select one of:` :book: `Book` / :speech_balloon: `Keynote` / :clipboard: `Article` / :sound: `Podcast` | Describe the type of content, etc |
-| Authors |  `Name of author` | |
-| Score /5 | :penguin::penguin::penguin::penguin::penguin: | rating out of 5, remove penguins as needed |
-| Link | [publication website permalink](www.somesite.dev) | Information on how to access the resource |
-| Related Learning Paths | `list of learning paths or knowledge sections in this repository` | |
-| Target audience | Short description of target audience, and indication of proficiency level | Add reasoning here |
+| Property               | Value                                                                                                   | Comment                                    |
+| ---------------------- | ------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
+| Title                  | `add title here`                                                                                        |                                            |
+| Type                   | `select one of:` :book: `Book` / :speech_balloon: `Keynote` / :clipboard: `Article` / :sound: `Podcast` | Describe the type of content, etc          |
+| Authors                | `Name of author`                                                                                        |                                            |
+| Score /5               | :penguin::penguin::penguin::penguin::penguin:                                                           | rating out of 5, remove penguins as needed |
+| Link                   | [publication website permalink](www.somesite.dev)                                                       | Information on how to access the resource  |
+| Related Learning Paths | `list of learning paths or knowledge sections in this repository`                                       |                                            |
+| Target audience        | Short description of target audience, and indication of proficiency level                               | Add reasoning here                         |
 
 ### Why did I read it?
 
@@ -55,6 +55,6 @@ to creating your own github fork.
 
 ### Related Patterns and Resources
 
-| Item | Description | Action |
-|---|---|---|
+| Item        | Description    | Action              |
+| ----------- | -------------- | ------------------- |
 | Some thingy | Why it is here | What to do with it? |

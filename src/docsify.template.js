@@ -57,6 +57,7 @@ module.exports = (options) => {
 			whatsapp: true,
 			telegram: true,
 		},
+    
 		tabs: {
 		    persist    : true,      // default
 		    sync       : true,      // default
@@ -65,7 +66,6 @@ module.exports = (options) => {
 		    tabHeadings: true       // default
   		},
       'flexible-alerts': {
-        style: 'flat'
       }
 	};
       </script>
@@ -83,6 +83,7 @@ module.exports = (options) => {
       <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
       <script src="//unpkg.com/docsify-fontawesome/dist/docsify-fontawesome.min.js"></script>
       <script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>
+      <script src="//cdn.jsdelivr.net/npm/@sy-records/docsify-footnotes/lib/index.min.js"></script>
 </body>
 
     </html>`;

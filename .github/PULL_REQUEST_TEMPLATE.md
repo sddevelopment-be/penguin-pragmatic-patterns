@@ -4,7 +4,6 @@
 
 ## Description of changes
 
-
 # DCO agreement
 
 By submitting this pull request, I comply with the license in the [Developer Certificate of Origin](../docs/DCO.md).

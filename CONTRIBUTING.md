@@ -4,7 +4,7 @@ Thank you for taking the time to see how you can help out our
 project. We could use your help!
 
 Even if you are not a automation expert, you can provide meaningful input to the project.
-We are appreciative of anyone willing to donate some of their time by giving user feedback, testing the information or techniaues mentioned, or providing your own experiences and input.
+We are appreciative of anyone willing to donate some of their time by giving user feedback, testing the information or techniques mentioned, or providing your own experiences and input.
 
 ## Bug Reporting
 
@@ -21,10 +21,10 @@ If you have a pattern (micro strategy / technique) to add, please feel free to c
 ## Running and building the project locally
 
 You will need to install `node.js` and `npm` on your machine.
-Take a look at [the official installatioh instructions](https://nodejs.org/en/download/) on the node.js website.
+Take a look at [the official installation instructions](https://nodejs.org/en/download/) on the node.js website.
 Once this step is completed, run `npm --version` ti make sure the installatioh was successful.
 
-Fork this repository into your own github account and clone it to your lical machine.
+Fork this repository into your own github account and clone it to your local machine.
 
 Next up, you will need to install c4builder locally.
 Do this by running:
@@ -34,7 +34,7 @@ npm i -g c4builder
 ```
 
 Now you can run `c4builder site` to deploy the wiki locally.
-Make changes to the markdown files using your favorite IDE.
+Make changes to the markdown files using your favorite text editor.
 
 ## Submitting Changes
 

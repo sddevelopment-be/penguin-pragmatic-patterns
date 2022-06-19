@@ -47,13 +47,12 @@ In order to achieve this, the patterns in this knowledge base are grouped in:
 
 Practices are a set of actionable recipes, that can help you achieve certain goals.
 As with all advice, these are not guaranteed to give results. There is no such thing as a
-sure-fire approach that works in any situation.
-
-To make these patterns as helpful as possible, they include a short description of the
+sure-fire approach that works in any situation. To make these patterns as helpful as possible, they include a short description of the
 circumstances in which they usually work well.
 
-Unlike Pokemon, you will not get a special prize for implementing all of them in your life.
-You are encouraged to be eclectic, and only use the practices that resonate with you.
+> [!WARNING]
+> Unlike Pokemon, you will not get a special prize for implementing all of them in your life.
+> **You are encouraged to be eclectic, and only use the practices that resonate with you.**
 
 ## References
 

@@ -8,6 +8,7 @@
 
 [GitHub](https://github.com/sddevelopment-be/penguin-pragmatic-patterns)
 [Start Reading](/HOME)
+[Help out!](https://github.com/sddevelopment-be/penguin-pragmatic-patterns/blob/main/CONTRIBUTING.md)
 
 <!-- background color -->
 

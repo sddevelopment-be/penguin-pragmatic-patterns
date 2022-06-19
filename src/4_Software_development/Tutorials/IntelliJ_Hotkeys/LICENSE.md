@@ -1,4 +1,4 @@
-This tutorial series was originally published as [`ProductivityWithShortcuts`](https://github.com/Sch3lp/ProductivityWithShortcuts) under the MIT License, by its original creator: [Tim Schraepen](https://github.com/Sch3lp).
+This tutorial series was originally published under the MIT License as [`ProductivityWithShortcuts`](https://github.com/Sch3lp/ProductivityWithShortcuts), by its creator: [Tim Schraepen](https://github.com/Sch3lp).
 
 > The MIT License (MIT)
 >

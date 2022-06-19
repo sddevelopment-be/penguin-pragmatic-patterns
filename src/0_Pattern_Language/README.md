@@ -33,8 +33,7 @@ When you talk to people, you rely on a shared understanding of the language and 
 
 For consistency, the patterns follow a similar structure.
 As we all know, **context matters**. This is why each pattern is prefaced with a short description of
-when it can be useful to consider using it. The aim is not to apply as many of them as you can on any given task.
-**This is not a bingo chart.**
+when it can be useful to consider using it.
 
 We want to share information about both things you can do, as well as about ideas and models that can change the way you perceive a situation.
 In order to achieve this, the patterns in this knowledge base are grouped in:
@@ -48,11 +47,12 @@ In order to achieve this, the patterns in this knowledge base are grouped in:
 Practices are a set of actionable recipes, that can help you achieve certain goals.
 As with all advice, these are not guaranteed to give results. There is no such thing as a
 sure-fire approach that works in any situation. To make these patterns as helpful as possible, they include a short description of the
-circumstances in which they usually work well.
+circumstances in which they usually work well.  
 
-> [!WARNING]
+
+> [!WARNING] **This is not a bingo chart.**  
 > Unlike Pokemon, you will not get a special prize for implementing all of them in your life.
-> **You are encouraged to be eclectic, and only use the practices that resonate with you.**
+> You are encouraged to be eclectic, and only use the practices that resonate with you.
 
 ## References
 

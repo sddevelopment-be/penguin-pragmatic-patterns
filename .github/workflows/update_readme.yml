@@ -1,12 +1,6 @@
 name: <(^v^)> Update README.md with Changelog
 
 on:
-  push:
-     branches:
-        - main
-        - stable
-  pull_request:
-    types: [open, synchronize]
 
 jobs:
   build:

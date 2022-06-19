@@ -25,3 +25,6 @@
     * [Resources](4_Software_development/Resources/HOME)
       * [cli](4_Software_development/Resources/cli/HOME)
   * [X_Appendix](X_Appendix/HOME)
+    * [Changelog](X_Appendix/Changelog/HOME)
+    * [Glossary](X_Appendix/Glossary/HOME)
+    * [Reading_List](X_Appendix/Reading_List/HOME)

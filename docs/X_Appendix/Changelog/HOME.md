@@ -1,4 +1,4 @@
-# CHANGELOG
+# Changelog
 
 ## Keeping a Changelog
 
@@ -16,38 +16,11 @@ Following changes are known:
 - **Fixed** for any bug fixes.
 - **Security** in case of vulnerabilities.
 
-## Changes
+# Changes
 
-### v2.0.0
 
-#### Changed
 
-- Restructured Content to fit the docsify structure
-- Rearranged hierarchy to be domain-based over type-based
-- Structure descriptions
-
-#### Added
-
-- Docsify deployment config
-- New project banner image
-- Glossary and Sidenav plugin
-- Cover page and logo
-- Reading list
-- Sidebar dircetory markings (arrows)
-- Patterns on Learning: ShuHaRi and Dreyfus
-- Patterns on leadership: Lewin's leadership styles
-
-#### Removed
-
-- Dockerized document generation support
-- Javascript slideshow library (for now)
-- Unneeded duplicated descriptions
-
-#### Fixed
-
-- Resolved various typo's
-
-### v1.1.0
+## v1.1.0
 
 #### Changed
 
@@ -89,3 +62,32 @@ Following changes are known:
 - Add documentation outlines
   ** Add overview pages per sections
   ** Add high-level description of software architecture
+
+## v2.0.0
+
+#### Changed
+
+- Restructured Content to fit the docsify structure
+- Rearranged hierarchy to be domain-based over type-based
+- Structure descriptions
+
+#### Added
+
+- Docsify deployment config
+- New project banner image
+- Glossary and Sidenav plugin
+- Cover page and logo
+- Reading list
+- Sidebar dircetory markings (arrows)
+- Patterns on Learning: ShuHaRi and Dreyfus
+- Patterns on leadership: Lewin's leadership styles
+
+#### Removed
+
+- Dockerized document generation support
+- Javascript slideshow library (for now)
+- Unneeded duplicated descriptions
+
+#### Fixed
+
+- Resolved various typo's

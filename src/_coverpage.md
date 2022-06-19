@@ -2,7 +2,7 @@
 
 ![logo](./logo.png)
 
-# Pragmatic Penguin Patterns <small>2.0.0-BETA</small>
+# Pragmatic Penguin Patterns <small>2.1.0-BETA</small>
 
 ## Open Learning Knowledge Base
 

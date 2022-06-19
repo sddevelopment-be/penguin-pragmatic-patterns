@@ -2,6 +2,8 @@
 
 Exchanging knowledge is a challenging activity. The aim is to communicate thoughts and ideas in a way that makes them resonate with the receiving party. To communicate effectively, groups of people tend to resort to using jargon. The term `jargon` is defined as _"The specialized language of a trade, profession, or similar group, especially when viewed as difficult to understand by outsiders."_. Its goal is to make the exchange of information more efficient by giving specific names to things that are highly relevant to the in-group. It is said that the Inuit have over thirty words to differentiate between different types of snow. Other professions, such as software developers, make heavy use of metaphors to refer to technical concepts.
 
+> [!NOTE]
+> This entire page is generated from flat text input :)
 
 ## Structuring what we know
 
@@ -49,7 +51,8 @@ In order to achieve this, the patterns in this knowledge base are grouped in:
 Practices are a set of actionable recipes, that can help you achieve certain goals.
 As with all advice, these are not guaranteed to give results. There is no such thing as a
 sure-fire approach that works in any situation. To make these patterns as helpful as possible, they include a short description of the
-circumstances in which they usually work well.
+circumstances in which they usually work well.      
+
 
 > [!WARNING] **This is not a bingo chart.**  
 > Unlike Pokemon, you will not get a special prize for implementing all of them in your life.

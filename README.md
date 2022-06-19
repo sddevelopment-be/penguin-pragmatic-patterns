@@ -46,22 +46,23 @@ A lot of knowledge is available on the internet, in various talks, and in books.
 But finding your way in this vast ocean of knowledge can be a challenge.
 In order to assist fellow learners, we have started to collect our personal experiences in this repository.
 
-The initiative was started by [@stijn-dejongh](https://github.com/stijn-Dejongh), who is a self-improvement enthousiast, and an avid software developer.
-In order to avoid confusing terminology and avoid having to explain the definition of certain words multiple times, please take a look at the [Glossary](<./docs/0 Glossary>).
+The initiative was started by [@stijn-dejongh](https://github.com/stijn-Dejongh), who is a self-improvement enthusiast, and an avid software developer.
+In order to avoid confusing terminology and avoid having to explain the definition of certain words multiple times, please take a look at the [Glossary](./src/X_APPENDIX/glossary.md).
 
 ## Repository Structure
 
-Most of the techniques, tactics, and behavioural patterns collected will fit some sort of category, which is usually outlined by the title of the directory in which the content is stored.
-Some general purpose information will be stored at the top level.
+Most of the techniques, tactics, and behavioral patterns collected will fit some sort of category, which is usually outlined by the title of the directory in which the content is stored. Some general purpose information will be stored at the top level.
 
 ### Noteworthy sections and files
 
 | Item      | Location                                    | Description                                                                                                                                                                      |
 | --------- | ------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Glossary  | [`./docs/GLOSSARY.md`](<./docs/0 Glossary>) | A list of Terminology, acronyms and definitions that are used throughout the different files and knowledge resources. This can be used as a dictionary, or as a reference guide. |
-| Changelog | [`./CHANGELOG.md`](./CHANGELOG.md)          | Keeping track of your changes is hard work, documenting after the facts even more so. This file aims to allow small granular updates to help with this effort.                   |
+| Glossary  | [`X_APPENDIX/glossary.md`](./src/X_APPENDIX/glossary.md) | A list of Terminology, acronyms and definitions that are used throughout the different files and knowledge resources. This can be used as a dictionary, or as a reference guide. |
+| Changelog | [`X_APPENDIX/CHANGELOG.md`](./src/X_APPENDIX/CHANGELOG.md)          | Keeping track of your changes is hard work, documenting after the facts even more so. This file aims to allow small granular updates to help with this effort.                   |
 
 ## Tech Stack
+
+![Generation from plain text](./docsify_demo_small.gif)
 
 | Library                                                                                | Usage                                                                                                      |
 | -------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |

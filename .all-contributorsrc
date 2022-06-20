@@ -34,10 +34,20 @@
       "contributions": [
         "review"
       ]
+    },
+    {
+      "login": "cAzare",
+      "name": "cAzare",
+      "avatar_url": "https://avatars.githubusercontent.com/u/50981285?v=4",
+      "profile": "https://github.com/cAzare",
+      "contributions": [
+        "review",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,
-  "projectName": "penguin-programming",
+  "projectName": "penguin-pragmatic-patterns",
   "projectOwner": "sddevelopment-be",
   "repoType": "github",
   "repoHost": "https://github.com",

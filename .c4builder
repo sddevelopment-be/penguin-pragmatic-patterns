@@ -24,5 +24,7 @@
 	"charset": "UTF-8",
 	"hasRun": true,
 	"includeNavigation": false,
-	"includeTableOfContents": true
+	"includeTableOfContents": true,
+	"excludeOtherFiles": false,
+	"checksums": []
 }

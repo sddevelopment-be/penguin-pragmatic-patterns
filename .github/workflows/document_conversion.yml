@@ -1,5 +1,3 @@
-name: <(^v^)> Documentation Conversion
-
 on:
   push:
     branches:
@@ -10,7 +8,7 @@ on:
 
 jobs:
   build:
-    name:
+    name: <(^v^)> Documentation Conversion
     runs-on: ubuntu-latest
     steps:
       - name: Checkout source code
@@ -18,7 +16,7 @@ jobs:
 
       - uses: actions/setup-node@v1
         with:
-          node-version: 10
+          node-version: 14
       - run: npm i -g c4builder
       - run: c4builder
       - run: cp ./src/_coverpage.md ./docs/

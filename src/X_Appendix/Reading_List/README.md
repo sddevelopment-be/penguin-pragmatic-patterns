@@ -1,5 +1,3 @@
-# Reading List
-
 There are so many awesome learning materials that the simple act of finding something
 to read is challenging in and of itself. The list below is a currated index of knowledge resources,
 including but not limited to:

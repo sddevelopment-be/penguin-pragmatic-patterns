@@ -1,7 +1,5 @@
 # Chapter 2 - Navigation
 
-
-
 ## Word-skipping with the arrow keys
 
 <!-- tabs:start -->
@@ -134,14 +132,11 @@ Move to the top of the file again, and press <kbd>F2</kbd> once again.
 Notice how the cursor now first jumps to the actual compilation error (_`privet` cannot be resolved_).
 
 > [!NOTE]
-> Cycling  only happens over all actual _errors_, and the _unused warnings_ are not cycled over anymore.
+> Cycling only happens over all actual _errors_, and the _unused warnings_ are not cycled over anymore.
 
 ### **Mac**
 
-
 <!-- tabs:end -->
-
-
 
 ## Jump into ![Windows](icons/glyph-windows-32.png)`ctrl(+alt)+b`
 

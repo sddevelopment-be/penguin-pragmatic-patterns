@@ -87,3 +87,5 @@ Note that indirect learning is not for everyone, and others might repeat some of
 - Are you reaching more milestones?
 - Do you feel like you are more productive?
 - Do you have an enhanced sense of purpose and/or productivity?
+
+---

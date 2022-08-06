@@ -244,3 +244,5 @@ The facilitator (or person assigned to take notes) creates a write-up of the ret
 | [40 ideas to spice up your retrospective](https://agilestrides.com/blog/40-ideas-to-spice-up-your-retrospective/)   | Ralph van Roosmalen |                                                                          |
 | [ 11 Ideas to Spice up Your Retrospective ](https://www.scrum.org/resources/blog/11-ideas-spice-your-retrospective) | Barry Overeem       |                                                                          |
 | [ Sprint retrospectives ideas ](https://easyretro.io/retrospective-ideas/)                                          | Various authors     |                                                                          |
+
+---

@@ -1,5 +1,30 @@
 # Practices
 
+## Free your mind: the external memory
+
+![./free-mind.gif](./free-mind.gif)
+
+### Context
+
+
+
+### Drivers
+
+* 
+
+### Solution
+
+
+
+### References
+
+| Item        | Description    | 
+| ----------- | -------------- |
+| [Creating a fersonal wiki](https://www.asianefficiency.com/organization/a-simple-personal-wiki-with-voodoopad/) | Asian efficiency: Creating a personal wiki |
+| [notion.so](https://www.notion.so/)| Online notetaking |
+
+---
+
 ## OPERAs method
 
 > A mental model to work towards task progress
@@ -89,6 +114,8 @@ Note that indirect learning is not for everyone, and others might repeat some of
 - Are you reaching more milestones?
 - Do you feel like you are more productive?
 - Do you have an enhanced sense of purpose and/or productivity?
+
+===
 
 
 ## Engaging retrospectives
@@ -337,3 +364,5 @@ The facilitator (or person assigned to take notes) creates a write-up of the ret
 | [40 ideas to spice up your retrospective](https://agilestrides.com/blog/40-ideas-to-spice-up-your-retrospective/)   | Ralph van Roosmalen |                                                                          |
 | [ 11 Ideas to Spice up Your Retrospective ](https://www.scrum.org/resources/blog/11-ideas-spice-your-retrospective) | Barry Overeem       |                                                                          |
 | [ Sprint retrospectives ideas ](https://easyretro.io/retrospective-ideas/)                                          | Various authors     |                                                                          |
+
+===

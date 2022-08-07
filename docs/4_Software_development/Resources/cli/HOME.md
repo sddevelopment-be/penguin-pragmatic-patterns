@@ -1,11 +1,12 @@
 # cli
 
-The command line interface, or CLI for short, is a powerpul utility.
-Unfortunatly, all this power can be quite overwhelming when you first become aqcuinted with it.
-Quite a few computer enthousiasts will remember the first time they accidentally found themselves in a
+
+The command line interface, or CLI for short, is a powerful utility.
+Unfortunately, all this power can be quite overwhelming when you first become acquainted with it.
+Quite a few computer enthusiasts will remember the first time they accidentally found themselves in a
 `vi`-shell and having no idea how to get out of it.
 
-Althoudh intimidating, once you become familiar with using the command line, you might notice how it alows you to work much faster then using a GUI.
+Although intimidating, once you become familiar with using the command line, you might notice how it allows you to work much faster then using a GUI.
 The sections below contain some tips, tricks and configurations to level up your terminal.
 
 > UNLIMITED POWER!
@@ -17,7 +18,7 @@ The sections below contain some tips, tricks and configurations to level up your
 As developers, we are used to typing. Our brain is usually the limiting factor in using cli commands efficiently.
 Long commands, with multiple options are especially annoying.
 Luckily, most \*NIX based systems have a good bash-like terminal out of the box.
-Let's take a look at making it work even beter.
+Let's take a look at making it work even better.
 
 ### Bash aliases for developers
 
@@ -28,6 +29,7 @@ from [gist bash_aliases](https://gist.github.com/stijn-dejongh/b55e91a775b6b6e95
 ```bash
 # TEXT aliases
 alias v="vim"
+alias nv="nvim"
 alias em="emacs"
 
 # GIT ALIASES
@@ -47,13 +49,13 @@ alias colemak="setxkbmap us -variant colemak"
 # MAVEN ALIASES
 
 alias mci="mvn clean install"
+alias mst="mci -Dmaven.test.skip=true"
 alias mi="mvn install"
 alias mrprep="mvn release:prepare"
 alias mrperf="mvn release:perform"
 alias mrrb="mvn release:rollback"
 alias mdep="mvn dependency:tree"
 alias mpom="mvn help:effective-pom"
-alias mst="mci -Dmaven.test.skip=true"
 alias msonar='mci -Psonar -Dsonar.host.url=http://localhost:9000 -Dsonar.login="$SONAR_KEY"'
 
 # DOCKER ALIASES

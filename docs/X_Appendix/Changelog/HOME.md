@@ -38,7 +38,7 @@ Following changes are known:
   - Add Return on Investment pattern
   - Add OPERAS method pattern
 - Add a Glossary containing terminology used in this tome
-- Add LUA filter to include pagebreaks into the markdown
+- Add LUA filter to include page breaks into the markdown
 - GitOps: Quality of life gitops updates:
   - Add Issue template for pattern suggestions
   - Add Issue template for Learning Resource recommendations/Reviews
@@ -60,8 +60,8 @@ Following changes are known:
 
 - Repository structure
 - Add documentation outlines
-  ** Add overview pages per sections
-  ** Add high-level description of software architecture
+  - Add overview pages per sections
+  - Add high-level description of software architecture
 
 ## Current Working version
 
@@ -113,10 +113,10 @@ Following changes are known:
 
 - Docsify deployment config
 - New project banner image
-- Glossary and Sidenav plugin
+- Glossary and Side navigation plugin
 - Cover page and logo
 - Reading list
-- Sidebar dircetory markings (arrows)
+- Sidebar directory markings (arrows)
 - Patterns on Learning: ShuHaRi and Dreyfus
 - Patterns on leadership: Lewin's leadership styles
 

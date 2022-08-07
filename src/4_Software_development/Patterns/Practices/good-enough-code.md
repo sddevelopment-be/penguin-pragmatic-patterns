@@ -2,7 +2,7 @@
 
 ### Context
 
-![Sometimes it is okay to keep it simple >](./overdesign.png ':size=380')   
+![Sometimes it is okay to keep it simple >](./overdesign.png ':size=380')
 
 A mistake passionate programmers tend to make is to over-design simple things to make them theoretically and aesthetically more beautiful than they need to be at that point in time. In doing so, they often end up spending much more time and mental effort on a piece of software than is needed (or will ever be valuable).
 
@@ -16,7 +16,7 @@ A mistake passionate programmers tend to make is to over-design simple things to
 * development time costs a LOT of money
 * not all code will have a significant lifespan
 
-### Solution 
+### Solution
 
 * write code that is as well designed as it needs to be at this point in time.
 * make sure the code you write at this point in time adheres to the basic principles of clean code and design
@@ -30,23 +30,23 @@ A mistake passionate programmers tend to make is to over-design simple things to
 
 #### Self-diagnosis
 
-Ask yourself: 
+Ask yourself:
+
 * _"Is this code likely to be changed/expanded in the future?"_
 * _"Is my design solving an issue that is here NOW, or am I solving an issue that might never happen?"_
 * _"If this expected issue occurs in the future, can it be easily fixed at that time"_
 
-
 ### Indicators
 
-- Throughput time of changes
-- Regression introduced during tasks
-- Function point count of changes
-- Cyclic complexity
-- Readability
+* Throughput time of changes
+* Regression introduced during tasks
+* Function point count of changes
+* Cyclic complexity
+* Readability
 
 ### Related Resources
 
 | Item                                                                                                | Description                                                                                                                                                            | Action                                                                                                                                                                                |
 | --------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Enterprise Quality FizzBuzz](https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition) | A prime example of overdesigning something that can be done in a way more simple manner.                                                                               | Go through the codebase, and ask _"Why would you want to do this? And why is it overkill here?"_                                                                                      |
-| [The bowling game kata](http://www.butunclebob.com/ArticleS.UncleBob.TheBowlingGameKata)            | A programming kata by uncle Bob. Appart from learning how he thinks, the excercise also focusses on supressing your personal need to overly beautify a simple project. | Do the excercise and stop yourself from creating too many classes. Repeat the mantra: _"This is fine for now"_ to supress your urges to add indirection or OO concepts to the design. |
+| [Enterprise Quality FizzBuzz](https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition) | A prime example of overengineering something that can be done in a way more simple manner.                                                                               | Go through the codebase, and ask _"Why would you want to do this? And why is it overkill here?"_                                                                                      |
+| [The bowling game kata](http://www.butunclebob.com/ArticleS.UncleBob.TheBowlingGameKata)            | A programming kata by uncle Bob. Apart from learning how he thinks, the exercise also focusses on suppressing your personal need to overly beautify a simple project. | Do the exercise and stop yourself from creating too many classes. Repeat the mantra: _"This is fine for now"_ to suppress your urges to add indirection or OO concepts to the design. |

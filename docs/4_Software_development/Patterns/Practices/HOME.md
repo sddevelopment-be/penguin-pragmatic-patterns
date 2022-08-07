@@ -29,7 +29,7 @@ If the code is significantly harder to read than your average fantasy novel, cha
 Give variables, methods, and classes a clear and descriptive name.  
 A good name should:
 
-- be a concept that can be used in natural speach (avoid abreviations)
+- be a concept that can be used in natural speech (avoid abbreviations)
 - not contain technical concepts
 - aim to live in the problem domain, rather than the solution domain
 
@@ -172,7 +172,7 @@ public class Game {
 
 ### Context
 
-![Sometimes it is okay to keep it simple >](./overdesign.png ':size=380')   
+![Sometimes it is okay to keep it simple >](./overdesign.png ':size=380')
 
 A mistake passionate programmers tend to make is to over-design simple things to make them theoretically and aesthetically more beautiful than they need to be at that point in time. In doing so, they often end up spending much more time and mental effort on a piece of software than is needed (or will ever be valuable).
 
@@ -186,7 +186,7 @@ A mistake passionate programmers tend to make is to over-design simple things to
 * development time costs a LOT of money
 * not all code will have a significant lifespan
 
-### Solution 
+### Solution
 
 * write code that is as well designed as it needs to be at this point in time.
 * make sure the code you write at this point in time adheres to the basic principles of clean code and design
@@ -200,51 +200,51 @@ A mistake passionate programmers tend to make is to over-design simple things to
 
 #### Self-diagnosis
 
-Ask yourself: 
+Ask yourself:
+
 * _"Is this code likely to be changed/expanded in the future?"_
 * _"Is my design solving an issue that is here NOW, or am I solving an issue that might never happen?"_
 * _"If this expected issue occurs in the future, can it be easily fixed at that time"_
 
-
 ### Indicators
 
-- Throughput time of changes
-- Regression introduced during tasks
-- Function point count of changes
-- Cyclic complexity
-- Readability
+* Throughput time of changes
+* Regression introduced during tasks
+* Function point count of changes
+* Cyclic complexity
+* Readability
 
 ### Related Resources
 
 | Item                                                                                                | Description                                                                                                                                                            | Action                                                                                                                                                                                |
 | --------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Enterprise Quality FizzBuzz](https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition) | A prime example of overdesigning something that can be done in a way more simple manner.                                                                               | Go through the codebase, and ask _"Why would you want to do this? And why is it overkill here?"_                                                                                      |
-| [The bowling game kata](http://www.butunclebob.com/ArticleS.UncleBob.TheBowlingGameKata)            | A programming kata by uncle Bob. Appart from learning how he thinks, the excercise also focusses on supressing your personal need to overly beautify a simple project. | Do the excercise and stop yourself from creating too many classes. Repeat the mantra: _"This is fine for now"_ to supress your urges to add indirection or OO concepts to the design. |
+| [Enterprise Quality FizzBuzz](https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition) | A prime example of overengineering something that can be done in a way more simple manner.                                                                               | Go through the codebase, and ask _"Why would you want to do this? And why is it overkill here?"_                                                                                      |
+| [The bowling game kata](http://www.butunclebob.com/ArticleS.UncleBob.TheBowlingGameKata)            | A programming kata by uncle Bob. Apart from learning how he thinks, the exercise also focusses on suppressing your personal need to overly beautify a simple project. | Do the exercise and stop yourself from creating too many classes. Repeat the mantra: _"This is fine for now"_ to suppress your urges to add indirection or OO concepts to the design. |
 
 
 ## Do not pass along too many parameters
 
 ### Context
 
-Functions (or methods) that take in a many input variables, also called parameters, are hard to read. The meaning and intent op each parameter is not alwayr clear. Optentimes, an abundance of input parameters is a sign of mixed respronrabilties. Other times it indicates multiple versions of the same functionality, or it might indicate missing concepts in your model.
+Functions (or methods) that take in a many input variables, also called parameters, are hard to read. The meaning and intent op each parameter is not always clear. Oftentimes, an abundance of input parameters is a sign of mixed responsibilities. Other times it indicates multiple versions of the same functionality, or it might indicate missing concepts in your model.
 
 ### Drivers
 
-* Method functionality rhould be visible at a glance
-* It is initially easier to write one big function that can deal with a viariety op inputs 
+* Method functionality should be visible at a glance
+* It is initially easier to write one big function that can deal with a variety of inputs
 * Maintenance becomes easier as code complexity decreases
 * Testing becomes easier ot less inputs are needed ( lees permutations == less risk of outlier flows)
 
 ### Solution
 
 * Consider the possibility that you placed the method in the wrong place. Moving it entirely to another class could reduce the need of the parameters being passed to it.
-* Apply the _builder_ or _factory_ pattern ipf the abbundance of parameters occurs in a constuctor method
+* Apply the _builder_ or _factory_ pattern ipf the abundance of parameters occurs in a constructor method
 * Extract class fields or constants if able
-* Split the method into multiple, smaller, methods 
+* Split the method into multiple, smaller, methods
 
 > **Author's note:** I must admit that most modern IDE's offer the programmer some help by displaying the names of the input parameters
 > in the calling method's definition. This works great for your own code, but does not play very nice with external libraries.
-> Even so, it is a good practise to keep your method definitions short, sweet, and to the point.
+> Even so, it is a good practice to keep your method definitions short, sweet, and to the point.
 
 ### Examples
 
@@ -279,7 +279,7 @@ public int main() {
 }
 ```
 
-If you are wondering how to solve this issue: there are a few possibilitiies.
+If you are wondering how to solve this issue: there are a few possibilities.
 In the above example, most of the parameters we are sending into the method are fixed in nature.
 That means we can easily extract them to constants.
 On other occasions, you might notice that your are passing a value all the way down a method hierarchy within the same class.

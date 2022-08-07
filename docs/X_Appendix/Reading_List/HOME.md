@@ -1,7 +1,7 @@
 # Reading_List
 
 There are so many awesome learning materials that the simple act of finding something
-to read is challenging in and of itself. The list below is a currated index of knowledge resources,
+to read is challenging in and of itself. The list below is a curated index of knowledge resources,
 including but not limited to:
 
 - books
@@ -17,7 +17,7 @@ The meaning of which can be found in the table below.
 | :fas fa-user-ninja:  | Practical, and usually opinionated. Pay attention to the context.                      |
 |   :fas fa-trophy:    | These resources are exceptionally valuable, and considered _'must read/watch'_ by many |
 | :fas fa-microscope:  | In-depth, somewhat challenging read.                                                   |
-| :fas fa-jet-fighter: | Quick paced, easily digestable.                                                        |
+| :fas fa-jet-fighter: | Quick paced, easily digestible.                                                        |
 
 ## Shortlist
 

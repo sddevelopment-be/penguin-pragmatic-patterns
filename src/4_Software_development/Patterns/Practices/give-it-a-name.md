@@ -27,7 +27,7 @@ If the code is significantly harder to read than your average fantasy novel, cha
 Give variables, methods, and classes a clear and descriptive name.  
 A good name should:
 
-- be a concept that can be used in natural speach (avoid abreviations)
+- be a concept that can be used in natural speech (avoid abbreviations)
 - not contain technical concepts
 - aim to live in the problem domain, rather than the solution domain
 

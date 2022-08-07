@@ -4,7 +4,9 @@
 
 ### Context
 
-
+Human memory is [extremely lossy](https://www.nationalgeographic.com/science/article/human-memory). We are better equipped for creative, constructive thinking than for storing factual information. Focus is [easily disrupted](https://blog.rescuetime.com/context-switching/).
+It makes practical and economical sense to try and reduce the impact of _"forgetfulness"_ and being _"pulled out of your flow"_.
+Try and find a way to free up your headspace and thinking power for the endeavors that actually matter.
 
 ### Drivers
 
@@ -32,8 +34,13 @@ Some of them are listed below in the _references_ section.
 You can use a simple text-based system to keep track of your thoughts, or ToDo items.
 I personally prefer using these text-based systems as they allow for easier cross-platform portability, akd avoid you being locked in to a single vendor solution. This entire knowledge base can be seen as one big "external brain".
 
-One of my favorite ways of note-taking while working on a software project is to add a _`dev_notes`_ directory to my codebase. 
-For short lived projects or changes, I tend to add this file to the `.gitignore` configuration of my repository as to not muck up the workspace of my colleagues. For more long-term or collaborative projects, consider creating a dedicated repository to host all of your developer notes. You can get creative with `symbolic links` to make these folders show up in your codebase irregardless of their physical location.
+### Personal testimonials
+
+#### Stijn's developer logs
+
+> One of my favorite ways of note-taking while working on a software project is to add a _`dev_notes`_ directory to my codebase. 
+> For short lived projects or changes, I tend to add this file to the `.gitignore` configuration of my repository as to not muck up the workspace of my  colleagues. For more long-term or collaborative projects, consider creating a dedicated repository to host all of your developer notes.
+> You can get creative with `symbolic links` to make these folders show up in your codebase irregardless of their physical location.
 
 ### References
 

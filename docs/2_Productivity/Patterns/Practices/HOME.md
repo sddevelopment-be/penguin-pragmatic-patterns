@@ -1,20 +1,80 @@
 # Practices
 
+## Estimation techniques
+
+
+
+### Context
+
+In a professional environment, and especially those that generate revenue by providing deliverables at regular intervals, a well defined schedule is of vital importance. For most of us, the world of management is somewhat of a mystery. So let us pull back the veil on this world just a little bit (not too much to avoid letting the demons that live there escape). Usually, when discussing budgets or assigning people to priority work, managers use techniques to assess whether or not a certain goal can be reached before a given deadline.
+
+From time to time, a delivery date is fixed and the challenge is in distributing the work required to achieve it. This is to be done while taking internal dependencies between these tasks into account.
+Most often though, the deadline is not set in stone. The customer will decide whether or not to purchase the promised delivery, based on the time it will take to get it done. In the world of software design, customers tend to ask for ballpark estimates. These types of high level estimates (usually expressed in weeks, or months) allow a customer to check if they have the budget to spend on a certain piece of software. If the expected cost turns out to be too high, the work can be postponed to the next fiscal year.
+
+### Drivers
+
+### Solution
+
+### Examples
+
+
+### References
+
+| Item        | Description    |
+| ----------- | -------------- |
+| | |
+
+
+### Personal testimonials / opinions
+
+#### Email conversation with D. Gallina
+
+While working as a team lead for a large client, I had the pleasure of attending an estimation workshop by [mr. Davide Gallina](https://www.linkedin.com/in/davidegallina/). We had a follow-up conversation on how to familiarize young professionals with the task of estimating their work.
+All too often less-experienced colleagues are either extremely optimistic when asked for an estimated completion date (_"It should be done tomorrow"_). Other times they panic and try to avoid saying anything at all, for fear of their estimation becoming a promise.
+
+> Mail excerpt. **From:** Stijn **To:** Davide  
+> ...  
+> In my current context, the team consists mostly of young graduates/junior level developers. While they are technically quite strong, they tend to significantly underestimate the time it takes to complete a task.  
+> 
+> As you said during your presentation: explaining to them that the full development cycle goes further than just hacking together something that works helps a bit in this regard. The flip side of them understanding there is more to development is that they are not confident in their abilities to properly estimate the amount of effort a task requires.  
+> So even when you do team-based estimations (planning poker, etc), the more junior people in the team tend to follow whomever they trust more.  
+> A minimal example is: _'During planning poker, the juniors estimates range from 1 hour to 15 days. Afterwards a discussion is started. One of the more experience team members explain their point of view, and one says it will be at least 6 days of work. We start round two of the planning poker sessions, and all juniors say the task will take 7 days.'.  
+>  
+> Often, these less-experienced developers do not know what their estimates are used for (budgeting, client billing, tender, etc.). When you try to explain to them what value their estimate holds, they tend to get a bit scared. Some of them will refuse to give their opinion, other will eventually say a number.
+> Afterwards, when they are developing the code and now understand how important estimates can be, they see them more as a strict deadline than as a guiding figure.  
+>  
+> I was wondering if you have experience with this issue, and if there are practical tips and tricks I could use to find a middle ground between 'not caring' and 'stressed rushing'.
+> I look forward to hearing your thoughts on this challenge, and I apologize for not being able to phrase the question in a less verbose way.  
+>  
+> Regards,  
+> Stijn
+
+
+> Mail excerpt. **From:** Davide **To:** Stijn 
+> ...  
+> 
+> 
+
+---
+
+
 ## Free your mind: the external memory
 
 ![./free-mind.gif](./free-mind.gif)
 
 ### Context
 
-
+Human memory is [extremely lossy](https://www.nationalgeographic.com/science/article/human-memory). We are better equipped for creative, constructive thinking than for storing factual information. Focus is [easily disrupted](https://blog.rescuetime.com/context-switching/).
+It makes practical and economical sense to try and reduce the impact of _"forgetfulness"_ and being _"pulled out of your flow"_.
+Try and find a way to free up your headspace and thinking power for the endeavors that actually matter.
 
 ### Drivers
 
-* Context switches hurt your producticity
+* Context switches hurt your productivity
 * Modern systems and activity are too large to pit in your brain completely
 * The more you have to keep in memory, the more likely you will forget something
 * Having a mental task list becomes exhausting after a while
-* We wish to be able to easily report porgress whnh queried
+* We wish to be able to easily report progress when queried
 * Hand-overs take a lot of time and effort
 * Computers are great at remembering stuff
 
@@ -23,7 +83,8 @@
 * Use a technological or physical aid to keep track of your ideas and notes
 * Make sure you **trust** your external brain, in order to free headspace
 * Revisit your notes regularly 
-* Favor text-based formats, as they are easier to version, maintain and port 
+* Favor text-based formats, as they are easier to version, maintain and port
+* Whatever system you use, make sure it is easily accessible, and non-disruptive to your primary focus
 
 ### Examples
 
@@ -31,20 +92,27 @@ There are many online (free and paid) systems that offer you a way to store your
 Some of them are listed below in the _references_ section.
 
 You can use a simple text-based system to keep track of your thoughts, or ToDo items.
-I personally preafer using these text-based systems as they allow for easier cross-platform portability, akd avoid you being locked in to a single vendor solution. This entire knowledge base can be seen as one big " external brain" 
+I personally prefer using these text-based systems as they allow for easier cross-platform portability, akd avoid you being locked in to a single vendor solution. This entire knowledge base can be seen as one big "external brain".
 
+### Personal testimonials / opinions
+
+#### Stijn's developer logs
+
+> One of my favorite ways of note-taking while working on a software project is to add a _`dev_notes`_ directory to my codebase. 
+> For short lived projects or changes, I tend to add this file to the `.gitignore` configuration of my repository as to not muck up the workspace of my  colleagues. For more long-term or collaborative projects, consider creating a dedicated repository to host all of your developer notes.
+> You can get creative with `symbolic links` to make these folders show up in your codebase irregardless of their physical location.
 
 ### References
 
-| Item        | Description    | 
+| Item        | Description    |
 | ----------- | -------------- |
-| [Creating a fersonal wiki](https://www.asianefficiency.com/organization/a-simple-personal-wiki-with-voodoopad/) | Asian efficiency: Creating a personal wiki |
-| [notion.so](https://www.notion.so/)| Online notetaking |
+| [Creating a personal wiki](https://www.asianefficiency.com/organization/a-simple-personal-wiki-with-voodoopad/) | Asian efficiency: Creating a personal wiki |
+| [notion.so](https://www.notion.so/)| Online note taking |
 | [Create a fersonal wiki using MS OneNote](https://cereal.baldwingroup.com/how-to-create-a-personal-wiki-using-microsoft-onenote) | Article by I. Humphrey n using OneNote as an external brain |
 | [NextCloud Personal data server](https://nextcloud.com/) | DIY data and notes storing solution |
 | [TODO.txt format](https://github.com/todotxt/todo.txt) | An open, text-based format for your TODO files|
 | [Trambu](https://github.com/stijn-dejongh/TraMBU) | My owm todo.txt inspired task-management application|
-| [Emacs org mode](https://orgmode.org/) | A major mode for [GNU Emacs](https://www.gnu.org/software/emacs/), aimed at organising your thoughts |
+| [Emacs org mode](https://orgmode.org/) | A major mode for [GNU Emacs](https://www.gnu.org/software/emacs/), aimed at organizing your thoughts |
 
 ---
 
@@ -60,17 +128,11 @@ I personally preafer using these text-based systems as they allow for easier cro
 
 ### Drivers
 
-* Context switches hurt your producticity
-* Modern systems and activity are too large to pit in your brain completely
-* The more you have to keep in memory, the more likely you will forget something
-* Having a mental task list becomes exhausting after a while
-* We wish to be able to easily report porgress whnh queried
-* Hand-overs take a lot of time and effort
-* Computers are great at remembering stuff
+* 
 
 ### Solution
 
-* Use a technological or physical aid to keef track of your ideas
+
 
 
 ### References

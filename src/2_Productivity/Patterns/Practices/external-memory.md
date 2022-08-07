@@ -34,7 +34,7 @@ Some of them are listed below in the _references_ section.
 You can use a simple text-based system to keep track of your thoughts, or ToDo items.
 I personally prefer using these text-based systems as they allow for easier cross-platform portability, akd avoid you being locked in to a single vendor solution. This entire knowledge base can be seen as one big "external brain".
 
-### Personal testimonials
+### Personal testimonials / opinions
 
 #### Stijn's developer logs
 

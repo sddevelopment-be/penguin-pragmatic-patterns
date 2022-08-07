@@ -63,7 +63,7 @@ Following changes are known:
   ** Add overview pages per sections
   ** Add high-level description of software architecture
 
-## v2.1.0
+## Current Working version
 
 #### Changed
 
@@ -73,6 +73,7 @@ Following changes are known:
 - apply formatting to markdown documents
 - moved "write good enough code" to "practices" from "concepts"
 - sidebar now uses "folder" style in stead of arrows
+- update pattern template to follow the new heading structure
 
 #### Added
 
@@ -82,6 +83,8 @@ Following changes are known:
 - included information about Pattern Languages and meta-modelling 
 - add description of knowledge sharing
 - animated image of local docsify usage
+- add "External Memory" Pattern
+- add footnote plugin
 - add `IntelliJ hotkeys` tutorial, by [Tim Schraepen](https://github.com/Sch3lp)
   - Convert + Add chapter one
   - Convert + Add chapter two
@@ -96,7 +99,7 @@ Following changes are known:
 
 - images in software development patterns are now smaller
 - spelling mistakes
-
+- glossary is now a self-maintained section, without automated links
 
 ## v2.0.0
 

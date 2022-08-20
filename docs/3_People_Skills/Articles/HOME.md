@@ -8,7 +8,7 @@ As one of my college professors used to say: I hate to come over as a "sage on a
 but over the last few months I have come to learn a whole lot of intangibles.
 Some advice that was given to me in the past by more experienced former colleagues
 has started to make a lot more sense, and I felt the need to write it down and
-share some of the realisations, advice, and experiences I have had.
+share some realisations, advice, and experiences I have had.
 
 When I read stories or career advice for people in the technical sector on social media,
 I usually feel that way too much attention is given to technical excellence.
@@ -76,7 +76,8 @@ The main things I took away from reading about a non-violent form of communicati
 
 - Try to actively listen to what other people are saying, in stead of just hearing the words
 - People are not insulting or threatening you, but are trying to convey that they are not happy about the present situation
-- When you find yourself unable to actively listen to what others are saying, it is usually because you have some sort of unmet need of your own
+- When you find yourself unable to actively listen to what others are saying, it is usually because you have some sort of unmet need of your
+  own
 - Most people are just trying to go about their business in a way that meets their own needs and expectations
 - Your point of view can drastically change the way you think about another person
 

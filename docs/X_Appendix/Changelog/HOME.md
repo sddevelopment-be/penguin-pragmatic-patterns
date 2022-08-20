@@ -84,11 +84,11 @@ Following changes are known:
 - included information about Pattern Languages and meta-modelling 
 - add description of knowledge sharing
 - animated image of local docsify usage
-- add "External Memory" Pattern
-- add footnote plugin
 - add `IntelliJ hotkeys` tutorial, by [Tim Schraepen](https://github.com/Sch3lp)
   - Convert + Add chapter one
   - Convert + Add chapter two
+- add "External Memory" Pattern
+- add footnote plugin
 
 #### Removed
 

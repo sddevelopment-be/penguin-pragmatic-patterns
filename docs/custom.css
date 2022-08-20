@@ -107,16 +107,6 @@ img[alt$="><"] {
   clear: both;
 }
 
-.markdown-section hr {
-  border: none;
-    border-bottom-color: currentcolor;
-    border-bottom-style: none;
-    border-bottom-width: medium;
-  border-bottom: 1px dashed #175574;
-  margin: 2.75rem 0;
-}
-
-
 /* Keyboard key presses, using deepblue style from  https://github.com/auth0/kbd/blob/gh-pages/kbd.css*/
 kbd {
 
@@ -141,4 +131,13 @@ kbd:hover * {
   background: #0290e8;
   color: white;
   cursor: default;
+}
+
+.markdown-section hr {
+  border: none;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+  border-bottom: 1px dashed #175574;
+  margin: 2.75rem 0;
 }

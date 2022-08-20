@@ -1,5 +1,327 @@
 # Chapter 2 - Navigation
 
+## Source code: Chapter Two
+
+<!-- tabs:start -->
+
+### **Chapter2.java**
+
+```java
+package be.swsb.productivity.chapter2;
+
+public class Chapter2 {
+
+    public Chapter2() {
+        String phrase = theQuickBrownFoxJumpedOverTheLazyCamel();
+    }
+
+    private String theQuickBrownFoxJumpedOverTheLazyCamel() {
+        return "The quick brown fox jumped over the lazy camel";
+    }
+
+    private String fox() {
+        return "The quick brown fox ";
+    }
+
+    private String jumpUsingStrategy() { return JumperStrategyFactory.epicJumperStrategy().jump(); }
+
+    private String camel() {
+        return "the lazy camel";
+    }
+}
+```
+
+### **EpicJumper.java**
+```java
+package be.swsb.productivity.chapter2;
+
+public class EpicJumper implements Jumper {
+
+    @Override
+    public String jump() {
+        return "pump epically ";
+    }
+}
+
+```
+
+### **Jumper.java**
+
+```java
+package be.swsb.productivity.chapter2;
+
+public interface Jumper {
+
+    String jump();
+}
+
+```
+
+### **JumperStrategyFactory.java**
+
+```java
+package be.swsb.productivity.chapter2;
+
+public class JumperStrategyFactory {
+
+    public static Jumper epicJumperStrategy() {
+        return new EpicJumper();
+    }
+
+    public static Jumper mehJumperStrategy() {
+        return new MehJumper();
+    }
+}
+
+```
+
+### **MehJumper.java**
+
+```java
+package be.swsb.productivity.chapter2;
+
+public class MehJumper implements Jumper {
+    @Override
+    public String jump() {
+        return "pump ";
+    }
+}
+
+```
+<!-- tabs:end -->
+
+## Source code: Chapter Two/mud
+
+<!-- tabs:start -->
+
+### **Ball.java**
+
+```java
+package be.swsb.productivity.chapter2.mud.domain;
+
+public class Ball {
+    private final String id;
+    private final int size;
+
+    public Ball(String id, int size) {
+        this.id = id;
+        this.size = size;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public int getSize() {
+        return size;
+    }
+
+    public void bounce(){
+        System.out.println("bounce");
+    }
+
+    public void smash(){
+        System.out.println("smash");
+    }
+
+    public void hit(){
+        System.out.println("hit");
+    }
+
+    public void dribble(){
+        System.out.println("dribble");
+    }
+
+    public void kick(){
+        System.out.println("kick");
+    }
+
+    public void shoot(){
+        System.out.println("shoot");
+    }
+
+    public void throwww(){
+        System.out.println("throwww");
+    }
+
+    public void squeeze(){
+        System.out.println("squeeze");
+    }
+
+    public void roll(){
+        System.out.println("roll");
+    }
+
+    public void destroy(){
+        System.out.println("destroy");
+    }
+
+    public void collect(){
+        System.out.println("collect");
+    }
+
+    public void launch(){
+        System.out.println("launch");
+    }
+
+    public void drizzle(){
+        System.out.println("drizzle");
+    }
+
+    public void hoop(){
+        System.out.println("hoop");
+    }
+
+    public void net(){
+        System.out.println("net");
+    }
+
+    public void score(){
+        System.out.println("score");
+    }
+
+    public void supersmash(){
+        System.out.println("supersmash");
+    }
+
+    public void assemble(){
+        System.out.println("assemble");
+    }
+
+    public void complete(){
+        System.out.println("complete");
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Ball ball = (Ball) o;
+
+        if (size != ball.size) return false;
+        return id != null ? id.equals(ball.id) : ball.id == null;
+
+    }
+
+    @Override
+    public int hashCode() {
+        int result = id != null ? id.hashCode() : 0;
+        result = 31 * result + size;
+        return result;
+    }
+}
+
+```
+
+### **BallRepository.java**
+
+```java
+package be.swsb.productivity.chapter2.mud.domain;
+
+public class BallRepository {
+
+    public Ball lookupById(String id) {
+//        return new Ball(id, 10);
+        return null;
+    }
+}
+```
+
+### **RealBall.java**
+
+```java
+package be.swsb.productivity.chapter2.mud.domain;
+
+public class RealBall extends Ball {
+
+    public RealBall(String id, int size) {
+        super(id, size);
+    }
+
+    public void bounce(){
+        System.out.println("bounce");
+    }
+
+    public void smash(){
+        System.out.println("smash");
+    }
+
+    public void hit(){
+        System.out.println("hit");
+    }
+
+    public void dribble(){
+        System.out.println("dribble");
+    }
+
+    public void kick(){
+        System.out.println("kick");
+    }
+
+    public void shoot(){
+        System.out.println("shoot");
+    }
+
+    public void throwww(){
+        System.out.println("throwww");
+    }
+
+    public void squeeze(){
+        System.out.println("squeeze");
+    }
+
+    public void roll(){
+        System.out.println("roll");
+    }
+
+    public void destroy(){
+        System.out.println("destroy");
+    }
+
+    public void collect(){
+        System.out.println("collect");
+    }
+
+    public void launch(){
+        System.out.println("launch");
+    }
+
+    public void drizzle(){
+        System.out.println("drizzle");
+    }
+
+    public void hoop(){
+        System.out.println("hoop");
+    }
+
+    public void net(){
+        System.out.println("net");
+    }
+
+    public void score(){
+        System.out.println("score");
+    }
+
+    public void supersmash(){
+        System.out.println("supersmash");
+    }
+
+    public void assemble(){
+        System.out.println("assemble");
+    }
+
+    public void complete(){
+        System.out.println("complete");
+    }
+
+}
+
+```
+
+<!-- tabs:end -->
+
+
 ## Word-skipping with the arrow keys
 
 <!-- tabs:start -->
@@ -198,9 +520,7 @@ From the end of previous exercise, make sure you're back in the `Chapter2.java` 
 
 ### **Mac**
 
-
 <!-- tabs:end -->
-
 
 
 ## Show in Project Window
@@ -236,7 +556,7 @@ Repeat the previous step, but instead of inspecting an element's usage, press <k
 Navigate the element tree using the arrow keys, and select any element you wish to take a closer look at with <kbd>ctrl</kbd> <kbd>enter</kbd> (or <kbd>F4</kbd> if you want to navigate to the code without further ado).
 
 > [!TIP]
-> move this navigational __Tool Window__ to the bottom bar (next to `3: Find`), because you'll usually want to optimize your screens horizontal space rather than it's vertical space.
+> move this navigational __Tool Window__ to the bottom bar (next to `3: Find`), because you'll  usually want to optimize your screens horizontal space rather than it's vertical space.
 
 ### **Mac**
 
@@ -244,26 +564,139 @@ Navigate the element tree using the arrow keys, and select any element you wish 
 <!-- tabs:end -->
 
 
+### Jump to definition
+
+<!-- tabs:start -->
+
+### **Windows**
+Navigate to the `return id;` line in the `Ball.java` class and put your cursor on `id`. Now press <kbd>ctrl</kbd> <kbd>b</kbd>
+This should navigate your code editor to the instantiation of the field itself.
+Press <kbd>ctrl</kbd> <kbd>b</kbd> again. This time it should show a popup asking if you want to show __accessors__ of the field. Let's go with _`Yes`_.
+
+### **Mac**
+
+
+<!-- tabs:end -->
+
 ### Pop-up windows (but not the annoying kind)
 
-![Windows](icons/glyph-windows-32.png)`ctrl+b`
+<!-- tabs:start -->
 
-This will show the usage in a popup window (![Windows](icons/glyph-windows-20.png)`Escape`able).
+### **Windows**
+Sometimes when you are working on code, you want to quickly reference how a certain class, field or method is defined without opening a new workspace window.
+In order to do so, you can make use of the <kbd>ctrl</kbd> <kbd>shift</kbd> <kbd>i</kbd> keyboard combination to do just so.
 
-Particularly handy to show read or write usage on a field.
+Other useful overlay pop-ups include: the __quick documentation__ and __quick parameter definition__ shortcuts.
+Let's find out what they do! Move to any line of code, and press <kbd>ctrl</kbd> <kbd>q</kbd>. The overlayed information pop-up will show you relevant documentation of the selected code element.
 
-Navigate to the `return id;` and put your cursor on `id`.
+Navigate to the `return id;` line in the `Ball.java` class and put your cursor on `id` again. Pressing <kbd>ctrl</kbd> <kbd>p</kbd> will show you the relevant documentation for this parameter.
+As we have not written any documentation, this ovelay window will be blank.
 
-Press ![Windows](icons/glyph-windows-20.png)`ctrl+b` once, this should navigate to the field itself.
+### **Mac**
 
-Press ![Windows](icons/glyph-windows-20.png)`ctrl+b` again, now it should show a popup asking if you want to show accessors of the field. Let's go with _Yes_. :)
+
+<!-- tabs:end -->
+
+## More source code!
+
+The next sections will refer to even more source code. For completeness, we will provide it here:
+
+<!-- tabs:start -->
+
+### **BallService.java**
+
+```java
+package be.swsb.productivity.chapter2.mud.service;
+
+public interface BallService {
+    BallTO findBall(String id);
+}
+
+```
+
+### **BallServiceImpl.java**
+
+```java
+package be.swsb.productivity.chapter2.mud.service;
+
+import be.swsb.productivity.chapter2.mud.domain.Ball;
+import be.swsb.productivity.chapter2.mud.domain.BallRepository;
+
+public class BallServiceImpl implements BallService {
+
+    private BallRepository ballRepository;
+    private BallTOAssembler ballTOAssembler;
+
+    public BallServiceImpl(BallRepository ballRepository) {
+        this.ballRepository = ballRepository;
+    }
+
+    @Override
+    public BallTO findBall(String id) {
+        Ball ball = ballRepository.lookupById(id);
+        return ballTOAssembler.assembleTOFrom(ball);
+    }
+}
+
+```
+
+### **BallTO.java**
+
+```java
+package be.swsb.productivity.chapter2.mud.service;
+
+public class BallTO {
+    private String id;
+    private int size;
+
+    public BallTO() {
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public int getSize() {
+        return size;
+    }
+
+    public void setSize(int size) {
+        this.size = size;
+    }
+}
+```
+
+
+### **BallTOAssembler.java**
+
+```java
+package be.swsb.productivity.chapter2.mud.service;
+
+import be.swsb.productivity.chapter2.mud.domain.Ball;
+
+public class BallTOAssembler {
+    public BallTO assembleTOFrom(Ball ball) {
+        BallTO ballTO = new BallTO();
+        ballTO.setId(ball.getId());
+        ballTO.setSize(ball.getSize());
+
+        return ballTO;
+    }
+}
+
+```
+
+<!-- tabs:end -->
 
 ## Line-based navigation
 
-Jump to line ![Windows](icons/glyph-windows-32.png)`ctrl+g` (example with paste from stacktrace)
+Here is a part of a very long stacktrace.
 
-Here's a strip of a stacktrace.
-
+```bash
     java.lang.NullPointerException
       at be.swsb.productivity.chapter2.mud.service.BallServiceImpl.findBall(BallServiceImpl.java:18)
       at be.swsb.productivity.chapter2.mud.ui.BallScreen.render(BallScreen.java:15)
@@ -295,8 +728,20 @@ Here's a strip of a stacktrace.
       at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
       at java.lang.reflect.Method.invoke(Method.java:497)
       at com.intellij.rt.execution.application.AppMain.main(AppMain.java:144)
+```
 
-Let's see where the NullPointer is occurring and open ![Windows](icons/glyph-windows-20.png)`ctrl+n` BallServiceImpl, and use ![Windows](icons/glyph-windows-20.png)`ctrl+g` to enter line `18`, as it states in the second line of the Stacktrace.
+<!-- tabs:start -->
+
+### **Windows**
+Let's see where the NullPointer is occurring. Open `BallServiceImpl`, using <kbd>ctrl</kbd> <kbd>n</kbd>.
+Now use <kbd>ctrl</kbd> <kbd>n</kbd> and enter the desired line number (this is line nr. `18`), as the stacktrace above states the error is occurs on this line:
+`at be.swsb.productivity.chapter2.mud.service.BallServiceImpl.findBall(BallServiceImpl.java:18)`
+
+### **Mac**
+
+
+<!-- tabs:end -->
+
 
 ## Navigate to method ![Windows](icons/glyph-windows-32.png)`ctrl+F12`
 

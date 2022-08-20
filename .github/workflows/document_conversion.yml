@@ -19,7 +19,7 @@ jobs:
           node-version: 14
       - run: npm i -g c4builder
       - run: c4builder
-      - run: cp ./src/_coverpage.md ./docs/
+      - run: cp ./src/_coverpage.md ./docs/_coverpage.md
 
       - name: push
         if: github.ref == 'refs/heads/main'

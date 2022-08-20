@@ -6,7 +6,8 @@ Hosting a useful retrospective session is quite difficult. You aim to have a gro
 share knowledge about what went well. One of the risks of having a static retro format, are that teams lose interest in the sessions, and are less engaged during the meeting.
 We aim to avoid this staleness by varying the "theme" of the retro, while keeping the general structure the same.
 
-Every group can employ slight variations on the approach used, based on a similar template. The aim of these alternating retro formats is to stimulate constructive communication between team members.While the team lead or management are present during the discussions, and have the final decision on actions proposed, they should refrain from taking an authoritative position during the retro.
+Every group can employ slight variations on the approach used, based on a similar template. 
+The aim of these alternating retro formats is to stimulate constructive communication between team members.While the team lead or management are present during the discussions, and have the final decision on actions proposed, they should refrain from taking an authoritative position during the retro.
 
 ### Applicable Context
 
@@ -45,7 +46,7 @@ Joins the retro, raises issues (tickets/stickies, etc), votes on discussion poin
 
 ##### **Observer**
 
-> "You can sit in the room/meeting/call but you are not to speak"
+> "You can sit in the room/meeting/call, but you are not to speak"
 
 Is invited to listen to the retro, but does not participate.
 If an observer does not stick to their accepted role, the facilitator should give them the choice between switching to a participator role, or leaving the meeting.

@@ -7,7 +7,7 @@ In a simplified business environment, these terms are usually substituted by "mo
 for sure, I feel that it lacks some non-monetary gains. There are those that try to calculate the value of everything by converting
 it into an amount of money. While there is value in this, I find it a difficult exercise to align with my personal ethics.
 
-A question to ask here is: _"How would you value a human life? How would you value an improvement to someones self-image or daily
+A question to ask here is: _"How would you value a human life? How would you value an improvement to someone's self-image or daily
 struggles?"_
 
 We shan't go into this much further, as we would deviate from the main point I wish to transfer and dive too deep into philosophical debate.

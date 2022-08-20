@@ -10,7 +10,7 @@ In order to help you find the next thing to research, we included some symbols n
 The meaning of which can be found in the table below.
 
 |        Symbol        | Meaning                                                                                |
-| :------------------: | -------------------------------------------------------------------------------------- |
+|:--------------------:|----------------------------------------------------------------------------------------|
 | :fas fa-chess-pawn:  | Excellent introductory resource                                                        |
 | :fas fa-user-ninja:  | Practical, and usually opinionated. Pay attention to the context.                      |
 |   :fas fa-trophy:    | These resources are exceptionally valuable, and considered _'must read/watch'_ by many |
@@ -55,12 +55,12 @@ The meaning of which can be found in the table below.
 | [The 8th Habit: From Effectiveness to Greatness](https://www.goodreads.com/book/show/1044141.The_8th_Habit)                                                                           | Stephen R. Covey                                       | :fas fa-trophy: :fas fa-user-ninja: :fas fa-jet-fighter: |
 | [Principle-Centered Leadership](https://www.goodreads.com/book/show/44644.Principle_Centered_Leadership)                                                                              | Stephen R. Covey                                       |                   :fas fa-user-ninja:                    |
 | [The Five Dysfunctions of a Team: A Leadership Fable](https://www.goodreads.com/book/show/21343.The_Five_Dysfunctions_of_a_Team?from_search=true&from_srp=true&qid=gvzpNFeQpW&rank=1) | Patrick Lencioni                                       |           :fas fa-trophy: :fas fa-user-ninja:            |
-| [Domain-Driven Design: Tackling Complexity in the Heart of Software](https://www.goodreads.com/book/show/179133.Domain_Driven_Design)                                | Eric Evans                                             |                   :fas fa-chess-pawn: :fas fa-microscope:                   |
+| [Domain-Driven Design: Tackling Complexity in the Heart of Software](https://www.goodreads.com/book/show/179133.Domain_Driven_Design)                                                 | Eric Evans                                             |         :fas fa-chess-pawn: :fas fa-microscope:          |
 
 ### **Articles && Short-form publications**
 
 | Name                                                                                                                                                                    | Author                                 |                  Tags                   |
-| :---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------- | :-------------------------------------: |
+|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------|:---------------------------------------:|
 | [The Big Refactoring](https://principal-it.eu/2022/02/tdd-tales-the-big-refactoring/)                                                                                   | Jan Van Ryswyck                        |        :fas fa-user-chess-pawn:         |
 | [16 misconceptions about Waterfall](https://failfastmoveon.blogspot.com/2020/11/16-misconceptions-about-waterfall.html)                                                 | Michael Küsters                        | :fas fa-chess-pawn: :fas fa-user-ninja: |
 | [Product Manager vs Product Owner](https://medium.com/@melissaperri/product-manager-vs-product-owner-57ff829aa74d)                                                      | Melissa Perri                          |           :fas fa-microscope:           |
@@ -74,7 +74,7 @@ The meaning of which can be found in the table below.
 ### **Talks**
 
 | Name                                                                                                                     | Author            |                Tags                 |
-| :----------------------------------------------------------------------------------------------------------------------- | ----------------- | :---------------------------------: |
+|:-------------------------------------------------------------------------------------------------------------------------|-------------------|:-----------------------------------:|
 | [Beauty in Code 2020: "Getting Back To The Heart of Agile"](https://www.youtube.com/watch?v=2e-7TFa9NhU)                 | Alistair Cockburn |           :fas fa-trophy:           |
 | [Beauty in Code 2018: "Software professionals, we keep using that word..."](https://www.youtube.com/watch?v=ll0IvBWEdz0) | Louis Hansen      |         :fas fa-user-ninja:         |
 | [Beauty in Code 2020: "Lambda? You Keep Using That Letter"](https://www.youtube.com/watch?v=0igQL-zrx-U)                 | Kevlin Henney     | :fas fa-trophy: :fas fa-microscope: |
@@ -84,7 +84,7 @@ The meaning of which can be found in the table below.
 ### **Websites**
 
 | Name                                                                                     | Author                                               |                          Tags                           |
-| :--------------------------------------------------------------------------------------- | ---------------------------------------------------- | :-----------------------------------------------------: |
+|:-----------------------------------------------------------------------------------------|------------------------------------------------------|:-------------------------------------------------------:|
 | [Coding is like cooking](http://coding-is-like-cooking.info)                             | Emily Bache                                          |                   :fas fa-user-ninja:                   |
 | [The C4 model for visualising software architecture](https://www.c4model.com/)           | Simon Brown                                          |          :fas fa-trophy: :fas fa-jet-fighter:           |
 | [Sociocracy 3.0: Evolve Effective Collaboration At Any Scale](https://sociocracy30.org/) | Bernhard Bockelbrink, James Priest and Liliana David | :fas fa-trophy: :fas fa-user-ninja: :fas fa-microscope: |
@@ -93,7 +93,7 @@ The meaning of which can be found in the table below.
 ### **Podcasts**
 
 | Name                                                                                              | Author                               |        Tags         |
-| :------------------------------------------------------------------------------------------------ | ------------------------------------ | :-----------------: |
+|:--------------------------------------------------------------------------------------------------|--------------------------------------|:-------------------:|
 | [A bit of optimism](https://open.spotify.com/show/0wjYlCNxLDgFUUjZMaP6Dx?si=c6e9dc79be9d4859)     | Simon Sinek                          | :fas fa-user-ninja: |
 | [Beyond Coding](https://open.spotify.com/show/7asIKIPU3N6n0SNWHxwMnQ?si=a7300c86f6f84d66)         | Patrick Akil                         |                     |
 | [The education game](https://open.spotify.com/show/7IqTX2koCqgzJ8uTpmHqzk?si=ec0e3e413b9142bb)    | Matt Barnes && Dr. Scott Van Beck    |                     |

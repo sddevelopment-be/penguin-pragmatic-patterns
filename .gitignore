@@ -1,7 +1,13 @@
 # Compiled class file
 *.class
 ./target
+.vscode
 /docs
+
+gradle
+.gradle
+gradlew
+gradlew.*
 
 *.iml
 

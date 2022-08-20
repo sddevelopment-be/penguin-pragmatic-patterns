@@ -132,3 +132,12 @@ kbd:hover * {
   color: white;
   cursor: default;
 }
+
+.markdown-section hr {
+  border: none;
+    border-bottom-color: currentcolor;
+    border-bottom-style: none;
+    border-bottom-width: medium;
+  border-bottom: 1px dashed #175574;
+  margin: 2.75rem 0;
+}

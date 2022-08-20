@@ -33,20 +33,20 @@ Following changes are known:
 - Template: add pattern template to github issue tracker and update labels
 - Productivity: Essay on agile software development
 - Programming: Patterns on writing clean code
-  - Baptize your code: the value of giving code artifacts proper names
+    - Baptize your code: the value of giving code artifacts proper names
 - Productivity: Patterns on doing things and making progressing
-  - Add Return on Investment pattern
-  - Add OPERAS method pattern
+    - Add Return on Investment pattern
+    - Add OPERAS method pattern
 - Add a Glossary containing terminology used in this tome
-- Add LUA filter to include pagebreaks into the markdown
+- Add LUA filter to include page breaks into the markdown
 - GitOps: Quality of life gitops updates:
-  - Add Issue template for pattern suggestions
-  - Add Issue template for Learning Resource recommendations/Reviews
-  - Add labels
-  - Add contributors automation
+    - Add Issue template for pattern suggestions
+    - Add Issue template for Learning Resource recommendations/Reviews
+    - Add labels
+    - Add contributors automation
 - Automation:
-  - Add JustDoIt script
-  - Add script to create new section directory structure and empty files
+    - Add JustDoIt script
+    - Add script to create new section directory structure and empty files
 
 #### Deleted
 
@@ -60,31 +60,38 @@ Following changes are known:
 
 - Repository structure
 - Add documentation outlines
-  ** Add overview pages per sections
-  ** Add high-level description of software architecture
+    - Add overview pages per sections
+    - Add high-level description of software architecture
 
-## v2.1.0
+
+## Current Working version
 
 #### Changed
 
 - formatted the patterns in `Software Development`
 - extracted appendices `Glossary`, `Changelog`, and `Reading List` to separate folders
 - main README has been updated
-- apply formatting to markdown documents
+- apply formatting to Markdown documents
 - moved "write good enough code" to "practices" from "concepts"
-- sidebar now uses "folder" style in stead of arrows
+- sidebar now uses "folder" style instead of arrows
+- update pattern template to follow the new heading structure
+- OPERAs pattern now features collapsible sections and follows the intended pattern-practice structure
+- Moved `Practices` and `Concepts` pattern categories to the top level of each pilar
+- Update _"ROI"_ pattern structure
 
 #### Added
 
 - support for footnotes
 - docsify.js notifications plugin
 - styling to layout images
-- included information about Pattern Languages and meta-modelling 
+- included information about Pattern Languages and meta-modelling
 - add description of knowledge sharing
 - animated image of local docsify usage
 - add `IntelliJ hotkeys` tutorial, by [Tim Schraepen](https://github.com/Sch3lp)
-  - Convert + Add chapter one
-  - Convert + Add chapter two
+    - Convert + Add chapter one
+    - Convert + Add chapter two
+- add "External Memory" Pattern
+- add footnote plugin
 
 #### Removed
 
@@ -96,7 +103,7 @@ Following changes are known:
 
 - images in software development patterns are now smaller
 - spelling mistakes
-
+- glossary is now a self-maintained section, without automated links
 
 ## v2.0.0
 
@@ -110,10 +117,10 @@ Following changes are known:
 
 - Docsify deployment config
 - New project banner image
-- Glossary and Sidenav plugin
+- Glossary and Side navigation plugin
 - Cover page and logo
 - Reading list
-- Sidebar dircetory markings (arrows)
+- Sidebar directory markings (arrows)
 - Patterns on Learning: ShuHaRi and Dreyfus
 - Patterns on leadership: Lewin's leadership styles
 

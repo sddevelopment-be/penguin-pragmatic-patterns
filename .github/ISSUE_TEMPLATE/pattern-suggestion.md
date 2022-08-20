@@ -29,16 +29,19 @@ to creating your own github fork.
 
 > Add introduction to your pattern here
 
-### Applicable Context
+### Context
 
 > Where and when to use this pattern? When does it work, what to look out for?
 > Why use this pattern?
 
-### Description of Pattern
+### Drivers
 
 > Describe the core idea of the pattern and how to apply it.
 
-### Key Performance Metrics
+### Solution
+
+
+### Key Performance Metrics [Optional]
 
 > How do we know if we applied the pattern succesfully? What are our _'red flags'_ that should
 > trigger a adaption of the style of application?
@@ -49,7 +52,9 @@ to creating your own github fork.
 > example of a precondition KPI: 'The team turnover is higher than 1/month'  
 > example of a postcondition KPI: 'The team turnover is lower than 1/year'
 
-### Related Patterns and Resources
+### Examples [Optional]
+
+### Related Patterns and Resources [Optional]
 
 > Add links to other patterns in the collection (or external ones), please add
 > references to the source material if you were inspired by someone else's work.
@@ -59,7 +64,11 @@ to creating your own github fork.
 | ----------- | -------------- | ------------------- |
 | Some thingy | Why it is here | What to do with it? |
 
-### Pattern meta information
+### Use Cases / Testimonials [Optional]
+
+
+
+### Pattern meta information 
 
 > Credit should go where it is due. If you are so kind to donate your knowledge to
 > the open source / self-improvement community, we believe you've earned the (bragging) right to

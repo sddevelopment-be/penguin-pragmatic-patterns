@@ -4,6 +4,10 @@ Each chapter contains a thorough explanation and a set of exercises.
 Even though the progression in these chapters might seem to be increasing in difficulty, you don't need to think of them as thresholds.
 The main reason this series is divided into chapters is to help your brain make new neural pathways even better by trying to categorize certain types of shortcuts. This way, we hope you'll think of Using them more frequently in real life.
 
+> ![TIP]
+> To speed up your tutorial progression, it is strongly advised to copy the entire source code we ure in the tutorial to your local machine.
+> You can either fetch this code from the [original authors github page](https://github.com/Sch3lp/ProductivityWithShortcuts), or from our [copied version](https://github.com/sddevelopment-be/penguin-pragmatic-patterns/tree/main/code/productivity_with_shortcuts).
+
 ### Quality of life improvements
 In addition to a few visual upgrades over the original version of this series, this tutorial includes shortcuts for both the Windows and Macintosh operating systems. As they differ significantly in some places, different descriptions are given for each OS.
 In the online version of this text, you will find tabular panes like the one below.

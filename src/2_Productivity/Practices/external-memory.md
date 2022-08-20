@@ -1,6 +1,6 @@
 ## Free your mind: the external memory
 
-![./free-mind.gif](src/2_Productivity/Practices/free-mind.gif)
+![./free-mind.gif](./free-mind.gif)
 
 ### Context
 

@@ -11,7 +11,7 @@ plan of attack.
 
 The core idea is to give pattern users a mental map of the different actions that are required to complete a 'milestone'.
 
-![The OPERAs flow](./OPERAs.png)
+![The OPERAs flow](src/2_Productivity/Practices/OPERAs.png)
 
 ### Drivers
 

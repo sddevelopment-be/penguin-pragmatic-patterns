@@ -11,7 +11,7 @@ Over time, you will develop this skill. But when starting out, it helps to know 
 
 #### But it works! That's all that matters, right?
 
-![my attempt at reproducing the famous cartoon >](./wtf_per_minute.png ":size=480")
+![my attempt at reproducing the famous cartoon >](src/4_Software_development/Concepts/wtf_per_minute.png ":size=480")
 
 When writing software, it is easy to fall into the trap of thinking that your only priority is making it work.
 It is true that this is the most important goal of your task. If you have spent some time working on a bigger piece of software, you will probably have noticed that you spent a lot of time reading code that is already there.

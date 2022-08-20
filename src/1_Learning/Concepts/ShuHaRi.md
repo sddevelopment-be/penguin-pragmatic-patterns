@@ -7,7 +7,7 @@ Shu Ha Ri is a Japanese martial art concept that is used to describe the stages 
 > When we learn or train in something, we pass through the stages of shu, ha, and ri. These stages are explained as follows. In shu, we repeat the forms and discipline ourselves so that our bodies absorb the forms that our forebears created. We remain faithful to these forms with no deviation. Next, in the stage of ha, once we have disciplined ourselves to acquire the forms and movements, we make innovations. In this process the forms may be broken and discarded. Finally, in ri, we completely depart from the forms, open the door to creative technique, and arrive in a place where we act in accordance with what our heart/mind desires, unhindered while not overstepping laws.  
 > ~ sensei Seishiro Endo [2005](https://web.archive.org/web/20110610205348/http://homepage3.nifty.com/aikido_sakudojo/Shihan_Interview_Dou144-e.html)
 
-![Shu Ha Ri](./shuhari_kanji.jpg)
+![Shu Ha Ri](src/1_Learning/Concepts/shuhari_kanji.jpg)
 
 #### Shu 守: Obey / Protect
 

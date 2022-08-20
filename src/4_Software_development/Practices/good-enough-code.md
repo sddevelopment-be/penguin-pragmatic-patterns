@@ -2,7 +2,7 @@
 
 ### Context
 
-![Sometimes it is okay to keep it simple >](./overdesign.png ':size=380')
+![Sometimes it is okay to keep it simple >](src/4_Software_development/Practices/overdesign.png ':size=380')
 
 A mistake passionate programmers tend to make is to over-design simple things to make them theoretically and aesthetically more beautiful than they need to be at that point in time. In doing so, they often end up spending much more time and mental effort on a piece of software than is needed (or will ever be valuable).
 

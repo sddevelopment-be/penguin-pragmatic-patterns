@@ -18,5 +18,3 @@ Meta learning is originally described by Donald B. Maudsley (1979) as "the proce
 - reorganize themselves by changing their rules/assumptions.
 
 (source: [wikipedia: Meta-learning](https://en.wikipedia.org/wiki/Meta_learning))
-
-## Learning styles

@@ -2,7 +2,7 @@
 
 ## Free your mind: the external memory
 
-![./free-mind.gif](src/2_Productivity/Practices/free-mind.gif)
+![./free-mind.gif](./free-mind.gif)
 
 ### Context
 
@@ -64,6 +64,47 @@ single vendor solution. This entire knowledge base can be seen as one big "exter
 ---
 
 
+## Organize your workflow
+
+### Context
+
+
+### Drivers
+
+* You want to finalize your tasks and "get things done"
+* People are often distracted by their own thoughts
+* Multitasking is hard. Our brains work better if we can compartmentalize between different modes of thinking
+* Our memories are very lossy. We tend to forget about things all the time
+* Standard To-Do lists have no readily available means of prioritizing items
+* Having too many things on our mind stresses us out
+
+### Solution
+
+![./task-flow.png](./task_flow.png ':size=540')
+
+
+
+### Examples
+
+#### Personal productivity flow using MS online tooling 
+
+In recent years, microsoft has pivotted towards providing office-as-a-service applications.
+Most if these can be easily incorporated into your personal workflow. Having everything online makes it easier to be productive,
+without losing your mobility.
+
+
+### References
+
+| Item                                                                                                                   | Description                                                        | 
+|------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------|
+| [Getting thihgs done - David Allen](https://www.amazon.com/Getting-Things-Done-Stress-Free-Productivity/dp/0143126563) | Link to book (amazon)                                              |
+| [NextCloud](https://nextcloud.com/)                                                                                    | A self-hosted personal filen organizer, and productivity platform. | 
+
+---
+
+
+
+
 ## OPERAs method
 
 ### Context
@@ -77,7 +118,7 @@ plan of attack.
 
 The core idea is to give pattern users a mental map of the different actions that are required to complete a 'milestone'.
 
-![The OPERAs flow](src/2_Productivity/Practices/OPERAs.png)
+![The OPERAs flow](./OPERAs.png)
 
 ### Drivers
 

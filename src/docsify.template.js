@@ -1,5 +1,5 @@
 module.exports = (options) => {
-  return `<!DOCTYPE html>
+    return `<!DOCTYPE html>
     <html lang="en">
 
     <head>
@@ -36,7 +36,7 @@ module.exports = (options) => {
 		maxLevel: 2,
 		subMaxLevel: 3,
 		sidebarDisplayLevel: 1,
-		coverpage: true,
+		coverpage: false,
 		homepage: 'HOME.md',
 		auto2top: true,
 		plantuml: {
@@ -51,7 +51,7 @@ module.exports = (options) => {
 		},
 
 		share: {
-		        reddit: true,
+            reddit: true,
 			linkedin: true,
 			twitter: true,
 			whatsapp: true,

@@ -14,7 +14,7 @@
 
 ### Solution
 
-![./task-flow.png](./task_flow.png)
+![./task-flow.png](./task_flow.png ':size=540')
 
 
 

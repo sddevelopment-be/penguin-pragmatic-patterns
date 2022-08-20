@@ -6,15 +6,19 @@
 >
 > ~ Phil Karlton
 
-In a surprising amount of fairy tales, myths, and legends the _"power of naming"_ is an ancient magical ability that allows you to control things if you just know how it is
-really called. Programming is not much different. If the entities and variables you work with have revealing names, a confusing piece of code becomes very clear.
+In a surprising amount of fairy tales, myths, and legends the _"power of naming"_ is an ancient magical ability that allows you to control
+things if you just know how it is
+really called. Programming is not much different. If the entities and variables you work with have revealing names, a confusing piece of
+code becomes very clear.
 This clarity is achieved by simple renaming things to be expressive, a feat most modern IDE's can do for you at little cost.
 
 ### Context
 
-As a software professional, you spend a lot of time reading code. Some of this code was written by yourself at an earlier point in time, other code is written by others. You notice that functions or parameters have names that do not help you understand their intent.
+As a software professional, you spend a lot of time reading code. Some of this code was written by yourself at an earlier point in time,
+other code is written by others. You notice that functions or parameters have names that do not help you understand their intent.
 
-If the code is significantly harder to read than your average fantasy novel, chances are the names of the `functions`, `parameters`, and `variables` are in need of some attention and nursing.
+If the code is significantly harder to read than your average fantasy novel, chances are the names of the `functions`, `parameters`,
+and `variables` are in need of some attention and nursing.
 
 ### Drivers
 
@@ -22,7 +26,8 @@ If the code is significantly harder to read than your average fantasy novel, cha
 - Poorly understood code leads to **lazy changes**, or introduction of **bugs** (aka. Code rot, Broken windows)
 - The original author of the code is unlikely to be available to explain their intent
 - Holding on to significant mental context makes **interruptions**, or context switches, more expensive
-- As humans we **understand text more easily** if we are given sufficient context, and understand most of the words that are used in the fragment.
+- As humans we **understand text more easily** if we are given sufficient context, and understand most of the words that are used in the
+  fragment.
 
 ### Solution
 
@@ -43,9 +48,14 @@ If you are unable to find a good name:
 ### Examples
 
 Consider the following code snippets, it is likely you understand the second iteration of the code a lot easier than the first one.
-Some of you might even recognize it as the 'Bowling game kata' [Popularized by Uncle Bob](butunclebob.com/ArticleS.UncleBob.TheBowlingGameKata). To a compiler both code snippets are identical. Humans however are not computers, Even though most developers would like them to be.
+Some of you might even recognize it as the 'Bowling game
+kata' [Popularized by Uncle Bob](butunclebob.com/ArticleS.UncleBob.TheBowlingGameKata). To a compiler both code snippets are identical.
+Humans however are not computers, Even though most developers would like them to be.
 
-As humans we understand text fragments, including code, better if we are given sufficient context and if we understand most of the words that are used in the fragment. Good code should allow anyone with a fundamental understanding of the language of choice to understand what is going on at a glance. The older you get, the harder it becomes to keep a large stack of working knowledge in your head. If your code requires you to hold a lot of this knowledge just to be able to understand what is going on, it is probably not very well written.
+As humans we understand text fragments, including code, better if we are given sufficient context and if we understand most of the words
+that are used in the fragment. Good code should allow anyone with a fundamental understanding of the language of choice to understand what
+is going on at a glance. The older you get, the harder it becomes to keep a large stack of working knowledge in your head. If your code
+requires you to hold a lot of this knowledge just to be able to understand what is going on, it is probably not very well written.
 
 <!-- tabs:start -->
 
@@ -56,54 +66,54 @@ package be.doji.sandbox.kata;
 
 public class Main {
 
-	public static final int MRIG = 21;
-	public static final int AMOUNT = 10;
-	public static final int MAX = 10;
+    public static final int MRIG = 21;
+    public static final int AMOUNT = 10;
+    public static final int MAX = 10;
 
-	private final int[] down = new int[MRIG];
-	private int cr = 0;
+    private final int[] down = new int[MRIG];
+    private int cr = 0;
 
-	public void go(int input) {
-		down[cr++] = input;
-	}
+    public void go(int input) {
+        down[cr++] = input;
+    }
 
-	public int calcResult() {
-		int result = 0;
-		int counter = 0;
-		for(int i = 0; i < AMOUNT; i++) {
-			if(caseOne(counter)) {
-				result += 10 + bonusOne(counter);
-				counter += 1;
-			} else if(caseTwo(counter)) {
-				result += sum(counter) + bonusTwo(counter);
-				counter += 2;
-			} else {
-				result += sum(counter);
-				counter += 2;
-			}
-		}
-		return result;
-	}
+    public int calcResult() {
+        int result = 0;
+        int counter = 0;
+        for (int i = 0; i < AMOUNT; i++) {
+            if (caseOne(counter)) {
+                result += 10 + bonusOne(counter);
+                counter += 1;
+            } else if (caseTwo(counter)) {
+                result += sum(counter) + bonusTwo(counter);
+                counter += 2;
+            } else {
+                result += sum(counter);
+                counter += 2;
+            }
+        }
+        return result;
+    }
 
-	private boolean caseOne(int in) {
-		return down[in] == MAX;
-	}
+    private boolean caseOne(int in) {
+        return down[in] == MAX;
+    }
 
-	private boolean caseTwo(int in) {
-		return sum(in) == MAX;
-	}
+    private boolean caseTwo(int in) {
+        return sum(in) == MAX;
+    }
 
-	private int sum(int in) {
-		return down[in] + down[in + 1];
-	}
+    private int sum(int in) {
+        return down[in] + down[in + 1];
+    }
 
-	private int bonusTwo(int in) {
-		return down[in + 2];
-	}
+    private int bonusTwo(int in) {
+        return down[in + 2];
+    }
 
-	private int bonusOne(int in) {
-		return down[in + 1] + down[in + 2];
-	}
+    private int bonusOne(int in) {
+        return down[in + 1] + down[in + 2];
+    }
 }
 ```
 
@@ -114,54 +124,54 @@ package be.doji.sandbox.kata;
 
 public class Game {
 
-	public static final int MAXIMUM_ROLL_IN_GAME = 21;
-	public static final int AMOUNT_OF_FRAMES_IN_GAME = 10;
-	public static final int MAX_PINS_PER_FRAME = 10;
+    public static final int MAXIMUM_ROLL_IN_GAME = 21;
+    public static final int AMOUNT_OF_FRAMES_IN_GAME = 10;
+    public static final int MAX_PINS_PER_FRAME = 10;
 
-	private final int[] pinsKnockedOver = new int[MAXIMUM_ROLL_IN_GAME];
-	private int currentRoll = 0;
+    private final int[] pinsKnockedOver = new int[MAXIMUM_ROLL_IN_GAME];
+    private int currentRoll = 0;
 
-	public void roll(int pinsRolledOver) {
-		pinsKnockedOver[currentRoll++] = pinsRolledOver;
-	}
+    public void roll(int pinsRolledOver) {
+        pinsKnockedOver[currentRoll++] = pinsRolledOver;
+    }
 
-	public int score() {
-		int score = 0;
-		int rollCounter = 0;
-		for(int frame = 0; frame < AMOUNT_OF_FRAMES_IN_GAME; frame++) {
-			if(isStrike(rollCounter)) {
-				score += 10 + strikeBonus(rollCounter);
-				rollCounter += 1;
-			} else if(isSpare(rollCounter)) {
-				score += sumOfPinsKnockedOverInFrame(rollCounter) + spareBonus(rollCounter);
-				rollCounter += 2;
-			} else {
-				score += sumOfPinsKnockedOverInFrame(rollCounter);
-				rollCounter += 2;
-			}
-		}
-		return score;
-	}
+    public int score() {
+        int score = 0;
+        int rollCounter = 0;
+        for (int frame = 0; frame < AMOUNT_OF_FRAMES_IN_GAME; frame++) {
+            if (isStrike(rollCounter)) {
+                score += 10 + strikeBonus(rollCounter);
+                rollCounter += 1;
+            } else if (isSpare(rollCounter)) {
+                score += sumOfPinsKnockedOverInFrame(rollCounter) + spareBonus(rollCounter);
+                rollCounter += 2;
+            } else {
+                score += sumOfPinsKnockedOverInFrame(rollCounter);
+                rollCounter += 2;
+            }
+        }
+        return score;
+    }
 
-	private boolean isStrike(int rollCounter) {
-		return pinsKnockedOver[rollCounter] == MAX_PINS_PER_FRAME;
-	}
+    private boolean isStrike(int rollCounter) {
+        return pinsKnockedOver[rollCounter] == MAX_PINS_PER_FRAME;
+    }
 
-	private boolean isSpare(int rollCounter) {
-		return sumOfPinsKnockedOverInFrame(rollCounter) == MAX_PINS_PER_FRAME;
-	}
+    private boolean isSpare(int rollCounter) {
+        return sumOfPinsKnockedOverInFrame(rollCounter) == MAX_PINS_PER_FRAME;
+    }
 
-	private int sumOfPinsKnockedOverInFrame(int rollCounter) {
-		return pinsKnockedOver[rollCounter] + pinsKnockedOver[rollCounter + 1];
-	}
+    private int sumOfPinsKnockedOverInFrame(int rollCounter) {
+        return pinsKnockedOver[rollCounter] + pinsKnockedOver[rollCounter + 1];
+    }
 
-	private int spareBonus(int rollCounter) {
-		return pinsKnockedOver[rollCounter + 2];
-	}
+    private int spareBonus(int rollCounter) {
+        return pinsKnockedOver[rollCounter + 2];
+    }
 
-	private int strikeBonus(int rollCounter) {
-		return pinsKnockedOver[rollCounter + 1] + pinsKnockedOver[rollCounter + 2];
-	}
+    private int strikeBonus(int rollCounter) {
+        return pinsKnockedOver[rollCounter + 1] + pinsKnockedOver[rollCounter + 2];
+    }
 }
 ```
 
@@ -172,9 +182,11 @@ public class Game {
 
 ### Context
 
-![Sometimes it is okay to keep it simple >](src/4_Software_development/Practices/overdesign.png ':size=380')
+![Sometimes it is okay to keep it simple >](./overdesign.png ':size=380')
 
-A mistake passionate programmers tend to make is to over-design simple things to make them theoretically and aesthetically more beautiful than they need to be at that point in time. In doing so, they often end up spending much more time and mental effort on a piece of software than is needed (or will ever be valuable).
+A mistake passionate programmers tend to make is to over-design simple things to make them theoretically and aesthetically more beautiful
+than they need to be at that point in time. In doing so, they often end up spending much more time and mental effort on a piece of software
+than is needed (or will ever be valuable).
 
 ### Drivers
 
@@ -191,7 +203,8 @@ A mistake passionate programmers tend to make is to over-design simple things to
 * write code that is as well designed as it needs to be at this point in time.
 * make sure the code you write at this point in time adheres to the basic principles of clean code and design
 * when an idea for a more generic solution comes to mind during your implementation, take note of it and revisit it afterwards
-* iteratively enhance the codebase when it makes sense to do so: when tackling a new code challenge, look for reusable components or structural improvements
+* iteratively enhance the codebase when it makes sense to do so: when tackling a new code challenge, look for reusable components or
+  structural improvements
 
 > [!NOTE]
 > This approach is also referred to as "avoiding gold plating"
@@ -216,10 +229,12 @@ Ask yourself:
 
 ### Related Resources
 
-| Item                                                                                                | Description                                                                                                                                                            | Action                                                                                                                                                                                |
-| --------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [Enterprise Quality FizzBuzz](https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition) | A prime example of overengineering something that can be done in a way more simple manner.                                                                               | Go through the codebase, and ask _"Why would you want to do this? And why is it overkill here?"_                                                                                      |
+| Item                                                                                                | Description                                                                                                                                                           | Action                                                                                                                                                                                |
+|-----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Enterprise Quality FizzBuzz](https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition) | A prime example of overengineering something that can be done in a way more simple manner.                                                                            | Go through the codebase, and ask _"Why would you want to do this? And why is it overkill here?"                                                                                       |
 | [The bowling game kata](http://www.butunclebob.com/ArticleS.UncleBob.TheBowlingGameKata)            | A programming kata by uncle Bob. Apart from learning how he thinks, the exercise also focusses on suppressing your personal need to overly beautify a simple project. | Do the exercise and stop yourself from creating too many classes. Repeat the mantra: _"This is fine for now"_ to suppress your urges to add indirection or OO concepts to the design. |
+
+---
 
 
 ## Do not pass along too many parameters

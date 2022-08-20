@@ -74,6 +74,7 @@ Following changes are known:
 - moved "write good enough code" to "practices" from "concepts"
 - sidebar now uses "folder" style in stead of arrows
 - update pattern template to follow the new heading structure
+- OPERAs pattern now features collapsible sections and follows the intended pattern-practice structure
 
 #### Added
 

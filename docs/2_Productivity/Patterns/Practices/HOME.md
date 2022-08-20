@@ -54,10 +54,27 @@ All too often less-experienced colleagues are either extremely optimistic when a
 
 
 > Mail excerpt. **From:** Davide **To:** Stijn 
+> Hello Stijn,  
 > ...  
-> 
-> 
-
+>  
+> Now to your problem: as far as I understood, the problem is two-fold: 
+> - Lack of confidence by junior developers when it comes to estimate
+> - The same juniors tend to get stressed as the budget’s consumption
+approaches, and they tend to cut corners in terms of quality as a
+result.
+> With regard to the 1st point, there is nothing wrong to have more seniors members to lead the estimate process: what’s important is that juniors can actively participate to the discussion and learn as a result. For the juniors to succeed in this process, it is important they understand one basic thing: their input counts even though they will be ultimately corrected by the seniors and there is no shame in this: no one is born expert and being wrong is part of the learning process.  
+> Also, you can reassure them that the most they participate to the estimate discussion, the more “background” they have to learn from and – incidentally – they’ll get better at it as time goes on.
+> To put this in practice, you need of course the support of your senior developers: they must facilitate the learning process of the juniors, ie: not
+patronize them but instead be supportive, informative and eager to listen. You can also suggest the seniors to organize recurrent assessments of the junior’s ability to understand the business and underlying technicalities: but again, this must be done with learning as a goal, without giving the juniors the feeling that they are being judged.  
+>   
+> With regard to the 2nd point, every team member – no matter if junior or senior – must understand that cutting corners is bad in many ways:
+> - First and foremost, quality is not negotiable
+> - Secondly, compromising on quality to meet stringent estimates: the deadline may be met, but more and more insufficient estimates are fostered, because the “underestimation” problem won’t be apparent.
+> Instead, it’s preferable to lose money by exceeding estimates, because the team will have more and more previous scenarios to learn from, ie: they can  use developments they exceeded in the past to better estimate similar ones.
+> Finally, and in order to mitigate the juniors’ stress to a minimum, they shall estimate only the technical and functional aspects of activities: you shall protect them from any other aspect (budgeting, client billing, “external” estimates, contractual hurdles, etc), so that they can focus on what we expect from them: estimate development, testing, analysis, devops, documentation and technical contingency. All the rest (client’s contingency, contractual risks, KPIs, process, PM, etc) is up to you 😊  
+>  
+> Regards,  
+> D.
 ---
 
 
@@ -117,7 +134,7 @@ I personally prefer using these text-based systems as they allow for easier cros
 | [Trambu](https://github.com/stijn-dejongh/TraMBU) | My owm todo.txt inspired task-management application|
 | [Emacs org mode](https://orgmode.org/) | A major mode for [GNU Emacs](https://www.gnu.org/software/emacs/), aimed at organizing your thoughts |
 
-***
+---
 
 
 

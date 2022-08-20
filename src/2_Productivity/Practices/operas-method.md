@@ -11,7 +11,6 @@ plan of attack.
 
 The core idea is to give pattern users a mental map of the different actions that are required to complete a 'milestone'.
 
-![The OPERAs flow](src/2_Productivity/Practices/OPERAs.png)
 
 ### Drivers
 
@@ -31,12 +30,15 @@ size, and can range from 'build a house' to 'do the dishes'.
     - for some processes, a few of these steps could require very minimal effort.
 - the acronym 'OPERAS' stands for the main steps in this model's flow:
     - Orientate
-    - Prepare
-    - Execute
-    - Reflect
-    - Adapt
-    - Synthesize
+      - Prepare
+      - Execute
+      - Reflect
+      - Adapt
+      - Synthesize
 
+![The OPERAs flow >](./OPERAs.png ':size=424')
+
+<div class="accordion">
 <details>
 <summary>1. Orientate</summary>
 <p>
@@ -56,10 +58,10 @@ The preparation step is where you gather the tools needed to perform the action.
 > [!WARNING]
 > The most common risk in this phase of the process is to over-analyze the situation. This anti-pattern is known
 > as _"[analysis paralysis](https://www.investopedia.com/terms/a/analysisparalysis.asp)"_ and is extremely detrimental to making progress.
-> Be
-> sure you only identify the minimal set of required resources you need to START progressing. You can always loop back, and search for
+> Be sure you only identify the minimal set of required resources you need to START progressing. You can always loop back, and search for
 > additional resources when they are needed.
 
+> [!NOTE]
 > An example: You wish to do the dishes, so you check that the dishwasher is not obviously broken.
 > Then you go around the house and gather all the dirty utensils and plates you can find. The preparation step ends with a pile of dirty
 > dishes on your kitchen counter.
@@ -73,6 +75,7 @@ The preparation step is where you gather the tools needed to perform the action.
 <p>
 You set out and do the task you intended to do. This is the operational phase of the process. You work on completion of the next sensible step to reach your first milestone.
 
+> [!INFO]
 > An example: You load the dirty plates and cups into the dishwasher.
 </p>
 
@@ -86,7 +89,8 @@ You set out and do the task you intended to do. This is the operational phase of
 At this point, you have finished working on one of the sub-tasks you set out to complete. Either the result was satisfactory or it was not. Either way, there are likely things that went well, and things that did not go well. Use these experiences as a learning mechanic to improve the way you approach tasks in the future.
 This is also an excellent time to revisit the original outline of the task distribution to see how to proceed.
 
-> An example: You were not able to do all of the dishes as they would not all fit into the dishwasher. You also realized 40% of the time you
+> [!INFO]
+> An example: You were not able to do all the dishes as they would not all fit into the dishwasher. You also realized 40% of the time you 
 > spent on doing the dishes was used to collect the dirty plates and cups from all around the house.
 </p>
 
@@ -99,9 +103,9 @@ This is also an excellent time to revisit the original outline of the task distr
 After reflecting on the actions taken and their outcomes, you can choose to adapt your approach using the insights you have gathered. This can either mean changing your approach entirely, or making small adjustments to the operational execution of your task.
 An example: You could wash some of your dishes by hand, as it will not take significant time to do so. Waiting for the dishwasher to complete before loading the next batch of dishes would just move the problem to the future.
 
-**INSPECTION: is progress made?**
-
-Is the sub-goal completed? If not, is it still useful to complete it? If it is: proceed to the next action that works towards its
+> [!INFO] 
+> **INSPECTION: is progress made?**  
+> Is the sub-goal completed? If not, is it still useful to complete it? If it is: proceed to the next action that works towards its
 completion. If not: do something else.
 </p>
 </details>
@@ -117,6 +121,8 @@ Note that indirect learning is not for everyone, and others might repeat some of
 might know a few coping strategies to resolve the situation in case it goes bad.
 </p>
 </details>
+
+</div>
 
 ### Measuring success
 

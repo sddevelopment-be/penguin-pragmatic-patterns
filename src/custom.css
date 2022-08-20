@@ -16,7 +16,7 @@ summary {
   line-height: 1.6rem;
   word-spacing: 0.05rem;
   display: flex;
-  border-bottom: 2px dotted #edeef0;
+  border-bottom: 1px solid #24557875;
   background: #ffffff;
   padding: 0.75em;
 }
@@ -50,7 +50,6 @@ details[open] summary::before {
 details {
   border-radius: 0 var(--docsifytabs-border-radius-px)
     var(--docsifytabs-border-radius-px) var(--docsifytabs-border-radius-px);
-  background: #edeef05c;
   border-top: 0;
   margin-top: calc(0px - var(--docsifytabs-border-px));
   padding: 0.5em;
@@ -140,4 +139,9 @@ kbd:hover * {
     border-bottom-width: medium;
   border-bottom: 1px dashed #175574;
   margin: 2.75rem 0;
+}
+
+.accordion {
+  margin-bottom: 1.25rem;
+  padding-bottom: 2rem;;
 }

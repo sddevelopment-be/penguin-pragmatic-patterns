@@ -162,25 +162,37 @@ You can now correct the typo in the method, and move on to the next exercise.
 <!-- tabs:end -->
 
 
-## History and its importance ![Windows](icons/glyph-windows-32.png)`ctrl+alt+left,right`
+## History and its importance
 
-In the previous exercise we drilled down into a method call and changed stuff, but sometimes you want to trace back your steps.
+<!-- tabs:start -->
 
-Repeat the previous exercise, or if you're still at the last position of the previous exercise you can continu on from there.
+### **Windows**
 
-Press ![Windows](icons/glyph-windows-20.png)`ctrl+alt+left` to go back where you came from. This should have brought you back to the `Chapter2.java` class.
+In the previous exercise we drilled down into a method call and changed some things. But sometimes we want to go back in time (usually after messing something up). Let's repeat the previous exercise!
+If you are following this tutorial in one go, and are currently at the end-position of the previous topic, you can continue onwards from there.
 
-Now repeat the previous exercise, but pick the `EpicJumper` and also fix the typo. Then go back again using ![Windows](icons/glyph-windows-20.png)`ctrl+alt+left`.
+Press <kbd>ctrl</kbd> <kbd>alt</kbd> <kbd>&#8592;</kbd> to go return to your starting position. 
+You should now be back at at the `Chapter2.java` class.
 
-Also try backtracking your backtrack by pressing `ctlr+alt+right`.
+Now repeat the previous exercise, but pick the `EpicJumper` and also fix the typo. Then go back again using <kbd>ctrl</kbd> <kbd>alt</kbd> <kbd>&#8592;</kbd>.
 
-**Please note**: every time you use Navigation shortcuts that bring you to new classes, IntelliJ will remember this in a sort of Navigation History.
+Also try backtracking your backtrack by pressing <kbd>ctrl</kbd> <kbd>alt</kbd> <kbd>&#8594;</kbd>.
+
+> [!NOTE]
+> every time you use Navigation shortcuts that bring you to new classes, IntelliJ will remember this in a Navigation History of sorts.
+
+
+### **Mac**
+
+
+<!-- tabs:end -->
 
 ## Jump to last edit position ![Windows](icons/glyph-windows-32.png)`ctrl+shift+backspace`
 
 From the end of previous exercise, make sure you're back in the `Chapter2.java` class and press ![Windows](icons/glyph-windows-20.png)`ctrl+shift+backspace` to go back to where you were last editing.
 
 Try pressing it again and see what happens.
+
 
 ## Show in Project ![Windows](icons/glyph-windows-32.png)`alt+F1`
 

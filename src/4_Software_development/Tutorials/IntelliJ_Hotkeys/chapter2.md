@@ -231,6 +231,12 @@ This shortcut works on virtually anything, be it a class, a method or a field in
 As an example: open `Ball.java` using <kbd>ctrl</kbd> <kbd>n</kbd>, and press your arrow keys to navigate to the`getId()` method inside this class.
 Now press <kbd>alt</kbd> <kbd>F7</kbd> and look at the bottom of your screen.
 
+<kbd>ctrl</kbd> <kbd>alt</kbd> <kbd>h</kbd> will show you the call hierarchy leading up to the element you are currently inspecting.
+Repeat the previous step, but instead of inspecting an element's usage, press <kbd>ctrl</kbd> <kbd>alt</kbd> <kbd>h</kbd>.
+Navigate the element tree using the arrow keys, and select any element you wish to take a closer look at with <kbd>ctrl</kbd> <kbd>enter</kbd> (or <kbd>F4</kbd> if you want to navigate to the code without further ado).
+
+> [!TIP]
+> move this navigational __Tool Window__ to the bottom bar (next to `3: Find`), because you'll usually want to optimize your screens horizontal space rather than it's vertical space.
 
 ### **Mac**
 
@@ -238,17 +244,9 @@ Now press <kbd>alt</kbd> <kbd>F7</kbd> and look at the bottom of your screen.
 <!-- tabs:end -->
 
 
-### ![Windows](icons/glyph-windows-32.png)`ctrl+alt+h`
+### Pop-up windows (but not the annoying kind)
 
-This shows the call hierarchy of how code got to the place you're starting from.
-
-Repeat the previous exercise, but instead press ![Windows](icons/glyph-windows-20.png)`ctrl+alt+h`.
-
-Navigate the tree with the arrow keys, and select with ![Windows](icons/glyph-windows-20.png)`ctrl+enter` (or `F4` if you directly want to navigate to the code).
-
-Pro-tip: move this _Tool Window_ to the bottom bar (next to `3: Find`), because you'll usually want horizontal space instead of vertical.
-
-### ![Windows](icons/glyph-windows-32.png)`ctrl+b`
+![Windows](icons/glyph-windows-32.png)`ctrl+b`
 
 This will show the usage in a popup window (![Windows](icons/glyph-windows-20.png)`Escape`able).
 
@@ -260,7 +258,9 @@ Press ![Windows](icons/glyph-windows-20.png)`ctrl+b` once, this should navigate 
 
 Press ![Windows](icons/glyph-windows-20.png)`ctrl+b` again, now it should show a popup asking if you want to show accessors of the field. Let's go with _Yes_. :)
 
-## Jump to line ![Windows](icons/glyph-windows-32.png)`ctrl+g` (example with paste from stacktrace)
+## Line-based navigation
+
+Jump to line ![Windows](icons/glyph-windows-32.png)`ctrl+g` (example with paste from stacktrace)
 
 Here's a strip of a stacktrace.
 

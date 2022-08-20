@@ -138,17 +138,29 @@ Notice how the cursor now first jumps to the actual compilation error (_`privet`
 
 <!-- tabs:end -->
 
-## Jump into ![Windows](icons/glyph-windows-32.png)`ctrl(+alt)+b`
+## Jump into
 
-Jump into, or "drill down" as I like to call it, allows you to follow the path that code execution makes at runtime.
+<!-- tabs:start -->
+
+### **Windows**
+
+__"Jump into"__, or __"drill down"__ as I like to call it, allows you to follow the path the code will execute at runtime.
+It is a big timesaver when attempting to follow the logic of any given program. 
 
 Right now, there's a typo in both the `EpicJumper.java` and `MehJumper.java` classes. Let's fix that.
 
-Go to Chapter2.jumpUsingStrategy() and place your cursor on the jump() method call. Press ![Windows](icons/glyph-windows-20.png)`ctrl+b`, this should bring you to the interfaces `jump()` method.
+Go to `Chapter2.jumpUsingStrategy()` and place your cursor on the `jump()` method call. Press <kbd>ctrl</kbd> <kbd>b</kbd>.
+This should take you straight to the interfaces `jump()` method.
 
-Now go back to where you came from, and press ![Windows](icons/glyph-windows-20.png)`ctrl+alt+b`. IntelliJ knows you want to "drill down" into the actual method implementation but doesn't know which one, so it will suggest two options. Pick the `MehJumper` by pressing `down` and then ![Windows](icons/glyph-windows-20.png)`enter` and see where it leads you.
+Now, let's go back to where we came from. Press <kbd>ctrl</kbd> <kbd>alt</kbd> <kbd>b</kbd>. IntelliJ knows you want to __"drill down"__ into the actual method implementation but doesn't know which one, so it will suggest some options. Select the `MehJumper` method by pressing <kbd>&#8595;</kbd> and then <kbd>enter</kbd> and see where it leads you.
 
-Then correct the typo and move on to the next exercise.
+You can now correct the typo in the method, and move on to the next exercise.
+
+### **Mac**
+
+
+<!-- tabs:end -->
+
 
 ## History and its importance ![Windows](icons/glyph-windows-32.png)`ctrl+alt+left,right`
 

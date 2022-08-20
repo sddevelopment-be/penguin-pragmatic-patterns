@@ -737,28 +737,26 @@ Let's see where the NullPointer is occurring. Open `BallServiceImpl`, using <kbd
 Now use <kbd>ctrl</kbd> <kbd>n</kbd> and enter the desired line number (this is line nr. `18`), as the stacktrace above states the error is occurs on this line:
 `at be.swsb.productivity.chapter2.mud.service.BallServiceImpl.findBall(BallServiceImpl.java:18)`
 
-### **Mac**
 
+### **Mac**
 
 <!-- tabs:end -->
 
 
-## Navigate to method ![Windows](icons/glyph-windows-32.png)`ctrl+F12`
+## Navigate to method
 
-### Paste from stacktrace
+<!-- tabs:start -->
+
+### **Windows**
 
 Another way of navigating to the place where the NullPointer occurs, albeit less exact, is to first copy the method from the stacktrace, in this case `findBall`.
-
 Then open ![Windows](icons/glyph-windows-20.png)`ctrl+n` BallServiceImpl, press ![Windows](icons/glyph-windows-20.png)`ctrl+F12`, which lists all methods of a class, and paste the method from the stacktrace in that popup window. You can then press ![Windows](icons/glyph-windows-20.png)`Enter` and navigate to that method.
 
-### Quick check equals impl
-
 Want to write a comparator for some object, or want to use it in a Set? You'll want to know about that objects `equals()` implementation.
-
 If that object is chock full of other methods, it might be easier to tap ![Windows](icons/glyph-windows-20.png)`ctrl+F12` to check for an equals implementation. If you can't find it from the first try, tap ![Windows](icons/glyph-windows-20.png)`ctrl+F12` again to browse the methods of the superclass as well.
-
 Let's open `RealBall` with ![Windows](icons/glyph-windows-20.png)`ctrl+n`, and try to find out if this class has its own `equals` and `hashcode` implementation, or if it uses its superclass implementations.
 
-[_Next Chapter_](chapter3.md)
 
-[_Back to outline_](outline.md)
+### **Mac**
+
+<!-- tabs:end -->

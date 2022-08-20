@@ -179,7 +179,7 @@ Now repeat the previous exercise, but pick the `EpicJumper` and also fix the typ
 Also try backtracking your backtrack by pressing <kbd>ctrl</kbd> <kbd>alt</kbd> <kbd>&#8594;</kbd>.
 
 > [!NOTE]
-> every time you use Navigation shortcuts that bring you to new classes, IntelliJ will remember this in a Navigation History of sorts.
+> every time you use **Navigation shortcuts** that bring you to new classes, IntelliJ will remember this in a Navigation History of sorts.
 
 
 ### **Mac**
@@ -187,30 +187,56 @@ Also try backtracking your backtrack by pressing <kbd>ctrl</kbd> <kbd>alt</kbd> 
 
 <!-- tabs:end -->
 
-## Jump to last edit position ![Windows](icons/glyph-windows-32.png)`ctrl+shift+backspace`
+## Jump to last edit position
 
-From the end of previous exercise, make sure you're back in the `Chapter2.java` class and press ![Windows](icons/glyph-windows-20.png)`ctrl+shift+backspace` to go back to where you were last editing.
+<!-- tabs:start -->
 
-Try pressing it again and see what happens.
+### **Windows**
+
+From the end of previous exercise, make sure you're back in the `Chapter2.java` class and press <kbd>ctrl</kbd> <kbd>shift</kbd> <kbd>backspace</kbd> to return to where you were last editing. Try pressing the hotkey again and see what happens.
 
 
-## Show in Project ![Windows](icons/glyph-windows-32.png)`alt+F1`
+### **Mac**
 
-Open `MehJumper` by pressing ![Windows](icons/glyph-windows-20.png)`ctrl+n`, then press ![Windows](icons/glyph-windows-20.png)`alt+F1`. It should open up the `Project` sidebar with MehJumper selected.
 
-Press ![Windows](icons/glyph-windows-20.png)`alt+1` (**not F1**) to minimize the sidebar and get focus back to your editor.
+<!-- tabs:end -->
 
-## ![Windows](icons/glyph-windows-32.png)`alt+F7` vs. ![Windows](icons/glyph-windows-32.png)`ctrl+alt+h` vs. ![Windows](icons/glyph-windows-32.png)`ctrl+b`
 
-Checkout the `mud` package. It's got your typical layered application where we pass around a `Ball` through all of the layers.
 
-Let's see what the different shortcuts mentioned in the title actually do.
+## Show in Project Window
 
-### ![Windows](icons/glyph-windows-32.png)`alt+F7`
+<!-- tabs:start -->
 
-This shows the usage of anything, be it a class, a method or a field in a separate _Tool Window_.
+### **Windows**
 
-Open (![Windows](icons/glyph-windows-20.png)`ctrl+n`) `Ball.java`, navigate to `getId()` and press ![Windows](icons/glyph-windows-20.png)`alt+F7`.
+Open `MehJumper.java` by pressing <kbd>ctrl</kbd> <kbd>n</kbd>, then use <kbd>alt</kbd> <kbd>F1</kbd> to open up the `Project` navigational sidebar with the `MehJumper.java` class selected.
+
+You can now use <kbd>alt</kbd> <kbd>1</kbd> (**do not press F1, we mean the actual digit**) to minimize the sidebar and move your window focus back to your editor.
+### **Mac**
+
+
+<!-- tabs:end -->
+
+## More navigational goodness: code hierarchy transversal
+
+<!-- tabs:start -->
+
+### **Windows**
+
+Inspect the `mud` package. It's got your typical layered application where we pass around a `Ball` through all of it's layers.
+In order to navigate more complex code hierarchies, play around with some of these hotkeys:
+
+Pressing <kbd>alt</kbd> <kbd>F7</kbd> will show you how the selected element is used inside your codebase.
+This shortcut works on virtually anything, be it a class, a method or a field in a separate __Tool Window__.
+As an example: open `Ball.java` using <kbd>ctrl</kbd> <kbd>n</kbd>, and press your arrow keys to navigate to the`getId()` method inside this class.
+Now press <kbd>alt</kbd> <kbd>F7</kbd> and look at the bottom of your screen.
+
+
+### **Mac**
+
+
+<!-- tabs:end -->
+
 
 ### ![Windows](icons/glyph-windows-32.png)`ctrl+alt+h`
 

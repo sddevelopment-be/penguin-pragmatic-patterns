@@ -40,11 +40,12 @@ single vendor solution. This entire knowledge base can be seen as one big "exter
 
 #### Stijn's developer logs
 
+> [!TIP]
 > One of my favorite ways of note-taking while working on a software project is to add a _`dev_notes`_ directory to my codebase.
 > For short-lived projects or changes, I tend to add this file to the `.gitignore` configuration of my repository as to not muck up the
 > workspace of my colleagues. For more long-term or collaborative projects, consider creating a dedicated repository to host all of your
-> developer notes.
-> You can get creative with `symbolic links` to make these folders show up in your codebase regardless of their physical location.
+> developer notes. You can get creative with `symbolic links` to make these folders show up in your codebase regardless of their
+> physical location.
 
 ### References
 

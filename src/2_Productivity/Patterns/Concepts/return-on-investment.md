@@ -1,9 +1,6 @@
 ## Return on investment
 
-> [!WARNING]
-> this is an Old-style pattern, not converted to the new structure yet
-
-### Applicable Context
+### Context
 
 There is great difficulty is in expressing the "Value" and "Cost" of activities and projects.
 In a simplified business environment, these terms are usually substituted by "money earned / money invested". While this is a useful metric
@@ -28,7 +25,7 @@ person who defines what "value" and "cost" means that decides what to include in
 This in turn means that the metric itself is only as good as the contextual knowledge and expertise of the person (or group) defining the
 input.
 
-### Description of Pattern
+### Description
 
 ROI or "Return on investment" is a very useful metric for strategic planning.
 The idea is to maximize for value over time. This helps you to stay focused on the activities or task that bring the most value to your
@@ -42,12 +39,12 @@ to a quantitative evaluation of tasks. Once you and your context agree on those,
 impact of the work you do to reach your goals. It is to be used as a tool for comparison to a previous period in your path. This way, you
 can see if you are progressing in the way you wish to progress or if you need to adjust your course.
 
-### Key Performance Metrics
+### Measuring success
 
 - Your reports and analysis documents contain an ROI indication
 - You think about cost/benefit ratio's while working
 
-### Related Patterns and Resources
+### References
 
 | Item             | Description                                                                               | Action                                                                                 |
 |------------------|-------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------|

@@ -1,5 +1,7 @@
 ## Engaging retrospectives
 
+### Context
+
 > A retrospective, generally, is a look back at events that took place, or works that were produced, in the past.
 
 Hosting a useful retrospective session is quite difficult. You aim to have a group share their frustrations, obstacles, and
@@ -12,22 +14,30 @@ The aim of these alternating retro formats is to stimulate constructive communic
 are present during the discussions, and have the final decision on actions proposed, they should refrain from taking an authoritative
 position during the retro.
 
-### Applicable Context
+### Drivers
 
-Helping a team or project being in a rut, going through the motions without engaging or following-up on issues and frustrations. Successful
-application of this practice highly depends on:
+- You are helping a team or project being in a rut, going through the motions without engaging or following-up on issues and frustrations.
+- We can only start improving the situation once we know what is going on
+- People perform better when they feel involved in their work
+- Most people are intimidated by authority
+- People do not like to feel ridiculous and want to be taken seriously
+
+### Enablers
 
 - Team/Management is willing to try, and dedicate time to improve their process
 - Trust in the intentions and skills of the facilitator or person taking the initiative
 - Team members feel safe to share their opinions without fear of reprisals
 
-Do not use when:
+### Deterrents
 
 - The group has no motivation to experiment with alternative ways of working
 - You are operating in a low trust, high conflict environment
 - You can not invest the time to be a driving force of change
 
-### Description of Pattern
+### Solution
+
+* Gather the team, and openly discuss what it was like to work together over the past X weeks.
+* Pocus on making sure every voice is heard, and the discussion is not dominated by a couple of strong-willed individuals
 
 > "A plan or framework is very useful, as you need something to adapt and deviate from as you gain experience."
 > ~ Paraphrased quote by [Rini van Solingen](https://rinivansolingen.nl/)
@@ -246,14 +256,14 @@ The facilitator (or person assigned to take notes) creates a write-up of the ret
 </p>
 </details>
 
-### Key Performance Metrics
+### Measuring success
 
 - The group is engaged during the sessions
 - Multiple voices are heard
 - You are able to stay within the assigned timebox most times
 - The actions decided upon during the retro are executed
 
-### Related Patterns and Resources
+### References
 
 | Item                                                                                                                | Description         | Action                                                                   |
 | ------------------------------------------------------------------------------------------------------------------- | ------------------- | ------------------------------------------------------------------------ |

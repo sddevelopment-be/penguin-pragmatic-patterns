@@ -68,6 +68,8 @@ single vendor solution. This entire knowledge base can be seen as one big "exter
 
 ### Context
 
+
+
 ### Drivers
 
 * You want to finalize your tasks and "get things done"
@@ -79,8 +81,8 @@ single vendor solution. This entire knowledge base can be seen as one big "exter
 
 ### Solution
 
-Use a personalozed productivity flow, using whatever tool you feel comfortable in. 
-For some, this will be a pen-and-paper system. Others prefer to leverage their digital prowess and lifestyle to have theis productivity 
+Use a personalozed productivity flow, using whatever tool you feel comfortable in.
+For some, this will be a pen-and-paper system. Others prefer to leverage their digital prowess and lifestyle to have theis productivity
 tool available all the time[^1]. One of the most popular personal productivity methods is called the _"Getting things done"_ method[^2].
 
 ![./task-flow.png ><](./task_flow.png ':size=684')
@@ -91,20 +93,31 @@ tool available all the time[^1]. One of the most popular personal productivity m
 * You should **trust** your tools. Peace of mind only happens when you are convinced your ideas and todos are stored reliably
 * Regularly review your braindump tool and curate it. Some of your ideas will be crappy. Get rid of them.
 * Categorize and Prioritize your thoughts **after** you have collected them
-  * The Eisenhouwer Matrix is an excellent technique to do this
-  * differentiate between "things to remember" and "things that require action"
-  * assign "due dates" if able
+    * The Eisenhouwer Matrix is an excellent technique to do this
+    * differentiate between "things to remember" and "things that require action"
+    * assign "due dates" if able
 
 #### Eisenhouwer priority Matrix
 
 ![./eis_matrix.png <](./eis_matrix.png ':size=364')
 
 Organize your action items according to:
+
 * their **importance**: actions can be either `important` or `unimportant`
 * their **urgency**: these are either `urgent` or `not urgent`
 
 This leaves you with a nice 2-by-2 grid in which to place your actionable items[^3].
+Each grid section corresponds to a specific way to handle the action items contained within:
 
+- **eliminate of ignore** the things that are `unimportant` and `not urgent`. Because _Who cares abut these anyway?_ The items in this
+  quadrant are better known as "distractions" or "busy work".
+- **delegate** the `unimportant` and `urgent`stuff. Something should be done about them fast, but you probably don't need to be the
+  person working on them.
+- **plan / schedule** the items that are `important` and `not urgent`. These are the things that you would really like to do, but never
+  seem to get around to doing. Setting a specific date on which you will act upon these items will help you get them done eventually. Just
+  make sure to stick to your schedule.
+- **Do these NOW!**: `important` and `urgent`... what are you waiting for? Start working on these immediately. Just make sure these 
+  things are important to YOU and you are not being swayed by someone else's urgency.
 
 ### Examples
 
@@ -114,22 +127,20 @@ In recent years, microsoft has pivotted towards providing office-as-a-service ap
 Most if these can be easily incorporated into your personal workflow. Having everything online makes it easier to be productive,
 without losing your mobility.
 
-
-
 ### References
 
 | Item                                                                                                                   | Description                                                                                                                   | 
 |------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
-| [Getting thihgs done - David Allen](https://www.amazon.com/Getting-Things-Done-Stress-Free-Productivity/dp/0143126563) | Link to book (amazon)                                                                                                         |
+| [Getting things done - David Allen](https://www.amazon.com/Getting-Things-Done-Stress-Free-Productivity/dp/0143126563) | Link to book (amazon)                                                                                                         |
 | [NextCloud](https://nextcloud.com/)                                                                                    | A self-hosted personal filen organizer, and productivity platform.                                                            | 
 | [Eisenhouwer matrix](https://www.productplan.com/glossary/eisenhower-matrix/)                                          | Article on ProductPlan.com discurring the Eisenhouwer matrix                                                                  |
 | [Notion.so](https://www.notion.so)                                                                                     | An easy to use, external notebook that allows for limited automation and offering a wide range of customizability and plugins |
 
-  
-
 [^1]: Unless of course your computers die and your internet connection goes on hiatus  
-[^2]: From the book ['The 7 Habits of Highly Effective People: Powerful Lessons in Personal Change'](https://www.amazon.com/gp/product/0743269519?imprToken=u69OsCPq-VHBYc7olPiAPA) by Stephen R. Covey  
-[^3]: Mathematicians (and computer programmers) call this a _"Matrix"_. We are sorry to disappoint you if you expected leather clad 
+[^2]: From the
+book ['The 7 Habits of Highly Effective People: Powerful Lessons in Personal Change'](https://www.amazon.com/gp/product/0743269519?imprToken=u69OsCPq-VHBYc7olPiAPA)
+by Stephen R. Covey  
+[^3]: Mathematicians (and computer programmers) call this a _"Matrix"_. We are sorry to disappoint you if you expected leather clad
 martial artists to help you out with setting your priorities.
 
 ---
@@ -150,7 +161,6 @@ plan of attack.
 
 The core idea is to give pattern users a mental map of the different actions that are required to complete a 'milestone'.
 
-![The OPERAs flow](./OPERAs.png)
 
 ### Drivers
 
@@ -170,12 +180,15 @@ size, and can range from 'build a house' to 'do the dishes'.
     - for some processes, a few of these steps could require very minimal effort.
 - the acronym 'OPERAS' stands for the main steps in this model's flow:
     - Orientate
-    - Prepare
-    - Execute
-    - Reflect
-    - Adapt
-    - Synthesize
+      - Prepare
+      - Execute
+      - Reflect
+      - Adapt
+      - Synthesize
 
+![The OPERAs flow >](./OPERAs.png ':size=424')
+
+<div class="accordion">
 <details>
 <summary>1. Orientate</summary>
 <p>
@@ -195,10 +208,10 @@ The preparation step is where you gather the tools needed to perform the action.
 > [!WARNING]
 > The most common risk in this phase of the process is to over-analyze the situation. This anti-pattern is known
 > as _"[analysis paralysis](https://www.investopedia.com/terms/a/analysisparalysis.asp)"_ and is extremely detrimental to making progress.
-> Be
-> sure you only identify the minimal set of required resources you need to START progressing. You can always loop back, and search for
+> Be sure you only identify the minimal set of required resources you need to START progressing. You can always loop back, and search for
 > additional resources when they are needed.
 
+> [!NOTE]
 > An example: You wish to do the dishes, so you check that the dishwasher is not obviously broken.
 > Then you go around the house and gather all the dirty utensils and plates you can find. The preparation step ends with a pile of dirty
 > dishes on your kitchen counter.
@@ -212,6 +225,7 @@ The preparation step is where you gather the tools needed to perform the action.
 <p>
 You set out and do the task you intended to do. This is the operational phase of the process. You work on completion of the next sensible step to reach your first milestone.
 
+> [!INFO]
 > An example: You load the dirty plates and cups into the dishwasher.
 </p>
 
@@ -225,7 +239,8 @@ You set out and do the task you intended to do. This is the operational phase of
 At this point, you have finished working on one of the sub-tasks you set out to complete. Either the result was satisfactory or it was not. Either way, there are likely things that went well, and things that did not go well. Use these experiences as a learning mechanic to improve the way you approach tasks in the future.
 This is also an excellent time to revisit the original outline of the task distribution to see how to proceed.
 
-> An example: You were not able to do all of the dishes as they would not all fit into the dishwasher. You also realized 40% of the time you
+> [!INFO]
+> An example: You were not able to do all the dishes as they would not all fit into the dishwasher. You also realized 40% of the time you 
 > spent on doing the dishes was used to collect the dirty plates and cups from all around the house.
 </p>
 
@@ -238,9 +253,9 @@ This is also an excellent time to revisit the original outline of the task distr
 After reflecting on the actions taken and their outcomes, you can choose to adapt your approach using the insights you have gathered. This can either mean changing your approach entirely, or making small adjustments to the operational execution of your task.
 An example: You could wash some of your dishes by hand, as it will not take significant time to do so. Waiting for the dishwasher to complete before loading the next batch of dishes would just move the problem to the future.
 
-**INSPECTION: is progress made?**
-
-Is the sub-goal completed? If not, is it still useful to complete it? If it is: proceed to the next action that works towards its
+> [!INFO] 
+> **INSPECTION: is progress made?**  
+> Is the sub-goal completed? If not, is it still useful to complete it? If it is: proceed to the next action that works towards its
 completion. If not: do something else.
 </p>
 </details>
@@ -256,6 +271,8 @@ Note that indirect learning is not for everyone, and others might repeat some of
 might know a few coping strategies to resolve the situation in case it goes bad.
 </p>
 </details>
+
+</div>
 
 ### Measuring success
 

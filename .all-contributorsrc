@@ -45,6 +45,17 @@
         "doc",
         "test"
       ]
+    },
+    {
+      "login": "Sch3lp",
+      "name": "Tim Schraepen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/648703?v=4",
+      "profile": "http://sch3lp.github.io",
+      "contributions": [
+        "code",
+        "doc",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,

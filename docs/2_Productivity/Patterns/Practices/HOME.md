@@ -10,10 +10,28 @@
 
 ### Drivers
 
-* 
+* Context switches hurt your producticity
+* Modern systems and activity are too large to pit in your brain completely
+* The more you have to keep in memory, the more likely you will forget something
+* Having a mental task list becomes exhausting after a while
+* We wish to be able to easily report porgress whnh queried
+* Hand-overs take a lot of time and effort
+* Computers are great at remembering stuff
 
 ### Solution
 
+* Use a technological or physical aid to keep track of your ideas and notes
+* Make sure you **trust** your external brain, in order to free headspace
+* Revisit your notes regularly 
+* Favor text-based formats, as they are easier to version, maintain and port 
+
+### Examples
+
+There are many online (free and paid) systems that offer you a way to store your thoughts.
+Some of them are listed below in the _references_ section.
+
+You can use a simple text-based system to keep track of your thoughts, or ToDo items.
+I personally preafer using these text-based systems as they allow for easier cross-platform portability, akd avoid you being locked in to a single vendor solution. This entire knowledge base can be seen as one big " external brain" 
 
 
 ### References
@@ -22,8 +40,49 @@
 | ----------- | -------------- |
 | [Creating a fersonal wiki](https://www.asianefficiency.com/organization/a-simple-personal-wiki-with-voodoopad/) | Asian efficiency: Creating a personal wiki |
 | [notion.so](https://www.notion.so/)| Online notetaking |
+| [Create a fersonal wiki using MS OneNote](https://cereal.baldwingroup.com/how-to-create-a-personal-wiki-using-microsoft-onenote) | Article by I. Humphrey n using OneNote as an external brain |
+| [NextCloud Personal data server](https://nextcloud.com/) | DIY data and notes storing solution |
+| [TODO.txt format](https://github.com/todotxt/todo.txt) | An open, text-based format for your TODO files|
+| [Trambu](https://github.com/stijn-dejongh/TraMBU) | My owm todo.txt inspired task-management application|
+| [Emacs org mode](https://orgmode.org/) | A major mode for [GNU Emacs](https://www.gnu.org/software/emacs/), aimed at organising your thoughts |
 
 ---
+
+
+
+## Organize your workflow
+
+![./task-flow.png](./task-flow.png)
+
+### Context
+
+
+
+### Drivers
+
+* Context switches hurt your producticity
+* Modern systems and activity are too large to pit in your brain completely
+* The more you have to keep in memory, the more likely you will forget something
+* Having a mental task list becomes exhausting after a while
+* We wish to be able to easily report porgress whnh queried
+* Hand-overs take a lot of time and effort
+* Computers are great at remembering stuff
+
+### Solution
+
+* Use a technological or physical aid to keef track of your ideas
+
+
+### References
+
+| Item        | Description    | 
+| ----------- | -------------- |
+| [Getting thihgs done - David Allen](https://www.amazon.com/Getting-Things-Done-Stress-Free-Productivity/dp/0143126563) | Link to book (amazon) |
+
+---
+
+
+
 
 ## OPERAs method
 
@@ -115,7 +174,7 @@ Note that indirect learning is not for everyone, and others might repeat some of
 - Do you feel like you are more productive?
 - Do you have an enhanced sense of purpose and/or productivity?
 
-===
+---
 
 
 ## Engaging retrospectives
@@ -365,4 +424,4 @@ The facilitator (or person assigned to take notes) creates a write-up of the ret
 | [ 11 Ideas to Spice up Your Retrospective ](https://www.scrum.org/resources/blog/11-ideas-spice-your-retrospective) | Barry Overeem       |                                                                          |
 | [ Sprint retrospectives ideas ](https://easyretro.io/retrospective-ideas/)                                          | Various authors     |                                                                          |
 
-===
+---

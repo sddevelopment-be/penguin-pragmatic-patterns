@@ -532,6 +532,7 @@ From the end of previous exercise, make sure you're back in the `Chapter2.java` 
 Open `MehJumper.java` by pressing <kbd>ctrl</kbd> <kbd>n</kbd>, then use <kbd>alt</kbd> <kbd>F1</kbd> to open up the `Project` navigational sidebar with the `MehJumper.java` class selected.
 
 You can now use <kbd>alt</kbd> <kbd>1</kbd> (**do not press F1, we mean the actual digit**) to minimize the sidebar and move your window focus back to your editor.
+
 ### **Mac**
 
 
@@ -590,7 +591,7 @@ Other useful overlay pop-ups include: the __quick documentation__ and __quick pa
 Let's find out what they do! Move to any line of code, and press <kbd>ctrl</kbd> <kbd>q</kbd>. The overlayed information pop-up will show you relevant documentation of the selected code element.
 
 Navigate to the `return id;` line in the `Ball.java` class and put your cursor on `id` again. Pressing <kbd>ctrl</kbd> <kbd>p</kbd> will show you the relevant documentation for this parameter.
-As we have not written any documentation, this ovelay window will be blank.
+As we have not written any documentation, this overlay window will be blank.
 
 ### **Mac**
 
@@ -749,14 +750,15 @@ Now use <kbd>ctrl</kbd> <kbd>n</kbd> and enter the desired line number (this is 
 
 ### **Windows**
 
-Another way of navigating to the place where the NullPointer occurs, albeit less exact, is to first copy the method from the stacktrace, in this case `findBall`.
-Then open ![Windows](icons/glyph-windows-20.png)`ctrl+n` BallServiceImpl, press ![Windows](icons/glyph-windows-20.png)`ctrl+F12`, which lists all methods of a class, and paste the method from the stacktrace in that popup window. You can then press ![Windows](icons/glyph-windows-20.png)`Enter` and navigate to that method.
+Another way of navigating to the location of the code causing our NullPointer exception, albeit less precise, is to first copy the method name from the stacktrace, in this case `findBall`.
+Next, open `BallServiceImpl.java`, using <kbd>ctrl</kbd> <kbd>n</kbd>. Now press <kbd>ctrl</kbd> <kbd>F12</kbd>. This lists all methods of a class.
+To navigate to the suspicious method: paste the name we copied from the stacktrace into the method list popup window.
+You can then press <kbd>Enter</kbd> to navigate to that method.
 
-Want to write a comparator for some object, or want to use it in a Set? You'll want to know about that objects `equals()` implementation.
-If that object is chock full of other methods, it might be easier to tap ![Windows](icons/glyph-windows-20.png)`ctrl+F12` to check for an equals implementation. If you can't find it from the first try, tap ![Windows](icons/glyph-windows-20.png)`ctrl+F12` again to browse the methods of the superclass as well.
-Let's open `RealBall` with ![Windows](icons/glyph-windows-20.png)`ctrl+n`, and try to find out if this class has its own `equals` and `hashcode` implementation, or if it uses its superclass implementations.
-
+Let's imagine we want to write a comparator for some object, or want to use it in a Set. You'll want to take a look at that objects `equals()` implementation. In case the object is filled to the brim with other methods, it might be easier to tap <kbd>ctrl</kbd> <kbd>F12</kbd> to check for an `equals` method. If you can't find it on your first try, tap <kbd>ctrl</kbd> <kbd>F12</kbd> again to browse the methods of the superclass as well.
+Let's open `RealBall.jave`, and try to find out if this class has its own `equals` and `hashcode` implementations, or wether makes use of its superclass implementations.
 
 ### **Mac**
+
 
 <!-- tabs:end -->

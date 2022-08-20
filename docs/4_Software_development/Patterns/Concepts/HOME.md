@@ -27,7 +27,6 @@ Experienced developer seem to have a gut instinct, allowing them to know when th
 Over time, you will develop this skill. But when starting out, it helps to know a set of of best practices and see if they apply to the code you have just written.
 
 
-
 #### But it works! That's all that matters, right?
 
 ![my attempt at reproducing the famous cartoon >](./wtf_per_minute.png ":size=480")

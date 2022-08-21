@@ -1,5 +1,5 @@
 Exchanging knowledge is a challenging activity. The aim is to communicate thoughts and ideas in a way that makes them resonate with the
-receiving party. To communicate effectively, groups of people tend to resort to using jargon. The term `jargon` is defined as _"The
+receiving party. To communicate effectively, groups of people tend to resort to using jargon. The term `jargon` means _"The
 specialized language of a trade, profession, or similar group, especially when viewed as difficult to understand by outsiders."_. Its goal
 is to make the exchange of information more efficient by giving specific names to things that are highly relevant to the in-group. It is
 said that the Inuit have over thirty words to differentiate between different types of snow. Other professions, such as software developers,

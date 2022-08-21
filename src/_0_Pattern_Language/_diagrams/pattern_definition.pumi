@@ -1,0 +1,85 @@
+@startuml
+title Pattern definition structure
+
+left to right direction
+
+skinparam linetype polyline
+skinparam dpi 180
+skinparam wrapWidth 260
+
+!include ../../../templates/plantuml/puml-theme-bluegray.puml
+
+class Pattern {
+    describes a problem, and the core of a solution that can be used in many ways within a specific field of expertise
+    ---
+    + name
+    + author
+}
+
+together {
+  class Practice {
+    helps you do something
+  }
+
+  class Concept {
+    helps you reason about things
+  }
+}
+
+class Context {
+    the context in which this pattern can be applied
+}
+
+class Drivers {
+    Why rhould you want to consider this pattern? What problem or challenge does it address?
+}
+
+together {
+    class Enablers {
+        Contextual factors that increase the chances of successfully implementing the pattern
+    }
+
+    class Deterrents {
+        Contextual factors that decrease the chances of successfully implementing the pattern
+    }
+}
+
+Pattern "1..*" --> "1" PatternType : has a
+
+PatternType <|-- Practice
+PatternType <|-- Concept
+
+Pattern --> Context : works in
+
+Drivers "1..*" *-- "0..*" Enablers : has
+Drivers "1..*" *-- "0..*" Deterrents : has
+
+Context "1..*" --> "1..*" Drivers : relates to
+
+Practice --> Solution : formulates a
+Concept --> Description : is expanded by
+
+class Solution {
+
+}
+
+class Description {
+
+}
+
+class Example {
+ Use Cases / Testimonials / ...
+}
+
+class Reference {
+    links to other patterns or content in this collection (or external ones)
+    ---
+    + name
+    + URI
+    + description
+}
+
+Pattern "1..*" *-- "0..*" Reference
+Pattern "1..*" <-- "0..*" Example : supports
+
+@enduml

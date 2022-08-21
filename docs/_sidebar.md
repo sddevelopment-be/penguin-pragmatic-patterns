@@ -1,4 +1,4 @@
-* [Pragmatic Penguin Patterns - Open Learning Knowledge Base](HOME)
+* [Pragmatic Penguin Patterns: Open Learning Knowledge Base](HOME)
   * [0_Pattern_Language](0_Pattern_Language/HOME)
   * [1_Learning](1_Learning/HOME)
     * [Concepts](1_Learning/Concepts/HOME)
@@ -22,3 +22,5 @@
     * [Changelog](X_Appendix/Changelog/HOME)
     * [Glossary](X_Appendix/Glossary/HOME)
     * [Reading_List](X_Appendix/Reading_List/HOME)
+  * [img](img/HOME)
+  * [scripts](scripts/HOME)

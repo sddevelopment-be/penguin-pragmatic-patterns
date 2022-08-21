@@ -78,6 +78,7 @@ Following changes are known:
 - OPERAs pattern now features collapsible sections and follows the intended pattern-practice structure
 - Moved `Practices` and `Concepts` pattern categories to the top level of each pilar
 - Update _"ROI"_ pattern structure
+- general quality upgrades ( grammatical fixes, layout fixes, ...)
 
 #### Added
 
@@ -92,6 +93,7 @@ Following changes are known:
     - Convert + Add chapter two
 - add "External Memory" Pattern
 - add footnote plugin
+- added syntax highlighting
 
 #### Removed
 

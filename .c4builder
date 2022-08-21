@@ -1,6 +1,6 @@
 {
 	"projectName": "Pragmatic Penguin Patterns",
-	"homepageName": "Pragmatic Penguin Patterns - Open Learning Knowledge Base",
+	"homepageName": "Pragmatic Penguin Patterns: Open Learning Knowledge Base",
 	"rootFolder": "src",
 	"distFolder": "docs",
 	"generateMD": false,

@@ -54,7 +54,7 @@ resources:
 A set of concepts and common abbreviations can be found in the [glossary](/X_Appendix/Glossary/HOME).
 
 If you are interested in diving deeper into some subjects mentioned in this work, be sure to take a look at
-the [Reading list](/X_Appendix/Reading_List/HOME) section included in the appendices. There, you will find an
+the [Reading list](/X_Appendix/Learning_Materials/HOME) section included in the appendices. There, you will find an
 overview of great books, articles, and audiovisual recourses that are worth checking out.
 
 ## A pattern-based approach

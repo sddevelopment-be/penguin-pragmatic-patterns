@@ -5,6 +5,7 @@ including but not limited to:
 - books
 - articles
 - videos
+- websites and tools
 
 In order to help you find the next thing to research, we included some symbols next to each resource.
 The meaning of which can be found in the table below.
@@ -19,7 +20,7 @@ The meaning of which can be found in the table below.
 
 ## Shortlist
 
-> A currated list of recommended learning resources
+> A curated list of recommended learning resources
 
 <!-- tabs:start -->
 
@@ -89,6 +90,7 @@ The meaning of which can be found in the table below.
 | [The C4 model for visualising software architecture](https://www.c4model.com/)           | Simon Brown                                          |          :fas fa-trophy: :fas fa-jet-fighter:           |
 | [Sociocracy 3.0: Evolve Effective Collaboration At Any Scale](https://sociocracy30.org/) | Bernhard Bockelbrink, James Priest and Liliana David | :fas fa-trophy: :fas fa-user-ninja: :fas fa-microscope: |
 | [GROWS Method®: forming good habits in software development](https://growsmethod.com/)   | GROWS Method® Institute, Andy Hunt                   |                   :fas fa-user-ninja:                   |
+| [GlossaryTech's Glossary: Technology terms](https://glossarytech.com/terms/technologies) | GlossaryTech Team                                    |           :fas fa-chess-pawn: :fas fa-trophy:           |
 
 ### **Podcasts**
 

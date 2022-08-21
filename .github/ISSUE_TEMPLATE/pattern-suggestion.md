@@ -25,58 +25,60 @@ to creating your own github fork.
 
 ---
 
-## Pattern name
+## {{Pattern name}}
 
-> Add introduction to your pattern here
+| Property               | Value                                                  |
+|------------------------|--------------------------------------------------------|
+| Submitter              | [Your name](http://www.github.com/your-name)           |
+| Date of submission     |                                                        |
+| Editor                 |                                                        |
+| Originally publication | [platform name](http://link-to-platform.com)           |
+| Type                   | `Practice` / `Concept`                                 |
+| Tags                   | `comma`, `sepparated`, `list`, `of`, `applicable_tags` |
 
 ### Context
 
-> Where and when to use this pattern? When does it work, what to look out for?
-> Why use this pattern?
+> [!NOTE]
+> Add a textual description of the context in which this pattern can be applied
 
 ### Drivers
 
-> Describe the core idea of the pattern and how to apply it.
+> [!NOTE]
+> A bullet list explaining why this pattern makes sense,
+> try and be as objective as possible here
+
+#### Enablers
+
+> [!NOTE]
+> Contextual factors that increase the chances of successfully implementing the pattern
+
+#### Deterrents
+
+> [!NOTE]
+> Contextual factors that decrease the chances of successfully implementing the pattern
 
 ### Solution
 
+> [!NOTE]
+> Describe the core idea of the pattern and how to apply it.
+> Add subsections as you see fit in order to clearly communicate the idea
 
-### Key Performance Metrics [Optional]
+### Measuring success
 
+> [!NOTE]
 > How do we know if we applied the pattern succesfully? What are our _'red flags'_ that should
-> trigger a adaption of the style of application?
->
-> KPI's give us a way of measuring succesful application of the pattern.
-> These can also be used to validate certain assumptions about the context before
-> applying the pattern.  
-> example of a precondition KPI: 'The team turnover is higher than 1/month'  
-> example of a postcondition KPI: 'The team turnover is lower than 1/year'
+> trigger an adaption of the style of application?
 
-### Examples [Optional]
+### Examples
 
-### Related Patterns and Resources [Optional]
+#### Use Cases / Testimonials [Optional]
 
-> Add links to other patterns in the collection (or external ones), please add
+### References
+
+> Add links to other patterns or content in this collection (or external ones), please add
 > references to the source material if you were inspired by someone else's work.
 > Feel free to add your own previous work as a reference.
 
-| Item        | Description    | Action              |
-| ----------- | -------------- | ------------------- |
-| Some thingy | Why it is here | What to do with it? |
-
-### Use Cases / Testimonials [Optional]
-
-
-
-### Pattern meta information 
-
-> Credit should go where it is due. If you are so kind to donate your knowledge to
-> the open source / self-improvement community, we believe you've earned the (bragging) right to
-> let people know it was your work or experience that helped them.
-
-| Property               | Value                                        |
-| ---------------------- | -------------------------------------------- |
-| Submitter              | [Your name](http://www.github.com/your-name) |
-| Date of submission     |                                              |
-| Editor                 |                                              |
-| Originally publication | [platform name](http://link-to-platform.com) |
+| Item        | Description    | 
+|-------------|----------------|
+| Some thingy | Why it is here |

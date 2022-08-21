@@ -24,7 +24,7 @@ and `variables` are in need of some attention and nursing.
 - Poorly understood code leads to **lazy changes**, or introduction of **bugs** (aka. Code rot, Broken windows)
 - The original author of the code is unlikely to be available to explain their intent
 - Holding on to significant mental context makes **interruptions**, or context switches, more expensive
-- As humans we **understand text more easily** if we are given sufficient context, and understand most of the words that are used in the
+- As humans, we **understand text more easily** if we are given sufficient context, and understand most of the words that are used in the
   fragment.
 
 ### Solution

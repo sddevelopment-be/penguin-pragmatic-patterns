@@ -4,7 +4,7 @@ title Pattern definition structure
 left to right direction
 
 skinparam linetype polyline
-skinparam dpi 180
+skinparam dpi 320
 skinparam wrapWidth 260
 
 !include ../../../templates/plantuml/puml-theme-bluegray.puml

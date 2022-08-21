@@ -101,7 +101,7 @@ this, the patterns in this knowledge base are split up into: `Concepts` and `Pra
 follow a similar structure. As we now know, **context matters**. This is why each pattern is prefaced with a short description of when it can be
 useful to consider using it.
 
-![Pattern structure definition ><](./pattern_definition.png ':size=520')
+![Pattern structure definition ><](./pattern_definition.png ':size=680')
 
 Some pattern will contain references to other resources. They can also contain supporting examples, testimonials, tutorials, etc.
 These examples can be included inside the pattern description, but they might as well exist as a separate resource in a different section of 

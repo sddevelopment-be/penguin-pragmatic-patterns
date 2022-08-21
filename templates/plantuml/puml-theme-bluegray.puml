@@ -15,7 +15,7 @@ skinparam backgroundColor $BGCOLOR
 !$WHITE = "#fff"
 !$GRAY_DARK = "#5a5a5a"
 !$GRAY = "#959595"
-!$PRIMARY = "#009fdb"
+!$PRIMARY = "#1168bd"
 !$SECONDARY = "#f2f2f2"
 !$SUCCESS = "#b5bd00"
 !$INFO = "#0568ae"
@@ -25,8 +25,8 @@ skinparam backgroundColor $BGCOLOR
 !$DARK = "#5a5a5a"
 
 !$FGCOLOR = $DARK
-!$PRIMARY_LIGHT = "#33b2e2"
-!$PRIMARY_DARK = "#007faf"
+!$PRIMARY_LIGHT = "#1c75cc"
+!$PRIMARY_DARK = "#1168bd"
 !$PRIMARY_TEXT = $WHITE
 !$SECONDARY_LIGHT = "#f5f5f5"
 !$SECONDARY_DARK = "#c2c2c2"
@@ -319,7 +319,7 @@ skinparam database {
 
 skinparam class {
 	$primary_scheme()
-	HeaderBackgroundColor $PRIMARY_LIGHT-$PRIMARY
+	HeaderBackgroundColor $PRIMARY
 	StereotypeFontColor $DARK
 	BorderThickness 1
 	AttributeFontColor $LIGHT

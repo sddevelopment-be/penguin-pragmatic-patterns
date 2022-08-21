@@ -329,13 +329,13 @@ position during the retro.
 - Most people are intimidated by authority
 - People do not like to feel ridiculous and want to be taken seriously
 
-### Enablers
+#### Enablers
 
 - Team/Management is willing to try, and dedicate time to improve their process
 - Trust in the intentions and skills of the facilitator or person taking the initiative
 - Team members feel safe to share their opinions without fear of reprisals
 
-### Deterrents
+#### Deterrents
 
 - The group has no motivation to experiment with alternative ways of working
 - You are operating in a low trust, high conflict environment

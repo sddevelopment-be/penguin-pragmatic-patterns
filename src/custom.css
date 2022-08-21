@@ -165,3 +165,11 @@ img.emoji {
     padding: 0 0.25rem !important;
     margin: 0.125rem 0.25rem 0.25rem 0.45rem !important;
 }
+
+.markdown-section table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-bottom: 1rem;
+    display: table;
+    overflow: auto;
+}

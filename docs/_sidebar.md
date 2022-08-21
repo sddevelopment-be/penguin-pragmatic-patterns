@@ -9,6 +9,7 @@
     * [Articles](3_People_Skills/Articles/HOME)
     * [Concepts](3_People_Skills/Concepts/HOME)
       * [Leadership](3_People_Skills/Concepts/Leadership/HOME)
+    * [Practices](3_People_Skills/Practices/HOME)
   * [4_Software_development](4_Software_development/HOME)
     * [Articles](4_Software_development/Articles/HOME)
     * [Concepts](4_Software_development/Concepts/HOME)
@@ -20,4 +21,4 @@
   * [X_Appendix](X_Appendix/HOME)
     * [Changelog](X_Appendix/Changelog/HOME)
     * [Glossary](X_Appendix/Glossary/HOME)
-    * [Reading_List](X_Appendix/Reading_List/HOME)
+    * [Learning_Materials](X_Appendix/Learning_Materials/HOME)

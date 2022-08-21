@@ -78,7 +78,8 @@ Following changes are known:
 - OPERAs pattern now features collapsible sections and follows the intended pattern-practice structure
 - Moved `Practices` and `Concepts` pattern categories to the top level of each pilar
 - Update _"ROI"_ pattern structure
-- general quality upgrades ( grammatical fixes, layout fixes, ...)
+- visual style of sidenav
+- default pattern template has been updated
 
 #### Added
 
@@ -94,6 +95,7 @@ Following changes are known:
 - add "External Memory" Pattern
 - add footnote plugin
 - added syntax highlighting
+- Section 0_Pattern_Language as it is not really relevant and should be added to the main README instead
 
 #### Removed
 
@@ -135,3 +137,5 @@ Following changes are known:
 #### Fixed
 
 - Resolved various typo's
+- Automated build and deployment pipeline has been updated
+- general quality upgrades ( grammatical fixes, layout fixes, ...)

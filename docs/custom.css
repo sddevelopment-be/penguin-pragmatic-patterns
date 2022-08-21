@@ -98,6 +98,10 @@ img[alt$="><"] {
     float: none !important;
 }
 
+.medium-zoom-image {
+    cursor: crosshair !important;
+}
+
 .markdown-section blockquote {
     clear: both;
 }
@@ -154,4 +158,10 @@ img.emoji {
     width: 1em;
     margin: 0 .05em 0 .1em;
     vertical-align: -0.1em;
+}
+
+.app-sub-sidebar {
+    border-left: 1px dotted;
+    padding: 0 0.25rem !important;
+    margin: 0.125rem 0.25rem 0.25rem 0.45rem !important;
 }

@@ -8,6 +8,8 @@ node_modules
 **/.vscode/*
 .idea
 **/.idea/*
+.fleet
+**/.fleet/*
 
 gradle
 .gradle

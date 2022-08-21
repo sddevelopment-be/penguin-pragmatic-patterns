@@ -1,7 +1,6 @@
 ![./src/pp_open-learning.png](./src/pp_open-learning.png)
 
-
-[![Documentation Conversion](https://github.com/sddevelopment-be/penguin-pragmatic-patterns/actions/workflows/document_conversion.yml/badge.svg)](https://github.com/sddevelopment-be/penguin-pragmatic-patterns/actions/workflows/document_conversion.yml) [![pages-build-deployment](https://github.com/sddevelopment-be/penguin-pragmatic-patterns/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/sddevelopment-be/penguin-pragmatic-patterns/actions/workflows/pages/pages-build-deployment) 
+[![Documentation Conversion](https://github.com/sddevelopment-be/penguin-pragmatic-patterns/actions/workflows/document_conversion.yml/badge.svg)](https://github.com/sddevelopment-be/penguin-pragmatic-patterns/actions/workflows/document_conversion.yml) [![pages-build-deployment](https://github.com/sddevelopment-be/penguin-pragmatic-patterns/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/sddevelopment-be/penguin-pragmatic-patterns/actions/workflows/pages/pages-build-deployment)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
@@ -9,16 +8,19 @@
 
 A learning and development repository, aimed to share knowledge with other technical professionals.
 The [docs](./docs) section of this repository is somewhat of a "personal wiki". It contains knowledge and
-information that has been collected from various sources, and is extended with some personal interpretations and experiences of the author.
+information that has been collected from various sources, and is extended with some personal interpretations and
+experiences of the author.
 
 **Table of Contents:**
 
 <!-- vim-markdown-toc GitLab -->
+
 - [Goal, Philosophy and outline](#goal-philosophy-and-outline)
 - [Repository Structure](#repository-structure)
-  - [Noteworthy sections and files](#noteworthy-sections-and-files)
+    - [Noteworthy sections and files](#noteworthy-sections-and-files)
 - [Tech Stack](#tech-stack)
 - [Contributors ✨](#contributors-)
+
 <!-- vim-markdown-toc -->
 
 ---
@@ -29,12 +31,16 @@ A lot of knowledge is available on the internet, in various talks, and in books.
 But finding your way in this vast ocean of knowledge can be a challenge.
 In order to assist fellow learners, we have started to collect our personal experiences in this repository.
 
-The initiative was started by [@stijn-dejongh](https://github.com/stijn-Dejongh), who is a self-improvement enthusiast, and an avid software developer.
-In order to avoid confusing terminology and avoid having to explain the definition of certain words multiple times, please take a look at the [Glossary](./src/X_APPENDIX/glossary.md).
+The initiative was started by [@stijn-dejongh](https://github.com/stijn-Dejongh), who is a self-improvement enthusiast,
+and an avid software developer.
+In order to avoid confusing terminology and avoid having to explain the definition of certain words multiple times,
+please take a look at the [Glossary](./src/X_APPENDIX/glossary.md).
 
 ## Repository Structure
 
-Most of the techniques, tactics, and behavioral patterns collected will fit some sort of category, which is usually outlined by the title of the directory in which the content is stored. Some general purpose information will be stored at the top level.
+Most of the techniques, tactics, and behavioral patterns collected will fit some sort of category, which is usually
+outlined by the title of the directory in which the content is stored. Some general purpose information will be stored
+at the top level.
 
 ### Noteworthy sections and files
 
@@ -55,7 +61,8 @@ Most of the techniques, tactics, and behavioral patterns collected will fit some
 
 ## Contributors ✨
 
-If you wish to contribute in any way to this initiative, please take a look at our [Contribution Guide](./CONTRIBUTING.md).
+If you wish to contribute in any way to this initiative, please take a look at
+our [Contribution Guide](./CONTRIBUTING.md).
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- prettier-ignore-start -->

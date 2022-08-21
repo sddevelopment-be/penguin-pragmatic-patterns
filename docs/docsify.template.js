@@ -19,7 +19,7 @@ module.exports = (options) => {
       <link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/regular.css" />
       <link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/solid.css" />
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet"/>
-      <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
+      <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css" />
       
       <link rel="stylesheet" href="./custom.css" />
     </head>
@@ -31,7 +31,8 @@ module.exports = (options) => {
 		name: '{{name}}',
 		repo: 'sddevelopment-be/penguin-pragmatic-patterns',
 		loadSidebar: true,
-		mergeNavbar: true,
+		loadNavbar: true,
+		mergeNavbar: false,
 		alias: {
                     '/.*/_sidebar.md': '/_sidebar.md',
   		},
@@ -83,6 +84,7 @@ module.exports = (options) => {
       <script src="//cdn.jsdelivr.net/npm/docsify-updated@1/src/time-updater.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/docsify-tabs@1"></script>
       <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+        
       <script src="//unpkg.com/docsify-fontawesome/dist/docsify-fontawesome.min.js"></script>
       <script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>
       <script src="./_scripts/footnotes.js"></script>

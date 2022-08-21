@@ -178,7 +178,7 @@ public class Game {
 <!-- tabs:end -->
 
 
-x## Write 'Good Enough' Code
+## Write 'Good Enough' Code
 
 ### Context
 

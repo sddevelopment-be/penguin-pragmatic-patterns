@@ -2,7 +2,7 @@
 
 > A story about the dangers of blindly adopting “best practices”
 
-![./rise_agile_empire.png](./rise_agile_empire.png)
+![./rise_agile_empire.png ><](./rise_agile_empire.png)
 
 ## Introduction
 
@@ -84,6 +84,9 @@ Some use these processes as their core selling point to customers: _"We are diff
 People that look for a job in the software industry are routinely asked if they have experience with Agile/SCRUM/Kanban.
 Saying you have experience with these methods has become a big competitive advantage for both companies and individuals.
 
+[![Dave Thomas GOTO talk <](http://img.youtube.com/vi/a-BOSpxYJ9M/0.jpg ':size=380')](https://www.youtube.com/watch?v=a-BOSpxYJ9M "Dave Thomas GOTO 
+talk")
+
 The downside of all of this success is that the big majority of Agile practitioners have never heard of the original manifesto, or the
 values it champions.
 They have no clue that the original idea was to provide a framework for a personal creed and a way of working specifically aimed at
@@ -97,7 +100,6 @@ started proclaiming they regret how popular the 'Agile' system they co-created h
 Dave gave a very insightful and interesting talk on the subject at the GOTO conference in 2015, basically pleading for people to stop
 sheepishly following the latest and greatest flavor of SCRUM, and to grab back to the original values of the Manifesto.
 
-[![Dave Thomas GOTO talk](http://img.youtube.com/vi/a-BOSpxYJ9M/0.jpg)](https://www.youtube.com/watch?v=a-BOSpxYJ9M "Dave Thomas GOTO talk")
 
 ## The manifesto strikes back
 

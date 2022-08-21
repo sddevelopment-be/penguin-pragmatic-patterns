@@ -9,7 +9,9 @@ module.exports = (options) => {
       <meta name="description" content="A learning and development repository, aimed to share knowledge with other technical professionals. ">
       <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
       <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/themes/vue.css" />
-
+      
+      
+        
       <link rel="icon" href="./favicon.ico" type="favicon.ico" />
 
       <!-- Font awesome -->
@@ -18,7 +20,8 @@ module.exports = (options) => {
       <link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/regular.css" />
       <link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/solid.css" />
       <link href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet"/>
-      <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css" />
+      <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
+      
       <link rel="stylesheet" href="./custom.css" />
     </head>
 
@@ -84,6 +87,13 @@ module.exports = (options) => {
       <script src="//unpkg.com/docsify-fontawesome/dist/docsify-fontawesome.min.js"></script>
       <script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>
       <script src="//cdn.jsdelivr.net/npm/@sy-records/docsify-footnotes/lib/index.min.js"></script>
+      
+      <script src="//unpkg.com/prismjs/components/prism-bash.min.js"></script>
+      <script src="//unpkg.com/prismjs/components/prism-php.min.js"></script>
+      <script src="//unpkg.com/prismjs/components/prism-java.min.js"></script>
+      <script src="//unpkg.com/prismjs/components/prism-javadoc.min.js"></script>
+      <script src="//unpkg.com/prismjs/components/prism-kotlin.min.js"></script>
+      <script src="//unpkg.com/prismjs/components/prism-javascript.min.js"></script>
 </body>
 
     </html>`;

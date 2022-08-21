@@ -76,6 +76,8 @@ circumstances in which they usually work well.
 > Unlike Pokemon, you will not get a special prize for implementing all of them in your life.
 > You are encouraged to be eclectic, and only use the practices that resonate with you.
 
+
+
 ## References
 
 | Resource                                                                                                            | Author                                | Description                                                                                                                           |

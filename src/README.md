@@ -1,6 +1,5 @@
 ![./pp_open-learning.png ><](pp_open-learning.png)
-version: <small>2.1.0-BETA</small>
-| [GitHub](https://github.com/sddevelopment-be/penguin-pragmatic-patterns) | [Glossary](/X_Appendix/Glossary/HOME) |
+version: <small>2.1.0</small>
 
 ## About this publication
 
@@ -69,9 +68,46 @@ perceive a certain set of concepts.
 
 ### Knowledge representation
 
-The image below is an ideation map, showing us how a person gathers information. You will see how our "knowledge aggregator" interacts with 
-a few relevant _"systems"_. From this simplified visualization, we see that how one perceives information is dependent of oneself, and the context one
-lives in.
-
 ![A simplified model of the things we know ><](./knowledge_gathering.png ':size=680')
 
+The image above is an ideation map, showing us how a person gathers information. You will see how our "knowledge aggregator" interacts with
+a few relevant _"systems"_. From this simplified visualization, we see that how one perceives information is dependent of oneself, and the context
+one lives in.
+
+![Visual representation of how thoughts and ideas form >](structurizr-BeliefDomain.png ':size=360')
+
+When you talk to people, you rely on a shared understanding of the language and terminology you use. The words you use will vary depending on
+whom you are speaking to, what you are discussing, and even how you are feeling at that particular time. Even more interestingly,
+how we talk about things tends to influence how we think about them. This means that if you spend most of your time complaining about something,
+you will perceive it as being more of a pain than it actually was before you started communicating negatively about it.
+
+A [pattern language](/X_Appendix/Glossary/HOME?id=pattern-language) is **a formal way to represent wisdom that improves ones ability to operate in a
+certain field of expertise**. The
+knowledge represented in a pattern language is usually stripped down to its bare essentials, in hopes of making it easier to apply them in a
+variety of situations.
+
+Much like a dictionary, each entry (_"Pattern"_) in these knowledge bases is indexed with a `name` and contains information
+on `what challenge it addresses` as well as a `description of the context in which it works well`.
+
+Sharing knowledge with other practitioners in a formalized manner is an activity that is generally used in a variety of fields. Chess
+players share certain board positions and [common tactics](https://chesstempo.com/tactical-motifs) by manner of "motifs"[^1] . In popular
+internet culture, we see the same as plenty communication happens using memes and tropes[^2] . Recent marketing campaigns, and
+elections in various countries have seen an uptick in using funny pictures and videos on the web to influence peoples decision-making.
+
+![Representation of learning by experimenting ><](./experimental-entities-Component.png ':size=520')
+
+We want to share information about both things you can do, and about ideas and models that can change the way you perceive a situation. To achieve
+this, the patterns in this knowledge base are split up into: `Concepts` and `Practices`. To keep the content in this work consistent, the patterns
+follow a similar structure. As we now know, **context matters**. This is why each pattern is prefaced with a short description of when it can be
+useful to consider using it.
+
+
+Enjoy reading and learning!
+
+---
+
+[^1] Unfortunately knowing this does not instantly make you a great chess player, as my elo on online platforms so adequately reminds me.
+
+[^2] So wide-spread even, that academics have [started investigating](https://www.michelecoscia.com/?page_id=2070) what makes some memes
+successful while others are doomed to be left in the ditches of the web.
+ 

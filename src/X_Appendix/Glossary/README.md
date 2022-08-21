@@ -60,6 +60,12 @@ You might even end up driving into a lake if the map is inaccurate, digital, and
 patterns, each describing a problem, and the core of a solution that can be used in many ways within a specific field of
 expertise.
 
+### Practices
+
+Practices are a set of actionable recipes, that can help you achieve certain goals. As with all advice, these are not guaranteed to give results.
+There exists no such thing as a sure-fire approach that works in any situation. To make these patterns as helpful as possible, they include a short
+description of the circumstances in which they usually work well.
+
 ### Pragmatic
 
 The word _'Pragmatic'_ originally means "skilled in business". You can interpret this as thinking about the added

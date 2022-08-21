@@ -5,6 +5,9 @@ on:
     branches:
       - main
       - stable
+      
+permissions:
+  contents: write
 
 jobs:
   build:
@@ -38,6 +41,5 @@ jobs:
         with:
           folder: docs # The folder the action should deploy.
           clean: true
-          ssh-key: true
 
 

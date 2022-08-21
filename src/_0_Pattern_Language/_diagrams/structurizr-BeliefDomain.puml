@@ -1,0 +1,34 @@
+@startuml
+title Beliefs - Containers
+
+left to right direction
+
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+System(Linguistic, "Linguistic", "A system of signs governed by grammatical rules of combination to communicate meaning", $tags="Element+Software System+communication")
+System(Social, "Social", "a patterned network of relationships constituting a coherent whole that exist between individuals, groups, and institutions", $tags="Element+Software System+people")
+System(Experimental, "Experimental", "a system in which actions take place and observations are made", $tags="Element+Software System+science")
+
+System_Boundary("Beliefs_boundary", "Beliefs") {
+  Container(Beliefs.Knowledge, "Knowledge", "A body of useful knowledge", $tags="Element+Container")
+  Container(Beliefs.SubjectMatter, "Subject Matter", "Someone or something", $tags="Element+Container")
+  Container(Beliefs.ContextualBoundary, "Contextual Boundary", "Situational, historical, or cognitive boundary", $tags="Element+Container")
+  Container(Beliefs.Evidence, "Evidence", "A piece of information", $tags="Element+Container")
+}
+
+Rel_D(Beliefs.Knowledge, Linguistic, "is expressed using", $tags="Relationship")
+Rel_D(Social, Beliefs.ContextualBoundary, "has a comon", $tags="Relationship")
+Rel_D(Beliefs.Knowledge, Social, "is shared within", $tags="Relationship")
+Rel_D(Beliefs.Knowledge, Beliefs.ContextualBoundary, "Is useful in", $tags="Relationship")
+Rel_D(Beliefs.Knowledge, Beliefs.SubjectMatter, "is a familiarity, awareness, or understanding of", $tags="Relationship")
+Rel_D(Beliefs.Evidence, Beliefs.Knowledge, "validates or refines", $tags="Relationship")
+Rel_D(Beliefs.Evidence, Beliefs.SubjectMatter, "can be related to", $tags="Relationship")
+Rel_D(Beliefs.Evidence, Beliefs.ContextualBoundary, "is acquired within", $tags="Relationship")
+Rel_D(Social, Linguistic, "maintains an (often specialized) specific", $tags="Relationship")
+Rel_D(Social, Experimental, "imposes constraints on", $tags="Relationship")
+Rel_D(Beliefs.Evidence, Experimental, "originates from", $tags="Relationship")
+
+SHOW_LEGEND()
+@enduml

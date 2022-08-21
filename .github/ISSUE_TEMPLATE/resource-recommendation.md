@@ -28,7 +28,7 @@ to creating your own github fork.
 ## Resource Name
 
 | Property               | Value                                                                                                   | Comment                                    |
-| ---------------------- | ------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
+|------------------------|---------------------------------------------------------------------------------------------------------|--------------------------------------------|
 | Title                  | `add title here`                                                                                        |                                            |
 | Type                   | `select one of:` :book: `Book` / :speech_balloon: `Keynote` / :clipboard: `Article` / :sound: `Podcast` | Describe the type of content, etc          |
 | Authors                | `Name of author`                                                                                        |                                            |
@@ -56,5 +56,5 @@ to creating your own github fork.
 ### Related Patterns and Resources
 
 | Item        | Description    | Action              |
-| ----------- | -------------- | ------------------- |
+|-------------|----------------|---------------------|
 | Some thingy | Why it is here | What to do with it? |

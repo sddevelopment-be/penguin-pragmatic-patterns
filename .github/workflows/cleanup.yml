@@ -4,7 +4,7 @@ name: Branch Cleanup
 # However the script does not do anything it a merge was not performed.
 on:
   pull_request:
-    types: [closed]
+    types: [ closed ]
 
 env:
   NO_BRANCH_DELETED_EXIT_CODE: 0

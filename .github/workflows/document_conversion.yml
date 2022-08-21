@@ -1,4 +1,4 @@
-name: Convert Documents
+name: Convert Documents and Deploy
 
 on:
   push:
@@ -8,20 +8,22 @@ on:
 
 jobs:
   build:
+    concurrency: ci-${{ github.ref }} # Recommended if you intend to make multiple deployments in quick succession.
     name: <(^v^)> Documentation Conversion
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout source code
+      - name: Checkout source code ️📁
         uses: actions/checkout@v2
 
-      - uses: actions/setup-node@v1
+      - name: Install and Build 🔧
+        uses: actions/setup-node@v1
         with:
           node-version: 14
-      - run: npm i -g c4builder
-      - run: c4builder
-      - run: cp ./src/_coverpage.md ./docs/_coverpage.md
+      - run: | 
+          npm i -g c4builder
+          c4builder
 
-      - name: push
+      - name: push 📚
         if: github.ref == 'refs/heads/main'
         uses: actions-x/commit@v6
         env:
@@ -30,3 +32,12 @@ jobs:
           name: GitHub Actions Automatic Commit
           files: ./docs
           message: "[GITOPS] Pipeline updated documentation"
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          folder: docs # The folder the action should deploy.
+          clean: true
+          ssh-key: true
+
+

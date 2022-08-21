@@ -1,0 +1,31 @@
+@startuml
+title Experimental - drivers - Components
+
+top to bottom direction
+
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+
+Container(Experimental.process, "process", "", $tags="Element+Container")
+Container(Experimental.inspection, "inspection", "", $tags="Element+Container")
+Container(Experimental.entities, "entities", "", $tags="Element+Container")
+
+Container_Boundary("Experimental.drivers_boundary", "drivers") {
+  Component(Experimental.drivers.Motivation, "Motivation", "initiates, guides, and maintains goal-oriented behaviors", $tags="Element+Component")
+  Component(Experimental.drivers.Valuation, "Valuation", "the estimated or determined percieved desirability of a thing, person, conviction, or situation", $tags="Element+Component")
+}
+
+Rel_D(Experimental.drivers.Valuation, Experimental.drivers.Motivation, "leads to", $tags="Relationship")
+Rel_D(Experimental.inspection, Experimental.process, "interpretation of", $tags="Relationship+domain")
+Rel_D(Experimental.inspection, Experimental.entities, "performed on", $tags="Relationship")
+Rel_D(Experimental.drivers.Motivation, Experimental.process, "reason for", $tags="Relationship")
+Rel_D(Experimental.drivers.Valuation, Experimental.entities, "based on perception of", $tags="Relationship")
+Rel_D(Experimental.process, Experimental.entities, "induces potential change in", $tags="Relationship")
+Rel_D(Experimental.process, Experimental.inspection, "is reference for", $tags="Relationship")
+Rel_D(Experimental.inspection, Experimental.drivers.Valuation, "input for", $tags="Relationship")
+Rel_D(Experimental.entities, Experimental.process, "performs", $tags="Relationship+domain")
+
+SHOW_LEGEND()
+@enduml

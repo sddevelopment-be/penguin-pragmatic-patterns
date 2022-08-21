@@ -67,4 +67,9 @@ a look at how we see _"knowledge"_ itself. Us software developers tend to resort
 understand them a bit better. By visualizing our ideas, and how they relate to each other, we create a "map" of how we
 perceive a certain set of concepts.
 
+The image below is such a map, showing us how a person gathers information. You will see how our "knowledge aggregator" interacts with a few
+relevant _"systems"_. From this simplified visualization, we see that how one perceives information is dependent of oneself, and the context one
+lives in.
+
+![A simplified model of the things we know ><](./_0_Pattern_Language/knowledge_gathering.png ':size=680')
 

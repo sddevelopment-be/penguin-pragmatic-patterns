@@ -72,7 +72,6 @@ As with all advice, these are not guaranteed to give results. There is no such t
 sure-fire approach that works in any situation. To make these patterns as helpful as possible, they include a short description of the
 circumstances in which they usually work well.
 
-
 > [!WARNING] **This is not a bingo chart.**  
 > Unlike Pokemon, you will not get a special prize for implementing all of them in your life.
 > You are encouraged to be eclectic, and only use the practices that resonate with you.

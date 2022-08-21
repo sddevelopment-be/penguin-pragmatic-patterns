@@ -11,7 +11,7 @@ When looking for a structured way to represent ideas, experiences, or cookbooks 
 know of _"knowledge"_ itself. Us software developers tend to resort to modeling things when we want to understand them a bit better. Drawing
 out our ideas, and how they relate to each other helps us create a "map" of reality.
 
-![A simplified model of the things we know ><](./knowledge_gathering.png ':size=680')
+![A simplified model of the things we know ><](../knowledge_gathering.png ':size=680')
 
 ### What we think we know
 

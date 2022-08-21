@@ -1,4 +1,5 @@
 module.exports = (options) => {
+    // language=JavaScript
     return `<!DOCTYPE html>
     <html lang="en">
 
@@ -9,9 +10,7 @@ module.exports = (options) => {
       <meta name="description" content="A learning and development repository, aimed to share knowledge with other technical professionals. ">
       <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
       <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/themes/vue.css" />
-      
-      
-        
+              
       <link rel="icon" href="./favicon.ico" type="favicon.ico" />
 
       <!-- Font awesome -->
@@ -86,7 +85,7 @@ module.exports = (options) => {
       <script src="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
       <script src="//unpkg.com/docsify-fontawesome/dist/docsify-fontawesome.min.js"></script>
       <script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>
-      <script src="./scripts/footnotes.js"></script>
+      <script src="./_scripts/footnotes.js"></script>
       
       <script src="//unpkg.com/prismjs/components/prism-bash.min.js"></script>
       <script src="//unpkg.com/prismjs/components/prism-php.min.js"></script>

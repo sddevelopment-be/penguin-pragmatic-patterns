@@ -1,9 +1,9 @@
+
+![./pp_open-learning.png ><](pp_open-learning.png)
+| [GitHub](https://github.com/sddevelopment-be/penguin-pragmatic-patterns) | [Glossary](/X_Appendix/Glossary/HOME) | [Contribute!](https://github.com/sddevelopment-be/penguin-pragmatic-patterns/blob/main/CONTRIBUTING.md) |
 version: <small>2.1.0-BETA</small>
 
-Quick links: | [GitHub](https://github.com/sddevelopment-be/penguin-pragmatic-patterns) | [Glossary](/X_Appendix/Glossary/HOME)
-| [Help out!](https://github.com/sddevelopment-be/penguin-pragmatic-patterns/blob/main/CONTRIBUTING.md) |
-
-## Outline
+## About this publication
 
 A learning and development knowledge base, aimed to share knowledge with other technical professionals.
 The docs section of this repository is somewhat of a "personal wiki".
@@ -15,7 +15,7 @@ experiences of the author.
 > not all content will be refined. It is advisable to check out the [Changelog](/X_Appendix/HOME?id=changelog) in order to see what has been
 > changed recently.
 
-## Purpose
+### Purpose
 
 As we live our lives, we tend to learn a great deal about a wide variety of topics.
 From time to time we are stumped by how elegant, or easy, someone solves a certain problem. And you are left wondering why you have not been
@@ -24,14 +24,14 @@ tackling similar problems in the same way. It could have saved you vast amounts 
 The aim of this catalog is to bundle some little nuggets of enlightenment these "aha"-moments tend to deliver.
 The hope is that someone, somewhere learns something that makes their lives a litle bit more enjoyable.
 
-## Intended Audience
+### Intended Audience
 
 This knowledge base is intended for people that are interested in improving theis current way of working ( or living ) by learning about
 alternative approaches. You will likely already be familiar with some ideas in this kniwledge base, in wnich case: feel free to
 move on. If you think we are blabbering and giving bad advice, feel free to leave a comment or suggestion
 on the [github page](https://github.com/sddevelopment-be/penguin-pragmatic-patterns).
 
-## Structure
+### Structure
 
 This open knowledge collection is ordered by categories. Each of these categories contains
 some of the following resources:

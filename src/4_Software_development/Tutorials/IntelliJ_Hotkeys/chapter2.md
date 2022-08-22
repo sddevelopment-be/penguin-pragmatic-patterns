@@ -32,6 +32,7 @@ public class Chapter2 {
 ```
 
 ### **EpicJumper.java**
+
 ```java
 package be.swsb.productivity.chapter2;
 
@@ -93,6 +94,20 @@ public class MehJumper implements Jumper {
 ## Source code: Chapter Two/mud
 
 <!-- tabs:start -->
+
+### **BallRepository.java**
+
+```java
+package be.swsb.productivity.chapter2.mud.domain;
+
+public class BallRepository {
+
+    public Ball lookupById(String id) {
+//        return new Ball(id, 10);
+        return null;
+    }
+}
+```
 
 ### **Ball.java**
 
@@ -212,20 +227,6 @@ public class Ball {
     }
 }
 
-```
-
-### **BallRepository.java**
-
-```java
-package be.swsb.productivity.chapter2.mud.domain;
-
-public class BallRepository {
-
-    public Ball lookupById(String id) {
-//        return new Ball(id, 10);
-        return null;
-    }
-}
 ```
 
 ### **RealBall.java**

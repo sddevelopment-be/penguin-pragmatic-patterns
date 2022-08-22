@@ -1,7 +1,42 @@
 # Chapter 3 - Selection
-[_Back to outline_](outline.md)
-## Move + Select ![Windows](icons/glyph-windows-32.png)`ctrl+shift+arrows`
-Open `Chapter3.java`, then move your cursor to the beginning of `"jumps over"`, hold down ![Windows](icons/glyph-windows-20.png)`ctrl` and ![Windows](icons/glyph-windows-20.png)`shift` and press the ![Windows](icons/glyph-windows-20.png)`right` arrow to select that sentence and cut and paste it behind the first line.
+
+## Source code: Chapter Three
+
+<!-- tabs:start -->
+
+### **Chapter2.java**
+
+```java
+package be.swsb.productivity.chapter3;
+
+public class Chapter3 {
+
+    public String selectStuff() {
+	    return "The quick brown fox " +
+	            "jumps over " +
+	            "the LazyDawg";
+    }
+}
+
+```
+<!-- tabs:end -->
+
+## Move + Select 
+
+<!-- tabs:start -->
+
+### **Windows**
+Open `Chapter3.java`, then move your cursor to the beginning of the line containing `"jumps over"`, hold
+down <kbd>ctrl</kkbd>, <kbd>shift</kbd> and press the right arrow key <kbd> 	
+&#8594;</kbd> to select that sentence. Now cut and paste it behind the first line.
+
+### **Mac**
+
+```
+<!-- tabs:end -->
+
+
+![Windows](icons/glyph-windows-32.png)`ctrl+shift+arrows` 
 
 ## Expand Selection ![Windows](icons/glyph-windows-20.png)`ctrl+w`
 Press ![Windows](icons/glyph-windows-20.png)`ctrl+n` and open `Fugly.java`.

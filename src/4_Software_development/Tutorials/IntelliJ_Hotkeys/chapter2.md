@@ -371,8 +371,7 @@ Alternatively, you can accomplish the same using <kbd>PgUp</kbd> and <kbd>PgDn</
 
 ### **Mac**
 
-Try out <kbd>&#8984</kbd><kbd>&#8593;</kbd> and <kbd>&#8984</kbd><kbd>&#8595;</kbd> in `Chapter2.java`.  
-Alternatively, you can accomplish the same using <kbd>Fn</kbd><kbd>&#8593;</kbd> and <kbd>Fn</kbd><kbd>&#8595</kbd>.
+Try out <kbd>Fn</kbd><kbd>&#8984</kbd><kbd>&#8592;</kbd> and <kbd>Fn</kbd><kbd>&#8984</kbd><kbd>&#8594;</kbd> in `Chapter2.java`.
 
 <!-- tabs:end -->
 
@@ -388,16 +387,21 @@ Try to use _Skip Word_ with <kbd>ctrl</kbd><kbd>&#8594;</kbd> on that method.
 
 Depending on your CamelHumps setting, your cursor either ended up on the _"Q"_ or it skipped the entire method name and ended up on the _"("_.
 
-Return to the beginning of the method name and press <kbd>ctrl</kbd><kbd>shift</kbd><kbd>a</kbd>, then type `CamelHump`. There should be a setting named `Smart Keys: Use "CamelHumps" words` with a toggle indicator.
+Return to the beginning of the method name and press <kbd>ctrl</kbd><kbd>shift</kbd><kbd>a</kbd>, then type `CamelHump`. There used to be a setting named `Smart Keys: Use "CamelHumps" words` with a toggle indicator, but this disappeared since some new release around 2019.
 
-Navigate to that option using the arrow keys, and toggle it by pressing <kbd>Enter</kbd>, then press <kbd>Escape</kbd> to exit the action menu.
+Instead if you want to do something using the alternative CamelHumps mode, there **is** an action in the action menu for that.
 
-Try to use _Skip Word_ again with <kbd>ctrl</kbd><kbd>&#8594;</kbd>.
+These are called `Move Caret to Next Word with Selection in Different "CamelHumps" Mode` (or Previous Word, or without Selection).
+
+They all appear when you type CamelHumps and IntelliJ remembers your last action command, so it's not all bad.
 
 > [!TIP]
 > Other tools, like SublimeText, have different key combinations to skip the entire word (<kbd>ctrl</kbd><kbd>&#8594;</kbd>), or skip based on CamelCasing (<kbd>alt</kbd><kbd>&#8594;</kbd>).
 
 ### **Mac**
+
+> [!NOTE]
+> These shortcuts might override with your OS shortcuts, so it's wise to disable these before you continue with the next exercises.
 
 In `Chapter2.java`, put your cursor at the beginning of the method `theQuickBrownFoxJumpedOverTheLazyCamel`.
 
@@ -405,11 +409,13 @@ Try to use _Skip Word_ with <kbd>&#8997;</kbd><kbd>&#8594;</kbd> on that method.
 
 Depending on your CamelHumps setting, your cursor either ended up on the _"Q"_ or it skipped the entire method name and ended up on the _"("_.
 
-Return to the beginning of the method name and press<kbd>&#8984;</kbd><kbd>a</kbd>, then type `CamelHump`. There should be a setting named `Smart Keys: Use "CamelHumps" words` with a toggle indicator.
+Return to the beginning of the method name and press<kbd>&#8984;</kbd><kbd>a</kbd>, then type `CamelHump`.  There used to be a setting named `Smart Keys: Use "CamelHumps" words` with a toggle indicator, but this disappeared since some new release around 2019.
 
-Navigate to that option using the arrow keys, and toggle it by pressing <kbd>Enter</kbd>, then press <kbd>Escape</kbd> to exit the action menu.
+Instead if you want to do something using the alternative CamelHumps mode, there **is** an action in the action menu for that.
 
-Try to use _Skip Word_ again with <kbd>&#8997;</kbd><kbd>&#8594;</kbd>
+These are called `Move Caret to Next Word with Selection in Different "CamelHumps" Mode` (or Previous Word, or without Selection).
+
+They all appear when you type CamelHumps and IntelliJ remembers your last action command, so it's not all bad.
 
 > [!TIP]
 > Other tools, like SublimeText, have different key combinations to skip the entire word (<kbd>&#8963;</kbd><kbd>&#8594;</kbd>), or skip based on CamelCasing (<kbd>&#8997;</kbd><kbd>&#8594;</kbd>).
@@ -458,6 +464,23 @@ Notice how the cursor now first jumps to the actual compilation error (_`privet`
 
 ### **Mac**
 
+Move to the top of the file with <kbd>Fn</kbd><kbd>&#8984</kbd><kbd>&#8592;</kbd> and from there press <kbd>F2</kbd>. This should navigate your cursor to the class named `Chapter2` because IntelliJ marks it as being _unused_.
+
+If you keep pressing <kbd>F2</kbd> it should keep cycling your cursor over the _unused_ warnings. In between the methods `jump()` and `camel()`, paste the following:
+
+```java
+privet String kakdilla() {
+    "horocho";
+}
+```
+
+Move to the top of the file again, and press <kbd>F2</kbd> once again.
+Notice how the cursor now first jumps to the actual compilation error (_`privet` cannot be resolved_).
+
+> [!NOTE]
+> Cycling only happens over all actual _errors_, and the _unused warnings_ are not cycled over anymore.
+
+
 <!-- tabs:end -->
 
 ## Jump into
@@ -480,6 +503,17 @@ You can now correct the typo in the method, and move on to the next exercise.
 
 ### **Mac**
 
+__"Jump into"__, or __"drill down"__ as I like to call it, allows you to follow the path the code will execute at runtime.
+It is a big timesaver when attempting to follow the logic of any given program.
+
+Right now, there's a typo in both the `EpicJumper.java` and `MehJumper.java` classes. Let's fix that.
+
+Go to `Chapter2.jumpUsingStrategy()` and place your cursor on the `jump()` method call. Press <kbd>&#8984;</kbd> <kbd>b</kbd>.
+This should take you straight to the interfaces `jump()` method.
+
+Now, let's go back to where we came from. Press <kbd>&#8984;</kbd> <kbd>&#8997;</kbd> <kbd>b</kbd>. IntelliJ knows you want to __"drill down"__ into the actual method implementation but doesn't know which one, so it will suggest some options. Select the `MehJumper` method by pressing <kbd>&#8595;</kbd> and then <kbd>enter</kbd> and see where it leads you.
+
+You can now correct the typo in the method, and move on to the next exercise.
 
 <!-- tabs:end -->
 
@@ -494,7 +528,7 @@ In the previous exercise we drilled down into a method call and changed some thi
 If you are following this tutorial in one go, and are currently at the end-position of the previous topic, you can continue onwards from there.
 
 Press <kbd>ctrl</kbd> <kbd>alt</kbd> <kbd>&#8592;</kbd> to go return to your starting position. 
-You should now be back at at the `Chapter2.java` class.
+You should now be back at the `Chapter2.java` class.
 
 Now repeat the previous exercise, but pick the `EpicJumper` and also fix the typo. Then go back again using <kbd>ctrl</kbd> <kbd>alt</kbd> <kbd>&#8592;</kbd>.
 
@@ -506,6 +540,18 @@ Also try backtracking your backtrack by pressing <kbd>ctrl</kbd> <kbd>alt</kbd> 
 
 ### **Mac**
 
+In the previous exercise we drilled down into a method call and changed some things. But sometimes we want to go back in time (usually after messing something up). Let's repeat the previous exercise!
+If you are following this tutorial in one go, and are currently at the end-position of the previous topic, you can continue onwards from there.
+
+Press <kbd>&#8984;</kbd> <kbd>&#8997;</kbd> <kbd>&#8592;</kbd> to go return to your starting position.
+You should now be back at the `Chapter2.java` class.
+
+Now repeat the previous exercise, but pick the `EpicJumper` and also fix the typo. Then go back again using <kbd>&#8984;</kbd> <kbd>&#8997;</kbd> <kbd>&#8592;</kbd>.
+
+Also try backtracking your backtrack by pressing <kbd>&#8984;</kbd> <kbd>&#8997;</kbd> <kbd>&#8594;</kbd>.
+
+> [!NOTE]
+> every time you use **Navigation shortcuts** that bring you to new classes, IntelliJ will remember this in a Navigation History of sorts.
 
 <!-- tabs:end -->
 
@@ -519,6 +565,9 @@ From the end of previous exercise, make sure you're back in the `Chapter2.java` 
 
 
 ### **Mac**
+
+From the end of previous exercise, make sure you're back in the `Chapter2.java` class and press <kbd>&#8984;</kbd> <kbd>shift</kbd> <kbd>backspace</kbd> to return to where you were last editing. Try pressing the hotkey again and see what happens.
+
 
 <!-- tabs:end -->
 
@@ -535,6 +584,9 @@ You can now use <kbd>alt</kbd> <kbd>1</kbd> (**do not press F1, we mean the actu
 
 ### **Mac**
 
+Open `MehJumper.java` by pressing <kbd>&#8984;</kbd> <kbd>o</kbd>, then use <kbd>&#8997;</kbd> <kbd>F1</kbd>, <kbd>enter</kbd> to open up the `Project` navigational sidebar with the `MehJumper.java` class selected.
+
+You can now use <kbd>&#8997;</kbd> <kbd>1</kbd> (**do not press F1, we mean the actual digit**) to minimize the sidebar and move your window focus back to your editor.
 
 <!-- tabs:end -->
 
@@ -544,7 +596,7 @@ You can now use <kbd>alt</kbd> <kbd>1</kbd> (**do not press F1, we mean the actu
 
 ### **Windows**
 
-Inspect the `mud` package. It's got your typical layered application where we pass around a `Ball` through all of it's layers.
+Inspect the `mud` package. It's got your typical layered application where we pass around a `Ball` through all of its layers.
 In order to navigate more complex code hierarchies, play around with some of these hotkeys:
 
 Pressing <kbd>alt</kbd> <kbd>F7</kbd> will show you how the selected element is used inside your codebase.
@@ -557,9 +609,24 @@ Repeat the previous step, but instead of inspecting an element's usage, press <k
 Navigate the element tree using the arrow keys, and select any element you wish to take a closer look at with <kbd>ctrl</kbd> <kbd>enter</kbd> (or <kbd>F4</kbd> if you want to navigate to the code without further ado).
 
 > [!TIP]
-> move this navigational __Tool Window__ to the bottom bar (next to `3: Find`), because you'll  usually want to optimize your screens horizontal space rather than it's vertical space.
+> move this navigational __Tool Window__ to the bottom bar (next to `3: Find`), because you'll usually want to optimize your screen's horizontal space rather than its vertical space.
 
 ### **Mac**
+
+Inspect the `mud` package. It's got your typical layered application where we pass around a `Ball` through all of its layers.
+In order to navigate more complex code hierarchies, play around with some of these hotkeys:
+
+Pressing <kbd>&#8997;</kbd> <kbd>F7</kbd> will show you how the selected element is used inside your codebase.
+This shortcut works on virtually anything, be it a class, a method or a field in a separate __Tool Window__.
+As an example: open `Ball.java` using <kbd>&#8984;</kbd> <kbd>o</kbd>, and press your arrow keys to navigate to the`getId()` method inside this class.
+Now press <kbd>&#8997;</kbd> <kbd>F7</kbd> and look at the bottom of your screen.
+
+<kbd>&#8963;</kbd> <kbd>&#8997;</kbd> <kbd>h</kbd> will show you the call hierarchy leading up to the element you are currently inspecting.
+Repeat the previous step, but instead of inspecting an element's usage, press <kbd>&#8963;</kbd> <kbd>&#8997;</kbd> <kbd>h</kbd>.
+Navigate the element tree using the arrow keys, and select any element you wish to take a closer look at with <kbd>ctrl</kbd> <kbd>enter</kbd> (or <kbd>F4</kbd> if you want to navigate to the code without further ado).
+
+> [!TIP]
+> move this navigational __Tool Window__ to the bottom bar (next to `3: Find`), because you'll usually want to optimize your screen's horizontal space rather than its vertical space.
 
 
 <!-- tabs:end -->
@@ -575,7 +642,9 @@ This should navigate your code editor to the instantiation of the field itself.
 Press <kbd>ctrl</kbd> <kbd>b</kbd> again. This time it should show a popup asking if you want to show __accessors__ of the field. Let's go with _`Yes`_.
 
 ### **Mac**
-
+Navigate to the `return id;` line in the `Ball.java` class and put your cursor on `id`. Now press <kbd>&#8997;</kbd> <kbd>b</kbd>
+This should navigate your code editor to the instantiation of the field itself.
+Press <kbd>&#8997;</kbd> <kbd>b</kbd> again. This time it should show a popup asking if you want to show __accessors__ of the field. Let's go with _`Yes`_.
 
 <!-- tabs:end -->
 
@@ -594,7 +663,14 @@ Navigate to the `return id;` line in the `Ball.java` class and put your cursor o
 As we have not written any documentation, this overlay window will be blank.
 
 ### **Mac**
+Sometimes when you are working on code, you want to quickly reference how a certain class, field or method is defined without opening a new workspace window.
+In order to do so, you can make use of the <kbd>&#8997;</kbd> <kbd>space</kbd> keyboard combination to do just so.
 
+Other useful overlay pop-ups include: the __quick documentation__ and __quick parameter definition__ shortcuts.
+Let's find out what they do! Move to any line of code, and press <kbd>&#8963;</kbd> <kbd>j</kbd>. The overlayed information pop-up will show you relevant documentation of the selected code element.
+
+Navigate to the `return id;` line in the `Ball.java` class and put your cursor on `id` again. Pressing <kbd>&#8984;</kbd> <kbd>p</kbd> will show you the relevant documentation for this parameter.
+As we have not written any documentation, this overlay window will be blank.
 
 <!-- tabs:end -->
 

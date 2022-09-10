@@ -33,12 +33,11 @@ down <kbd>ctrl</kkbd>, <kbd>shift</kbd> and press the right arrow key <kbd>
 ### **Mac**
 
 ```
-<!-- tabs:end -->
+<!-- tabs:end --> 
 
+## Expand Selection 
 
-![Windows](icons/glyph-windows-32.png)`ctrl+shift+arrows` 
-
-## Expand Selection ![Windows](icons/glyph-windows-20.png)`ctrl+w`
+![Windows](icons/glyph-windows-20.png)`ctrl+w`
 Press ![Windows](icons/glyph-windows-20.png)`ctrl+n` and open `Fugly.java`.
 
 Move your cursor to line 23, column 28 by pressing ![Windows](icons/glyph-windows-20.png)`ctrl+g` and typing `23:28`.

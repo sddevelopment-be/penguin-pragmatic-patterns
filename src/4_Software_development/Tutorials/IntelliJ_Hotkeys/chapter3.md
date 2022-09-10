@@ -32,23 +32,23 @@ down <kbd>ctrl</kkbd>, <kbd>shift</kbd> and press the right arrow key <kbd>
 
 ### **Mac**
 
-```
 <!-- tabs:end --> 
 
 ## Expand Selection 
 
-![Windows](icons/glyph-windows-20.png)`ctrl+w`
-Press ![Windows](icons/glyph-windows-20.png)`ctrl+n` and open `Fugly.java`.
+<!-- tabs:start -->
 
-Move your cursor to line 23, column 28 by pressing ![Windows](icons/glyph-windows-20.png)`ctrl+g` and typing `23:28`.
+### **Windows**
+Press <kbd>ctrl<kbd> <kbd>n</kbd> and open `Fugly.java`. 
+Move your cursor to line `23`, column `28` by pressing <kbd>ctrl</kbd> <kbd>g</kbd> and typing `23:28`.
+From that position press <kbd>ctrl</kbd> <kbd>w</kbd>, press this key combination again a few times, and see what happens.
 
-From that position press ![Windows](icons/glyph-windows-20.png)`ctrl+w`, keep pressing it again, and see what happens.
+Now try using <kbd>ctrl</kbd> <kbd>shift</kbd> <kbd>w</kbd> to incrementally reduce the size of your selection. Play around with both the 
+`Expand selection` and `Reduce selection` key combinations until you feel comfortable with them.
 
-What happens if you keep on pressing it?
+### **Mac**
 
-Try using ![Windows](icons/glyph-windows-20.png)`ctrl+shift+w` and see what that does.
-
-What happens if you keep on pressing that combination?
+<!-- tabs:end -->
 
 ## Using Selection to help Navigation (e.g. Fluent API)
 Because ![Windows](icons/glyph-windows-20.png)`ctrl+w` expands a selection, and because the arrow keys decide where our cursor is going to be: ![Windows](icons/glyph-windows-20.png)`left` at the beginning or ![Windows](icons/glyph-windows-20.png)`right` at the end of the selection.
@@ -73,7 +73,3 @@ Then apply the same pattern to `yewwww` but instead of a `"`, type a `(`.
 Then apply the same pattern to the entire method body but type a `{`.
 
 This feature really shines in combination with multi-cursor (which we'll see in a later chapter).
-
-[_Next Chapter_](chapter4.md)
-
-[_Back to outline_](outline.md)

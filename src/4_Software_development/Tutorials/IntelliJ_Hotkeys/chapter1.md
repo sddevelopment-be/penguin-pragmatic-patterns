@@ -70,9 +70,9 @@ First press <kbd>alt</kbd><kbd>h</kbd> for _(H)elp_ (in the taskbar), then press
 ### **Mac**
 
 Open IntelliJ's Productivity Guide using these key combinations:
-First press <kbd>&#8997;</kbd><kbd>h</kbd> for _(H)elp_ (in the taskbar), then press <kbd>P</kbd> to select _(P)roductivity Guide_.
+First press <kbd>&#8963;</kbd><kbd>F2</kbd> to focus on the taskbar, then use the arrow keys to navigate to the Help menu, then press down to expand the menu itself, then press <kbd>enter</kbd> to select _My Productivity_.
 
-**bonus:** Try opening the Productivity Guide using <kbd>shift</kbd><kbd>&#8984;</kbd><kbd>a</kbd>.
+**bonus:** Try opening the Productivity Guide using <kbd>&#8984;</kbd><kbd>shift</kbd><kbd>a</kbd>.
 
 <!-- tabs:end -->
 
@@ -200,7 +200,7 @@ Keep this strange behavior in mind when you work in IntelliJ, or in another edit
 
 ### **Mac**
 
-The default undo and redo keyboard shortcuts on MacOSC work the same over most applications. The weird behavior described in the windows section is not relevant for Mac users. Use <kbd>&#8984;</kbd><kbd>z</kbd> to undo, and <kbd>&#8984;</kbd><kbd>shift</kbd><kbd>z</kbd> to redo.
+The default undo and redo keyboard shortcuts on MacOS work the same over most applications. The weird behavior described in the windows section is not relevant for Mac users. Use <kbd>&#8984;</kbd><kbd>z</kbd> to undo, and <kbd>&#8984;</kbd><kbd>shift</kbd><kbd>z</kbd> to redo.
 
 <!-- tabs:end -->
 

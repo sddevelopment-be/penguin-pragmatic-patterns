@@ -1386,7 +1386,7 @@ IntelliJ has a neat feature that wraps your selection with braces, curly braces,
 You can enable this feature under `Settings` by pressing <kbd>ctrl</kbd> <kbd>>alt</kbd> <kbd>s</kbd>, then go to `Editor > General > Smart Keys`,
 and enable `Surround selection on typing quote or brace`.
 
-An alternative is by pressing <kbd>ctrl</kbd> <kbd>>shift</kbd> <kbd>a</kbd>, and then type `Smart Keys Braces`.
+An alternative is by pressing <kbd>ctrl</kbd> <kbd>shift</kbd> <kbd>a</kbd>, and then type `Smart Keys Braces`.
 Fix the `wrapStuff` method by selecting `"efffff"` with <kbd>ctrl</kbd> <kbd>w</kbd>, and then type a `"`.
 Then apply the same pattern to `yewwww` but instead of a `"`, type a `(`.Then apply the same pattern to the entire method body but type a `{`.
 

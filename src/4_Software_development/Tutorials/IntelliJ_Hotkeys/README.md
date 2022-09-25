@@ -38,7 +38,7 @@ exercises that will help you move forward at a consistent pace.
 > If you are using a keyboard made for a windows PC while working on a Mac, use the <kbd>Alt</kbd> key instead of <kbd>&#8997;</kbd>, and the Windows logo key ( <kbd>&#8862;</kbd>) instead of <kbd>&#8984;</kbd>.
 
 ### Good Luck, Have Fun!
-If you like these exercises, share them with your friends and colleagues, and drop a line to thank [Tim](https://github.com/Sch3lp) for making this tutorial publicly available.
+If you like these exercises, share them with your friends and colleagues, and drop a line to thank [Tim](https://github.com/Sch3lp)for making this tutorial publicly available.
 
 ### Code snippets
 

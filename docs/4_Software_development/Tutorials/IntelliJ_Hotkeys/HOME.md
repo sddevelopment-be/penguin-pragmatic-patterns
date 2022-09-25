@@ -65,7 +65,7 @@ exercises that will help you move forward at a consistent pace.
 > If you are using a keyboard made for a windows PC while working on a Mac, use the <kbd>Alt</kbd> key instead of <kbd>&#8997;</kbd>, and the Windows logo key ( <kbd>&#8862;</kbd>) instead of <kbd>&#8984;</kbd>.
 
 ### Good Luck, Have Fun!
-If you like these exercises, share them with your friends and colleagues, and drop a line to thank [Tim](https://github.com/Sch3lp) for making this tutorial publicly available.
+If you like these exercises, share them with your friends and colleagues, and drop a line to thank [Tim](https://github.com/Sch3lp)for making this tutorial publicly available.
 
 ### Code snippets
 
@@ -1274,8 +1274,9 @@ Here is a part of a very long stacktrace.
 <!-- tabs:start -->
 
 ### **Windows**
-Let's see where the NullPointer is occurring. Open `BallServiceImpl`, using <kbd>ctrl</kbd> <kbd>n</kbd>.
-Now use <kbd>ctrl</kbd> <kbd>n</kbd> and enter the desired line number (this is line nr. `18`), as the stacktrace above states the error is occurs on this line:
+Let's see where the NullPointer is occurring. Open `BallServiceImpl`, using <kbd>ctrl</kbd> <kbd>g</kbd>.
+Now use <kbd>ctrl</kbd> <kbd>g</kbd> and enter the desired line number (this is line nr. `18`), as the stacktrace above states the error is 
+occurs on this line:
 `at be.swsb.productivity.chapter2.mud.service.BallServiceImpl.findBall(BallServiceImpl.java:18)`
 
 
@@ -1480,27 +1481,39 @@ This time hold down <kbd>ctrl</kbd> <kbd>shift</kbd> and press <kbd>&#x2191;</kb
 
 <!-- tabs:end -->
 
+## Start new line
 
+<!-- tabs:start -->
 
-##Start new line ![Windows](icons/glyph-windows-32.png)`shift+enter`
-In `Chapter4.java`, go to 20:20. From this position we want to start implementing the methods body.
+### **Windows**
 
-Typically, one would do this by pressing `end`, and then `enter`. But you can do this in one go by
-pressing ![Windows](icons/glyph-windows-20.png)`shift+enter`, so let's do just that.
+In `Chapter4.java`, jump to 20:20 (using <kbd>ctrl</kbd> <kbd>g</kbd>). From this position we want to start implementing the body of the method.
+Typically, one would do this by pressing <kbd>end</kbd>, and then <kbd>enter</kbd>. But you can do this in one go by
+pressing <kbd>shift</kbd> <kbd>enter</kbd>, so let's do just that.
 
-It'll come in handy later.
+This will come in handy later.
 
-##Join lines ![Windows](icons/glyph-windows-32.png)`ctrl+shift+j`
+### **Mac**
+
+<!-- tabs:end -->
+
+## Join lines
+
+<!-- tabs:start -->
+
+### **Windows**
+
 We want to write the return statement of `_4_thundercats()` on just one line.
+Don't use a sequence of <kbd>end</kbd> <kbd>delete</kbd> combinations.
+Instead, first select all the thundercats' names (the strings), then press <kbd>ctrl</kbd> <kbd>shift</kbd> <kbd>j</kbd> (for Join lines).
 
-Don't do `end`, `delete`, `end`, `delete`, ...
+> [!NOTE]
+> Hint: use <kbd>ctrl</kbd> <kbd>w</kbd> right after the `{` character.
 
-Instead, first select all of the thundercats names (the strings), then press ![Windows](icons/glyph-windows-20.png)`ctrl+shift+j` (for Join lines).
-Hint: ![Windows](icons/glyph-windows-20.png)`ctrl+w` right after the `{`.
-
-You might have to repeat the ![Windows](icons/glyph-windows-20.png)`ctrl+shift+j` combination, because IntelliJ's auto-formatting kicks in
+You might have to repeat the <kbd>ctrl</kbd> <kbd>shift</kbd> <kbd>j</kbd> combination, because IntelliJ's auto-formatting tends to kick in
 sometimes.
 
-[_Next Chapter_](chapter5.md)
+### **Mac**
 
-[_Back to outline_](outline.md)
+<!-- tabs:end -->
+

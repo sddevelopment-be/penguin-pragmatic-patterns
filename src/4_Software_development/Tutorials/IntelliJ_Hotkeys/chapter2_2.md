@@ -295,8 +295,9 @@ Here is a part of a very long stacktrace.
 <!-- tabs:start -->
 
 ### **Windows**
-Let's see where the NullPointer is occurring. Open `BallServiceImpl`, using <kbd>ctrl</kbd> <kbd>n</kbd>.
-Now use <kbd>ctrl</kbd> <kbd>n</kbd> and enter the desired line number (this is line nr. `18`), as the stacktrace above states the error is occurs on this line:
+Let's see where the NullPointer is occurring. Open `BallServiceImpl`, using <kbd>ctrl</kbd> <kbd>g</kbd>.
+Now use <kbd>ctrl</kbd> <kbd>g</kbd> and enter the desired line number (this is line nr. `18`), as the stacktrace above states the error is 
+occurs on this line:
 `at be.swsb.productivity.chapter2.mud.service.BallServiceImpl.findBall(BallServiceImpl.java:18)`
 
 

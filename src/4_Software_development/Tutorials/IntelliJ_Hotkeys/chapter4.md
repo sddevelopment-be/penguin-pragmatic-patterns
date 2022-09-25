@@ -80,21 +80,39 @@ This time hold down <kbd>ctrl</kbd> <kbd>shift</kbd> and press <kbd>&#x2191;</kb
 
 <!-- tabs:end -->
 
-## Start new line ![Windows](icons/glyph-windows-32.png)`shift+enter`
-In `Chapter4.java`, go to 20:20. From this position we want to start implementing the methods body.
+## Start new line
 
-Typically, one would do this by pressing `end`, and then `enter`. But you can do this in one go by
-pressing ![Windows](icons/glyph-windows-20.png)`shift+enter`, so let's do just that.
+<!-- tabs:start -->
 
-It'll come in handy later.
+### **Windows**
 
-## Join lines ![Windows](icons/glyph-windows-32.png)`ctrl+shift+j`
+In `Chapter4.java`, jump to 20:20 (using <kbd>ctrl</kbd> <kbd>g</kbd>). From this position we want to start implementing the body of the method.
+Typically, one would do this by pressing <kbd>end</kbd>, and then <kbd>enter</kbd>. But you can do this in one go by
+pressing <kbd>shift</kbd> <kbd>enter</kbd>, so let's do just that.
+
+This will come in handy later.
+
+### **Mac**
+
+<!-- tabs:end -->
+
+## Join lines
+
+<!-- tabs:start -->
+
+### **Windows**
+
 We want to write the return statement of `_4_thundercats()` on just one line.
+Don't use a sequence of <kbd>end</kbd> <kbd>delete</kbd> combinations.
+Instead, first select all the thundercats' names (the strings), then press <kbd>ctrl</kbd> <kbd>shift</kbd> <kbd>j</kbd> (for Join lines).
 
-Don't do `end`, `delete`, `end`, `delete`, ...
+> [!NOTE]
+> Hint: use <kbd>ctrl</kbd> <kbd>w</kbd> right after the `{` character.
 
-Instead, first select all of the thundercats names (the strings), then press ![Windows](icons/glyph-windows-20.png)`ctrl+shift+j` (for Join lines).
-Hint: ![Windows](icons/glyph-windows-20.png)`ctrl+w` right after the `{`.
-
-You might have to repeat the ![Windows](icons/glyph-windows-20.png)`ctrl+shift+j` combination, because IntelliJ's auto-formatting kicks in
+You might have to repeat the <kbd>ctrl</kbd> <kbd>shift</kbd> <kbd>j</kbd> combination, because IntelliJ's auto-formatting tends to kick in
 sometimes.
+
+### **Mac**
+
+<!-- tabs:end -->
+

@@ -1,5 +1,4 @@
 # Chapter 8 - Multiple Cursors
-[_Back to outline_](outline.md)
 
 The feature you've all been waiting for: _Multiple Cursors_!
 
@@ -220,7 +219,3 @@ Then select all the opening tags by selecting `<` and ![Windows](icons/glyph-win
 Expand selection with ![Windows](icons/glyph-windows-20.png)`ctrl+w`, delete the tags, ![Windows](icons/glyph-windows-20.png)`ctrl+shift+j`oin lines and remove the last `,` at the ![Windows](icons/glyph-windows-20.png)`end` of the line. You can then still get rid of excess new lines by pressing `up` and either ![Windows](icons/glyph-windows-20.png)`ctrl+shift+j`oin lines or ![Windows](icons/glyph-windows-20.png)`ctrl+y` delete line.
 
 And that's it.
-
-[_Next Chapter_](chapter9.md)
-
-[_Back to outline_](outline.md)

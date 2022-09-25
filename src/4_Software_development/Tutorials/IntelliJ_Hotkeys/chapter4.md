@@ -78,6 +78,14 @@ This time hold down <kbd>ctrl</kbd> <kbd>shift</kbd> and press <kbd>&#x2191;</kb
 
 ### **Mac**
 
+While in `Chapter4.java`, the `System.out.println` function calls are switched around.
+Place your cursor on one of the `System.out.println` lines, hold down <kbd>&#8997;</kbd> <kbd>shift</kbd> and press <kbd>&#x2191;</kbd> or 
+<kbd>&#x2193;</kbd> to move that line.
+Do the same for the other line.
+
+You will see the methods aren't in the desired order yet, so place your cursor on `_2_snarf`'s method signature.
+This time hold down  <kbd>shift</kbd> <kbd>&#8984;</kbd> and press <kbd>&#x2191;</kbd> or <kbd>&#x2193;</kbd> to move the entire method.
+
 <!-- tabs:end -->
 
 ## Start new line
@@ -93,6 +101,11 @@ pressing <kbd>shift</kbd> <kbd>enter</kbd>, so let's do just that.
 This will come in handy later.
 
 ### **Mac**
+
+In `Chapter4.java`, jump to 20:20 (using <kbd>&#8984;</kbd> <kbd>l</kbd>). From this position we want to start implementing the body of the 
+method.
+Typically, one would do this by pressing <kbd>end</kbd>, and then <kbd>enter</kbd>. But you can do this in one go by
+pressing <kbd>shift</kbd> <kbd>enter</kbd>, so let's do just that.
 
 <!-- tabs:end -->
 
@@ -113,6 +126,16 @@ You might have to repeat the <kbd>ctrl</kbd> <kbd>shift</kbd> <kbd>j</kbd> combi
 sometimes.
 
 ### **Mac**
+
+We want to write the return statement of `_4_thundercats()` on just one line.
+Don't use a sequence of <kbd>&#8984;</kbd> <kbd>&#x2193;</kbd>, <kbd>delete</kbd> combinations.
+Instead, first select all the thundercats' names (the strings), then press <kbd>&#8963;</kbd> <kbd>shift</kbd> <kbd>j</kbd> (for Join lines).
+
+> [!NOTE]
+> Hint: use <kbd>&#8997;</kbd> <kbd>&#x2191;</kbd> right after the `{` character.
+
+You might have to repeat the <kbd>&#8963;</kbd> <kbd>shift</kbd> <kbd>j</kbd> combination, because IntelliJ's auto-formatting tends to kick in
+sometimes.
 
 <!-- tabs:end -->
 

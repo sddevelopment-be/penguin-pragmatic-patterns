@@ -1,0 +1,26 @@
+name: Deploy github pages
+
+on:
+  push:
+    branches:
+      - gh-pages
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    permissions:
+      pages: write
+      id-token: write
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages 🐧
+        id: deployment
+        uses: actions/deploy-pages@v1

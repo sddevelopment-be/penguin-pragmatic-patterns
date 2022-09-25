@@ -1,4 +1,4 @@
-name: Convert Documents and Deploy
+name: Convert Documents
 
 on:
   push:
@@ -8,6 +8,10 @@ on:
       
 permissions:
   contents: write
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   build:
@@ -36,10 +40,11 @@ jobs:
           files: ./docs
           message: "[GITOPS] Pipeline updated documentation"
 
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@v4
-        with:
-          folder: docs # The folder the action should deploy.
-          clean: true
-
+      - name: push to deploy branch 📬
+        uses: s0/git-publish-subdir-action@develop
+        env:
+          REPO: self
+          BRANCH: gh-pages
+          FOLDER: ./docs
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 

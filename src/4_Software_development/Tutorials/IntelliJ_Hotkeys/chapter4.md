@@ -128,7 +128,7 @@ sometimes.
 ### **Mac**
 
 We want to write the return statement of `_4_thundercats()` on just one line.
-Don't use a sequence of <kbd>&#8984;</kbd> <kbd>&#x2193;</kbd>, <kbd>delete</kbd> combinations.
+Don't use a sequence of <kbd>&#8984;</kbd> <kbd>&#8594;</kbd>, <kbd>delete</kbd> combinations.
 Instead, first select all the thundercats' names (the strings), then press <kbd>&#8963;</kbd> <kbd>shift</kbd> <kbd>j</kbd> (for Join lines).
 
 > [!NOTE]

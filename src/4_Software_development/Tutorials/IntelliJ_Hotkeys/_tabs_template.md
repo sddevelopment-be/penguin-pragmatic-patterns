@@ -2,9 +2,6 @@
 
 ### **Windows**
 
-
 ### **Mac**
-
-
 
 <!-- tabs:end -->

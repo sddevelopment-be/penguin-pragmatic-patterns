@@ -101,6 +101,19 @@ Happy editing!
 
 ### **Mac**
 
+Stop resizing your _Tool Windows_, use them when you need them (see _Opening/Closing (Toggling)_).
+
+If you don't need your _Tool Window_, you'll want to focus back on your editor window. You can do this from anywhere (meaning, from any
+focussed _Tool Window_) by pressing <kbd>shift</kbd> <kbd>&#8984;</kbd> <kbd>F12</kbd>.
+
+So, let's first imagine we were looking at a hierarchy of `CoffeeBeans.scent()`, we looked at `CoffeeSmeller`'s use and we checked where in
+the package structure `CoffeeSmeller` was situated by pressing <kbd>&#8997;</kbd> <kbd>F1</kbd>.
+
+Now we have both the `1: Project` and `8: Hierarchy` _Tool Windows_ open. But we want to continue tweaking the CoffeeSmellers code, so let's
+press <kbd>shift</kbd> <kbd>&#8984;</kbd> <kbd>F12</kbd> and get our focus back on where it belongs, without any distractions.
+
+Happy editing!
+
 <!-- tabs:end -->
 
 

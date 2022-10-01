@@ -65,7 +65,7 @@ exercises that will help you move forward at a consistent pace.
 > If you are using a keyboard made for a windows PC while working on a Mac, use the <kbd>Alt</kbd> key instead of <kbd>&#8997;</kbd>, and the Windows logo key ( <kbd>&#8862;</kbd>) instead of <kbd>&#8984;</kbd>.
 
 ### Good Luck, Have Fun!
-If you like these exercises, share them with your friends and colleagues, and drop a line to thank [Tim](https://github.com/Sch3lp) for making this tutorial publicly available.
+If you like these exercises, share them with your friends and colleagues, and drop a line to thank [Tim](https://github.com/Sch3lp)for making this tutorial publicly available.
 
 ### Code snippets
 
@@ -980,7 +980,7 @@ You can now correct the typo in the method, and move on to the next exercise.
 # Chapter 2.2 - Navigation (Continuation)
 
 > [!NOTE] As this chapter is quite lengthy, we split it up into two parts.
-> Make sure you have completed Chapter 2.1 before continuing. 
+> Make sure you have completed Chapter 2.1 before continuing.
 
 ## History and its importance
 
@@ -988,29 +988,34 @@ You can now correct the typo in the method, and move on to the next exercise.
 
 ### **Windows**
 
-In the previous exercise we drilled down into a method call and changed some things. But sometimes we want to go back in time (usually after messing something up). Let's repeat the previous exercise!
-If you are following this tutorial in one go, and are currently at the end-position of the previous topic, you can continue onwards from there.
+In the previous exercise we drilled down into a method call and changed some things. But sometimes we want to go back in time (usually after
+messing something up). Let's repeat the previous exercise!
+If you are following this tutorial in one go, and are currently at the end-position of the previous topic, you can continue onwards from
+there.
 
-Press <kbd>ctrl</kbd> <kbd>alt</kbd> <kbd>&#8592;</kbd> to go return to your starting position. 
+Press <kbd>ctrl</kbd> <kbd>alt</kbd> <kbd>&#8592;</kbd> to go return to your starting position.
 You should now be back at the `Chapter2.java` class.
 
-Now repeat the previous exercise, but pick the `EpicJumper` and also fix the typo. Then go back again using <kbd>ctrl</kbd> <kbd>alt</kbd> <kbd>&#8592;</kbd>.
+Now repeat the previous exercise, but pick the `EpicJumper` and also fix the typo. Then go back again using <kbd>ctrl</kbd> <kbd>
+alt</kbd> <kbd>&#8592;</kbd>.
 
 Also try backtracking your backtrack by pressing <kbd>ctrl</kbd> <kbd>alt</kbd> <kbd>&#8594;</kbd>.
 
 > [!NOTE]
 > every time you use **Navigation shortcuts** that bring you to new classes, IntelliJ will remember this in a Navigation History of sorts.
 
-
 ### **Mac**
 
-In the previous exercise we drilled down into a method call and changed some things. But sometimes we want to go back in time (usually after messing something up). Let's repeat the previous exercise!
-If you are following this tutorial in one go, and are currently at the end-position of the previous topic, you can continue onwards from there.
+In the previous exercise we drilled down into a method call and changed some things. But sometimes we want to go back in time (usually after
+messing something up). Let's repeat the previous exercise!
+If you are following this tutorial in one go, and are currently at the end-position of the previous topic, you can continue onwards from
+there.
 
 Press <kbd>&#8984;</kbd> <kbd>&#8997;</kbd> <kbd>&#8592;</kbd> to go return to your starting position.
 You should now be back at the `Chapter2.java` class.
 
-Now repeat the previous exercise, but pick the `EpicJumper` and also fix the typo. Then go back again using <kbd>&#8984;</kbd> <kbd>&#8997;</kbd> <kbd>&#8592;</kbd>.
+Now repeat the previous exercise, but pick the `EpicJumper` and also fix the typo. Then go back again using <kbd>&#8984;</kbd> <kbd>
+&#8997;</kbd> <kbd>&#8592;</kbd>.
 
 Also try backtracking your backtrack by pressing <kbd>&#8984;</kbd> <kbd>&#8997;</kbd> <kbd>&#8594;</kbd>.
 
@@ -1025,16 +1030,16 @@ Also try backtracking your backtrack by pressing <kbd>&#8984;</kbd> <kbd>&#8997;
 
 ### **Windows**
 
-From the end of previous exercise, make sure you're back in the `Chapter2.java` class and press <kbd>ctrl</kbd> <kbd>shift</kbd> <kbd>backspace</kbd> to return to where you were last editing. Try pressing the hotkey again and see what happens.
-
+From the end of previous exercise, make sure you're back in the `Chapter2.java` class and press <kbd>ctrl</kbd> <kbd>shift</kbd> <kbd>
+backspace</kbd> to return to where you were last editing. Try pressing the hotkey again and see what happens.
 
 ### **Mac**
 
-From the end of previous exercise, make sure you're back in the `Chapter2.java` class and press <kbd>&#8984;</kbd> <kbd>shift</kbd> <kbd>backspace</kbd> to return to where you were last editing. Try pressing the hotkey again and see what happens.
+From the end of previous exercise, make sure you're back in the `Chapter2.java` class and press <kbd>&#8984;</kbd> <kbd>shift</kbd> <kbd>
+backspace</kbd> to return to where you were last editing. Try pressing the hotkey again and see what happens.
 
 
 <!-- tabs:end -->
-
 
 ## Show in Project Window
 
@@ -1042,15 +1047,19 @@ From the end of previous exercise, make sure you're back in the `Chapter2.java` 
 
 ### **Windows**
 
-Open `MehJumper.java` by pressing <kbd>ctrl</kbd> <kbd>n</kbd>, then use <kbd>alt</kbd> <kbd>F1</kbd> to open up the `Project` navigational sidebar with the `MehJumper.java` class selected.
+Open `MehJumper.java` by pressing <kbd>ctrl</kbd> <kbd>n</kbd>, then use <kbd>alt</kbd> <kbd>F1</kbd> to open up the `Project` navigational
+sidebar with the `MehJumper.java` class selected.
 
-You can now use <kbd>alt</kbd> <kbd>1</kbd> (**do not press F1, we mean the actual digit**) to minimize the sidebar and move your window focus back to your editor.
+You can now use <kbd>alt</kbd> <kbd>1</kbd> (**do not press F1, we mean the actual digit**) to minimize the sidebar and move your window
+focus back to your editor.
 
 ### **Mac**
 
-Open `MehJumper.java` by pressing <kbd>&#8984;</kbd> <kbd>o</kbd>, then use <kbd>&#8997;</kbd> <kbd>F1</kbd>, <kbd>enter</kbd> to open up the `Project` navigational sidebar with the `MehJumper.java` class selected.
+Open `MehJumper.java` by pressing <kbd>&#8984;</kbd> <kbd>o</kbd>, then use <kbd>&#8997;</kbd> <kbd>F1</kbd>, <kbd>enter</kbd> to open up
+the `Project` navigational sidebar with the `MehJumper.java` class selected.
 
-You can now use <kbd>&#8997;</kbd> <kbd>1</kbd> (**do not press F1, we mean the actual digit**) to minimize the sidebar and move your window focus back to your editor.
+You can now use <kbd>&#8997;</kbd> <kbd>1</kbd> (**do not press F1, we mean the actual digit**) to minimize the sidebar and move your window
+focus back to your editor.
 
 <!-- tabs:end -->
 
@@ -1065,15 +1074,18 @@ In order to navigate more complex code hierarchies, play around with some of the
 
 Pressing <kbd>alt</kbd> <kbd>F7</kbd> will show you how the selected element is used inside your codebase.
 This shortcut works on virtually anything, be it a class, a method or a field in a separate __Tool Window__.
-As an example: open `Ball.java` using <kbd>ctrl</kbd> <kbd>n</kbd>, and press your arrow keys to navigate to the`getId()` method inside this class.
+As an example: open `Ball.java` using <kbd>ctrl</kbd> <kbd>n</kbd>, and press your arrow keys to navigate to the`getId()` method inside this
+class.
 Now press <kbd>alt</kbd> <kbd>F7</kbd> and look at the bottom of your screen.
 
 <kbd>ctrl</kbd> <kbd>alt</kbd> <kbd>h</kbd> will show you the call hierarchy leading up to the element you are currently inspecting.
 Repeat the previous step, but instead of inspecting an element's usage, press <kbd>ctrl</kbd> <kbd>alt</kbd> <kbd>h</kbd>.
-Navigate the element tree using the arrow keys, and select any element you wish to take a closer look at with <kbd>ctrl</kbd> <kbd>enter</kbd> (or <kbd>F4</kbd> if you want to navigate to the code without further ado).
+Navigate the element tree using the arrow keys, and select any element you wish to take a closer look at with <kbd>ctrl</kbd> <kbd>
+enter</kbd> (or <kbd>F4</kbd> if you want to navigate to the code without further ado).
 
 > [!TIP]
-> move this navigational __Tool Window__ to the bottom bar (next to `3: Find`), because you'll usually want to optimize your screen's horizontal space rather than its vertical space.
+> move this navigational __Tool Window__ to the bottom bar (next to `3: Find`), because you'll usually want to optimize your screen's
+> horizontal space rather than its vertical space.
 
 ### **Mac**
 
@@ -1082,33 +1094,39 @@ In order to navigate more complex code hierarchies, play around with some of the
 
 Pressing <kbd>&#8997;</kbd> <kbd>F7</kbd> will show you how the selected element is used inside your codebase.
 This shortcut works on virtually anything, be it a class, a method or a field in a separate __Tool Window__.
-As an example: open `Ball.java` using <kbd>&#8984;</kbd> <kbd>o</kbd>, and press your arrow keys to navigate to the`getId()` method inside this class.
+As an example: open `Ball.java` using <kbd>&#8984;</kbd> <kbd>o</kbd>, and press your arrow keys to navigate to the`getId()` method inside
+this class.
 Now press <kbd>&#8997;</kbd> <kbd>F7</kbd> and look at the bottom of your screen.
 
 <kbd>&#8963;</kbd> <kbd>&#8997;</kbd> <kbd>h</kbd> will show you the call hierarchy leading up to the element you are currently inspecting.
 Repeat the previous step, but instead of inspecting an element's usage, press <kbd>&#8963;</kbd> <kbd>&#8997;</kbd> <kbd>h</kbd>.
-Navigate the element tree using the arrow keys, and select any element you wish to take a closer look at with <kbd>ctrl</kbd> <kbd>enter</kbd> (or <kbd>F4</kbd> if you want to navigate to the code without further ado).
+Navigate the element tree using the arrow keys, and select any element you wish to take a closer look at with <kbd>ctrl</kbd> <kbd>
+enter</kbd> (or <kbd>F4</kbd> if you want to navigate to the code without further ado).
 
 > [!TIP]
-> move this navigational __Tool Window__ to the bottom bar (next to `3: Find`), because you'll usually want to optimize your screen's horizontal space rather than its vertical space.
+> move this navigational __Tool Window__ to the bottom bar (next to `3: Find`), because you'll usually want to optimize your screen's
+> horizontal space rather than its vertical space.
 
 
 <!-- tabs:end -->
-
 
 ### Jump to definition
 
 <!-- tabs:start -->
 
 ### **Windows**
+
 Navigate to the `return id;` line in the `Ball.java` class and put your cursor on `id`. Now press <kbd>ctrl</kbd> <kbd>b</kbd>
 This should navigate your code editor to the instantiation of the field itself.
-Press <kbd>ctrl</kbd> <kbd>b</kbd> again. This time it should show a popup asking if you want to show __accessors__ of the field. Let's go with _`Yes`_.
+Press <kbd>ctrl</kbd> <kbd>b</kbd> again. This time it should show a popup asking if you want to show __accessors__ of the field. Let's go
+with _`Yes`_.
 
 ### **Mac**
+
 Navigate to the `return id;` line in the `Ball.java` class and put your cursor on `id`. Now press <kbd>&#8997;</kbd> <kbd>b</kbd>
 This should navigate your code editor to the instantiation of the field itself.
-Press <kbd>&#8997;</kbd> <kbd>b</kbd> again. This time it should show a popup asking if you want to show __accessors__ of the field. Let's go with _`Yes`_.
+Press <kbd>&#8997;</kbd> <kbd>b</kbd> again. This time it should show a popup asking if you want to show __accessors__ of the field. Let's
+go with _`Yes`_.
 
 <!-- tabs:end -->
 
@@ -1117,23 +1135,31 @@ Press <kbd>&#8997;</kbd> <kbd>b</kbd> again. This time it should show a popup as
 <!-- tabs:start -->
 
 ### **Windows**
-Sometimes when you are working on code, you want to quickly reference how a certain class, field or method is defined without opening a new workspace window.
+
+Sometimes when you are working on code, you want to quickly reference how a certain class, field or method is defined without opening a new
+workspace window.
 In order to do so, you can make use of the <kbd>ctrl</kbd> <kbd>shift</kbd> <kbd>i</kbd> keyboard combination to do just so.
 
 Other useful overlay pop-ups include: the __quick documentation__ and __quick parameter definition__ shortcuts.
-Let's find out what they do! Move to any line of code, and press <kbd>ctrl</kbd> <kbd>q</kbd>. The overlayed information pop-up will show you relevant documentation of the selected code element.
+Let's find out what they do! Move to any line of code, and press <kbd>ctrl</kbd> <kbd>q</kbd>. The overlayed information pop-up will show
+you relevant documentation of the selected code element.
 
-Navigate to the `return id;` line in the `Ball.java` class and put your cursor on `id` again. Pressing <kbd>ctrl</kbd> <kbd>p</kbd> will show you the relevant documentation for this parameter.
+Navigate to the `return id;` line in the `Ball.java` class and put your cursor on `id` again. Pressing <kbd>ctrl</kbd> <kbd>p</kbd> will
+show you the relevant documentation for this parameter.
 As we have not written any documentation, this overlay window will be blank.
 
 ### **Mac**
-Sometimes when you are working on code, you want to quickly reference how a certain class, field or method is defined without opening a new workspace window.
+
+Sometimes when you are working on code, you want to quickly reference how a certain class, field or method is defined without opening a new
+workspace window.
 In order to do so, you can make use of the <kbd>&#8997;</kbd> <kbd>space</kbd> keyboard combination to do just so.
 
 Other useful overlay pop-ups include: the __quick documentation__ and __quick parameter definition__ shortcuts.
-Let's find out what they do! Move to any line of code, and press <kbd>&#8963;</kbd> <kbd>j</kbd>. The overlayed information pop-up will show you relevant documentation of the selected code element.
+Let's find out what they do! Move to any line of code, and press <kbd>&#8963;</kbd> <kbd>j</kbd>. The overlayed information pop-up will show
+you relevant documentation of the selected code element.
 
-Navigate to the `return id;` line in the `Ball.java` class and put your cursor on `id` again. Pressing <kbd>&#8984;</kbd> <kbd>p</kbd> will show you the relevant documentation for this parameter.
+Navigate to the `return id;` line in the `Ball.java` class and put your cursor on `id` again. Pressing <kbd>&#8984;</kbd> <kbd>p</kbd> will
+show you the relevant documentation for this parameter.
 As we have not written any documentation, this overlay window will be blank.
 
 <!-- tabs:end -->
@@ -1211,7 +1237,6 @@ public class BallTO {
 }
 ```
 
-
 ### **BallTOAssembler.java**
 
 ```java
@@ -1274,15 +1299,18 @@ Here is a part of a very long stacktrace.
 <!-- tabs:start -->
 
 ### **Windows**
-Let's see where the NullPointer is occurring. Open `BallServiceImpl`, using <kbd>ctrl</kbd> <kbd>n</kbd>.
-Now use <kbd>ctrl</kbd> <kbd>n</kbd> and enter the desired line number (this is line nr. `18`), as the stacktrace above states the error is occurs on this line:
-`at be.swsb.productivity.chapter2.mud.service.BallServiceImpl.findBall(BallServiceImpl.java:18)`
 
+Let's see where the NullPointer is occurring. Open `BallServiceImpl`, using <kbd>ctrl</kbd> <kbd>g</kbd>.
+Now use <kbd>ctrl</kbd> <kbd>g</kbd> and enter the desired line number (this is line nr. `18`), as the stacktrace above states the error
+occurs on this line: `at be.swsb.productivity.chapter2.mud.service.BallServiceImpl.findBall(BallServiceImpl.java:18)`
 
 ### **Mac**
 
-<!-- tabs:end -->
+Let's see where the NullPointer is occurring. Open `BallServiceImpl`, using <kbd>&#8984;</kbd> <kbd>l</kbd>.
+Now use <kbd>&#8984;</kbd> <kbd>l</kbd> and enter the desired line number (this is line nr. `18`), as the stacktrace above states the
+error occurs on this line: `at be.swsb.productivity.chapter2.mud.service.BallServiceImpl.findBall(BallServiceImpl.java:18)`
 
+<!-- tabs:end -->
 
 ## Navigate to method
 
@@ -1290,16 +1318,35 @@ Now use <kbd>ctrl</kbd> <kbd>n</kbd> and enter the desired line number (this is 
 
 ### **Windows**
 
-Another way of navigating to the location of the code causing our NullPointer exception, albeit less precise, is to first copy the method name from the stacktrace, in this case `findBall`.
-Next, open `BallServiceImpl.java`, using <kbd>ctrl</kbd> <kbd>n</kbd>. Now press <kbd>ctrl</kbd> <kbd>F12</kbd>. This lists all methods of a class.
+Another way of navigating to the location of the code causing our NullPointer exception, albeit less precise, is to first copy the method
+name from the stacktrace, in this case `findBall`.
+Next, open `BallServiceImpl.java`, using <kbd>ctrl</kbd> <kbd>n</kbd>. Now press <kbd>ctrl</kbd> <kbd>F12</kbd>. This lists all methods of a
+class.
 To navigate to the suspicious method: paste the name we copied from the stacktrace into the method list popup window.
 You can then press <kbd>Enter</kbd> to navigate to that method.
 
-Let's imagine we want to write a comparator for some object, or want to use it in a Set. You'll want to take a look at that objects `equals()` implementation. In case the object is filled to the brim with other methods, it might be easier to tap <kbd>ctrl</kbd> <kbd>F12</kbd> to check for an `equals` method. If you can't find it on your first try, tap <kbd>ctrl</kbd> <kbd>F12</kbd> again to browse the methods of the superclass as well.
-Let's open `RealBall.jave`, and try to find out if this class has its own `equals` and `hashcode` implementations, or wether makes use of its superclass implementations.
+Let's imagine we want to write a comparator for some object, or want to use it in a Set. You'll want to take a look at that
+objects `equals()` implementation. In case the object is filled to the brim with other methods, it might be easier to tap <kbd>
+ctrl</kbd> <kbd>F12</kbd> to check for an `equals` method. If you can't find it on your first try, tap <kbd>ctrl</kbd> <kbd>F12</kbd> again
+to browse the methods of the superclass as well.
+Let's open `RealBall.jave`, and try to find out if this class has its own `equals` and `hashcode` implementations, or wether makes use of
+its superclass implementations.
 
 ### **Mac**
 
+Another way of navigating to the location of the code causing our NullPointer exception, albeit less precise, is to first copy the method
+name from the stacktrace, in this case `findBall`.
+Next, open `BallServiceImpl.java`, using <kbd>&#8984;</kbd> <kbd>o</kbd> . Now press <kbd>ctrl</kbd> <kbd>F12</kbd>. This lists all methods
+of a class.
+To navigate to the suspicious method: paste the name we copied from the stacktrace into the method list popup window.
+You can then press <kbd>Enter</kbd> to navigate to that method.
+
+Let's imagine we want to write a comparator for some object, or want to use it in a Set. You'll want to take a look at that
+objects `equals()` implementation. In case the object is filled to the brim with other methods, it might be easier to tap <kbd>
+&#8984;</kbd> <kbd>F12</kbd> to check for an `equals` method. If you can't find it on your first try, tap <kbd>&#8984;</kbd> <kbd>F12</kbd>
+again to browse the methods of the superclass as well.
+Let's open `RealBall.jave`, and try to find out if this class has its own `equals` and `hashcode` implementations, or wether makes use of
+its superclass implementations.
 
 <!-- tabs:end -->
 
@@ -1338,6 +1385,10 @@ Now cut and paste it behind the first line.
 
 ### **Mac**
 
+Open `Chapter3.java`, then move your cursor to the beginning of the line containing `"jumps over"`, hold
+down <kbd>&#8984;</kbd>, <kbd>shift</kbd> and press the right arrow key <kbd>&#8594;</kbd> to select that sentence.
+Now cut and paste it behind the first line.
+
 <!-- tabs:end --> 
 
 ## Expand Selection
@@ -1354,6 +1405,13 @@ Now try using <kbd>ctrl</kbd> <kbd>shift</kbd> <kbd>w</kbd> to incrementally red
 `Expand selection` and `Reduce selection` key combinations until you feel comfortable with them.
 
 ### **Mac**
+
+Press <kbd>&#8984;</kbd> <kbd>o</kbd> and open `Fugly.java`.
+Move your cursor to line `23`, column `28` by pressing <kbd>&#8984;</kbd> <kbd>l</kbd> and typing `23:28`.
+From that position press <kbd>&#8997;</kbd> <kbd>&#x2191;</kbd>, press this key combination again a few times, and see what happens.
+
+Now try using  <kbd>&#8997;</kbd> <kbd>shift</kbd> <kbd>&#x2191;</kbd> to incrementally reduce the size of your selection. Play around with both the
+`Expand selection` and `Reduce selection` key combinations until you feel comfortable with them.
 
 <!-- tabs:end -->
 
@@ -1374,6 +1432,15 @@ Rinse and repeat.
 
 ### **Mac**
 
+Because <kbd>&#8997;</kbd> <kbd>&#x2191;</kbd> expands a selection, and because the arrow keys decide where our cursor is going to be:
+<kbd>&#8592;</kbd> at the beginning or <kbd>&#8594;</kbd> at the end of the selection.
+
+We can use a little trick to format our Fluent API.
+Format the one-liner so that it looks like the method below. You can do this by pressing <kbd>&#8997;</kbd> <kbd>&#x2191;</kbd> until you have a selection
+containing a _"method call"_, e.g. `fugly()`, then press <kbd>&#8594;</kbd> to put your cursor at the end, and press <kbd>&#9166;</kbd>
+(<kbd>enter</kbd>).
+Rinse and repeat.
+
 <!-- tabs:end -->
 
 ## Wrapping (IntelliJ feature)
@@ -1383,7 +1450,8 @@ Rinse and repeat.
 ### **Windows**
 
 IntelliJ has a neat feature that wraps your selection with braces, curly braces, single or double quotes, ...
-You can enable this feature under `Settings` by pressing <kbd>ctrl</kbd> <kbd>>alt</kbd> <kbd>s</kbd>, then go to `Editor > General > Smart Keys`,
+You can enable this feature under `Settings` by pressing <kbd>&#8984;</kbd> <kbd>>,</kbd>, then go to `Editor > General > 
+Smart Keys`,
 and enable `Surround selection on typing quote or brace`.
 
 An alternative is by pressing <kbd>ctrl</kbd> <kbd>shift</kbd> <kbd>a</kbd>, and then type `Smart Keys Braces`.
@@ -1394,5 +1462,280 @@ This feature really shines in combination with multi-cursor (which we'll see in 
 
 ### **Mac**
 
+IntelliJ has a neat feature that wraps your selection with braces, curly braces, single or double quotes, ...
+You can enable this feature under `Settings` by pressing <kbd>&#8984;</kbd> <kbd>,</kbd>, then go to `Editor > General >
+Smart Keys`,
+and enable `Surround selection on typing quote or brace`.
+
+An alternative is by pressing <kbd>&#8984;</kbd> <kbd>shift</kbd> <kbd>a</kbd>, and then type `Smart Keys Braces`.
+Fix the `wrapStuff` method by selecting `"efffff"` with <kbd>&#8997;</kbd> <kbd>&#x2191;</kbd>s, and then type a `"`.
+Then apply the same pattern to `yewwww` but instead of a `"`, type a `(`.Then apply the same pattern to the entire method body but type a `{`.
+
+This feature really shines in combination with multi-cursor (which we'll see in a later chapter).
+
 <!-- tabs:end -->
+
+
+
+# Chapter 4 - Line Editing
+
+> [!NOTE]
+> Authors pro-tip: Listen to [this song](https://www.youtube.com/watch?v=DcU4_FuZIkI) while working through the exercises
+
+## Source code: Chapter 4
+
+```java
+package be.swsb.productivity.chapter4;
+
+public class Chapter4 {
+
+	/*
+	 * This is an unnecessary comment, so.... duplicate me :)
+	 * Delete all of these lines using ctrl+y
+	 */
+	public Chapter4() {
+	}
+
+	private void _2_snarf() {
+		System.out.println("Lion-O");
+	}
+
+	private void _1_lionO() {
+		System.out.println("Snarf");
+	}
+
+	private void _3_cheetara() {
+	}
+
+	private String[] _4_thundercats() {
+		return new String[]{ "lion-o", "jaga", "panthro", "tygra", "cheetara", "snarf", "wily kit", "wily kat" };
+	}
+}
+```
+
+## Duplicate line
+
+<!-- tabs:start -->
+
+### **Windows**
+
+Open `Chapter4.java`, move your cursor to line 6 (try and use a shortcut for this), and press <kbd>ctrl</kbd> <kbd>d</kbd>.
+
+### **Mac**
+
+Open `Chapter4.java`, move your cursor to line 6 (try and use a shortcut for this), and press <kbd>&#8984;</kbd> <kbd>d</kbd>.
+
+<!-- tabs:end -->
+
+## Yank
+
+<!-- tabs:start -->
+
+### **Windows**
+
+Press <kbd>ctrl</kbd> <kbd>y</kbd> repeatedly to delete the lines.
+
+### **Mac**
+
+Press <kbd>&#8984;</kbd> <kbd>backspace</kbd> repeatedly to delete the lines.
+
+<!-- tabs:end -->
+
+## Moving lines with and without constraints
+
+<!-- tabs:start -->
+
+### **Windows**
+
+While in `Chapter4.java`, the `System.out.println` function calls are switched around.
+Place your cursor on one of the `System.out.println` lines, hold down <kbd>alt</kbd> <kbd>shift</kbd> and press <kbd>&#x2191;</kbd> or <kbd>&#x2193;
+</kbd> to move that line.
+Do the same for the other line.
+
+You will see the methods aren't in the desired order yet, so place your cursor on `_2_snarf`'s method signature.
+This time hold down <kbd>ctrl</kbd> <kbd>shift</kbd> and press <kbd>&#x2191;</kbd> or <kbd>&#x2193;</kbd> to move the entire method.
+
+### **Mac**
+
+While in `Chapter4.java`, the `System.out.println` function calls are switched around.
+Place your cursor on one of the `System.out.println` lines, hold down <kbd>&#8997;</kbd> <kbd>shift</kbd> and press <kbd>&#x2191;</kbd> or 
+<kbd>&#x2193;</kbd> to move that line.
+Do the same for the other line.
+
+You will see the methods aren't in the desired order yet, so place your cursor on `_2_snarf`'s method signature.
+This time hold down  <kbd>shift</kbd> <kbd>&#8984;</kbd> and press <kbd>&#x2191;</kbd> or <kbd>&#x2193;</kbd> to move the entire method.
+
+<!-- tabs:end -->
+
+## Start new line
+
+<!-- tabs:start -->
+
+### **Windows**
+
+In `Chapter4.java`, jump to 20:20 (using <kbd>ctrl</kbd> <kbd>g</kbd>). From this position we want to start implementing the body of the method.
+Typically, one would do this by pressing <kbd>end</kbd>, and then <kbd>enter</kbd>. But you can do this in one go by
+pressing <kbd>shift</kbd> <kbd>enter</kbd>, so let's do just that.
+
+This will come in handy later.
+
+### **Mac**
+
+In `Chapter4.java`, jump to 20:20 (using <kbd>&#8984;</kbd> <kbd>l</kbd>). From this position we want to start implementing the body of the 
+method.
+Typically, one would do this by pressing <kbd>end</kbd>, and then <kbd>enter</kbd>. But you can do this in one go by
+pressing <kbd>shift</kbd> <kbd>enter</kbd>, so let's do just that.
+
+<!-- tabs:end -->
+
+## Join lines
+
+<!-- tabs:start -->
+
+### **Windows**
+
+We want to write the return statement of `_4_thundercats()` on just one line.
+Don't use a sequence of <kbd>end</kbd> <kbd>delete</kbd> combinations.
+Instead, first select all the thundercats' names (the strings), then press <kbd>ctrl</kbd> <kbd>shift</kbd> <kbd>j</kbd> (for Join lines).
+
+> [!NOTE]
+> Hint: use <kbd>ctrl</kbd> <kbd>w</kbd> right after the `{` character.
+
+You might have to repeat the <kbd>ctrl</kbd> <kbd>shift</kbd> <kbd>j</kbd> combination, because IntelliJ's auto-formatting tends to kick in
+sometimes.
+
+### **Mac**
+
+We want to write the return statement of `_4_thundercats()` on just one line.
+Don't use a sequence of <kbd>&#8984;</kbd> <kbd>&#8594;</kbd>, <kbd>delete</kbd> combinations.
+Instead, first select all the thundercats' names (the strings), then press <kbd>&#8963;</kbd> <kbd>shift</kbd> <kbd>j</kbd> (for Join lines).
+
+> [!NOTE]
+> Hint: use <kbd>&#8997;</kbd> <kbd>&#x2191;</kbd> right after the `{` character.
+
+You might have to repeat the <kbd>&#8963;</kbd> <kbd>shift</kbd> <kbd>j</kbd> combination, because IntelliJ's auto-formatting tends to kick in
+sometimes.
+
+<!-- tabs:end -->
+
+
+
+# Chapter 5 - Embedded Windows
+
+IntelliJ has various _Tool Windows_, like the `1: Project` window, `9: Version Control` window, or `3: Find` window.
+When one of these _embedded_ windows have focus, other shortcuts are available.
+In this topic we'll talk about some of them.
+
+## Opening/Closing (Toggling)
+
+<!-- tabs:start -->
+
+### **Windows**
+All of these windows are accessible by holding down <kbd>alt</kbd> and pressing the associating number.
+e.g. If you want to open or close the `1: Project` window, you press <kbd>alt</kbd> <kbd>1</kbd>.
+You can also minimize the current active tool window using <kbd>shift</kbd> <kbd>escape</kbd>.
+
+### **Mac**
+All of these windows are accessible by holding down <kbd>&#8984;</kbd> and pressing the associating number.
+e.g. If you want to open or close the `1: Project` window, you press <kbd>&#8984;</kbd> <kbd>1</kbd>.
+
+<!-- tabs:end -->
+
+## Switching tabs
+
+<!-- tabs:start -->
+
+### **Windows**
+
+Some of these windows have multiple tabs in them, i.e. the `6: TODO` window. So let's open that with <kbd>alt</kbd> <kbd>6</kbd>.
+You'll notice that it contains the _Project_, _Current File_, _Scope Based_ and _Default Changelist_ tabs.
+You can switch between these tabs by pressing <kbd>alt</kbd> <kbd>&#8594;</kbd> and <kbd>alt</kbd> <kbd>&#8592;</kbd>.
+
+Give it a try!
+
+### **Mac**
+
+Some of these windows have multiple tabs in them, i.e. the `6: TODO` window. So let's open that with <kbd>&#8984;</kbd> <kbd>6</kbd>.
+You'll notice that it contains the _Project_, _Current File_, _Scope Based_ and _Default Changelist_ tabs.
+You can switch between these tabs by pressing <kbd>&#8984;</kbd> <kbd>
+shift</kbd> <kbd>[</kbd> and <kbd>&#8984;</kbd> <kbd>shift</kbd> <kbd>]</kbd>.
+
+Give it a try!
+
+<!-- tabs:end -->
+
+## Navigation from Embedded Windows
+
+<!-- tabs:start -->
+
+### **Windows**
+
+Some Tool Windows will display results, like `3: Find` and `8: Hierarchy`, which you can use to navigate to directly.
+
+There's two ways of doing this:
+
+* <kbd>ctrl</kbd> <kbd>enter</kbd>: allows you to navigate to your selected result, but focus remains on your Tool Window
+* <kbd>F4</kbd>: navigates to your selected result AND focuses the editor window in one go.
+
+Let's try 'em both out.
+
+We want to follow the path the code takes at runtime until we get to `CoffeeBeans.scent()`, so let's trace back our steps from there by
+opening `CoffeeBeans.java`, and <kbd>ctrl</kbd> <kbd>alt</kbd> <kbd>h</kbd> on the `scent()` method.
+
+Use <kbd>ctrl</kbd> <kbd>enter</kbd> on `CoffeeSmeller.smell()`, see where it takes you, then <kbd>ctrl</kbd> <kbd>enter</kbd>
+on `Chapter5.smellBeans()`.
+
+We figured out we want to change something in `CoffeeSmeller`, so select `CoffeeSmeller` in the `8: Hierarchy` tool window and instead of
+pressing <kbd>ctrl</kbd> <kbd>enter</kbd>, press <kbd>F4</kbd>.
+
+Now we can change the implementation.
+
+### **Mac**
+
+Some Tool Windows will display results, like `3: Find` and `8: Hierarchy`, which you can use to navigate to directly.
+
+There's two ways of doing this:
+
+* <kbd>&#8997;</kbd> <kbd>enter</kbd>: allows you to navigate to your selected result, but focus remains on your Tool Window
+* <kbd>&#8984;</kbd> <kbd>&#x2191;</kbd>: navigates to your selected result AND focuses the editor window in one go.
+
+Let's try 'em both out.
+
+<!-- tabs:end -->
+
+## Why resizing is for dummies
+
+<!-- tabs:start -->
+
+### **Windows**
+Stop resizing your _Tool Windows_, use them when you need them (see _Opening/Closing (Toggling)_).
+
+If you don't need your _Tool Window_, you'll want to focus back on your editor window. You can do this from anywhere (meaning, from any
+focussed _Tool Window_) by pressing <kbd>ctrl</kbd> <kbd>shift</kbd> <kbd>F12</kbd>.
+
+So, let's first imagine we were looking at a hierarchy of `CoffeeBeans.scent()`, we looked at `CoffeeSmeller`'s use and we checked where in
+the package structure `CoffeeSmeller` was situated by pressing <kbd>alt</kbd> <kbd>F1</kbd>.
+
+Now we have both the `1: Project` and `8: Hierarchy` _Tool Windows_ open. But we want to continue tweaking the CoffeeSmellers code, so let's
+press <kbd>ctrl</kbd> <kbd>shift</kbd> <kbd>F12</kbd> and get our focus back on where it belongs, without any distractions.
+
+Happy editing!
+
+### **Mac**
+
+Stop resizing your _Tool Windows_, use them when you need them (see _Opening/Closing (Toggling)_).
+
+If you don't need your _Tool Window_, you'll want to focus back on your editor window. You can do this from anywhere (meaning, from any
+focussed _Tool Window_) by pressing <kbd>shift</kbd> <kbd>&#8984;</kbd> <kbd>F12</kbd>.
+
+So, let's first imagine we were looking at a hierarchy of `CoffeeBeans.scent()`, we looked at `CoffeeSmeller`'s use and we checked where in
+the package structure `CoffeeSmeller` was situated by pressing <kbd>&#8997;</kbd> <kbd>F1</kbd>.
+
+Now we have both the `1: Project` and `8: Hierarchy` _Tool Windows_ open. But we want to continue tweaking the CoffeeSmellers code, so let's
+press <kbd>shift</kbd> <kbd>&#8984;</kbd> <kbd>F12</kbd> and get our focus back on where it belongs, without any distractions.
+
+Happy editing!
+
+<!-- tabs:end -->
+
 

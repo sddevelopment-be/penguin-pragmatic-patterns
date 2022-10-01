@@ -1,5 +1,5 @@
 # Chapter 6 - IntelliJ's Suggestions
-[_Back to outline_](outline.md)
+
 ## IntelliJ's Auto-correct ![Windows](icons/glyph-windows-32.png)`ctrl+shift+enter`
 Sometimes we make mistakes, mistakes that will take us into the deepest pits of bracket hell.
 
@@ -99,7 +99,3 @@ First uncomment the `// Decepticon.StarScream()` line.
 Then put your cursor in between the brackets and type ![Windows](icons/glyph-windows-20.png)`ctrl+p`.
 
 Notice how IntelliJ signals which parameter you're required to fill in by **emboldening** the parameter name.
-
-[_Next Chapter_](chapter7.md)
-
-[_Back to outline_](outline.md)

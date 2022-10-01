@@ -1,5 +1,4 @@
 # Chapter 9 - Endgame
-[_Back to outline_](outline.md)
 
 We'll make a full exercise where you'll:
 
@@ -8,5 +7,3 @@ We'll make a full exercise where you'll:
 3. Create a new TestBuilder for the existing class
 4. Perform a _red, green, refactor_
 5. (Optional) commit and push
-
-[_Back to outline_](outline.md)

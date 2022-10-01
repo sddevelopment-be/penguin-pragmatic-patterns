@@ -1,6 +1,7 @@
 ![./src/pp_open-learning.png](./src/pp_open-learning.png)
 
-[![Documentation Conversion](https://github.com/sddevelopment-be/penguin-pragmatic-patterns/actions/workflows/document_conversion.yml/badge.svg)](https://github.com/sddevelopment-be/penguin-pragmatic-patterns/actions/workflows/document_conversion.yml) [![pages-build-deployment](https://github.com/sddevelopment-be/penguin-pragmatic-patterns/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/sddevelopment-be/penguin-pragmatic-patterns/actions/workflows/pages/pages-build-deployment)
+[![Convert Documents](https://github.com/sddevelopment-be/penguin-pragmatic-patterns/actions/workflows/document_conversion.yml/badge.svg)](https://github.com/sddevelopment-be/penguin-pragmatic-patterns/actions/workflows/document_conversion.yml)
+
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)

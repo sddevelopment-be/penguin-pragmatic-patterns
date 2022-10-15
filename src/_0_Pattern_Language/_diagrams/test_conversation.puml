@@ -1,0 +1,40 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+!include ../../../templates/plantuml/puml-theme-bluegray_conversation.puml
+skinParam maxMessageSize 264
+hide stereotype
+hide footbox
+
+<style>
+    sequenceDiagram {
+        FontSize 12
+        Font monospaced
+
+        participant {
+            BackGroundColor #1c75cc/1541CC
+        }
+
+        arrow {
+            FontColor #1c75cc
+        }
+
+        .responder {
+            BackGroundColor #63CC4A/349646
+        }
+
+        .reply * {
+            FontColor #63CC4A/349646
+        }
+    }
+</style>
+
+participant Alice as A
+participant Bob as B <<responder>>
+
+A -> B: "Hi there, B. Can we have a chat about X?"
+B -> A <<reply>>: "Sure, I guess."
+
+A -> B: Another thing A says
+B -> A <<reply>>:  B response
+@enduml

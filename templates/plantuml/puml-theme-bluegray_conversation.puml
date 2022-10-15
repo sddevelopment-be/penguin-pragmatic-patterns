@@ -194,6 +194,7 @@ skinparam sequence {
     ''
     LineColor #white
     ''
+    ParticipantPadding 140
     ParticipantBorderColor #1D1B1B
     ''
     MessageAlign direction

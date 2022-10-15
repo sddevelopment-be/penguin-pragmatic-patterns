@@ -25,6 +25,10 @@ only you had known earlier.
 This catalog aims to bundle little nuggets of enlightenment these aha-moments tend to deliver.
 We hope that someone, somewhere learns something that makes their lives a bit more enjoyable.
 
+> [!NOTE]
+> The information in this knowledge base is to be seen as a series of techniques that have worked well for people in the past.
+> However, they are not _'recipes'_. Meaning that you are encouraged to take the ideas and adapt them to fit your personal context.
+
 ### Intended Audience
 
 This knowledge base is intended for people that are interested in improving theis current way of working (or living)
@@ -105,11 +109,12 @@ useful to consider using it.
 
 ![Pattern structure definition ><](./pattern_definition.png ':size=680')
 
-Some pattern will contain references to other resources. They can also contain supporting examples, testimonials, tutorials, etc.
+Some patterns will contain references to other resources. They can also contain supporting examples, testimonials, tutorials, etc.
 These examples can be included inside the pattern description, but they might as well exist as a separate resource in a different section of 
-this publication. 
+this publication.
 
-Nappy reading, we hope you learn something helpful!
+Happy reading, we hope you learn something helpful. If you did, please pass on what you have learned to someone you know that might find 
+your newly gained knowledge helpful.
 
 ---
 
@@ -117,4 +122,3 @@ Nappy reading, we hope you learn something helpful!
 
 [^2] So wide-spread even, that academics have [started investigating](https://www.michelecoscia.com/?page_id=2070) what makes some memes
 successful while others are doomed to be left in the ditches of the web.
- 

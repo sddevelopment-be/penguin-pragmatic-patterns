@@ -13,7 +13,7 @@ The sections below contain some tips, tricks and configurations to level up your
 >
 > ~ Emperor Palpatine
 
-## \*NIX terminal tips
+## *NIX terminal tips
 
 As developers, we are used to typing. Our brain is usually the limiting factor in using cli commands efficiently.
 Long commands, with multiple options are especially annoying.

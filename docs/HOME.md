@@ -1,12 +1,7 @@
-# Pragmatic Penguin Patterns: Open Learning Knowledge Base
+# Pragmatic Penguin Patterns: become a better software developer
 
 ![./pp_open-learning.png ><](pp_open-learning.png)
 version: <small>2.1.0</small>
-
-> [!NOTE]
-> As this knowledge base will likely remain a work in progress for some while,
-> not all content will be refined. It is advisable to check out the [Changelog](/X_Appendix/HOME?id=changelog) in order
-> to see what has changed recently.
 
 ## About
 
@@ -40,7 +35,6 @@ The docs section of this repository acts as somewhat of a “personal wiki”. I
 has been collected from various sources, and is extended with some personal interpretations and
 experiences of the author.
 
-
 As I stated earlier, there are a lot of great books on the topics I will discuss in this course.
 Most of them do a much better job of explaining the concepts than I can ever hope to do.
 This work is a high-level introduction to concepts,  and practices, stating why there are important. I aim to give
@@ -54,10 +48,10 @@ only you had known earlier.
 
 This catalog aims to bundle little nuggets of enlightenment these aha-moments tend to deliver.
 We hope that someone, somewhere learns something that makes their lives a bit more enjoyable.
-
 > [!NOTE]
-> The information in this knowledge base is to be seen as a series of techniques that have worked well for people in the past.
-> However, they are not _'recipes'_. Meaning that you are encouraged to take the ideas and adapt them to fit your personal context.
+> As this knowledge base will likely remain a work in progress for some while,
+> not all content will be refined. It is advisable to check out the [Changelog](/X_Appendix/HOME?id=changelog) in order
+> to see what has changed recently.
 
 ### Intended Audience
 
@@ -86,6 +80,11 @@ A set of concepts and common abbreviations can be found in the [glossary](/X_App
 If you are interested in diving deeper into some subjects mentioned in this work, be sure to take a look at
 the [Reading list](/X_Appendix/Learning_Materials/HOME) section included in the appendices. There, you will find an
 overview of great books, articles, and audiovisual recourses that are worth checking out.
+
+> [!NOTE]
+> The information in this knowledge base is to be seen as a series of techniques that have worked well for people in the past.
+> However, they are not _'recipes'_. Meaning that you are encouraged to take the ideas and adapt them to fit your personal context.
+
 
 ## A pattern-based approach
 

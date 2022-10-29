@@ -22,18 +22,29 @@ module.exports = (options) => {
 				href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
 				rel="stylesheet"/>
 			<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css"/>
+			<link
+					rel="stylesheet"
+					href="//cdn.jsdelivr.net/npm/docsify-changelog-plugin@latest/dist/style.css"
+			/>
+			<link
+					rel="stylesheet"
+					href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+			/>
 			<link rel="stylesheet" href="./custom.css"/>
 		</head>
 
 		<body>
+			<nav></nav>
 			<div id="app"></div>
 			<script>
 				window.$docsify = {name: '{{name}}',
 				repo: 'sddevelopment-be/penguin-pragmatic-patterns',
 				loadSidebar: true,
-				loadNavbar: true,
+				loadNavbar : false, // IMPORTANT
+				changelog : 'https://raw.githubusercontent.com/sddevelopment-be/penguin-pragmatic-patterns/b96e4da151dbb6e974e192b08d2bc0bc9dc6839c/src/X_Appendix/Changelog/v2.x.md', // path of your changelog, it can be remote as well
 				mergeNavbar: false,
 				alias: {'/.*/_sidebar.md': '/_sidebar.md',},
+				minLevel: 1,	
 				maxLevel: 2,
 				subMaxLevel: 3,
 				sidebarDisplayLevel: 1,
@@ -76,7 +87,11 @@ module.exports = (options) => {
 					twitter: true,
 					whatsapp: true,
 					telegram: true,
-				},
+					options: {
+						theme: 'default',
+						color: '#08427B'
+					}
+			},
 				'flexible-alerts': {
 					comment: {
 						label: 'Comment',
@@ -136,6 +151,8 @@ module.exports = (options) => {
       <script src="https://twemoji.maxcdn.com/v/14.0.2/twemoji.min.js"
 			        integrity="sha384-32KMvAMS4DUBcQtHG6fzADguo/tpN1Nh6BAJa2QqZc6/i0K+YPQE+bWiqBRAWuFs" crossorigin="anonymous"></script>
 		</body>
+
+		<script src="https://cdn.jsdelivr.net/npm/docsify-changelog-plugin@latest/dist/index.js"></script>
 
 	</html>`;
 };

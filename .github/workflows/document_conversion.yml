@@ -20,16 +20,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout source code ️📁
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Install and Build 🔧
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v3
         with:
-          node-version: 14
+          node-version: 16
       - run: |
           npm i -g c4builder
           c4builder
           cp src/_sidebar.md docs/_sidebar.md
+          cp src/_coverpage.md docs/_coverpage.md
       - name: push 📚
         if: github.ref == 'refs/heads/main'
         uses: actions-x/commit@v6

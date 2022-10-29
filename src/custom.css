@@ -360,3 +360,12 @@ only screen and (max-width: 760px),
 		font-size: 0.7rem;
 	}
 }
+
+section.cover.has-mask .mask {
+	opacity: 0.85;
+	background: #0b1d27;
+}
+
+.cover-main .anchor span {
+	color: white !important;
+}

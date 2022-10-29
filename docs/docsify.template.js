@@ -53,7 +53,7 @@ module.exports = (options) => {
 				maxLevel: 5,
 				subMaxLevel: 4,
 				sidebarDisplayLevel: 0,
-				coverpage: false,
+				coverpage: true,
 				homepage: '/0_Intro/HOME.md',
 				auto2top: true,
 				plantuml: {skin: 'classic'},

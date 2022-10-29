@@ -160,50 +160,6 @@ skinparam arrow {
 }
 !endsub
 
-!startsub sequence
-
-skinparam sequence {
-    ''
-	' For some reason sequence title font color does not pick up from global
-	TitleFontColor $PRIMARY
-	BackgroundColor $BGCOLOR
-	StartColor $PRIMARY
-	EndColor $DARK
-	''
-	BoxBackgroundColor $LIGHT
-	BoxBorderColor $GRAY
-	BoxFontColor $LIGHT
-	''
-	LifeLineBorderColor $DARK
-	LifeLineBorderThickness 1
-	LifeLineBackgroundColor $SECONDARY_LIGHT
-	''
-	GroupBorderColor $GRAY
-	GroupFontColor $DARK
-	GroupHeaderFontColor $INFO
-	''
-	DividerBackgroundColor $WHITE-$LIGHT
-    DividerBorderColor $GRAY
-    DividerBorderThickness 1
-    DividerFontColor $DARK
-	''
-	ReferenceBackgroundColor $BGCOLOR
-	ReferenceBorderColor $SECONDARY_LIGHT
-	ReferenceFontColor $SECONDARY_LIGHT
-	ReferenceHeaderFontColor $INFO
-    ''
-    LineColor #white
-    ''
-    ParticipantPadding 140
-    ParticipantBorderColor #1D1B1B
-    ''
-    MessageAlign direction
-    MessageBorderColor $DARK
-    MessageBackgroundColor #1D1B1B
-    ArrowColor $BGCOLOR
-}
-!endsub
-
 !startsub partition
 
 skinparam partition {
@@ -438,5 +394,49 @@ skinparam file {
 
 skinparam stack {
 	$primary_scheme()
+}
+!endsub
+
+!startsub sequence
+
+skinparam sequence {
+    ''
+	' For some reason sequence title font color does not pick up from global
+	TitleFontColor $PRIMARY
+	BackgroundColor $BGCOLOR
+	StartColor $PRIMARY
+	EndColor $DARK
+	''
+	BoxBackgroundColor $LIGHT
+	BoxBorderColor $GRAY
+	BoxFontColor $LIGHT
+	''
+	LifeLineBorderColor $DARK
+	LifeLineBorderThickness 1
+	LifeLineBackgroundColor $SECONDARY_LIGHT
+	''
+	GroupBorderColor $GRAY
+	GroupFontColor $DARK
+	GroupHeaderFontColor $INFO
+	''
+	DividerBackgroundColor $WHITE-$LIGHT
+    DividerBorderColor $GRAY
+    DividerBorderThickness 1
+    DividerFontColor $DARK
+	''
+	ReferenceBackgroundColor $BGCOLOR
+	ReferenceBorderColor $SECONDARY_LIGHT
+	ReferenceFontColor $SECONDARY_LIGHT
+	ReferenceHeaderFontColor $INFO
+    ''
+    LineColor #white
+    ''
+    ParticipantPadding 140
+    ParticipantBorderColor #1D1B1B
+    ''
+    MessageAlign direction
+    MessageBorderColor $DARK
+    MessageBackgroundColor #1D1B1B
+    ArrowColor $BGCOLOR
 }
 !endsub

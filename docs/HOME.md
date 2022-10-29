@@ -3,7 +3,7 @@
 ![./pp_open-learning.png ><](pp_open-learning.png)
 version: <small>2.1.0</small>
 
-## About
+## Hello world!
 
 Are you interested in learning how to be better at the things you do on a daily basis?
 Are you working in a technical, or mostly technical role?
@@ -19,13 +19,18 @@ By comparison to crafts such as woodworking, medicine, or even politics, softwar
 
 At the time of writing (late 2022), the technology industry has been steadily growing in size and importance year-on-year. 
 Us nerds are now at the point where we can safely say that we control most of the world. While this does sound like a dream come true 
-for our 10-year old selves who fantasized about living in cyber-space and being all-powerful wizards, the reality is more grim.
+for our 10-year-old selves who fantasized about living in cyber-space and being all-powerful wizards, the reality is more grim.
 Right now around 20% of people working as software developers have less than two years of experience[^0]. As our industry 
-doubles in size 
-every 
-few years, this number is only expected to rise as time passes and technology becomes more important.
+ doubles in size every few years, this number is only expected to rise as time passes and technology becomes more important.
 
-biggest challenge is their inexperience, and finding good resources on how they can improve their skills.
+![Alice and Bob fret over conventions >](./silly_standards.png ':size=420')
+
+This rapid growth is one of our biggest strengths. On the flip side, it is also our biggest challenge as an industry.
+We seem to be unable to come up with a good way to express our ideas, and even less able to communicate these ideas and our 
+experience to the next generation of software professional. The internet is filled with information on how to write code, how to make 
+things works, and a plethora of "quality of life hacks" that are supposed to make our lives as developer a lot easier.
+But when going online, you will also see that if you put two developers in the same room, they will have three opinions on what the 
+right way to do things is. 
 
 
 ### Purpose
@@ -48,6 +53,7 @@ only you had known earlier.
 
 This catalog aims to bundle little nuggets of enlightenment these aha-moments tend to deliver.
 We hope that someone, somewhere learns something that makes their lives a bit more enjoyable.
+
 > [!NOTE]
 > As this knowledge base will likely remain a work in progress for some while,
 > not all content will be refined. It is advisable to check out the [Changelog](/X_Appendix/HOME?id=changelog) in order

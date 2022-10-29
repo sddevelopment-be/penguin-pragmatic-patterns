@@ -1,19 +1,43 @@
 ![./pp_open-learning.png ><](pp_open-learning.png)
 version: <small>2.1.0</small>
 
-## About this publication
+## About
+
+Are you interested in learning how to be better at the things you do on a daily basis?
+Are you working in a technical, or mostly technical role?
+Or are you just interested in picking the brains of those who are?
+
+If so, keep reading as this piece of writing could be of value for you.
+
+Over the years, I have consumed a lot of books, articles, and videos with the goal of improving my skills as a technical professional.
+Some lessons I have learned during this time have proven to be great assets time and time again. Others have been mostly liabilities to 
+my work.  I have had the pleasure of working with some very capable, and motivated developers. But I did notice that what our industry 
+lacks most is common ground. Other professions are more mature than ours. Which is only natural, as they have been around for ages. Their 
+By comparison to crafts such as woodworking, medicine, or even politics, software development is a fairly young profession. 
+
+At the time of writing (late 2022), the technology industry has been steadily growing in size and importance year-on-year. 
+Us nerds are now at the point where we can safely say that we control most of the world. While this does sound like a dream come true 
+for our 10-year old selves who fantasized about living in cyber-space and being all-powerful wizards, the reality is more grim.
+Right now around 20% of people working as software developers have less than two years of experience[^0]. As our industry 
+doubles in size 
+every 
+few years, this number is only expected to rise as time passes and technology becomes more important.
+
+biggest challenge is their inexperience, and finding good resources on how they can improve their skills.
+
+
+### Purpose
 
 This work is a learning and development knowledge base, aimed to share knowledge with other technical professionals.
 The docs section of this repository acts as somewhat of a “personal wiki”. It contains knowledge and information that
 has been collected from various sources, and is extended with some personal interpretations and
 experiences of the author.
 
-> [!NOTE]
-> As this knowledge base will likely remain a work in progress for some while,
-> not all content will be refined. It is advisable to check out the [Changelog](/X_Appendix/HOME?id=changelog) in order
-> to see what has changed recently.
-
-### Purpose
+As I stated earlier, there are a lot of great books on the topics I will discuss in this course.
+Most of them do a much better job of explaining the concepts than I can ever hope to do.
+This work is a high-level introduction to concepts,  and practices, stating why there are important. I aim to give
+enough information to use them practically. At the end of each lesson, I will include a list of resources for further learning.
+I invite you to dig deeper into the topics you find interesting.
 
 As we live our lives, we tend to learn a great deal about a wide variety of topics.
 From time to time we are stumped by how elegant, or easy, someone solves a certain problem. You are left wondering
@@ -22,10 +46,10 @@ only you had known earlier.
 
 This catalog aims to bundle little nuggets of enlightenment these aha-moments tend to deliver.
 We hope that someone, somewhere learns something that makes their lives a bit more enjoyable.
-
 > [!NOTE]
-> The information in this knowledge base is to be seen as a series of techniques that have worked well for people in the past.
-> However, they are not _'recipes'_. Meaning that you are encouraged to take the ideas and adapt them to fit your personal context.
+> As this knowledge base will likely remain a work in progress for some while,
+> not all content will be refined. It is advisable to check out the [Changelog](/X_Appendix/HOME?id=changelog) in order
+> to see what has changed recently.
 
 ### Intended Audience
 
@@ -54,6 +78,11 @@ A set of concepts and common abbreviations can be found in the [glossary](/X_App
 If you are interested in diving deeper into some subjects mentioned in this work, be sure to take a look at
 the [Reading list](/X_Appendix/Learning_Materials/HOME) section included in the appendices. There, you will find an
 overview of great books, articles, and audiovisual recourses that are worth checking out.
+
+> [!NOTE]
+> The information in this knowledge base is to be seen as a series of techniques that have worked well for people in the past.
+> However, they are not _'recipes'_. Meaning that you are encouraged to take the ideas and adapt them to fit your personal context.
+
 
 ## A pattern-based approach
 
@@ -116,7 +145,11 @@ your newly gained knowledge helpful.
 
 ---
 
+[^0] Statistics retrieved from [https://www.zippia.com/software-engineer-jobs/demographics/](https://www.zippia.
+com/software-engineer-jobs/demographics/), Evolution of software engineer demographics in the USA in 2019.
+
 [^1] Unfortunately knowing this does not instantly make you a great chess player, as my elo on online platforms so adequately reminds me.
 
 [^2] So wide-spread even, that academics have [started investigating](https://www.michelecoscia.com/?page_id=2070) what makes some memes
 successful while others are doomed to be left in the ditches of the web.
+

@@ -1,7 +1,7 @@
 ![./pp_open-learning.png ><](pp_open-learning.png)
 version: <small>2.1.0</small>
 
-## Hello world!
+## Preface: "Hello world!"
 
 Are you interested in learning how to be better at the things you do on a daily basis?
 Are you working in a technical, or mostly technical role?
@@ -10,39 +10,42 @@ Or are you just interested in picking the brains of those who are?
 If so, keep reading as this piece of writing could be of value for you.
 
 Over the years, I have consumed a lot of books, articles, and videos with the goal of improving my skills as a technical professional.
-Some lessons I have learned during this time have proven to be great assets time and time again. Others have been mostly liabilities to 
-my work.  I have had the pleasure of working with some very capable, and motivated developers. But I did notice that what our industry 
-lacks most is common ground. Other professions are more mature than ours. Which is only natural, as they have been around for ages. Their 
-By comparison to crafts such as woodworking, medicine, or even politics, software development is a fairly young profession. 
+Some lessons I have learned during this time have proven to be great assets time and time again. Others have been mostly liabilities to
+my work. I have had the pleasure of working with some very capable, and motivated developers. But I did notice that what our industry
+lacks most is common ground. Other professions are more mature than ours. Which is only natural, as they have been around for ages. Their
+By comparison to crafts such as woodworking, medicine, or even politics, software development is a fairly young profession.
 
-At the time of writing (late 2022), the technology industry has been steadily growing in size and importance year-on-year. 
-Us nerds are now at the point where we can safely say that we control most of the world. While this does sound like a dream come true 
+At the time of writing (late 2022), the technology industry has been steadily growing in size and importance year-on-year.
+Us nerds are now at the point where we can safely say that we control most of the world. While this does sound like a dream come true
 for our 10-year-old selves who fantasized about living in cyber-space and being all-powerful wizards, the reality is more grim.
-Right now around 20% of people working as software developers have less than two years of experience[^0]. As our industry 
- doubles in size every few years, this number is only expected to rise as time passes and technology becomes more important.
+Right now around 20% of people working as software developers have less than two years of experience[^0]. As our industry
+doubles in size every few years, this number is only expected to rise as time passes and technology becomes more important.
 
 ![Alice and Bob fret over conventions >](./silly_standards.png ':size=420')
 
 This rapid growth is one of our biggest strengths. On the flip side, it is also our biggest challenge as an industry.
-We seem to be unable to come up with a good way to express our ideas, and even less able to communicate these ideas and our 
-experience to the next generation of software professional. The internet is filled with information on how to write code, how to make 
+We seem to be unable to come up with a good way to express our ideas, and even less able to communicate these ideas and our
+experience to the next generation of software professional. The internet is filled with information on how to write code, how to make
 things works, and a plethora of "quality of life hacks" that are supposed to make our lives as developer a lot easier.
-But when going online, you will also see that if you put two developers in the same room, they will have three opinions on what the 
-right way to do things is. 
+But when going online, you will also see that if you put two developers in the same room, they will have three opinions on what the
+right way to do things is.
 
+Realizing it is somewhat contradictory to state there are too many opinions out there while writing an opinionated text, allow me to
+explain why I set about writing this entire thing. The basic premise is: _I don't really care how you end up doing things_. If you find
+a way that works well for you, great! By all means, keep doing it. The goal here is to bundle snippets of ideas, practices, stories, and
+resources that have been valuable to me personally. I strongly believe that we can only learn better ways of doing things by trying
+things out. And in order to try something, we must first realize it is there in the first place.
 
-### Purpose
+## About
+
+### Intended Audience
 
 This work is a learning and development knowledge base, aimed to share knowledge with other technical professionals.
-The docs section of this repository acts as somewhat of a “personal wiki”. It contains knowledge and information that
+Most sections of this repository acts as somewhat of a “personal wiki”. It contains knowledge and information that
 has been collected from various sources, and is extended with some personal interpretations and
 experiences of the author.
 
-As I stated earlier, there are a lot of great books on the topics I will discuss in this course.
-Most of them do a much better job of explaining the concepts than I can ever hope to do.
-This work is a high-level introduction to concepts,  and practices, stating why there are important. I aim to give
-enough information to use them practically. At the end of each lesson, I will include a list of resources for further learning.
-I invite you to dig deeper into the topics you find interesting.
+### Structure
 
 As we live our lives, we tend to learn a great deal about a wide variety of topics.
 From time to time we are stumped by how elegant, or easy, someone solves a certain problem. You are left wondering
@@ -50,25 +53,19 @@ why you have not been tackling similar problems in the same way. It could have s
 only you had known earlier.
 
 This catalog aims to bundle little nuggets of enlightenment these aha-moments tend to deliver.
-We hope that someone, somewhere learns something that makes their lives a bit more enjoyable.
+I hope that someone, somewhere learns something that makes their lives a bit more enjoyable.
 
 > [!NOTE]
 > As this knowledge base will likely remain a work in progress for some while,
 > not all content will be refined. It is advisable to check out the [Changelog](/X_Appendix/HOME?id=changelog) in order
 > to see what has changed recently.
 
-### Intended Audience
-
-This knowledge base is intended for people that are interested in improving theis current way of working (or living)
-by learning about alternative approaches.
-You will likely already be familiar with some ideas in this knowledge base, in which case: feel free to
-move on. If you think we are blabbering and giving bad advice, feel free to leave a comment or suggestion
+You will likely already be familiar with some ideas in this book, in which case: feel free to
+move on. If you think I am blabbering and giving bad advice, do leave a comment or suggestion
 on the [github page](https://github.com/sddevelopment-be/penguin-pragmatic-patterns).
 
-### Structure
-
-This open knowledge collection is ordered by categories. Each category contains some of the following
-resources:
+To make the readers experience more enjoyable, this book is ordered by categories.
+Each category contains some of the following content:
 
 - **A collection of Patterns:** Little snippets of information to inspire you. These can be used as general pieces of
   advice that may or may not be applicable to your current situation. To maximize their usefulness, these patterns (or
@@ -76,8 +73,9 @@ resources:
 - **Articles and short-form information:** These sections contain a list of articles that were written by either myself
   or others and added with their permission. These articles can be opinionated pieces, additional context, or specific
   case-studies.
-- **Resources and Reviews :** Additional information related to a topic, that do not easily fit the other sections.
-  These might include book recommendations, tutorials, tool recommendations, etc.
+- **Resources and Reviews :** As stated earlier, there are a lot of great books on the topics I will discuss in this course.
+  Most of them do a much better job of explaining the concepts than I can ever hope to do. So to point you in the right direction, I
+  will do my best to include some of the content that I have enjoyed learning from.
 
 A set of concepts and common abbreviations can be found in the [glossary](/X_Appendix/Glossary/HOME).
 
@@ -88,7 +86,6 @@ overview of great books, articles, and audiovisual recourses that are worth chec
 > [!NOTE]
 > The information in this knowledge base is to be seen as a series of techniques that have worked well for people in the past.
 > However, they are not _'recipes'_. Meaning that you are encouraged to take the ideas and adapt them to fit your personal context.
-
 
 ## A pattern-based approach
 
@@ -121,8 +118,7 @@ how we talk about things tends to influence how we think about them. This means 
 you will perceive it as being more of a pain than it actually was before you started communicating negatively about it.
 
 A [pattern language](/X_Appendix/Glossary/HOME?id=pattern-language) is **a formal way to represent wisdom that improves ones ability to operate in a
-certain field of expertise**. The
-knowledge represented in a pattern language is usually stripped down to its bare essentials, in hopes of making it easier to apply them in a
+certain field of expertise**. The knowledge represented in a pattern language is usually stripped down to its bare essentials, in hopes of making it easier to apply them in a
 variety of situations.
 
 Much like a dictionary, each entry (_"Pattern"_) in these knowledge bases is indexed with a `name` and contains information
@@ -143,10 +139,10 @@ useful to consider using it.
 ![Pattern structure definition ><](./pattern_definition.png ':size=680')
 
 Some patterns will contain references to other resources. They can also contain supporting examples, testimonials, tutorials, etc.
-These examples can be included inside the pattern description, but they might as well exist as a separate resource in a different section of 
+These examples can be included inside the pattern description, but they might as well exist as a separate resource in a different section of
 this publication.
 
-Happy reading, we hope you learn something helpful. If you did, please pass on what you have learned to someone you know that might find 
+Happy reading, we hope you learn something helpful. If you did, please pass on what you have learned to someone you know that might find
 your newly gained knowledge helpful.
 
 ---

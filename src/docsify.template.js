@@ -21,7 +21,9 @@ module.exports = (options) => {
 			<link
 				href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
 				rel="stylesheet"/>
-			<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css"/>
+
+			<!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css"/> -->
+			<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
 			<link
 					rel="stylesheet"
 					href="//cdn.jsdelivr.net/npm/docsify-changelog-plugin@latest/dist/style.css"
@@ -52,7 +54,7 @@ module.exports = (options) => {
 				subMaxLevel: 3,
 				sidebarDisplayLevel: 1,
 				coverpage: false,
-				homepage: 'HOME.md',
+				homepage: '/0_Intro/HOME.md',
 				auto2top: true,
 				plantuml: {skin: 'classic'},
 				logo: './logo.png',

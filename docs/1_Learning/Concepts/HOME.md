@@ -1,5 +1,9 @@
 # Concepts
 
+
+![Models on Learning](./learning_models.jpg)
+
+
 ## Dreyfus model of skill acquisition
 
 > Every journey begins with one step in the right direction. In order to know the direction to take, it is important to know where you are at right now.

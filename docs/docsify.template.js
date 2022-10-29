@@ -21,7 +21,9 @@ module.exports = (options) => {
 			<link
 				href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
 				rel="stylesheet"/>
-			<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css"/>
+
+			<!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css"/> -->
+			<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
 			<link
 					rel="stylesheet"
 					href="//cdn.jsdelivr.net/npm/docsify-changelog-plugin@latest/dist/style.css"
@@ -48,11 +50,11 @@ module.exports = (options) => {
 				changelog : 'https://raw.githubusercontent.com/sddevelopment-be/penguin-pragmatic-patterns/b96e4da151dbb6e974e192b08d2bc0bc9dc6839c/src/X_Appendix/Changelog/v2.x.md', // path of your changelog, it can be remote as well
 				mergeNavbar: false,
 				alias: {'/.*/_sidebar.md': '/_sidebar.md',},
-				maxLevel: 2,
-				subMaxLevel: 3,
-				sidebarDisplayLevel: 1,
+				maxLevel: 5,
+				subMaxLevel: 4,
+				sidebarDisplayLevel: 0,
 				coverpage: false,
-				homepage: 'HOME.md',
+				homepage: '/0_Intro/HOME.md',
 				auto2top: true,
 				plantuml: {skin: 'classic'},
 				logo: './logo.png',

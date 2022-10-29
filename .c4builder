@@ -6,7 +6,7 @@
 	"generateMD": false,
 	"generatePDF": false,
 	"generateCompleteMD": false,
-	"generateCompletePDF": true,
+	"generateCompletePDF": false,
 	"generateWEB": true,
 	"webTheme": "//unpkg.com/docsify/lib/themes/vue.css",
 	"repoUrl": "sddevelopment-be/penguin-pragmatic-patterns",

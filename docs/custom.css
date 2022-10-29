@@ -106,11 +106,28 @@ img[alt$="><"] {
 	clear: both;
 }
 
+.alert::before {
+	margin-top: 0.75rem;
+}
+
+.alert {
+	clear: both;
+}
+
 .alert.flat {
 	clear: both;
 }
 
-/* Keyboard key presses, using deepblue style from  https://github.com/auth0/kbd/blob/gh-pages/kbd.css*/
+.alert.callout.quote {
+	border-left-color: #662fb7;
+	border-left-width: .25rem;
+}
+
+.alert.callout.quote .title {
+	color: #662fb7;
+}
+
+	/* Keyboard key presses, using deepblue style from  https://github.com/auth0/kbd/blob/gh-pages/kbd.css*/
 kbd {
 	display: inline-block;
 	margin: 0 .125em;

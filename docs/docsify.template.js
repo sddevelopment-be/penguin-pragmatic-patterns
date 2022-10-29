@@ -22,7 +22,6 @@ module.exports = (options) => {
 				href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
 				rel="stylesheet"/>
 			<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css"/>
-
 			<link rel="stylesheet" href="./custom.css"/>
 		</head>
 
@@ -54,13 +53,58 @@ module.exports = (options) => {
 				whatsapp: true,
 				telegram: true,},
 
-				tabs: {persist    : true,      // default
-				sync       : true,      // default
-				theme      : 'classic', // default
-				tabComments: true,      // default
-				tabHeadings: true       // default
-			},
-				'flexible-alerts': {}};
+				tabs: {
+          persist    : true,
+					sync       : true,      
+					theme      : 'classic', 
+					tabComments: true,      
+					tabHeadings: true
+				},
+				pagination: {
+					previousText: 'BACK',
+					// or
+					nextText: {
+						'/en/': 'NEXT',
+						'/': 'NEXT'
+					},
+					crossChapter: true,
+					crossChapterText: true,
+				},
+				share: {
+					linkedin: true,
+					facebook: true,
+					twitter: true,
+					whatsapp: true,
+					telegram: true,
+				},
+				'flexible-alerts': {
+					comment: {
+						label: 'Comment',
+		
+						// localization
+						label: {
+						'/en-GB/': 'Comment',
+						'/': 'Comment'
+					},
+		
+						// Assuming that we use Font Awesome
+						icon: 'fas fa-comment',
+						className: 'note'
+					},
+					quote: {
+						label: 'Quote',
+		
+						// localization
+						label: {
+						'/': 'Words of wisdom'
+					},
+		
+						// Assuming that we use Font Awesome
+						icon: 'fas fa-quote-left',
+						className: 'quote'
+					}
+				}
+      };
 			</script>
 			<script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
 			<script src="//unpkg.com/docsify-plantuml/dist/docsify-plantuml.min.js"></script>
@@ -86,7 +130,10 @@ module.exports = (options) => {
 			<script src="//unpkg.com/prismjs/components/prism-kotlin.min.js"></script>
 			<script src="//unpkg.com/prismjs/components/prism-javascript.min.js"></script>
 
-			<script src="https://twemoji.maxcdn.com/v/14.0.2/twemoji.min.js"
+      <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+			<script src="//unpkg.com/docsify-share/build/index.min.js"></script>
+      
+      <script src="https://twemoji.maxcdn.com/v/14.0.2/twemoji.min.js"
 			        integrity="sha384-32KMvAMS4DUBcQtHG6fzADguo/tpN1Nh6BAJa2QqZc6/i0K+YPQE+bWiqBRAWuFs" crossorigin="anonymous"></script>
 		</body>
 

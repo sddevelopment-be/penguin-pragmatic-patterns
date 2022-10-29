@@ -1,7 +1,7 @@
 ![./pp_open-learning.png ><](pp_open-learning.png)
 version: <small>2.1.0</small>
 
-## Preface: "Hello world!"
+# Preface: "Hello world!"
 
 Are you interested in learning how to be better at the things you do on a daily basis?
 Are you working in a technical, or mostly technical role?
@@ -36,16 +36,21 @@ a way that works well for you, great! By all means, keep doing it. The goal here
 resources that have been valuable to me personally. I strongly believe that we can only learn better ways of doing things by trying
 things out. And in order to try something, we must first realize it is there in the first place.
 
-## About
+> [!QUOTE] “Heeded my words not, did you? Pass on what you have learned. Strength. Mastery. But weakness, folly, failure also. 
+> Yes, failure most of all. The greatest teacher, failure is. Luke, we are what they grow beyond. That is the true burden of all masters.”
+> 
+> -- Yoda, Jedi master
 
-### Intended Audience
+# About
+
+## Intended Audience
 
 This work is a learning and development knowledge base, aimed to share knowledge with other technical professionals.
 Most sections of this repository acts as somewhat of a “personal wiki”. It contains knowledge and information that
 has been collected from various sources, and is extended with some personal interpretations and
 experiences of the author.
 
-### Structure
+## Structure
 
 As we live our lives, we tend to learn a great deal about a wide variety of topics.
 From time to time we are stumped by how elegant, or easy, someone solves a certain problem. You are left wondering

@@ -89,17 +89,6 @@ module.exports = (options) => {
 					crossChapter: true,
 					crossChapterText: true,
 				},
-				share: {
-					linkedin: true,
-					facebook: true,
-					twitter: true,
-					whatsapp: true,
-					telegram: true,
-					options: {
-						theme: 'default',
-						color: '#08427B'
-					}
-			},
 				'flexible-alerts': {
 					comment: {
 						label: 'Comment',
@@ -154,7 +143,6 @@ module.exports = (options) => {
 			<script src="//unpkg.com/prismjs/components/prism-javascript.min.js"></script>
 
       <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
-			<script src="//unpkg.com/docsify-share/build/index.min.js"></script>
       
       <script src="https://twemoji.maxcdn.com/v/14.0.2/twemoji.min.js"
 			        integrity="sha384-32KMvAMS4DUBcQtHG6fzADguo/tpN1Nh6BAJa2QqZc6/i0K+YPQE+bWiqBRAWuFs" crossorigin="anonymous"></script>

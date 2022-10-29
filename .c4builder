@@ -1,6 +1,6 @@
 {
-	"projectName": "Pragmatic Penguin Patterns",
-	"homepageName": "Pragmatic Penguin Patterns: become a better software developer",
+	"projectName": "Pragmatic Penguin Patterns: become a better software developer",
+	"homepageName": "Pragmatic Penguin Patterns",
 	"rootFolder": "src",
 	"distFolder": "docs",
 	"generateMD": false,

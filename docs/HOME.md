@@ -1,4 +1,4 @@
-# Pragmatic Penguin Patterns: become a better software developer
+# Pragmatic Penguin Patterns
 
 ![./pp_open-learning.png ><](pp_open-learning.png)
 version: <small>2.1.0</small>
@@ -94,7 +94,7 @@ overview of great books, articles, and audiovisual recourses that are worth chec
 > The information in this knowledge base is to be seen as a series of techniques that have worked well for people in the past.
 > However, they are not _'recipes'_. Meaning that you are encouraged to take the ideas and adapt them to fit your personal context.
 
-## A pattern-based approach
+# A pattern-based approach
 
 Exchanging knowledge is a challenging activity. The aim is to communicate thoughts and ideas in a way that makes them
 resonate with the receiving party. To communicate effectively, groups of people tend to resort to using jargon.
@@ -109,7 +109,7 @@ a look at how we see _"knowledge"_ itself. Us software developers tend to resort
 understand them a bit better. By visualizing our ideas, and how they relate to each other, we create a "map" of how we
 perceive a certain set of concepts.
 
-### Knowledge representation
+## Knowledge representation
 
 ![A simplified model of the things we know ><](./knowledge_gathering.png ':size=680')
 

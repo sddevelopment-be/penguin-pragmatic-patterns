@@ -1,4 +1,4 @@
-* [Pragmatic Penguin Patterns: become a better software developer](HOME)
+* [Pragmatic Penguin Patterns](HOME)
   * [1_Learning](1_Learning/HOME)
     * [Concepts](1_Learning/Concepts/HOME)
   * [2_Productivity](2_Productivity/HOME)

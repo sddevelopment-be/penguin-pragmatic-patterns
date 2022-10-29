@@ -119,7 +119,7 @@ img[alt$="><"] {
 }
 
 .alert.callout {
-	border: 1px solid #fefefe10 !important;
+	border-color: #fefefe10 !important;
 }
 
 .alert.callout.quote {
@@ -180,10 +180,23 @@ img.emoji {
 	vertical-align: -0.1em;
 }
 
+.app-sub-sidebar::before {
+	content: "";
+	display: block;
+	font-weight: 450;
+	font-size: 0.65rem;
+	text-transform: uppercase;
+	border-bottom: 1px dotted;
+	/*padding-left: 0.25rem;*/
+	margin-left: -0.75rem;
+	margin-top: -0.5rem;
+	width: 20%;
+}
 .app-sub-sidebar {
 	border-left: 1px dotted;
 	padding: 0 0.25rem !important;
-	margin: 0.125rem 0.25rem 0.25rem 0.45rem !important;
+	margin: 0.125rem 0.25rem 0.25rem 0.25rem !important;
+	/*margin-left: -0.75rem !important;*/
 }
 
 .markdown-section table {
@@ -238,6 +251,16 @@ img.emoji {
 }
 
 .app-nav {
+	display: none;
+}
+
+@media only screen and (min-width: 1440px) {
+	.app-nav {
+		display: block;
+	}
+}
+
+.app-nav {
 	color: var(--text_color) !important;
 }
 
@@ -246,6 +269,10 @@ img.emoji {
 }
 
 .medium-zoom--opened .medium-zoom-overlay {
+	background: var(--docsify_dark_mode_bg) !important;
+}
+
+#CHANGELOG_RENDERER * {
 	background: var(--docsify_dark_mode_bg) !important;
 }
 

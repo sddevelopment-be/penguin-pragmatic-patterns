@@ -38,10 +38,12 @@ Learn what worked, but more importantly: learn why it worked. If you come across
 try it out amd see what results you achieve with it. When it did not work out as expected, figure out why it did not work. If you are feeling particularly charitable,
 share you newfound knowledge with your friends, coworkers, or the general public.
 
-> [!QUOTE] “Heeded my words not, did you? Pass on what you have learned. Strength. Mastery. But weakness, folly, failure also.
-> Yes, failure most of all. The greatest teacher, failure is. Luke, we are what they grow beyond. That is the true burden of all masters.”
+> [!QUOTE] _“Heeded my words not, did you? Pass on what you have learned. Strength. Mastery. But weakness, folly, failure also.
+> Yes, failure most of all. The greatest teacher, failure is. Luke, we are what they grow beyond. That is the true burden of all masters.”_
 >
 > -- Yoda, Jedi master
+
+# About this publication
 
 ## Intended Audience
 
@@ -92,7 +94,7 @@ overview of great books, articles, and audiovisual recourses that are worth chec
 > The information in this knowledge base is to be seen as a series of techniques that have worked well for people in the past.
 > However, they are not _'recipes'_. Meaning that you are encouraged to take the ideas and adapt them to fit your personal context.
 
-# A pattern-based approach
+## A pattern-based approach
 
 Exchanging knowledge is a challenging activity. The aim is to communicate thoughts and ideas in a way that makes them
 resonate with the receiving party. To communicate effectively, groups of people tend to resort to using jargon.
@@ -117,7 +119,9 @@ your newly gained knowledge helpful.
 > You are encouraged to be eclectic, and only use the practices that resonate with you. Feel free to change them as you see fit, after all:
 > Who are we to tell you what to do?
 
+
 ---
+# Section References
 
 [^0] Statistics retrieved from [https://www.zippia.com/software-engineer-jobs/demographics/](https://www.zippia.
 com/software-engineer-jobs/demographics/), Evolution of software engineer demographics in the USA in 2019.

@@ -1,15 +1,14 @@
 <!-- _coverpage.md -->
 
-![logo](./logo.png)
+![logo ><](sdd_logo_white.webp)
 
 # Pragmatic Penguin Patterns <small>2.1.0-BETA</small>
+## Be a better software developer
 
-## Open Learning Knowledge Base
-
+[Start Reading](/0_Intro/HOME)
 [GitHub](https://github.com/sddevelopment-be/penguin-pragmatic-patterns)
-[Start Reading](/HOME)
-[Help out!](https://github.com/sddevelopment-be/penguin-pragmatic-patterns/blob/main/CONTRIBUTING.md)
 
 <!-- background color -->
 
-![color](#f9f9f9)
+![](bg.webp)
+

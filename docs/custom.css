@@ -118,9 +118,13 @@ img[alt$="><"] {
 	clear: both;
 }
 
+.alert.callout {
+	border: 1px solid #fefefe10 !important;
+}
+
 .alert.callout.quote {
-	border-left-color: #662fb7;
-	border-left-width: .25rem;
+	border-left-color: #662fb7 !important;
+	border-left-width: .25rem !important;
 }
 
 .alert.callout.quote .title {
@@ -218,4 +222,69 @@ img.emoji {
 	top: 0;
 	bottom: unset;
 	background-color: transparent !important;
+}
+
+.anchor {
+	color: var(--text_color) !important;
+}
+
+.anchor span {
+	color: var(--text_color) !important;
+}
+
+.anchor:hover {
+	text-decoration: none;
+	color: var(--theme-color) !important;
+}
+
+.app-nav {
+	color: var(--text_color) !important;
+}
+
+.sidebar ul li a {
+	color: var(--text_color) !important;
+}
+
+.medium-zoom--opened .medium-zoom-overlay {
+	background: var(--docsify_dark_mode_bg);
+}
+
+body {
+	color: var(--text_color) !important;
+}
+
+.markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4, .markdown-section strong {
+	color: var(--ttextColor) !important;
+}
+
+.markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4, .markdown-section em {
+	color: var(--text_color) !important;
+}
+
+#dark_mode > input[type="checkbox"] {
+	display: none;
+}
+
+#dark_mode > label::after {
+	content: "";
+	background: #fff;
+	width: 1rem;
+	height: 1rem;
+	top: 0;
+}
+#dark_mode > label {
+	cursor: pointer;
+	text-indent: -9999px;
+	width: 2.25rem;
+	height: 1.15rem;
+	margin-top: 0.25rem;
+}
+#dark_mode {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: unset;
+}
+#dark_mode > label::before {
+	content: "go dark";
 }

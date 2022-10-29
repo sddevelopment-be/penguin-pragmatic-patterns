@@ -30,6 +30,10 @@ module.exports = (options) => {
 					rel="stylesheet"
 					href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
 			/>
+			<link
+					rel="stylesheet"
+					href="//cdn.jsdelivr.net/npm/docsify-dark-mode@latest/dist/style.min.css"
+			/>
 			<link rel="stylesheet" href="./custom.css"/>
 		</head>
 
@@ -44,7 +48,6 @@ module.exports = (options) => {
 				changelog : 'https://raw.githubusercontent.com/sddevelopment-be/penguin-pragmatic-patterns/b96e4da151dbb6e974e192b08d2bc0bc9dc6839c/src/X_Appendix/Changelog/v2.x.md', // path of your changelog, it can be remote as well
 				mergeNavbar: false,
 				alias: {'/.*/_sidebar.md': '/_sidebar.md',},
-				minLevel: 1,	
 				maxLevel: 2,
 				subMaxLevel: 3,
 				sidebarDisplayLevel: 1,
@@ -57,13 +60,18 @@ module.exports = (options) => {
 
 				timeUpdater: {text: "_last updated: {docsify-updated}_",
 				formatUpdated: "{YYYY}/{MM}/{DD}",},
-
-				share: {reddit: true,
-				linkedin: true,
-				twitter: true,
-				whatsapp: true,
-				telegram: true,},
-
+				darkMode: {
+					dark: {
+						background: "#1c2022",
+						toggleBtnBg: "#34495e",
+						textColor: "#fefefe"
+						},
+					light: {
+						background: "white",
+						toggleBtnBg: "var(--theme-color)",
+						textColor: "#34495e"
+					}
+				},
 				tabs: {
           persist    : true,
 					sync       : true,      
@@ -153,6 +161,8 @@ module.exports = (options) => {
 		</body>
 
 		<script src="https://cdn.jsdelivr.net/npm/docsify-changelog-plugin@latest/dist/index.js"></script>
+
+		<script src="//cdn.jsdelivr.net/npm/docsify-dark-mode@latest/dist/index.min.js"></script>
 
 	</html>`;
 };

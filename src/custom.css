@@ -288,6 +288,10 @@ body {
 	color: var(--text_color) !important;
 }
 
+.markdown-section code, .markdown-section pre {
+	background-color: #12141505 !important;
+}
+
 #dark_mode > input[type="checkbox"] {
 	display: none;
 }
@@ -314,4 +318,45 @@ body {
 }
 #dark_mode > label::before {
 	content: "go dark";
+}
+
+/* Table overrides */
+.markdown-section tr:nth-child(2n) {
+	background-color: #0290e815;
+}
+
+@media
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px) {
+
+	/* Force table to not be like tables anymore */
+	table, thead, tbody, th, td, tr {
+		display: block;
+	}
+
+	/* Hide table headers (but not display: none;, for accessibility) */
+	thead tr {
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+
+	tr { border: 1px solid #ccc; }
+
+	.markdown-section td {
+		/* Behave  like a "row" */
+		padding: 0.5rem 0.25rem 0.25rem 5rem;
+		position: relative;
+	}
+
+	.markdown-section td:before {
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 4.5rem;
+		white-space: break-spaces;
+		font-size: 0.7rem;
+	}
 }

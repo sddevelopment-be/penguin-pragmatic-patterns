@@ -37,6 +37,20 @@ table th:nth-of-type(6) {
 table em {
   font-size: 0.85rem;
 }
+
+@media
+only screen and (max-width: 760px),
+(min-device-width: 768px) and (max-device-width: 1024px) {
+table th:first-of-type {
+    width: 100%;
+}
+    td:nth-of-type(1):before { content: "skill"; }
+	td:nth-of-type(2):before { content: "Novice"; }
+	td:nth-of-type(3):before { content: "Advanced Beginner"; }
+	td:nth-of-type(4):before { content: "Competence"; }
+	td:nth-of-type(5):before { content: "Proficient"; }
+	td:nth-of-type(6):before { content: "Expert"; }
+}
 </style>
 
 |                                                                                                                             | Novice                                                                                                                                                         | Advanced Beginner                                                                                                                                                                                                             | Competence                                                                                                                                                                 | Proficient                                                                                                                                                                                                                        | Expert                                                                                                                                                                                                                                                     |
@@ -64,9 +78,8 @@ Adapt your coaching and teachings styles to the needs of the learner.
 
 ### References and further reading
 
-| author                               | url                                                                                                         | title                                                                              | publisher                          |
-|--------------------------------------|-------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|------------------------------------|
-| Dreyfus, Stuart E; Dreyfus, Hubert L | [http://www.dtic.mil](http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA084551&Location=U2&doc=GetTRDoc.pdf)       | A Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition | Storming Media                     |
-| Hunt, A                              | [pragprog.com](https://pragprog.com/book/ahptl/pragmatic-thinking-and-learning)                             | Pragmatic Thinking and Learning: Refactor Your 'wetware'                           | Pragmatic Bookshelf                |
-| Hunt, A; Thomas, D                   | [pragprog.com](https://pragprog.com/book/tpp20/the-pragmatic-programmer-20th-anniversary-edition)           | The Pragmatic Programmer, your journey to mastery                                  | Addison Wesley/Pragmatic Bookshelf |
-| Hoover, D; Oshineye, A               | [oreilly.com/library](https://www.oreilly.com/library/view/apprenticeship-patterns/9780596806842/ch01.html) | Apprenticeship Patterns: Guidance for the Aspiring Software Craftsman              | O'Reilly Media, Inc                |
+* Dreyfus, Stuart E; Dreyfus, Hubert L. A Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition. Storming Media, retrieved from:  [http://www.dtic.mil](http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA084551&Location=U2&doc=GetTRDoc.pdf)
+* Hunt, A. Pragmatic Thinking and Learning: Refactor Your "wetware". Pragmatic Bookshelf, [pragprog.com](https://pragprog.com/book/ahptl/pragmatic-thinking-and-learning).
+* Hunt, A; Thomas, D, The Pragmatic Programmer, your journey to mastery. Addison Wesley/Pragmatic Bookshelf, [pragprog.com](https://pragprog.com/book/tpp20/the-pragmatic-programmer-20th-anniversary-edition)
+* Hoover, D; Oshineye, A. Apprenticeship Patterns: Guidance for the Aspiring Software Craftsman. O'Reilly Media, Inc, [oreilly.com/library](https://www.oreilly.com/library/view/apprenticeship-patterns/9780596806842/ch01.html).
+

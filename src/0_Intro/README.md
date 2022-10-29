@@ -38,8 +38,8 @@ Learn what worked, but more importantly: learn why it worked. If you come across
 try it out amd see what results you achieve with it. When it did not work out as expected, figure out why it did not work. If you are feeling particularly charitable,
 share you newfound knowledge with your friends, coworkers, or the general public.
 
-> [!QUOTE] “Heeded my words not, did you? Pass on what you have learned. Strength. Mastery. But weakness, folly, failure also.
-> Yes, failure most of all. The greatest teacher, failure is. Luke, we are what they grow beyond. That is the true burden of all masters.”
+> [!QUOTE] _“Heeded my words not, did you? Pass on what you have learned. Strength. Mastery. But weakness, folly, failure also.
+> Yes, failure most of all. The greatest teacher, failure is. Luke, we are what they grow beyond. That is the true burden of all masters.”_
 >
 > -- Yoda, Jedi master
 

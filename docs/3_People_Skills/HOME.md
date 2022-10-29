@@ -1,12 +1,5 @@
 # 3_People_Skills
 
-> [!WARNING]
-> **This is not a bingo chart.** Unlike when playing Pokémon, you will not get a special prize for getting all the patterns in this publication into your work or life.
-> You are encouraged to be eclectic, and only use the practices that resonate with you. Feel free to change them as you see fit, after all:
-> Who are we to tell you what to do?
-
-## No one is an island
-
 When reading stories or career advice for people in the technical sector on social media,
 much content is dedicated to technical excellence and workflow processes.
 

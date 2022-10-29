@@ -96,18 +96,21 @@ Following changes are known:
 - add footnote plugin
 - added syntax highlighting
 - Section 0_Pattern_Language as it is not really relevant and should be added to the main README instead
+- Added section 0: Introduction
 
 #### Removed
 
 - automatic glossary creation (issue with titles)
 - automated changelog aggregation
 - cleanup of unused/confusing plugins
+- Folder-based navigation
 
 #### Fixed
 
 - images in software development patterns are now smaller
 - spelling mistakes
 - glossary is now a self-maintained section, without automated links
+- Issue with side-navigation being displayed in a strange manner
 
 ## v2.0.0
 

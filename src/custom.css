@@ -106,11 +106,32 @@ img[alt$="><"] {
 	clear: both;
 }
 
+.alert::before {
+	margin-top: 0.75rem;
+}
+
+.alert {
+	clear: both;
+}
+
 .alert.flat {
 	clear: both;
 }
 
-/* Keyboard key presses, using deepblue style from  https://github.com/auth0/kbd/blob/gh-pages/kbd.css*/
+.alert.callout {
+	border-color: #fefefe10 !important;
+}
+
+.alert.callout.quote {
+	border-left-color: #662fb7 !important;
+	border-left-width: .25rem !important;
+}
+
+.alert.callout.quote .title {
+	color: #662fb7;
+}
+
+	/* Keyboard key presses, using deepblue style from  https://github.com/auth0/kbd/blob/gh-pages/kbd.css*/
 kbd {
 	display: inline-block;
 	margin: 0 .125em;
@@ -159,10 +180,23 @@ img.emoji {
 	vertical-align: -0.1em;
 }
 
+.app-sub-sidebar::before {
+	content: "";
+	display: block;
+	font-weight: 450;
+	font-size: 0.65rem;
+	text-transform: uppercase;
+	border-bottom: 1px dotted;
+	/*padding-left: 0.25rem;*/
+	margin-left: -0.75rem;
+	margin-top: -0.5rem;
+	width: 20%;
+}
 .app-sub-sidebar {
 	border-left: 1px dotted;
 	padding: 0 0.25rem !important;
-	margin: 0.125rem 0.25rem 0.25rem 0.45rem !important;
+	margin: 0.125rem 0.25rem 0.25rem 0.25rem !important;
+	/*margin-left: -0.75rem !important;*/
 }
 
 .markdown-section table {
@@ -201,4 +235,83 @@ img.emoji {
 	top: 0;
 	bottom: unset;
 	background-color: transparent !important;
+}
+
+.anchor {
+	color: var(--text_color) !important;
+}
+
+.anchor span {
+	color: var(--text_color) !important;
+}
+
+.anchor:hover {
+	text-decoration: none;
+	color: var(--theme-color) !important;
+}
+
+.app-nav {
+	display: none;
+}
+
+@media only screen and (min-width: 1440px) {
+	.app-nav {
+		display: block;
+	}
+}
+
+.app-nav {
+	color: var(--text_color) !important;
+}
+
+.sidebar ul li a {
+	color: var(--text_color) !important;
+}
+
+.medium-zoom--opened .medium-zoom-overlay {
+	background: var(--docsify_dark_mode_bg) !important;
+}
+
+#CHANGELOG_RENDERER * {
+	background: var(--docsify_dark_mode_bg) !important;
+}
+
+body {
+	color: var(--text_color) !important;
+}
+
+.markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4, .markdown-section strong {
+	color: var(--ttextColor) !important;
+}
+
+.markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4, .markdown-section em {
+	color: var(--text_color) !important;
+}
+
+#dark_mode > input[type="checkbox"] {
+	display: none;
+}
+
+#dark_mode > label::after {
+	content: "";
+	background: #fff;
+	width: 1rem;
+	height: 1rem;
+	top: 0;
+}
+#dark_mode > label {
+	cursor: pointer;
+	text-indent: -9999px;
+	width: 2.25rem;
+	height: 1.15rem;
+	margin-top: 0.25rem;
+}
+#dark_mode {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: unset;
+}
+#dark_mode > label::before {
+	content: "go dark";
 }

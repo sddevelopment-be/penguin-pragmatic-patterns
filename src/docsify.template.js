@@ -21,25 +21,40 @@ module.exports = (options) => {
 			<link
 				href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
 				rel="stylesheet"/>
-			<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css"/>
 
+			<!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css"/> -->
+			<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
+			<link
+					rel="stylesheet"
+					href="//cdn.jsdelivr.net/npm/docsify-changelog-plugin@latest/dist/style.css"
+			/>
+			<link
+					rel="stylesheet"
+					href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+			/>
+			<link
+					rel="stylesheet"
+					href="//cdn.jsdelivr.net/npm/docsify-dark-mode@latest/dist/style.min.css"
+			/>
 			<link rel="stylesheet" href="./custom.css"/>
 		</head>
 
 		<body>
+			<nav></nav>
 			<div id="app"></div>
 			<script>
 				window.$docsify = {name: '{{name}}',
 				repo: 'sddevelopment-be/penguin-pragmatic-patterns',
 				loadSidebar: true,
-				loadNavbar: true,
+				loadNavbar : false, // IMPORTANT
+				changelog : 'https://raw.githubusercontent.com/sddevelopment-be/penguin-pragmatic-patterns/b96e4da151dbb6e974e192b08d2bc0bc9dc6839c/src/X_Appendix/Changelog/v2.x.md', // path of your changelog, it can be remote as well
 				mergeNavbar: false,
 				alias: {'/.*/_sidebar.md': '/_sidebar.md',},
-				maxLevel: 2,
-				subMaxLevel: 3,
-				sidebarDisplayLevel: 1,
+				maxLevel: 5,
+				subMaxLevel: 4,
+				sidebarDisplayLevel: 0,
 				coverpage: false,
-				homepage: 'HOME.md',
+				homepage: '/0_Intro/HOME.md',
 				auto2top: true,
 				plantuml: {skin: 'classic'},
 				logo: './logo.png',
@@ -47,20 +62,63 @@ module.exports = (options) => {
 
 				timeUpdater: {text: "_last updated: {docsify-updated}_",
 				formatUpdated: "{YYYY}/{MM}/{DD}",},
-
-				share: {reddit: true,
-				linkedin: true,
-				twitter: true,
-				whatsapp: true,
-				telegram: true,},
-
-				tabs: {persist    : true,      // default
-				sync       : true,      // default
-				theme      : 'classic', // default
-				tabComments: true,      // default
-				tabHeadings: true       // default
-			},
-				'flexible-alerts': {}};
+				darkMode: {
+					dark: {
+						background: "#1c2022",
+						toggleBtnBg: "#34495e",
+						textColor: "#fefefe"
+						},
+					light: {
+						background: "white",
+						toggleBtnBg: "var(--theme-color)",
+						textColor: "#34495e"
+					}
+				},
+				tabs: {
+          persist    : true,
+					sync       : true,      
+					theme      : 'classic', 
+					tabComments: true,      
+					tabHeadings: true
+				},
+				pagination: {
+					previousText: 'BACK',
+					// or
+					nextText: {
+						'/en/': 'NEXT',
+						'/': 'NEXT'
+					},
+					crossChapter: true,
+					crossChapterText: true,
+				},
+				'flexible-alerts': {
+					comment: {
+						label: 'Comment',
+		
+						// localization
+						label: {
+						'/en-GB/': 'Comment',
+						'/': 'Comment'
+					},
+		
+						// Assuming that we use Font Awesome
+						icon: 'fas fa-comment',
+						className: 'note'
+					},
+					quote: {
+						label: 'Quote',
+		
+						// localization
+						label: {
+						'/': 'Words of wisdom'
+					},
+		
+						// Assuming that we use Font Awesome
+						icon: 'fas fa-quote-left',
+						className: 'quote'
+					}
+				}
+      };
 			</script>
 			<script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
 			<script src="//unpkg.com/docsify-plantuml/dist/docsify-plantuml.min.js"></script>
@@ -86,9 +144,15 @@ module.exports = (options) => {
 			<script src="//unpkg.com/prismjs/components/prism-kotlin.min.js"></script>
 			<script src="//unpkg.com/prismjs/components/prism-javascript.min.js"></script>
 
-			<script src="https://twemoji.maxcdn.com/v/14.0.2/twemoji.min.js"
+      <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+      
+      <script src="https://twemoji.maxcdn.com/v/14.0.2/twemoji.min.js"
 			        integrity="sha384-32KMvAMS4DUBcQtHG6fzADguo/tpN1Nh6BAJa2QqZc6/i0K+YPQE+bWiqBRAWuFs" crossorigin="anonymous"></script>
 		</body>
+
+		<script src="https://cdn.jsdelivr.net/npm/docsify-changelog-plugin@latest/dist/index.js"></script>
+
+		<script src="//cdn.jsdelivr.net/npm/docsify-dark-mode@latest/dist/index.min.js"></script>
 
 	</html>`;
 };

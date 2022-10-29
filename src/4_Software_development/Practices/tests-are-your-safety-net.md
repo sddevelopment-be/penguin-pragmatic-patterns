@@ -1,12 +1,11 @@
 ## Tests as a safety net
 
-| Property               | Value                                                  |
-|------------------------|--------------------------------------------------------|
-| Submitter              | stijn-dejongh                                                |
-| Date of submission     | 15 Oct 2022                     |
-| Originally publication | [platform name](http://link-to-platform.com)           |
-| Type                   | `Practice` / `Concept`                                 |
-| Tags                   | `comma`, `sepparated`, `list`, `of`, `applicable_tags` |
+| Property           | Value                                             |
+|--------------------|---------------------------------------------------|
+| Submitter          | Stijn Dejongh                                     |
+| Date of submission | 15 Oct 2022                                       |
+| Type               | `Practice`                                        |
+| Tags               | `code testing`, `TDD`, `maintainability`, `speed` |
 
 ### Context
 

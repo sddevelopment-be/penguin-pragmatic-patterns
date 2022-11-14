@@ -48,6 +48,12 @@ feedback.
 Two or more individual systems coupled together, with shared storage and closely linked via a LAN or faster
 interconnect.
 
+### Communications
+
+These programs provide the mechanism for creating virtual connections among processes, users, and computer systems. They
+allow users to send messages to anothers screens, to browse web pages, to send electronic-mail messages, to log in
+remotely or to transfer files from one machine to another.
+
 ### Control card
 
 a batch system concept. This is a command to manage the execution of a process (start, stop, interrupts, ...) . It can
@@ -106,6 +112,11 @@ Systems that can suffer a failure but continue to work nonetheless.
 ### File management
 
 Programs that create, delete, copy, rename, print, dump, list, and generally manupulate files and directories.
+
+### File modification
+
+Several text editors may be available to create and modify the content of files stored on disk or other storage devices.
+There may also be special commands to search contents of files or perform transformations of the text.
 
 ## G
 
@@ -237,6 +248,17 @@ you would look at the issue you are trying to solve first and see if the new app
 ### Process
 
 A computer program in execution
+
+### Programming language support
+
+Compilers, assemblers, debuggers, and interpreters for comon programming languages (such as C, C++, C#, Java, Visual
+Basic, .NET, PERL, ...) are often provided to the user by the Operating System.
+
+### Program loading and execution
+
+Once a program is assembled or compiled, it must be loaded into memory to be executed. The system may provide absolute
+loaders, relocatable loaders, linkage editors, and overlay loaders. Debugging systems for either higher-lever languages
+or machine languages are needed as well.
 
 ## R
 

@@ -247,7 +247,8 @@ you would look at the issue you are trying to solve first and see if the new app
 
 ### Process
 
-A computer program in execution
+* __computer science:__ A computer program in execution. Processes are sometimes called “threads”, “tasks”, or “jobs”, often with slight nuances in meaning.
+* __generic:__ A natural phenomenon marked by gradual changes that lead toward a particular result. A series of actions or operations conducing to an end.
 
 ### Programming language support
 
@@ -264,9 +265,9 @@ or machine languages are needed as well.
 
 ### ROI
 
-Short for 'return on investment'.
-A concept originating from the financial sector. Described
-on [this page](/1_Patterns/Productivity/Concepts/HOME#return-on-investment).
+ROI or "Return on investment" is a very useful metric for strategic planning, originating from the financial sector. The idea is to maximize for value over time.
+This helps you to stay focused on the activities or task that bring the most value to your organization/project/customer, or even your own life.
+Described on [this page](/2_Productivity/Concepts/HOME?id=return-on-investment).
 
 ## S
 

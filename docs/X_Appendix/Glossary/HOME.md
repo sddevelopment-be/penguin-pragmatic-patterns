@@ -249,7 +249,8 @@ you would look at the issue you are trying to solve first and see if the new app
 
 ### Process
 
-A computer program in execution
+* __computer science:__ A computer program in execution. Processes are sometimes called “threads”, “tasks”, or “jobs”, often with slight nuances in meaning.
+* __generic:__ A natural phenomenon marked by gradual changes that lead toward a particular result. A series of actions or operations conducing to an end.
 
 ### Programming language support
 
@@ -268,7 +269,7 @@ or machine languages are needed as well.
 
 Short for 'return on investment'.
 A concept originating from the financial sector. Described
-on [this page](/1_Patterns/Productivity/Concepts/HOME#return-on-investment).
+on [this page](/2_Productivity/Concepts/HOME?id=return-on-investment).
 
 ## S
 

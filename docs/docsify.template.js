@@ -18,6 +18,7 @@ module.exports = (options) => {
 			<link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/brands.css"/>
 			<link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/regular.css"/>
 			<link rel="stylesheet" href="//unpkg.com/@fortawesome/fontawesome-free/css/solid.css"/>
+
 			<link
 				href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
 				rel="stylesheet"/>
@@ -111,13 +112,19 @@ module.exports = (options) => {
 						// localization
 						label: {
 						'/': 'Words of wisdom'
-					},
+					    },
 		
 						// Assuming that we use Font Awesome
 						icon: 'fas fa-quote-left',
 						className: 'quote'
 					}
-				}
+                },
+                glossify: {
+                    debug: false,
+                    terminologyHeading: '###',
+                    replaceTitleTerms: false,
+                    glossaryLocation: './X_Appendix/Glossary/HOME.md'
+                }
       };
 			</script>
 			<script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
@@ -135,7 +142,9 @@ module.exports = (options) => {
 
 			<script src="//unpkg.com/docsify-fontawesome/dist/docsify-fontawesome.min.js"></script>
 			<script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>
-			<script src="./footnotes.js"></script>
+
+            <script src="//unpkg.com/@stijn-dejongh/docsify-glossary@1.0.1/dist/@stijn-dejongh/docsify-glossary.min.js"></script>
+            <script src="./footnotes.js"></script>
 
 			<script src="//unpkg.com/prismjs/components/prism-bash.min.js"></script>
 			<script src="//unpkg.com/prismjs/components/prism-php.min.js"></script>
@@ -144,7 +153,7 @@ module.exports = (options) => {
 			<script src="//unpkg.com/prismjs/components/prism-kotlin.min.js"></script>
 			<script src="//unpkg.com/prismjs/components/prism-javascript.min.js"></script>
 
-      <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+            <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
       
       <script src="https://twemoji.maxcdn.com/v/14.0.2/twemoji.min.js"
 			        integrity="sha384-32KMvAMS4DUBcQtHG6fzADguo/tpN1Nh6BAJa2QqZc6/i0K+YPQE+bWiqBRAWuFs" crossorigin="anonymous"></script>

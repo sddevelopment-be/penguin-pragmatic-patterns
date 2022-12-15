@@ -111,13 +111,39 @@ perceive a certain set of concepts.
 
 ![Inner structure of a section ><](./section_structure.png)
 
+A [pattern language](/X_Appendix/Glossary/HOME?id=pattern-language) is **a formal way to represent wisdom that improves ones ability to operate in a
+certain field of expertise**. The knowledge represented in a pattern language is usually stripped down to its bare essentials,
+in hopes of making it easier to apply them in a variety of situations.
+
+Much like a dictionary, each entry (_"Pattern"_) in these knowledge bases is referred to by their `name` and contains information
+on what challenge it addresses and contains a description of the context in which it works well.
+
+Sharing knowledge with other practitioners in a formalized manner is an activity that is generally used in a variety of fields. Chess
+players share certain board positions and [common tactics](https://chesstempo.com/tactical-motifs) by manner of "motifs"[^1] . In popular
+internet culture, we see the same as plenty communication happens using memes and tropes[^2] .  
+Recent marketing campaigns, and elections in various countries have seen an uptick in using funny pictures and videos on the web to influence peoples decision-making.
+
+We want to share information about things you can do, as well as about ideas and models that can change the way you perceive a situation. 
+To achieve this, the patterns in this knowledge base are split up into: `Concepts` and `Practices`. To keep the content in this work consistent, 
+the patterns follow a similar structure. As we now know, **context matters**. This is why each pattern is prefaced with a short description of when it can be
+useful to consider using it.
+
+![Pattern structure definition ><](./pattern_definition.png ':size=680')
+
+Some patterns will contain references to other resources. They can also contain supporting examples, testimonials, tutorials, etc.
+These examples can be included inside the pattern description, but they might as well exist as a separate resource in a different section of
+this publication.  
+
+> [!WARNING]
+> **Pattern lists are not a bingo chart.** Unlike when collecting Pokémon, you will not get a special prize for getting all the patterns in this 
+> publication into your work or life.
+> You are encouraged to be eclectic, and only use the practices that resonate with you. Feel free to change them as you see fit, after all:
+> Who are we to tell you what to do?
+
+
 Happy reading, we hope you learn something helpful. If you did, please pass on what you have learned to someone you know that might find
 your newly gained knowledge helpful.
 
-> [!WARNING]
-> **This is not a bingo chart.** Unlike when collecting Pokémon, you will not get a special prize for getting all the patterns in this publication into your work or life.
-> You are encouraged to be eclectic, and only use the practices that resonate with you. Feel free to change them as you see fit, after all:
-> Who are we to tell you what to do?
 
 
 ---

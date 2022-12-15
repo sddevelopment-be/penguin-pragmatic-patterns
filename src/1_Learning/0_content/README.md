@@ -28,28 +28,7 @@ whom you are speaking to, what you are discussing, and even how you are feeling 
 how we talk about things tends to influence how we think about them. This means that if you spend most of your time complaining about something,
 you will perceive it as being more of a pain than it actually was before you started communicating negatively about it.
 
-A [pattern language](/X_Appendix/Glossary/HOME?id=pattern-language) is **a formal way to represent wisdom that improves ones ability to operate in a
-certain field of expertise**. The knowledge represented in a pattern language is usually stripped down to its bare essentials, in hopes of making it easier to apply them in a
-variety of situations.
-
-Much like a dictionary, each entry (_"Pattern"_) in these knowledge bases is indexed with a `name` and contains information
-on `what challenge it addresses` as well as a `description of the context in which it works well`.
-
-Sharing knowledge with other practitioners in a formalized manner is an activity that is generally used in a variety of fields. Chess
-players share certain board positions and [common tactics](https://chesstempo.com/tactical-motifs) by manner of "motifs"[^1] . In popular
-internet culture, we see the same as plenty communication happens using memes and tropes[^2] . Recent marketing campaigns, and
-elections in various countries have seen an uptick in using funny pictures and videos on the web to influence peoples decision-making.
-
 ![Representation of learning by experimenting ><](./experimental-entities-Component.png ':size=520')
 
-We want to share information about both things you can do, and about ideas and models that can change the way you perceive a situation. To achieve
-this, the patterns in this knowledge base are split up into: `Concepts` and `Practices`. To keep the content in this work consistent, the patterns
-follow a similar structure. As we now know, **context matters**. This is why each pattern is prefaced with a short description of when it can be
-useful to consider using it.
 
-![Pattern structure definition ><](./pattern_definition.png ':size=680')
-
-Some patterns will contain references to other resources. They can also contain supporting examples, testimonials, tutorials, etc.
-These examples can be included inside the pattern description, but they might as well exist as a separate resource in a different section of
-this publication.
 

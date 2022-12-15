@@ -3,6 +3,16 @@
 	--docsifytabs-border-radius-px: 0.75em;
 }
 
+.app-name-link {
+	background: #1c2022;
+	display: block;
+	width: fit-content;
+	height: fit-content;
+	clear: both;
+	margin: auto;
+	border-radius: 55%;
+}
+
 .app-name-link img {
 	max-height: 3.75rem;
 }

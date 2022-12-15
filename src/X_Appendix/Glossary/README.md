@@ -135,6 +135,13 @@ failure.
 Graphical User Interface. A user interface that enables human-to-machine interaction using visual iconography that is
 more complex than its purely textual CLI alternative.
 
+## H
+
+### Heap
+
+Block of memory that is dynamically allocated during process run time. The heap is usually linked to a specific execution environment or process.
+In certain programming language, this memory is also referred to as "the stack".
+
 ## I
 
 ### IDE
@@ -229,6 +236,11 @@ You might even end up driving into a lake if the map is inaccurate, digital, and
 patterns, each describing a problem, and the core of a solution that can be used in many ways within a specific field of
 expertise.
 
+### PCB
+
+short for: Process Control Block.
+The Process Control Block contains meta-information about a certain process, such as its state, size, ... .
+
 ### Practices
 
 Practices are a set of actionable recipes, that can help you achieve certain goals. As with all advice, these are not
@@ -290,6 +302,15 @@ are peers. No controller-worker relationship exists between them.
 Some of these programs will simply expose system characteristics such as the date, time, amount of availalble memory /
 disk space, number of users, etc. Other status programs are more complex, providing detailed information on performance,
 logging, and system errors.
+
+### Swapping
+
+Moving processes from memory, thus reducing the level of multi-execution. Later on, the process can be put back into memory,
+and continued from the point where it stopped executing.
+When the process is removed from memory, a state save occurs. This means saving information about the process' current execution status. When the process is restored, this state is restored.
+On Unix systems, a dedicated `swap` partition can be created on persistent storage drives to load/unload processes from main memory. Ideally, this partition is sized to be minimally
+equal to half of the available main memory.
+
 
 ### Synthesis
 

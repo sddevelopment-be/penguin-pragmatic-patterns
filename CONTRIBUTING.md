@@ -22,7 +22,7 @@ If you have a pattern (micro strategy / technique) to add, please feel free to c
 
 You will need to install `node.js` and `npm` on your machine.
 Take a look at [the official installation instructions](https://nodejs.org/en/download/) on the node.js website.
-Once this step is completed, run `npm --version` ti make sure the installatioh was successful.
+Once this step is completed, run `npm --version` ti make sure the installation was successful.
 
 Fork this repository into your own github account and clone it to your local machine.
 

@@ -1,9 +1,20 @@
-## Easy To Change decisions
+## Make your decisions Easy To Change
 
 ### Context
 
 > In this world nothing can be said to be certain, except death and taxes.
+> 
 > ~ Benjamin Franklin[^1]
+
+
+
+> 'Cause you're hot, then you're cold
+> You're yes, then you're no
+> You're in, then you're out
+> You're up, then you're down
+> You're wrong when it's right
+> 
+> ~ Katy Perry, Hot n Cold (2008)
 
 ### Drivers
 

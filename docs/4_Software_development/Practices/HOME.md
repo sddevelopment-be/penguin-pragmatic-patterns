@@ -1,11 +1,24 @@
 # Practices
 
-## Easy To Change decisions
+## Make your decisions Easy To Change
 
 ### Context
 
-> In this world nothing can be said to be certain, except death and taxes.
+Making decisions can be difficult, as what we decide today can impact our future in significant ways.
+This practise helps you be more confident in your ability to pivot if it turns out you have made an error in judgement.
+
+> In this world nothing can be said to be certain, except death and taxes.  
+>   
 > ~ Benjamin Franklin[^1]
+
+
+> 'Cause you're hot, then you're cold  
+> You're yes, then you're no  
+> You're in, then you're out  
+> You're up, then you're down  
+> You're wrong when it's right    
+>   
+> ~ Katy Perry, Hot n Cold (2008)
 
 ### Drivers
 
@@ -18,15 +31,17 @@
 
 #### Enablers
 
-> [!NOTE]
-> Contextual factors that increase the chances of successfully implementing the pattern
+- You are operating in an environment where you have enough agency to make your own judgement calls
+- The decision you make has a reasonable chance to impact the situation in the long term
+- There is no clear "best solution" to the problem at hand
 
 #### Deterrents
 
-> [!NOTE]
-> Contextual factors that decrease the chances of successfully implementing the pattern
+- Your context lacks the "safe-to-fail" mentality. In your environment, admitting you have to change your plan is considered equivalent to saying you messed up.
 
 ### Solution
+
+![Pivot! ><](./pivot.png)
 
 > [!NOTE]
 > Describe the core idea of the pattern and how to apply it.

@@ -58,7 +58,7 @@ module.exports = (options) => {
 				homepage: '/0_Intro/HOME.md',
 				auto2top: true,
 				plantuml: {skin: 'classic'},
-				logo: './logo.png',
+				logo: './logo_vector_trans.png',
 				themeColor: 'rgb(2, 144, 232)',
 
 				timeUpdater: {text: "_last updated: {docsify-updated}_",

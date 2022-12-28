@@ -2,19 +2,19 @@
 
 # Preface: "Hello world!"
 
-Are you interested in learning how to be better at the things you do on a daily basis?
+Are you interested in learning how to be better at the things you do every day?
 Are you working in a technical, or mostly technical role?
-Or are you just interested in picking the brains of those who are?
+Maybe you just have an interest in picking the brains of those who dedicate themselves to reasoning about these things?
 
-If so, keep reading as this piece of writing could be of value for you.
+If so, keep reading as this piece of writing could help you achieve your goals.
 
-Over the years, I have consumed a lot of books, articles, and videos with the goal of improving my skills as a technical professional.
+Over the years, I have consumed a lot of books, articles and videos with the goal of improving my skills as a technical professional.
 Some lessons I have learned during this time have proven to be great assets time and time again. Others have been mostly liabilities to
-my work. I have had the pleasure of working with some very capable, and motivated developers. But I did notice that what our industry
+my work. I have had the pleasure of working with some highly capable, and motivated developers. But I did notice that what our industry
 lacks most is common ground. Other professions are more mature than ours. Which is only natural, as they have been around for ages. Their
-By comparison to crafts such as woodworking, medicine, or even politics, software development is a fairly young profession.
+By comparison to crafts such as woodworking, medicine or even politics, software development is a fairly young profession.
 
-At the time of writing (late 2022), the technology industry has been steadily growing in size and importance year-on-year.
+When writing this intro (late 2022), the technology industry has been steadily growing in size and importance year-on-year.
 Us nerds are now at the point where we can safely say that we control most of the world. While this does sound like a dream come true
 for our 10-year-old selves who fantasized about living in cyber-space and being all-powerful wizards, the reality is more grim.
 Right now around 20% of people working as software developers have less than two years of experience[^0]. As our industry
@@ -29,14 +29,14 @@ things works, and a plethora of "quality of life hacks" that are supposed to mak
 But when going online, you will also see that if you put two developers in the same room, they will have three opinions on what the
 right way to do things is.
 
-Realizing it is somewhat contradictory to state there are too many opinions out there while writing an opinionated text, allow me to
+I realize the irony in writing an opinionated text, while also stating that there exist too many opinions out there. Still, allow me to
 explain why I set about writing this entire thing. The basic premise is: _I don't really care how you end up doing things_. If you find
-a way that works well for you, great! By all means, keep doing it. The goal here is to bundle snippets of ideas, practices, stories, and
-resources that have been valuable to me personally. I strongly believe that we can only learn better ways of doing things by trying
-things out. And in order to try something, we must first realize it is there in the first place.
+a way that works well for you, great! By all means, keep doing it. I will aim to bundle snippets of ideas, practices, stories and
+resources that have proven valuable to me over the years. I strongly believe that we can only learn better ways of doing things by trying
+things out. If we want to try new things, we must first realize they exist.
 
 What you have in front of you is a collection of _"tales from the trenches", aimed at helping you stand on the shoulders of the giants that have come before us.
-Learn what worked, but more importantly: learn why it worked. If you come across a piece of advice that sounds like it might be applicable to you,
+Learn what worked, but more importantly: learn why it worked. If you come across a piece of advice that sounds like it might apply to you,
 try it out amd see what results you achieve with it. When it did not work out as expected, figure out why it did not work. If you are feeling particularly charitable,
 share you newfound knowledge with your friends, coworkers, or the general public.
 
@@ -90,7 +90,7 @@ A set of concepts and common abbreviations can be found in the [glossary](/X_App
 
 If you are interested in diving deeper into some subjects mentioned in this work, be sure to take a look at
 the [Reading list](/X_Appendix/Learning_Materials/HOME) section included in the appendices. There, you will find an
-overview of great books, articles, and audiovisual recourses that are worth checking out.
+overview of great books, articles, and audiovisual resources that are worth checking out.
 
 > [!NOTE]
 > The information in this knowledge base is to be seen as a series of techniques that have worked well for people in the past.
@@ -113,13 +113,39 @@ perceive a certain set of concepts.
 
 ![Inner structure of a section ><](./section_structure.png)
 
+A [pattern language](/X_Appendix/Glossary/HOME?id=pattern-language) is **a formal way to represent wisdom that improves ones ability to operate in a
+certain field of expertise**. The knowledge represented in a pattern language is usually stripped down to its bare essentials,
+in hopes of making it easier to apply them in a variety of situations.
+
+Much like a dictionary, each entry (_"Pattern"_) in these knowledge bases is referred to by their `name` and contains information
+on what challenge it addresses and contains a description of the context in which it works well.
+
+Sharing knowledge with other practitioners in a formalized manner is an activity that is generally used in a variety of fields. Chess
+players share certain board positions and [common tactics](https://chesstempo.com/tactical-motifs) by manner of "motifs"[^1] . In popular
+internet culture, we see the same as plenty communication happens using memes and tropes[^2] .  
+Recent marketing campaigns, and elections in various countries have seen an uptick in using funny pictures and videos on the web to influence peoples decision-making.
+
+We want to share information about things you can do, as well as about ideas and models that can change the way you perceive a situation. 
+To achieve this, the patterns in this knowledge base are split up into: `Concepts` and `Practices`. To keep the content in this work consistent, 
+the patterns follow a similar structure. As we now know, **context matters**. This is why each pattern is prefaced with a short description of when it can be
+useful to consider using it.
+
+![Pattern structure definition ><](./pattern_definition.png ':size=680')
+
+Some patterns will contain references to other resources. They can also contain supporting examples, testimonials, tutorials, etc.
+These examples can be included inside the pattern description, but they might as well exist as a separate resource in a different section of
+this publication.  
+
+> [!WARNING]
+> **Pattern lists are not a bingo chart.** Unlike when collecting Pokémon, you will not get a special prize for getting all the patterns in this 
+> publication into your work or life.
+> You are encouraged to be eclectic, and only use the practices that resonate with you. Feel free to change them as you see fit, after all:
+> Who are we to tell you what to do?
+
+
 Happy reading, we hope you learn something helpful. If you did, please pass on what you have learned to someone you know that might find
 your newly gained knowledge helpful.
 
-> [!WARNING]
-> **This is not a bingo chart.** Unlike when collecting Pokémon, you will not get a special prize for getting all the patterns in this publication into your work or life.
-> You are encouraged to be eclectic, and only use the practices that resonate with you. Feel free to change them as you see fit, after all:
-> Who are we to tell you what to do?
 
 
 ---

@@ -1,17 +1,11 @@
 module.exports = (options) => {
 	// language=JavaScript
 	// language=JavaScript
-	return `<!DOCTYPE
-	html >
-	< html
-	lang = "en" >
-		< head >
-		< meta
-	charset = "UTF-8" >
-		< title > Pragmatic
-	Penguin
-	Knowledge
-	Base < /title>
+	return `<!DOCTYPE html>
+	<html lang="en">
+		<head>
+		<meta charset = "UTF-8" >
+		<title> Pragmatic Penguin Knowledge Base </title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
 	<meta name="description"
 		  content="A learning and development repository, aimed to share knowledge with other technical professionals. ">

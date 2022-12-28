@@ -95,29 +95,32 @@ module.exports = (options) => {
 				'flexible-alerts': {
 					comment: {
 						label: 'Comment',
-		
-						// localization
+				
 						label: {
 						'/en-GB/': 'Comment',
 						'/': 'Comment'
 					},
-		
-						// Assuming that we use Font Awesome
+				
 						icon: 'fas fa-comment',
 						className: 'note'
 					},
 					quote: {
 						label: 'Quote',
 		
-						// localization
 						label: {
 						'/': 'Words of wisdom'
 					    },
 		
-						// Assuming that we use Font Awesome
 						icon: 'fas fa-quote-left',
 						className: 'quote'
-					}
+					},
+					tenet: {
+						label: 'Tenet',
+		
+						label: { '/': 'Tenet' },
+						icon: 'fa fa-bookmark',
+						className: 'note'
+					},
                 },
                 glossify: {
                     debug: false,

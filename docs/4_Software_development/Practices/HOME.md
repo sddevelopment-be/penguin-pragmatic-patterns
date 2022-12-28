@@ -7,17 +7,17 @@
 Making decisions can be difficult, as what we decide today can impact our future in significant ways.
 This practise helps you be more confident in your ability to pivot if it turns out you have made an error in judgement.
 
-> In this world nothing can be said to be certain, except death and taxes.  
->   
+> In this world nothing can be said to be certain, except death and taxes.
+>
 > ~ Benjamin Franklin[^1]
 
 
-> 'Cause you're hot, then you're cold  
-> You're yes, then you're no  
-> You're in, then you're out  
-> You're up, then you're down  
-> You're wrong when it's right    
->   
+> 'Cause you're hot, then you're cold.  
+> You're yes, then you're no.  
+> You're in, then you're out.  
+> You're up, then you're down.  
+> You're wrong when it's right.
+>
 > ~ Katy Perry, Hot n Cold (2008)
 
 ### Drivers
@@ -37,39 +37,36 @@ This practise helps you be more confident in your ability to pivot if it turns o
 
 #### Deterrents
 
-- Your context lacks the "safe-to-fail" mentality. In your environment, admitting you have to change your plan is considered equivalent to saying you messed up.
+- Your context lacks the "safe-to-fail" mentality. In your environment, admitting you have to change your plan is
+  considered equivalent to saying you messed up.
+- People are not used to evaluating the path they have chosen and considering alternatives, or ways to reroute the
+  current course
 
 ### Solution
 
-![Pivot! ><](./pivot.png)
+- When making a decision, consider the alternatives according to how easy it is to reverse or adapt them
+- Choose the option that allows for most flexibility, while still being in line with your core objectives
+- Commit to the alternative you chose, and monitor how it is doing
+- If too many signals occur informing you that your chosen direction is suboptimal: pivot!
 
-> [!NOTE]
-> Describe the core idea of the pattern and how to apply it.
-> Add subsections as you see fit in order to clearly communicate the idea
-
-### Measuring success
-
-> [!NOTE]
-> How do we know if we applied the pattern succesfully? What are our _'red flags'_ that should
-> trigger an adaption of the style of application?
+![Pivot! ><](./pivot.png ':size=320')
 
 ### Examples
 
-#### Use Cases / Testimonials [Optional]
+- _Buying a house versus renting_: a real world example of when to consider applying the ETC reasoning. If you have a
+  turbulent lifestyle, and want to keep the option of moving abroad open, you are likely better of renting a dwelling
+  over buying one.
 
-### References
-
-> Add links to other patterns or content in this collection (or external ones), please add
-> references to the source material if you were inspired by someone else's work.
-> Feel free to add your own previous work as a reference.
-
-| Item        | Description    | 
-|-------------|----------------|
-| Some thingy | Why it is here |
+- _What database to use?_: this is a pertinent question for quite a number of software projects. In this case, the
+  choice is not so much which storage technology to go for, rather to consider HOW you hook it up to your code.
+  There exist plenty of techniques or frameworks to decouple the choice of database technology from the inner workings
+  of your codebase. Examples include [Spring Data JPA](https://spring.io/projects/spring-data), [hibernate](https://hibernate.org/),
+  or simply using a [layered architecture](https://www.educba.com/layered-architecture/).
 
 ---
 
-[^1] Though this quote is attributed to B. Franklin, earlier version of the phrase existed. See: https://en.wikipedia.org/wiki/Death_and_taxes_(idiom).
+[^1] Though this quote is attributed to B. Franklin, earlier version of the phrase existed.
+See: https://en.wikipedia.org/wiki/Death_and_taxes_(idiom).
 
 ## Give it a name: Baptizing your code, models, and ideas
 

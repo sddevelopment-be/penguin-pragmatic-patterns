@@ -46,6 +46,10 @@ This practise helps you be more confident in your ability to pivot if it turns o
 
 - When making a decision, consider the alternatives according to how easy it is to reverse or adapt them
 - Choose the option that allows for most flexibility, while still being in line with your core objectives
+    - Note that oftentimes it is not the choice that matters much, but rather how you will ensure it can easily be
+      changed or reverted
+    - If there are no easily reversible choices available, it night be wise to proceed with caution or set up a small
+      scale experiment to assess the alternative in more detail
 - Commit to the alternative you chose, and monitor how it is doing
 - If too many signals occur informing you that your chosen direction is suboptimal: pivot!
 
@@ -60,7 +64,8 @@ This practise helps you be more confident in your ability to pivot if it turns o
 - _What database to use?_: this is a pertinent question for quite a number of software projects. In this case, the
   choice is not so much which storage technology to go for, rather to consider HOW you hook it up to your code.
   There exist plenty of techniques or frameworks to decouple the choice of database technology from the inner workings
-  of your codebase. Examples include [Spring Data JPA](https://spring.io/projects/spring-data), [hibernate](https://hibernate.org/),
+  of your codebase. Examples
+  include [Spring Data JPA](https://spring.io/projects/spring-data), [hibernate](https://hibernate.org/),
   or simply using a [layered architecture](https://www.educba.com/layered-architecture/).
 
 ---

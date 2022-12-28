@@ -3,7 +3,6 @@
   * [1_Learning](1_Learning/HOME)
     * [Concepts](1_Learning/Concepts/HOME)
   * [2_Productivity](2_Productivity/HOME)
-    * [About](2_Productivity/About/HOME)
     * [Concepts](2_Productivity/Concepts/HOME)
     * [Practices](2_Productivity/Practices/HOME)
   * [3_People_Skills](3_People_Skills/HOME)
@@ -21,3 +20,4 @@
     * [Changelog](X_Appendix/Changelog/HOME)
     * [Glossary](X_Appendix/Glossary/HOME)
     * [Learning_Materials](X_Appendix/Learning_Materials/HOME)
+  * [themes](themes/HOME)

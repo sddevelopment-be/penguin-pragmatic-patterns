@@ -1,5 +1,6 @@
 :root {
 	--docsifytabs-border-color: #d4dfea;
+	--docsifytabs-tab-background: transparant;
 	--docsifytabs-border-radius-px: 0.75em;
 }
 
@@ -21,13 +22,11 @@ summary {
 	cursor: pointer;
 	list-style: none;
 	font-weight: 600;
-	color: #505d6b;
 	font-size: 1.125rem;
 	line-height: 1.6rem;
 	word-spacing: 0.05rem;
 	display: flex;
 	border-bottom: 1px solid #24557875;
-	background: #ffffff;
 	padding: 0.75em;
 }
 
@@ -41,7 +40,7 @@ details[open] summary {
 }
 
 details summary::before {
-	color: #505d6b;
+	color: #255787;
 	font-weight: 600;
 	margin-right: 1.75em;
 	line-height: 1.6rem;

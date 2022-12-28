@@ -1,5 +1,5 @@
 
-@import "paraiso-dark.css";
+@import "./prism-coldark-dark.css";
 
 .highlight table td { padding: 5px; }
 .highlight table pre { margin: 0; }
@@ -14,6 +14,10 @@
 
 .lineno pre {
     overflow-x: hidden;
+}
+
+.markdown-section pre > code {
+    color: unset;
 }
 
 

@@ -2,7 +2,7 @@
 * [1_Learning](1_Learning/HOME)
     * [Concepts](1_Learning/Concepts/HOME)
 * [2_Productivity](2_Productivity/HOME)
-    * [About](2_Productivity/About/HOME)
+    * [About](src/2_Productivity/_0_About/HOME)
     * [Concepts](2_Productivity/Concepts/HOME)
     * [Practices](2_Productivity/Practices/HOME)
 * [3_People_Skills](3_People_Skills/HOME)

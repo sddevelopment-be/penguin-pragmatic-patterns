@@ -3,12 +3,14 @@ module.exports = (options) => {
 	// language=JavaScript
 	return `<!DOCTYPE html>
 	<html lang="en">
-	<head>
-	<meta charset="UTF-8">
-	<title>Pragmatic Penguin Knowledge Base</title>
+		<head>
+		<meta charset = "UTF-8" >
+		<title> Pragmatic Penguin Knowledge Base </title>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-	<meta name="description" content="A learning and development repository, aimed to share knowledge with other technical professionals. ">
-		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="description"
+		  content="A learning and development repository, aimed to share knowledge with other technical professionals. ">
+		<meta name="viewport"
+			  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 			<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/themes/vue.css"/>
 
 			<link rel="icon" href="./favicon.ico" type="favicon.ico"/>
@@ -24,20 +26,21 @@ module.exports = (options) => {
 				rel="stylesheet"/>
 
 			<!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css"/> -->
-			<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" />
+			<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css"/>
 			<link
-					rel="stylesheet"
-					href="//cdn.jsdelivr.net/npm/docsify-changelog-plugin@latest/dist/style.css"
+				rel="stylesheet"
+				href="//cdn.jsdelivr.net/npm/docsify-changelog-plugin@latest/dist/style.css"
 			/>
 			<link
-					rel="stylesheet"
-					href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+				rel="stylesheet"
+				href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
 			/>
 			<link
-					rel="stylesheet"
-					href="//cdn.jsdelivr.net/npm/docsify-dark-mode@latest/dist/style.min.css"
+				rel="stylesheet"
+				href="//cdn.jsdelivr.net/npm/docsify-dark-mode@latest/dist/style.min.css"
 			/>
 			<link rel="stylesheet" href="./custom.css"/>
+			<link rel="stylesheet" href="./themes/syntax.css"/>
 		</head>
 
 		<body>
@@ -64,68 +67,71 @@ module.exports = (options) => {
 				timeUpdater: {text: "_last updated: {docsify-updated}_",
 				formatUpdated: "{YYYY}/{MM}/{DD}",},
 				darkMode: {
-					dark: {
-						background: "#1c2022",
-						toggleBtnBg: "#34495e",
-						textColor: "#fefefe"
-						},
-					light: {
-						background: "white",
-						toggleBtnBg: "var(--theme-color)",
-						textColor: "#34495e"
-					}
-				},
+				dark: {
+				background: "#1c2022",
+				toggleBtnBg: "#34495e",
+				textColor: "#fefefe"
+			},
+				light: {
+				background: "white",
+				toggleBtnBg: "var(--theme-color)",
+				textColor: "#34495e"
+			}
+			},
 				tabs: {
-          persist    : true,
-					sync       : true,      
-					theme      : 'classic', 
-					tabComments: true,      
-					tabHeadings: true
-				},
+				persist    		: true,
+				sync       		: true,
+				theme      		: 'classic',
+				tabComments		: true,
+				tabHeadings		: true
+			},
 				pagination: {
-					previousText: 'BACK',
-					// or
-					nextText: {
-						'/en/': 'NEXT',
-						'/': 'NEXT'
-					},
-					crossChapter: true,
-					crossChapterText: true,
-				},
+				previousText: 'BACK',
+				// or
+				nextText: {
+				'/en/': 'NEXT',
+				'/': 'NEXT'
+			},
+				crossChapter: true,
+				crossChapterText: true,
+			},
 				'flexible-alerts': {
-					comment: {
-						label: 'Comment',
-		
-						// localization
-						label: {
-						'/en-GB/': 'Comment',
-						'/': 'Comment'
-					},
-		
-						// Assuming that we use Font Awesome
-						icon: 'fas fa-comment',
-						className: 'note'
-					},
-					quote: {
-						label: 'Quote',
-		
-						// localization
-						label: {
-						'/': 'Words of wisdom'
-					    },
-		
-						// Assuming that we use Font Awesome
-						icon: 'fas fa-quote-left',
-						className: 'quote'
-					}
-                },
-                glossify: {
-                    debug: false,
-                    terminologyHeading: '###',
-                    replaceTitleTerms: false,
-                    glossaryLocation: './X_Appendix/Glossary/HOME.md'
-                }
-      };
+				comment: {
+				label: 'Comment',
+
+				label: {
+				'/en-GB/': 'Comment',
+				'/': 'Comment'
+			},
+
+				icon: 'fas fa-comment',
+				className: 'note'
+			},
+				quote: {
+				label: 'Quote',
+
+				label: {
+				'/': 'Words of wisdom'
+			},
+
+				icon: 'fas fa-quote-left',
+				className: 'quote'
+			},
+				tenet: {
+				label: 'Tenet',
+
+				label: {'/': 'Tenet'},
+				icon: 'fa fa-bookmark',
+				className: 'note'
+			},
+			},
+				glossify: {
+				debug: false,
+				terminologyHeading: '###',
+				replaceTitleTerms: false,
+				glossaryLocation: './X_Appendix/Glossary/HOME.md'
+			}
+			};
 			</script>
 			<script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
 			<script src="//unpkg.com/docsify-plantuml/dist/docsify-plantuml.min.js"></script>
@@ -143,8 +149,9 @@ module.exports = (options) => {
 			<script src="//unpkg.com/docsify-fontawesome/dist/docsify-fontawesome.min.js"></script>
 			<script src="https://unpkg.com/docsify-plugin-flexible-alerts"></script>
 
-            <script src="//unpkg.com/@stijn-dejongh/docsify-glossary@1.0.1/dist/@stijn-dejongh/docsify-glossary.min.js"></script>
-            <script src="./footnotes.js"></script>
+			<script
+				src="//unpkg.com/@stijn-dejongh/docsify-glossary@1.0.1/dist/@stijn-dejongh/docsify-glossary.min.js"></script>
+			<script src="./footnotes.js"></script>
 
 			<script src="//unpkg.com/prismjs/components/prism-bash.min.js"></script>
 			<script src="//unpkg.com/prismjs/components/prism-php.min.js"></script>
@@ -153,10 +160,11 @@ module.exports = (options) => {
 			<script src="//unpkg.com/prismjs/components/prism-kotlin.min.js"></script>
 			<script src="//unpkg.com/prismjs/components/prism-javascript.min.js"></script>
 
-            <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
-      
-      <script src="https://twemoji.maxcdn.com/v/14.0.2/twemoji.min.js"
-			        integrity="sha384-32KMvAMS4DUBcQtHG6fzADguo/tpN1Nh6BAJa2QqZc6/i0K+YPQE+bWiqBRAWuFs" crossorigin="anonymous"></script>
+			<script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+
+			<script src="https://twemoji.maxcdn.com/v/14.0.2/twemoji.min.js"
+					integrity="sha384-32KMvAMS4DUBcQtHG6fzADguo/tpN1Nh6BAJa2QqZc6/i0K+YPQE+bWiqBRAWuFs"
+					crossorigin="anonymous"></script>
 		</body>
 
 		<script src="https://cdn.jsdelivr.net/npm/docsify-changelog-plugin@latest/dist/index.js"></script>

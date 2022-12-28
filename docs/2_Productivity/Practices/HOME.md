@@ -392,7 +392,7 @@ When using a specific retro theme, feel free to tell a small story (1-2 minute f
 everyone understands the goals and outline of the retro.
 
 <details>
-<summary>1. Context / Set the stage</summary>
+<summary>1. Set the stage</summary>
 <p>
 
 Welcome the participants, reiterate the goal of the retro:

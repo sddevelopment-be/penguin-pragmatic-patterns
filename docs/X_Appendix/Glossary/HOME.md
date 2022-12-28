@@ -331,6 +331,14 @@ provides an interface to services made available by the operating system, such a
 
 ## T
 
+### Tenet
+
+A principle, belief, or doctrine generally held to be true. The term is often used to express a common belief held by
+members of an organization, movement, or profession.
+In Latin, tenet is the third person singular of the verb tenēre ("to hold") and means "he/she/it holds." It is believed
+to have been borrowed into English around 1600 from Latin writings in which it often introduced the opinions held by a
+particular church or sect.
+
 ### Timer
 
 A tool to help the Operating System keep control over the CPU. The timer is set to interrupt the computer after a

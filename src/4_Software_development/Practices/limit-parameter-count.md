@@ -66,4 +66,5 @@ Sometimes it is hard to know how many parameters are okay, and when you are cros
 Some advocate that the maximum amount of parameters is two. Others adhere to a 4-parameters standard.
 It is almost impossible to just put a number on it. In general: the fewer parameters you use, the better.
 
-> Try and use as few parameters as you can
+> [!TENET]
+> Use as few parameters as you can

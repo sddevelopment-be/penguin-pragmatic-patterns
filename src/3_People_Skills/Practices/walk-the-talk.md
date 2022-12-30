@@ -1,6 +1,4 @@
-# Practices
-
-## Walk the talk: acting in a congruent manner
+## Walk the talk: act congruently
 
 ![Image of pony looking devious, but claiming to be sad about your misfortune. >](./congruence.webp ':size=320')
 

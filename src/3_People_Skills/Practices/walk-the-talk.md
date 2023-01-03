@@ -13,14 +13,21 @@ Or perhaps you think they acted in the most hypocritical way imaginable [^0].
 
 ### Drivers
 
-> [!NOTE]
-> A bullet list explaining why this pattern makes sense,
-> try and be as objective as possible here
+* People tend to remember past interactions and assume future interactions will be similar
+* Non-verbal communication, such as body language and actions, tell us more than words ever could
+* You come over as trustworthy if you have a history of acting in an honest, and professional manner. Conversely, you
+  will be perceived as unreliable if you fail to do so.
+* _“We are what we repeatedly do. Excellence then, is not an act, but a habit.”_ ~ Will Durant[^1].
+  Neuroscience has proven that our brains _'rewire'_ themselves by repeating actions over and over.
+  This is what makes habits, trauma, and false beliefs so hard to break.
+* We live and operate in a collaborative society. It is in our own best interest if others are willing to help us out,
+  and trust us.
+* Occupational burnout can be caused by forcing yourself to act against your beliefs. Research refers to this as _"
+  conflicting values"_ or _"loss of agency and control"_ [^2].
 
 #### Enablers
 
-> [!NOTE]
-> Contextual factors that increase the chances of successfully implementing the pattern
+* You have the means to keep track of time, and to take note of the promises you make.
 
 #### Deterrents
 
@@ -57,5 +64,9 @@ Or perhaps you think they acted in the most hypocritical way imaginable [^0].
 ---
 
 [^0] If you went through puberty, one of your legal guardians might instantly come to mind. As the famous _Beast Boys_
-song goes:
-_"My dad caught me smoking, and said ´No way!'. Damn hypocrite smokes two packs a day."_
+song goes: _"My dad caught me smoking, and said ´No way!'. Damn hypocrite smokes two packs a day."_    
+
+[^1] This quote has been commonly attributed to the Greek philosopher Aristotle,
+But [originates from a book on philosophy](https://checkyourfact.com/2019/06/26/fact-check-aristotle-excellence-habit-repeatedly-do/) written in 1926 by Will Durant.
+
+[^2] See: [Maslach C, Schaufeli WB, Leiter MP (2001). S. T. Fiske, D. L. Schacter, C. Zahn-Waxler (eds.). "Job burnout". Annual Review of Psychology](https://www.annualreviews.org/doi/full/10.1146/annurev.psych.52.1.397#_i25)

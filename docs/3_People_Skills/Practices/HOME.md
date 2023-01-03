@@ -1,6 +1,6 @@
 # Practices
 
-## Walk the talk: act congruently
+## Walking the talk
 
 ![Image of pony looking devious, but claiming to be sad about your misfortune. >](./congruence.webp ':size=320')
 
@@ -30,33 +30,54 @@ Or perhaps you think they acted in the most hypocritical way imaginable [^0].
 #### Enablers
 
 * You have the means to keep track of time, and to take note of the promises you make.
+* Your environment is confortable with holding people (including yourself) accountable for their promises, and preferably does so in a non-aggressive way
+* You value honesty and reliability in others, and know the frustration of counting on someone who does not pull through
+* You have access to low latency communication devices.
 
 #### Deterrents
 
-> [!NOTE]
-> Contextual factors that decrease the chances of successfully implementing the pattern
+* Taking any form of responsibility is discouraged by your environment for whatever reason.
+* You are expected to say "yes" to everything, regardless of whether you mean it or not.
+* You do not care about being perceived as reliable
 
 ### Solution
 
-> [!NOTE]
-> Describe the core idea of the pattern and how to apply it.
-> Add subsections as you see fit in order to clearly communicate the idea
+Achieving this is actually quite simple. Simple, but not easy.
+The core behaviours to be congruent in words and actions are:  
+* "Say what you mean, and mean what you say"
+* Respond in a clear way, and follow through. Do not make promises you can not keep, or do not intend to keep.
+  * Say "yes" when you mean "yes"
+  * Say "no" when you mean "no"
+  * Be forthcoming when you do not possess the information or agency required to give any of these answers, and refer to someone who does. Alternatively, you can tell the person making a request of you to check in a later time and make sure you have the required information by then.
+* Do not back out of difficult interactions
+* Admit when you made a mistake or break a promise, even when in public
 
-### Measuring success
+As I said, the idea is very simple. But it can be very challenging to apply.
+It usually goes wrong when the other party does not accept your answer. Be very careful of placating or "weaseling out" of giving a definitive and clear answer.
+Weasel words include:
+- "Maybe"
+- "I will try"
+- "If I find the time"
+- "We'll see" followed by a vague promise to revisit the topic at an undefined point in time or in some alternate universe
+- "I was late, because of XXXXX"
+  
 
-> [!NOTE]
-> How do we know if we applied the pattern succesfully? What are our _'red flags'_ that should
-> trigger an adaption of the style of application?
+It is very easy to weasel out of making a commitment, as it takes courage to take accountability for the possibility of failure.
+And there will be ample times where you make a commitment and break your promise. This can happen for whatever reason, and some of those reasons might even be valid.
+Though here is the kicker: **your reasons for not pulling through are irrelevant to the people counting on you**.
+
+To ameliorate the frustration people feel when you can not live up to your promises, **give them advance warning of your inability to follow through**.
+This is not a silver bullet "fix all issues" approach, as you still wrote a check they can not cash. But at the very least, you give others the opportunity to change their plans if needed.
+Do this too often, and your reputation will suffer. Do not do this often enough, and you will be perceived as a liar.
+
 
 ### Examples
 
-#### Use Cases / Testimonials [Optional]
+#### Use Cases / Testimonials
+
+
 
 ### References
-
-> Add links to other patterns or content in this collection (or external ones), please add
-> references to the source material if you were inspired by someone else's work.
-> Feel free to add your own previous work as a reference.
 
 | Item                                                                                                                                                                | Description                                                                                                                             | 
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|

@@ -291,10 +291,14 @@ body {
 
 .markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4, .markdown-section strong {
 	color: var(--ttextColor) !important;
+	clear: both;
+	padding-top: 0.45rem;
 }
 
 .markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4, .markdown-section em {
 	color: var(--text_color) !important;
+	clear: both;
+	padding-top: 0.45rem;
 }
 
 .markdown-section code, .markdown-section pre {

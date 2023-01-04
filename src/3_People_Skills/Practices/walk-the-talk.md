@@ -1,8 +1,8 @@
 ## Walking the talk
 
-![Image of pony looking devious, but claiming to be sad about your misfortune. >](./congruence.webp ':size=320')
 
 ### Context
+![Image of pony looking devious, but claiming to be sad about your misfortune. >](./congruence.webp ':size=186')
 
 Quick! Think of that one person who said something, and then showed they did not mean it by how they were behaving.  
 Did you think of someone? Maybe it was hard to choose only one person, as people tend to do this often.
@@ -22,13 +22,13 @@ Or perhaps you think they acted in the most hypocritical way imaginable [^0].
   This is what makes habits, trauma, and false beliefs so hard to break.
 * We live and operate in a collaborative society. It is in our own best interest if others are willing to help us out,
   and trust us.
-* Occupational burnout can be caused by forcing yourself to act against your beliefs. Research refers to this as _"
+* Forcing yourself to act against your beliefs is one of the known causes of occupational burnout. Research refers to this as _"
   conflicting values"_ or _"loss of agency and control"_ [^2].
 
 #### Enablers
 
 * You have the means to keep track of time, and to take note of the promises you make.
-* Your environment is confortable with holding people (including yourself) accountable for their promises, and preferably does so in a non-aggressive way
+* Your environment is comfortable holding people (including yourself) accountable for their promises, and preferably does so in a non-aggressive way
 * You value honesty and reliability in others, and know the frustration of counting on someone who does not pull through
 * You have access to low latency communication devices.
 
@@ -73,7 +73,7 @@ Do this too often, and your reputation will suffer. Do not do this often enough,
 
 #### The cake is a lie
 
-![a conversation between Alex and his mom, filled to the brim with half-promisses and unclear communication <](./dialogue_broken_promises.png)
+![a conversation between Alex and his mom, filled to the brim with half-promisses and unclear communication <](./dialogue_broken_promises.png ':size=680')
 
 This fictional dialogue between Alex and his mom illustrate a complete breakdown in communication. What went wrong here?
 Who is to blame? The answer is somewhat convoluted, as all parties involved were not being clear. Alex made an initial commitment to his colleagues that he would provide homemade cake.
@@ -89,8 +89,7 @@ Neither party decided to follow-up on the conversation. Brunhilda could have let
 Alex could have called his mother a few days before the party to check if she would be able to bake the cake. Alex could have also told his colleagues that they would likely have to make due with store-bought cake, and buy one as a fall-back plan.
 From Alex' point of view, his mom was unreliable. From Alex' colleagues point of view, he failed to deliver on his promise, and they were forced to spend the evening cake-less.
 
-
-
+  
 
 ### References
 

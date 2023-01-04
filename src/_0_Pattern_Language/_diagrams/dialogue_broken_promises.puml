@@ -40,9 +40,9 @@ participant Brunhilda as B <<responder>>
 
 note over A, B: Alex is talking to his mom, Brunhilda
 A -> B: "I am planning to get together this weekend with my friends and would like to offer them some nice cake."
-A -> B: "That sounds like a nice idea. What cake where you planning on presenting them?"
-B -> A <<reply>>: "I was thinking of making a chocolate cake, but I have no idea how to do it."
-A -> B: ".... oh?"
+B -> A <<reply>>: "That sounds like a nice idea. What cake where you planning on presenting them?"
+A -> B: "I was thinking of making a chocolate cake, but I have no idea how to do it."
+B -> A <<reply>> : ".... oh?"
 A -> B: "So I was thinking..."
 B -> A <<reply>>: "Yes?"
 A -> B: "You make the best cakes I have ever tasted, mom. Could you help me out?"

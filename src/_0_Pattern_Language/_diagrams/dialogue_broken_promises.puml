@@ -1,0 +1,58 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+!include ../../../templates/plantuml/puml-theme-bluegray_conversation.puml
+skinparam dpi 320
+skinParam maxMessageSize 280
+hide stereotype
+hide footbox
+
+<style>
+    sequenceDiagram {
+        FontSize 12
+        Font monospaced
+        BackgroundColor #0c141a
+
+        participant {
+            BackGroundColor #1c75cc/1541CC
+        }
+
+        responder {
+            BackGroundColor #63CC4A/349646
+        }
+
+        arrow {
+            FontColor #1c75cc
+        }
+
+        .reply * {
+            FontColor #63CC4A/349646
+        }
+
+        note {
+            BackgroundColor #1D1B1B
+        }
+    }
+</style>
+
+participant Alex as A
+participant Brunhilda as B <<responder>>
+
+note over A, B: Alex is talking to his mom, Brunhilda
+A -> B: "I am planning to get together this weekend with my friends and would like to offer them some nice cake."
+B -> A <<reply>>: "That sounds like a nice idea. What cake where you planning on presenting them?"
+A -> B: "I was thinking of making a chocolate cake, but I have no idea how to do it."
+B -> A <<reply>> : ".... oh?"
+A -> B: "So I was thinking..."
+B -> A <<reply>>: "Yes?"
+A -> B: "You make the best cakes I have ever tasted, mom. Could you help me out?"
+B -> A <<reply>>: "I am very busy this week. So I don't think I will have the time to do it."
+A -> B: "But mom... The people from work will all be there, and I promised them there would be homemade cake. Please help me out. "
+B -> A <<reply>>: "Why on earth would you promise them that if you don't know how to do it? I might be able to do it if I find some time, maybe, I guess."
+A -> B: "Thanks mom! I knew I could count on you."
+note over A, B: A few days later, Alex calls Brunhilda
+A -> B: "Hey mom. Could you bring the cake by the house in a couple of hours? The guests will be arriving soon."
+B -> A <<reply>>: "What cake? I told you I was too busy to be baking this week. You're a grown man, clean up your own messes."
+A -> B: "Gee... Thanks for nothing, I guess."
+note over A, B: Alex hangs up angrily
+@enduml

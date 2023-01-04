@@ -1,5 +1,3 @@
-# Practices
-
 ## Walking the talk
 
 

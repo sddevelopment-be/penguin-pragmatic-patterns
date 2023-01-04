@@ -219,7 +219,6 @@ img.emoji {
 .markdown-section {
 	margin: 0 auto;
 	max-width: 72%;
-	padding: 0.3rem 0.25rem 0.4rem 0.25rem;
 	position: relative;
 	line-break: auto;
 	word-break: break-word;
@@ -299,10 +298,6 @@ body {
 	color: var(--text_color) !important;
 	clear: both;
 	padding-top: 0.45rem;
-}
-
-.markdown-section code, .markdown-section pre {
-	background-color: #12141505 !important;
 }
 
 #dark_mode > input[type="checkbox"] {

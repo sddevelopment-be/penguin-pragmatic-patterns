@@ -16,8 +16,18 @@
     overflow-x: hidden;
 }
 
+.markdown-section code, .markdown-section pre {
+    background-color: #1a1e21 !important;
+}
+
 .markdown-section pre > code {
-    color: unset;
+    color: #66add9;
+    background-color: #1a1e21 !important;
+}
+
+.markdown-section > :not(h1):not(h2):not(h3):not(h4):not(h5):not(h6) code {
+    font-size: 0.8rem;
+    background-color: #1a1e2115 !important;
 }
 
 

@@ -1,0 +1,85 @@
+@startmindmap
++ Dev knowledge
+-- Learning
+--- Knowledge vs Beliefs
+--- Styles
+--- Biases
+--- Techniques
+---- Empericism
+---- Exploration
+--- Knowledge portfolio
+---- Directed learning
+---- Finding gaps
+---- Refreshing
+++ Tech
++++ Computational thinking
+++++ Boolean logic basics
+++++ Complexity
++++++ Turing machine and computability
++++++ Big-O notations amd how to find it
+++++ Basic algortihms
++++++ Solving problems
++++++ Split into smaller problems
++++++ State machines
++++++ Geometrical algoritms
++++++ Evolutionary algorithms
++++++ Path-finding algorithms
++++ Programming
+++++ Automation basics
+++++ Paradigns
++++++ Imperative
++++++ Object-Oriented
++++++ Functional
++++++ Combination of former
+++++ Languages
++++++ Type of languages
+++++++ High- vs. Low-order languages
+++++++ Static vs Dynamic
+++++++ Handling of RPCs
+++++++ SIngle vs Multi-threaded
+++++ Tooling
++++++ The importance of hotkeys
++++++ CLI tricks
++++++ Specialized software
++++++ IDEs
+++++ Techniques
++++++ SOLID principles
++++++ Clean code techniques
++++++ Refactoring
++++++ Automated Testing
++++ Networking
+++++ Basic concepts
++++++ Packets
++++++ Routers / Switches
++++++ Delays in transmitions
+++++ Basic algorithms
++++++ Handshakes / ACKs
++++++ FTP
++++++ HTTP
++++++ SSL
++++ Databases
+++++ Relational
+++++ Non-relational
++++++ Order-based
++++++ Content-bases
++++ Architecture
+-- People
+--- Personality
+--- Communication
+---- What vs How
+---- Visualisations
+---- Clarity: signal or noise?
+--- Desires
+--- Teamwork / Group dynamics
+-- Productivity
+--- Techniques
+---- Estimation
+---- Pomodoro
+---- Start at the end
+---- Red vs Blue work
+--- Value / Management
+---- Project health assement
+---- Metrics
+----- KPIs
+----- OKR
+@endmindmap

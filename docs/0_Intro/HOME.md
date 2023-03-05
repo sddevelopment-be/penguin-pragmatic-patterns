@@ -97,8 +97,8 @@ plenty of communication happens using memes and tropes.[^2] Recent marketing cam
 using funny pictures and videos on the web to
 influence people's decision-making.
 
-When looking for a structured way to represent ideas, experiences, or cookbooks (i.e. knowledge), it helps to first take a look at how we see
-the concept of "knowledge" itself. As software developers, we are inclined to create formal models of topics we wish to understand better.
+When looking for a structured way to represent ideas, experiences, or cookbooks (i.e. knowledge), it helps to stick to tried-and-true techniques.
+As software developers, we are inclined to create formal models of topics we wish to understand better.
 
 A [pattern language](/X_Appendix/Glossary/HOME?id=pattern-language) is **a formal way to represent wisdom that improves ones ability to operate in a
 certain field of expertise**. The knowledge represented in a pattern language is usually stripped down to its bare essentials, making it easier to

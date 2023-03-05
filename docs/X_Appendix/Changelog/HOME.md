@@ -80,6 +80,7 @@ Following changes are known:
 - Update _"ROI"_ pattern structure
 - visual style of sidenav
 - default pattern template has been updated
+- Revised the introductory text, using [ChatGPT, a language model trained by OpenAI.](https://chat.openai.com)
 
 #### Added
 

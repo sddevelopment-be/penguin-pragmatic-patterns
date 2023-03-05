@@ -56,6 +56,16 @@
         "doc",
         "ideas"
       ]
+    },
+    {
+      "login": "openai",
+      "name": "ChatGPT, a language model trained by OpenAI.",
+      "avatar_url": "./src/chat_avatar.png",
+      "profile": "https://chat.openai.com",
+      "contributions": [
+        "proofreading",
+        "editorial changes"
+      ]
     }
   ],
   "contributorsPerLine": 7,

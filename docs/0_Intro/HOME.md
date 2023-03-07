@@ -17,6 +17,8 @@ Some lessons have proven to be great assets on my own professional journey, whil
 By talking to other software professionals, I've noticed a lack of common ground within our industry.
 Unlike more mature professions, such as woodworking, medicine, law, or politics, software development is a fairly young field.
 
+![Alice and Bob fret over conventions >](../silly_standards.png ':size=420')
+
 As of late 2022, the technology industry has been steadily growing in size and importance. While this might seem like a dream come true for those of
 us who grew up fantasizing about living in cyberspace and being all-powerful wizards, the reality is more complicated. Currently, around 20% of
 software developers have less than two years of experience[^0], and as our industry continues to expand, the number of _"juniors"_ is only
@@ -28,26 +30,25 @@ internet provides an overwhelming amount of information on coding and productivi
 approach a situation. The proverb "If you put two developers in a room, they will soon generate three dissenting opinions" is, in fact, quite
 accurate.
 
-![Alice and Bob fret over conventions >](../silly_standards.png ':size=420')
-
 I realize the irony in writing an opinionated text, while also stating that there exist too many opinions out there. Still, allow me to
-explain why I set about writing this entire thing. The basic premise is: _I don't really care how you end up doing things_. If you find
-a way that works well for you, great! By all means, keep doing it.
+explain why I set about writing this entire thing.  
+The basic premise is: _I don't really care how you end up doing things_. If you find a way that works well for you, great! By all means, keep doing
+it.
 
 As we live our lives, we tend to learn a great deal about a wide variety of topics.
 From time to time we are stumped by how elegant, or easy, someone solves a certain problem. You are left wondering
 why you have not been tackling similar problems in the same way. It could have saved you vast amounts of frustration, if
 only you had known earlier.
 
+What you have in front of you is a collection of __"tales from the trenches"__, aimed at helping you stand on the shoulders of the giants that have
+come before us. Learn what worked, but more importantly: learn why it worked. If you come across a piece of advice that sounds like it might apply
+to you, try it out and see what results you achieve with it. When it did not work out as expected, figure out why it did not work. If you are
+feeling particularly charitable, share you newfound knowledge with your friends, coworkers, or the general public.
+
 > [!QUOTE] _“Heeded my words not, did you? Pass on what you have learned. Strength. Mastery. But weakness, folly, failure also.
 > Yes, failure most of all. The greatest teacher, failure is. Luke, we are what they grow beyond. That is the true burden of all masters.”_
 >
 > -- Yoda, Jedi master
-
-What you have in front of you is a collection of _"tales from the trenches", aimed at helping you stand on the shoulders of the giants that have
-come before us. Learn what worked, but more importantly: learn why it worked. If you come across a piece of advice that sounds like it might apply
-to you, try it out and see what results you achieve with it. When it did not work out as expected, figure out why it did not work. If you are
-feeling particularly charitable, share you newfound knowledge with your friends, coworkers, or the general public.
 
 # About this publication
 
@@ -97,8 +98,8 @@ plenty of communication happens using memes and tropes.[^2] Recent marketing cam
 using funny pictures and videos on the web to
 influence people's decision-making.
 
-When looking for a structured way to represent ideas, experiences, or cookbooks (i.e. knowledge), it helps to stick to tried-and-true techniques.
-As software developers, we are inclined to create formal models of topics we wish to understand better.
+When looking for a structured way to represent ideas, experiences, or cookbooks (i.e. knowledge), it helps to first take a look at how we see
+the concept of "knowledge" itself. As software developers, we are inclined to create formal models of topics we wish to understand better.
 
 A [pattern language](/X_Appendix/Glossary/HOME?id=pattern-language) is **a formal way to represent wisdom that improves ones ability to operate in a
 certain field of expertise**. The knowledge represented in a pattern language is usually stripped down to its bare essentials, making it easier to

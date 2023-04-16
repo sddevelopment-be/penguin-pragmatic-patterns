@@ -22,5 +22,4 @@ public class Chapter6 {
     // ctrl+shift+enter the line below
     public void foo(
 
-
 }

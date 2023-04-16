@@ -40,11 +40,11 @@ public class Chapter4 {
 
 ### **Windows**
 
-Open `Chapter4.java`, move your cursor to line 6 (try and use a shortcut for this), and press <kbd>ctrl</kbd> <kbd>d</kbd>.
+Open `Chapter4.java`, move your cursor to line 6 (try and use a shortcut for this), and press <kbd>ctrl</kbd> + <kbd>d</kbd>.
 
 ### **Mac**
 
-Open `Chapter4.java`, move your cursor to line 6 (try and use a shortcut for this), and press <kbd>&#8984;</kbd> <kbd>d</kbd>.
+Open `Chapter4.java`, move your cursor to line 6 (try and use a shortcut for this), and press <kbd>&#8984;</kbd> + <kbd>d</kbd>.
 
 <!-- tabs:end -->
 
@@ -54,11 +54,11 @@ Open `Chapter4.java`, move your cursor to line 6 (try and use a shortcut for thi
 
 ### **Windows**
 
-Press <kbd>ctrl</kbd> <kbd>y</kbd> repeatedly to delete the lines.
+Press <kbd>ctrl</kbd> + <kbd>y</kbd> repeatedly to delete the lines.
 
 ### **Mac**
 
-Press <kbd>&#8984;</kbd> <kbd>backspace</kbd> repeatedly to delete the lines.
+Press <kbd>&#8984;</kbd> + <kbd>backspace</kbd> repeatedly to delete the lines.
 
 <!-- tabs:end -->
 
@@ -69,22 +69,22 @@ Press <kbd>&#8984;</kbd> <kbd>backspace</kbd> repeatedly to delete the lines.
 ### **Windows**
 
 While in `Chapter4.java`, the `System.out.println` function calls are switched around.
-Place your cursor on one of the `System.out.println` lines, hold down <kbd>alt</kbd> <kbd>shift</kbd> and press <kbd>&#x2191;</kbd> or <kbd>&#x2193;
+Place your cursor on one of the `System.out.println` lines, hold down <kbd>alt</kbd> + <kbd>shift</kbd> and press <kbd>&#x2191;</kbd> or <kbd>&#x2193;
 </kbd> to move that line.
 Do the same for the other line.
 
 You will see the methods aren't in the desired order yet, so place your cursor on `_2_snarf`'s method signature.
-This time hold down <kbd>ctrl</kbd> <kbd>shift</kbd> and press <kbd>&#x2191;</kbd> or <kbd>&#x2193;</kbd> to move the entire method.
+This time hold down <kbd>ctrl</kbd> + <kbd>shift</kbd> and press <kbd>&#x2191;</kbd> or <kbd>&#x2193;</kbd> to move the entire method.
 
 ### **Mac**
 
 While in `Chapter4.java`, the `System.out.println` function calls are switched around.
-Place your cursor on one of the `System.out.println` lines, hold down <kbd>&#8997;</kbd> <kbd>shift</kbd> and press <kbd>&#x2191;</kbd> or 
+Place your cursor on one of the `System.out.println` lines, hold down <kbd>&#8997;</kbd> + <kbd>shift</kbd> and press <kbd>&#x2191;</kbd> or 
 <kbd>&#x2193;</kbd> to move that line.
 Do the same for the other line.
 
 You will see the methods aren't in the desired order yet, so place your cursor on `_2_snarf`'s method signature.
-This time hold down  <kbd>shift</kbd> <kbd>&#8984;</kbd> and press <kbd>&#x2191;</kbd> or <kbd>&#x2193;</kbd> to move the entire method.
+This time hold down  <kbd>shift</kbd> + <kbd>&#8984;</kbd> and press <kbd>&#x2191;</kbd> or <kbd>&#x2193;</kbd> to move the entire method.
 
 <!-- tabs:end -->
 
@@ -94,18 +94,18 @@ This time hold down  <kbd>shift</kbd> <kbd>&#8984;</kbd> and press <kbd>&#x2191;
 
 ### **Windows**
 
-In `Chapter4.java`, jump to 20:20 (using <kbd>ctrl</kbd> <kbd>g</kbd>). From this position we want to start implementing the body of the method.
+In `Chapter4.java`, jump to 20:20 (using <kbd>ctrl</kbd> + <kbd>g</kbd>). From this position we want to start implementing the body of the method.
 Typically, one would do this by pressing <kbd>end</kbd>, and then <kbd>enter</kbd>. But you can do this in one go by
-pressing <kbd>shift</kbd> <kbd>enter</kbd>, so let's do just that.
+pressing <kbd>shift</kbd> + <kbd>enter</kbd>, so let's do just that.
 
 This will come in handy later.
 
 ### **Mac**
 
-In `Chapter4.java`, jump to 20:20 (using <kbd>&#8984;</kbd> <kbd>l</kbd>). From this position we want to start implementing the body of the 
+In `Chapter4.java`, jump to 20:20 (using <kbd>&#8984;</kbd> + <kbd>l</kbd>). From this position we want to start implementing the body of the 
 method.
 Typically, one would do this by pressing <kbd>end</kbd>, and then <kbd>enter</kbd>. But you can do this in one go by
-pressing <kbd>shift</kbd> <kbd>enter</kbd>, so let's do just that.
+pressing <kbd>shift</kbd> + <kbd>enter</kbd>, so let's do just that.
 
 <!-- tabs:end -->
 
@@ -116,25 +116,25 @@ pressing <kbd>shift</kbd> <kbd>enter</kbd>, so let's do just that.
 ### **Windows**
 
 We want to write the return statement of `_4_thundercats()` on just one line.
-Don't use a sequence of <kbd>end</kbd> <kbd>delete</kbd> combinations.
-Instead, first select all the thundercats' names (the strings), then press <kbd>ctrl</kbd> <kbd>shift</kbd> <kbd>j</kbd> (for Join lines).
+Don't use a sequence of <kbd>end</kbd> + <kbd>delete</kbd> combinations.
+Instead, first select all the thundercats' names (the strings), then press <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>j</kbd> (for Join lines).
 
 > [!NOTE]
-> Hint: use <kbd>ctrl</kbd> <kbd>w</kbd> right after the `{` character.
+> Hint: use <kbd>ctrl</kbd> + <kbd>w</kbd> right after the `{` character.
 
-You might have to repeat the <kbd>ctrl</kbd> <kbd>shift</kbd> <kbd>j</kbd> combination, because IntelliJ's auto-formatting tends to kick in
+You might have to repeat the <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>j</kbd> combination, because IntelliJ's auto-formatting tends to kick in
 sometimes.
 
 ### **Mac**
 
 We want to write the return statement of `_4_thundercats()` on just one line.
-Don't use a sequence of <kbd>&#8984;</kbd> <kbd>&#8594;</kbd>, <kbd>delete</kbd> combinations.
-Instead, first select all the thundercats' names (the strings), then press <kbd>&#8963;</kbd> <kbd>shift</kbd> <kbd>j</kbd> (for Join lines).
+Don't use a sequence of <kbd>&#8984;</kbd> + <kbd>&#8594;</kbd>, <kbd>delete</kbd> combinations.
+Instead, first select all the thundercats' names (the strings), then press <kbd>&#8963;</kbd> + <kbd>shift</kbd> + <kbd>j</kbd> (for Join lines).
 
 > [!NOTE]
-> Hint: use <kbd>&#8997;</kbd> <kbd>&#x2191;</kbd> right after the `{` character.
+> Hint: use <kbd>&#8997;</kbd> + <kbd>&#x2191;</kbd> right after the `{` character.
 
-You might have to repeat the <kbd>&#8963;</kbd> <kbd>shift</kbd> <kbd>j</kbd> combination, because IntelliJ's auto-formatting tends to kick in
+You might have to repeat the <kbd>&#8963;</kbd> + <kbd>shift</kbd> + <kbd>j</kbd> combination, because IntelliJ's auto-formatting tends to kick in
 sometimes.
 
 <!-- tabs:end -->

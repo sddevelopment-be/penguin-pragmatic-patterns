@@ -1,7 +1,7 @@
 # 1_Learning
 
 In the modern economy, the ability to learn new skills and concepts is a significant competitive advantage. The power of knowledge is
-recognized throughout human history. Societies from ancient Greece to medieval Japan placed a great value on education and invested heavily in
+recognized throughout human history. Societies from Ancient Greece to medieval Japan placed a great value on education and invested heavily in
 knowledge sharing and skill development.
 
 In ancient Greece, education was highly valued, and young boys were taught a wide range of subjects.
@@ -24,7 +24,7 @@ ways. We have all heard how the Japanese samurai were fearless in battle, discip
 know this warrior class was also well-versed in both reading and writing? Similarly to the greek philosophers, and roman writers, the samurai were
 no stranger to the softer sides of life. Some of their pondering has been passed through the ages in the form of traditional haiku.
 
-All of these societies believed that the pursuit of knowledge and the honing of innate skills were moral duties that sharpened minds and character
+All of these societies believed that the pursuit of knowledge, and the honing of innate skills were moral duties that sharpened minds and character
 and contributed to society. Although their military prowess is well known, all these societies had advanced artistic, scientific, and social ideas.
 Modern education finds its roots in these ancient traditions, and concepts like the Socratic method, democracy, stoicism, the Hippocratic Oath, and
 citizenship continue to influence our society, attitudes, and beliefs profoundly.
@@ -41,7 +41,7 @@ and learning skills. See you there!
 
 ## What is knowledge?
 
-Before we dive into the specifics of learning concepts and practices, it's essential to define what we mean by "knowledge."
+Before we dive into the specifics of learning concepts and practices, we must define what exactly we mean when we speak about "knowledge."
 Understanding the concept of knowledge will provide us with a clear mental map to guide us on our learning journey.
 As the saying goes, _"When you learn a new language, you gain a new soul"_. With this in mind, let's aim to make curiosity a part of our mental DNA.
 This way, gathering knowledge and growing as a person will feel just as natural to us as breathing air does.
@@ -50,11 +50,10 @@ _"Meta learning"_ as originally described by Donald B. Maudsley (1979), is a pro
 increasingly in control of habits of perception, inquiry, learning, and growth.
 This means we should have a theory on what learning is to us, aim to work in a safe and supportive social and physical environment,
 discover our own rules and assumptions, reconnect with reality-information from the environment, and reorganize themselves by changing their
-rules/assumptions. This is a fancy way of saying: make yourself confortable, and take a good hard look at yourself and the world. From there you 
+rules/assumptions. This is a fancy way of saying: make yourself comfortable, and take a good hard look at yourself and the world. From there you
 will explore new ideas, and try to apply them to your life as you see fit.
 
 In this section, we will outline what knowledge looks like and how it ties in with all aspects of our lives, including the culture we live in, the
-people we know, and the actions we take. It's important to reflect on which ideas resonate with you and which do not.
+people we know, and the actions we take. It is important to reflect on which ideas resonate with you and which do not.
 You are encouraged to take the information that is useful to you, and to leave the rest behind. **Do what feels right for you!**
 After all: this is your journey. Who are we to tell you how to live your life?
-

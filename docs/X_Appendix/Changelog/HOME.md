@@ -79,6 +79,7 @@ Following changes are known:
 - Moved `Practices` and `Concepts` pattern categories to the top level of each pilar
 - Update _"ROI"_ pattern structure
 - visual style of sidenav
+- typography changes to improve readability on a variety of screens ( leading, spacing, and font face changes)
 - default pattern template has been updated
 - Revised the introductory text, using [ChatGPT, a language model trained by OpenAI.](https://chat.openai.com)
 
@@ -91,8 +92,8 @@ Following changes are known:
 - add description of knowledge sharing
 - animated image of local docsify usage
 - add `IntelliJ hotkeys` tutorial, by [Tim Schraepen](https://github.com/Sch3lp)
-    - Convert + Add chapter one
-    - Convert + Add chapter two
+    - Chapters 1 through 5 converted and extended with MacOS hotkeys
+    - Chapter 6 converted
 - add "External Memory" Pattern
 - add footnote plugin
 - added syntax highlighting

@@ -1,0 +1,18 @@
+name: Publish -> Deploy to patterns.sddevelopment.be
+on:
+  push:
+    branches: [ main ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Upload via FTP
+        uses: dennisameling/ftp-upload-action@v1
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local_dir: "./docs"
+          server_dir: ${{ secrets.FTP_DEPLOY_DIR }}
+          

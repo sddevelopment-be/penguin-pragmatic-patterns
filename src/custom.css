@@ -236,6 +236,7 @@ img.emoji {
 @media only screen and (min-width: 1440px) {
 	.content {
 		left: 300px;
+		padding-top: 2.75rem;
 	}
 }
 
@@ -286,6 +287,19 @@ img.emoji {
 
 body {
 	color: var(--text_color) !important;
+	font-family: 'Meiryo', 'Segoe WPC', 'Segoe UI', 'SFUIText-Light', 'HelveticaNeue-Light', sans-serif, 'Droid Sans Fallback';
+	font-size: 16px;
+	line-height: 1.75rem;
+}
+
+.markdown-section a {
+	font-weight: 550;
+}
+
+.markdown-section p, .markdown-section ul, .markdown-section ol {
+	line-height: 2.125rem;
+	word-spacing: 0.015rem;
+	text-align: justify;
 }
 
 .markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4, .markdown-section strong {

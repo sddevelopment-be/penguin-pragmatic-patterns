@@ -1,7 +1,5 @@
 # 1_Learning
 
-# 1_Learning
-
 In the modern economy, the ability to learn new skills and concepts is a significant competitive advantage. The power of knowledge is
 recognized throughout human history. Societies from ancient Greece to medieval Japan placed a great value on education and invested heavily in
 knowledge sharing and skill development.
@@ -43,6 +41,20 @@ and learning skills. See you there!
 
 ## What is knowledge?
 
-Before we delve deeper into the specifics of learning, let's first define what we mean by "knowledge" and create a mental map to guide us. With a
-clear understanding of our destination, we can avoid going astray and move towards our goals with purpose and direction.
-You might have heard the proverb "When you learn a new language, you gain a new soul".
+Before we dive into the specifics of learning concepts and practices, it's essential to define what we mean by "knowledge."
+Understanding the concept of knowledge will provide us with a clear mental map to guide us on our learning journey.
+As the saying goes, _"When you learn a new language, you gain a new soul"_. With this in mind, let's aim to make curiosity a part of our mental DNA.
+This way, gathering knowledge and growing as a person will feel just as natural to us as breathing air does.
+
+_"Meta learning"_ as originally described by Donald B. Maudsley (1979), is a process by which learners become aware of and
+increasingly in control of habits of perception, inquiry, learning, and growth.
+This means we should have a theory on what learning is to us, aim to work in a safe and supportive social and physical environment,
+discover our own rules and assumptions, reconnect with reality-information from the environment, and reorganize themselves by changing their
+rules/assumptions. This is a fancy way of saying: make yourself confortable, and take a good hard look at yourself and the world. From there you 
+will explore new ideas, and try to apply them to your life as you see fit.
+
+In this section, we will outline what knowledge looks like and how it ties in with all aspects of our lives, including the culture we live in, the
+people we know, and the actions we take. It's important to reflect on which ideas resonate with you and which do not.
+You are encouraged to take the information that is useful to you, and to leave the rest behind. **Do what feels right for you!**
+After all: this is your journey. Who are we to tell you how to live your life?
+

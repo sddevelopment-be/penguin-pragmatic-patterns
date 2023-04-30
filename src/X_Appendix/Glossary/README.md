@@ -40,8 +40,7 @@ As the distance to the CPU increases, so does the available memory space of the 
 ### CLI
 
 Command Line Interface. A textual user interface, allowing for system interaction soley through text-based instructions
-and
-feedback.
+and feedback.
 
 ### Clustered systems
 
@@ -63,16 +62,23 @@ be used to distinct between different error levels, and severity of instructions
 
 A control program manages the execution of user programs to prevent errors and improper use of the computer.
 
-### CLI
-
-Short for Command Line Interface.
-A text based environment that gives you control over your system.
-
 ### Context
 
 - The circumstances in which an event occurs; a setting.
 - The part of a text or statement that surrounds a particular word or passage and determines its meaning.
 
+### CSV
+
+Short for __"comma-separated value"__. A commonly used file format to represent tabular data. 
+These files usually start with a line denoting the names of the columns. Each subsequent line is considered to be a data row.
+
+An example:
+```csv
+name, age, location
+Leeroy Jenkins, ?, some dungeon
+Smaug, >200 years, on top of your dwarven gold
+Bob The Builder, ?, construction site
+```
 ## D
 
 ### Debugger

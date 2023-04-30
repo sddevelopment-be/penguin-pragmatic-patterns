@@ -1,6 +1,6 @@
 # Chapter 7 - Finding/Buffer
 
-Even though this is a very short chapter, the author thought it was worth including ir as it helps to introduce the next chapter on Multicursors a
+Even though this is a very short chapter, the author thought it was worth including ir as it helps to introduce the next chapter on multi-cursors a
 little bit better.
 
 ## Code snippets

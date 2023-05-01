@@ -34,7 +34,9 @@ public class Chapter8 {
         ;
     }
 
-    public void multi-cursors() {
+    public void multi-
+
+    cursors() {
         String output = new StringBuilder()
                 . "Multiple cursors"
                 . "really are"
@@ -376,7 +378,7 @@ case.
 Now the only thing we need to do is to change the return statement to: `return this;`.
 Let's press <kbd>down</kbd>, then press <kbd>shift</kbd> + <kbd>enter</kbd>, and type `return this;`
 
-There you go, we created a TestBuilder in less than a minute of work. 
+There you go, we created a TestBuilder in less than a minute of work.
 Time to be pleased with ourselves and fetch a hot beverage.
 
 ### **Mac**
@@ -387,28 +389,29 @@ Time to be pleased with ourselves and fetch a hot beverage.
 
 We've got a made up `Status` enum containing a bunch of statuses that contain another made up `SubStatus`.
 In the correspodning Unit Test, aptly named `StatusTest`, we want to test that the static methods return the correct `Statuses` based on their
-`SubStatus`.  The implementation is already there, we just need a good list summation in our `.containsOnly` of the `NOT_REALLY` test.
+`SubStatus`. The implementation is already there, we just need a good list summation in our `.containsOnly` of the `NOT_REALLY` test.
 
 In this excercise, we will be using multi-cursors to get a list of elements we can use for our test.
 
 <!-- tabs:start -->
 
 ### **Windows**
+
 Open `Status.java`, and use <kbd>alt</kbd> + <kbd>j</kbd> on `NOT_REALLY` until you've got cursors on all the enums with that
-status. Now try to select the Statuses themselves. 
+status. Now try to select the Statuses themselves.
 
 > [!TIP]
 > You might have to disable `CamelHumps` with <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>a</kbd> to help with the selection.
 
 Copy (<kbd>ctrl</kbd> + <kbd>c</kbd>) these.
-Now navigate back to `StatusTest.java`. Before you paste, enable _Column Mode_, make sure there's a bunch of empty lines, and paste your 
+Now navigate back to `StatusTest.java`. Before you paste, enable _Column Mode_, make sure there's a bunch of empty lines, and paste your
 buffered lines to their destination.
 By using _Column Mode_, we ensure our multiple cursors remain active and usable after pasting.
 
 With our multi-cursors still there, put a `,` behind every copied enum value,
 and press <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>j</kbd> to join all the lines.
 
-Now: complete the `yaReallyStatuses_ContainOnlyDoneAndDunno` test on your own. 
+Now: complete the `yaReallyStatuses_ContainOnlyDoneAndDunno` test on your own.
 
 > [!TIP]
 > <kbd>alt</kbd> + <kbd>insert</kbd> is context sensitive, meaning IntelliJ will know what you want because you're in a Unit Test.
@@ -417,7 +420,7 @@ Now: complete the `yaReallyStatuses_ContainOnlyDoneAndDunno` test on your own.
 
 <!-- tabs:end -->
 
-### Making csv lists from XML
+### Making CSV lists from XML
 
 Here's an excerpt of an `xml` file containing a bunch of people from DC's Batman universe.
 
@@ -458,42 +461,46 @@ Create a new file with <kbd>alt</kbd> + <kbd>insert</kbd> and call it `persons.c
 
 Copy the contents of `Batman.xml` into `persons.csv`. We can already delete the first line with <kbd>ctrl</kbd> + <kbd>y</kbd>.
 
-We know that every `</` denotes the end of one field, but if we were to use <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>j</kbd> on 
+We know that every `</` denotes the end of one field, but if we were to use <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>j</kbd> on
 that, we would also include the `</Person>` tags.
 
-These tags though, denote the end of one line, so let's first get rid of those and replace them with simple `new lines`. 
+These tags though, denote the end of one line, so let's first get rid of those and replace them with simple `new lines`.
 This means we can simply get rid of the start tag `<Person>` with <kbd>ctrl</kbd> + <kbd>y</kbd>.
 
 Your file should now only contain items like this one:
+
 ```xml
-        <FirstName>Bruce</FirstName>
-        <LastName>Wayne</LastName>
-        <Age>24</Age>
-        <SecretIdentity>Batman</SecretIdentity>
+
+<FirstName>Bruce</FirstName>
+<LastName>Wayne</LastName>
+<Age>24</Age>
+<SecretIdentity>Batman</SecretIdentity>
 ```
 
 Select all the closing tags by selecting `</` and <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>j</kbd>, and replace them by a `,`.
 
 Your file should now only contain items that look like this:
+
 ```xml
-        <FirstName>Bruce,
-        <LastName>Wayne,
+
+<FirstName>Bruce,
+    <LastName>Wayne,
         <Age>24,
-        <SecretIdentity>Batman,
-
+            <SecretIdentity>Batman,
 ```
-We will now get rid of the opening tags, so we end up with a CSV-formatted file. 
+
+We will now get rid of the opening tags, so we end up with a CSV-formatted file.
 If you want to retain the tag names as a CSV header line you can <kbd>alt</kbd> + <kbd>j</kbd> on the opening angular brackets
-and ![Windows](icons/glyph-windows-20.png)`ctrl+w` to select all tag names.
+and <kbd>ctrl</kbd> + <kbd>w</kbd> to select all tag names.
 
-Paste them at the top (`home`) while in _Column Mode_ to retain the multi-cursors, at the ![Windows](icons/glyph-windows-20.png)`end` of the line put
-a `,` and ![Windows](icons/glyph-windows-20.png)`ctrl+shift+j`oin lines.
+Paste them at the top (`home`) while in _Column Mode_ to retain the multi-cursors, at the <kbd>end</kbd> of the line put
+a `,` and press <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>j</kbd>. The `j` indicating we wish to join lines together.
 
-Then select all the opening tags by selecting `<` and ![Windows](icons/glyph-windows-20.png)`ctrl+alt+shift+j`.
+Then select all the opening tags by selecting `<` and pressing <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>j</kbd>.
 
-Expand selection with ![Windows](icons/glyph-windows-20.png)`ctrl+w`, delete the tags, ![Windows](icons/glyph-windows-20.png)`ctrl+shift+j`oin lines
-and remove the last `,` at the ![Windows](icons/glyph-windows-20.png)`end` of the line. You can then still get rid of excess new lines by
-pressing `up` and either ![Windows](icons/glyph-windows-20.png)`ctrl+shift+j`oin lines or ![Windows](icons/glyph-windows-20.png)`ctrl+y` delete
+Expand selection with <kbd>ctrl</kbd> + <kbd>w</kbd>, delete the tags, <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>j</kbd> (joining lines).
+and remove the last `,` at the <kbd>end</kbd> of the line. You can then still get rid of excess new lines by
+pressing `up` and either <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>j</kbd> or <kbd>ctrl</kbd> + <kbd>y</kbd> delete
 line.
 
 And that's it.
@@ -501,4 +508,3 @@ And that's it.
 ### **Mac**
 
 <!-- tabs:end -->
-

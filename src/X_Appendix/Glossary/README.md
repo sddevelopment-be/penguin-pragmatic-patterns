@@ -69,16 +69,18 @@ A control program manages the execution of user programs to prevent errors and i
 
 ### CSV
 
-Short for __"comma-separated value"__. A commonly used file format to represent tabular data. 
+Short for __"comma-separated value"__. A commonly used file format to represent tabular data.
 These files usually start with a line denoting the names of the columns. Each subsequent line is considered to be a data row.
 
 An example:
+
 ```csv
 name, age, location
 Leeroy Jenkins, ?, some dungeon
 Smaug, >200 years, on top of your dwarven gold
 Bob The Builder, ?, construction site
 ```
+
 ## D
 
 ### Debugger
@@ -263,6 +265,11 @@ benefit (return on investment) of an action before deciding to do it.
 A pragmatist will take pieces from various toolsets and methodologies, and apply them to the problem at hand only if it
 makes sense to use them. This means that even if a new software architecture is hip and trendy,
 you would look at the issue you are trying to solve first and see if the new approach is worth doing.
+
+### Problem domain
+
+The logical domain of the challenge (or problem) we are trying to solve using software.
+Usually, this is the world as seen by our business stakeholders. It contains the concepts and processes that enable added value for our customers.
 
 ### Process
 

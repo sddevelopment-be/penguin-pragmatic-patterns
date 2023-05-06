@@ -27,7 +27,8 @@ summary {
     word-spacing: 0.05rem;
     display: flex;
     border-bottom: 1px solid #24557875;
-    padding: 0.75em;
+    padding: 0.85em;
+    background: var(--fbc-white);
 }
 
 summary::-webkit-details-marker {
@@ -61,8 +62,13 @@ details {
     border-radius: 0 var(--docsifytabs-border-radius-px) var(--docsifytabs-border-radius-px) var(--docsifytabs-border-radius-px);
     border-top: 0;
     margin-top: calc(0px - var(--docsifytabs-border-px));
-    padding: 0.5em;
     margin-bottom: 0.75em;
+    background: var(--fbc-gray-20);
+    padding-bottom: 0.45rem;
+}
+
+details p {
+    padding: 1.125rem;
 }
 
 /* STYLE OVERRIDES */

@@ -42,8 +42,7 @@ As the distance to the CPU increases, so does the available memory space of the 
 ### CLI
 
 Command Line Interface. A textual user interface, allowing for system interaction soley through text-based instructions
-and
-feedback.
+and feedback.
 
 ### Clustered systems
 
@@ -65,15 +64,24 @@ be used to distinct between different error levels, and severity of instructions
 
 A control program manages the execution of user programs to prevent errors and improper use of the computer.
 
-### CLI
-
-Short for Command Line Interface.
-A text based environment that gives you control over your system.
-
 ### Context
 
 - The circumstances in which an event occurs; a setting.
 - The part of a text or statement that surrounds a particular word or passage and determines its meaning.
+
+### CSV
+
+Short for __"comma-separated value"__. A commonly used file format to represent tabular data.
+These files usually start with a line denoting the names of the columns. Each subsequent line is considered to be a data row.
+
+An example:
+
+```csv
+name, age, location
+Leeroy Jenkins, ?, some dungeon
+Smaug, >200 years, on top of your dwarven gold
+Bob The Builder, ?, construction site
+```
 
 ## D
 
@@ -259,6 +267,11 @@ benefit (return on investment) of an action before deciding to do it.
 A pragmatist will take pieces from various toolsets and methodologies, and apply them to the problem at hand only if it
 makes sense to use them. This means that even if a new software architecture is hip and trendy,
 you would look at the issue you are trying to solve first and see if the new approach is worth doing.
+
+### Problem domain
+
+The logical domain of the challenge (or problem) we are trying to solve using software.
+Usually, this is the world as seen by our business stakeholders. It contains the concepts and processes that enable added value for our customers.
 
 ### Process
 

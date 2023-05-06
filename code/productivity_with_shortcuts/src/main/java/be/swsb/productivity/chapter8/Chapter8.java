@@ -16,7 +16,7 @@ public class Chapter8 {
                 ;
     }
 
-    public void multiCursors() {
+    public void multi-cursors() {
         String output = new StringBuilder()
                 ."Multiple cursors"
                 ."really are"

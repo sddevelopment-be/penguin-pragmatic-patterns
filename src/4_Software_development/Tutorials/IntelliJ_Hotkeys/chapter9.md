@@ -1,6 +1,7 @@
 # Chapter 9 - Endgame
 
-We'll make a full exercise where you'll:
+To finish the tutorial series, we invite you to perform following tasks at your own leasure.
+Feel free to start from any of the existing code packages, and go from there.
 
 1. Create a new class that resides in a new package and has to interact with another existing class
 2. Create a new test for that class

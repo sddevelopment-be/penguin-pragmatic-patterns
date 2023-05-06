@@ -11,9 +11,9 @@ editing.
 The code files you will need for this session are:
 `Chapter8.java`, `listasserts:Status.java`, and `testbuilders:PersonTO.java`.
 
-<!-- tabs:start -->
 
-### Chapter8.java
+<!-- tabs:start -->
+### **Chapter8.java**
 
 ```java
 package be.swsb.productivity.chapter8;
@@ -34,9 +34,7 @@ public class Chapter8 {
         ;
     }
 
-    public void multi-
-
-    cursors() {
+    public void multiCursors() {
         String output = new StringBuilder()
                 . "Multiple cursors"
                 . "really are"
@@ -65,7 +63,7 @@ public class Chapter8 {
 }
 ```
 
-### listasserts:Status.java
+### **listasserts:Status.java**
 
 ```java
 package be.swsb.productivity.chapter8.listasserts;
@@ -130,7 +128,7 @@ enum Status {
 }
 ```
 
-### testbuilders:PersonTO.java
+### **testbuilders:PersonTO.java**
 
 ```java
 package be.swsb.productivity.chapter8.testbuilders;
@@ -195,7 +193,6 @@ public class PersonTO {
     }
 }
 ```
-
 <!-- tabs:end -->
 
 ## Toggle Column Mode: part one

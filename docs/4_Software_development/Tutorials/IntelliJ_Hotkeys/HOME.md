@@ -2199,3 +2199,701 @@ Notice how IntelliJ signals which parameter you are required to fill in by **emb
 ### **Mac**
 
 <!-- tabs:end -->
+
+
+# Chapter 7 - Finding/Buffer
+
+Even though this is a very short chapter, the author thought it was worth including ir as it helps to introduce the next chapter on multi-cursors a
+little bit better.
+
+## Code snippets
+
+### War.java
+
+```java
+package be.swsb.productivity.chapter7;
+
+import com.google.common.base.Joiner;
+import com.google.common.collect.Lists;
+
+import java.util.List;
+
+class War {
+    private Joiner joiner = Joiner.on(" ");
+    private List<String> quoteWords = Lists.newArrayList();
+
+    public War() {
+        System.out.println(war().war().never().changes().quote());
+    }
+
+    private String quote() {
+        return joiner.join(quoteWords);
+    }
+
+    private War war() {
+        if (quoteWords.isEmpty()) {
+            quoteWords.add("War...");
+        } else {
+            quoteWords.add("War");
+        }
+        return this;
+    }
+
+    private War never() {
+        quoteWords.add("never");
+        return this;
+    }
+
+    private War changes() {
+        quoteWords.add("changes");
+        return this;
+    }
+}
+```
+
+### WOTW.md
+
+<details>
+<summary>
+    WOTW.md is a very long text file, containing verbatim text from "War of the worlds". Click here to display it fully.
+</summary>
+<p>
+    After the glimpse I had had of the Martians emerging from the cylinder in which they had come to the earth from their planet,
+a kind of fascination paralysed my actions. I remained standing knee–deep in the heather, staring at the mound that hid them. I was a battleground of fear and curiosity.
+I did not dare to go back towards the pit, but I felt a passionate longing to peer into it. I began walking, therefore,
+in a big curve, seeking some point of vantage and continually looking at the sand heaps that hid these new–comers to our earth.
+Once a leash of thin black whips, like the arms of an octopus, flashed across the sunset and was immediately withdrawn,
+and afterwards a thin rod rose up, joint by joint, bearing at its apex a circular disk that spun with a wobbling motion.
+What could be going on there?
+
+Most of the spectators had gathered in one or two groups—one a little crowd towards Woking, the other a knot of people
+in the direction of Chobham. Evidently they shared my mental conflict. There were few near me. One man I approached—he was,
+I perceived, a neighbour of mine, though I did not know his name—and accosted. But it was scarcely a time for articulate conversation.
+"What ugly brutes!" he said. "Good God! What ugly brutes!" He repeated this over and over again.
+"Did you see a man in the pit?" I said; but he made no answer to that. We became silent, and stood watching for a time
+side by side, deriving, I fancy, a certain comfort in one another's company. Then I shifted my position to a little knoll
+that gave me the advantage of a yard or more of elevation and when I looked for him presently he was walking towards Woking.
+The sunset faded to twilight before anything further happened. The crowd far away on the left, towards Woking, seemed to grow,
+and I heard now a faint murmur from it. The little knot of people towards Chobham dispersed.
+There was scarcely an intimation of movement from the pit.
+
+It was this, as much as anything, that gave people courage, and I suppose the new arrivals from Woking also helped to restore confidence.
+At any rate, as the dusk came on a slow, intermittent movement upon the sand pits began, a movement that seemed to gather
+force as the stillness of the evening about the cylinder remained unbroken. Vertical black figures in twos and threes
+would advance, stop, watch, and advance again, spreading out as they did so in a thin irregular crescent that promised to enclose the pit in its
+attenuated horns. I, too, on my side began to move towards the pit.
+Then I saw some cabmen and others had walked boldly into the sand pits, and heard the clatter of hoofs and the gride of wheels.
+I saw a lad trundling off the barrow of apples. And then, within thirty yards of the pit, advancing from the direction
+of Horsell, I noted a little black knot of men, the foremost of whom was waving a white flag.
+
+This was the Deputation. There had been a hasty consultation, and since the Martians were evidently, in spite of their
+repulsive forms, intelligent creatures, it had been resolved to show them, by approaching them with signals, that we too were intelligent.
+Flutter, flutter, went the flag, first to the right, then to the left. It was too far for me to recognise anyone there,
+but afterwards I learned that Ogilvy, Stent, and Henderson were with others in this attempt at communication.
+This little group had in its advance dragged inward, so to speak, the circumference of the now almost complete circle of people,
+and a number of dim black figures followed it at discreet distances.
+Suddenly there was a flash of light, and a quantity of luminous greenish smoke came out of the pit in three distinct puffs,
+which drove up, one after the other, straight into the still air.
+This smoke (or flame, perhaps, would be the better word for it) was so bright that the deep blue sky overhead
+and the hazy stretches of brown common towards Chertsey, set with black pine trees, seemed to darken abruptly as these puffs arose,
+and to remain the darker after their dispersal. At the same time a faint hissing sound became audible.
+Beyond the pit stood the little wedge of people with the white flag at its apex, arrested by these phenomena,
+a little knot of small vertical black shapes upon the black ground. As the green smoke arose, their faces flashed out pallid green,
+and faded again as it vanished. Then slowly the hissing passed into a humming, into a long, loud, droning noise.
+Slowly a humped shape rose out of the pit, and the ghost of a beam of light seemed to flicker out from it.
+Forthwith flashes of actual flame, a bright glare leaping from one to another, sprang from the scattered group of men.
+It was as if some invisible jet impinged upon them and flashed into white flame. It was as if each man were suddenly
+and momentarily turned to fire.
+
+Then, by the light of their own destruction, I saw them staggering and falling, and their supporters turning to run.
+I stood staring, not as yet realising that this was death leaping from man to man in that little distant crowd.
+All I felt was that it was something very strange. An almost noiseless and blinding flash of light, and a man fell headlong
+and lay still; and as the unseen shaft of heat passed over them, pine trees burst into fire, and every dry furze bush became
+with one dull thud a mass of flames. And far away towards Knaphill I saw the flashes of trees and hedges
+and wooden buildings suddenly set alight.
+
+It was sweeping round swiftly and steadily, this flaming death, this invisible, inevitable sword of heat.
+I perceived it coming towards me by the flashing bushes it touched, and was too astounded and stupefied to stir.
+I heard the crackle of fire in the sand pits and the sudden squeal of a horse that was as suddenly stilled.
+Then it was as if an invisible yet intensely heated finger were drawn through the heather between me and the Martians,
+and all along a curving line beyond the sand pits the dark ground smoked and crackled. Something fell with a crash far away
+to the left where the road from Woking station opens out on the common. Forth–with the hissing and humming ceased,
+and the black, dome–like object sank slowly out of sight into the pit.
+All this had happened with such swiftness that I had stood motionless, dumbfounded and dazzled by the flashes of light.
+Had that death swept through a full circle, it must inevitably have slain me in my surprise. But it passed and spared me,
+and left the night about me suddenly dark and unfamiliar.
+
+The undulating common seemed now dark almost to blackness, except where its roadways lay grey and pale under the deep blue
+sky of the early night. It was dark, and suddenly void of men. Overhead the stars were mustering, and in the west the sky
+was still a pale, bright, almost greenish blue. The tops of the pine trees and the roofs of Horsell came out sharp and
+black against the western afterglow. The Martians and their appliances were altogether invisible, save for that thin mast
+upon which their restless mirror wobbled. Patches of bush and isolated trees here and there smoked and glowed still,
+and the houses towards Woking station were sending up spires of flame into the stillness of the evening air.
+Nothing was changed save for that and a terrible astonishment. The little group of black specks with the flag of white
+had been swept out of existence, and the stillness of the evening, so it seemed to me, had scarcely been broken.
+It came to me that I was upon this dark common, helpless, unprotected, and alone. Suddenly, like a thing falling upon me from without, came—fear.
+With an effort I turned and began a stumbling run through the heather.
+
+The fear I felt was no rational fear, but a panic terror not only of the Martians, but of the dusk and stillness all about me.
+Such an extraordinary effect in unmanning me it had that I ran weeping silently as a child might do. Once I had turned, I did not dare to look back.
+I remember I felt an extraordinary persuasion that I was being played with, that presently, when I was upon the very verge of safety,
+this mysterious death—as swift as the passage of light—would leap after me from the pit about the cylinder and strike me down.
+</p>
+</details>
+
+## Find word and add to buffer
+
+<!-- tabs:start -->
+
+### **Windows**
+
+Let's open `WOTW.md` by pressing <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>n</kbd> and look for the word _"Martians"_ in the first sentence.
+
+Select this word by pressing <kbd>ctrl</kbd> + <kbd>w</kbd>, then press <kbd>ctrl</kbd> + <kbd>F3</kbd> once.
+Now the word _"Martians"_ has been added to our _Find Buffer_. We can easily find the next occurrence of this word by pressing <kbd>F3</kbd>.
+
+### **Mac**
+
+<!-- tabs:end -->
+
+## Find next/previous occurrence from buffer
+
+<!-- tabs:start -->
+
+### **Windows**
+
+See what happens when you keep on pressing <kbd>F3</kbd>. If all goes well, your cursor should start iterating through all occurrences of the
+selected word. Conversely, using <kbd>shift</kbd> + <kbd>F3</kbd> allows you to backtrack through the usages (aka. "find previous")
+
+Now open `War.java`, position your cursor on `13:33` (line number 13, character number 13) using <kbd>ctrl</kbd> + <kbd>g</kbd>. Next, select
+the `.` and press <kbd>ctrl</kbd> + <kbd>F3</kbd>.
+
+Find the next `.`.
+
+### **Mac**
+
+<!-- tabs:end -->
+
+
+
+# Chapter 8 - Multiple Cursors
+
+And now, introducing the feature you have all been waiting for, the one and only:__Multiple Cursors__!
+
+This is probably the most powerful, and useful, feature any text editor can have. Sadly enough, it might also be one of the most underused
+features. Let's take a moment to compose ourselves, make sure we're wide awake for this chapter, and dive into the wonderful world of multi-line
+editing.
+
+## Source code
+
+The code files you will need for this session are:
+`Chapter8.java`, `listasserts:Status.java`, and `testbuilders:PersonTO.java`.
+
+
+<!-- tabs:start -->
+### **Chapter8.java**
+
+```java
+package be.swsb.productivity.chapter8;
+
+public class Chapter8 {
+
+    public Chapter8() {
+        String output =
+                "This sure is"
+        "one hell of a"
+        "long list of"
+        "string concatenations"
+        "that don't seem to"
+        "have any purpose"
+        "other than to"
+        "prove the point"
+        "of column mode"
+        ;
+    }
+
+    public void multi-
+
+    cursors() {
+        String output = new StringBuilder()
+                . "Multiple cursors"
+                . "really are"
+                . "an insanely powerful"
+                .toString();
+    }
+
+    public void areTheBest() {
+        String output = new StringBuilder()
+                . "feature that"
+                . "is greatly"
+                . "underused and"
+                . "also greatly"
+                . "underestimated"
+                .toString();
+    }
+
+    public void ignoreThisOne() {
+        String output = new StringBuilder()
+                .append("press alt+shift+j")
+                .append("if you've gone too far")
+                .append("when adding")
+                .append(".")
+                .toString();
+    }
+}
+```
+
+### **listasserts:Status.java**
+
+```java
+package be.swsb.productivity.chapter8.listasserts;
+
+import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
+import static be.swsb.productivity.chapter8.listasserts.Status.SubStatus.*;
+
+enum Status {
+
+    READY(NOT_REALLY),
+    DONE(YA_REALLY),
+    WAITING(O_REALLY),
+    SOMEWHAT_READY(NOT_REALLY),
+    DUNNO(YA_REALLY),
+    NOT_READY(NOT_REALLY),
+    WHATEVER(YA_REALLY),
+    NOT_READY_AT_ALL(NOT_REALLY),
+    ;
+
+    private SubStatus subStatus;
+
+    Status(SubStatus subStatus) {
+        this.subStatus = subStatus;
+    }
+
+    public static List<Status> oReallyStatuses() {
+        return Stream.of(values()).filter(Status::isOReally).collect(Collectors.toList());
+    }
+
+    public static List<Status> yaReallyStatuses() {
+        return Stream.of(values()).filter(Status::isYaReally).collect(Collectors.toList());
+    }
+
+    public static List<Status> notReallyStatuses() {
+        return Stream.of(values()).filter(Status::isNotReally).collect(Collectors.toList());
+    }
+
+    public SubStatus getSubStatus() {
+        return subStatus;
+    }
+
+    private boolean isOReally() {
+        return SubStatus.O_REALLY.equals(getSubStatus());
+    }
+
+    private boolean isYaReally() {
+        return SubStatus.YA_REALLY.equals(getSubStatus());
+    }
+
+    private boolean isNotReally() {
+        return SubStatus.NOT_REALLY.equals(getSubStatus());
+    }
+
+    enum SubStatus {
+        NOT_REALLY,
+        O_REALLY,
+        YA_REALLY
+    }
+}
+```
+
+### *testbuilders:PersonTO.java*
+
+```java
+package be.swsb.productivity.chapter8.testbuilders;
+
+import java.util.Date;
+
+public class PersonTO {
+
+    private String firstName;
+    private String lastName;
+
+    private Date birthDate;
+
+    private String street;
+    private String zipCode;
+    private String country;
+    private String phone;
+
+    private int points;
+
+    public PersonTO(String firstName, String lastName, Date birthDate, String street, String zipCode, String country, String phone, int points) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.birthDate = birthDate;
+        this.street = street;
+        this.zipCode = zipCode;
+        this.country = country;
+        this.phone = phone;
+        this.points = points;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public Date getBirthDate() {
+        return birthDate;
+    }
+
+    public String getStreet() {
+        return street;
+    }
+
+    public String getZipCode() {
+        return zipCode;
+    }
+
+    public String getCountry() {
+        return country;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public int getPoints() {
+        return points;
+    }
+}
+```
+<!-- tabs:end -->
+
+## Toggle Column Mode: part one
+
+<!-- tabs:start -->
+
+### **Windows**
+
+For starters, let's introduce you to _Column Mode_.
+Let's open `Chapter8`. The `output` variable contains a long string concatenation, but there are a few problems with it:
+
+* the `+` is missing to actually DO the concatenation
+* and there's a space missing at the end of every string
+
+You could put your cursor at the beginning of the second line, type a `+`, and then press <kbd>down</kbd> and <kbd>home</kbd>,
+and type a `+` again. Now you could repeat that process for every line, but there's an easier way.
+
+Since all the strings are lined up perfectly, wouldn't it be easier if we could first put a bunch of cursors in front of every line, and then just
+type `+`? Let's try to do just that.
+
+First position your cursor at the **beginning** of the second string (`"one hell of a"`).
+While watching the bottom right of your screen press <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>insert</kbd> once.
+You should see the word `Column` appear next to `UTF-8`. This means you have just toggled on `Column Mode`.
+
+Now, hold down <kbd>shift</kbd> and press <kbd>down</kbd> until you've reached the last string (`"of column mode"`). There
+should be a cursor blinking at the beginning of every line. It might look like one giant cursor, but it is in fact a bunch of them.
+
+Now simply type a `+` and be amazed.
+
+Exit out of your multi-cursors by pressing <kbd>Escape</kbd>. Exit out of _Column Mode_ by pressing <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>
+insert</kbd> again. The word `Column` should no longer appear in the bottom right, indicating you have indeed exited `column select mode`.
+
+### **Mac**
+
+<!-- tabs:end -->
+
+## Toggle Column Mode: part two
+
+This still leaves the issue of all of the strings not having a space at the end though.
+
+<!-- tabs:start -->
+
+### **Windows**
+
+Let's undo our changes by pressing <kbd>ctrl</kbd> + <kbd>Z</kbd> and let's take a different approach. Notice
+how using <kbd>ctrl</kbd> + <kbd>Z</kbd> once puts the multiple cursors back.
+
+Now, what we really want is a `+` at the **end** of every string, and to add a space inside all the strings. Here's how you could do that.
+
+Instead of putting your cursor at the beginning of the second line, put it at the beginning of the **first** line (`"This sure is"`).
+
+Toggle _Column Mode_ again with <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>insert</kbd>, and select all the lines again by repeatedly
+pressing <kbd>down</kbd> until you've reached the second last string.
+
+Now press <kbd>End</kbd>. Notice how the cursors are all at different ending positions.
+
+First let's add the spaces so our strings aren't pressed together as much. Move your cursor inside of the string by pressing <kbd>left</kbd>
+once. Then type a <kbd>space</kbd>.
+
+Then press <kbd>End</kbd> again and type a <kbd>+</kbd>. <kbd>Escape</kbd> out of the multicursor and disable _Column Mode_ by
+pressing <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>insert</kbd>.
+
+### **Mac**
+
+<!-- tabs:end -->
+
+This is a great feature for when all the lines you want to edit are right underneath each other, but that won't always be the case.
+Let's see how we can solve that issue as well.
+
+## Select occurrences
+
+In `Chapter8` there are two methods that need some fixing. They both tried to use a `StringBuilder` but seemed to have forgotten to use
+the `append()` method. We can't use _Column Mode_ because the same mistake is repeated in a different method and there are lines in between that we
+don't want to put a cursor at.
+
+<!-- tabs:start -->
+
+### **Windows**
+
+We can, however, use <kbd>alt</kbd> + <kbd>j</kbd> to add a cursor to a _Find buffer_ (<kbd>F3</kbd>
+and <kbd>ctrl</kbd> + <kbd>F3</kbd>).
+
+Take a moment to think about what selection you would want to _Find_ in that class.
+
+Let's first try to see what would be included by pressing <kbd>ctrl</kbd> + <kbd>F3</kbd> on the following selections: `"`, `.`, `."`.
+
+> [!TIP]
+> Spoiler:
+> - `"` won't be good, because then we'd also end up with a cursor at the end of the string.
+> - `.` won't be good either, because we don't want to include the `.toString()`.
+> - `."` however is a near perfect fit.
+
+So let's select the first `."` at `21:17` and press <kbd>alt</kbd> + <kbd>j</kbd> once and see what happens.
+Now repeat <kbd>alt</kbd> + <kbd>j</kbd> until you've selected all of the occurrences.
+You'll notice that the last occurrence is working code, and we don't want to change that last one. So
+press <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>j</kbd> to undo that last `add to cursor` selection.
+
+Then let's fix the code by typing `append` after the `.`. Don't exit out of your multi-cursor just yet.
+
+Remember how in [Chapter 3](./chapter3.md) we learned about IntelliJ's _Wrapping_ feature?
+Maybe you also recall how we said that it was gonna shine in this chapter?
+
+If you haven't already, enable Wrapping with <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>a</kbd>, `smart braces`, `enter`.
+
+From the multi-cursors positioned after the `append` you just typed, press <kbd>shift</kbd> + <kbd>end</kbd> to select all the
+strings, and then press `(`.
+
+As an alternative to repeatedly pressing <kbd>alt</kbd> + <kbd>j</kbd>, and if you're 100% sure that you won't include too much, you
+can also press <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>j</kbd> and add **all** occurrences to your cursors in one go.
+
+Undo <kbd>ctrl</kbd> + <kbd>z</kbd> your corrections and try it out.
+
+Notice how <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>j</kbd> still deselects the last occurrence. This is
+because <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>j</kbd> is merely a repeated <kbd>alt</kbd> + <kbd>j</kbd>.
+
+> [!NOTE]
+> Using this key combination often is also a great way to train your manual dexterity.
+
+### **Mac**
+
+<!-- tabs:end -->
+
+## Various use cases
+
+Now that we've seen the basics of creating and using multiple cursors, let's try to apply it to some everyday tasks.
+We will see how using multiple selections can make your developer life so much easier.
+
+### Creating a TestBuilder
+
+Pretend we've got a _Transfer Object_ `PersonTO` that represents a person in our problem domain.
+We would like to to create a TestBuilder for this class so we can easily create and configure objects for our Unit Tests.
+
+TestBuilders also typically reside in the same package as the class you want to build,
+but in the _test_ folder structure rather than in the `main` package.
+
+<!-- tabs:start -->
+
+### **Windows**
+
+In IntelliJ, you can create a Unit Test for a class by pressing <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>t</kbd> from the class you're
+currently editing.
+
+We will now use this to our advantage while creating a TestBuilder. Open `PersonTO` with <kbd>ctrl</kbd> + <kbd>n</kbd>, and
+press <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>t</kbd>.
+
+Overwrite the class name from `PersonTOTest` to `PersonTOTestBuilder` and press <kbd>Enter</kbd>.
+
+You might want to get rid of unnecessary `org.junit.Assert.*` imports by pressing <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>o</kbd> to _Organize
+Imports_.
+
+Go back <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>left</kbd> to the `PersonTO`, and copy all private fields over to the `PersonTOTestBuilder`.
+
+Create an empty constructor for the TestBuilder with <kbd>alt</kbd> + <kbd>insert</kbd>.
+Press <kbd>up</kbd> and <kbd>ctrl</kbd> + <kbd>enter</kbd> to choose an empty constructor from the generation menu.
+
+Create a `build()` method that returns a `PersonTO`.
+
+Now, while still inside the `PersonTOTestBuilder`, generate setters for all the private fields we just copied from `PersonTO`:
+Press <kbd>alt</kbd> + <kbd>insert</kbd>, select `Setters`, then press <kbd>shift</kbd> + <kbd>end</kbd> to select all
+the fields, and press <kbd>ctrl</kbd> + <kbd>Enter</kbd>.
+
+Using <kbd>Enter</kbd> would also work, but it's advisable to use <kbd>ctrl</kbd> + <kbd>Enter</kbd> when in a separate window, to
+press the highlighted button, and perform the _Default action_.
+
+> [!INFO]
+> Commit this sequence to muscle memory, you will get good mileage from it.
+
+Now we've got a bunch of setters in our builder... That's great, but we also want the methods to be chainable.
+
+Select the "`void set`" part of the first setter, and press <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>j</kbd>.
+Type `PersonTOTestBuilder` (because we want a _Fluent API_, using chainable interfaces).
+
+Now we've got some options with our method names. We either want all of our configurable methods to have the `with` keyword, or you want them
+lowercased.
+
+We can lowercase all of our methods by selecting the first letter: from your multi-cursors position
+press <kbd>shift</kbd> + <kbd>right</kbd>. Then press <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>u</kbd> to toggle lower or upper
+case.
+
+Now the only thing we need to do is to change the return statement to: `return this;`.
+Let's press <kbd>down</kbd>, then press <kbd>shift</kbd> + <kbd>enter</kbd>, and type `return this;`
+
+There you go, we created a TestBuilder in less than a minute of work.
+Time to be pleased with ourselves and fetch a hot beverage.
+
+### **Mac**
+
+<!-- tabs:end -->
+
+### Testing Enum Lists
+
+We've got a made up `Status` enum containing a bunch of statuses that contain another made up `SubStatus`.
+In the correspodning Unit Test, aptly named `StatusTest`, we want to test that the static methods return the correct `Statuses` based on their
+`SubStatus`. The implementation is already there, we just need a good list summation in our `.containsOnly` of the `NOT_REALLY` test.
+
+In this excercise, we will be using multi-cursors to get a list of elements we can use for our test.
+
+<!-- tabs:start -->
+
+### **Windows**
+
+Open `Status.java`, and use <kbd>alt</kbd> + <kbd>j</kbd> on `NOT_REALLY` until you've got cursors on all the enums with that
+status. Now try to select the Statuses themselves.
+
+> [!TIP]
+> You might have to disable `CamelHumps` with <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>a</kbd> to help with the selection.
+
+Copy (<kbd>ctrl</kbd> + <kbd>c</kbd>) these.
+Now navigate back to `StatusTest.java`. Before you paste, enable _Column Mode_, make sure there's a bunch of empty lines, and paste your
+buffered lines to their destination.
+By using _Column Mode_, we ensure our multiple cursors remain active and usable after pasting.
+
+With our multi-cursors still there, put a `,` behind every copied enum value,
+and press <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>j</kbd> to join all the lines.
+
+Now: complete the `yaReallyStatuses_ContainOnlyDoneAndDunno` test on your own.
+
+> [!TIP]
+> <kbd>alt</kbd> + <kbd>insert</kbd> is context sensitive, meaning IntelliJ will know what you want because you're in a Unit Test.
+
+### **Mac**
+
+<!-- tabs:end -->
+
+### Making CSV lists from XML
+
+Here's an excerpt of an `xml` file containing a bunch of people from DC's Batman universe.
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<Persons>
+    <Person>
+        <FirstName>Bruce</FirstName>
+        <LastName>Wayne</LastName>
+        <Age>24</Age>
+        <SecretIdentity>Batman</SecretIdentity>
+    </Person>
+    <Person>
+        <FirstName>Pamela Lillian</FirstName>
+        <LastName>Isley</LastName>
+        <Age>26</Age>
+        <SecretIdentity>Poison Ivy</SecretIdentity>
+    </Person>
+    <Person>
+        <FirstName>Edward</FirstName>
+        <LastName>Nigma</LastName>
+        <Age>41</Age>
+        <SecretIdentity>The Riddler</SecretIdentity>
+    </Person>
+</Persons>
+```
+
+We'll try and create a csv list from this xml.
+
+<!-- tabs:start -->
+
+### **Windows**
+
+So let's open (<kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>n</kbd>) `Batman.xml`, and navigate to the directory where it's at
+with <kbd>ctrl</kbd> + <kbd>F1</kbd>.
+
+Create a new file with <kbd>alt</kbd> + <kbd>insert</kbd> and call it `persons.csv`.
+
+Copy the contents of `Batman.xml` into `persons.csv`. We can already delete the first line with <kbd>ctrl</kbd> + <kbd>y</kbd>.
+
+We know that every `</` denotes the end of one field, but if we were to use <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>j</kbd> on
+that, we would also include the `</Person>` tags.
+
+These tags though, denote the end of one line, so let's first get rid of those and replace them with simple `new lines`.
+This means we can simply get rid of the start tag `<Person>` with <kbd>ctrl</kbd> + <kbd>y</kbd>.
+
+Your file should now only contain items like this one:
+
+```xml
+
+<FirstName>Bruce</FirstName>
+<LastName>Wayne</LastName>
+<Age>24</Age>
+<SecretIdentity>Batman</SecretIdentity>
+```
+
+Select all the closing tags by selecting `</` and <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>j</kbd>, and replace them by a `,`.
+
+Your file should now only contain items that look like this:
+
+```xml
+
+<FirstName>Bruce,
+    <LastName>Wayne,
+        <Age>24,
+            <SecretIdentity>Batman,
+```
+
+We will now get rid of the opening tags, so we end up with a CSV-formatted file.
+If you want to retain the tag names as a CSV header line you can <kbd>alt</kbd> + <kbd>j</kbd> on the opening angular brackets
+and <kbd>ctrl</kbd> + <kbd>w</kbd> to select all tag names.
+
+Paste them at the top (`home`) while in _Column Mode_ to retain the multi-cursors, at the <kbd>end</kbd> of the line put
+a `,` and press <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>j</kbd>. The `j` indicating we wish to join lines together.
+
+Then select all the opening tags by selecting `<` and pressing <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>j</kbd>.
+
+Expand selection with <kbd>ctrl</kbd> + <kbd>w</kbd>, delete the tags, <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>j</kbd> (joining lines).
+and remove the last `,` at the <kbd>end</kbd> of the line. You can then still get rid of excess new lines by
+pressing `up` and either <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>j</kbd> or <kbd>ctrl</kbd> + <kbd>y</kbd> delete
+line.
+
+And that's it.
+
+### **Mac**
+
+<!-- tabs:end -->
+
+
+# Chapter 9 - Endgame
+
+To finish the tutorial series, we invite you to perform following tasks at your own leasure.
+Feel free to start from any of the existing code packages, and go from there.
+
+1. Create a new class that resides in a new package and has to interact with another existing class
+2. Create a new test for that class
+3. Create a new TestBuilder for the existing class
+4. Perform a _red, green, refactor_
+5. (Optional) commit and push

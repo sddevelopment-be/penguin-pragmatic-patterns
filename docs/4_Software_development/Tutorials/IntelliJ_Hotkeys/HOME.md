@@ -2412,9 +2412,7 @@ public class Chapter8 {
         ;
     }
 
-    public void multi-
-
-    cursors() {
+    public void multiCursors() {
         String output = new StringBuilder()
                 . "Multiple cursors"
                 . "really are"
@@ -2508,7 +2506,7 @@ enum Status {
 }
 ```
 
-### *testbuilders:PersonTO.java*
+### **testbuilders:PersonTO.java**
 
 ```java
 package be.swsb.productivity.chapter8.testbuilders;

@@ -58,19 +58,37 @@ In the end, reaching your goals at all costs is usually not really worth it.
 
 ### Measuring success
 
-> [!NOTE]
-> How do we know if we applied the pattern succesfully? What are our _'red flags'_ that should
-> trigger an adaption of the style of application?
+> [!STUB]
+> Due to it's online nature, this work in in perpetual motion. 
+> This section has not yet been completed. If you are interested in adding content here, please refer to the ["How to contribute" guide](https://github.com/sddevelopment-be/penguin-pragmatic-patterns/blob/content/software_patterns/CONTRIBUTING.md) on github.
 
 ### Examples
 
 #### Use Cases / Testimonials [Optional]
 
-### References
+##### Changing carreers / starting a business
 
-> Add links to other patterns or content in this collection (or external ones), please add
-> references to the source material if you were inspired by someone else's work.
-> Feel free to add your own previous work as a reference.
+by: __Stijn Dejongh__
+
+One of the concerns of leaving a comfortable employment situation, and trading it for a highly uncertain one, is that you could end up without an income.
+While this is certainly a concern, most people have more leeway than they might realize. 
+
+At one point, I was considering switching from a position of full-time employment to becoming a self-employed freelance software developer. 
+For the duration of my entire life up until that point, I had tried to be financially sensible, not taking too large risks in order to avoid a reduction in luxury.
+This had left me with quite a hefty sum of money in my bank account. For the next month or two, I kept close tabs on where my expenses went. Most of it was allocated to food, drink, technical books, and entertainment. With this data in hand, I calculated that it would take about 2 years before I completely ran out of money.
+
+Obviously, this was not an acceptable future to me, so I rethought the situation to be more of an experiment.
+Then I asked myself: "How much of my money am I willing to pay to know whether or not this is a viable way of life for me?". 
+Turns out what I was willing to spend came down to about 4 months of living expenses. 
+Considering I needed some margin if I were to go back to working as a full-time employee, I gave myself 3 months to start working as a freelancer.
+This means I set myself a limit, a breaking condition, before I quit my job. The condition was: "If I do not have a signed multi-month freelance contract within the next three months, I will abandon the plan and focus on finding stable employment again".
+
+I discussed my intent with my then-fiancee (now wife), as it also affected her. She was okay with delaying our long term plans with about one year in case I did not reach my intended goal.
+This gave me two things. First of all, it helped reassure me that I was not doing harm to the people I cared about. Secondly, it served as a sanity-check of my plans.
+If my goal was completely unrealistic, she would have undoubtedly told me at that point.
+
+
+### References
 
 | Item                                                                                                                                              | Description                                                                                                                                                               | 
 |---------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

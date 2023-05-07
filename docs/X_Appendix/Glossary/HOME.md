@@ -41,6 +41,17 @@ An initial program, usually stored on ROM or EEPROM memory, to initiallize all a
 
 A type of buffer uses with shared memory IPC. Bounded buffers can only use a fixed amount of memory space.
 
+### Boyscout rule
+
+The base premise of the Boyscout rule is that if everyone leaves their environment a little bit better than it was when they found it, eventually it wil flourish.
+The term originates from the handbook of the Boyscouts of America, where it was phrased slightly differently to apply mostly to campsites.
+In software development, the phrase is commonly used to entice programmers to clean up their own messes and the messes that were left behind by their predecessors. This relates strongly to the broken window theory.
+
+### Broken window theory
+
+A theory [originating from the domain of criminology](https://en.wikipedia.org/wiki/Broken_windows_theory). The idea being that if an environment is already decayed, people have less ethical problems with making it worse. 
+In the original criminological experiment from the 1990s, researchers measured how long it took for a building to be completely vandalized after breaking a single window. Psychologist believe that outward signs of neglect make us feel that no one cares about the object in question, hence we are not likely to care for it either.
+
 ## C
 
 ### Caching
@@ -419,6 +430,20 @@ User interfaces are known as "shells" on systems with mulltiple command interpre
 
 * __in operating system concepts:__ A signal is used in UNIX systems to notify a process that a particular event has occured.
 * __in instant messaging:__ A P2P encrypted, privacy-centric instant messaging application available for mobile phones and desktops.
+
+### SMART
+
+An acronym, commonly used in productivity circles. Refers to the qualities that make goals more likely to be achieved. The acronym stands for:
+
+* **S**pecific : be as concrete as possible (What/Why/Who/Where/Which) in defining the goal. Avoid as much opaqueness as possible.
+* **M**easurable : think of ways you can verify whether you are on track or not. You can use the KPI system if you want. The idea is to be able to evaluate and track your progress numerically.
+* **A**chievable : the goal needs to be realistic, but sufficiently ambitious. Meaning you should not set a goal you will achieve regardless of effort, while also making sure it is within your stretching capabilities to reach it.
+* **R**elevant : ensure your goal matters to you, or your immediate surroundings. Also ask yourself if you are the right person to reach this goal. (It is for example quite unrealistic to expect to cure all illnesses if you have no knowledge of biology, chemistry, or medicine).
+* **T**ime bound : set a deadline by which you want to achieve your goal.
+
+When using SMART, you can create clear, attainable and meaningful goals, and develop the motivation, action plan, and support needed to achieve them.  
+
+see: [editorial on SMART goals](https://www.mindtools.com/a4wo118/smart-goals), mindtools.com content team, self-published, retrieved on 07/05/2023.
 
 ### SMP
 

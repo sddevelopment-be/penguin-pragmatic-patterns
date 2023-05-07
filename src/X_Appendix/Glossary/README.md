@@ -418,6 +418,20 @@ User interfaces are known as "shells" on systems with mulltiple command interpre
 * __in operating system concepts:__ A signal is used in UNIX systems to notify a process that a particular event has occured.
 * __in instant messaging:__ A P2P encrypted, privacy-centric instant messaging application available for mobile phones and desktops.
 
+### SMART
+
+An acronym, commonly used in productivity circles. Refers to the qualities that make goals more likely to be achieved. The acronym stands for:
+
+* **S**pecific : be as concrete as possible (What/Why/Who/Where/Which) in defining the goal. Avoid as much opaqueness as possible.
+* **M**easurable : think of ways you can verify whether you are on track or not. You can use the KPI system if you want. The idea is to be able to evaluate and track your progress numerically.
+* **A**chievable : the goal needs to be realistic, but sufficiently ambitious. Meaning you should not set a goal you will achieve regardless of effort, while also making sure it is within your stretching capabilities to reach it.
+* **R**elevant : ensure your goal matters to you, or your immediate surroundings. Also ask yourself if you are the right person to reach this goal. (It is for example quite unrealistic to expect to cure all illnesses if you have no knowledge of biology, chemistry, or medicine).
+* **T**ime bound : set a deadline by which you want to achieve your goal.
+
+When using SMART, you can create clear, attainable and meaningful goals, and develop the motivation, action plan, and support needed to achieve them.  
+
+see: [editorial on SMART goals](https://www.mindtools.com/a4wo118/smart-goals), mindtools.com content team, self-published, retrieved on 07/05/2023.
+
 ### SMP
 
 Symmetric multiprocessing. each processirs performs all tasks within the operating system. SMP means that all processors

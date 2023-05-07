@@ -19,6 +19,13 @@ over.
 Each processor is assigned to a single task. One processor is called the _master (or main) processor_, and controls the
 system.
 
+
+### Asynchronous cancellation
+
+Cancellation of a target thread that immediatly terminates it.  
+(e.g. Unix' `kill -9 $PID` command )
+
+
 ## B
 
 ### Blade servers
@@ -30,6 +37,10 @@ independently and runs its own operating system.
 
 An initial program, usually stored on ROM or EEPROM memory, to initiallize all aspects of the system.
 
+### Bounded buffer
+
+A type of buffer uses with shared memory IPC. Bounded buffers can only use a fixed amount of memory space.
+
 ## C
 
 ### Caching
@@ -38,6 +49,10 @@ The storing of information on a faster, smaller storage system than the main mem
 Cache management is highly important due to the limited size of of the faster storage medium. There are different levels
 of cache-memory, indicating the memory's proximity to the CPU (lower == closer).
 As the distance to the CPU increases, so does the available memory space of the cache.
+
+### Cascading termination
+
+Some systems terminate all of the child processes when they terminate the parent process. This is called __'cascading termination'__.
 
 ### CLI
 
@@ -69,6 +84,20 @@ A control program manages the execution of user programs to prevent errors and i
 - The circumstances in which an event occurs; a setting.
 - The part of a text or statement that surrounds a particular word or passage and determines its meaning.
 
+### Context switching
+
+* in computer science: A state save of the current process and the state restore of a different process, when a swap occurs.
+
+### CPU registers
+
+Registers are special purpose physical memory used during runtime execution of instruction sets. These registers are  usually optimized for their dedicated task.
+These registers vary in number and type, depending on the computer architecture. They include `accumulators`, `index registers`, `stack pointers`, and general-purpose registers,
+plus any condition-code information (e.g. status codes). Along with the program counter, the content of these registers must be saved when an interrupt occurs, to allow the process to be continued correctly afterward.
+
+### CPU scheduling information
+
+Information related to task-scheduling on the processor. Usually includes `process priority`, `pointers to scheduling queues`, as well as architecture specific information.
+
 ### CSV
 
 Short for __"comma-separated value"__. A commonly used file format to represent tabular data.
@@ -85,6 +114,13 @@ Bob The Builder, ?, construction site
 
 ## D
 
+### DDD
+
+Short for Domain Driven Design. (from [GlossaryTech](https://glossarytech.com/search/results?phrase=DDD.html))
+Domain-Driven Design is a set of principles and schemes aimed at creating optimal systems of objects. Reduced to the
+creation of software abstractions, which are called models of subject areas. These models include business logic that
+establishes a link between the real conditions of the products application area and the code.
+
 ### Debugger
 
 A program to help the user find an correct defects in their program.
@@ -94,12 +130,22 @@ It had turned out an insect wandered into the machinery and disrupted its proper
 To fix their calculation, one of the research had to physically rid the machine of pesky "bugs",
 hence coining the phrase _"debugging the system"_.
 
-### DDD
+### Defered cancellation
 
-Short for Domain Driven Design. (from [GlossaryTech](https://glossarytech.com/search/results?phrase=DDD.html))
-Domain-Driven Design is a set of principles and schemes aimed at creating optimal systems of objects. Reduced to the
-creation of software abstractions, which are called models of subject areas. These models include business logic that
-establishes a link between the real conditions of the products application area and the code.
+Thread cancellation style, in which the target thread is gracefully shut down. The tarhet thread periodically checks whether it should/cam terminate, allowing it an opportunity to terminate itself in an orderly fashion. By doing this, it can release any held system resources, and cascade the shutdown command to it's children. 
+
+### Deprecated methods
+
+Methods that are still implemented in the current API, but are marked for removal in the future.
+Reliance on these methods is generally discouraged.
+
+### Direct communication
+
+A type of message-passing system, where each process that wishes to communicate with another must explicitly name the recipient or sender of the communication.
+
+### Dispatch latency
+
+The time it takes to stop one process and start another one.
 
 ### DLM
 
@@ -107,17 +153,28 @@ Distrubuted lock manager. A function which ensures that no conflicting operation
 
 ### DMA
 
-**D**irect **M**emory **A**ccess. A specific way og organizing memory on a computer system. After settoing up buffers,
+**D**irect **M**emory **A**ccess. A specific way of organizing memory on a computer system. After setting up buffers,
 pointers, and counters for the I/O device, the device controller transfers an entire block of data directly to or from
 its on-buffer storage to memory, with no intervention by the CPU. Only one interrupt is generated per block to tell the
 device driver that the operation has completed, rather than the one interrupt per byte generated by low-speed devices.
 While the device controller is performing those operations, the CPU is available to accomplish other work.
+
+## E
+
+### Engineering
+
+Engineering is the application of an emperical, scientific approach to finding efficient, economic solutions to practical problems.  
+(from: [Modern software engineering](https://www.oreilly.com/library/view/modern-software-engineering/9780137314942/), D. Farley.
 
 ## F
 
 ### Fault-tolerant systems
 
 Systems that can suffer a failure but continue to work nonetheless.
+
+### FCFS
+
+First come, first served. A scheduling algorithm: the first process that requests a system resource will get priority over the others.
 
 ### File management
 
@@ -162,9 +219,21 @@ An application that helps you to develop software, by combining useful features 
 application. These IDEs usually allow you to run your tests and code without needing to leave the comfort of your
 development environment.
 
+### Indirect communication
+
+A message passing system, in which processes send messages to mailboxes, or ports, rather than to a directly addressed recipient.  
+(as opposed to direct communication)
+
 ### Interrupt Vector
 
 An array which contains the adresses of the interrupt service routines.
+
+### IPC
+
+Short for: **Inter-process communication**. A mechanism for passing information and data between cooperating processes. There are two fundamental models:
+
+* **shared memory**: a region of memory is established for the processes to use
+* **message passing**: the communication takes place through passing messages between the processes.
 
 ## J
 
@@ -207,6 +276,18 @@ the one above. Effectively stacking functionality on top of each other.
 
 ## M
 
+### Mailbox
+
+__in operating system design:__ An object into which messages can be placed by processes, and from which processes can be allowed or disallowed access.
+
+### Mailbox set
+
+A collection of mailboxes, as declared by the task, which can be grouped together and treated as one mailbox for the purpose of the task at hand.
+
+### Memory-management information
+
+Depending on the memory system used by the computer's operating system, this information may include such elements as the value of the `base` and `limit` registers, `page tables` or `segment tables`.
+
 ### Micro Kernel
 
 A kernel in which all of the non-essential components are removed, and implemented as user-level programs.
@@ -241,6 +322,10 @@ of what is happening around you. You can look at it as walking around in an unkn
 armed with a town map. If the map is not sufficiently detailed, you will find yourself ending up in the wrong place.
 You might even end up driving into a lake if the map is inaccurate, digital, and talks to you.
 
+### Parent and child process
+
+A process which creates another process is called the parent process. The created process is the child process.
+
 ### Pattern language
 
 [from wikipedia](https://en.wikipedia.org/wiki/Pattern_language): A pattern language is an organized and coherent set of
@@ -268,6 +353,10 @@ A pragmatist will take pieces from various toolsets and methodologies, and apply
 makes sense to use them. This means that even if a new software architecture is hip and trendy,
 you would look at the issue you are trying to solve first and see if the new approach is worth doing.
 
+### Preemtive scheduling
+
+Scheduling that takes place regardless of process state switching (`running` <-> `waiting`), or termination.
+
 ### Problem domain
 
 The logical domain of the challenge (or problem) we are trying to solve using software.
@@ -291,7 +380,21 @@ Once a program is assembled or compiled, it must be loaded into memory to be exe
 loaders, relocatable loaders, linkage editors, and overlay loaders. Debugging systems for either higher-lever languages
 or machine languages are needed as well.
 
+### PThread
+
+Refers to the POSIX standard (IEEE 1003.1c) defining an API for thread creation and synchronization.
+
 ## R
+
+### Response time
+
+The time it takes from the submission of a request, up untill the first result is produced.  
+(see also: TTI in UX design)
+
+### Responsive design
+
+An user interface programming approach aiming to make sure interfaces render well on a variety of devices and display resolutions.
+This is usually achieved by separating content from display logic, and altering the latter depending on the viewport being used.
 
 ### ROI
 
@@ -312,10 +415,19 @@ personal computers, or extendable circuit boards such as the raspberry pi).
 
 User interfaces are known as "shells" on systems with mulltiple command interpreters.
 
+### Signal
+
+* __in operating system concepts:__ A signal is used in UNIX systems to notify a process that a particular event has occured.
+* __in instant messaging:__ A P2P encrypted, privacy-centric instant messaging application available for mobile phones and desktops.
+
 ### SMP
 
 Symmetric multiprocessing. each processirs performs all tasks within the operating system. SMP means that all processors
 are peers. No controller-worker relationship exists between them.
+
+### Socket
+
+An endpoint of inter-process communication.
 
 ### Status information
 
@@ -352,11 +464,43 @@ In Latin, tenet is the third person singular of the verb tenēre ("to hold") and
 to have been borrowed into English around 1600 from Latin writings in which it often introduced the opinions held by a
 particular church or sect.
 
+### Thread cancellation
+
+The task of terminating a thread before it has completed. This may lead to a graceful or ungraceful shutdown, depending on the specifics of the issued cancellation command.  
+see also: asynchronous cancellation, and deferred cancellation.
+
+### Thread library
+
+A library which provides the programmer with an API for creating and managing threads.   
+(e.g. Java's `future`-library, javascript's `async` and `rxJs`, Python's `theading.py`)
+
+### Thread pool
+
+A number of threads created at process startup, and placed in a shared pool. When a server receives a request, it awakens a thread from this execution pool.
+
+### Thread-specific data
+
+Data of which each thread needs to hold its own copy.
+
+### Throughput
+
+The number of processes that are completed per time unit.
+
 ### Timer
 
 A tool to help the Operating System keep control over the CPU. The timer is set to interrupt the computer after a
 specified amount of time.
 Commonly used for blocked-process detection, task scheduling, and multi-threading.
+
+### Turnaround time
+
+The interval of time from the moment of submission of a process, to the time of its completion.
+
+## U
+
+### Unbounded buffer
+
+A type of buffer uses with shared memory IPC. Unbounded buffers have no practical limits on their size.
 
 ## V
 
@@ -366,6 +510,10 @@ A concept in which the hardware of a single machine is abstracted into several d
 creating the illusion that each separate execution envionments is running on it's own private computer.
 
 ## W
+
+### Waiting time
+
+The sum of periods spend waiting in the ready queue.
 
 ### WIP
 

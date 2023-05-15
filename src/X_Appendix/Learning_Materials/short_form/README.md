@@ -1,5 +1,3 @@
-# short_form
-
 
 This section contains a list of short form materials, such as blogs, articles and videos.
 Each entry is accompanied by a short description of what the resource contains and why it could be of use to you.

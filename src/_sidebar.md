@@ -19,4 +19,6 @@
     * [Changelog](X_Appendix/Changelog/HOME)
     * [Glossary](X_Appendix/Glossary/HOME)
     * [Learning_Materials](X_Appendix/Learning_Materials/HOME)
+      * [long_form](X_Appendix/Learning_Materials/long_form/HOME)
+      * [short_form](X_Appendix/Learning_Materials/short_form/HOME)
       * [tools](X_Appendix/Learning_Materials/tools/HOME)

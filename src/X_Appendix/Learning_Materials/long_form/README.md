@@ -1,5 +1,3 @@
-# long_form
-
 This section contains a list of longer form materials, such as books, papers and long articles.
 Each entry is accompanied by a short description of what the resource contains and why it could be of use to you.
 

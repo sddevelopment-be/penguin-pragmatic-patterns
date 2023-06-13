@@ -129,8 +129,7 @@ included inside the pattern description, but they might also exist as separate r
 
 # Section References
 
-[^0] Statistics retrieved from [https://www.zippia.com/software-engineer-jobs/demographics/](https://www.zippia.
-com/software-engineer-jobs/demographics/), Evolution of software engineer demographics in the USA in 2019.
+[^0] Statistics retrieved from [https://www.zippia.com/software-engineer-jobs/demographics/](https://www.zippia.com/software-engineer-jobs/demographics/), Evolution of software engineer demographics in the USA in 2019.
 
 [^1] Unfortunately knowing this does not instantly make you a great chess player, as my elo on online platforms so adequately reminds me.
 

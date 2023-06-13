@@ -2,16 +2,6 @@
 
 ## Define breaking conditions on your (self-)commitments
 
-<details>
-<summary>meta-info</summary>
-| Property           | Value                      |
-|--------------------|----------------------------|
-| Submitter          | Stijn Dejongh              |
-| Date of submission | 16 Oct 2022                |
-| Type               | `Practice`                 |
-| Tags               | `commitment`, `safety-net` |
-</details>
-
 ### Context
 
 ### Drivers
@@ -283,22 +273,24 @@ The core idea is to give pattern users a mental map of the different actions tha
 
 ### Solution
 
+![The OPERAs flow >](./OPERAs.png ':size=424')
+
 The OPERAS mental model is a description of the flow you go through when advancing a task from "TODO" status to "DONE". A task can be of any
 size, and can range from 'build a house' to 'do the dishes'.
 
 - define a goal you wish to work towards
-    - It is best to describe this goal in a measurable way, so tracking progress is easier in the future
+      - It is best to describe this goal in a measurable way, so tracking progress is easier in the future
 - when working towards a goal, starting from a 'to do' state, you perform a series of steps in order
-    - for some processes, a few of these steps could require very minimal effort.
+      - for some processes, a few of these steps could require very minimal effort.
 - the acronym 'OPERAS' stands for the main steps in this model's flow:
-    - Orientate
+      - Orientate
       - Prepare
       - Execute
       - Reflect
       - Adapt
       - Synthesize
 
-![The OPERAs flow >](./OPERAs.png ':size=424')
+#### Detailed description
 
 <div class="accordion">
 <details>

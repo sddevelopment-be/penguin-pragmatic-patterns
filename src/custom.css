@@ -146,6 +146,15 @@ img[alt$="><"] {
     color: #662fb7;
 }
 
+.alert.callout.stub {
+    border-left-color: #7a451c !important;
+    border-left-width: .25rem !important;
+}
+
+.alert.callout.stub .title {
+    color: #7a451c;
+}
+
 /* Keyboard key presses, using deepblue style from  https://github.com/auth0/kbd/blob/gh-pages/kbd.css*/
 kbd {
     display: inline-block;

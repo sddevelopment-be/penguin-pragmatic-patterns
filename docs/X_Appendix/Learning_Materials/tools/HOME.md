@@ -1,10 +1,11 @@
 # tools
 
 
-This section contains a list of handy repositories and tools, along with a short description of what they contain and why they could be of use to you.
+This section contains a list of short form materials, such as blogs, articles and videos.
+Each entry goes with a short description of what the resource contains and why you might find it useful.
 
 > [!NOTE]
-> Content will be added occationally, and the format of this listing is likely to change in the future.
+> Content will be added occasionally, and the format of this listing will likely change in the future.
 
 ## Writing and Documenting
 

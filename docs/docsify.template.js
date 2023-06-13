@@ -124,6 +124,13 @@ module.exports = (options) => {
 				icon: 'fa fa-bookmark',
 				className: 'note'
 			},
+				stub: {
+				label: 'STUB',
+
+				label: {'/': 'stub'},
+				icon: 'fa fa-spinner',
+				className: 'stub'
+			},
 			},
 				glossify: {
 				debug: false,

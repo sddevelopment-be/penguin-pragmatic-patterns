@@ -73,6 +73,80 @@ This practise helps you be more confident in your ability to pivot if it turns o
 [^1] Though this quote is attributed to B. Franklin, earlier version of the phrase existed.
 See: https://en.wikipedia.org/wiki/Death_and_taxes_(idiom).
 
+## Conventions for convenience
+
+### Context
+
+> [!NOTE]
+> Add a textual description of the context in which this pattern can be applied
+
+### Drivers
+
+#### Enablers
+
+> [!STUB]
+> Due to it's online nature, this work in in perpetual motion.
+> This section has not yet been completed. If you are interested in adding content here, please refer to
+> the ["How to contribute" guide](https://github.com/sddevelopment-be/penguin-pragmatic-patterns/blob/content/software_patterns/CONTRIBUTING.md) on
+> github.
+
+#### Deterrents
+
+> [!STUB]
+> Due to it's online nature, this work in in perpetual motion.
+> This section has not yet been completed. If you are interested in adding content here, please refer to
+> the ["How to contribute" guide](https://github.com/sddevelopment-be/penguin-pragmatic-patterns/blob/content/software_patterns/CONTRIBUTING.md) on
+> github.
+
+### Solution
+
+* Define code-level conventions within your team (or for yourself)
+    * Publish these in a central space
+    * When working with others, routinely go over these conventions and update them as required
+* Use automation to enforce the conventions
+    * static code analysis tools can give you fast feedback
+* Use automation to make the code follow the conventions
+    * Make use of linters when possible
+
+### Measuring success
+
+* amount of bugs not caught by tests or review (lower is better)
+* amount of lines adhering to the conventions (higher is better)
+
+### Examples
+
+#### Accidental thermonuclear war
+
+A great example of this is using brackets in Java. While not strictly necessary to make your code compile or work, many teams
+explicitly ask their developers to include brackets. Even on one-liner if statements. This particular convention tends to irk
+newer developers who like their code to be as concise as possible. While brevity is a usually a good thing, at other times it can be confusing.
+Take a quick look at the following code.
+
+```java
+public void failSafe(boolean thePresidentIsDead){
+		if(thePresidentIsDead)
+		System.out.println("OMG! You killed him. You bastards!");
+		launchNukes();
+
+		businessAsUsual();
+		}
+```
+
+Take a closer look at the code snippet. Can you see the problem?
+Failing to follow the convention of using brackets for every `if`-statement, combined with some bad indentation could
+allow a world-shattering bug to slip through a code review. When the code is executed the nukes are always launched, regardless of
+whether the president died or not.
+
+### References
+
+| Item                                                                    | Description                                                                 | 
+|-------------------------------------------------------------------------|-----------------------------------------------------------------------------|
+| [eslint](https://eslint.org/)                                           | Linting library for Javascript and Typescript                               |
+| [mcandre/linters](https://github.com/mcandre/linters)                   | A comunity currated list of linters                                         |
+| [Google Java Style](https://google.github.io/styleguide/javaguide.html) | Styleguide for java development, published by Google                        |
+| [Sonar](https://www.sonarsource.com/products/sonarcloud/)               | Static code analysis tool                                                   |
+| [ArchUnit](https://www.archunit.org/)                                   | Allows for testing of non-functional requirements and architectural designs |
+
 ## Give it a name: Baptizing your code, models, and ideas
 
 > There are only two hard things in Computer Science: cache invalidation and naming things.

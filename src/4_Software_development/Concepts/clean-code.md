@@ -3,9 +3,10 @@
 > "Aim to write working, understandable and maintainable code."
 
 Most of us have heard this or similar phrases being uttered by our seniors.
-It's easy to understand the concept: when you write clean and understandable code, it will be easier to extend and maintain.
+The concept is quite straightforward to understand: **when you write clean and understandable code, it will be easier to extend and 
+maintain.**
 The big challenge here is in knowing just exactly **how** you write good code.
-Experienced developer seem to have a gut instinct, allowing them to know when their code is good and when it needs to be cleaned.
+Experienced developers seem to have a gut instinct, allowing them to know when their code is good and when it needs to be cleaned.
 Over time, you will develop this skill. But when starting out, it helps to know a set of of best practices and see if they apply to the code
 you have just written.
 

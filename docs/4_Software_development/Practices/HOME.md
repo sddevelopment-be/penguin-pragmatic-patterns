@@ -77,30 +77,29 @@ See: https://en.wikipedia.org/wiki/Death_and_taxes_(idiom).
 
 ### Context
 
-> [!NOTE]
-> Add a textual description of the context in which this pattern can be applied
-
 ### Drivers
+
+* We wish to maintain a higher level of code discipline, increasing the reliability of the code.
+* Code is write-once, read-many.
+* Humans are excellent at recognizing deviations from the norm.
+* Reviewing code for consistency is a tedious task, that most prefer to avoid.
+* We have a need for expressing our individuality.
 
 #### Enablers
 
-> [!STUB]
-> Due to it's online nature, this work in in perpetual motion.
-> This section has not yet been completed. If you are interested in adding content here, please refer to
-> the ["How to contribute" guide](https://github.com/sddevelopment-be/penguin-pragmatic-patterns/blob/content/software_patterns/CONTRIBUTING.md) on
-> github.
+* Shared formal description of the conventions
+    * works well if the reasoning for the convention is also documented
+* Mature automation support
 
 #### Deterrents
 
-> [!STUB]
-> Due to it's online nature, this work in in perpetual motion.
-> This section has not yet been completed. If you are interested in adding content here, please refer to
-> the ["How to contribute" guide](https://github.com/sddevelopment-be/penguin-pragmatic-patterns/blob/content/software_patterns/CONTRIBUTING.md) on
-> github.
+* Too many manual actions required to maintain the conventions
+* Lack of easy access to source code (e.g. code within Excel macro's)
 
 ### Solution
 
 * Define code-level conventions within your team (or for yourself)
+    * Make sure not to over-restrict
     * Publish these in a central space
     * When working with others, routinely go over these conventions and update them as required
 * Use automation to enforce the conventions

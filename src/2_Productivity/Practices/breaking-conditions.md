@@ -1,15 +1,5 @@
 ## Define breaking conditions on your (self-)commitments
 
-<details>
-<summary>meta-info</summary>
-| Property           | Value                      |
-|--------------------|----------------------------|
-| Submitter          | Stijn Dejongh              |
-| Date of submission | 16 Oct 2022                |
-| Type               | `Practice`                 |
-| Tags               | `commitment`, `safety-net` |
-</details>
-
 ### Context
 
 ### Drivers

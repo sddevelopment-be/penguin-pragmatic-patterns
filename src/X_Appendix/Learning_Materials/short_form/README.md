@@ -56,4 +56,3 @@ Each entry goes with a short description of what the resource contains and why y
 | [Troubleshooting Agile](https://open.spotify.com/show/2Uu2l7kVWPLYuBF5L0N6Mu?si=26c4e0a7c8734ab0) | Jeffrey Fredrick && Douglas Squirrel |                     |
 | [The productivity show](https://open.spotify.com/show/6idQBTQNbAQEKSDJHV5OjX?si=0074e14c266f461a) | Asian Efficiency                     |                     |
 
-

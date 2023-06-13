@@ -13,6 +13,13 @@ Thomas, D.; Hunt, A. (2019) [The Pragmatic Programmer, 20th Anniversary Edition:
 One of the best books on software development out there. Andy and Dave take us through how they think about software development.  
 Written in a highly practical, down-to-earth, and conversational style, everyone working in software development should read this revised classic.
 
+### Apprenticeship Patterns
+Hoover, D.; Oshineye, A. (2009) [Apprenticeship Patterns](https://www.oreilly.com/library/view/apprenticeship-patterns/9780596806842/). O'Reilly
+Media, Inc.
+
+Advise for people that switch teams. The authors give practical advise on how to quickly and effectivly integrate yourself into a new environment.
+Their book is structured as a pattern list, one of which has the memorable name "Sweep the floor".
+
 ### New Programmer's Survival Manual: Navigate Your Workplace, Cube Farm, or Startup
 Carter, J. (2011) [New Programmer's Survival Manual: Navigate Your Workplace, Cube Farm, or Startup](https://pragprog.com/titles/jcdeg/new-programmer-s-survival-manual/). The Pragmatic Bookshelf. 
 
@@ -22,16 +29,13 @@ Fowler, C. () [The Passionate Programmer (2nd edition): Creating a Remarkable Ca
 ### Practices of an Agile Developer 
 Hunt, A.; Subramaniam, V. (2006) [Practices of an Agile Developer](https://pragprog.com/titles/pad/practices-of-an-agile-developer/).  The Pragmatic Bookshelf.
 
-### Apprenticeship Patterns 
-Hoover, D.; Oshineye, A. (2009) [Apprenticeship Patterns](https://www.oreilly.com/library/view/apprenticeship-patterns/9780596806842/). O'Reilly 
-Media, Inc.
-
 ## Software Development: Architecture
 
 ### Domain-Driven Design: Tackling Complexity in the Heart of Software
 Evans, E. (2003) [Domain-Driven Design: Tackling Complexity in the Heart of Software](https://www.goodreads.com/book/show/179133.Domain_Driven_Design). Addison-Wesley Professional.
 
 ## Software Development: Java
+
 ### Java by Comparison: Become a Java Craftsman in 70 Examples
 Harrer, S.; Lenhard, J.; Dietz, L. (2018) [Java by Comparison: Become a Java Craftsman in 70 Examples](https://pragprog.com/titles/javacomp/java-by-comparison/). The Pragmatic Bookshelf.
 
@@ -41,7 +45,6 @@ Henney, K.; et al. (2020) [97 Things Every Java Programmer Should Know](https://
 ## Management
 
 ### [Behind Closed Doors: Secrets of Great Management]
-
 Rothman, J.; Derby, E. () [Behind Closed Doors: Secrets of Great Management](https://pragprog.com/titles/rdbcd/behind-closed-doors/). The Pragmatic Bookshelf.
 
 ## Learning

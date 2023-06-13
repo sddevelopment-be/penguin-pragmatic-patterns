@@ -68,19 +68,32 @@ While it's general applicability has been disproven, this test does show the con
 A more elaborate personality assesment, based on recent research. Building on linguistic models from various cultures, the HEXACO test aims to provide a more accurate depiction of human personallity traits.
 
 ## Programming and architecture
-* Code utils: https://github.com/sddevelopment-be/coding-utils  
+
+### Code utils
+[sddevelopment-be/coding-utils](https://github.com/sddevelopment-be/coding-utils)  
 Coding utilities, aimed to have a quick reference to commonly-needed functionality. Can be used as inspiration, or as a dependency in your own work.
-* :fas fa-chess-pawn: :fas fa-trophy: DDD utilities and info: https://github.com/ddd-crew  
+
+### DDD utilities and info
+[ddd-crew](https://github.com/ddd-crew)  
 A whole bunch of tools, visualizations, and quick-start guides for all things DDD. Spearheaded by the amazing [Nick Tune](https://github.com/NTCoding).
-* :fas fa-chess-pawn: :fas fa-trophy: GlossaryTech plugin: https://glossarytech.com/plugin  
+
+### GlossaryTech plugin
+[https://glossarytech.com/plugin](https://glossarytech.com/plugin)
+
 Browser plugin that alters webpages you visit, providing definitions for technical terminology.
-* :fas fa-trophy:  :fas fa-microscope: Firefly 3 - finance management: [https://www.firefly-iii.org/](https://www.firefly-iii.org/)  
-Self-hosted personal or professional finance manager. Can be an open-source alternative to popular budgetting software.
-* :fas fa-trophy:  :fas fa-microscope: :fas fa-user-ninja: Structurizr [Structurizr modeling DSL](https://github.com/structurizr/dsl).  
+
+### Structurizr 
+[Structurizr modeling DSL](https://github.com/structurizr/dsl).  
 A DSL for describing software architecture and design. Based on the c4model system for system description. Easy to use, and integrates with the most popular code-to-diagram formats.
 
 ## Automation
-* Bash aliases and git aliases: https://gist.github.com/stijn-dejongh/b55e91a775b6b6e95fbbc5d529132a87  
+
+### Bash and git aliases
+[stijn-dejongh gist](https://gist.github.com/stijn-dejongh/b55e91a775b6b6e95fbbc5d529132a87)  
 Some of my personal bash and git aliases, limits the amount of keystrokes and thinking required to perform most day-to-day tasks.
 
+## Finance
 
+### Firefly 3 - finance management
+[https://www.firefly-iii.org/](https://www.firefly-iii.org/)
+Self-hosted personal or professional finance manager. Can be an open-source alternative to popular budgetting software.

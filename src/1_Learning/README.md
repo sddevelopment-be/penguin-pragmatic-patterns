@@ -2,7 +2,7 @@ In the modern economy, the ability to learn new skills and concepts is a signifi
 recognized throughout human history. Societies from Ancient Greece to medieval Japan placed a great value on education and invested heavily in
 knowledge sharing and skill development.
 
-In ancient Greece, education was highly valued, and young boys were taught a wide range of subjects.
+In Ancient Greece, education was highly valued, and young boys were taught a wide range of subjects.
 Their education was comprehensive, covering reading, writing, mathematics, music, and physical education, aiming to produce well-rounded individuals
 who could participate in civic life and contribute to society. The philosophers of Athens, such as Socrates and Plato, emphasized critical thinking
 and self-examination as vital aspects of education.

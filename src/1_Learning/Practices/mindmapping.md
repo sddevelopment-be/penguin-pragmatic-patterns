@@ -2,8 +2,6 @@
 
 ### Context
 
-
-
 ### Drivers
 
 * Humans prefer to think in structures, it has been shown that structuring a text or idea helps you refine the knowledge.
@@ -51,7 +49,7 @@ The main advantage here is that you can move quickly (provided your typing speed
 -- Learning
 --- Knowledge vs Beliefs
 --- Styles
---- Biases
+--- Biases_mindmap-Software_developer_learning_path
 --- Techniques
 ---- Empericism
 ---- Exploration

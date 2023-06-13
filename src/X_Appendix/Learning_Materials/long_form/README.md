@@ -1,8 +1,8 @@
-This section contains a list of longer form materials, such as books, papers and long articles.
-Each entry is accompanied by a short description of what the resource contains and why it could be of use to you.
+This section contains a list of short form materials, such as blogs, articles and videos.
+Each entry goes with a short description of what the resource contains and why you might find it useful.
 
 > [!NOTE]
-> Content will be added occationally, and the format of this listing is likely to change in the future.
+> Content will be added occasionally, and the format of this listing will likely change in the future.
 
 ## Books && Long-form publications
 

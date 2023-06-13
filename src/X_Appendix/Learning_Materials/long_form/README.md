@@ -10,6 +10,9 @@ Each entry goes with a short description of what the resource contains and why y
 ### The Pragmatic Programmer, 20th Anniversary Edition: your journey to mastery,
 Thomas, D.; Hunt, A. (2019) [The Pragmatic Programmer, 20th Anniversary Edition: your journey to mastery](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/). Addison Wesley
 
+One of the best books on software development out there. Andy and Dave take us through how they think about software development.  
+Written in a highly practical, down-to-earth, and conversational style, everyone working in software development should read this revised classic.
+
 ### New Programmer's Survival Manual: Navigate Your Workplace, Cube Farm, or Startup
 Carter, J. (2011) [New Programmer's Survival Manual: Navigate Your Workplace, Cube Farm, or Startup](https://pragprog.com/titles/jcdeg/new-programmer-s-survival-manual/). The Pragmatic Bookshelf. 
 
@@ -19,9 +22,21 @@ Fowler, C. () [The Passionate Programmer (2nd edition): Creating a Remarkable Ca
 ### Practices of an Agile Developer 
 Hunt, A.; Subramaniam, V. (2006) [Practices of an Agile Developer](https://pragprog.com/titles/pad/practices-of-an-agile-developer/).  The Pragmatic Bookshelf.
 
+### Apprenticeship Patterns 
+Hoover, D.; Oshineye, A. (2009) [Apprenticeship Patterns](https://www.oreilly.com/library/view/apprenticeship-patterns/9780596806842/). O'Reilly 
+Media, Inc.
+
+## Software Development: Architecture
+
+### Domain-Driven Design: Tackling Complexity in the Heart of Software
+Evans, E. (2003) [Domain-Driven Design: Tackling Complexity in the Heart of Software](https://www.goodreads.com/book/show/179133.Domain_Driven_Design). Addison-Wesley Professional.
+
 ## Software Development: Java
 ### Java by Comparison: Become a Java Craftsman in 70 Examples
 Harrer, S.; Lenhard, J.; Dietz, L. (2018) [Java by Comparison: Become a Java Craftsman in 70 Examples](https://pragprog.com/titles/javacomp/java-by-comparison/). The Pragmatic Bookshelf.
+
+### 97 Things Every Java Programmer Should Know
+Henney, K.; et al. (2020) [97 Things Every Java Programmer Should Know](https://www.oreilly.com/library/view/97-things-every/9781491952689/). O'Reilly Media, Inc.
 
 ## Management
 
@@ -34,6 +49,10 @@ Rothman, J.; Derby, E. () [Behind Closed Doors: Secrets of Great Management](htt
 ### Pragmatic Thinking and Learning: Refactor Your Wetware
 Hunt, A. (2008) [Pragmatic Thinking and Learning: Refactor Your Wetware](https://pragprog.com/titles/ahptl/pragmatic-thinking-and-learning/). The Pragmatic Bookshelf.
 
+## People and Communication
+
+### Nonviolent Communication: A Language of Life 
+Rosenberg, M.B. (2003) [Nonviolent Communication: A Language of Life](https://www.goodreads.com/book/show/71730.Nonviolent_Communication). Puddledancer Press.
 
 ## Productivity 
 
@@ -43,13 +62,6 @@ Covey, S.R. (2004) [The 7 Habits of Highly Effective People](https://www.goodrea
 ### Getting Things Done: The Art of Stress-Free Productivity
 Allen, D. (2002) [Getting Things Done: The Art of Stress-Free Productivity](https://www.goodreads.com/book/show/1633.Getting_Things_Done). Penguin Books.
 
-[//]: # (| [The Developer's Code: What Real Programmers Do]&#40;https://pragprog.com/titles/kcdc/the-developer-s-code/&#41;                                                                              | Ka Wai Cheung                                          |         :fas fa-chess-pawn: :fas fa-user-ninja:          |)
-
-[//]: # (| [The Healthy Programmer: Get Fit, Feel Better, and Keep Coding]&#40;https://pragprog.com/titles/jkthp/the-healthy-programmer/&#41;                                                            | Joe Kutner                                             |         :fas fa-user-ninja: :fas fa-jet-fighter:         |)
-
-[//]: # (| [Nonviolent Communication: A Language of Life]&#40;https://www.goodreads.com/book/show/71730.Nonviolent_Communication&#41;                                                                    | Marshall B. Rosenberg                                  | :fas fa-trophy: :fas fa-chess-pawn: :fas fa-jet-fighter: |)
-
-[//]: # (| [Apprenticeship Patterns]&#40;https://www.oreilly.com/library/view/apprenticeship-patterns/9780596806842/&#41;                                                                                | Dave Hoover                                            |    :fas fa-trophy: :fas fa-pawn: :fas fa-user-ninja:     |)
 
 [//]: # (| [Programming Kotlin: Create Elegant, Expressive, and Performant JVM and Android Applications]&#40;https://pragprog.com/titles/vskotlin/programming-kotlin/&#41;                               | Dr. Venkat Subramaniam                                 |         :fas fa-chess-pawn: :fas fa-user-ninja:          |)
 
@@ -65,8 +77,6 @@ Allen, D. (2002) [Getting Things Done: The Art of Stress-Free Productivity](http
 
 [//]: # (| [Semantic Software Design]&#40;https://www.oreilly.com/library/view/semantic-software-design/9781492045946/&#41;                                                                              | Eben Hewitt                                            |                   :fas fa-microscope:                    |)
 
-[//]: # (| [97 Things Every Java Programmer Should Know]&#40;https://www.oreilly.com/library/view/97-things-every/9781491952689/&#41;                                                                    | edited by: Kevlin Henney, Trisha Gee                   |         :fas fa-user-ninja: :fas fa-jet-fighter:         |)
-
 [//]: # (| [The Nature of Software Development: Keep It Simple, Make It Valuable, Build It Piece by Piece]&#40;https://pragprog.com/titles/rjnsd/the-nature-of-software-development/&#41;                | Ron Jeffries                                           | :fas fa-chess-pawn: :fas fa-trophy: :fas fa-user-ninja:  |)
 
 [//]: # (| [Software Design X-Rays: Fix Technical Debt with Behavioral Code Analysis]&#40;https://pragprog.com/titles/atevol/software-design-x-rays/&#41;                                                | Adam Tornhill                                          |                   :fas fa-microscope:                    |)
@@ -80,5 +90,3 @@ Allen, D. (2002) [Getting Things Done: The Art of Stress-Free Productivity](http
 [//]: # (| [Principle-Centered Leadership]&#40;https://www.goodreads.com/book/show/44644.Principle_Centered_Leadership&#41;                                                                              | Stephen R. Covey                                       |                   :fas fa-user-ninja:                    |)
 
 [//]: # (| [The Five Dysfunctions of a Team: A Leadership Fable]&#40;https://www.goodreads.com/book/show/21343.The_Five_Dysfunctions_of_a_Team?from_search=true&from_srp=true&qid=gvzpNFeQpW&rank=1&#41; | Patrick Lencioni                                       |           :fas fa-trophy: :fas fa-user-ninja:            |)
-
-[//]: # (| [Domain-Driven Design: Tackling Complexity in the Heart of Software]&#40;https://www.goodreads.com/book/show/179133.Domain_Driven_Design&#41;                                                 | Eric Evans                                             |         :fas fa-chess-pawn: :fas fa-microscope:          |)

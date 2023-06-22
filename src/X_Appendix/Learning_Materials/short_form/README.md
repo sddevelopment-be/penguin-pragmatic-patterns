@@ -9,7 +9,6 @@ Each entry goes with a short description of what the resource contains and why y
 
 | Name                                                                                                                                                                    | Author                                 |                  Tags                   |
 |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------|:---------------------------------------:|
-| [The Big Refactoring](https://principal-it.eu/2022/02/tdd-tales-the-big-refactoring/)                                                                                   | Jan Van Ryswyck                        |        :fas fa-user-chess-pawn:         |
 | [16 misconceptions about Waterfall](https://failfastmoveon.blogspot.com/2020/11/16-misconceptions-about-waterfall.html)                                                 | Michael Küsters                        | :fas fa-chess-pawn: :fas fa-user-ninja: |
 | [Product Manager vs Product Owner](https://medium.com/@melissaperri/product-manager-vs-product-owner-57ff829aa74d)                                                      | Melissa Perri                          |           :fas fa-microscope:           |
 | [The 2020 Scrum Guide and Related Content](https://resources.scrumalliance.org/Article/2020-scrum-guide-related-content)                                                | Scrum Alliance                         |             :fas fa-trophy:             |
@@ -18,6 +17,16 @@ Each entry goes with a short description of what the resource contains and why y
 | [A Leader’s Framework for Decision Making](https://hbr.org/2007/11/a-leaders-framework-for-decision-making)                                                             | David J. Snowden && Mary E. Boone      |   :fas fa-microscope: :fas fa-trophy:   |
 | [Dilemmas in a general theory of planning](https://archive.epa.gov/reg3esd1/data/web/pdf/rittel%2bwebber%2bdilemmas%2bgeneral_theory_of_planning.pdf) [paper]           | Horst W. J. Rittel && Melvin M. Webber |           :fas fa-microscope:           |
 | [Getting Serious About Diversity: Enough Already with the Business Case](https://hbr.org/2020/11/getting-serious-about-diversity-enough-already-with-the-business-case) | David A. Thomas                        |             :fas fa-ninja:              |
+
+### Software development: general
+
+#### Blogpost: The Big Refactoring 
+Van Ryswyck, J. (2022) [The Big Refactoring](https://principal-it.eu/2022/02/tdd-tales-the-big-refactoring/). retrieved from principal-it.eu.
+
+#### The grug brained developer
+[grugbrain.dev](https://grugbrain.dev/)
+
+Software development tips from a caveman. Entertaining read in a popular internet culture format.
 
 ## **Talks**
 

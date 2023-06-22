@@ -148,6 +148,12 @@ Thread cancellation style, in which the target thread is gracefully shut down. T
 Methods that are still implemented in the current API, but are marked for removal in the future.
 Reliance on these methods is generally discouraged.
 
+### Desiderata
+
+(singular: Desideratum) Latin for "the things we want". Occasionally used in software development and program management to make a clear 
+distinction between a "requirement" and a "desired result". Whereas requirements define the minimum acceptable qualities of a result, 
+approximating our desiderata is often sufficient to call our efforts a success.
+
 ### Direct communication
 
 A type of message-passing system, where each process that wishes to communicate with another must explicitly name the recipient or sender of the communication.

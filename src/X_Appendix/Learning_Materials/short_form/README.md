@@ -7,16 +7,33 @@ Each entry goes with a short description of what the resource contains and why y
 
 ## **Articles && Short-form publications**
 
-| Name                                                                                                                                                                    | Author                                 |                  Tags                   |
-|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------|:---------------------------------------:|
-| [16 misconceptions about Waterfall](https://failfastmoveon.blogspot.com/2020/11/16-misconceptions-about-waterfall.html)                                                 | Michael Küsters                        | :fas fa-chess-pawn: :fas fa-user-ninja: |
-| [Product Manager vs Product Owner](https://medium.com/@melissaperri/product-manager-vs-product-owner-57ff829aa74d)                                                      | Melissa Perri                          |           :fas fa-microscope:           |
-| [The 2020 Scrum Guide and Related Content](https://resources.scrumalliance.org/Article/2020-scrum-guide-related-content)                                                | Scrum Alliance                         |             :fas fa-trophy:             |
-| [Improving Feedback Flows in Organizations with 'Complete Peer Feedback'](https://phauer.com/2020/complete-peer-feedback/)                                              | Philipp Hauer                          | :fas fa-chess-pawn: :fas fa-user-ninja: |
-| [How to Make Your Development Department More Productive](https://betterprogramming.pub/how-to-make-your-development-department-more-productive-adc4613ff12a)           | Dieter Jordens                         |    :fas fa-pawn: :fas fa-user-ninja:    |
-| [A Leader’s Framework for Decision Making](https://hbr.org/2007/11/a-leaders-framework-for-decision-making)                                                             | David J. Snowden && Mary E. Boone      |   :fas fa-microscope: :fas fa-trophy:   |
-| [Dilemmas in a general theory of planning](https://archive.epa.gov/reg3esd1/data/web/pdf/rittel%2bwebber%2bdilemmas%2bgeneral_theory_of_planning.pdf) [paper]           | Horst W. J. Rittel && Melvin M. Webber |           :fas fa-microscope:           |
-| [Getting Serious About Diversity: Enough Already with the Business Case](https://hbr.org/2020/11/getting-serious-about-diversity-enough-already-with-the-business-case) | David A. Thomas                        |             :fas fa-ninja:              |
+### Project management
+
+#### 16 misconceptions about Waterfall
+Küsters, Michael (2020) [16 misconceptions about Waterfall](https://failfastmoveon.blogspot.com/2020/11/16-misconceptions-about-waterfall.html). 
+blogspot.
+
+#### Product Manager vs Product Owner
+Melissa Perri () [Product Manager vs Product Owner](https://medium.com/@melissaperri/product-manager-vs-product-owner-57ff829aa74d). medium.com 
+
+#### The 2020 Scrum Guide and Related Content 
+Various authors (2020) [The 2020 Scrum Guide and Related Content](https://resources.scrumalliance.org/Article/2020-scrum-guide-related-content). 
+The Scrum Alliance
+
+#### Improving Feedback Flows in Organizations with 'Complete Peer Feedback'
+Hauer, Philipp (2020) [Improving Feedback Flows in Organizations with 'Complete Peer Feedback'](https://phauer.com/2020/complete-peer-feedback/)
+
+#### How to Make Your Development Department More Productive
+Jordens, Dieter (2020) [How to Make Your Development Department More Productive](https://betterprogramming.pub/how-to-make-your-development-department-more-productive-adc4613ff12a). BetterProgramming.com
+
+#### A Leader’s Framework for Decision Making
+Snowden, David J. & Boone, Mary E. (2007) [A Leader’s Framework for Decision Making](https://hbr.org/2007/11/a-leaders-framework-for-decision-making). Harvard business review
+
+#### Dilemmas in a general theory of planning
+Rittel, Horst W. J. & Webber, Melvin M. (1973) [Dilemmas in a general theory of planning](https://archive.epa.gov/reg3esd1/data/web/pdf/rittel%2bwebber%2bdilemmas%2bgeneral_theory_of_planning.pdf). Elsevier Scientific Publishing Company.
+
+#### Getting Serious About Diversity 
+Thomas, David A. (2020) [Getting Serious About Diversity: Enough Already with the Business Case](https://hbr.org/2020/11/getting-serious-about-diversity-enough-already-with-the-business-case). Harvard business review.
 
 ### Software development: general
 
@@ -24,7 +41,7 @@ Each entry goes with a short description of what the resource contains and why y
 Van Ryswyck, J. (2022) [The Big Refactoring](https://principal-it.eu/2022/02/tdd-tales-the-big-refactoring/). retrieved from principal-it.eu.
 
 #### The grug brained developer
-[grugbrain.dev](https://grugbrain.dev/)
+Unknown Author (2022) [grugbrain.dev: A layman's guide to thinking like the self-aware smol brained](https://grugbrain.dev/). Self-published, retrieved on 06 Aug 2023.
 
 Software development tips from a caveman. Entertaining read in a popular internet culture format.
 

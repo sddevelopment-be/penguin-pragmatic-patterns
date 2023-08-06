@@ -78,23 +78,35 @@ Hunt, Andy (circa 2020) [GROWS Method®: forming good habits in software develop
 #### Manifesto for agile software development 
 Various authors (2001) [Manifesto for agile software development](https://agilemanifesto.org/). Self-published. 
 
+#### Software craftsmanship manifesto
+Schneider, Dieter et al. (2009) ["Software craftsmanship manifesto"](https://manifesto.softwarecraftsmanship.org/). Self-published.
+
+#### Coding is like cooking
+Bache, Emily (circa 2022) [Coding is like cooking](http://coding-is-like-cooking.info). Self-published.
+
+#### DSL Catalog
+Fowler, Martin (?) [DSL Catalog](https://www.martinfowler.com/dslCatalog/index.html). Self-published.
+
+#### A Pattern Language for Pattern Writing
+Meszaros, Gerard & Doble, Jim (?) [A Pattern Language for Pattern Writing](https://www.hillside.net/index.php/a-pattern-language-for-pattern-writing). Object Systems Group.
+
 ###  Software development: architecture
 
 #### The C4 model for visualising software architecture
 Brown, Simon (circa 2018) [The C4 model for visualising software architecture](https://www.c4model.com/). self-published.
+
+#### The Open Agile Architecture™ Standard
+The Open Group (2022). [The Open Agile Architecture™ Standard](https://publications.opengroup.org/c208). The Open Group (isbn: 1-947754-62-1)
 
 ### Project management
 
 #### Sociocracy 3.0: Evolve Effective Collaboration At Any Scale
 Bockelbrink, Bernhard & Priest, James & David, Liliana  (2014) [Sociocracy 3.0: Evolve Effective Collaboration At Any Scale](https://sociocracy30.org/). Self-published.
 
-| Name                                                                                                               | Author                                               |                             Tags                             |
-| ["Software craftsmanship manifesto"](https://manifesto.softwarecraftsmanship.org/)                                 | Various authors                                      |                     :fas fa-user-ninja:                      |
-| [CYNEFIN framework for complexity](https://www.cognitive-edge.com/the-cynefin-framework/)                          | Dave Snowden, et al.                                 |                     :fas fa-microscope:                      |
-| [Coding is like cooking](http://coding-is-like-cooking.info)                                                       | Emily Bache                                          |                     :fas fa-user-ninja:                      |
-| [DSL Catalog](https://www.martinfowler.com/dslCatalog/index.html)                                                  | Martin Fowler                                        | :fas fa-chess-pawn:    :fas fa-trophy:   :fas fa-user-ninja: |
-| [A Pattern Language for Pattern Writing](https://www.hillside.net/index.php/a-pattern-language-for-pattern-writing) | Gerard Meszaros, Object Systems Group                |                     :fas fa-microscope:                      |
-| [Memetics](https://www.michelecoscia.com/?page_id=2070)                                                            | Michele Coscia                                       |                     :fas fa-chess-pawn:                      |
+### Communication
+
+#### Competition and Success in the Meme Pool: a Case Study on Quickmeme.com
+Coscia, Michele (2013) [Memetics](https://www.michelecoscia.com/?page_id=2070). Harvard Kennedy School.
 
 ## **Podcasts**
 

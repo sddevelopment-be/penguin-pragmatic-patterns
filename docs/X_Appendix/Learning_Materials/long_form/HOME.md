@@ -8,63 +8,63 @@ Each entry goes with a short description of what the resource contains and why y
 
 ## Books && Long-form publications
 
-## Software Development: General
-### The Pragmatic Programmer, 20th Anniversary Edition: your journey to mastery,
+### Software Development: General
+#### The Pragmatic Programmer, 20th Anniversary Edition: your journey to mastery,
 Thomas, D.; Hunt, A. (2019) [The Pragmatic Programmer, 20th Anniversary Edition: your journey to mastery](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/). Addison Wesley
 
 One of the best books on software development out there. Andy and Dave take us through how they think about software development.  
 Written in a highly practical, down-to-earth, and conversational style, everyone working in software development should read this revised classic.
 
-### Apprenticeship Patterns
+#### Apprenticeship Patterns
 Hoover, D.; Oshineye, A. (2009) [Apprenticeship Patterns](https://www.oreilly.com/library/view/apprenticeship-patterns/9780596806842/). O'Reilly
 Media, Inc.
 
 Advise for people that switch teams. The authors give practical advise on how to quickly and effectivly integrate yourself into a new environment.
 Their book is structured as a pattern list, one of which has the memorable name "Sweep the floor".
 
-### New Programmer's Survival Manual: Navigate Your Workplace, Cube Farm, or Startup
+#### New Programmer's Survival Manual: Navigate Your Workplace, Cube Farm, or Startup
 Carter, J. (2011) [New Programmer's Survival Manual: Navigate Your Workplace, Cube Farm, or Startup](https://pragprog.com/titles/jcdeg/new-programmer-s-survival-manual/). The Pragmatic Bookshelf. 
 
-### The Passionate Programmer (2nd edition): Creating a Remarkable Career in Software Development
+#### The Passionate Programmer (2nd edition): Creating a Remarkable Career in Software Development
 Fowler, C. () [The Passionate Programmer (2nd edition): Creating a Remarkable Career in Software Development](https://pragprog.com/titles/cfcar2/the-passionate-programmer-2nd-edition/)
 
-### Practices of an Agile Developer 
+#### Practices of an Agile Developer 
 Hunt, A.; Subramaniam, V. (2006) [Practices of an Agile Developer](https://pragprog.com/titles/pad/practices-of-an-agile-developer/).  The Pragmatic Bookshelf.
 
-## Software Development: Architecture
+### Software Development: Architecture
 
-### Domain-Driven Design: Tackling Complexity in the Heart of Software
+#### Domain-Driven Design: Tackling Complexity in the Heart of Software
 Evans, E. (2003) [Domain-Driven Design: Tackling Complexity in the Heart of Software](https://www.goodreads.com/book/show/179133.Domain_Driven_Design). Addison-Wesley Professional.
 
-## Software Development: Java
+### Software Development: Java
 
-### Java by Comparison: Become a Java Craftsman in 70 Examples
+#### Java by Comparison: Become a Java Craftsman in 70 Examples
 Harrer, S.; Lenhard, J.; Dietz, L. (2018) [Java by Comparison: Become a Java Craftsman in 70 Examples](https://pragprog.com/titles/javacomp/java-by-comparison/). The Pragmatic Bookshelf.
 
-### 97 Things Every Java Programmer Should Know
+#### 97 Things Every Java Programmer Should Know
 Henney, K.; et al. (2020) [97 Things Every Java Programmer Should Know](https://www.oreilly.com/library/view/97-things-every/9781491952689/). O'Reilly Media, Inc.
 
-## Management
+### Management
 
-### [Behind Closed Doors: Secrets of Great Management]
+#### [Behind Closed Doors: Secrets of Great Management]
 Rothman, J.; Derby, E. () [Behind Closed Doors: Secrets of Great Management](https://pragprog.com/titles/rdbcd/behind-closed-doors/). The Pragmatic Bookshelf.
 
-## Learning
+### Learning
 
-### Pragmatic Thinking and Learning: Refactor Your Wetware
+#### Pragmatic Thinking and Learning: Refactor Your Wetware
 Hunt, A. (2008) [Pragmatic Thinking and Learning: Refactor Your Wetware](https://pragprog.com/titles/ahptl/pragmatic-thinking-and-learning/). The Pragmatic Bookshelf.
 
-## People and Communication
+### People and Communication
 
-### Nonviolent Communication: A Language of Life 
+#### Nonviolent Communication: A Language of Life 
 Rosenberg, M.B. (2003) [Nonviolent Communication: A Language of Life](https://www.goodreads.com/book/show/71730.Nonviolent_Communication). Puddledancer Press.
 
-## Productivity 
+### Productivity 
 
-### The 7 Habits of Highly Effective People
+#### The 7 Habits of Highly Effective People
 Covey, S.R. (2004) [The 7 Habits of Highly Effective People](https://www.goodreads.com/book/show/36072.The_7_Habits_of_Highly_Effective_People). Free Press.
 
-### Getting Things Done: The Art of Stress-Free Productivity
+#### Getting Things Done: The Art of Stress-Free Productivity
 Allen, D. (2002) [Getting Things Done: The Art of Stress-Free Productivity](https://www.goodreads.com/book/show/1633.Getting_Things_Done). Penguin Books.
 
 

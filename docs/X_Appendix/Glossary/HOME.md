@@ -19,12 +19,10 @@ over.
 Each processor is assigned to a single task. One processor is called the _master (or main) processor_, and controls the
 system.
 
-
 ### Asynchronous cancellation
 
 Cancellation of a target thread that immediatly terminates it.  
 (e.g. Unix' `kill -9 $PID` command )
-
 
 ## B
 
@@ -43,14 +41,19 @@ A type of buffer uses with shared memory IPC. Bounded buffers can only use a fix
 
 ### Boyscout rule
 
-The base premise of the Boyscout rule is that if everyone leaves their environment a little bit better than it was when they found it, eventually it wil flourish.
+The base premise of the Boyscout rule is that if everyone leaves their environment a little bit better than it was when they found it, eventually it
+wil flourish.
 The term originates from the handbook of the Boyscouts of America, where it was phrased slightly differently to apply mostly to campsites.
-In software development, the phrase is commonly used to entice programmers to clean up their own messes and the messes that were left behind by their predecessors. This relates strongly to the broken window theory.
+In software development, the phrase is commonly used to entice programmers to clean up their own messes and the messes that were left behind by
+their predecessors. This relates strongly to the broken window theory.
 
 ### Broken window theory
 
-A theory [originating from the domain of criminology](https://en.wikipedia.org/wiki/Broken_windows_theory). The idea being that if an environment is already decayed, people have less ethical problems with making it worse. 
-In the original criminological experiment from the 1990s, researchers measured how long it took for a building to be completely vandalized after breaking a single window. Psychologist believe that outward signs of neglect make us feel that no one cares about the object in question, hence we are not likely to care for it either.
+A theory [originating from the domain of criminology](https://en.wikipedia.org/wiki/Broken_windows_theory). The idea being that if an environment is
+already decayed, people have less ethical problems with making it worse.
+In the original criminological experiment from the 1990s, researchers measured how long it took for a building to be completely vandalized after
+breaking a single window. Psychologist believe that outward signs of neglect make us feel that no one cares about the object in question, hence we
+are not likely to care for it either.
 
 ## C
 
@@ -101,13 +104,17 @@ A control program manages the execution of user programs to prevent errors and i
 
 ### CPU registers
 
-Registers are special purpose physical memory used during runtime execution of instruction sets. These registers are  usually optimized for their dedicated task.
-These registers vary in number and type, depending on the computer architecture. They include `accumulators`, `index registers`, `stack pointers`, and general-purpose registers,
-plus any condition-code information (e.g. status codes). Along with the program counter, the content of these registers must be saved when an interrupt occurs, to allow the process to be continued correctly afterward.
+Registers are special purpose physical memory used during runtime execution of instruction sets. These registers are usually optimized for their
+dedicated task.
+These registers vary in number and type, depending on the computer architecture. They include `accumulators`, `index registers`, `stack pointers`,
+and general-purpose registers,
+plus any condition-code information (e.g. status codes). Along with the program counter, the content of these registers must be saved when an
+interrupt occurs, to allow the process to be continued correctly afterward.
 
 ### CPU scheduling information
 
-Information related to task-scheduling on the processor. Usually includes `process priority`, `pointers to scheduling queues`, as well as architecture specific information.
+Information related to task-scheduling on the processor. Usually includes `process priority`, `pointers to scheduling queues`, as well as
+architecture specific information.
 
 ### CSV
 
@@ -143,16 +150,25 @@ hence coining the phrase _"debugging the system"_.
 
 ### Defered cancellation
 
-Thread cancellation style, in which the target thread is gracefully shut down. The tarhet thread periodically checks whether it should/cam terminate, allowing it an opportunity to terminate itself in an orderly fashion. By doing this, it can release any held system resources, and cascade the shutdown command to it's children. 
+Thread cancellation style, in which the target thread is gracefully shut down. The tarhet thread periodically checks whether it should/cam
+terminate, allowing it an opportunity to terminate itself in an orderly fashion. By doing this, it can release any held system resources, and
+cascade the shutdown command to it's children.
 
 ### Deprecated methods
 
 Methods that are still implemented in the current API, but are marked for removal in the future.
 Reliance on these methods is generally discouraged.
 
+### Desiderata
+
+(singular: Desideratum) Latin for "the things we want". Occasionally used in software development and program management to make a clear
+distinction between a "requirement" and a "desired result". Whereas requirements define the minimum acceptable qualities of a result,
+approximating our desiderata is often sufficient to call our efforts a success.
+
 ### Direct communication
 
-A type of message-passing system, where each process that wishes to communicate with another must explicitly name the recipient or sender of the communication.
+A type of message-passing system, where each process that wishes to communicate with another must explicitly name the recipient or sender of the
+communication.
 
 ### Dispatch latency
 
@@ -172,8 +188,10 @@ While the device controller is performing those operations, the CPU is available
 
 ### DSL
 
-**D**omain **S**pecific **L**anguage. A specialized programming language intended to be used in a specific business context. 
-Usually a bespoke language, developed to fit the business context. These languages are created to serve as shorthand for common operations withina business environment (e.g. configuration, creation of new CRUD endpoints, etc.). As a higher-order language, DSLs are generally built on top of existing powerful language stacks, such as Kotlin, Java, Rust, Typescript, ... .
+**D**omain **S**pecific **L**anguage. A specialized programming language intended to be used in a specific business context.
+Usually a bespoke language, developed to fit the business context. These languages are created to serve as shorthand for common operations withina
+business environment (e.g. configuration, creation of new CRUD endpoints, etc.). As a higher-order language, DSLs are generally built on top of
+existing powerful language stacks, such as Kotlin, Java, Rust, Typescript, ... .
 You might see them as specialist programming interfaces, written in such a way that most of the boilerplate and ceremony canbe avoided.
 
 ## E
@@ -247,7 +265,8 @@ An array which contains the adresses of the interrupt service routines.
 
 ### IPC
 
-Short for: **Inter-process communication**. A mechanism for passing information and data between cooperating processes. There are two fundamental models:
+Short for: **Inter-process communication**. A mechanism for passing information and data between cooperating processes. There are two fundamental
+models:
 
 * **shared memory**: a region of memory is established for the processes to use
 * **message passing**: the communication takes place through passing messages between the processes.
@@ -295,7 +314,8 @@ the one above. Effectively stacking functionality on top of each other.
 
 ### Mailbox
 
-__in operating system design:__ An object into which messages can be placed by processes, and from which processes can be allowed or disallowed access.
+__in operating system design:__ An object into which messages can be placed by processes, and from which processes can be allowed or disallowed
+access.
 
 ### Mailbox set
 
@@ -303,7 +323,8 @@ A collection of mailboxes, as declared by the task, which can be grouped togethe
 
 ### Memory-management information
 
-Depending on the memory system used by the computer's operating system, this information may include such elements as the value of the `base` and `limit` registers, `page tables` or `segment tables`.
+Depending on the memory system used by the computer's operating system, this information may include such elements as the value of the `base`
+and `limit` registers, `page tables` or `segment tables`.
 
 ### Micro Kernel
 
@@ -323,6 +344,13 @@ Systems that have multiple processing units enbemdded within them. They offer th
 - Increased throughput
 - Economy of scale
 - Increased reliability (through inherrent redundancy)
+
+### Mutation testing
+
+A type of testing that aims to verify the quality of an existing test-suite. It operates by making minor changes in the application code,
+breaking the business logic by doing so. It then evaluates if any of the (automated) tests catch the error.
+If it does, we know the part of the code that was changed is being tested accurately. If no tests fail, this is an indication that the test
+suite is lacking.
 
 ## N
 
@@ -428,6 +456,13 @@ Described on [this page](/2_Productivity/Concepts/HOME?id=return-on-investment).
 **S**mall **C**omputer-**S**ystems **I**nterface. A controller to which devices are connected (cfr. motherboards in
 personal computers, or extendable circuit boards such as the raspberry pi).
 
+### Service Oriented Architecture
+
+Commonly abbreviated as: `SOA`  
+An architectural approach in which applications make use of services available in the network. In this architecture, services are provided to
+form applications, through a network call (over the internet). It uses common communication standards to speed up and streamline the service
+integrations in applications. Each service in SOA is a complete business function in itself
+
 ### Shells
 
 User interfaces are known as "shells" on systems with mulltiple command interpreters.
@@ -442,12 +477,16 @@ User interfaces are known as "shells" on systems with mulltiple command interpre
 An acronym, commonly used in productivity circles. Refers to the qualities that make goals more likely to be achieved. The acronym stands for:
 
 * **S**pecific : be as concrete as possible (What/Why/Who/Where/Which) in defining the goal. Avoid as much opaqueness as possible.
-* **M**easurable : think of ways you can verify whether you are on track or not. You can use the KPI system if you want. The idea is to be able to evaluate and track your progress numerically.
-* **A**chievable : the goal needs to be realistic, but sufficiently ambitious. Meaning you should not set a goal you will achieve regardless of effort, while also making sure it is within your stretching capabilities to reach it.
-* **R**elevant : ensure your goal matters to you, or your immediate surroundings. Also ask yourself if you are the right person to reach this goal. (It is for example quite unrealistic to expect to cure all illnesses if you have no knowledge of biology, chemistry, or medicine).
+* **M**easurable : think of ways you can verify whether you are on track or not. You can use the KPI system if you want. The idea is to be able to
+  evaluate and track your progress numerically.
+* **A**chievable : the goal needs to be realistic, but sufficiently ambitious. Meaning you should not set a goal you will achieve regardless of
+  effort, while also making sure it is within your stretching capabilities to reach it.
+* **R**elevant : ensure your goal matters to you, or your immediate surroundings. Also ask yourself if you are the right person to reach this
+  goal. (It is for example quite unrealistic to expect to cure all illnesses if you have no knowledge of biology, chemistry, or medicine).
 * **T**ime bound : set a deadline by which you want to achieve your goal.
 
-When using SMART, you can create clear, attainable and meaningful goals, and develop the motivation, action plan, and support needed to achieve them.  
+When using SMART, you can create clear, attainable and meaningful goals, and develop the motivation, action plan, and support needed to achieve
+them.
 
 see: [editorial on SMART goals](https://www.mindtools.com/a4wo118/smart-goals), mindtools.com content team, self-published, retrieved on 07/05/2023.
 
@@ -455,6 +494,10 @@ see: [editorial on SMART goals](https://www.mindtools.com/a4wo118/smart-goals), 
 
 Symmetric multiprocessing. each processirs performs all tasks within the operating system. SMP means that all processors
 are peers. No controller-worker relationship exists between them.
+
+### SOA
+
+see: Service Oriented Architecture.
 
 ### Socket
 
@@ -497,7 +540,8 @@ particular church or sect.
 
 ### Thread cancellation
 
-The task of terminating a thread before it has completed. This may lead to a graceful or ungraceful shutdown, depending on the specifics of the issued cancellation command.  
+The task of terminating a thread before it has completed. This may lead to a graceful or ungraceful shutdown, depending on the specifics of the
+issued cancellation command.  
 see also: asynchronous cancellation, and deferred cancellation.
 
 ### Thread library
@@ -507,7 +551,8 @@ A library which provides the programmer with an API for creating and managing th
 
 ### Thread pool
 
-A number of threads created at process startup, and placed in a shared pool. When a server receives a request, it awakens a thread from this execution pool.
+A number of threads created at process startup, and placed in a shared pool. When a server receives a request, it awakens a thread from this
+execution pool.
 
 ### Thread-specific data
 

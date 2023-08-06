@@ -96,7 +96,6 @@ If my goal was completely unrealistic, she would have undoubtedly told me at tha
 
 ### Context
 
-
 ![./free-mind.gif >](./free-mind.gif)
 
 Human memory is [extremely lossy](https://www.nationalgeographic.com/science/article/human-memory). We are better equipped for creative,
@@ -134,6 +133,12 @@ single vendor solution. This entire knowledge base can be seen as one big "exter
 ### Personal testimonials / opinions
 
 #### Stijn's developer logs
+
+Working on enterprise projects tends to be a continuous struggle against interruptions, pivots, and moving targets.
+In order to stay on track, it helps to keep track of your actions and thoughts.
+The best way I have found so far is to keep track of my actions on different projects by including short developer logs inside the code repositories.
+This allows me to come back to a project that has been on ice for a while with relatively low friction.
+In addition to this, I try and keep a day-to-day running count of what happened during any given day. This is done in a separate log, which I try to write at the end of the day.
 
 > [!TIP]
 > One of my favorite ways of note-taking while working on a software project is to add a _`dev_notes`_ directory to my codebase.

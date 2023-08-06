@@ -7,16 +7,8 @@ including but not limited to:
 - videos
 - websites and tools
 
-In order to help you find the next thing to research, we included some symbols next to each resource.
-The meaning of which can be found in the table below.
-
-|        Symbol        | Meaning                                                                                |
-|:--------------------:|----------------------------------------------------------------------------------------|
-| :fas fa-chess-pawn:  | Excellent introductory resource                                                        |
-| :fas fa-user-ninja:  | Practical, and usually opinionated. Pay attention to the context.                      |
-|   :fas fa-trophy:    | These resources are exceptionally valuable, and considered _'must read/watch'_ by many |
-| :fas fa-microscope:  | In-depth, somewhat challenging read.                                                   |
-| :fas fa-jet-fighter: | Quick paced, easily digestible.                                                        |
+Each entry is to be accompanied by a short description. Thus giving you an idea of what it is about, and why it may be useful to you.
+If you want to contribute to this list, please take a look at the [contributing guide](https://github.com/sddevelopment-be/penguin-pragmatic-patterns/blob/5840ce70dc4d5f1663cbcff5ef895df1a0b85aff/CONTRIBUTING.md).
 
 ---
 

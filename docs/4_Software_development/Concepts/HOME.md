@@ -61,3 +61,7 @@ understandable at a glance.
 > [!TIP]
 > Code is write once, but read very often.
 > People prefer pretty things
+
+
+## The testing pyramid
+

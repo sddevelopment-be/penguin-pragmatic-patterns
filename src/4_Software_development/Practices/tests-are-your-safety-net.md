@@ -53,11 +53,14 @@ solved the issue, it usually ends up being faster.
     * This is one the reasons writing automated tests during development is a big time-saver in the long run. As functionality grow, the amount of
       testing needed to prove your system still works correctly goes up dramatically.
 
+
 ### Measuring success
 
-> [!STUB]
-> How do we know if we applied the pattern succesfully? What are our _'red flags'_ that should
-> trigger an adaption of the style of application?
+* Amount of issues/bugs caught during development time, rather than when deploying and running your code. (higher is better)
+* Amount of regression introduced when making changes to the code. (lower is better)
+* Amount of bugs that make it out of development, into a deployed application. (lower is better)
+* Time spent debugging / fixing issues vs. Time spent working on new functionality (lower ratio is better)
+* Runtime of the testsuite (lower is better)
 
 ### Examples
 
@@ -67,3 +70,4 @@ solved the issue, it usually ends up being faster.
 
 * Beck, K. [Test Desiderata](https://kentbeck.github.io/TestDesiderata/), blogpost by Kent Beck on the properties of a good test.
 * [approvaltests.com](https://approvaltests.com/), tooling to easily create an automated set of regression tests.
+* [pitest.org/](https://pitest.org/), a migration testing library for Java and JVM languages

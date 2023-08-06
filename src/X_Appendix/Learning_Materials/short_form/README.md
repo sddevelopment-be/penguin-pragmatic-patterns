@@ -110,13 +110,34 @@ Coscia, Michele (2013) [Memetics](https://www.michelecoscia.com/?page_id=2070). 
 
 ## **Podcasts**
 
-| Name                                                                                              | Author                               |        Tags         |
-|:--------------------------------------------------------------------------------------------------|--------------------------------------|:-------------------:|
-| [A bit of optimism](https://open.spotify.com/show/0wjYlCNxLDgFUUjZMaP6Dx?si=c6e9dc79be9d4859)     | Simon Sinek                          | :fas fa-user-ninja: |
-| [Beyond Coding](https://open.spotify.com/show/7asIKIPU3N6n0SNWHxwMnQ?si=a7300c86f6f84d66)         | Patrick Akil                         |                     |
-| [The education game](https://open.spotify.com/show/7IqTX2koCqgzJ8uTpmHqzk?si=ec0e3e413b9142bb)    | Matt Barnes && Dr. Scott Van Beck    |                     |
-| [What you will learn](https://open.spotify.com/show/1oQ6gWZqHHBgsrpIISZiAr?si=7a093729ea4c4d99)   | Adam Ashton && Adam Jones            |                     |
-| [Scrum master toolbox](https://open.spotify.com/show/4r6DQLCHDaSNjbgtZtAfUp?si=ab622d849eef4646)  | Vasco Duarte                         |                     |
-| [Troubleshooting Agile](https://open.spotify.com/show/2Uu2l7kVWPLYuBF5L0N6Mu?si=26c4e0a7c8734ab0) | Jeffrey Fredrick && Douglas Squirrel |                     |
-| [The productivity show](https://open.spotify.com/show/6idQBTQNbAQEKSDJHV5OjX?si=0074e14c266f461a) | Asian Efficiency                     |                     |
+### Software development: general
+
+#### Beyond Coding
+Akil, Patrick. [Beyond Coding](https://open.spotify.com/show/7asIKIPU3N6n0SNWHxwMnQ?si=a7300c86f6f84d66)
+
+### Psychology & Mindset
+
+#### A bit of optimism
+Sinek, Simon. [A bit of optimism](https://open.spotify.com/show/0wjYlCNxLDgFUUjZMaP6Dx?si=c6e9dc79be9d4859)
+
+### Project management
+
+#### Scrum master toolbox
+Duarte, Vasco. [Scrum master toolbox](https://open.spotify.com/show/4r6DQLCHDaSNjbgtZtAfUp?si=ab622d849eef4646)
+
+#### Troubleshooting Agile
+Fredrick, Jeffrey & Squirrel, Douglas. [Troubleshooting Agile](https://open.spotify.com/show/2Uu2l7kVWPLYuBF5L0N6Mu?si=26c4e0a7c8734ab0)
+
+### Productivity
+
+#### The productivy show
+Asian Efficiency. [The productivity show](https://open.spotify.com/show/6idQBTQNbAQEKSDJHV5OjX?si=0074e14c266f461a)
+
+### Learning
+
+#### What you will learn
+Ashton, Adam & Jones, Adam. [What you will learn](https://open.spotify.com/show/1oQ6gWZqHHBgsrpIISZiAr?si=7a093729ea4c4d99)
+
+#### The education game
+Barnes, Matt && Dr. Van Beck, Scott. [The education game](https://open.spotify.com/show/7IqTX2koCqgzJ8uTpmHqzk?si=ec0e3e413b9142bb)
 

@@ -47,28 +47,54 @@ Software development tips from a caveman. Entertaining read in a popular interne
 
 ## **Talks**
 
-| Name                                                                                                                     | Author            |                Tags                 |
-|:-------------------------------------------------------------------------------------------------------------------------|-------------------|:-----------------------------------:|
-| [Beauty in Code 2020: "Getting Back To The Heart of Agile"](https://www.youtube.com/watch?v=2e-7TFa9NhU)                 | Alistair Cockburn |           :fas fa-trophy:           |
-| [Beauty in Code 2018: "Software professionals, we keep using that word..."](https://www.youtube.com/watch?v=ll0IvBWEdz0) | Louis Hansen      |         :fas fa-user-ninja:         |
-| [Beauty in Code 2020: "Lambda? You Keep Using That Letter"](https://www.youtube.com/watch?v=0igQL-zrx-U)                 | Kevlin Henney     | :fas fa-trophy: :fas fa-microscope: |
-| [DDD Europe 2020: Bounded Contexts for Team Organization](https://www.youtube.com/watch?v=nl35cA4uFu8)                   | Cyrille Martraire |           :fas fa-ninja:            |
-| [Agile Essentials](https://www.youtube.com/watch?v=1kDgrKKwicE)                                                          | R. Van Solingen   |   :fas fa-ninja:  :fas fa-trophy:   |
+###  Software development: general
+
+#### Lambda? You Keep Using That Letter
+Henney, Kevlin (2020) [Lambda? You Keep Using That Letter](https://www.youtube.com/watch?v=0igQL-zrx-U). Beauty in Code Conference.
+
+###  Software development: architecture
+
+#### Bounded Contexts for Team Organization
+Martraire, Cyrille (2020). [Bounded Contexts for Team Organization](https://www.youtube.com/watch?v=nl35cA4uFu8). DDD Europe.
+
+#### Software professionals, we keep using that word...
+Hansen, Louis (2018) [Software professionals, we keep using that word...](https://www.youtube.com/watch?v=ll0IvBWEdz0). Beauty in Code Conference.
+
+### Project management
+
+#### Getting Back To The Heart of Agile
+Cockburn, Alistair (2020) [Getting Back To The Heart of Agile](https://www.youtube.com/watch?v=2e-7TFa9NhU). Beauty in Code Conference.. 
+
+#### Agile Essentials 
+Van Solingen, R. (2020) [Agile Essentials](https://www.youtube.com/watch?v=1kDgrKKwicE). Recording of talk at undisclosed location.
 
 ## **Blogs and Frameworks**
 
-| Name                                                                                                                | Author                                               |                             Tags                             |
-|:--------------------------------------------------------------------------------------------------------------------|------------------------------------------------------|:------------------------------------------------------------:|
-| [The C4 model for visualising software architecture](https://www.c4model.com/)                                      | Simon Brown                                          |             :fas fa-trophy: :fas fa-jet-fighter:             |
-| [Sociocracy 3.0: Evolve Effective Collaboration At Any Scale](https://sociocracy30.org/)                            | Bernhard Bockelbrink, James Priest and Liliana David |   :fas fa-trophy: :fas fa-user-ninja: :fas fa-microscope:    |
-| [GROWS Method®: forming good habits in software development](https://growsmethod.com/)                              | GROWS Method® Institute, Andy Hunt                   |                     :fas fa-user-ninja:                      |
-| [Manifesto for agile software development](https://agilemanifesto.org/)                                             | Various authors                                      |   :fas fa-trophy: :fas fa-user-ninja: :fas fa-jet-fighter:   |
-| ["Software craftsmanship manifesto"](https://manifesto.softwarecraftsmanship.org/)                                  | Various authors                                      |                     :fas fa-user-ninja:                      |
-| [CYNEFIN framework for complexity](https://www.cognitive-edge.com/the-cynefin-framework/)                           | Dave Snowden, et al.                                 |                     :fas fa-microscope:                      |
-| [Coding is like cooking](http://coding-is-like-cooking.info)                                                        | Emily Bache                                          |                     :fas fa-user-ninja:                      |
-| [DSL Catalog](https://www.martinfowler.com/dslCatalog/index.html)                                                   | Martin Fowler                                        | :fas fa-chess-pawn:    :fas fa-trophy:   :fas fa-user-ninja: |
+###  Software development: general
+
+#### GROWS Method®: forming good habits in software development
+Hunt, Andy (circa 2020) [GROWS Method®: forming good habits in software development](https://growsmethod.com/). GROWS Method® Institute.
+
+#### Manifesto for agile software development 
+Various authors (2001) [Manifesto for agile software development](https://agilemanifesto.org/). Self-published. 
+
+###  Software development: architecture
+
+#### The C4 model for visualising software architecture
+Brown, Simon (circa 2018) [The C4 model for visualising software architecture](https://www.c4model.com/). self-published.
+
+### Project management
+
+#### Sociocracy 3.0: Evolve Effective Collaboration At Any Scale
+Bockelbrink, Bernhard & Priest, James & David, Liliana  (2014) [Sociocracy 3.0: Evolve Effective Collaboration At Any Scale](https://sociocracy30.org/). Self-published.
+
+| Name                                                                                                               | Author                                               |                             Tags                             |
+| ["Software craftsmanship manifesto"](https://manifesto.softwarecraftsmanship.org/)                                 | Various authors                                      |                     :fas fa-user-ninja:                      |
+| [CYNEFIN framework for complexity](https://www.cognitive-edge.com/the-cynefin-framework/)                          | Dave Snowden, et al.                                 |                     :fas fa-microscope:                      |
+| [Coding is like cooking](http://coding-is-like-cooking.info)                                                       | Emily Bache                                          |                     :fas fa-user-ninja:                      |
+| [DSL Catalog](https://www.martinfowler.com/dslCatalog/index.html)                                                  | Martin Fowler                                        | :fas fa-chess-pawn:    :fas fa-trophy:   :fas fa-user-ninja: |
 | [A Pattern Language for Pattern Writing](https://www.hillside.net/index.php/a-pattern-language-for-pattern-writing) | Gerard Meszaros, Object Systems Group                |                     :fas fa-microscope:                      |
-| [Memetics](https://www.michelecoscia.com/?page_id=2070)                                                             | Michele Coscia                                       |                     :fas fa-chess-pawn:                      |
+| [Memetics](https://www.michelecoscia.com/?page_id=2070)                                                            | Michele Coscia                                       |                     :fas fa-chess-pawn:                      |
 
 ## **Podcasts**
 

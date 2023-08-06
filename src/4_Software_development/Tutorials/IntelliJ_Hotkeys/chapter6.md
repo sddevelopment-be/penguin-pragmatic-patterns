@@ -210,7 +210,7 @@ public enum DecepticonEnum {
 
 ### **Windows**
 
-Open Transformers.java, a class with a lot of action in it. To quickly navigate to the missing constructor argument, use <kbd>F2</kbd>.
+Open `Transformers.java`, a class with a lot of action in it. To quickly navigate to the missing constructor argument, use <kbd>F2</kbd>.
 
 To have IntelliJ suggest an autocomplete option, press <kbd>Control</kbd> + <kbd>Space</kbd>. Note that even though the constructor expects an
 AutobotEnum, IntelliJ may suggest other options like new, null, equals(), etc.
@@ -219,11 +219,23 @@ To have IntelliJ provide more helpful context-specific code completion actions, 
 Control</kbd> + <kbd>Shift</kbd> + <kbd>Space</kbd>.
 
 Before selecting one of the AutobotEnum suggestions, try pressing <kbd>Control</kbd> + <kbd>Shift</kbd> + <kbd>Space</kbd> again. This hotkey will
-show you that there is a static method Autobot.optimusEnum() that also returns an AutobotEnum. IntelliJ knows about this method as well.
+show you that there is a static method `Autobot.optimusEnum()` that also returns an `AutobotEnum`. IntelliJ knows about this method as well.
 
 Try it out again to construct Optimus' nemesis, Megatron.
 
 ### **Mac**
+
+Open `Transformers.java`, a class with a lot of action in it. To quickly navigate to the missing constructor argument, use <kbd>F2</kbd>.
+
+To have IntelliJ suggest an autocomplete option, press <kbd>&#8963;</kbd> + <kbd>Space</kbd>. Note that even though the constructor expects an
+AutobotEnum, IntelliJ may suggest other options like `new`, `null`, `equals()`, etc.
+
+To have IntelliJ provide more helpful context-specific code completion actions, try using the alternative hotkey combination <kbd>&#8963;</kbd> + <kbd>Shift</kbd> + <kbd>Space</kbd>.
+
+Before selecting one of the AutobotEnum suggestions, try pressing <kbd>&#8963;</kbd> + <kbd>Shift</kbd> + <kbd>Space</kbd> again. This hotkey will
+show you that there is a static method `Autobot.optimusEnum()` that also returns an `AutobotEnum`. IntelliJ knows about this method as well.
+
+Try it out again to construct Optimus' nemesis, Megatron.
 
 <!-- tabs:end -->
 
@@ -241,7 +253,7 @@ ways to confirm your selection:
 * Pressing <kbd>.</kbd> completes the code and adds a . so you can continue typing.
 * Pressing <kbd>Space</kbd> does the same but adds a space instead of a . (this is different from regular suggestions after typing a .!)
 
-Currently, Optimus has a method called .catchphrase that takes a prefix and returns \<prefix\> Rollout!. We can rename that method to rollout.
+As it stands, Optimus has a method called .catchphrase that takes a prefix and returns \<prefix\> Rollout!. We can rename that method to rollout.
 
 To navigate to the .catchphrase method, use <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>B</kbd>. Then delete catchphrase and replace it with rollout (
 don't use <kbd>Shift</kbd> + <kbd>F6</kbd>).
@@ -253,6 +265,8 @@ with <kbd>Ctrl</kbd> + <kbd>Z</kbd> and retry the autocompletion using <kbd>Tab<
 Repeat the process with the other confirmation methods listed above.
 
 ### **Mac**
+
+
 
 <!-- tabs:end -->
 

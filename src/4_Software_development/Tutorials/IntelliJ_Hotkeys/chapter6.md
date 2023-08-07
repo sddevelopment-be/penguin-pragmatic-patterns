@@ -276,8 +276,7 @@ ways to confirm your selection:
 As it stands, Optimus has a method called .catchphrase that takes a prefix and returns \<prefix\> Rollout!. We can rename that method to rollout.
 
 To navigate to the .catchphrase method, use <kbd>&#8984;</kbd> + <kbd>Shift</kbd> + <kbd>B</kbd>. Then delete catchphrase and replace it with
-rollout (
-don't use <kbd>Shift</kbd> + <kbd>F6</kbd>).
+rollout (don't use <kbd>Shift</kbd> + <kbd>F6</kbd>).
 
 Next, go back to the Transformers class with <kbd>&#8964;</kbd> + <kbd>[</kbd> and use autocomplete to replace the previous
 non-compiling catchPhrase method with the new rollout method. Try using <kbd>Enter</kbd> as your confirmation selection first, and then undo
@@ -308,9 +307,26 @@ issue at hand. Use cases include, but are not limited to:
 * Code not compiling? Press <kbd>Alt</kbd> + <kbd>Enter</kbd>.
 * Need to defeat agent Smith and save the matrix? Press <kbd>Alt</kbd> + <kbd>Enter</kbd>.
 
-QuickFix is so useful that it's probably the only IntelliJ shortcut you really need to remember.
+QuickFix is so useful that it's probably the only IntelliJ shortcut you really need to remember, if you want to be lazy about it.
 
 ### **Mac**
+
+IntelliJ's QuickFix is a powerful tool that can save you a lot of time and effort.
+In fact, it is so powerful that it might as well be magic.
+Whether you're creating a new constructor, generating getters and setters for newly created fields, or extracting a method or variable, QuickFix has
+got you covered. And if your code isn't compiling, QuickFix can help you fix the problem in no time.
+
+To use QuickFix, simply press <kbd>&#8997;</kbd> + <kbd>enter</kbd>. This shortcut will bring up a menu of possible actions you can take to fix the
+issue at hand. Use cases include, but are not limited to:
+
+* Creating a new constructor? Use <kbd>&#8997;</kbd> + <kbd>enter</kbd>.
+* Generating getters and setters for newly created fields? Why not try <kbd>&#8997;</kbd> + <kbd>enter</kbd>?
+* Extracting a method out of selected code? Make a selection, and press <kbd>&#8997;</kbd> + <kbd>enter</kbd>.
+* Extracting a variable? Press <kbd>&#8997;</kbd> + <kbd>enter</kbd>.
+* Code not compiling? Press <kbd>&#8997;</kbd> + <kbd>enter</kbd>.
+* Need to defeat agent Smith and save the matrix? Press <kbd>&#8997;</kbd> + <kbd>enter</kbd>.
+
+QuickFix is so useful that it's probably the only IntelliJ shortcut you really need to remember, if you want to be lazy about it.
 
 <!-- tabs:end -->
 
@@ -325,13 +341,25 @@ getters/setters. It saves you a lot of time and effort by automatically generati
 You can access the Generate action by pressing <kbd>Alt</kbd> + <kbd>Insert</kbd> in the editor window. This action is particularly useful when you
 need to create a large amount of repetitive code, or when you need to add functionality to your code quickly.
 
-Try out these actions using the <kbd>alt</kbd> + <kbd>insert</kbd> hotkey:
+Try out these actions using the <kbd>alt</kbd> + <kbd>insert</kbd> shortcut:
 
 * Create a new package from the `1: Project` _Tool Window_ to create a new class in the next step.
 * Create a new class from the `1: Project` _Tool Window_.
 * Create a new constructor in that class from the editor.
 
 ### **Mac**
+
+The "Generate" action in IntelliJ is a powerful feature that allows you to quickly create code constructs such as constructors, methods, and
+getters/setters. It saves you a lot of time and effort by automatically generating boilerplate code for you, based on the parameters you provide.
+You can access the Generate action by pressing <kbd>&#8964;</kbd> + <kbd>N</kbd> (`Generate...`) in the editor window. This action is particularly 
+useful 
+when you need to create a large amount of repetitive code, or when you need to add functionality to your code quickly.
+
+Try out these actions using the <kbd>&#8964;</kbd> + <kbd>N</kbd> shortcut:
+
+* Create a new package from the `1: Project` _Tool Window_ to create a new class in the next step.
+* Create a new class from the `1: Project` _Tool Window_.
+* Create a new constructor in that class from the editor.
 
 <!-- tabs:end -->
 
@@ -363,6 +391,27 @@ Your turn! Use this shortcut to:
 > However, be sure to use this option with caution, as it can have unintended consequences if you're not careful.
 
 ### **Mac**
+
+Programming is not only about creating new concepts and abstractions but also about cleaning up and getting rid of old or unnecessary code.
+Fortunately, IntelliJ makes deleting code just as easy as creating it.
+
+To delete code, you can simply select the lines you want to remove and press <kbd>Shift</kbd> + <kbd>Delete</kbd>. You can use it to delete any
+code fragment in your project.
+
+Your turn! Use this shortcut to:
+
+* Delete the constructor you just created
+* Delete the class you just created (the package will probably be deleted automatically because it was the only class in there)
+
+> [!TIP]
+> For more advanced scenarios, IntelliJ provides refactoring actions to help you delete code more safely and efficiently. For example, you can use
+> the "inline and remove" refactoring action (<kbd>&#8964;</kbd> + <kbd>&#8997;</kbd> + <kbd>N</kbd>) to remove a method and all its invocations at
+> once without breaking your syntactical correctness.
+>
+> First you empty the body of the method, next you inline it (<kbd>&#8964;</kbd> + <kbd>&#8997;</kbd> + <kbd>n</kbd>).
+>
+> This is sometimes called the "nuke it" option, and it can be very handy when you want to get rid of a method that is used in multiple places.
+> However, be sure to use this option with caution, as it can have unintended consequences if you're not careful.
 
 <!-- tabs:end -->
 

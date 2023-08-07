@@ -265,8 +265,25 @@ with <kbd>Ctrl</kbd> + <kbd>Z</kbd> and retry the autocompletion using <kbd>Tab<
 Repeat the process with the other confirmation methods listed above.
 
 ### **Mac**
+After using <kbd>&#8963;</kbd> + <kbd>Shift</kbd> + <kbd>Space</kbd> or <kbd>&#8963;</kbd> + <kbd>Space</kbd> to bring up suggestions, there are multiple
+ways to confirm your selection:
 
+* Pressing <kbd>Enter</kbd> completes the code.
+* Pressing <kbd>Tab</kbd> replaces code that was there before.
+* Pressing <kbd>.</kbd> completes the code and adds a . so you can continue typing.
+* Pressing <kbd>Space</kbd> does the same but adds a space instead of a . (this is different from regular suggestions after typing a .!)
 
+As it stands, Optimus has a method called .catchphrase that takes a prefix and returns \<prefix\> Rollout!. We can rename that method to rollout.
+
+To navigate to the .catchphrase method, use <kbd>&#8984;</kbd> + <kbd>Shift</kbd> + <kbd>B</kbd>. Then delete catchphrase and replace it with
+rollout (
+don't use <kbd>Shift</kbd> + <kbd>F6</kbd>).
+
+Next, go back to the Transformers class with <kbd>&#8964;</kbd> + <kbd>[</kbd> and use autocomplete to replace the previous
+non-compiling catchPhrase method with the new rollout method. Try using <kbd>Enter</kbd> as your confirmation selection first, and then undo
+with <kbd>&#8963;</kbd> + <kbd>Z</kbd> and retry the autocompletion using <kbd>Tab</kbd> as your selection confirmation.
+
+Repeat the process with the other confirmation methods listed above.
 
 <!-- tabs:end -->
 

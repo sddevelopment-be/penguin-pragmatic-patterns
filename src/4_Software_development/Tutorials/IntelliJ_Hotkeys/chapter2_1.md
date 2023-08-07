@@ -538,3 +538,5 @@ You can now correct the typo in the method, and move on to the next exercise.
 
 > [!NOTE] As this chapter is quite lengthy, we split it up into two parts.
 > Feel free to take a break now, or continue on to Chapter 2.2. 
+
+---

@@ -370,3 +370,5 @@ Let's open `RealBall.jave`, and try to find out if this class has its own `equal
 its superclass implementations.
 
 <!-- tabs:end -->
+
+---

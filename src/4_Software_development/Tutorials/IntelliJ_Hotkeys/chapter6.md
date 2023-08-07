@@ -469,7 +469,7 @@ Notice how IntelliJ signals which parameter you are required to fill in by **emb
 
 ### **Mac**
 
-If you are ever in doubt on which parameters to provide to a method, press <kbd>ctrl</kbd> + <kbd>P</kbd>
+If you are ever in doubt on which parameters to provide to a method, press <kbd>&#8984;</kbd> + <kbd>P</kbd>
 while your cursor is inside the brackets of a method invocation statement. IntelliJ will tell you what parameterization is needed, and even
 offer a list of alternative invocation options.
 
@@ -482,3 +482,5 @@ Then put your cursor in between the brackets and type <kbd>&#8984;</kbd> + <kbd>
 Notice how IntelliJ signals which parameter you are required to fill in by **emboldening** the parameter name.
 
 <!-- tabs:end -->
+
+---

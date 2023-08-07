@@ -6,7 +6,7 @@ you to focus on your work and become more productive.
 
 We recommend that you follow along with each exercise in this section to reinforce your understanding of the hotkeys and improve your muscle memory.
 Whether you are a seasoned developer or just starting with IntelliJ IDEA, this tutorial series will help you become more proficient and productive.
-So let's get started!
+So let's get to it!
 
 ## Copy and Pasting
 
@@ -15,26 +15,22 @@ So let's get started!
 ### **Windows**
 
 To copy text, select the text you want to copy using your mouse or keyboard, then press <kbd>ctrl</kbd> + <kbd>C</kbd>. To paste the copied text,
-move
-your cursor to the desired location and press <kbd>ctrl</kbd> + <kbd>V</kbd>.
+move your cursor to the desired location and press <kbd>ctrl</kbd> + <kbd>V</kbd>.
 
-In this exercise, we will create a new constructor for Chapter1 without the number parameter, and initialize the number field to the default value
-of 0. Copy the existing Chapter1 constructor by selecting the text using your mouse, then press <kbd>ctrl</kbd> + <kbd>C</kbd>. Move your cursor to
-a
-new line below the constructor, then press <kbd>ctrl</kbd> + <kbd>V</kbd> to paste the copied text. Remove the number parameter from the new
-constructor, and initialize the number field to 0.
+In this exercise, we will create a new constructor for `Chapter1` without the number parameter, and initialize the number field to the default value
+of `0`. Copy the existing `Chapter1` constructor by selecting the text using your mouse, then press <kbd>ctrl</kbd> + <kbd>C</kbd>. Move your cursor to
+a new line below the constructor, then press <kbd>ctrl</kbd> + <kbd>V</kbd> to paste the copied text. Remove the number parameter from the newly 
+created constructor, and initialize the number field to `0`.
 
 ### **Mac**
 
 To copy text on a Mac, select the text you want to copy using your mouse or keyboard, then press <kbd>&#8984;</kbd> + <kbd>C</kbd>. To paste the
-copied
-text, move your cursor to the desired location and press <kbd>&#8984;</kbd> + <kbd>V</kbd>.
+copied text, move your cursor to the desired location and press <kbd>&#8984;</kbd> + <kbd>V</kbd>.
 
-In this exercise, we will create a new constructor for Chapter1 without the number parameter, and initialize the number field to the default value
-of 0. Copy the existing Chapter1 constructor by selecting the text using your mouse, then press <kbd>&#8984;</kbd> + <kbd>C</kbd>. Move your cursor
-to
-a new line below the constructor, then press <kbd>&#8984;</kbd> + <kbd>V</kbd> to paste the copied text. Remove the number parameter from the new
-constructor, and initialize the number field to 0.
+In this exercise, we will create a new constructor for `Chapter1` without the number parameter, and initialize the number field to the default value
+of `0`. Copy the existing `Chapter1` constructor by selecting the text using your mouse, then press <kbd>ctrl</kbd> + <kbd>C</kbd>. Move your cursor to
+a new line below the constructor, then press <kbd>&#8984;</kbd> + <kbd>V</kbd> to paste the copied text. Remove the number parameter from the newly
+created constructor, and initialize the number field to `0`.
 
 <!-- tabs:end -->
 
@@ -97,15 +93,13 @@ Open IntelliJ's Productivity Guide using these key combinations:
 First press <kbd>alt</kbd> + <kbd>h</kbd> for _(H)elp_ (in the taskbar), then press <kbd>P</kbd> to select _(P)roductivity Guide_.
 
 **bonus:** Try opening the Productivity Guide using <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>A</kbd>, then type in "Productivity Guide" in the
-search
-bar.
+search bar.
 
 ### **Mac**
 
 Open IntelliJ's Productivity Guide using these key combinations:
 First press <kbd>&#8963;</kbd> + <kbd>F2</kbd> to focus on the taskbar, then use the arrow keys to navigate to the Help menu, then press down to
-expand
-the menu itself, then press <kbd>enter</kbd> to select _My Productivity_.
+expand the menu itself, then press <kbd>enter</kbd> to select _My Productivity_.
 
 **bonus:** Try opening the Productivity Guide using <kbd>&#8984;</kbd>+ <kbd>shift</kbd> + <kbd>a</kbd>, then type in "Productivity Guide" in the
 search bar.
@@ -210,7 +204,7 @@ indentation. Rinse and repeat.
 
 ### **Windows**
 
-In most editors, Redo is mapped to <kbd>ctrl</kbd> + <kbd>y</kbd>. Not so in IntelliJ.  
+In most editors, `Redo` is mapped to <kbd>ctrl</kbd> + <kbd>y</kbd>. Not so in IntelliJ.  
 This can lead to hilarious (or super annoying) situations where you'll lose your _undo buffer_.
 
 Let's try it out and see what happens so you'll remember it better.
@@ -219,7 +213,7 @@ Add a comment above the method that reads `// this method is fugly`.
 Add a comment on a new line that reads `// such fugliness should never be allowed`.
 Press <kbd>ctrl</kbd> + <kbd>z</kbd> (_Undo_) and see what happens.
 
-Press it a couple times.
+Press it a couple of times.
 
 Now press <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>z</kbd> (_Redo_) and see what happens.
 Add these three comments to the file, each starting on a different line:
@@ -241,11 +235,12 @@ Keep this strange behavior in mind when you work in IntelliJ, or in another edit
 
 ### **Mac**
 
-The default undo and redo keyboard shortcuts on MacOS work the same over most applications. The weird behavior described in the windows section is
+The default `undo` and `redo` keyboard shortcuts on MacOS work the same over most applications. The weird behavior described in the windows section is
 not relevant for Mac users. Use <kbd>&#8984;</kbd> + <kbd>z</kbd> to undo, and <kbd>&#8984;</kbd> + <kbd>shift</kbd> + <kbd>z</kbd> to redo.
 
 <!-- tabs:end -->
 
 Congratulations! You finished the first chapter of the tutorial. If you learned a few new tricks, feel free to take a break and let the information
-sink in.
-Otherwise, we look forward to seeing you in chapter 2.
+sink in. Otherwise, we look forward to seeing you in chapter 2.
+
+---

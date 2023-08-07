@@ -428,12 +428,24 @@ Press <kbd>Ctrl</kbd> + <kbd>Q</kbd> to view the JavaDoc for the Autobot class. 
 Press <kbd>Ctrl</kbd> + <kbd>Q</kbd> twice to open a larger and separate window. Note that you cannot exit this window by pressing <kbd>Esc</kbd>,
 but you can close it by pressing <kbd>Ctrl</kbd> + <kbd>Q</kbd> again and then pressing <kbd>Esc</kbd>.
 
-You can also use <kbd>Ctrl</kbd> + <kbd>Q</kbd> from inside the autocompletion suggestion box. Try calling .toString() after your new Autobot()
-statement using autocompletion (either by typing . or by pressing <kbd>Ctrl</kbd> + <kbd>Space</kbd>).
+You can also use <kbd>Ctrl</kbd> + <kbd>Q</kbd> from inside the autocompletion suggestion box. Try calling `.toString()` after your `new Autobot()`
+statement using autocompletion (either by typing <kbd>.</kbd> or by pressing <kbd>Ctrl</kbd> + <kbd>Space</kbd>).
 
-While still in the autocompletion suggestion box, navigate to the .toString() option and press <kbd>Ctrl</kbd> + <kbd>Q</kbd> to read its JavaDoc.
+While still in the autocompletion suggestion box, navigate to the `.toString()` option and press <kbd>Ctrl</kbd> + <kbd>Q</kbd> to read the associated JavaDoc.
 
 ### **Mac**
+
+Open `Transformers.java`, and move your cursor to `Autobot`.
+
+Press <kbd>F1</kbd> to view the JavaDoc for the `Autobot` class. Press <kbd>Esc</kbd> to exit the window.
+
+Press <kbd>F1</kbd> twice to open a larger and separate window. Note that you cannot exit this window by pressing <kbd>Esc</kbd>,
+but you can close it by pressing <kbd>F1</kbd> again and then pressing <kbd>Esc</kbd>.
+
+You can also use <kbd>F1</kbd> from inside the autocompletion suggestion box. Try calling `.toString()` after your `new Autobot()`
+statement using autocompletion (either by typing <kbd>.</kbd> or by pressing <kbd>F1</kbd>).
+
+While still in the autocompletion suggestion box, navigate to the `.toString()` option and press <kbd>F1</kbd> to read the associated JavaDoc.
 
 <!-- tabs:end -->
 
@@ -443,18 +455,30 @@ While still in the autocompletion suggestion box, navigate to the .toString() op
 
 ### **Windows**
 
-If you are ever unsure which parameters to provide to a method you're trying to use, press <kbd>ctrl</kbd> + <kbd>p</kbd>
+If you are ever in doubt on which parameters to provide to a method, press <kbd>ctrl</kbd> + <kbd>P</kbd>
 while your cursor is inside the brackets of a method invocation statement. IntelliJ will tell you what parameterization is needed, and even
 offer a list of alternative invocation options.
 
-In the `Transformers.java` class, let's try to create the Decepticon, known as __"StarScream"__.
+In the `Transformers.java` class, let's try to create the `Decepticon`, known as __"StarScream"__.
 
 First uncomment the `// Decepticon.StarScream()` line.
 
-Then put your cursor in between the brackets and type <kbd>ctrl</kbd> + <kbd>p</kbd>.
+Then put your cursor in between the brackets and type <kbd>ctrl</kbd> + <kbd>P</kbd>.
 
 Notice how IntelliJ signals which parameter you are required to fill in by **emboldening** the parameter name.
 
 ### **Mac**
+
+If you are ever in doubt on which parameters to provide to a method, press <kbd>ctrl</kbd> + <kbd>P</kbd>
+while your cursor is inside the brackets of a method invocation statement. IntelliJ will tell you what parameterization is needed, and even
+offer a list of alternative invocation options.
+
+In the `Transformers.java` class, let's try to create the `Decepticon`, known as __"StarScream"__.
+
+First uncomment the `// Decepticon.StarScream()` line.
+
+Then put your cursor in between the brackets and type <kbd>&#8984;</kbd> + <kbd>P</kbd>.
+
+Notice how IntelliJ signals which parameter you are required to fill in by **emboldening** the parameter name.
 
 <!-- tabs:end -->

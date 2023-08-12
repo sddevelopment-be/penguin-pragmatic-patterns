@@ -354,7 +354,8 @@ because <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>j</kbd> is me
 
 ### **Mac**
 
-We can, however, use <kbd>ctrl</kbd> + <kbd>g</kbd> to add a cursor to a _Find buffer_ (<kbd>F3</kbd> and <kbd>ctrl</kbd> + <kbd>F3</kbd>).  
+We can, however, use <kbd>&#8963; ctrl</kbd> + <kbd>g</kbd> to add a cursor to a _Find buffer_ (<kbd>F3</kbd> and <kbd>&#8963; ctrl</kbd> + 
+<kbd>F3</kbd>).  
 Take a moment to think about what selection you would want to _Find_ in that class.
 First, try and see what would be included by pressing <kbd>&#8984;</kbd> + <kbd>F3</kbd> on the following selections: `"`, `.`, `."`.
 
@@ -364,28 +365,28 @@ First, try and see what would be included by pressing <kbd>&#8984;</kbd> + <kbd>
 > - `.` won't be good either, because we don't want to include the `.toString()`.
 > - `."` however is a near perfect fit.
 
-So let's select the first `."` at `21:17` and press <kbd>alt</kbd> + <kbd>j</kbd> once and see what happens.
-Now repeat <kbd>alt</kbd> + <kbd>j</kbd> until you've selected all of the occurrences.
+So let's select the first `."` at `21:17` and press <kbd>&#8963; ctrl</kbd> + <kbd>g</kbd> once and see what happens.
+Now repeat <kbd>&#8963; ctrl</kbd> + <kbd>g</kbd> until you've selected all of the occurrences.
 You'll notice that the last occurrence is working code, and we don't want to change that last one. So
-press <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>j</kbd> to undo that last `add to cursor` selection.
+press <kbd>&#8963; ctrl</kbd> + <kbd>shift</kbd> + <kbd>g</kbd> to undo that last `add to cursor` selection.
 
 Then let's fix the code by typing `append` after the `.`. Don't exit out of your multi-cursor just yet.
 
 Remember how in [Chapter 3](./chapter3.md) we learned about IntelliJ's _Wrapping_ feature?
 Maybe you also recall how we said that it was gonna shine in this chapter?
 
-If you haven't already, enable Wrapping with <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>a</kbd>, `smart braces`, `enter`.
+If you haven't already, enable Wrapping with <kbd>&#8984;</kbd> + <kbd>shift</kbd> + <kbd>A</kbd>, `smart braces`, `enter`.
 
-From the multi-cursors positioned after the `append` you just typed, press <kbd>shift</kbd> + <kbd>end</kbd> to select all the
+From the multi-cursors positioned after the `append` you just typed, press <kbd>shift</kbd> + <<kbd>&#8984;</kbd> + <kbd>&#8595;</kbd> to select all the
 strings, and then press `(`.
 
-As an alternative to repeatedly pressing <kbd>alt</kbd> + <kbd>j</kbd>, and if you're 100% sure that you won't include too much, you
-can also press <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>j</kbd> and add **all** occurrences to your cursors in one go.
+As an alternative to repeatedly pressing <kbd>&#8963; ctrl</kbd> + <kbd>g</kbd>, and if you're 100% sure that you won't include too much, you
+can also press <kbd>&#8984;</kbd> + <kbd>&#8963; ctrl</kbd> + <kbd>g</kbd> and add **all** occurrences to your cursors in one go.
 
-Undo <kbd>ctrl</kbd> + <kbd>z</kbd> your corrections and try it out.
+Undo <kbd>&#8984;</kbd> + <kbd>z</kbd> your corrections and try it out.
 
-Notice how <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>j</kbd> still deselects the last occurrence. This is
-because <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>j</kbd> is merely a repeated <kbd>alt</kbd> + <kbd>j</kbd>.
+Notice how <kbd>&#8963; ctrl</kbd> + <kbd>shift</kbd> + <kbd>g</kbd> still deselects the last occurrence. This is
+because <kbd>&#8984;</kbd> + <kbd>&#8963; ctrl</kbd> + <kbd>g</kbd> is merely a repeated <kbd>&#8963; ctrl</kbd> + <kbd>g</kbd>.
 
 <!-- tabs:end -->
 

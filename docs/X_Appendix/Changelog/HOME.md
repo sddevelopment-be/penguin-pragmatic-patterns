@@ -64,56 +64,6 @@ Following changes are known:
     - Add high-level description of software architecture
 
 
-## Current Working version
-
-#### Changed
-
-- formatted the patterns in `Software Development`
-- extracted appendices `Glossary`, `Changelog`, and `Reading List` to separate folders
-- main README has been updated
-- apply formatting to Markdown documents
-- moved "write good enough code" to "practices" from "concepts"
-- sidebar now uses "folder" style instead of arrows
-- update pattern template to follow the new heading structure
-- OPERAs pattern now features collapsible sections and follows the intended pattern-practice structure
-- Moved `Practices` and `Concepts` pattern categories to the top level of each pilar
-- Update _"ROI"_ pattern structure
-- visual style of sidenav
-- typography changes to improve readability on a variety of screens ( leading, spacing, and font face changes)
-- default pattern template has been updated
-- Revised the introductory text, using [ChatGPT, a language model trained by OpenAI.](https://chat.openai.com)
-
-#### Added
-
-- support for footnotes
-- docsify.js notifications plugin
-- styling to layout images
-- included information about Pattern Languages and meta-modelling
-- add description of knowledge sharing
-- animated image of local docsify usage
-- add `IntelliJ hotkeys` tutorial, by [Tim Schraepen](https://github.com/Sch3lp)
-    - Chapters 1 through 5 converted and extended with MacOS hotkeys
-    - Chapter 6 converted
-- add "External Memory" Pattern
-- add footnote plugin
-- added syntax highlighting
-- Section 0_Pattern_Language as it is not really relevant and should be added to the main README instead
-- Added section 0: Introduction
-
-#### Removed
-
-- automatic glossary creation (issue with titles)
-- automated changelog aggregation
-- cleanup of unused/confusing plugins
-- Folder-based navigation
-
-#### Fixed
-
-- images in software development patterns are now smaller
-- spelling mistakes
-- glossary is now a self-maintained section, without automated links
-- Issue with side-navigation being displayed in a strange manner
-
 ## v2.0.0
 
 #### Changed
@@ -144,3 +94,53 @@ Following changes are known:
 - Resolved various typo's
 - Automated build and deployment pipeline has been updated
 - general quality upgrades ( grammatical fixes, layout fixes, ...)
+
+## Current Working version
+
+#### Changed
+
+- formatted the patterns in `Software Development`
+- extracted appendices `Glossary`, `Changelog`, and `Reading List` to separate folders
+- main README has been updated
+- apply formatting to Markdown documents
+- moved "write good enough code" to "practices" from "concepts"
+- sidebar now uses "folder" style instead of arrows
+- update pattern template to follow the new heading structure
+- OPERAs pattern now features collapsible sections and follows the intended pattern-practice structure
+- Moved `Practices` and `Concepts` pattern categories to the top level of each pilar
+- Update _"ROI"_ pattern structure
+- visual style of sidenav
+- typography changes to improve readability on a variety of screens ( leading, spacing, and font face changes)
+- default pattern template has been updated
+- Revised the introductory text, using [ChatGPT, a language model trained by OpenAI.](https://chat.openai.com)
+
+#### Added
+
+- support for footnotes
+- docsify.js notifications plugin
+- styling to layout images
+- included information about Pattern Languages and meta-modelling
+- add description of knowledge sharing
+- animated image of local docsify usage
+- add `IntelliJ hotkeys` tutorial, by [Tim Schraepen](https://github.com/Sch3lp)
+  - Add MacOS keybind section, using [docsify-tabs](https://jhildenbiddle.github.io/docsify-tabs/#/)
+- add "External Memory" Pattern
+- add footnote plugin
+- added syntax highlighting
+- Section 0_Pattern_Language as it is not really relevant and should be added to the main README instead
+- Added section 0: Introduction
+
+#### Removed
+
+- automatic glossary creation (issue with titles)
+- automated changelog aggregation
+- cleanup of unused/confusing plugins
+- Folder-based navigation
+- dark mode removed (toggle layout issue on mobile)
+
+#### Fixed
+
+- images in software development patterns are now smaller
+- spelling mistakes
+- glossary is now a self-maintained section, without automated links
+- Issue with side-navigation being displayed in a strange manner

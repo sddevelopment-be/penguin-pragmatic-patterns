@@ -25,7 +25,6 @@ module.exports = (options) => {
 				href="https://fonts.googleapis.com/icon?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp"
 				rel="stylesheet"/>
 
-			<!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css"/> -->
 			<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css"/>
 			<link
 				rel="stylesheet"
@@ -34,10 +33,6 @@ module.exports = (options) => {
 			<link
 				rel="stylesheet"
 				href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
-			/>
-			<link
-				rel="stylesheet"
-				href="//cdn.jsdelivr.net/npm/docsify-dark-mode@latest/dist/style.min.css"
 			/>
 			<link rel="stylesheet" href="./custom.css"/>
 			<link rel="stylesheet" href="./themes/syntax.css"/>
@@ -66,18 +61,6 @@ module.exports = (options) => {
 
 				timeUpdater: {text: "_last updated: {docsify-updated}_",
 				formatUpdated: "{YYYY}/{MM}/{DD}",},
-				darkMode: {
-				dark: {
-				background: "#1c2022",
-				toggleBtnBg: "#34495e",
-				textColor: "#fefefe"
-			},
-				light: {
-				background: "white",
-				toggleBtnBg: "var(--theme-color)",
-				textColor: "#34495e"
-			}
-			},
 				tabs: {
 				persist    		: true,
 				sync       		: true,
@@ -175,8 +158,6 @@ module.exports = (options) => {
 		</body>
 
 		<script src="https://cdn.jsdelivr.net/npm/docsify-changelog-plugin@latest/dist/index.js"></script>
-
-		<script src="//cdn.jsdelivr.net/npm/docsify-dark-mode@latest/dist/index.min.js"></script>
 
 	</html>`;
 };

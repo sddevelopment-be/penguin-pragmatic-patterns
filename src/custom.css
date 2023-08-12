@@ -413,3 +413,22 @@ section.cover.has-mask .mask {
 .cover-main .anchor span {
     color: white !important;
 }
+
+/* Changes to sidebar navigation */
+.level-2 {
+    display: flex;
+    flex-flow: column;
+}
+
+.level-2 .app-sub-sidebar {
+    order: 1;
+}
+
+.level-2 .app-sub-sidebar .file {
+    margin-left: 0.125rem;
+}
+
+.level-2 ul {
+    order: 3;
+}
+

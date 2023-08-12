@@ -62,6 +62,17 @@ In this tutorial series, you will learn:
 * When and in what contexts shortcuts are useful.
 * Some patterns for multi-cursor usage.
 
+This tutorial walks you through different scenarios where the use of hotkeys is demonstrated in real-world situations. 
+Learning them this way will help you identify situations where the use of a hotkey can be beneficial during your day-to-day work.
+
+If you are interested in a quick reference for the most commonly used hotkeys, take a look at [these JetBrains IDEA reference cards](https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf).
+Looking for more personalized hotkey suggestions that will improve your development speed? Take a look at the plugin [Key Promoter X](https://plugins.jetbrains.com/plugin/9792-key-promoter-x). 
+It tracks your most commonly used actions, suggests hotkeys. It also shows you how many times you used a shortcut or took the long route.
+
+Another useful IDEA plugin for using hotkeys is the [Presentation assistant](https://www.jetbrains.com/idea/guide/tutorials/presenting/presentation-assistant/).
+This adds a hovering window which displays the key combination you just used. It is really helpful when sharing your screen with others (when 
+pairing, for example). It can also be used as additional feedback to simply remind yourself of what you just did.
+
 ### How you will learn
 
 The only way to get shortcuts into muscle memory is by using them repeatedly. This tutorial series provides a structured approach to learn
@@ -269,7 +280,7 @@ you to focus on your work and become more productive.
 
 We recommend that you follow along with each exercise in this section to reinforce your understanding of the hotkeys and improve your muscle memory.
 Whether you are a seasoned developer or just starting with IntelliJ IDEA, this tutorial series will help you become more proficient and productive.
-So let's get started!
+So let's get to it!
 
 ## Copy and Pasting
 
@@ -278,26 +289,22 @@ So let's get started!
 ### **Windows**
 
 To copy text, select the text you want to copy using your mouse or keyboard, then press <kbd>ctrl</kbd> + <kbd>C</kbd>. To paste the copied text,
-move
-your cursor to the desired location and press <kbd>ctrl</kbd> + <kbd>V</kbd>.
+move your cursor to the desired location and press <kbd>ctrl</kbd> + <kbd>V</kbd>.
 
-In this exercise, we will create a new constructor for Chapter1 without the number parameter, and initialize the number field to the default value
-of 0. Copy the existing Chapter1 constructor by selecting the text using your mouse, then press <kbd>ctrl</kbd> + <kbd>C</kbd>. Move your cursor to
-a
-new line below the constructor, then press <kbd>ctrl</kbd> + <kbd>V</kbd> to paste the copied text. Remove the number parameter from the new
-constructor, and initialize the number field to 0.
+In this exercise, we will create a new constructor for `Chapter1` without the number parameter, and initialize the number field to the default value
+of `0`. Copy the existing `Chapter1` constructor by selecting the text using your mouse, then press <kbd>ctrl</kbd> + <kbd>C</kbd>. Move your cursor to
+a new line below the constructor, then press <kbd>ctrl</kbd> + <kbd>V</kbd> to paste the copied text. Remove the number parameter from the newly 
+created constructor, and initialize the number field to `0`.
 
 ### **Mac**
 
 To copy text on a Mac, select the text you want to copy using your mouse or keyboard, then press <kbd>&#8984;</kbd> + <kbd>C</kbd>. To paste the
-copied
-text, move your cursor to the desired location and press <kbd>&#8984;</kbd> + <kbd>V</kbd>.
+copied text, move your cursor to the desired location and press <kbd>&#8984;</kbd> + <kbd>V</kbd>.
 
-In this exercise, we will create a new constructor for Chapter1 without the number parameter, and initialize the number field to the default value
-of 0. Copy the existing Chapter1 constructor by selecting the text using your mouse, then press <kbd>&#8984;</kbd> + <kbd>C</kbd>. Move your cursor
-to
-a new line below the constructor, then press <kbd>&#8984;</kbd> + <kbd>V</kbd> to paste the copied text. Remove the number parameter from the new
-constructor, and initialize the number field to 0.
+In this exercise, we will create a new constructor for `Chapter1` without the number parameter, and initialize the number field to the default value
+of `0`. Copy the existing `Chapter1` constructor by selecting the text using your mouse, then press <kbd>ctrl</kbd> + <kbd>C</kbd>. Move your cursor to
+a new line below the constructor, then press <kbd>&#8984;</kbd> + <kbd>V</kbd> to paste the copied text. Remove the number parameter from the newly
+created constructor, and initialize the number field to `0`.
 
 <!-- tabs:end -->
 
@@ -360,15 +367,13 @@ Open IntelliJ's Productivity Guide using these key combinations:
 First press <kbd>alt</kbd> + <kbd>h</kbd> for _(H)elp_ (in the taskbar), then press <kbd>P</kbd> to select _(P)roductivity Guide_.
 
 **bonus:** Try opening the Productivity Guide using <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>A</kbd>, then type in "Productivity Guide" in the
-search
-bar.
+search bar.
 
 ### **Mac**
 
 Open IntelliJ's Productivity Guide using these key combinations:
 First press <kbd>&#8963;</kbd> + <kbd>F2</kbd> to focus on the taskbar, then use the arrow keys to navigate to the Help menu, then press down to
-expand
-the menu itself, then press <kbd>enter</kbd> to select _My Productivity_.
+expand the menu itself, then press <kbd>enter</kbd> to select _My Productivity_.
 
 **bonus:** Try opening the Productivity Guide using <kbd>&#8984;</kbd>+ <kbd>shift</kbd> + <kbd>a</kbd>, then type in "Productivity Guide" in the
 search bar.
@@ -473,7 +478,7 @@ indentation. Rinse and repeat.
 
 ### **Windows**
 
-In most editors, Redo is mapped to <kbd>ctrl</kbd> + <kbd>y</kbd>. Not so in IntelliJ.  
+In most editors, `Redo` is mapped to <kbd>ctrl</kbd> + <kbd>y</kbd>. Not so in IntelliJ.  
 This can lead to hilarious (or super annoying) situations where you'll lose your _undo buffer_.
 
 Let's try it out and see what happens so you'll remember it better.
@@ -482,7 +487,7 @@ Add a comment above the method that reads `// this method is fugly`.
 Add a comment on a new line that reads `// such fugliness should never be allowed`.
 Press <kbd>ctrl</kbd> + <kbd>z</kbd> (_Undo_) and see what happens.
 
-Press it a couple times.
+Press it a couple of times.
 
 Now press <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>z</kbd> (_Redo_) and see what happens.
 Add these three comments to the file, each starting on a different line:
@@ -504,15 +509,15 @@ Keep this strange behavior in mind when you work in IntelliJ, or in another edit
 
 ### **Mac**
 
-The default undo and redo keyboard shortcuts on MacOS work the same over most applications. The weird behavior described in the windows section is
+The default `undo` and `redo` keyboard shortcuts on MacOS work the same over most applications. The weird behavior described in the windows section is
 not relevant for Mac users. Use <kbd>&#8984;</kbd> + <kbd>z</kbd> to undo, and <kbd>&#8984;</kbd> + <kbd>shift</kbd> + <kbd>z</kbd> to redo.
 
 <!-- tabs:end -->
 
 Congratulations! You finished the first chapter of the tutorial. If you learned a few new tricks, feel free to take a break and let the information
-sink in.
-Otherwise, we look forward to seeing you in chapter 2.
+sink in. Otherwise, we look forward to seeing you in chapter 2.
 
+---
 
 # Chapter 2.1 - Navigation
 
@@ -1055,6 +1060,8 @@ You can now correct the typo in the method, and move on to the next exercise.
 > [!NOTE] As this chapter is quite lengthy, we split it up into two parts.
 > Feel free to take a break now, or continue on to Chapter 2.2. 
 
+---
+
 # Chapter 2.2 - Navigation (Continuation)
 
 > [!NOTE] As this chapter is quite lengthy, we split it up into two parts.
@@ -1428,6 +1435,7 @@ its superclass implementations.
 
 <!-- tabs:end -->
 
+---
 
 # Chapter 3 - Selection
 
@@ -1553,7 +1561,7 @@ This feature really shines in combination with multi-cursor (which we'll see in 
 
 <!-- tabs:end -->
 
-
+---
 
 # Chapter 4 - Line Editing
 
@@ -1696,7 +1704,7 @@ sometimes.
 
 <!-- tabs:end -->
 
-
+---
 
 # Chapter 5 - Embedded Windows
 
@@ -1816,8 +1824,7 @@ Happy editing!
 
 <!-- tabs:end -->
 
-
-
+---
 
 # Chapter 6 - IntelliJ's Suggestions
 
@@ -2031,7 +2038,7 @@ public enum DecepticonEnum {
 
 ### **Windows**
 
-Open Transformers.java, a class with a lot of action in it. To quickly navigate to the missing constructor argument, use <kbd>F2</kbd>.
+Open `Transformers.java`, a class with a lot of action in it. To quickly navigate to the missing constructor argument, use <kbd>F2</kbd>.
 
 To have IntelliJ suggest an autocomplete option, press <kbd>Control</kbd> + <kbd>Space</kbd>. Note that even though the constructor expects an
 AutobotEnum, IntelliJ may suggest other options like new, null, equals(), etc.
@@ -2040,11 +2047,23 @@ To have IntelliJ provide more helpful context-specific code completion actions, 
 Control</kbd> + <kbd>Shift</kbd> + <kbd>Space</kbd>.
 
 Before selecting one of the AutobotEnum suggestions, try pressing <kbd>Control</kbd> + <kbd>Shift</kbd> + <kbd>Space</kbd> again. This hotkey will
-show you that there is a static method Autobot.optimusEnum() that also returns an AutobotEnum. IntelliJ knows about this method as well.
+show you that there is a static method `Autobot.optimusEnum()` that also returns an `AutobotEnum`. IntelliJ knows about this method as well.
 
 Try it out again to construct Optimus' nemesis, Megatron.
 
 ### **Mac**
+
+Open `Transformers.java`, a class with a lot of action in it. To quickly navigate to the missing constructor argument, use <kbd>F2</kbd>.
+
+To have IntelliJ suggest an autocomplete option, press <kbd>&#8963;</kbd> + <kbd>Space</kbd>. Note that even though the constructor expects an
+AutobotEnum, IntelliJ may suggest other options like `new`, `null`, `equals()`, etc.
+
+To have IntelliJ provide more helpful context-specific code completion actions, try using the alternative hotkey combination <kbd>&#8963;</kbd> + <kbd>Shift</kbd> + <kbd>Space</kbd>.
+
+Before selecting one of the AutobotEnum suggestions, try pressing <kbd>&#8963;</kbd> + <kbd>Shift</kbd> + <kbd>Space</kbd> again. This hotkey will
+show you that there is a static method `Autobot.optimusEnum()` that also returns an `AutobotEnum`. IntelliJ knows about this method as well.
+
+Try it out again to construct Optimus' nemesis, Megatron.
 
 <!-- tabs:end -->
 
@@ -2062,7 +2081,7 @@ ways to confirm your selection:
 * Pressing <kbd>.</kbd> completes the code and adds a . so you can continue typing.
 * Pressing <kbd>Space</kbd> does the same but adds a space instead of a . (this is different from regular suggestions after typing a .!)
 
-Currently, Optimus has a method called .catchphrase that takes a prefix and returns \<prefix\> Rollout!. We can rename that method to rollout.
+As it stands, Optimus has a method called .catchphrase that takes a prefix and returns \<prefix\> Rollout!. We can rename that method to rollout.
 
 To navigate to the .catchphrase method, use <kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>B</kbd>. Then delete catchphrase and replace it with rollout (
 don't use <kbd>Shift</kbd> + <kbd>F6</kbd>).
@@ -2074,6 +2093,24 @@ with <kbd>Ctrl</kbd> + <kbd>Z</kbd> and retry the autocompletion using <kbd>Tab<
 Repeat the process with the other confirmation methods listed above.
 
 ### **Mac**
+After using <kbd>&#8963;</kbd> + <kbd>Shift</kbd> + <kbd>Space</kbd> or <kbd>&#8963;</kbd> + <kbd>Space</kbd> to bring up suggestions, there are multiple
+ways to confirm your selection:
+
+* Pressing <kbd>Enter</kbd> completes the code.
+* Pressing <kbd>Tab</kbd> replaces code that was there before.
+* Pressing <kbd>.</kbd> completes the code and adds a . so you can continue typing.
+* Pressing <kbd>Space</kbd> does the same but adds a space instead of a . (this is different from regular suggestions after typing a .!)
+
+As it stands, Optimus has a method called .catchphrase that takes a prefix and returns \<prefix\> Rollout!. We can rename that method to rollout.
+
+To navigate to the .catchphrase method, use <kbd>&#8984;</kbd> + <kbd>Shift</kbd> + <kbd>B</kbd>. Then delete catchphrase and replace it with
+rollout (don't use <kbd>Shift</kbd> + <kbd>F6</kbd>).
+
+Next, go back to the Transformers class with <kbd>&#8964;</kbd> + <kbd>[</kbd> and use autocomplete to replace the previous
+non-compiling catchPhrase method with the new rollout method. Try using <kbd>Enter</kbd> as your confirmation selection first, and then undo
+with <kbd>&#8963;</kbd> + <kbd>Z</kbd> and retry the autocompletion using <kbd>Tab</kbd> as your selection confirmation.
+
+Repeat the process with the other confirmation methods listed above.
 
 <!-- tabs:end -->
 
@@ -2098,9 +2135,26 @@ issue at hand. Use cases include, but are not limited to:
 * Code not compiling? Press <kbd>Alt</kbd> + <kbd>Enter</kbd>.
 * Need to defeat agent Smith and save the matrix? Press <kbd>Alt</kbd> + <kbd>Enter</kbd>.
 
-QuickFix is so useful that it's probably the only IntelliJ shortcut you really need to remember.
+QuickFix is so useful that it's probably the only IntelliJ shortcut you really need to remember, if you want to be lazy about it.
 
 ### **Mac**
+
+IntelliJ's QuickFix is a powerful tool that can save you a lot of time and effort.
+In fact, it is so powerful that it might as well be magic.
+Whether you're creating a new constructor, generating getters and setters for newly created fields, or extracting a method or variable, QuickFix has
+got you covered. And if your code isn't compiling, QuickFix can help you fix the problem in no time.
+
+To use QuickFix, simply press <kbd>&#8997;</kbd> + <kbd>enter</kbd>. This shortcut will bring up a menu of possible actions you can take to fix the
+issue at hand. Use cases include, but are not limited to:
+
+* Creating a new constructor? Use <kbd>&#8997;</kbd> + <kbd>enter</kbd>.
+* Generating getters and setters for newly created fields? Why not try <kbd>&#8997;</kbd> + <kbd>enter</kbd>?
+* Extracting a method out of selected code? Make a selection, and press <kbd>&#8997;</kbd> + <kbd>enter</kbd>.
+* Extracting a variable? Press <kbd>&#8997;</kbd> + <kbd>enter</kbd>.
+* Code not compiling? Press <kbd>&#8997;</kbd> + <kbd>enter</kbd>.
+* Need to defeat agent Smith and save the matrix? Press <kbd>&#8997;</kbd> + <kbd>enter</kbd>.
+
+QuickFix is so useful that it's probably the only IntelliJ shortcut you really need to remember, if you want to be lazy about it.
 
 <!-- tabs:end -->
 
@@ -2115,13 +2169,25 @@ getters/setters. It saves you a lot of time and effort by automatically generati
 You can access the Generate action by pressing <kbd>Alt</kbd> + <kbd>Insert</kbd> in the editor window. This action is particularly useful when you
 need to create a large amount of repetitive code, or when you need to add functionality to your code quickly.
 
-Try out these actions using the <kbd>alt</kbd> + <kbd>insert</kbd> hotkey:
+Try out these actions using the <kbd>alt</kbd> + <kbd>insert</kbd> shortcut:
 
 * Create a new package from the `1: Project` _Tool Window_ to create a new class in the next step.
 * Create a new class from the `1: Project` _Tool Window_.
 * Create a new constructor in that class from the editor.
 
 ### **Mac**
+
+The "Generate" action in IntelliJ is a powerful feature that allows you to quickly create code constructs such as constructors, methods, and
+getters/setters. It saves you a lot of time and effort by automatically generating boilerplate code for you, based on the parameters you provide.
+You can access the Generate action by pressing <kbd>&#8964;</kbd> + <kbd>N</kbd> (`Generate...`) in the editor window. This action is particularly 
+useful 
+when you need to create a large amount of repetitive code, or when you need to add functionality to your code quickly.
+
+Try out these actions using the <kbd>&#8964;</kbd> + <kbd>N</kbd> shortcut:
+
+* Create a new package from the `1: Project` _Tool Window_ to create a new class in the next step.
+* Create a new class from the `1: Project` _Tool Window_.
+* Create a new constructor in that class from the editor.
 
 <!-- tabs:end -->
 
@@ -2154,6 +2220,27 @@ Your turn! Use this shortcut to:
 
 ### **Mac**
 
+Programming is not only about creating new concepts and abstractions but also about cleaning up and getting rid of old or unnecessary code.
+Fortunately, IntelliJ makes deleting code just as easy as creating it.
+
+To delete code, you can simply select the lines you want to remove and press <kbd>Shift</kbd> + <kbd>Delete</kbd>. You can use it to delete any
+code fragment in your project.
+
+Your turn! Use this shortcut to:
+
+* Delete the constructor you just created
+* Delete the class you just created (the package will probably be deleted automatically because it was the only class in there)
+
+> [!TIP]
+> For more advanced scenarios, IntelliJ provides refactoring actions to help you delete code more safely and efficiently. For example, you can use
+> the "inline and remove" refactoring action (<kbd>&#8964;</kbd> + <kbd>&#8997;</kbd> + <kbd>N</kbd>) to remove a method and all its invocations at
+> once without breaking your syntactical correctness.
+>
+> First you empty the body of the method, next you inline it (<kbd>&#8964;</kbd> + <kbd>&#8997;</kbd> + <kbd>n</kbd>).
+>
+> This is sometimes called the "nuke it" option, and it can be very handy when you want to get rid of a method that is used in multiple places.
+> However, be sure to use this option with caution, as it can have unintended consequences if you're not careful.
+
 <!-- tabs:end -->
 
 ## View JavaDoc
@@ -2169,12 +2256,24 @@ Press <kbd>Ctrl</kbd> + <kbd>Q</kbd> to view the JavaDoc for the Autobot class. 
 Press <kbd>Ctrl</kbd> + <kbd>Q</kbd> twice to open a larger and separate window. Note that you cannot exit this window by pressing <kbd>Esc</kbd>,
 but you can close it by pressing <kbd>Ctrl</kbd> + <kbd>Q</kbd> again and then pressing <kbd>Esc</kbd>.
 
-You can also use <kbd>Ctrl</kbd> + <kbd>Q</kbd> from inside the autocompletion suggestion box. Try calling .toString() after your new Autobot()
-statement using autocompletion (either by typing . or by pressing <kbd>Ctrl</kbd> + <kbd>Space</kbd>).
+You can also use <kbd>Ctrl</kbd> + <kbd>Q</kbd> from inside the autocompletion suggestion box. Try calling `.toString()` after your `new Autobot()`
+statement using autocompletion (either by typing <kbd>.</kbd> or by pressing <kbd>Ctrl</kbd> + <kbd>Space</kbd>).
 
-While still in the autocompletion suggestion box, navigate to the .toString() option and press <kbd>Ctrl</kbd> + <kbd>Q</kbd> to read its JavaDoc.
+While still in the autocompletion suggestion box, navigate to the `.toString()` option and press <kbd>Ctrl</kbd> + <kbd>Q</kbd> to read the associated JavaDoc.
 
 ### **Mac**
+
+Open `Transformers.java`, and move your cursor to `Autobot`.
+
+Press <kbd>F1</kbd> to view the JavaDoc for the `Autobot` class. Press <kbd>Esc</kbd> to exit the window.
+
+Press <kbd>F1</kbd> twice to open a larger and separate window. Note that you cannot exit this window by pressing <kbd>Esc</kbd>,
+but you can close it by pressing <kbd>F1</kbd> again and then pressing <kbd>Esc</kbd>.
+
+You can also use <kbd>F1</kbd> from inside the autocompletion suggestion box. Try calling `.toString()` after your `new Autobot()`
+statement using autocompletion (either by typing <kbd>.</kbd> or by pressing <kbd>F1</kbd>).
+
+While still in the autocompletion suggestion box, navigate to the `.toString()` option and press <kbd>F1</kbd> to read the associated JavaDoc.
 
 <!-- tabs:end -->
 
@@ -2184,26 +2283,40 @@ While still in the autocompletion suggestion box, navigate to the .toString() op
 
 ### **Windows**
 
-If you are ever unsure which parameters to provide to a method you're trying to use, press <kbd>ctrl</kbd> + <kbd>p</kbd>
+If you are ever in doubt on which parameters to provide to a method, press <kbd>ctrl</kbd> + <kbd>P</kbd>
 while your cursor is inside the brackets of a method invocation statement. IntelliJ will tell you what parameterization is needed, and even
 offer a list of alternative invocation options.
 
-In the `Transformers.java` class, let's try to create the Decepticon, known as __"StarScream"__.
+In the `Transformers.java` class, let's try to create the `Decepticon`, known as __"StarScream"__.
 
 First uncomment the `// Decepticon.StarScream()` line.
 
-Then put your cursor in between the brackets and type <kbd>ctrl</kbd> + <kbd>p</kbd>.
+Then put your cursor in between the brackets and type <kbd>ctrl</kbd> + <kbd>P</kbd>.
 
 Notice how IntelliJ signals which parameter you are required to fill in by **emboldening** the parameter name.
 
 ### **Mac**
 
+If you are ever in doubt on which parameters to provide to a method, press <kbd>&#8984;</kbd> + <kbd>P</kbd>
+while your cursor is inside the brackets of a method invocation statement. IntelliJ will tell you what parameterization is needed, and even
+offer a list of alternative invocation options.
+
+In the `Transformers.java` class, let's try to create the `Decepticon`, known as __"StarScream"__.
+
+First uncomment the `// Decepticon.StarScream()` line.
+
+Then put your cursor in between the brackets and type <kbd>&#8984;</kbd> + <kbd>P</kbd>.
+
+Notice how IntelliJ signals which parameter you are required to fill in by **emboldening** the parameter name.
+
 <!-- tabs:end -->
+
+---
 
 
 # Chapter 7 - Finding/Buffer
 
-Even though this is a very short chapter, the author thought it was worth including ir as it helps to introduce the next chapter on multi-cursors a
+Even though this is a very short chapter, the author thought it valuable as it helps to introduce the next chapter on multi-cursors a
 little bit better.
 
 ## Code snippets
@@ -2354,6 +2467,11 @@ Now the word _"Martians"_ has been added to our _Find Buffer_. We can easily fin
 
 ### **Mac**
 
+Let's open `WOTW.md` by pressing <kbd>&#8984;</kbd> + <kbd>O</kbd> and look for the word _"Martians"_ in the first sentence.
+
+Select this word by pressing <kbd>shift</kbd> + <kbd>&#x2191;</kbd>, then press <kbd>&#8984;</kbd> + <kbd>G</kbd> once.
+Now the word _"Martians"_ has been added to our _Find Buffer_. We can easily find the next occurrence of this word by pressing <kbd>&#8984;</kbd> + <kbd>G</kbd>.
+
 <!-- tabs:end -->
 
 ## Find next/previous occurrence from buffer
@@ -2368,12 +2486,22 @@ selected word. Conversely, using <kbd>shift</kbd> + <kbd>F3</kbd> allows you to 
 Now open `War.java`, position your cursor on `13:33` (line number 13, character number 13) using <kbd>ctrl</kbd> + <kbd>g</kbd>. Next, select
 the `.` and press <kbd>ctrl</kbd> + <kbd>F3</kbd>.
 
-Find the next `.`.
+**Exercise:** Find the next `.`.
 
 ### **Mac**
 
+See what happens when you keep on pressing <kbd>&#8984;</kbd> + <kbd>G</kbd>. If all goes well, your cursor should start iterating through all occurrences of the
+selected word. Conversely, using <kbd>&#8984;</kbd> + <kbd>shift</kbd> + <kbd>G</kbd> allows you to backtrack through the usages 
+(aka. "find previous")
+
+Now open `War.java`, position your cursor on `13:33` (line number 13, character number 13) using <kbd>&#8984;</kbd> + <kbd>G</kbd>. Next, select
+the `.` and press <kbd>&#8984;</kbd> + <kbd>G</kbd>.
+
+**Exercise:** Find the next `.`.
+
 <!-- tabs:end -->
 
+---
 
 
 # Chapter 8 - Multiple Cursors
@@ -2605,40 +2733,84 @@ insert</kbd> again. The word `Column` should no longer appear in the bottom righ
 
 ### **Mac**
 
+For starters, let's introduce you to _Column Mode_.
+Let's open `Chapter8`. The `output` variable contains a long string concatenation, but there are a few problems with it:
+
+* the `+` is missing to actually DO the concatenation
+* and there's a space missing at the end of every string
+
+You could put your cursor at the beginning of the second line, type a `+`, and then press <kbd>&#8595;</kbd> and <kbd>&#8984;</kbd> + <kbd>&#8592;</kbd>,
+and type a `+` again. Now you could repeat that process for every line, but there's an easier way.
+
+Since all the strings are lined up perfectly, wouldn't it be easier if we could first put a bunch of cursors in front of every line, and then just
+type `+`? Let's try to do just that.
+
+First position your cursor at the **beginning** of the second string (`"one hell of a"`).
+While watching the bottom right of your screen press <kbd>&#8984;</kbd> + <kbd>shift</kbd> + <kbd>8</kbd> once.
+You should see the word `Column` appear next to `UTF-8`. This means you have just toggled on `Column Mode`.
+
+Now, hold down <kbd>shift</kbd> and press <kbd>&#8595;</kbd> until you've reached the last string (`"of column mode"`). There
+should be a cursor blinking at the beginning of every line. It might look like one giant cursor, but it is in fact a bunch of them.
+
+Now simply type a `+` and be amazed.
+
+Exit out of your multi-cursors by pressing <kbd>Escape</kbd>. Exit out of _Column Mode_ by pressing <kbd>&#8984;</kbd> + <kbd>shift</kbd> + <kbd>8</kbd> again. 
+The word `Column` should no longer appear in the bottom right, indicating you have indeed exited `column select mode`.
+
 <!-- tabs:end -->
 
 ## Toggle Column Mode: part two
 
-This still leaves the issue of all of the strings not having a space at the end though.
+This still leaves the issue of all those strings not having a space at the end though.
 
 <!-- tabs:start -->
 
 ### **Windows**
 
-Let's undo our changes by pressing <kbd>ctrl</kbd> + <kbd>Z</kbd> and let's take a different approach. Notice
+Let's undo our changes by pressing <kbd>ctrl</kbd> + <kbd>Z</kbd> and take a different approach. Notice
 how using <kbd>ctrl</kbd> + <kbd>Z</kbd> once puts the multiple cursors back.
 
-Now, what we really want is a `+` at the **end** of every string, and to add a space inside all the strings. Here's how you could do that.
+Now, what we really want is a `+` at the **end** of every string, and to add a space inside all the strings. 
+Here is how you could do that.
 
 Instead of putting your cursor at the beginning of the second line, put it at the beginning of the **first** line (`"This sure is"`).
 
 Toggle _Column Mode_ again with <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>insert</kbd>, and select all the lines again by repeatedly
-pressing <kbd>down</kbd> until you've reached the second last string.
+pressing <kbd>&#8595;</kbd> until you've reached the second to last string.
 
 Now press <kbd>End</kbd>. Notice how the cursors are all at different ending positions.
 
 First let's add the spaces so our strings aren't pressed together as much. Move your cursor inside of the string by pressing <kbd>left</kbd>
 once. Then type a <kbd>space</kbd>.
 
-Then press <kbd>End</kbd> again and type a <kbd>+</kbd>. <kbd>Escape</kbd> out of the multicursor and disable _Column Mode_ by
+Then press <kbd>End</kbd> again and type a <kbd>+</kbd>. <kbd>Escape</kbd> out of the multi-cursor and disable _Column Mode_ by
 pressing <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>insert</kbd>.
 
 ### **Mac**
 
+Let's undo our changes by pressing <kbd>&#8984;</kbd> + <kbd>Z</kbd> and take a different approach. Notice
+how using <kbd>&#8984;</kbd> + <kbd>Z</kbd> once puts the multiple cursors back.
+
+Now, what we really want is a `+` at the **end** of every string, and to add a space inside all the strings.
+Here is how you could do that.
+
+Instead of putting your cursor at the beginning of the second line, put it at the beginning of the **first** line (`"This sure is"`).
+
+Toggle _Column Mode_ again with <kbd>&#8984;</kbd> + <kbd>shift</kbd> + <kbd>8</kbd>, and select all the lines again by repeatedly
+pressing <kbd>&#8595;</kbd> until you've reached the second to last string.
+
+Now press <kbd>&#8984;</kbd> + <kbd>&#8594;</kbd> . Notice how the cursors are all at different ending positions.
+
+First let's add the spaces so our strings aren't pressed together as much. Move your cursor inside of the string by pressing <kbd>&#8592;</kbd>
+once. Then type a <kbd>space</kbd>.
+
+Then press <kbd>End</kbd> again and type a <kbd>+</kbd>. <kbd>Escape</kbd> out of the multi-cursor and disable _Column Mode_ by
+pressing <kbd>&#8984;</kbd> + <kbd>shift</kbd> + <kbd>8</kbd>.
+
 <!-- tabs:end -->
 
-This is a great feature for when all the lines you want to edit are right underneath each other, but that won't always be the case.
-Let's see how we can solve that issue as well.
+This is a great feature when all the lines you want to edit are directly underneath each other. However, that won't always be the case.
+Let's take a look at how we can cope with those situations.
 
 ## Select occurrences
 
@@ -2650,8 +2822,7 @@ don't want to put a cursor at.
 
 ### **Windows**
 
-We can, however, use <kbd>alt</kbd> + <kbd>j</kbd> to add a cursor to a _Find buffer_ (<kbd>F3</kbd>
-and <kbd>ctrl</kbd> + <kbd>F3</kbd>).
+We can, however, use <kbd>alt</kbd> + <kbd>j</kbd> to add a cursor to a _Find buffer_ (<kbd>F3</kbd> and <kbd>ctrl</kbd> + <kbd>F3</kbd>).
 
 Take a moment to think about what selection you would want to _Find_ in that class.
 

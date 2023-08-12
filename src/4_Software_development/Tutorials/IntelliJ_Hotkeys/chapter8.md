@@ -429,10 +429,10 @@ Now, while still inside the `PersonTOTestBuilder`, generate setters for all the 
 Press <kbd>alt</kbd> + <kbd>insert</kbd>, select `Setters`, then press <kbd>shift</kbd> + <kbd>end</kbd> to select all
 the fields, and press <kbd>ctrl</kbd> + <kbd>Enter</kbd>.
 
-Using <kbd>Enter</kbd> would also work, but it's advisable to use <kbd>ctrl</kbd> + <kbd>Enter</kbd> when in a separate window, to
+Using <kbd>Enter</kbd> would also work, but it s advisable to use <kbd>ctrl</kbd> + <kbd>Enter</kbd> when in a separate window, to
 press the highlighted button, and perform the _Default action_.
 
-> [!INFO]
+> [!TIP]
 > Commit this sequence to muscle memory, you will get good mileage from it.
 
 Now we've got a bunch of setters in our builder... That's great, but we also want the methods to be chainable.
@@ -440,7 +440,7 @@ Now we've got a bunch of setters in our builder... That's great, but we also wan
 Select the "`void set`" part of the first setter, and press <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>j</kbd>.
 Type `PersonTOTestBuilder` (because we want a _Fluent API_, using chainable interfaces).
 
-Now we've got some options with our method names. We either want all of our configurable methods to have the `with` keyword, or you want them
+Now we've got some options with our method names. We either want all of our configurable methods to have the `with` prefix, or you want them
 lowercased.
 
 We can lowercase all of our methods by selecting the first letter: from your multi-cursors position
@@ -450,10 +450,56 @@ case.
 Now the only thing we need to do is to change the return statement to: `return this;`.
 Let's press <kbd>down</kbd>, then press <kbd>shift</kbd> + <kbd>enter</kbd>, and type `return this;`
 
-There you go, we created a TestBuilder in less than a minute of work.
+There you go! We managed to create a TestBuilder in less than a minute of work.
 Time to be pleased with ourselves and fetch a hot beverage.
 
 ### **Mac**
+
+In IntelliJ, you can create a Unit Test for a class by pressing <kbd>&#8984;</kbd> + <kbd>shift</kbd> + <kbd>t</kbd> from the class you're
+currently editing.
+
+We will now use this to our advantage while creating a TestBuilder. Open `PersonTO` with <kbd>&#8984;</kbd> + <kbd>o</kbd>, and
+press <kbd>&#8984;</kbd> + <kbd>shift</kbd> + <kbd>t</kbd>.
+
+Overwrite the class name from `PersonTOTest` to `PersonTOTestBuilder` and press <kbd>Enter</kbd>.
+
+You might want to get rid of unnecessary `org.junit.Assert.*` imports by pressing <kbd>&#8963; ctrl</kbd> + <kbd>&#8997;</kbd> + <kbd>o</kbd> 
+to _Organize Imports_.
+
+Go back <kbd>&#8984;</kbd> + <kbd>[</kbd> to the `PersonTO`, and copy all private fields over to the `PersonTOTestBuilder`.
+
+Create an empty constructor for the TestBuilder with <kbd>&#8984;</kbd> + <kbd>n</kbd>.
+Press <kbd>&#8593;</kbd> and <kbd>ctrl</kbd> + <kbd>enter</kbd> to choose `empty constructor` from the generation menu.
+
+Create a `build()` method that returns a `PersonTO`.
+
+Now, while still inside the `PersonTOTestBuilder`, generate setters for all the private fields we just copied from `PersonTO`:
+Press <kbd>&#8984;</kbd> + <kbd>n</kbd>, select `Setters`, then press <kbd>shift</kbd> + <kbd>&#8984;</kbd> + <kbd>&#8595;</kbd> to 
+select all the fields, and press <kbd>ctrl</kbd> + <kbd>Enter</kbd>.
+
+Using <kbd>Enter</kbd> would also work, but it is advisable to use <kbd>ctrl</kbd> + <kbd>Enter</kbd> when in a separate window, to
+press the highlighted button, and perform the _Default action_.
+
+> [!TIP]
+> Commit this sequence to muscle memory, you will get good mileage from it.
+
+Now we've got a bunch of setters in our builder... That's great, but we also want the methods to be chainable.
+
+Select the "`void set`" part of the first setter, and press <kbd>&#8984;</kbd> + <kbd>&#8963; ctrl</kbd> + <kbd>g</kbd>.
+Type `PersonTOTestBuilder` (because we want a _Fluent API_, using chainable interfaces).
+
+Now we've got some options with our method names. We either want all of our configurable methods to have the `with` prefix, or you want them
+lowercased.
+
+We can lowercase all of our methods by selecting the first letter: from your multi-cursors position
+press <kbd>shift</kbd> + <kbd>&#8594;</kbd>. Then press <kbd>&#8984;</kbd> + <kbd>shift</kbd> + <kbd>u</kbd> to toggle lower or upper
+case.
+
+Now the only thing we need to do is to change the return statement to: `return this;`.
+Let's press <kbd>&#8595;</kbd>, then press <kbd>shift</kbd> + <kbd>enter</kbd>, and type `return this;`
+
+There you go! We managed to create a TestBuilder in less than a minute of work.
+Time to be pleased with ourselves and fetch a hot beverage.
 
 <!-- tabs:end -->
 

@@ -218,6 +218,10 @@ Programs that create, delete, copy, rename, print, dump, list, and generally man
 Several text editors may be available to create and modify the content of files stored on disk or other storage devices.
 There may also be special commands to search contents of files or perform transformations of the text.
 
+### Fluent API
+
+In software engineering, a fluent interface is an object-oriented API whose design relies extensively on method chaining. Its goal is to increase code legibility by creating a domain-specific language. The term was coined in 2005 by Eric Evans and Martin Fowler.
+
 ## G
 
 ### Garbage collection
@@ -323,6 +327,15 @@ A collection of mailboxes, as declared by the task, which can be grouped togethe
 
 Depending on the memory system used by the computer's operating system, this information may include such elements as the value of the `base`
 and `limit` registers, `page tables` or `segment tables`.
+
+### Method chaining
+
+An (objective) programing technique where methods performed on an object can be called directly after each other.
+To acomplish this, the chainable methods end by returning the object on which the action was performed, as opposed to a `void` return type.
+
+```java
+greeter.hello("world").foo(bar).onConnect(() -> allYourBase());
+```
 
 ### Micro Kernel
 

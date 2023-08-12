@@ -94,6 +94,7 @@ Following changes are known:
 - Resolved various typo's
 - Automated build and deployment pipeline has been updated
 - general quality upgrades ( grammatical fixes, layout fixes, ...)
+- Issue with sidenav element order ([css flex added](https://stackoverflow.com/questions/7425665/switching-the-order-of-block-elements-with-css)) 
 
 ## Current Working version
 

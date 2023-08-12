@@ -1,3 +1,51 @@
+In this tutorial series, you will learn:
+
+* How to increase your productivity by using IntelliJ shortcuts.
+* When and in what contexts shortcuts are useful.
+* Some patterns for multi-cursor usage.
+
+This tutorial walks you through different scenarios where the use of hotkeys is demonstrated in real-world situations.
+Learning them this way will help you identify situations where the use of a hotkey can be beneficial during your day-to-day work.
+
+If you are interested in a quick reference for the most commonly used hotkeys, take a look at [these JetBrains IDEA reference cards](https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf).
+Looking for more personalized hotkey suggestions that will improve your development speed? Take a look at the plugin [Key Promoter X](https://plugins.jetbrains.com/plugin/9792-key-promoter-x).
+It tracks your most commonly used actions, suggests hotkeys. It also shows you how many times you used a shortcut or took the long route.
+
+Another useful IDEA plugin for using hotkeys is the [Presentation assistant](https://www.jetbrains.com/idea/guide/tutorials/presenting/presentation-assistant/).
+This adds a hovering window which displays the key combination you just used. It is really helpful when sharing your screen with others (when
+pairing, for example). It can also be used as additional feedback to simply remind yourself of what you just did.
+
+## License
+
+This tutorial series was originally published under the MIT License as [`ProductivityWithShortcuts`](https://github.com/Sch3lp/ProductivityWithShortcuts), by its creator: [Tim Schraepen](https://github.com/Sch3lp).
+
+<details>
+<summary>The MIT License (MIT) - Copyright (c) 2016 Tim Schraepen </summary>
+
+> The MIT License (MIT)
+>
+> Copyright (c) 2016 Tim Schraepen
+>
+> Permission is hereby granted, free of charge, to any person obtaining a copy
+> of this software and associated documentation files (the "Software"), to deal
+> in the Software without restriction, including without limitation the rights
+> to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+> copies of the Software, and to permit persons to whom the Software is
+> furnished to do so, subject to the following conditions:
+>
+> The above copyright notice and this permission notice shall be included in all
+> copies or substantial portions of the Software.
+>
+> THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+> IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+> FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+> AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+> LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+> OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+> SOFTWARE.
+
+</details>
+
 ## Tutorial structure
 
 Each chapter contains a detailed explanation, and a set of exercises. Although the progression in these chapters may seem to increase in difficulty,
@@ -8,6 +56,8 @@ pathways by attempting to grouping certain types of shortcuts into categories. T
 > To speed up your tutorial progression, we strongly advise you to copy the entire source code used in the tutorial to your local machine. You
 > can either fetch this code from the [original author's GitHub page](https://github.com/Sch3lp/ProductivityWithShortcuts), or from
 > our [copied version](https://github.com/sddevelopment-be/penguin-pragmatic-patterns/tree/main/code/productivity_with_shortcuts).
+
+
 
 ### Quality of life improvements
 
@@ -27,25 +77,6 @@ Contains a description for the macOS operating system family.
 
 <!-- tabs:end -->
 
-### What you will learn
-
-In this tutorial series, you will learn:
-
-* How to increase your productivity by using IntelliJ shortcuts.
-* When and in what contexts shortcuts are useful.
-* Some patterns for multi-cursor usage.
-
-This tutorial walks you through different scenarios where the use of hotkeys is demonstrated in real-world situations. 
-Learning them this way will help you identify situations where the use of a hotkey can be beneficial during your day-to-day work.
-
-If you are interested in a quick reference for the most commonly used hotkeys, take a look at [these JetBrains IDEA reference cards](https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf).
-Looking for more personalized hotkey suggestions that will improve your development speed? Take a look at the plugin [Key Promoter X](https://plugins.jetbrains.com/plugin/9792-key-promoter-x). 
-It tracks your most commonly used actions, suggests hotkeys. It also shows you how many times you used a shortcut or took the long route.
-
-Another useful IDEA plugin for using hotkeys is the [Presentation assistant](https://www.jetbrains.com/idea/guide/tutorials/presenting/presentation-assistant/).
-This adds a hovering window which displays the key combination you just used. It is really helpful when sharing your screen with others (when 
-pairing, for example). It can also be used as additional feedback to simply remind yourself of what you just did.
-
 ### How you will learn
 
 The only way to get shortcuts into muscle memory is by using them repeatedly. This tutorial series provides a structured approach to learn
@@ -60,9 +91,11 @@ productivity shortcuts by incrementally challenging exercises that will help you
 
 If you find these exercises useful, share them with your friends and colleagues and drop a line to thank [Tim](https://github.com/Sch3lp) for making this tutorial publicly available.
 
-### Code snippets
+## Code snippets
 
-#### Package: be.swsb.productivity.common
+All code accompanying this tutorial series can be downloaded in bulk from [sch3lp/ProductivityWithShortcuts](https://github.com/Sch3lp/ProductivityWithShortcuts/tree/master/src)
+
+### Package: be.swsb.productivity.common
 
 <!-- tabs:start -->
 

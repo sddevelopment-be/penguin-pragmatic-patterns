@@ -1,6 +1,28 @@
 # IntelliJ_Hotkeys
 
+In this tutorial series, you will learn:
+
+* How to increase your productivity by using IntelliJ shortcuts.
+* When and in what contexts shortcuts are useful.
+* Some patterns for multi-cursor usage.
+
+This tutorial walks you through different scenarios where the use of hotkeys is demonstrated in real-world situations.
+Learning them this way will help you identify situations where the use of a hotkey can be beneficial during your day-to-day work.
+
+If you are interested in a quick reference for the most commonly used hotkeys, take a look at [these JetBrains IDEA reference cards](https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf).
+Looking for more personalized hotkey suggestions that will improve your development speed? Take a look at the plugin [Key Promoter X](https://plugins.jetbrains.com/plugin/9792-key-promoter-x).
+It tracks your most commonly used actions, suggests hotkeys. It also shows you how many times you used a shortcut or took the long route.
+
+Another useful IDEA plugin for using hotkeys is the [Presentation assistant](https://www.jetbrains.com/idea/guide/tutorials/presenting/presentation-assistant/).
+This adds a hovering window which displays the key combination you just used. It is really helpful when sharing your screen with others (when
+pairing, for example). It can also be used as additional feedback to simply remind yourself of what you just did.
+
+## License
+
 This tutorial series was originally published under the MIT License as [`ProductivityWithShortcuts`](https://github.com/Sch3lp/ProductivityWithShortcuts), by its creator: [Tim Schraepen](https://github.com/Sch3lp).
+
+<details>
+<summary>The MIT License (MIT) - Copyright (c) 2016 Tim Schraepen </summary>
 
 > The MIT License (MIT)
 >
@@ -24,6 +46,7 @@ This tutorial series was originally published under the MIT License as [`Product
 > OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 > SOFTWARE.
 
+</details>
 
 ## Tutorial structure
 
@@ -35,6 +58,8 @@ pathways by attempting to grouping certain types of shortcuts into categories. T
 > To speed up your tutorial progression, we strongly advise you to copy the entire source code used in the tutorial to your local machine. You
 > can either fetch this code from the [original author's GitHub page](https://github.com/Sch3lp/ProductivityWithShortcuts), or from
 > our [copied version](https://github.com/sddevelopment-be/penguin-pragmatic-patterns/tree/main/code/productivity_with_shortcuts).
+
+
 
 ### Quality of life improvements
 
@@ -53,25 +78,6 @@ Contains a description for the Windows operating system family.
 Contains a description for the macOS operating system family.
 
 <!-- tabs:end -->
-
-### What you will learn
-
-In this tutorial series, you will learn:
-
-* How to increase your productivity by using IntelliJ shortcuts.
-* When and in what contexts shortcuts are useful.
-* Some patterns for multi-cursor usage.
-
-This tutorial walks you through different scenarios where the use of hotkeys is demonstrated in real-world situations. 
-Learning them this way will help you identify situations where the use of a hotkey can be beneficial during your day-to-day work.
-
-If you are interested in a quick reference for the most commonly used hotkeys, take a look at [these JetBrains IDEA reference cards](https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf).
-Looking for more personalized hotkey suggestions that will improve your development speed? Take a look at the plugin [Key Promoter X](https://plugins.jetbrains.com/plugin/9792-key-promoter-x). 
-It tracks your most commonly used actions, suggests hotkeys. It also shows you how many times you used a shortcut or took the long route.
-
-Another useful IDEA plugin for using hotkeys is the [Presentation assistant](https://www.jetbrains.com/idea/guide/tutorials/presenting/presentation-assistant/).
-This adds a hovering window which displays the key combination you just used. It is really helpful when sharing your screen with others (when 
-pairing, for example). It can also be used as additional feedback to simply remind yourself of what you just did.
 
 ### How you will learn
 

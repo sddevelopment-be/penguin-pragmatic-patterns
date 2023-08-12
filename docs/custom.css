@@ -415,20 +415,20 @@ section.cover.has-mask .mask {
 }
 
 /* Changes to sidebar navigation */
-.level-2 {
+.folder {
     display: flex;
     flex-flow: column;
 }
 
-.level-2 .app-sub-sidebar {
+.folder .app-sub-sidebar {
     order: 1;
 }
 
-.level-2 .app-sub-sidebar .file {
+.folder .app-sub-sidebar .file {
     margin-left: 0.125rem;
 }
 
-.level-2 ul {
+.folder ul {
     order: 3;
 }
 

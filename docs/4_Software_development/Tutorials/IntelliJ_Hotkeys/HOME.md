@@ -369,9 +369,6 @@ action you want to perform. Use this method to look up the `copy` and `paste` ac
 ### **Windows**
 
 Open IntelliJ's Productivity Guide using these key combinations:
-First press <kbd>Alt</kbd> + <kbd>H</kbd> for (H)elp (in the taskbar), then press <kbd>P</kbd> to select (P)roductivity Guide.
-
-Open IntelliJ's Productivity Guide using these key combinations:
 First press <kbd>alt</kbd> + <kbd>h</kbd> for _(H)elp_ (in the taskbar), then press <kbd>P</kbd> to select _(P)roductivity Guide_.
 
 **bonus:** Try opening the Productivity Guide using <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>A</kbd>, then type in "Productivity Guide" in the
@@ -383,7 +380,7 @@ Open IntelliJ's Productivity Guide using these key combinations:
 First press <kbd>&#8963;</kbd> + <kbd>F2</kbd> to focus on the taskbar, then use the arrow keys to navigate to the Help menu, then press down to
 expand the menu itself, then press <kbd>enter</kbd> to select _My Productivity_.
 
-**bonus:** Try opening the Productivity Guide using <kbd>&#8984;</kbd>+ <kbd>shift</kbd> + <kbd>a</kbd>, then type in "Productivity Guide" in the
+**bonus:** Try opening the Productivity Guide using <kbd>&#8984;</kbd> + <kbd>shift</kbd> + <kbd>a</kbd>, then type in "Productivity Guide" in the
 search bar.
 
 <!-- tabs:end -->
@@ -467,6 +464,10 @@ Hint: When manually indenting, first use <kbd>shift</kbd> + <kbd>Tab</kbd> to un
 side, then <kbd>Tab</kbd> the entire selection into its first indentation, decrease your selection and <kbd>Tab</kbd>  that into its second
 indentation. Rinse and repeat.
 
+You can use this combination on specific lines, as well on entire files.
+Open FuglyToo.java, select a couple of lines starting with the `.withFace(face()` line and press <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>l</kbd>.
+Now empty your selection (select nothing), and press <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>l</kbd> again.
+
 ### **Mac**
 
 Open `Fugly.java`, use selection and indent the test builder patterns properly.
@@ -477,6 +478,10 @@ lines.
 Hint: When manually indenting, first use <kbd>shift</kbd> + <kbd>&#8677;</kbd> to unindent everything until the entire selection is against the left
 side, then <kbd>&#8677;</kbd> the entire selection into its first indentation, decrease your selection and <kbd>&#8677;</kbd> that into its second
 indentation. Rinse and repeat.
+
+You can use this combination on specific lines, as well on entire files.
+Open FuglyToo.java, select a couple of lines starting with the `.withFace(face()` line and press <kbd>&#8963;</kbd> + <kbd>&#8997;</kbd> + <kbd>l</kbd>.
+Now empty your selection (select nothing), and press <kbd>&#8963;</kbd> + <kbd>&#8997;</kbd> + <kbd>l</kbd> again.
 
 <!-- tabs:end -->
 

@@ -418,7 +418,7 @@ Try to use _Skip Word_ with <kbd>&#8997;</kbd> + <kbd>&#8594;</kbd> on that meth
 
 Depending on your CamelHumps setting, your cursor either ended up on the _"Q"_ or it skipped the entire method name and ended up on the _"("_.
 
-Return to the beginning of the method name and press<kbd>&#8984;</kbd> + <kbd>a</kbd>, then type `CamelHump`. There used to be a setting
+Return to the beginning of the method name and press <kbd>&#8984;</kbd> + <kbd>a</kbd>, then type `CamelHump`. There used to be a setting
 named `Smart Keys: Use "CamelHumps" words` with a toggle indicator, but this disappeared since some new release around 2019.
 
 Instead if you want to do something using the alternative CamelHumps mode, there **is** an action in the action menu for that.

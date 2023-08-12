@@ -506,10 +506,10 @@ Time to be pleased with ourselves and fetch a hot beverage.
 ### Testing Enum Lists
 
 We've got a made up `Status` enum containing a bunch of statuses that contain another made up `SubStatus`.
-In the correspodning Unit Test, aptly named `StatusTest`, we want to test that the static methods return the correct `Statuses` based on their
+In the corresponding Unit Test, aptly named `StatusTest`, we want to test that the static methods return the correct `Statuses` based on their
 `SubStatus`. The implementation is already there, we just need a good list summation in our `.containsOnly` of the `NOT_REALLY` test.
 
-In this excercise, we will be using multi-cursors to get a list of elements we can use for our test.
+In this exercise, we will be using multi-cursors to get a list of elements we can use for our test.
 
 <!-- tabs:start -->
 
@@ -522,7 +522,7 @@ status. Now try to select the Statuses themselves.
 > You might have to disable `CamelHumps` with <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>a</kbd> to help with the selection.
 
 Copy (<kbd>ctrl</kbd> + <kbd>c</kbd>) these.
-Now navigate back to `StatusTest.java`. Before you paste, enable _Column Mode_, make sure there's a bunch of empty lines, and paste your
+Now navigate back to `StatusTest.java`. Before you paste, enable _Column Mode_ (<kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>insert</kbd>), make sure there's a bunch of empty lines, and paste your
 buffered lines to their destination.
 By using _Column Mode_, we ensure our multiple cursors remain active and usable after pasting.
 
@@ -536,11 +536,30 @@ Now: complete the `yaReallyStatuses_ContainOnlyDoneAndDunno` test on your own.
 
 ### **Mac**
 
+Open `Status.java`, and use <kbd>&#8963; ctrl</kbd> + <kbd>g</kbd> on `NOT_REALLY` until you've got cursors on all the enums with that
+status. Now try to select the Statuses themselves.
+
+> [!TIP]
+> You might have to disable `CamelHumps` with <kbd>&#8984;</kbd> + <kbd>a</kbd> to help with the selection.
+
+Copy (&#8984; + <kbd>c</kbd>) these.
+Now navigate back to `StatusTest.java`. Before you paste, enable _Column Mode_ (<kbd>&#8984;</kbd> + <kbd>shift</kbd> + <kbd>8</kbd>), make sure there's a bunch of empty lines, and paste your
+buffered lines to their destination.
+By using _Column Mode_, we ensure our multiple cursors remain active and usable after pasting.
+
+With our multi-cursors still there, put a `,` behind every copied enum value,
+and press <kbd>&#8963; ctrl</kbd> + <kbd>shift</kbd> + <kbd>j</kbd> to join all the lines.
+
+Now: complete the `yaReallyStatuses_ContainOnlyDoneAndDunno` test on your own.
+
+> [!TIP]
+> <kbd>&#8984;</kbd> + <kbd>N</kbd> is context sensitive, meaning IntelliJ will know what you want because you're in a Unit Test.
+
 <!-- tabs:end -->
 
 ### Making CSV lists from XML
 
-Here's an excerpt of an `xml` file containing a bunch of people from DC's Batman universe.
+Here's an excerpt of an XML file containing a bunch of people from DC's Batman universe.
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -566,7 +585,7 @@ Here's an excerpt of an `xml` file containing a bunch of people from DC's Batman
 </Persons>
 ```
 
-We'll try and create a csv list from this xml.
+We'll try and create a CSV list from this XML.
 
 <!-- tabs:start -->
 
@@ -585,6 +604,23 @@ that, we would also include the `</Person>` tags.
 These tags though, denote the end of one line, so let's first get rid of those and replace them with simple `new lines`.
 This means we can simply get rid of the start tag `<Person>` with <kbd>ctrl</kbd> + <kbd>y</kbd>.
 
+### **Mac**
+
+So let's open (<kbd>&#8984;</kbd> + <kbd>O</kbd>) `Batman.xml`, and navigate to the directory where it's at
+with <kbd>&#8984;</kbd> + <kbd>1</kbd>.
+
+Create a new file with <kbd>&#8984;</kbd> + <kbd>n</kbd> and call it `persons.csv`.
+
+Copy the contents of `Batman.xml` into `persons.csv`. We can already delete the first line with <kbd>&#8984;</kbd> + <kbd>backspace</kbd>.
+
+We know that every `</` denotes the end of one field, but if we were to use <kbd>&#8984;</kbd> + <kbd>&#8963; ctrl</kbd> + <kbd>g</kbd> on
+that, we would also include the `</Person>` tags.
+
+These tags though, denote the end of one line, so let's first get rid of those and replace them with simple `new lines`.
+This means we can simply get rid of the start tag `<Person>` with <kbd>&#8984;</kbd> + <kbd>backspace</kbd>.
+
+<!-- tabs:end -->
+
 Your file should now only contain items like this one:
 
 ```xml
@@ -595,7 +631,17 @@ Your file should now only contain items like this one:
 <SecretIdentity>Batman</SecretIdentity>
 ```
 
+<!-- tabs:start -->
+
+### **Windows**
+
 Select all the closing tags by selecting `</` and <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>j</kbd>, and replace them by a `,`.
+
+### **Mac**
+
+Select all the closing tags by selecting `</` and <kbd>&#8984;</kbd> + <kbd>&#8963; ctrl</kbd> + <kbd>g</kbd>, and replace them by a `,`.
+
+<!-- tabs:end -->
 
 Your file should now only contain items that look like this:
 
@@ -608,7 +654,12 @@ Your file should now only contain items that look like this:
 ```
 
 We will now get rid of the opening tags, so we end up with a CSV-formatted file.
-If you want to retain the tag names as a CSV header line you can <kbd>alt</kbd> + <kbd>j</kbd> on the opening angular brackets
+
+<!-- tabs:start -->
+
+### **Windows**
+
+If you want to retain the tag names as a CSV header line you can <kbd>alt</kbd> + <kbd>j</kbd> on the opening angular brackets (`<`)
 and <kbd>ctrl</kbd> + <kbd>w</kbd> to select all tag names.
 
 Paste them at the top (`home`) while in _Column Mode_ to retain the multi-cursors, at the <kbd>end</kbd> of the line put
@@ -616,13 +667,30 @@ a `,` and press <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>j</kbd>. The `j` indic
 
 Then select all the opening tags by selecting `<` and pressing <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>j</kbd>.
 
-Expand selection with <kbd>ctrl</kbd> + <kbd>w</kbd>, delete the tags, <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>j</kbd> (joining lines).
-and remove the last `,` at the <kbd>end</kbd> of the line. You can then still get rid of excess new lines by
-pressing `up` and either <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>j</kbd> or <kbd>ctrl</kbd> + <kbd>y</kbd> delete
+Expand selection with <kbd>ctrl</kbd> + <kbd>w</kbd>, delete the tags, and join the lines together (<kbd>ctrl</kbd> + <kbd>shift</kbd> + 
+<kbd>j</kbd> ).
+Now remove the last `,` at the <kbd>end</kbd> of the line. You can then still get rid of excess new lines by
+pressing <kbd>&#8593;</kbd> and either <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>j</kbd> or <kbd>ctrl</kbd> + <kbd>y</kbd> delete
 line.
 
 And that's it.
 
 ### **Mac**
+
+If you want to retain the tag names as a CSV header line you can <kbd>&#8963; ctrl</kbd> + <kbd>g</kbd> on the opening angular brackets (`<`)
+and <kbd>&#8997; Opt</kbd> + <kbd>&#8593;</kbd> to select all tag names.
+
+Paste them at the top ( <kbd>&#8984;</kbd> + <kbd>&#8593;</kbd> ) while in _Column Mode_ to retain the multi-cursors, at the end (<kbd>&#8984;</kbd> + <kbd>&#8594;</kbd>) of the 
+line put a `,` and press <kbd>&#8963; ctrl</kbd> + <kbd>shift</kbd> + <kbd>j</kbd>. The `j` indicating we wish to join lines together.
+
+Then select all the opening tags by selecting `<` and pressing  <kbd>&#8984;</kbd> + <kbd>&#8963; ctrl</kbd> + <kbd>g</kbd>.
+
+Expand selection with <kbd>&#8997; Opt</kbd> + <kbd>&#8593;</kbd>, delete the tags, and join the lines together (<kbd>&#8963; ctrl</kbd> + 
+<kbd>shift</kbd> + <kbd>j</kbd>).
+Now remove the last `,` at the end of the line. You can then still get rid of excess new lines by
+pressing <kbd>&#8593;</kbd> and either <kbd>&#8963; ctrl</kbd> + <kbd>shift</kbd> + <kbd>j</kbd> or <kbd>&#8984;</kbd> + <kbd>backspace</kbd> delete
+line.
+
+And that's it.
 
 <!-- tabs:end -->

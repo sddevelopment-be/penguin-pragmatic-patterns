@@ -93,9 +93,11 @@ productivity shortcuts by incrementally challenging exercises that will help you
 
 If you find these exercises useful, share them with your friends and colleagues and drop a line to thank [Tim](https://github.com/Sch3lp) for making this tutorial publicly available.
 
-### Code snippets
+## Code snippets
 
-#### Package: be.swsb.productivity.common
+All code accompanying this tutorial series can be downloaded in bulk from [sch3lp/ProductivityWithShortcuts](https://github.com/Sch3lp/ProductivityWithShortcuts/tree/master/src)
+
+### Package: be.swsb.productivity.common
 
 <!-- tabs:start -->
 
@@ -945,7 +947,7 @@ Try to use _Skip Word_ with <kbd>&#8997;</kbd> + <kbd>&#8594;</kbd> on that meth
 
 Depending on your CamelHumps setting, your cursor either ended up on the _"Q"_ or it skipped the entire method name and ended up on the _"("_.
 
-Return to the beginning of the method name and press<kbd>&#8984;</kbd> + <kbd>a</kbd>, then type `CamelHump`. There used to be a setting
+Return to the beginning of the method name and press <kbd>&#8984;</kbd> + <kbd>a</kbd>, then type `CamelHump`. There used to be a setting
 named `Smart Keys: Use "CamelHumps" words` with a toggle indicator, but this disappeared since some new release around 2019.
 
 Instead if you want to do something using the alternative CamelHumps mode, there **is** an action in the action menu for that.
@@ -2828,11 +2830,9 @@ don't want to put a cursor at.
 
 ### **Windows**
 
-We can, however, use <kbd>alt</kbd> + <kbd>j</kbd> to add a cursor to a _Find buffer_ (<kbd>F3</kbd> and <kbd>ctrl</kbd> + <kbd>F3</kbd>).
-
+We can, however, use <kbd>alt</kbd> + <kbd>j</kbd> to add a cursor to a _Find buffer_ (<kbd>F3</kbd> and <kbd>ctrl</kbd> + <kbd>F3</kbd>).  
 Take a moment to think about what selection you would want to _Find_ in that class.
-
-Let's first try to see what would be included by pressing <kbd>ctrl</kbd> + <kbd>F3</kbd> on the following selections: `"`, `.`, `."`.
+First, try and see what would be included by pressing <kbd>ctrl</kbd> + <kbd>F3</kbd> on the following selections: `"`, `.`, `."`.
 
 > [!TIP]
 > Spoiler:
@@ -2867,6 +2867,40 @@ because <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>j</kbd> is me
 > Using this key combination often is also a great way to train your manual dexterity.
 
 ### **Mac**
+
+We can, however, use <kbd>&#8963; ctrl</kbd> + <kbd>g</kbd> to add a cursor to a _Find buffer_ (<kbd>F3</kbd> and <kbd>&#8963; ctrl</kbd> + 
+<kbd>F3</kbd>).  
+Take a moment to think about what selection you would want to _Find_ in that class.
+First, try and see what would be included by pressing <kbd>&#8984;</kbd> + <kbd>F3</kbd> on the following selections: `"`, `.`, `."`.
+
+> [!TIP]
+> Spoiler:
+> - `"` won't be good, because then we'd also end up with a cursor at the end of the string.
+> - `.` won't be good either, because we don't want to include the `.toString()`.
+> - `."` however is a near perfect fit.
+
+So let's select the first `."` at `21:17` and press <kbd>&#8963; ctrl</kbd> + <kbd>g</kbd> once and see what happens.
+Now repeat <kbd>&#8963; ctrl</kbd> + <kbd>g</kbd> until you've selected all of the occurrences.
+You'll notice that the last occurrence is working code, and we don't want to change that last one. So
+press <kbd>&#8963; ctrl</kbd> + <kbd>shift</kbd> + <kbd>g</kbd> to undo that last `add to cursor` selection.
+
+Then let's fix the code by typing `append` after the `.`. Don't exit out of your multi-cursor just yet.
+
+Remember how in [Chapter 3](./chapter3.md) we learned about IntelliJ's _Wrapping_ feature?
+Maybe you also recall how we said that it was gonna shine in this chapter?
+
+If you haven't already, enable Wrapping with <kbd>&#8984;</kbd> + <kbd>shift</kbd> + <kbd>A</kbd>, `smart braces`, `enter`.
+
+From the multi-cursors positioned after the `append` you just typed, press <kbd>shift</kbd> + <<kbd>&#8984;</kbd> + <kbd>&#8595;</kbd> to select all the
+strings, and then press `(`.
+
+As an alternative to repeatedly pressing <kbd>&#8963; ctrl</kbd> + <kbd>g</kbd>, and if you're 100% sure that you won't include too much, you
+can also press <kbd>&#8984;</kbd> + <kbd>&#8963; ctrl</kbd> + <kbd>g</kbd> and add **all** occurrences to your cursors in one go.
+
+Undo <kbd>&#8984;</kbd> + <kbd>z</kbd> your corrections and try it out.
+
+Notice how <kbd>&#8963; ctrl</kbd> + <kbd>shift</kbd> + <kbd>g</kbd> still deselects the last occurrence. This is
+because <kbd>&#8984;</kbd> + <kbd>&#8963; ctrl</kbd> + <kbd>g</kbd> is merely a repeated <kbd>&#8963; ctrl</kbd> + <kbd>g</kbd>.
 
 <!-- tabs:end -->
 
@@ -2909,10 +2943,10 @@ Now, while still inside the `PersonTOTestBuilder`, generate setters for all the 
 Press <kbd>alt</kbd> + <kbd>insert</kbd>, select `Setters`, then press <kbd>shift</kbd> + <kbd>end</kbd> to select all
 the fields, and press <kbd>ctrl</kbd> + <kbd>Enter</kbd>.
 
-Using <kbd>Enter</kbd> would also work, but it's advisable to use <kbd>ctrl</kbd> + <kbd>Enter</kbd> when in a separate window, to
+Using <kbd>Enter</kbd> would also work, but it s advisable to use <kbd>ctrl</kbd> + <kbd>Enter</kbd> when in a separate window, to
 press the highlighted button, and perform the _Default action_.
 
-> [!INFO]
+> [!TIP]
 > Commit this sequence to muscle memory, you will get good mileage from it.
 
 Now we've got a bunch of setters in our builder... That's great, but we also want the methods to be chainable.
@@ -2920,7 +2954,7 @@ Now we've got a bunch of setters in our builder... That's great, but we also wan
 Select the "`void set`" part of the first setter, and press <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>j</kbd>.
 Type `PersonTOTestBuilder` (because we want a _Fluent API_, using chainable interfaces).
 
-Now we've got some options with our method names. We either want all of our configurable methods to have the `with` keyword, or you want them
+Now we've got some options with our method names. We either want all of our configurable methods to have the `with` prefix, or you want them
 lowercased.
 
 We can lowercase all of our methods by selecting the first letter: from your multi-cursors position
@@ -2930,20 +2964,66 @@ case.
 Now the only thing we need to do is to change the return statement to: `return this;`.
 Let's press <kbd>down</kbd>, then press <kbd>shift</kbd> + <kbd>enter</kbd>, and type `return this;`
 
-There you go, we created a TestBuilder in less than a minute of work.
+There you go! We managed to create a TestBuilder in less than a minute of work.
 Time to be pleased with ourselves and fetch a hot beverage.
 
 ### **Mac**
+
+In IntelliJ, you can create a Unit Test for a class by pressing <kbd>&#8984;</kbd> + <kbd>shift</kbd> + <kbd>t</kbd> from the class you're
+currently editing.
+
+We will now use this to our advantage while creating a TestBuilder. Open `PersonTO` with <kbd>&#8984;</kbd> + <kbd>o</kbd>, and
+press <kbd>&#8984;</kbd> + <kbd>shift</kbd> + <kbd>t</kbd>.
+
+Overwrite the class name from `PersonTOTest` to `PersonTOTestBuilder` and press <kbd>Enter</kbd>.
+
+You might want to get rid of unnecessary `org.junit.Assert.*` imports by pressing <kbd>&#8963; ctrl</kbd> + <kbd>&#8997;</kbd> + <kbd>o</kbd> 
+to _Organize Imports_.
+
+Go back <kbd>&#8984;</kbd> + <kbd>[</kbd> to the `PersonTO`, and copy all private fields over to the `PersonTOTestBuilder`.
+
+Create an empty constructor for the TestBuilder with <kbd>&#8984;</kbd> + <kbd>n</kbd>.
+Press <kbd>&#8593;</kbd> and <kbd>ctrl</kbd> + <kbd>enter</kbd> to choose `empty constructor` from the generation menu.
+
+Create a `build()` method that returns a `PersonTO`.
+
+Now, while still inside the `PersonTOTestBuilder`, generate setters for all the private fields we just copied from `PersonTO`:
+Press <kbd>&#8984;</kbd> + <kbd>n</kbd>, select `Setters`, then press <kbd>shift</kbd> + <kbd>&#8984;</kbd> + <kbd>&#8595;</kbd> to 
+select all the fields, and press <kbd>ctrl</kbd> + <kbd>Enter</kbd>.
+
+Using <kbd>Enter</kbd> would also work, but it is advisable to use <kbd>ctrl</kbd> + <kbd>Enter</kbd> when in a separate window, to
+press the highlighted button, and perform the _Default action_.
+
+> [!TIP]
+> Commit this sequence to muscle memory, you will get good mileage from it.
+
+Now we've got a bunch of setters in our builder... That's great, but we also want the methods to be chainable.
+
+Select the "`void set`" part of the first setter, and press <kbd>&#8984;</kbd> + <kbd>&#8963; ctrl</kbd> + <kbd>g</kbd>.
+Type `PersonTOTestBuilder` (because we want a _Fluent API_, using chainable interfaces).
+
+Now we've got some options with our method names. We either want all of our configurable methods to have the `with` prefix, or you want them
+lowercased.
+
+We can lowercase all of our methods by selecting the first letter: from your multi-cursors position
+press <kbd>shift</kbd> + <kbd>&#8594;</kbd>. Then press <kbd>&#8984;</kbd> + <kbd>shift</kbd> + <kbd>u</kbd> to toggle lower or upper
+case.
+
+Now the only thing we need to do is to change the return statement to: `return this;`.
+Let's press <kbd>&#8595;</kbd>, then press <kbd>shift</kbd> + <kbd>enter</kbd>, and type `return this;`
+
+There you go! We managed to create a TestBuilder in less than a minute of work.
+Time to be pleased with ourselves and fetch a hot beverage.
 
 <!-- tabs:end -->
 
 ### Testing Enum Lists
 
 We've got a made up `Status` enum containing a bunch of statuses that contain another made up `SubStatus`.
-In the correspodning Unit Test, aptly named `StatusTest`, we want to test that the static methods return the correct `Statuses` based on their
+In the corresponding Unit Test, aptly named `StatusTest`, we want to test that the static methods return the correct `Statuses` based on their
 `SubStatus`. The implementation is already there, we just need a good list summation in our `.containsOnly` of the `NOT_REALLY` test.
 
-In this excercise, we will be using multi-cursors to get a list of elements we can use for our test.
+In this exercise, we will be using multi-cursors to get a list of elements we can use for our test.
 
 <!-- tabs:start -->
 
@@ -2956,7 +3036,7 @@ status. Now try to select the Statuses themselves.
 > You might have to disable `CamelHumps` with <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>a</kbd> to help with the selection.
 
 Copy (<kbd>ctrl</kbd> + <kbd>c</kbd>) these.
-Now navigate back to `StatusTest.java`. Before you paste, enable _Column Mode_, make sure there's a bunch of empty lines, and paste your
+Now navigate back to `StatusTest.java`. Before you paste, enable _Column Mode_ (<kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>insert</kbd>), make sure there's a bunch of empty lines, and paste your
 buffered lines to their destination.
 By using _Column Mode_, we ensure our multiple cursors remain active and usable after pasting.
 
@@ -2970,11 +3050,30 @@ Now: complete the `yaReallyStatuses_ContainOnlyDoneAndDunno` test on your own.
 
 ### **Mac**
 
+Open `Status.java`, and use <kbd>&#8963; ctrl</kbd> + <kbd>g</kbd> on `NOT_REALLY` until you've got cursors on all the enums with that
+status. Now try to select the Statuses themselves.
+
+> [!TIP]
+> You might have to disable `CamelHumps` with <kbd>&#8984;</kbd> + <kbd>a</kbd> to help with the selection.
+
+Copy (&#8984; + <kbd>c</kbd>) these.
+Now navigate back to `StatusTest.java`. Before you paste, enable _Column Mode_ (<kbd>&#8984;</kbd> + <kbd>shift</kbd> + <kbd>8</kbd>), make sure there's a bunch of empty lines, and paste your
+buffered lines to their destination.
+By using _Column Mode_, we ensure our multiple cursors remain active and usable after pasting.
+
+With our multi-cursors still there, put a `,` behind every copied enum value,
+and press <kbd>&#8963; ctrl</kbd> + <kbd>shift</kbd> + <kbd>j</kbd> to join all the lines.
+
+Now: complete the `yaReallyStatuses_ContainOnlyDoneAndDunno` test on your own.
+
+> [!TIP]
+> <kbd>&#8984;</kbd> + <kbd>N</kbd> is context sensitive, meaning IntelliJ will know what you want because you're in a Unit Test.
+
 <!-- tabs:end -->
 
 ### Making CSV lists from XML
 
-Here's an excerpt of an `xml` file containing a bunch of people from DC's Batman universe.
+Here's an excerpt of an XML file containing a bunch of people from DC's Batman universe.
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -3000,7 +3099,7 @@ Here's an excerpt of an `xml` file containing a bunch of people from DC's Batman
 </Persons>
 ```
 
-We'll try and create a csv list from this xml.
+We'll try and create a CSV list from this XML.
 
 <!-- tabs:start -->
 
@@ -3019,6 +3118,23 @@ that, we would also include the `</Person>` tags.
 These tags though, denote the end of one line, so let's first get rid of those and replace them with simple `new lines`.
 This means we can simply get rid of the start tag `<Person>` with <kbd>ctrl</kbd> + <kbd>y</kbd>.
 
+### **Mac**
+
+So let's open (<kbd>&#8984;</kbd> + <kbd>O</kbd>) `Batman.xml`, and navigate to the directory where it's at
+with <kbd>&#8984;</kbd> + <kbd>1</kbd>.
+
+Create a new file with <kbd>&#8984;</kbd> + <kbd>n</kbd> and call it `persons.csv`.
+
+Copy the contents of `Batman.xml` into `persons.csv`. We can already delete the first line with <kbd>&#8984;</kbd> + <kbd>backspace</kbd>.
+
+We know that every `</` denotes the end of one field, but if we were to use <kbd>&#8984;</kbd> + <kbd>&#8963; ctrl</kbd> + <kbd>g</kbd> on
+that, we would also include the `</Person>` tags.
+
+These tags though, denote the end of one line, so let's first get rid of those and replace them with simple `new lines`.
+This means we can simply get rid of the start tag `<Person>` with <kbd>&#8984;</kbd> + <kbd>backspace</kbd>.
+
+<!-- tabs:end -->
+
 Your file should now only contain items like this one:
 
 ```xml
@@ -3029,7 +3145,17 @@ Your file should now only contain items like this one:
 <SecretIdentity>Batman</SecretIdentity>
 ```
 
+<!-- tabs:start -->
+
+### **Windows**
+
 Select all the closing tags by selecting `</` and <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>j</kbd>, and replace them by a `,`.
+
+### **Mac**
+
+Select all the closing tags by selecting `</` and <kbd>&#8984;</kbd> + <kbd>&#8963; ctrl</kbd> + <kbd>g</kbd>, and replace them by a `,`.
+
+<!-- tabs:end -->
 
 Your file should now only contain items that look like this:
 
@@ -3042,7 +3168,12 @@ Your file should now only contain items that look like this:
 ```
 
 We will now get rid of the opening tags, so we end up with a CSV-formatted file.
-If you want to retain the tag names as a CSV header line you can <kbd>alt</kbd> + <kbd>j</kbd> on the opening angular brackets
+
+<!-- tabs:start -->
+
+### **Windows**
+
+If you want to retain the tag names as a CSV header line you can <kbd>alt</kbd> + <kbd>j</kbd> on the opening angular brackets (`<`)
 and <kbd>ctrl</kbd> + <kbd>w</kbd> to select all tag names.
 
 Paste them at the top (`home`) while in _Column Mode_ to retain the multi-cursors, at the <kbd>end</kbd> of the line put
@@ -3050,14 +3181,31 @@ a `,` and press <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>j</kbd>. The `j` indic
 
 Then select all the opening tags by selecting `<` and pressing <kbd>ctrl</kbd> + <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>j</kbd>.
 
-Expand selection with <kbd>ctrl</kbd> + <kbd>w</kbd>, delete the tags, <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>j</kbd> (joining lines).
-and remove the last `,` at the <kbd>end</kbd> of the line. You can then still get rid of excess new lines by
-pressing `up` and either <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>j</kbd> or <kbd>ctrl</kbd> + <kbd>y</kbd> delete
+Expand selection with <kbd>ctrl</kbd> + <kbd>w</kbd>, delete the tags, and join the lines together (<kbd>ctrl</kbd> + <kbd>shift</kbd> + 
+<kbd>j</kbd> ).
+Now remove the last `,` at the <kbd>end</kbd> of the line. You can then still get rid of excess new lines by
+pressing <kbd>&#8593;</kbd> and either <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>j</kbd> or <kbd>ctrl</kbd> + <kbd>y</kbd> delete
 line.
 
 And that's it.
 
 ### **Mac**
+
+If you want to retain the tag names as a CSV header line you can <kbd>&#8963; ctrl</kbd> + <kbd>g</kbd> on the opening angular brackets (`<`)
+and <kbd>&#8997; Opt</kbd> + <kbd>&#8593;</kbd> to select all tag names.
+
+Paste them at the top ( <kbd>&#8984;</kbd> + <kbd>&#8593;</kbd> ) while in _Column Mode_ to retain the multi-cursors, at the end (<kbd>&#8984;</kbd> + <kbd>&#8594;</kbd>) of the 
+line put a `,` and press <kbd>&#8963; ctrl</kbd> + <kbd>shift</kbd> + <kbd>j</kbd>. The `j` indicating we wish to join lines together.
+
+Then select all the opening tags by selecting `<` and pressing  <kbd>&#8984;</kbd> + <kbd>&#8963; ctrl</kbd> + <kbd>g</kbd>.
+
+Expand selection with <kbd>&#8997; Opt</kbd> + <kbd>&#8593;</kbd>, delete the tags, and join the lines together (<kbd>&#8963; ctrl</kbd> + 
+<kbd>shift</kbd> + <kbd>j</kbd>).
+Now remove the last `,` at the end of the line. You can then still get rid of excess new lines by
+pressing <kbd>&#8593;</kbd> and either <kbd>&#8963; ctrl</kbd> + <kbd>shift</kbd> + <kbd>j</kbd> or <kbd>&#8984;</kbd> + <kbd>backspace</kbd> delete
+line.
+
+And that's it.
 
 <!-- tabs:end -->
 

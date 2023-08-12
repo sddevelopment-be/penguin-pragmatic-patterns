@@ -608,3 +608,30 @@ Work In Progress. The amount of tasks a person or team are currently working on.
 and are not yet complete. The WIP can be seen as "Intellectual inventory", meaning you pay a cost to keep it around.
 Some productivity techniques advise to keep the amount of work in progress as low as possible (_e.g._ Kanban, Lean).
 
+### X
+
+### XML
+
+Short for __"eXtensible Markup Language"__. A commonly used file format to represent structured data.
+Originally designed to meet the challenges of large-scale electronic publishing, XML is now also playing an important role in the 
+exchange of a wide variety of data on the Web and elsewhere.     
+see: [w3.org/XML](https://www.w3.org/XML/)
+
+example:
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<Persons>
+    <Person>
+        <FirstName>Bruce</FirstName>
+        <LastName>Wayne</LastName>
+        <Age>24</Age>
+        <SecretIdentity>Batman</SecretIdentity>
+    </Person>
+    <Person>
+        <FirstName>Pamela Lillian</FirstName>
+        <LastName>Isley</LastName>
+        <Age>26</Age>
+        <SecretIdentity>Poison Ivy</SecretIdentity>
+    </Person>
+</Persons>
+```

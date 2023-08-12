@@ -220,6 +220,10 @@ Programs that create, delete, copy, rename, print, dump, list, and generally man
 Several text editors may be available to create and modify the content of files stored on disk or other storage devices.
 There may also be special commands to search contents of files or perform transformations of the text.
 
+### Fluent API
+
+In software engineering, a fluent interface is an object-oriented API whose design relies extensively on method chaining. Its goal is to increase code legibility by creating a domain-specific language. The term was coined in 2005 by Eric Evans and Martin Fowler.
+
 ## G
 
 ### Garbage collection
@@ -325,6 +329,15 @@ A collection of mailboxes, as declared by the task, which can be grouped togethe
 
 Depending on the memory system used by the computer's operating system, this information may include such elements as the value of the `base`
 and `limit` registers, `page tables` or `segment tables`.
+
+### Method chaining
+
+An (objective) programing technique where methods performed on an object can be called directly after each other.
+To acomplish this, the chainable methods end by returning the object on which the action was performed, as opposed to a `void` return type.
+
+```java
+greeter.hello("world").foo(bar).onConnect(() -> allYourBase());
+```
 
 ### Micro Kernel
 
@@ -597,3 +610,30 @@ Work In Progress. The amount of tasks a person or team are currently working on.
 and are not yet complete. The WIP can be seen as "Intellectual inventory", meaning you pay a cost to keep it around.
 Some productivity techniques advise to keep the amount of work in progress as low as possible (_e.g._ Kanban, Lean).
 
+### X
+
+### XML
+
+Short for __"eXtensible Markup Language"__. A commonly used file format to represent structured data.
+Originally designed to meet the challenges of large-scale electronic publishing, XML is now also playing an important role in the 
+exchange of a wide variety of data on the Web and elsewhere.     
+see: [w3.org/XML](https://www.w3.org/XML/)
+
+example:
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<Persons>
+    <Person>
+        <FirstName>Bruce</FirstName>
+        <LastName>Wayne</LastName>
+        <Age>24</Age>
+        <SecretIdentity>Batman</SecretIdentity>
+    </Person>
+    <Person>
+        <FirstName>Pamela Lillian</FirstName>
+        <LastName>Isley</LastName>
+        <Age>26</Age>
+        <SecretIdentity>Poison Ivy</SecretIdentity>
+    </Person>
+</Persons>
+```

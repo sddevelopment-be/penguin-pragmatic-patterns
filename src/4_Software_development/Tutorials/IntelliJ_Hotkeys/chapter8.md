@@ -261,30 +261,50 @@ This still leaves the issue of all those strings not having a space at the end t
 
 ### **Windows**
 
-Let's undo our changes by pressing <kbd>ctrl</kbd> + <kbd>Z</kbd> and let's take a different approach. Notice
+Let's undo our changes by pressing <kbd>ctrl</kbd> + <kbd>Z</kbd> and take a different approach. Notice
 how using <kbd>ctrl</kbd> + <kbd>Z</kbd> once puts the multiple cursors back.
 
-Now, what we really want is a `+` at the **end** of every string, and to add a space inside all the strings. Here's how you could do that.
+Now, what we really want is a `+` at the **end** of every string, and to add a space inside all the strings. 
+Here is how you could do that.
 
 Instead of putting your cursor at the beginning of the second line, put it at the beginning of the **first** line (`"This sure is"`).
 
 Toggle _Column Mode_ again with <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>insert</kbd>, and select all the lines again by repeatedly
-pressing <kbd>down</kbd> until you've reached the second last string.
+pressing <kbd>&#8595;</kbd> until you've reached the second to last string.
 
 Now press <kbd>End</kbd>. Notice how the cursors are all at different ending positions.
 
 First let's add the spaces so our strings aren't pressed together as much. Move your cursor inside of the string by pressing <kbd>left</kbd>
 once. Then type a <kbd>space</kbd>.
 
-Then press <kbd>End</kbd> again and type a <kbd>+</kbd>. <kbd>Escape</kbd> out of the multicursor and disable _Column Mode_ by
+Then press <kbd>End</kbd> again and type a <kbd>+</kbd>. <kbd>Escape</kbd> out of the multi-cursor and disable _Column Mode_ by
 pressing <kbd>alt</kbd> + <kbd>shift</kbd> + <kbd>insert</kbd>.
 
 ### **Mac**
 
+Let's undo our changes by pressing <kbd>&#8984;</kbd> + <kbd>Z</kbd> and take a different approach. Notice
+how using <kbd>&#8984;</kbd> + <kbd>Z</kbd> once puts the multiple cursors back.
+
+Now, what we really want is a `+` at the **end** of every string, and to add a space inside all the strings.
+Here is how you could do that.
+
+Instead of putting your cursor at the beginning of the second line, put it at the beginning of the **first** line (`"This sure is"`).
+
+Toggle _Column Mode_ again with <kbd>&#8984;</kbd> + <kbd>shift</kbd> + <kbd>8</kbd>, and select all the lines again by repeatedly
+pressing <kbd>&#8595;</kbd> until you've reached the second to last string.
+
+Now press <kbd>&#8984;</kbd> + <kbd>&#8594;</kbd> . Notice how the cursors are all at different ending positions.
+
+First let's add the spaces so our strings aren't pressed together as much. Move your cursor inside of the string by pressing <kbd>&#8592;</kbd>
+once. Then type a <kbd>space</kbd>.
+
+Then press <kbd>End</kbd> again and type a <kbd>+</kbd>. <kbd>Escape</kbd> out of the multi-cursor and disable _Column Mode_ by
+pressing <kbd>&#8984;</kbd> + <kbd>shift</kbd> + <kbd>8</kbd>.
+
 <!-- tabs:end -->
 
-This is a great feature for when all the lines you want to edit are right underneath each other, but that won't always be the case.
-Let's see how we can solve that issue as well.
+This is a great feature when all the lines you want to edit are directly underneath each other. However, that won't always be the case.
+Let's take a look at how we can cope with those situations.
 
 ## Select occurrences
 
@@ -296,8 +316,7 @@ don't want to put a cursor at.
 
 ### **Windows**
 
-We can, however, use <kbd>alt</kbd> + <kbd>j</kbd> to add a cursor to a _Find buffer_ (<kbd>F3</kbd>
-and <kbd>ctrl</kbd> + <kbd>F3</kbd>).
+We can, however, use <kbd>alt</kbd> + <kbd>j</kbd> to add a cursor to a _Find buffer_ (<kbd>F3</kbd> and <kbd>ctrl</kbd> + <kbd>F3</kbd>).
 
 Take a moment to think about what selection you would want to _Find_ in that class.
 

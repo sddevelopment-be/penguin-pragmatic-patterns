@@ -37,9 +37,14 @@ In this tutorial series, you will learn:
 
 This tutorial walks you through different scenarios where the use of hotkeys is demonstrated in real-world situations. 
 Learning them this way will help you identify situations where the use of a hotkey can be beneficial during your day-to-day work.
+
 If you are interested in a quick reference for the most commonly used hotkeys, take a look at [these JetBrains IDEA reference cards](https://resources.jetbrains.com/storage/products/intellij-idea/docs/IntelliJIDEA_ReferenceCard.pdf).
 Looking for more personalized hotkey suggestions that will improve your development speed? Take a look at the plugin [Key Promoter X](https://plugins.jetbrains.com/plugin/9792-key-promoter-x). 
 It tracks your most commonly used actions, suggests hotkeys. It also shows you how many times you used a shortcut or took the long route.
+
+Another useful IDEA plugin for using hotkeys is the [Presentation assistant](https://www.jetbrains.com/idea/guide/tutorials/presenting/presentation-assistant/).
+This adds a hovering window which displays the key combination you just used. It is really helpful when sharing your screen with others (when 
+pairing, for example). It can also be used as additional feedback to simply remind yourself of what you just did.
 
 ### How you will learn
 

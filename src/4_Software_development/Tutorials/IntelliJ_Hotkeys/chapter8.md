@@ -227,11 +227,35 @@ insert</kbd> again. The word `Column` should no longer appear in the bottom righ
 
 ### **Mac**
 
+For starters, let's introduce you to _Column Mode_.
+Let's open `Chapter8`. The `output` variable contains a long string concatenation, but there are a few problems with it:
+
+* the `+` is missing to actually DO the concatenation
+* and there's a space missing at the end of every string
+
+You could put your cursor at the beginning of the second line, type a `+`, and then press <kbd>&#8595;</kbd> and <kbd>&#8984;</kbd> + <kbd>&#8592;</kbd>,
+and type a `+` again. Now you could repeat that process for every line, but there's an easier way.
+
+Since all the strings are lined up perfectly, wouldn't it be easier if we could first put a bunch of cursors in front of every line, and then just
+type `+`? Let's try to do just that.
+
+First position your cursor at the **beginning** of the second string (`"one hell of a"`).
+While watching the bottom right of your screen press <kbd>&#8984;</kbd> + <kbd>shift</kbd> + <kbd>8</kbd> once.
+You should see the word `Column` appear next to `UTF-8`. This means you have just toggled on `Column Mode`.
+
+Now, hold down <kbd>shift</kbd> and press <kbd>&#8595;</kbd> until you've reached the last string (`"of column mode"`). There
+should be a cursor blinking at the beginning of every line. It might look like one giant cursor, but it is in fact a bunch of them.
+
+Now simply type a `+` and be amazed.
+
+Exit out of your multi-cursors by pressing <kbd>Escape</kbd>. Exit out of _Column Mode_ by pressing <kbd>&#8984;</kbd> + <kbd>shift</kbd> + <kbd>8</kbd> again. 
+The word `Column` should no longer appear in the bottom right, indicating you have indeed exited `column select mode`.
+
 <!-- tabs:end -->
 
 ## Toggle Column Mode: part two
 
-This still leaves the issue of all of the strings not having a space at the end though.
+This still leaves the issue of all those strings not having a space at the end though.
 
 <!-- tabs:start -->
 

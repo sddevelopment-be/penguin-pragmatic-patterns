@@ -1,4 +1,4 @@
-## Engaging retrospectives
+## Hosting engaging retrospectives
 
 ### Context
 

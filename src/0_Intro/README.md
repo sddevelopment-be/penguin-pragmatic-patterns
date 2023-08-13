@@ -77,9 +77,8 @@ To enhance your reading experience, this publication is organized by categories,
 
 If you encounter unfamiliar concepts or abbreviations, consult the [glossary](/X_Appendix/Glossary/HOME) for definitions and explanations.
 
-For those interested in further exploration of the topics discussed in this work, check out the [Reading list section]
-(/X_Appendix/Learning_Materials/HOME) in the appendices. There, you'll find a curated list of books, articles, and audiovisual resources worth
-exploring.
+For those interested in further exploration of the topics discussed in this work, check out the [Reading list section](/X_Appendix/Learning_Materials/HOME) in the appendices. 
+There, you'll find a curated list of books, articles, and audiovisual resources worth exploring.
 
 ## A pattern-based approach
 
@@ -91,13 +90,12 @@ In this context, creating a structured way of representing knowledge by visualiz
 creating a "map" of concepts, we can better understand and share them with others.
 
 Sharing knowledge with other practitioners in a formalized manner is a common activity in a variety of fields. Chess players share certain board
-positions and [common tactics](https://chesstempo.com/tactical-motifs) using "motifs."[^1] In popular internet culture, we see the same as
-plenty of communication happens using memes and tropes.[^2] Recent marketing campaigns and elections in various countries have seen an uptick in
-using funny pictures and videos on the web to
-influence people's decision-making.
+positions and [common tactics](https://chesstempo.com/tactical-motifs) using "motifs"[^1] . In popular internet culture, we see the same as
+plenty of communication happens using memes and tropes[^2] . Recent marketing campaigns and elections in various countries have seen an uptick in
+using funny pictures and videos on the web to influence people's decision-making.
 
-When looking for a structured way to represent ideas, experiences, or cookbooks (i.e. knowledge), it helps to first take a look at how we see
-the concept of "knowledge" itself. As software developers, we are inclined to create formal models of topics we wish to understand better.
+When looking for a structured way to represent ideas, experiences, or cookbooks (i.e. knowledge), us software developers are inclined to 
+create formal models of topics we wish to understand better.
 
 A [pattern language](/X_Appendix/Glossary/HOME?id=pattern-language) is **a formal way to represent wisdom that improves ones ability to operate in a
 certain field of expertise**. The knowledge represented in a pattern language is usually stripped down to its bare essentials, making it easier to
@@ -111,7 +109,7 @@ pattern is prefaced with a short description of when it can be useful to conside
 
 The pattern structure definition is illustrated in the following figure:
 
-![Pattern structure definition ><](./pattern_definition.png ':size=680')
+![Pattern structure definition ><](/0_Intro/pattern_definition.png ':size=680')
 
 Some patterns may contain references to other resources, as well as supporting examples, testimonials, tutorials, and so on. These examples can be
 included inside the pattern description, but they might also exist as separate resources in a different section of this publication.
@@ -133,4 +131,3 @@ included inside the pattern description, but they might also exist as separate r
 
 [^2] So wide-spread even, that academics have [started investigating](https://www.michelecoscia.com/?page_id=2070) what makes some memes
 successful while others are doomed to be left in the ditches of the web.
-

@@ -1427,7 +1427,7 @@ Let's imagine we want to write a comparator for some object, or want to use it i
 objects `equals()` implementation. In case the object is filled to the brim with other methods, it might be easier to tap <kbd>
 ctrl</kbd> + <kbd>F12</kbd> to check for an `equals` method. If you can't find it on your first try, tap <kbd>ctrl</kbd> + <kbd>F12</kbd> again
 to browse the methods of the superclass as well.
-Let's open `RealBall.jave`, and try to find out if this class has its own `equals` and `hashcode` implementations, or wether makes use of
+Let's open `RealBall.java`, and try to find out if this class has its own `equals` and `hashcode` implementations, or wether makes use of
 its superclass implementations.
 
 ### **Mac**
@@ -1443,7 +1443,7 @@ Let's imagine we want to write a comparator for some object, or want to use it i
 objects `equals()` implementation. In case the object is filled to the brim with other methods, it might be easier to tap <kbd>
 &#8984;</kbd> + <kbd>F12</kbd> to check for an `equals` method. If you can't find it on your first try, tap <kbd>&#8984;</kbd> + <kbd>F12</kbd>
 again to browse the methods of the superclass as well.
-Let's open `RealBall.jave`, and try to find out if this class has its own `equals` and `hashcode` implementations, or wether makes use of
+Let's open `RealBall.java`, and try to find out if this class has its own `equals` and `hashcode` implementations, or wether makes use of
 its superclass implementations.
 
 <!-- tabs:end -->
@@ -1456,7 +1456,7 @@ its superclass implementations.
 
 <!-- tabs:start -->
 
-### **Chapter2.java**
+### **Chapter3.java**
 
 ```java
 package be.swsb.productivity.chapter3;
@@ -1503,6 +1503,8 @@ From that position press <kbd>ctrl</kbd> + <kbd>w</kbd>, press this key combinat
 Now try using <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>w</kbd> to incrementally reduce the size of your selection. Play around with both the
 `Expand selection` and `Reduce selection` key combinations until you feel comfortable with them.
 
+What happens if you keep on pressing that combination?
+
 ### **Mac**
 
 Press <kbd>&#8984;</kbd> + <kbd>o</kbd> and open `Fugly.java`.
@@ -1511,6 +1513,8 @@ From that position press <kbd>&#8997;</kbd> + <kbd>&#x2191;</kbd>, press this ke
 
 Now try using  <kbd>&#8997;</kbd> + <kbd>shift</kbd> + <kbd>&#x2191;</kbd> to incrementally reduce the size of your selection. Play around with both the
 `Expand selection` and `Reduce selection` key combinations until you feel comfortable with them.
+
+What happens if you keep on pressing that combination?
 
 <!-- tabs:end -->
 
@@ -1526,7 +1530,8 @@ Because <kbd>ctrl</kbd> + <kbd>w</kbd> expands a selection, and because the arro
 We can use a little trick to format our Fluent API.
 Format the one-liner so that it looks like the method below. You can do this by pressing <kbd>ctrl</kbd> + <kbd>w</kbd> until you have a selection
 containing a _"method call"_, e.g. `fugly()`, then press <kbd>&#8594;</kbd> to put your cursor at the end, and press <kbd>&#9166;</kbd>
-(<kbd>enter</kbd>).
+(<kbd>enter</kbd>).  
+
 Rinse and repeat.
 
 ### **Mac**
@@ -1557,20 +1562,30 @@ An alternative is by pressing <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>a</kbd>,
 Fix the `wrapStuff` method by selecting `"efffff"` with <kbd>ctrl</kbd> + <kbd>w</kbd>, and then type a `"`.
 Then apply the same pattern to `yewwww` but instead of a `"`, type a `(`.Then apply the same pattern to the entire method body but type a `{`.
 
-This feature really shines in combination with multi-cursor (which we'll see in a later chapter).
+This feature really shines in combination with multi-cursor (which we'll discuss in detail later on).
 
 ### **Mac**
 
 IntelliJ has a neat feature that wraps your selection with braces, curly braces, single or double quotes, ...
 You can enable this feature under `Settings` by pressing <kbd>&#8984;</kbd> + <kbd>,</kbd>, then go to `Editor > General >
-Smart Keys`,
+Smart Keys`,package be.swsb.productivity.chapter3;
+
+public class Chapter3 {
+
+    public String selectStuff() {
+        return "The quick brown fox " +
+                "jumps over " +
+                "the LazyDawg";
+    }
+}
+
 and enable `Surround selection on typing quote or brace`.
 
 An alternative is by pressing <kbd>&#8984;</kbd> + <kbd>shift</kbd> + <kbd>a</kbd>, and then type `Smart Keys Braces`.
 Fix the `wrapStuff` method by selecting `"efffff"` with <kbd>&#8997;</kbd> + <kbd>&#x2191;</kbd>s, and then type a `"`.
 Then apply the same pattern to `yewwww` but instead of a `"`, type a `(`.Then apply the same pattern to the entire method body but type a `{`.
 
-This feature really shines in combination with multi-cursor (which we'll see in a later chapter).
+This feature really shines in combination with multi-cursor (which we'll discuss in detail later on).
 
 <!-- tabs:end -->
 
@@ -1723,7 +1738,8 @@ sometimes.
 
 IntelliJ has various _Tool Windows_, like the `1: Project` window, `9: Version Control` window, or `3: Find` window.
 When one of these _embedded_ windows have focus, other shortcuts are available.
-In this topic we'll talk about some of them.
+
+In this section we'll discuss some of them.
 
 ## Opening/Closing (Toggling)
 
@@ -1746,7 +1762,7 @@ e.g. If you want to open or close the `1: Project` window, you press <kbd>&#8984
 
 ### **Windows**
 
-Some of these windows have multiple tabs in them, i.e. the `6: TODO` window. So let's open that with <kbd>alt</kbd> + <kbd>6</kbd>.
+Some of these windows have multiple tabs in them, i.e. the `6: TODO` window. So let's open that window, using <kbd>alt</kbd> + <kbd>6</kbd>.
 You'll notice that it contains the _Project_, _Current File_, _Scope Based_ and _Default Changelist_ tabs.
 You can switch between these tabs by pressing <kbd>alt</kbd> + <kbd>&#8594;</kbd> and <kbd>alt</kbd> + <kbd>&#8592;</kbd>.
 
@@ -1754,7 +1770,7 @@ Give it a try!
 
 ### **Mac**
 
-Some of these windows have multiple tabs in them, i.e. the `6: TODO` window. So let's open that with <kbd>&#8984;</kbd> + <kbd>6</kbd>.
+Some of these windows have multiple tabs in them, i.e. the `6: TODO` window. So let's open that window, using <kbd>&#8984;</kbd> + <kbd>6</kbd>.
 You'll notice that it contains the _Project_, _Current File_, _Scope Based_ and _Default Changelist_ tabs.
 You can switch between these tabs by pressing <kbd>&#8984;</kbd> + <kbd>
 shift</kbd> + <kbd>[</kbd> and <kbd>&#8984;</kbd> + <kbd>shift</kbd> + <kbd>]</kbd>.

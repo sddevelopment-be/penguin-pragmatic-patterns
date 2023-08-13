@@ -1,7 +1,7 @@
 @startuml
-title System Landscape
+title How ideas are formed
 
-top to bottom direction
+skinparam dpi 320
 
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4.puml
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
@@ -13,10 +13,10 @@ System(Linguistic, "Linguistic", "A system of signs governed by grammatical rule
 
 Rel_D(Beliefs, Linguistic, "is expressed using", $tags="Relationship")
 Rel_D(Beliefs, Social, "is shared within", $tags="Relationship")
-Rel_D(Social, Linguistic, "maintains an (often specialized) specific", "[systemInt]", $tags="Relationship")
-Rel_D(Social, Beliefs, "provides a baseline", "[systemInt]", $tags="Relationship")
-Rel_D(Social, Experimental, "imposes constraints on", "[systemInt]", $tags="Relationship")
-Rel_D(Experimental, Beliefs, "validates or disproves", "[systemInt]", $tags="Relationship")
+Rel_D(Social, Linguistic, "maintains an (often specialized) specific", $tags="Relationship")
+Rel_D(Social, Beliefs, "provides a baseline", $tags="Relationship")
+Rel_D(Social, Experimental, "imposes constraints on", $tags="Relationship")
+Rel_D(Experimental, Beliefs, "validates or disproves", $tags="Relationship")
 Rel_D(Beliefs, Experimental, "originates from", $tags="Relationship")
 
 SHOW_LEGEND()

@@ -328,6 +328,10 @@ A collection of mailboxes, as declared by the task, which can be grouped togethe
 Depending on the memory system used by the computer's operating system, this information may include such elements as the value of the `base`
 and `limit` registers, `page tables` or `segment tables`.
 
+### Meta learning
+_"Meta learning"_ as originally described by Donald B. Maudsley (1979), is a process by which learners become aware of and
+increasingly in control of habits of perception, inquiry, learning, and growth.
+
 ### Method chaining
 
 An (objective) programing technique where methods performed on an object can be called directly after each other.

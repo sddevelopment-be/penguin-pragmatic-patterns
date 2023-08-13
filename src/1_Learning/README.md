@@ -44,14 +44,29 @@ Understanding the concept of knowledge will provide us with a clear mental map t
 As the saying goes, _"When you learn a new language, you gain a new soul"_. With this in mind, let's aim to make curiosity a part of our mental DNA.
 This way, gathering knowledge and growing as a person will feel just as natural to us as breathing air does.
 
-_"Meta learning"_ as originally described by Donald B. Maudsley (1979), is a process by which learners become aware of and
-increasingly in control of habits of perception, inquiry, learning, and growth.
-This means we should have a theory on what learning is to us, aim to work in a safe and supportive social and physical environment,
-discover our own rules and assumptions, reconnect with reality-information from the environment, and reorganize themselves by changing their
-rules/assumptions. This is a fancy way of saying: make yourself comfortable, and take a good hard look at yourself and the world. From there you
-will explore new ideas, and try to apply them to your life as you see fit.
-
 In this section, we will outline what knowledge looks like and how it ties in with all aspects of our lives, including the culture we live in, the
 people we know, and the actions we take. It is important to reflect on which ideas resonate with you and which do not.
 You are encouraged to take the information that is useful to you, and to leave the rest behind. **Do what feels right for you!**
 After all: this is your journey. Who are we to tell you how to live your life?
+
+### How our ideas are formed
+
+The beliefs we hold are little more than a reflection of the experiences we encountered on our path, and our ability to reason about them.
+In the simplest terms: we try something, and learn from the result. As a child, some might have had the unpleasant experience of touching a hot stove. 
+Through trial and error, we have gained the belief that things that are glowing red are extremely hot.
+This helped us to avoid putting our hand on a hot stove.
+
+Apart from learning from our own mistakes, we learn from others. In the example of the child placing its hand on a glowing stove, the unpleasant 
+situation could have been avoided if a guardian had stepped in. They would warn the child of the dangers of touching hot objects.
+And in doing so, sharing their own knowledge with the infant. Our social circle influences our beliefs substantially.
+As the saying goes, "We become who we surround ourselves with".
+
+!["Schematic representation of the formation of ideas ><"](./schematic_idea_formation.png)
+
+If we want to become effective learners, this means we should have a theory on what learning is to us, aim to work in a safe and supportive social 
+and physical environment, discover our own rules and assumptions, reconnect with reality-information from the environment, and reorganize ourselves by changing our
+rules/assumptions.
+This is a fancy way of saying: find a way to get comfortable, and take a good hard look at yourself and the world.
+From there you will explore new ideas, and try to apply them to your life as you see fit. Donald B. Maudsley described this as the idea of
+_"Meta learning"_ in 1979.
+

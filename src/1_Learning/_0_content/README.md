@@ -30,5 +30,3 @@ you will perceive it as being more of a pain than it actually was before you sta
 
 ![Representation of learning by experimenting ><](./experimental-entities-Component.png ':size=520')
 
-
-

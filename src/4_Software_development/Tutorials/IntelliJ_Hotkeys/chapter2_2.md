@@ -350,7 +350,7 @@ Let's imagine we want to write a comparator for some object, or want to use it i
 objects `equals()` implementation. In case the object is filled to the brim with other methods, it might be easier to tap <kbd>
 ctrl</kbd> + <kbd>F12</kbd> to check for an `equals` method. If you can't find it on your first try, tap <kbd>ctrl</kbd> + <kbd>F12</kbd> again
 to browse the methods of the superclass as well.
-Let's open `RealBall.jave`, and try to find out if this class has its own `equals` and `hashcode` implementations, or wether makes use of
+Let's open `RealBall.java`, and try to find out if this class has its own `equals` and `hashcode` implementations, or wether makes use of
 its superclass implementations.
 
 ### **Mac**
@@ -366,7 +366,7 @@ Let's imagine we want to write a comparator for some object, or want to use it i
 objects `equals()` implementation. In case the object is filled to the brim with other methods, it might be easier to tap <kbd>
 &#8984;</kbd> + <kbd>F12</kbd> to check for an `equals` method. If you can't find it on your first try, tap <kbd>&#8984;</kbd> + <kbd>F12</kbd>
 again to browse the methods of the superclass as well.
-Let's open `RealBall.jave`, and try to find out if this class has its own `equals` and `hashcode` implementations, or wether makes use of
+Let's open `RealBall.java`, and try to find out if this class has its own `equals` and `hashcode` implementations, or wether makes use of
 its superclass implementations.
 
 <!-- tabs:end -->

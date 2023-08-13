@@ -2,7 +2,8 @@
 
 IntelliJ has various _Tool Windows_, like the `1: Project` window, `9: Version Control` window, or `3: Find` window.
 When one of these _embedded_ windows have focus, other shortcuts are available.
-In this topic we'll talk about some of them.
+
+In this section we'll discuss some of them.
 
 ## Opening/Closing (Toggling)
 
@@ -25,7 +26,7 @@ e.g. If you want to open or close the `1: Project` window, you press <kbd>&#8984
 
 ### **Windows**
 
-Some of these windows have multiple tabs in them, i.e. the `6: TODO` window. So let's open that with <kbd>alt</kbd> + <kbd>6</kbd>.
+Some of these windows have multiple tabs in them, i.e. the `6: TODO` window. So let's open that window, using <kbd>alt</kbd> + <kbd>6</kbd>.
 You'll notice that it contains the _Project_, _Current File_, _Scope Based_ and _Default Changelist_ tabs.
 You can switch between these tabs by pressing <kbd>alt</kbd> + <kbd>&#8594;</kbd> and <kbd>alt</kbd> + <kbd>&#8592;</kbd>.
 
@@ -33,7 +34,7 @@ Give it a try!
 
 ### **Mac**
 
-Some of these windows have multiple tabs in them, i.e. the `6: TODO` window. So let's open that with <kbd>&#8984;</kbd> + <kbd>6</kbd>.
+Some of these windows have multiple tabs in them, i.e. the `6: TODO` window. So let's open that window, using <kbd>&#8984;</kbd> + <kbd>6</kbd>.
 You'll notice that it contains the _Project_, _Current File_, _Scope Based_ and _Default Changelist_ tabs.
 You can switch between these tabs by pressing <kbd>&#8984;</kbd> + <kbd>
 shift</kbd> + <kbd>[</kbd> and <kbd>&#8984;</kbd> + <kbd>shift</kbd> + <kbd>]</kbd>.

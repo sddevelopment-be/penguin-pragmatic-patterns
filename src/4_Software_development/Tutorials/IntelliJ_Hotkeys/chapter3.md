@@ -4,7 +4,7 @@
 
 <!-- tabs:start -->
 
-### **Chapter2.java**
+### **Chapter3.java**
 
 ```java
 package be.swsb.productivity.chapter3;
@@ -51,6 +51,8 @@ From that position press <kbd>ctrl</kbd> + <kbd>w</kbd>, press this key combinat
 Now try using <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>w</kbd> to incrementally reduce the size of your selection. Play around with both the
 `Expand selection` and `Reduce selection` key combinations until you feel comfortable with them.
 
+What happens if you keep on pressing that combination?
+
 ### **Mac**
 
 Press <kbd>&#8984;</kbd> + <kbd>o</kbd> and open `Fugly.java`.
@@ -59,6 +61,8 @@ From that position press <kbd>&#8997;</kbd> + <kbd>&#x2191;</kbd>, press this ke
 
 Now try using  <kbd>&#8997;</kbd> + <kbd>shift</kbd> + <kbd>&#x2191;</kbd> to incrementally reduce the size of your selection. Play around with both the
 `Expand selection` and `Reduce selection` key combinations until you feel comfortable with them.
+
+What happens if you keep on pressing that combination?
 
 <!-- tabs:end -->
 
@@ -74,7 +78,8 @@ Because <kbd>ctrl</kbd> + <kbd>w</kbd> expands a selection, and because the arro
 We can use a little trick to format our Fluent API.
 Format the one-liner so that it looks like the method below. You can do this by pressing <kbd>ctrl</kbd> + <kbd>w</kbd> until you have a selection
 containing a _"method call"_, e.g. `fugly()`, then press <kbd>&#8594;</kbd> to put your cursor at the end, and press <kbd>&#9166;</kbd>
-(<kbd>enter</kbd>).
+(<kbd>enter</kbd>).  
+
 Rinse and repeat.
 
 ### **Mac**
@@ -105,20 +110,30 @@ An alternative is by pressing <kbd>ctrl</kbd> + <kbd>shift</kbd> + <kbd>a</kbd>,
 Fix the `wrapStuff` method by selecting `"efffff"` with <kbd>ctrl</kbd> + <kbd>w</kbd>, and then type a `"`.
 Then apply the same pattern to `yewwww` but instead of a `"`, type a `(`.Then apply the same pattern to the entire method body but type a `{`.
 
-This feature really shines in combination with multi-cursor (which we'll see in a later chapter).
+This feature really shines in combination with multi-cursor (which we'll discuss in detail later on).
 
 ### **Mac**
 
 IntelliJ has a neat feature that wraps your selection with braces, curly braces, single or double quotes, ...
 You can enable this feature under `Settings` by pressing <kbd>&#8984;</kbd> + <kbd>,</kbd>, then go to `Editor > General >
-Smart Keys`,
+Smart Keys`,package be.swsb.productivity.chapter3;
+
+public class Chapter3 {
+
+    public String selectStuff() {
+        return "The quick brown fox " +
+                "jumps over " +
+                "the LazyDawg";
+    }
+}
+
 and enable `Surround selection on typing quote or brace`.
 
 An alternative is by pressing <kbd>&#8984;</kbd> + <kbd>shift</kbd> + <kbd>a</kbd>, and then type `Smart Keys Braces`.
 Fix the `wrapStuff` method by selecting `"efffff"` with <kbd>&#8997;</kbd> + <kbd>&#x2191;</kbd>s, and then type a `"`.
 Then apply the same pattern to `yewwww` but instead of a `"`, type a `(`.Then apply the same pattern to the entire method body but type a `{`.
 
-This feature really shines in combination with multi-cursor (which we'll see in a later chapter).
+This feature really shines in combination with multi-cursor (which we'll discuss in detail later on).
 
 <!-- tabs:end -->
 

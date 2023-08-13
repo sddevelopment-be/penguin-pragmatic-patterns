@@ -1,4 +1,4 @@
-# 3_People_Skills
+# 3_Communication
 
 When reading stories or career advice for people in the technical sector on social media,
 much content is dedicated to technical excellence and workflow processes.
@@ -12,7 +12,7 @@ There is a lot of value in generally getting along with the people you interact 
 > Having great ideas gets you nowhere fast, if you are unable to communicate your knowledge to others.
 
 The stereotype of the computer geek sitting in a basement and only interacting with people through
-some sort of ticketing system can be quite accurate to some extent.
+a ticketing system can be quite accurate to some extent.
 Personally, I feel best when I have the sense of moving forward and collaborating on tackling a
 challenge together with my peers.
 

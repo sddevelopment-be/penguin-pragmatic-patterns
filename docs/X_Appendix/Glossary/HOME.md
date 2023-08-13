@@ -222,7 +222,8 @@ There may also be special commands to search contents of files or perform transf
 
 ### Fluent API
 
-In software engineering, a fluent interface is an object-oriented API whose design relies extensively on method chaining. Its goal is to increase code legibility by creating a domain-specific language. The term was coined in 2005 by Eric Evans and Martin Fowler.
+In software engineering, a fluent interface is an object-oriented API whose design relies extensively on method chaining. Its goal is to increase
+code legibility by creating a domain-specific language. The term was coined in 2005 by Eric Evans and Martin Fowler.
 
 ## G
 
@@ -331,6 +332,7 @@ Depending on the memory system used by the computer's operating system, this inf
 and `limit` registers, `page tables` or `segment tables`.
 
 ### Meta learning
+
 _"Meta learning"_ as originally described by Donald B. Maudsley (1979), is a process by which learners become aware of and
 increasingly in control of habits of perception, inquiry, learning, and growth.
 
@@ -340,7 +342,7 @@ An (objective) programing technique where methods performed on an object can be 
 To acomplish this, the chainable methods end by returning the object on which the action was performed, as opposed to a `void` return type.
 
 ```java
-greeter.hello("world").foo(bar).onConnect(() -> allYourBase());
+greeter.hello("world").foo(bar).onConnect(()->allYourBase());
 ```
 
 ### Micro Kernel
@@ -398,6 +400,12 @@ expertise.
 
 short for: Process Control Block.
 The Process Control Block contains meta-information about a certain process, such as its state, size, ... .
+
+### Post-mortem
+
+Latin for "after death". Used commonly by doctors (syn. "autopsy)" to describe the examination of a corpse.
+When used in business contexts, it is a synonym for a retrospective focussed on examining the reasons for a perceived process failure and how to
+avoid them in the future.
 
 ### Practices
 
@@ -457,6 +465,10 @@ The time it takes from the submission of a request, up untill the first result i
 
 An user interface programming approach aiming to make sure interfaces render well on a variety of devices and display resolutions.
 This is usually achieved by separating content from display logic, and altering the latter depending on the viewport being used.
+
+### Retrospective
+
+A retrospective, generally, is a look back at events that took place, or works that were produced, in the past.
 
 ### ROI
 
@@ -619,11 +631,12 @@ Some productivity techniques advise to keep the amount of work in progress as lo
 ### XML
 
 Short for __"eXtensible Markup Language"__. A commonly used file format to represent structured data.
-Originally designed to meet the challenges of large-scale electronic publishing, XML is now also playing an important role in the 
+Originally designed to meet the challenges of large-scale electronic publishing, XML is now also playing an important role in the
 exchange of a wide variety of data on the Web and elsewhere.     
 see: [w3.org/XML](https://www.w3.org/XML/)
 
 example:
+
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <Persons>

@@ -5,7 +5,7 @@
 * [2. Productivity](2_Productivity/HOME)
   * [Concepts](2_Productivity/Concepts/HOME)
   * [Practices](2_Productivity/Practices/HOME)
-* [3. People Skills](3_Communication/HOME)
+* [3. Communication](3_Communication/HOME)
   * [Articles](3_Communication/Articles/HOME)
   * [Concepts](3_Communication/Concepts/HOME)
   * [Practices](3_Communication/Practices/HOME)

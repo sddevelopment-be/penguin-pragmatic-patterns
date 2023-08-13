@@ -61,7 +61,7 @@ situation could have been avoided if a guardian had stepped in. They would warn 
 And in doing so, sharing their own knowledge with the infant. Our social circle influences our beliefs substantially.
 As the saying goes, "We become who we surround ourselves with".
 
-!["Schematic representation of the formation of ideas ><"](./schematic_idea_formation.png)
+!["Schematic representation of the formation of ideas. ><"](./schematic_idea_formation.png)
 
 If we want to become effective learners, this means we should have a theory on what learning is to us, aim to work in a safe and supportive social 
 and physical environment, discover our own rules and assumptions, reconnect with reality-information from the environment, and reorganize ourselves by changing our

@@ -54,7 +54,7 @@ Each chapter contains a detailed explanation, and a set of exercises. Although t
 you do not need to think of them as thresholds. The primary reason this series is divided into chapters is to help your brain create new neural
 pathways by attempting to grouping certain types of shortcuts into categories. This way, we hope you will use them more frequently in real life.
 
-> ![TIP]
+> [!TIP]
 > To speed up your tutorial progression, we strongly advise you to copy the entire source code used in the tutorial to your local machine. You
 > can either fetch this code from the [original author's GitHub page](https://github.com/Sch3lp/ProductivityWithShortcuts), or from
 > our [copied version](https://github.com/sddevelopment-be/penguin-pragmatic-patterns/tree/main/code/productivity_with_shortcuts).

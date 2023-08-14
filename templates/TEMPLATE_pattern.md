@@ -1,18 +1,11 @@
 ## {{Pattern name}}
 
-| Property               | Value                                                  |
-|------------------------|--------------------------------------------------------|
-| Submitter              | [Your name](http://www.github.com/your-name)           |
-| Date of submission     |                                                        |
-| Editor                 |                                                        |
-| Originally publication | [platform name](http://link-to-platform.com)           |
-| Type                   | `Practice` / `Concept`                                 |
-| Tags                   | `comma`, `sepparated`, `list`, `of`, `applicable_tags` |
-
 ### Context
 
 > [!STUB]
 > Add a textual description of the context in which this pattern can be applied
+
+### Problem
 
 ### Drivers
 

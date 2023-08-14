@@ -21,6 +21,17 @@ You are distracted by various input in your environment, causing you to not fini
 
 ### Solution
 
+* Set a timer[^0] for a fixed amount of time. This timebox is called a "pomodoro". 
+  * Commonly, 25 minutes is used as a base value. 
+* Distance yourself from all distractions, and work on one task until the timer notifies you.
+* After completing a timebox, take a 5 minute break.
+* Set a new timer, and repeat.
+* After completing four iterations, take an extended break.
+
+For tasks that require a long time to complete, decide beforehand how much time you will invest in it now.
+It helps to specify a number of pomodoro's that you will devote to working on the task. You stop when the task is done, or your tinme allocation 
+runs out. Whichever comes first.
+
 > [!STUB]
 > Describe the core idea of the pattern and how to apply it.
 > Add subsections as you see fit in order to clearly communicate the idea
@@ -33,15 +44,38 @@ You are distracted by various input in your environment, causing you to not fini
 
 ### Examples
 
-#### Use Cases / Testimonials [Optional]
+#### A command line pomodoro timer
+
+If you do not have a mechanical timer available, you can use your computer's terminal to act the part.
+The script below, published by Byron Salty [on github](https://github.com/byronsalty/pom/blob/main/pom) is an excelent way of doing this. 
+On MacBooks, the `say` command makes your computer talk to you.
+
+```bash
+#!/bin/bash
+
+if [ -z "$1" ]; then
+  let min=25 
+else
+  let min=$1
+fi
+echo "Waiting ${min} minutes"
+
+for i in $(seq 1 $min)
+do
+  sleep 60  
+  let rem=min-i
+  echo -ne "${rem} minutes remaining\\r"
+done
+echo ""
+
+msg="Pomodoro completare"
+echo $msg
+say -v Luca $msg
+```
 
 ### References
 
-> [!STUB]
-> Add links to other patterns or content in this collection (or external ones), please add
-> references to the source material if you were inspired by someone else's work.
-> Feel free to add your own previous work as a reference.
-
-| Item        | Description    | 
-|-------------|----------------|
-| Some thingy | Why it is here |
+* F. Cirillo, "The Pomodoro Technique". FC Garage GmbH, 2013, [isbn: 9783981567908](https://www.goodreads.com/book/show/18482790-the-pomodoro-technique)
+* B. Salty, "A simple Pomodoro CLI". dev.to, 2023, [retrieved from the web on 14 aug 2023](https://dev.to/byronsalty/a-simple-pomodoro-cli-48p0)
+---
+[^0] Old-school kitchen timers in the shape of a tomato are where this technique got its name. The Italian word for "tomato" being __"pomodoro"__. 

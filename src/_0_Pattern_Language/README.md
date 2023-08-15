@@ -76,14 +76,13 @@ circumstances in which they usually work well.
 > Unlike Pokemon, you will not get a special prize for implementing all of them in your life.
 > You are encouraged to be eclectic, and only use the practices that resonate with you.
 
-
-
 ## References
 
 | Resource                                                                                                            | Author                                | Description                                                                                                                           |
 |---------------------------------------------------------------------------------------------------------------------|---------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|
 | [DSL Catalog](https://www.martinfowler.com/dslCatalog/index.html)                                                   | Martin Fowler                         | Patterns used in the "Domain Specific Languages" book by M. Fowler                                                                    |
 | [A Pattern Language for Pattern Writing](https://www.hillside.net/index.php/a-pattern-language-for-pattern-writing) | Gerard Meszaros, Object Systems Group | A self-describing meta-SPL                                                                                                            |
+| [The pattern language creation guide](https://www.ammerse.org/toolbox/the-pattern-language-creation-guide/)         | Jonathan Crossland                    |                                                                                                                                       |
 | [Structurizr modeling DSL](https://github.com/structurizr/dsl)                                                      | Structurizr Ltd                       | DSL used to synthesize the context of the problem domain                                                                              |
 | [Language Workbench](https://www.martinfowler.com/articles/languageWorkbench.html)                                  | Martin Fowler                         | Essay on the use of DSLs and meta-programming systems                                                                                 |
 | [Memetics](https://www.michelecoscia.com/?page_id=2070)                                                             | Michele Coscia                        | A collection of Micheles work on `Information Propagation and Memetics`, the study of how knowledge is spread using mnemonic devices. |

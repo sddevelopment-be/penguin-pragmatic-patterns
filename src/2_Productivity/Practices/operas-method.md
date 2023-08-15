@@ -1,20 +1,17 @@
 ## OPERAs method
 
-### Context
+### Problem
 
-> A mental model to work towards task progress
+How do you make structured progress towards a specific overarching goal?
 
-More often than not, people tend to have a big list of things they would like to get around to doing. Finding out how to make progress
-towards a specific goal can be quite challenging. In order to help with this endeavor, the OPERAS mental model can be useful. This is a
-general purpose pattern to frame progress towards a specific goal by using the _"divide and conquer"_ technique and a clear checklist-style
-plan of attack.
+### Intent
+- Your operational process is more structured
+- You can apply different approaches to each step of the process
+- You can keep tabs on the status of various goals and objectives, using the step names as status indicators
 
-The core idea is to give pattern users a mental map of the different actions that are required to complete a 'milestone'.
+### Contextual forces
 
-
-### Drivers
-
-- you want to keep tabs on the status of various goals and objectives, by using the step names as status indicators
+- You have a need to keep tabs on the status of various goals and objectives, by using the step names as status indicators
 - having a clear idea of progress made, when combined with the KPI pattern
 - split big goals into bite-sized chunks
 - stay committed to your goals without feeling like you are drowning in a never ending cycle of irrelevant 'side quests
@@ -83,7 +80,6 @@ You set out and do the task you intended to do. This is the operational phase of
 
 </details>
 
-
 <details>
 <summary>4. Reflect</summary>
 
@@ -126,21 +122,9 @@ might know a few coping strategies to resolve the situation in case it goes bad.
 
 </div>
 
-### Measuring success
-
-- While working towards a goal, you can measure your progress in a numerical manner, if the goal so allows.
-- Are you reaching more milestones?
-- Do you feel like you are more productive?
-- Do you have an enhanced sense of purpose and/or productivity?
-
 ### References
 
-| Item                                                                                                           | Description                                                                                  |
-|----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|
-| most agile frameworks                                                                                          | the concepts of `increments`, `reflection` and `adaptation`                                  |
-| A. Hunts [GROWS method](https://growsmethod.com/) for digital transformation                                   | A well thought-out phased improvement track for knowledge workers and software professionals |
-| KPIs and OKRs                                                                                                  | useful to measure progress                                                                   |
-| the ["external memory"](/2_Productivity/Patterns/Practices/HOME?id=free-your-mind-the-external-memory) pattern | keep track of your goals, tasks, and progress                                                |
-| the "dream game" pattern by [Matt Barnes](https://theeducationgame.com/coaching/)                              | A nice way to figure out what you are aiming to achieve                                      |
+* A. Hunt, The GROWS method, [growsmethod.com](https://growsmethod.com/).
+* M. Barnes, The dream game, [theeducationgame.com](https://theeducationgame.com/coaching/).
 
 ---

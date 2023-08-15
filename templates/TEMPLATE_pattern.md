@@ -5,23 +5,30 @@
 > [!STUB]
 > Add a textual description of the context in which this pattern can be applied
 
-### Problem
-
-### Drivers
+### Problem statement
 
 > [!STUB]
-> A bullet list explaining why this pattern makes sense,
-> try and be as objective as possible here
+> Describe the problem that this pattern aims to solve
+
+### Intent
+> [!STUB]
+> Describe the desired outcome
+
+### Contextual forces
+
+> [!STUB]
+> A bullet list explaining why this pattern makes sense, try and be as objective as possible here
+> The sections "Enablers" and "Deterents" can be used to divide the forces in a more structured way.
 
 #### Enablers
 
 > [!STUB]
-> Contextual factors that increase the chances of successfully implementing the pattern
+> Contextual factors that increase the viability of implementing the pattern
 
 #### Deterrents
 
 > [!STUB]
-> Contextual factors that decrease the chances of successfully implementing the pattern
+> Contextual factors that decrease the viability of implementing the pattern
 
 ### Solution
 
@@ -29,23 +36,29 @@
 > Describe the core idea of the pattern and how to apply it.
 > Add subsections as you see fit in order to clearly communicate the idea
 
-### Measuring success
+### Rationale
 
 > [!STUB]
-> How do we know if we applied the pattern succesfully? What are our _'red flags'_ that should
-> trigger an adaption of the style of application?
+> Describe the reasoning behind the pattern, or go into more detail on why it works.
+
+### Consequences
+
+> [!STUB]
+> Describe how the situation changes after applying the pattern
+> Try and focus on elements that are not immediatly apperent from the "intent" section.
+> Be sure to highlight potential unintended effects.
 
 ### Examples
 
-#### Use Cases / Testimonials [Optional]
+#### Use Cases / Testimonials
 
 ### References
 
 > [!STUB]
-> Add links to other patterns or content in this collection (or external ones), please add
-> references to the source material if you were inspired by someone else's work.
-> Feel free to add your own previous work as a reference.
+> Add references to material referenced in the text, or the original source of the pattern if applicable.
+> Be sure to credit authors and publications that inspired you.
+> Add links to other patterns or content in this collection (or external ones).
+> 
+> References should follow the [IEEE convention](https://www.scribbr.com/ieee/ieee-reference-page/) as close as possible.
 
-| Item        | Description    | 
-|-------------|----------------|
-| Some thingy | Why it is here |
+* Author, "TITLE". Publisher, Date (, additional information e.g. isbn).

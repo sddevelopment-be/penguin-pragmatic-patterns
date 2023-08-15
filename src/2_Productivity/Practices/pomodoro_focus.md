@@ -2,7 +2,7 @@
 
 ### Problem statement
 
-You are distract/ed by various input in your environment, causing you to not finish tasks you set out to do.
+You are distracted by various inputs from your environment, causing you to not finish tasks you set out to do.
 
 ### Intent
 
@@ -47,7 +47,7 @@ __"The hardest part is getting started."__ Reducing the resistance to start a ta
 The pomodoro technique aims to achieve this by introducing the reassurance that the end is in sight.
 Rather than committing to fully complete an endeavour, a practitioner is commiting to work on a certain task for a fixed period of time.
 
-Adding a certain element of gamification, and measurability, to the process helps motivate people to work towards their goals more frequently 
+Adding a certain element of gamification, and measurability, to the process helps motivate people to work towards their goals more frequently
 and consistently.
 
 ### Consequences

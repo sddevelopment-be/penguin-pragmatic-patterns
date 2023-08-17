@@ -410,7 +410,7 @@ They all appear when you type CamelHumps and IntelliJ remembers your last action
 ### **Mac**
 
 > [!NOTE]
-> These shortcuts might override with your OS shortcuts, so it's wise to disable these before you continue with the next exercises.
+> These shortcuts might conflict with your OS shortcuts, so it's wise to disable these before you continue with the next exercises.
 
 In `Chapter2.java`, put your cursor at the beginning of the method `theQuickBrownFoxJumpedOverTheLazyCamel`.
 

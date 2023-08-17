@@ -278,7 +278,7 @@ As it stands, Optimus has a method called .catchphrase that takes a prefix and r
 To navigate to the .catchphrase method, use <kbd>&#8984;</kbd> + <kbd>Shift</kbd> + <kbd>B</kbd>. Then delete catchphrase and replace it with
 rollout (don't use <kbd>Shift</kbd> + <kbd>F6</kbd>).
 
-Next, go back to the Transformers class with <kbd>&#8964;</kbd> + <kbd>[</kbd> and use autocomplete to replace the previous
+Next, go back to the Transformers class with <kbd>&#8984;</kbd> + <kbd>[</kbd> and use autocomplete to replace the previous
 non-compiling catchPhrase method with the new rollout method. Try using <kbd>Enter</kbd> as your confirmation selection first, and then undo
 with <kbd>&#8963;</kbd> + <kbd>Z</kbd> and retry the autocompletion using <kbd>Tab</kbd> as your selection confirmation.
 
@@ -351,11 +351,11 @@ Try out these actions using the <kbd>alt</kbd> + <kbd>insert</kbd> shortcut:
 
 The "Generate" action in IntelliJ is a powerful feature that allows you to quickly create code constructs such as constructors, methods, and
 getters/setters. It saves you a lot of time and effort by automatically generating boilerplate code for you, based on the parameters you provide.
-You can access the Generate action by pressing <kbd>&#8964;</kbd> + <kbd>N</kbd> (`Generate...`) in the editor window. This action is particularly 
+You can access the Generate action by pressing <kbd>&#8984;</kbd> + <kbd>N</kbd> (`Generate...`) in the editor window. This action is particularly 
 useful 
 when you need to create a large amount of repetitive code, or when you need to add functionality to your code quickly.
 
-Try out these actions using the <kbd>&#8964;</kbd> + <kbd>N</kbd> shortcut:
+Try out these actions using the <kbd>&#8984;</kbd> + <kbd>N</kbd> shortcut:
 
 * Create a new package from the `1: Project` _Tool Window_ to create a new class in the next step.
 * Create a new class from the `1: Project` _Tool Window_.
@@ -405,10 +405,10 @@ Your turn! Use this shortcut to:
 
 > [!TIP]
 > For more advanced scenarios, IntelliJ provides refactoring actions to help you delete code more safely and efficiently. For example, you can use
-> the "inline and remove" refactoring action (<kbd>&#8964;</kbd> + <kbd>&#8997;</kbd> + <kbd>N</kbd>) to remove a method and all its invocations at
+> the "inline and remove" refactoring action (<kbd>&#8984;</kbd> + <kbd>&#8997;</kbd> + <kbd>N</kbd>) to remove a method and all its invocations at
 > once without breaking your syntactical correctness.
 >
-> First you empty the body of the method, next you inline it (<kbd>&#8964;</kbd> + <kbd>&#8997;</kbd> + <kbd>n</kbd>).
+> First you empty the body of the method, next you inline it (<kbd>&#8984;</kbd> + <kbd>&#8997;</kbd> + <kbd>n</kbd>).
 >
 > This is sometimes called the "nuke it" option, and it can be very handy when you want to get rid of a method that is used in multiple places.
 > However, be sure to use this option with caution, as it can have unintended consequences if you're not careful.

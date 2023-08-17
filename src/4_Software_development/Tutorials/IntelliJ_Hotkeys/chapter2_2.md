@@ -59,7 +59,6 @@ backspace</kbd> to return to where you were last editing. Try pressing the hotke
 From the end of previous exercise, make sure you're back in the `Chapter2.java` class and press <kbd>&#8984;</kbd> + <kbd>shift</kbd> + <kbd>
 backspace</kbd> to return to where you were last editing. Try pressing the hotkey again and see what happens.
 
-
 <!-- tabs:end -->
 
 ## Show in Project Window

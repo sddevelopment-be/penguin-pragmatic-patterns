@@ -103,10 +103,10 @@ This will come in handy later.
 ### **Mac**
 
 In `Chapter4.java`, jump to 20:20 (using <kbd>&#8984;</kbd> + <kbd>l</kbd>). From this position we want to start implementing the body of the 
-method.
-Typically, one would do this by pressing <kbd>end</kbd>, and then <kbd>enter</kbd>. But you can do this in one go by
+method. Typically, one would do this by pressing <kbd>end</kbd>, and then <kbd>enter</kbd>. But you can do this in one go by
 pressing <kbd>shift</kbd> + <kbd>enter</kbd>, so let's do just that.
 
+This will come in handy later.
 <!-- tabs:end -->
 
 ## Join lines

@@ -80,6 +80,17 @@ There's two ways of doing this:
 
 Let's try 'em both out.
 
+We want to follow the path the code takes at runtime until we get to `CoffeeBeans.scent()`, so let's trace back our steps from there by
+opening `CoffeeBeans.java`, and <kbd>&#8984;</kbd> + <kbd>&#8997;</kbd> + <kbd>F7</kbd> on the `scent()` method.
+
+Use <kbd>&#8997;</kbd> + <kbd>enter</kbd> on `CoffeeSmeller.smell()`, see where it takes you, then <kbd>ctrl</kbd> + <kbd>enter</kbd>
+on `Chapter5.smellBeans()`.
+
+We figured out we want to change something in `CoffeeSmeller`, so select `CoffeeSmeller` in the `8: Hierarchy` tool window and instead of
+pressing <kbd>&#8997;</kbd> + <kbd>enter</kbd>, press <kbd>&#8984;</kbd> + <kbd>&#x2191;</kbd>.
+
+Now we can change the implementation.
+
 <!-- tabs:end -->
 
 ## Why resizing is for dummies

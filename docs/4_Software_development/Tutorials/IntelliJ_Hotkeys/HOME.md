@@ -944,7 +944,7 @@ They all appear when you type CamelHumps and IntelliJ remembers your last action
 ### **Mac**
 
 > [!NOTE]
-> These shortcuts might override with your OS shortcuts, so it's wise to disable these before you continue with the next exercises.
+> These shortcuts might conflict with your OS shortcuts, so it's wise to disable these before you continue with the next exercises.
 
 In `Chapter2.java`, put your cursor at the beginning of the method `theQuickBrownFoxJumpedOverTheLazyCamel`.
 
@@ -1135,7 +1135,6 @@ backspace</kbd> to return to where you were last editing. Try pressing the hotke
 
 From the end of previous exercise, make sure you're back in the `Chapter2.java` class and press <kbd>&#8984;</kbd> + <kbd>shift</kbd> + <kbd>
 backspace</kbd> to return to where you were last editing. Try pressing the hotkey again and see what happens.
-
 
 <!-- tabs:end -->
 
@@ -1696,10 +1695,10 @@ This will come in handy later.
 ### **Mac**
 
 In `Chapter4.java`, jump to 20:20 (using <kbd>&#8984;</kbd> + <kbd>l</kbd>). From this position we want to start implementing the body of the 
-method.
-Typically, one would do this by pressing <kbd>end</kbd>, and then <kbd>enter</kbd>. But you can do this in one go by
+method. Typically, one would do this by pressing <kbd>end</kbd>, and then <kbd>enter</kbd>. But you can do this in one go by
 pressing <kbd>shift</kbd> + <kbd>enter</kbd>, so let's do just that.
 
+This will come in handy later.
 <!-- tabs:end -->
 
 ## Join lines
@@ -1815,6 +1814,17 @@ There's two ways of doing this:
 * <kbd>&#8984;</kbd> + <kbd>&#x2191;</kbd>: navigates to your selected result AND focuses the editor window in one go.
 
 Let's try 'em both out.
+
+We want to follow the path the code takes at runtime until we get to `CoffeeBeans.scent()`, so let's trace back our steps from there by
+opening `CoffeeBeans.java`, and <kbd>&#8984;</kbd> + <kbd>&#8997;</kbd> + <kbd>F7</kbd> on the `scent()` method.
+
+Use <kbd>&#8997;</kbd> + <kbd>enter</kbd> on `CoffeeSmeller.smell()`, see where it takes you, then <kbd>ctrl</kbd> + <kbd>enter</kbd>
+on `Chapter5.smellBeans()`.
+
+We figured out we want to change something in `CoffeeSmeller`, so select `CoffeeSmeller` in the `8: Hierarchy` tool window and instead of
+pressing <kbd>&#8997;</kbd> + <kbd>enter</kbd>, press <kbd>&#8984;</kbd> + <kbd>&#x2191;</kbd>.
+
+Now we can change the implementation.
 
 <!-- tabs:end -->
 
@@ -2135,7 +2145,7 @@ As it stands, Optimus has a method called .catchphrase that takes a prefix and r
 To navigate to the .catchphrase method, use <kbd>&#8984;</kbd> + <kbd>Shift</kbd> + <kbd>B</kbd>. Then delete catchphrase and replace it with
 rollout (don't use <kbd>Shift</kbd> + <kbd>F6</kbd>).
 
-Next, go back to the Transformers class with <kbd>&#8964;</kbd> + <kbd>[</kbd> and use autocomplete to replace the previous
+Next, go back to the Transformers class with <kbd>&#8984;</kbd> + <kbd>[</kbd> and use autocomplete to replace the previous
 non-compiling catchPhrase method with the new rollout method. Try using <kbd>Enter</kbd> as your confirmation selection first, and then undo
 with <kbd>&#8963;</kbd> + <kbd>Z</kbd> and retry the autocompletion using <kbd>Tab</kbd> as your selection confirmation.
 
@@ -2208,11 +2218,11 @@ Try out these actions using the <kbd>alt</kbd> + <kbd>insert</kbd> shortcut:
 
 The "Generate" action in IntelliJ is a powerful feature that allows you to quickly create code constructs such as constructors, methods, and
 getters/setters. It saves you a lot of time and effort by automatically generating boilerplate code for you, based on the parameters you provide.
-You can access the Generate action by pressing <kbd>&#8964;</kbd> + <kbd>N</kbd> (`Generate...`) in the editor window. This action is particularly 
+You can access the Generate action by pressing <kbd>&#8984;</kbd> + <kbd>N</kbd> (`Generate...`) in the editor window. This action is particularly 
 useful 
 when you need to create a large amount of repetitive code, or when you need to add functionality to your code quickly.
 
-Try out these actions using the <kbd>&#8964;</kbd> + <kbd>N</kbd> shortcut:
+Try out these actions using the <kbd>&#8984;</kbd> + <kbd>N</kbd> shortcut:
 
 * Create a new package from the `1: Project` _Tool Window_ to create a new class in the next step.
 * Create a new class from the `1: Project` _Tool Window_.
@@ -2262,10 +2272,10 @@ Your turn! Use this shortcut to:
 
 > [!TIP]
 > For more advanced scenarios, IntelliJ provides refactoring actions to help you delete code more safely and efficiently. For example, you can use
-> the "inline and remove" refactoring action (<kbd>&#8964;</kbd> + <kbd>&#8997;</kbd> + <kbd>N</kbd>) to remove a method and all its invocations at
+> the "inline and remove" refactoring action (<kbd>&#8984;</kbd> + <kbd>&#8997;</kbd> + <kbd>N</kbd>) to remove a method and all its invocations at
 > once without breaking your syntactical correctness.
 >
-> First you empty the body of the method, next you inline it (<kbd>&#8964;</kbd> + <kbd>&#8997;</kbd> + <kbd>n</kbd>).
+> First you empty the body of the method, next you inline it (<kbd>&#8984;</kbd> + <kbd>&#8997;</kbd> + <kbd>n</kbd>).
 >
 > This is sometimes called the "nuke it" option, and it can be very handy when you want to get rid of a method that is used in multiple places.
 > However, be sure to use this option with caution, as it can have unintended consequences if you're not careful.
@@ -3239,5 +3249,5 @@ Feel free to start from any of the existing code packages, and go from there.
 1. Create a new class that resides in a new package and has to interact with another existing class
 2. Create a new test for that class
 3. Create a new TestBuilder for the existing class
-4. Perform a _red, green, refactor_
+4. Perform a _red, green, refactor_ [(see this article on codecademy)](https://www.codecademy.com/article/tdd-red-green-refactor)
 5. (Optional) commit and push

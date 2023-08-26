@@ -1,0 +1,6 @@
+[submodule "patterns/themes/fresh"]
+	path = patterns/themes/fresh
+	url = https://github.com/StefMa/hugo-fresh
+[submodule "patterns/themes/ananke"]
+	path = patterns/themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git

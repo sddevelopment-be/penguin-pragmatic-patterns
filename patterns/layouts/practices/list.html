@@ -1,0 +1,50 @@
+{{ define "main" }}
+{{ partial "navbar.html" . }}
+{{ partial "navbar-clone.html" . }}
+
+{{ $patterns := slice  }}
+
+{{ range .Pages }}
+    {{ $ctx := dict
+    "Date" .Date
+    "Title" .Title
+    "RelPermalink" .RelPermalink
+    "Description"  .Description
+    }}
+    {{ $patterns = $patterns | append $ctx }}
+{{ end }}
+
+
+<section class="section section-feature-grey is-medium" id="section1">
+    <div class="container">
+
+        <div class="column is-centered-tablet-portrait">
+            <h1 class="title section-title">
+                {{ .Title }}
+            </h1>
+            <div class="divider"></div>
+        </div>
+
+
+        <div class="content-wrapper">
+            <div class="columns">
+                {{- range sort $patterns "Title" "Asc"}}
+                <div class="column is-one-third">
+                    <div class="pattern-card revealOnScroll delay-1" data-animation="fadeInLeft">
+                        <div class="card-title">
+                            <h4>{{ .Title }}</h4>
+                        </div>
+                        <div class="card-text">
+                            <p>{{ .Description }}</p>
+                        </div>
+                        <div class="card-action">
+                            <a href="{{ .RelPermalink }}" class="button btn-align-md raised">Read more</a>
+                        </div>
+                    </div>
+                </div>
+                {{- end }}
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}

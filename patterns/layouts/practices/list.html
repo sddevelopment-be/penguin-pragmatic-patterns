@@ -27,9 +27,9 @@
 
 
         <div class="content-wrapper">
-            <div class="columns">
+            <div class="wrapped-columns">
                 {{- range sort $patterns "Title" "Asc"}}
-                <div class="column is-one-third">
+                <div class="flex-column">
                     <div class="pattern-card revealOnScroll delay-1" data-animation="fadeInLeft">
                         <div class="card-title">
                             <h4>{{ .Title }}</h4>

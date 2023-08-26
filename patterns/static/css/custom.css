@@ -1,4 +1,21 @@
+.wrapped-columns {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-column {
+    display: flex;
+    flex-basis: 0;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 0.75rem;
+    justify-content: space-around;
+}
+
 .pattern-card {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
     width: 300px;
     align-content: normal;
     background-color: rgba(254, 244, 238, 0.99);

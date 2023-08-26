@@ -38,11 +38,11 @@ params:
     sizes: [400,600]
   hero:
     # Main hero title
-    title: Manage. Deploy.
+    title: Pragmatic Penguin Pattern Portfolio
     # Hero subtitle (optional)
-    subtitle: Lorem ipsum sit dolor amet is dummy text used by the typography industry
+    subtitle: Become a better software professional, by standing on the shoulders of giants
     # Button text
-    buttontext: Get started
+    buttontext: Start Reading
     # Where the main hero button links to
     buttonlink: "#"
     # Hero image (from static/images/___)
@@ -55,50 +55,32 @@ params:
   navbar:
   - title: About
     url: /
-  - title: Resources
-    sublinks:
-    - title: long form
-      url: /
-    - title: short form
-      url: /
-    - title: tools
-      url: /
-    - title: bibliography
-      url: /
-  - title: Pattern Catalogue
-    url: /
+  - title: Concepts
+    url: /concepts/
+  - title: Practices
+    url: /practices/
   - title: Glossary
     url: /
+  - title: Resources
+    sublinks:
+      - title: long form
+        url: /
+      - title: short form
+        url: /
+      - title: tools
+        url: /
+      - title: bibliography
+        url: /
   - title: Start reading
     url: /
     button: true
 
-  section1:
-    title: Great power comes
-    subtitle: with great responsibility
-    tiles:
-    - title: App builder
-      icon: mouse-globe
-      text: This is some explanatory text that is on two rows
-      url: /
-      buttonText: Free trial
-    - title: Cloud integration
-      icon: laptop-cloud
-      text: This is some explanatory text that is on two rows
-      url: /
-      buttonText: Get started
-    - title: Add-ons & plugins
-      icon: plug-cloud
-      text: This is some explanatory text that is on two rows
-      url: /
-      buttonText: Get started
   section2:
     title: You're here because you want the best
     subtitle: And we know it
     features:
     - title: Powerful and unified interface
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-      # Icon (from /images/illustrations/icons/___.svg)
       icon: laptop-globe
     - title: Cross-device synchronisation
       text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
@@ -112,28 +94,6 @@ params:
     image: illustrations/mockups/app-mockup.png
     buttonText: Get started
     buttonLink: "#"
-  section4:
-    title: Our Clients love us!
-    subtitle: Lorem ipsum sit dolor amet is a dummy text used by typography industry
-    clients:
-    - name: Irma Walters
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: Accountant
-      img: 1
-    - name: John Bradley
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: Financial Analyst
-      img: 2
-    - name: Gary Blackman
-      quote: Lorem ipsum dolor sit amet, elit deleniti dissentias quo eu, hinc minim appetere te usu, ea case duis scribentur has. Duo te consequat elaboraret, has quando suavitate at.
-      job: HR Manager
-      img: 3
-  section5:
-    title: Drop us a line or two
-    subtitle: We'd love to hear from you
-    buttonText: Send Message
-    # action: https://formspree.io/f/<form_id>
-    # method: POST
   footer:
     # Logo (from /images/logos/___)
     logo: ppp_logo_light.png

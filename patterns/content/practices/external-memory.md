@@ -14,7 +14,7 @@ tags = [
 
 ## Context
 
-![./free-mind.gif >](./free-mind.gif)
+![./free-mind.gif >](/images/practices/free-mind.gif)
 
 Human memory is [extremely lossy](https://www.nationalgeographic.com/science/article/human-memory). We are better equipped for creative,
 constructive thinking than for storing factual information. Focus is [easily disrupted](https://blog.rescuetime.com/context-switching/).

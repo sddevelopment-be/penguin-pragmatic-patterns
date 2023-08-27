@@ -60,7 +60,7 @@ params:
   - title: Practices
     url: /practices/
   - title: Glossary
-    url: /
+    url: /glossary/
   - title: Resources
     sublinks:
       - title: long form
@@ -72,7 +72,7 @@ params:
       - title: bibliography
         url: /
   - title: Start reading
-    url: /
+    url: /chapters/intro
     button: true
 
   section2:

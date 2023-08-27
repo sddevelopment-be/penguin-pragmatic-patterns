@@ -96,3 +96,39 @@
 .glossary-term .term-content .term-abbreviation {
     margin-bottom: 0.75rem;
 }
+
+
+/*  image stuff  */
+.gallery {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    overflow: auto;
+    text-align:  center;
+    margin-bottom: 1.25rem;
+    border-radius: 0.75rem;
+}
+
+.gallery figure {
+    background: rgba(254, 244, 238, 0.99);
+    margin-right: 0.25rem;
+    margin-left: 0.25rem;
+    margin-bottom: 1.25rem;
+}
+
+.gallery figure img{
+    padding: 0.75rem 0.75rem 0rem;
+    max-height: 65rem;
+    max-width: 50rem;
+}
+
+.gallery figcaption {
+    text-align: center;
+    color: #1f3c48;
+    background: rgba(254, 244, 238, 0.99);
+    font-size: 0.975rem;
+    font-weight: 350;
+    font-style: oblique;
+    padding-bottom: 0.5rem;
+}

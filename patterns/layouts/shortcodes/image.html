@@ -1,0 +1,26 @@
+{{ $original_src := .Get "src" }}
+{{ $src := replace $original_src ".png" "" | absURL }}
+{{ $alt := .Get "alt" }}
+{{ $caption := .Get "caption" }}
+
+{{ if $caption }}
+<div class="gallery">
+    <figure>
+        <picture>
+            <source srcset="{{ $src }}.png" type="image/png"/>
+            <img src="{{ $src }}.png" type="image/png" alt="{{ $alt }}" decoding="async"/>
+        </picture>
+        <figcaption>{{ $caption }}</figcaption>
+    </figure>
+</div>
+{{ else }}
+<div class="center">
+    <a class="search-icon" href="{{ $src }}.png" data-lightbox="image-1">
+        <picture>
+            <source srcset="{{ $src }}.webp" type="image/webp"/>
+            <source srcset="{{ $src }}.png" type="image/png"/>
+            <img src="{{ $src }}.png" type="image/png" alt="{{ $alt }}" decoding="async"/>
+        </picture>
+    </a>
+</div>
+{{ end }}

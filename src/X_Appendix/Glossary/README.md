@@ -40,8 +40,7 @@ A type of buffer uses with shared memory IPC. Bounded buffers can only use a fix
 ### Boyscout rule
 
 The base premise of the Boyscout rule is that if everyone leaves their environment a little bit better than it was when they found it, eventually it
-wil flourish.
-The term originates from the handbook of the Boyscouts of America, where it was phrased slightly differently to apply mostly to campsites.
+wil flourish. The term originates from the handbook of the Boyscouts of America, where it was phrased slightly differently to apply mostly to campsites.
 In software development, the phrase is commonly used to entice programmers to clean up their own messes and the messes that were left behind by
 their predecessors. This relates strongly to the broken window theory.
 

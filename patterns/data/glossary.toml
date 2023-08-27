@@ -1,43 +1,84 @@
 [[terminology]]
-    name = "Application Program Interface"
-    abbreviation = "API"
-    domain = "software"
-    description = """
+name = "Application Program Interface"
+abbreviation = "API"
+domain = "software"
+description = """
     Specifies a set of software functions that are made available to an application programmer.
     The API typically includes function names, the parameters that can be passed into each functions, and a
     description of the return values one can expect.
     """
-    aliases = []
-    references = [
-         {tile = "IBM: What is an API?", link = "https://www.ibm.com/topics/api"}
-    ]
+aliases = []
+references = [
+    { tile = "IBM: What is an API?", link = "https://www.ibm.com/topics/api" }
+]
 
 [[terminology]]
-    name = "Asymmetric clustering"
-    domain = "software"
-    description = """
+name = "Asymmetric clustering"
+domain = "software"
+description = """
         One machine is in hot-standby mode and does nothing by monitor the other.
         In case of failure, the hot-standby takes over.
     """
-    aliases = [ "failover configuration" ]
-    references = []
+aliases = ["failover configuration"]
+references = []
 
 [[terminology]]
-    name = "Asymmetric multiprocessing"
-    domain = "software"
-    description = """
+name = "Asymmetric multiprocessing"
+domain = "software"
+description = """
     Each processor is assigned to a single task.
     One processor is called the _master (or main) processor_, and controls the system.
     """
-    aliases = []
-    references = []
+aliases = []
+references = []
 
 [[terminology]]
-    name = "Asynchronous cancellation"
-    domain = "software"
-    description = """
+name = "Asynchronous cancellation"
+domain = "software"
+description = """
     Cancellation of a target thread that immediatly terminates it.
     (e.g. Unix' `kill -9 $PID` command )
     """
-    aliases = []
-    references = []
+aliases = []
+references = []
+
+[[terminology]]
+name = "Blade servers"
+domain = "hardware"
+description = """
+        A single chassis with multiple processor boards, I/O boards, and networking boards.
+        Each processor board boots independently and runs its own operating system.
+        """
+aliases = []
+references = []
+
+[[terminology]]
+name = "Bootstrap program"
+domain = "software"
+description = """
+        An initial program, usually stored on ROM or EEPROM memory, to initiallize all aspects of the system.
+        """
+aliases = ["boot loader"]
+references = []
+
+[[terminology]]
+name = "Bounded buffer"
+domain = "software"
+description = """
+    A type of buffer uses with shared memory IPC. Bounded buffers can only use a fixed amount of memory space.
+    """
+aliases = []
+references = []
+
+[[terminology]]
+name = "Boyscout rule"
+abbreviation = ""
+domain = "software"
+description = """
+    The base premise of the Boyscout rule is that if everyone leaves their environment a little bit better than it was when they found it, eventually it
+    wil flourish. The term originates from the handbook of the Boyscouts of America, where it was phrased slightly differently to apply mostly to campsites.
+    In software development, the phrase is commonly used to entice programmers to clean up their own messes and the messes that were left behind by
+    their predecessors. This relates strongly to the broken window theory.
+    """
+aliases = []
+references = []

@@ -15,7 +15,7 @@
 .pattern-card {
     display: flex;
     flex-flow: column nowrap;
-    justify-content: flex-start;
+    justify-content: space-between;
     width: 300px;
     align-content: normal;
     background-color: rgba(254, 244, 238, 0.99);

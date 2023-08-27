@@ -1,0 +1,29 @@
+{{ define "main" }}
+{{ partial "navbar.html" . }}
+{{ partial "navbar-clone.html" . }}
+
+<section class="section section-feature-grey is-medium" id="glossary">
+    <div class="container">
+        <div class="column is-centered-tablet-portrait">
+            <h1 class="title section-title">
+                {{ .Title }}
+            </h1>
+            <div class="divider"></div>
+        </div>
+
+        <div class="content-wrapper">
+
+            {{ .Content }}
+
+            <div class="terminology-wrapper">
+                {{ range $terminology := (index .Site.Data "glossary").terminology }}
+                    {{ partial "glossary_term.html" (dict "term" $terminology) }}
+                {{ end }}
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+{{ end }}

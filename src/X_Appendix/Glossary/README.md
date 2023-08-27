@@ -6,7 +6,7 @@ Application Program Interface. Specifies a set of software functions that are ma
 programmer. The API typically includes function names, the parameters that can be passed into each functions, and a
 description of the return values one can expect.
 
-### Asymetric clustering
+### Asymmetric clustering
 
 Also known as a failover configuration.
 One machine is in hot-standby mode and does nothing by monitor the other. In case of failure, the hot-standby takes

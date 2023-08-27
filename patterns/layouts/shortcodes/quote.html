@@ -1,8 +1,8 @@
 {{ $text := .Get "text" }}
 {{ $author:= .Get "author" }}
 
-<div class="quote_container">
-    <blockquote class="groucho">
+<div class="alert-container">
+    <blockquote class="groucho quote">
         {{ $text }}
         {{ if $author }}<footer>{{ $author }}</footer> {{ end }}
     </blockquote>

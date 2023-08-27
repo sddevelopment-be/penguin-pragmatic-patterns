@@ -1,0 +1,44 @@
+.info {
+    width: 95%;
+    display: flow-root;
+}
+
+summary {
+    display: flow-root !important;
+    border-bottom: 2px #99999985 solid;
+    list-style: none;
+    width: 100%;
+}
+
+summary:hover {
+    border-bottom: 2px #329af075 solid;
+}
+
+details {
+    text-align: left;
+    font-size: 15px;
+    margin-bottom: 0.5rem;
+    background: linear-gradient(180deg, #efefef, #eee) no-repeat 0 0;;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #99999985;;
+}
+
+details p {
+    background: #fefefe;
+    margin-top: 10px;
+    padding: 15px;
+    margin-bottom: 3px;
+    width: 100%;
+}
+
+
+details[open] summary:after {
+    content: "  [ close ]";
+}
+
+details summary:after {
+    font-size: x-small;
+    margin-left: 15px;
+    content: "  [ open ]";
+}

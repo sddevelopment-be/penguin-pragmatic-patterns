@@ -9,6 +9,7 @@ categories = [
 tags = [
     "workflow", "organizing", "research", "goals"
 ]
+displaySection = "productivity"
 +++
 
 ## Problem

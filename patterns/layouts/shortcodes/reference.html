@@ -1,0 +1,12 @@
+<!--APA format: Last name, Initials. (Year). Book title. (Contributor initials, last name, role.) (Edition). City, State/Country: Publisher.-->
+
+{{ $author := .Get "author" }}
+{{ $year := .Get "year" }}
+{{ $title := .Get "title" }}
+{{ $location := .Get "loc" }}
+{{ $publisher := .Get "pub" }}
+{{ $url := .Get "url" }}
+
+<div class="reference">
+    {{ $author }}. ({{ $year}}). <a href="{{ $url }}" target="_blank" rel="noreferrer">{{ $title }}</a>. {{ if $publisher }}{{ $location }}: {{ $publisher }} {{ end }}
+</div>

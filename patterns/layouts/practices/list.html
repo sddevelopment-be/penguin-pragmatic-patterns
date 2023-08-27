@@ -2,18 +2,8 @@
 {{ partial "navbar.html" . }}
 {{ partial "navbar-clone.html" . }}
 
-{{ $patterns := slice  }}
-
-{{ range .Pages }}
-    {{ $ctx := dict
-    "Date" .Date
-    "Title" .Title
-    "RelPermalink" .RelPermalink
-    "Description"  .Description
-    }}
-    {{ $patterns = $patterns | append $ctx }}
-{{ end }}
-
+{{ $titles := (slice "productivity" "learning" )}}
+{{ $pages := .Pages}}
 
 <section class="section section-feature-grey is-medium" id="section1">
     <div class="container">
@@ -25,25 +15,29 @@
             <div class="divider"></div>
         </div>
 
-
         <div class="content-wrapper">
-            <div class="wrapped-columns">
-                {{- range sort $patterns "Title" "Asc"}}
-                <div class="flex-column">
-                    <div class="pattern-card revealOnScroll delay-1" data-animation="fadeInLeft">
-                        <div class="card-title">
-                            <h4>{{ .Title }}</h4>
-                        </div>
-                        <div class="card-text">
-                            <p>{{ .Description }}</p>
-                        </div>
-                        <div class="card-action">
-                            <a href="{{ .RelPermalink }}" class="button btn-align-md raised">Read more</a>
-                        </div>
-                    </div>
-                </div>
-                {{- end }}
+
+        {{ range $categoryTitle := $titles }}
+            <div class="column is-centered-tablet-portrait">
+                <h2 class="subtitle">
+                    {{ $categoryTitle }}
+                </h2>
             </div>
+            <div class="wrapped-columns">
+                {{ $patterns := slice  }}
+                {{ range where $pages ".Params.categories" "intersect" (slice $categoryTitle) }}
+                {{ $ctx := dict
+                "Date" .Date
+                "Title" .Title
+                "RelPermalink" .RelPermalink
+                "Description"  .Description
+                "Categories" .Params.categories
+                }}
+                {{ $patterns = $patterns | append $ctx }}
+                {{ end }}
+                {{ partial "flex_cards.html" (dict "context" . "patterns" $patterns) }}
+            </div>
+        {{ end }}
         </div>
     </div>
 </section>

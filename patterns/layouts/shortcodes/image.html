@@ -6,18 +6,19 @@
 {{ if $caption }}
 <div class="gallery">
     <figure>
-        <picture>
-            <source srcset="{{ $src }}.png" type="image/png"/>
-            <img src="{{ $src }}.png" type="image/png" alt="{{ $alt }}" decoding="async"/>
-        </picture>
+        <a class="search-icon" target="_blank" href="{{ $src }}.png">
+            <picture>
+                <source srcset="{{ $src }}.png" type="image/png"/>
+                <img src="{{ $src }}.png" type="image/png" alt="{{ $alt }}" decoding="async"/>
+            </picture>
+        </a>
         <figcaption>{{ $caption }}</figcaption>
     </figure>
 </div>
 {{ else }}
-<div class="center">
-    <a class="search-icon" href="{{ $src }}.png" data-lightbox="image-1">
+<div class="text_image">
+    <a class="search-icon" target="_blank" href="{{ $src }}.png">
         <picture>
-            <source srcset="{{ $src }}.webp" type="image/webp"/>
             <source srcset="{{ $src }}.png" type="image/png"/>
             <img src="{{ $src }}.png" type="image/png" alt="{{ $alt }}" decoding="async"/>
         </picture>

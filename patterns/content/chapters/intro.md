@@ -48,8 +48,11 @@ come before us. Learn what worked, but more importantly: learn why it worked. If
 to you, try it out and see what results you achieve with it. When it did not work out as expected, figure out why it did not work. If you are
 feeling particularly charitable, share you newfound knowledge with your friends, coworkers, or the general public.
 
-{{<quote text="Heeded my words not, did you? Pass on what you have learned. Strength. Mastery. But weakness, folly, failure also. Yes,failure most of all. The greatest teacher, failure is. Luke, we are what they grow beyond. That is the true burden of all masters." author="Yoda, Jedi grandmaster" >}}
-
+{{<quote text=`
+Heeded my words not, did you? Pass on what you have learned. Strength. Mastery. 
+But weakness, folly, failure also. Yes,failure most of all. 
+The greatest teacher, failure is. Luke, we are what they grow beyond. That is the true burden of all masters.` 
+author="Yoda, Jedi grandmaster" >}}
 
 # About this publication
 
@@ -80,7 +83,8 @@ To enhance your reading experience, this publication is organized by categories,
 
 If you encounter unfamiliar concepts or abbreviations, consult the [glossary](/X_Appendix/Glossary/HOME) for definitions and explanations.
 
-For those interested in further exploration of the topics discussed in this work, check out the [Reading list section](/X_Appendix/Learning_Materials/HOME) in the appendices.
+For those interested in further exploration of the topics discussed in this work, check out
+the [Reading list section](/X_Appendix/Learning_Materials/HOME) in the appendices.
 There, you'll find a curated list of books, articles, and audiovisual resources worth exploring.
 
 ## A pattern-based approach
@@ -112,14 +116,14 @@ pattern is prefaced with a short description of when it can be useful to conside
 
 The pattern structure definition is illustrated in the following figure:
 
-![Pattern structure definition ><](/0_Intro/pattern_definition.png ':size=680')
+{{< image src="/images/chapters/pattern_definition.png"  alt="Pattern structure definition" >}}
 
 Some patterns may contain references to other resources, as well as supporting examples, testimonials, tutorials, and so on. These examples can be
 included inside the pattern description, but they might also exist as separate resources in a different section of this publication.
 
 {{<warning text=`
-Please note that pattern lists are not like a bingo chart or a collection of Pokémon. There is no special prize for 
-incorporating all the patterns in this publication into your work or life. Instead, we encourage you to be selective and only use the practices 
+Please note that pattern lists are not like a bingo chart or a collection of Pokémon. There is no special prize for
+incorporating all the patterns in this publication into your work or life. Instead, we encourage you to be selective and only use the practices
 that resonate with you. You are free to modify them according to your needs and preferences. After all, who are we to tell you what to do?
 ` >}}
 
@@ -127,7 +131,9 @@ that resonate with you. You are free to modify them according to your needs and 
 
 # Section References
 
-[^0] Statistics retrieved from [https://www.zippia.com/software-engineer-jobs/demographics/](https://www.zippia.com/software-engineer-jobs/demographics/), Evolution of software engineer demographics in the USA in 2019.
+[^0] Statistics retrieved
+from [https://www.zippia.com/software-engineer-jobs/demographics/](https://www.zippia.com/software-engineer-jobs/demographics/), Evolution of
+software engineer demographics in the USA in 2019.
 
 [^1] Unfortunately knowing this does not instantly make you a great chess player, as my elo on online platforms so adequately reminds me.
 

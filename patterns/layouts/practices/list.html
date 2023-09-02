@@ -20,10 +20,10 @@
         {{ range $categoryTitle := $titles }}
             <div class="column is-centered-tablet-portrait">
                 <h2 class="subtitle">
-                    {{ $categoryTitle }}
+                    {{ $categoryTitle | upper }}
                 </h2>
             </div>
-            <div class="wrapped-columns">
+            <div class="wrapped-columns pattern_container">
                 {{ $patterns := slice  }}
                 {{ range where $pages ".Params.categories" "intersect" (slice $categoryTitle) }}
                 {{ $ctx := dict

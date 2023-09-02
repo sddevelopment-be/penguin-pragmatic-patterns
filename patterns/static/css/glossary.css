@@ -1,0 +1,50 @@
+/* Glossary stuff */
+
+.terminology-wrapper {
+    margin-top: 2.25rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 1.25rem;
+    /*background: rgb(254, 249, 246);*/
+}
+
+.glossary-term {
+    display: flex;
+    flex-flow: column wrap;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    padding: 1.25rem 0.25rem;
+    margin-bottom: 1.25rem;
+    background: #fefefe;
+    border-radius: 1.75rem;
+}
+
+.glossary-term .term-name {
+    border-bottom: 1px solid #f39200;
+    text-transform: capitalize;
+    color: #030d12;
+    font-size: 1.25rem;
+    padding-bottom: 0.25rem;
+}
+
+.glossary-term .term-content {
+    padding: 0.75rem;
+    color: #0b1d27;
+}
+
+.glossary-term .term-content b {
+    color: #1f3c48;
+    font-stretch: extra-condensed;
+    text-transform: uppercase;
+    font-weight: 350;
+    font-size: 0.75rem;
+}
+
+.glossary-term .term-content .term-text {
+    margin-bottom: 0.75rem;
+}
+
+.glossary-term .term-content .term-abbreviation {
+    margin-bottom: 0.75rem;
+}

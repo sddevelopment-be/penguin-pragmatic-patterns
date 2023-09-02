@@ -1,6 +1,5 @@
 {{ $patterns := .patterns }}
 {{- range sort $patterns "Title" "Asc"}}
-<div class="flex-column">
     <div class="pattern-card revealOnScroll delay-1" data-animation="fadeInLeft">
         <div class="card-title">
             <h4>{{ .Title }}</h4>
@@ -12,5 +11,4 @@
             <a href="{{ .RelPermalink }}" class="button btn-align-md raised">Read more</a>
         </div>
     </div>
-</div>
 {{- end }}

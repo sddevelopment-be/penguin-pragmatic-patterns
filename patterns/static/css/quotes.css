@@ -64,7 +64,8 @@
 .content blockquote {
     margin: 0 0 0 0;
     background-color: transparent;
-    font-size: 1.125rem;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.275rem;
     font-style: oblique;
 }
 
@@ -74,7 +75,7 @@
 }
 
 .quote {
-    color: #190735;
+    color: #1f2226;
     border-left: 5px solid #471a8b !important;
 }
 
@@ -95,10 +96,20 @@
 }
 
 .warning {
-    color: #ab101b;
-    border-left: 5px solid #f13f4b !important;
+    color: #1f2226;
+    border-left: 5px solid #f0ad4e !important;
 }
 
-.warning footer {
-    color: #ab101b;
+.warning:after {
+    content: '!';
+    position: absolute;
+    top: 0.28em;
+    right: 0;
+    font-size: 3.35em;
+    font-weight: 900;
+    font-family: 'Operator Mono', 'Fira Code', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    font-style: italic;
+    color: #f0ad4e;
+    z-index: -1;
+    box-sizing: border-box;
 }

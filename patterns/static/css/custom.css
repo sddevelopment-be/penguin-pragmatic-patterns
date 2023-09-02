@@ -1,3 +1,8 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25em;
+}
+
 .wrapped-columns {
     display: flex;
     flex-wrap: wrap;
@@ -10,125 +15,4 @@
     flex-shrink: 1;
     padding: 0.75rem;
     justify-content: space-around;
-}
-
-.pattern-card {
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: space-between;
-    width: 300px;
-    align-content: normal;
-    background-color: rgba(254, 244, 238, 0.99);
-    border-radius: 3px;
-    margin: 0 auto;
-    border: 1px solid #8da1b9;
-    padding: 0.75rem;
-}
-.pattern-card .card-icon img {
-    height: 120px;
-    margin-top: 20px;
-}
-
-.pattern-card .card-title h4 {
-    font-family: 'Open Sans', sans-serif;
-    padding-top: 0.25rem;
-    font-size: 1.2rem;
-    font-weight: 600;
-    color: #1e1e3f;
-}
-
-.pattern-card .card-text {
-    color: #2c3e50;
-    padding-left: 0.25rem;
-}
-.pattern-card .card-action {
-    margin-top: 1.25rem;
-    margin-bottom: 0.25rem;
-}
-
-/* Glossary stuff */
-
-.terminology-wrapper {
-    margin-top: 2.25rem;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    padding: 1.25rem;
-    /*background: rgb(254, 249, 246);*/
-}
-
-.glossary-term {
-    display: flex;
-    flex-flow: column wrap;
-    flex-grow: 1;
-    justify-content: space-evenly;
-    padding: 1.25rem 0.25rem;
-    margin-bottom: 1.25rem;
-    background: #fefefe;
-    border-radius: 1.75rem;
-}
-
-.glossary-term .term-name {
-    border-bottom: 1px solid #f39200;
-    text-transform: capitalize;
-    color: #030d12;
-    font-size: 1.25rem;
-    padding-bottom: 0.25rem;
-}
-
-.glossary-term .term-content {
-    padding: 0.75rem;
-    color: #0b1d27;
-}
-
-.glossary-term .term-content b {
-    color: #1f3c48;
-    font-stretch: extra-condensed;
-    text-transform: uppercase;
-    font-weight: 350;
-    font-size: 0.75rem;
-}
-
-.glossary-term .term-content .term-text {
-    margin-bottom: 0.75rem;
-}
-
-.glossary-term .term-content .term-abbreviation {
-    margin-bottom: 0.75rem;
-}
-
-
-/*  image stuff  */
-.gallery {
-    width: 100%;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-    overflow: auto;
-    text-align:  center;
-    margin-bottom: 1.25rem;
-    border-radius: 0.75rem;
-}
-
-.gallery figure {
-    background: rgba(254, 244, 238, 0.99);
-    margin-right: 0.25rem;
-    margin-left: 0.25rem;
-    margin-bottom: 1.25rem;
-}
-
-.gallery figure img{
-    padding: 0.75rem 0.75rem 0rem;
-    max-height: 65rem;
-    max-width: 50rem;
-}
-
-.gallery figcaption {
-    text-align: center;
-    color: #1f3c48;
-    background: rgba(254, 244, 238, 0.99);
-    font-size: 0.975rem;
-    font-weight: 350;
-    font-style: oblique;
-    padding-bottom: 0.5rem;
 }

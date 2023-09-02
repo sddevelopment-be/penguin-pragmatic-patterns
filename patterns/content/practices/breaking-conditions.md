@@ -22,8 +22,8 @@ It is hard to uphold commitments (to yourself), it is equally hard to know when 
 * We (generally) want to do what is good for ourselves, those close to us, and the people we care about
 * There is a cost of choice while working with limited resources: choosing to invest your resources (time, energy, money, health) into an
   endeavour automatically makes it unavailable for investment elsewhere.  
-* We can [condition ourselves](https://en.wikipedia.org/wiki/Behaviorism) by stating declarations of intent in _"When X happens, then I will Y"_. This [priming](https://en.
-  wikipedia.org/wiki/Response_priming) making it easier to act in the way we want to. 
+* We can [condition ourselves](https://en.wikipedia.org/wiki/Behaviorism) by stating declarations of intent in _"When X happens, then I will Y"_. 
+  This [priming](https://en.wikipedia.org/wiki/Response_priming) making it easier to act in the way we want to. 
 * The TOC teaches us that holding too much work-in-progress reduces our ability to be effective.
 * Our mental capacity is limited. When we spend too much time fretting over the things we ought to do, there is little room to work on the things we are doing.
 
@@ -59,9 +59,7 @@ In the end, reaching your goals at all costs is usually not really worth it.
 
 ## Measuring success
 
-> [!STUB]
-> Due to it's online nature, this work in in perpetual motion. 
-> This section has not yet been completed. If you are interested in adding content here, please refer to the ["How to contribute" guide](https://github.com/sddevelopment-be/penguin-pragmatic-patterns/blob/content/software_patterns/CONTRIBUTING.md) on github.
+{{<stub text="">}}
 
 ## Examples
 

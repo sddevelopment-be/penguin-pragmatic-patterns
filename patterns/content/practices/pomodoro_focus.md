@@ -63,11 +63,7 @@ and consistently.
 
 ## Consequences
 
-> [!STUB]
-> Due to it's online nature, this work in in perpetual motion.
-> This section has not yet been completed. If you are interested in adding content here, please refer to
-> the ["How to contribute" guide](https://github.com/sddevelopment-be/penguin-pragmatic-patterns/blob/content/software_patterns/CONTRIBUTING.md) on
-> github.
+{{<stub text="">}}
 
 ## Examples
 
@@ -107,4 +103,5 @@ say -v Luca $msg
 * B. Salty, "A simple Pomodoro CLI". dev.to, 2023, [retrieved from the web on 14 aug 2023](https://dev.to/byronsalty/a-simple-pomodoro-cli-48p0)
 
 ---
-[^0] Old-school kitchen timers in the shape of a tomato are where this technique got its name. The Italian word for "tomato" being __"pomodoro"__. 
+
+[^0]: Old-school kitchen timers in the shape of a tomato are where this technique got its name. The Italian word for "tomato" being __"pomodoro"__. 

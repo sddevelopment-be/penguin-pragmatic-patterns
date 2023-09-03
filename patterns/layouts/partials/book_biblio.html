@@ -1,5 +1,6 @@
 {{ $book := .book }}
 {{ $title := $book.title }}
+{{ $image := $book.image }}
 {{ $author := $book.authors}}
 {{ $publisher := $book.publisher}}
 {{ $loc := $book.location}}
@@ -12,23 +13,31 @@
         <h3 id={{ replace $title " " "-" | lower }}>{{ $title }}</h3>
     </div>
     <div class="recommendation-content">
-        <div class="biblio">
+        <div class="recommendation-image">
+            {{if $image}}
+            <img src="/images/books/$image"/>
+            {{else}}
+            <img src="/images/books/book_placeholder.png"/>
+            {{end}}
+        </div>
+        <div class="recommendation-text">
             <b>bibliographical reference:</b>
             <div class="reference">
-                {{ $author }}. ({{ $year}}). <a href="{{ $link }}" target="_blank" rel="noreferrer">{{ $title }}</a>. {{ if $publisher }}{{ $loc }}: {{ $publisher }} {{ end }}
+                {{ $author }}. ({{ $year}}). <a href="{{ $link }}" target="_blank" rel="noreferrer">{{ $title }}</a>.
+                {{ if $publisher }}{{ $loc }}: {{ $publisher }} {{ end }}
             </div>
-        </div>
-        {{if $description}}
+            {{if $description}}
             <div class="recommendation-description">
                 <b>description:</b>
                 <p>{{ $description }}</p>
             </div>
-        {{end}}
-        {{if $link}}
+            {{end}}
+            {{if $link}}
             <div class="link">
                 <b>link:</b>
                 <a href="{{ $link }}" target="_blank" rel="noreferrer">{{ $link }}</a>
             </div>
-        {{end}}
+            {{end}}
+        </div>
     </div>
 </div>

@@ -22,10 +22,29 @@
 }
 
 .recommendation-item .recommendation-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
     padding: 0.75rem;
     color: #0b1d27;
 }
 
+.recommendation-item .recommendation-content .recommendation-image {
+    display: block;
+    max-width: 10em;
+    padding: 0.75rem;
+    margin: 0.125rem 0.5rem;
+}
+
+.recommendation-item .recommendation-content .recommendation-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding: 0.75rem;
+}
 .recommendation-item .recommendation-content b {
     color: #1f3c48;
     font-stretch: extra-condensed;

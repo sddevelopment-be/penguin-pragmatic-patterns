@@ -11,10 +11,9 @@ tags = [
 ]
 +++
 
+![./free-mind.gif >](/images/practices/free-mind.gif)
 
 ## Context
-
-![./free-mind.gif >](/images/practices/free-mind.gif)
 
 Human memory is [extremely lossy](https://www.nationalgeographic.com/science/article/human-memory). We are better equipped for creative,
 constructive thinking than for storing factual information. Focus is [easily disrupted](https://blog.rescuetime.com/context-switching/).
@@ -58,12 +57,12 @@ The best way I have found so far is to keep track of my actions on different pro
 This allows me to come back to a project that has been on ice for a while with relatively low friction.
 In addition to this, I try and keep a day-to-day running count of what happened during any given day. This is done in a separate log, which I try to write at the end of the day.
 
-> [!TIP]
-> One of my favorite ways of note-taking while working on a software project is to add a _`dev_notes`_ directory to my codebase.
-> For short-lived projects or changes, I tend to add this file to the `.gitignore` configuration of my repository as to not muck up the
-> workspace of my colleagues. For more long-term or collaborative projects, consider creating a dedicated repository to host all of your
-> developer notes. You can get creative with `symbolic links` to make these folders show up in your codebase regardless of their
-> physical location.
+{{<tip text=`
+    One of my favorite ways of note-taking while working on a software project is to add a dev_notes directory to my codebase.
+    For short-lived projects or changes, I tend to add this file to the .gitignore configuration of my repository as to not muck up the
+    workspace of my colleagues. For more long-term or collaborative projects, consider creating a dedicated repository to host all of your
+    developer notes. You can get creative with symbolic links to make these folders show up in your codebase regardless of their physical location.
+` >}}
 
 ## References
 

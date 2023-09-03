@@ -30,7 +30,7 @@ theis productivity
 tool available all the time[^1]. One of the most popular personal productivity methods is called the _"Getting things
 done"_ method[^2].
 
-![./task-flow.png ><](/images/practices/task_flow.png ':size=684')
+![./task-flow.png ><](images/practices/task_flow.png ':size=684')
 
 **Whatever method you choose, make sure to:**
 
@@ -45,7 +45,7 @@ done"_ method[^2].
 
 ### Eisenhouwer priority Matrix
 
-![./eis_matrix.png <](../../static/images/practices/eis_matrix.png ':size=364')
+![./eis_matrix.png <](images/practices/eis_matrix.png ':size=364')
 
 Organize your action items according to:
 

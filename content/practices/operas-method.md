@@ -30,7 +30,7 @@ How do you make structured progress towards a specific overarching goal?
 
 ## Solution
 
-![The OPERAs flow >](/images/practices/OPERAs.png ':size=424')
+![The OPERAs flow >](images/practices/OPERAs.png ':size=424')
 
 The OPERAS mental model is a description of the flow you go through when advancing a task from "TODO" status to "DONE". A task can be of any
 size, and can range from 'build a house' to 'do the dishes'.

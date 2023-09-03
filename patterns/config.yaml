@@ -10,6 +10,8 @@ module:
 
 googleAnalytics: # Put in your tracking code without quotes like this: UA-XXX for universal tracking or G-XXX analytics v4 tracking
 
+paginate: 5
+
 # Disables warnings
 markup:
   defaultMarkdownHandler: goldmark

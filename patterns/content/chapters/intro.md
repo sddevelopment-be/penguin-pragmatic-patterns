@@ -1,6 +1,6 @@
 +++
 title = "Intro"
-order = 0
+order = 1
 +++
 
 Imagine the thrill of discovering new ideas and techniques that will help you excel at the things you do every day.

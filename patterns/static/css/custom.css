@@ -16,3 +16,29 @@ body {
     padding: 0.75rem;
     justify-content: space-around;
 }
+
+.chapter {
+    padding: 1.125rem;
+    margin-bottom: 2.5rem;
+}
+
+.chapter_summary {
+
+}
+
+.nav-item {
+    display: block;
+    font-weight: 350;
+    color: #f39200;
+    margin: 0.5rem;
+}
+
+.page-navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border-top: 2px solid #f39200;
+    margin-top: 4.275rem;
+    padding: 1.25rem;
+    font-weight: 450;
+}

@@ -1,0 +1,54 @@
+{{ define "main" }}
+{{ partial "navbar.html" . }}
+{{ partial "navbar-clone.html" . }}
+
+{{ $pages := .Pages }}
+{{ $paginator := .Paginate $pages }}
+
+
+<section class="section section-feature-grey is-medium" id="glossary">
+    <div class="container">
+        <div class="column is-centered-tablet-portrait">
+            <h1 class="title section-title">
+                {{ .Title }}
+            </h1>
+            <div class="divider"></div>
+        </div>
+
+        <div class="content-wrapper">
+            {{ range $paginator.Pages }}
+            <div class="chapter">
+                <h2 class="title section-title">
+                    Chapter: <a href="{{ .Permalink }}">{{ .Title }}</a>
+                </h2>
+                <div class="chapter_summary">
+                    {{ .Summary }}
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </div>
+</section>
+
+{{ with $paginator }}
+    <div class="pagination">
+        {{ if $paginator.HasPrev }}
+        <li class="pagination__item pagination__item--previous">
+            <a href="{{ $paginator.Prev.URL }}" class="pagination__link pagination__link--previous">
+                «
+            </a>
+        </li>
+        {{ end }}
+
+        {{ if $paginator.HasNext }}
+        <li class="pagination__item pagination__item--next">
+            <a href="{{ $paginator.Next.URL }}" class="pagination__link pagination__link--next">
+                »
+            </a>
+        </li>
+        {{ end }}
+    </div>
+{{end}}
+
+
+{{ end }}

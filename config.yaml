@@ -50,7 +50,7 @@ params:
     # Button text
     buttontext: Start Reading
     # Where the main hero button links to
-    buttonlink: "/chapters/learning"
+    buttonlink: "chapters/learning"
     # Hero image (from static/images/___)
     image: penguin_learning.png
     # Footer logos (from static/images/logos/clients/*.svg)
@@ -87,13 +87,10 @@ params:
     features:
     - title: Focus on practical use
       text: Rather than stick to theory, we aim to help you put what you learn into effect as quickly as possible. By focussing on when techniques and ideas are valuable, you will understand when to apply an idea. And more importantly, when not to apply it.
-      icon: laptop-globe
     - title: Terminology explained
       text: The amount of jargon used when discussing specialized techniques and technology can be overwhelming to newcomers. This publication helps you get acquainted with them so you know what people are talking about.
-      icon: mobile-feed
     - title: Resources & Background information
       text: Recommended background reading, in case you want to dig deeper into certain topics. As with all content here, we focus on showing what is in it for you.
-      icon: doc-sync
   section3:
     title: Learn. Grow. Improve.
     subtitle: discover new ideas and techniques to help you excel

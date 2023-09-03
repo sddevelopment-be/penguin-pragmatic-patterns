@@ -32,9 +32,8 @@ approach a situation. The proverb "If you put two developers in a room, they wil
 accurate.
 
 I realize the irony in writing an opinionated text, while also stating that there exist too many opinions out there. Still, allow me to
-explain why I set about writing this entire thing.  
-The basic premise is: _I don't really care how you end up doing things_. If you find a way that works well for you, great! By all means, keep doing
-it.
+explain why I set about writing this entire thing. The basic premise is: _I don't really care how you end up doing things_.   
+If you find a way that works well for you, great! By all means, keep doing it.
 
 {{< image src="/images/chapters/silly_standards.png"  alt="Alice and Bob fret over conventions"  caption="Alice and Bob fret over conventions" >}}
 
@@ -131,11 +130,11 @@ that resonate with you. You are free to modify them according to your needs and 
 
 # Section References
 
-[^0] Statistics retrieved
+[^0]: Statistics retrieved
 from [https://www.zippia.com/software-engineer-jobs/demographics/](https://www.zippia.com/software-engineer-jobs/demographics/), Evolution of
 software engineer demographics in the USA in 2019.
 
-[^1] Unfortunately knowing this does not instantly make you a great chess player, as my elo on online platforms so adequately reminds me.
+[^1]: Unfortunately knowing this does not instantly make you a great chess player, as my elo on online platforms so adequately reminds me.
 
-[^2] So wide-spread even, that academics have [started investigating](https://www.michelecoscia.com/?page_id=2070) what makes some memes
+[^2]: So wide-spread even, that academics have [started investigating](https://www.michelecoscia.com/?page_id=2070) what makes some memes
 successful while others are doomed to be left in the ditches of the web.

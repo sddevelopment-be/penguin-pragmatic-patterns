@@ -21,7 +21,7 @@
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
-        width: 24rem;
+    width: 24rem;
     align-content: normal;
     background-image: linear-gradient(#fefefe, #fdfdfd);
     border-radius: 3px;
@@ -29,6 +29,13 @@
     border: 1px solid rgba(224, 205, 193, 0.99);
     padding: 1.125rem;
 }
+
+@media (max-width: 800px) {
+    .pattern-card {
+        width: 20rem;
+    }
+}
+
 .pattern-card .card-icon img {
     height: 120px;
     margin-top: 20px;

@@ -6,7 +6,6 @@ on:
   push:
     branches:
       - main
-      - revamp/convert_to_hugo
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:

@@ -35,7 +35,7 @@ params:
   navbarlogo:
   # Logo (from static/images/logos/___)
     image: logos/ppp_logo.png
-    link: /
+    link: ""
     # Default width/height. Uncomment if you need to change
     # width: 112
     # height: 28

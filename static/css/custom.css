@@ -54,6 +54,13 @@ body {
     justify-content: center;
 }
 
+@media (max-width: 800px) {
+    .hero-links {
+        flex-direction: column;
+    }
+}
+
+
 .hero-link {
-    margin: 0 1.25rem;
+    margin: 0.45rem 1.25rem;
 }

@@ -48,3 +48,13 @@
 .glossary-term .term-content .term-abbreviation {
     margin-bottom: 0.75rem;
 }
+
+.term-alias {
+    font-weight: 200;
+    font-size: 0.85rem;
+    padding: 0.25rem;
+    border: 1px solid #e1e1e1;
+    background: #e8e8e8;
+    border-radius: 0.25rem;
+
+}

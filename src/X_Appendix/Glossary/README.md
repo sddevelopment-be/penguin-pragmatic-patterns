@@ -58,8 +58,7 @@ are not likely to care for it either.
 
 The storing of information on a faster, smaller storage system than the main memory bank where the data originates from.
 Cache management is highly important due to the limited size of of the faster storage medium. There are different levels
-of cache-memory, indicating the memory's proximity to the CPU (lower == closer).
-As the distance to the CPU increases, so does the available memory space of the cache.
+of cache-memory, indicating the memory's proximity to the CPU (lower == closer). As the distance to the CPU increases, so does the available memory space of the cache.
 
 ### Cascading termination
 

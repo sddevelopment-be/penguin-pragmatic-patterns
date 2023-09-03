@@ -9,7 +9,7 @@ description = """
     """
 aliases = []
 references = [
-    { tile = "IBM: What is an API?", link = "https://www.ibm.com/topics/api" }
+    { title = "IBM: What is an API?", link = "https://www.ibm.com/topics/api" }
 ]
 
 [[terminology]]
@@ -72,7 +72,6 @@ references = []
 
 [[terminology]]
 name = "Boyscout rule"
-abbreviation = ""
 domain = "software"
 description = """
     The base premise of the Boyscout rule is that if everyone leaves their environment a little bit better than it was when they found it, eventually it
@@ -82,3 +81,48 @@ description = """
     """
 aliases = []
 references = []
+
+[[terminology]]
+name = "Broken window theory"
+domain = "software"
+description = """
+    A theory originating from the domain of criminology. The idea being that if an environment is
+    already decayed, people have less ethical problems with making it worse. In the original criminological experiment from the 1990s, researchers measured how long it took for a building to be completely vandalized after
+    breaking a single window. Psychologist believe that outward signs of neglect make us feel that no one cares about the object in question, hence we
+    are not likely to care for it either.
+    """
+aliases = []
+references = [
+    { title = "wikipedia article", link = "https://en.wikipedia.org/wiki/Broken_windows_theory" }
+]
+
+[[terminology]]
+name = "Caching"
+domain = "software"
+description = """
+    The storing of information on a faster, smaller storage system than the main memory bank where the data originates from.
+Cache management is highly important due to the limited size of of the faster storage medium. There are different levels
+of cache-memory, indicating the memory's proximity to the CPU (lower == closer). As the distance to the CPU increases, so does the available memory space of the cache.
+    """
+aliases = []
+references = []
+
+[[terminology]]
+name = "Cascading termination"
+domain = "software"
+description = """
+    Some systems terminate all of the child processes when they terminate the parent process. This is called 'cascading termination'.
+    """
+aliases = []
+references = []
+
+[[terminology]]
+name = "Command Line Interface."
+abbreviation = "CLI"
+domain = "software"
+description = """
+    A textual user interface, allowing for system interaction soley through text-based instructions and feedback.
+    """
+aliases = ["terminal", "shell"]
+references = []
+

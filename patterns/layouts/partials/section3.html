@@ -1,0 +1,31 @@
+{{- $section3   := .Site.Params.section3 }}
+{{- $title      := index $section3 "title" }}
+{{- $subtitle   := index $section3 "subtitle" }}
+{{- $text      := index $section3 "text" }}
+{{- $image      := index $section3 "image" }}
+{{- $buttonText := index $section3 "buttontext" }}
+{{- $buttonLink := index $section3 "buttonlink" }}
+<section class="section section-feature-grey is-medium" id="section3">
+    <div class="container">
+
+        <div class="title-wrapper has-text-centered">
+            <h2 class="title is-2">{{ $title }}</h2>
+            <h3 class="subtitle is-5 is-muted">{{ $subtitle }}</h3>
+        </div>
+
+        <div class="columns">
+            <div class="column is-10 is-offset-1">
+                <div class="content-hero">
+                    {{ $text | markdownify }}
+                </div>
+            </div>
+        </div>
+
+
+        <p class="has-text-centered mt-20">
+            <a class="button cta is-large rounded secondary-btn raised" href="{{ $buttonLink }}">
+                {{ $buttonText }}
+            </a>
+        </p>
+    </div>
+</section>

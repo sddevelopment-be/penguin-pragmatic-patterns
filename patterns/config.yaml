@@ -60,7 +60,7 @@ params:
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
   - title: About
-    url: /
+    url: /about
   - title: Concepts
     url: /concepts/
   - title: Practices
@@ -85,15 +85,31 @@ params:
     title: Learn. Grow. Improve.
     subtitle: discover new ideas and techniques that will help you excel
     features:
-    - title: Powerful and unified interface
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+    - title: Focus on practical use
+      text: Rather than stick to theory, we aim to help you put what you learn into effect as quickly as possible. By focussing on when techniques and ideas are valuable, you will understand when to apply an idea. And more importantly, when not to apply it.
       icon: laptop-globe
-    - title: Cross-device synchronisation
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
-      icon: doc-sync
-    - title: Nomad system
-      text: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.
+    - title: Terminology explained
+      text: The amount of jargon used when discussing specialized techniques and technology can be overwhelming to newcomers. This publication helps you get acquainted with them so you know what people are talking about.
       icon: mobile-feed
+    - title: Resources & Background information
+      text: Recommended background reading, in case you want to dig deeper into certain topics. As with all content here, we focus on showing what is in it for you.
+      icon: doc-sync
+  section3:
+    title: One platform
+    subtitle: To rule them all
+    image: illustrations/mockups/app-mockup.png
+    text: >
+      Imagine the thrill of discovering new ideas and techniques that will help you excel at the things you do every day.
+      Whether you're already working in a technical role or just starting out, there's always more to learn and explore.
+      Either way, we've got something for you.
+  
+      In this knowledge base, you'll discover practical insights and valuable tips from experts who have dedicated themselves to mastering their craft.
+      By reading on, you'll gain a deeper understanding of the topics that interest you and learn new ways to take steps towards achieving your goals and
+      becoming the best you can be.
+  
+      So why not give it a try? Keep reading and see how far you can go.
+    buttonText: Get started
+    buttonLink: "#"
   footer:
     # Logo (from /images/logos/___)
     logo: ppp_logo_light.png

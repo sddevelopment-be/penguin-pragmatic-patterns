@@ -1,5 +1,5 @@
 +++
-title = "Intro"
+title = "About"
 order = 1
 +++
 

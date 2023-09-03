@@ -24,7 +24,7 @@ tags = [
 
 ## Solution
 
-Use a personalozed productivity flow, using whatever tool you feel comfortable in.
+Use a personalized productivity flow, using whatever tool you feel comfortable in.
 For some, this will be a pen-and-paper system. Others prefer to leverage their digital prowess and lifestyle to have
 theis productivity
 tool available all the time[^1]. One of the most popular personal productivity methods is called the _"Getting things

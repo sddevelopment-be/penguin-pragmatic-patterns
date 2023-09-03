@@ -73,3 +73,4 @@ This is a fancy way of saying: find a way to get comfortable, and take a good ha
 From there you will explore new ideas, and try to apply them to your life as you see fit. Donald B. Maudsley described this as the idea of
 _"Meta learning"_ in 1979.
 
+{{<stub>}}

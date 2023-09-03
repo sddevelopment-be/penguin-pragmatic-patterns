@@ -70,13 +70,13 @@ params:
   - title: Resources
     sublinks:
       - title: tools
-        url: /
+        url: /tools/
       - title: bibliography
         url: /books
-      - title: long reads
-        url: /
-      - title: short reads
-        url: /
+#      - title: long reads
+#        url: /
+#      - title: short reads
+#        url: /
   - title: Start reading
     url: /chapters/learning
     button: true
@@ -160,7 +160,7 @@ params:
             link: /tools
           - text: Books
             link: /books
-          - text: Short reads
-            link: /short-form
-          - text: Long reads
-            link: /long-form
+#          - text: Short reads
+#            link: /short-form
+#          - text: Long reads
+#            link: /long-form

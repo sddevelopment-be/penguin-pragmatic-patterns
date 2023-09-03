@@ -14,10 +14,9 @@ One of the best books on software development out there. Andy and Dave take us t
 Written in a highly practical, down-to-earth, and conversational style, everyone working in software development should read this revised classic.
 
 #### Apprenticeship Patterns
-Hoover, D.; Oshineye, A. (2009) [Apprenticeship Patterns](https://www.oreilly.com/library/view/apprenticeship-patterns/9780596806842/). O'Reilly
-Media, Inc.
+Hoover, D.; Oshineye, A. (2009) [Apprenticeship Patterns](https://www.oreilly.com/library/view/apprenticeship-patterns/9780596806842/). O'Reilly Media, Inc.
 
-Advise for people that switch teams. The authors give practical advise on how to quickly and effectivly integrate yourself into a new environment.
+Advice for people that switch teams. The authors give practical advise on how to quickly and effectivly integrate yourself into a new environment.
 Their book is structured as a pattern list, one of which has the memorable name "Sweep the floor".
 
 #### New Programmer's Survival Manual: Navigate Your Workplace, Cube Farm, or Startup

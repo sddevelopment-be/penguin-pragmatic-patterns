@@ -1,9 +1,37 @@
 [[book]]
-title=""
-authors=""
-publisher=""
+title = "The Pragmatic Programmer, 20th Anniversary Edition: your journey to mastery"
+authors = "Thomas, D.; Hunt, A."
+publisher = "Addison Wesley"
+location = ""
+image = ""
+year = "2019"
+link = "https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/"
+description = """
+One of the best books on software development out there. Andy and Dave take us through how they think about software development.
+Written in a highly practical, down-to-earth, and conversational style, everyone working in software development should read this revised classic.
+"""
+
+[[book]]
+title = "Apprenticeship Patterns"
+authors = "Hoover, D.; Oshineye, A."
+publisher = "O'Reilly Media, Inc."
+year = "2009"
+location = ""
+image = ""
+link = "https://www.oreilly.com/library/view/apprenticeship-patterns/9780596806842/"
+description = """
+Advice for people that switch teams. The authors give practical advise on how to quickly and effectivly integrate yourself into a new environment.
+Their book is structured as a pattern list, one of which has the memorable name "Sweep the floor".
+"""
+
+[[book]]
+title="New Programmer's Survival Manual: Navigate Your Workplace, Cube Farm, or Startup"
+authors="Carter, J."
+publisher="The Pragmatic Bookshelf."
 location=""
-year=""
-link=""
+year="2011"
+link="https://pragprog.com/titles/jcdeg/new-programmer-s-survival-manual/"
+image=""
 description="""
 """
+

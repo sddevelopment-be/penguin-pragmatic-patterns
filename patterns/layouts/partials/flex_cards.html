@@ -1,14 +1,18 @@
 {{ $patterns := .patterns }}
-{{- range sort $patterns "Title" "Asc"}}
-    <div class="pattern-card revealOnScroll delay-1" data-animation="fadeInLeft">
-        <div class="card-title">
-            <h4>{{ .Title }}</h4>
+{{ if $patterns }}
+    {{- range sort $patterns "Title" "Asc"}}
+        <div class="pattern-card revealOnScroll delay-1" data-animation="fadeInLeft">
+            <div class="card-title">
+                <h4>{{ .Title }}</h4>
+            </div>
+            <div class="card-text">
+                <p>{{ .Description }}</p>
+            </div>
+            <div class="card-action">
+                <a href="{{ .RelPermalink }}" class="button btn-align-md raised">Read more</a>
+            </div>
         </div>
-        <div class="card-text">
-            <p>{{ .Description }}</p>
-        </div>
-        <div class="card-action">
-            <a href="{{ .RelPermalink }}" class="button btn-align-md raised">Read more</a>
-        </div>
-    </div>
-{{- end }}
+    {{- end }}
+{{ else }}
+    No entries yet. Check back later!
+{{ end }}

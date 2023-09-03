@@ -2,7 +2,7 @@
 {{ partial "navbar.html" . }}
 {{ partial "navbar-clone.html" . }}
 
-<section class="section section-feature-grey is-medium" id="books">
+<section class="section section-feature-grey is-medium" id="tools">
     <div class="container">
         <div class="column is-centered-tablet-portrait">
             <h1 class="title section-title">
@@ -16,8 +16,8 @@
             {{ .Content }}
 
             <div class="recommendation-wrapper">
-                {{ range $book := (index .Site.Data "bibliography").book }}
-                    {{ partial "book_biblio.html" (dict "book" $book) }}
+                {{ range $tool := (index .Site.Data "tools").tool }}
+                    {{ partial "tool.html" (dict "tool" $tool) }}
                 {{ end }}
             </div>
 

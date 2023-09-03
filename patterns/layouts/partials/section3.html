@@ -3,8 +3,7 @@
 {{- $subtitle   := index $section3 "subtitle" }}
 {{- $text      := index $section3 "text" }}
 {{- $image      := index $section3 "image" }}
-{{- $buttonText := index $section3 "buttontext" }}
-{{- $buttonLink := index $section3 "buttonlink" }}
+{{- $links := index $section3 "links" }}
 <section class="section section-feature-grey is-medium" id="section3">
     <div class="container">
 
@@ -22,10 +21,12 @@
         </div>
 
 
-        <p class="has-text-centered mt-20">
-            <a class="button cta is-large rounded secondary-btn raised" href="{{ $buttonLink }}">
-                {{ $buttonText }}
+        <p class="has-text-centered mt-20 hero-links">
+            {{ range $link := $links }}
+            <a class="button cta is-large rounded secondary-btn raised hero-link" href="{{ $link.link }}">
+                {{ $link.text }}
             </a>
+            {{ end }}
         </p>
     </div>
 </section>

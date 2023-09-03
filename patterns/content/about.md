@@ -3,18 +3,6 @@ title = "About"
 order = 1
 +++
 
-Imagine the thrill of discovering new ideas and techniques that will help you excel at the things you do every day.
-Whether you're already working in a technical role or just starting out, there's always more to learn and explore.
-Either way, we've got something for you.
-
-In this knowledge base, you'll discover practical insights and valuable tips from experts who have dedicated themselves to mastering their craft.
-By reading on, you'll gain a deeper understanding of the topics that interest you and learn new ways to take steps towards achieving your goals and
-becoming the best you can be.
-
-So why not give it a try? Keep reading and see how far you can go.
-
-# Preface: "Hello world!"
-
 Over the years, I've consumed a lot of books, articles, and videos to improve my skills as a technical professional.
 Some lessons have proven to be great assets on my own professional journey, while others have been less helpful.
 By talking to other software professionals, I've noticed a lack of common ground within our industry.
@@ -52,8 +40,6 @@ Heeded my words not, did you? Pass on what you have learned. Strength. Mastery.
 But weakness, folly, failure also. Yes,failure most of all. 
 The greatest teacher, failure is. Luke, we are what they grow beyond. That is the true burden of all masters.` 
 author="Yoda, Jedi grandmaster" >}}
-
-# About this publication
 
 ## Intended Audience
 
@@ -128,7 +114,6 @@ that resonate with you. You are free to modify them according to your needs and 
 
 ---
 
-# Section References
 
 [^0]: Statistics retrieved
 from [https://www.zippia.com/software-engineer-jobs/demographics/](https://www.zippia.com/software-engineer-jobs/demographics/), Evolution of

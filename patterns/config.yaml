@@ -50,7 +50,7 @@ params:
     # Button text
     buttontext: Start Reading
     # Where the main hero button links to
-    buttonlink: "/chapters/intro"
+    buttonlink: "/chapters/learning"
     # Hero image (from static/images/___)
     image: penguin_learning.png
     # Footer logos (from static/images/logos/clients/*.svg)
@@ -69,21 +69,21 @@ params:
     url: /glossary/
   - title: Resources
     sublinks:
-      - title: long form
-        url: /
-      - title: short form
-        url: /
       - title: tools
         url: /
       - title: bibliography
         url: /
+      - title: long reads
+        url: /
+      - title: short reads
+        url: /
   - title: Start reading
-    url: /chapters/intro
+    url: /chapters/learning
     button: true
 
   section2:
-    title: Learn. Grow. Improve.
-    subtitle: discover new ideas and techniques that will help you excel
+    title: What's in it for you?
+    subtitle: How this publication is different from others
     features:
     - title: Focus on practical use
       text: Rather than stick to theory, we aim to help you put what you learn into effect as quickly as possible. By focussing on when techniques and ideas are valuable, you will understand when to apply an idea. And more importantly, when not to apply it.
@@ -95,26 +95,35 @@ params:
       text: Recommended background reading, in case you want to dig deeper into certain topics. As with all content here, we focus on showing what is in it for you.
       icon: doc-sync
   section3:
-    title: One platform
-    subtitle: To rule them all
+    title: Learn. Grow. Improve.
+    subtitle: discover new ideas and techniques to help you excel
     image: illustrations/mockups/app-mockup.png
     text: >
       Imagine the thrill of discovering new ideas and techniques that will help you excel at the things you do every day.
       Whether you're already working in a technical role or just starting out, there's always more to learn and explore.
-      Either way, we've got something for you.
-  
+      Either way, we've got something for you.  
+      <br />  
+      
       In this knowledge base, you'll discover practical insights and valuable tips from experts who have dedicated themselves to mastering their craft.
       By reading on, you'll gain a deeper understanding of the topics that interest you and learn new ways to take steps towards achieving your goals and
-      becoming the best you can be.
-  
-      So why not give it a try? Keep reading and see how far you can go.
-    buttonText: Get started
-    buttonLink: "#"
+      becoming the best you can be.    
+      <br />
+      <br />
+      
+      So why not give it a try? Dive in and see how far you can go.
+    links:
+      - text: Our approach
+        link: "/about"
+      - text: Chapters
+        link: "/chapters"
+      - text: Practices
+        link: "/practices"
+
   footer:
     # Logo (from /images/logos/___)
     logo: ppp_logo_light.png
     # Social Media Title
-    socialmediatitle: Follow Us
+    socialmediatitle: Socials
     # Social media links (GitHub, Twitter, etc.). All are optional.
     socialmedia:
     - link: https://github.com/sddevelopment-be/penguin-pragmatic-patterns
@@ -123,33 +132,35 @@ params:
     bulmalogo: false
     quicklinks:
       column1:
-        title: "Product"
+        title: "Main text"
         links:
-        - text: Discover features
-          link: /
-        - text: Why choose our product?
-          link: /
-        - text: Compare features
-          link: /
-        - text: Our roadmap
-          link: /
-        - text: AGB
-          link: /agb
+          - text: About
+            link: /about
+          - text: Learning
+            link: /chapters/learning
+          - text: Productivity
+            link: /chapters/
+          - text: Software development
+            link: /chapters/
+          - text: Communication
+            link: /chapters/
       column2:
-        title: "Docs"
+        title: "Extra stuff"
         links:
-        - text: Get started
-          link: /
-        - text: User guides
-          link: /
-        - text: Admin guide
-          link: /
-        - text: Developers
-          link: /
+        - text: Glossary
+          link: /glossary
+        - text: Practices
+          link: /practices
+        - text: Concepts
+          link: /concepts
       column3:
-        title: "Blog"
+        title: "Recommendations"
         links:
-        - text: Latest news
-          link: /blog/first
-        - text: Tech articles
-          link: /blog/second
+          - text: Tools
+            link: /tools
+          - text: Books
+            link: /bibliography
+          - text: Short reads
+            link: /short-form
+          - text: Long reads
+            link: /long-form

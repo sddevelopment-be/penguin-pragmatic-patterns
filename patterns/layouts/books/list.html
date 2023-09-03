@@ -1,0 +1,29 @@
+{{ define "main" }}
+{{ partial "navbar.html" . }}
+{{ partial "navbar-clone.html" . }}
+
+<section class="section section-feature-grey is-medium" id="glossary">
+    <div class="container">
+        <div class="column is-centered-tablet-portrait">
+            <h1 class="title section-title">
+                {{ .Title }}
+            </h1>
+            <div class="divider"></div>
+        </div>
+
+        <div class="content-wrapper">
+
+            {{ .Content }}
+
+            <div class="recommendation-wrapper">
+                {{ range $book := (index .Site.Data "bibliography").book }}
+                    {{ partial "book_biblio.html" (dict "book" $book) }}
+                {{ end }}
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+{{ end }}

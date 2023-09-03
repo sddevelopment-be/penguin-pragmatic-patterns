@@ -1,8 +1,0 @@
-[[tool]]
-name = "SD Development Document generator"
-authors = "Dejongh, S."
-link = "https://github.com/sddevelopment-be/document-generation"
-image = ""
-description = """
-Tooling to generate documents from Markdown, using docker images to ensure portability between different environments. Contains a quick-start set-up. Useful for automated pipelines or quick set-up on new computers.
-"""

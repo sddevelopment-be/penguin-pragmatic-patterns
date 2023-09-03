@@ -1,12 +1,11 @@
-![./src/pp_open-learning.png](./src/pp_open-learning.png)
+![./src/pp_open-learning.png](old_source/pp_open-learning.png)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
-[![Convert Documents](https://github.com/sddevelopment-be/penguin-pragmatic-patterns/actions/workflows/document_conversion.yml/badge.svg)](https://github.com/sddevelopment-be/penguin-pragmatic-patterns/actions/workflows/document_conversion.yml)
 
 A learning and development repository, aimed to share knowledge with other technical professionals.
-The [docs](./docs) section of this repository is somewhat of a "personal wiki". It contains knowledge and
+The contents of this repository are somewhat of a "personal wiki". It contains knowledge and
 information that has been collected from various sources, and is extended with some personal interpretations and
 experiences of the author.
 
@@ -33,7 +32,7 @@ In order to assist fellow learners, we have started to collect our personal expe
 The initiative was started by [@stijn-dejongh](https://github.com/stijn-Dejongh), who is a self-improvement enthusiast,
 and an avid software developer.
 In order to avoid confusing terminology and avoid having to explain the definition of certain words multiple times,
-please take a look at the [Glossary](./src/X_APPENDIX/glossary.md).
+please take a look at the [Glossary](old_source/X_APPENDIX/glossary.md).
 
 ## Repository Structure
 
@@ -43,14 +42,13 @@ at the top level.
 
 ### Noteworthy sections and files
 
-| Item      | Location                                    | Description                                                                                                                                                                      |
-| --------- | ------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Glossary  | [`X_APPENDIX/glossary.md`](./src/X_APPENDIX/glossary.md) | A list of Terminology, acronyms and definitions that are used throughout the different files and knowledge resources. This can be used as a dictionary, or as a reference guide. |
-| Changelog | [`X_APPENDIX/CHANGELOG.md`](./src/X_APPENDIX/CHANGELOG.md)          | Keeping track of your changes is hard work, documenting after the facts even more so. This file aims to allow small granular updates to help with this effort.                   |
+| Item      | Location                                                      | Description                                                                                                                                                                      |
+| --------- |---------------------------------------------------------------| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Changelog | [`docs/CHANGELOG.md`](old_source/X_APPENDIX/CHANGELOG.md)     | Keeping track of your changes is hard work, documenting after the facts even more so. This file aims to allow small granular updates to help with this effort.                   |
 
 ## Tech Stack
 
-![Generation from plain text](./docsify_demo_small.gif)
+![Generation from plain text](docs/docsify_demo_small.gif)
 
 | Library                                                                                | Usage                                                                                                      |
 | -------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
@@ -61,7 +59,7 @@ at the top level.
 ## Contributors ✨
 
 If you wish to contribute in any way to this initiative, please take a look at
-our [Contribution Guide](./CONTRIBUTING.md).
+our [Contribution Guide](docs/CONTRIBUTING.md).
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- prettier-ignore-start -->

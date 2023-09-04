@@ -233,3 +233,30 @@ Bob The Builder, ?, construction site
 aliases = []
 references = []
 
+[[terminology]]
+name = "Domain Driven Design"
+abbreviation = "DDD"
+domain = "software architecture"
+description = """
+Domain-Driven Design is a set of principles and schemes aimed at creating optimal systems of objects. Reduced to the
+creation of software abstractions, which are called models of subject areas. These models include business logic that
+establishes a link between the real conditions of the products application area and the code.
+    """
+aliases = []
+references = []
+
+[[terminology]]
+name = "Debugger"
+abbreviation = ""
+domain = "software"
+description = """
+A program to help the user find an correct defects in their program.
+The term _"bug"_ originates from one of the original calculation machines at the IBM labs. Notoriously, one of their
+calculations misbehaved and the researches were unable to find a logical error in their work.
+It had turned out an insect wandered into the machinery and disrupted its proper execution.
+To fix their calculation, one of the research had to physically rid the machine of pesky "bugs",
+hence coining the phrase _"debugging the system"_.
+    """
+aliases = []
+references = []
+

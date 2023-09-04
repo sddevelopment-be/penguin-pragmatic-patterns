@@ -12,7 +12,8 @@
         {{ if $short }}<div class="term-abbreviation"> <b>short:</b> {{ $short }} </div> {{end}}
         <div class="term-text">
             <b>description:</b>
-            <p>{{ $description }}</p>
+            {{ $optOrg := dict "markup" "org" }}
+            <p>{{ $description | markdownify }}</p>
         </div>
         <div class="term-aliases">
         {{if $aliases}}

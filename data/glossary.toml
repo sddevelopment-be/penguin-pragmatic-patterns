@@ -3,9 +3,9 @@ name = "Application Program Interface"
 abbreviation = "API"
 domain = "software"
 description = """
-    Specifies a set of software functions that are made available to an application programmer.
-    The API typically includes function names, the parameters that can be passed into each functions, and a
-    description of the return values one can expect.
+Specifies a set of software functions that are made available to an application programmer.
+The API typically includes function names, the parameters that can be passed into each functions, and a
+description of the return values one can expect.
     """
 aliases = []
 references = [
@@ -16,8 +16,8 @@ references = [
 name = "Asymmetric clustering"
 domain = "software"
 description = """
-        One machine is in hot-standby mode and does nothing by monitor the other.
-        In case of failure, the hot-standby takes over.
+One machine is in hot-standby mode and does nothing by monitor the other.
+In case of failure, the hot-standby takes over.
     """
 aliases = ["failover configuration"]
 references = []
@@ -26,8 +26,8 @@ references = []
 name = "Asymmetric multiprocessing"
 domain = "software"
 description = """
-    Each processor is assigned to a single task.
-    One processor is called the _master (or main) processor_, and controls the system.
+Each processor is assigned to a single task.
+One processor is called the _master (or main) processor_, and controls the system.
     """
 aliases = []
 references = []
@@ -36,8 +36,8 @@ references = []
 name = "Asynchronous cancellation"
 domain = "software"
 description = """
-    Cancellation of a target thread that immediatly terminates it.
-    (e.g. Unix' `kill -9 $PID` command )
+Cancellation of a target thread that immediatly terminates it.
+(e.g. Unix' `kill -9 $PID` command )
     """
 aliases = []
 references = []
@@ -46,8 +46,8 @@ references = []
 name = "Blade servers"
 domain = "hardware"
 description = """
-        A single chassis with multiple processor boards, I/O boards, and networking boards.
-        Each processor board boots independently and runs its own operating system.
+A single chassis with multiple processor boards, I/O boards, and networking boards.
+Each processor board boots independently and runs its own operating system.
         """
 aliases = []
 references = []
@@ -56,8 +56,8 @@ references = []
 name = "Bootstrap program"
 domain = "software"
 description = """
-        An initial program, usually stored on ROM or EEPROM memory, to initiallize all aspects of the system.
-        """
+An initial program, usually stored on ROM or EEPROM memory, to initiallize all aspects of the system.
+    """
 aliases = ["boot loader"]
 references = []
 
@@ -65,7 +65,7 @@ references = []
 name = "Bounded buffer"
 domain = "software"
 description = """
-    A type of buffer uses with shared memory IPC. Bounded buffers can only use a fixed amount of memory space.
+A type of buffer uses with shared memory IPC. Bounded buffers can only use a fixed amount of memory space.
     """
 aliases = []
 references = []
@@ -74,10 +74,10 @@ references = []
 name = "Boyscout rule"
 domain = "software"
 description = """
-    The base premise of the Boyscout rule is that if everyone leaves their environment a little bit better than it was when they found it, eventually it
-    wil flourish. The term originates from the handbook of the Boyscouts of America, where it was phrased slightly differently to apply mostly to campsites.
-    In software development, the phrase is commonly used to entice programmers to clean up their own messes and the messes that were left behind by
-    their predecessors. This relates strongly to the broken window theory.
+The base premise of the Boyscout rule is that if everyone leaves their environment a little bit better than it was when they found it, eventually it
+wil flourish. The term originates from the handbook of the Boyscouts of America, where it was phrased slightly differently to apply mostly to campsites.
+In software development, the phrase is commonly used to entice programmers to clean up their own messes and the messes that were left behind by
+their predecessors. This relates strongly to the broken window theory.
     """
 aliases = []
 references = []
@@ -86,10 +86,10 @@ references = []
 name = "Broken window theory"
 domain = "software"
 description = """
-    A theory originating from the domain of criminology. The idea being that if an environment is
-    already decayed, people have less ethical problems with making it worse. In the original criminological experiment from the 1990s, researchers measured how long it took for a building to be completely vandalized after
-    breaking a single window. Psychologist believe that outward signs of neglect make us feel that no one cares about the object in question, hence we
-    are not likely to care for it either.
+A theory originating from the domain of criminology. The idea being that if an environment is
+already decayed, people have less ethical problems with making it worse. In the original criminological experiment from the 1990s, researchers measured how long it took for a building to be completely vandalized after
+breaking a single window. Psychologist believe that outward signs of neglect make us feel that no one cares about the object in question, hence we
+are not likely to care for it either.
     """
 aliases = []
 references = [
@@ -100,7 +100,7 @@ references = [
 name = "Caching"
 domain = "software"
 description = """
-    The storing of information on a faster, smaller storage system than the main memory bank where the data originates from.
+The storing of information on a faster, smaller storage system than the main memory bank where the data originates from.
 Cache management is highly important due to the limited size of of the faster storage medium. There are different levels
 of cache-memory, indicating the memory's proximity to the CPU (lower == closer). As the distance to the CPU increases, so does the available memory space of the cache.
     """
@@ -111,7 +111,7 @@ references = []
 name = "Cascading termination"
 domain = "software"
 description = """
-    Some systems terminate all of the child processes when they terminate the parent process. This is called 'cascading termination'.
+Some systems terminate all of the child processes when they terminate the parent process. This is called 'cascading termination'.
     """
 aliases = []
 references = []
@@ -121,7 +121,7 @@ name = "Command Line Interface."
 abbreviation = "CLI"
 domain = "software"
 description = """
-    A textual user interface, allowing for system interaction soley through text-based instructions and feedback.
+A textual user interface, allowing for system interaction soley through text-based instructions and feedback.
     """
 aliases = ["terminal", "shell"]
 references = []
@@ -130,7 +130,7 @@ references = []
 name = "Clustered systems"
 domain = "computer networks"
 description = """
-    Two or more individual systems coupled together, with shared storage and closely linked via a LAN or faster interconnect.
+Two or more individual systems coupled together, with shared storage and closely linked via a LAN or faster interconnect.
     """
 aliases = []
 references = []
@@ -140,9 +140,9 @@ name = "Communication programs"
 abbreviation = ""
 domain = "software"
 description = """
-    These programs provide the mechanism for creating virtual connections among processes, users, and computer systems. They
-    allow users to send messages to other screens, to browse web pages, to send electronic-mail messages, to log in
-    remotely or to transfer files from one machine to another.
+These programs provide the mechanism for creating virtual connections among processes, users, and computer systems. They
+allow users to send messages to other screens, to browse web pages, to send electronic-mail messages, to log in
+remotely or to transfer files from one machine to another.
     """
 aliases = []
 references = []
@@ -152,8 +152,8 @@ name = "Control card"
 abbreviation = ""
 domain = "software"
 description = """
-    a batch system concept. This is a command to manage the execution of a process (start, stop, interrupts, ...) . It can
-    be used to distinct between different error levels, and severity of instructions.
+a batch system concept. This is a command to manage the execution of a process (start, stop, interrupts, ...) . It can
+be used to distinct between different error levels, and severity of instructions.
     """
 aliases = []
 references = []
@@ -163,7 +163,7 @@ name = "Control program"
 abbreviation = ""
 domain = "software"
 description = """
-    A control program manages the execution of user programs to prevent errors and improper use of the computer.
+A control program manages the execution of user programs to prevent errors and improper use of the computer.
     """
 aliases = []
 references = []
@@ -173,9 +173,9 @@ name = "Context"
 abbreviation = ""
 domain = ""
 description = """
-    - The circumstances in which an event occurs; a setting.
+- The circumstances in which an event occurs; a setting.
 
-    - The part of a text or statement that surrounds a particular word or passage and determines its meaning.
+- The part of a text or statement that surrounds a particular word or passage and determines its meaning.
     """
 aliases = []
 references = []
@@ -185,7 +185,7 @@ name = "Context switching"
 abbreviation = ""
 domain = "software"
 description = """
-    in computer science: A state save of the current process and the state restore of a different process, when a swap occurs.
+in computer science: A state save of the current process and the state restore of a different process, when a swap occurs.
     """
 aliases = []
 references = []
@@ -195,11 +195,11 @@ name = "CPU registers"
 abbreviation = ""
 domain = "hardware"
 description = """
-    Registers are special purpose physical memory used during runtime execution of instruction sets. These registers are usually optimized for their
-    dedicated task. These registers vary in number and type, depending on the computer architecture. They include `accumulators`, `index registers`, `stack pointers`,
-    and general-purpose registers,
-    plus any condition-code information (e.g. status codes). Along with the program counter, the content of these registers must be saved when an
-    interrupt occurs, to allow the process to be continued correctly afterward.
+Registers are special purpose physical memory used during runtime execution of instruction sets. These registers are usually optimized for their
+dedicated task. These registers vary in number and type, depending on the computer architecture. They include `accumulators`, `index registers`, `stack pointers`,
+and general-purpose registers,
+plus any condition-code information (e.g. status codes). Along with the program counter, the content of these registers must be saved when an
+interrupt occurs, to allow the process to be continued correctly afterward.
     """
 aliases = ["registry"]
 references = []
@@ -209,8 +209,26 @@ name = "CPU scheduling information"
 abbreviation = ""
 domain = "software"
 description = """
-    Information related to task-scheduling on the processor. Usually includes `process priority`, `pointers to scheduling queues`, as well as
-    architecture specific information.
+Information related to task-scheduling on the processor. Usually includes `process priority`, `pointers to scheduling queues`, as well as
+architecture specific information.
+    """
+aliases = []
+references = []
+
+[[terminology]]
+name = "Comma-separated values"
+abbreviation = "CSV"
+domain = "software"
+description = """
+A commonly used file format to represent tabular data. These files usually start with a line denoting the names of the columns. Each subsequent line is considered to be a data row.
+
+An example:
+```csv
+name, age, location
+Leeroy Jenkins, ?, some dungeon
+Smaug, >200 years, on top of your dwarven gold
+Bob The Builder, ?, construction site
+```
     """
 aliases = []
 references = []

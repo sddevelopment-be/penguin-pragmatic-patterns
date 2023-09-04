@@ -126,3 +126,92 @@ description = """
 aliases = ["terminal", "shell"]
 references = []
 
+[[terminology]]
+name = "Clustered systems"
+domain = "computer networks"
+description = """
+    Two or more individual systems coupled together, with shared storage and closely linked via a LAN or faster interconnect.
+    """
+aliases = []
+references = []
+
+[[terminology]]
+name = "Communication programs"
+abbreviation = ""
+domain = "software"
+description = """
+    These programs provide the mechanism for creating virtual connections among processes, users, and computer systems. They
+    allow users to send messages to other screens, to browse web pages, to send electronic-mail messages, to log in
+    remotely or to transfer files from one machine to another.
+    """
+aliases = []
+references = []
+
+[[terminology]]
+name = "Control card"
+abbreviation = ""
+domain = "software"
+description = """
+    a batch system concept. This is a command to manage the execution of a process (start, stop, interrupts, ...) . It can
+    be used to distinct between different error levels, and severity of instructions.
+    """
+aliases = []
+references = []
+
+[[terminology]]
+name = "Control program"
+abbreviation = ""
+domain = "software"
+description = """
+    A control program manages the execution of user programs to prevent errors and improper use of the computer.
+    """
+aliases = []
+references = []
+
+[[terminology]]
+name = "Context"
+abbreviation = ""
+domain = ""
+description = """
+    - The circumstances in which an event occurs; a setting.
+
+    - The part of a text or statement that surrounds a particular word or passage and determines its meaning.
+    """
+aliases = []
+references = []
+
+[[terminology]]
+name = "Context switching"
+abbreviation = ""
+domain = "software"
+description = """
+    in computer science: A state save of the current process and the state restore of a different process, when a swap occurs.
+    """
+aliases = []
+references = []
+
+[[terminology]]
+name = "CPU registers"
+abbreviation = ""
+domain = "hardware"
+description = """
+    Registers are special purpose physical memory used during runtime execution of instruction sets. These registers are usually optimized for their
+    dedicated task. These registers vary in number and type, depending on the computer architecture. They include `accumulators`, `index registers`, `stack pointers`,
+    and general-purpose registers,
+    plus any condition-code information (e.g. status codes). Along with the program counter, the content of these registers must be saved when an
+    interrupt occurs, to allow the process to be continued correctly afterward.
+    """
+aliases = ["registry"]
+references = []
+
+[[terminology]]
+name = "CPU scheduling information"
+abbreviation = ""
+domain = "software"
+description = """
+    Information related to task-scheduling on the processor. Usually includes `process priority`, `pointers to scheduling queues`, as well as
+    architecture specific information.
+    """
+aliases = []
+references = []
+

@@ -71,13 +71,12 @@ and feedback.
 
 ### Clustered systems
 
-Two or more individual systems coupled together, with shared storage and closely linked via a LAN or faster
-interconnect.
+Two or more individual systems coupled together, with shared storage and closely linked via a LAN or faster interconnect.
 
 ### Communications
 
 These programs provide the mechanism for creating virtual connections among processes, users, and computer systems. They
-allow users to send messages to anothers screens, to browse web pages, to send electronic-mail messages, to log in
+allow users to send messages to other screens, to browse web pages, to send electronic-mail messages, to log in
 remotely or to transfer files from one machine to another.
 
 ### Control card
@@ -101,8 +100,7 @@ A control program manages the execution of user programs to prevent errors and i
 ### CPU registers
 
 Registers are special purpose physical memory used during runtime execution of instruction sets. These registers are usually optimized for their
-dedicated task.
-These registers vary in number and type, depending on the computer architecture. They include `accumulators`, `index registers`, `stack pointers`,
+dedicated task. These registers vary in number and type, depending on the computer architecture. They include `accumulators`, `index registers`, `stack pointers`,
 and general-purpose registers,
 plus any condition-code information (e.g. status codes). Along with the program counter, the content of these registers must be saved when an
 interrupt occurs, to allow the process to be continued correctly afterward.

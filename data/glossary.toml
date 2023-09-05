@@ -260,3 +260,15 @@ hence coining the phrase _"debugging the system"_.
 aliases = []
 references = []
 
+[[terminology]]
+name = "Sunk-cost fallacy"
+abbreviation = ""
+domain = "economy"
+description = """
+A psychological trick we play on ourselves, to justify additional investment into a decision, even though there is evidence to suggest that future costs will outweigh the expected benefit.
+We do this because we feel that we have already invested too much into something to back out now.
+<br /><br />
+example: __"We already spent two months working on getting this software to function properly, we are not going to stop now!"__ Even though little to no progress has been made.
+"""
+aliases = ["Escalation of commitment "]
+references = []

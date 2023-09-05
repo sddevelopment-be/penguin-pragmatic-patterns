@@ -2,7 +2,7 @@
 title = "Mind Mapping: visualizing a topic"
 author = "Stijn Dejongh"
 problem = "You are learning a wealth of new information, but find it difficult to keep an overview of what you know."
-description = "Draw a map of the concepts you know, in order to deepen your understanding"
+description = "Draw a map of the concepts you know, in order to deepen your understanding."
 type = "practice"
 categories = [
     "learning",

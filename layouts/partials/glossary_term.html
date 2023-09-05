@@ -4,9 +4,9 @@
 {{ $description := $term.description}}
 {{ $aliases := $term.aliases}}
 
-<div class="glossary-term revealOnScroll delay-1" data-animation="fadeInLeft">
+<div class="glossary-term revealOnScroll delay-1" data-animation="fadeInLeft" id={{ replace $name " " "-" | lower }}>
     <div class="term-name">
-        <h3 id={{ replace $name " " "-" | lower }}>{{ $name }}</h3>
+        <h3>{{ $name }}</h3>
     </div>
     <div class="term-content">
         {{ if $short }}<div class="term-abbreviation"> <b>short:</b> {{ $short }} </div> {{end}}

@@ -20,7 +20,7 @@
 .pattern-card {
     display: flex;
     flex-flow: column nowrap;
-    justify-content: space-between;
+    justify-content: start;
     width: 24rem;
     align-content: normal;
     background-image: linear-gradient(#fefefe, #fdfdfd);
@@ -52,6 +52,13 @@
 .pattern-card .card-text {
     color: #2c3e50;
     padding-left: 0.25rem;
+    font-size: 1rem;
+    flex-grow: 1;
+}
+
+.pattern-card .card-text p {
+    padding: 0 0.5rem;
+    margin-top: 1.25rem;
 }
 
 .pattern-card .card-text p .item-title {
@@ -60,6 +67,8 @@
     text-transform: uppercase;
     font-weight: 350;
     font-size: 0.75rem;
+    display: block;
+    margin-bottom: 0.125rem;
 }
 
 .pattern-card .card-action {

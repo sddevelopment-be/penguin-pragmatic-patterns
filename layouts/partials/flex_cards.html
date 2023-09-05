@@ -6,8 +6,8 @@
                 <h4>{{ .Title }}</h4>
             </div>
             <div class="card-text">
-                <p><span class="item-title">problem:</span>{{ .Problem }}</p>
-                <p><span class="item-title">description:</span>{{ .Description }}</p>
+                {{if .Problem }}<p><span class="item-title">problem:</span>{{ .Problem }}</p> {{end}}
+                {{if .Description }}<p><span class="item-title">solution description:</span>{{ .Description }}</p> {{end}}
             </div>
             <div class="card-action">
                 <a href="{{ .RelPermalink }}" class="button btn-align-md raised">Read more</a>

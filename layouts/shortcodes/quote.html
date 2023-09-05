@@ -3,7 +3,7 @@
 
 <div class="alert-container">
     <blockquote class="groucho quote">
-        {{ $text }}
-        {{ if $author }}<footer>{{ $author }}</footer> {{ end }}
+        {{ $text | markdownify }}
+        {{ if $author }}<footer>{{ $author | markdownify }}</footer> {{ end }}
     </blockquote>
 </div>

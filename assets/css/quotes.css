@@ -6,6 +6,7 @@
     line-height: 1.5em;
     font-style: italic;
 }
+
 .brooks:before {
     content: '\201C';
     position: absolute;
@@ -15,6 +16,7 @@
     font-size: 6em;
     z-index: -1;
 }
+
 .ludwig {
     position: relative;
     padding-left: 1em;
@@ -24,14 +26,17 @@
     line-height: 1.5em;
     font-weight: 100;
 }
+
 .ludwig:before, .ludwig:after {
     content: '\201C';
     font-family: 'Sanchez';
     color: #4d91b3;
 }
+
 .ludwig:after {
     content: '\201D';
 }
+
 .groucho {
     position: relative;
     font-family: 'Sanchez', serif;
@@ -39,6 +44,7 @@
     line-height: 1.4em;
     color: #557aaa;
 }
+
 .groucho footer {
     font-family: 'Noto Sans', sans-serif;
     font-size: 0.6em;
@@ -46,10 +52,12 @@
     color: #d1d1d1;
     text-align: right;
 }
+
 .groucho footer:before {
     content: '\2015';
     box-sizing: border-box;
 }
+
 .groucho:after {
     content: '\201D';
     position: absolute;
@@ -61,6 +69,7 @@
     z-index: -1;
     box-sizing: border-box;
 }
+
 /* Some generic stuff. Don't worry about it */
 /* Some generic stuff. Don't worry about it */
 blockquote {
@@ -73,3 +82,16 @@ blockquote {
     box-shadow: 2px 2px rgba(55, 83, 102, 0.25);
     margin: 2em 0 2em 0;
 }
+
+@media (max-width: 800px) {
+    .alert-container {
+        padding: 0.75rem;
+        margin: 1.125rem 0 1.125rem 0;
+    }
+
+    .quote {
+        padding: 0.5em 0.25em;
+    }
+}
+
+

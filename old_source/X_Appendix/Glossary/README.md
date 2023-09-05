@@ -142,7 +142,7 @@ It had turned out an insect wandered into the machinery and disrupted its proper
 To fix their calculation, one of the research had to physically rid the machine of pesky "bugs",
 hence coining the phrase _"debugging the system"_.
 
-### Defered cancellation
+### Deferred cancellation
 
 Thread cancellation style, in which the target thread is gracefully shut down. The tarhet thread periodically checks whether it should/cam
 terminate, allowing it an opportunity to terminate itself in an orderly fashion. By doing this, it can release any held system resources, and

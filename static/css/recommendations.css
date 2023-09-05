@@ -54,7 +54,7 @@
 .recommendation-item .recommendation-content .recommendation-image img {
     max-width: 8em;
     max-height: 14em;
-    border: 0.25rem solid #2f78e7;
+    border: 2px solid #f39200;
 }
 
 .recommendation-item .recommendation-content .recommendation-text {
@@ -87,6 +87,14 @@
 
 .recommendation-item .recommendation-content .recommendation-text .link {
     font-size: 0.95rem;
+}
+
+.recommendation-item .recommendation-content .recommendation-text .link a {
+    color: #9c671a;
+}
+
+.recommendation-item .recommendation-content .recommendation-text .link a:hover {
+    border-bottom: 1px solid #f39200;
 }
 
 @media (max-width: 800px) {

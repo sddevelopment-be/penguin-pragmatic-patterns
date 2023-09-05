@@ -26,8 +26,8 @@ You are distracted by various inputs from your environment, causing you to not f
 ### Enablers
 
 * You wish to complete tasks to be best of your ability, and as fast as circumstances allow.
-* The tasks you perform require your attention, and take sufficiently long to accomplish.
-* You can split your tasks into smaller parts, each of which add some value on their own accord.
+* The tasks you perform require your attention, and take sufficiently long to achieve.
+* You can split your tasks into smaller parts, each adding some value on their own accord.
 * You have some autonomy on how you allocate your time.
 
 ### Deterrents
@@ -46,11 +46,12 @@ You are distracted by various inputs from your environment, causing you to not f
 * After completing four iterations, take an extended break.
 
 For tasks that require a long time to complete, decide beforehand how much time you will invest in it now.
-It helps to specify a number of pomodoro's that you will devote to working on the task. You stop when the task is done, or your tinme allocation
-runs out. Whichever comes first.
+It helps to specify a specific amount of pomodoro timers that you will devote to working on the task. You stop when the task is done, or 
+your time allocation runs out. Whichever comes first.
 
-> [!TIP]
-> The pomodoro technique works well if you splits your tasks down into smaller chunks that can be accomplished within a single pomodoro.
+
+{{<tip text=`The pomodoro technique works well if you split your tasks down into smaller chunks that can be accomplished within a single 
+pomodoro.` >}}
 
 ## Rationale
 

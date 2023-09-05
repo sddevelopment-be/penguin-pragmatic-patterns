@@ -31,7 +31,7 @@
             {{if $description}}
             <div class="recommendation-description text-item">
                 <b>description:</b>
-                <p>{{ $description }}</p>
+                <p>{{ $description | markdownify }}</p>
             </div>
             {{end}}
             {{if $link}}

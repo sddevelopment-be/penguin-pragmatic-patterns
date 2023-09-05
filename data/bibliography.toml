@@ -1,6 +1,6 @@
 [[book]]
 title = "The Pragmatic Programmer, 20th Anniversary Edition: your journey to mastery"
-isbn="9780135957059"
+isbn = "9780135957059"
 authors = "Thomas, D.; Hunt, A."
 publisher = "Addison Wesley"
 location = ""
@@ -14,12 +14,12 @@ Written in a highly practical, down-to-earth, and conversational style, everyone
 
 [[book]]
 title = "Apprenticeship Patterns"
-isbn="9780596518387"
+isbn = "9780596518387"
 authors = "Hoover, D.; Oshineye, A."
 publisher = "O'Reilly Media, Inc."
 year = "2009"
 location = ""
-image = ""
+image = "apprent_patterns.jpeg"
 link = "https://www.oreilly.com/library/view/apprenticeship-patterns/9780596806842/"
 description = """
 Advice for people that switch teams. The authors give practical advise on how to quickly and effectivly integrate yourself into a new environment.
@@ -27,24 +27,42 @@ Their book is structured as a pattern list, one of which has the memorable name 
 """
 
 [[book]]
-title="New Programmer's Survival Manual: Navigate Your Workplace, Cube Farm, or Startup"
-authors="Carter, J."
-publisher="The Pragmatic Bookshelf."
-location=""
-year="2011"
-link="https://pragprog.com/titles/jcdeg/new-programmer-s-survival-manual/"
-image=""
-description="""
+title = "New Programmer's Survival Manual: Navigate Your Workplace, Cube Farm, or Startup"
+authors = "Carter, J."
+publisher = "The Pragmatic Bookshelf."
+location = ""
+year = "2011"
+link = "https://pragprog.com/titles/jcdeg/new-programmer-s-survival-manual/"
+image = ""
+description = """
 """
 
 [[book]]
-title="The 7 Habits of Highly Effective People: Powerful Lessons in Personal Change"
-isbn="0743269519"
-authors="Covey, S. R. & Collins, J."
-publisher="Free Press"
-location=""
-year="2004"
-link="https://www.goodreads.com/book/show/36072.The_7_Habits_of_Highly_Effective_People"
-image="covey_habbits.jpg"
-description="""
+title = "The 7 Habits of Highly Effective People: Powerful Lessons in Personal Change"
+isbn = "0743269519"
+authors = "Covey, S. R. & Collins, J."
+publisher = "Free Press"
+location = ""
+year = "2004"
+link = "https://www.goodreads.com/book/show/36072.The_7_Habits_of_Highly_Effective_People"
+image = "covey_habbits.jpg"
+description = """
+A classic in both software developer and management circles. Covey explains the values and practices that help you be more mindful of how you spend your time.
+He discussed personal management systems, the art of saying no, and talk about how __"saying yes to something, means saying no to something else"__.
+Covey invites the reader to reflect on who they want to be, and then helps them take steps towards becoming that person.
+"""
+
+[[book]]
+title = "Practices of an Agile Developer "
+isbn = "9780974514086"
+authors = "Hunt, A.; Subramaniam, V."
+publisher = "Pragmatic Bookshelf"
+location = ""
+year = "2006"
+link = "https://pragprog.com/titles/pad/practices-of-an-agile-developer/"
+image = "agile_dev_venkat.jpg"
+description = """
+Describes the personal experiences and thoughts on acting in an _agile_ manner.
+Other than most books on the topic, dr. Subramaniam and mr. Hunt dive into the dark side of working in a corporate environment.
+They offer the reader a bunch of, sometimes hard-to-swallow, advices from their personal experiences. Above all, this book inspires readers to do the best they can given the circumstances.
 """

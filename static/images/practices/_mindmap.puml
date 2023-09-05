@@ -1,0 +1,163 @@
+@startmindmap
+
+title Software developer learning path
+
+<style>
+mindmapDiagram {
+  .basic {
+    BackgroundColor lightgreen
+  }
+  .advanced {
+    BackgroundColor lightblue
+  }
+  .deep {
+    BackgroundColor #FFBBCC
+  }
+  rootNode {
+    Padding 12
+    Margin 3
+    HorizontalAlignment center
+    FontSize 24
+    LineThickness 3.0
+    BackgroundColor gold
+    RoundCorner 40
+    MaximumWidth 100
+  }
+  .category {
+    Margin 2
+    Padding 14
+    BackgroundColor gold
+    FontSize 18
+    LineThickness 1.0
+    RoundCorner 0
+    Shadowing 0.0
+  }
+}
+</style>
+
++ Dev knowledge
+-- Learning <<category>>
+--- Knowledge vs Beliefs <<basic>>
+--- Styles <<basic>>
+--- Biases <<basic>>
+--- Techniques
+---- Empiricism <<basic>>
+---- Exploration <<basic>>
+--- Knowledge portfolio <<basic>>
+---- Directed learning <<advanced>>
+---- Finding gaps <<advanced>>
+---- Refreshing <<basic>>
+--- Teaching <<advanced>>
+++ Computational thinking <<category>>
++++ Boolean logic basics <<basic>>
++++ Complexity
+++++ Turing machine and computability <<advanced>>
+++++ Big-O notations and how to calculate <<basic>>
+++++ Split into smaller problems <<basic>>
++++ Basic algorithms
+++++ Solving problems <<basic>>
+++++ State machines <<basic>>
+++++ Geometrical algorithms <<advanced>>
+++++ Evolutionary algorithms <<deep>>
+++++ Path-finding algorithms <<deep>>
+++ Programming <<category>>
++++ Automation basics <<basic>>
+++++ Scripting
+++++ Build automation
++++ Paradigms <<basic>>
+++++ Imperative <<basic>>
+++++ Object-Oriented <<basic>>
+++++ Functional <<advanced>>
+++++ Combination of former <<advanced>>
++++ Languages
+++++ Type of languages <<advanced>>
++++++ High- vs. Low-level languages <<advanced>>
++++++ Static vs Dynamic <<advanced>>
++++++ Handling of RPCs <<deep>>
++++++ Single vs Multi-threaded <<advanced>>
++++ Tooling
+++++ The importance of hotkeys <<basic>>
+++++ CLI tricks <<advanced>>
+++++ Specialized software 
+++++ IDEs <<basic>>
++++ Techniques
+++++ SOLID principles <<advanced>>
+++++ Clean code techniques <<basic>>
+++++ Refactoring <<basic>>
+++++ Automated Testing <<basic>>
++++++ Test Driven Development <<advanced>>
++++++ Behaviour-driven development <<advanced>>
++++++ Mocks vs Stubs <<basic>>
++++++ Acceptance testing <<basic>>
++++++ Test encapsulation <<basic>>
+-- Networking <<category>>
+--- Basic concepts
+---- Packets <<basic>>
+---- Routers / Switches <<advanced>>
+---- Delays in transmissions <<basic>>
+--- Basic algorithms
+---- Handshakes / ACKs <<basic>>
+---- FTP <<advanced>>
+---- HTTP <<advanced>>
+---- SSL <<advanced>>
+++ Databases <<category>>
++++ Relational <<basic>>
++++ Non-relational <<basic>>
+++++_ Order-based 
+++++_ Content-bases
++++ Common issues
+++++_ 1+n problem
+++++_ access locks
+++++_ rights-related issues
+++ Architecture <<category>>
++++ Constraints <<basic>>
++++ Quality attributes <<basic>>
+++++ Trade-offs <<advanced>>
+++++ Quality scenarios <<basic>>
++++ Design Frameworks <<deep>>
+-- People <<category>>
+--- Personality
+--- Communication
+---- What vs How <<basic>>
+---- Visualisations <<deep>>
+---- Clarity: signal or noise? <<advanced>>
+---- Non-violent communication <<basic>>
+--- Desires <<advanced>>
+--- Teamwork / Group dynamics
+---- Personality types <<basic>>
+---- Working agreements <<basic>>
+----- Shared conventions <<advanced>>
+----- Definition of Done <<basic>> 
+-- Productivity <<category>>
+--- Techniques
+---- Estimation <<basic>>
+---- Pomodoro <<basic>>
+---- Start at the end <<basic>>
+---- Red vs Blue work <<advanced>>
+---- Make it visible <<basic>>
+--- Value / Management
+---- Whose money is it? <<basic>>
+---- Conway's law <<deep>>
+----- Team-dependency mapping <<deep>>
+---- Stakeholders <<basic>>
+---- Project health assessment <<deep>>
+---- Metrics <<basic>>
+----- Predicting vs Lagging indicators <<basic>>
+----- KPIs <<basic>>
+----- OKRs <<advanced>>
+
+legend right
+  |Color | Type |
+  | <#lightgreen> | basic |
+  | <#lightblue> | advanced |
+  | <#FFBBCC> | deep |
+  | <#gold> | category |
+endlegend
+
+header
+Mindmap by Stijn Dejongh - stijn@sddevelopment.be
+endheader
+
+center footer Decomposition of useful knowledge that would help any software developer in their career
+
+@endmindmap

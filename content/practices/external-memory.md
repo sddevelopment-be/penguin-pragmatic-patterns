@@ -58,10 +58,10 @@ This allows me to come back to a project that has been on ice for a while with r
 In addition to this, I try and keep a day-to-day running count of what happened during any given day. This is done in a separate log, which I try to write at the end of the day.
 
 {{<tip text=`
-    One of my favorite ways of note-taking while working on a software project is to add a dev_notes directory to my codebase.
-    For short-lived projects or changes, I tend to add this file to the .gitignore configuration of my repository as to not muck up the
-    workspace of my colleagues. For more long-term or collaborative projects, consider creating a dedicated repository to host all of your
-    developer notes. You can get creative with symbolic links to make these folders show up in your codebase regardless of their physical location.
+One of my favorite ways of note-taking while working on a software project is to add a dev_notes directory to my codebase.
+For short-lived projects or changes, I tend to add this file to the .gitignore configuration of my repository as to not muck up the
+workspace of my colleagues. For more long-term or collaborative projects, consider creating a dedicated repository to host all of your
+developer notes. You can get creative with symbolic links to make these folders show up in your codebase regardless of their physical location.
 ` >}}
 
 ## References

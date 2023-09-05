@@ -29,12 +29,15 @@ Their book is structured as a pattern list, one of which has the memorable name 
 [[book]]
 title = "New Programmer's Survival Manual: Navigate Your Workplace, Cube Farm, or Startup"
 authors = "Carter, J."
+isbn = "9781934356814"
 publisher = "The Pragmatic Bookshelf."
 location = ""
 year = "2011"
 link = "https://pragprog.com/titles/jcdeg/new-programmer-s-survival-manual/"
-image = ""
+image = "survival_manual.jpg"
 description = """
+How do you navigate your carreer in software development? And how do you avoid being passed over for promotions, even though you are the most knowledgeable technologist in the team?
+Carter helps the reader think about the non-technical side of corporate culture, and provides guidance on how to take control of your own carreer.
 """
 
 [[book]]
@@ -65,4 +68,20 @@ description = """
 Describes the personal experiences and thoughts on acting in an _agile_ manner.
 Other than most books on the topic, dr. Subramaniam and mr. Hunt dive into the dark side of working in a corporate environment.
 They offer the reader a bunch of, sometimes hard-to-swallow, advices from their personal experiences. Above all, this book inspires readers to do the best they can given the circumstances.
+"""
+
+[[book]]
+title="Ego Is the Enemy"
+isbn="9781591847816"
+authors="Holiday, R."
+publisher="Portfolio"
+location=""
+year="2016"
+link="https://www.goodreads.com/book/show/27036528-ego-is-the-enemy"
+image="ego_enemy.jpg"
+description="""
+A modern view on the stoic principles of being true to yourself, and dealing with adversity.
+Holiday manages to engage the reader using memorable historical figures to illustrate how success can be the downfall of a persons character.
+The books contains inspirational succes stories, as well as cautionary tales. After reading the book, you will see your decisions in a new light, and you will be invited to answer the question:
+__"Do I want to do something meaningful, or do I want to be important?"__.
 """

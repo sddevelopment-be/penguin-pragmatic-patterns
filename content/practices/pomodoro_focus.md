@@ -1,7 +1,8 @@
 +++
 title = "Pomodoro Focus"
 author = "Stijn Dejongh"
-description = "Tomato-based timers to increase productivity"
+problem="You are distracted by various inputs from your environment, causing you to not finish tasks you set out to do."
+description = "Use tomato-based timers to stay focussed on the task at hand."
 type = "practice"
 categories = [
     "productivity",

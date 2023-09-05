@@ -1,7 +1,8 @@
 +++
 title = "Use an External Memory"
 author = "Stijn Dejongh"
-description = "Free your mind by delegating to an external memory system"
+problem = "You want to reduce the impact of being pulled out of your flow."
+description = "Free your mind by delegating the remembering of things to an external system."
 type = "practice"
 categories = [
     "productivity",
@@ -13,12 +14,11 @@ tags = [
 
 ![./free-mind.gif >](images/practices/free-mind.gif)
 
-## Context
+## Problem statement
 
-Human memory is [extremely lossy](https://www.nationalgeographic.com/science/article/human-memory). We are better equipped for creative,
-constructive thinking than for storing factual information. Focus is [easily disrupted](https://blog.rescuetime.com/context-switching/).
-It makes practical and economic sense to try and reduce the impact of _"forgetfulness"_ and being _"pulled out of your flow"_.
-Try and find a way to free up your headspace and thinking power for the endeavors that actually matter.
+You want to reduce the impact of _"forgetfulness"_ and being _"pulled out of your flow"_.
+
+## Intent
 
 ## Drivers
 
@@ -38,6 +38,12 @@ Try and find a way to free up your headspace and thinking power for the endeavor
 * Favor text-based formats, as they are easier to version, maintain and port
 * Whatever system you use, make sure it is easily accessible, and non-disruptive to your primary focus
 
+## Rationale
+
+Human memory is [extremely lossy](https://www.nationalgeographic.com/science/article/human-memory). We are better equipped for creative,
+constructive thinking than for storing factual information. Focus is [easily disrupted](https://blog.rescuetime.com/context-switching/).
+It makes practical and economic sense to try and find a way to free up your headspace and thinking power for the endeavors that actually matter.
+
 ## Examples
 
 There are many online (free and paid) systems that offer you a way to store your thoughts.
@@ -53,9 +59,11 @@ single vendor solution. This entire knowledge base can be seen as one big "exter
 
 Working on enterprise projects tends to be a continuous struggle against interruptions, pivots, and moving targets.
 In order to stay on track, it helps to keep track of your actions and thoughts.
-The best way I have found so far is to keep track of my actions on different projects by including short developer logs inside the code repositories.
+The best way I have found so far is to keep track of my actions on different projects by including short developer logs inside the code
+repositories.
 This allows me to come back to a project that has been on ice for a while with relatively low friction.
-In addition to this, I try and keep a day-to-day running count of what happened during any given day. This is done in a separate log, which I try to write at the end of the day.
+In addition to this, I try and keep a day-to-day running count of what happened during any given day. This is done in a separate log, which I try to
+write at the end of the day.
 
 {{<tip text=`
 One of my favorite ways of note-taking while working on a software project is to add a dev_notes directory to my codebase.

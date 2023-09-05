@@ -53,6 +53,15 @@
     color: #2c3e50;
     padding-left: 0.25rem;
 }
+
+.pattern-card .card-text p .item-title {
+    color: #1f3c48;
+    font-stretch: extra-condensed;
+    text-transform: uppercase;
+    font-weight: 350;
+    font-size: 0.75rem;
+}
+
 .pattern-card .card-action {
     margin-top: 1.25rem;
     margin-bottom: 0.25rem;

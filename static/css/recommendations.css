@@ -53,7 +53,7 @@
 
 .recommendation-item .recommendation-content .recommendation-image img {
     max-width: 8em;
-    max-height: 8em;
+    max-height: 14em;
     border: 0.25rem solid #2f78e7;
 }
 

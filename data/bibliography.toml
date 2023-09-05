@@ -1,9 +1,10 @@
 [[book]]
 title = "The Pragmatic Programmer, 20th Anniversary Edition: your journey to mastery"
+isbn="9780135957059"
 authors = "Thomas, D.; Hunt, A."
 publisher = "Addison Wesley"
 location = ""
-image = ""
+image = "prag_prog_20.png"
 year = "2019"
 link = "https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/"
 description = """
@@ -13,6 +14,7 @@ Written in a highly practical, down-to-earth, and conversational style, everyone
 
 [[book]]
 title = "Apprenticeship Patterns"
+isbn="9780596518387"
 authors = "Hoover, D.; Oshineye, A."
 publisher = "O'Reilly Media, Inc."
 year = "2009"
@@ -35,3 +37,14 @@ image=""
 description="""
 """
 
+[[book]]
+title="The 7 Habits of Highly Effective People: Powerful Lessons in Personal Change"
+isbn="0743269519"
+authors="Covey, S. R. & Collins, J."
+publisher="Free Press"
+location=""
+year="2004"
+link="https://www.goodreads.com/book/show/36072.The_7_Habits_of_Highly_Effective_People"
+image="covey_habbits.jpg"
+description="""
+"""

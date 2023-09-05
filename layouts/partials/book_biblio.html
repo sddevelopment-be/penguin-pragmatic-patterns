@@ -1,5 +1,6 @@
 {{ $book := .book }}
 {{ $title := $book.title }}
+{{ $isbn := $book.isbn }}
 {{ $image := $book.image }}
 {{ $author := $book.authors}}
 {{ $publisher := $book.publisher}}
@@ -25,7 +26,7 @@
         <div class="recommendation-text">
             <div class="reference text-item">
                 <b>bibliographical reference:</b> <br />
-                {{ $author }} ({{ $year}}) {{ $title }}. {{ if $publisher }}{{ $loc }}: {{ $publisher }} {{ end }}
+                {{ $author }} ({{ $year}}) {{ $title }}. {{ if $publisher }} {{ if $loc }}{{ $loc }}:{{ end }} {{ $publisher }}. {{if $isbn }}isbn: {{$isbn}}. {{ end }} {{ end }}
             </div>
             {{if $description}}
             <div class="recommendation-description text-item">

@@ -87,6 +87,7 @@
 
 .recommendation-item .recommendation-content .recommendation-text .link {
     font-size: 0.95rem;
+    word-break: break-all;
 }
 
 .recommendation-item .recommendation-content .recommendation-text .link a {

@@ -37,13 +37,13 @@ link = "https://pragprog.com/titles/jcdeg/new-programmer-s-survival-manual/"
 image = "survival_manual.jpg"
 description = """
 How do you navigate your carreer in software development? And how do you avoid being passed over for promotions, even though you are the most knowledgeable technologist in the team?
-Carter helps the reader think about the non-technical side of corporate culture, and provides guidance on how to take control of your own carreer.e
+Carter helps the reader think about the non-technical side of corporate culture, and provides guidance on how to take control of your own carreer.
 """
 
 [[book]]
 title = "The 7 Habits of Highly Effective People: Powerful Lessons in Personal Change"
 isbn = "0743269519"
-authors = "Covey, S. R. & Collins, J."
+authors = "Covey, S. R.; Collins, J."
 publisher = "Free Press"
 location = ""
 year = "2004"
@@ -98,5 +98,4 @@ image = "gtd.jpg"
 description = """
 A no-nonsense approach to take control of your time. Allen shares his tips to keep focussed on what is important to you,
 emphasises the need for a system you can trust, and empowers you to implement a way of organizing your life and commitments that fits your preferences.
-
 """

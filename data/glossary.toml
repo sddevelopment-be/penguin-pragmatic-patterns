@@ -221,15 +221,7 @@ abbreviation = "CSV"
 domain = "software"
 description = """
 A commonly used file format to represent tabular data. These files usually start with a line denoting the names of the columns. Each subsequent line is considered to be a data row.
-
-An example:
-```csv
-name, age, location
-Leeroy Jenkins, ?, some dungeon
-Smaug, >200 years, on top of your dwarven gold
-Bob The Builder, ?, construction site
-```
-    """
+"""
 aliases = []
 references = []
 

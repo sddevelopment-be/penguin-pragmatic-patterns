@@ -18,7 +18,6 @@ displaySection = "learning"
 
 ## Contextual forces
 
-
 ### Enablers
 
 * Being okay with non-complete respresentations.
@@ -53,7 +52,8 @@ If you work digitally, you can keep your mindmaps up to date a bit more easily a
 
 ### Mindmapping the concepts and intent of this publication
 
-While writing this course, I considered what knowledge a software developer should have in order to be capable of handling most challenges. With "handling most challenges", I do not mean the developer will be able to draw upon existing solutions, but rather that they are able to combine this information in order to creativly think of a way to resolve the issue at hand.
+While preparing to write this publication, I considered what knowledge a software developer should have in order to be capable of handling most 
+challenges. With "handling most challenges", I do not mean the developer will be able to draw upon existing solutions, but rather that they are able to combine this information in order to creativly think of a way to resolve the issue at hand.
 
 This is what I came up with as a general structure, which you can see reflected in how this work has been structured.
 

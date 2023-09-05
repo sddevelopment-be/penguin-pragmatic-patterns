@@ -71,17 +71,32 @@ They offer the reader a bunch of, sometimes hard-to-swallow, advices from their 
 """
 
 [[book]]
-title="Ego Is the Enemy"
-isbn="9781591847816"
-authors="Holiday, R."
-publisher="Portfolio"
-location=""
-year="2016"
-link="https://www.goodreads.com/book/show/27036528-ego-is-the-enemy"
-image="ego_enemy.jpg"
-description="""
+title = "Ego Is the Enemy"
+isbn = "9781591847816"
+authors = "Holiday, R."
+publisher = "Portfolio"
+location = ""
+year = "2016"
+link = "https://www.goodreads.com/book/show/27036528-ego-is-the-enemy"
+image = "ego_enemy.jpg"
+description = """
 A modern view on the stoic principles of being true to yourself, and dealing with adversity.
 Holiday manages to engage the reader using memorable historical figures to illustrate how success can be the downfall of a persons character.
 The books contains inspirational succes stories, as well as cautionary tales. After reading the book, you will see your decisions in a new light, and you will be invited to answer the question:
 __"Do I want to do something meaningful, or do I want to be important?"__.
+"""
+
+[[book]]
+title = "Getting Things Done: The Art of Stress-Free Productivity"
+isbn = "0143126563"
+authors = "Allen, D."
+publisher = "Penguin Books"
+location = ""
+year = "2015"
+link = "https://www.goodreads.com/book/show/22573850-getting-things-done"
+image = "gtd.jpg"
+description = """
+A no-nonsense approach to take control of your time. Allen shares his tips to keep focussed on what is important to you,
+emphasises the need for a system you can trust, and empowers you to implement a way of organizing your life and commitments that fits your preferences.
+
 """

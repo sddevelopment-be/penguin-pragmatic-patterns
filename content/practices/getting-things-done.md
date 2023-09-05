@@ -1,7 +1,8 @@
 +++
 title = "Organize your workflow"
 author = "Stijn Dejongh"
-description = "Stick to an basic personal flow to complete tasks"
+problem = "You find yourself constantly busy, yet achieving little of value."
+description = "Implement a personalized workflow to organize, prioritize, and complete tasks"
 type = "practice"
 categories = [
     "productivity",
@@ -11,11 +12,17 @@ tags = [
 ]
 +++
 
-## Context
+## Problem Statement
 
-## Drivers
+You find yourself constantly busy, yet achieving little of value.
 
-* You want to finalize your tasks and "get things done"
+## Intent
+
+* Finalize your crucial tasks and "get things done"
+* Have a consistent approach to task organization and prioritization
+
+## Contextual forces
+
 * People are often distracted by their own thoughts
 * Multitasking is hard. Our brains work better if we can compartmentalize between different modes of thinking
 * Our memories are very lossy. We tend to forget about things all the time
@@ -24,26 +31,29 @@ tags = [
 
 ## Solution
 
-Use a personalized productivity flow, using whatever tool you feel comfortable in.
+Use a personalized productivity flow, using whatever tool (or combination of tools) you feel comfortable with.
 For some, this will be a pen-and-paper system. Others prefer to leverage their digital prowess and lifestyle to have
-theis productivity
-tool available all the time[^1]. One of the most popular personal productivity methods is called the _"Getting things
+their productivity tool available to them constantly[^1]. One of the most popular personal productivity methods is called the _"Getting things
 done"_ method[^2].
 
 ![./task-flow.png ><](images/practices/task_flow.png ':size=684')
 
-**Whatever method you choose, make sure to:**
-
+The core of the approach is to have:
+* A place to note down ideas or tasks that pop into your head
+* A way to organize these by priority or type of work to do
+* A calendar to plan time-allocations in
+  
+  
+Whichever tools you choose:
 * Have a specific location to dump out your thoughts
-* You should **trust** your tools. Peace of mind only happens when you are convinced your ideas and todos are stored
-  reliably
-* Regularly review your braindump tool and curate it. Some of your ideas will be crappy. Get rid of them.
+* Regularly review your brain dump tool and curate it. Some of your ideas will be crappy. Get rid of them.
+* You should **trust** your tools. Peace of mind only happens when you are convinced your ideas and to-dos are stored reliably.
 * Categorize and Prioritize your thoughts **after** you have collected them
-    * The Eisenhouwer Matrix is an excellent technique to do this
+    * The Eisenhower Matrix (described below) is an excellent technique to do this
     * differentiate between "things to remember" and "things that require action"
     * assign "due dates" if able
 
-### Eisenhouwer priority Matrix
+### Eisenhower priority Matrix
 
 ![./eis_matrix.png <](images/practices/eis_matrix.png ':size=364')
 
@@ -84,7 +94,8 @@ productive, without losing your mobility.
 | [Trello](https://trello.com/)                                                                                          | A simple Kanban board to track your main tasks and their status                                                               |
 
 [^1]: Unless of course your computers die and your internet connection goes on hiatus  
-[^2]: From the book ['The 7 Habits of Highly Effective People: Powerful Lessons in Personal Change'](https://www.amazon.com/gp/product/0743269519?imprToken=u69OsCPq-VHBYc7olPiAPA) 
+[^2]: From the
+book ['The 7 Habits of Highly Effective People: Powerful Lessons in Personal Change'](https://www.amazon.com/gp/product/0743269519?imprToken=u69OsCPq-VHBYc7olPiAPA)
 by Stephen R. Covey  
 [^3]: Mathematicians (and computer programmers) call this a _"Matrix"_. We are sorry to disappoint you if you expected
 leather clad martial artists to help you out with setting your priorities.

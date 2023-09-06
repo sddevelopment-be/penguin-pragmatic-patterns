@@ -99,3 +99,18 @@ description = """
 A no-nonsense approach to take control of your time. Allen shares his tips to keep focussed on what is important to you,
 emphasises the need for a system you can trust, and empowers you to implement a way of organizing your life and commitments that fits your preferences.
 """
+
+[[book]]
+title="Pragmatic Thinking and Learning: Refactor Your wetware"
+isbn="9781934356050"
+authors="Hunt, A."
+publisher="Pragmatic Bookshelf"
+location=""
+year="2008"
+link="https://pragprog.com/titles/ahptl/pragmatic-thinking-and-learning/"
+image="prag_thinking.jpg"
+description="""
+Dive into your own brain, and learn about efficient learning. Hunt discusses various techniques that have helped him stay on top of his game over a carreer spanning decades.
+As a professional, your main weapon is your ability to learn. Unfortunatly, a lot of us are left to our own devices in figuring out which approaches work well for us.
+This book helps you, by giving you a plethora of time-proven learning techniques, and some tools to discover your own preferences.
+"""

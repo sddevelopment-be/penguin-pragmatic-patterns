@@ -6,3 +6,43 @@ image = "docgen.png"
 description = """
 Tooling to generate documents from Markdown, using docker images to ensure portability between different environments. Contains a quick-start set-up. Useful for automated pipelines or quick set-up on new computers.
 """
+
+[[tool]]
+name = "Tutorial: Productivity With Shortcuts"
+authors = "Schraepen, T.; et al."
+link = "http://sch3lp.github.io/ProductivityWithShortcuts/"
+image = ""
+description = """
+A step-by-step guide to help you get the most out of your IntelliJ IDEA. A great tutorial for developers that are not used to using hotkeys in order to improve their productivity.
+While it might sound like snake-oil to some, the advantages of reducing the need to use a mouse, and typing less characters add up over time.
+Definitly take a look at it, and discover a side of your IDE that you did not think existed before.
+"""
+
+[[tool]]
+name = "Docsify"
+authors = "docsify.js Open Source Community"
+link = "https://docsify.js.org"
+image = "docsify.png"
+description = """
+Generate a documentation website from markdown files quickly. Easy to use, customizable with community-supported plugins. Written in javascript.
+A great way to document your projects in your IDE, and get a visually pleasing documentation site.
+"""
+
+[[tool]]
+name = "CV Compiler"
+authors = ""
+link = "https://cvcompiler.com/"
+image = "cv_compiler.png"
+description = """
+Leverage Big Data to automate your CV screening. Evaluates resumes based on vacancies from big tech companies. The site offers feedback on your resume, as well
+as various stylistic tips and tricks.
+"""
+
+[[tool]]
+name = "Structurizr "
+authors = ""
+link = "https://structurizr.org/"
+image = "structurizr.png"
+description = """
+A DSL for describing software architecture and design. Based on the c4model system for system description. Easy to use, and integrates with the most popular code-to-diagram formats.
+"""

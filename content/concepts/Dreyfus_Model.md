@@ -1,7 +1,7 @@
 +++
-title = "Dreyfus model of Skill Acquisition"
+title = "Dreyfus model"
 author = "Stijn Dejongh"
-description = "a Japanese martial art concept that is used to describe the stages of learning on the path to mastery."
+description = "a formal model of skill acquisition progress, that defines five distinct steps of mastery."
 type = "concept"
 categories = [
     "learning",
@@ -14,11 +14,11 @@ tags = [
 {{<quote text=`
 Every journey begins with one step in the right direction.
 In order to know the direction to take, it is important to know where you are at right now.
-` author="paraphrasing Sun Tzu}}
+` author="paraphrasing Sun Tzu" >}}
 
 ## Description
 
-The Dreyfus model of skill acquisition is a very formalized model, that defines five distinct steps of mastery.  
+The Dreyfus model of skill acquisition is a formal model, that defines five distinct steps of mastery.  
 As a learner progresses from on stage to the next, their way of using their skillset changes.
 Even more interesting is that they start thinking in different ways.
 
@@ -36,6 +36,10 @@ These will be described across four main areas.
 * **Recognition:**  Describes the way the practitioner is able to recognize situations and relevant actions.
 * **Decision:** Describes the way the practitioner decides on a course of action.
 * **Awareness:** Describes the way the practitioner is able to extract information from their context / environment.
+
+![Dreyfus model](images/concepts/dreyfus.jpg)
+
+## Breakdown of skill levels
 
 ### Novice
 
@@ -87,8 +91,6 @@ These will be described across four main areas.
 * **Awareness:** Absorbed. The learner subconsciously takes mental note of behaviors and characteristics of their environment. They **feel** when
   something is going well, or when risks are on the horizon.
 
-![Dreyfus model](images/concepts/dreyfus.jpg)
-
 ## Usage
 
 ### Tailoring coaching approach to the learners skill level
@@ -98,7 +100,7 @@ Inexperienced practitioners of a skill are pleased when someone provides them wi
 these instructions will lead to certain success.
 Adapt your coaching and teachings styles to the needs of the learner.
 
-## References and further reading
+### References and further reading
 
 * Dreyfus, Stuart E; Dreyfus, Hubert L. A Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition. Storming Media,
   retrieved from:  [http://www.dtic.mil](http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA084551&Location=U2&doc=GetTRDoc.pdf)
@@ -108,4 +110,3 @@ Adapt your coaching and teachings styles to the needs of the learner.
   Bookshelf, [pragprog.com](https://pragprog.com/book/tpp20/the-pragmatic-programmer-20th-anniversary-edition)
 * Hoover, D; Oshineye, A. Apprenticeship Patterns: Guidance for the Aspiring Software Craftsman. O'Reilly Media,
   Inc, [oreilly.com/library](https://www.oreilly.com/library/view/apprenticeship-patterns/9780596806842/ch01.html).
-

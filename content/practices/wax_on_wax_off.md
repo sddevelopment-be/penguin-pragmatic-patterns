@@ -58,38 +58,49 @@ challenge.
 
 ## Rationale
 
-> [!STUB]
-> Describe the reasoning behind the pattern, or go into more detail on why it works.
+* Repetition works. Repeating stuff helps you remember. Also, repetition works.
+  * Being exposed to the same techniques or ideas helps your brain form new neural pathways, and strengthens existing ones.
+  * For physical activities, this is commonly referred to as "muscle memory" 
+* Making practise a routine habit, lowers the "getting started"-hump. Making it easier to regularly commit yourself to it.
+* Focusing on a smaller subsection of techniques helps make them manageable.
+* Honing your skills in a stress-free environment allows you to reinforce the concepts and techniques, avoiding debilitating panic reactions.
 
 ## Consequences
 
-> [!STUB]
-> Describe how the situation changes after applying the pattern
-> Try and focus on elements that are not immediatly apperent from the "intent" section.
-> Be sure to highlight potential unintended effects.
-
 ## Examples
 
-### Use Cases / Testimonials
+### Code Kata
 
-#### Code Kata
+In software development, the concept of performing "Code Katas" in order to train your fingers and mind is well established.
+There are plenty of resources available online to help programmers home their skills.
 
+A selection of notable kata are:
 * [The Bowling game coding kata](http://www.butunclebob.com/ArticleS.UncleBob.TheBowlingGameKata)
 * [Gilded Rose refactoring kata](https://github.com/emilybache/GildedRose-Refactoring-Kata)
 * [Tennis refactoring kata](https://github.com/emilybache/Tennis-Refactoring-Kata)
 * [FizzBuzz coding kata](https://codingdojo.org/kata/FizzBuzz/)
 
+More free-form training can be achieved by working on random short assignments. 
+These helps you train your problem solving, by removing the safety of knowing how to approach an issue.
+While this is not training in the same way as performing a kata, it can be a useful addition to it.
+
+* [codewars.com](https://www.codewars.com/)
+* [Google summer of code challenges](https://summerofcode.withgoogle.com/)
+
+
 ## References
 
-> [!STUB]
-> Add references to material referenced in the text, or the original source of the pattern if applicable.
-> Be sure to credit authors and publications that inspired you.
-> Add links to other patterns or content in this collection (or external ones).
->
-> References should follow the [IEEE convention](https://www.scribbr.com/ieee/ieee-reference-page/) as close as possible.
-
-* Author, "TITLE". Publisher, Date (, additional information e.g. isbn).
-
+* {{<reference author="Handelsman, M. M. PhD" 
+year="2022" 
+title="Consider the Role of Repetition in the Classroom...Again" 
+site="Psychology Today"
+link="https://www.psychologytoday.com/us/blog/the-ethical-professor/202202/let-s-consider-the-role-repetition-in-the-classroom-again" >}}
+* {{<reference author="Hogan, B. P."
+  year="2015"
+  isbn="9781680501223"
+  title="Exercises for Programmers: 57 Challenges to Develop Your Coding Skills"
+  publisher="The Pragmatic Bookshelf"
+  link="https://pragprog.com/titles/bhwb/exercises-for-programmers" >}}
 ---
 
 [^1]: In martial arts, this is called a "kata". A kata is generally a select few movements, which are executed in a fixed order at a fixed

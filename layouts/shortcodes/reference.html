@@ -2,11 +2,19 @@
 
 {{ $author := .Get "author" }}
 {{ $year := .Get "year" }}
+{{ $isbn := .Get "isbn" }}
 {{ $title := .Get "title" }}
-{{ $location := .Get "loc" }}
-{{ $publisher := .Get "pub" }}
-{{ $url := .Get "url" }}
+{{ $loc := .Get "loc" }}
+{{ $publisher := .Get "publisher" }}
+{{ $link := .Get "link" }}
+{{ $site := .Get "site" }}
 
-<div class="reference">
-    {{ $author }}. ({{ $year}}). <a href="{{ $url }}" target="_blank" rel="noreferrer">{{ $title }}</a>. {{ if $publisher }}{{ $location }}: {{ $publisher }} {{ end }}
-</div>
+{{ if $site}}
+    <div class="reference">
+        {{ $author }} ({{ $year}}) {{ $title }}. {{$site}}. <a href="{{ $link }}" target="_blank" rel="noreferrer"> {{$link}}</a>.
+    </div>
+{{else}}
+    <div class="reference">
+        {{ $author }} ({{ $year}}) {{ $title }}. {{ if $publisher }} {{ if $loc }}{{ $loc }}:{{ end }} {{ $publisher }}. {{if $isbn }}isbn: {{$isbn}}. {{ end }} {{ end }} {{if $link}} <a href="{{$link}}" target="_blank" rel="noreferrer">{{$link}}</a>.{{end}}
+    </div>
+{{end}}

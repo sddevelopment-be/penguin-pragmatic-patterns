@@ -87,7 +87,7 @@ These will be described across four main areas.
 * **Awareness:** Absorbed. The learner subconsciously takes mental note of behaviors and characteristics of their environment. They **feel** when
   something is going well, or when risks are on the horizon.
 
-![Dreyfus model](images/concepts/dreyfus.jpg)
+![Dreyfus model](/images/concepts/dreyfus.jpg)
 
 ## Usage
 

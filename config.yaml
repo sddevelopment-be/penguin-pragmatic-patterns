@@ -11,6 +11,7 @@ module:
 googleAnalytics: # Put in your tracking code without quotes like this: UA-XXX for universal tracking or G-XXX analytics v4 tracking
 
 paginate: 5
+canonifyURLs: true
 
 # Disables warnings
 markup:
@@ -60,25 +61,25 @@ params:
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
   - title: About
-    url: about
+    url: /about
   - title: Concepts
-    url: concepts/
+    url: /concepts/
   - title: Practices
-    url: practices/
+    url: /practices/
   - title: Glossary
-    url: glossary/
+    url: /glossary/
   - title: Resources
     sublinks:
       - title: tools
-        url: tools/
+        url: /tools/
       - title: bibliography
-        url: books
+        url: /books
 #      - title: long reads
 #        url: /
 #      - title: short reads
 #        url: /
   - title: Start reading
-    url: chapters/learning
+    url: /chapters/learning
     button: true
 
   section2:
@@ -110,11 +111,11 @@ params:
       So why not give it a try? Dive in and see how far you can go.
     links:
       - text: Our approach
-        link: "about"
+        link: "/about"
       - text: Chapters
-        link: "chapters"
+        link: "/chapters"
       - text: Practices
-        link: "practices"
+        link: "/practices"
 
   footer:
     # Logo (from /images/logos/___)
@@ -132,31 +133,31 @@ params:
         title: "Main text"
         links:
           - text: About
-            link: about
+            link: /about
           - text: Learning
-            link: chapters/learning
+            link: /chapters/learning
           - text: Productivity
-            link: chapters/
+            link: /chapters/
           - text: Software development
-            link: chapters/
+            link: /chapters/
           - text: Communication
-            link: chapters/
+            link: /chapters/
       column2:
         title: "Extra stuff"
         links:
         - text: Glossary
-          link: glossary
+          link: /glossary
         - text: Practices
-          link: practices
+          link: /practices
         - text: Concepts
-          link: concepts
+          link: /concepts
       column3:
         title: "Recommendations"
         links:
           - text: Tools
-            link: tools
+            link: /tools
           - text: Books
-            link: books
+            link: /books
 #          - text: Short reads
 #            link: /short-form
 #          - text: Long reads

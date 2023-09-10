@@ -13,9 +13,9 @@
         <div class="recommendation-image">
             <a href="{{ $link }}" target="_blank" rel="noreferrer">
                 {{if $image}}
-                <img src="images/tools/{{$image}}"/>
+                <img src="{{ .Site.BaseURL }}/images/tools/{{$image}}"/>
                 {{else}}
-                <img src="images/tools/tool_default.png"/>
+                <img src="{{ .Site.BaseURL }}/images/tools/tool_default.png"/>
                 {{end}}
             </a>
         </div>

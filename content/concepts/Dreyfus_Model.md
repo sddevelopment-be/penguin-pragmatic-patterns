@@ -37,7 +37,7 @@ These will be described across four main areas.
 * **Decision:** Describes the way the practitioner decides on a course of action.
 * **Awareness:** Describes the way the practitioner is able to extract information from their context / environment.
 
-![Dreyfus model](images/concepts/dreyfus.jpg)
+![Dreyfus model](/images/concepts/dreyfus.jpg)
 
 ## Breakdown of skill levels
 

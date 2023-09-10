@@ -13,7 +13,7 @@ tags = [
 
 Shu Ha Ri is a Japanese martial art concept that is used to describe the stages of learning on the path to mastery.
 
-![Shu Ha Ri ><](images/concepts/shuhari_kanji.jpg)
+![Shu Ha Ri ><](/images/concepts/shuhari_kanji.jpg)
 
 ## Description of pattern
 
@@ -26,7 +26,7 @@ technique, and arrive in a place where we act in accordance with what our heart/
 ` author="sensei Seishiro Endo, 2005">}}
 
 <br /><br />
-![Shu Ha Ri ><](images/concepts/shuhari.jpg)
+![Shu Ha Ri ><](/images/concepts/shuhari.jpg)
 <br /><br />
 
 ### Shu 守: Obey / Protect

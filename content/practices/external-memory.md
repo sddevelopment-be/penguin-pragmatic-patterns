@@ -12,7 +12,7 @@ tags = [
 ]
 +++
 
-![./free-mind.gif >](images/practices/free-mind.gif)
+![./free-mind.gif >](/images/practices/free-mind.gif)
 
 ## Problem statement
 

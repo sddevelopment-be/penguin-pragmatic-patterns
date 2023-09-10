@@ -64,11 +64,15 @@ Make sure you understand each other's meaning and intent fully, avoiding jargon 
 consequence that you do not both see as being true or relevant to the discussion.
 **You have now discovered the root of your dissent**.
 
-
+Rather than furthering your disagreement on your final conclusion, stick to discussing your opinions of the point where your reasoning diverges.  
+If you can not come to an agreement here, there is no sense in discussing things further down the conversational chain.
+You might still end up in disagreement, but at least you have an understanding of **why** you dissagree.
+This proves to be invaluable in identifying alternatives or compromises.
 
 ## Rationale
 
-## Consequences
+* It is more constructive to leave tempers outside of a discussion.
+* Calmly going through your arguments step-by-step helps avoid personal biases or egos come into play.
 
 ## References
 

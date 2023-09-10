@@ -140,6 +140,9 @@ year = "2020"
 link = "https://agileconversations.com/"
 image = "agile_conversations.jpg"
 description = """
+The authors start from the premise that every organizational problem is in fact a "people problem".
+Fredrick and Squirrel, hosts of the podcast `Troubleshooting Agile`, help the reader debug their conversations.
+The book is mostly targetting software professionals, though the techniques discussed are usable, and valuable, for anyone that spends most of their time working with other people.
 """
 
 [[book]]
@@ -152,6 +155,8 @@ year = "1985"
 link = "https://www.goodreads.com/book/show/566213.The_Secrets_of_Consulting"
 image = "secrets_consulting.jpg"
 description = """
+Stories from the life of a consultant, with detailed descriptions of how the author came to be a consultant, and practical tips on giving advice that is (perceived as) highly valuable.
+Includes such gems as: "whatever your client is doing, suggest they do the opposite", and "be sure to ask for a high fee, so you are taken more seriously".
 """
 
 [[book]]
@@ -164,6 +169,8 @@ year = "2005"
 link = "https://pragprog.com/titles/rdbcd/behind-closed-doors/"
 image = "behind_closed_doors.jpg"
 description = """
+The story of an experienced manager, brought into a company to save it. The reader follows along as "Sam" journeys through the corporate landscape, and has conversations with his direct reports.
+Rothman manages to convey important good management practices in an elegant, and easily diggestible way.
 """
 
 [[book]]

@@ -54,7 +54,7 @@ To simplify our reasoning, we will group most of the arguments that people make 
   that took place, a measurement, a statistic, or any other verifiable piece of information.
 * **identifying consequences:** Based on the facts, you state what is likely to happen. These can either be logical consequences, or intuitive ones.
 
-{{< image
+{{<image
 src="/images/practices/example_differences_of_opinion.png"  
 alt="Flowchart illustrating a difference of opinion"
 caption="Flowchart illustrating differences of opinion" >}}

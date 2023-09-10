@@ -1,7 +1,7 @@
 +++
 title = "Lewin's Leadership Styles"
 author = "Stijn Dejongh"
-description = ""
+description = "Three distinct ways of leading a group, and their impact on productivity."
 type = "concept"
 categories = [
     "communication",
@@ -14,10 +14,14 @@ tags = [
 ## Description
 
 In 1939, a group of researchers led by psychologist Kurt Lewin set out to identify different styles of leadership. While further research
-has identified more specific types of leadership, this early study proved to be very influential and established three major leadership styles. In
-the study, schoolchildren were assigned to one of three groups with an authoritarian, democratic or laissez-fair leader. The children were
+has identified more specific types of leadership, this early study proved to be very influential and established three major leadership styles. 
+In the study, schoolchildren were assigned to one of three groups with an authoritarian, democratic or laissez-fair leader. The children were
 then led in an arts and crafts project while researchers observed the behavior of children in response to the different styles of
 leadership.
+
+{{<image
+src="/images/concepts/leadership_styles.png"  
+alt="Different leadership styles by amount of decision makers" >}}
 
 ### Authoritarian Leadership (Autocratic)
 

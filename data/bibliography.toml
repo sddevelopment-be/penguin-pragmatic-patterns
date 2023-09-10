@@ -30,7 +30,7 @@ Their book is structured as a pattern list, one of which has the memorable name 
 title = "New Programmer's Survival Manual: Navigate Your Workplace, Cube Farm, or Startup"
 authors = "Carter, J."
 isbn = "9781934356814"
-publisher = "The Pragmatic Bookshelf."
+publisher = "The Pragmatic Bookshelf"
 location = ""
 year = "2011"
 link = "https://pragprog.com/titles/jcdeg/new-programmer-s-survival-manual/"
@@ -128,4 +128,40 @@ description="""
 Rosenberg teaches how to talk to others in an empathetic way. But above else, he shows the need for compasionate self-talk, and deep understanding of our own desires and needs.
 While his verbal forms sound a bit artificial and forced, after some practise, you will be able to include the non-violent style of communication in your own relationships.
 After all, what is the use in conversing if not to understand each other.
+"""
+
+[[book]]
+title="Agile Conversations: Transform Your Conversations, Transform Your Culture"
+isbn="1942788975"
+authors="Squirrel, D. & Fredrick, J."
+publisher="IT Revolution Press"
+location=""
+year="2020"
+link="https://agileconversations.com/"
+image="agile_conversations.jpg"
+description="""
+"""
+
+[[book]]
+title="The Secrets of Consulting: A Guide to Giving and Getting Advice Successfully"
+isbn="0932633013"
+authors="Weinberg, G. M."
+publisher="Dorset House Publishing"
+location=""
+year="1985"
+link="https://www.goodreads.com/book/show/566213.The_Secrets_of_Consulting"
+image="secrets_consulting.jpg"
+description="""
+"""
+
+[[book]]
+title="Behind Closed Doors: Secrets of Great Management"
+isbn="9780976694021"
+authors="Rothman, J. & Derby, E."
+publisher="The Pragmatic Bookshelf"
+location=""
+year="2005"
+link="https://pragprog.com/titles/rdbcd/behind-closed-doors/"
+image="behind_closed_doors.jpg"
+description="""
 """

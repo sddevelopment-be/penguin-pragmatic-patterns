@@ -101,7 +101,7 @@ pattern is prefaced with a short description of when it can be useful to conside
 
 The pattern structure definition is illustrated in the following figure:
 
-{{< image src="images/chapters/pattern_definition.png"  alt="Pattern structure definition" >}}
+{{< image src="/images/chapters/pattern_definition.png"  alt="Pattern structure definition" >}}
 
 Some patterns may contain references to other resources, as well as supporting examples, testimonials, tutorials, and so on. These examples can be
 included inside the pattern description, but they might also exist as separate resources in a different section of this publication.

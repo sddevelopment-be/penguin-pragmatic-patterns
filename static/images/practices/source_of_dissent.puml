@@ -1,0 +1,23 @@
+@startuml
+title example: differences of opinion
+
+start
+#lightgreen:first premise;
+#lightgreen:second premise;
+#orange:third premise;
+fork
+    group Person 1
+        #lightblue:consequence;
+        #lightblue:conclusion;
+    end group
+fork again
+    group Person 2
+        #lightsteelblue:alternative consequence;
+        #lightsteelblue:alternative conclusion;
+    end group
+end merge
+end
+
+
+
+@enduml

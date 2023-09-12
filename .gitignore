@@ -48,3 +48,6 @@ out/**
 
 # Custom ignores
 old_source/4_Software_development/_diagrams/_cutting_corners/
+
+public/
+resources/_gen/

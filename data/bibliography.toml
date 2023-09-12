@@ -203,3 +203,19 @@ You will find a plethora of books on how to build succesful teams, but you will 
 By focussing on the dark side of team dynamics, Lencioni informs us of what to look out for when working with others. He explains how a lack of trust between
 individuals eventually cascades into a lack of overall results. A must-read book for team leaders and team members alike.
 """
+
+[[book]]
+title = "Prisoners of Our Thoughts"
+isbn = "1626568804"
+authors = "Pattakos, A. & Dundon E."
+publisher = " Berrett-Koehler Publishers"
+location = ""
+year = "2017"
+link = "https://www.goodreads.com/book/show/33830612-prisoners-of-our-thoughts"
+image = "prisoners.jpg"
+description = """
+An in depth view on the philosophy of Victor Frankl, the founder of logotherapy. The books explains how Frankl's philosophy helped him not only endure the
+nazi concentration camps, but to do so without losing his sense of self. A powerful read on the strength of a persons mind, and our ability to overcome the gravest of circumstances.
+Frankl's core tennet, __"No one can take away my choice over my own actions"__, is both thought-provoking, and empowering.
+The authors do a fantastic job of describing both the man himself, and his philosophy.
+"""

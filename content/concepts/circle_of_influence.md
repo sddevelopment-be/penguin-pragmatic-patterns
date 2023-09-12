@@ -1,10 +1,10 @@
 +++
 title = "Your circle of influence"
 author = "Stijn Dejongh"
-description = ""
+description = "Differentiate between the things/situations where you can have a direct impact, and those where you don't."
 type = "concept"
 categories = [
-    "productivity",
+    "productivity", "communication"
 ]
 tags = [
     "productivity", "focus", "impact"
@@ -13,12 +13,11 @@ tags = [
 
 
 {{<quote text=`
-Grant me the serenity,  
-to accept the things I cannot change;  
+Grant me the serenity, to accept the things I cannot change;  
 Courage, to change the things I can;  
 And wisdom, to know the difference.  
 `
-author="Reinhold Niebuhr, ca. 1930; Shortened Serenity Prayer.">}}
+author="Reinhold Niebuhr; Shortened Serenity Prayer; ca. 1930.">}}
 
 ## Description
 
@@ -34,7 +33,7 @@ author="Reinhold Niebuhr, ca. 1930; Shortened Serenity Prayer.">}}
   publisher=" Free Press"
   isbn="0743269519"
   link="https://www.goodreads.com/book/show/36072.The_7_Habits_of_Highly_Effective_People" >}}
-* {{<reference author="Covey, S. R.; Collins, J."
+* {{<reference author="Pattakos, A. & Dundon E."
   year="2017"
   title="Prisoners of Our Thoughts"
   publisher="Berrett-Koehler Publishers"

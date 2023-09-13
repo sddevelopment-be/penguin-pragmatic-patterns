@@ -100,11 +100,21 @@ Adapt your coaching and teachings styles to the needs of the learner.
 
 ### References and further reading
 
-* Dreyfus, Stuart E; Dreyfus, Hubert L. A Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition. Storming Media,
-  retrieved from:  [http://www.dtic.mil](http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA084551&Location=U2&doc=GetTRDoc.pdf)
-* Hunt, A. Pragmatic Thinking and Learning: Refactor Your "wetware". Pragmatic
-  Bookshelf, [pragprog.com](https://pragprog.com/book/ahptl/pragmatic-thinking-and-learning).
-* Hunt, A; Thomas, D, The Pragmatic Programmer, your journey to mastery. Addison Wesley/Pragmatic
-  Bookshelf, [pragprog.com](https://pragprog.com/book/tpp20/the-pragmatic-programmer-20th-anniversary-edition)
-* Hoover, D; Oshineye, A. Apprenticeship Patterns: Guidance for the Aspiring Software Craftsman. O'Reilly Media,
-  Inc, [oreilly.com/library](https://www.oreilly.com/library/view/apprenticeship-patterns/9780596806842/ch01.html).
+* {{<reference author="Dreyfus, Stuart E; Dreyfus, Hubert L."
+  year="1980"
+  title="A Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition"
+  publisher="University of California"
+  location='Berkeley'
+  link="http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA084551&Location=U2&doc=GetTRDoc.pdf" >}}
+* {{<reference author="Hunt, A."
+  year="2008"
+  isbn="9781934356050"
+  title="Pragmatic Thinking and Learning: Refactor Your wetware"
+  publisher="The Pragmatic Bookshelf"
+  link="https://pragprog.com/titles/ahptl/pragmatic-thinking-and-learning/" >}}
+* {{<reference author="Hoover, D.; Oshineye, A."
+  year="2009"
+  isbn="9780596518387"
+  title="Apprenticeship Patterns"
+  publisher="O'Reilly Media, Inc."
+  link="https://www.oreilly.com/library/view/apprenticeship-patterns/9780596806842" >}}

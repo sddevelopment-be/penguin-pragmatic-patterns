@@ -38,6 +38,3 @@ Writing clean code isn't just about pleasing your colleagues; it's a favor to yo
 Projects inevitably evolve, and what was once insignificant can become critical to the application's success. When the code handling this
 functionality is messy, adapting to changing requirements can feel like a descent into chaos. So, do yourself a favor, and strive to keep your code
 comprehensible at a glance. Your colleagues and your future self will thank you.
-
-## References
-

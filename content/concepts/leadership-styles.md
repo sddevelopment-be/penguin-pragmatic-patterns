@@ -70,4 +70,3 @@ of motivation.
   publication="Journal of Social Psychology"
   volume="10(2)"
   link="https://www.tandfonline.com/doi/abs/10.1080/00224545.1939.9713366?journalCode=vsoc20" >}}
-

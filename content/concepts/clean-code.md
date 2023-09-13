@@ -39,3 +39,5 @@ Projects inevitably evolve, and what was once insignificant can become critical 
 functionality is messy, adapting to changing requirements can feel like a descent into chaos. So, do yourself a favor, and strive to keep your code
 comprehensible at a glance. Your colleagues and your future self will thank you.
 
+## References
+

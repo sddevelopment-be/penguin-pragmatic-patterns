@@ -2,6 +2,7 @@
 title = "Memento Mori; Remember that you will die."
 author = "Stijn Dejongh"
 description = ""
+draft=true
 type = "concept"
 categories = [
     "productivity",
@@ -24,6 +25,7 @@ author="Guns n' Roses. 1991. lyrics from Dust n' Bones."
 
 ## Description
 
+{{<stub text="">}}
 
 ## References
 

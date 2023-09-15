@@ -19,25 +19,23 @@ In order to know the direction to take, it is important to know where you are at
 ## Description
 
 The Dreyfus model of skill acquisition is a formal model, that defines five distinct steps of mastery.  
-As a learner progresses from on stage to the next, their way of using their skillset changes.
-Even more interesting is that they start thinking in different ways.
+As a learner progresses from on stage to the next, there is a series of changes in how they apply their individual skillset and knowledge.
+What is even more interesting is that the learner starts thinking in different ways.
 
-These different levels, in ascending order of mastery, are:
-
+The different levels of master in the Dreyfus Model (in ascending order of mastery) are:
 * Novice
 * Advanced beginner
 * Competent
 * Proficient
 * Expert
 
-These will be described across four main areas.
-
-* **Recollection:**  Describes the relationin booksship between the practitioner and the application of knowledge they obtain.
+These will be described across these four main areas:
+* **Recollection:**  Describes the relationship between the practitioner and the application of knowledge they obtain.
 * **Recognition:**  Describes the way the practitioner is able to recognize situations and relevant actions.
 * **Decision:** Describes the way the practitioner decides on a course of action.
 * **Awareness:** Describes the way the practitioner is able to extract information from their context / environment.
 
-![Dreyfus model](/images/concepts/dreyfus.jpg)
+{{<image src="/images/concepts/dreyfus.jpg" alt="An overview of the different mastery levels according to the Dreyfus Model" >}}
 
 ## Breakdown of skill levels
 

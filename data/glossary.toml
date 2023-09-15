@@ -253,6 +253,17 @@ aliases = []
 references = []
 
 [[terminology]]
+name = "Refactoring"
+domain = "software development"
+description = """
+The process of rewriting software, without changing the way it functions, in order to improve its readability, testability or maintanability.
+    """
+aliases = []
+references = [
+    { title = "Refactoring: Improving the Design of Existing Code", link = "https://www.goodreads.com/book/show/18624706-refactoring" }
+]
+
+[[terminology]]
 name = "Sunk-cost fallacy"
 abbreviation = ""
 domain = "economy"

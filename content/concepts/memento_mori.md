@@ -2,7 +2,6 @@
 title = "Memento Mori; Remember that you will die."
 author = "Stijn Dejongh"
 description = ""
-draft=true
 type = "concept"
 categories = [
     "productivity",
@@ -25,7 +24,9 @@ author="Guns n' Roses. 1991. lyrics from Dust n' Bones."
 
 ## Description
 
-{{<stub text="">}}
+You will die. While morbid, this is true for all of us[^1]. 
+Unless we figure out a way to transfer our minds into permanent storage, one day we will simply seize to be.
+
 
 ## References
 
@@ -58,3 +59,7 @@ author="Guns n' Roses. 1991. lyrics from Dust n' Bones."
     site="sociocracy30.org"
     publisher="Open Domain, Creative Commons license"
     link="https://patterns.sociocracy30.org/all.html" >}}
+
+---
+
+[^1]: The only certainties in life are Death, Taxes and JV threes. ~ 2018. Toronto Rapors NBA team commentators 

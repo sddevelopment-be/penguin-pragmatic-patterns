@@ -253,6 +253,20 @@ aliases = []
 references = []
 
 [[terminology]]
+name = "FizzBuzz"
+domain = "software development"
+description = """
+FizzBuzz is a children's game well known to software developers, as it is commonly used as a training exercise or interview question.
+The aim is to write a program that counts to a given number. When the current count is divisable by 3, the program should print out `Fizz` rather
+than the current count. When the current count is divisible by 5, it should print out `Buzz`. When divisible by both, we expect `FizzBuzz`.
+The FizzBuzz exercise aims to gauge basic programming aptitude, such as the use of loops and accumulators.
+"""
+aliases = []
+references = [
+    { title = "coding doji FizzBuzz description", link = "https://codingdojo.org/kata/FizzBuzz/" }
+]
+
+[[terminology]]
 name = "Refactoring"
 domain = "software development"
 description = """

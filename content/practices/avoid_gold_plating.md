@@ -1,8 +1,8 @@
 +++
 title = "Let's not make it complicated"
 author = "Stijn Dejongh"
-problem = ""
-description = ""
+problem = "You are spending much more time and mental effort on a piece of software than is needed or valuable."
+description = "Write readable code that is as well designed as it needs to be at this point in time."
 type = "practice"
 categories = [
     "software development",
@@ -54,20 +54,86 @@ alt="An image of a bicycle with a robotic rear wheel, looking highly complicated
 * iteratively enhance the codebase when it makes sense to do so: when tackling a new code challenge, look for reusable components or
   structural improvements.
 
-## Examples
 ### Self-diagnosis
 
-Ask yourself:
-
+In order to avoid over-complicating your code, ask yourself:
 * _"Is this code likely to be changed/expanded in the future?"_
 * _"Is my design solving an issue that is here NOW, or am I solving an issue that might never happen?"_
-* _"If this expected issue occurs in the future, can it be easily fixed at that time"_
+* _"If this expected issue occurs in the future, can it be easily fixed at that time?"_
+
+## Examples
+
+### How not to do it: Enterprise Quality FizzBuzz
+
+FizzBuzz is a children's game well known to software developers, as it is commonly used as a training exercise or interview question. 
+The aim is to write a program that counts to a given number. When the current count is divisable by 3, the program should print out `Fizz` rather 
+than the current count. When the current count is divisible by 5, it should print out `Buzz`. When divisible by both, we expect `FizzBuzz`.
+The FizzBuzz exercise aims to gauge basic programming aptitude, such as the use of loops and accumulators.
+
+Usually, one can write a program to do this in a dozen lines of code. As satire to the tendency of programmers in big corporations to 
+overcomplicate their code, people have co-created a version of this program that counts upwards of 10'000 lines of code.
+This marvel of overengineering is available online on [github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition](https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition)
+
+To give you an idea of how far the authors took it: the Enterprise FizzBuzz system uses Spring, and implements nearly all Go4 patterns.  
+The class below shows a strategy-injection visitor to determine which output formatter to use for a given number. 
+
+```java
+/**
+ * Context for FizzBuzzOutputGeneration
+ */
+public final class FizzBuzzOutputGenerationContext implements OutputGenerationContext {
+
+	private final DataPrinter printer;
+	private final IsEvenlyDivisibleStrategy strategy;
+
+	/**
+	 * @param strategy IsEvenlyDivisibleStrategy
+	 * @param printer DataPrinter
+	 */
+	public FizzBuzzOutputGenerationContext(final IsEvenlyDivisibleStrategy strategy,
+			final DataPrinter printer) {
+		super();
+		this.strategy = strategy;
+		this.printer = printer;
+	}
+
+	/**
+	 * @return
+	 */
+	@Override
+	public DataPrinter getPrinter() {
+		return this.printer;
+	}
+
+	/**
+	 * @return
+	 */
+	@Override
+	public IsEvenlyDivisibleStrategy getStrategy() {
+		return this.strategy;
+	}
+
+}
+```
 
 ## References
 
-| Item                                                                                                | Description                                                                                                                                                           | Action                                                                                                                                                                                |
-|-----------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Enterprise Quality FizzBuzz](https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition) | A prime example of overengineering something that can be done in a way more simple manner.                                                                            | Go through the codebase, and ask _"Why would you want to do this? And why is it overkill here?"                                                                                       |
-| [The bowling game kata](http://www.butunclebob.com/ArticleS.UncleBob.TheBowlingGameKata)            | A programming kata by uncle Bob. Apart from learning how he thinks, the exercise also focusses on suppressing your personal need to overly beautify a simple project. | Do the exercise and stop yourself from creating too many classes. Repeat the mantra: _"This is fine for now"_ to suppress your urges to add indirection or OO concepts to the design. |
+* {{<reference author="Nauerby, E. M.; Kragbæk, M.; et al."
+  year="2019"
+  title="FizzBuzz: Enterprise Edition"
+  site="github.com"
+  link="https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition" >}}
+* {{<reference author="Martin R."
+  year="2005"
+  title="The Bowling Game Kata"
+  site="butunclebob.com"
+  link="http://www.butunclebob.com/ArticleS.UncleBob.TheBowlingGameKata" >}}
+* {{<reference author="Keeling, M."
+  year="2017"
+  isbn="1680502093"
+  title="Design It: From Programmer to Software Architect"
+  publisher="The Pragmatic Bookshelf"
+  link="https://pragprog.com/titles/mkdsa/design-it/" >}}
+
 
 ---

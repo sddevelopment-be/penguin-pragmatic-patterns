@@ -74,14 +74,31 @@ developer notes. You can get creative with symbolic links to make these folders 
 
 ## References
 
-| Item                                                                                                                             | Description                                                                                          |
-|----------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|
-| [Creating a personal wiki](https://www.asianefficiency.com/organization/a-simple-personal-wiki-with-voodoopad/)                  | Asian efficiency: Creating a personal wiki                                                           |
-| [notion.so](https://www.notion.so/)                                                                                              | Online note taking                                                                                   |
-| [Create a fersonal wiki using MS OneNote](https://cereal.baldwingroup.com/how-to-create-a-personal-wiki-using-microsoft-onenote) | Article by I. Humphrey n using OneNote as an external brain                                          |
-| [NextCloud Personal data server](https://nextcloud.com/)                                                                         | DIY data and notes storing solution                                                                  |
-| [TODO.txt format](https://github.com/todotxt/todo.txt)                                                                           | An open, text-based format for your TODO files                                                       |
-| [Trambu](https://github.com/stijn-dejongh/TraMBU)                                                                                | My owm todo.txt inspired task-management application                                                 |
-| [Emacs org mode](https://orgmode.org/)                                                                                           | A major mode for [GNU Emacs](https://www.gnu.org/software/emacs/), aimed at organizing your thoughts |
+* {{<reference author="Pham, T."
+  year="2011"
+  title="A Simple Personal Wiki with VoodooPad"
+  site="asianefficiency.com"
+  link="https://www.asianefficiency.com/organization/a-simple-personal-wiki-with-voodoopad" >}}
+* {{<reference author="Notion Labs Inc"
+  year="2023"
+  title="Notion: Online notes"
+  site="notion.so"
+  link="https://www.notion.so" >}}
+* {{<reference author="Saigal, R."
+  year="2019"
+  title="How to Create a Personal Wiki Using Microsoft OneNote"
+  site="makeuseof.com"
+  link="https://www.makeuseof.com/tag/create-wiki-onenote" >}}
+* {{<reference author="Trapani, G."
+  year="2006"
+  title="todo.txt open format"
+  site="todotxt.org"
+  link="http://todotxt.org" >}}
+* {{<reference author="Allen, D."
+  year="2015"
+  title="Getting Things Done: The Art of Stress-Free Productivity"
+  isbn="0143126563"
+  publisher="Penguin Books"
+  link="https://www.goodreads.com/book/show/22573850-getting-things-done" >}}
 
 ---

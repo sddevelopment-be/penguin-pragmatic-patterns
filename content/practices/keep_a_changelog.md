@@ -1,7 +1,7 @@
 +++
-title = "Create a changelog"
+title = "Keep a changelog"
 author = "Stijn Dejongh"
-draft = true
+draft=true
 problem = ""
 description = ""
 type = "practice"
@@ -9,7 +9,7 @@ categories = [
     "software development",
 ]
 tags = [
-    "remembering", "tracking", "tracability", "log"
+    "knowledge retention", "documentation"
 ]
 +++
 
@@ -29,7 +29,8 @@ tags = [
 
 ## References
 
-
----
-
-
+* {{<reference author="Lacan, O."
+  year="2023"
+  title="Keep a changelog v1.1.0"
+  site="keepachagelog.com"
+  link="https://keepachangelog.com/en/1.1.0/" >}}

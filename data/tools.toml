@@ -46,3 +46,13 @@ image = "structurizr.png"
 description = """
 A DSL for describing software architecture and design. Based on the c4model system for system description. Easy to use, and integrates with the most popular code-to-diagram formats.
 """
+
+[[tool]]
+name = "NextCloud: Remote collaboration made easy"
+authors = "Nextcloud GmbH"
+link = "https://nextcloud.com"
+image = "nextcloud.png"
+description = """
+A self-hosted personal storage system. Designed to be modular, users can spin up their own office-like server environment to keep their notes,
+documents, pictures, and messages. Various options for hosting are available.
+"""

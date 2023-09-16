@@ -1,5 +1,5 @@
 +++
-title = "Breaking conditions"
+title = "Set stopping conditions"
 author = "Stijn Dejongh"
 problem="You tend to push too hard in order to reach a goal, or invest more than you are able to support."
 description = "Put a hard limit on how much you are willing to invest into a certain endeavour."
@@ -95,10 +95,28 @@ If my goal was completely unrealistic, she would have undoubtedly told me at tha
 
 ## References
 
-| Item                                                                                                                                              | Description                                                                                                                                                               | 
-|---------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [wikipedia: Game theory](https://en.wikipedia.org/wiki/Game_theory)                                                                               | The mathematical concepts behind optimizing outcomes                                                                                                                      |
-| [wikipedia: Pareto efficiency](https://en.wikipedia.org/wiki/Pareto_efficiency)                                                                   | Factors creating a situation where no individual or preference criterion can be made better off without making at least one individual or preference criterion worse off. |
-| [wikipedia: Computer Optimization](https://en.wikipedia.org/wiki/Program_optimization#cite_note-1)                                                | Efficiency, resource management, and time constraints are guiding factors in computer science                                                                             |
-| [Art of manliness: when to quit](https://www.artofmanliness.com/character/behavior/podcast-840-when-to-quit/)                                     | Podcast interview with [Kate McKay](https://www.kate-mckay.com/) on when to redirect your efforts                                                                         |
-| [Spencer Greenberg: the psychology of loss](https://www.spencergreenberg.com/2013/10/why-we-overvalue-the-things-we-lose-the-psychology-of-loss/) | A deep dive in human psychology, looking closer at what makes us fear loss and failure, and why we fear change                                                            |
+* {{<reference author="Various Authors"
+  year="2023"
+  title="Game Theory"
+  site="wikipedia.org"
+  link="https://en.wikipedia.org/wiki/Game_theory" >}}
+* {{<reference author="Various Authors"
+  year="2023"
+  title="Pareto efficiency"
+  site="wikipedia.org"
+  link="https://en.wikipedia.org/wiki/Pareto_efficiency" >}}
+* {{<reference author="Various Authors"
+  year="2023"
+  title="Computer Optimization"
+  site="wikipedia.org"
+  link="https://en.wikipedia.org/wiki/Program_optimization" >}}
+* {{<reference author="McKay B.; McKay K."
+  year="2022"
+  title="Podcast #840: When to Quit"
+  site="artofmanliness.com"
+  link="https://www.artofmanliness.com/character/behavior/podcast-840-when-to-quit/" >}}
+* {{<reference author="Greenberg, S."
+  year="2013"
+  title="Why We Overvalue What We No Longer Have: The Psychology of Loss"
+  site="spencergreenberg.com"
+  link="https://www.spencergreenberg.com/2013/10/why-we-overvalue-the-things-we-lose-the-psychology-of-loss/" >}}

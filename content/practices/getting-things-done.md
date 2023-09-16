@@ -85,13 +85,23 @@ productive, without losing your mobility.
 
 ## References
 
-| Item                                                                                                                   | Description                                                                                                                   | 
-|------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
-| [Getting things done - David Allen](https://www.amazon.com/Getting-Things-Done-Stress-Free-Productivity/dp/0143126563) | Link to book (amazon)                                                                                                         |
-| [NextCloud](https://nextcloud.com/)                                                                                    | A self-hosted personal file organizer, and productivity platform.                                                             | 
-| [Eisenhouwer matrix](https://www.productplan.com/glossary/eisenhower-matrix/)                                          | Article on ProductPlan.com discussing the Eisenhouwer matrix                                                                  |
-| [Notion.so](https://www.notion.so)                                                                                     | An easy to use, external notebook that allows for limited automation and offering a wide range of customizability and plugins |
-| [Trello](https://trello.com/)                                                                                          | A simple Kanban board to track your main tasks and their status                                                               |
+* {{<reference author="Allen, D."
+  year="2015"
+  title="Getting Things Done: The Art of Stress-Free Productivity"
+  isbn="0143126563"
+  publisher="Penguin Books"
+  link="https://www.goodreads.com/book/show/22573850-getting-things-done" >}}
+* {{<reference author="Covey, S. R.; Collins, J."
+  year="2004"
+  title="The 7 Habits of Highly Effective People: Powerful Lessons in Personal Change"
+  isbn="0743269519"
+  publisher="Free Press"
+  link="https://www.goodreads.com/book/show/36072.The_7_Habits_of_Highly_Effective_People" >}}
+* {{<reference author="Unknown"
+  year="2023"
+  title="What is the Eisenhower Matrix?"
+  site="productplan.com"
+  link="https://www.productplan.com/glossary/eisenhower-matrix/" >}}
 
 [^1]: Unless of course your computers die and your internet connection goes on hiatus  
 [^2]: From the
@@ -100,6 +110,5 @@ by Stephen R. Covey
 [^3]: Mathematicians (and computer programmers) call this a _"Matrix"_. We are sorry to disappoint you if you expected
 leather clad martial artists to help you out with setting your priorities.
 
----
 
 

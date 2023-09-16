@@ -100,9 +100,22 @@ say -v Luca $msg
 
 ## References
 
-* F. Cirillo, "The Pomodoro Technique". FC Garage GmbH,
-  2013, [isbn: 9783981567908](https://www.goodreads.com/book/show/18482790-the-pomodoro-technique)
-* B. Salty, "A simple Pomodoro CLI". dev.to, 2023, [retrieved from the web on 14 aug 2023](https://dev.to/byronsalty/a-simple-pomodoro-cli-48p0)
+* {{<reference author="Cirillo, F."
+  year="2013"
+  title="The Pomodoro Technique"
+  publisher="FC Garage GmbH"
+  isbn="9783981567908"
+  link="https://www.goodreads.com/book/show/18482790-the-pomodoro-technique" >}}
+* {{<reference author="Salty B."
+  year="2023"
+  title="A simple Pomodoro CLI"
+  site="dev.to"
+  link="https://dev.to/byronsalty/a-simple-pomodoro-cli-48p0" >}}
+* {{<reference author="Ünver, Ö."
+  year="2023"
+  title="Productivity Tips for Folks with ADD"
+  site="youtube.com/@MindYourOwnRevisions"
+  link="https://www.youtube.com/watch?v=pVLETEecnG4&list=PLb_RIH-LKllK_e60yYfB_76oBeuG1OCjw&index=23" >}}
 
 ---
 

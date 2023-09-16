@@ -1,7 +1,7 @@
 +++
 title = "Memento Mori; Remember that you will die."
 author = "Stijn Dejongh"
-description = ""
+description = "Our time on earth is limited, so try to make the most of it."
 type = "concept"
 categories = [
     "productivity",
@@ -24,8 +24,23 @@ author="Guns n' Roses. 1991. lyrics from Dust n' Bones."
 
 ## Description
 
-You will die. While morbid, this is true for all of us[^1]. 
+Memento Mori. You will die.  
+  
+While morbid, this is true for all of us[^1]. 
 Unless we figure out a way to transfer our minds into permanent storage, one day we will simply seize to be.
+
+Keeping this in mind can lead us down a few paths. One of them is to forego any attempt to do anything of value, and spend our days chasing 
+pleasures. The other is to use this as a reminder that our time on earth is limited, and try to make the most of it.
+
+The ancient Romans believed that by being aware of your mortality, you were able to experience life more fully.
+They advise us to know what values we deem important, and to live accordingly. Do not wait to tomorrow to do that which can be done today.  
+If you die tomorrow, did you leave things in a good state for those that stay around?  
+Did you live how you wanted to live? What will people say about who you were as a person?
+
+While the knowledge of our own mortality can drive us to be the best version of ourselves, it can also help to not consider ourselves 
+indispensable. While being productive is important, we should not forget to spend time with our loved ones, or take a few moments to relax and 
+enjoy ourselves[^2]. After all, the graveyards are filled with indispensable people.
+
 
 
 ## References
@@ -62,4 +77,7 @@ Unless we figure out a way to transfer our minds into permanent storage, one day
 
 ---
 
-[^1]: The only certainties in life are Death, Taxes and JV threes. ~ 2018. Toronto Rapors NBA team commentators 
+[^1]: As the commentator team for the Toronto Raptors said multiple times in the 2018 NBA season:   
+"The only certainties in life are Death, Taxes and JV threes."
+  
+[^2]: As per Oscar Wilde: "Life is too important to be taken seriously."

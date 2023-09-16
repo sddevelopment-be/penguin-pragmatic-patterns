@@ -241,8 +241,7 @@ more complex than its purely textual CLI alternative.
 ### Heap
 
 Block of memory that is dynamically allocated during process run time. The heap is usually linked to a specific
-execution environment or process.
-In certain programming language, this memory is also referred to as "the stack".
+execution environment or process. In certain programming language, this memory is also referred to as "the stack".
 
 ## I
 
@@ -260,7 +259,7 @@ A message passing system, in which processes send messages to mailboxes, or port
 
 ### Interrupt Vector
 
-An array which contains the adresses of the interrupt service routines.
+An array which contains the addresses of the interrupt service routines.
 
 ### IPC
 
@@ -281,7 +280,7 @@ of snow. Other professions, such as software developers, strongly rely on metaph
 
 ### JIT compiler
 
-Just In Time compiler. A compiler that turns the architecture-neutral byte code into native machine language for the
+A compiler that turns the architecture-neutral byte code into native machine language for the
 host computer, only when it is needed for execution. An example can be found in the Java programming language, which
 uses a virtual machine to translate its source code into machine executable instructions.
 
@@ -290,7 +289,7 @@ uses a virtual machine to translate its source code into machine executable inst
 ### Kernel mode
 
 One of two modes of operation of a computer system. Opposed to User Mode.
-When in kernel mode, priviliged instructions can be executed. A mode bit, added to the hardware, indicated the current
+When in kernel mode, privileged instructions can be executed. A mode bit, added to the hardware, indicated the current
 mode.
 
 ### KPI

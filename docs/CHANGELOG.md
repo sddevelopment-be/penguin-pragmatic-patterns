@@ -18,13 +18,27 @@ Following changes are known:
 
 ## v2.2.0
 
-#### Changed
+### Changed
 
 - Switch from C4-builder to [hugo](https://gohugo.io/) as site generator
+- References now follow the APA format more closely
+- Bibliography and Tool sections now contain a short description
+
+### Added
+
+- Concepts and Patterns overview pages
+- Patterns added:
+  - Keeping a changelog
+- Concepts added:
+  - Memento Mori
+  - Clean code
+  - Architecture
+
+### Removed
 
 ## v2.1.0
 
-#### Changed
+### Changed
 
 - formatted the patterns in `Software Development`
 - extracted appendices `Glossary`, `Changelog`, and `Reading List` to separate folders
@@ -41,7 +55,7 @@ Following changes are known:
 - default pattern template has been updated
 - Revised the introductory text, using [ChatGPT, a language model trained by OpenAI.](https://chat.openai.com)
 
-#### Added
+### Added
 
 - support for footnotes
 - docsify.js notifications plugin
@@ -57,7 +71,7 @@ Following changes are known:
 - Section 0_Pattern_Language as it is not really relevant and should be added to the main README instead
 - Added section 0: Introduction
 
-#### Removed
+### Removed
 
 - automatic glossary creation (issue with titles)
 - automated changelog aggregation
@@ -65,7 +79,7 @@ Following changes are known:
 - Folder-based navigation
 - dark mode removed (toggle layout issue on mobile)
 
-#### Fixed
+### Fixed
 
 - images in software development patterns are now smaller
 - spelling mistakes
@@ -75,13 +89,13 @@ Following changes are known:
 
 ## v2.0.0
 
-#### Changed
+### Changed
 
 - Restructured Content to fit the docsify structure
 - Rearranged hierarchy to be domain-based over type-based
 - Structure descriptions
 
-#### Added
+### Added
 
 - Docsify deployment config
 - New project banner image
@@ -92,13 +106,13 @@ Following changes are known:
 - Patterns on Learning: ShuHaRi and Dreyfus
 - Patterns on leadership: Lewin's leadership styles
 
-#### Removed
+### Removed
 
 - Dockerized document generation support
 - Javascript slideshow library (for now)
 - Unneeded duplicated descriptions
 
-#### Fixed
+### Fixed
 
 - Resolved various typo's
 - Automated build and deployment pipeline has been updated
@@ -107,13 +121,13 @@ Following changes are known:
 
 ## v1.1.0
 
-#### Changed
+### Changed
 
 - Update README to include references to tech Stack
 - Update the script used to generate the documentation
 - Update gitignore file for IntelliJ artifacts and configurations
 
-#### Added
+### Added
 
 - Template: add pattern template to github issue tracker and update labels
 - Productivity: Essay on agile software development
@@ -133,15 +147,15 @@ Following changes are known:
     - Add JustDoIt script
     - Add script to create new section directory structure and empty files
 
-#### Deleted
+### Deleted
 
 - Runner for docsite and docsite example output
 - Old example documents
 - DocSite as deployment of HTML files will not happen any time soon
 
-### v1.0.0 Initial Version
+## v1.0.0 Initial Version
 
-#### Added
+### Added
 
 - Repository structure
 - Add documentation outlines

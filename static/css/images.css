@@ -33,7 +33,8 @@
 }
 
 .text_image {
-    max-height: 65rem;
+    /*max-height: 65rem;*/
     max-width: 50rem;
     margin: 3.65rem auto;
+    text-align: center;
 }

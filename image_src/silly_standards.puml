@@ -1,0 +1,54 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+!include ../doc_templates/plantuml/puml-theme-bluegray_conversation.puml
+skinparam dpi 320
+skinParam maxMessageSize 280
+hide stereotype
+hide footbox
+
+<style>
+    sequenceDiagram {
+        FontSize 12
+        Font monospaced
+        BackgroundColor #0c141a
+
+        participant {
+            BackGroundColor #1c75cc/1541CC
+        }
+
+        responder {
+            BackGroundColor #63CC4A/349646
+        }
+
+        arrow {
+            FontColor #1c75cc
+        }
+
+        .reply * {
+            FontColor #63CC4A/349646
+        }
+
+        note {
+            BackgroundColor #1D1B1B
+        }
+    }
+</style>
+
+participant Alice as A
+participant Bob as B <<responder>>
+
+A -> B: "Hey B. I am working on getting our software to talk to that system maintained by the Yellow team. But I am a bit stuck..."
+A -> B: "We are trying to agree on what data format to use for exchanging information between both systems."
+B -> A <<reply>>: "Hm, I see. So what is the problem? Can't we use a recommended standard?"
+A -> B: "That is what I was thinking too. But it turns out we have about 20 different standards."
+A -> B: "And that is just at our company. I tried to search online to find recommendations."
+B -> A <<reply>>: "Oh-oh. That sounds like kicking a bee hive if you ask me."
+A -> B: "Yeah. Turns out there are so many industry standards, I can not even begin to choose which one to use."
+B -> A <<reply>>: "That is just silly. There should be a single agreed-upon way of doing this type of stuff."
+A -> B: "Exactly! You know what? I will go ahead and write my own data exchange standard."
+A -> B: "It will be glorious. It will be the one standard of communication to rule them all!"
+
+note over A, B: There are henceforth 21 different standards at the company.
+
+@enduml

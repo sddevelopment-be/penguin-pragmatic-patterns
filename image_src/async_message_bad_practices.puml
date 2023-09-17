@@ -1,0 +1,65 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+!include ../doc_templates/plantuml/puml-theme-bluegray_conversation.puml
+skinparam dpi 320
+skinParam maxMessageSize 280
+hide stereotype
+hide footbox
+
+<style>
+    sequenceDiagram {
+        FontSize 12
+        Font monospaced
+        BackgroundColor #0c141a
+
+        participant {
+            BackGroundColor #1c75cc/1541CC
+        }
+
+        responder {
+            BackGroundColor #63CC4A/349646
+        }
+
+        arrow {
+            FontColor #1c75cc
+        }
+
+        .reply * {
+            FontColor #63CC4A/349646
+        }
+
+        note {
+            FontSize 10
+            BackgroundColor #1D1B1B
+        }
+
+    }
+</style>
+
+participant Alex as A
+participant Bernie as B <<responder>> #63CC4A/349646
+
+note over A, B: Alex and Bernie are part of a remote-first team
+
+A -> B : Hello, Bernie.
+
+rnote over B:  Sees message. \n Stops working
+
+B -> A <<reply>> : Hey Alex.
+rnote over B:  Waits for Alex to respond.
+
+A -> B : Do you have some time to help me out?
+B -> A <<reply>> : It depends on what you need help with. \n I am working on a tricky piece of code that needs to get done by the end of the week.
+
+rnote over A:  Is doing something else
+rnote over B:  Waits for Alex to respond.
+
+B -> A <<reply>> : Alex? Are you still there?
+A -> B : Sorry Bernie, my connection was acting up. No worries. If you are busy, I will ask someone else.
+
+B -> A <<reply>> : Thanks. Good luck!
+
+rnote over B:  Gets back to the task at hand, \n having lost 10 minutes.
+
+@enduml

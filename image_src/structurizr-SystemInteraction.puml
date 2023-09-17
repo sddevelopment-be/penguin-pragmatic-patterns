@@ -1,0 +1,23 @@
+@startuml
+title How ideas are formed
+
+skinparam dpi 320
+
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+
+System(Social, "Social", "a patterned network of relationships constituting a coherent whole that exist between individuals, groups, and institutions", $tags="Element+Software System+people")
+System(Experimental, "Experimental", "a system in which actions take place and observations are made", $tags="Element+Software System+science")
+System(Beliefs, "Beliefs", "a rule-based system used to reason, structure, and abstract", $tags="Element+Software System+mind")
+System(Linguistic, "Linguistic", "A system of signs governed by grammatical rules of combination to communicate meaning", $tags="Element+Software System+communication")
+
+Rel_D(Beliefs, Linguistic, "is expressed using", $tags="Relationship")
+Rel_D(Beliefs, Social, "is shared within", $tags="Relationship")
+Rel_D(Social, Linguistic, "maintains an (often specialized) specific", $tags="Relationship")
+Rel_D(Social, Beliefs, "provides a baseline", $tags="Relationship")
+Rel_D(Social, Experimental, "imposes constraints on", $tags="Relationship")
+Rel_D(Experimental, Beliefs, "validates or disproves", $tags="Relationship")
+Rel_D(Beliefs, Experimental, "originates from", $tags="Relationship")
+
+SHOW_LEGEND()
+@enduml

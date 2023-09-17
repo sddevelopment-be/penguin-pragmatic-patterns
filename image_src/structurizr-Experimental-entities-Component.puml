@@ -1,0 +1,58 @@
+@startuml
+title Experimental - entities - Components
+
+top to bottom direction
+skinparam linetype ortho
+
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+
+System(Beliefs, "Beliefs", "a rule-based system used to reason, structure, and abstract", $tags="Element+Software System+mind")
+
+Container_Boundary("Experimental.process", "process") {
+  Component(Experimental.process.Result, "Result", "the change occuring to a system after an action has been performed", $tags="Element+Component")
+  Component(Experimental.process.Action, "Action", "a behavior caused by an agent in a particular situation", $tags="Element+Component")
+  Component(Experimental.process.Objective, "Objective", "the object of one's endeavours; the intended change to be achieved. aka. 'goal', 'aim', 'target', 'expectation'", $tags="Element+Component")
+}
+
+Container_Boundary("Experimental.inspection", "inspection") {
+  Component(Experimental.inspection.Observation, "Observation", "perceiving something, such as a phenomenon, often by means of an instrument, and making a record of the resulting information", $tags="Element+Component")
+  Component(Experimental.inspection.Assessment, "Assessment", "to evaluate the worth, significance, or status of", $tags="Element+Component")
+}
+
+Container_Boundary("Experimental.entities", "entities") {
+  Component(Experimental.entities.Agent, "Agent", "something that produces or is capable of producing an effect : an active or efficient cause", $tags="Element+Component")
+  Component(Experimental.entities.Resource, "Resource", "a source of supply or support : an available means", $tags="Element+Component")
+  Component(Experimental.entities.Subject, "Subject", "the entity whereupon change can be induced", $tags="Element+Component")
+}
+
+Container_Boundary("Experimental.drivers", "drivers") {
+  Component(Experimental.drivers.Motivation, "Motivation", "initiates, guides, and maintains goal-oriented behaviors", $tags="Element+Component")
+  Component(Experimental.drivers.Valuation, "Valuation", "the estimated or determined percieved desirability of a thing, person, conviction, or situation", $tags="Element+Component")
+}
+
+Rel_D(Beliefs, Experimental.inspection, "originate from", $tags="Relationship")
+
+Rel_D(Experimental.entities.Resource, Experimental.entities.Agent, "is available to", $tags="Relationship+domain")
+Rel_D(Experimental.entities.Agent, Experimental.entities.Subject, "acts upon", $tags="Relationship+domain")
+
+Rel_D(Experimental.drivers.Valuation, Experimental.drivers.Motivation, "leads to", $tags="Relationship")
+
+Rel_D(Experimental.inspection, Experimental.drivers.Valuation, "input for", $tags="Relationship")
+Rel_D(Experimental.inspection.Assessment, Experimental.inspection.Observation, "based on data from", $tags="Relationship+domain")
+
+Rel_D(Experimental.process.Action, Experimental.process.Result, "influences", $tags="Relationship+domain")
+Rel_D(Experimental.process.Objective, Experimental.process.Action, "instigates", $tags="Relationship+domain")
+
+
+Rel_D(Experimental.inspection, Experimental.entities, "performed on", $tags="Relationship")
+Rel_D(Experimental.drivers, Experimental.process, "reason for", $tags="Relationship")
+Rel_D(Experimental.drivers, Experimental.entities, "based on perception of", $tags="Relationship")
+Rel_D(Experimental.process, Experimental.entities, "induces potential change in", $tags="Relationship")
+Rel_D(Experimental.process, Experimental.inspection, "is reference for", $tags="Relationship")
+Rel_D(Experimental.inspection, Experimental.drivers, "input for", $tags="Relationship")
+
+SHOW_LEGEND()
+@enduml

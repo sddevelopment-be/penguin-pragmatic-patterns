@@ -47,7 +47,7 @@ A -> B : Hello, Bernie. I'd like your help in figuring out how to restart the de
 rnote over B:  Sees message. \nStops working.\nLooks at clock, and sees it is 10:00.
 rnote over B:  Estimates the restart will take about 45 minutes to perform.\nFinishes what they were doing.
 
-B -> A <<reply>> : Hey Alex. Sounds like you are doing what I would have done.\nYou could first try to reset the application's internal cache, that takes about 5 minutes to complete, a server restart takes about 45 minutes.\n\n \nWe have a page on resetting the config caches here: http://teamname.internal-wiki.org/reset-caches.\n\nThe approach to restart the servers is documented here: http://teamname.internal-wiki.org/reset-caches
+B -> A <<reply>> : Hey Alex. Sounds like you are doing what I would have done.\nYou could first try to reset the application's internal cache, that takes about 5 minutes to complete, a server restart takes about 45 minutes.\n\n \nWe have a page on resetting the config caches here: http://teamname.internal-wiki.org/reset-caches.\n\nThe approach to restart the servers is documented here: http://teamname.internal-wiki.org/restart-servers
 B -> A <<reply>> : If you get stuck, feel free to reach out. But do so before 11:15 if possible, so I can accomodate.
 
 A -> B : Great! Thanks, Bernie. I'll try and see if the documentation helps me, and will get back to you before 11:00.

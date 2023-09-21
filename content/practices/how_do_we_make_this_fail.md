@@ -2,7 +2,10 @@
 title = "Plan a self-sabotage"
 author = "Stijn Dejongh"
 problem = "You have an idea and want to strengthen it against negative forces."
-description = ""
+description = """
+Think of ways to make your idea fail, strengthening your endeavour against negative forces, ensuring they are more resilient and 
+better prepared for potential challenges.
+"""
 type = "practice"
 categories = [
     "learning",
@@ -26,7 +29,15 @@ You have an idea and want to strengthen it against negative forces.
 
 ### Enablers
 
+* You are able to think of creative ways to sabotage an idea.
+* You are willing to attack your own creation, in order to strengthen it.
+* You have access to resources or prior knowledge about common misfortunes that happen in your context.
+* You have access to others with knowledge of your context, that you can ask for feedback or learn from their experiences.
+
 ### Deterrents
+
+* You do not have access to others / prior knowledge.
+* You have difficulties finding/accepting issues with your own ideas or creations.
 
 ## Solution
 

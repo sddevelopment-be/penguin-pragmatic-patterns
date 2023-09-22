@@ -271,3 +271,30 @@ link="https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month"
 image="mythical_month.jpg"
 description="""
 """
+
+[[book]]
+title="Automate the Boring Stuff with Python"
+isbn="1593279922"
+authors="Sweigart, A."
+publisher="No Starch Press"
+location=""
+year="2019"
+link="https://automatetheboringstuff.com/"
+image="automate_boring_stuff.jpg"
+description="""
+Aimed at novice programmers, and those without a formal computer science background, this book teaches you how to automate parts of your working life.
+Using python, the reader is first guided through some programming basics, before diving in to practical examples of automation in real-world contexts.
+Examples include: Automated emails, cleaning files on your machine, converting documents from one format to another, and creating excel sheets.
+"""
+
+[[book]]
+title="Patterns, Principles, and Practices of Domain-Driven Design"
+isbn="1118714709"
+authors="Millet, S. & Tune, N."
+publisher="Wrox"
+location=""
+year="2015"
+link="https://www.goodreads.com/book/show/25531393-patterns-principles-and-practices-of-domain-driven-design"
+image="ddd_practices.jpg"
+description="""
+"""

@@ -270,6 +270,10 @@ year="1995"
 link="https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month"
 image="mythical_month.jpg"
 description="""
+Brooks blends facts and stories together in a though-provoking selection of essays.
+While the author mostly talks about software projects, the lessons and frustrations apply to anyone who has had the dubious pleasure of leading a team.
+The book challenges readers to think about the sense and non-sense of generally held maxims, and strives to re-introduce some common-sense to project management.
+A prime example of this, is the saying: "hiring nine women will not get you a baby in one month".
 """
 
 [[book]]
@@ -297,4 +301,8 @@ year="2015"
 link="https://www.goodreads.com/book/show/25531393-patterns-principles-and-practices-of-domain-driven-design"
 image="ddd_practices.jpg"
 description="""
+Millet and Tune are some of the forerunners in the field of Domain-Driven Design, an architectural approach that aims to
+further allign business concepts and their technical implementation. The authors focus on the core concepts of a domain-driven system development approach,
+and offer practical advice to the reader on how to apply the principles and ideas in their daily endeavours.
+As the book dives deep into advanced concepts, it is advisable to pick this up later in your journey, after you have gained experience working on real systems.
 """

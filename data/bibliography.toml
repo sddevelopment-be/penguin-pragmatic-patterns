@@ -237,30 +237,6 @@ and the technical practices that support them.
 """
 
 [[book]]
-title="Design It: From Programmer to Software Architect"
-isbn="1680502093"
-authors="Keeling, M."
-publisher="The Pragmatic Bookshelf"
-location=""
-year="2017"
-link="https://pragprog.com/titles/mkdsa/design-it/"
-image="design_it.jpg"
-description="""
-"""
-
-[[book]]
-title="Refactoring: Improving the Design of Existing Code"
-isbn="9780133065268"
-authors="Fowler, M.; Beck, K.; Brant J.; Opdyke W.; Roberts D."
-publisher="Addison-Wesley Professional"
-location=""
-year="2012"
-link="https://www.goodreads.com/book/show/18624706-refactoring"
-image="refactoring.jpg"
-description="""
-"""
-
-[[book]]
 title="The Mythical Man-Month: Essays on Software Engineering, Anniversary Edition"
 isbn="9780201835953"
 authors="Brooks, F. P. Jr."
@@ -305,4 +281,40 @@ Millet and Tune are some of the forerunners in the field of Domain-Driven Design
 further allign business concepts and their technical implementation. The authors focus on the core concepts of a domain-driven system development approach,
 and offer practical advice to the reader on how to apply the principles and ideas in their daily endeavours.
 As the book dives deep into advanced concepts, it is advisable to pick this up later in your journey, after you have gained experience working on real systems.
+"""
+
+[[book]]
+title="Design Patterns: Elements of Reusable Object-Oriented Software"
+isbn="9780201633610"
+authors="Gamma, A.; Helm, Rl; Johnson, R., Vlissides, J."
+publisher="Addison-Wesley Professional"
+location=""
+year="1994"
+link="https://www.goodreads.com/book/show/85009.Design_Patterns"
+image="go4_patterns.jpg"
+description="""
+"""
+
+[[book]]
+title="Design It: From Programmer to Software Architect"
+isbn="1680502093"
+authors="Keeling, M."
+publisher="The Pragmatic Bookshelf"
+location=""
+year="2017"
+link="https://pragprog.com/titles/mkdsa/design-it/"
+image="design_it.jpg"
+description="""
+"""
+
+[[book]]
+title="Refactoring: Improving the Design of Existing Code"
+isbn="9780133065268"
+authors="Fowler, M.; Beck, K.; Brant J.; Opdyke W.; Roberts D."
+publisher="Addison-Wesley Professional"
+location=""
+year="2012"
+link="https://www.goodreads.com/book/show/18624706-refactoring"
+image="refactoring.jpg"
+description="""
 """

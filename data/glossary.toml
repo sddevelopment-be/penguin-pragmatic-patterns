@@ -233,7 +233,12 @@ description = """
 Domain-Driven Design is a set of principles and schemes aimed at creating optimal systems of objects. Reduced to the
 creation of software abstractions, which are called models of subject areas. These models include business logic that
 establishes a link between the real conditions of the products application area and the code.
-    """
+<br />
+<br />
+Domain-Driven Design is about creating shared understanding of the problem space that is reinforced ubiquitously via conversations,
+code and diagrams. DDD’s Shared understanding enhances synergy and alignment,
+increasing the ability to deliver value sustainably — ideally over the lifetime of a product.
+"""
 aliases = []
 references = []
 

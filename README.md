@@ -12,13 +12,12 @@ experiences of the author.
 **Table of Contents:**
 
 <!-- vim-markdown-toc GitLab -->
-
-- [Goal, Philosophy and outline](#goal-philosophy-and-outline)
-- [Repository Structure](#repository-structure)
-    - [Noteworthy sections and files](#noteworthy-sections-and-files)
-- [Tech Stack](#tech-stack)
-- [Contributors ✨](#contributors-)
-
+  * [Goal, Philosophy and outline](#goal-philosophy-and-outline)
+  * [Repository Structure](#repository-structure)
+  * [Tech Stack](#tech-stack)
+    * [Getting started with local development](#getting-started-with-local-development)
+    * [Deployment system](#deployment-system)
+  * [Contributors ✨](#contributors-)
 <!-- vim-markdown-toc -->
 
 ---
@@ -40,21 +39,28 @@ Most of the techniques, tactics, and behavioral patterns collected will fit some
 outlined by the title of the directory in which the content is stored. Some general purpose information will be stored
 at the top level.
 
-### Noteworthy sections and files
-
-| Item      | Location                                                      | Description                                                                                                                                                                      |
-| --------- |---------------------------------------------------------------| -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Changelog | [`docs/CHANGELOG.md`](old_source/X_APPENDIX/CHANGELOG.md)     | Keeping track of your changes is hard work, documenting after the facts even more so. This file aims to allow small granular updates to help with this effort.                   |
-
 ## Tech Stack
 
-![Generation from plain text](docs/docsify_demo_small.gif)
+* [PlantUML](https://plantuml.com/) : Diagrams as code, allows to version source files and convert them into images
+* [Markdown](https://www.markdownguide.org/): Easy to use markup language, allowing the writer to focus on content rather than format
+* [HuGo Static site generator](https://gohugo.io): Static website generator, compiles markdown files and configuration into HTML pages 
+  (including styling, and javascript if applicable) 
 
-| Library                                                                                | Usage                                                                                                      |
-| -------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
-| [SDDevelopment DocGen v2.0.0](https://github.com/sddevelopment-be/document-generation) | Converting the markdown documents into various document formats                                            |
-| [adrianvlupu/C4-Builder](https://adrianvlupu.github.io/C4-Builder)                     | Node.js based documentation parser, adding C4 and PlantUML support to [Docsify](https://docsify.js.org/#/) |
-| [PlantUML](https://plantuml.com/)                                                      | Diagrams as text                                                                                           |
+### Getting started with local development
+
+* Install HuGo: see the [official guide](https://gohugo.io/installation/)
+* Fork this repository, create a feature branch if desired
+* Use `hugo server` to spawn a local webserver that dynamically updates to inspect your changes
+
+When your changes are done, launch a Pull Request towards the `develop` branch.
+
+### Deployment system
+
+The code in this repository is automatically pushed to:
+* [github pages environment](https://sddevelopment-be.github.io/penguin-pragmatic-patterns/): Beta-test and proof-reading environment, 
+  automatically built and deployed from the `develop` branch
+* [main website](https://patterns.sddevelopment.be): Main pattern website, automatically built and deployed from the `main` branch after changes 
+  have been reviewed and accepted from the acceptance environment.
 
 ## Contributors ✨
 

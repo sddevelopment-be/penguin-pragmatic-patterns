@@ -17,6 +17,7 @@ The book covers a wide range of topics, from coding techniques and project manag
 It provides actionable advice and timeless wisdom that empowers developers to write elegant,
 maintainable code and become more effective in their work (as well as maintain their sanity while doing so).
 """
+levels = ["intermediate", "mixed"]
 
 [[book]]
 title = "Apprenticeship Patterns"
@@ -31,6 +32,7 @@ description = """
 Advice for people that switch teams. The authors give practical advise on how to quickly and effectivly integrate yourself into a new environment.
 Their book is structured as a pattern list, one of which has the memorable name "Sweep the floor".
 """
+levels = ["novice"]
 
 [[book]]
 title = "New Programmer's Survival Manual: Navigate Your Workplace, Cube Farm, or Startup"
@@ -45,6 +47,7 @@ description = """
 How do you navigate your carreer in software development? And how do you avoid being passed over for promotions, even though you are the most knowledgeable technologist in the team?
 Carter helps the reader think about the non-technical side of corporate culture, and provides guidance on how to take control of your own carreer.
 """
+levels = ["novice"]
 
 [[book]]
 title = "The 7 Habits of Highly Effective People: Powerful Lessons in Personal Change"

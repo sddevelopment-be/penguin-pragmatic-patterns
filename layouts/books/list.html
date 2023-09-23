@@ -13,7 +13,17 @@
 
         <div class="content-wrapper">
 
-            {{ .Content }}
+            <div class="content">
+                {{ .Content }}
+            </div>
+            <br /><br />
+
+            <div class="column is-centered-tablet-portrait">
+                <h1 class="title section-title">
+                    List of books
+                </h1>
+                <div class="divider"></div>
+            </div>
 
             <div class="recommendation-wrapper">
                 {{ range $book := (index .Site.Data "bibliography").book }}

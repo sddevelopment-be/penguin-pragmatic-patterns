@@ -113,3 +113,27 @@
 .recommendation-item .recommendation-content .recommendation-text .author {
     font-size: 0.85rem;
 }
+
+.recommendation-item .recommendation-content .recommendation-text .recommendation-tags {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    padding: 0 0.35rem;
+}
+
+.recommendation-item .recommendation-content .recommendation-text .recommendation-tags .recommendation-tag {
+    display: block;
+    font-size: 0.75rem;
+    font-weight: bold;
+    padding: 0.35rem 0.75rem;
+    color: #fefefe;
+    background: #6d7a8a;
+    text-transform: uppercase;
+    border-radius: 0.25rem;
+    margin: 0 0.35rem;
+}
+
+.recommendation-item .recommendation-content .recommendation-text .recommendation-tags b {
+    margin: auto 0.75rem auto 0;
+}
+

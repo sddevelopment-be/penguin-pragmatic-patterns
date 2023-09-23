@@ -8,8 +8,14 @@ image = "prag_prog_20.png"
 year = "2019"
 link = "https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/"
 description = """
-One of the best books on software development out there. Andy and Dave take us through how they think about software development.
-Written in a highly practical, down-to-earth, and conversational style, everyone working in software development should read this revised classic.
+Widely regarded as one of the finest books on software development, 'The Pragmatic Programmer'
+by Andy Hunt and Dave Thomas offers invaluable insights into their approach to software development.
+Presented in a highly practical, down-to-earth, and conversational style,
+this revised classic is a must-read for anyone involved in software development.
+<br /><br />
+The book covers a wide range of topics, from coding techniques and project management to software architecture and best practices.
+It provides actionable advice and timeless wisdom that empowers developers to write elegant,
+maintainable code and become more effective in their work (as well as maintain their sanity while doing so).
 """
 
 [[book]]
@@ -341,13 +347,13 @@ description = """
 """
 
 [[book]]
-title="A Common-Sense Guide to Data Structures and Algorithms: Level Up Your Core Programming Skills"
-isbn="9781680507225"
-authors="Wengrow, J."
-publisher="The Pragmatic Bookshelf"
-location=""
-year="2020"
-link="https://www.goodreads.com/book/show/48764406-a-common-sense-guide-to-data-structures-and-algorithms"
-image="data_structures.jpg"
-description="""
+title = "A Common-Sense Guide to Data Structures and Algorithms: Level Up Your Core Programming Skills"
+isbn = "9781680507225"
+authors = "Wengrow, J."
+publisher = "The Pragmatic Bookshelf"
+location = ""
+year = "2020"
+link = "https://www.goodreads.com/book/show/48764406-a-common-sense-guide-to-data-structures-and-algorithms"
+image = "data_structures.jpg"
+description = """
 """

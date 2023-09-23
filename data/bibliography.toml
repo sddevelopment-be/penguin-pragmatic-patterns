@@ -32,7 +32,7 @@ description = """
 Advice for people that switch teams. The authors give practical advise on how to quickly and effectivly integrate yourself into a new environment.
 Their book is structured as a pattern list, one of which has the memorable name "Sweep the floor".
 """
-levels = ["novice"]
+levels = ["novice", "reference"]
 
 [[book]]
 title = "New Programmer's Survival Manual: Navigate Your Workplace, Cube Farm, or Startup"
@@ -63,11 +63,12 @@ A classic in both software developer and management circles. Covey explains the 
 He discussed personal management systems, the art of saying no, and talk about how __"saying yes to something, means saying no to something else"__.
 Covey invites the reader to reflect on who they want to be, and then helps them take steps towards becoming that person.
 """
+levels = ["novice"]
 
 [[book]]
 title = "Practices of an Agile Developer "
 isbn = "9780974514086"
-authors = "Hunt, A.; Subramaniam, V."
+authors = "Subramaniam, V.; Hunt, A."
 publisher = "Pragmatic Bookshelf"
 location = ""
 year = "2006"
@@ -78,6 +79,7 @@ Describes the personal experiences and thoughts on acting in an _agile_ manner.
 Other than most books on the topic, dr. Subramaniam and mr. Hunt dive into the dark side of working in a corporate environment.
 They offer the reader a bunch of, sometimes hard-to-swallow, advices from their personal experiences. Above all, this book inspires readers to do the best they can given the circumstances.
 """
+levels = ["intermediate", "niche"]
 
 [[book]]
 title = "Ego Is the Enemy"
@@ -94,6 +96,7 @@ Holiday manages to engage the reader using memorable historical figures to illus
 The books contains inspirational succes stories, as well as cautionary tales. After reading the book, you will see your decisions in a new light, and you will be invited to answer the question:
 __"Do I want to do something meaningful, or do I want to be important?"__.
 """
+levels = ["novice"]
 
 [[book]]
 title = "Getting Things Done: The Art of Stress-Free Productivity"
@@ -108,6 +111,7 @@ description = """
 A no-nonsense approach to take control of your time. Allen shares his tips to keep focussed on what is important to you,
 emphasises the need for a system you can trust, and empowers you to implement a way of organizing your life and commitments that fits your preferences.
 """
+levels = ["novice"]
 
 [[book]]
 title = "Pragmatic Thinking and Learning: Refactor Your wetware"
@@ -123,6 +127,7 @@ Dive into your own brain, and learn about efficient learning. Hunt discusses var
 As a professional, your main weapon is your ability to learn. Unfortunatly, a lot of us are left to our own devices in figuring out which approaches work well for us.
 This book helps you, by giving you a plethora of time-proven learning techniques, and some tools to discover your own preferences.
 """
+levels = ["novice"]
 
 [[book]]
 title = "Nonviolent Communication: A Language of Life"
@@ -138,6 +143,7 @@ Rosenberg teaches how to talk to others in an empathetic way. But above else, he
 While his verbal forms sound a bit artificial and forced, after some practise, you will be able to include the non-violent style of communication in your own relationships.
 After all, what is the use in conversing if not to understand each other.
 """
+levels = ["novice"]
 
 [[book]]
 title = "Agile Conversations: Transform Your Conversations, Transform Your Culture"
@@ -153,6 +159,7 @@ The authors start from the premise that every organizational problem is in fact 
 Fredrick and Squirrel, hosts of the podcast `Troubleshooting Agile`, help the reader debug their conversations.
 The book is mostly targetting software professionals, though the techniques discussed are usable, and valuable, for anyone that spends most of their time working with other people.
 """
+levels = ["intermediate", "niche"]
 
 [[book]]
 title = "The Secrets of Consulting: A Guide to Giving and Getting Advice Successfully"
@@ -167,6 +174,7 @@ description = """
 Stories from the life of a consultant, with detailed descriptions of how the author came to be a consultant, and practical tips on giving advice that is (perceived as) highly valuable.
 Includes such gems as: "whatever your client is doing, suggest they do the opposite", and "be sure to ask for a high fee, so you are taken more seriously".
 """
+levels = ["advanced", "niche"]
 
 [[book]]
 title = "Behind Closed Doors: Secrets of Great Management"
@@ -181,6 +189,7 @@ description = """
 The story of an experienced manager, brought into a company to save it. The reader follows along as "Sam" journeys through the corporate landscape, and has conversations with his direct reports.
 Rothman manages to convey important good management practices in an elegant, and easily diggestible way.
 """
+levels = ["intermediate"]
 
 [[book]]
 title = "The Art of Captivating Conversation"
@@ -197,6 +206,7 @@ Whether this is entertainment, confort, friendship, or a more direct purpose. Th
 aiming to help people that have difficulty with casual conversation to up their game.
 While cynical at times, the book offers clear, practical advice on how to be a good conversationalist.
 """
+levels = ["novice", "niche"]
 
 [[book]]
 title = "The Five Dysfunctions of a Team: A Leadership Fable"
@@ -212,6 +222,7 @@ You will find a plethora of books on how to build succesful teams, but you will 
 By focussing on the dark side of team dynamics, Lencioni informs us of what to look out for when working with others. He explains how a lack of trust between
 individuals eventually cascades into a lack of overall results. A must-read book for team leaders and team members alike.
 """
+levels = ["intermediate"]
 
 [[book]]
 title = "Prisoners of Our Thoughts"
@@ -228,6 +239,7 @@ nazi concentration camps, but to do so without losing his sense of self. A power
 Frankl's core tennet, __"No one can take away my choice over my own actions"__, is both thought-provoking, and empowering.
 The authors do a fantastic job of describing both the man himself, and his philosophy.
 """
+levels = ["intermediate"]
 
 [[book]]
 title = "Extreme Programming Explained: Embrace Change"
@@ -244,6 +256,7 @@ While other methodologies dive into team structure, and management, Beck and And
 This book popularized the ideas of "Test Driven Development" and "Pair Programming", and is a must read for any developer that is looking to increase their knowledge of project approaches
 and the technical practices that support them.
 """
+levels = ["intermediate", "reference"]
 
 [[book]]
 title = "The Mythical Man-Month: Essays on Software Engineering, Anniversary Edition"
@@ -260,6 +273,7 @@ While the author mostly talks about software projects, the lessons and frustrati
 The book challenges readers to think about the sense and non-sense of generally held maxims, and strives to re-introduce some common-sense to project management.
 A prime example of this, is the saying: "hiring nine women will not get you a baby in one month".
 """
+levels = ["intermediate", "reference"]
 
 [[book]]
 title = "Automate the Boring Stuff with Python"
@@ -275,6 +289,7 @@ Aimed at novice programmers, and those without a formal computer science backgro
 Using python, the reader is first guided through some programming basics, before diving in to practical examples of automation in real-world contexts.
 Examples include: Automated emails, cleaning files on your machine, converting documents from one format to another, and creating excel sheets.
 """
+levels = ["novice"]
 
 [[book]]
 title = "Patterns, Principles, and Practices of Domain-Driven Design"
@@ -291,6 +306,7 @@ further allign business concepts and their technical implementation. The authors
 and offer practical advice to the reader on how to apply the principles and ideas in their daily endeavours.
 As the book dives deep into advanced concepts, it is advisable to pick this up later in your journey, after you have gained experience working on real systems.
 """
+levels = ["advanced", "reference"]
 
 [[book]]
 title = "Design Patterns: Elements of Reusable Object-Oriented Software"
@@ -312,6 +328,7 @@ the core concepts remain relevant.
 The 'Gang of Four' patterns provide valuable insights into addressing challenges like extensibility, maintainability, and encapsulation.
 They offer tried and tested approaches to structuring software, making it a valuable resource for any programmer or software engineer.
 """
+levels = ["intermediate", "reference"]
 
 [[book]]
 title = "Design It: From Programmer to Software Architect"
@@ -324,6 +341,7 @@ link = "https://pragprog.com/titles/mkdsa/design-it/"
 image = "design_it.jpg"
 description = """
 """
+levels = ["advanced", "reference"]
 
 [[book]]
 title = "Refactoring: Improving the Design of Existing Code"
@@ -336,6 +354,7 @@ link = "https://www.goodreads.com/book/show/18624706-refactoring"
 image = "refactoring.jpg"
 description = """
 """
+levels = ["novice", "reference"]
 
 [[book]]
 title = "Team Topologies: Organizing Business and Technology Teams for Fast Flow"
@@ -348,6 +367,7 @@ link = "https://www.goodreads.com/book/show/44135420-team-topologies"
 image = "team_topologies.jpg"
 description = """
 """
+levels = ["advanced", "reference"]
 
 [[book]]
 title = "A Common-Sense Guide to Data Structures and Algorithms: Level Up Your Core Programming Skills"
@@ -360,3 +380,4 @@ link = "https://www.goodreads.com/book/show/48764406-a-common-sense-guide-to-dat
 image = "data_structures.jpg"
 description = """
 """
+levels = ["novice", "reference"]

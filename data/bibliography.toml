@@ -221,15 +221,15 @@ The authors do a fantastic job of describing both the man himself, and his philo
 """
 
 [[book]]
-title="Extreme Programming Explained: Embrace Change"
-isbn="9780321278654"
-authors="Beck, K. & Andres, C."
-publisher="Addison-Wesley"
-location=""
-year="2004"
-link="https://www.goodreads.com/book/show/67833.Extreme_Programming_Explained"
-image="xp_explained.jpg"
-description="""
+title = "Extreme Programming Explained: Embrace Change"
+isbn = "9780321278654"
+authors = "Beck, K. & Andres, C."
+publisher = "Addison-Wesley"
+location = ""
+year = "2004"
+link = "https://www.goodreads.com/book/show/67833.Extreme_Programming_Explained"
+image = "xp_explained.jpg"
+description = """
 Beck describes a project methodology that focusses on the daily practices developers can use, in order to achieve results in a faster, reliable, and sustainable way.
 While other methodologies dive into team structure, and management, Beck and Andres decided to stick to reusable practices that can be applied in most settings.
 This book popularized the ideas of "Test Driven Development" and "Pair Programming", and is a must read for any developer that is looking to increase their knowledge of project approaches
@@ -237,15 +237,15 @@ and the technical practices that support them.
 """
 
 [[book]]
-title="The Mythical Man-Month: Essays on Software Engineering, Anniversary Edition"
-isbn="9780201835953"
-authors="Brooks, F. P. Jr."
-publisher="Addison-Wesley Professional"
-location=""
-year="1995"
-link="https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month"
-image="mythical_month.jpg"
-description="""
+title = "The Mythical Man-Month: Essays on Software Engineering, Anniversary Edition"
+isbn = "9780201835953"
+authors = "Brooks, F. P. Jr."
+publisher = "Addison-Wesley Professional"
+location = ""
+year = "1995"
+link = "https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month"
+image = "mythical_month.jpg"
+description = """
 Brooks blends facts and stories together in a though-provoking selection of essays.
 While the author mostly talks about software projects, the lessons and frustrations apply to anyone who has had the dubious pleasure of leading a team.
 The book challenges readers to think about the sense and non-sense of generally held maxims, and strives to re-introduce some common-sense to project management.
@@ -253,30 +253,30 @@ A prime example of this, is the saying: "hiring nine women will not get you a ba
 """
 
 [[book]]
-title="Automate the Boring Stuff with Python"
-isbn="1593279922"
-authors="Sweigart, A."
-publisher="No Starch Press"
-location=""
-year="2019"
-link="https://automatetheboringstuff.com/"
-image="automate_boring_stuff.jpg"
-description="""
+title = "Automate the Boring Stuff with Python"
+isbn = "1593279922"
+authors = "Sweigart, A."
+publisher = "No Starch Press"
+location = ""
+year = "2019"
+link = "https://automatetheboringstuff.com/"
+image = "automate_boring_stuff.jpg"
+description = """
 Aimed at novice programmers, and those without a formal computer science background, this book teaches you how to automate parts of your working life.
 Using python, the reader is first guided through some programming basics, before diving in to practical examples of automation in real-world contexts.
 Examples include: Automated emails, cleaning files on your machine, converting documents from one format to another, and creating excel sheets.
 """
 
 [[book]]
-title="Patterns, Principles, and Practices of Domain-Driven Design"
-isbn="1118714709"
-authors="Millet, S. & Tune, N."
-publisher="Wrox"
-location=""
-year="2015"
-link="https://www.goodreads.com/book/show/25531393-patterns-principles-and-practices-of-domain-driven-design"
-image="ddd_practices.jpg"
-description="""
+title = "Patterns, Principles, and Practices of Domain-Driven Design"
+isbn = "1118714709"
+authors = "Millet, S. & Tune, N."
+publisher = "Wrox"
+location = ""
+year = "2015"
+link = "https://www.goodreads.com/book/show/25531393-patterns-principles-and-practices-of-domain-driven-design"
+image = "ddd_practices.jpg"
+description = """
 Millet and Tune are some of the forerunners in the field of Domain-Driven Design, an architectural approach that aims to
 further allign business concepts and their technical implementation. The authors focus on the core concepts of a domain-driven system development approach,
 and offer practical advice to the reader on how to apply the principles and ideas in their daily endeavours.
@@ -284,37 +284,70 @@ As the book dives deep into advanced concepts, it is advisable to pick this up l
 """
 
 [[book]]
-title="Design Patterns: Elements of Reusable Object-Oriented Software"
-isbn="9780201633610"
-authors="Gamma, A.; Helm, Rl; Johnson, R., Vlissides, J."
-publisher="Addison-Wesley Professional"
-location=""
-year="1994"
-link="https://www.goodreads.com/book/show/85009.Design_Patterns"
-image="go4_patterns.jpg"
-description="""
+title = "Design Patterns: Elements of Reusable Object-Oriented Software"
+isbn = "9780201633610"
+authors = "Gamma, A.; Helm, Rl; Johnson, R., Vlissides, J."
+publisher = "Addison-Wesley Professional"
+location = ""
+year = "1994"
+link = "https://www.goodreads.com/book/show/85009.Design_Patterns"
+image = "go4_patterns.jpg"
+description = """
+Known as the 'Gang of Four,' the authors of this book have contributed significantly to the field of software development. Their work serves as a foundational text in the discipline.
+<br /><br />
+In the book, they present a collection of programming structures in the form of design patterns.
+These patterns explain when and how to apply them, as well as their potential drawbacks.
+While some of the advice in the book, particularly those related to inheritance, may be considered outdated in contemporary software development,
+the core concepts remain relevant.
+<br /><br />
+The 'Gang of Four' patterns provide valuable insights into addressing challenges like extensibility, maintainability, and encapsulation.
+They offer tried and tested approaches to structuring software, making it a valuable resource for any programmer or software engineer.
 """
 
 [[book]]
-title="Design It: From Programmer to Software Architect"
-isbn="1680502093"
-authors="Keeling, M."
+title = "Design It: From Programmer to Software Architect"
+isbn = "1680502093"
+authors = "Keeling, M."
+publisher = "The Pragmatic Bookshelf"
+location = ""
+year = "2017"
+link = "https://pragprog.com/titles/mkdsa/design-it/"
+image = "design_it.jpg"
+description = """
+"""
+
+[[book]]
+title = "Refactoring: Improving the Design of Existing Code"
+isbn = "9780133065268"
+authors = "Fowler, M.; Beck, K.; Brant J.; Opdyke W.; Roberts D."
+publisher = "Addison-Wesley Professional"
+location = ""
+year = "2012"
+link = "https://www.goodreads.com/book/show/18624706-refactoring"
+image = "refactoring.jpg"
+description = """
+"""
+
+[[book]]
+title = "Team Topologies: Organizing Business and Technology Teams for Fast Flow"
+isbn = "9781942788829"
+authors = "Skelton, M.; Pais, M."
+publisher = "It Revolution Press"
+location = ""
+year = "2019"
+link = "https://www.goodreads.com/book/show/44135420-team-topologies"
+image = "team_topologies.jpg"
+description = """
+"""
+
+[[book]]
+title="A Common-Sense Guide to Data Structures and Algorithms: Level Up Your Core Programming Skills"
+isbn="9781680507225"
+authors="Wengrow, J."
 publisher="The Pragmatic Bookshelf"
 location=""
-year="2017"
-link="https://pragprog.com/titles/mkdsa/design-it/"
-image="design_it.jpg"
-description="""
-"""
-
-[[book]]
-title="Refactoring: Improving the Design of Existing Code"
-isbn="9780133065268"
-authors="Fowler, M.; Beck, K.; Brant J.; Opdyke W.; Roberts D."
-publisher="Addison-Wesley Professional"
-location=""
-year="2012"
-link="https://www.goodreads.com/book/show/18624706-refactoring"
-image="refactoring.jpg"
+year="2020"
+link="https://www.goodreads.com/book/show/48764406-a-common-sense-guide-to-data-structures-and-algorithms"
+image="data_structures.jpg"
 description="""
 """

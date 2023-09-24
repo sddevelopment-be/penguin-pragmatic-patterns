@@ -29,8 +29,10 @@ location = ""
 image = "apprent_patterns.jpeg"
 link = "https://www.oreilly.com/library/view/apprenticeship-patterns/9780596806842/"
 description = """
-Advice for people that switch teams. The authors give practical advise on how to quickly and effectivly integrate yourself into a new environment.
-Their book is structured as a pattern list, one of which has the memorable name "Sweep the floor".
+For individuals transitioning to new teams or roles, 'Apprenticeship Patterns' offers invaluable advice.
+In this book, the authors provide practical guidance on seamlessly and efficiently integrating into a new work environment.
+The book's unique structure presents these insights in the form of a pattern list, each offering actionable advice.
+One particularly memorable pattern, 'Sweep the Floor,' underscores the importance of performing the 'grunt work' in order to be of immediate value to a team.
 """
 levels = ["novice", "reference"]
 
@@ -44,8 +46,10 @@ year = "2011"
 link = "https://pragprog.com/titles/jcdeg/new-programmer-s-survival-manual/"
 image = "survival_manual.jpg"
 description = """
-How do you navigate your carreer in software development? And how do you avoid being passed over for promotions, even though you are the most knowledgeable technologist in the team?
-Carter helps the reader think about the non-technical side of corporate culture, and provides guidance on how to take control of your own carreer.
+In "New Programmer's Survival Manual," the author addresses critical questions in the software development field:
+How can you effectively steer your career in this dynamic industry? And how can you ensure you're recognized and not overlooked for promotions,
+especially when you possess substantial technical expertise? Carter offers insights into the often-overlooked non-technical aspects of corporate culture.
+The book provides valuable guidance on seizing control of your career trajectory, equipping readers with tools to thrive and advance in the software development world.
 """
 levels = ["novice"]
 

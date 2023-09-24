@@ -9,6 +9,7 @@ categories = [
 tags = [
     "productivity", "decision making", "prioritization"
 ]
+uuid="97067bdd-7268-4098-ae66-7d4c3ea19fb2"
 +++
 
 {{<quote text=`

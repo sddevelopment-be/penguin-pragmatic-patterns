@@ -9,6 +9,7 @@ categories = [
 tags = [
     "programming", "maintainability", "cleanliness", "readability"
 ]
+uuid="1f3849c8-28bc-4934-95bf-66d9dcee6858"
 +++
 
 {{<image

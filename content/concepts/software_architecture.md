@@ -9,6 +9,7 @@ categories = [
 tags = [
     "software development", "architecure"
 ]
+uuid="3683719c-d1ff-4693-a5c5-d9eefb07e409"
 +++
 
 The nuance between "architecture" and "design" is difficult to grasp.

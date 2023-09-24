@@ -10,6 +10,7 @@ categories = [
 tags = [
     "tasks", "remembering", "tracking", "organizing"
 ]
+uuid="18091885-3e43-43f5-a0f7-bcb6c625612b"
 +++
 
 ![./free-mind.gif >](/images/practices/free-mind.gif)

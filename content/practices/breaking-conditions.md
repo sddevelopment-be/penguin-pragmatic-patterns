@@ -11,6 +11,7 @@ tags = [
     "goals", "pivotting"
 ]
 uuid="49014706-77a2-4b8f-82de-75c16cac9c8c"
+aliases=["49014706-77a2-4b8f-82de-75c16cac9c8c"]
 +++
 
 ## Problem Statement

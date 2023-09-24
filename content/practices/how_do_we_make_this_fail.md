@@ -14,6 +14,7 @@ tags = [
     "exploration", "discovery", "hardening"
 ]
 uuid="1bdb4866-7c15-46b1-ad38-26111791eed5"
+aliases=["1bdb4866-7c15-46b1-ad38-26111791eed5"]
 +++
 
 ## Problem Statement

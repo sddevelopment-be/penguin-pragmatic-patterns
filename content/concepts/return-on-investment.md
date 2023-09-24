@@ -9,7 +9,8 @@ categories = [
 tags = [
     "productivity", "management", "decision making"
 ]
-uuid="b86230c6-49fb-4792-9008-a5241c5cdcb2"
+uuid = "b86230c6-49fb-4792-9008-a5241c5cdcb2"
+aliases = ["b86230c6-49fb-4792-9008-a5241c5cdcb2"]
 +++
 
 ## Description

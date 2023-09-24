@@ -11,6 +11,7 @@ tags = [
     "knowledge retention", "documentation"
 ]
 uuid="642d0d66-7b5d-4900-8f68-66adf41466d2"
+aliases=["642d0d66-7b5d-4900-8f68-66adf41466d2"]
 +++
 
 ## Problem Statement

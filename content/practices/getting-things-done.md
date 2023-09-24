@@ -11,6 +11,7 @@ tags = [
     "tasks", "organizing"
 ]
 uuid="ef0c0e1b-f395-4ee0-8360-e419e97f7447"
+aliases=["ef0c0e1b-f395-4ee0-8360-e419e97f7447"]
 +++
 
 ## Problem Statement

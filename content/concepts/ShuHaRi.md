@@ -10,6 +10,7 @@ tags = [
     "personal growth", "learning", "mastery", "skill levels"
 ]
 uuid="a49f917b-c560-462a-ac38-46515f6f62d0"
+aliases=["a49f917b-c560-462a-ac38-46515f6f62d0"]
 +++
 
 Shu Ha Ri is a Japanese martial art concept that is used to describe the stages of learning on the path to mastery.

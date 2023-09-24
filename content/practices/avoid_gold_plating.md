@@ -11,6 +11,7 @@ tags = [
     "elegance", "KISS", "YAGNI", "complexity"
 ]
 uuid="94a558cd-4e86-4814-a5e9-d6ecafcb0d6b"
+aliases=["94a558cd-4e86-4814-a5e9-d6ecafcb0d6b"]
 +++
 
 ## Problem Statement

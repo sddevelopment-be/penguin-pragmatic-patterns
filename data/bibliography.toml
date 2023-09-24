@@ -63,14 +63,16 @@ year = "2004"
 link = "https://www.goodreads.com/book/show/36072.The_7_Habits_of_Highly_Effective_People"
 image = "covey_habbits.jpg"
 description = """
-A classic in both software developer and management circles. Covey explains the values and practices that help you be more mindful of how you spend your time.
-He discussed personal management systems, the art of saying no, and talk about how __"saying yes to something, means saying no to something else"__.
-Covey invites the reader to reflect on who they want to be, and then helps them take steps towards becoming that person.
+A revered classic in the realms of both software development and management, Stephen R. Covey's book delves into the transformative power of effective habits.
+Covey introduces readers to a set of values and practices that promote mindful time management. He explores the art of personal management systems,
+the significance of mastering the skill of saying "no," and the profound notion that "saying yes to something means saying no to something else."
+Covey's book is an invitation for introspection, encouraging readers to reflect on their desired self and guiding them toward tangible steps to achieve
+personal growth and effectiveness.
 """
-levels = ["novice"]
+levels = ["mixed", "novice", "intermediate"]
 
 [[book]]
-title = "Practices of an Agile Developer "
+title = "Practices of an Agile Developer"
 isbn = "9780974514086"
 authors = "Subramaniam, V.; Hunt, A."
 publisher = "Pragmatic Bookshelf"
@@ -79,9 +81,12 @@ year = "2006"
 link = "https://pragprog.com/titles/pad/practices-of-an-agile-developer/"
 image = "agile_dev_venkat.jpg"
 description = """
-Describes the personal experiences and thoughts on acting in an _agile_ manner.
-Other than most books on the topic, dr. Subramaniam and mr. Hunt dive into the dark side of working in a corporate environment.
-They offer the reader a bunch of, sometimes hard-to-swallow, advices from their personal experiences. Above all, this book inspires readers to do the best they can given the circumstances.
+In "Practices of an Agile Developer," authors Dr. Venkat Subramaniam and Mr. Andy Hunt offer readers a unique perspective on Agile development.
+Unlike many other books on the subject, this book delves into the complexities of working within a corporate environment. Drawing from their personal experiences,
+Subramaniam and Hunt provide a series of candid, and at times, challenging pieces of advice.
+<br /><br />
+Through their insights, readers gain a deeper understanding of the Agile mindset and are inspired to excel within the constraints of their circumstances.
+This book not only offers valuable practical advice but also encourages individuals to strive for excellence in the ever-evolving world of software development.
 """
 levels = ["intermediate", "niche"]
 
@@ -95,10 +100,13 @@ year = "2016"
 link = "https://www.goodreads.com/book/show/27036528-ego-is-the-enemy"
 image = "ego_enemy.jpg"
 description = """
-A modern view on the stoic principles of being true to yourself, and dealing with adversity.
-Holiday manages to engage the reader using memorable historical figures to illustrate how success can be the downfall of a persons character.
-The books contains inspirational succes stories, as well as cautionary tales. After reading the book, you will see your decisions in a new light, and you will be invited to answer the question:
-__"Do I want to do something meaningful, or do I want to be important?"__.
+In "Ego Is the Enemy", Holiday presents a contemporary exploration of Stoic principles,
+emphasizing the importance of authenticity and resilience when faced with adversity.
+Holiday weaves a compelling narrative by drawing on the stories of historical figures to illustrate how unchecked success can corrupt one's character.
+<br /><br />
+The book is a mix of inspirational success stories and cautionary tales, offering readers a fresh perspective on their own decisions.
+After reading "Ego Is the Enemy," individuals are encouraged to reflect on a fundamental question: "Do I aspire to do something meaningful, or do I seek to be important?".
+This thought-provoking book challenges readers to examine their ambitions and the role of ego in their pursuit of success and fulfillment.
 """
 levels = ["novice"]
 

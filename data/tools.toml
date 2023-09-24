@@ -56,3 +56,15 @@ description = """
 A self-hosted personal storage system. Designed to be modular, users can spin up their own office-like server environment to keep their notes,
 documents, pictures, and messages. Various options for hosting are available.
 """
+
+[[tool]]
+name = "Firefly III"
+authors = "Cole, J."
+link = "https://www.firefly-iii.org/"
+image = "firefly-3.png"
+description = """
+A free and open source personal finance manager. Features data imports for well-known banks, allows for an easy overview of various accounts,
+let's you organize expenses according to categories, and provides an easy way to set budgets for yourself.
+You can host Firefly yourself on a webserver, or run it on your local machine. Docker images are available to get your personal accounting system up and running quickly.
+"""
+

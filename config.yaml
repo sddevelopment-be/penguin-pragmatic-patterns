@@ -162,3 +162,13 @@ params:
 #            link: /short-form
 #          - text: Long reads
 #            link: /long-form
+
+## Integrations and services
+services:
+  rss:
+    limit: 42
+
+author:
+  email: stijn@sddevelopment.be
+  name: Stijn Dejongh
+copyright: © 2023 SD Development, BV.

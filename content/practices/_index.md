@@ -1,6 +1,7 @@
 +++
 aliases = ["patterns"]
 title = "Practices"
+outputs = ['html', 'rss']
 +++
 
 Similarly to concepts, sharing practices with people helps to create a shared understanding. It can be helpful to groups to refer to practices by their name, enabling more efficient communication.

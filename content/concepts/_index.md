@@ -1,6 +1,7 @@
 +++
 aliases = ["concepts"]
 title = "Concepts"
+outputs = ['html', 'rss']
 +++
 
 When you talk to people, you rely on a shared understanding of the language and terminology you use.

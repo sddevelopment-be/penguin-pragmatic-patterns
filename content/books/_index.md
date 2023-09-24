@@ -1,6 +1,7 @@
 +++
 aliases = ["bibliography"]
 title = "Bibliography"
+outputs = ['html', 'rss'] 
 +++
 
 If you enjoy learning and reading, one of the best sections in each book is the bibliography.

@@ -11,6 +11,7 @@ tags = [
 ]
 uuid="97067bdd-7268-4098-ae66-7d4c3ea19fb2"
 aliases=["97067bdd-7268-4098-ae66-7d4c3ea19fb2"]
+pubdate="2023-09-15"
 +++
 
 {{<quote text=`

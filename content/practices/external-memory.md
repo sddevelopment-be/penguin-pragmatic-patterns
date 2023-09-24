@@ -12,6 +12,7 @@ tags = [
 ]
 uuid="18091885-3e43-43f5-a0f7-bcb6c625612b"
 aliases=["18091885-3e43-43f5-a0f7-bcb6c625612b"]
+pubdate="2023-08-23"
 +++
 
 ![./free-mind.gif >](/images/practices/free-mind.gif)

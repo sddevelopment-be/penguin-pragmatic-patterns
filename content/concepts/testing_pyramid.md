@@ -16,7 +16,7 @@ pubdate="2023-09-25"
 
 ## Description
 
-
+{{< image src="/images/concepts/testing_pyramid.png" alt="The testing pyramid" >}}
 
 ## References
 

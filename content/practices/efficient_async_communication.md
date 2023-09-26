@@ -125,3 +125,8 @@ You can see the revised conversation in the image below:
   isbn="9780201835953"
   publisher="Addison-Wesley Professional"
   link="https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month" >}}
+* {{<reference author="May, J.; et al."
+    year="2022"
+    title="No Hello!"
+    site="nohello.net"
+    link="https://nohello.net/en/" >}}

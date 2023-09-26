@@ -49,3 +49,8 @@
     object-fit: contain;
     cursor: zoom-in;
 }
+
+.text_image a img {
+    max-height: 65rem;
+    max-width: 50rem;
+}

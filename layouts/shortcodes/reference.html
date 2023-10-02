@@ -13,14 +13,14 @@
 
 {{ if $site}}
     <div class="reference">
-        {{ $author }} ({{ $year}}). {{ $title }}. {{$site}}. <a href="{{ $link }}" target="_blank" rel="noreferrer"> {{$link}}</a>.
+        {{ $author }} ({{ $year}}). {{ $title }}. {{$site}}. <br /><a href="{{ $link }}" target="_blank" rel="noreferrer"> {{$link}}</a>.
     </div>
 {{else if $publication}}
     <div class="reference">
-        {{ $author }} ({{ $year}}). {{ $title }}. {{$publication}}{{if $volume}}, {{$volume}}{{end}}. <a href="{{ $link }}" target="_blank" rel="noreferrer"> {{$link}}</a>.
+        {{ $author }} ({{ $year}}). {{ $title }}. {{$publication}}{{if $volume}}, {{$volume}}{{end}}. <br /><a href="{{ $link }}" target="_blank" rel="noreferrer"> {{$link}}</a>.
     </div>
 {{else}}
     <div class="reference">
-        {{ $author }} ({{ $year}}). {{ $title }}. {{ if $publisher }} {{ if $loc }}{{ $loc }}:{{ end }} {{ $publisher }}. {{if $isbn }}isbn: {{$isbn}}. {{ end }} {{ end }} {{if $link}} <a href="{{$link}}" target="_blank" rel="noreferrer">{{$link}}</a>.{{end}}
+        {{ $author }} ({{ $year}}). {{ $title }}. {{ if $publisher }} {{ if $loc }}{{ $loc }}:{{ end }} {{ $publisher }}. {{if $isbn }}isbn: {{$isbn}}. {{ end }} {{ end }} {{if $link}} <br /><a href="{{$link}}" target="_blank" rel="noreferrer">{{$link}}</a>.{{end}}
     </div>
 {{end}}

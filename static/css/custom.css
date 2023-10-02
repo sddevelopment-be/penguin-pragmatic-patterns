@@ -64,3 +64,27 @@ body {
 .hero-link {
     margin: 0.45rem 1.25rem;
 }
+
+.content ul {
+    margin-top: 0.45rem;
+}
+
+.content ul li {
+    margin-bottom: 1.25rem;
+}
+
+.content a {
+    color: #b56f07;
+    font-weight: 600;
+}
+
+.content a:hover {
+    color: #f39200;
+    font-weight: 600;
+}
+
+.content .reference a {
+    font-size: 0.925rem;
+    text-transform: uppercase;
+    font-weight: 600;
+}

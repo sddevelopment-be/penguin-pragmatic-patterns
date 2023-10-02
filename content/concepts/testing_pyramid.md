@@ -1,7 +1,7 @@
 +++
 title = "The Testing Pyramid"
 author = "Stijn Dejongh"
-description = "Overview of the diffrent types of tests, their definitions, and their relative differences in scope and feedback speed."
+description = "The testing pyramid categorizes software tests ranging from isolated (fast, less realistic) to integrated (slow, more realistic)."
 type = "concept"
 categories = [
     "software development",
@@ -14,29 +14,46 @@ aliases = ["6169f9c0-dfe0-49b1-b459-acf01ac69c40"]
 pubdate = "2023-10-01"
 +++
 
-Think of tests as a bunch of experiments. Just like in science, we set out to prove a hypothesis. In the case of software development, our
-hypothesis is: "this code does what I want it to do". Writing tests is a semi-formal way to prove that the actual behaviour of our code is what
-we expect it to be.
+Think of tests as a series of experiments in the world of software development. Just like scientists aim to prove their hypotheses, software
+developers set out to prove that their code does precisely what it's intended to do. Writing tests is our semi-formal way of ensuring that the
+actual behavior of our code aligns with our expectations.
 
-Software is created by combining numerous small building blocks, and arranging them in such a way that makes the resulting system behave the way
-we want it to[^1]. We want to make sure that our building blocks behave the way we want them to. While this does not guarantee to make the
-combination of these blocks work perfectly, working with broken tools will guarantee the resulting system does not work.
-In short: testing the different components of your system does not guarantee success. Not validating them does guarantee failure.
+Software development involves combining numerous small building blocks, arranging them in a way that molds the system into the desired behavior[^1].
+Each of these building blocks must behave as intended. While validating individual components doesn't guarantee the perfect functioning of the
+overall system, neglecting this step almost certainly guarantees failure.
 
-There are numerous ways of validating the behaviour of software. These can range from highly isolated tests, verifying only a very small chunck
-of the codebase, to having a user feedback form in the software, and letting your users inform you of any issues they encounter.
+There are various ways to validate software behavior, ranging from highly isolated tests that scrutinize small code segments to user feedback forms,
+where users report any issues they encounter.
 
 ## Description
 
-The testing pyramid displays different types of test. These are ordered top-to-bottom from "more integrated" to "more isolated".
-Tests that are more isolated are generally easier to create, as there is less work needed to set up the context for the experiment.
+Imagine a pyramid that categorizes different types of tests. These categories are organized from "more integrated" at the top to "more isolated" at
+the bottom.
 
 {{< image src="/images/concepts/testing_pyramid.png" alt="The testing pyramid" >}}
 
+**Isolated tests** are the most straight-forward to create, since they require minimal set-up effort.
+They are fast to write and fast to execute. However, isolated tests are the most artificial type of tests, as they are the furthest removed from
+replicating real-world usage scenarios.
+
+**Integrated tests**, on the other hand, are the most life-like scenario's we can create, simulating real-world usage. However, they demand
+substantial setup effort, making them more time-consuming and expensive to create and slower to execute.
+
+As a developer, you must make a trade-off decision: "How much feedback speed and implementation time am I willing to sacrifice in exchange for
+additional realism?"
+
+{{<tip text=`
+The testing pyramid provides insight into various test types, but it doesn't imply that you should use all of them or that some are inherently
+better than others. Like many aspects of software development, your choice should align with your specific context.
+
+A recommended heuristic is to **aim for the fastest possible feedback loop.**
+` >}}
+
 ## Detailed Description
 
-* **Function/Method tests**: The lowest level of tests. These verify the behaviour of a single (public) method. These tests are usually employed 
-  to validate a tricky bit of logic, or to make sure exceptional cases are handled properly.
+* **Function/Method tests**: The lowest level of tests. These verify the behaviour of a single (public) method. Method-level tests are highly
+  isolated, and provide the fastest feedback[^2]. These tests are usually employed to validate tricky bits of core logic, or to make sure
+  exceptional cases are handled properly.
 * **Unit tests**:
 * **Acceptance tests**:
 * **Integration tests**:
@@ -79,6 +96,6 @@ Tests that are more isolated are generally easier to create, as there is less wo
   site="Software Engineer Daily"
   link="https://softwareengineeringdaily.com/2019/08/28/facebook-engineering-process-with-kent-beck" >}}
 
-
-[^1]: Decomposing functionality into smaller blocks is often called "divide and conquer", referencing Caesar's famous strategy in The Gallic 
+[^1]: Decomposing functionality into smaller blocks is often called "divide and conquer", referencing Caesar's famous strategy in The Gallic
 Wars (58-50 BC).
+[^2]: Apart from compilation errors, that is.

@@ -137,11 +137,11 @@ params:
           - text: Learning
             link: /chapters/learning
           - text: Productivity
-            link: /chapters/
-          - text: Software development
-            link: /chapters/
-          - text: Communication
-            link: /chapters/
+            link: /chapters/productivity
+#          - text: Software development
+#            link: /chapters/
+#          - text: Communication
+#            link: /chapters/
       column2:
         title: "Extra stuff"
         links:

@@ -9,3 +9,6 @@ Groups of people often resort to using jargon, which is specialized language ref
 more efficient. However, using jargon can create a communication gap between those who are familiar with it and those who are not.
 In this context, creating a structured way of representing knowledge by visualizing ideas and how they relate to one another can be helpful. By
 creating a "map" of concepts, we can better understand and share them with others.
+<br /><br />
+To stay up to date with the latest additions to these concepts, subscribe to the <a href="./index.xml" target="_blank">RSS feed</a> in your
+favorite feed reader.

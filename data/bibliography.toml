@@ -375,6 +375,7 @@ image = "refactoring.jpg"
 description = """
 """
 levels = ["novice", "reference"]
+draft = true
 
 [[book]]
 title = "Team Topologies: Organizing Business and Technology Teams for Fast Flow"
@@ -388,6 +389,7 @@ image = "team_topologies.jpg"
 description = """
 """
 levels = ["advanced", "reference"]
+draft = true
 
 [[book]]
 title = "A Common-Sense Guide to Data Structures and Algorithms: Level Up Your Core Programming Skills"
@@ -401,3 +403,4 @@ image = "data_structures.jpg"
 description = """
 """
 levels = ["novice", "reference"]
+draft = true

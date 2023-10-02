@@ -1,17 +1,17 @@
 +++
 title = "The Testing Pyramid"
 author = "Stijn Dejongh"
-description = ""
+description = "Overview of the diffrent types of tests, their definitions, and their relative differences in scope and feedback speed."
 type = "concept"
 categories = [
     "software development",
 ]
 tags = [
-    "software development", "testing"
+    "software development", "testing", "overview"
 ]
 uuid = "6169f9c0-dfe0-49b1-b459-acf01ac69c40"
 aliases = ["6169f9c0-dfe0-49b1-b459-acf01ac69c40"]
-pubdate = "2023-09-25"
+pubdate = "2023-10-01"
 +++
 
 Think of tests as a bunch of experiments. Just like in science, we set out to prove a hypothesis. In the case of software development, our
@@ -27,7 +27,6 @@ There are numerous ways of validating the behaviour of software. These can range
 of the codebase, to having a user feedback form in the software, and letting your users inform you of any issues they encounter.
 
 ## Description
-
 
 The testing pyramid displays different types of test. These are ordered top-to-bottom from "more integrated" to "more isolated".
 Tests that are more isolated are generally easier to create, as there is less work needed to set up the context for the experiment.

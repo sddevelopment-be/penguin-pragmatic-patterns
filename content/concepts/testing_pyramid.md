@@ -51,19 +51,28 @@ A recommended heuristic is to **aim for the fastest possible feedback loop.**
 
 ## Detailed Description
 
-* **Function/Method tests**: The lowest level of tests. These verify the behaviour of a single (public) method. Method-level tests are highly
-  isolated, and provide the fastest feedback[^2]. These tests are usually employed to validate tricky bits of core logic, or to make sure
-  exceptional cases are handled properly.
-* **Unit tests**: These test a particular "unit of work", meaning a set of methods or classes that provide one cohesive, and encapsulated,  
-  functionality to the rest of the system. Method level tests are a sub-set of unit tests, where the unit of work is as granular as can be. We
-  make the distinction between method-level tests and unit tests[^3], to emphasize the fact that unit tests can encompas multiple classes and
-  methods. However, unit tests stick to validating one main functionality, and test them in isolation. Meaning there should be little need to
-  stub/mock external functionality.
-* **Acceptance tests**:
-* **Integration tests**:
-* **Smoke tests**:
+* **Function/Method tests**: These tests focus on verifying the behavior of individual methods, offering fast and highly isolated feedback. They are
+  typically used to validate core logic and handle exceptional cases.
+
+* **Unit tests**: Testing specific "units of work," which can encompass a set of methods or classes providing cohesive functionality to the system.
+  While method-level tests are a subset of unit tests, the latter can involve multiple classes and methods, focusing on one main functionality while
+  testing in isolation, minimizing the need for external functionality stubbing/mocking[^3].
+
+* **Acceptance tests**: These determine when a particular feature is ready for deployment, spanning across multiple units to ensure correct
+  implementation. It's good practice to cover both expected "happy flow" and main "exception flow" cases in these tests. They are sometimes referred
+  to as "service tests," "contract tests," or "customer tests" in specific architectures, where external interactions are stubbed out, but internal
+  code is used.
+
+* **Integration tests**: These validate the connection to external systems, typically via a test implementation or a low-footprint approach.
+  Integration tests are slower and more resource-intensive due to increased setup requirements. It's advisable to limit the use of integration tests
+  to specific cases[^3].
+
+* **Smoke tests**: Performed during system launch to ensure every component initializes correctly. They are not meant to test functionality but
+  rather to provide minimal validation that the system is operational. Smoke tests are often executed before resource-intensive tests. If smoke
+  tests fail, it indicates an issue during system initialization, and running further tests would be inefficient until the system stabilizes.
+
 * **E2E tests**:
-* **Performance tests**:
+* **Performance tests**: Also known as "load tests".
 * **UI tests**:
 * **Exploratory tests**:
 * **Recovery tests**:
@@ -102,8 +111,6 @@ A recommended heuristic is to **aim for the fastest possible feedback loop.**
 
 [^1]: Decomposing functionality into smaller blocks is often called "divide and conquer", referencing Caesar's famous strategy in The Gallic
 Wars (58-50 BC).
-
-[^2]: Apart from compilation errors, that is.
 
 [^3]: Being too strict in your definition of "Unit Tests" can lead to difficult-to-maintain code, as it commonly pushes people towards
 structural testing (i.e. verifying a certain method calls another method). This will make future refactoring and restructuring a lot more

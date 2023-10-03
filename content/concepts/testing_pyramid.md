@@ -54,7 +54,11 @@ A recommended heuristic is to **aim for the fastest possible feedback loop.**
 * **Function/Method tests**: The lowest level of tests. These verify the behaviour of a single (public) method. Method-level tests are highly
   isolated, and provide the fastest feedback[^2]. These tests are usually employed to validate tricky bits of core logic, or to make sure
   exceptional cases are handled properly.
-* **Unit tests**:
+* **Unit tests**: These test a particular "unit of work", meaning a set of methods or classes that provide one cohesive, and encapsulated,  
+  functionality to the rest of the system. Method level tests are a sub-set of unit tests, where the unit of work is as granular as can be. We
+  make the distinction between method-level tests and unit tests[^3], to emphasize the fact that unit tests can encompas multiple classes and
+  methods. However, unit tests stick to validating one main functionality, and test them in isolation. Meaning there should be little need to
+  stub/mock external functionality.
 * **Acceptance tests**:
 * **Integration tests**:
 * **Smoke tests**:
@@ -98,4 +102,10 @@ A recommended heuristic is to **aim for the fastest possible feedback loop.**
 
 [^1]: Decomposing functionality into smaller blocks is often called "divide and conquer", referencing Caesar's famous strategy in The Gallic
 Wars (58-50 BC).
+
 [^2]: Apart from compilation errors, that is.
+
+[^3]: Being too strict in your definition of "Unit Tests" can lead to difficult-to-maintain code, as it commonly pushes people towards
+structural testing (i.e. verifying a certain method calls another method). This will make future refactoring and restructuring a lot more
+difficult. In general, write your tests as if you are unaware of the internal structure of your code. If you decide to extract part of the
+functionality in a class to a composite object (helper class), there should be no effect on your test suite.

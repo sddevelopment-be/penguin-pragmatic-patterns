@@ -404,3 +404,17 @@ description = """
 """
 levels = ["novice", "reference"]
 draft = true
+
+[[book]]
+title = "Think Faster, Talk Smarter"
+isbn = "9781668010303"
+authors = "Abrahams, M."
+publisher = "S&S/Simon Element"
+location = ""
+year = "2023"
+link = "https://www.goodreads.com/book/show/101144770-think-faster-talk-smarter"
+image = "think_talk.jpg"
+description = """
+"""
+levels = ["beginner", "mixed"]
+draft = true

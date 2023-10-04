@@ -86,11 +86,28 @@ A recommended heuristic is to **aim for the fastest possible feedback loop.**
   results and maintains its intended appearance. However, UI tests are challenging to set up, have a lengthy execution time, and are known for their
   fragility, as even minor alterations to the UI structure can lead to test failures[^3].
 
-* **Exploratory tests**:
+* **Exploratory tests**: These are manual tests aimed at uncovering unexpected behaviors or system properties that may not have been previously
+  known. They are designed to reveal unusual situations, such as using extreme or nonsensical values, and are best conducted by individuals who were
+  not directly involved in the system's creation to avoid unintentional bias towards expected behaviors.
 
-* **Recovery tests**:
+* **Recovery tests**: In simple terms, recovery tests involve intentionally disrupting (either partially or entirely) your system and observing how
+  it recovers. The recovery process can be performed manually or automatically. Think of these tests as a fire drill for your software systems,
+  helping assess their resilience.
 
-* **User feedback**:
+* **User feedback**: While not always included in traditional testing approaches, user feedback is an invaluable source of insights. It provides
+  information on how real end-users interact with your system, which features are meaningful to them, and common issues they encounter. However,
+  this type of feedback typically occurs at the end of a release cycle and may not always be reliable.
+
+## Summary
+
+The Testing Pyramid categorizes various test types, ranging from isolated tests that provide fast, highly focused feedback to integrated tests that
+simulate real-world scenarios but demand more setup effort. Developers must strike a balance between feedback speed and realism when choosing the
+right tests for their context. 
+
+The pyramid offers a versatile framework, with different test types serving specific purposes, from function/method
+tests for core logic validation to end-to-end tests for comprehensive system validation. Additionally, user-interface tests, exploratory tests, 
+recovery tests, and user feedback play crucial roles in uncovering unexpected behaviors and gathering valuable insights, though they come with their unique challenges. By
+Understanding these testing categories, software teams can craft effective testing strategies that enhance software quality.
 
 ## References
 
@@ -134,4 +151,5 @@ functionality in a class to a composite object (helper class), there should be n
 [^3]: The most common web=based UI test frameworks work by parsing their html DOM-tree and using identifiers or position-based
 logic to perform user interaction. If you make some visual changes to your web application, such as moving a menu around, or changing the order
 of elements, these tests tend to break in spectacular fashion. As they are difficult to set-up and maintain, and tend to result in false-negative
-issue reports, developers tend to avoid using them. Take a look at [cypress.io](https://www.cypress.io/) or [selenium.dev](https://www.selenium.dev/) if you are interested in learning more about this type of tests.
+issue reports, developers tend to avoid using them. Take a look at [cypress.io](https://www.cypress.io/)
+or [selenium.dev](https://www.selenium.dev/) if you are interested in learning more about this type of tests.

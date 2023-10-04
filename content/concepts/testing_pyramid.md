@@ -56,7 +56,7 @@ A recommended heuristic is to **aim for the fastest possible feedback loop.**
 
 * **Unit tests**: Testing specific "units of work," which can encompass a set of methods or classes providing cohesive functionality to the system.
   While method-level tests are a subset of unit tests, the latter can involve multiple classes and methods, focusing on one main functionality while
-  testing in isolation, minimizing the need for external functionality stubbing/mocking[^3].
+  testing in isolation, minimizing the need for external functionality stubbing/mocking[^2].
 
 * **Acceptance tests**: These determine when a particular feature is ready for deployment, spanning across multiple units to ensure correct
   implementation. It's good practice to cover both expected "happy flow" and main "exception flow" cases in these tests. They are sometimes referred
@@ -65,7 +65,7 @@ A recommended heuristic is to **aim for the fastest possible feedback loop.**
 
 * **Integration tests**: These validate the connection to external systems, typically via a test implementation or a low-footprint approach.
   Integration tests are slower and more resource-intensive due to increased setup requirements. It's advisable to limit the use of integration tests
-  to specific cases[^3].
+  to specific cases.
 
 * **Smoke tests**: Performed during system launch to ensure every component initializes correctly. They are not meant to test functionality but
   rather to provide minimal validation that the system is operational. Smoke tests are often executed before resource-intensive tests. If smoke
@@ -84,7 +84,7 @@ A recommended heuristic is to **aim for the fastest possible feedback loop.**
   through its graphical user interface (if available). These tests require specialized tooling, such as browser-control software, to be executed
   automatically. UI tests mimic user behavior by navigating through the user interface, verifying that the UI accurately displays the expected
   results and maintains its intended appearance. However, UI tests are challenging to set up, have a lengthy execution time, and are known for their
-  fragility, as even minor alterations to the UI structure can lead to test failures[^4].
+  fragility, as even minor alterations to the UI structure can lead to test failures[^3].
 
 * **Exploratory tests**:
 
@@ -126,12 +126,12 @@ A recommended heuristic is to **aim for the fastest possible feedback loop.**
 [^1]: Decomposing functionality into smaller blocks is often called "divide and conquer", referencing Caesar's famous strategy in The Gallic
 Wars (58-50 BC).
 
-[^3]: Being too strict in your definition of "Unit Tests" can lead to difficult-to-maintain code, as it commonly pushes people towards
+[^2]: Being too strict in your definition of "Unit Tests" can lead to difficult-to-maintain code, as it commonly pushes people towards
 structural testing (i.e. verifying a certain method calls another method). This will make future refactoring and restructuring a lot more
 difficult. In general, write your tests as if you are unaware of the internal structure of your code. If you decide to extract part of the
 functionality in a class to a composite object (helper class), there should be no effect on your test suite.
 
-[^4]: The most common web=based UI test frameworks work by parsing their html DOM-tree and using identifiers or position-based
+[^3]: The most common web=based UI test frameworks work by parsing their html DOM-tree and using identifiers or position-based
 logic to perform user interaction. If you make some visual changes to your web application, such as moving a menu around, or changing the order
 of elements, these tests tend to break in spectacular fashion. As they are difficult to set-up and maintain, and tend to result in false-negative
 issue reports, developers tend to avoid using them. Take a look at [cypress.io](https://www.cypress.io/) or [selenium.dev](https://www.selenium.dev/) if you are interested in learning more about this type of tests.

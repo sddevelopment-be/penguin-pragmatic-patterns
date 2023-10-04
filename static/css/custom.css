@@ -88,3 +88,7 @@ body {
     text-transform: uppercase;
     font-weight: 600;
 }
+
+.content .footnotes ol li {
+    margin: 1.25rem 0;
+}

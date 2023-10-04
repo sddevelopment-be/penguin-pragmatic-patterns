@@ -71,11 +71,25 @@ A recommended heuristic is to **aim for the fastest possible feedback loop.**
   rather to provide minimal validation that the system is operational. Smoke tests are often executed before resource-intensive tests. If smoke
   tests fail, it indicates an issue during system initialization, and running further tests would be inefficient until the system stabilizes.
 
-* **E2E tests**:
-* **Performance tests**: Also known as "load tests".
-* **UI tests**:
+* **E2E tests**: End-to-end tests validate the entire system in a live environment, ensuring that all modules interact as intended and accurately
+  representing real-world use cases. While valuable for comprehensive validation, they require a substantial setup time and have a longer execution
+  duration, resulting in delayed feedback, particularly for complex systems. These tests generally do not validate user interface logic and
+  visuals, but stick to using machine-to-machine entrypoints.
+
+* **Performance tests**: Also referred to as "load tests," these are end-to-end (E2E) tests that employ large volumes of data or requests to
+  evaluate the system's behavior when subjected to heavy usage. Performance tests serve as a means to assess the runtime efficiency of your systems,
+  particularly under extreme conditions, and to identify bottlenecks or performance degradation within the system.
+
+* **UI tests**: User Interface tests, often abbreviated as UI tests, belong to the category of end-to-end tests that interact with the system
+  through its graphical user interface (if available). These tests require specialized tooling, such as browser-control software, to be executed
+  automatically. UI tests mimic user behavior by navigating through the user interface, verifying that the UI accurately displays the expected
+  results and maintains its intended appearance. However, UI tests are challenging to set up, have a lengthy execution time, and are known for their
+  fragility, as even minor alterations to the UI structure can lead to test failures[^4].
+
 * **Exploratory tests**:
+
 * **Recovery tests**:
+
 * **User feedback**:
 
 ## References
@@ -116,3 +130,8 @@ Wars (58-50 BC).
 structural testing (i.e. verifying a certain method calls another method). This will make future refactoring and restructuring a lot more
 difficult. In general, write your tests as if you are unaware of the internal structure of your code. If you decide to extract part of the
 functionality in a class to a composite object (helper class), there should be no effect on your test suite.
+
+[^4]: The most common web=based UI test frameworks work by parsing their html DOM-tree and using identifiers or position-based
+logic to perform user interaction. If you make some visual changes to your web application, such as moving a menu around, or changing the order
+of elements, these tests tend to break in spectacular fashion. As they are difficult to set-up and maintain, and tend to result in false-negative
+issue reports, developers tend to avoid using them. Take a look at [cypress.io](https://www.cypress.io/) or [selenium.dev](https://www.selenium.dev/) if you are interested in learning more about this type of tests.

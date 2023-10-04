@@ -1,0 +1,146 @@
+.recommendation-wrapper {
+    margin-top: 3.75rem;
+}
+
+.recommendation-item {
+    display: flex;
+    flex-flow: column wrap;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    padding: 1.25rem 0.25rem;
+    margin-bottom: 1.25rem;
+    background: #fefefe;
+    border-radius: 1.75rem;
+    max-width: 100%;
+    border-bottom: 1px solid #dcdcdc;
+    border-right: 1px solid #dcdcdc;
+}
+
+.recommendation-item .recommendation-title {
+    border-bottom: 1px dashed #f39200;
+    text-transform: capitalize;
+    color: #030d12;
+    font-size: 1.25rem;
+    padding: 0.25rem 2.75rem;
+    max-width: 98%;
+}
+
+@media (max-width: 800px) {
+    .recommendation-item .recommendation-title {
+        padding: 0 0.125rem;
+    }
+}
+
+.recommendation-item .recommendation-content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    max-width: 100%;
+    padding: 0.75rem;
+    color: #0b1d27;
+}
+
+.recommendation-item .recommendation-content .recommendation-image {
+    display: flex;
+    max-width: 10em;
+    justify-content: flex-start;
+    align-content: center;
+    flex-wrap: nowrap;
+    padding: 0.75rem;
+    margin: 0.125rem 0.5rem;
+    flex-direction: column;
+}
+
+.recommendation-item .recommendation-content .recommendation-image img {
+    max-width: 8em;
+    max-height: 14em;
+    border: 2px solid #f39200;
+}
+
+.recommendation-item .recommendation-content .recommendation-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding: 0 0.75rem 0.75rem;
+    max-width: 100%;
+}
+
+.recommendation-item .recommendation-content b {
+    color: #1f3c48;
+    font-stretch: extra-condensed;
+    text-transform: uppercase;
+    font-weight: 350;
+    font-size: 0.75rem;
+}
+
+.recommendation-item .recommendation-content .recommendation-text {
+    font-size: 1.125rem;
+}
+
+.recommendation-item .recommendation-content .recommendation-text .text-item {
+    margin: 0.65rem 0;
+}
+.recommendation-item .recommendation-content .recommendation-text .reference {
+    font-size: 0.95rem;
+}
+
+.recommendation-item .recommendation-content .recommendation-text .link {
+    font-size: 0.95rem;
+    word-break: break-all;
+}
+
+.recommendation-item .recommendation-content .recommendation-text .link a {
+    color: #9c671a;
+}
+
+.recommendation-item .recommendation-content .recommendation-text .link a:hover {
+    border-bottom: 1px solid #f39200;
+}
+
+@media (max-width: 800px) {
+    .recommendation-item .recommendation-content {
+        flex-direction: column;
+    }
+
+    .recommendation-item .recommendation-content .recommendation-image {
+        flex-direction: row;
+        justify-content: center;
+        margin: auto;
+    }
+}
+
+.recommendation-item .recommendation-content .recommendation-text .author {
+    font-size: 0.85rem;
+}
+
+.recommendation-item .recommendation-content .recommendation-text .recommendation-tags {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    padding: 0 0.35rem;
+    max-width: 100%;
+    margin-top: 0.65rem;
+}
+
+.recommendation-item .recommendation-content .recommendation-text .recommendation-tags .recommendation-tag {
+    display: block;
+    font-size: 0.75rem;
+    font-weight: bold;
+    padding: 0.35rem 0.75rem;
+    color: #fefefe;
+    background: #6d7a8a;
+    text-transform: uppercase;
+    border-radius: 0.25rem;
+    margin: 0 0.5rem 0.5rem 0;
+}
+
+.recommendation-item .recommendation-content .recommendation-text .recommendation-tags b {
+    display: block;
+    width: 100%;
+    margin: auto 0.75rem 0.45rem 0;
+}
+

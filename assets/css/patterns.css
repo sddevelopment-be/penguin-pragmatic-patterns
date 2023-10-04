@@ -1,0 +1,81 @@
+.pattern_container {
+    background-color: rgba(255, 248, 244, 0.55);
+    border-top: 2px solid #F39200;
+    margin-bottom: 3.5rem;
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: start;
+    flex-basis: 350px;
+}
+
+@media (max-width: 800px) {
+    .pattern_container {
+        flex-direction: column;
+    }
+}
+
+.pattern-card {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+    width: 24rem;
+    align-content: normal;
+    background-image: linear-gradient(#fefefe, #fdfdfd);
+    border-radius: 3px;
+    margin: 0.5rem;
+    border: 1px solid rgba(224, 205, 193, 0.99);
+    padding: 1.125rem;
+}
+
+@media (max-width: 800px) {
+    .pattern-card {
+        width: 20rem;
+    }
+}
+
+.pattern-card .card-icon img {
+    height: 120px;
+    margin-top: 20px;
+}
+
+.pattern-card .card-title h4 {
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 0.25rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #1e1e3f;
+}
+
+.pattern-card .card-text {
+    color: #2c3e50;
+    padding-left: 0.25rem;
+    font-size: 1rem;
+    flex-grow: 1;
+}
+
+.pattern-card .card-text p {
+    padding: 0 0.5rem;
+    margin-top: 1.25rem;
+}
+
+.pattern-card .card-text p .item-title {
+    color: #1f3c48;
+    font-stretch: extra-condensed;
+    text-transform: uppercase;
+    font-weight: 350;
+    font-size: 0.75rem;
+    display: block;
+    margin-bottom: 0.125rem;
+}
+
+.pattern-card .card-action {
+    margin-top: 1.25rem;
+    margin-bottom: 0.25rem;
+}
+
+.pattern-list {
+    margin-top: 3.75rem;
+}

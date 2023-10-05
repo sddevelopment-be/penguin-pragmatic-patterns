@@ -131,8 +131,8 @@
     font-size: 0.75rem;
     font-weight: bold;
     padding: 0.35rem 0.75rem;
-    color: #fefefe;
-    background: #6d7a8a;
+    color: #7d4b01;
+    background: #f9d3b265;
     text-transform: uppercase;
     border-radius: 0.25rem;
     margin: 0 0.5rem 0.5rem 0;
@@ -143,4 +143,3 @@
     width: 100%;
     margin: auto 0.75rem 0.45rem 0;
 }
-

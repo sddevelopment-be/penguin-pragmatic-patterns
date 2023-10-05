@@ -8,7 +8,7 @@ categories = [
     "learning",
 ]
 tags = [
-    "learning", "ideation", "research", "diagramming"
+    "ideation", "research", "diagramming"
 ]
 displaySection = "learning"
 uuid="71261539-4964-4575-820b-1b155d1b6071"

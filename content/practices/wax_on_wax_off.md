@@ -8,10 +8,11 @@ categories = [
     "learning",
 ]
 tags = [
-    "mastery", "repetition", "directed learning"
+    "training", "repetition", "directed learning"
 ]
 uuid="8c3df901-eefa-4dd1-970a-c00cf3b55379"
 aliases=["8c3df901-eefa-4dd1-970a-c00cf3b55379"]
+ammerse = { agile = 0, minimal = 0, maintainable = 0, environmental = 0, reachable = 0, solvable = 0, extensible = 0 }
 pubdate="2023-09-10"
 +++
 

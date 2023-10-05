@@ -7,7 +7,7 @@ categories = [
     "software development",
 ]
 tags = [
-    "software development", "testing", "overview"
+    "testing", "overview", "trade-off"
 ]
 uuid = "6169f9c0-dfe0-49b1-b459-acf01ac69c40"
 aliases = ["6169f9c0-dfe0-49b1-b459-acf01ac69c40"]

@@ -8,7 +8,7 @@ categories = [
     "communication",
 ]
 tags = [
-    "communication", "debate", "conflict resolution"
+    "debate", "conflict"
 ]
 uuid="579ac780-4588-4896-9203-901e112f7498"
 aliases=["579ac780-4588-4896-9203-901e112f7498"]

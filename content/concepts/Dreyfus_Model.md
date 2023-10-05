@@ -7,7 +7,7 @@ categories = [
     "learning",
 ]
 tags = [
-    "personal growth", "learning", "mastery", "skill levels"
+    "growth", "mastery", "skill levels"
 ]
 uuid="98cc5f46-409b-44df-9fb8-fb1d881970b5"
 aliases=["98cc5f46-409b-44df-9fb8-fb1d881970b5"]

@@ -107,3 +107,19 @@
     border-radius: 0.25rem;
     margin: 0 0.5rem 0.5rem 0;
 }
+
+.ammerse-values {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0.125rem;
+    padding: 0.5rem;
+}
+
+.ammerse-values .ammerse-value {
+    display: block;
+    font-size: 0.95rem;
+    padding: 0.25rem;
+    border: 1px solid #7d4b0165;
+    border-radius: 0.25rem;
+}

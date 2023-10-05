@@ -1,0 +1,20 @@
+{{ $value := .value }}
+{{ $delta := $value.delta }}
+{{ $name := $value.name }}
+{{ $icon := newScratch }}
+{{ $mapping := dict "agile" "A" "minimal" "Mi" "maintainable" "M" "environmental" "E" "reachable" "R" "solvable" "S" "extensible" "Ex" }}
+
+{{ $abbrev := index $mapping $name}}
+
+{{ $icon.Set "val" "fas fa-arrows-left-right"}}
+{{ if and (ge $delta -0.5) (lt $delta 0) }}
+    {{ $icon.Set "val" "fas fa-angle-down"}}
+{{ else if (lt $delta -0.5)}}
+    {{ $icon.Set "val" "fas fa-angle-double-down"}}
+{{ else if and (gt $delta 0) (le $delta 0.5)}}
+    {{ $icon.Set "val" "fas fa-angle-up"}}
+{{ else if (gt $delta 0.5)}}
+    {{ $icon.Set "val" "fas fa-angle-double-up"}}
+{{ end }}
+
+<span class="ammerse-value">{{$abbrev}}: <i class='{{$icon.Get "val"}}'></i></span>

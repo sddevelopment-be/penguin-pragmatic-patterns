@@ -19,6 +19,11 @@
                 {{if .Ammerse}}
                     <p>
                         <span class="item-title">AMMERSE values:</span>
+                        <div class="ammerse-values">
+                            {{ range $value := .Ammerse}}
+                                {{partial "ammerse.html" (dict "value" $value )}}
+                            {{ end }}
+                        </div>
                     </p>
 
                 {{ end }}

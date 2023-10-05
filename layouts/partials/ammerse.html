@@ -7,14 +7,19 @@
 {{ $abbrev := index $mapping $name}}
 
 {{ $icon.Set "val" "fas fa-arrows-left-right"}}
+{{ $icon.Set "style" "base"}}
 {{ if and (ge $delta -0.5) (lt $delta 0) }}
     {{ $icon.Set "val" "fas fa-angle-down"}}
+    {{ $icon.Set "style" "down"}}
 {{ else if (lt $delta -0.5)}}
     {{ $icon.Set "val" "fas fa-angle-double-down"}}
+    {{ $icon.Set "style" "double-down"}}
 {{ else if and (gt $delta 0) (le $delta 0.5)}}
     {{ $icon.Set "val" "fas fa-angle-up"}}
+    {{ $icon.Set "style" "up"}}
 {{ else if (gt $delta 0.5)}}
     {{ $icon.Set "val" "fas fa-angle-double-up"}}
+    {{ $icon.Set "style" "double-up"}}
 {{ end }}
 
-<span class="ammerse-value">{{$abbrev}}: <i class='{{$icon.Get "val"}}'></i></span>
+<span class='ammerse-value  {{$icon.Get "style"}}'>{{$abbrev}}: <i class='{{$icon.Get "val"}}'></i></span>

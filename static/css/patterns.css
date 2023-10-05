@@ -43,10 +43,11 @@
 
 .pattern-card .card-title h4 {
     font-family: 'Open Sans', sans-serif;
-    padding-top: 0.25rem;
     font-size: 1.2rem;
     font-weight: 600;
     color: #1e1e3f;
+    padding: 0 0.75rem;
+    margin-bottom: 0.5rem;
 }
 
 .pattern-card .card-text {
@@ -62,6 +63,9 @@
 .pattern-card .card-text p {
     padding: 0 0.5rem;
     margin-top: 1.25rem;
+    /*text-align: justify;*/
+    text-justify: inter-word;
+    word-break: break-word;
 }
 
 .pattern-card .card-text p .item-title {
@@ -75,8 +79,9 @@
 }
 
 .pattern-card .card-action {
-    margin-top: 1.25rem;
+    padding-top: 0.5rem;
     margin-bottom: 0.25rem;
+    margin-top: 0.45rem;
     display: flex;
     justify-content: end;
 }
@@ -90,10 +95,10 @@
     flex-direction: row;
     align-content: flex-start;
     flex-wrap: wrap;
-    padding: 0 0.35rem;
+    padding: 0 0.75rem;
     max-width: 100%;
     margin-top: 0.75rem;
-    margin-bottom: 0.125rem;
+    margin-bottom: 0.25rem;
 }
 
 .pattern-tags .pattern-tag {
@@ -108,6 +113,13 @@
     margin: 0 0.5rem 0.5rem 0;
 }
 
+.fa-circle-info {
+    font-size: 0.75rem;
+    vertical-align: super;
+    color: #7d4b01;
+    margin-right: 0.25rem;
+}
+
 .ammerse-values {
     display: flex;
     flex-direction: row;
@@ -120,6 +132,30 @@
     display: block;
     font-size: 0.95rem;
     padding: 0.25rem;
-    border: 1px solid #7d4b0165;
     border-radius: 0.25rem;
+}
+
+.base {
+    color: #7d4b0165;
+    border: 1px solid #7d4b0165;
+}
+
+.up {
+    color: #256f82;
+    border: 1px solid #256f8265;
+}
+
+.double-up {
+    color: #056780;
+    border: 1px solid #256f8265;
+}
+
+.down {
+    color: #ab101b;
+    border: 1px solid #ab101b65;
+}
+
+.double-down {
+    color: #ab101b;
+    border: 1px solid #ab101b65;
 }

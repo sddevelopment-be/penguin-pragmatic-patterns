@@ -13,6 +13,15 @@ tags = [
 displaySection = "learning"
 uuid="71261539-4964-4575-820b-1b155d1b6071"
 aliases=["71261539-4964-4575-820b-1b155d1b6071"]
+ammerse = [
+  {name = "agile", delta = "0"},
+  {name = "minimal", delta = "0"},
+  {name = "maintainable", delta = "1"},
+  {name = "environmental", delta = "0"},
+  {name = "reachable", delta = "0"},
+  {name = "solvable", delta = "0"},
+  {name = "extensible", delta = "0.5"},
+]
 pubdate="2023-09-05"
 +++
 

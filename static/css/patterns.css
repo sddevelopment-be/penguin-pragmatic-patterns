@@ -50,14 +50,25 @@
     margin-bottom: 0.5rem;
 }
 
+.pattern-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    height: 100%;
+}
+
+.card-stretch {
+    flex-grow: 1;
+}
+
 .pattern-card .card-text {
     color: #2c3e50;
     padding-left: 0.25rem;
     font-size: 1.125rem;
-    flex-grow: 1;
+    flex-grow: 0;
     display: flex;
     flex-direction: column;
-    justify-content: start;
 }
 
 .pattern-card .card-text p {
@@ -118,6 +129,10 @@
     vertical-align: super;
     color: #7d4b01;
     margin-right: 0.25rem;
+}
+
+.ammerse {
+    margin-top: 0.5rem;
 }
 
 .ammerse-values {

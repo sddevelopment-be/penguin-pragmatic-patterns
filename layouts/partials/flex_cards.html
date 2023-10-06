@@ -5,26 +5,30 @@
             <div class="card-title">
                 <a href="{{ .RelPermalink }}"><h4>{{ .Title }}</h4></a>
             </div>
-            {{ if .Tags}}
-            <div class="pattern-tags">
-                {{ range $tag := .Tags }}
-                <span class="pattern-tag">{{$tag}}</span>
-                {{end}}
-            </div>
-            {{ end }}
-            <div class="card-text">
-                {{if .Problem }}<p><span class="item-title">problem:</span>{{ .Problem }}</p> {{end}}
-                {{if .Description }}<p><span class="item-title">description:</span>{{ .Description }}</p> {{end}}
+            <div class="pattern-content" >
+                {{ if .Tags}}
+                <div class="pattern-tags">
+                    {{ range $tag := .Tags }}
+                    <span class="pattern-tag">{{$tag}}</span>
+                    {{end}}
+                </div>
+                {{ end }}
+                <div class="card-text">
+                    {{if .Problem }}<p><span class="item-title">problem:</span>{{ .Problem }}</p> {{end}}
+                    {{if .Description }}<p><span class="item-title">description:</span>{{ .Description }}</p> {{end}}
+                </div>
+                <div class="card-stretch"></div>
                 {{if .Ammerse}}
+                <div class="card-text ammerse">
                     <p>
-                        <span class="item-title">AMMERSE values <a href="https://www.ammerse.org/" target="_blank"><i class="fa-solid fa-circle-info"></i></a>:</span>
-                        <div class="ammerse-values">
-                            {{ range $value := .Ammerse}}
-                                {{partial "ammerse.html" (dict "value" $value )}}
-                            {{ end }}
-                        </div>
+                        <span class="item-title">AMMERSE values <a href="https://www.ammerse.org/" target="_blank" title="What is this?"><i class="fa-solid fa-circle-info"></i></a>:</span>
+                    <div class="ammerse-values">
+                        {{ range $value := .Ammerse}}
+                        {{partial "ammerse.html" (dict "value" $value )}}
+                        {{ end }}
+                    </div>
                     </p>
-
+                </div>
                 {{ end }}
             </div>
             <div class="card-action">

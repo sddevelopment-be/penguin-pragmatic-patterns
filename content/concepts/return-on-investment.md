@@ -7,7 +7,7 @@ categories = [
     "productivity",
 ]
 tags = [
-    "productivity", "management", "decision making"
+    "management", "decision making", "efficiency"
 ]
 uuid = "b86230c6-49fb-4792-9008-a5241c5cdcb2"
 aliases = ["b86230c6-49fb-4792-9008-a5241c5cdcb2"]

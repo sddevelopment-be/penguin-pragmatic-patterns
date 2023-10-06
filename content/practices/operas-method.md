@@ -13,6 +13,15 @@ tags = [
 displaySection = "productivity"
 uuid="47f32286-17b0-471e-90d6-eb0de9f60ac0"
 aliases=["47f32286-17b0-471e-90d6-eb0de9f60ac0"]
+ammerse = [
+  {name = "agile", delta = "0.5"},
+  {name = "minimal", delta = "0"},
+  {name = "maintainable", delta = "0"},
+  {name = "environmental", delta = "0"},
+  {name = "reachable", delta = "0"},
+  {name = "solvable", delta = "1"},
+  {name = "extensible", delta = "1"},
+]
 pubdate="2023-08-26"
 +++
 

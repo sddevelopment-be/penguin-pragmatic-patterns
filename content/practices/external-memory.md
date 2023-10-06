@@ -12,6 +12,15 @@ tags = [
 ]
 uuid="18091885-3e43-43f5-a0f7-bcb6c625612b"
 aliases=["18091885-3e43-43f5-a0f7-bcb6c625612b"]
+ammerse = [
+  {name = "agile", delta = "0"},
+  {name = "minimal", delta = "0.5"},
+  {name = "maintainable", delta = "1"},
+  {name = "environmental", delta = "0"},
+  {name = "reachable", delta = "0"},
+  {name = "solvable", delta = "0"},
+  {name = "extensible", delta = "1"},
+]
 pubdate="2023-08-23"
 +++
 

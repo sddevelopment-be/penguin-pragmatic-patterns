@@ -21,11 +21,11 @@
     display: flex;
     flex-flow: column nowrap;
     justify-content: start;
-    width: 24rem;
+    width: 26rem;
     align-content: normal;
     background-image: linear-gradient(#fefefe, #fdfdfd);
     border-radius: 3px;
-    margin: 0.5rem;
+    margin: 0.35rem;
     border: 1px solid rgba(224, 205, 193, 0.99);
     padding: 1.125rem;
 }
@@ -43,22 +43,40 @@
 
 .pattern-card .card-title h4 {
     font-family: 'Open Sans', sans-serif;
-    padding-top: 0.25rem;
     font-size: 1.2rem;
     font-weight: 600;
     color: #1e1e3f;
+    padding: 0 0.75rem;
+    margin-bottom: 0.5rem;
+}
+
+.pattern-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0;
+    height: 100%;
+}
+
+.card-stretch {
+    flex-grow: 1;
 }
 
 .pattern-card .card-text {
     color: #2c3e50;
     padding-left: 0.25rem;
-    font-size: 1rem;
-    flex-grow: 1;
+    font-size: 1.125rem;
+    flex-grow: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .pattern-card .card-text p {
     padding: 0 0.5rem;
     margin-top: 1.25rem;
+    /*text-align: justify;*/
+    text-justify: inter-word;
+    word-break: break-word;
 }
 
 .pattern-card .card-text p .item-title {
@@ -72,10 +90,87 @@
 }
 
 .pattern-card .card-action {
-    margin-top: 1.25rem;
+    padding-top: 0.5rem;
     margin-bottom: 0.25rem;
+    margin-top: 0.45rem;
+    display: flex;
+    justify-content: end;
 }
 
 .pattern-list {
     margin-top: 3.75rem;
+}
+
+.pattern-tags {
+    display: flex;
+    flex-direction: row;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    padding: 0 0.75rem;
+    max-width: 100%;
+    margin-top: 0.75rem;
+    margin-bottom: 0.25rem;
+}
+
+.pattern-tags .pattern-tag {
+    display: block;
+    font-size: 0.65rem;
+    font-weight: bold;
+    padding: 0.35rem 0.75rem;
+    color: #7d4b01;
+    background: #f9d3b265;
+    text-transform: uppercase;
+    border-radius: 0.25rem;
+    margin: 0 0.5rem 0.5rem 0;
+}
+
+.fa-circle-info {
+    font-size: 0.75rem;
+    vertical-align: super;
+    color: #7d4b01;
+    margin-right: 0.25rem;
+}
+
+.ammerse {
+    margin-top: 0.5rem;
+}
+
+.ammerse-values {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0.125rem;
+    padding: 0.5rem;
+}
+
+.ammerse-values .ammerse-value {
+    display: block;
+    font-size: 0.95rem;
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+}
+
+.base {
+    color: #7d4b0165;
+    border: 1px solid #7d4b0165;
+}
+
+.up {
+    color: #256f82;
+    border: 1px solid #256f8265;
+}
+
+.double-up {
+    color: #056780;
+    border: 1px solid #256f8265;
+}
+
+.down {
+    color: #ab101b;
+    border: 1px solid #ab101b65;
+}
+
+.double-down {
+    color: #ab101b;
+    border: 1px solid #ab101b65;
 }

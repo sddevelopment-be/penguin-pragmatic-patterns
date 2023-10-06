@@ -3,15 +3,38 @@
     {{- range sort $patterns "Title" "Asc"}}
         <div class="pattern-card revealOnScroll delay-1" data-animation="fadeInLeft">
             <div class="card-title">
-                <h4>{{ .Title }}</h4>
+                <a href="{{ .RelPermalink }}"><h4>{{ .Title }}</h4></a>
             </div>
-            <div class="card-text">
-                {{if .Problem }}<p><span class="item-title">problem:</span>{{ .Problem }}</p> {{end}}
-                {{if .Description }}<p><span class="item-title">description:</span>{{ .Description }}</p> {{end}}
+            <div class="pattern-content" >
+                {{ if .Tags}}
+                <div class="pattern-tags">
+                    {{ range $tag := .Tags }}
+                    <span class="pattern-tag">{{$tag}}</span>
+                    {{end}}
+                </div>
+                {{ end }}
+                <div class="card-text">
+                    {{if .Problem }}<p><span class="item-title">problem:</span>{{ .Problem }}</p> {{end}}
+                    {{if .Description }}<p><span class="item-title">description:</span>{{ .Description }}</p> {{end}}
+                </div>
+                <div class="card-stretch"></div>
+                {{if .Ammerse}}
+                <div class="card-text ammerse">
+                    <p>
+                        <span class="item-title">AMMERSE values <a href="https://www.ammerse.org/" target="_blank" title="What is this?"><i class="fa-solid fa-circle-info"></i></a>:</span>
+                    <div class="ammerse-values">
+                        {{ range $value := .Ammerse}}
+                        {{partial "ammerse.html" (dict "value" $value )}}
+                        {{ end }}
+                    </div>
+                    </p>
+                </div>
+                {{ end }}
             </div>
             <div class="card-action">
-                <a href="{{ .RelPermalink }}" class="button btn-align-md raised">Read more</a>
+                <a href="{{ .RelPermalink }}" class="button btn-align-md secondary-btn raised">Read more</a>
             </div>
+
         </div>
     {{- end }}
 {{ else }}

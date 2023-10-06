@@ -8,10 +8,19 @@ categories = [
     "communication",
 ]
 tags = [
-    "communication", "debate", "conflict resolution"
+    "debate", "conflict"
 ]
 uuid="579ac780-4588-4896-9203-901e112f7498"
 aliases=["579ac780-4588-4896-9203-901e112f7498"]
+ammerse = [
+  {name = "agile", delta = "0.5"},
+  {name = "minimal", delta = "0"},
+  {name = "maintainable", delta = "0"},
+  {name = "environmental", delta = "0.5"},
+  {name = "reachable", delta = "0"},
+  {name = "solvable", delta = "1"},
+  {name = "extensible", delta = "0"},
+]
 pubdate="2023-09-10"
 +++
 

@@ -11,7 +11,16 @@ tags = [
     "elegance", "KISS", "YAGNI", "complexity"
 ]
 uuid="94a558cd-4e86-4814-a5e9-d6ecafcb0d6b"
-aliases=["94a558cd-4e86-4814-a5e9-d6ecafcb0d6b"]
+aliases=["94a558cd-4e86-4814-a5e9-d6ecafcb0d6b"]https://github.com/
+ammerse = [
+  {name = "agile", delta = "0"},
+  {name = "minimal", delta = "1"},
+  {name = "maintainable", delta = "0"},
+  {name = "environmental", delta = "0"},
+  {name = "reachable", delta = "1"},
+  {name = "solvable", delta = "0"},
+  {name = "extensible", delta = "-0.5"},
+]
 pubdate="2023-09-16"
 +++
 

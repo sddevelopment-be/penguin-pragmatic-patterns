@@ -1,7 +1,7 @@
 ![./src/pp_open-learning.png](old_source/pp_open-learning.png)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-5-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 A learning and development repository, aimed to share knowledge with other technical professionals.
@@ -68,10 +68,10 @@ If you wish to contribute in any way to this initiative, please take a look at
 our [Contribution Guide](docs/CONTRIBUTING.md).
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 
-<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <table>
   <tr>
     <td align="center"><a href="http://sddevelopment.be/"><img src="https://avatars.githubusercontent.com/u/25401297?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Stijn Dejongh</b></sub></a><br /><a href="#tool-stijn-dejongh" title="Tools">🔧</a> <a href="https://github.com/sddevelopment-be/penguin-pragmatic-patterns/commits?author=stijn-dejongh" title="Documentation">📖</a> <a href="#design-stijn-dejongh" title="Design">🎨</a></td>
@@ -79,10 +79,12 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/gustinsi"><img src="https://avatars.githubusercontent.com/u/73937666?v=4?s=100" width="100px;" alt=""/><br /><sub><b>gustinsi</b></sub></a><br /><a href="https://github.com/sddevelopment-be/penguin-pragmatic-patterns/pulls?q=is%3Apr+reviewed-by%3Agustinsi" title="Reviewed Pull Requests">👀</a></td>
     <td align="center"><a href="https://github.com/cAzare"><img src="https://avatars.githubusercontent.com/u/50981285?v=4?s=100" width="100px;" alt=""/><br /><sub><b>cAzare</b></sub></a><br /><a href="https://github.com/sddevelopment-be/penguin-pragmatic-patterns/pulls?q=is%3Apr+reviewed-by%3AcAzare" title="Reviewed Pull Requests">👀</a> <a href="https://github.com/sddevelopment-be/penguin-pragmatic-patterns/commits?author=cAzare" title="Documentation">📖</a> <a href="https://github.com/sddevelopment-be/penguin-pragmatic-patterns/commits?author=cAzare" title="Tests">⚠️</a></td>
     <td align="center"><a href="http://sch3lp.github.io"><img src="https://avatars.githubusercontent.com/u/648703?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Tim Schraepen</b></sub></a><br /><a href="https://github.com/sddevelopment-be/penguin-pragmatic-patterns/commits?author=Sch3lp" title="Code">💻</a> <a href="https://github.com/sddevelopment-be/penguin-pragmatic-patterns/commits?author=Sch3lp" title="Documentation">📖</a> <a href="#ideas-Sch3lp" title="Ideas, Planning, & Feedback">🤔</a></td>
+    <td align="center"><a href="https://github.com/Vankerkom"><img src="https://avatars.githubusercontent.com/u/16082198?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Daan Vankerkom</b></sub></a><br /><a href="#design-vankerkom" title="Design">🎨</a></td>
   </tr>
 </table>
 
-<!-- ALL-CONTRIBUTORS-LIST:END -->
 <!-- markdownlint-restore -->
 <!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
 

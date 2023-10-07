@@ -58,15 +58,15 @@
       ]
     },
     {
-      "login": "openai",
-      "name": "ChatGPT, a language model trained by OpenAI.",
-      "avatar_url": "./src/chat_avatar.png",
-      "profile": "https://chat.openai.com",
+      "login": "Vankerkom",
+      "name": "Daan Vankerkom",
+      "avatar_url": "https://avatars.githubusercontent.com/u/16082198?v=4",
+      "profile": "https://github.com/Vankerkom",
       "contributions": [
-        "proofreading",
-        "editorial changes"
+        "design"
+        "review"
       ]
-    }
+    },
   ],
   "contributorsPerLine": 7,
   "projectName": "penguin-pragmatic-patterns",

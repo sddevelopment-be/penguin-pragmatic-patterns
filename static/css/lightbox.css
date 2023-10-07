@@ -93,3 +93,13 @@ transform-origin: 50% 50%;
     -ms-user-select: none;      
     user-select: none;
 }
+
+lightbox-image {
+    max-height: 65rem;
+    max-width: 50rem;
+    margin: 3.65rem auto;
+    text-align: center;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}

@@ -1,4 +1,4 @@
-.gallery {
+.img-gallery {
     width: 100%;
     display: flex;
     flex-flow: row wrap;
@@ -9,14 +9,14 @@
     border-radius: 0.75rem;
 }
 
-.gallery figure {
+.img-gallery figure {
     background: rgba(254, 244, 238, 0.99);
     margin-right: 0.25rem;
     margin-left: 0.25rem;
     margin-bottom: 1.25rem;
 }
 
-.gallery figure img{
+.img-gallery figure img{
     padding: 0.75rem 0.75rem 0rem;
     max-height: 65rem;
     max-width: 50rem;
@@ -25,7 +25,7 @@
     object-fit: contain;
 }
 
-.gallery figcaption {
+.img-gallery figcaption {
     text-align: center;
     color: #1f3c48;
     background: rgba(254, 244, 238, 0.99);
@@ -53,4 +53,16 @@
 .text_image a img {
     max-height: 65rem;
     max-width: 50rem;
+}
+
+@media (max-width: 800px) {
+    .text_image {
+        max-width: 360px;
+        max-height: 480px;
+    }
+
+    .text_image a img {
+        max-width: 360px;
+        max-height: 480px;
+    }
 }

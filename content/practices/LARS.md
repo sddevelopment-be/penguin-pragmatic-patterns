@@ -1,18 +1,18 @@
 +++
-title = "Template name"
+title = "Be like LARS"
 author = "Stijn Dejongh"
 draft = true
 problem = ""
 description = ""
 type = "practice"
 categories = [
-    "software development",
+    "communication",
 ]
 tags = [
-    "remembering", "tracking", "tracability", "log"
+    "understanding", "empathy"
 ]
-uuid="GENERATE-ME!"
-aliases=["uuid"]
+uuid="843eb99c-3d89-4333-bb0f-d8efc4916b49"
+aliases=["843eb99c-3d89-4333-bb0f-d8efc4916b49"]
 ammerse = [
     {name = "agile", delta = "0"},
     {name = "minimal", delta = "0"},
@@ -22,6 +22,7 @@ ammerse = [
     {name = "solvable", delta = "0"},
     {name = "extensible", delta = "0"},
 ]
+pubdate="2023-10-07"
 +++
 
 ## Problem Statement

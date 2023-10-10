@@ -53,6 +53,7 @@ You have difficulties connecting with others, and find yourself disengaged durin
 
 * Your own thoughts are overwhelming, making it difficult to empathize with others.
 * Formal situations where monologue-style speaking is expected (e.g., work presentations or job interviews).
+* Your main job is to solve various problems quickly, and without much interaction (e.g. remote tech support).
 * You do not particularly care for the person you are conversing with.
 * Feeling rushed during the conversation.
 

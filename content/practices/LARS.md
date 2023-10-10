@@ -58,8 +58,7 @@ You have difficulties connecting with others, and find yourself disengaged durin
 
 ## Solution
 
-{{< image src="/images/practices/LARS_technique.png"  alt="Overview of the LARS acronym, showing you care." caption="LARS: showing you are present
-and caring" >}}
+{{< image src="/images/practices/LARS_technique.png"  alt="Overview of the LARS acronym, showing you care." caption="LARS: showing you are present and caring" >}}
 
 Instead of defaulting to responding, practice empathetic listening using the LARS acronym:
 

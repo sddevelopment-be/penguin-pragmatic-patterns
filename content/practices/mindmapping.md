@@ -107,3 +107,12 @@ barrier is quite low. Having a digital copy of your mindmap around can come in h
 ---- Finding gaps
 @endmindmap
 ````
+
+## References
+
+* {{<reference author="Hunt, A."
+  year="2008"
+  title="Pragmatic Thinking and Learning: Refactor Your wetware"
+  publisher="The Pragmatic Bookshelf"
+  isbn="9781934356050"
+  link="https://pragprog.com/titles/ahptl/pragmatic-thinking-and-learning/" >}}

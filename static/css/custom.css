@@ -1,6 +1,12 @@
+@font-face {
+    font-family: literta;
+    url('/fonts/literta-font')
+}
+
 body {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1.25em;
+    font-family: literta, "Gill Sans", 'Open Sans', sans-serif;
+    font-size: 1.35em;
+    line-height: 2.25rem;
 }
 
 .wrapped-columns {
@@ -91,4 +97,11 @@ body {
 
 .content .footnotes ol li {
     margin: 1.25rem 0;
+}
+
+.content em {
+    font-style: italic;
+    color: #3c5d79;
+    font-family: Georgia, serif;
+    font-size: 1.125rem;
 }

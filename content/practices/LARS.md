@@ -75,7 +75,7 @@ Instead of defaulting to responding, practice empathetic listening using the LAR
   formulations to do so: _"If I understood correctly ..."_, _"Let me get this straight, you are saying that..."_, _"So as I understood it, you ... .
   Does that sound right?"_, _"I will try and summarize to see if I understood correctly, ..."_.
 
-* **(S)uggest:** NAfter understanding their perspective and needs, offer suggestions or assistance thoughtfully. Ensure your suggestions align with
+* **(S)uggest:** After understanding their perspective and needs, offer suggestions or assistance thoughtfully. Ensure your suggestions align with
   their concerns without trivializing their feelings or experiences. Little is more painful than sharing your feelings, only to be told that you are
   likely overreacting. Avoid using trivialising words, and platitudes, such as _"just"_, _"easy"_, _"we've all been there"_, _"that's nothing, you
   should hear what I went through"_.

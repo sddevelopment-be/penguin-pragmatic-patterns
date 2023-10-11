@@ -18,10 +18,10 @@
 
 .img-gallery figure img{
     padding: 0.75rem 0.75rem 0rem;
-    max-height: 65rem;
-    max-width: 50rem;
-    width: auto;
+    max-width: 100%;
     height: auto;
+    align-content: center;
+    display: block;
     object-fit: contain;
 }
 

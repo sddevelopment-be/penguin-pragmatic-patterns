@@ -373,9 +373,14 @@ year = "2012"
 link = "https://www.goodreads.com/book/show/18624706-refactoring"
 image = "refactoring.jpg"
 description = """
+The authors provide invaluable insights into achieving well-structured code safely, even in the context of modern Integrated Development Environments (IDEs).
+While the book's examples use Java, the underlying concepts are language-agnostic.
+Whether you work with a programming language or a scripting language, the principles and techniques discussed here are universally applicable.
+<br /><br />
+For those with an particularly strong aversion to Java, a recent edition of the book showcases the same techniques using TypeScript.
+Whichever edition you choose, "Refactoring" offers timeless wisdom for enhancing your code quality.
 """
-levels = ["novice", "reference"]
-draft = true
+levels = ["novice", "mixed", "reference"]
 
 [[book]]
 title = "Team Topologies: Organizing Business and Technology Teams for Fast Flow"

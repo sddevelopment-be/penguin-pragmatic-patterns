@@ -9,7 +9,7 @@
                 {{ if .Tags}}
                 <div class="pattern-tags">
                     {{ range $tag := .Tags }}
-                    <span class="pattern-tag">{{$tag}}</span>
+                    <span class="pattern-tag"><a href='{{ "/tags/" | relLangURL}}{{ $tag | urlize}}'>{{$tag}}</a></span>
                     {{end}}
                 </div>
                 {{ end }}

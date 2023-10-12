@@ -124,6 +124,14 @@
     margin: 0 0.5rem 0.5rem 0;
 }
 
+.pattern-tags .pattern-tag a {
+    color: #7d4b01;
+}
+
+.pattern-tags .pattern-tag a:hover {
+    color: #f39200;
+}
+
 .fa-circle-info {
     font-size: 0.75rem;
     vertical-align: super;

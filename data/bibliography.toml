@@ -18,7 +18,7 @@ It provides actionable advice and timeless wisdom that empowers developers to wr
 maintainable code and become more effective in their work (as well as maintain their sanity while doing so).
 """
 levels = ["intermediate", "mixed"]
-tags = ["software development", "mindset"]
+tags = ["software development", "mindset", "organizing"]
 
 [[book]]
 title = "Apprenticeship Patterns"
@@ -73,7 +73,7 @@ Covey's book is an invitation for introspection, encouraging readers to reflect 
 personal growth and effectiveness.
 """
 levels = ["mixed", "novice", "intermediate"]
-tags = ["productivity"]
+tags = ["productivity", "goals", "prioritization", "time management", "organizing"]
 
 [[book]]
 title = "Practices of an Agile Developer"
@@ -130,7 +130,7 @@ A no-nonsense approach to take control of your time. Allen shares his tips to ke
 emphasises the need for a system you can trust, and empowers you to implement a way of organizing your life and commitments that fits your preferences.
 """
 levels = ["novice"]
-tags = ["productivity", "time management"]
+tags = ["productivity", "prioritization", "goals", "organizing"]
 
 [[book]]
 title = "Pragmatic Thinking and Learning: Refactor Your wetware"
@@ -147,7 +147,7 @@ As a professional, your main weapon is your ability to learn. Unfortunatly, a lo
 This book helps you, by giving you a plethora of time-proven learning techniques, and some tools to discover your own preferences.
 """
 levels = ["novice"]
-tags = ["learning", "mindset"]
+tags = ["learning", "mindset", "directed learning"]
 
 [[book]]
 title = "Nonviolent Communication: A Language of Life"
@@ -231,7 +231,7 @@ aiming to help people that have difficulty with casual conversation to up their 
 While cynical at times, the book offers clear, practical advice on how to be a good conversationalist.
 """
 levels = ["novice", "niche"]
-tags = ["communication"]
+tags = ["communication", "goals"]
 
 [[book]]
 title = "The Five Dysfunctions of a Team: A Leadership Fable"
@@ -248,7 +248,7 @@ By focussing on the dark side of team dynamics, Lencioni informs us of what to l
 individuals eventually cascades into a lack of overall results. A must-read book for team leaders and team members alike.
 """
 levels = ["intermediate"]
-tags = ["team dynamics", "leadership", "corporate"]
+tags = ["team dynamics", "leadership", "corporate", "management"]
 
 [[book]]
 title = "Prisoners of Our Thoughts"
@@ -300,7 +300,7 @@ While the author mostly talks about software projects, the lessons and frustrati
 The book challenges readers to think about the sense and non-sense of generally held maxims, and strives to re-introduce some common-sense to project management.
 A prime example of this, is the saying: "hiring nine women will not get you a baby in one month".
 """
-levels = ["intermediate", "reference"]
+levels = ["intermediate", "reference", "time management", "management", "corporate"]
 
 [[book]]
 title = "Automate the Boring Stuff with Python"

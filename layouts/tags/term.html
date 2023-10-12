@@ -1,0 +1,55 @@
+{{ define "main" }}
+{{ partial "navbar.html" . }}
+{{ partial "navbar-clone.html" . }}
+
+{{ $tag := .Title}}
+
+<section class="section section-feature-grey is-medium" id="practices">
+    <div class="container">
+
+        <div class="content-wrapper">
+            <div class="column is-centered-tablet-portrait">
+                <h2 class="title section-title">
+                    Patterns: {{ .Title }}
+                </h2>
+            </div>
+            <div class="pattern-list">
+                <div class="wrapped-columns pattern_container">
+                    {{ $patterns := slice  }}
+                    {{ range where .Site.Pages ".Params.tags" "intersect" (slice $tag) }}
+                    {{ $ctx := dict
+                    "Date" .Date
+                    "Title" .Title
+                    "RelPermalink" .RelPermalink
+                    "Description"  .Description
+                    "Problem" .Params.problem
+                    "Categories" .Params.categories
+                    "Tags" .Params.tags
+                    "Ammerse" .Params.Ammerse
+                    }}
+                    {{ $patterns = $patterns | append $ctx }}
+                    {{ end }}
+                    {{ partial "flex_cards.html" (dict "context" . "patterns" $patterns) }}
+                </div>
+            </div>
+        </div>
+
+        <div class="content-wrapper">
+            <div class="column is-centered-tablet-portrait">
+                <h2 class="title section-title">
+                    Resources: {{ .Title }}
+                </h2>
+            </div>
+            <div class="pattern-list">
+                <div class="recommendation-wrapper">
+                    {{ range $book := (index .Site.Data "bibliography").book }}
+                        {{ if and (not $book.draft) (intersect $book.tags (slice $tag))}}
+                            {{ partial "book_biblio.html" (dict "book" $book) }}
+                        {{end}}
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{{ end }}

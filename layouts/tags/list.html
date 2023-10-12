@@ -21,9 +21,9 @@
             <div >
                 <ul class="tag-wrapper">
                     {{if .Data.Terms }}
-                    {{ range .Data.Terms.Alphabetical }}
-                    <li class="tag-block"><a href="{{ .Page.Permalink }}" class="tag-name">{{ .Page.Title }}</a> <span class="tag-count">{{ .Count }}</span></li>
-                    {{ end }}
+                        {{ range .Data.Terms.Alphabetical }}
+                            <li class="tag-block"><a href="{{ .Page.Permalink }}" class="tag-name">{{ .Page.Title }}</a> <span class="tag-count">{{ .Count }}</span></li>
+                        {{ end }}
                     {{ else }}
                         No content with tags found.
                     {{ end }}

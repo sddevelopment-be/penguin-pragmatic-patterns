@@ -89,6 +89,11 @@ body {
     font-weight: 600;
 }
 
+.reference {
+    max-width: 100%;
+    word-break: break-word;
+}
+
 .content .footnotes ol li {
     margin: 1.25rem 0;
 }

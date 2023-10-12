@@ -66,7 +66,6 @@ body {
     }
 }
 
-
 .hero-link {
     margin: 0.45rem 1.25rem;
 }
@@ -87,6 +86,11 @@ body {
 .content a:hover {
     color: #f39200;
     font-weight: 600;
+}
+
+.reference {
+    max-width: 100%;
+    word-break: break-word;
 }
 
 .content .reference a {

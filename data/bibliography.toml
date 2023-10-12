@@ -18,6 +18,7 @@ It provides actionable advice and timeless wisdom that empowers developers to wr
 maintainable code and become more effective in their work (as well as maintain their sanity while doing so).
 """
 levels = ["intermediate", "mixed"]
+tags = ["software development", "mindset"]
 
 [[book]]
 title = "Apprenticeship Patterns"
@@ -35,6 +36,7 @@ The book's unique structure presents these insights in the form of a pattern lis
 One particularly memorable pattern, 'Sweep the Floor,' underscores the importance of performing the 'grunt work' in order to be of immediate value to a team.
 """
 levels = ["novice", "reference"]
+tags = ["software development", "team dynamics"]
 
 [[book]]
 title = "New Programmer's Survival Manual: Navigate Your Workplace, Cube Farm, or Startup"
@@ -52,6 +54,7 @@ especially when you possess substantial technical expertise? Carter offers insig
 The book provides valuable guidance on seizing control of your career trajectory, equipping readers with tools to thrive and advance in the software development world.
 """
 levels = ["novice"]
+tags = ["software development", "carreer", "corporate"]
 
 [[book]]
 title = "The 7 Habits of Highly Effective People: Powerful Lessons in Personal Change"
@@ -70,6 +73,7 @@ Covey's book is an invitation for introspection, encouraging readers to reflect 
 personal growth and effectiveness.
 """
 levels = ["mixed", "novice", "intermediate"]
+tags = ["productivity"]
 
 [[book]]
 title = "Practices of an Agile Developer"
@@ -89,6 +93,7 @@ Through their insights, readers gain a deeper understanding of the Agile mindset
 This book not only offers valuable practical advice but also encourages individuals to strive for excellence in the ever-evolving world of software development.
 """
 levels = ["intermediate", "niche"]
+tags = ["software developer", "productivity", "corporate"]
 
 [[book]]
 title = "Ego Is the Enemy"
@@ -109,6 +114,7 @@ After reading "Ego Is the Enemy," individuals are encouraged to reflect on a fun
 This thought-provoking book challenges readers to examine their ambitions and the role of ego in their pursuit of success and fulfillment.
 """
 levels = ["novice"]
+tags = ["mindset", "philosophy"]
 
 [[book]]
 title = "Getting Things Done: The Art of Stress-Free Productivity"
@@ -124,6 +130,7 @@ A no-nonsense approach to take control of your time. Allen shares his tips to ke
 emphasises the need for a system you can trust, and empowers you to implement a way of organizing your life and commitments that fits your preferences.
 """
 levels = ["novice"]
+tags = ["productivity", "time management"]
 
 [[book]]
 title = "Pragmatic Thinking and Learning: Refactor Your wetware"
@@ -140,6 +147,7 @@ As a professional, your main weapon is your ability to learn. Unfortunatly, a lo
 This book helps you, by giving you a plethora of time-proven learning techniques, and some tools to discover your own preferences.
 """
 levels = ["novice"]
+tags = ["learning", "mindset"]
 
 [[book]]
 title = "Nonviolent Communication: A Language of Life"
@@ -156,6 +164,7 @@ While his verbal forms sound a bit artificial and forced, after some practise, y
 After all, what is the use in conversing if not to understand each other.
 """
 levels = ["novice"]
+tags = ["communication", "empathy"]
 
 [[book]]
 title = "Agile Conversations: Transform Your Conversations, Transform Your Culture"
@@ -172,6 +181,7 @@ Fredrick and Squirrel, hosts of the podcast `Troubleshooting Agile`, help the re
 The book is mostly targetting software professionals, though the techniques discussed are usable, and valuable, for anyone that spends most of their time working with other people.
 """
 levels = ["intermediate", "niche"]
+tags = ["communication", "learning"]
 
 [[book]]
 title = "The Secrets of Consulting: A Guide to Giving and Getting Advice Successfully"
@@ -187,6 +197,7 @@ Stories from the life of a consultant, with detailed descriptions of how the aut
 Includes such gems as: "whatever your client is doing, suggest they do the opposite", and "be sure to ask for a high fee, so you are taken more seriously".
 """
 levels = ["advanced", "niche"]
+tags = ["communication", "corporate", "consulting", "career"]
 
 [[book]]
 title = "Behind Closed Doors: Secrets of Great Management"
@@ -202,6 +213,7 @@ The story of an experienced manager, brought into a company to save it. The read
 Rothman manages to convey important good management practices in an elegant, and easily diggestible way.
 """
 levels = ["intermediate"]
+tags = ["communication", "corporate", "management", "leadership"]
 
 [[book]]
 title = "The Art of Captivating Conversation"
@@ -219,6 +231,7 @@ aiming to help people that have difficulty with casual conversation to up their 
 While cynical at times, the book offers clear, practical advice on how to be a good conversationalist.
 """
 levels = ["novice", "niche"]
+tags = ["communication"]
 
 [[book]]
 title = "The Five Dysfunctions of a Team: A Leadership Fable"
@@ -235,6 +248,7 @@ By focussing on the dark side of team dynamics, Lencioni informs us of what to l
 individuals eventually cascades into a lack of overall results. A must-read book for team leaders and team members alike.
 """
 levels = ["intermediate"]
+tags = ["team dynamics", "leadership", "corporate"]
 
 [[book]]
 title = "Prisoners of Our Thoughts"
@@ -252,6 +266,7 @@ Frankl's core tennet, __"No one can take away my choice over my own actions"__, 
 The authors do a fantastic job of describing both the man himself, and his philosophy.
 """
 levels = ["intermediate"]
+tags = ["mindset", "resilience", "philosophy"]
 
 [[book]]
 title = "Extreme Programming Explained: Embrace Change"

@@ -1,0 +1,45 @@
+{{ define "main" }}
+{{ partial "navbar.html" . }}
+{{ partial "navbar-clone.html" . }}
+
+<section class="section section-feature-grey is-medium" id="books">
+    <div class="container">
+        <div class="column is-centered-tablet-portrait">
+            <h1 class="title section-title">
+                {{ .Title }}
+            </h1>
+            <div class="divider"></div>
+        </div>
+
+        <div class="content-wrapper">
+
+            <div class="content">
+                {{ .Content }}
+            </div>
+            <br/><br/>
+
+            <div class="column is-centered-tablet-portrait">
+                <h1 class="title section-title">
+                    {{ .Content }}
+                </h1>
+                <div class="divider"></div>
+            </div>
+
+            <div class="tag-wrapper">
+                <ul>
+                    {{if .Data.Terms }}
+                    {{ range .Data.Terms.Alphabetical }}
+                        <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> {{ .Count }}</li>
+                    {{ end }}
+                    {{ else }}
+                        No content with tags found.
+                    {{ end }}
+                </ul>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+{{ end }}

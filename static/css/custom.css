@@ -109,3 +109,7 @@ body {
     font-family: Georgia, serif;
     font-size: 1.125rem;
 }
+
+.tag-wrapper {
+    margin-top: 3.75rem;
+}

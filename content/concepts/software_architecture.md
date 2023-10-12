@@ -7,7 +7,7 @@ categories = [
     "software development",
 ]
 tags = [
-    "architecure"
+    "architecture"
 ]
 uuid="3683719c-d1ff-4693-a5c5-d9eefb07e409"
 aliases=["3683719c-d1ff-4693-a5c5-d9eefb07e409"]

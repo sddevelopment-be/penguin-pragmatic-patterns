@@ -1,4 +1,43 @@
 .tag-wrapper {
-    margin-top: 3.75rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: fit-content;
+    justify-content: center;
 }
 
+@media (max-width: 800px) {
+    .tag-wrapper {
+        flex-direction: column;
+    }
+}
+
+.tag-block {
+    border: 2px solid #f39200;
+    border-radius: 0.25rem;
+    display: block;
+    width: 20rem;
+    height: fit-content;
+    margin: 0.95rem;
+    color: #7d4b01;
+    background: #f9d3b265;
+}
+
+.tag-name {
+    width: 85%;
+    color: #7d4b01;
+    display: inline-block;
+    padding: 0.25rem 1.25rem;
+    background: #f9d3b285;
+}
+
+.tag-count {
+    padding: 0.25rem;
+    text-align: right;
+    display: inline-block;
+    width: 10%;
+}
+
+.tag-wrapper a:hover {
+    color: #f39200;
+}

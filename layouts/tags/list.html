@@ -18,18 +18,11 @@
             </div>
             <br/><br/>
 
-            <div class="column is-centered-tablet-portrait">
-                <h1 class="title section-title">
-                    {{ .Content }}
-                </h1>
-                <div class="divider"></div>
-            </div>
-
-            <div class="tag-wrapper">
-                <ul>
+            <div >
+                <ul class="tag-wrapper">
                     {{if .Data.Terms }}
                     {{ range .Data.Terms.Alphabetical }}
-                        <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a> {{ .Count }}</li>
+                    <li class="tag-block"><a href="{{ .Page.Permalink }}" class="tag-name">{{ .Page.Title }}</a> <span class="tag-count">{{ .Count }}</span></li>
                     {{ end }}
                     {{ else }}
                         No content with tags found.

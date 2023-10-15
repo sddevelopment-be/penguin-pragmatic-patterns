@@ -300,7 +300,8 @@ While the author mostly talks about software projects, the lessons and frustrati
 The book challenges readers to think about the sense and non-sense of generally held maxims, and strives to re-introduce some common-sense to project management.
 A prime example of this, is the saying: "hiring nine women will not get you a baby in one month".
 """
-levels = ["intermediate", "reference", "time management", "management", "corporate"]
+levels = ["intermediate", "reference"]
+tags=["time management", "management", "corporate"]
 
 [[book]]
 title = "Automate the Boring Stuff with Python"
@@ -396,6 +397,20 @@ For those with an particularly strong aversion to Java, a recent edition of the 
 Whichever edition you choose, "Refactoring" offers timeless wisdom for enhancing your code quality.
 """
 levels = ["novice", "mixed", "reference"]
+
+[[book]]
+title = "Driving Technical Change"
+isbn = "9781934356609"
+authors = "Ryan, T."
+publisher = "The Pragmatic Bookshelf"
+location = ""
+year = "2019"
+link = "https://www.goodreads.com/book/show/44135420-team-topologies"
+image = "driving_tech_change.jpg"
+description = """
+
+"""
+levels = ["advanced"]
 
 [[book]]
 title = "Team Topologies: Organizing Business and Technology Teams for Fast Flow"

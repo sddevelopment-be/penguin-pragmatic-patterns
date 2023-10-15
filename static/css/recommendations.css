@@ -143,3 +143,11 @@
     width: 100%;
     margin: auto 0.75rem 0.45rem 0;
 }
+
+.recommendation-item .recommendation-content .recommendation-text .recommendation-tags .recommendation-tag a {
+    color: #7d4b01;
+}
+
+.recommendation-item .recommendation-content .recommendation-text .recommendation-tags .recommendation-tag a:hover {
+    color: #f39200;
+}

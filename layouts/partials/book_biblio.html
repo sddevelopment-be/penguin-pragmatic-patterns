@@ -9,6 +9,7 @@
 {{ $link := $book.link}}
 {{ $description := $book.description}}
 {{ $levels := $book.levels}}
+{{ $tags := $book.tags}}
 
 <div class="recommendation-item revealOnScroll delay-1" data-animation="fadeInLeft">
     <div class="recommendation-title">
@@ -41,12 +42,22 @@
                 <a href="{{ $link }}" target="_blank" rel="noreferrer">{{ $link }}</a>
             </div>
             {{end}}
-            <div class="recommendation-tags">
-                <b>complexity categories:</b>
-                {{ range $level := $levels }}
-                    <span class="recommendation-tag">{{$level}}</span>
-                {{end}}
-            </div>
+            {{ if $tags }}
+                <div class="recommendation-tags">
+                    <b>content categories:</b>
+                    {{ range $tag := $tags }}
+                    <span class="recommendation-tag"><a href='{{ "/tags/" | relLangURL}}{{ $tag | urlize}}'>{{$tag}}</a></span>
+                    {{end}}
+                </div>
+            {{ end }}
+            {{ if $levels }}
+                <div class="recommendation-tags">
+                    <b>complexity categories:</b>
+                    {{ range $level := $levels }}
+                        <span class="recommendation-tag">{{$level}}</span>
+                    {{end}}
+                </div>
+            {{ end }}
         </div>
     </div>
 </div>

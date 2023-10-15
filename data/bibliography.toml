@@ -36,7 +36,7 @@ The book's unique structure presents these insights in the form of a pattern lis
 One particularly memorable pattern, 'Sweep the Floor,' underscores the importance of performing the 'grunt work' in order to be of immediate value to a team.
 """
 levels = ["novice", "reference"]
-tags = ["software development", "team dynamics"]
+tags = ["software development", "team dynamics", "directed learning"]
 
 [[book]]
 title = "New Programmer's Survival Manual: Navigate Your Workplace, Cube Farm, or Startup"
@@ -114,7 +114,7 @@ After reading "Ego Is the Enemy," individuals are encouraged to reflect on a fun
 This thought-provoking book challenges readers to examine their ambitions and the role of ego in their pursuit of success and fulfillment.
 """
 levels = ["novice"]
-tags = ["mindset", "philosophy"]
+tags = ["mindset", "philosophy", "reflection"]
 
 [[book]]
 title = "Getting Things Done: The Art of Stress-Free Productivity"
@@ -147,7 +147,7 @@ As a professional, your main weapon is your ability to learn. Unfortunatly, a lo
 This book helps you, by giving you a plethora of time-proven learning techniques, and some tools to discover your own preferences.
 """
 levels = ["novice"]
-tags = ["learning", "mindset", "directed learning"]
+tags = ["learning", "mindset", "directed learning", "reflection", "efficiency", "prioritization"]
 
 [[book]]
 title = "Nonviolent Communication: A Language of Life"
@@ -164,7 +164,7 @@ While his verbal forms sound a bit artificial and forced, after some practise, y
 After all, what is the use in conversing if not to understand each other.
 """
 levels = ["novice"]
-tags = ["communication", "empathy"]
+tags = ["communication", "empathy", "team dynamics", "conflict"]
 
 [[book]]
 title = "Agile Conversations: Transform Your Conversations, Transform Your Culture"
@@ -181,7 +181,7 @@ Fredrick and Squirrel, hosts of the podcast `Troubleshooting Agile`, help the re
 The book is mostly targetting software professionals, though the techniques discussed are usable, and valuable, for anyone that spends most of their time working with other people.
 """
 levels = ["intermediate", "niche"]
-tags = ["communication", "learning"]
+tags = ["communication", "learning", "conflict"]
 
 [[book]]
 title = "The Secrets of Consulting: A Guide to Giving and Getting Advice Successfully"
@@ -213,7 +213,7 @@ The story of an experienced manager, brought into a company to save it. The read
 Rothman manages to convey important good management practices in an elegant, and easily diggestible way.
 """
 levels = ["intermediate"]
-tags = ["communication", "corporate", "management", "leadership"]
+tags = ["communication", "corporate", "management", "leadership", "team dynamics"]
 
 [[book]]
 title = "The Art of Captivating Conversation"
@@ -231,7 +231,7 @@ aiming to help people that have difficulty with casual conversation to up their 
 While cynical at times, the book offers clear, practical advice on how to be a good conversationalist.
 """
 levels = ["novice", "niche"]
-tags = ["communication", "goals"]
+tags = ["communication", "goals", "consulting"]
 
 [[book]]
 title = "The Five Dysfunctions of a Team: A Leadership Fable"
@@ -266,7 +266,7 @@ Frankl's core tennet, __"No one can take away my choice over my own actions"__, 
 The authors do a fantastic job of describing both the man himself, and his philosophy.
 """
 levels = ["intermediate"]
-tags = ["mindset", "resilience", "philosophy"]
+tags = ["mindset", "resilience", "decision making"]
 
 [[book]]
 title = "Extreme Programming Explained: Embrace Change"
@@ -284,6 +284,7 @@ This book popularized the ideas of "Test Driven Development" and "Pair Programmi
 and the technical practices that support them.
 """
 levels = ["intermediate", "reference"]
+tags = ["programming", "testing", "team dynamics", "efficiency"]
 
 [[book]]
 title = "The Mythical Man-Month: Essays on Software Engineering, Anniversary Edition"

@@ -301,7 +301,7 @@ The book challenges readers to think about the sense and non-sense of generally 
 A prime example of this, is the saying: "hiring nine women will not get you a baby in one month".
 """
 levels = ["intermediate", "reference"]
-tags=["time management", "management", "corporate"]
+tags = ["time management", "management", "corporate"]
 
 [[book]]
 title = "Automate the Boring Stuff with Python"
@@ -408,9 +408,15 @@ year = "2019"
 link = "https://www.goodreads.com/book/show/44135420-team-topologies"
 image = "driving_tech_change.jpg"
 description = """
-
+In 'Driving Technical Change,' the author addresses a common frustration among technologists – the challenge of persuading others to adopt their ideas for technical improvement.
+Ryan offers invaluable guidance on how to effectively present and package your suggestions to increase their chances of being accepted. He also highlights the importance of engaging with different types of individuals crucial for bringing your concepts to life.
+This book is a treasure trove of practical advice, making it an essential read for software developers with some experience. It goes beyond coding skills and shows how to expand your influence and contribute to your organization's success.
+<br /><br />
+If you are looking to take the enxt steps to advance your technological career, or enhance your team's performance, 'Driving Technical Change' is a recommended read.
+It empowers you to transition from merely being a capable programmer to becoming an invaluable asset in driving your team's overall performance."
 """
-levels = ["advanced"]
+levels = ["intermediate"]
+tags=["communication", "convincing", "change", "team dynamics"]
 
 [[book]]
 title = "Team Topologies: Organizing Business and Technology Teams for Fast Flow"

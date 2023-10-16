@@ -109,3 +109,7 @@ body {
     font-family: Georgia, serif;
     font-size: 1.125rem;
 }
+
+.highlight {
+    margin: 2.75rem 0;
+}

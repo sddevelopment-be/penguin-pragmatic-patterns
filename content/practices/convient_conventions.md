@@ -73,5 +73,32 @@ public void failSafe(boolean thePresidentIsDead){
 }
 ```
 
+The nukes will be launched, regardless of the president being alive or not.
+A simple log statement, combined with misleading indentation has set forth a thermonuclear apocalypse.
+
+
 ## References
 
+* {{<reference author="Hoover, D.; Oshineye, A."
+  year="2009"
+  title="Apprenticeship Patterns"
+  isbn="9780596518387"
+  publisher="O'Reilly Media, Inc."
+  link="https://www.oreilly.com/library/view/apprenticeship-patterns/9780596806842/" >}}
+* {{<reference author="Fowler, M.; Beck, K.; Brant J.; Opdyke W.; Roberts D."
+  year="2012"
+  title="Refactoring: Improving the Design of Existing Code"
+  isbn="9780133065268"
+  publisher="Addison-Wesley Professional"
+  link="https://www.goodreads.com/book/show/18624706-refactoring" >}}
+* {{<reference author="Thomas, D.; Hunt, A."
+  year="2019"
+  title="The Pragmatic Programmer, 20th Anniversary Edition: your journey to mastery"
+  isbn="9780135957059"
+  publisher="Addison-Wesley Professional"
+  link="https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/" >}}
+* {{<reference author="Various authors"
+  year="2023"
+  title="Programming Style"
+  site="wikipedia.org"
+  link="https://en.wikipedia.org/wiki/Programming_style" >}}

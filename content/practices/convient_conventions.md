@@ -24,6 +24,11 @@ ammerse = [
 pubdate="2023-08-26"
 +++
 
+{{<image
+src="/images/practices/outlier_consistency.png"
+alt="A field of blue circles and a single orange square"
+caption="Find the orange square! Illustrating that finding an outlier is easier in a mostly uniform environment." >}}
+
 ## Problem Statement
 
 ## Intent
@@ -44,6 +49,7 @@ We wish to maintain a higher level of code discipline, increasing the reliabilit
 * We have a need for expressing our individuality.
 * You work with many distinct codebases or programming languages.
 * Manually reviewing code for consistency is a tedious task, that most prefer to avoid.
+* Normalization of deviance: if most of your operating process is "exceptional", the "exception" becomes the norm.
 
 ## Solution
 

@@ -28,13 +28,30 @@ pubdate="2023-08-26"
 
 ## Intent
 
+We wish to maintain a higher level of code discipline, increasing the reliability of the code.
+
 ## Contextual forces
 
 ### Enablers
 
+* Your language of choice has a recommended style guide
+* Automated code analysis/linting is in place, or available
+* Your team is coherent, and able to align on a preferred style
+* Your development environment offers a way to share/import code styles
+
 ### Deterrents
 
+* We have a need for expressing our individuality.
+* You work with many distinct codebases or programming languages.
+* Manually reviewing code for consistency is a tedious task, that most prefer to avoid.
+
 ## Solution
+
+## Reasoning
+
+* Code is write-once, read-often.
+* Working with consistent representations lowers mental load.
+* Humans are excellent at recognizing deviations from the norm.
 
 ## Examples
 
@@ -102,3 +119,13 @@ A simple log statement, combined with misleading indentation has set forth a the
   title="Programming Style"
   site="wikipedia.org"
   link="https://en.wikipedia.org/wiki/Programming_style" >}}
+* {{<reference author="Gravley, L."
+  year="2020"
+  title="Introducing GitHub Super Linter"
+  site="github.blog"
+  link="https://github.blog/2020-06-18-introducing-github-super-linter-one-linter-to-rule-them-all/" >}}
+* {{<reference author="Google Open Source"
+  year="2023"
+  title="Google Style Guides"
+  site="github.io"
+  link="https://google.github.io/styleguide/" >}}

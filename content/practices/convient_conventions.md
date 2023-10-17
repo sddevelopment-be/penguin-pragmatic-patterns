@@ -8,7 +8,7 @@ categories = [
     "software development",
 ]
 tags = [
-    "team dynamics", "programming", "complexity"
+    "programming", "complexity", "readability"
 ]
 uuid="1848f4a6-3acb-4dc8-aa49-e57a1b87cf3b"
 aliases=["1848f4a6-3acb-4dc8-aa49-e57a1b87cf3b"]

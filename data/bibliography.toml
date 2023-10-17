@@ -18,7 +18,7 @@ It provides actionable advice and timeless wisdom that empowers developers to wr
 maintainable code and become more effective in their work (as well as maintain their sanity while doing so).
 """
 levels = ["intermediate", "mixed"]
-tags = ["software development", "mindset", "organizing"]
+tags = ["software development", "mindset", "organizing", "corporate", "readability"]
 
 [[book]]
 title = "Apprenticeship Patterns"
@@ -319,6 +319,7 @@ Using python, the reader is first guided through some programming basics, before
 Examples include: Automated emails, cleaning files on your machine, converting documents from one format to another, and creating excel sheets.
 """
 levels = ["novice"]
+tags=["programming", "automation"]
 
 [[book]]
 title = "Patterns, Principles, and Practices of Domain-Driven Design"
@@ -336,6 +337,7 @@ and offer practical advice to the reader on how to apply the principles and idea
 As the book dives deep into advanced concepts, it is advisable to pick this up later in your journey, after you have gained experience working on real systems.
 """
 levels = ["advanced", "reference"]
+tags=["architecture", "patterns", "communication"]
 
 [[book]]
 title = "Design Patterns: Elements of Reusable Object-Oriented Software"
@@ -358,6 +360,7 @@ The 'Gang of Four' patterns provide valuable insights into addressing challenges
 They offer tried and tested approaches to structuring software, making it a valuable resource for any programmer or software engineer.
 """
 levels = ["intermediate", "reference"]
+tags=["programming", "refactoring", "patterns", "readability"]
 
 [[book]]
 title = "Design It: From Programmer to Software Architect"
@@ -379,6 +382,7 @@ making it a valuable resource for programmers aspiring to become adept software 
 their knowledge of modern techniques.
 """
 levels = ["advanced", "reference"]
+tags=["architecture", "trade-off", "documentation", "readability"]
 
 [[book]]
 title = "Refactoring: Improving the Design of Existing Code"
@@ -398,6 +402,7 @@ For those with an particularly strong aversion to Java, a recent edition of the 
 Whichever edition you choose, "Refactoring" offers timeless wisdom for enhancing your code quality.
 """
 levels = ["novice", "mixed", "reference"]
+tags=["programming", "refactoring", "patterns", "readability"]
 
 [[book]]
 title = "Driving Technical Change"
@@ -413,7 +418,7 @@ In 'Driving Technical Change,' the author addresses a common frustration among t
 Ryan offers invaluable guidance on how to effectively present and package your suggestions to increase their chances of being accepted. He also highlights the importance of engaging with different types of individuals crucial for bringing your concepts to life.
 This book is a treasure trove of practical advice, making it an essential read for software developers with some experience. It goes beyond coding skills and shows how to expand your influence and contribute to your organization's success.
 <br /><br />
-If you are looking to take the enxt steps to advance your technological career, or enhance your team's performance, 'Driving Technical Change' is a recommended read.
+If you are looking to take the next steps to advance your technological career, or enhance your team's performance, 'Driving Technical Change' is a recommended read.
 It empowers you to transition from merely being a capable programmer to becoming an invaluable asset in driving your team's overall performance."
 """
 levels = ["intermediate"]

@@ -28,6 +28,14 @@ body {
     margin-bottom: 2.5rem;
 }
 
+.chapter a {
+    color: #9c671a;
+}
+
+.chapter a:hover {
+    color: #f39200;
+}
+
 .chapter_summary {
 
 }

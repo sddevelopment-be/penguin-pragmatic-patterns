@@ -62,26 +62,27 @@ params:
 
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
-  - title: About
-    url: /about
+
   - title: Concepts
     url: /concepts/
   - title: Practices
     url: /practices/
-  - title: Glossary
-    url: /glossary/
+  - title: Chapters
+    url: /chapters
   - title: Resources
     sublinks:
-      - title: tools
+      - title: Tools
         url: /tools/
-      - title: bibliography
+      - title: Bibliography
         url: /books
+      - title: Glossary
+        url: /glossary/
 #      - title: long reads
 #        url: /
 #      - title: short reads
 #        url: /
-  - title: Start reading
-    url: /chapters/learning
+  - title: About
+    url: /about
     button: true
 
   section2:

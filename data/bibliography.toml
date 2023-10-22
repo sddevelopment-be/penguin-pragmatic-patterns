@@ -54,7 +54,7 @@ especially when you possess substantial technical expertise? Carter offers insig
 The book provides valuable guidance on seizing control of your career trajectory, equipping readers with tools to thrive and advance in the software development world.
 """
 levels = ["novice"]
-tags = ["software development", "carreer", "corporate"]
+tags = ["software development", "career", "corporate"]
 
 [[book]]
 title = "The 7 Habits of Highly Effective People: Powerful Lessons in Personal Change"
@@ -93,7 +93,7 @@ Through their insights, readers gain a deeper understanding of the Agile mindset
 This book not only offers valuable practical advice but also encourages individuals to strive for excellence in the ever-evolving world of software development.
 """
 levels = ["intermediate", "niche"]
-tags = ["software developer", "productivity", "corporate"]
+tags = ["software development", "productivity", "corporate"]
 
 [[book]]
 title = "Ego Is the Enemy"
@@ -142,12 +142,12 @@ year = "2008"
 link = "https://pragprog.com/titles/ahptl/pragmatic-thinking-and-learning/"
 image = "prag_thinking.jpg"
 description = """
-Dive into your own brain, and learn about efficient learning. Hunt discusses various techniques that have helped him stay on top of his game over a carreer spanning decades.
+Dive into your own brain, and learn about efficient learning. Hunt discusses various techniques that have helped him stay on top of his game over a career spanning decades.
 As a professional, your main weapon is your ability to learn. Unfortunatly, a lot of us are left to our own devices in figuring out which approaches work well for us.
 This book helps you, by giving you a plethora of time-proven learning techniques, and some tools to discover your own preferences.
 """
 levels = ["novice"]
-tags = ["learning", "mindset", "directed learning", "reflection", "efficiency", "prioritization"]
+tags = ["mindset", "directed learning", "reflection", "efficiency", "prioritization"]
 
 [[book]]
 title = "Nonviolent Communication: A Language of Life"
@@ -181,7 +181,7 @@ Fredrick and Squirrel, hosts of the podcast `Troubleshooting Agile`, help the re
 The book is mostly targetting software professionals, though the techniques discussed are usable, and valuable, for anyone that spends most of their time working with other people.
 """
 levels = ["intermediate", "niche"]
-tags = ["communication", "learning", "conflict"]
+tags = ["communication", "directed learning", "conflict"]
 
 [[book]]
 title = "The Secrets of Consulting: A Guide to Giving and Getting Advice Successfully"
@@ -411,7 +411,7 @@ authors = "Ryan, T."
 publisher = "The Pragmatic Bookshelf"
 location = ""
 year = "2019"
-link = "https://www.goodreads.com/book/show/44135420-team-topologies"
+link = "https://www.pragprog.com/titles/trevan/driving-technical-change/"
 image = "driving_tech_change.jpg"
 description = """
 In 'Driving Technical Change,' the author addresses a common frustration among technologists – the challenge of persuading others to adopt their ideas for technical improvement.

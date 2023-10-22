@@ -26,6 +26,7 @@ markup:
 taxonomies:
   category: "categories"
   tag: "tags"
+  level: "levels"
 
 params:
   # Open graph allows easy social sharing. If you don't want it you can set it to false or just delete the variable

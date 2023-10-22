@@ -2,37 +2,65 @@
     background-color: rgba(255, 248, 244, 0.55);
     border-top: 2px solid #F39200;
     margin-bottom: 3.5rem;
-    padding: 1.25rem;
+    padding: 1.125rem 0.75rem;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
     align-content: center;
     justify-content: start;
-    flex-basis: 350px;
+    flex-basis: 340px;
+    scroll-snap-type: x mandatory;
+    scrollbar-color: #F39200 #fff;
+    scrollbar-width: auto;
 }
+
+.pattern_container::-webkit-scrollbar {
+    height: 1.125rem;
+}
+
+.pattern_container::-webkit-scrollbar-thumb,
+.pattern_container::-webkit-scrollbar-track {
+    border-radius: 6rem;
+}
+
+.cards::-webkit-scrollbar-thumb {
+    background: #F39200;
+}
+
+.cards::-webkit-scrollbar-track {
+    background: #F39200;
+}
+
 
 @media (max-width: 800px) {
     .pattern_container {
-        flex-direction: column;
+        flex-direction: row;
+        overflow-x: scroll;
+        padding: 0.65rem 0.25rem;
     }
 }
 
 .pattern-card {
     display: flex;
+    flex-shrink: 0;
     flex-flow: column nowrap;
     justify-content: start;
-    width: 26rem;
+    width: calc(calc(100% / 3) - 1.25rem);
+    margin: 0.35rem 0.5rem 0.35rem 0.25rem;
     align-content: normal;
     background-image: linear-gradient(#fefefe, #fdfdfd);
     border-radius: 3px;
-    margin: 0.35rem;
     border: 1px solid rgba(224, 205, 193, 0.99);
     padding: 1.125rem;
+    scroll-snap-align: start;
 }
 
 @media (max-width: 800px) {
     .pattern-card {
-        width: 20rem;
+        width: calc(calc(100%) - 0.15rem);
+        flex-shrink: 0;
+        margin: 0.15rem 0.35rem 0.15rem 0;
     }
 }
 

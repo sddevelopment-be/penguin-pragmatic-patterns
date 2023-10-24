@@ -1,0 +1,28 @@
+{{ define "main" }}
+{{ partial "navbar.html" . }}
+{{ partial "navbar-clone.html" . }}
+{{ $toFind := .Params.id }}
+
+<section class="section section-feature-grey is-medium" id="books">
+    <div class="container">
+        <div class="column is-centered-tablet-portrait">
+            <h1 class="title section-title">
+                Book details
+            </h1>
+            <div class="divider"></div>
+        </div>
+
+        <div class="content-wrapper">
+            {{ range $book := (index .Site.Data "bibliography").book }}
+                {{ if (eq $book.id $toFind) }}
+                {{ partial "book_biblio.html" (dict "book" $book) }}
+                {{ end }}
+            {{ end }}
+
+        </div>
+
+    </div>
+</section>
+
+
+{{ end }}

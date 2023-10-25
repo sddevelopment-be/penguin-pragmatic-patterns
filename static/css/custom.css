@@ -36,6 +36,14 @@ body {
     color: #f39200;
 }
 
+.container a {
+    color: #9c671a;
+}
+
+.container a:hover {
+    color: #f39200;
+}
+
 .chapter_summary {
 
 }

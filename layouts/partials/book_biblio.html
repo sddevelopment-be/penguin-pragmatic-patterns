@@ -1,4 +1,5 @@
 {{ $book := .book }}
+{{ $id := $book.id }}
 {{ $title := $book.title }}
 {{ $isbn := $book.isbn }}
 {{ $image := $book.image }}
@@ -14,6 +15,9 @@
 <div class="recommendation-item revealOnScroll delay-1" data-animation="fadeInLeft">
     <div class="recommendation-title">
         <h3 id={{ replace $title " " "-" | lower }}>{{ $title }}</h3>
+        <span class="permalink">
+                ( <a href="/books/{{$id}}" rel="noreferrer" target="_blank">permalink</a> )
+        </span>
     </div>
     <div class="recommendation-content">
         <div class="recommendation-image">

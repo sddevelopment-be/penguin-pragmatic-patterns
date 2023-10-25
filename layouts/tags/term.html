@@ -26,19 +26,19 @@
             <div class="pattern-list">
                 <div class="wrapped-columns pattern_container">
                     {{ $patterns := slice  }}
-                    {{ range where .Site.Pages ".Params.tags" "intersect" (slice $tag) }}
-                    {{ $ctx := dict
-                    "Date" .Date
-                    "Title" .Title
-                    "RelPermalink" .RelPermalink
-                    "Description"  .Description
-                    "Problem" .Params.problem
-                    "Categories" .Params.categories
-                    "Tags" .Params.tags
-                    "Ammerse" .Params.Ammerse
-                    }}
-                    {{ $patterns = $patterns | append $ctx }}
-                    {{ end }}
+                        {{ range where (where .Site.Pages ".Params.tags" "intersect" (slice $tag)) "Section" "in" (slice "practices" "concepts") }}
+                        {{ $ctx := dict
+                            "Date" .Date
+                            "Title" .Title
+                            "RelPermalink" .RelPermalink
+                            "Description"  .Description
+                            "Problem" .Params.problem
+                            "Categories" .Params.categories
+                            "Tags" .Params.tags
+                            "Ammerse" .Params.Ammerse
+                            }}
+                            {{ $patterns = $patterns | append $ctx }}
+                        {{ end }}
                     {{ partial "flex_cards.html" (dict "context" . "patterns" $patterns) }}
                 </div>
             </div>

@@ -23,11 +23,16 @@
     font-size: 1.25rem;
     padding: 0.25rem 2.75rem;
     max-width: 98%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 
 @media (max-width: 800px) {
     .recommendation-item .recommendation-title {
         padding: 0 0.125rem;
+        flex-direction: column;
+        justify-content: center;
     }
 }
 
@@ -149,5 +154,20 @@
 }
 
 .recommendation-item .recommendation-content .recommendation-text .recommendation-tags .recommendation-tag a:hover {
+    color: #f39200;
+}
+
+.permalink {
+    display: block;
+    font-size: 0.85rem;
+    margin-left: 1.125rem;
+    height: 100%;
+}
+
+.permalink a {
+    color: #7d4b01;
+}
+
+.permalink a:hover {
     color: #f39200;
 }

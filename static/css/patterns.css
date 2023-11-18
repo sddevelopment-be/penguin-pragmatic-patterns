@@ -69,13 +69,25 @@
     margin-top: 20px;
 }
 
+.pattern-card .card-title {
+    margin-bottom: 0.5rem;
+}
+
 .pattern-card .card-title h4 {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.2rem;
     font-weight: 600;
     color: #1e1e3f;
     padding: 0 0.75rem;
-    margin-bottom: 0.5rem;
+}
+
+.pattern-card .card-title h5 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 450;
+    color: #4a4a77;
+    padding: 0 0.75rem;
+    line-height: 1.25;
 }
 
 .pattern-content {

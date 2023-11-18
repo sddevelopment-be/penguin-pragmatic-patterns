@@ -1,21 +1,22 @@
 {{ $src := .Get "src" }}
 {{ $alt := .Get "alt" }}
 {{ $caption := .Get "caption" }}
+{{ $scale := .Get "size" }}
 
 {{ if $caption }}
-<div class="img-gallery">
+<div class="img-gallery" {{ if $scale }}style="max-width: {{ $scale }}; "{{ end}}>
     <figure>
         <a class="search-icon" target="_blank" href="{{ $src }}">
             <picture>
                 <source srcset="{{ $src }}" type="image/png"/>
-                <img src="{{ $src }}" type="image/png" alt="{{ $alt }}" decoding="async"/>
+                <img src="{{ $src }}" type="image/png" alt="{{ $alt }}" decoding="async" />
             </picture>
         </a>
         <figcaption>{{ $caption }}</figcaption>
     </figure>
 </div>
 {{ else }}
-<div class="text_image">
+<div class="text_image" {{if $scale}}style="max-width: {{ $scale }}; "{{ end}}>
     <a class="search-icon" target="_blank" href="{{ $src }}">
         <picture>
             <source srcset="{{ $src }}" type="image/png"/>

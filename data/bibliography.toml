@@ -337,7 +337,7 @@ Using python, the reader is first guided through some programming basics, before
 Examples include: Automated emails, cleaning files on your machine, converting documents from one format to another, and creating excel sheets.
 """
 levels = ["novice"]
-tags=["programming", "automation"]
+tags = ["programming", "automation"]
 
 [[book]]
 id = "a78d1c3f-6365-47ac-baa4-86c6371c1eed"
@@ -356,7 +356,7 @@ and offer practical advice to the reader on how to apply the principles and idea
 As the book dives deep into advanced concepts, it is advisable to pick this up later in your journey, after you have gained experience working on real systems.
 """
 levels = ["advanced", "reference"]
-tags=["architecture", "patterns", "communication"]
+tags = ["architecture", "patterns", "communication"]
 
 [[book]]
 id = "0628f537-6527-4722-93d9-5b765b4c339d"
@@ -380,7 +380,7 @@ The 'Gang of Four' patterns provide valuable insights into addressing challenges
 They offer tried and tested approaches to structuring software, making it a valuable resource for any programmer or software engineer.
 """
 levels = ["intermediate", "reference"]
-tags=["programming", "refactoring", "patterns", "readability"]
+tags = ["programming", "refactoring", "patterns", "readability"]
 
 [[book]]
 id = "e15a25a0-6c08-4b78-b593-ca54eea8cce2"
@@ -403,7 +403,7 @@ making it a valuable resource for programmers aspiring to become adept software 
 their knowledge of modern techniques.
 """
 levels = ["advanced", "reference"]
-tags=["architecture", "trade-off", "documentation", "readability"]
+tags = ["architecture", "trade-off", "documentation", "readability"]
 
 [[book]]
 id = "9d8ff83e-f49a-4c7c-8e40-e34ac63e2792"
@@ -424,7 +424,7 @@ For those with an particularly strong aversion to Java, a recent edition of the 
 Whichever edition you choose, "Refactoring" offers timeless wisdom for enhancing your code quality.
 """
 levels = ["novice", "mixed", "reference"]
-tags=["programming", "refactoring", "patterns", "readability"]
+tags = ["programming", "refactoring", "patterns", "readability"]
 
 [[book]]
 id = "b6da416a-00a2-46dd-a211-fb4d4f0382e3"
@@ -445,7 +445,31 @@ If you are looking to take the next steps to advance your technological career, 
 It empowers you to transition from merely being a capable programmer to becoming an invaluable asset in driving your team's overall performance."
 """
 levels = ["intermediate"]
-tags=["communication", "convincing", "change", "team dynamics"]
+tags = ["communication", "convincing", "change", "team dynamics"]
+
+[[book]]
+id = "f17079c7-1dc6-42de-85c1-f61dbeade355"
+title = "Think Faster, Talk Smarter"
+isbn = "9781668010303"
+authors = "Abrahams, M."
+publisher = "S&S/Simon Element"
+location = ""
+year = "2023"
+link = "https://www.goodreads.com/book/show/101144770-think-faster-talk-smarter"
+image = "think_talk.jpg"
+description = """
+In 'Think Faster, Talk Smarter', Abrahams tackles the challenge of impromptu presentations and unexpected public speaking situations.
+Providing a range of communication techniques, he equips readers with the skills to excel in spontaneous communication scenarios.
+The book delves into various message structuring methods to enhance clarity, with a central theme: __'Prepare and organize your thoughts'__.
+Contrary to intuition, honing your communication skills through practice enables you to confidently respond when put on the spot.
+<br /><br />
+While the book caters to a broad audience, including those not aspiring to be public speakers,
+'Think Faster, Talk Smarter' offers a wealth of practical advice and insightful tips to elevate interpersonal communication.
+By following Abrahams' guidance, readers can improve their message delivery and become more engaging speakers.
+This book is not just about public speaking; it's a valuable tool for anyone seeking to enhance their overall communication effectiveness.
+"""
+levels = ["beginner", "mixed"]
+tags = ["communication", "presenting", "clarity", "structure"]
 
 [[book]]
 id = "a32510dd-068d-4072-8b68-cce120864a64"
@@ -475,18 +499,4 @@ image = "data_structures.jpg"
 description = """
 """
 levels = ["novice", "reference"]
-draft = true
-
-[[book]]
-title = "Think Faster, Talk Smarter"
-isbn = "9781668010303"
-authors = "Abrahams, M."
-publisher = "S&S/Simon Element"
-location = ""
-year = "2023"
-link = "https://www.goodreads.com/book/show/101144770-think-faster-talk-smarter"
-image = "think_talk.jpg"
-description = """
-"""
-levels = ["beginner", "mixed"]
 draft = true

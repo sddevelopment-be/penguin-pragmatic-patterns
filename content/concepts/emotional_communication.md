@@ -39,6 +39,19 @@ go our way.
 
 ### How we process messages: a simplified model 
 
+When we hear someone say something, we process the message. Usually, we have some sort of reaction to it.
+How we react tends to depend on a variety of factors: How we are feeling at the time; What is being said; What we heard; What memories this 
+brings up; How we tend to think about life. 
+
+To make matters even more complicated, no two people are alike. What is pleasant or agreeable to one person might be an afront to another.
+In order to reason about this, we can consider how we process incoming information as a series of distinct steps:
+
+* **Our Input Filter:** 
+* **How we process the message:**
+* **Our Internal Context:**
+* **Our Emotional Response:**
+
+
 {{< 
   image src="/images/concepts/communication_processing_emotions.png"
   alt="A schematic representation of a dialogue." 
@@ -75,3 +88,15 @@ go our way.
   title="Metric mishap caused loss of NASA orbiter"
   publisher="CNN News"
   link="http://edition.cnn.com/TECH/space/9909/30/mars.metric.02/" >}}
+* {{<reference 
+  author="NERIS Analytics Ltd."
+  year="2023"
+  site="16personalities.com"
+  title="Personality Types"
+  link="https://www.16personalities.com/personality-types" >}}
+* {{<reference 
+  author="Kibeom, L. & Ashton, M. C."
+  year="2009"
+  site="hexaco.org"
+  title="The HEXACO personality inventory"
+  link="https://hexaco.org/" >}}

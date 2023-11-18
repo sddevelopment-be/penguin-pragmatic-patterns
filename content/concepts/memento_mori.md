@@ -1,5 +1,6 @@
 +++
-title = "Memento Mori; Remember that you will die."
+title = "Memento Mori"
+subtitle = "remember, you will die"
 author = "Stijn Dejongh"
 description = "Our time on earth is limited, so try to make the most of it."
 type = "concept"

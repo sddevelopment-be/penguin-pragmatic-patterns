@@ -1,5 +1,6 @@
 +++
 title = "Return On Investment"
+subtitle="make it worth the effort"
 author = "Stijn Dejongh"
 description = "Evaluate the efficiency of your investments, by comparing the ratio between net income and investment cost"
 type = "concept"

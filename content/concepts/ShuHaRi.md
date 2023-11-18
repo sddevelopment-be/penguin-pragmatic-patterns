@@ -1,5 +1,6 @@
 +++
 title = "Shu Ha Ri"
+subtitle = "Imitation. Understanding. Emulsion."
 author = "Stijn Dejongh"
 description = "a Japanese martial art concept that is used to describe the stages of learning on the path to mastery."
 type = "concept"

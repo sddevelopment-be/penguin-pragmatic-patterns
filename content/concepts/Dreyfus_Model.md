@@ -1,7 +1,8 @@
 +++
 title = "Dreyfus model"
+subtitle = "five distinct steps of mastery"
 author = "Stijn Dejongh"
-description = "a formal model of skill acquisition progress, that defines five distinct steps of mastery."
+description = "a formal model on learner progression, the emerging skills they aqcuire, and the challenges specific to each step."
 type = "concept"
 categories = [
     "learning",

@@ -122,7 +122,7 @@ params:
 
   footer:
     # Logo (from /images/logos/___)
-    logo: ppp_logo_light.png
+    logo: logo_trans_border_scaled.webp
     # Social Media Title
     socialmediatitle: Socials
     # Social media links (GitHub, Twitter, etc.). All are optional.

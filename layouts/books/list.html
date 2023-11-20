@@ -38,4 +38,8 @@
     </div>
 </section>
 
+{{ if .Site.Params.footer }}
+    {{ partial "footer.html" . }}
+{{ end }}
+
 {{ end }}

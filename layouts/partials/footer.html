@@ -7,9 +7,16 @@
 <footer class="footer footer-dark">
     <div class="container">
         <div class="columns">
-            <div class="column">
+            <div class="column company">
                 <div class="footer-logo">
-                    <img src="{{ printf "/images/logos/%s" $logo | relURL }}">
+                    <img src="{{ printf "/images/logos/%s" $logo | relURL }}" />
+                    <span class="company-name">SD Development BV</span>
+                </div>
+                <div class="company-info">
+                    KBO: <a href="https://kbopub.economie.fgov.be/kbopub/zoeknummerform.html?nummer=0800943846" target="_blank">BE0800.943.846</a><br />
+                    site: <a href="https://sddevelopment.be" target="_blank">sddevelopment.be</a><br />
+                    <br />
+                    Schubbeek 45, 3210 Lubbeek | BELGIUM
                 </div>
             </div>
             {{- range $quickLinks }}

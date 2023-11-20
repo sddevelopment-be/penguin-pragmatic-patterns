@@ -129,3 +129,36 @@ body {
 .highlight {
     margin: 2.75rem 0;
 }
+
+.footer-logo {
+    display: flex;
+}
+
+.company-name {
+    font-weight: 900;
+    margin-left: 0.125rem;
+    border-bottom: 2px solid #1e75c0;
+    padding-left: 0.75rem;
+    padding-right: 0.25rem;
+}
+
+.company {
+    flex-basis: 200px;
+}
+
+.company-info {
+    color: #98a9c3;
+    font-size: 0.75rem;
+    font-weight: 450;
+    line-height: 1.75;
+    margin-top: 0.125rem;
+    padding: 0.125rem 0 0 3.45rem;
+}
+
+.company-info a {
+    color: #98a9c3;
+}
+
+.company-info a:hover {
+    color: #fefefe;
+}

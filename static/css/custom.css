@@ -130,6 +130,18 @@ body {
     margin: 2.75rem 0;
 }
 
+.increased-width {
+    max-width: 80%;
+}
+
+.spacer-wide {
+    width: 48% !important;
+}
+
+.title-wrapper {
+    margin-bottom: 3.75rem;
+}
+
 .footer-logo {
     display: flex;
 }

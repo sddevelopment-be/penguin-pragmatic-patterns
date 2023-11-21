@@ -53,7 +53,7 @@ params:
     # Button text
     buttontext: Start Reading
     # Where the main hero button links to
-    buttonlink: "chapters/learning"
+    buttonlink: "practices"
     # Hero image (from static/images/___)
     image: penguin_learning.png
     # Footer logos (from static/images/logos/clients/*.svg)
@@ -67,8 +67,6 @@ params:
     url: /concepts/
   - title: Practices
     url: /practices/
-  - title: Chapters
-    url: /chapters
   - title: Resources
     sublinks:
       - title: Tools
@@ -115,8 +113,6 @@ params:
     links:
       - text: Our approach
         link: "/about"
-      - text: Chapters
-        link: "/chapters"
       - text: Practices
         link: "/practices"
 
@@ -133,38 +129,23 @@ params:
     bulmalogo: false
     quicklinks:
       column1:
-        title: "Main text"
+        title: "Main Content"
         links:
           - text: About
             link: /about
-          - text: Learning
-            link: /chapters/learning
-          - text: Productivity
-            link: /chapters/productivity
-#          - text: Software development
-#            link: /chapters/
-#          - text: Communication
-#            link: /chapters/
+          - text: Practices
+            link: /practices
+          - text: Concepts
+            link: /concepts
       column2:
         title: "Extra stuff"
         links:
         - text: Glossary
           link: /glossary
-        - text: Practices
-          link: /practices
-        - text: Concepts
-          link: /concepts
-      column3:
-        title: "Recommendations"
-        links:
-          - text: Tools
-            link: /tools
-          - text: Books
-            link: /books
-#          - text: Short reads
-#            link: /short-form
-#          - text: Long reads
-#            link: /long-form
+        - text: Tools
+          link: /tools
+        - text: Books
+          link: /books
 
 ## Integrations and services
 services:

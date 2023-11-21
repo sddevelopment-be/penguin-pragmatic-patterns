@@ -60,7 +60,6 @@ In order to reason about this, we can consider how we process incoming informati
 
 
 
-
 ## References, Related Patterns and Resources
 
 * {{<reference author="Abrahams, M."

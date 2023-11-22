@@ -46,11 +46,19 @@ brings up; How we tend to think about life.
 To make matters even more complicated, no two people are alike. What is pleasant or agreeable to one person might be an afront to another.
 In order to reason about this, we can consider how we process incoming information as a series of distinct steps:
 
-* **Our Input Filter:** 
-* **How we process the message:**
-* **Our Internal Context:**
-* **Our Emotional Response:**
+* **Our Input Filter:** Sound waves reach our ears, and get processed by our brains. Or light reaches our eyes, and gets processed. Either way, 
+  this causes a subtle change between what is being sent, and what is being received. 
+* **How we process the message:** After we registered information, we process it further, and assign meaning to it. Most miscommunications 
+  happen here.
+* **Our Internal Context:** How we react to the meaning we assigned to what is being said highly depends on what is going on inside our heads at 
+  the time. When we feel particularly tense, or we recall painful past memories, we tend to overreact to otherwise harmless stimuli.
+* **Our Emotional Response:** Depending on our internal context, we'll have an emotional reaction to the message.
+* **Back the same way:** Our response then travels all the way back from the "emotional reaction" layer, passing through each of the previous 
+  steps. Until finally, it reaches our **Output filter**. This filter acts as the last line of defence we have before blurting out something we 
+  will regret 
+  later.
 
+Given all these possibilities to dilute a message and draw wrong conclusions, it should come as no surprise that we often misunderstand each other.
 
 {{< 
   image src="/images/concepts/communication_processing_emotions.png"

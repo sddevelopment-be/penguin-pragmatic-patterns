@@ -131,17 +131,36 @@ mindmapDiagram {
 +++ Design Frameworks <<deep>>
 -- People <<category>>
 --- Personality
+---- Personality types <<basic>>
+---- Desires <<advanced>>
+-----_ intrinsic vs extrinsic motivators
+-----_ how to cater / fulfill
+---- Values
+-----_ core value mapping
+-----_ value discovery
 --- Communication
 ---- What vs How <<basic>>
 ---- Visualisations <<deep>>
 ---- Clarity: signal or noise? <<advanced>>
 ---- Non-violent communication <<basic>>
---- Desires <<advanced>>
+---- Channel-aware communication
+-----_ sync vs async
+-----_ channel expectations and etiquette
 --- Teamwork / Group dynamics
----- Personality types <<basic>>
 ---- Working agreements <<basic>>
+----- team value mapping <<advanced>>
+------_ AMMERSE
 ----- Shared conventions <<advanced>>
------ Definition of Done <<basic>> 
+----- Definition of Done <<basic>>
+---- Leadership <<deep>>
+----- Types of leadership
+----- "First follower" concept
+---- Formal communication
+----- Meetings
+----- Discussions
+----- Reporting
+----- PresentationsReporting
+
 -- Productivity <<category>>
 --- Techniques
 ---- Estimation <<basic>>
@@ -159,6 +178,13 @@ mindmapDiagram {
 ----- Predicting vs Lagging indicators <<basic>>
 ----- KPIs <<basic>>
 ----- OKRs <<advanced>>
+--- Focus
+---- Interruptions
+---- Distractions
+---- TEA-framework
+-----_ time
+-----_ energy
+-----_ attention
 
 legend right
   |Color | Type |

@@ -48,7 +48,7 @@ For some, this will be a pen-and-paper system. Others prefer to leverage their d
 their productivity tool available to them constantly[^1]. One of the most popular personal productivity methods is called the _"Getting things
 done"_ method[^2].
 
-![./task-flow.png ><](/images/practices/task_flow.png ':size=684')
+![./task-flow.png ><](/src/images/practices/task_flow.png ':size=684')
 
 The core of the approach is to have:
 * A place to note down ideas or tasks that pop into your head
@@ -67,7 +67,7 @@ Whichever tools you choose:
 
 ### Eisenhower priority Matrix
 
-![./eis_matrix.png <](/images/practices/eis_matrix.png ':size=364')
+![./eis_matrix.png <](/src/images/practices/eis_matrix.png ':size=364')
 
 Organize your action items according to:
 

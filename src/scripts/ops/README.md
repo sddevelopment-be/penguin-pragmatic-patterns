@@ -8,4 +8,4 @@ contents of the knowledge base.
 
 | script                                   | usage                                               | description                                                           |
 |------------------------------------------|-----------------------------------------------------|-----------------------------------------------------------------------|
-| [generate_books.sh](./generate_books.sh) | `sh /ops/generate_books.sh /data/bibliography.toml` | parses the `data/bibliography.toml` file and generates pages for them | 
+| [generate_books.sh](generate_books.sh) | `sh /ops/generate_books.sh /data/bibliography.toml` | parses the `data/bibliography.toml` file and generates pages for them | 

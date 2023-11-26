@@ -80,6 +80,20 @@ mindmapDiagram {
 ++++ CLI tricks <<advanced>>
 ++++ Specialized software 
 ++++ IDEs <<basic>>
++++ Deployment environments <<basic>>
+++++ operating system concepts
++++++_ memory management && paging
++++++_ threading
++++++_ filesystem concepts
+++++ deployment topologies
++++++ dedicated servers
++++++ distributed systems
+++++++_ messaging systems
+++++++_ discoverability
+++++ system resource usage
++++++_ How to monitor
++++++_ How to investigate
++++++_ How to optimize
 +++ Techniques
 ++++ SOLID principles <<advanced>>
 ++++ Clean code techniques <<basic>>

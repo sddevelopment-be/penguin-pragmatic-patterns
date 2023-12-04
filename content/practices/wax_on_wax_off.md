@@ -56,7 +56,7 @@ challenge.
 
 ## Solution
 
-![Scene from the Karate Kid movie.](/src/images/practices/miyagi_wax_on.gif)
+![Scene from the Karate Kid movie.](/images/practices/miyagi_wax_on.gif)
 
 * Identify an easily repeatable exercise[^1]
     * Ideally, the exercise takes a maximum of 30 minutes to complete

@@ -48,7 +48,7 @@ Apply a consistent process to your problem solving and goal achievements.
 The OPERAS mental model is a description of the flow you go through when advancing a task from "TODO" status to "DONE". A task can be of any
 size, and can range from 'build a house' to 'do the dishes'.
 
-![The OPERAs flow >](/src/images/practices/OPERAs.png ':size=424')
+![The OPERAs flow >](/images/practices/OPERAs.png ':size=424')
 
 - define a goal you wish to work towards
   - It is best to describe this goal in a measurable way, so tracking progress is easier in the future

@@ -565,6 +565,23 @@ aliases = []
 references = []
 
 [[terminology]]
+name = "Natural order"
+abbreviation = ""
+domain = "Software development"
+description = """
+Elements of a collection (a list, array, ...) having a relationship that allows them to be sorted.
+Mathematically speaking, elements of these collections are said to form a `linearly bi-ordered group`.
+A group G is said to be linearly ordered, if and only if it is equipped with a total order `<=` that is translation-invariant.
+<br /><br />
+In software development, we use this group property in order to sort collections according to a specific order-function.
+Examples include: "is larger than", "is smaller than", "Alphabetical order of first letter", etc.
+    """
+aliases = []
+references = [
+    { title = "Linearly ordered group, wikipedia", link = "https://en.wikipedia.org/wiki/Linearly_ordered_group" }
+]
+
+[[terminology]]
 name = "Layered approach"
 abbreviation = ""
 domain = "Software Architecture"

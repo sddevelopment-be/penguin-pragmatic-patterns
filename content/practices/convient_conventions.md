@@ -69,9 +69,7 @@ It can be a viable option to apply a certain style within one repository, and a 
 As long as the code is consistent with it's surrounding, you will get the benefit of pattern recognition.
 ` >}}
 
-
-
-## Reasoning
+## Rationale
 
 * Code is write-once, read-often.
 * Working with consistent representations lowers mental load.

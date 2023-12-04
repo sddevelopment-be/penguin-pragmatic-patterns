@@ -24,7 +24,7 @@ ammerse = [
 pubdate="2023-08-23"
 +++
 
-![./free-mind.gif >](/src/images/practices/free-mind.gif)
+![./free-mind.gif >](/images/practices/free-mind.gif)
 
 ## Problem statement
 

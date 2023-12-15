@@ -1,7 +1,7 @@
 [[book]]
 id = "8572443d-2c27-462a-b9d7-839dd6e4d58b"
 title = "The Pragmatic Programmer, 20th Anniversary Edition: your journey to mastery"
-isbn = "9780135957059"
+isbn = "978-0135957059"
 authors = "Thomas, D.; Hunt, A."
 publisher = "Addison-Wesley Professional"
 location = ""
@@ -24,7 +24,7 @@ tags = ["software development", "mindset", "organizing", "corporate", "readabili
 [[book]]
 id = "d22ee68e-2f19-4677-9123-2994cb111c0c"
 title = "Apprenticeship Patterns"
-isbn = "9780596518387"
+isbn = "978-0596518387"
 authors = "Hoover, D.; Oshineye, A."
 publisher = "O'Reilly Media, Inc."
 year = "2009"
@@ -44,7 +44,7 @@ tags = ["software development", "team dynamics", "directed learning"]
 id = "0f2f6abd-b13c-4a35-b2f1-e9d29f1c784f"
 title = "New Programmer's Survival Manual: Navigate Your Workplace, Cube Farm, or Startup"
 authors = "Carter, J."
-isbn = "9781934356814"
+isbn = "978-1934356814"
 publisher = "The Pragmatic Bookshelf"
 location = ""
 year = "2011"
@@ -82,7 +82,7 @@ tags = ["productivity", "goals", "prioritization", "time management", "organizin
 [[book]]
 id = "8e75b108-2be2-463a-9b05-7a386943a31a"
 title = "Practices of an Agile Developer"
-isbn = "9780974514086"
+isbn = "978-0974514086"
 authors = "Subramaniam, V.; Hunt, A."
 publisher = "Pragmatic Bookshelf"
 location = ""
@@ -103,7 +103,7 @@ tags = ["software development", "productivity", "corporate"]
 [[book]]
 id = "d129136d-d984-4505-8049-d20971a840af"
 title = "Ego Is the Enemy"
-isbn = "9781591847816"
+isbn = "978-1591847816"
 authors = "Holiday, R."
 publisher = "Portfolio"
 location = ""
@@ -142,7 +142,7 @@ tags = ["productivity", "prioritization", "goals", "organizing"]
 [[book]]
 id = "d33fc09e-39c6-411e-a70e-2ca98375abd6"
 title = "Pragmatic Thinking and Learning: Refactor Your wetware"
-isbn = "9781934356050"
+isbn = "978-1934356050"
 authors = "Hunt, A."
 publisher = "The Pragmatic Bookshelf"
 location = ""
@@ -160,7 +160,7 @@ tags = ["mindset", "directed learning", "reflection", "efficiency", "prioritizat
 [[book]]
 id = "c109d804-57a4-4acf-8c80-47a88eb6df85"
 title = "Nonviolent Communication: A Language of Life"
-isbn = "9781892005281"
+isbn = "978-1892005281"
 authors = "Rosenberg, M.B."
 publisher = "PuddleDancer Press"
 location = ""
@@ -213,7 +213,7 @@ tags = ["communication", "corporate", "consulting", "career"]
 [[book]]
 id = "b6727fa2-6deb-4080-a440-9697ec3d20e3"
 title = "Behind Closed Doors: Secrets of Great Management"
-isbn = "9780976694021"
+isbn = "978-0976694021"
 authors = "Rothman, J. & Derby, E."
 publisher = "The Pragmatic Bookshelf"
 location = ""
@@ -249,7 +249,7 @@ tags = ["communication", "goals", "consulting"]
 [[book]]
 id = "4b22b149-3d53-40ec-bb84-ecabda4528ab"
 title = "The Five Dysfunctions of a Team: A Leadership Fable"
-isbn = "9788126522743"
+isbn = "978-8126522743"
 authors = "Lencioni, P."
 publisher = "Winsome Book India"
 location = ""
@@ -286,7 +286,7 @@ tags = ["mindset", "resilience", "decision making"]
 [[book]]
 id = "93c3d298-690e-48b5-8140-b34ce90c2083"
 title = "Extreme Programming Explained: Embrace Change"
-isbn = "9780321278654"
+isbn = "978-0321278654"
 authors = "Beck, K. & Andres, C."
 publisher = "Addison-Wesley"
 location = ""
@@ -300,12 +300,12 @@ This book popularized the ideas of "Test Driven Development" and "Pair Programmi
 and the technical practices that support them.
 """
 levels = ["intermediate", "reference"]
-tags = ["programming", "testing", "team dynamics", "efficiency"]
+tags = ["programming", "testing", "test-driven", "team dynamics", "efficiency"]
 
 [[book]]
 id = "6a18e90d-4b11-488d-839f-6e6223c5955f"
 title = "The Mythical Man-Month: Essays on Software Engineering, Anniversary Edition"
-isbn = "9780201835953"
+isbn = "978-0201835953"
 authors = "Brooks, F. P. Jr."
 publisher = "Addison-Wesley Professional"
 location = ""
@@ -361,7 +361,7 @@ tags = ["architecture", "patterns", "communication"]
 [[book]]
 id = "0628f537-6527-4722-93d9-5b765b4c339d"
 title = "Design Patterns: Elements of Reusable Object-Oriented Software"
-isbn = "9780201633610"
+isbn = "978-0201633610"
 authors = "Gamma, A.; Helm, Rl; Johnson, R., Vlissides, J."
 publisher = "Addison-Wesley Professional"
 location = ""
@@ -408,7 +408,7 @@ tags = ["architecture", "trade-off", "documentation", "readability"]
 [[book]]
 id = "9d8ff83e-f49a-4c7c-8e40-e34ac63e2792"
 title = "Refactoring: Improving the Design of Existing Code"
-isbn = "9780133065268"
+isbn = "978-0133065268"
 authors = "Fowler, M.; Beck, K.; Brant J.; Opdyke W.; Roberts D."
 publisher = "Addison-Wesley Professional"
 location = ""
@@ -429,7 +429,7 @@ tags = ["programming", "refactoring", "patterns", "readability"]
 [[book]]
 id = "b6da416a-00a2-46dd-a211-fb4d4f0382e3"
 title = "Driving Technical Change"
-isbn = "9781934356609"
+isbn = "978-1934356609"
 authors = "Ryan, T."
 publisher = "The Pragmatic Bookshelf"
 location = ""
@@ -450,7 +450,7 @@ tags = ["communication", "convincing", "change", "team dynamics"]
 [[book]]
 id = "f17079c7-1dc6-42de-85c1-f61dbeade355"
 title = "Think Faster, Talk Smarter"
-isbn = "9781668010303"
+isbn = "978-1668010303"
 authors = "Abrahams, M."
 publisher = "S&S/Simon Element"
 location = ""
@@ -470,6 +470,22 @@ This book is not just about public speaking; it's a valuable tool for anyone see
 """
 levels = ["beginner", "mixed"]
 tags = ["communication", "presenting", "clarity", "structure"]
+
+[[book]]
+id = "1925e2ec-9147-4c4a-9dd8-c3ce6d08eee6"
+title = "Test-Driven Development with Java"
+isbn = " 978-1803236230"
+authors = "Mellor, A."
+publisher = "Packt Publishing"
+location = ""
+year = "2023"
+link = "https://www.goodreads.com/book/show/68507606-test-driven-development-with-java"
+image = "tdd_java_mellor.jpg"
+description = """
+
+"""
+levels = ["novice"]
+tags=["programming", "test-driven", "structure"]
 
 [[book]]
 id = "a32510dd-068d-4072-8b68-cce120864a64"

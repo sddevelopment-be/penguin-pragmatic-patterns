@@ -98,7 +98,7 @@ params:
     subtitle: discover new ideas and techniques to help you excel
     image: illustrations/mockups/app-mockup.png
     text: >
-      Imagine the thrill of discovering new ideas and techniques that will help you excel at the things you do every day.
+      Imagine the thrill of discovering new ideas and techniques that will help practicesyou excel at the things you do every day.
       Whether you're already working in a technical role or just starting out, there's always more to learn and explore.
       Either way, we've got something for you.  
       <br />  
@@ -115,6 +115,8 @@ params:
         link: "/about"
       - text: Practices
         link: "/practices"
+      - text: Concepts
+        link: "/concepts"
 
   footer:
     # Logo (from /images/logos/___)
@@ -126,6 +128,9 @@ params:
     - link: https://github.com/sddevelopment-be/penguin-pragmatic-patterns
       # Icons are from Font Awesome
       icon: github
+    - link: https://www.linkedin.com/company/sddevelopment-be
+      # Icons are from Font Awesome
+      icon: linkedin
     bulmalogo: false
     quicklinks:
       column1:

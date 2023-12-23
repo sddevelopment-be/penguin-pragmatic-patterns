@@ -23,6 +23,9 @@ Following changes are known:
 - Switch from C4-builder to [hugo](https://gohugo.io/) as site generator
 - References now follow the APA format more closely
 - Bibliography and Tool sections now contain a short description
+- Display of patterns switched to vertical scroll
+- Updated the ¨development roadmap" mindstorm image
+- Split up some patterns to increase their focus on a single technique
 
 ### Added
 
@@ -33,8 +36,15 @@ Following changes are known:
   - Memento Mori
   - Clean code
   - Architecture
+- Add company information to the footer
+- Added tag-based browsing and tag-overview pages
+- Content categories
+- AMMERSE values added to all practices
 
 ### Removed
+
+- Removed "Chapters" from the knowledge base
+- Removed the notion of articles
 
 ## v2.1.0
 

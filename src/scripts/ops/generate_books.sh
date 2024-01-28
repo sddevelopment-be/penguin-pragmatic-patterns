@@ -34,7 +34,7 @@ while read p; do
       complexity="[]"
   fi
 
-  if [[ $book ]]; then
+  if [ $book ]; then
     if [[ "$p" = "id = "* ]]; then
         id=$(echo "$p" | awk -F"=" '/id/{print $2}');
     fi

@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# Simple STAX parser implementation for a TOML file containing bibliographical information
+# Simple iterative parser implementation for a TOML file containing bibliographical information
 outputDir="content/books"
-book=false;
+book="";
 title=""
 id=""
 title=""
@@ -13,19 +13,23 @@ complexity="[]"
 while read p; do
   if [ "$p" = "[[book]]" ]; then
     book=true
+    echo "DEBUG: Found book!"
   fi
-  if [ "$p" = "" ]; then
+  if [ "$p" = "" ] && [ $book ]; then
+      echo "DEBUG: Found end of book!";
       outFile="$outputDir/$(echo $id | sed "s/[\" ]//g").md";
-      echo "+++" > $outFile;
-      echo "title = $title" >> $outFile;
-      echo "id = $id" >> $outFile;
-      echo "tags = $tags" >> $outFile;
-      echo "levels = $complexity" >> $outFile;
-      echo "draft = $draft" >> $outFile;
-      echo "+++" >> $outFile;
+      echo "DEBUG: Writing to $outFile";
+
+      echo "+++" > "$outFile";
+      echo "title = $title" >> "$outFile";
+      echo "id = $id" >> "$outFile";
+      echo "tags = $tags" >> "$outFile";
+      echo "levels = $complexity" >> "$outFile";
+      echo "draft = $draft" >> "$outFile";
+      echo "+++" >> "$outFile";
       echo "Wrote data to $outFile !";
 
-      book=false
+      book=""
       title=""
       id=""
       draft=false
@@ -35,20 +39,28 @@ while read p; do
   fi
 
   if [ $book ]; then
-    if [[ "$p" = "id = "* ]]; then
-        id=$(echo "$p" | awk -F"=" '/id/{print $2}');
+    testId=$(echo "$p" | sed -n "/^id =/p")
+    if [ "$testId"  ]; then
+        id=$(echo "$p" | awk -F"= " '/id/{print $2}');
+        echo "DEBUG: Found book id: $id";
     fi
-    if [[ "$p" = "title = "* ]]; then
-        title=$(echo "$p" | awk -F"=" '/title/{print $2}');
+    testTitle=$(echo "$p" | sed -n "/^title =/p")
+    if [ "$testTitle" ]; then
+        title=$(echo "$p" | awk -F"= " '/title/{print $2}');
+        echo "DEBUG: Found title: $title";
     fi
-    if [[ "$p" = "tags = "* ]]; then
-        tags=$(echo "$p" | awk -F"=" '/tags/{print $2}');
+    testTags=$(echo "$p" | sed -n "/^tags =/p")
+    if [ "$testTags" ]; then
+        tags=$(echo "$p" | awk -F"= " '/tags/{print $2}');
+        echo "DEBUG: Found tags: $tags";
     fi
-    if [[ "$p" = "levels = "* ]]; then
-        complexity=$(echo "$p" | awk -F"=" '/levels/{print $2}');
+    testLevels=$(echo "$p" | sed -n "/^levels =/p")
+    if [ "$testLevels" ]; then
+        complexity=$(echo "$p" | awk -F"= " '/levels/{print $2}');
     fi
-    if [[ "$p" = "draft = "* ]]; then
-        draft=$(echo "$p" | awk -F"=" '/draft/{print $2}');
+    testDraft=$(echo "$p" | sed -n "/^draft =/p")
+    if [ "$testDraft" ]; then
+        draft=$(echo "$p" | awk -F"= " '/draft/{print $2}');
     fi
   fi
-done < $1
+done < "$1"

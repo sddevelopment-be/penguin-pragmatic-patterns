@@ -30,6 +30,10 @@ I have not failed. I've just found 10,000 ways that won't work.
 
 ## Problem Statement
 
+* When learning new skills, a large part of the process does not yield immediate or desirable results.
+* We are hard-wired to avoid failure. 
+  * This is a good thing, as it helps us survive. 
+  * It also makes us avoid trying new things, as we are afraid of failing.
 
 ## Intent
 
@@ -38,9 +42,22 @@ and with less stress. You might even have some fun while doing it.
 
 ## Contextual forces
 
+
+
 ### Enablers
 
+* Your environment values gaining and sharing knowledge.
+* You are in a safe environment, where failure is not punished.
+* Your learning goals are clear to you, and you are motivated to achieve them.
+* You are able to break down your learning goals into small, achievable, verifiable steps.
+* You are able to take the results from your learning experiments, and apply it to your work.
+
 ### Deterrents
+
+* You do not particularly care about learning new things.
+* Your environment does not value learning, or is unwilling to invest in it.
+* There is an expert present, who already knows how to do the thing you are trying to learn.[^1]
+* You are in an environment where optics are more important than results, and failure is punished.
 
 ## Solution
 
@@ -77,6 +94,9 @@ and with less stress. You might even have some fun while doing it.
   title="Ladder anxiety, and how to overcome the fear of ranked play"
   site="TempoStorm.com"
   link="https://tempostorm.com/articles/ladder-anxiety-and-how-to-overcome-the-fear-of-ranked-play" >}}
+
 ---
 
-
+[^1]: This one is somewhat counter-intuitive, but it is a real thing. If you are trying to learn something, and there is an expert present, you 
+(or your organization) will be tempted to ask them to pick up the work. Reliance on skilled individuals can be detrimental to your growth, 
+as it results in you learning how to ask the expert for help, rather than refine your own skills. This is not a bad thing, but it is not what you set out to do.

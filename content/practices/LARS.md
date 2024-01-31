@@ -43,6 +43,11 @@ You have difficulties connecting with others, and find yourself disengaged durin
 
 ## Contextual forces
 
+{{<whatis text=`
+These describe factors at play that influence the outcome of the practice. They are not necessarily good or bad, but they are important to be
+aware of. Some contextual forces are enablers, giving the practice a higher chance of being useful. Others are deterrents, making the practice less useful
+in your given context.` >}}
+
 ### Enablers
 
 * Genuine care for the person you're conversing with and a desire to understand them.

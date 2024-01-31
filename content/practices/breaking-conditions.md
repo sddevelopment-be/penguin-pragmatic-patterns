@@ -35,6 +35,11 @@ You tend to push too hard in order to reach a goal, or invest more than you are 
 
 ## Contextual forces
 
+{{<whatis text=`
+These describe factors at play that influence the outcome of the practice. They are not necessarily good or bad, but they are important to be
+aware of. Some contextual forces are enablers, giving the practice a higher chance of being useful. Others are deterrents, making the practice less useful
+in your given context.` >}}
+
 ### Enablers
 * You have a clear idea of how far you can stretch.
 * You can deal with other people giving you a hard time for changing your mind.

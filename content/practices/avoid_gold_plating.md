@@ -45,6 +45,11 @@ alt="An image of a bicycle with a robotic rear wheel, looking highly complicated
 
 ## Contextual forces
 
+{{<whatis text=`
+These describe factors at play that influence the outcome of the practice. They are not necessarily good or bad, but they are important to be
+aware of. Some contextual forces are enablers, giving the practice a higher chance of being useful. Others are deterrents, making the practice less useful
+in your given context.` >}}
+
 ### Enablers
 
 * the level of refinement of a codebase should make sense for the problem at hand

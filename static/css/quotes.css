@@ -1,4 +1,8 @@
 /* Some vars */
+.small-padding {
+    padding: 0.5rem !important;
+}
+
 .brooks {
     position: relative;
     font-family: 'Sanchez', serif;
@@ -137,6 +141,22 @@
     padding: 0.25rem;
 }
 
+.muted {
+    border-left: 2px solid #cecece !important;
+    padding: 0.75rem 1.5rem !important;
+    text-align: justify;
+    color: #1f3c48;
+    font-style: italic;
+    font-size: 1.125rem !important;
+}
+
+.muted-title {
+    color: #898989;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 350;
+    margin-right: 0.75rem;
+}
 
 @media (max-width: 800px) {
     .alert-container {

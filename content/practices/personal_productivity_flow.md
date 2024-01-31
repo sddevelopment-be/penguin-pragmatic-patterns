@@ -40,6 +40,11 @@ You find it difficult to remember what you want to achieve, and are distrought b
 
 ## Contextual forces
 
+{{<whatis text=`
+These describe factors at play that influence the outcome of the practice. They are not necessarily good or bad, but they are important to be
+aware of. Some contextual forces are enablers, giving the practice a higher chance of being useful. Others are deterrents, making the practice less useful
+in your given context.` >}}
+
 * People are often distracted by their own thoughts.
 * Having mental "open loops"[^0] is tiring, and stressful.
 * It is difficult to keep up the habbot of organizing your ideas.

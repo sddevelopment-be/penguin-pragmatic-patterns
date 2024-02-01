@@ -38,6 +38,11 @@ knowledge you have.
 
 ## Contextual forces
 
+{{<whatis text=`
+These describe factors at play that influence the outcome of the practice. They are not necessarily good or bad, but they are important to be
+aware of. Some contextual forces are enablers, giving the practice a higher chance of being useful. Others are deterrents, making the practice less useful
+in your given context.` >}}
+
 ### Enablers
 
 * You are comfortable being confronted with your own gaps of understanding

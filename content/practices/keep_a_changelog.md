@@ -36,6 +36,11 @@ You are experiencing difficulty in keeping track of which changes have been made
 
 ## Contextual forces
 
+{{<whatis text=`
+These describe factors at play that influence the outcome of the practice. They are not necessarily good or bad, but they are important to be
+aware of. Some contextual forces are enablers, giving the practice a higher chance of being useful. Others are deterrents, making the practice less useful
+in your given context.` >}}
+
 ### Enablers
 
 * You work in a regulated environment, needing you to keep tabs on changes, and periodically report on them.

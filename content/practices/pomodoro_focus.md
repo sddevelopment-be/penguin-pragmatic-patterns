@@ -36,6 +36,11 @@ You are distracted by various inputs from your environment, causing you to not f
 
 ## Contextual forces
 
+{{<whatis text=`
+These describe factors at play that influence the outcome of the practice. They are not necessarily good or bad, but they are important to be
+aware of. Some contextual forces are enablers, giving the practice a higher chance of being useful. Others are deterrents, making the practice less useful
+in your given context.` >}}
+
 ### Enablers
 
 * You wish to complete tasks to be best of your ability, and as fast as circumstances allow.

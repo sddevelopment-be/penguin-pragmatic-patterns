@@ -472,6 +472,26 @@ levels = ["beginner", "mixed"]
 tags = ["communication", "presenting", "clarity", "structure"]
 
 [[book]]
+id = "faf35830-29af-4957-8ad1-0d37d6bd60db"
+title = "Drive: The Surprising Truth About What Motivates Us"
+isbn = "9781594488849"
+authors = "Pink, D. H."
+publisher = "Riverhead Books"
+location = ""
+year = "2009"
+link = "https://www.goodreads.com/book/show/6452796-drive"
+image = "drive.jpg"
+description = """
+How do you motivate yourself, and others? Did your manager get it right by offering you the chance of promotion if you worked all weekend?
+Or would you have preferred a more relaxed approach, where you could work on your own projects, and have the freedom to explore, promotion be damned?<br />
+In 'Drive', Pink explores the science behind motivation, how it has been applied in the workplace in the past, and how the existing paradigm no longer fits the modern workforce.
+The books introduces the reader to the three pillars of motivation: Autonomy, Mastery, and Purpose. It then goes on to explain how these can be applied to your own situation, work or otherwise.<br /><br />
+If you are in a leadership position, aspire to be, or are just curious about what makes people tick, this book is a must-read.
+"""
+levels = ["novice"]
+tags=["productivity", "motivation", "goals"]
+
+[[book]]
 id = "1925e2ec-9147-4c4a-9dd8-c3ce6d08eee6"
 title = "Test-Driven Development with Java"
 isbn = " 978-1803236230"
@@ -481,6 +501,7 @@ location = ""
 year = "2023"
 link = "https://www.goodreads.com/book/show/68507606-test-driven-development-with-java"
 image = "tdd_java_mellor.jpg"
+draft = true
 description = """
 
 """

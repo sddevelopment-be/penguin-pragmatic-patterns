@@ -37,6 +37,11 @@ How do you make structured progress towards a specific overarching goal?
 
 ## Contextual forces
 
+{{<whatis text=`
+These describe factors at play that influence the outcome of the practice. They are not necessarily good or bad, but they are important to be
+aware of. Some contextual forces are enablers, giving the practice a higher chance of being useful. Others are deterrents, making the practice less useful
+in your given context.` >}}
+
 - You have a need to keep tabs on the status of various goals and objectives, by using the step names as status indicators
 - having a clear idea of progress made, when combined with the KPI pattern
 - split big goals into bite-sized chunks

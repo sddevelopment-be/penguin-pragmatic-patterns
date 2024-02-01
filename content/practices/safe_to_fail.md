@@ -2,7 +2,7 @@
 title = "Safe to fail experiments"
 author = "Stijn Dejongh"
 problem = "You have troubles learning new skills or techniques, as you are afraid it will be more trouble than it's worth."
-description = "Define small, safe, experiments to try out new approaches, making perceived failure less of a hurdle."
+description = "Lower the stakes by reframing your goals, creating an experimental mindset, and sharing your findings."
 type = "practice"
 categories = [
     "learning",
@@ -10,18 +10,18 @@ categories = [
 tags = [
     "experimentation", "goals", "accountability", "difficulty"
 ]
-uuid="09986d9e-cd80-4016-8000-c62ed5064914"
-aliases=["uuid"]
+uuid = "09986d9e-cd80-4016-8000-c62ed5064914"
+aliases = ["uuid"]
 ammerse = [
-    {name = "agile", delta = "1"},
-    {name = "minimal", delta = "1"},
-    {name = "maintainable", delta = "-1"},
-    {name = "environmental", delta = "0.5"},
-    {name = "reachable", delta = "1"},
-    {name = "solvable", delta = "0"},
-    {name = "extensible", delta = "0"},
+    { name = "agile", delta = "1" },
+    { name = "minimal", delta = "1" },
+    { name = "maintainable", delta = "-1" },
+    { name = "environmental", delta = "0.5" },
+    { name = "reachable", delta = "1" },
+    { name = "solvable", delta = "0" },
+    { name = "extensible", delta = "0" },
 ]
-pubdate="2024-01-28"
+pubdate = "2024-01-28"
 +++
 
 {{<quote text=`
@@ -30,41 +30,60 @@ I have not failed. I've just found 10,000 ways that won't work.
 
 ## Problem Statement
 
-* When learning new skills, a large part of the process does not yield immediate or desirable results.
-* We are hard-wired to avoid failure. 
-  * This is a good thing, as it helps us survive. 
-  * It also makes us avoid trying new things, as we are afraid of failing.
+* When learning new skills, a significant part of the process may not yield immediate or desired results.
+* We are hardwired to avoid failure, which, while crucial for survival, hinders trying new things.
 
 ## Intent
 
-Create an environment where trying out new ideas, or practicing new skills becomes less scary. This should allow you to learn new things faster, 
-and with less stress. You might even have some fun while doing it.
+Create an environment where experimenting with new ideas or practicing skills becomes less intimidating. This fosters faster and less stressful
+learning, potentially adding an element of enjoyment.
 
 ## Contextual forces
 
 {{<whatis text=`
-These describe factors at play that influence the outcome of the practice. They are not necessarily good or bad, but they are important to be 
-aware of. Some contextual forces are enablers, giving the practice a higher chance of being useful. Others are deterrents, making the practice less useful 
+These describe factors at play that influence the outcome of the practice. They are not necessarily good or bad, but they are important to be
+aware of. Some contextual forces are enablers, giving the practice a higher chance of being useful. Others are deterrents, making the practice less useful
 in your given context.` >}}
 
 ### Enablers
 
+* Your learning goals are clear and motivating.
 * Your environment values gaining and sharing knowledge.
-* You are in a safe environment, where failure is not punished.
-* Your learning goals are clear to you, and you are motivated to achieve them.
-* You are able to break down your learning goals into small, achievable, verifiable steps.
-* You are able to take the results from your learning experiments, and apply it to your work.
+* You are in a safe environment where failure is not punished.
+* You can apply results from learning experiments to your work.
+* You can break down learning goals into small, achievable steps.
 
 ### Deterrents
 
-* You do not particularly care about learning new things.
-* Your environment does not value learning, or is unwilling to invest in it.
-* There is an expert present, who already knows how to do the thing you are trying to learn.[^1]
-* You are in an environment where optics are more important than results, and failure is punished.
+* Lack of interest in learning new things.
+* Environment devalues learning or is unwilling to invest in it.
+* Presence of an expert in the subject you're trying to learn.[^1]
+* Environment prioritizes optics over results, punishing failure.
 
 ## Solution
 
+* Reframe your goal to focus on gathering knowledge rather than "making something work."
+    - Form hypotheses and try to prove theories.
+    - Have multiple approaches to a problem to embrace the experimentation mindset.
+    - Inform stakeholders about your intent to experiment.
+* Set up small-scale experiments to test ideas.
+* Hold yourself accountable by investing effort based on learning goals.
+* Isolate experimentation from regular work to lower the stakes of your learning efforts.
+* **Pass on what you have learned:** Share your findings, even if the experiment doesn't meet expectations, to facilitate learning and prevent
+  others from making the same mistakes.[^2]
+
 ## Examples
+
+### Trying a Novel Framework
+
+**Situation:** You have learned of a novel framework or technology that you would like to try out.
+You are not sure if it will be useful for your current project, but you are interested in learning more about it.
+
+* You set up a small project, and try to implement a small -- non-critical -- feature using the new technology.
+* You document your findings (both advantages and disadvantages), and share them with your team.
+* You park your small feature, discuss your recommendations with your team, and move on with your work.
+
+**Possible outcome:** You decide to not use the new technology for your current project, but you (and your colleagues) have learned something new.
 
 ## References
 
@@ -100,6 +119,9 @@ in your given context.` >}}
 
 ---
 
-[^1]: This one is somewhat counter-intuitive, but it is a real thing. If you are trying to learn something, and there is an expert present, you 
-(or your organization) will be tempted to ask them to pick up the work. Reliance on skilled individuals can be detrimental to your growth, 
-as it results in you learning how to ask the expert for help, rather than refine your own skills. This is not a bad thing, but it is not what you set out to do.
+[^1]: This is somewhat counter-intuitive, but it is a real thing. If you are trying to learn something, and there is an expert present, you (or your
+organization) will be tempted to ask them to pick up the work. Reliance on skilled individuals can be detrimental to your growth, as it results in
+learning how to ask the expert for help, rather than refining your own skills. This is not a bad thing, but it is not what you set out to do.
+
+[^2]: From a business perspective, illustrating and capturing the results of your experimentation is what differentiates "experimentation" from "
+just messing around".

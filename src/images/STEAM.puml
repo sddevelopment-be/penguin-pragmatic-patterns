@@ -11,10 +11,8 @@ left to right direction
 skinparam dpi 240
 skinparam defaultTextAlignment left
 
-skinParam maxMessageSize 168
-skinparam wrapWidth 194
-skinparam nodesep 5
-skinparam ranksep 5
+skinParam maxMessageSize 184
+skinparam wrapWidth 204
 
 skinparam linetype polyline
 
@@ -23,39 +21,33 @@ hide footbox
 
 System_Boundary(resources, "Available Resources") {
     System(support, "Support", "Others willing to help you to see your endeavours succeed. (your social credit)")
-    System(time, "Time", "Amount of time you spend on a single endeavour. \n\n")
-    System(energy, "Energy", "Amount of effort you can put in. Your alertness. \n\n ")
-    System(attention, "Attention", "Focus, concentration, the ability to be present in the moment. \n")
-    System(money, "Money", "Monetary funds available. \n Cash, dough, moolah, greenbacks, etc. \n")
-}
+    System(time, "Time", "Amount of time you spend on a single endeavour. \n")
+    System(energy, "Energy", "Amount of effort you can put in. Your alertness. \n")
 
-Person(person, "Person", "Someone living their lives, trying to make the most of it.", $tags="Element+Person")
+    System(attention, "Attention", "Focus, concentration, the ability to be present in the moment.")
+    System(money, "Money", "Monetary funds available. \n Cash, dough, moolah, greenbacks, etc.")
+}
 
 System_Boundary(choices, "Possible Choices") {
-    Container(optionOne, "Option one", "Binge-watching a show with friends.", $tags="Element+Container")
-    Container(optionTwo, "Option two", "Doing household chores and admin.", $tags="Element+Container")
-    Container(optionThree, "Option three", "Learning about ways to \n boost personal productivity.", $tags="Element+Container")
+    Container(optionOne, "Option one", "\nBinge-watching a show with friends. \n", $tags="Element+Container")
+    Container(optionTwo, "Option two", "\nDoing household chores and admin. \n", $tags="Element+Container")
+    Container(optionThree, "Option three", "\nLearning about ways to \n boost personal productivity.\n", $tags="Element+Container")
 
-    Container(impactOne, "Impact of option one", "S: ++; T: -; E: -; A: --; M: no impact")
-
-    Container(impactTwo, "Impact of option two", "S: ; T: ; E: ; A: ; M: ")
-    Container(impactThree, "Impact of option three", "S: ; T: ; E: ; A: ; M: ")
+    Container(impactOne, "Impact of option one \n\n",     "**S:** ↑ **T:** ↓  **E:** ↓  **A:** ↡  **M**: ↔ ")
+    Container(impactTwo, "Impact of option two \n\n",     "**S:** ↔   **T:** ↡  **E:** ↓  **A:** ↑  **M**: ↔")
+    Container(impactThree, "Impact of option three \n\n", "**S:** ↓  **T:** ↑  **E:** ↑  **A:** ↡  **M**: ↓")
 }
 
-person --> resources: "has a set of"
-person --> choices: "spends evening doing one of"
-resources -right[hidden]-> choices
-
-person -[hidden]-> optionOne
-person -[hidden]-> support
+resources -left[hidden]-> choices
 
 support-[hidden]->time
 time-[hidden]->energy
-energy-[hidden]->attention
+
+
 attention-[hidden]->money
 
-optionOne -right[hidden]-> optionTwo
-optionTwo -right[hidden]-> optionThree
+optionOne -left[hidden]-> optionTwo
+optionTwo -left[hidden]-> optionThree
 
 optionOne --> impactOne
 optionTwo --> impactTwo

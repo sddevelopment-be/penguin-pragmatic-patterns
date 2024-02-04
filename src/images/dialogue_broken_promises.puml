@@ -1,7 +1,7 @@
 @startuml
 'https://plantuml.com/sequence-diagram
 
-!include ../doc_templates/plantuml/puml-theme-bluegray_conversation.puml
+!include ../templates/plantuml/puml-theme-bluegray_conversation.puml
 skinparam dpi 320
 skinParam maxMessageSize 280
 hide stereotype

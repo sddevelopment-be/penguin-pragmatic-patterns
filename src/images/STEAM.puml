@@ -1,0 +1,27 @@
+@startuml
+title STEAM
+
+left to right direction
+
+ !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+
+skinparam dpi 240
+skinParam maxMessageSize 160
+
+hide stereotype
+hide footbox
+
+System(support, "Support", "Others willing to help you to see your endeavours succeed. (your social credit)")
+System(time, "Time", "Amount of time you spend on a single task/endeavour. \n")
+System(energy, "Energy", "Amount of effort you can put in. Your alertness. \n ")
+System(attention, "Attention", "Focus, concentration, the ability to be present in the moment.")
+System(money, "Money", "Monetary funds available. \n Cash, dough, moolah, greenbacks, etc.")
+
+support-[hidden]->time
+time-[hidden]->energy
+energy-[hidden]->attention
+attention-[hidden]->money
+
+@enduml

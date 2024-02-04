@@ -8,7 +8,7 @@ categories = [
     "productivity",
 ]
 tags = [
-    "workflow", "organizing", "research", "goals"
+    "workflow", "research", "goals", "problem solving"
 ]
 displaySection = "productivity"
 uuid="47f32286-17b0-471e-90d6-eb0de9f60ac0"

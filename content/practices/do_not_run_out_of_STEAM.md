@@ -78,8 +78,8 @@ caption="The different resources that allow you to plow full STEAM ahead." >}}
 ### Evening Plans
 
 {{< image src="/images/practices/steam_illustration.png"  
-alt="Applying the STEAM mnemonic model to a real-life situation."  
-caption="Applying the STEAM mnemonic model to a real-life situation." >}}
+  alt="Applying the STEAM mnemonic model to a real-life situation."  
+  caption="Applying the STEAM mnemonic model to a real-life situation." >}}
 
 ## References
 
@@ -102,6 +102,13 @@ caption="Applying the STEAM mnemonic model to a real-life situation." >}}
   publisher = "Riverhead Books"
   year = "2009"
   link = "https://www.goodreads.com/book/show/6452796-drive" >}}
+* {{<reference
+  title = "TEA: The 3 Pillars of Productivity You Need To Unlock Your Full Potential"
+  authors = "Pham, T."
+  site = "asianefficiency.com"
+  year = "2018"
+  link = "https://www.asianefficiency.com/productivity/tea-framework/" >}}
+
 ---
 
 

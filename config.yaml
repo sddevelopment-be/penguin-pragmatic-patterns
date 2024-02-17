@@ -63,6 +63,10 @@ params:
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
 
+  - title: About
+    url: /about
+  - title: Pillars
+    url: /pillars/
   - title: Concepts
     url: /concepts/
   - title: Practices
@@ -79,9 +83,6 @@ params:
 #        url: /
 #      - title: short reads
 #        url: /
-  - title: About
-    url: /about
-    button: true
 
   section2:
     title: What's in it for you?

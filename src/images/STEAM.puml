@@ -8,7 +8,7 @@ left to right direction
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
 
-skinparam dpi 240
+skinparam dpi 420
 skinparam defaultTextAlignment left
 
 skinParam maxMessageSize 184
@@ -16,10 +16,14 @@ skinparam wrapWidth 204
 
 skinparam linetype polyline
 
+skinparam component {
+     hide<<hidden_st>> stereotype
+}
+
 hide stereotype
 hide footbox
 
-System_Boundary(resources, "Available Resources") {
+Boundary(resources, "Available Resources") {
     System(support, "Support", "Others willing to help you to see your endeavours succeed. (your social credit)")
     System(time, "Time", "Amount of time you spend on a single endeavour. \n")
     System(energy, "Energy", "Amount of effort you can put in. Your alertness. \n")
@@ -28,32 +32,31 @@ System_Boundary(resources, "Available Resources") {
     System(money, "Money", "Monetary funds available. \n Cash, dough, moolah, greenbacks, etc.")
 }
 
-System_Boundary(choices, "Possible Choices") {
-    Container(optionOne, "Option one", "\nBinge-watching a show with friends. \n", $tags="Element+Container")
-    Container(optionTwo, "Option two", "\nDoing household chores and admin. \n", $tags="Element+Container")
-    Container(optionThree, "Option three", "\nLearning about ways to \n boost personal productivity.\n", $tags="Element+Container")
 
-    Container(impactOne, "Impact of option one \n\n",     "**S:** ↑ **T:** ↓  **E:** ↓  **A:** ↡  **M**: ↔ ")
-    Container(impactTwo, "Impact of option two \n\n",     "**S:** ↔   **T:** ↡  **E:** ↓  **A:** ↑  **M**: ↔")
-    Container(impactThree, "Impact of option three \n\n", "**S:** ↓  **T:** ↑  **E:** ↑  **A:** ↡  **M**: ↓")
-}
-
-resources -left[hidden]-> choices
 
 support-[hidden]->time
 time-[hidden]->energy
-
-
 attention-[hidden]->money
 
-optionOne -left[hidden]-> optionTwo
-optionTwo -left[hidden]-> optionThree
-
-optionOne --> impactOne
-optionTwo --> impactTwo
-optionThree --> impactThree
-
-impactOne -left[hidden]-> impactTwo
-impactTwo -left[hidden]-> impactThree
+'Boundary(choices, "Possible Choices") {
+'    Container(optionOne, "Option one", "", "Binge-watching a show with friends. \n", $tags="Element+Container")
+'    Container(optionTwo, "Option two", "","Doing household chores and admin. \n", $tags="Element+Container")
+'    Container(optionThree, "Option three", "","Learning about ways to \n boost personal productivity.\n", $tags="Element+Container")
+'
+'    Container(impactOne, "Impact of option one",     "", "\n**S:** ↑ **T:** ↓  **E:** ↓  **A:** ↡  **M**: ↔ \n")
+'    Container(impactTwo, "Impact of option two", "",    " \n**S:** ↔   **T:** ↡  **E:** ↓  **A:** ↑  **M**: ↔ \n")
+'    Container(impactThree, "Impact of option three", "", "\n**S:** ↓  **T:** ↑  **E:** ↑  **A:** ↡  **M**: ↓ \n")
+'}
+'
+'resources -left[hidden]-> choices
+'optionOne -left[hidden]-> optionTwo
+'optionTwo -left[hidden]-> optionThree
+'
+'optionOne --> impactOne
+'optionTwo --> impactTwo
+'optionThree --> impactThree
+'
+'impactOne -left[hidden]-> impactTwo
+'impactTwo -left[hidden]-> impactThree
 
 @enduml

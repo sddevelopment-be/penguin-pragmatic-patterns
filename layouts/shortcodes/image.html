@@ -6,9 +6,9 @@
 {{ if $caption }}
 <div class="img-gallery" {{ if $scale }}style="max-width: {{ $scale }}; "{{ end}}>
     <figure>
-        <a class="search-icon" target="_blank" href="{{ $src }}">
+        <a class="search-icon" target="_blank" href="{{ $src }}" title="{{ $alt }}">
             <picture>
-                <source srcset="{{ $src }}" type="image/png"/>
+                <source srcset="{{ $src }}" type="image/png" />
                 <img src="{{ $src }}" type="image/png" alt="{{ $alt }}" decoding="async" />
             </picture>
         </a>
@@ -17,10 +17,10 @@
 </div>
 {{ else }}
 <div class="text_image" {{if $scale}}style="max-width: {{ $scale }}; "{{ end}}>
-    <a class="search-icon" target="_blank" href="{{ $src }}">
+    <a class="search-icon" target="_blank" href="{{ $src }}" title="{{ $alt }}">
         <picture>
             <source srcset="{{ $src }}" type="image/png"/>
-            <img src="{{ $src }}" type="image/png" alt="{{ $alt }}" title="{{ $alt }}" decoding="async"/>
+            <img src="{{ $src }}" type="image/png" alt="{{ $alt }}" decoding="async"/>
         </picture>
     </a>
 </div>

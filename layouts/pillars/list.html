@@ -5,30 +5,34 @@
 {{ $pages := .Pages }}
 {{ $paginator := .Paginate $pages }}
 
-
-<section class="section section-feature-grey is-medium" id="glossary">
+<section class="section is-medium">
     <div class="container">
-        <div class="column is-centered-tablet-portrait">
-            <h1 class="title section-title">
-                {{ .Title }}
-            </h1>
-            <div class="divider"></div>
+        <div class="columns">
+            <div class="column is-centered-tablet-portrait">
+                <h1 class="title section-title">{{ .Title }}</h1>
+                <h5 class="subtitle is-5 is-muted">{{ .Params.Subtitle }}</h5>
+                <div class="divider"></div>
+            </div>
         </div>
 
-        <div class="content-wrapper">
-            {{ range $paginator.Pages }}
-            <div class="chapter">
-                <h2 class="title section-title">
-                    Chapter: <a href="{{ .Permalink }}">{{ .Title }}</a>
-                </h2>
-                <div class="chapter_summary">
-                    {{ .Summary }}
-                </div>
-            </div>
+        <div class="content">
+            {{ .Content }}
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="page-navigation">
+            {{ if .NextInSection }}
+            <a href="{{.NextInSection.Permalink}}" class="nav-item">Previous Chapter: {{ .NextInSection.Title }}</a>
+            {{ end }}
+            {{ if .PrevInSection }}
+            <a href="{{.PrevInSection.Permalink}}" class="nav-item">Next Chapter: {{ .PrevInSection.Title }}</a>
             {{ end }}
         </div>
     </div>
+
 </section>
+
 
 {{ with $paginator }}
     <div class="pagination">

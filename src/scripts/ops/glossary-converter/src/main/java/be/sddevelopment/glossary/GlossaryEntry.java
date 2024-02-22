@@ -1,8 +1,12 @@
 package be.sddevelopment.glossary;
 
+import org.apache.commons.lang3.StringUtils;
+
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
+
+import static org.apache.commons.lang3.StringUtils.isNotBlank;
 
 public record GlossaryEntry(
         String term,
@@ -25,5 +29,13 @@ public record GlossaryEntry(
         this.definition = definition;
         this.abbreviation = abbreviation;
         this.aliases = new ArrayList<>(new HashSet<>(aliases));
+    }
+
+    public boolean hasAbbreviation() {
+        return isNotBlank(abbreviation);
+    }
+
+    public boolean hasAliases() {
+        return !aliases.isEmpty() && aliases.stream().anyMatch(StringUtils::isNotBlank);
     }
 }

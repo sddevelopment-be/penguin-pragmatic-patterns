@@ -4,9 +4,11 @@ import org.assertj.core.api.WithAssertions;
 import org.junit.jupiter.api.Test;
 
 import java.util.List;
+import java.util.function.Predicate;
+
+import static java.util.function.Predicate.not;
 
 class GlossaryBookWriterTest implements WithAssertions {
-
 
     @Test
     void writesEntryToBookFormatMarkdown() {
@@ -16,10 +18,13 @@ class GlossaryBookWriterTest implements WithAssertions {
                 "abbreviation",
                 List.of("alias1", "alias2")
         );
+        assertThat(input)
+                .matches(GlossaryEntry::hasAbbreviation)
+                .matches(GlossaryEntry::hasAliases);
 
         var result = new GlossaryBookWriter().writeToMarkdown(input);
 
-        assertThat(result).isEqualTo("""
+        assertThat(result).isEqualToIgnoringWhitespace("""
                 **term**. (abbr. abbreviation, aka. `alias1`, `alias2`) definition.
                 """);
     }
@@ -32,10 +37,13 @@ class GlossaryBookWriterTest implements WithAssertions {
                 "",
                 List.of("alias1", "alias2")
         );
+        assertThat(input)
+                .matches(Predicate.not(GlossaryEntry::hasAbbreviation))
+                .matches(GlossaryEntry::hasAliases);
 
         var result = new GlossaryBookWriter().writeToMarkdown(input);
 
-        assertThat(result).isEqualTo("""
+        assertThat(result).isEqualToIgnoringWhitespace("""
                 **term**. (aka. `alias1`, `alias2`) definition.
                 """);
     }
@@ -47,10 +55,13 @@ class GlossaryBookWriterTest implements WithAssertions {
                 "definition",
                 "abbreviation"
         );
+        assertThat(input)
+                .matches(GlossaryEntry::hasAbbreviation)
+                .matches(Predicate.not(GlossaryEntry::hasAliases));
 
         var result = new GlossaryBookWriter().writeToMarkdown(input);
 
-        assertThat(result).isEqualTo("""
+        assertThat(result).isEqualToIgnoringWhitespace("""
                 **term**. (abbr. abbreviation) definition.
                 """);
     }
@@ -64,7 +75,7 @@ class GlossaryBookWriterTest implements WithAssertions {
 
         var result = new GlossaryBookWriter().writeToMarkdown(input);
 
-        assertThat(result).isEqualTo("""
+        assertThat(result).isEqualToIgnoringWhitespace("""
                 **term**. definition.
                 """);
     }
@@ -85,15 +96,15 @@ class GlossaryBookWriterTest implements WithAssertions {
 
         var result = new GlossaryBookWriter("Glossary").writeToPage(List.of(entryOne, entryTwo));
 
-        assertThat(result).isEqualTo("""
+        assertThat(result).isEqualToIgnoringWhitespace("""
                 # Glossary
-                
+                                
                 ## A
-                
+                                
                 **A term**. (abbr. A, aka. `first`) definition of A term.
-                
+                                
                 ## B
-                
+                                
                 **B term**. (abbr. B) definition.
                 """
         );

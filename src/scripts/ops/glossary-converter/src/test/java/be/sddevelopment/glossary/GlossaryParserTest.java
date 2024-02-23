@@ -68,6 +68,32 @@ class GlossaryParserTest implements WithAssertions {
         ));
     }
 
+    @Test
+    void removesHtmlLineBreaks() {
+        var input = Map.entry("Application Programming Interface",
+                List.of(
+                        "[[terminology]]\n",
+                        "term =\"Application Programming Interfac\"\n",
+                        "definition = \"\"\"\n",
+                        "Specifies a set of software functions that are made available to an application programmer.<br /><br />\n",
+                        "The API typically includes function names, the parameters that can be passed into each function,<br > and a<br>\n",
+                        "description of the return values one can expect.\n",
+                        "        \"\"\"\n",
+                        "abbreviation = \"API\"\n",
+                        "aliases = [\"API\", \"Hall of shame\"]\n"
+                )
+        );
+
+        var result = GlossaryParser.toGlossaryEntry(input);
+
+        assertThat(result).isEqualTo(new GlossaryEntry(
+                "Application Programming Interface",
+                "Specifies a set of software functions that are made available to an application programmer. The API typically includes function names, the parameters that can be passed into each function, and a description of the return values one can expect.",
+                "API",
+                List.of("API", "Hall of shame")
+        ));
+    }
+
     private Path testResouce(String s) {
         try {
             var resourceUri = ofNullable(GlossaryParserTest.class.getClassLoader())

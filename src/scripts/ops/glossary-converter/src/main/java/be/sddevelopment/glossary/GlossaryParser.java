@@ -67,6 +67,8 @@ public class GlossaryParser {
         );
     }
 
+    private static final String HTML_LINE_BREAK = "<\\s*br\\s*/?>";
+
     private static String definitionFrom(String block) {
         if (!block.contains(DEFINITION_INDICATOR)) {
             return "";
@@ -75,6 +77,7 @@ public class GlossaryParser {
         return block.substring(block.indexOf(DEFINITION_INDICATOR), block.lastIndexOf(DEFINITION_INDICATOR))
                 .strip()
                 .replace(System.lineSeparator(), " ")
+                .replaceAll(HTML_LINE_BREAK, "")
                 .replace(DEFINITION_INDICATOR, "").trim();
     }
 
@@ -102,7 +105,7 @@ public class GlossaryParser {
         var aliasesSpec = contentBlock.substring(startOfAliases, endOfAliases > 0 ? endOfAliases : contentBlock.length())
                 .strip()
                 .replace(ALIAS_INDICATOR, "")
-                .replace("]","" )
+                .replace("]", "")
                 .trim();
         return Arrays.stream(aliasesSpec.split(","))
                 .map(s -> s.replace("\"", ""))

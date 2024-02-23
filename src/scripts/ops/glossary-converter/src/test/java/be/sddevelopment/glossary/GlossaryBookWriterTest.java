@@ -6,8 +6,6 @@ import org.junit.jupiter.api.Test;
 import java.util.List;
 import java.util.function.Predicate;
 
-import static java.util.function.Predicate.not;
-
 class GlossaryBookWriterTest implements WithAssertions {
 
     @Test
@@ -93,8 +91,14 @@ class GlossaryBookWriterTest implements WithAssertions {
                 "definition",
                 "B"
         );
+        GlossaryEntry entryThree = new GlossaryEntry(
+                "A term two",
+                "definition of Another term.",
+                "A",
+                List.of("2nd")
+        );
 
-        var result = new GlossaryBookWriter("Glossary").writeToPage(List.of(entryOne, entryTwo));
+        var result = new GlossaryBookWriter("Glossary").writeToPage(List.of(entryThree, entryTwo, entryOne));
 
         assertThat(result).isEqualToIgnoringWhitespace("""
                 # Glossary
@@ -102,6 +106,8 @@ class GlossaryBookWriterTest implements WithAssertions {
                 ## A
                                 
                 **A term**. (abbr. A, aka. `first`) definition of A term.
+                
+                **A term two**. (abbr. A, aka. `2nd`) definition of Another term.
                                 
                 ## B
                                 

@@ -38,6 +38,12 @@
 
     <dependencies>
         <!-- -->
+        <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-core</artifactId>
+            <version>3.0.0-beta2</version>
+        </dependency>
 
         <!-- BEGIN TEST SCOPE -->
         <dependency>

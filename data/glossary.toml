@@ -152,7 +152,7 @@ name = "Control card"
 abbreviation = ""
 domain = "software"
 description = """
-a batch system concept. This is a command to manage the execution of a process (start, stop, interrupts, ...). It can
+A batch system concept. This is a command to manage the execution of a process (start, stop, interrupts, ...). It can
 be used to distinct between different error levels, and severity of instructions.
     """
 aliases = []
@@ -232,12 +232,11 @@ domain = "software architecture"
 description = """
 Domain-Driven Design is a set of principles and schemes aimed at creating optimal systems of objects. Reduced to the
 creation of software abstractions, which are called models of subject areas. These models include business logic that
-establishes a link between the real conditions of the products application area and the code.
+establishes a link between the real conditions of the products' application area and the code.
 <br />
 <br />
-Domain-Driven Design is about creating shared understanding of the problem space that is reinforced ubiquitously via conversations,
-code and diagrams. DDD’s Shared understanding enhances synergy and alignment,
-increasing the ability to deliver value sustainably — ideally over the lifetime of a product.
+Domain-Driven Design is about creating shared understanding of the problem space. This shared understanding is reinforced ubiquitously via conversations,
+code and diagrams. DDD’s Shared understanding enhances synergy and alignment, increasing the ability to deliver value sustainably — ideally over the lifetime of a product.
 """
 aliases = []
 references = []
@@ -342,10 +341,10 @@ abbreviation = "DSL"
 domain = "Software Development"
 description = """
 A specialized programming language intended to be used in a specific business context.
-Usually a bespoke language, developed to fit the business context. These languages are created to serve as shorthand for common operations withina
+Usually a bespoke language, developed to fit the business context. These languages are created to serve as shorthand for common operations within a
 business environment (e.g. configuration, creation of new CRUD endpoints, etc.). As a higher-order language, DSLs are generally built on top of
-existing powerful language stacks, such as Kotlin, Java, Rust, Typescript, ... .
-You might see them as specialist programming interfaces, written in such a way that most of the boilerplate and ceremony canbe avoided.
+existing powerful language stacks, such as Kotlin, Java, Rust, and Typescript.
+You might see them as specialist programming interfaces, written in such a way that most of the boilerplate and ceremony can be avoided.
 """
 aliases = []
 references = []
@@ -355,7 +354,7 @@ name = "Engineering"
 abbreviation = ""
 domain = ""
 description = """
-Engineering is the application of an emperical, scientific approach to finding efficient, economic solutions to practical problems.
+Engineering is the application of an empirical, scientific approach to finding efficient, economic solutions to practical problems.
 """
 aliases = []
 references = []
@@ -385,7 +384,7 @@ name = "File management"
 abbreviation = ""
 domain = "Software Development"
 description = """
-Programs that create, delete, copy, rename, print, dump, list, and generally manupulate files and directories.
+Programs that create, delete, copy, rename, print, dump, list, and generally manipulate files and directories.
 """
 aliases = []
 references = []
@@ -402,13 +401,13 @@ aliases = []
 references = []
 
 [[terminology]]
-name = "FizzBuzz"
+name = "Fizz Buzz"
 domain = "software development"
 description = """
-FizzBuzz is a children's game well known to software developers, as it is commonly used as a training exercise or interview question.
-The aim is to write a program that counts to a given number. When the current count is divisable by 3, the program should print out `Fizz` rather
-than the current count. When the current count is divisible by 5, it should print out `Buzz`. When divisible by both, we expect `FizzBuzz`.
-The FizzBuzz exercise aims to gauge basic programming aptitude, such as the use of loops and accumulators.
+Fizz Buzz is a children's game well known to software developers, as it is commonly used as a training exercise or interview question.
+The aim is to write a program that counts to a given number. When the current count is divisible by 3, the program should print out `Fizz` rather
+than the current count. When the current count is divisible by 5, it should print out `Buzz`. When divisible by both, we expect `Fizz Buzz`.
+The Fizz Buzz exercise aims to gauge basic programming aptitude, such as the use of loops and accumulators.
 """
 aliases = []
 references = [
@@ -442,7 +441,7 @@ name = "Graceful degradation"
 abbreviation = ""
 domain = "Software"
 description = """
-The ability to continue providing service proportional to the level of surviving hardware in the event of a systems failure.
+The ability to continue providing service proportional to the level of surviving hardware in the event of a system failure.
 """
 aliases = []
 references = []
@@ -599,7 +598,7 @@ references = []
 name = "Refactoring"
 domain = "software development"
 description = """
-The process of rewriting software, without changing the way it functions, in order to improve its readability, testability or maintanability.
+The process of rewriting software, without changing the way it functions, in order to improve its readability, testability or maintainability.
     """
 aliases = []
 references = [
@@ -614,7 +613,7 @@ description = """
 A psychological trick we play on ourselves, to justify additional investment into a decision, even though there is evidence to suggest that future costs will outweigh the expected benefit.
 We do this because we feel that we have already invested too much into something to back out now.
 <br /><br />
-example: __"We already spent two months working on getting this software to function properly, we are not going to stop now!"__ Even though little to no progress has been made.
+Example: __"We already spent two months working on getting this software to function properly, we are not going to stop now!"__ Even though little to no progress has been made.
 """
 aliases = ["Escalation of commitment "]
 references = []

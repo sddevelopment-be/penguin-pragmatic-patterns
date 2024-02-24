@@ -628,3 +628,55 @@ In contrast, pre-emptive scheduling can interrupt a process while it is running.
 aliases = []
 references = [
 ]
+
+[[terminology]]
+name = "Dispatch latency"
+domain = "software development"
+description = """
+The time it takes to stop one process and start another one.
+"""
+aliases = []
+references = []
+
+[[terminology]]
+name = "Throughput"
+domain = "software development"
+description = """
+The amount of processes that are completed per unit of time.
+"""
+aliases = []
+references = []
+
+[[terminology]]
+name = "Turnaround time"
+domain = "software development"
+description = """
+The interval of time counted from the moment of submission of a process to the time of completion.
+"""
+aliases = []
+references = []
+
+[[terminology]]
+name = "Waiting time"
+domain = "software development"
+description = """
+The sum of the periods processes spend waiting in the ready queue.
+"""
+aliases = []
+references = []
+
+[[terminology]]
+name = "Response time"
+domain = "software development"
+description = """
+The time it takes from the submission of a request until the first result is produced.
+In specific software development niches, the response time is commonly divided into multiple subcategories, as results are produced incrementally.
+
+As an example, loading a modern web page requires multiple steps, such as loading the HTML, CSS, and JavaScript files, authentication, and backend data retrieval.
+This results in a significant difference between the time it takes to load the first byte of the HTML file, and the time it takes to render the entire page.
+What is more, web developers tend to invest into making their partially loaded pages useable for the site's visitor, even if all the data is not present yet.
+This response time is known as "time to interactive".
+"""
+aliases = ["Load time", "Render time", "Time to interactive", "First input delay"]
+references = []
+

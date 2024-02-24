@@ -617,3 +617,14 @@ Example: __"We already spent two months working on getting this software to func
 """
 aliases = ["Escalation of commitment "]
 references = []
+
+[[terminology]]
+name = "Non-Preemptive scheduling"
+domain = "software development"
+description = """
+Scheduling that takes place, only when a process switches from running to waiting state, or when a process terminates.
+In contrast, pre-emptive scheduling can interrupt a process while it is running.
+    """
+aliases = []
+references = [
+]

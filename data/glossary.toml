@@ -680,3 +680,13 @@ This response time is known as "time to interactive".
 aliases = ["Load time", "Render time", "Time to interactive", "First input delay"]
 references = []
 
+[[terminology]]
+name = "Selective Perception"
+domain = "psychology"
+description = """
+The tendency not to notice, and more quickly forget, events and data that do not align with our expectations.
+This bias is a common psychological phenomenon, and is often used to explain why people tend to ignore or forget
+information that contradicts their current beliefs or causes emotional discomfort.
+"""
+aliases = ["Situational blindness", "Perceptual defense"]
+references = []

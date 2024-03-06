@@ -151,7 +151,7 @@ link = "https://pragprog.com/titles/ahptl/pragmatic-thinking-and-learning/"
 image = "prag_thinking.jpg"
 description = """
 Dive into your own brain, and learn about efficient learning. Hunt discusses various techniques that have helped him stay on top of his game over a career spanning decades.
-As a professional, your main weapon is your ability to learn. Unfortunatly, a lot of us are left to our own devices in figuring out which approaches work well for us.
+As a professional, your main weapon is your ability to learn. Unfortunately, many of us are left to our own devices in figuring out which approaches work well for us.
 This book helps you, by giving you a plethora of time-proven learning techniques, and some tools to discover your own preferences.
 """
 levels = ["novice"]

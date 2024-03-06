@@ -690,3 +690,19 @@ information that contradicts their current beliefs or causes emotional discomfor
 """
 aliases = ["Situational blindness", "Perceptual defense"]
 references = []
+
+[[terminology]]
+name = "Silver Bullet"
+domain = "folklore"
+description = """
+A simple, magical, solution to a complex problem. The term likely originates from the use of silver weapons in Greek mythology,
+as they were believed to symbolize purity of heart, and known to bestow divine favour on the person wielding them.
+Later in history, the use of silver bullets was popularized in folkloric tales about werewolves, vampires, witches, and other monsters.
+This trope made its way into modern times, where it is used to describe a method that works without fail.
+"""
+aliases = ["Cure-all", "Panacea"]
+references = [
+    { title = "Silver Bullet on wikipedia", link = "https://en.wikipedia.org/wiki/Silver_bullet" },
+    { title = "Ethymology Online", link = "https://www.etymonline.com/word/silver%20bullet" },
+    { title = "Phrase Finder", link = "https://www.phrases.org.uk/meanings/silver-bullet.html" }
+]

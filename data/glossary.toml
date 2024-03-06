@@ -520,7 +520,7 @@ name = "Jargon"
 abbreviation = ""
 domain = "Communication"
 description = """
-_"The specialized language of a trade, profession, or similar group, especially when viewed as difficult to understand
+The specialized language of a trade, profession, or similar group, especially when viewed as difficult to understand
 by outsiders."_. Its goal is to make the exchange of information more efficient by giving specific names to things that
 are relevant to the in-group. It is said that the Inuit have over thirty words to differentiate between different types
 of snow. Other professions, such as software developers, strongly rely on metaphors to refer to technical concepts.

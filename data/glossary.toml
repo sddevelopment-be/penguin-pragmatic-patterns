@@ -706,3 +706,18 @@ references = [
     { title = "Ethymology Online", link = "https://www.etymonline.com/word/silver%20bullet" },
     { title = "Phrase Finder", link = "https://www.phrases.org.uk/meanings/silver-bullet.html" }
 ]
+
+[[terminology]]
+name = "Entropy"
+domain = "physics"
+description = """
+Entropy is a measure of the amount of disorder in a system. It is a measure of the number of ways in which a system can be arranged,
+often taken to be a measure of "disorder" (the higher the entropy, the higher the disorder). The second law of thermodynamics teaches us that
+any isolated system will inevitably tend towards a state of maximum entropy.
+
+**Tip:** Next time someone asks you why your desk is a mess, you can tell them that you are simply a victim of the laws of physics.
+"""
+aliases = ["chaos", "disorder"]
+references = [
+    { title = "Entropy on wikipedia", link = "https://en.wikipedia.org/wiki/Entropy" }
+]

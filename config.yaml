@@ -65,8 +65,8 @@ params:
 
   - title: Approach
     url: /about
-  - title: Pillars
-    url: /pillars/
+#  - title: Pillars
+#    url: /pillars/
   - title: Concepts
     url: /concepts/
   - title: Practices

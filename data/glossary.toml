@@ -721,3 +721,15 @@ aliases = ["chaos", "disorder"]
 references = [
     { title = "Entropy on wikipedia", link = "https://en.wikipedia.org/wiki/Entropy" }
 ]
+
+[[terminology]]
+name = "Polymath"
+domain = "history"
+description = """
+A person with a wide range of knowledge or learning. The term is often used to describe people who have excelled in multiple fields, and are able to make significant contributions to each of them.
+Many admired scholars, such as Aristotle, Galileo, Da Vinci, and Isaac Newton, were considered "Polymaths" or "Renaissance men".
+"""
+aliases = ["Renaissance men"]
+references = [
+    { title = "Polymath on wikipedia", link = "https://en.wikipedia.org/wiki/Polymath" }
+]

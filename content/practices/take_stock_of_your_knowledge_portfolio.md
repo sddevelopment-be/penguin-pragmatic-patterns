@@ -4,7 +4,6 @@ author = "Stijn Dejongh"
 problem = ""
 description = ""
 type = "practice"
-draft = true
 categories = [
     "learning",
 ]
@@ -22,6 +21,7 @@ ammerse = [
     {name = "solvable", delta = "0"},
     {name = "extensible", delta = "0"},
 ]
+draft = true
 +++
 
 ## Problem Statement

@@ -21,6 +21,7 @@ ammerse = [
     { name = "solvable", delta = "0" },
     { name = "extensible", delta = "0" },
 ]
+draft = true
 +++
 
 ## Problem Statement

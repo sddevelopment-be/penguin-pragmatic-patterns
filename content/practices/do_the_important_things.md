@@ -8,7 +8,7 @@ categories = [
     "productivity",
 ]
 tags = [
-    "prioritization", "organization", "decision-making"
+    "prioritization", "organizing", "decision-making"
 ]
 uuid="d8d2cbc3-1f28-4e6b-937f-2d8cf0bbaed1"
 aliases=["d8d2cbc3-1f28-4e6b-937f-2d8cf0bbaed1"]

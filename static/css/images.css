@@ -1,5 +1,5 @@
 .img-gallery {
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;

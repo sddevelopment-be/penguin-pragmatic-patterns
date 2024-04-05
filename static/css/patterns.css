@@ -105,7 +105,9 @@
 .pattern-card .card-text {
     color: #2c3e50;
     padding-left: 0.25rem;
-    font-size: 1.125rem;
+    font-size: 0.9rem;
+    text-align: justify;
+    text-align-last: left;
     flex-grow: 0;
     display: flex;
     flex-direction: column;
@@ -120,13 +122,12 @@
 }
 
 .pattern-card .card-text p .item-title {
-    color: #1f3c48;
+    color: #1f586f85;
     font-stretch: extra-condensed;
     text-transform: uppercase;
     font-weight: 350;
     font-size: 0.75rem;
     display: block;
-    margin-bottom: 0.125rem;
 }
 
 .pattern-card .card-action {
@@ -146,9 +147,9 @@
     flex-direction: row;
     align-content: flex-start;
     flex-wrap: wrap;
-    padding: 0 0.75rem;
+    padding: 0 0.5rem;
     max-width: 100%;
-    margin-top: 0.75rem;
+    margin-top: 0.65rem;
     margin-bottom: 0.25rem;
 }
 
@@ -156,7 +157,7 @@
     display: block;
     font-size: 0.65rem;
     font-weight: bold;
-    padding: 0.35rem 0.75rem;
+    padding: 0.25rem 0.5rem;
     color: #7d4b01;
     background: #f9d3b265;
     text-transform: uppercase;

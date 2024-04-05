@@ -1,0 +1,28 @@
+@startuml
+title Traceable Decisions: MVD Templates
+
+left to right direction
+
+!include ../templates/plantuml/puml-theme-bluegray.puml
+
+skinparam linetype polyline
+skinparam dpi 184
+
+hide stereotype
+hide circle
+
+class "Design Vision" {
+}
+
+class "Functional Requirements" {
+}
+
+class "Technical Designs" {
+}
+
+class "Implemented Solution" {
+}
+
+
+
+@enduml

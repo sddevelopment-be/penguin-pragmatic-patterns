@@ -97,8 +97,8 @@ skinparam stereotype {
 skinparam title {
 	FontColor	                 $PRIMARY
 	BorderColor	                 $SECONDARY_DARK
-	FontSize	    	         20
-	BorderRoundCorner            8
+	FontSize	    	         14
+	BorderRoundCorner            10
 	BorderThickness 	         1
 	BackgroundColor              $SECONDARY_LIGHT-$SECONDARY
 }
@@ -154,8 +154,10 @@ skinparam actor {
 !startsub arrow
 
 skinparam arrow {
-	Thickness 3
-	Color $PRIMARY
+	FontName Impact
+	Thickness 1.5
+	FontSize 10
+	Color $DARK
 	FontColor $FGCOLOR
 }
 !endsub

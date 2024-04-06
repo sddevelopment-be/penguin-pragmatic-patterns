@@ -1,12 +1,17 @@
 @startuml
 title Traceable Decisions: MVD Templates
 
-left to right direction
+top to bottom direction
 
 !include ../templates/plantuml/puml-theme-bluegray.puml
 
-skinparam linetype polyline
-skinparam dpi 184
+skinparam dpi 280
+
+skinparam maxMessageSize 184
+skinparam wrapWidth 204
+'skinparam linetype ortho
+
+skinparam shadowing true
 
 hide stereotype
 hide circle
@@ -14,7 +19,15 @@ hide circle
 class "Design Vision" {
 }
 
-class "Functional Requirements" {
+together {
+    class "Functional Requirements" {
+    }
+
+    class "Architectural Decisions" {
+    }
+}
+
+class "Implementation Roadmap" {
 }
 
 class "Technical Designs" {
@@ -23,6 +36,28 @@ class "Technical Designs" {
 class "Implemented Solution" {
 }
 
+together {
+    class "Automated Tests" {
+    }
 
+    class "Code-level documentation" {
+    }
+}
+
+
+"Design Vision" --> "Functional Requirements" : "leads to"
+"Design Vision" --> "Architectural Decisions" : "drives"
+"Architectural Decisions" ..> "Design Vision"
+
+"Architectural Decisions" -up-> "Functional Requirements" : "supports"
+
+"Functional Requirements" --> "Implementation Roadmap"
+"Functional Requirements" --> "Technical Designs"
+"Architectural Decisions" --> "Technical Designs"
+"Technical Designs" --> "Implemented Solution"
+"Implementation Roadmap" --> "Implemented Solution"
+
+"Implemented Solution" --> "Automated Tests" : "is validated by"
+"Implemented Solution" --> "Code-level documentation" : "contains"
 
 @enduml

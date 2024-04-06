@@ -23,7 +23,7 @@ together {
 
   class Concept {
     helps you reason about things
-  }
+  }doc_
 }
 
 class Context {

@@ -1,10 +1,10 @@
 [[terminology]]
-name = "Application Program Interface"
+name = "Application Programming Interface"
 abbreviation = "API"
 domain = "software"
 description = """
 Specifies a set of software functions that are made available to an application programmer.
-The API typically includes function names, the parameters that can be passed into each functions, and a
+The API typically includes function names, the parameters that can be passed into each function, and a
 description of the return values one can expect.
     """
 aliases = []
@@ -36,8 +36,8 @@ references = []
 name = "Asynchronous cancellation"
 domain = "software"
 description = """
-Cancellation of a target thread that immediatly terminates it.
-(e.g. Unix' `kill -9 $PID` command )
+Cancellation of a target thread that immediately terminates it.
+(e.g. Unix' `kill -9 $PID` command)
     """
 aliases = []
 references = []
@@ -56,9 +56,9 @@ references = []
 name = "Bootstrap program"
 domain = "software"
 description = """
-An initial program, usually stored on ROM or EEPROM memory, to initiallize all aspects of the system.
+An initial program, usually stored on ROM or EEPROM memory, to initialize all aspects of the system.
     """
-aliases = ["boot loader"]
+aliases = ["bootloader"]
 references = []
 
 [[terminology]]
@@ -75,7 +75,7 @@ name = "Boyscout rule"
 domain = "software"
 description = """
 The base premise of the Boyscout rule is that if everyone leaves their environment a little bit better than it was when they found it, eventually it
-wil flourish. The term originates from the handbook of the Boyscouts of America, where it was phrased slightly differently to apply mostly to campsites.
+will flourish. The term originates from the handbook of the Boyscouts of America, where it was phrased slightly differently to apply mostly to campsites.
 In software development, the phrase is commonly used to entice programmers to clean up their own messes and the messes that were left behind by
 their predecessors. This relates strongly to the broken window theory.
     """
@@ -101,7 +101,7 @@ name = "Caching"
 domain = "software"
 description = """
 The storing of information on a faster, smaller storage system than the main memory bank where the data originates from.
-Cache management is highly important due to the limited size of of the faster storage medium. There are different levels
+Cache management is highly important due to the limited size of the faster storage medium. There are different levels
 of cache-memory, indicating the memory's proximity to the CPU (lower == closer). As the distance to the CPU increases, so does the available memory space of the cache.
     """
 aliases = []
@@ -111,7 +111,7 @@ references = []
 name = "Cascading termination"
 domain = "software"
 description = """
-Some systems terminate all of the child processes when they terminate the parent process. This is called 'cascading termination'.
+Some systems terminate all the child processes when they terminate the parent process. This is called 'cascading termination'.
     """
 aliases = []
 references = []
@@ -121,7 +121,7 @@ name = "Command Line Interface."
 abbreviation = "CLI"
 domain = "software"
 description = """
-A textual user interface, allowing for system interaction soley through text-based instructions and feedback.
+A textual user interface, allowing for system interaction solely through text-based instructions and feedback.
     """
 aliases = ["terminal", "shell"]
 references = []
@@ -152,7 +152,7 @@ name = "Control card"
 abbreviation = ""
 domain = "software"
 description = """
-a batch system concept. This is a command to manage the execution of a process (start, stop, interrupts, ...) . It can
+A batch system concept. This is a command to manage the execution of a process (start, stop, interrupts, ...). It can
 be used to distinct between different error levels, and severity of instructions.
     """
 aliases = []
@@ -185,7 +185,7 @@ name = "Context switching"
 abbreviation = ""
 domain = "software"
 description = """
-in computer science: A state save of the current process and the state restore of a different process, when a swap occurs.
+In computer science: A state save of the current process and the state restore of a different process, when a swap occurs.
     """
 aliases = []
 references = []
@@ -232,12 +232,11 @@ domain = "software architecture"
 description = """
 Domain-Driven Design is a set of principles and schemes aimed at creating optimal systems of objects. Reduced to the
 creation of software abstractions, which are called models of subject areas. These models include business logic that
-establishes a link between the real conditions of the products application area and the code.
+establishes a link between the real conditions of the products' application area and the code.
 <br />
 <br />
-Domain-Driven Design is about creating shared understanding of the problem space that is reinforced ubiquitously via conversations,
-code and diagrams. DDD’s Shared understanding enhances synergy and alignment,
-increasing the ability to deliver value sustainably — ideally over the lifetime of a product.
+Domain-Driven Design is about creating shared understanding of the problem space. This shared understanding is reinforced ubiquitously via conversations,
+code and diagrams. DDD’s Shared understanding enhances synergy and alignment, increasing the ability to deliver value sustainably — ideally over the lifetime of a product.
 """
 aliases = []
 references = []
@@ -247,11 +246,11 @@ name = "Debugger"
 abbreviation = ""
 domain = "Software Development"
 description = """
-A program to help the user find an correct defects in their program.
+A program to help the user find and correct defects in their program.
 The term _"bug"_ originates from one of the original calculation machines at the IBM labs. Notoriously, one of their
-calculations misbehaved and the researches were unable to find a logical error in their work.
+calculations misbehaved, and the researches were unable to find a logical error in their work.
 It had turned out an insect wandered into the machinery and disrupted its proper execution.
-To fix their calculation, one of the research had to physically rid the machine of pesky "bugs",
+To fix their calculation, one of the researchers had to physically rid the machine of pesky "bugs",
 hence coining the phrase _"debugging the system"_.
     """
 aliases = []
@@ -262,9 +261,9 @@ name = "Deferred cancellation"
 abbreviation = ""
 domain = "Software"
 description = """
-Thread cancellation style, in which the target thread is gracefully shut down. The target thread periodically checks whether it should/cam
+Thread cancellation style, in which the target thread is gracefully shut down. The target thread periodically checks whether it should/can
 terminate, allowing it an opportunity to terminate itself in an orderly fashion. By doing this, it can release any held system resources, and
-cascade the shutdown command to it's children.
+cascade the shutdown command to its children.
     """
 aliases = []
 references = []
@@ -313,11 +312,11 @@ aliases = []
 references = []
 
 [[terminology]]
-name = "Distrubuted lock manager."
+name = "Distributed lock manager."
 abbreviation = "DLM"
 domain = "Software Development"
 description = """
-A function which ensures that no conflicting operations occur in clustered systems.
+A function that ensures that no conflicting operations occur in clustered systems.
     """
 aliases = []
 references = []
@@ -342,10 +341,10 @@ abbreviation = "DSL"
 domain = "Software Development"
 description = """
 A specialized programming language intended to be used in a specific business context.
-Usually a bespoke language, developed to fit the business context. These languages are created to serve as shorthand for common operations withina
+Usually a bespoke language, developed to fit the business context. These languages are created to serve as shorthand for common operations within a
 business environment (e.g. configuration, creation of new CRUD endpoints, etc.). As a higher-order language, DSLs are generally built on top of
-existing powerful language stacks, such as Kotlin, Java, Rust, Typescript, ... .
-You might see them as specialist programming interfaces, written in such a way that most of the boilerplate and ceremony canbe avoided.
+existing powerful language stacks, such as Kotlin, Java, Rust, and Typescript.
+You might see them as specialist programming interfaces, written in such a way that most of the boilerplate and ceremony can be avoided.
 """
 aliases = []
 references = []
@@ -355,7 +354,7 @@ name = "Engineering"
 abbreviation = ""
 domain = ""
 description = """
-Engineering is the application of an emperical, scientific approach to finding efficient, economic solutions to practical problems.
+Engineering is the application of an empirical, scientific approach to finding efficient, economic solutions to practical problems.
 """
 aliases = []
 references = []
@@ -385,7 +384,7 @@ name = "File management"
 abbreviation = ""
 domain = "Software Development"
 description = """
-Programs that create, delete, copy, rename, print, dump, list, and generally manupulate files and directories.
+Programs that create, delete, copy, rename, print, dump, list, and generally manipulate files and directories.
 """
 aliases = []
 references = []
@@ -402,13 +401,13 @@ aliases = []
 references = []
 
 [[terminology]]
-name = "FizzBuzz"
+name = "Fizz Buzz"
 domain = "software development"
 description = """
-FizzBuzz is a children's game well known to software developers, as it is commonly used as a training exercise or interview question.
-The aim is to write a program that counts to a given number. When the current count is divisable by 3, the program should print out `Fizz` rather
-than the current count. When the current count is divisible by 5, it should print out `Buzz`. When divisible by both, we expect `FizzBuzz`.
-The FizzBuzz exercise aims to gauge basic programming aptitude, such as the use of loops and accumulators.
+Fizz Buzz is a children's game well known to software developers, as it is commonly used as a training exercise or interview question.
+The aim is to write a program that counts to a given number. When the current count is divisible by 3, the program should print out `Fizz` rather
+than the current count. When the current count is divisible by 5, it should print out `Buzz`. When divisible by both, we expect `Fizz Buzz`.
+The Fizz Buzz exercise aims to gauge basic programming aptitude, such as the use of loops and accumulators.
 """
 aliases = []
 references = [
@@ -442,7 +441,7 @@ name = "Graceful degradation"
 abbreviation = ""
 domain = "Software"
 description = """
-The ability to continue providing service proportional to the level of surviving hardware in the event of a systems failure.
+The ability to continue providing service proportional to the level of surviving hardware in the event of a system failure.
 """
 aliases = []
 references = []
@@ -521,7 +520,7 @@ name = "Jargon"
 abbreviation = ""
 domain = "Communication"
 description = """
-_"The specialized language of a trade, profession, or similar group, especially when viewed as difficult to understand
+The specialized language of a trade, profession, or similar group, especially when viewed as difficult to understand
 by outsiders."_. Its goal is to make the exchange of information more efficient by giving specific names to things that
 are relevant to the in-group. It is said that the Inuit have over thirty words to differentiate between different types
 of snow. Other professions, such as software developers, strongly rely on metaphors to refer to technical concepts.
@@ -599,7 +598,7 @@ references = []
 name = "Refactoring"
 domain = "software development"
 description = """
-The process of rewriting software, without changing the way it functions, in order to improve its readability, testability or maintanability.
+The process of rewriting software, without changing the way it functions, in order to improve its readability, testability or maintainability.
     """
 aliases = []
 references = [
@@ -614,7 +613,123 @@ description = """
 A psychological trick we play on ourselves, to justify additional investment into a decision, even though there is evidence to suggest that future costs will outweigh the expected benefit.
 We do this because we feel that we have already invested too much into something to back out now.
 <br /><br />
-example: __"We already spent two months working on getting this software to function properly, we are not going to stop now!"__ Even though little to no progress has been made.
+Example: __"We already spent two months working on getting this software to function properly, we are not going to stop now!"__ Even though little to no progress has been made.
 """
 aliases = ["Escalation of commitment "]
 references = []
+
+[[terminology]]
+name = "Non-Preemptive scheduling"
+domain = "software development"
+description = """
+Scheduling that takes place, only when a process switches from running to waiting state, or when a process terminates.
+In contrast, pre-emptive scheduling can interrupt a process while it is running.
+    """
+aliases = []
+references = [
+]
+
+[[terminology]]
+name = "Dispatch latency"
+domain = "software development"
+description = """
+The time it takes to stop one process and start another one.
+"""
+aliases = []
+references = []
+
+[[terminology]]
+name = "Throughput"
+domain = "software development"
+description = """
+The amount of processes that are completed per unit of time.
+"""
+aliases = []
+references = []
+
+[[terminology]]
+name = "Turnaround time"
+domain = "software development"
+description = """
+The interval of time counted from the moment of submission of a process to the time of completion.
+"""
+aliases = []
+references = []
+
+[[terminology]]
+name = "Waiting time"
+domain = "software development"
+description = """
+The sum of the periods processes spend waiting in the ready queue.
+"""
+aliases = []
+references = []
+
+[[terminology]]
+name = "Response time"
+domain = "software development"
+description = """
+The time it takes from the submission of a request until the first result is produced.
+In specific software development niches, the response time is commonly divided into multiple subcategories, as results are produced incrementally.
+
+As an example, loading a modern web page requires multiple steps, such as loading the HTML, CSS, and JavaScript files, authentication, and backend data retrieval.
+This results in a significant difference between the time it takes to load the first byte of the HTML file, and the time it takes to render the entire page.
+What is more, web developers tend to invest into making their partially loaded pages useable for the site's visitor, even if all the data is not present yet.
+This response time is known as "time to interactive".
+"""
+aliases = ["Load time", "Render time", "Time to interactive", "First input delay"]
+references = []
+
+[[terminology]]
+name = "Selective Perception"
+domain = "psychology"
+description = """
+The tendency not to notice, and more quickly forget, events and data that do not align with our expectations.
+This bias is a common psychological phenomenon, and is often used to explain why people tend to ignore or forget
+information that contradicts their current beliefs or causes emotional discomfort.
+"""
+aliases = ["Situational blindness", "Perceptual defense"]
+references = []
+
+[[terminology]]
+name = "Silver Bullet"
+domain = "folklore"
+description = """
+A simple, magical, solution to a complex problem. The term likely originates from the use of silver weapons in Greek mythology,
+as they were believed to symbolize purity of heart, and known to bestow divine favour on the person wielding them.
+Later in history, the use of silver bullets was popularized in folkloric tales about werewolves, vampires, witches, and other monsters.
+This trope made its way into modern times, where it is used to describe a method that works without fail.
+"""
+aliases = ["Cure-all", "Panacea"]
+references = [
+    { title = "Silver Bullet on wikipedia", link = "https://en.wikipedia.org/wiki/Silver_bullet" },
+    { title = "Ethymology Online", link = "https://www.etymonline.com/word/silver%20bullet" },
+    { title = "Phrase Finder", link = "https://www.phrases.org.uk/meanings/silver-bullet.html" }
+]
+
+[[terminology]]
+name = "Entropy"
+domain = "physics"
+description = """
+Entropy is a measure of the amount of disorder in a system. It is a measure of the number of ways in which a system can be arranged,
+often taken to be a measure of "disorder" (the higher the entropy, the higher the disorder). The second law of thermodynamics teaches us that
+any isolated system will inevitably tend towards a state of maximum entropy.
+
+**Tip:** Next time someone asks you why your desk is a mess, you can tell them that you are simply a victim of the laws of physics.
+"""
+aliases = ["chaos", "disorder"]
+references = [
+    { title = "Entropy on wikipedia", link = "https://en.wikipedia.org/wiki/Entropy" }
+]
+
+[[terminology]]
+name = "Polymath"
+domain = "history"
+description = """
+A person with a wide range of knowledge or learning. The term is often used to describe people who have excelled in multiple fields, and are able to make significant contributions to each of them.
+Many admired scholars, such as Aristotle, Galileo, Da Vinci, and Isaac Newton, were considered "Polymaths" or "Renaissance men".
+"""
+aliases = ["Renaissance men"]
+references = [
+    { title = "Polymath on wikipedia", link = "https://en.wikipedia.org/wiki/Polymath" }
+]

@@ -69,8 +69,10 @@
     margin: 0 0 0 0;
     background-color: transparent;
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.275rem;
+    font-size: 1.125rem;
+    text-align: justify-all;
     font-style: oblique;
+    text-indent: 0;
 }
 
 .alert-container {
@@ -166,7 +168,7 @@
 
     .content blockquote {
         padding: 0.95em 0.5em;
-        text-align: justify;
+        font-size: 1.125rem;
     }
 
     .quote:after {

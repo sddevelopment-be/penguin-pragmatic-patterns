@@ -8,6 +8,7 @@
 {{ $publisher := .Get "publisher" }}
 {{ $publication := .Get "publication" }}
 {{ $volume := .Get "volume" }}
+{{ $issue := .Get "issue" }}
 {{ $link := .Get "link" }}
 {{ $site := .Get "site" }}
 
@@ -17,7 +18,7 @@
     </div>
 {{else if $publication}}
     <div class="reference">
-        {{ $author }} ({{ $year}}). {{ $title }}. {{$publication}}{{if $volume}}, {{$volume}}{{end}}. <br /><a href="{{ $link }}" target="_blank" rel="noreferrer"> {{$link}}</a>.
+        {{ $author }} ({{ $year}}). {{ $title }}. {{$publication}}{{if $volume}}, {{$volume}}{{if $issue}}({{$issue}}){{end}}{{end}}. <br /><a href="{{ $link }}" target="_blank" rel="noreferrer"> {{$link}}</a>.
     </div>
 {{else}}
     <div class="reference">

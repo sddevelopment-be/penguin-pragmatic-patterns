@@ -63,6 +63,10 @@ params:
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
 
+  - title: Approach
+    url: /about
+#  - title: Pillars
+#    url: /pillars/
   - title: Concepts
     url: /concepts/
   - title: Practices
@@ -75,13 +79,6 @@ params:
         url: /books
       - title: Glossary
         url: /glossary/
-#      - title: long reads
-#        url: /
-#      - title: short reads
-#        url: /
-  - title: About
-    url: /about
-    button: true
 
   section2:
     title: What's in it for you?
@@ -111,12 +108,12 @@ params:
       
       So why not give it a try? Dive in and see how far you can go.
     links:
-      - text: Our approach
+      - text: Approach
         link: "/about"
+      - text: Pillars
+        link: "/pillars"
       - text: Practices
         link: "/practices"
-      - text: Concepts
-        link: "/concepts"
 
   footer:
     # Logo (from /images/logos/___)
@@ -136,8 +133,10 @@ params:
       column1:
         title: "Main Content"
         links:
-          - text: About
+          - text: Approach
             link: /about
+          - text: Pillars
+            link: /pillars
           - text: Practices
             link: /practices
           - text: Concepts

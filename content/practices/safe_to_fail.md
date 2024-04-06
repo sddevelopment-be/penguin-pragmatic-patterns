@@ -8,7 +8,7 @@ categories = [
     "learning",
 ]
 tags = [
-    "experimentation", "goals", "accountability", "difficulty"
+    "experimentation", "goals", "accountability", "research"
 ]
 uuid = "09986d9e-cd80-4016-8000-c62ed5064914"
 aliases = ["uuid"]

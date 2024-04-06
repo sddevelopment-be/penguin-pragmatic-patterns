@@ -5,9 +5,18 @@
 
 body {
     font-family: literta, "Gill Sans", 'Open Sans', sans-serif;
-    font-size: 1.35em;
-    line-height: 2.25rem;
+    font-size: 16px;
+    line-height: 1.75rem;
 }
+
+@media all and (max-width: 800px) {
+    body {
+        font-size: 14px;
+        line-height: 1.65rem;
+    }
+}
+
+
 
 .wrapped-columns {
     display: flex;
@@ -86,12 +95,50 @@ body {
     margin: 0.45rem 1.25rem;
 }
 
+.title.is-3 {
+    font-size: 2.25rem;
+    letter-spacing: 0.125rem;
+}
+
+.content {
+    text-align: justify;
+    text-align-all: left;
+    text-justify: inter-word;
+    text-wrap: pretty;
+    letter-spacing: 0.05rem;
+    text-indent: 1.65em;
+}
+
+.content p::first-letter {
+    font-size: 1.25em;
+    font-weight: 500;
+    color: #1c3337;
+    margin-right: -0.05rem;
+}
+
+.content h2, h3, h4 {
+    text-align: left;
+    text-indent: 0;
+    margin-bottom: 0.75em;
+}
+
+.content h3 {
+    font-size: 1.35em;
+}
+
+.content h4 {
+    font-size: 1.25em;
+    margin-top: 2.125em;
+}
+
 .content ul {
-    margin-top: 0.45rem;
+    margin-top: 0.85rem;
+    text-indent: 0;
 }
 
 .content ul li {
-    margin-bottom: 1.25rem;
+    margin-bottom: 0.45rem;
+    text-align: left;
 }
 
 .content a {
@@ -107,10 +154,15 @@ body {
 .reference {
     max-width: 100%;
     word-break: break-word;
+    font-size: 0.85rem;
+}
+
+.reference a {
+    font-weight: 600;
 }
 
 .content .reference a {
-    font-size: 0.925rem;
+    font-size: 0.7rem;
     text-transform: uppercase;
     font-weight: 600;
 }
@@ -123,11 +175,15 @@ body {
     font-style: italic;
     color: #3c5d79;
     font-family: Georgia, serif;
-    font-size: 1.125rem;
+    font-size: 0.975rem;
+    font-kerning: auto;
+    letter-spacing: 0.02em;
 }
 
 .highlight {
     margin: 2.75rem 0;
+    font-size: 0.95rem;
+    line-height: 1.5rem;
 }
 
 .increased-width {

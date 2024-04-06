@@ -1,7 +1,7 @@
 @startuml
 'https://plantuml.com/sequence-diagram
 
-!include ../doc_templates/plantuml/puml-theme-bluegray_conversation.puml
+!include ../templates/plantuml/puml-theme-bluegray_conversation.puml
 skinParam maxMessageSize 264
 hide stereotype
 hide footbox

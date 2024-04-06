@@ -7,7 +7,7 @@ skinparam linetype polyline
 skinparam dpi 320
 skinparam wrapWidth 260
 
-!include ../doc_templates/plantuml/puml-theme-bluegray.puml
+!include ../templates/plantuml/puml-theme-bluegray.puml
 
 class Pattern {
     describes a problem, and the core of a solution that can be used in many ways within a specific field of expertise
@@ -23,7 +23,7 @@ together {
 
   class Concept {
     helps you reason about things
-  }
+  }doc_
 }
 
 class Context {

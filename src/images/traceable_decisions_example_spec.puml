@@ -1,0 +1,79 @@
+@startuml
+title Traceable Decisions: MVD Templates
+
+top to bottom direction
+
+!include ../templates/plantuml/puml-theme-bluegray.puml
+
+skinparam dpi 280
+
+skinparam maxMessageSize 184
+skinparam wrapWidth 204
+
+skinparam shadowing true
+
+<style>
+' had to override this here as the included theme was not working properly
+classDiagram {
+  class {
+      ' class name
+      header {
+        FontColor #dedede
+        FontSize 12
+        FontStyle bold
+      }
+  }
+}
+</style>
+
+hide stereotype
+hide circle
+
+class "Design Vision" {
+}
+
+together {
+    class "Functional Requirements" {
+    }
+
+    class "Architectural Decisions" {
+    }
+}
+
+class "Implementation Roadmap" {
+}
+
+class "Technical Designs" {
+}
+
+class "Implemented Solution" {
+}
+
+together {
+    class "Automated Tests" {
+    }
+
+    class "Code-level documentation" {
+    }
+}
+
+
+"Design Vision" --> "Functional Requirements" : "leads to"
+"Design Vision" --> "Architectural Decisions" : "drives"
+"Architectural Decisions" ..> "Design Vision" : "make us reconsider"
+
+"Architectural Decisions" -right-> "Functional Requirements" : "support"
+"Functional Requirements" .down.> "Architectural Decisions" : "make us reconsider"
+
+"Functional Requirements" --> "Technical Designs" : "are mapped to"
+"Architectural Decisions" --> "Technical Designs" : "constrain and advise"
+"Functional Requirements" --> "Implementation Roadmap" : "are scoped in"
+"Technical Designs" .left.> "Implementation Roadmap" : "influence"
+
+"Technical Designs" --> "Implemented Solution" : "realized by"
+"Implementation Roadmap" --> "Implemented Solution" : "drives"
+
+"Implemented Solution" --> "Automated Tests" : "is validated by"
+"Implemented Solution" --> "Code-level documentation" : "contains"
+
+@enduml

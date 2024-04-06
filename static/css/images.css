@@ -1,5 +1,5 @@
 .img-gallery {
-    width: 100%;
+    width: 90%;
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -13,7 +13,7 @@
 }
 
 .img-gallery figure {
-    background: rgba(254, 244, 238, 0.99);
+    background: rgba(254, 244, 238, 0.15);
     margin-right: 0.25rem;
     margin-left: 0.25rem;
     margin-bottom: 1.25rem;
@@ -32,7 +32,7 @@
 .img-gallery figcaption {
     text-align: center;
     color: #1f3c48;
-    background: rgba(254, 244, 238, 0.99);
+    background: rgba(254, 244, 238, 0.15);
     font-size: 0.975rem;
     font-weight: 350;
     font-style: oblique;

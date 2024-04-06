@@ -73,8 +73,6 @@ challenges. As your team matures and develops other needs, you can add more deta
 designs, and drill-downs of particularly complicated aspects of the system. 
 
 
-
-
 ## Examples
 
 ### Just-enough design documentation templates
@@ -94,12 +92,15 @@ you can. Most modern tools (confluence, jira, miro, github, zapier, ...) have wa
 platforms. Use these features to make your life easier, and look for ways to adapt the provided templates to be used inside these tools.
 ` >}}
 
-I recommend to start by using the [Design Vision Template](#design-vision-template), and [Functional Requirements Template](#functional-requirements-template) 
-to create a high-level overview of the system. As your project matures: Refine these, and add other documents as needed. 
-Just make sure to only write what is needed, and what is likely to remain unchanged for a significant amount of time. 
-For instance, adding a detailed technical diagram of all the classes in your system is likely to be a waste of time, 
-as it will be outdated as soon as you start coding. Instead, focus on the high-level architecture, the key components, and the most important 
+
+I recommend to start by using the [Design Vision Template](#design-vision-template), and [Functional Requirements Template](#functional-requirements-template)
+to create a high-level overview of the system. As your project matures: Refine these, and add other documents as needed.
+Just make sure to only write what is needed, and what is likely to remain unchanged for a significant amount of time.
+For instance, adding a detailed technical diagram of all the classes in your system is likely to be a waste of time,
+as it will be outdated as soon as you start coding. Instead, focus on the high-level architecture, the key components, and the most important
 trade-offs. Your aim is for the documentation to be useful, not for it to be complete.
+
+{{< image src="/images/practices/traceable_decisions_example_overview.png" >}}
 
 #### Design Vision Template
 

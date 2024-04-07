@@ -110,8 +110,8 @@ params:
     links:
       - text: Approach
         link: "/about"
-      - text: Pillars
-        link: "/pillars"
+#      - text: Pillars
+#        link: "/pillars"
       - text: Practices
         link: "/practices"
 
@@ -135,8 +135,8 @@ params:
         links:
           - text: Approach
             link: /about
-          - text: Pillars
-            link: /pillars
+#          - text: Pillars
+#            link: /pillars
           - text: Practices
             link: /practices
           - text: Concepts

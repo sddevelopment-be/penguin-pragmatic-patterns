@@ -61,12 +61,14 @@
 
 @media (max-width: 800px) {
     .text_image {
-        max-width: 360px;
+        max-width: 98%;
         max-height: 480px;
+        margin-left: -0.25rem;
+        margin-right: -0.5rem;
     }
 
     .text_image a img {
-        max-width: 360px;
+        max-width: 100%;
         max-height: 480px;
     }
 }

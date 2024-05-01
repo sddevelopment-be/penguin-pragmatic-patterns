@@ -151,6 +151,35 @@ params:
         - text: Books
           link: /books
 
+mediaTypes:
+  text/enriched:
+    suffixes:
+      - enr
+  text/html:
+    suffixes:
+      - asp
+      - html
+      - htm
+  application/rss+xml:
+    suffixes:
+      - rss
+  application/json:
+    suffixes:
+      - json
+  application/yaml:
+    suffixes:
+      - yaml
+      - yml
+#outputFormats:
+#  html:
+#    mediaType: text/html
+#  rss:
+#    mediaType: application/rss+xml
+#  json:
+#    mediaType: application/json
+#  yaml:
+#    mediaType: application/yaml
+
 ## Integrations and services
 services:
   rss:

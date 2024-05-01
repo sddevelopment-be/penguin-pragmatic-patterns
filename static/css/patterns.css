@@ -180,6 +180,49 @@
     margin-right: 0.25rem;
 }
 
+.pattern-summary {
+    display: flex;
+    flex-shrink: 0;
+    flex-flow: column nowrap;
+    justify-content: start;
+    width: calc(calc(100% / 3) - 1.25rem);
+    align-content: normal;
+    background-image: linear-gradient(#fefefe, #fdfdfd);
+    border-radius: 3px;
+    border: 1px solid rgba(224, 205, 193, 0.99);
+    padding: 1.125rem;
+    scroll-snap-align: start;
+    float: right;
+    margin: 0.25rem 0.25rem 3rem 4.5rem;
+}
+
+.pattern-summary .card-title h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #1e1e3f;
+    padding: 0 0.75rem;
+    text-align: center;
+}
+
+.pattern-summary .ammerse-title {
+    font-size: 0.85rem;
+    padding: 0 0.5rem;
+    line-height: 1.25;
+}
+
+@media (max-width: 800px) {
+    .pattern-summary {
+        width: 100%;
+        flex-shrink: 0;
+        margin: 0.15rem 0.35rem 2.5rem 0;
+        float: none;
+        padding: 0.25rem;
+    }
+}
+
+
+
 .ammerse {
     margin-top: 0.5rem;
 }

@@ -11,7 +11,7 @@ tags = [
     "goals", "prioritization", "decision-making", "reflection"
 ]
 uuid = "2cd8e850-9934-40f1-8d1a-d419ef96c33f"
-aliases = ["uuid"]
+aliases = ["2cd8e850-9934-40f1-8d1a-d419ef96c33f"]
 ammerse = [
     { name = "agile", delta = "0.5" },
     { name = "minimal", delta = "-0.5" },
@@ -21,6 +21,7 @@ ammerse = [
     { name = "solvable", delta = "1" },
     { name = "extensible", delta = "0.5" },
 ]
+outputs = ['html', 'rss', 'json']  
 +++
 
 ## Problem Statement

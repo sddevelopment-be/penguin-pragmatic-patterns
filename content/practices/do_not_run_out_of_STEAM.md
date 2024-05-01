@@ -1,8 +1,8 @@
 +++
 title = "Don't run out of STEAM"
 author = "Stijn Dejongh"
-problem = "You find it difficult to decide what to do next, as you are unsure what would be the most beneficial choice for you."
-description = "Use the STEAM framework to evaluate the possible options, and assist in making an informed decision that suits your needs."
+problem = "You often struggle with deciding what to do next, feeling uncertain about which choice would be most beneficial for you."
+description = "Employ a mental framework to evaluate your options systematically, aiding in making informed decisions that align with your goals and needs."
 type = "practice"
 categories = [
     "productivity",
@@ -13,24 +13,23 @@ tags = [
 uuid = "2cd8e850-9934-40f1-8d1a-d419ef96c33f"
 aliases = ["uuid"]
 ammerse = [
-    { name = "agile", delta = "0" },
-    { name = "minimal", delta = "0" },
-    { name = "maintainable", delta = "0" },
+    { name = "agile", delta = "0.5" },
+    { name = "minimal", delta = "-0.5" },
+    { name = "maintainable", delta = "1" },
     { name = "environmental", delta = "0" },
-    { name = "reachable", delta = "0" },
-    { name = "solvable", delta = "0" },
-    { name = "extensible", delta = "0" },
+    { name = "reachable", delta = "1" },
+    { name = "solvable", delta = "1" },
+    { name = "extensible", delta = "0.5" },
 ]
-draft = true
 +++
 
 ## Problem Statement
 
-You find it difficult to decide what to do next, as you are unsure what would be the most beneficial choice for you.
+You often struggle with deciding what to do next, feeling uncertain about which choice would be most beneficial for you.
 
 ## Intent
 
-Use a mental framework to evaluate the possible options, and assist in making an informed decision that suits your needs.
+Employ a mental framework to evaluate your options systematically, aiding in making informed decisions that align with your goals and needs.
 
 ## Contextual forces
 
@@ -41,17 +40,23 @@ in your given context.` >}}
 
 ### Enablers
 
-* You are aware of your personal goals and ambitions.
-* You are in tune with your own needs, and can face them.
-* You can allocate some time each day to invest in reflection.
+* Understanding of personal goals and ambitions.
+* Awareness of individual needs and willingness to confront them.
+* Dedication to daily reflection and self-assessment.
+* Preference for visual aids in understanding complex situations.
+* Desire to take control of life and make decisions autonomously.
 
 ### Deterrents
 
-* You do not know what your goals and ambitions are.
-* You are not in tune with your own needs, and are unable to face them.
-* You are unable to manage yourself, and lack the discipline to tackle challenges.
+* Lack of clarity regarding personal goals and ambitions.
+* Tendency to rely on external influences for decision-making.
+* Disconnect from personal needs and avoidance of self-confrontation.
+* Difficulty in self-management and lack of discipline.
+* Perception of current circumstances as satisfactory, neglecting the need for decision-making refinement.
 
 ## Solution
+
+### Outline
 
 When considering what to do next, use the STEAM framework to evaluate the possible options. 
 The model applies an economical perspective to the resources you have available, and how you can use them to your advantage.
@@ -73,6 +78,41 @@ The STEAM framework is a mnemonic shortcut to remember your most important asset
 {{< image src="/images/practices/steam_concept.png"  
 alt="Overview of the different elements of the STEAM mnemonic model."  
 caption="The different resources that allow you to plow full STEAM ahead." >}}
+
+### Usage
+
+Summarized, the STEAM framework can be used as follows:
+
+1. Evaluate current assets across STEAM categories.
+2. Gain insights into resource availability and deficiencies.
+3. Avoid short-term optimization; consider long-term consequences.
+4. Assess potential actions and their impact on resource levels.
+5. Make decisions based on resource balance and personal needs.
+6. Take action confidently and reflect on outcomes for continuous improvement.
+
+When you are faced with a decision, consider what your current assets are in each of the STEAM categories.
+This will give you a better understanding of what you can leverage to make to most of the situation, 
+as will it inform you which resources are currently lacking. (ex. _if you have plenty of time, but lack energy, maybe it is time for an 
+energizing hobby_). When considering these trade-offs, remember that the goal is not to maximize all categories, but to find a balance that suits your needs.
+
+{{<tip text=`
+Do not fall into the trap of short-term optimization. While it might be tempting to focus on the immediate gains, make sure to reflect on the
+mid-to-long term consequences of your decisions. This will help you to make more informed choices, and work towards sustainable growth.
+`>}}
+
+Assess the potential actions you can take, and how they would impact the level of the STEAM resources you have available.
+Do this in any way that suits you best, be it a indication of high, medium, or low impact, or a numerical score.
+I personally like to use a simple scale ranging from -2 to +2, where -2 is a significant negative impact, 0 is neutral, and +2 is a significant positive impact.
+
+Once you have written down your assessment, take a step back and reflect on the results. Do not be afraid to revisit your initial efforts, and
+adjust the scores if you feel they do not accurately represent the situation. Just be mindful of the fact that we are not looking for the perfect
+situational analysis, but for a good-enough indication to help you make an informed decision.
+
+Armed with the list of potential options, and the impact they would have on your STEAM resources, you can now make a choice on how to proceed.
+Once you have made your decision, take charge and act upon it. Do not let the fear of making the wrong choice hold you back, and give it your
+best effort. Avoid wasting your energy on second-guessing yourself, but use it to make the most of the situation.
+Schedule a moment to revisit your decision at a later time, and reflect on the outcomes. This will help you to learn from your choices, and help
+you improve your self-awareness and decision-making skills.
 
 ## Examples
 

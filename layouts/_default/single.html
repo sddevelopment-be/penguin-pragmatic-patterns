@@ -13,21 +13,6 @@
             </div>
         </div>
 
-        {{if $ammerse}}
-        <div class="pattern-summary">
-            <div class="card-title">
-                <h4>Meta Info</h4></a>
-            </div>
-            <div class="ammerse-values">
-                <span class="ammerse-title">Ammerse Values:</span>
-                {{ range $value := $ammerse}}
-                   {{partial "ammerse.html" (dict "value" $value )}}
-                {{ end }}
-            </div>
-        </div>
-        {{ end }}
-
-
         <div class="content">
             {{ .Content }}
         </div>

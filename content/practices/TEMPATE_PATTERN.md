@@ -4,7 +4,6 @@ author = "Stijn Dejongh"
 draft = true
 problem = ""
 description = ""
-type = "practice"
 categories = [
     "software development",
 ]

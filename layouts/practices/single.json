@@ -1,3 +1,23 @@
+{{ $categories := .Params.Categories }}
+{{ $tags := .Params.tags }}
+
 {
-  "title":  {{ .Title }}
+  "id":     "{{ .Params.UUID }}",
+  "title":  "{{ .Title }}",
+  "link:": "{{ .Permalink }}",
+  "ammerseValues": {
+    {{ range $index, $value := .Params.Ammerse }}
+       "{{ $value.name }}": "{{ $value.delta }}" {{ if lt $index 6 }},{{end}}
+    {{end}}
+  },
+  "categories": [
+    {{ range $index, $value := $categories }}
+      "{{ $value }}" {{ if lt $index (math.Sum (len $categories) -1) }},{{ end }}
+    {{end}}
+  ],
+  "tags": [
+    {{ range $index, $value := $tags }}
+      "{{ $value }}"{{ if lt $index (math.Sum (len $tags) -1) }},{{ end }}
+    {{end}}
+  ]
 }

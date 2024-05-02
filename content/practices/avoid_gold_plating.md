@@ -3,7 +3,6 @@ title = "Let's not make it complicated"
 author = "Stijn Dejongh"
 problem = "You are spending much more time and mental effort on a piece of software than is needed or valuable."
 description = "Write readable code that is as well designed as it needs to be at this point in time."
-type = "practice"
 categories = [
     "software development",
 ]

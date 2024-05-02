@@ -3,7 +3,6 @@ title = "Set stopping conditions"
 author = "Stijn Dejongh"
 problem="You tend to push too hard in order to reach a goal, or invest more than you are able to support."
 description = "Put a hard limit on how much you are willing to invest into a certain endeavour."
-type = "practice"
 categories = [
     "productivity",
 ]

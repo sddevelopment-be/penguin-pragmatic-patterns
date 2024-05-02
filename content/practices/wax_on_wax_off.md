@@ -3,7 +3,6 @@ title = "Wax on, wax off"
 author = "Stijn Dejongh"
 problem = "You find it hard to apply a new skill or idea in your daily life."
 description = "Practice. Rinse, and repeat. Then practice some more."
-type = "practice"
 categories = [
     "learning",
 ]

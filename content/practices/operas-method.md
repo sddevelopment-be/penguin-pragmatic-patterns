@@ -3,7 +3,6 @@ title = "The OPERAs method"
 author = "Stijn Dejongh"
 problem="How do you make structured progress towards a specific overarching goal?"
 description = "Orientate, Prepare, Execute, Reflect, Adapt, Synthesize"
-type = "practice"
 categories = [
     "productivity",
 ]

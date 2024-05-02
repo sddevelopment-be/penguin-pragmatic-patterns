@@ -10,7 +10,6 @@ The article emphasizes the significance of empathetic listening in improving com
 It introduces the LARS acronym (Listen, Ask, Repeat, Suggest) as a practical guide to implement empathetic listening effectively.
 The focus is on understanding rather than immediate responses, with an emphasis on genuine care and active engagement.
 """
-type = "practice"
 categories = [
     "communication",
 ]

@@ -3,7 +3,6 @@ title = "Don't run out of STEAM"
 author = "Stijn Dejongh"
 problem = "You often struggle with deciding what to do next, feeling uncertain about which choice would be most beneficial for you."
 description = "Employ a mental framework to evaluate your options systematically, aiding in making informed decisions that align with your goals and needs."
-type = "practice"
 categories = [
     "productivity",
 ]
@@ -21,7 +20,8 @@ ammerse = [
     { name = "solvable", delta = "1" },
     { name = "extensible", delta = "0.5" },
 ]
-outputs = ['html', 'rss', 'json']  
+outputs = ['html', 'rss', 'json']
+pubdate="2024-05-01"
 +++
 
 ## Problem Statement

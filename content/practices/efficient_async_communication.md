@@ -6,7 +6,6 @@ description = """
 Write your messages with enough context for the recipient to prioritize them, keeping in mind they will be read and acted upon
 when it best suits your conversational partner.
 """
-type = "practice"
 categories = [
     "communication",
 ]

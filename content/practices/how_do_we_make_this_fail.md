@@ -6,7 +6,6 @@ description = """
 Think of ways to make your idea fail, strengthening your endeavour against negative forces, ensuring they are more resilient and 
 better prepared for potential challenges.
 """
-type = "practice"
 categories = [
     "learning",
 ]
@@ -25,6 +24,7 @@ ammerse = [
   {name = "extensible", delta = "0.5"},
 ]
 pubdate="2023-09-19"
+outputs = ['html','rss', 'json']
 +++
 
 ## Problem Statement

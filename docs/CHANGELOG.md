@@ -36,10 +36,13 @@ Following changes are known:
   - Memento Mori
   - Clean code
   - Architecture
+  - STEAM trade-offs
 - Add company information to the footer
 - Added tag-based browsing and tag-overview pages
 - Content categories
 - AMMERSE values added to all practices
+- Add generation of different output formats (XML, JSON, HTML)
+- Add metadata block to the practices
 
 ### Removed
 

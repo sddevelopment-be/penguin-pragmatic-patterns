@@ -3,7 +3,6 @@ title = "Keep a changelog"
 author = "Stijn Dejongh"
 problem = "You are experiencing difficulty in keeping track of which changes have been made to your project."
 description = "Keep a running log, close to the code, of changes made to the application."
-type = "practice"
 categories = [
     "software development",
 ]

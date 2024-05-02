@@ -160,6 +160,9 @@ mediaTypes:
       - asp
       - html
       - htm
+  application/xml:
+    suffixes:
+     - xml
   application/rss+xml:
     suffixes:
       - rss
@@ -170,7 +173,10 @@ mediaTypes:
     suffixes:
       - yaml
       - yml
+
 #outputFormats:
+#  xml:
+#    mediaType: application/xml
 #  html:
 #    mediaType: text/html
 #  rss:

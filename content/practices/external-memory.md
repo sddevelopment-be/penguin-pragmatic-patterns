@@ -3,7 +3,6 @@ title = "Use an External Memory"
 author = "Stijn Dejongh"
 problem = "You want to reduce the impact of being pulled out of your flow."
 description = "Free your mind by delegating the remembering of things to an external system."
-type = "practice"
 categories = [
     "productivity",
 ]

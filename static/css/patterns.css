@@ -205,10 +205,33 @@
     text-align: center;
 }
 
-.pattern-summary .ammerse-title {
-    font-size: 0.85rem;
+.pattern-summary .summary-title {
+    padding: 0 0.5rem;
+    align-content: center;
+    color: #1f586f85;
+    font-stretch: extra-condensed;
+    text-transform: uppercase;
+    font-weight: 350;
+    font-size: 0.6rem;
+    display: block;
+    line-height: 0.95rem;
+    max-width: 20%;
+}
+
+.pattern-summary .summary-content {
+    font-size: 0.75rem;
     padding: 0 0.5rem;
     line-height: 1.25;
+    text-align: right;
+    max-width: 80%;
+}
+
+.summary-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 0.125rem;
+    padding: 0.5rem;
 }
 
 @media (max-width: 800px) {

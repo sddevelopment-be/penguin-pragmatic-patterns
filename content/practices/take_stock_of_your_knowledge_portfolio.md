@@ -3,7 +3,6 @@ title = "Taking stock: your knowledge portfolio"
 author = "Stijn Dejongh"
 problem = ""
 description = ""
-type = "practice"
 categories = [
     "learning",
 ]

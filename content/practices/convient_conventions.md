@@ -3,7 +3,6 @@ title = "Consistency through conventions"
 author = "Stijn Dejongh"
 problem="Developers struggle to maintain code consistency, negatively affecting code maintainability and reliability."
 description = "Maintaining a consistent coding style within a team, using automation and documentation to enforce it."
-type = "practice"
 categories = [
     "software development",
 ]

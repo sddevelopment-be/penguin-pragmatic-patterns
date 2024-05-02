@@ -2,7 +2,6 @@
 title = "{{ replace .Name "-" " " | title }}"
 author = "Stijn Dejongh"
 description = ""
-type = "practice"
 categories = []
 tags = []
 draft = true

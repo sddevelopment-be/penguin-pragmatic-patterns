@@ -1,0 +1,80 @@
+{{ define "main" }}
+{{ partial "navbar.html" . }}
+{{ partial "navbar-clone.html" . }}
+{{ $ammerse := .Params.Ammerse }}
+{{ $tags := .Params.tags }}
+
+<section class="section is-medium">
+    <div class="container">
+        <div class="columns">
+            <div class="title-wrapper has-text-centered increased-width">
+                <h1 class="title is-3 section-title">{{ .Title }}</h1>
+                <h5 class="subtitle is-4 is-muted">{{ .Params.Subtitle }}</h5>
+                <div class="divider spacer spacer-wide"></div>
+            </div>
+        </div>
+
+        <div class="pattern-summary">
+            <div class="card-title">
+                <h4>Meta Info</h4></a>
+            </div>
+            {{if $ammerse}}
+            <div class="summary-item">
+                <span class="summary-title">Ammerse Values:</span>
+                <div class="ammerse-values">
+                {{ range $value := $ammerse}}
+                   {{partial "ammerse.html" (dict "value" $value )}}
+                {{ end }}
+                </div>
+            </div>
+            {{ end }}
+            <div class="summary-item">
+                <span class="summary-title">UUID:</span>
+                <span class="summary-content"><a href="/practices/{{.Params.UUID}}" rel="noreferrer" target="_blank">{{.Params.UUID}}</a></span>
+            </div>
+            {{if .Params.author}}
+            <div class="summary-item">
+                <span class="summary-title">Author:</span>
+                <span class="summary-content">{{.Params.author}}</span>
+            </div>
+            {{ end }}
+            {{if .Params.pubdate}}
+            <div class="summary-item">
+                <span class="summary-title">Published on:</span>
+                <span class="summary-content">{{.Params.pubdate}}</span>
+            </div>
+            {{ end }}
+            {{ if $tags }}
+                <div class="summary-item">
+                    <span class="summary-title">Tags:</span>
+                    <span class="summary-content">
+                    {{ range $index, $value := $tags }}
+                        <a href="/tags/{{ $value }}">{{ $value }}</a> {{ if lt $index (math.Sum (len $tags) -1) }},{{ end }}
+                    {{end}}
+                    </span>
+                </div>
+            {{ end }}
+            {{if .Params.outputs}}
+            <div class="summary-item">
+                <span class="summary-title">formats:</span>
+                <span class="summary-content">
+                    <a href="index.html" rel="noreferrer" target="_blank">HTML</a> /
+                    <a href="index.xml" rel="noreferrer" target="_blank">XML</a> /
+                    <a href="index.json" rel="noreferrer" target="_blank">JSON</a>
+                </span>
+            </div>
+            {{ end }}
+        </div>
+
+
+        <div class="content">
+            {{ .Content }}
+        </div>
+    </div>
+</section>
+
+{{ if .Site.Params.footer }}
+    {{ partial "footer.html" . }}
+{{ end }}
+
+{{ end }}

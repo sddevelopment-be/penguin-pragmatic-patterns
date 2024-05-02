@@ -3,7 +3,6 @@ title = "Traceable decisions"
 author = "Stijn Dejongh"
 problem = "You are looking for ways to enhance productivity by reducing meeting time, interruptions, and communication overhead."
 description = "Write minimally viable documentation to assist in decision tracking, context understanding, and effective stakeholder communication."
-type = "practice"
 categories = [
     "software development",
 ]

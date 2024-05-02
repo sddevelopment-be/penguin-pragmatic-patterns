@@ -3,7 +3,6 @@ title = "Get your priorities straight"
 author = "Stijn Dejongh"
 problem="You find yourself constantly busy, yet achieving little of value."
 description = "Assign a priority category to tasks based on their urgency and importance. Act depending on priority category."
-type = "practice"
 categories = [
     "productivity",
 ]
@@ -21,6 +20,7 @@ ammerse = [
   {name = "solvable", delta = "0"},
   {name = "extensible", delta = "0"},
 ]
+outputs = ['html', 'rss', 'json']
 pubdate="2023-11-23"
 +++
 

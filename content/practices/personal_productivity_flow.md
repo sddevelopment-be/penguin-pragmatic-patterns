@@ -3,7 +3,6 @@ title = "Organize your workflow"
 author = "Stijn Dejongh"
 problem = "You find it difficult to remember what you want to achieve, and are distrought by the amount of tasks you have yet to finish."
 description = "Implement a personalized workflow to organize, prioritize, and complete tasks"
-type = "practice"
 categories = [
     "productivity",
 ]

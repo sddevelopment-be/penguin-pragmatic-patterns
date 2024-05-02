@@ -1,4 +1,0 @@
-{
-  "id":     "{{ .Params.UUID }}",
-  "title":  "{{ .Title }}"
-}

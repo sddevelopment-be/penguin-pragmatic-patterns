@@ -3,7 +3,6 @@ title = "Safe to fail experiments"
 author = "Stijn Dejongh"
 problem = "You have troubles learning new skills or techniques, as you are afraid it will be more trouble than it's worth."
 description = "Lower the stakes by reframing your goals, creating an experimental mindset, and sharing your findings."
-type = "practice"
 categories = [
     "learning",
 ]

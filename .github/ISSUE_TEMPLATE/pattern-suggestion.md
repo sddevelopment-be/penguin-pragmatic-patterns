@@ -26,11 +26,6 @@ to creating your own github fork.
 
 ## {{Pattern name}}
 
-### Context
-
-> [!STUB]
-> Add a textual description of the context in which this pattern can be applied
-
 ### Problem statement
 
 > [!STUB]

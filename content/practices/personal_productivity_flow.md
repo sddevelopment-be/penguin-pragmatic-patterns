@@ -102,7 +102,7 @@ caption="A high-level productivity flow inspired by the Getting Things Done meth
 
 ### Personal productivity flow using MS online tooling
 
-In recent years, microsoft has pivotted towards providing office-as-a-service applications.
+In recent years, microsoft has pivoted towards providing office-as-a-service applications.
 Most if these can be easily incorporated into your personal workflow. Having everything online makes it easier to be
 productive, without losing your mobility.
 

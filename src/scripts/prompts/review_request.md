@@ -5,7 +5,8 @@ The format of the pattern is HuGo-enhanced markdown. Assume all footnotes are co
 Tell me what the core message of the text is in 4 sentences.
 Next, give me some feedback on the tone and style of writing.
 Also tell me which audience you think would be interested in this.
-Finally, tell me if you spotted any grammar, spelling, or stylistic faults and how to resolve them.
+Next, list any grammar, spelling, or stylistic faults and how to resolve them.
+Finally, provide me with a revised version of the text.
 
 ===== START OF TEXT =====
 

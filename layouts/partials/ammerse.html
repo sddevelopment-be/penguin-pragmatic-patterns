@@ -9,23 +9,28 @@
 {{ $icon.Set "val" "fas fa-arrows-left-right"}}
 {{ $icon.Set "style" "base"}}
 {{ $icon.Set "sign" "+"}}
+{{ $icon.Set "desc" "no effect"}}
 {{ if and (ge $delta -0.5) (lt $delta 0) }}
     {{ $icon.Set "val" "fas fa-angle-down"}}
     {{ $icon.Set "style" "down"}}
     {{ $icon.Set "sign" "-"}}
+    {{ $icon.Set "desc" "decrease"}}
 {{ else if (lt $delta -0.5)}}
     {{ $icon.Set "val" "fas fa-angle-double-down"}}
     {{ $icon.Set "style" "double-down"}}
     {{ $icon.Set "sign" "-"}}
+    {{ $icon.Set "desc" "significant decrease"}}
 {{ else if and (gt $delta 0) (le $delta 0.5)}}
     {{ $icon.Set "val" "fas fa-angle-up"}}
     {{ $icon.Set "style" "up"}}
+    {{ $icon.Set "desc" "increase"}}
 {{ $icon.Set "sign" "+"}}
 {{ else if (gt $delta 0.5)}}
     {{ $icon.Set "val" "fas fa-angle-double-up"}}
     {{ $icon.Set "style" "double-up"}}
     {{ $icon.Set "sign" "+"}}
+    {{ $icon.Set "desc" "significant increase"}}
 {{ end }}
 
 
-<span class='ammerse-value  {{$icon.Get "style"}}' title='{{ $value.name | humanize}}: {{ $icon.Get "sign" }}{{ math.Abs $delta }}'>{{$abbrev}}: <i class='{{$icon.Get "val"}}'></i></span>
+<span class='ammerse-value  {{$icon.Get "style"}}' title='{{ $value.name | humanize}}: {{ $icon.Get "desc" }}'>{{$abbrev}}: <i class='{{$icon.Get "val"}}'></i></span>

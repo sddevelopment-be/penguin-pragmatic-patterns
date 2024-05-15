@@ -48,12 +48,12 @@ in your given context.` >}}
 
 * The [sunk-cost fallacy](glossary/#sunk-cost-fallacy)
 * People can pressure us into doing things we would rather not do.
-* We feel a sense of shame when stopping. Our culture has though us that __"quiters never win, and winners never quit"__.
-* Other can be used to you going beyond your limit, they will be disappointed when you stop doing so.
+* We feel a sense of shame when stopping. Our culture has though us that __"quitters never win, and winners never quit"__.
+* Others can be used to you going beyond your limit, they will be disappointed when you stop doing so.
 
 ## Solution
 
-* Before starting a task clearly define what `possitive evolution`/`success` means, also clearly define `negative impact`/`warning signals`.
+* Before starting a task clearly define what `positive evolution`/`success` means, also clearly define `negative impact`/`warning signals`.
 * Set a hard limit on what you are willing to sacrifice in order to try and reach your goal.
     * make these as concrete as possible, similar to using SMART goals.
     * Focus on specifying your limits in various areas: financial, physical, mental, moral, time-bound, ...
@@ -61,7 +61,7 @@ in your given context.` >}}
 * When you are working on a commitment you made to someone else, be upfront about how far you are willing to go to achieve it.
     * People might still be disappointed you back out, but since you acted with honesty and integrity, no blame should be attributed to you.
 
-Rather than only focussing on tracking progress, it is wise to also keep tabs on the cost it is inducing into your life or organisation.
+Rather than only focussing on tracking progress, it is wise to also keep tabs on the cost it is inducing into your life or organization.
 This is important if you want to evaluate the ROI of an approach. If you notice you are sacrificing too much of what is dear to you: stop striving to reach that particular goal.
 In order to better cope with the disappointment of "needing to give up", it helps to see most endeavours as experiments rather than "do-or-die" type of deals.
 
@@ -99,14 +99,14 @@ For the duration of my entire life up until that point, I had tried to be financ
 This had left me with quite a hefty sum of money in my bank account. For the next month or two, I kept close tabs on where my expenses went. Most of it was allocated to food, drink, technical books, and entertainment. With this data in hand, I calculated that it would take about 2 years before I completely ran out of money.
 
 Obviously, this was not an acceptable future to me, so I rethought the situation to be more of an experiment.
-Then I asked myself: "How much of my money am I willing to pay to know whether or not this is a viable way of life for me?". 
+Then I asked myself: "How much of my money am I willing to pay to know whether this is a viable way of life for me?". 
 Turns out what I was willing to spend came down to about 4 months of living expenses. 
 Considering I needed some margin if I were to go back to working as a full-time employee, I gave myself 3 months to start working as a freelancer.
 This means I set myself a limit, a breaking condition, before I quit my job. The condition was: "If I do not have a signed multi-month freelance contract within the next three months, I will abandon the plan and focus on finding stable employment again".
 
 I discussed my intent with my then-fiancee (now wife), as it also affected her. She was okay with delaying our long term plans with about one year in case I did not reach my intended goal.
-This gave me two things. First of all, it helped reassure me that I was not doing harm to the people I cared about. Secondly, it served as a sanity-check of my plans.
-If my goal was completely unrealistic, she would have undoubtedly told me at that point.
+This gave me two things. Foremost, it helped reassure me that I was not doing harm to the people I cared about. Secondly, it served as a 
+sanity-check of my plans. If my goal was completely unrealistic, she would have undoubtedly told me at that point.
 
 
 ## References

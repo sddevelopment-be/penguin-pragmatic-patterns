@@ -34,7 +34,7 @@ I have not failed. I've just found 10,000 ways that won't work.
 
 ## Intent
 
-Create an environment where experimenting with new ideas or practicing skills becomes less intimidating. This fosters faster and less stressful
+Create an environment where experimenting with new ideas or practising skills becomes less intimidating. This fosters faster and less stressful
 learning, potentially adding an element of enjoyment.
 
 ## Contextual forces
@@ -122,5 +122,4 @@ You are not sure if it will be useful for your current project, but you are inte
 organization) will be tempted to ask them to pick up the work. Reliance on skilled individuals can be detrimental to your growth, as it results in
 learning how to ask the expert for help, rather than refining your own skills. This is not a bad thing, but it is not what you set out to do.
 
-[^2]: From a business perspective, illustrating and capturing the results of your experimentation is what differentiates "experimentation" from "
-just messing around".
+[^2]: From a business perspective, illustrating and capturing the results of your experimentation is what differentiates "experimentation" from "just messing around".

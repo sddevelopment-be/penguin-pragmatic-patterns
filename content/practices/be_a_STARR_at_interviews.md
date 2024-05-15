@@ -2,7 +2,7 @@
 title = "Interviewing like a STARR"
 author = "Stijn Dejongh"
 problem = "Assessing a candidate's skills and experience during an interview using traditional knowledge-based questions often leads to researched and rehearsed answers."
-description = "Employ a behavioural questions method, to conduct more conversational interviews, and enticing candid and truthful responses."
+description = "Employ a behavioural questioning method, to conduct more conversational interviews, and enticing candid and truthful responses."
 categories = [
     "communication",
 ]
@@ -59,7 +59,7 @@ in your given context.` >}}
 * Interviewers lack training or familiarity with the STARR technique, leading to inconsistent application and interpretation of candidate responses.
 * Limited interview time may prevent thorough exploration of each STARR component, reducing the effectiveness of the technique.
 * You are not interested in behavioural or cognitive patterns.
-* There is resistance within the organisation to adopt new interview methodologies, hindering the implementation of the STARR technique.
+* There is resistance within the organization to adopt new interview methodologies, hindering the implementation of the STARR technique.
 * The interviewee is tense, and feels pressured to provide the "right" answers, leading to less representative responses.
 
 ## Solution
@@ -85,7 +85,7 @@ truthful) responses.
 
 * Make sure to ask questions that are relevant to the role you are hiring for.
 * Be prepared to ask follow-up questions to get a deeper understanding of the interviewee's thought process and decision-making skills.
-* Encourage the interviewee to provide specific examples from their past experiences. Make sure to put them at ease and create a conversational 
+* Encourage the interviewee to provide specific examples from their experiences. Make sure to put them at ease and create a conversational 
   atmosphere. It helps to tell them _"There are no right or wrong answers, we mainly want to get a sense of who we are dealing with"_.
 * Be aware of cultural resistance to these types of questions. Some candidates may not be used to this style of interviewing and may need more 
   guidance. This is not a sign of incompetence, but rather a lack of familiarity with the technique or with the idea of speaking candidly about 
@@ -109,7 +109,7 @@ truthful) responses.
 * Tell me about a time you disagreed with your boss. How did you resolve it?
 * Have you ever had to make an unpopular decision, and explain it to those impacted? How did you handle it?
 * What is one of the most challenging technical issues you encountered so far? How did you solve the problem?
-* Describe a time where you used a metaphor or analogy to explain a tricky concept to a coworker or family member.
+* Describe a time when you used a metaphor or analogy to explain a tricky concept to a coworker or family member.
 
 ## References
 

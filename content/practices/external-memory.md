@@ -65,8 +65,8 @@ It makes practical and economic sense to try and find a way to free up your head
 There are many online (free and paid) systems that offer you a way to store your thoughts.
 Some of them are listed below in the _references_ section.
 
-You can use a simple text-based system to keep track of your thoughts, or ToDo items.
-I personally prefer using these text-based systems as they allow for easier cross-platform portability, akd avoid you being locked in to a
+You can use a simple text-based system to keep track of your thoughts, or To-Do items.
+I personally prefer using these text-based systems as they allow for easier cross-platform portability, and avoid being locked in to a
 single vendor solution. This entire knowledge base can be seen as one big "external brain".
 
 ## Personal testimonials / opinions

@@ -58,7 +58,7 @@ in your given context.` >}}
 * Set a timer[^0] for a fixed amount of time. This timebox is called a "pomodoro".
     * Commonly, 25 minutes is used as a base value.
 * Distance yourself from all distractions, and work on one task until the timer notifies you.
-* After completing a timebox, take a 5 minute break.
+* After completing a time box, take a 5-minute break.
 * Set a new timer, and repeat.
 * After completing four iterations, take an extended break.
 
@@ -74,9 +74,9 @@ pomodoro.` >}}
 
 __"The hardest part is getting started."__ Reducing the resistance to start a task can help practitioners to overcome the inertia.
 The pomodoro technique aims to achieve this by introducing the reassurance that the end is in sight.
-Rather than committing to fully complete an endeavour, a practitioner is commiting to work on a certain task for a fixed period of time.
+Rather than committing to fully complete an endeavour, a practitioner is committing to work on a certain task for a fixed period of time.
 
-Adding a certain element of gamification, and measurability, to the process helps motivate people to work towards their goals more frequently
+Adding a certain element of gamification, and quantifiability, to the process helps motivate people to work towards their goals more frequently
 and consistently.
 
 ## Consequences
@@ -88,7 +88,7 @@ and consistently.
 ### A command line pomodoro timer
 
 If you do not have a mechanical timer available, you can use your computer's terminal to act the part.
-The script below, published by Byron Salty [on github](https://github.com/byronsalty/pom/blob/main/pom) is an excelent way of doing this.
+The script below, published by Byron Salty [on GitHub](https://github.com/byronsalty/pom/blob/main/pom) is an excelent way of doing this.
 On MacBooks, the `say` command makes your computer talk to you.
 
 ```bash

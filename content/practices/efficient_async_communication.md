@@ -91,7 +91,7 @@ They get stuck during the process, and want to ask Bernie for help, as Bernie ha
 
 Bernie is working on a critical piece of code that was promised to be ready by the following week.
 This is highly important to the project, as the client is waiting for a new feature to solve a business inefficiency.
-Due to it's importance, the client has demanded the development team put their best people on it.
+Due to its importance, the client has demanded the development team put their best people on it.
 
 #### Original conversation
 
@@ -121,7 +121,7 @@ both of them can continue their work more rapidly.
 You can see the revised conversation in the image below:
 {{<image
   src="/images/practices/async_message_improved.png"
-  alt="Alex sends an more clear message to Bernie. Bernie responds with a solution to the problem. Both of them save time."
+  alt="Alex sends a clearer message to Bernie. Bernie responds with a solution to the problem. Both of them save time."
 >}}
 
 ## References

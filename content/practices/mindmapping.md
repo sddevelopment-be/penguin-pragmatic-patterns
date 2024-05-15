@@ -44,31 +44,31 @@ in your given context.` >}}
 
 ### Enablers
 
-* You are comfortable being confronted with your own gaps of understanding
+* You are comfortable being confronted with your own knowledge gaps
 * Having non-complete, non-final representation of your knowledge is okay
-* Modern technology makes it easy to create mindmaps
+* Modern technology makes it easy to create mind maps
 
 ### Deterrents
 
-* Mindmaps are relatively high effort
-* The resulting visual artefact of a mindmapping exercise becomes stale quickly
-* Not knowing what concept to attach something to can lead to frustration or abandoning of the mindmap
+* Mind maps are relatively high effort
+* The resulting visual artefact of a mind mapping exercise rapidly becomes stale
+* Not knowing what concept to attach something to can lead to frustration or abandoning of the mind map
 
 ## Solution
 
-Create a _mindmap_ that structure the core ideas of a certain domain or piece of work.
-As a spiders web, the mindmap starts by putting a central concept or question at the centre of the page.
+Create a _mind map_ that structure the core ideas of a certain domain or piece of work.
+As a spiders web, the mind map starts by putting a central concept or question at the centre of the page.
 You then attach words to this central theme, as they appear in your head.
 
-Make sure not to put too much effort into your mindmap, the act of mapping is where the value lies.
+Make sure not to put too much effort into your mind map, the act of mapping is where the value lies.
 You will soon realize that as your understanding grows, your map will no longer be accurate.
 At this point, just create a new one. If you want to solidify your newfound knowledge, repeat this process until you are satisfied.
 
-If you work digitally, you can keep your mindmaps up to date a bit more easily as you will not run into spacing issues as fast.
-Though, if your sketch is not updated for a long time, consider ditching or revisting it, as it likely lost most of its value.
+If you work digitally, you can keep your mind maps up to date a bit more easily as you will not run into spacing issues as fast.
+Though, if your sketch is not updated for a long time, consider ditching or revisiting it, as it likely lost most of its value.
 
 {{<tip text=`Do not focus on the result too much. The drawing you end up with is secondary to the process of creating it.
-Most mindmaps are used as a temporary tool to organize your thoughts, or help you understand a concept in a broader way.
+Most mind maps are used as a temporary tool to organize your thoughts, or help you understand a concept in a broader way.
 The drawing is less important than the clarity of mind you gain by creating it.
 ` >}}
 
@@ -89,12 +89,12 @@ challenges. With "handling most challenges", I do not mean the developer will be
 Rather that they can combine the information they already have, and to come up with of a way of resolving the issue at hand.
 This is what I came up with as a general structure, which you can see reflected in how this work has been structured.
 
-{{< image src="/images/practices/knowledge_map.png"  alt="A mindmap of topics in this work"  caption="A mindmap of topics in this work" >}}
+{{< image src="/images/practices/knowledge_map.png"  alt="A mind map of topics in this work"  caption="A mind   map of topics in this work" >}}
 
 This map was made digitally by using [PlantUml](https://plantuml.com/mindmap-diagram). This is a text-based graphing language, that you can play
 with on their online editor.
 The main advantage here is that you can move quickly (provided your typing speed is up to par). As the syntax is very simple, the brain-to-screen
-barrier is quite low. Having a digital copy of your mindmap around can come in handy if you want to update it later on.
+barrier is quite low. Having a digital copy of your mind map around can come in handy if you want to update it later on.
 
 ````
 @startmindmap
@@ -104,7 +104,7 @@ barrier is quite low. Having a digital copy of your mindmap around can come in h
 --- Styles
 --- Biases_mindmap-Software_developer_learning_path
 --- Techniques
----- Empericism
+---- Empiricism
 ---- Exploration
 --- Knowledge portfolio
 ---- Directed learning

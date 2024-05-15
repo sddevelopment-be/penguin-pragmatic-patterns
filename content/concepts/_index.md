@@ -11,4 +11,4 @@ In this context, creating a structured way of representing knowledge by visualiz
 creating a "map" of concepts, we can better understand and share them with others.
 <br /><br />
 To stay up to date with the latest additions to these concepts, subscribe to the <a href="./index.xml" target="_blank">RSS feed</a> in your
-favorite feed reader.
+favourite feed reader.

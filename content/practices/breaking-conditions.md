@@ -70,7 +70,7 @@ In the end, reaching your goals at all costs is usually not really worth it.
 ## Rationale
 
 * We are not purely rational beings: The feelings of _"loss"_ and _"failure"_ are not pleasant ones, as humans are hardwired to struggle
-  for survival. We are also creatures of habit, favoring known situations over unknown ones.
+  for survival. We are also creatures of habit, favouring known situations over unknown ones.
 * We are generally not great at knowing our limits.
 * Goals are extremely motivating, but can push us well beyond our limits.
     * This is illustrated by marathon runners feeling severely unwell and [still continuing the race](https://en.wikipedia.org/wiki/List_of_marathon_fatalities), and people dying while [climbing mountains](https://en.wikipedia.org/wiki/List_of_people_who_died_climbing_Mount_Everest).

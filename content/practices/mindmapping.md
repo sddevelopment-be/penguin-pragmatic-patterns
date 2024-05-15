@@ -57,7 +57,7 @@ in your given context.` >}}
 ## Solution
 
 Create a _mindmap_ that structure the core ideas of a certain domain or piece of work.
-As a spiders web, the mindmap starts by putting a central concept or question at the center of the page.
+As a spiders web, the mindmap starts by putting a central concept or question at the centre of the page.
 You then attach words to this central theme, as they appear in your head.
 
 Make sure not to put too much effort into your mindmap, the act of mapping is where the value lies.

@@ -17,4 +17,4 @@ Additionally, each pattern has been scored on the different aspects of the [AMME
 assessment aims to clarify the impact of the pattern on different aspects of your work and life.  
 <br />
 To stay up to date with the latest additions to these practices, subscribe to the <a href="./index.xml" target="_blank">RSS feed</a> in your 
-favorite feed reader.
+favourite feed reader.

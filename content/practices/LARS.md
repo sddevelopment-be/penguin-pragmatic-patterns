@@ -122,7 +122,7 @@ impactful interactions.
   link="https://www.goodreads.com/book/show/50041015-the-art-of-captivating-conversation" >}}
 * {{<reference author="Rosenberg, M.B."
   year="2015"
-  title="Nonviolent Communication: A Language of Life"
+  title="Non-violent Communication: A Language of Life"
   publisher="PuddleDancer Press"
   isbn="9781892005281"
   link="https://www.goodreads.com/book/show/25073935-nonviolent-communication" >}}

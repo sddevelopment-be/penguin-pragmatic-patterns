@@ -90,7 +90,7 @@ better prepared for potential challenges.
 * Common cognitive biases come into play:
     * **Selection bias:** Only taking into account part of the information available to you, as it fits what you want to believe.
     * **Effort justification:** Overvaluing something, because you have put effort into it.
-    * **Illusion of validity:**  Overestimating your ability to interpret and accurately predict the outcome of when analyzing a set of data.
+    * **Illusion of validity:**  Overestimating your ability to interpret and accurately predict the outcome of when analysing a set of data.
     * **Illusion of explanatory depth:** Believing you understand something much more thoroughly than you actually do.
 
 ### Perspective Shifting
@@ -108,4 +108,4 @@ better prepared for potential challenges.
   link="https://www.goodreads.com/book/show/26518085-financial-risk-management-for-dummies" >}}
 
 [^1]: The idea being that the unlikely, high-impact failure modes are usually what catches people by surprise, and tend to ruin a plan as no one
-bothered to think about mitigation strategies. An example from the technology world: "What if a hurricane destroys our data center?".
+bothered to think about mitigation strategies. An example from the technology world: "What if a hurricane destroys our data centre?".

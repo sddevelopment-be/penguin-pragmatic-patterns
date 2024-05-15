@@ -15,14 +15,16 @@ pubdate = "2023-10-01"
 +++
 
 Think of tests as a series of experiments in the world of software development. Just like scientists aim to prove their hypotheses, software
-developers set out to prove that their code does precisely what it's intended to do. Writing tests is our semi-formal way of ensuring that the
-actual behavior of our code aligns with our expectations.
+developers set out to prove that their code does precisely what it's intended to do. Writing tests is our semiformal way of ensuring that the
+actual behaviour of our code aligns with our expectations.
 
-Software development involves combining numerous small building blocks, arranging them in a way that molds the system into the desired behavior[^1].
+Software development involves combining numerous small building blocks, arranging them in a way that moulds the system into the desired behaviour
+[^1].
 Each of these building blocks must behave as intended. While validating individual components doesn't guarantee the perfect functioning of the
 overall system, neglecting this step almost certainly guarantees failure.
 
-There are various ways to validate software behavior, ranging from highly isolated tests that scrutinize small code segments to user feedback forms,
+There are various ways to validate software behaviour, ranging from highly isolated tests that scrutinize small code segments to user feedback 
+forms,
 where users report any issues they encounter.
 
 ## Description
@@ -32,7 +34,7 @@ the bottom.
 
 {{< image src="/images/concepts/testing_pyramid.png" alt="The testing pyramid" >}}
 
-**Isolated tests** are the most straight-forward to create, since they require minimal set-up effort.
+**Isolated tests** are the most straight-forward to create, since they require minimal setup effort.
 They are fast to write and fast to execute. However, isolated tests are the most artificial type of tests, as they are the furthest removed from
 replicating real-world usage scenarios.
 
@@ -51,7 +53,7 @@ A recommended heuristic is to **aim for the fastest possible feedback loop.**
 
 ## Detailed Description
 
-* **Function/Method tests**: These tests focus on verifying the behavior of individual methods, offering fast and highly isolated feedback. They are
+* **Function/Method tests**: These tests focus on verifying the behaviour of individual methods, offering fast and highly isolated feedback. They are
   typically used to validate core logic and handle exceptional cases.
 
 * **Unit tests**: Testing specific "units of work," which can encompass a set of methods or classes providing cohesive functionality to the system.
@@ -77,18 +79,18 @@ A recommended heuristic is to **aim for the fastest possible feedback loop.**
   visuals, but stick to using machine-to-machine entrypoints.
 
 * **Performance tests**: Also referred to as "load tests," these are end-to-end (E2E) tests that employ large volumes of data or requests to
-  evaluate the system's behavior when subjected to heavy usage. Performance tests serve as a means to assess the runtime efficiency of your systems,
+  evaluate the system's behaviour when subjected to heavy usage. Performance tests serve as a means to assess the runtime efficiency of your systems,
   particularly under extreme conditions, and to identify bottlenecks or performance degradation within the system.
 
 * **UI tests**: User Interface tests, often abbreviated as UI tests, belong to the category of end-to-end tests that interact with the system
   through its graphical user interface (if available). These tests require specialized tooling, such as browser-control software, to be executed
-  automatically. UI tests mimic user behavior by navigating through the user interface, verifying that the UI accurately displays the expected
+  automatically. UI tests mimic user behaviour by navigating through the user interface, verifying that the UI accurately displays the expected
   results and maintains its intended appearance. However, UI tests are challenging to set up, have a lengthy execution time, and are known for their
   fragility, as even minor alterations to the UI structure can lead to test failures[^3].
 
-* **Exploratory tests**: These are manual tests aimed at uncovering unexpected behaviors or system properties that may not have been previously
+* **Exploratory tests**: These are manual tests aimed at uncovering unexpected behaviours or system properties that may not have been previously
   known. They are designed to reveal unusual situations, such as using extreme or nonsensical values, and are best conducted by individuals who were
-  not directly involved in the system's creation to avoid unintentional bias towards expected behaviors.
+  not directly involved in the system's creation to avoid unintentional bias towards expected behaviours.
 
 * **Recovery tests**: In simple terms, recovery tests involve intentionally disrupting (either partially or entirely) your system and observing how
   it recovers. The recovery process can be performed manually or automatically. Think of these tests as a fire drill for your software systems,
@@ -106,7 +108,7 @@ right tests for their context.
 
 The pyramid offers a versatile framework, with different test types serving specific purposes, from function/method
 tests for core logic validation to end-to-end tests for comprehensive system validation. Additionally, user-interface tests, exploratory tests, 
-recovery tests, and user feedback play crucial roles in uncovering unexpected behaviors and gathering valuable insights, though they come with their unique challenges. By
+recovery tests, and user feedback play crucial roles in uncovering unexpected behaviours and gathering valuable insights, though they come with their unique challenges. By
 Understanding these testing categories, software teams can craft effective testing strategies that enhance software quality.
 
 ## References
@@ -148,8 +150,8 @@ structural testing (i.e. verifying a certain method calls another method). This 
 difficult. In general, write your tests as if you are unaware of the internal structure of your code. If you decide to extract part of the
 functionality in a class to a composite object (helper class), there should be no effect on your test suite.
 
-[^3]: The most common web=based UI test frameworks work by parsing their html DOM-tree and using identifiers or position-based
+[^3]: The most common web=based UI test frameworks work by parsing their HTML DOM-tree and using identifiers or position-based
 logic to perform user interaction. If you make some visual changes to your web application, such as moving a menu around, or changing the order
-of elements, these tests tend to break in spectacular fashion. As they are difficult to set-up and maintain, and tend to result in false-negative
-issue reports, developers tend to avoid using them. Take a look at [cypress.io](https://www.cypress.io/)
+of elements, these tests tend to break in spectacular fashion. As they are difficult to set up and maintain, and tend to result in false-negative
+issue reports, developers tend to avoid using them. Have a look at [cypress.io](https://www.cypress.io/)
 or [selenium.dev](https://www.selenium.dev/) if you are interested in learning more about this type of tests.

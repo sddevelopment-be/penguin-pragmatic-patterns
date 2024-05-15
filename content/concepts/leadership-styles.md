@@ -19,7 +19,7 @@ pubdate="2023-08-20"
 In 1939, a group of researchers led by psychologist Kurt Lewin set out to identify different styles of leadership. While further research
 has identified more specific types of leadership, this early study proved to be very influential and established three major leadership styles. 
 In the study, schoolchildren were assigned to one of three groups with an authoritarian, democratic or laissez-fair leader. The children were
-then led in an arts and crafts project while researchers observed the behavior of children in response to the different styles of
+then led in an arts and crafts project while researchers observed the behaviour of children in response to the different styles of
 leadership.
 
 {{<image
@@ -69,7 +69,7 @@ of motivation.
   link="https://nofinchaos.wordpress.com/2012/03/07/definition-of-leadership-kurt-lewin" >}}
 * {{<reference author="Lewin, K., Lippit, R. and White, R.K."
   year="1939"
-  title="Patterns of aggressive behavior in experimentally created social climates"
+  title="Patterns of aggressive behaviour in experimentally created social climates"
   publication="Journal of Social Psychology"
   volume="10(2)"
   link="https://www.tandfonline.com/doi/abs/10.1080/00224545.1939.9713366?journalCode=vsoc20" >}}

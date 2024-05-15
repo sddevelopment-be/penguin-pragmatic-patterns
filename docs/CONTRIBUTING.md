@@ -8,7 +8,8 @@ We are appreciative of anyone willing to donate some of their time by giving use
 
 ## Bug Reporting
 
-This section guides you through submitting a bug report for DocGen. Following these guidelines helps maintainers and the community understand your report, reproduce the behavior, and find related reports.
+This section guides you through submitting a bug report for DocGen. Following these guidelines helps maintainers and the community understand 
+your report, reproduce the behaviour, and find related reports.
 
 Before creating bug reports, please Check [this list](./issues) as you might find out that you don't need to create one.
 When you are creating a bug report, please include as many details as possible.
@@ -21,7 +22,7 @@ If you have a pattern (micro strategy / technique) to add, please feel free to c
 ## Running and building the project locally
 
 You will need to install `node.js` and `npm` on your machine.
-Take a look at [the official installation instructions](https://nodejs.org/en/download/) on the node.js website.
+Have a look at [the official installation instructions](https://nodejs.org/en/download/) on the node.js website.
 Once this step is completed, run `npm --version` ti make sure the installation was successful.
 
 Fork this repository into your own github account and clone it to your local machine.
@@ -34,7 +35,7 @@ npm i -g c4builder
 ```
 
 Now you can run `c4builder site` to deploy the wiki locally.
-Make changes to the markdown files using your favorite text editor.
+Make changes to the markdown files using your favourite text editor.
 
 ## Submitting Changes
 

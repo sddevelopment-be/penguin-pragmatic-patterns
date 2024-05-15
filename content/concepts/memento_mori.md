@@ -64,7 +64,7 @@ enjoy ourselves[^2]. After all, the graveyards are filled with indispensable peo
 * {{<reference author="Rosenberg, M.B."
   isbn="9781892005281"
   year="2015"
-  title="Nonviolent Communication: A Language of Life"
+  title="Non-violent Communication: A Language of Life"
   publisher="PuddleDancer Press"
   link="https://www.goodreads.com/book/show/25073935-nonviolent-communication" >}}
 * {{<reference author="Crossland, J. B."
@@ -72,16 +72,15 @@ enjoy ourselves[^2]. After all, the graveyards are filled with indispensable peo
   title="A value system"
   site="AMMERSE.org"
   link="https://www.ammerse.org/a-value-system" >}}
-* {{<reference author="Bockelbrink, B,; Priest, J. & David L."
+* {{<reference author="Bockelbrink, B.; Priest, J. & David L."
     year="2022"
     title="A Practical Guide for Evolving Agile and Resilient Organizations with Sociocracy 3.0"
     site="sociocracy30.org"
-    publisher="Open Domain, Creative Commons license"
+    publisher="Open Domain, Creative Commons licence"
     link="https://patterns.sociocracy30.org/all.html" >}}
 
 ---
 
-[^1]: As the commentator team for the Toronto Raptors said multiple times in the 2018 NBA season:   
-"The only certainties in life are Death, Taxes and JV threes."
+[^1]: As the commentator team for the Toronto Raptors said multiple times in the 2018 NBA season: "The only certainties in life are Death, Taxes and JV threes."
   
 [^2]: As per Oscar Wilde: "Life is too important to be taken seriously."

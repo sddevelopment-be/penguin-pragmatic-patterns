@@ -31,11 +31,11 @@ In order to assist fellow learners, we have started to collect our personal expe
 The initiative was started by [@stijn-dejongh](https://github.com/stijn-Dejongh), who is a self-improvement enthusiast,
 and an avid software developer.
 In order to avoid confusing terminology and avoid having to explain the definition of certain words multiple times,
-please take a look at the [Glossary](old_source/X_APPENDIX/glossary.md).
+please have a look at the [Glossary](old_source/X_APPENDIX/glossary.md).
 
 ## Repository Structure
 
-Most of the techniques, tactics, and behavioral patterns collected will fit some sort of category, which is usually
+Most of the techniques, tactics, and behavioural patterns collected will fit some sort of category, which is usually
 outlined by the title of the directory in which the content is stored. Some general purpose information will be stored
 at the top level.
 
@@ -64,7 +64,7 @@ The code in this repository is automatically pushed to:
 
 ## Contributors ✨
 
-If you wish to contribute in any way to this initiative, please take a look at
+If you wish to contribute in any way to this initiative, please have a look at
 our [Contribution Guide](docs/CONTRIBUTING.md).
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 

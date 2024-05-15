@@ -1,6 +1,6 @@
 +++
 title = "Heartfelt Dialogues"
-subtitle = "Unraveling Emotional Influences on Communication"
+subtitle = "Unravelling Emotional Influences on Communication"
 author = "Stijn Dejongh"
 description = "our responses are mostly governed by our emotions. So are the responses of others."
 type = "concept"
@@ -30,7 +30,7 @@ Luckily most misunderstanding do not have a price tag running in the hundreds of
 We value to ability to stay rational, calm, and collected in any situation.
 
 Think of your run-of-the-mill action hero. In general, you will find they are extremely stoic. Nothing phases them. Their adversaries generally
-become frustrated with their inability to trigger a response from the hero, causing them to do loose their cool, make bad decisions to annoy the 
+become frustrated with their inability to trigger a response from the hero, causing them to do lose their cool, make bad decisions to annoy the 
 hero. Their inability to stay calm leading directly to their downfall.
 
 Unlike these characters, most of us are not in total control of our emotions. We tend to get bored when listening to long-winded stories that 
@@ -43,7 +43,7 @@ When we hear someone say something, we process the message. Usually, we have som
 How we react tends to depend on a variety of factors: How we are feeling at the time; What is being said; What we heard; What memories this 
 brings up; How we tend to think about life. 
 
-To make matters even more complicated, no two people are alike. What is pleasant or agreeable to one person might be an afront to another.
+To make matters even more complicated, no two people are alike. What is pleasant or agreeable to one person might be an affront to another.
 In order to reason about this, we can consider how we process incoming information as a series of distinct steps:
 
 * **Our Input Filter:** Sound waves reach our ears, and get processed by our brains. Or light reaches our eyes, and gets processed. Either way, 
@@ -51,7 +51,7 @@ In order to reason about this, we can consider how we process incoming informati
 * **How we process the message:** After we registered information, we process it further, and assign meaning to it. Most miscommunications 
   happen here.
 * **Our Internal Context:** How we react to the meaning we assigned to what is being said highly depends on what is going on inside our heads at 
-  the time. When we feel particularly tense, or we recall painful past memories, we tend to overreact to otherwise harmless stimuli.
+  the time. When we feel particularly tense, or we recall painful memories, we tend to overreact to otherwise harmless stimuli.
 * **Our Emotional Response:** Depending on our internal context, we'll have an emotional reaction to the message.
 * **Back the same way:** Our response then travels all the way back from the "emotional reaction" layer, passing through each of the previous 
   steps. Until finally, it reaches our **Output filter**. This filter acts as the last line of defence we have before blurting out something we 
@@ -79,7 +79,7 @@ Given all these possibilities to dilute a message and draw wrong conclusions, it
 * {{<reference author="Rosenberg, M.B."
   year="2015"
   isbn="9781892005281"
-  title="Nonviolent Communication: A Language of Life"
+  title="Non-violent Communication: A Language of Life"
   publisher="PuddleDancer Press"
   link="https://www.goodreads.com/book/show/25073935-nonviolent-communication" >}}
 * {{<reference author="Squirrel, D. & Fredrick, J."

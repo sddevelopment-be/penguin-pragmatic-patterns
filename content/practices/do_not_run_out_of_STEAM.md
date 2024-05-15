@@ -65,16 +65,16 @@ While this way of evaluating trade-offs is not a silver bullet, it can help you 
 
 The STEAM framework is a mnemonic shortcut to remember your most important assets. It stands for:
 
-* **S**upport : Your social capital. The help of others, whom you can call upon to assist you in your endeavours or to provide you with advice. 
+* **Support**: Your social capital. The help of others, whom you can call upon to assist you in your endeavours or to provide you with advice. 
   This can be in the form of a mentor, a coach, a friend, or a colleague.
-* **T**ime : The amount of time you have available to invest in activities. The baseline is similar for everyone, as we all have 24 hours in a
+* **Time**: The amount of time you have available to invest in activities. The baseline is similar for everyone, as we all have 24 hours in a
   day. How we spend this time, is what makes the difference.
-* **E**nergy : How energetic you feel. This can be influenced by your physical and mental health, as well as your emotional state.
+* **Energy**: How energetic you feel. This can be influenced by your physical and mental health, as well as your emotional state.
   It is important to be aware of your energy levels, as they can influence your ability to undertake tasks, your performance, and the quality of
   your work.
-* **A**ttention : How much focus you can apply to any given task. Roughly speaking, this is your ability to filter out distractions and
+* **Attention**: How much focus you can apply to any given task. Roughly speaking, this is your ability to filter out distractions and
   be engaged with the task at hand.
-* **M**oney : Your financial assets, the amount of funds you have to invest in activities, products, or services.
+* **Money**: Your financial assets, the amount of funds you have to invest in activities, products, or services.
 
 {{< image src="/images/practices/steam_concept.png"  
 alt="Overview of the different elements of the STEAM mnemonic model."  
@@ -102,7 +102,7 @@ mid-to-long term consequences of your decisions. This will help you to make more
 `>}}
 
 Assess the potential actions you can take, and how they would impact the level of the STEAM resources you have available.
-Do this in any way that suits you best, be it a indication of high, medium, or low impact, or a numerical score.
+Do this in any way that suits you best, be it an indication of high, medium, or low impact, or a numerical score.
 I personally like to use a simple scale ranging from -2 to +2, where -2 is a significant negative impact, 0 is neutral, and +2 is a significant positive impact.
 
 Once you have written down your assessment, take a step back and reflect on the results. Do not be afraid to revisit your initial efforts, and
@@ -125,7 +125,7 @@ you improve your self-awareness and decision-making skills.
 
 ## References
 
-* {{<reference author="Solan, M. "
+* {{<reference author="Solan, M."
   year="2022"
   title="The art of monotasking"
   site="health.harvard.edu"

@@ -43,7 +43,7 @@ in your given context.` >}}
 ### Enablers
 
 * You work in a regulated environment, needing you to keep tabs on changes, and periodically report on them.
-* You work in a asynchronous environment, and do not have reliable commit-level tracking.
+* You work in an asynchronous environment, and do not have reliable commit-level tracking.
 * It is difficult to automatically extract changes to your software.
 
 ### Deterrents
@@ -58,7 +58,7 @@ Add a file to your codebase named `Changelog`. Use this to document notable chan
 Refrain from referring to external descriptions (e.g. bug reports), as project tend to outlive the platforms that host them, or the tools used 
 to track work and defects.
 
-Make sure to separate your log by the different versions of your application. Ideally, the msot recent changes are at the top, to avoid people 
+Make sure to separate your log by the different versions of your application. Ideally, the most recent changes are at the top, to avoid people 
 needing to scroll through a lengthy document to find recent information.
 Keep track of at least the following items: `deletions`, `additions`, `changes`. You can add more categories if desired or required.
 
@@ -90,7 +90,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - v1.1 Japanese translation (#363).
 - v1.1 Norwegian Bokmål translation (#383).
 - v1.1 "Inconsistent Changes" Turkish translation (#347).
-- Default to most recent versions available for each languages
+- Default to most recent versions available for each language
 - Display count of available translations (26 to date!)
 - Centralize all links into `/data/links.json` so they can be updated easily
 
@@ -104,8 +104,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Improve zh-CN translation (#359).
 - Improve French translation (#357).
 - Improve zh-TW translation (#360, #355).
-- Improve Spanish (es-ES) transltion (#362).
-- Foldout menu in Dutch translation (#371).
+- Improve Spanish (es-ES) translation (#362).
+- Fold-out menu in Dutch translation (#371).
 - Missing periods at the end of each change (#451).
 - Fix missing logo in 1.1 pages
 - Display notice when translation isn't for most recent version

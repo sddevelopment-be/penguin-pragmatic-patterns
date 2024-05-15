@@ -44,7 +44,7 @@ at the top level.
 * [PlantUML](https://plantuml.com/) : Diagrams as code, allows to version source files and convert them into images
 * [Markdown](https://www.markdownguide.org/): Easy to use markup language, allowing the writer to focus on content rather than format
 * [HuGo Static site generator](https://gohugo.io): Static website generator, compiles markdown files and configuration into HTML pages 
-  (including styling, and javascript if applicable) 
+  (including styling, and JavaScript if applicable) 
 
 ### Getting started with local development
 

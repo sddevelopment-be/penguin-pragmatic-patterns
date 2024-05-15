@@ -7,7 +7,7 @@ categories = [
     "productivity",
 ]
 tags = [
-    "workflow", "research", "goals", "problem solving"
+    "workflow", "research", "goals", "problem-solving"
 ]
 displaySection = "productivity"
 uuid="47f32286-17b0-471e-90d6-eb0de9f60ac0"
@@ -48,7 +48,7 @@ in your given context.` >}}
 
 ## Solution
 
-Apply a consistent process to your problem solving and goal achievements.
+Apply a consistent process to your problem-solving and goal achievements.
 The OPERAS mental model is a description of the flow you go through when advancing a task from "TODO" status to "DONE". A task can be of any
 size, and can range from 'build a house' to 'do the dishes'.
 
@@ -82,7 +82,7 @@ whose assistance you need to enlist. This step is the transition between the mor
 one of the milestones. Ask yourself: _"What do I need to get the started?"_, and then gather the resources needed to go ahead.
 
 {{<warning text=`
-The most common risk in this phase of the process is to over-analyse the situation. This anti-pattern is known as analysis paralysis and is extremely detrimental to making progress.
+The most common risk in this phase of the process is to over-analyse the situation. This antipattern is known as analysis paralysis and is extremely detrimental to making progress.
 Be sure you only identify the minimal set of required resources you need to START progressing. You can always loop back, and search for
 additional resources when they are needed.
 `>}}

@@ -54,7 +54,7 @@ in your given context.` >}}
 
 ### Deterrents
 
-* Your are working in a fast-paced environment, where decisions are made on the fly.
+* You are working in a fast-paced environment, where decisions are made on the fly.
 * Your organization values "talking about things" over "getting things done".
 * You are a one-person team, and see no need to keep track of your decisions.
 * There is no tooling available to document decisions in a structured way.
@@ -78,7 +78,8 @@ designs, and drill-downs of particularly complicated aspects of the system.
 
 Writing design documentation can be a daunting task. It is often seen as a necessary evil, and as a result, it is often done poorly.
 The result of this is that the documentation is not useful, stays unmaintained, and is not used by the team. 
-This is a shame, as good design documentation can be a powerful tool to align the team, to communicate with stakeholders, and to make sure that the system is built in a consistent way.
+This is a shame, as good design documentation can be a powerful tool to align the team, to communicate with stakeholders, and to make sure that 
+the system is built consistently.
 
 To make the process of writing design documentation easier, and to make sure that the documentation is useful, the templates below can be used 
 as a basis for your own documentation needs. Be sure to adapt them to your own context, and to only use the parts that are useful to you.
@@ -86,8 +87,8 @@ Feel free to remove parts that make no sense to you, add parts that are missing,
 
 {{<tip text=`
 Most organizations have their own standards for design documentation. These standards can range from "You must use confluence" to "Just write it 
-down on a napkin an take a picture of it". Make sure to adhere to these standards, and to use the tooling provided by your organization as best 
-you can. Most modern tools (confluence, jira, miro, github, zapier, ...) have ways to create templates, add automation, and to link to other 
+down on a napkin and take a picture of it". Make sure to adhere to these standards, and to use the tooling provided by your organization as best 
+you can. Most modern tools (confluence, Jira, Miro, GitHub, Zapier, ...) have ways to create templates, add automation, and to link to other 
 platforms. Use these features to make your life easier, and look for ways to adapt the provided templates to be used inside these tools.
 ` >}}
 
@@ -123,7 +124,7 @@ It answers the questions: *"What are we trying to do, why are we trying to do it
     > [key objectives and results (OKRs)](https://en.wikipedia.org/wiki/Objectives_and_key_results) that the system is intended to support.
     > 
     > As an example: when building a webshop, the business goal statement would be something like "In order to 
-    > compete with third-party vendors and suppliers, HardwareCompany ABC wants to provide a platform to allow international customers 
+    > compete with third-party vendors and suppliers, Hardware Company ABC wants to provide a platform to allow international customers 
     > to purchase products online.".
 
     For a more detailed breakdown of the business goals into functional requirements, refer to the [Functional Requirements Overview](./functional_requirements.md).
@@ -138,7 +139,7 @@ It answers the questions: *"What are we trying to do, why are we trying to do it
     > Replace the placeholders with the actual quality attributes that are most important for the system.
     > As QAs are not a fixed convention, you have a lot of wiggle room as an architect to define what you mean by them. 
     > I advise you to search for an overview of quality attributes, select a few of them that speak to you, and select up to five of these 
-    > as important to your system. Describe the quality attribute in a very consise manner, and make sure that it is understandable to 
+    > as important to your system. Describe the quality attribute in a very concise manner, and make sure that it is understandable to 
     > non-technical readers. If you want to go into more detail, you can add a rationale section to explain why you selected these QAs.
 
     * **quality attribute name**: short description of the quality attribute
@@ -178,7 +179,7 @@ It answers the questions: *"What are we trying to do, why are we trying to do it
 
     ## Business Statement
     Briefly describe the problem that the system is intended to solve. How it aims to solve it, and what the expected benefits are.
-    Write this in a way that is understandable to all stakeholders, not just technical people. Think of it as your 2-minute elevator pitch on 
+    Write this in a way that is understandable to all stakeholders, not just technical people. Think of it as your 2-minute management pitch on 
     which you can expand if people are interested.
 
     ## Stakeholders Overview
@@ -199,10 +200,10 @@ It answers the questions: *"What are we trying to do, why are we trying to do it
 
     | feature identifier | MoSCoW | Status | Description |
     | --- | --- | --- | --- |
-    | Name or UUID | `Must-have` |  `Accepted` | A short description of the feature, or link to the detailed FRs |
-    | Name or UUID | `Should-have` | `Proposed` | A short description of the feature, or link to the detailed FRs  |
-    | Name or UUID | `Should-have` | `Proposed` | A short description of the feature, or link to the detailed FRs  |
-    | Name or UUID | `Could-have` | `Proposed` | A short description of the feature, or link to the detailed FRs  |
+    | Name or UUID | `Must-have` |  `Accepted` | A short description of the feature, or link to the detailed FR's |
+    | Name or UUID | `Should-have` | `Proposed` | A short description of the feature, or link to the detailed FR's  |
+    | Name or UUID | `Should-have` | `Proposed` | A short description of the feature, or link to the detailed FR's  |
+    | Name or UUID | `Could-have` | `Proposed` | A short description of the feature, or link to the detailed FR's  |
     | Name or UUID | `Won't-have` | `Rejected` | reason: Unrealistic, and unneeded  |
     
     ## Detailed functional requirements
@@ -291,7 +292,7 @@ It answers the questions: *"What are we trying to do, why are we trying to do it
     * **status:** `BACKLOG` / `IN PROGRESS` / `DONE` / `CANCELLED`
     * **deadline:** YYYY-MM-DD
     * **expected completion date:** YYYY-MM-DD
-    * **expected effort required:** ? workdays - ?? workdays
+    * **expected effort required:** ? Workdays - ?? Workdays
 
     > Describe the intention of this milestone. What are you trying to achieve, and why is it important?
     > What will be the impact of this milestone on the system as a whole, and on the stakeholders?
@@ -347,15 +348,31 @@ outdated or takes away the possibility of independent thought during implementat
     > This section should provide enough context for the developers to understand the design decisions that were made, and to implement the feature.
     > It should also provide enough context for the stakeholders to understand the impact of the feature on the system as a whole.
 
+    ### Cross-cutting concerns
+    
+    > Describe the cross-cutting concerns that are relevant to this feature. What are the security, performance, and scalability considerations?
+    > These are concerns that are relevant to the system as a whole, though they do not directly contribute to the core functionality of the 
+    > system. They should be taken into account when implementing any feature, both while estimating and executing the work.
+    > As always, remove any header that is not relevant to your feature, and add any that are missing. It helps to reference the relevant 
+    > high-level documents in this section, to provide context to the reader and avoid repeating the same rationale (DRY principle).
+    
+    #### Security
+
+    #### Performance
+
+    #### Deployment
+
+    #### Auditing and Logging
+
     ## Planning
     
     > A bullet list with some high-level planning information. This can include the estimated development time, the estimated rollout time, time 
     > to complete the testing cycle, the urgency of the feature, and the estimated added value. Feel free to add metrics that are relevant to 
-    > your decision making process. This section can be ommited if these metrics are not relevant to your project or if they are being tracked 
-    > in other tooling ( e.g. jira, excel). If dependencies are present, make sure to list them here.
+    > your decision-making process. This section can be omitted if these metrics are not relevant to your project or if they are being tracked 
+    > in other tooling (e.g. Jira, excel). If dependencies are present, make sure to list them here.
 
-    * **Estimated development time:** ? workdays - ?? workdays 
-    * **Estimated rollout time:** ? days
+    * **Estimated development time:** ? Workdays - ?? Workdays 
+    * **Estimated rollout time:** ? Days
     * **Urgency:** `high`, `medium`, `low`
     * **Estimated added value:** `high`, `medium`, `low`
     * **Depends on:** ???

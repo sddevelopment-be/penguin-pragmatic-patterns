@@ -1,7 +1,7 @@
 +++
 title = "Find the source of dissent"
 author = "Stijn Dejongh"
-problem = "Someone dissagrees with you, and you have difficulties understanding why"
+problem = "Someone disagrees with you, and you have difficulties understanding why"
 description = "Build up your argument one step at a time, and see where your opinions differ"
 categories = [
     "communication",
@@ -77,17 +77,17 @@ caption="Flowchart illustrating differences of opinion" >}}
 
 When disagreeing with someone, retrace your conversation step by step. You and your partner(s) check whether you are on the same page.
 Make sure you understand each other's meaning and intent fully, avoiding jargon if you can[^1]. At some point, you will discover a factoid or 
-consequence that you do not both see as being true or relevant to the discussion.
+consequence that you do not both consider factual or relevant to the discussion.
 **You have now discovered the root of your dissent**.
 
 Rather than furthering your disagreement on your final conclusion, stick to discussing your opinions of the point where your reasoning diverges.  
 If you can not come to an agreement here, there is no sense in discussing things further down the conversational chain.
-You might still end up in disagreement, but at least you have an understanding of **why** you dissagree.
+You might still end up in disagreement, but at least you have an understanding of **why** you disagree.
 This proves to be invaluable in identifying alternatives or compromises.
 
 ## Rationale
 
-* It is more constructive to leave tempers outside of a discussion.
+* When in a discussion, it is more constructive to leave tempers outside.
 * Calmly going through your arguments step-by-step helps avoid personal biases or egos come into play.
 
 ## References

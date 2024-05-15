@@ -28,7 +28,7 @@ Boundary(resources, "Available Resources") {
     System(time, "Time", "Amount of time you spend on a single endeavour. \n")
     System(energy, "Energy", "Amount of effort you can put in. Your alertness. \n")
 
-    System(attention, "Attention", "Focus, concentration, the ability to be present in the moment.")
+    System(attention, "Attention", "Focus, concentration, the ability to be present.")
     System(money, "Money", "Monetary funds available. \n Cash, dough, moolah, greenbacks, etc.")
 }
 

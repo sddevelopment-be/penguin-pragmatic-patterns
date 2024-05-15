@@ -1,7 +1,7 @@
 +++
 title = "Organize your workflow"
 author = "Stijn Dejongh"
-problem = "You find it difficult to remember what you want to achieve, and are distrought by the amount of tasks you have yet to finish."
+problem = "You find it difficult to remember what you want to achieve, and are distraught by the amount of tasks you have yet to finish."
 description = "Implement a personalized workflow to organize, prioritize, and complete tasks"
 categories = [
     "productivity",
@@ -23,13 +23,13 @@ ammerse = [
 pubdate="2023-08-26"
 +++
 
-In recent years, microsoft has pivotted towards providing office-as-a-service applications.
+In recent years, Microsoft has pivoted towards providing office-as-a-service applications.
 Most if these can be easily incorporated into your personal workflow. Having everything online makes it easier to be
 productive, without losing your mobility.
 
 ## Problem Statement
 
-You find it difficult to remember what you want to achieve, and are distrought by the amount of tasks you have yet to finish.
+You find it difficult to remember what you want to achieve, and are distraught by the amount of tasks you have yet to finish.
 
 ## Intent
 
@@ -46,23 +46,23 @@ in your given context.` >}}
 
 * People are often distracted by their own thoughts.
 * Having mental "open loops"[^0] is tiring, and stressful.
-* It is difficult to keep up the habbot of organizing your ideas.
+* It is difficult to keep up the habit of organizing your ideas.
 * Most productivity applications and techniques force you into a particular set of tools.
 
 ### Enablers
 
 * You are able to write relatively quickly.
 * You are able to think critically of the ideas you have.
-* You can plan your time expendature in advance, and are discipined enough to stick to it (mostly).
+* You can plan your time expenditure in advance, and are disciplined enough to stick to it (mostly).
 * You have a device that you bring with you to most places, or have a toolset that you can access from anywhere.
 
 ### Deterrents
 
 * You have little control over how you spend your time.
 * Even though you plan events, they usually fall through.
-* You have a particularly difficult time picking up new habbits.
+* You have a particularly difficult time picking up new habits.
 * You tend to change your system too often, not allowing yourself to get used to it.
-* You are not able to note down your thoughts quickly (slow writing speed, analysis-paralasis).
+* You are not able to note down your thoughts quickly (slow writing speed, analysis-paralasys).
 * You generally spend more time refining your methods, or toolset, rather than focussing on the things you want to do.
 
 ## Solution
@@ -102,7 +102,7 @@ caption="A high-level productivity flow inspired by the Getting Things Done meth
 
 ### Personal productivity flow using MS online tooling
 
-In recent years, microsoft has pivoted towards providing office-as-a-service applications.
+In recent years, Microsoft has pivoted towards providing office-as-a-service applications.
 Most if these can be easily incorporated into your personal workflow. Having everything online makes it easier to be
 productive, without losing your mobility.
 
@@ -128,7 +128,7 @@ productive, without losing your mobility.
   site="productplan.com"
   link="https://www.productplan.com/glossary/eisenhower-matrix/" >}}
   
-[^0]: An "open loop" is any task, idea, or though that keeps you occupied. You have not yet taken action on it, and as such were not able to come to a satisfying conclusion. In short: it are thoughts that live in your mind, for which you were not yet able to find closure.
+[^0]: An "open loop" is any task, idea, or though that keeps you occupied. You have not yet taken action on it, and as such were not able to come to a satisfying conclusion. In short: thoughts that live in your mind, for which you were not yet able to find closure.
 [^1]: Unless of course your computers die and your internet connection goes on hiatus  
 [^2]: From the
 book ['The 7 Habits of Highly Effective People: Powerful Lessons in Personal Change'](https://www.amazon.com/gp/product/0743269519?imprToken=u69OsCPq-VHBYc7olPiAPA)

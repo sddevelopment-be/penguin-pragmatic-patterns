@@ -45,7 +45,7 @@ in your given context.` >}}
 
 * You can decide and manage your tasks.
 * You are aware of your personal goals and ambitions.
-* You have a notebook (digital or analogue) close by at all times.
+* You always have a notebook (digital or analogue) close by.
 * You can communicate your intent to people effectively.
 
 
@@ -54,7 +54,7 @@ in your given context.` >}}
 * You do not know what your goals and ambitions are.
 * You find it hard to rank tasks according to their importance.
 * You are not able to consistently apply a prioritization technique.
-* Others tend to decide what actions you should take for you (micro-management).
+* Others tend to decide what actions you should take for you (micromanagement).
 
 ## Solution
 

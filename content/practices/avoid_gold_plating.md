@@ -2,7 +2,7 @@
 title = "Let's not make it complicated"
 author = "Stijn Dejongh"
 problem = "You are spending much more time and mental effort on a piece of software than is needed or valuable."
-description = "Write readable code that is as well designed as it needs to be at this point in time."
+description = "Write readable code that is as well-designed as it needs to be at this point in time."
 categories = [
     "software development",
 ]
@@ -64,7 +64,7 @@ in your given context.` >}}
 
 ## Solution
 
-* write code that is as well designed as it needs to be at this point in time.
+* write code that is as well-designed as it needs to be at this point in time.
 * make sure the code you write at this point in time adheres to the basic principles of clean code and design
 * when an idea for a more generic solution comes to mind during your implementation, take note of it and revisit it afterwards
 * iteratively enhance the codebase when it makes sense to do so: when tackling a new code challenge, look for reusable components or
@@ -82,13 +82,14 @@ In order to avoid over-complicating your code, ask yourself:
 ### How not to do it: Enterprise Quality FizzBuzz
 
 FizzBuzz is a children's game well known to software developers, as it is commonly used as a training exercise or interview question. 
-The aim is to write a program that counts to a given number. When the current count is divisable by 3, the program should print out `Fizz` rather 
-than the current count. When the current count is divisible by 5, it should print out `Buzz`. When divisible by both, we expect `FizzBuzz`.
+The aim is to write a program that counts to a given number. When the current count is divisible by 3, the program should print out `Fizz` rather 
+than the current count. When the current count is divisible by 5, it should print out `Buzz`. If the number divisible by both, we expect `FizzBuzz`.
 The FizzBuzz exercise aims to gauge basic programming aptitude, such as the use of loops and accumulators.
 
 Usually, one can write a program to do this in a dozen lines of code. As satire to the tendency of programmers in big corporations to 
 overcomplicate their code, people have co-created a version of this program that counts upwards of 10'000 lines of code.
-This marvel of overengineering is available online on [github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition](https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition)
+This marvel of over-engineering is available online on [github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition](https://github.
+com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition)
 
 To give you an idea of how far the authors took it: the Enterprise FizzBuzz system uses Spring, and implements nearly all Go4 patterns.  
 The class below shows a strategy-injection visitor to determine which output formatter to use for a given number. 
@@ -137,7 +138,7 @@ public final class FizzBuzzOutputGenerationContext implements OutputGenerationCo
 * {{<reference author="Nauerby, E. M.; Kragbæk, M.; et al."
   year="2019"
   title="FizzBuzz: Enterprise Edition"
-  site="github.com"
+  site="GitHub.com"
   link="https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition" >}}
 * {{<reference author="Martin R."
   year="2005"

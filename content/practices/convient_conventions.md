@@ -86,9 +86,9 @@ As long as the code is consistent with it's surrounding, you will get the benefi
 A great example of this is the use of brackets to identify code blocks in Java. While not strictly necessary to make your code compile or work, 
 many teams explicitly ask their developers to include brackets, even on conditionals that could be written as one-liners. This particular 
 convention tends to irk newer developers who like their code to be as concise as possible. 
-While brevity is a usually a good thing, at other times it can be confusing. 
+While brevity is a usually good, at times it can confuse your readers. 
 
-Let's take a quick look at the code below, which checks whether we are under attack, and whether to launch a retaliatory nuclear strike.
+Let's have   a quick look at the code below, which checks whether we are under attack, and whether to launch a retaliatory nuclear strike.
 
 ```java
 public void failSafe(boolean thePresidentIsDead){
@@ -122,17 +122,17 @@ A simple log statement, combined with misleading indentation has set forth a the
 ### Use Case: Enforce coding standards automatically
 
 Most (semi-mature) languages have a preferred style. It is usually wise to stick to it, even if you do not personally like it.
-As a few examples: Java is written mostly in camelCase, C# uses PascalCase for everything but variables, python and javascript developers tend to 
-put expected variable types in the names,... . The list on small and large differences between different language default writing styles is long. 
+As a few examples: Java is written mostly in camelCase, C# uses PascalCase for everything but variables, Python and JavaScript developers tend to 
+put expected variable types in the names. The list on small and large differences between different language default writing styles is long. 
 
 Even on your project, you might decide to use a particular spacing/indentation convention, method ordering, or you might enforce a certain level 
-of test coverage for parts of your project. Basically: there is a lot of custom conventions that exist within a project. On most projects, the 
+of test coverage for parts of your project. Basically: there are a lot of custom conventions that exist within a project. On most projects, the 
 biggest part of review comments are related to people not following the preferred style correctly.
 
 In order to avoid mostly useless back-and-forth on stylistic differences, delegate these things to an automated system.
-There are plent of good linters and static code analysis tools out there that let your automatically find and highlight issues with the style of 
-code that is being written. Additionally: most modern IDE's allow developers to import a stylesheet into their tooling, and reformat the code prior to commiting it to the 
-source control system. 
+There are plenty of good linters and static code analysis tools out there that let your automatically find and highlight issues with the style of 
+code that is being written. Additionally: most modern IDE's allow developers to import a stylesheet into their tooling, and reformat the code 
+prior to committing it to the source control system. 
 
 {{<tip text=`
 Let a machine handle the easily spotted and corrected "issues" in your code base, enforcing consistency.
@@ -167,10 +167,10 @@ Spend your time on digging into the important things, such as functionality or t
 * {{<reference author="Gravley, L."
   year="2020"
   title="Introducing GitHub Super Linter"
-  site="github.blog"
+  site="GitHub.blog"
   link="https://github.blog/2020-06-18-introducing-github-super-linter-one-linter-to-rule-them-all/" >}}
 * {{<reference author="Google Open Source"
   year="2023"
   title="Google Style Guides"
-  site="github.io"
+  site="GitHub.io"
   link="https://google.github.io/styleguide/" >}}

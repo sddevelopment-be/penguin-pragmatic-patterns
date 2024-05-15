@@ -36,8 +36,8 @@ You have difficulties connecting with others, and find yourself disengaged durin
 
 ## Intent
 
-* Be fully present in the moment, focusing on understanding your conversational partner.
-* Improve your relationships by practicing empathetic listening.
+* Be fully present, focusing on understanding your conversational partner.
+* Improve your relationships by practising empathetic listening.
 * Prioritize listening to understand, rather than simply responding.
 
 ## Contextual forces
@@ -68,7 +68,7 @@ in your given context.` >}}
 Instead of defaulting to responding, practice empathetic listening using the LARS acronym:
 
 * **(L)isten:** Actively listen to what the other person is saying, resisting the urge to formulate a response immediately. If you find your
-  mind drifting, take a deep breath, and refocus on their words. Non-verbal cues like nodding or acknowledging sounds (_"aaahhh"_ , _"hm hm"_, _"I
+  mind drifting, take a deep breath, and refocus on their words. Non-verbal cues like nodding or acknowledging sounds (_"aaahhh"_ , _"hm, hm"_, _"I
   see"_) can help[^2].
 
 * **(A)sk:** Engage your conversational partner by asking questions about their perspective, feelings, and needs. This signals your genuine
@@ -82,7 +82,7 @@ Instead of defaulting to responding, practice empathetic listening using the LAR
 
 * **(S)uggest:** After understanding their perspective and needs, offer suggestions or assistance thoughtfully. Ensure your suggestions align with
   their concerns without trivializing their feelings or experiences. Little is more painful than sharing your feelings, only to be told that you are
-  likely overreacting. Avoid using trivialising words, and platitudes, such as _"just"_, _"easy"_, _"we've all been there"_, _"that's nothing, you
+  likely overreacting. Avoid using trivializing words, and platitudes, such as _"just"_, _"easy"_, _"we've all been there"_, _"that's nothing, you
   should hear what I went through"_.
 
 ## Rationale
@@ -93,7 +93,7 @@ meaningful connections. When someone talks to you, assume they want to be heard.
 
 ## Examples
 
-Take a moment to tune in to popular talk shows and interview-focused podcasts. Pay close attention to how the hosts skillfully bring out the best in
+Take a moment to tune in to popular talk shows and interview-focused podcasts. Pay close attention to how the hosts skilfully bring out the best in
 their guests. The best hosts have a unique talent for getting their guests to open up, creating an atmosphere where the guest shines and feels like
 the most captivating person in the world.
 

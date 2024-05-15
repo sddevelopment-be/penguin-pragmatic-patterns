@@ -54,7 +54,7 @@ in your given context.` >}}
 
 ### Deterrents
 
-* People feel it is polite to say "hello" and chit-chat before asking a question or favor.
+* People feel it is polite to say "hello" and chit-chat before asking a question or favour.
 * People are not used to chat-like messaging applications.
 * People expect immediate responses to their messages.
 

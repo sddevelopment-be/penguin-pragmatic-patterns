@@ -24,7 +24,7 @@ contribute the most value to your organization, project, customers, or even your
 The basic formula to calculate ROI is: `Value Gained / Cost of activity`.
 
 In business, evaluating the "Value" and "Cost" of activities and projects is a common challenge. Simplifying this, we often use the metric "money
-earned / money invested" to measure the desirability of an endeavor. While this approach is undoubtedly useful, it doesn't capture all the gains,
+earned / money invested" to measure the desirability of an endeavour. While this approach is undoubtedly useful, it doesn't capture all the gains,
 some of which are intangible. There are those that attempt to assign monetary value to everything, but this can be ethically challenging.
 
 Consider this: __How can you put a price on a human life or quantify the positive impact on someone's self-esteem and daily life?__ These questions
@@ -33,7 +33,7 @@ from a project or activity than just money. Even if we could quantify these "int
 the definition
 of "value gained" will always be subjective.
 
-While subjectivity is an inherent aspect of any forecasting approach, it doesn't undermine the empirical method of analyzing trade-offs.
+While subjectivity is an inherent aspect of any forecasting approach, it doesn't undermine the empirical method of analysing trade-offs.
 Statistics provide a formalized means of comparing different situations and contexts, aiding individuals and organizations in shaping their
 strategies. The true value of statistics doesn't lie in the absolute numbers they offer but in how we interpret them and the actions we take based
 on that interpretation.
@@ -46,7 +46,7 @@ decision-making process.  Hence, the effectiveness of the ROI metric hinges on t
 ## Examples
 
 Say you are a manager and have three different projects that your team could work on. 
-Each of them has been analyzed, and has an estimated future income and estimated development cost assigned to them. 
+Each of them has been analysed, and has an estimated future income and estimated development cost assigned to them. 
 You can choose one of these for your team to work on:
 
 * **Option 1:** Estimated income = 15'000 EUR ; Estimated costs = 5'000 EUR

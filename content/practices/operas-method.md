@@ -82,7 +82,7 @@ whose assistance you need to enlist. This step is the transition between the mor
 one of the milestones. Ask yourself: _"What do I need to get the started?"_, and then gather the resources needed to go ahead.
 
 {{<warning text=`
-The most common risk in this phase of the process is to over-analyze the situation. This anti-pattern is known as analysis paralysis and is extremely detrimental to making progress.
+The most common risk in this phase of the process is to over-analyse the situation. This anti-pattern is known as analysis paralysis and is extremely detrimental to making progress.
 Be sure you only identify the minimal set of required resources you need to START progressing. You can always loop back, and search for
 additional resources when they are needed.
 `>}}

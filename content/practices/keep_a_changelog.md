@@ -50,7 +50,7 @@ in your given context.` >}}
 
 * Your version control system already contains the information required.
 * People tend to forget to update the changelog.
-* You want to keep your process as lean as possible, and will get little value out of a semi-formal trace of changes.
+* You want to keep your process as lean as possible, and will get little value out of a semiformal trace of changes.
 
 ## Solution
 

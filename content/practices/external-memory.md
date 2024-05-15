@@ -51,14 +51,14 @@ in your given context.` >}}
 * Use a technological or physical aid to keep track of your ideas and notes
 * Make sure you **trust** your external brain, in order to free head-space
 * Revisit your notes regularly
-* Favor text-based formats, as they are easier to version, maintain and port
+* favour text-based formats, as they are easier to version, maintain and port
 * Whatever system you use, make sure it is easily accessible, and non-disruptive to your primary focus
 
 ## Rationale
 
 Human memory is [extremely lossy](https://www.nationalgeographic.com/science/article/human-memory). We are better equipped for creative,
 constructive thinking than for storing factual information. Focus is [easily disrupted](https://blog.rescuetime.com/context-switching/).
-It makes practical and economic sense to try and find a way to free up your headspace and thinking power for the endeavors that actually matter.
+It makes practical and economic sense to try and find a way to free up your headspace and thinking power for the endeavours that actually matter.
 
 ## Examples
 
@@ -82,7 +82,7 @@ In addition to this, I try and keep a day-to-day running count of what happened 
 write at the end of the day.
 
 {{<tip text=`
-One of my favorite ways of note-taking while working on a software project is to add a dev_notes directory to my codebase.
+One of my favourite ways of note-taking while working on a software project is to add a dev_notes directory to my codebase.
 For short-lived projects or changes, I tend to add this file to the .gitignore configuration of my repository as to not muck up the
 workspace of my colleagues. For more long-term or collaborative projects, consider creating a dedicated repository to host all of your
 developer notes. You can get creative with symbolic links to make these folders show up in your codebase regardless of their physical location.

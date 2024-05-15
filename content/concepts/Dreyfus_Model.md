@@ -2,7 +2,7 @@
 title = "Dreyfus model"
 subtitle = "five distinct steps of mastery"
 author = "Stijn Dejongh"
-description = "a formal model on learner progression, the emerging skills they aqcuire, and the challenges specific to each step."
+description = "a formal model on learner progression, the emerging skills they acquire, and the challenges specific to each step."
 type = "concept"
 categories = [
     "learning",
@@ -23,7 +23,7 @@ In order to know the direction to take, it is important to know where you are at
 ## Description
 
 The Dreyfus model of skill acquisition is a formal model, that defines five distinct steps of mastery.  
-As a learner progresses from on stage to the next, there is a series of changes in how they apply their individual skillset and knowledge.
+As a learner progresses from on stage to the next, there is a series of changes in how they apply their individual skill set and knowledge.
 What is even more interesting is that the learner starts thinking in different ways.
 
 The different levels of master in the Dreyfus Model (in ascending order of mastery) are:
@@ -34,8 +34,8 @@ The different levels of master in the Dreyfus Model (in ascending order of maste
 * Expert
 
 These will be described across these four main areas:
-* **Recollection:**  Describes the relationship between the practitioner and the application of knowledge they obtain.
-* **Recognition:**  Describes the way the practitioner is able to recognize situations and relevant actions.
+* **Recollection:** Describes the relationship between the practitioner and the application of knowledge they obtain.
+* **Recognition:** Describes the way the practitioner is able to recognize situations and relevant actions.
 * **Decision:** Describes the way the practitioner decides on a course of action.
 * **Awareness:** Describes the way the practitioner is able to extract information from their context / environment.
 
@@ -47,16 +47,16 @@ These will be described across these four main areas:
 
 * **Recollection:** Non-Situational. The learner applies their knowledge by following a script to the letter.
 * **Recognition:** Decomposed. The learner sees knowledge as fixed predefined scripts or processes, to be followed to the letter.
-* **Decision:**  Analytical. The learner checks whether they know the script for the current situation. They are not comfortable making decisions
+* **Decision:** Analytical. The learner checks whether they know the script for the current situation. They are not comfortable making decisions
   about their approach.
-* **Awareness:**  Monitoring. The learner has little understanding of what to look out for, and is closely monitoring the desired outcome of their
+* **Awareness:** Monitoring. The learner has little understanding of what to look out for, and is closely monitoring the desired outcome of their
   current action/task.
 
 ### Advanced beginner
 
 * **Recollection:** Situational. The learner is able to rely on similar previous experiences and can adapt some of the steps in the script to
   better fit their situation.
-* **Recognition:**  Decomposed. The learner has gained more insight in the details of each step. They begin to understand the characteristics of
+* **Recognition:** Decomposed. The learner has gained more insight in the details of each step. They begin to understand the characteristics of
   the actions they are performing based on previous experiences.
 * **Decision:** Analytical. The learner checks whether they know the script for the current situation. They are not comfortable making decisions
   about their approach.
@@ -76,11 +76,11 @@ These will be described across these four main areas:
 ### Proficient
 
 * **Recollection:** Situational. The learner is guided by the principles rather than scripts.
-* **Recognition:**  Holistic. The learner has a profound insight in the goals behind each step in the process, and how they interact. They see the
+* **Recognition:** Holistic. The learner has a profound insight in the goals behind each step in the process, and how they interact. They see the
   higher-level guiding principles. They are able to spot deviations from the normal pattern.
-* **Decision:**  Intuitive. The learner has less need for a deep analysis of the full situation before they can decide on a plan of action. They
-  deeply analyze only the most important situational factors.
-* **Awareness:**  Monitoring. The learner knows the characteristics that have an effect on their approach and meticulously keeps track of all of
+* **Decision:** Intuitive. The learner has less need for a deep analysis of the full situation before they can decide on a plan of action. They
+  deeply analyse only the most important situational factors.
+* **Awareness:** Monitoring. The learner knows the characteristics that have an effect on their approach and meticulously keeps track of all of
   them.
 
 ### Expert
@@ -90,12 +90,12 @@ These will be described across these four main areas:
 * **Recognition:** Holistic. The learner has a very profound understanding of the subject area, and are able to see situations as a whole.
 * **Decision:** Intuitive. The learner's decisions are driven mostly by their gut feeling. They are able to fluently combine their instincts and a
   deeper analysis of novelties. Often they find it difficult to explain exactly WHY they took a certain decision.
-* **Awareness:** Absorbed. The learner subconsciously takes mental note of behaviors and characteristics of their environment. They **feel** when
+* **Awareness:** Absorbed. The learner subconsciously takes mental note of behaviours and characteristics of their environment. They **feel** when
   something is going well, or when risks are on the horizon.
 
 ## Usage
 
-### Tailoring coaching approach to the learners skill level
+### Tailoring coaching approach to the learner's skill level
 
 In general, the more experienced one becomes, the more they start internalizing a concept of "the bigger picture".
 Inexperienced practitioners of a skill are pleased when someone provides them with clear-cut instructions, especially if they've heard applying

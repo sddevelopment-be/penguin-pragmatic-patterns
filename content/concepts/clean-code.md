@@ -29,7 +29,7 @@ Yet, when you're just starting out, it's invaluable to have a set of best practi
 When developing software, it's tempting to focus solely on making it function correctly. Undoubtedly, functionality is paramount in software
 development. However, if you've ever worked on a substantial software project, you've likely spent a considerable amount of time reading and
 deciphering existing code. Even if you primarily work in isolation, confusion can still arise when revisiting your own code after a significant
-time lapse.
+time-lapse.
 
 {{<quote text="But it works! That's all that matters, right?" author="A lazy developer">}}
 
@@ -37,7 +37,7 @@ The mean culprit for this confusion is often code that's simply hard to understa
 It lacks expressiveness or becomes overly verbose. One helpful metric to gauge the cleanliness of your code is humorously known as the 'WTFs per
 minute metric,' inspired by a well-known cartoon that has been recreated numerous times.
 
-Writing clean code isn't just about pleasing your colleagues; it's a favor to your future self.
+Writing clean code isn't just about pleasing your colleagues; it's a favour to your future self.
 Projects inevitably evolve, and what was once insignificant can become critical to the application's success. When the code handling this
-functionality is messy, adapting to changing requirements can feel like a descent into chaos. So, do yourself a favor, and strive to keep your code
+functionality is messy, adapting to changing requirements can feel like a descent into chaos. So, do yourself a favour, and strive to keep your code
 comprehensible at a glance. Your colleagues and your future self will thank you.

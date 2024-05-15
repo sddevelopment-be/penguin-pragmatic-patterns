@@ -155,7 +155,7 @@ It answers the questions: *"What are we trying to do, why are we trying to do it
     > describe the key stakeholders, their roles, and how they fit into the organization. It should also describe the development process that is 
     > being used, how the developer teams are organized, and how the system fits into the overall IT landscape of the organization.
     > Most importantly: it should describe relationships and dependencies between the development teams and other teams in the organization.
-    > Using the [Team Topologies](https://teamtopologies.com/) model can be a good way to describe the organizational context in a semi-formal,  
+    > Using the [Team Topologies](https://teamtopologies.com/) model can be a good way to describe the organizational context in a semiformal,  
     > structured way.
 
     ## Solution Overview
@@ -222,7 +222,7 @@ It answers the questions: *"What are we trying to do, why are we trying to do it
     **status**: `Proposed` / `Accepted` / `Rejected` / `Planned` / `Implemented`  
     **MoSCoW**: `Must-have` / `Should-have` / `Could-have` / `Won't-have`
 
-    > Describe the requirement in detail. What is the expected behavior of the system? What are the inputs and outputs?
+    > Describe the requirement in detail. What is the expected behaviour of the system? What are the inputs and outputs?
     > 
     > A good way to structure this is to use a short statement in the  *"As a ... I want to ... so that ..."*-format, as it helps to keep the
     > requirement focused on the stakeholder needs.

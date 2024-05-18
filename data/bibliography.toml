@@ -519,7 +519,14 @@ year = "2019"
 link = "https://www.goodreads.com/book/show/44135420-team-topologies"
 image = "team_topologies.jpg"
 description = """
+What is the best way to organize your team? How can you ensure that your team is set up for success?
+Is there a way to structure your team that will allow for fast flow of work?
+In Team Topologoes, the authors evolve the idea behind DevOps Topologies into a model for or organizational design.
+Based on the idea that the structure of your team will influence the flow of work, the authors present a model
+to design team boundaries and communication lines based on the need for interaction between the teams.
 
+The authors suggest four essential team types and three interaction models, and present multiple real-world cases where the topologies approach was used to great effect.
+This book is a recommended read for anyone interested in team dynamics, organizational design, and the flow of work within corporate settings.
 """
 levels = ["advanced", "reference"]
 tags=["management", "communication", "structure", "team dynamics", "architecture"]

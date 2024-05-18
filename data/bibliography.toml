@@ -519,9 +519,10 @@ year = "2019"
 link = "https://www.goodreads.com/book/show/44135420-team-topologies"
 image = "team_topologies.jpg"
 description = """
+
 """
 levels = ["advanced", "reference"]
-draft = true
+tags=["management", "communication", "structure", "team dynamics", "architecture"]
 
 [[book]]
 id = "1925e2ec-9147-4c4a-9dd8-c3ce6d08eee6"

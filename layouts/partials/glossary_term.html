@@ -3,6 +3,7 @@
 {{ $short := $term.abbreviation}}
 {{ $description := $term.description}}
 {{ $aliases := $term.aliases}}
+{{ $references := $term.references}}
 
 <div class="glossary-term revealOnScroll delay-1" data-animation="fadeInLeft" id={{ replace $name " " "-" | lower }}>
     <div class="term-name">
@@ -22,6 +23,16 @@
                 <span class="term-alias"> {{ . }}</span>
             {{ end }}
         {{ end }}
+        </div>
+        <div class="term-references">
+            {{if $references}}
+            <b>references:</b><br />
+            <ul>
+                {{ range $reference := $references }}
+                    <li class="term-reference"><a href="{{ $reference.link }}" target="_blank">{{ $reference.title }}</a></li>
+                {{ end }}
+            </ul>
+            {{ end }}
         </div>
     </div>
 </div>

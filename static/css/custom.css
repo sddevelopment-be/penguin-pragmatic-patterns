@@ -251,3 +251,7 @@ body {
 .company-info a:hover {
     color: #fefefe;
 }
+
+pre {
+    text-indent: 0;
+}

@@ -117,6 +117,25 @@ aliases = []
 references = []
 
 [[terminology]]
+name = "Conway's Law"
+domain = "Software architecture"
+description = """
+Melvin Conway wrote: __'Any organization that designs a system (defined broadly) will produce a design whose structure
+is a copy of the organization's communication structure'__. The law originates from the observation that software is built by teams of people who are organized in a specific way. In order to build software effectively,
+these groups must work together to achieve their shared goal. Therefore, the software produced by these teams will invariably
+resemble the structure of the teams themselves.
+As an example, a company with two separate teams working for different departments (invoicing and sales) will likely produce software that
+is divided into two separate modules, one for invoicing and one for sales. These modules will probably interact with each other along pre-defined interfaces.
+Much like the teams interact with each other along pre-defined communication channels. If the teams are working in isolation, the software will likely be built in a similar way,
+with the two modules being designed in a way that allows them to be deployed and changed as independently as possible.
+    """
+aliases = []
+references = [
+    { title = "Conway's Law on wikipedia", link = "https://en.wikipedia.org/wiki/Conway%27s_law" },
+    { title = "Fowler on Conway's Law", link = "https://martinfowler.com/bliki/ConwaysLaw.html" }
+]
+
+[[terminology]]
 name = "Command Line Interface."
 abbreviation = "CLI"
 domain = "software"

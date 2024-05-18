@@ -35,6 +35,12 @@
     color: #0b1d27;
 }
 
+.glossary-term .term-references .term-reference {
+    margin-left: 2.25rem;
+    padding-left: 0.75rem;
+    list-style-type: disclosure-closed;
+}
+
 .glossary-term .term-content b {
     color: #1f3c48;
     font-stretch: extra-condensed;
@@ -45,6 +51,11 @@
 
 .glossary-term .term-content .term-text {
     margin-bottom: 0.75rem;
+}
+
+.glossary-term .term-content .term-text p {
+    padding: 0.75rem;
+    text-align: justify;
 }
 
 .glossary-term .term-content .term-abbreviation {

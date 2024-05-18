@@ -50,7 +50,7 @@
                 <div class="recommendation-tags">
                     <b>content categories:</b>
                     {{ range $tag := $tags }}
-                    <span class="recommendation-tag"><a href='{{ "/tags/" | relLangURL}}{{ $tag | urlize}}'>{{$tag}}</a></span>
+                        <span class="recommendation-tag"><a href='{{ "/tags/" | relLangURL}}{{ $tag | urlize}}'>{{$tag}}</a></span>
                     {{end}}
                 </div>
             {{ end }}

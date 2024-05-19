@@ -20,6 +20,8 @@ ammerse = [
     {name = "solvable", delta = "1"},
     {name = "extensible", delta = "0"},
 ]
+pubdate="2024-05-18"
+image="practices/fail_fast_feedback.webp"
 +++
 
 ## Problem Statement

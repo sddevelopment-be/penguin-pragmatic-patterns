@@ -21,6 +21,7 @@ ammerse = [
   {name = "extensible", delta = "0"},
 ]
 pubdate="2023-09-10"
+image = "practices/differences_of_opinion_cover.webp"
 +++
 
 ## Context

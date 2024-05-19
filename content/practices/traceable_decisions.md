@@ -17,9 +17,11 @@ ammerse = [
     {name = "maintainable", delta = "1"},
     {name = "environmental", delta = "0"},
     {name = "reachable", delta = "0"},
-    {name = "solvable", delta = "0.5"},
-    {name = "extensible", delta = "1"},
+    {name = "solvable", delta = "1"},
+    {name = "extensible", delta = "0.5"},
 ]
+pubdate = "2024-04-20"
+image = "practices/traceable_decisions_cover.webp"
 +++
 
 ## Problem Statement
@@ -71,6 +73,22 @@ with various stakeholders. The high-level documents should be readable by anyone
 challenges. As your team matures and develops other needs, you can add more detailed documents, such as functional requirements, technical 
 designs, and drill-downs of particularly complicated aspects of the system. 
 
+## Considerations
+
+* **Over-documentation:** There is a risk of creating too much documentation, which can become overwhelming and counterproductive.
+* **Resistance to Change:** Teams not used to documentation may resist adopting this pattern.
+* **Time Investment:** Initial setup and continuous maintenance of documentation require significant time and effort.
+* **Tool Dependence:** The effectiveness of this pattern heavily relies on the availability and usability of documentation tools.
+
+### Mitigation Strategies
+
+* **Set Clear Guidelines:** Establish clear guidelines on what needs to be documented and what does not. Focus on essential information to avoid
+  over-documentation.
+* **Start Small:** Begin with minimal documentation and gradually increase complexity as needed. Introduce the pattern gradually, allowing the team
+  to adapt to the new process over time. Provide training and support to ease the transition.
+* **Automate Where Possible:** Use tools and automation to streamline the documentation process, reducing the manual effort required.
+* **Regular Reviews:** Conduct regular reviews of the documentation to ensure it remains relevant and up-to-date. Remove outdated or unnecessary
+  information.
 
 ## Examples
 

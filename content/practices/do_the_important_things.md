@@ -22,6 +22,7 @@ ammerse = [
 ]
 outputs = ['html', 'rss', 'json']
 pubdate="2023-11-23"
+image = "practices/priorities_cover.webp"
 +++
 
 ## Problem Statement

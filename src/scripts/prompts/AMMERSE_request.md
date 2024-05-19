@@ -9,9 +9,8 @@ evaluate the impactof applying the pattern in an existing context and whether it
 contextual support of the AMMERSE value.
 Use a scale from -1 to 1, where -1 indicates a significant decrease, 0 indicates no impact, and 1 indicating a significant increase in
 support for the value. Example values are -0.3, 0.8, 0, etc. Succinctly explain the reasoning behind the value you assign to each AMMERSE value.
-
 Be critical of the potential negative impacts of applying a value, and take the feedback loops between the different AMMERSE values into account for
-the most prominently impacted values.
+the most prominently impacted values. Be sure to outline any potential drawbacks of the techniques evaluated, regardless of whether mitigation strategies exist.
 
 Next, list the considerations to be made when applying this technique. 
 Specifically, focus on the potential accidental and undesirable effects of using the Pomodoro technique.

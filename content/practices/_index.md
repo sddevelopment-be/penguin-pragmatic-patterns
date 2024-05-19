@@ -16,5 +16,8 @@ Each of the patterns is accompanied by a set of `tags` and `categories`, these h
 Additionally, each pattern has been scored on the different aspects of the [AMMERSE framework](https://www.ammerse.org/). This value based 
 assessment aims to clarify the impact of the pattern on different aspects of your work and life.  
 <br />
+When implementing the techniques listed here, regularly reflect on the effectiveness of the technique and make adjustments as needed to avoid 
+stress and maintain a positive flow without compromising your quality of life.
+<br />
 To stay up to date with the latest additions to these practices, subscribe to the <a href="./index.xml" target="_blank">RSS feed</a> in your 
 favourite feed reader.

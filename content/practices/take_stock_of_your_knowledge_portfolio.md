@@ -20,6 +20,7 @@ ammerse = [
     {name = "solvable", delta = "0"},
     {name = "extensible", delta = "0"},
 ]
+draft=true
 +++
 
 ## Problem Statement
@@ -27,6 +28,8 @@ ammerse = [
 
 
 ## Intent
+
+
 
 ## Contextual forces
 
@@ -73,5 +76,4 @@ in your given context.` >}}
   link="https://cloud.google.com/devops/state-of-devops" >}}
 
 ---
-
 

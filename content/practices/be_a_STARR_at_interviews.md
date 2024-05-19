@@ -14,11 +14,11 @@ aliases=["499c0c2f-e2b4-4266-8871-410c9c4c8718"]
 ammerse = [
     {name = "agile", delta = "0.5"},
     {name = "minimal", delta = "0"},
-    {name = "maintainable", delta = "1"},
+    {name = "maintainable", delta = "0.5"},
     {name = "environmental", delta = "0"},
     {name = "reachable", delta = "1"},
     {name = "solvable", delta = "1"},
-    {name = "extensible", delta = "0.5"},
+    {name = "extensible", delta = "0"},
 ]
 pubdate="2024-05-11"
 +++
@@ -129,4 +129,11 @@ truthful) responses.
   title="Use The STAR Technique to Ace Your Behavioral Interview"
   site="rightattitudes.com"
   link="https://www.rightattitudes.com/2008/07/15/star-technique-answer-interview-questions/" >}}
+* {{<reference author="Crossland, J.B."
+  year="2024"
+  site="chatgpt.com"
+  title="STARR technique AMMERSE evaluation by openAI"
+  link="https://chatgpt.com/share/19bd350a-b050-4eec-88b1-d54fae0d937d?oai-dm=1" >}}
+
+
 ---

@@ -12,11 +12,11 @@ tags = [
 uuid="94a558cd-4e86-4814-a5e9-d6ecafcb0d6b"
 aliases=["94a558cd-4e86-4814-a5e9-d6ecafcb0d6b"]
 ammerse = [
-  {name = "agile", delta = "0"},
+  {name = "agile", delta = "0.5"},
   {name = "minimal", delta = "1"},
-  {name = "maintainable", delta = "0"},
+  {name = "maintainable", delta = "1"},
   {name = "environmental", delta = "0"},
-  {name = "reachable", delta = "1"},
+  {name = "reachable", delta = "0.5"},
   {name = "solvable", delta = "0"},
   {name = "extensible", delta = "-0.5"}
 ]
@@ -57,10 +57,14 @@ in your given context.` >}}
 * development time costs a LOT of money
 * readable code is easier to maintain
 
+
+
 ### Deterrents
 
 * people like to show how clever they are
 * thinking about future problems can help mitigate them
+* long-term scalability and extensibility are major concerns
+* the system architecture must anticipate significant future requirements
 
 ## Solution
 
@@ -70,12 +74,26 @@ in your given context.` >}}
 * iteratively enhance the codebase when it makes sense to do so: when tackling a new code challenge, look for reusable components or
   structural improvements.
 
-### Self-diagnosis
-
 In order to avoid over-complicating your code, ask yourself:
 * _"Is this code likely to be changed/expanded in the future?"_
 * _"Is my design solving an issue that is here NOW, or am I solving an issue that might never happen?"_
 * _"If this expected issue occurs in the future, can it be easily fixed at that time?"_
+
+## Considerations
+
+* **Short-Term Focus:** The pattern’s emphasis on the present might neglect potential future needs, leading to frequent refactoring.
+* **Cleverness and Ego:** Developers might still over-complicate to showcase their skills, defeating the pattern’s purpose.
+* **Technical Debt:** The pattern might lead to accumulating technical debt, as developers might not consider future requirements. Consistent 
+  under-designing is likely to take place, making the codebase fragile when new requirements emerge.
+
+### Mitigation Strategies
+
+* **Regular Reviews:** Implement regular code reviews to ensure adherence to simplicity principles while considering future requirements.
+* **Refactoring:** Encourage refactoring to address technical debt and ensure the codebase remains maintainable.
+* **Flexible Design Principles:** Encourage the use of design patterns that balance simplicity with flexibility, allowing for future enhancements 
+  without major overhauls.
+
+By focusing on these strategies, the potential drawbacks of the pattern can be mitigated, ensuring that the code remains both simple and robust enough to handle evolving requirements.
 
 ## Examples
 

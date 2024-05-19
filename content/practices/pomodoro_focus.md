@@ -79,9 +79,21 @@ Rather than committing to fully complete an endeavour, a practitioner is committ
 Adding a certain element of gamification, and quantifiability, to the process helps motivate people to work towards their goals more frequently
 and consistently.
 
-## Consequences
+## Considerations
 
-{{<stub text="">}}
+* **Disruption in Collaborative Environments:** The technique may disrupt team workflows if pomodoro cycles of individual team members are not
+  synchronized.The focus on minimizing distractions can reduce spontaneous, valuable interactions with team members, potentially impacting
+  collaboration and innovation.
+* **Perceived Rudeness:** By actively discouraging interruptions, individuals using the technique may come across as rude or uncooperative to
+  colleagues.
+* **Overemphasis on Timers:** Focus on timers might become a distraction, reducing natural workflow.
+* **Rigidity:** The fixed intervals might not suit all types of tasks or personal working styles.
+* **Break Mismanagement:** Poor management of break times can lead to loss of momentum or extended procrastination. The standard 5-minute breaks may
+  not be enough for some individuals to recharge effectively, leading to fatigue over time.
+
+### Mitigation Strategies
+
+
 
 ## Examples
 

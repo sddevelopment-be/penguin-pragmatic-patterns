@@ -18,8 +18,9 @@ ammerse = [
   {name = "environmental", delta = "0"},
   {name = "reachable", delta = "0.5"},
   {name = "solvable", delta = "0"},
-  {name = "extensible", delta = "0"},
+  {name = "extensible", delta = "-0.5"},
 ]
+image="practices/stopping_conditions.webp"
 pubdate="2023-08-26"
 +++
 
@@ -40,9 +41,11 @@ aware of. Some contextual forces are enablers, giving the practice a higher chan
 in your given context.` >}}
 
 ### Enablers
+
 * You have a clear idea of how far you can stretch.
 * You can deal with other people giving you a hard time for changing your mind.
 * Your environment is generally respectful, and understanding, when you stop doing something. 
+* Your goals can lead to significant personal or professional investment
 
 ### Deterrents
 
@@ -50,6 +53,7 @@ in your given context.` >}}
 * People can pressure us into doing things we would rather not do.
 * We feel a sense of shame when stopping. Our culture has though us that __"quitters never win, and winners never quit"__.
 * Others can be used to you going beyond your limit, they will be disappointed when you stop doing so.
+* Unpredictable situations where flexibility is paramount, as setting stopping conditions up front is very hard.
 
 ## Solution
 
@@ -82,6 +86,20 @@ In the end, reaching your goals at all costs is usually not really worth it.
 * The Theory Of Constraints teaches us that holding too much work-in-progress reduces our ability to be effective.
 * Our mental capacity is limited. When we spend too much time fretting over the things we ought to do, there is little room to work on the things we are doing.
 
+## Considerations
+
+* **Short-Term Focus:** The pattern’s emphasis on current limits might neglect potential future opportunities, leading to a conservative approach.
+* **External Pressures:** Individuals might still feel pressured by others to exceed their set limits, making adherence difficult.
+* **Over-Cautiousness:** Risk of setting overly cautious stopping criteria that prevent necessary risk-taking and innovation.
+
+### Mitigation Strategies
+
+* **Regular Reassessment:** Regularly review and adjust stopping criteria based on new information and evolving contexts to maintain a balance
+  between caution and opportunity.
+* **Communication and Support:** Foster a supportive environment where individuals feel comfortable setting and respecting their limits. Open
+  communication about the rationale behind stopping criteria can help mitigate external pressures.
+* **Balanced Approach:** Encourage a balanced approach where stopping criteria are set thoughtfully but flexibly, allowing for necessary
+  adjustments without completely abandoning limits.
 
 ## Examples
 

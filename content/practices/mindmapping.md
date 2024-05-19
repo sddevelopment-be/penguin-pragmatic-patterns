@@ -21,7 +21,8 @@ ammerse = [
   {name = "solvable", delta = "0"},
   {name = "extensible", delta = "0.5"},
 ]
-pubdate="2023-09-05"
+pubdate = "2023-09-05"
+image = "practices/mindmapping_cover.webp"
 +++
 
 ## Problem Statement

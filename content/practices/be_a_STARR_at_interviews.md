@@ -21,6 +21,7 @@ ammerse = [
     {name = "extensible", delta = "0"},
 ]
 pubdate="2024-05-11"
+image = "practices/starr_method_cover.webp"
 +++
 
 ## Problem Statement

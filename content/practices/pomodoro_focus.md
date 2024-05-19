@@ -21,6 +21,7 @@ ammerse = [
   {name = "extensible", delta = "0"},
 ]
 pubdate="2023-08-26"
+image = "practices/pomodoro_cover.webp"
 +++
 
 ## Problem statement

@@ -25,6 +25,7 @@ ammerse = [
 ]
 pubdate="2023-09-19"
 outputs = ['html','rss', 'json']
+image = "practices/self_sabotage_cover.webp"
 +++
 
 ## Problem Statement

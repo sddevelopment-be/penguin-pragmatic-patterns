@@ -71,6 +71,8 @@
 
 .pattern-card .card-title {
     margin-bottom: 0.5rem;
+    flex-grow: 1;
+    align-content: center;
 }
 
 .pattern-card .card-title h4 {
@@ -197,13 +199,48 @@
     margin: 0.25rem 0.25rem 3rem 4.5rem;
 }
 
-.pattern-summary .card-title h4 {
+.card-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    margin-bottom: 0.5rem;
+}
+
+.card-image img {
+    border-radius: 1.5rem;
+    border: 2px solid #34626f;
+    max-width: 90%;
+    width: auto;
+    height: auto;
+}
+
+.card-title-wrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-content: center;
+    gap: 0.125rem;
+}
+
+.card-title-wrapper .card-image {
+    max-width: 7rem;
+    max-height: 7rem;
+}
+
+.card-title-wrapper .card-image img {
+    border-radius: 3.75rem;
+    overflow: hidden;
+}
+
+.pattern-summary .card-title-wrapper .card-title h4 {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.2rem;
     font-weight: 600;
     color: #1e1e3f;
     padding: 0 0.75rem;
     text-align: center;
+    justify-content: center;
 }
 
 .pattern-summary .summary-title {

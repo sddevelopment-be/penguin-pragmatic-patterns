@@ -30,9 +30,10 @@
                     {{ $patterns := slice  }}
                     {{ range where $pages ".Params.categories" "intersect" (slice $categoryTitle) }}
                     {{ $ctx := dict
-                    "Date" .Date
+                        "Date" .Date
                         "Title" .Title
                         "SubTitle" .Params.subtitle
+                        "Image" .Params.image
                         "RelPermalink" .RelPermalink
                         "Description"  .Description
                         "Problem" .Params.problem

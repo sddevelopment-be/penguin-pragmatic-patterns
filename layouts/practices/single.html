@@ -3,6 +3,7 @@
 {{ partial "navbar-clone.html" . }}
 {{ $ammerse := .Params.Ammerse }}
 {{ $tags := .Params.tags }}
+{{ $image := .Params.image }}
 
 <section class="section is-medium">
     <div class="container">
@@ -18,6 +19,11 @@
             <div class="card-title">
                 <h4>Meta Info</h4></a>
             </div>
+            {{ if $image }}
+            <div class="card-image">
+                <img src="/images/{{ $image }}" alt="{{ .Title }}">
+            </div>
+            {{ end }}
             {{if $ammerse}}
             <div class="summary-item">
                 <span class="summary-title">Ammerse Values <a href="https://www.ammerse.org/" target="_blank" title="What is this?"><i class="fa-solid fa-circle-info"></i></a>:</span>

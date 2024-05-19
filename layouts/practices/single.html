@@ -20,12 +20,15 @@
             </div>
             {{if $ammerse}}
             <div class="summary-item">
-                <span class="summary-title">Ammerse Values:</span>
-                <div class="ammerse-values">
-                {{ range $value := $ammerse}}
-                   {{partial "ammerse.html" (dict "value" $value )}}
-                {{ end }}
+                <span class="summary-title">Ammerse Values <a href="https://www.ammerse.org/" target="_blank" title="What is this?"><i class="fa-solid fa-circle-info"></i></a>:</span>
+                <div class="summary-content">
+                    <div class="ammerse-values">
+                    {{ range $value := $ammerse}}
+                       {{partial "ammerse.html" (dict "value" $value )}}
+                    {{ end }}
+                    </div>
                 </div>
+
             </div>
             {{ end }}
             <div class="summary-item">
@@ -48,9 +51,11 @@
                 <div class="summary-item">
                     <span class="summary-title">Tags:</span>
                     <span class="summary-content">
-                    {{ range $index, $value := $tags }}
-                        <a href="/tags/{{ $value }}">{{ $value }}</a> {{ if lt $index (math.Sum (len $tags) -1) }},{{ end }}
-                    {{end}}
+                        <div class="pattern-tags">
+                        {{ range $index, $value := $tags }}
+                            <span class="pattern-tag"><a href="/tags/{{ $value }}">{{ $value }}</a></span>
+                        {{end}}
+                        </div>
                     </span>
                 </div>
             {{ end }}

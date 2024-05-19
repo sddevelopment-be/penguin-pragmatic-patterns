@@ -174,10 +174,11 @@
 }
 
 .fa-circle-info {
-    font-size: 0.75rem;
-    vertical-align: super;
-    color: #7d4b01;
+    font-size: 0.65rem;
+
+    color: #34626f;
     margin-right: 0.25rem;
+    margin-left: 0.25rem;
 }
 
 .pattern-summary {
@@ -224,6 +225,17 @@
     line-height: 1.25;
     text-align: right;
     max-width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.info-line {
+    padding: 0.25rem;
+    text-align: center;
+    font-size: 0.6rem;
+    font-weight: 300;
+    text-transform: uppercase;
 }
 
 .summary-item {
@@ -232,6 +244,7 @@
     justify-content: space-between;
     margin-top: 0.125rem;
     padding: 0.5rem;
+    z-index: 500;
 }
 
 @media (max-width: 800px) {
@@ -256,13 +269,17 @@
     justify-content: space-between;
     margin-top: 0.125rem;
     padding: 0.5rem;
+    gap: 0.25rem;
 }
 
 .ammerse-values .ammerse-value {
     display: block;
-    font-size: 0.95rem;
+    font-size: 0.85rem;
     padding: 0.25rem;
     border-radius: 0.25rem;
+    text-align: center;
+    flex: 1 1 0px;
+    align-content: center;
 }
 
 .base {

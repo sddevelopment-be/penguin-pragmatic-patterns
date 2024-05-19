@@ -199,7 +199,7 @@ def main():
 ```
 
 Our new `validate_file` function reads the first line of the file and checks if all the required fields are present.
-What is more, the function will tell you exactly which fields are missing in the input file.
+Furthermore, this new version of the function will give you detailed feedback on which fields are missing in the provided input file.
 
 ```python
 def validate_file(file_to_check):

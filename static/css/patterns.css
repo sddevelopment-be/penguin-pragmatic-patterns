@@ -155,6 +155,16 @@
     margin-bottom: 0.25rem;
 }
 
+.summary-content .pattern-tags {
+    justify-content: end;
+    padding: 0 0;
+    gap: 0.1rem;
+}
+
+.summary-content .pattern-tags .pattern-tag {
+    font-size: 0.7rem;
+}
+
 .pattern-tags .pattern-tag {
     display: block;
     font-size: 0.65rem;
@@ -223,9 +233,20 @@
     gap: 0.125rem;
 }
 
+@media (max-width: 800px) {
+    .card-title-wrapper {
+        flex-direction: column;
+    }
+}
+
+
 .card-title-wrapper .card-image {
     max-width: 7rem;
     max-height: 7rem;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
 }
 
 .card-title-wrapper .card-image img {
@@ -265,6 +286,18 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+.pattern-summary .summary-item .summary-formats {
+    font-size: 0.75rem;
+    padding: 0 0.5rem;
+    line-height: 1.25;
+    text-align: right;
+    max-width: 80%;
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+    flex-direction: row;
 }
 
 .info-line {

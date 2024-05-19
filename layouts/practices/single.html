@@ -5,6 +5,9 @@
 {{ $tags := .Params.tags }}
 {{ $image := .Params.image }}
 
+
+<meta property="og:image" content="/images/{{ $image }}" />
+
 <section class="section is-medium">
     <div class="container">
         <div class="columns">
@@ -22,19 +25,6 @@
             {{ if $image }}
             <div class="card-image">
                 <img src="/images/{{ $image }}" alt="{{ .Title }}">
-            </div>
-            {{ end }}
-            {{if $ammerse}}
-            <div class="summary-item">
-                <span class="summary-title">Ammerse Values <a href="https://www.ammerse.org/" target="_blank" title="What is this?"><i class="fa-solid fa-circle-info"></i></a>:</span>
-                <div class="summary-content">
-                    <div class="ammerse-values">
-                    {{ range $value := $ammerse}}
-                       {{partial "ammerse.html" (dict "value" $value )}}
-                    {{ end }}
-                    </div>
-                </div>
-
             </div>
             {{ end }}
             <div class="summary-item">
@@ -66,13 +56,25 @@
                 </div>
             {{ end }}
             {{if .Params.outputs}}
-            <div class="summary-item">
+            <div class="summary-item ">
                 <span class="summary-title">formats:</span>
-                <span class="summary-content">
+                <span class="summary-content summary-formats">
                     <a href="index.html" rel="noreferrer" target="_blank">HTML</a> /
                     <a href="index.xml" rel="noreferrer" target="_blank">XML</a> /
                     <a href="index.json" rel="noreferrer" target="_blank">JSON</a>
                 </span>
+            </div>
+            {{ end }}
+            {{if $ammerse}}
+            <div class="summary-item">
+                <span class="summary-title">Ammerse Values <a href="https://www.ammerse.org/" target="_blank" title="What is this?"><i class="fa-solid fa-circle-info"></i></a>:</span>
+                <div class="summary-content">
+                    <div class="ammerse-values">
+                        {{ range $value := $ammerse}}
+                        {{partial "ammerse.html" (dict "value" $value )}}
+                        {{ end }}
+                    </div>
+                </div>
             </div>
             {{ end }}
         </div>

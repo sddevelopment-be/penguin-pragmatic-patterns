@@ -21,6 +21,7 @@ ammerse = [
     { name = "extensible", delta = "0.5" },
 ]
 outputs = ['html', 'rss', 'json']
+image = "practices/steam_image.webp"
 pubdate="2024-05-01"
 +++
 

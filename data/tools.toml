@@ -2,7 +2,7 @@
 name = "SD Development Document generator"
 authors = "Dejongh, S."
 link = "https://github.com/sddevelopment-be/document-generation"
-image = "docgen.png"
+image = "sdd_docgen.webp"
 description = """
 Tooling to generate documents from Markdown, using docker images to ensure portability between different environments. Contains a quick-start set-up. Useful for automated pipelines or quick set-up on new computers.
 """
@@ -11,7 +11,7 @@ Tooling to generate documents from Markdown, using docker images to ensure porta
 name = "Tutorial: Productivity With Shortcuts"
 authors = "Schraepen, T.; et al."
 link = "http://sch3lp.github.io/ProductivityWithShortcuts/"
-image = ""
+image = "hotkey_tutorial.webp"
 description = """
 A step-by-step guide to help you get the most out of your IntelliJ IDEA. A great tutorial for developers that are not used to using hotkeys in order to improve their productivity.
 While it might sound like snake-oil to some, the advantages of reducing the need to use a mouse, and typing less characters add up over time.

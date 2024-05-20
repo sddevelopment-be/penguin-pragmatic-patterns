@@ -3,17 +3,28 @@
 {{ partial "navbar-clone.html" . }}
 
 <section class="section section-feature-grey is-medium" id="glossary">
-    <div class="container">
-        <div class="column is-centered-tablet-portrait">
-            <h1 class="title section-title">
-                {{ .Title }}
-            </h1>
-            <div class="divider"></div>
+
+    <div class="hero-body">
+        <div class="container">
+            <div class="columns is-vcentered">
+                <div class="column is-7 is-offset-1 landing-caption">
+                    <h1 class="title is-1 is-bold is-spaced">
+                        {{ .Title }}
+                    </h1>
+                    {{ .Content }}
+                </div>
+                <div class="column is-3 is-offset-1">
+                    <figure class="image is-1by1">
+                        <img src="{{ printf "images/glossary_image.webp" | relURL }}" alt="Glossary hero image">
+                    </figure>
+                </div>
+            </div>
         </div>
+    </div>
 
+    <div class="container">
+        
         <div class="content-wrapper">
-
-            {{ .Content }}
 
             <div class="terminology-wrapper">
                 {{ range $terminology := (index .Site.Data "glossary").terminology }}

@@ -21,6 +21,7 @@ ammerse = [
   {name = "extensible", delta = "0.5"},
 ]
 pubdate="2023-09-15"
+image="practices/changelog_cover.webp"
 +++
 
 ## Problem Statement

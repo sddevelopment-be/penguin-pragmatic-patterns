@@ -17,6 +17,10 @@ Specifically, focus on the potential accidental and undesirable effects of using
 
 Finally, provide me with potential mitigation strategies for the considerations you listed.
 
+Note that I want a critical evaluation of the technique, and how it would impact day-to-day operations in a professional environment. I am
+particularly concerned about the potential downsides of implementing a technique like this, and would like to be aware of the trade-offs I am
+making. Therefore, it is paramount to evaluate the effect of the technique itself on the AMMERSE values that are present in the context.
+
 ---- START OF PATTERN ----
 
 ---- END OF PATTERN ----

@@ -13,7 +13,7 @@ uuid="1848f4a6-3acb-4dc8-aa49-e57a1b87cf3b"
 aliases=["1848f4a6-3acb-4dc8-aa49-e57a1b87cf3b"]
 ammerse = [
   {name = "agile", delta = "0"},
-  {name = "minimal", delta = "1"},
+  {name = "minimal", delta = "0.5"},
   {name = "maintainable", delta = "1"},
   {name = "environmental", delta = "0"},
   {name = "reachable", delta = "0"},
@@ -21,6 +21,7 @@ ammerse = [
   {name = "extensible", delta = "0.5"},
 ]
 pubdate="2023-08-26"
+image="practices/conventions_cover.webp"
 +++
 
 {{<image
@@ -47,10 +48,10 @@ in your given context.` >}}
 
 * Your language of choice has a recommended style guide
 * Automated code analysis/linting is in place, or available
-* Your team is coherent, and able to align on a preferred style
+* Your team is cohesive and coherent, it is able to align on a preferred style
 * Your development environment offers a way to share/import code styles
 
-### Deterrents
+ ### Deterrents
 
 * We have a need for expressing our individuality.
 * You work with many distinct codebases or programming languages.
@@ -78,6 +79,34 @@ As long as the code is consistent with it's surrounding, you will get the benefi
 * Code is write-once, read-often.
 * Working with consistent representations lowers mental load.
 * Humans are excellent at recognizing deviations from the norm.
+
+## Considerations
+
+* **Developer Resistance:** Enforcing a uniform style might face pushback from developers who value their coding individuality.
+* **Initial Overhead:** The process of defining, documenting, and implementing consistent coding standards can be time-consuming and
+  resource-intensive.
+* **Tool Dependence:** Reliance on automated tools for enforcement might lead to over-dependence, reducing manual oversight and potentially missing
+  nuanced issues.
+* **Stifled Innovation:** Strict adherence to coding conventions might stifle creative problem-solving and innovative coding techniques.
+* **Initial Overhead:** The process of defining, documenting, and implementing consistent coding standards can be time-consuming and
+  resource-intensive.
+* **Power Dynamics:** Senior or vocal team members might dominate the creation and enforcement of rules, creating an oppressive atmosphere for
+  others, particularly new or timid team members.
+* **Onboarding Challenges:** While having a set of conventions aims to reduce variation and cognitive load, overly strict enforcement of coding
+  conventions might overwhelm new team members, making it difficult for them to integrate smoothly.
+
+### Mitigation Strategies
+
+* **Inclusive Decision-Making:** Involve the entire team in the process of defining the coding standards to ensure buy-in and reduce resistance.
+* **Incremental Implementation:** Introduce the standards gradually, starting with the most critical rules, and expand over time to allow for
+  adaptation.
+* **Flexible Enforcement:** Allow for exceptions where necessary and encourage developers to suggest improvements to the conventions.
+* **Comprehensive Training:** Provide training sessions and resources to help developers understand and adopt the new standards effectively.
+* **Regular Reviews:** Conduct regular code reviews and discussions to address any issues with the conventions and make adjustments as needed.
+* **Inclusive Decision-Making:** Involve the entire team, including junior and timid members, in defining coding standards to ensure broad buy-in
+  and reduce the risk of power imbalances.
+* **Mentorship Programs:** Pair new team members with mentors who can help them understand and adapt to coding standards without feeling
+  intimidated.
 
 ## Examples
 

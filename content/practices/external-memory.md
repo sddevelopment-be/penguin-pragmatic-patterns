@@ -21,6 +21,7 @@ ammerse = [
   {name = "extensible", delta = "1"},
 ]
 pubdate="2023-08-23"
+image="practices/external_memory_cover.webp"
 +++
 
 ![./free-mind.gif >](/images/practices/free-mind.gif)
@@ -39,7 +40,7 @@ aware of. Some contextual forces are enablers, giving the practice a higher chan
 in your given context.` >}}
 
 * Context switches hurt your productivity
-* Modern systems and activity are too large to pit in your brain completely
+* Modern systems and activity are too large to fit in your brain completely
 * The more you have to keep in memory, the more likely you will forget something
 * Having a mental task list becomes exhausting after a while
 * We wish to be able to easily report progress when queried

@@ -24,6 +24,7 @@ ammerse = [
   {name = "extensible", delta = "0"},
 ]
 pubdate="2023-09-17"
+image="practices/async_communication_cover.webp"
 +++
 
 ## Context

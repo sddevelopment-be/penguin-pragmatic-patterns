@@ -22,6 +22,7 @@ ammerse = [
   {name = "extensible", delta = "1"},
 ]
 pubdate="2023-08-26"
+image="practices/operas_cover.webp"
 +++
 
 ## Problem

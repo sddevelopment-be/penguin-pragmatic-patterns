@@ -21,6 +21,7 @@ ammerse = [
   {name = "extensible", delta = "0"},
 ]
 pubdate="2023-08-26"
+image="practices/organize_workflow_cover.webp"
 +++
 
 In recent years, Microsoft has pivoted towards providing office-as-a-service applications.

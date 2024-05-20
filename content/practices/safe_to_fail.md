@@ -20,7 +20,8 @@ ammerse = [
     { name = "solvable", delta = "0" },
     { name = "extensible", delta = "0" },
 ]
-pubdate = "2024-01-28"
+image="practices/safe_to_fail_cover.webp"
+pubdate="2024-01-28"
 +++
 
 {{<quote text=`

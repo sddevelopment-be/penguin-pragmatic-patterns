@@ -107,7 +107,7 @@ and consistently.
 ### A command line pomodoro timer
 
 If you do not have a mechanical timer available, you can use your computer's terminal to act the part.
-The script below, published by Byron Salty [on GitHub](https://github.com/byronsalty/pom/blob/main/pom) is an excelent way of doing this.
+The script below, published by Byron Salty [on GitHub](https://github.com/byronsalty/pom/blob/main/pom) is an excellent way of doing this.
 On MacBooks, the `say` command makes your computer talk to you.
 
 ```bash

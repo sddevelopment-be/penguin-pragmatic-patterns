@@ -27,7 +27,8 @@ ammerse = [
     { name = "solvable", delta = "0.5" },
     { name = "extensible", delta = "0" },
 ]
-pubdate = "2023-10-10"
+pubdate="2023-10-10"
+image="practices/lars_cover.webp"
 +++
 
 ## Problem Statement

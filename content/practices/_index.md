@@ -3,6 +3,8 @@ aliases = ["patterns"]
 title = "Practices"
 subtitle="Explore proven practical strategies that have helped others."
 outputs = ['html', 'rss', 'json']
+description = "Proven practical strategies that have helped others"
+image="penguin_teacher.webp"
 +++
 
 Similarly to concepts, sharing practices with people helps to create a shared understanding. It can be helpful to groups to refer to practices by their name, enabling more efficient communication.

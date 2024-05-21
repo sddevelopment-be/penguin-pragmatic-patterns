@@ -1,0 +1,13 @@
+{{ template "_internal/google_analytics.html" . }}
+<meta name="description" content="{{ if .Params.summary }}{{ .Params.summary }}{{ else if .Site.Params.Description }}{{ .Site.Params.Description }}{{ else }}Hardcoded description; the author should update :){{ end }}" />
+<meta name="keywords" content="{{ if .Params.Tags }}{{ .Params.Tags }}{{ else if .Site.Params.Keywords }}{{ .Site.Params.Keywords }}{{ else }}learning,improvement{{ end }}" />
+<meta name="robots" content="nofollow" />
+
+{{ if eq .Site.Params.openGraph true }}
+    {{ if .Params.Title }}<meta property="og:title" content="SD Development: {{ .Params.Title }}">{{ end }}
+    {{ if .Params.Description }}<meta property="og:description" content="{{ .Params.Description}}" />{{ end }}
+    {{ if .Params.Image }}<meta property="og:image" content="/images/{{ .Params.Image }}" />{{ end }}
+{{ end }}
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="x-ua-compatible" content="ie=edge">

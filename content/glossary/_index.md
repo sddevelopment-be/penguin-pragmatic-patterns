@@ -1,6 +1,8 @@
 +++
 aliases = ["terminology"]
 title = "Glossary"
+description = "A list of often difficult or specialized words, their common abbreviations, and their definitions."
+image="glossary_image.webp"
 +++
 
 This page contains a list of often difficult or specialized words, their common abbreviations, and their definitions as used throughout the rest

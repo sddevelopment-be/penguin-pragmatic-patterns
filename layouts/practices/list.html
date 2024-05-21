@@ -5,26 +5,52 @@
 {{ $titles := (slice "learning" "productivity" "communication" "software development")}}
 {{ $pages := .Pages}}
 
-<section class="section section-feature-grey is-medium" id="practices">
-    <div class="container">
+<section class="hero is-default section-feature-grey is-medium" id="practices">
 
-        <div class="column is-centered-tablet-portrait">
-            <h1 class="title section-title">
-                {{ .Title }}
-            </h1>
-            <div class="divider"></div>
+    <div class="hero-body">
+        <div class="container">
+            <div class="title-wrapper fitted">
+                    <h1 class="title fitted is-1 is-bold is-spaced">
+                        {{ .Title }}
+                        <div class="divider"></div>
+                        {{ if .Params.subtitle }}
+                        <h2 class="subtitle is-5 is-muted">
+                            {{ .Params.subtitle }}
+                        </h2>
+                        {{ end }}
+                    </h1>
+            </div>
+            <div class="columns">
+                <div class="column is-2 is-offset-1">
+                    <figure class="image is-1by1">
+                        <img src="{{ printf "images/glossary_image.webp" | relURL }}" alt="Glossary hero image">
+                    </figure>
+                    <p class="pattern-buttons">
+                        <span class="pattern-buttons-title">Discover techniques :</span>
+                        <a class="button cta rounded primary-btn raised" href="#learning">Learning</a>
+                        <a class="button cta rounded primary-btn raised" href="#productivity">Productivity</a>
+                        <a class="button cta rounded primary-btn raised" href="#communication">Communication</a>
+                        <a class="button cta rounded primary-btn raised" href="#software-development">Software Development</a>
+                    </span>
+                </div>
+                <div class="column is-8 is-offset-1 landing-caption vert-align">
+                    {{ .Content }}
+                </div>
+            </div>
         </div>
-
+    </div>
+</section>
+    <section class="section section-feature-grey is-medium" id="practices">
+    <div class="container">
         <div class="content-wrapper">
-
-        {{ .Content }}
-
         <div class="pattern-list">
             {{ range $categoryTitle := $titles }}
                 <div class="column is-centered-tablet-portrait">
-                    <h2 class="subtitle">
-                        {{ $categoryTitle | upper }}
-                    </h2>
+                    <a id="{{ $categoryTitle | lower | urlize }}">
+                        <h2 class="subtitle">
+                            {{ $categoryTitle | upper }}
+                        </h2>
+                    </a>
                 </div>
                 <div class="wrapped-columns pattern_container">
                     {{ $patterns := slice  }}

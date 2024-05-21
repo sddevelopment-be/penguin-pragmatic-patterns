@@ -89,7 +89,7 @@ using funny pictures and videos on the web to influence people's decision-making
 When looking for a structured way to represent ideas, experiences, or cookbooks (i.e. knowledge), us software developers are inclined to
 create formal models of topics we wish to understand better.
 
-A [pattern language](/X_Appendix/Glossary/HOME?id=pattern-language) is **a formal way to represent wisdom that improves ones ability to operate in a
+A pattern language is **a formal way to represent wisdom that improves ones ability to operate in a
 certain field of expertise**. The knowledge represented in a pattern language is usually stripped down to its bare essentials, making it easier to
 apply in a variety of situations. Much like a dictionary, each of the _"patterns"_ in this knowledge portfolio is referred to by its `name` and
 contains information on the type of challenge it addresses, as well as a description of the context in which it works well.

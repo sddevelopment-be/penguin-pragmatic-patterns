@@ -13,13 +13,13 @@ tags = [
 uuid="GENERATE-ME!"
 aliases=["uuid"]
 ammerse = [
-    {name = "agile", delta = "0"},
-    {name = "minimal", delta = "0"},
-    {name = "maintainable", delta = "0"},
-    {name = "environmental", delta = "0"},
-    {name = "reachable", delta = "0"},
-    {name = "solvable", delta = "0"},
-    {name = "extensible", delta = "0"},
+    {name = "agile", delta = "0", rationale = ""},
+    {name = "minimal", delta = "0", rationale = ""},
+    {name = "maintainable", delta = "0", rationale = ""},
+    {name = "environmental", delta = "0", rationale = ""},
+    {name = "reachable", delta = "0", rationale = ""},
+    {name = "solvable", delta = "0", rationale = ""},
+    {name = "extensible", delta = "0", rationale = ""},
 ]
 +++
 
@@ -28,17 +28,21 @@ ammerse = [
 ## Intent
 
 ## Contextual forces
-
-{{<whatis text=`
-These describe factors at play that influence the outcome of the practice. They are not necessarily good or bad, but they are important to be
-aware of. Some contextual forces are enablers, giving the practice a higher chance of being useful. Others are deterrents, making the practice less useful
-in your given context.` >}}
+These describe factors at play that influence the outcome of the practice. They are not necessarily good or bad, but they are important to be aware of.
 
 ### Enablers
+The following factors support effective application of the practice:
 
 ### Deterrents
+The following factors prevent effective application of the practice:
 
 ## Solution
+
+## Rationale
+
+## Considerations
+
+### Mitigation strategies
 
 ## Examples
 

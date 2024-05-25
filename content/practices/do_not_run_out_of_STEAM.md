@@ -2,7 +2,14 @@
 title = "Don't run out of STEAM"
 author = "Stijn Dejongh"
 problem = "You often struggle with deciding what to do next, feeling uncertain about which choice would be most beneficial for you."
-description = "Employ a mental framework to evaluate your options systematically, aiding in making informed decisions that align with your goals and needs."
+description = "Use a systematic framework to make informed decisions by evaluating your resources — Support, Time, Energy, Attention, and Money."
+summary="""
+When struggling to decide what to do next, and feeling uncertain about which choice would be most beneficial, 
+the STEAM trade-off method provides a structured approach to decision-making by evaluating key personal resources.
+It enhances agility, maintainability, and realistic goal-setting but may introduce challenges such as analysis paralysis and perceived rigidity.
+By applying the technique selectively, balancing focus, seeking peer feedback, and maintaining flexibility, its benefits can be maximized while 
+mitigating potential drawbacks.
+"""
 categories = [
     "productivity",
 ]
@@ -15,9 +22,9 @@ ammerse = [
     { name = "agile", delta = "0.5" },
     { name = "minimal", delta = "-0.5" },
     { name = "maintainable", delta = "1" },
-    { name = "environmental", delta = "0" },
-    { name = "reachable", delta = "1" },
-    { name = "solvable", delta = "1" },
+    { name = "environmental", delta = "0.5" },
+    { name = "reachable", delta = "0.5" },
+    { name = "solvable", delta = "0" },
     { name = "extensible", delta = "0.5" },
 ]
 outputs = ['html', 'rss', 'json']
@@ -35,12 +42,8 @@ Employ a mental framework to evaluate your options systematically, aiding in mak
 
 ## Contextual forces
 
-{{<whatis text=`
-These describe factors at play that influence the outcome of the practice. They are not necessarily good or bad, but they are important to be
-aware of. Some contextual forces are enablers, giving the practice a higher chance of being useful. Others are deterrents, making the practice less useful
-in your given context.` >}}
-
 ### Enablers
+The following factors support effective application of the practice:
 
 * Understanding of personal goals and ambitions.
 * Awareness of individual needs and willingness to confront them.
@@ -49,6 +52,7 @@ in your given context.` >}}
 * Desire to take control of life and make decisions autonomously.
 
 ### Deterrents
+The following factors prevent effective application of the practice:
 
 * Lack of clarity regarding personal goals and ambitions.
 * Tendency to rely on external influences for decision-making.
@@ -115,6 +119,24 @@ Once you have made your decision, take charge and act upon it. Do not let the fe
 best effort. Avoid wasting your energy on second-guessing yourself, but use it to make the most of the situation.
 Schedule a moment to revisit your decision at a later time, and reflect on the outcomes. This will help you to learn from your choices, and help
 you improve your self-awareness and decision-making skills.
+
+## Considerations
+
+* **High Effort:** Regular assessment and reflection can be time-consuming and require significant effort.
+* **Over-emphasis on Resources:** Focusing too much on the resources might lead to analysis paralysis or neglect of other important factors.
+* **Subjectivity:** The assessment of resources and their impact can be highly subjective, leading to potential biases in decision-making.
+* **Rigidity:** The framework might be perceived as rigid, making it challenging for individuals who prefer more intuitive decision-making 
+  processes.
+
+### Mitigation Strategies
+
+* **Use Tactically:** Apply the framework selectively to important decisions, or when you are stuck in a rut, rather than using it for every minor
+  choice.
+* **Balanced Focus:** While using the framework, remind yourself to consider other important factors beyond the STEAM resources to avoid narrow
+  decision-making.
+* **Peer Feedback:** Incorporate feedback from peers or mentors to reduce subjectivity and biases in the resource assessment process.
+* **Flexibility:** Adapt the framework to fit your personal decision-making style, allowing for intuitive adjustments while maintaining the
+  structured approach.
 
 ## Examples
 

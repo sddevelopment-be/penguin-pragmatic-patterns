@@ -2,9 +2,9 @@
 title = "Plan a self-sabotage"
 author = "Stijn Dejongh"
 problem = "You have an idea and want to strengthen it against negative forces."
-description = """
-Think of ways to make your idea fail, strengthening your endeavour against negative forces, ensuring they are more resilient and 
-better prepared for potential challenges.
+description="""
+Proactively identify and mitigate potential failure points in your ideas and plans by intentionally challenging and attempting to 
+undermine them. This approach aims to strengthen ideas against negative forces and increase their resilience.
 """
 categories = [
     "learning",
@@ -40,19 +40,16 @@ You have an idea and want to strengthen it against negative forces.
 
 ## Contextual forces
 
-{{<whatis text=`
-These describe factors at play that influence the outcome of the practice. They are not necessarily good or bad, but they are important to be
-aware of. Some contextual forces are enablers, giving the practice a higher chance of being useful. Others are deterrents, making the practice less useful
-in your given context.` >}}
-
 ### Enablers
+The following factors support effective application of the practice:
 
-* You are able to think of creative ways to sabotage an idea.
-* You are willing to attack your own creation, in order to strengthen it.
-* You have access to resources or prior knowledge about common misfortunes that happen in your context.
-* You have access to others with knowledge of your context, that you can ask for feedback or learn from their experiences.
+* The individual or team can think creatively about potential failure points.
+* There is a willingness to critically assess and attack one's own ideas.
+* Access to resources or prior knowledge about common pitfalls is available.
+* There is access to knowledgeable individuals for feedback and insights.
 
 ### Deterrents
+The following factors prevent effective application of the practice:
 
 * You do not have access to others / prior knowledge.
 * You have difficulties finding/accepting issues with your own ideas or creations.
@@ -98,6 +95,22 @@ better prepared for potential challenges.
 
 * Emotionally investing in your ideas can hinder clear reasoning.
 * Shifting from "constructive mode" to "destructive mode" mentally helps distance yourself from biases.
+
+## Considerations
+
+* **Over-emphasis on Risks:** Focusing too much on potential failures can lead to excessive caution and hinder progress.
+* **Time and Effort:** Conducting a thorough self-sabotage analysis requires significant time and effort, potentially detracting from other 
+  productive activities.
+* **Negative Mindset:** Continually thinking about how things can fail might foster a negative mindset, which can be demotivating and 
+  counterproductive.
+
+### Mitigation Strategies
+
+* **Balance Risk Assessment:** Maintain a balanced approach by also considering potential positive outcomes and opportunities.
+* **Allocate Time Wisely:** Schedule dedicated time for self-sabotage analysis to ensure it does not interfere with other important tasks. Know 
+  when to stop and move forward. Not every potential risk warrants extensive mitigation.
+* **Foster a Positive Environment:** Encourage a positive mindset by celebrating small successes and learning from identified risks rather than
+  focusing solely on failures.
 
 ## References
 

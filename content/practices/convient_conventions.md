@@ -39,19 +39,16 @@ We wish to maintain a higher level of code discipline, increasing the reliabilit
 
 ## Contextual forces
 
-{{<whatis text=`
-These describe factors at play that influence the outcome of the practice. They are not necessarily good or bad, but they are important to be
-aware of. Some contextual forces are enablers, giving the practice a higher chance of being useful. Others are deterrents, making the practice less useful
-in your given context.` >}}
-
 ### Enablers
+The following factors support effective application of the practice:
 
 * Your language of choice has a recommended style guide
 * Automated code analysis/linting is in place, or available
 * Your team is cohesive and coherent, it is able to align on a preferred style
 * Your development environment offers a way to share/import code styles
 
- ### Deterrents
+### Deterrents
+The following factors prevent effective application of the practice:
 
 * We have a need for expressing our individuality.
 * You work with many distinct codebases or programming languages.

@@ -43,18 +43,15 @@ You have difficulties connecting with others, and find yourself disengaged durin
 
 ## Contextual forces
 
-{{<whatis text=`
-These describe factors at play that influence the outcome of the practice. They are not necessarily good or bad, but they are important to be
-aware of. Some contextual forces are enablers, giving the practice a higher chance of being useful. Others are deterrents, making the practice less useful
-in your given context.` >}}
-
 ### Enablers
+The following factors support effective application of the practice:
 
 * Genuine care for the person you're conversing with and a desire to understand them.
 * The topic of conversation is interesting or relevant to you.
 * Ability to stay calm and present during conversations.
 
 ### Deterrents
+The following factors prevent effective application of the practice:
 
 * Your own thoughts are overwhelming, making it difficult to empathize with others.
 * Formal situations where monologue-style speaking is expected (e.g., work presentations or job interviews).

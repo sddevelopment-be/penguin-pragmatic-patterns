@@ -67,11 +67,11 @@ enjoy ourselves[^2]. After all, the graveyards are filled with indispensable peo
   title="Non-violent Communication: A Language of Life"
   publisher="PuddleDancer Press"
   link="https://www.goodreads.com/book/show/25073935-nonviolent-communication" >}}
-* {{<reference author="Crossland, J. B."
-  year="2023"
-  title="A value system"
+* {{<reference author="Crossland, J."
+  year="2024"
+  title="AMMERSE: Empowering Businesses with core values"
   site="AMMERSE.org"
-  link="https://www.ammerse.org/a-value-system" >}}
+  link="https://www.ammerse.org/" >}}
 * {{<reference author="Bockelbrink, B.; Priest, J. & David L."
     year="2022"
     title="A Practical Guide for Evolving Agile and Resilient Organizations with Sociocracy 3.0"

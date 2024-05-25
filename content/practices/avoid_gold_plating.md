@@ -3,6 +3,12 @@ title = "Let's not make it complicated"
 author = "Stijn Dejongh"
 problem = "You are spending much more time and mental effort on a piece of software than is needed or valuable."
 description = "Write readable code that is as well-designed as it needs to be at this point in time."
+summary="""
+Focus on writing code that meets the immediate requirements without adding unnecessary complexity or features that may never be used. 
+The core idea of the technique is to avoid over-engineering and over-designing software solutions. 
+It emphasizes writing code that meets current needs without adding unnecessary complexity or features that may never be used. 
+The goal is to save time and resources, improve code readability and maintainability, and reduce the risk of introducing bugs.
+""" 
 categories = [
     "software development",
 ]
@@ -12,13 +18,13 @@ tags = [
 uuid="94a558cd-4e86-4814-a5e9-d6ecafcb0d6b"
 aliases=["94a558cd-4e86-4814-a5e9-d6ecafcb0d6b"]
 ammerse = [
-  {name = "agile", delta = "0.5"},
-  {name = "minimal", delta = "1"},
-  {name = "maintainable", delta = "1"},
+  {name = "agile", delta = "0.25"},
+  {name = "minimal", delta = "0.7"},
+  {name = "maintainable", delta = "0.25"},
   {name = "environmental", delta = "0"},
-  {name = "reachable", delta = "0.5"},
-  {name = "solvable", delta = "0"},
-  {name = "extensible", delta = "-0.5"}
+  {name = "reachable", delta = "0.45"},
+  {name = "solvable", delta = "0.35"},
+  {name = "extensible", delta = "-0.8"}
 ]
 pubdate="2023-09-16"
 image="practices/keep_it_simple_cover.webp"
@@ -35,6 +41,7 @@ src="/images/practices/overdesign.png"
 alt="An image of a bicycle with a robotic rear wheel, looking highly complicated and over-engineered" 
 >}}
 
+
 ## Intent
 
 * Speed: Lower throughput time of changes
@@ -44,28 +51,25 @@ alt="An image of a bicycle with a robotic rear wheel, looking highly complicated
 * Improved readability
 
 ## Contextual forces
-
-{{<whatis text=`
-These describe factors at play that influence the outcome of the practice. They are not necessarily good or bad, but they are important to be
-aware of. Some contextual forces are enablers, giving the practice a higher chance of being useful. Others are deterrents, making the practice less useful
-in your given context.` >}}
+These describe factors at play that influence the outcome of the practice. They are not necessarily good or bad, but they are important to be aware of.
 
 ### Enablers
+The following factors support effective application of the practice:
 
-* the level of refinement of a codebase should make sense for the problem at hand
-* not all code will have a significant lifespan
-* unpredictability of future requirements
-* development time costs a LOT of money
-* readable code is easier to maintain
-
-
+* **Clear Immediate Requirements:** When the problem at hand is well-defined and unlikely to change drastically in the short term.
+* **Cost-Sensitive Projects:** In projects where development time is expensive and efficiency is critical.
+* **Readability and Maintainability:** When maintaining clear, understandable code is a priority.
+* **Limited lifespan:** The code in its current form expected to be decommissioned in the short- to midterm. Due to it solving a 
+  specific -temporary- problem or due to the unpredictability of future requirements causing a complete rewrite.
 
 ### Deterrents
+The following factors prevent effective application of the practice:
 
-* people like to show how clever they are
-* thinking about future problems can help mitigate them
-* long-term scalability and extensibility are major concerns
-* the system architecture must anticipate significant future requirements
+* **Long-Term Projects:** When long-term scalability and extensibility are major concerns.
+* **Future-Proofing Needed:** When anticipating significant future requirements is crucial.
+* **High-Complexity Systems:** In systems where thinking ahead can prevent larger issues down the line.
+* **Unclear Requirements:** When the requirements (or the problem to solve) are vaguely described or likely to change significantly in the short 
+  term.
 
 ## Solution
 
@@ -80,19 +84,28 @@ In order to avoid over-complicating your code, ask yourself:
 * _"Is my design solving an issue that is here NOW, or am I solving an issue that might never happen?"_
 * _"If this expected issue occurs in the future, can it be easily fixed at that time?"_
 
+## Rationale
+
+* The level of refinement of a codebase should make sense for the problem at hand
+
 ## Considerations
 
 * **Short-Term Focus:** The pattern’s emphasis on the present might neglect potential future needs, leading to frequent refactoring.
 * **Cleverness and Ego:** Developers might still over-complicate to showcase their skills, defeating the pattern’s purpose.
-* **Technical Debt:** The pattern might lead to accumulating technical debt, as developers might not consider future requirements. Consistent 
+* **Technical Debt:** The pattern might lead to accumulating technical debt, as developers might not consider future requirements. Consistent
   under-designing is likely to take place, making the codebase fragile when new requirements emerge.
+* **Team Dynamics:** Developers may feel demotivated if their ideas for better designs are consistently postponed.
 
 ### Mitigation Strategies
 
 * **Regular Reviews:** Implement regular code reviews to ensure adherence to simplicity principles while considering future requirements.
 * **Refactoring:** Encourage refactoring to address technical debt and ensure the codebase remains maintainable.
-* **Flexible Design Principles:** Encourage the use of design patterns that balance simplicity with flexibility, allowing for future enhancements 
+* **Flexible Design Principles:** Encourage the use of design patterns that balance simplicity with flexibility, allowing for future enhancements
   without major overhauls.
+* **Developer Education:** Train developers on the importance of simplicity and the risks of over-engineering. Highlight successful case studies
+  where avoiding gold plating led to project success.
+* **Future-Proofing Guidelines:** Develop guidelines that help developers make informed decisions about when to anticipate future needs and when to
+  focus strictly on current requirements.
 
 By focusing on these strategies, the potential drawbacks of the pattern can be mitigated, ensuring that the code remains both simple and robust enough to handle evolving requirements.
 

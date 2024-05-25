@@ -40,12 +40,8 @@ You want to understand the point of view of your partner, and have them understa
 
 ## Contextual forces
 
-{{<whatis text=`
-These describe factors at play that influence the outcome of the practice. They are not necessarily good or bad, but they are important to be
-aware of. Some contextual forces are enablers, giving the practice a higher chance of being useful. Others are deterrents, making the practice less useful
-in your given context.` >}}
-
 ### Enablers
+The following factors support effective application of the practice:
 
 * You respect the person(s) you are speaking with.
 * You are able to stay calm in the heat of an argument.
@@ -55,6 +51,7 @@ in your given context.` >}}
 * You are willing to accept that you might be wrong.
 
 ### Deterrents
+The following factors prevent effective application of the practice:
 
 * Factual evidence is not available.
 * The argument has escalated to the point of communication breakdown.

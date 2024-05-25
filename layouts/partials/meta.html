@@ -1,10 +1,23 @@
 {{ template "_internal/google_analytics.html" . }}
-<meta name="description" content="{{ if .Params.Description }}{{ .Params.Description }}{{ else if .Site.Params.Description }}{{ .Site.Params.Description }}{{ else }}Hardcoded description; the author should update :){{ end }}" />
+
+{{ if .Params.Summary }}
+    <meta property="description" content="{{ .Params.Summary}}" />
+    {{ else if .Params.Description }}
+    <meta property="description" content="{{ .Params.Description}}" />
+    {{ else }}
+    <meta property="description" content="No description available" />
+{{ end }}
 <meta name="keywords" content="{{ if .Params.Tags }}{{ .Params.Tags }}{{ else if .Site.Params.Keywords }}{{ .Site.Params.Keywords }}{{ else }}learning,improvement{{ end }}" />
 <meta name="robots" content="nofollow" />
 
 {{ if .Params.Title }}<meta property="og:title" content="SD Development: {{ .Params.Title }}">{{ end }}
-{{ if .Params.Description }}<meta property="og:description" content="{{ .Params.Description}}" />{{ end }}
+{{ if .Params.Summary }}
+    <meta property="og:description" content="{{ .Params.Summary}}" />
+    {{ else if .Params.Description }}
+        <meta property="og:description" content="{{ .Params.Description}}" />
+    {{ else }}
+        <meta property="og:description" content="No description available" />
+{{ end }}
 {{ if .Params.Image }}<meta property="og:image" content="{{ .Site.BaseURL }}/images/{{ .Params.Image }}" />{{ end }}
 
 <meta charset="utf-8">

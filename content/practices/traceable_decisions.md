@@ -40,12 +40,8 @@ less, Do more ).
 
 ## Contextual forces
 
-{{<whatis text=`
-These describe factors at play that influence the outcome of the practice. They are not necessarily good or bad, but they are important to be
-aware of. Some contextual forces are enablers, giving the practice a higher chance of being useful. Others are deterrents, making the practice less useful
-in your given context.` >}}
-
 ### Enablers
+The following factors support effective application of the practice:
 
 * Your team is distributed, and you need a way to communicate decisions asynchronously.
 * You are working in a complex environment, with many stakeholders and dependencies.
@@ -55,6 +51,7 @@ in your given context.` >}}
 * Your organization values transparency and accountability.
 
 ### Deterrents
+The following factors prevent effective application of the practice:
 
 * You are working in a fast-paced environment, where decisions are made on the fly.
 * Your organization values "talking about things" over "getting things done".

@@ -10,7 +10,12 @@
 {{ $icon.Set "style" "base"}}
 {{ $icon.Set "sign" "+"}}
 {{ $icon.Set "desc" "no effect"}}
-{{ if and (ge $delta -0.5) (lt $delta 0) }}
+{{ if and (ge $delta -0.25) (lt $delta 0) }}
+    {{ $icon.Set "val" "fas fa-arrow-trend-down"}}
+    {{ $icon.Set "style" "down"}}
+    {{ $icon.Set "sign" "-"}}
+    {{ $icon.Set "desc" "slight decrease"}}
+{{ else if and (ge $delta -0.5) (lt $delta -0.25) }}
     {{ $icon.Set "val" "fas fa-angle-down"}}
     {{ $icon.Set "style" "down"}}
     {{ $icon.Set "sign" "-"}}
@@ -20,6 +25,10 @@
     {{ $icon.Set "style" "double-down"}}
     {{ $icon.Set "sign" "-"}}
     {{ $icon.Set "desc" "significant decrease"}}
+{{ else if and (gt $delta 0) (le $delta 0.25)}}
+    {{ $icon.Set "val" "fas fa-arrow-trend-up"}}
+    {{ $icon.Set "style" "up"}}
+    {{ $icon.Set "desc" "slight increase"}}
 {{ else if and (gt $delta 0) (le $delta 0.5)}}
     {{ $icon.Set "val" "fas fa-angle-up"}}
     {{ $icon.Set "style" "up"}}

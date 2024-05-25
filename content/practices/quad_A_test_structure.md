@@ -39,8 +39,10 @@ aware of. Some contextual forces are enablers, giving the practice a higher chan
 in your given context.` >}}
 
 ### Enablers
+The following factors support effective application of the practice:
 
 ### Deterrents
+The following factors prevent effective application of the practice:
 
 ## Solution
 

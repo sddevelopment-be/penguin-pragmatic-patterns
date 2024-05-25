@@ -20,12 +20,14 @@
 > A bullet list explaining why this pattern makes sense, try and be as objective as possible here
 > The sections "Enablers" and "Deterents" can be used to divide the forces in a more structured way.
 
-#### Enablers
+### Enablers
+The following factors support effective application of the practice:
 
 > [!STUB]
 > Contextual factors that increase the viability of implementing the pattern
 
-#### Deterrents
+### Deterrents
+The following factors prevent effective application of the practice:
 
 > [!STUB]
 > Contextual factors that decrease the viability of implementing the pattern

@@ -3,6 +3,10 @@ title = "Get your priorities straight"
 author = "Stijn Dejongh"
 problem="You find yourself constantly busy, yet achieving little of value."
 description = "Assign a priority category to tasks based on their urgency and importance. Act depending on priority category."
+summary="""
+The core message is to help individuals manage their tasks more effectively by prioritizing them using techniques such as the Eisenhower Priority 
+Matrix. This ensures that the most important tasks are completed first, leading to better productivity and less stress.
+"""
 categories = [
     "productivity",
 ]
@@ -13,11 +17,11 @@ uuid="d8d2cbc3-1f28-4e6b-937f-2d8cf0bbaed1"
 aliases=["d8d2cbc3-1f28-4e6b-937f-2d8cf0bbaed1"]
 ammerse = [
   {name = "agile", delta = "-0.5"},
-  {name = "minimal", delta = "1"},
-  {name = "maintainable", delta = "0"},
+  {name = "minimal", delta = "0.75"},
+  {name = "maintainable", delta = "1"},
   {name = "environmental", delta = "0"},
-  {name = "reachable", delta = "1"},
-  {name = "solvable", delta = "0"},
+  {name = "reachable", delta = "0.5"},
+  {name = "solvable", delta = "1"},
   {name = "extensible", delta = "0"},
 ]
 outputs = ['html', 'rss', 'json']
@@ -36,26 +40,23 @@ You find yourself constantly busy, yet achieving little of value.
 * You have peace of mind as tasks you need to do are not forgotten.
 
 ## Contextual forces
-
-{{<whatis text=`
-These describe factors at play that influence the outcome of the practice. They are not necessarily good or bad, but they are important to be
-aware of. Some contextual forces are enablers, giving the practice a higher chance of being useful. Others are deterrents, making the practice less useful
-in your given context.` >}}
+These describe factors at play that influence the outcome of the practice. They are not necessarily good or bad, but they are important to be aware of.
 
 ### Enablers
+The following factors support effective application of the practice:
 
 * You can decide and manage your tasks.
 * You are aware of your personal goals and ambitions.
 * You always have a notebook (digital or analogue) close by.
 * You can communicate your intent to people effectively.
 
-
-### Deterrents
+### Enablers
+The following factors support effective application of the practice:
 
 * You do not know what your goals and ambitions are.
 * You find it hard to rank tasks according to their importance.
-* You are not able to consistently apply a prioritization technique.
-* Others tend to decide what actions you should take for you (micromanagement).
+* You are unable to consistently apply a prioritization technique.
+* Others frequently dictate the individual's tasks and priorities (micromanagement).
 
 ## Solution
 
@@ -102,6 +103,31 @@ Is this urgent? To them, probably. To you? Probably not. If you did not make any
 * Our memories are lossy; We tend to forget about things all the time.
 * Standard to-do lists have no readily available means of prioritizing items.
 * Multitasking is hard. Our brains work better if we can compartmentalize between different modes of thinking (planning and executing).
+
+## Considerations
+
+* **Over-emphasis on Structure:** The structured approach may lead to rigidity and reduced flexibility in task management. It introduces the 
+  risk of overlooking emergent tasks or opportunities.
+* **Rigidity:** Applying a strict prioritization technique may limit adaptability and creativity in task management. It introduces the danger of 
+  seeing the categorization as a fixed property of the task, rather than as a temporary assessment. 
+* **Focus on Urgency and Importance:** The technique may lead to neglecting tasks that are not urgent but are important in the long term.
+* **Subjectivity in Prioritization:** The importance and urgency of tasks can be subjective, leading to potential biases in prioritization. The
+  technique may lead to neglecting tasks that do not fit neatly into the matrix categories, potentially limiting creativity and
+  adaptability in task management.
+* **Dependence on Personal Goals:** The effectiveness of the technique depends heavily on having clear personal goals and ambitions.
+
+### Mitigation Strategies
+
+* **Scheduled Reviews:** Set regular intervals for reviewing and updating the priority matrix to keep it relevant and manageable. Ensure you
+  re-prioritize tasks based on changing circumstances and goals.
+* **Goal Clarification:** Regularly review and clarify personal goals to ensure effective use of the prioritization technique.
+* **Avoid Peer Pressure:** Ensure the prioritization is based on personal goals and commitments, rather than external pressures or expectations.
+  Clearly communicate your goals and boundaries to others. This will help reduce the influence of external demands on your
+  decision-making process.
+* **Combine Tools:** Use the matrix in conjunction with other task management tools, such as To-Do list and personal planners, to balance structure
+  and flexibility in task prioritization.
+* **Use as a Guideline:** Treat the matrix as a guideline rather than a strict rule, allowing for adaptability in task prioritization. Use multiple
+  prioritization techniques to balance structure and flexibility in task management.
 
 ## References
 

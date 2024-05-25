@@ -51,6 +51,7 @@ in your given context.` >}}
 * Most productivity applications and techniques force you into a particular set of tools.
 
 ### Enablers
+The following factors support effective application of the practice:
 
 * You are able to write relatively quickly.
 * You are able to think critically of the ideas you have.
@@ -58,6 +59,7 @@ in your given context.` >}}
 * You have a device that you bring with you to most places, or have a toolset that you can access from anywhere.
 
 ### Deterrents
+The following factors prevent effective application of the practice:
 
 * You have little control over how you spend your time.
 * Even though you plan events, they usually fall through.

@@ -13,12 +13,12 @@ displaySection = "learning"
 uuid="71261539-4964-4575-820b-1b155d1b6071"
 aliases=["71261539-4964-4575-820b-1b155d1b6071"]
 ammerse = [
-  {name = "agile", delta = "0"},
-  {name = "minimal", delta = "0"},
+  {name = "agile", delta = "0.5"},
+  {name = "minimal", delta = "-0.5"},
   {name = "maintainable", delta = "1"},
   {name = "environmental", delta = "0"},
   {name = "reachable", delta = "0"},
-  {name = "solvable", delta = "0"},
+  {name = "solvable", delta = "0.5"},
   {name = "extensible", delta = "0.5"},
 ]
 pubdate = "2023-09-05"
@@ -38,22 +38,19 @@ knowledge you have.
 
 ## Contextual forces
 
-{{<whatis text=`
-These describe factors at play that influence the outcome of the practice. They are not necessarily good or bad, but they are important to be
-aware of. Some contextual forces are enablers, giving the practice a higher chance of being useful. Others are deterrents, making the practice less useful
-in your given context.` >}}
-
 ### Enablers
+The following factors support effective application of the practice:
 
-* You are comfortable being confronted with your own knowledge gaps
-* Having non-complete, non-final representation of your knowledge is okay
-* Modern technology makes it easy to create mind maps
+* You are comfortable being confronted with your own knowledge gaps.
+* Having incomplete or evolving representations of knowledge is acceptable.
+* Access to modern technology that facilitates easy creation and updating of mind maps.
 
 ### Deterrents
+The following factors prevent effective application of the practice:
 
-* Mind maps are relatively high effort
-* The resulting visual artefact of a mind mapping exercise rapidly becomes stale
-* Not knowing what concept to attach something to can lead to frustration or abandoning of the mind map
+* The effort required to create mind maps is relatively high.
+* The visual artifact of the mind map becomes outdated and is not refreshed.
+* The individual experiences frustration from not knowing how to connect certain concepts within the mind map, potentially leading to abandonment.
 
 ## Solution
 
@@ -80,6 +77,24 @@ The drawing is less important than the clarity of mind you gain by creating it.
 * We are good at thinking creatively, but our recollection is often times flawed. This leads us to forget about certain aspects
 * Not knowing what something relates to makes it harder to remember facts.
 * Humans prefer to think in structures, it has been shown that structuring a text or idea helps you refine the knowledge.
+
+## Considerations
+
+* **High Effort:** Creating and maintaining mind maps can be time-consuming and require significant effort.
+* **Staleness:** Mind maps can quickly become outdated if not regularly updated, losing their value as a knowledge management tool.
+* **Frustration:** Difficulty in connecting certain concepts can lead to frustration and potential abandonment of the mind map.
+* **Focus on the Result:** Over-emphasizing the final product can detract from the benefits of the process of creating the mind map.
+* **Over-reliance on Visuals:** Some individuals may rely too heavily on visual aids, potentially neglecting other forms of cognitive processing
+  and learning.
+
+### Mitigation Strategies
+
+* **Scheduled Updates:** Set regular intervals for reviewing and updating mind maps to keep fresh. Throw out outdated maps, and create new ones
+  when learning new ideas.
+* **Guided Structure:** Provide templates or examples to help individuals start their mind maps, reducing frustration related to connecting
+  concepts.
+* **Diverse Techniques:** Encourage the use of mind maps in conjunction with other learning and organizational techniques to avoid over-reliance on
+  visual aids.
 
 ## Examples
 

@@ -36,12 +36,8 @@ Provide clear feedback on what is wrong with the input data to allow for quick r
 
 ## Contextual forces
 
-{{<whatis text=`
-These describe factors at play that influence the outcome of the practice. They are not necessarily good or bad, but they are important to be
-aware of. Some contextual forces are enablers, giving the practice a higher chance of being useful. Others are deterrents, making the practice less useful
-in your given context.` >}}
-
 ### Enablers
+The following factors support effective application of the practice:
 
 * Processing data is one of the core tasks of software applications
 * You have a clear understanding of the expected input data format and structure
@@ -50,6 +46,7 @@ in your given context.` >}}
 * Your software already has robust input validation mechanisms in place, making it easier to implement comprehensive checks early in the process.
 
 ### Deterrents
+The following factors prevent effective application of the practice:
 
 * The validation checks are computationally expensive, and introduce unacceptable latency or resource consumption
 * Lacking experience or expertise in implementing effective error handling and validation mechanisms

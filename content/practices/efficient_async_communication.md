@@ -54,6 +54,7 @@ in your given context.` >}}
 * You are able to succinctly describe your intent.
 
 ### Deterrents
+The following factors prevent effective application of the practice:
 
 * People feel it is polite to say "hello" and chit-chat before asking a question or favour.
 * People are not used to chat-like messaging applications.

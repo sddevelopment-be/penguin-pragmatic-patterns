@@ -3,6 +3,12 @@ title = "Set stopping conditions"
 author = "Stijn Dejongh"
 problem="You tend to push too hard in order to reach a goal, or invest more than you are able to support."
 description = "Put a hard limit on how much you are willing to invest into a certain endeavour."
+summary= """
+Setting stopping conditions helps maintain a healthy balance between effort and outcome, preventing overextension and resource depletion. 
+This technique promotes sustainability, realistic goal-setting, and adaptability, especially when initial objectives need to be revised. 
+While it has significant positive impacts on agility, maintainability, and reachability, it is crucial to apply it thoughtfully to avoid 
+being overly cautious and missing out on valuable opportunities.
+"""
 categories = [
     "productivity",
 ]
@@ -17,7 +23,7 @@ ammerse = [
   {name = "maintainable", delta = "0.5"},
   {name = "environmental", delta = "0"},
   {name = "reachable", delta = "0.5"},
-  {name = "solvable", delta = "0"},
+  {name = "solvable", delta = "-0.5"},
   {name = "extensible", delta = "-0.5"},
 ]
 image="practices/stopping_conditions.webp"
@@ -35,25 +41,23 @@ You tend to push too hard in order to reach a goal, or invest more than you are 
 
 ## Contextual forces
 
-{{<whatis text=`
-These describe factors at play that influence the outcome of the practice. They are not necessarily good or bad, but they are important to be
-aware of. Some contextual forces are enablers, giving the practice a higher chance of being useful. Others are deterrents, making the practice less useful
-in your given context.` >}}
-
 ### Enablers
+The following factors support effective application of the practice:
 
-* You have a clear idea of how far you can stretch.
-* You can deal with other people giving you a hard time for changing your mind.
-* Your environment is generally respectful, and understanding, when you stop doing something. 
-* Your goals can lead to significant personal or professional investment
+* When you have a clear idea of how far you can stretch.
+* When you can deal with other people giving you a hard time for changing your mind.
+* In supportive environments where stopping is respected.
+* When Goals require significant investment and potential sacrifice
 
 ### Deterrents
+The following factors prevent effective application of the practice:
 
-* The [sunk-cost fallacy](glossary/#sunk-cost-fallacy)
-* People can pressure us into doing things we would rather not do.
-* We feel a sense of shame when stopping. Our culture has though us that __"quitters never win, and winners never quit"__.
-* Others can be used to you going beyond your limit, they will be disappointed when you stop doing so.
-* Unpredictable situations where flexibility is paramount, as setting stopping conditions up front is very hard.
+* Cultures heavily influenced by the [sunk-cost fallacy](glossary/#sunk-cost-fallacy)
+* When external pressures make it difficult to adhere to stopping conditions.
+  * You feel sense of shame when stopping. Our culture has though us that __"quitters never win, and winners never quit"__.
+  * Others are used to you going beyond your limit, they will be disappointed when you stop doing so.
+* In unpredictable situations where flexibility is paramount, as setting stopping conditions up front is very hard.
+
 
 ## Solution
 
@@ -91,15 +95,20 @@ In the end, reaching your goals at all costs is usually not really worth it.
 * **Short-Term Focus:** The pattern’s emphasis on current limits might neglect potential future opportunities, leading to a conservative approach.
 * **External Pressures:** Individuals might still feel pressured by others to exceed their set limits, making adherence difficult.
 * **Over-Cautiousness:** Risk of setting overly cautious stopping criteria that prevent necessary risk-taking and innovation.
+* **Inflexibility:** Setting rigid stopping criteria might hinder adaptability in unpredictable environments, where flexibility is crucial.
+* **Stagnation:** Lack of problem-solving skills and adaptability might lead to goals being abandoned prematurely, hindering growth and development.
 
 ### Mitigation Strategies
 
 * **Regular Reassessment:** Regularly review and adjust stopping criteria based on new information and evolving contexts to maintain a balance
   between caution and opportunity.
 * **Communication and Support:** Foster a supportive environment where individuals feel comfortable setting and respecting their limits. Open
-  communication about the rationale behind stopping criteria can help mitigate external pressures.
+  communication about the rationale behind stopping criteria can help mitigate external pressures. Provide support and training to help teams adapt
+  to new goals and maintain focus on achievable objectives.
 * **Balanced Approach:** Encourage a balanced approach where stopping criteria are set thoughtfully but flexibly, allowing for necessary
   adjustments without completely abandoning limits.
+* **Improve Problem-Solving Skills:** Provide training and resources to enhance the ability to solve problems effectively. Foster a more agile
+  environment where feedback is regularly incorporated, and strategies are adjusted as needed.
 
 ## Examples
 

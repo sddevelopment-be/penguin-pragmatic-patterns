@@ -3,6 +3,10 @@ title = "Interviewing like a STARR"
 author = "Stijn Dejongh"
 problem = "Assessing a candidate's skills and experience during an interview using traditional knowledge-based questions often leads to researched and rehearsed answers."
 description = "Employ a behavioural questioning method, to conduct more conversational interviews, and enticing candid and truthful responses."
+summary="""
+improve the quality of candidate assessments during interviews by using situational and behavioural questions based on the STARR (Situation-Task-Action-Results-Reflection) method. 
+This technique aims to reveal a candidate's practical experience, decision-making skills, and ability to learn from past experiences.
+"""
 categories = [
     "communication",
 ]
@@ -12,13 +16,13 @@ tags = [
 uuid="499c0c2f-e2b4-4266-8871-410c9c4c8718"
 aliases=["499c0c2f-e2b4-4266-8871-410c9c4c8718"]
 ammerse = [
-    {name = "agile", delta = "0.5"},
-    {name = "minimal", delta = "0"},
-    {name = "maintainable", delta = "0.5"},
-    {name = "environmental", delta = "0"},
-    {name = "reachable", delta = "1"},
-    {name = "solvable", delta = "1"},
-    {name = "extensible", delta = "0"},
+    {name = "agile", delta = "0.35"},
+    {name = "minimal", delta = "-0.65"},
+    {name = "maintainable", delta = "0.65"},
+    {name = "environmental", delta = "0.25"},
+    {name = "reachable", delta = "0.25"},
+    {name = "solvable", delta = "0.75"},
+    {name = "extensible", delta = "0.25"},
 ]
 pubdate="2024-05-11"
 image = "practices/starr_method_cover.webp"
@@ -27,7 +31,7 @@ image = "practices/starr_method_cover.webp"
 ## Problem Statement
 
 Assessing a candidate's skills and experience during an interview using traditional knowledge-based questions often leads to researched and 
-rehearsed answers.   
+rehearsed answers. You want to assess and verify the interviewee has experience in the application of certain skills.
 
 ## Intent
 
@@ -36,32 +40,29 @@ experience and how the candidate handled specific situations. By asking open-end
 interviewee to provide specific examples, you can gain a better understanding of their capabilities and how they might fit into your team. 
 
 ## Contextual forces
-
-{{<whatis text=`
-These describe factors at play that influence the outcome of the practice. They are not necessarily good or bad, but they are important to be
-aware of. Some contextual forces are enablers, giving the practice a higher chance of being useful. Others are deterrents, making the practice less useful
-in your given context.` >}}
+These describe factors at play that influence the outcome of the practice. They are not necessarily good or bad, but they are important to be aware of.
 
 ### Enablers
+The following factors support effective application of the practice:
 
-* The interviewee has relevant professional experience about which to inquire.
-* You want to verify the interviewee has experience in the application of certain skills.
-* You have a structured evaluation process in place to assess candidates consistently based on their responses.
-* You are able to allocate sufficient time to conduct interviews.
-* You want to assess thinking, behavioural, and social patterns. 
-* The interviewee feels at ease, and is encouraged to provide candid and truthful responses.
-* Candidates are briefed on the STARR interview format before answering the questions, allowing them to better articulate their experiences and 
-  responses.
+* **Relevant Experience:** When the candidate has significant professional experience to discuss.
+* **Structured Evaluation:** There is a structured process in place to assess responses consistently.
+* **Sufficient Time:** Enough time is allocated for thorough interviews.
+* **Behavioral Insight:** There is a need to assess thinking, behavioural, and social patterns.
+* **Candidate Comfort:** Candidates feel at ease during the interview. They are briefed on the STARR interview format before answering the
+  questions, allowing them to better articulate their experiences and responses.
 
 ### Deterrents
+The following factors prevent effective application of the practice:
 
-* The interviewee has little relevant experience.
-* The interviewee favour to respond in a curt way. 
-* Interviewers lack training or familiarity with the STARR technique, leading to inconsistent application and interpretation of candidate responses.
-* Limited interview time may prevent thorough exploration of each STARR component, reducing the effectiveness of the technique.
-* You are not interested in behavioural or cognitive patterns.
-* There is resistance within the organization to adopt new interview methodologies, hindering the implementation of the STARR technique.
-* The interviewee is tense, and feels pressured to provide the "right" answers, leading to less representative responses.
+* **Limited Experience:** The candidate lacks relevant professional experience.
+* **Brief Responses:** Candidates tend to give short, uninformative answers.
+* **Lacking Interviewer Training:** Interviewers lack training or familiarity with the STARR technique, leading to inconsistent application and interpretation of candidate responses.
+* **Time Constraints:** Limited interview time may prevent thorough exploration of each STARR component, reducing the effectiveness of the technique.
+* **Execution-only Focus:** The organization is not interested in behavioural or cognitive patterns. Due to lack of interest, or due to the job
+  not requiring these skills.
+* **Resistance to Change**: There is resistance within the organization to adopt new interview methodologies, hindering the implementation of the STARR technique.
+* **Candidate Stress:** When candidates feel pressured to provide the "right" answers, leading to less representative responses.
 
 ## Solution
 
@@ -82,26 +83,48 @@ the interviewee's responses to get a deeper understanding of their thought proce
 The purpose is to make the interview as conversational as possible, putting the interviewee at ease and allowing them to provide more candid (and 
 truthful) responses.
 
-### Points to consider
+### Notes
 
-* Make sure to ask questions that are relevant to the role you are hiring for.
-* Be prepared to ask follow-up questions to get a deeper understanding of the interviewee's thought process and decision-making skills.
-* Encourage the interviewee to provide specific examples from their experiences. Make sure to put them at ease and create a conversational 
-  atmosphere. It helps to tell them _"There are no right or wrong answers, we mainly want to get a sense of who we are dealing with"_.
-* Be aware of cultural resistance to these types of questions. Some candidates may not be used to this style of interviewing and may need more 
-  guidance. This is not a sign of incompetence, but rather a lack of familiarity with the technique or with the idea of speaking candidly about 
-  challenging situations.
 * A candidate that answers the "Task" part of the question with a self-imposed goal rather than a direct order from their superior is likely 
   showing initiative and intrinsic motivation.
 * A candidate that mostly answers the questions in the interview with _"We"_ instead of _"I"_ might be trying to take credit for the work of a 
   team, to which they contributed little.
-* When asking about results, pay attention to the candidate's ability to quantify their achievements. This can give you a better understanding of 
-  how they think about their impact on the project or team.
 * The answers to the "Results" part of the interview indicate whether the candidate is able to list both desired and undesired outcomes. 
   This can give you an idea of how they handle failure and success, and whether they are forthcoming about potential problems.
 * While optional, the "Reflection" step is crucial for understanding how the candidate learns from their experiences. This can give you an idea of 
   how they approach iterative personal growth and development. These reflection-based questions are not useful in all contexts, but can be very 
   revealing.
+* When asking about results, pay attention to the candidate's ability to quantify their achievements. This can give you a better understanding of
+  how they think about their impact on the project or team.
+
+## Consideration
+
+* **Limited Predictive Power:** Directly assesses the candidate's past actions and results, which does not inherently account for their potential to
+  adapt to new or evolving situations.
+* **Culture and Context Sensitivity:** Be aware of cultural resistance to these types of questions. Some candidates may not be used to this style of interviewing and may need more
+  guidance. This is not a sign of incompetence, but rather a lack of familiarity with the technique or with the idea of speaking candidly about
+  challenging situations.
+* **Increased effort:** Consistent training is required to maintain interview quality. Interviewers need to be familiar with the STARR technique and
+  its application to ensure effective candidate evaluation.
+* **Potential rigidity:** The structured format may limit the interviewer's ability to explore unexpected or nuanced responses. Interviewers should
+  remain flexible and adapt the technique as needed to ensure comprehensive candidate evaluation.
+
+### Mitigation strategies
+
+* **Put them at ease:**  Encourage the interviewee to provide specific examples from their experiences. Make sure to put them at ease and create a conversational
+  atmosphere. It helps to tell them _"There are no right or wrong answers, we mainly want to get a sense of who we are dealing with"_.
+* **Role-Specific Questions:** Tailor the STARR questions to the specific role requirements, ensuring that the candidate's past experiences are relevant to the position.
+* **Grow-and-Learn Questions:** Introduce questions or scenarios that specifically address future potential and adaptability. For example, "How
+  have you approached a situation where you needed to learn a new technology quickly to meet project demands?"
+* **Training and Preparation:**
+  * Implement regular training programs for interviewers to ensure they are familiar with the STARR technique and can apply it effectively.
+  * Provide candidates with information about the STARR format before the interview to reduce discomfort and improve response quality.
+* **Flexibility:** Encourage interviewers to remain flexible and adapt the structured format as needed to avoid rigidity and ensure
+  comprehensive candidate evaluation. Make sure to ask questions that are relevant to the role you are hiring for. Be prepared to ask follow-up
+  questions to get a deeper understanding of the interviewee's thought process and decision-making skills.
+* **Balancing Thoroughness and Efficiency:** Allocate sufficient time for interviews but ensure the process remains efficient to avoid delays in 
+  hiring, especially in high-demand situations.
+* **Continuous Improvement:** Regularly review and refine the interview process based on feedback from both interviewers and candidates to enhance the effectiveness of the STARR technique.
 
 ## Examples
 

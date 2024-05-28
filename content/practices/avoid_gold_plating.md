@@ -1,14 +1,14 @@
 +++
-title = "Let's not make it complicated"
+title = "Avoid Over-Engineering"
 author = "Stijn Dejongh"
 problem = "You are spending much more time and mental effort on a piece of software than is needed or valuable."
 description = "Write readable code that is as well-designed as it needs to be at this point in time."
 summary="""
-Focus on writing code that meets the immediate requirements without adding unnecessary complexity or features that may never be used. 
-The core idea of the technique is to avoid over-engineering and over-designing software solutions. 
-It emphasizes writing code that meets current needs without adding unnecessary complexity or features that may never be used. 
-The goal is to save time and resources, improve code readability and maintainability, and reduce the risk of introducing bugs.
-""" 
+The practice of "Avoid Over-Engineering" involves writing code that is as well-designed as it needs to be at the current point in time, 
+adhering to the basic principles of clean code and design. The aim is to improve speed, stability, readability, and maintainability by avoiding 
+unnecessary complexity and functionality that may never be used. Developers should take note of more generic solutions that come to mind and revisit them later, 
+iteratively enhancing the codebase when necessary.
+"""
 categories = [
     "software development",
 ]
@@ -18,13 +18,13 @@ tags = [
 uuid="94a558cd-4e86-4814-a5e9-d6ecafcb0d6b"
 aliases=["94a558cd-4e86-4814-a5e9-d6ecafcb0d6b"]
 ammerse = [
-  {name = "agile", delta = "0.25"},
-  {name = "minimal", delta = "0.7"},
-  {name = "maintainable", delta = "0.25"},
-  {name = "environmental", delta = "0"},
-  {name = "reachable", delta = "0.45"},
-  {name = "solvable", delta = "0.35"},
-  {name = "extensible", delta = "-0.8"}
+  {name = "agile", delta = "0.35", rationale="The analysis supports agility by reducing unnecessary work and focusing on immediate needs. However, it may limit future adaptability if initial designs do not consider potential changes."},
+  {name = "minimal", delta = "0.8", rationale="The analysis promotes minimalism by encouraging simplicity and avoiding unnecessary complexity."},
+  {name = "maintainable", delta = "-0.25", rationale="While the practice improves initial readability, it may lead to significant rework and technical debt due to lack of future-proofing."},
+  {name = "environmental", delta = "0.15", rationale="The practice indirectly supports environmental values by promoting efficient use of resources."},
+  {name = "reachable", delta = "0.2", rationale="The practice makes immediate goals more attainable but may hinder long-term goal achievement due to lack of future-proofing."},
+  {name = "solvable", delta = "0.75", rationale="The practice supports effective problem-solving by reducing complexity."},
+  {name = "extensible", delta = "-0.7", rationale="The practice may initially limit extensibility and require significant rework if future requirements are not considered."}
 ]
 pubdate="2023-09-16"
 image="practices/keep_it_simple_cover.webp"
@@ -41,7 +41,6 @@ src="/images/practices/overdesign.png"
 alt="An image of a bicycle with a robotic rear wheel, looking highly complicated and over-engineered" 
 >}}
 
-
 ## Intent
 
 * Speed: Lower throughput time of changes
@@ -51,7 +50,9 @@ alt="An image of a bicycle with a robotic rear wheel, looking highly complicated
 * Improved readability
 
 ## Contextual forces
-These describe factors at play that influence the outcome of the practice. They are not necessarily good or bad, but they are important to be aware of.
+This practice can be applied in software development projects, particularly in contexts where efficiency, readability, and maintainability are
+critical. It is suited for projects with well-defined short-term goals and limited lifespans, where over-engineering could lead to wasted time and
+effort.
 
 ### Enablers
 The following factors support effective application of the practice:

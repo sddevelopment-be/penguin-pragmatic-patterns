@@ -1,4 +1,4 @@
-I am working on a pattern language of useful techniques. Please review and analyze this pattern named ``. 
+I am working on a pattern language of useful techniques. Please review and analyze this pattern.
 The pattern consists of a problem statement, intent, contextual forces (drivers), and a solution.
 The pattern is written in a conversational tone, and uses British English spelling.
 The format of the pattern is HuGo-enhanced markdown. Assume all footnotes are correctly linked, and all referenced images are present.
@@ -45,8 +45,8 @@ making. Therefore, it is paramount to evaluate the effect of the technique itsel
 
 ---
 
-With those base values, please proceed to step 3 and 4 of the AMMERSE Impact Analysis evaluation. In step 3, only show the full calculation for 
-the Agile value, and provide a summary of the other values. 
+With those base values, please proceed to step 3 and 4 of the AMMERSE Impact Analysis evaluation. In step 3, only show a summary of the 
+calculation, and avoid showing the detailed calculation steps. 
 For reference, here are the steps:
 
 ---- STEP 3 (markdown) ----

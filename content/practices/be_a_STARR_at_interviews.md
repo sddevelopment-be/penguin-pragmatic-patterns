@@ -16,13 +16,13 @@ tags = [
 uuid="499c0c2f-e2b4-4266-8871-410c9c4c8718"
 aliases=["499c0c2f-e2b4-4266-8871-410c9c4c8718"]
 ammerse = [
-    {name = "agile", delta = "0.35"},
-    {name = "minimal", delta = "-0.65"},
-    {name = "maintainable", delta = "0.65"},
-    {name = "environmental", delta = "0.25"},
-    {name = "reachable", delta = "0.25"},
-    {name = "solvable", delta = "0.75"},
-    {name = "extensible", delta = "0.25"},
+    {name = "agile", delta = "0.35", rationale="The pattern encourages focusing on current needs, which aligns with agile principles of flexibility and rapid iteration. However, it may lead to future refactoring."},
+    {name = "minimal", delta = "-0.65", rationale="The pattern promotes simplicity and avoids over-engineering, effectively reducing unnecessary complexity."},
+    {name = "maintainable", delta = "0.65", rationale="Improves code readability and maintainability by avoiding unnecessary features but may introduce technical debt if future requirements are not considered."},
+    {name = "environmental", delta = "0.25", rationale=" Aligns with cost-sensitive and efficiency-focused environments but may conflict with cultures prioritizing long-term planning. The overall impact is negligible."},
+    {name = "reachable", delta = "0.25", rationale="Sets practical, attainable goals by focusing on immediate needs, with minimal downsides."},
+    {name = "solvable", delta = "0.75", rationale="Encourages solving current problems effectively without over-engineering but future problems might require significant refactoring."},
+    {name = "extensible", delta = "0.25", rationale="The pattern may hinder future extensibility, necessitating significant rework."},
 ]
 pubdate="2024-05-11"
 image = "practices/starr_method_cover.webp"
@@ -35,7 +35,7 @@ rehearsed answers. You want to assess and verify the interviewee has experience 
 
 ## Intent
 
-Assess a candidate's skills and experience by asking situational and behavioural questions. These questions are designed to reveal prior 
+Assess a candidate's skills and experience by asking situational and behavioural questions. These questions are designed to reveal their prior 
 experience and how the candidate handled specific situations. By asking open-ended questions, and cueing the 
 interviewee to provide specific examples, you can gain a better understanding of their capabilities and how they might fit into your team. 
 

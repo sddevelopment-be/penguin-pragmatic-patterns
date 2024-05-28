@@ -12,13 +12,13 @@ tags = [
 uuid="1848f4a6-3acb-4dc8-aa49-e57a1b87cf3b"
 aliases=["1848f4a6-3acb-4dc8-aa49-e57a1b87cf3b"]
 ammerse = [
-  {name = "agile", delta = "0"},
-  {name = "minimal", delta = "0.5"},
-  {name = "maintainable", delta = "1"},
-  {name = "environmental", delta = "0"},
-  {name = "reachable", delta = "0"},
-  {name = "solvable", delta = "0.5"},
-  {name = "extensible", delta = "0.5"},
+  {name = "agile", delta = "0", rationale=""},
+  {name = "minimal", delta = "0.5", rationale=""},
+  {name = "maintainable", delta = "1", rationale=""},
+  {name = "environmental", delta = "0", rationale=""},
+  {name = "reachable", delta = "0", rationale=""},
+  {name = "solvable", delta = "0.5", rationale=""},
+  {name = "extensible", delta = "0.5", rationale=""},
 ]
 pubdate="2023-08-26"
 image="practices/conventions_cover.webp"

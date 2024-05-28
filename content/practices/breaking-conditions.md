@@ -1,7 +1,7 @@
 +++
 title = "Set stopping conditions"
 author = "Stijn Dejongh"
-problem="You tend to push too hard in order to reach a goal, or invest more than you are able to support."
+problem="You tend to push too hard trying to reach a goal, or invest more than you can support."
 description = "Put a hard limit on how much you are willing to invest into a certain endeavour."
 summary= """
 Setting stopping conditions helps maintain a healthy balance between effort and outcome, preventing overextension and resource depletion. 
@@ -18,13 +18,13 @@ tags = [
 uuid="49014706-77a2-4b8f-82de-75c16cac9c8c"
 aliases=["49014706-77a2-4b8f-82de-75c16cac9c8c"]
 ammerse = [
-  {name = "agile", delta = "1"},
-  {name = "minimal", delta = "0"},
-  {name = "maintainable", delta = "0.5"},
-  {name = "environmental", delta = "0"},
-  {name = "reachable", delta = "0.5"},
-  {name = "solvable", delta = "-0.5"},
-  {name = "extensible", delta = "-0.5"},
+  {name = "agile", delta = "1", rationale="The analysis significantly supports agility by fostering adaptability and awareness of limitations."},
+  {name = "minimal", delta = "0.25", rationale="The analysis promotes minimalism by encouraging clear and simple stopping criteria."},
+  {name = "maintainable", delta = "0.75", rationale=" The analysis supports maintainability by ensuring resources are managed effectively and not over-extended."},
+  {name = "environmental", delta = "0.15", rationale="The analysis promotes alignment with environmental and ethical standards, encouraging consideration of broader impacts."},
+  {name = "reachable", delta = "-0.5", rationale="While the analysis promotes risk reflection, it can negatively impact the pursuit of reaching goals due to its emphasis on knowing when to quit."},
+  {name = "solvable", delta = "0.35", rationale="The analysis supports effective problem-solving by ensuring goals are manageable and resources are not over-committed."},
+  {name = "extensible", delta = "0", rationale=" The analysis supports extensibility by preventing over-commitment and allowing for reassessment but may introduce rigidity if stopping conditions are too strict."},
 ]
 image="practices/stopping_conditions.webp"
 pubdate="2023-08-26"
@@ -32,7 +32,7 @@ pubdate="2023-08-26"
 
 ## Problem Statement
 
-You tend to push too hard in order to reach a goal, or invest more than you are able to support.
+You tend to push too hard trying to reach a goal, or invest more than you can support.
 
 ## Intent
 
@@ -44,20 +44,23 @@ You tend to push too hard in order to reach a goal, or invest more than you are 
 ### Enablers
 The following factors support effective application of the practice:
 
-* When you have a clear idea of how far you can stretch.
-* When you can deal with other people giving you a hard time for changing your mind.
-* In supportive environments where stopping is respected.
-* When Goals require significant investment and potential sacrifice
+* **Clear Boundaries:**  You have a clear idea of how far you can stretch, and what you are willing to invest in attempting to reach a goal.
+* **Honest Communication:** When there is open and honest communication about the limits and conditions with stakeholders.
+* **Supportive Environments:** In environments where stopping is respected and not seen as a failure.
+* **Significant Investment:** When goals require significant investment and potential sacrifice, making it crucial to have predefined limits.
 
 ### Deterrents
 The following factors prevent effective application of the practice:
 
-* Cultures heavily influenced by the [sunk-cost fallacy](glossary/#sunk-cost-fallacy)
-* When external pressures make it difficult to adhere to stopping conditions.
+* **Sunk-Cost Fallacy:** In cultures heavily influenced by the [sunk-cost fallacy](glossary/#sunk-cost-fallacy), where stopping is viewed 
+  negatively. 
+* **External Pressures:** When external pressures or expectations make it difficult to adhere to stopping conditions.
   * You feel sense of shame when stopping. Our culture has though us that __"quitters never win, and winners never quit"__.
+  * You are unable to effectively adapt to the situation, as the goal is deemed to be a "do or die" situation.
   * Others are used to you going beyond your limit, they will be disappointed when you stop doing so.
-* In unpredictable situations where flexibility is paramount, as setting stopping conditions up front is very hard.
-
+* **Unpredictable Situations:** In highly unpredictable situations where flexibility is crucial, and setting stopping conditions upfront is 
+  challenging.
+* **Inflexibility:** When rigid stopping criteria hinder adaptability and responsiveness to changing circumstances.
 
 ## Solution
 
@@ -97,6 +100,9 @@ In the end, reaching your goals at all costs is usually not really worth it.
 * **Over-Cautiousness:** Risk of setting overly cautious stopping criteria that prevent necessary risk-taking and innovation.
 * **Inflexibility:** Setting rigid stopping criteria might hinder adaptability in unpredictable environments, where flexibility is crucial.
 * **Stagnation:** Lack of problem-solving skills and adaptability might lead to goals being abandoned prematurely, hindering growth and development.
+* **Loss Aversion:** The fear of loss might prevent individuals from setting realistic stopping criteria, leading to overextension and resource depletion.
+* **Not keeping commitments:** Setting stopping criteria too early might prevent individuals from reaching their full potential and achieving their 
+  goals. When working on a commitment made to someone else, it is important to be upfront about how far you are willing to go to achieve it.
 
 ### Mitigation Strategies
 
@@ -109,6 +115,12 @@ In the end, reaching your goals at all costs is usually not really worth it.
   adjustments without completely abandoning limits.
 * **Improve Problem-Solving Skills:** Provide training and resources to enhance the ability to solve problems effectively. Foster a more agile
   environment where feedback is regularly incorporated, and strategies are adjusted as needed.
+* **Risk Management:** Develop a risk management strategy that considers potential losses and gains, allowing for informed decision-making and
+  realistic goal-setting.
+* **Involvement and Accountability:** Involve team members in the decision-making process and hold them accountable for their commitments. Encourage
+  open dialogue and feedback to ensure that stopping criteria are realistic and achievable. When the need arises, provide guidance and support 
+  to be able to stop when necessary. Involve stakeholders in the decision-making process to ensure that stopping criteria, and the rationale 
+  behind the decisions, are clearly communicated and understood.
 
 ## Examples
 

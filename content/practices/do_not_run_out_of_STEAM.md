@@ -19,13 +19,13 @@ tags = [
 uuid = "2cd8e850-9934-40f1-8d1a-d419ef96c33f"
 aliases = ["2cd8e850-9934-40f1-8d1a-d419ef96c33f"]
 ammerse = [
-    { name = "agile", delta = "0.5" },
-    { name = "minimal", delta = "-0.5" },
-    { name = "maintainable", delta = "1" },
-    { name = "environmental", delta = "0.5" },
-    { name = "reachable", delta = "0.5" },
-    { name = "solvable", delta = "0" },
-    { name = "extensible", delta = "0.5" },
+    { name = "agile", delta = "0.5", rationale=""},
+    { name = "minimal", delta = "-0.5", rationale=""},
+    { name = "maintainable", delta = "1", rationale=""},
+    { name = "environmental", delta = "0.5", rationale=""},
+    { name = "reachable", delta = "0.5", rationale=""},
+    { name = "solvable", delta = "0", rationale=""},
+    { name = "extensible", delta = "0.5", rationale=""},
 ]
 outputs = ['html', 'rss', 'json']
 image = "practices/steam_image.webp"

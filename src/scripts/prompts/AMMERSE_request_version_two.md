@@ -30,7 +30,7 @@ As a reminder, these steps are:
 ---- END OF STEP 2 ----
 
 I am interested in evaluating how the environment changes when using the technique, not specifically on the technique itself or any artifacts it
-produces. Provide me with potential mitigation strategies for the considerations you listed.
+produces.
 
 Note that I want a critical evaluation of the technique, and how it would impact day-to-day operations in a professional environment. I am
 particularly concerned about the potential downsides of implementing a technique like this, and would like to be aware of the trade-offs I am

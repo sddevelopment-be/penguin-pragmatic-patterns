@@ -4,6 +4,13 @@ title = "Practices"
 subtitle="Explore proven practical strategies that have helped others."
 outputs = ['html', 'rss', 'json']
 description = "Proven practical strategies that have helped others"
+summary="""
+The Practices section offers a collection of practical strategies for various domains such as learning, 
+productivity, communication, and software development. Each practice is detailed with its context, enablers, and deterrents, 
+along with tags and categories for easy navigation. The practices are evaluated using the AMMERSE framework to help users understand their impact. 
+Examples include techniques like mind mapping, prioritizing tasks, and maintaining coding consistency. 
+Reflect and adapt these techniques for optimal results.
+"""
 image="penguin_teacher.webp"
 +++
 

@@ -1,8 +1,12 @@
 +++
-title = "Consistency through conventions"
+title = "Synced Style"
 author = "Stijn Dejongh"
 problem="Developers struggle to maintain code consistency, negatively affecting code maintainability and reliability."
 description = "Maintaining a consistent coding style within a team, using automation and documentation to enforce it."
+summary="""
+Establish and maintain a consistent coding style within a team or project. By enforcing a uniform style, the pattern aims to improve code 
+maintainability, readability, and reliability, ultimately reducing mental load and enhancing the ease of collaboration.
+"""
 categories = [
     "software development",
 ]
@@ -12,13 +16,13 @@ tags = [
 uuid="1848f4a6-3acb-4dc8-aa49-e57a1b87cf3b"
 aliases=["1848f4a6-3acb-4dc8-aa49-e57a1b87cf3b"]
 ammerse = [
-  {name = "agile", delta = "0", rationale=""},
-  {name = "minimal", delta = "0.5", rationale=""},
-  {name = "maintainable", delta = "1", rationale=""},
-  {name = "environmental", delta = "0", rationale=""},
-  {name = "reachable", delta = "0", rationale=""},
-  {name = "solvable", delta = "0.5", rationale=""},
-  {name = "extensible", delta = "0.5", rationale=""},
+  {name = "agile", delta = "-0.45", rationale="Potential for lengthy discussions and meetings on coding standards, which can detract from agility and speed."},
+  {name = "minimal", delta = "-0.3", rationale="Initial overhead and potential for over-discussion, making the process less minimal."},
+  {name = "maintainable", delta = "1", rationale="Long-term benefits of consistent code readability and maintainability"},
+  {name = "environmental", delta = "0.5", rationale="Improved resource efficiency from consistent coding practices."},
+  {name = "reachable", delta = "0.3", rationale="Long-term benefits of reliable project outcomes outweigh initial delays."},
+  {name = "solvable", delta = "0.9", rationale="Improved problem-solving efficiency from reduction in cognitive load."},
+  {name = "extensible", delta = "0", rationale="No significant impact on extensibility, as long as conventions are well-documented and flexible."}
 ]
 pubdate="2023-08-26"
 image="practices/conventions_cover.webp"
@@ -39,21 +43,27 @@ We wish to maintain a higher level of code discipline, increasing the reliabilit
 
 ## Contextual forces
 
+Well-suited for teams working on projects where code maintainability and readability are paramount, such as large-scale enterprise applications
+or long-term software projects. It is particularly beneficial in environments where multiple developers collaborate on the same codebase,
+ensuring consistency and reducing cognitive load. This pattern is also effective in organizations that prioritize code quality and
+have the resources to invest in defining, documenting, and enforcing coding standards.
+
 ### Enablers
 The following factors support effective application of the practice:
 
-* Your language of choice has a recommended style guide
-* Automated code analysis/linting is in place, or available
-* Your team is cohesive and coherent, it is able to align on a preferred style
-* Your development environment offers a way to share/import code styles
+* **Team Dynamics:** The team is cohesive and willing to align on a preferred coding style. 
+* **Existing Guidelines:** The language, team, or organization has a recommended style guide for the programming language(s) in use.
+* **Tooling Support:** The development environment supports the sharing and importing of code styles. Automated tools for code analysis and linting
+  are available and integrated into the development process.
 
 ### Deterrents
 The following factors prevent effective application of the practice:
 
-* We have a need for expressing our individuality.
-* You work with many distinct codebases or programming languages.
-* Manually reviewing code for consistency is a tedious task, that most prefer to avoid.
-* Normalization of deviance: if most of your operating process is "exceptional", the "exception" becomes the norm.
+* **Individual Expression:** Developers highly value their coding individuality and resist standardization.
+* **Inconsistent Structure:** The team works with multiple distinct codebases or programming languages, making it difficult to enforce a single
+  style.
+* **Lack of Tooling:** Manually reviewing code for consistency is tedious and often avoided.
+* **Bless this Mess:** The development culture is heavily influenced by the normalization of deviance, where exceptions become the norm.
 
 ## Solution
 
@@ -84,11 +94,14 @@ As long as the code is consistent with it's surrounding, you will get the benefi
   resource-intensive.
 * **Tool Dependence:** Reliance on automated tools for enforcement might lead to over-dependence, reducing manual oversight and potentially missing
   nuanced issues.
-* **Stifled Innovation:** Strict adherence to coding conventions might stifle creative problem-solving and innovative coding techniques.
+* **Stifled Innovation:** Strict adherence to coding conventions might stifle creative problem-solving and innovative coding techniques. It is
+  essential to strike a balance between consistency and flexibility to encourage creativity while maintaining readability and maintainability.
+  Avoid the "Not Invented Here" syndrome, and be mindful not to spend significant amounts of time on discussing the "best" way to formulate things.
 * **Initial Overhead:** The process of defining, documenting, and implementing consistent coding standards can be time-consuming and
   resource-intensive.
-* **Power Dynamics:** Senior or vocal team members might dominate the creation and enforcement of rules, creating an oppressive atmosphere for
-  others, particularly new or timid team members.
+* **Team Dynamics:** The process of defining and enforcing coding standards can cause friction within the team, especially when consensus is
+  required. Senior or vocal team members might dominate the creation and enforcement of rules, creating an oppressive atmosphere for
+  others, particularly new or timid team members. It is essential to manage this process carefully to avoid negatively impacting team dynamics.
 * **Onboarding Challenges:** While having a set of conventions aims to reduce variation and cognitive load, overly strict enforcement of coding
   conventions might overwhelm new team members, making it difficult for them to integrate smoothly.
 

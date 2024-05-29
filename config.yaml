@@ -108,8 +108,8 @@ params:
       
       So why not give it a try? Dive in and see how far you can go.
     links:
-      - text: Approach
-        link: "/about"
+      - text: Concepts
+        link: "/concepts"
 #      - text: Pillars
 #        link: "/pillars"
       - text: Practices

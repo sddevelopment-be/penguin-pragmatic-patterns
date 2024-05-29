@@ -12,6 +12,7 @@ tags = [
 ]
 uuid="3d5b775a-bd5d-40de-8ed3-d390dae16b7b"
 aliases=["3d5b775a-bd5d-40de-8ed3-d390dae16b7b"]
+image="concepts/banner_circle_of_influence.webp"
 pubdate="2023-09-12"
 +++
 

@@ -12,6 +12,7 @@ tags = [
 uuid = "6169f9c0-dfe0-49b1-b459-acf01ac69c40"
 aliases = ["6169f9c0-dfe0-49b1-b459-acf01ac69c40"]
 pubdate = "2023-10-01"
+image = "concepts/banner_test_pyramid.webp"
 +++
 
 Think of tests as a series of experiments in the world of software development. Just like scientists aim to prove their hypotheses, software

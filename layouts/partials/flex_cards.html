@@ -19,18 +19,12 @@
             </div>
 
             <div class="pattern-content" >
-                {{ if .Tags}}
-                <div class="pattern-tags">
-                    {{ range $tag := .Tags }}
-                    <span class="pattern-tag"><a href='{{ "/tags/" | relLangURL}}{{ $tag | urlize}}'>{{$tag}}</a></span>
-                    {{end}}
-                </div>
-                {{ end }}
                 <div class="card-text">
                     {{if .Problem }}<p><span class="item-title">problem:</span>{{ .Problem }}</p> {{end}}
                     {{if .Description }}<p><span class="item-title">description:</span>{{ .Description }}</p> {{end}}
                 </div>
                 <div class="card-stretch"></div>
+
                 {{if .Ammerse}}
                 <div class="card-text ammerse">
                     <p>

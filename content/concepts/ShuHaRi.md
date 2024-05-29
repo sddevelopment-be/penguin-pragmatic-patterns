@@ -2,7 +2,7 @@
 title = "Shu Ha Ri"
 subtitle = "Imitation. Understanding. Emulsion."
 author = "Stijn Dejongh"
-description = "a Japanese martial art concept that is used to describe the stages of learning on the path to mastery."
+description = "Japanese martial arts concept that is used to describe the stages of learning on the path to mastery."
 type = "concept"
 categories = [
     "learning",
@@ -13,6 +13,7 @@ tags = [
 uuid="a49f917b-c560-462a-ac38-46515f6f62d0"
 aliases=["a49f917b-c560-462a-ac38-46515f6f62d0"]
 pubdate="2023-09-09"
+image="concepts/banner_shuhari.webp"
 +++
 
 Shu Ha Ri is a Japanese martial art concept that is used to describe the stages of learning on the path to mastery.

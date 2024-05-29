@@ -1,8 +1,8 @@
 +++
 title = "Dreyfus model"
-subtitle = "five distinct steps of mastery"
+subtitle = "The steps of mastery"
 author = "Stijn Dejongh"
-description = "a formal model on learner progression, the emerging skills they acquire, and the challenges specific to each step."
+description = "Formal model on learner progression, the emerging skills they acquire, and the challenges specific to each step."
 type = "concept"
 categories = [
     "learning",
@@ -13,6 +13,7 @@ tags = [
 uuid="98cc5f46-409b-44df-9fb8-fb1d881970b5"
 aliases=["98cc5f46-409b-44df-9fb8-fb1d881970b5"]
 pubdate="2023-09-09"
+image="concepts/banner_dreyfus.webp"
 +++
 
 {{<quote text=`

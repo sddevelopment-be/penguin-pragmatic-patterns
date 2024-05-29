@@ -2,7 +2,7 @@
 title = "Heartfelt Dialogues"
 subtitle = "Unravelling Emotional Influences on Communication"
 author = "Stijn Dejongh"
-description = "our responses are mostly governed by our emotions. So are the responses of others."
+description = "Our responses are mostly governed by our emotions. So are the responses of others."
 type = "concept"
 categories = [
     "communication",
@@ -13,6 +13,7 @@ tags = [
 uuid = "7dfd0b45-b8e2-4ef9-90b4-e5316397f55b"
 aliases = ["7dfd0b45-b8e2-4ef9-90b4-e5316397f55b"]
 pubdate = "2023-11-18"
+image="concepts/banner_heartfelt_dialogues.webp"
 +++
 
 How often have you said something with the best of intentions, only to have a friend react in an unexpected way?

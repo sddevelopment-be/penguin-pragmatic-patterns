@@ -12,6 +12,7 @@ tags = [
 uuid="03a278c3-0115-4492-8539-f93cfda96fd7"
 aliases=["03a278c3-0115-4492-8539-f93cfda96fd7"]
 pubdate="2023-08-20"
+image="concepts/banner_leadership_styles.webp"
 +++
 
 ## Description

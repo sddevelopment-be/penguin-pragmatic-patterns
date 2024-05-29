@@ -13,6 +13,7 @@ tags = [
 uuid = "b86230c6-49fb-4792-9008-a5241c5cdcb2"
 aliases = ["b86230c6-49fb-4792-9008-a5241c5cdcb2"]
 pubdate="2023-09-13"
+image="concepts/banner_return_on_investment.webp"
 +++
 
 ## Description
@@ -63,9 +64,13 @@ From this we see that option 3 provides the most bang-for-buck. If we only consi
 
 ## References
 
-* "Avoid gold-plating": An engineering mindset that aims to match quality requirements to intended use
 * {{<reference author="CFI Team"
   year="2020"
   title="Return on investment (ROI)"
   site="Corporate Finance Institute"
   link="https://corporatefinanceinstitute.com/resources/accounting/what-is-return-on-investment-roi" >}}
+* {{<reference author="SD Development"
+  year="2023"
+  title="Avoid Gold Plating"
+  site="Pragmatic Penguin Pattern Portfolio"
+  link="/practices/94a558cd-4e86-4814-a5e9-d6ecafcb0d6b/" >}}

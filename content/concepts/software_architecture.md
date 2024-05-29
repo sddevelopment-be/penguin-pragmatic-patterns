@@ -12,6 +12,7 @@ tags = [
 uuid="3683719c-d1ff-4693-a5c5-d9eefb07e409"
 aliases=["3683719c-d1ff-4693-a5c5-d9eefb07e409"]
 pubdate="2023-09-13"
+image="concepts/banner_software_architecture.webp"
 +++
 
 The nuance between "architecture" and "design" is difficult to grasp.
@@ -48,4 +49,14 @@ Now, imagine the business owner also mentions a limited budget for the projectâ€
   title="Design It: From Programmer to Software Architect"
   isbn="1680502093"
   publisher="The Pragmatic Bookshelf"
+  link="https://pragprog.com/titles/mkdsa/design-it/" >}}
+* {{<reference author=" Object Management Group"
+  year="2010"
+  title="Business Process Model And Notation Specification - Version 2.0"
+  site="omg.org"
+  link="https://www.omg.org/spec/BPMN/2.0/" >}}
+* {{<reference author="Skelton, M.; Pais, M." year="2019"
+  isbn="9781942788829"
+  title="Team Topologies: Organizing Business and Technology Teams for Fast Flow"
+  publisher="It Revolution Press"
   link="https://pragprog.com/titles/mkdsa/design-it/" >}}

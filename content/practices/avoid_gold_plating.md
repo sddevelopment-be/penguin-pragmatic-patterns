@@ -1,5 +1,5 @@
 +++
-title = "Avoid Over-Engineering"
+title = "Avoid Gold Plating"
 author = "Stijn Dejongh"
 problem = "You are spending much more time and mental effort on a piece of software than is needed or valuable."
 description = "Write readable code that is as well-designed as it needs to be at this point in time."
@@ -35,11 +35,6 @@ image="practices/keep_it_simple_cover.webp"
 Programmers tend to over-design simple things to make them more capable, clever, or beautiful than they need to be at that point in time. 
 In doing so, they often end up spending much more time and mental effort on a piece of software than is needed.  
 Or worse: they build in functionality or capabilities that will never be used.
-
-{{<image 
-src="/images/practices/overdesign.png" 
-alt="An image of a bicycle with a robotic rear wheel, looking highly complicated and over-engineered" 
->}}
 
 ## Intent
 
@@ -111,6 +106,12 @@ In order to avoid over-complicating your code, ask yourself:
 By focusing on these strategies, the potential drawbacks of the pattern can be mitigated, ensuring that the code remains both simple and robust enough to handle evolving requirements.
 
 ## Examples
+
+
+{{<image
+src="/images/practices/overdesign.png"
+alt="An image of a bicycle with a robotic rear wheel, looking highly complicated and over-engineered"
+>}}
 
 ### How not to do it: Enterprise Quality FizzBuzz
 

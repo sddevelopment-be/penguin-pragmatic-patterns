@@ -85,6 +85,10 @@ body {
     justify-content: center;
 }
 
+.hero-body {
+    padding: 5rem 4.5rem;
+}
+
 @media (max-width: 800px) {
     .hero-links {
         flex-direction: column;
@@ -311,4 +315,12 @@ pre {
     .subtitle {
         text-align: center;
     }
+}
+
+#practices {
+    padding-top: 0.75rem;
+}
+
+#concepts {
+    padding-top: 0.75rem;
 }

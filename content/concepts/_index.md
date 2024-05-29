@@ -1,7 +1,14 @@
 +++
 aliases = ["concepts"]
 title = "Concepts"
-outputs = ['html', 'rss']
+subtitle="Demystifying the jargon"
+outputs = ['html', 'rss', 'json']
+description = "A structured representation of knowledge through visualizing concepts and their relationships"
+summary="""
+Enabling shared understanding and terminology in communication. It emphasizes creating a structured representation of knowledge through visualizing 
+concepts and their relationships. Key sections cover learning models like the Dreyfus model and Shu Ha Ri, productivity principles like Memento Mori and ROI, and communication techniques including Heartfelt Dialogues and Lewin's Leadership Styles. The page also addresses software development practices such as Clean Code, Software Architecture, and the Testing Pyramid.
+"""
+image="penguin_teacher.webp"
 +++
 
 When you talk to people, you rely on a shared understanding of the language and terminology you use.

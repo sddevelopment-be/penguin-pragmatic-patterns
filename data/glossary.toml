@@ -250,6 +250,20 @@ aliases = []
 references = []
 
 [[terminology]]
+name = "Code Review"
+abbreviation = ""
+domain = "software"
+description = """
+Code review is a software development practice where developers review each other’s code to ensure high quality and alignment with project goals.
+This process involves reading through the code to identify bugs, suggest structural improvements, and enhance readability.
+Code reviews can be conducted in person or remotely using specialized software tools. A key metric for code reviews is a decrease in defects,
+achieved by catching low-quality work early and fostering better coding practices. Additionally, developers benefit from code reviews by learning
+new techniques and approaches, promoting continuous learning and collaboration within the team.
+"""
+aliases = [" four-eyes principle", "peer review"]
+references = []
+
+[[terminology]]
 name = "Comma-separated values"
 abbreviation = "CSV"
 domain = "software"
@@ -667,6 +681,19 @@ description = """
 The time it takes to stop one process and start another one.
 """
 aliases = []
+references = []
+
+[[terminology]]
+name = "Offering"
+abbreviation = ""
+domain = "corporate"
+description = """
+An offering is a project, product or service provided by a business to meet the needs of its customers. It can be tangible, such as a physical
+product, or intangible, such as a service or software solution. Offerings are designed to address specific customer needs or problems and are
+typically marketed and sold to generate revenue. Businesses often differentiate their offerings from competitors through unique features, quality,
+pricing, or customer service. The success of an offering is often measured by customer satisfaction, market share, and financial performance.
+"""
+aliases = ["deliverable", "solution"]
 references = []
 
 [[terminology]]

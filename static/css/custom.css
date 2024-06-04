@@ -324,3 +324,10 @@ pre {
 #concepts {
     padding-top: 0.75rem;
 }
+
+.half-width {
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+}

@@ -28,7 +28,7 @@
                 {{if .Ammerse}}
                 <div class="card-text ammerse">
                     <p>
-                        <span class="item-title">AMMERSE values <a href="https://www.ammerse.org/" target="_blank" title="What is this?"><i class="fa-solid fa-circle-info"></i></a>:</span>
+                        <span class="item-title">AMMERSE values <a href="/about/#use-of-ammerse-values" target="_blank" title="What is this?"><i class="fa-solid fa-circle-info"></i></a>:</span>
                     <div class="ammerse-values">
                         {{ range $value := .Ammerse}}
                         {{partial "ammerse.html" (dict "value" $value )}}

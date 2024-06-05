@@ -32,10 +32,10 @@ location = ""
 image = "apprent_patterns.jpeg"
 link = "https://www.oreilly.com/library/view/apprenticeship-patterns/9780596806842/"
 description = """
-For individuals transitioning to new teams or roles, 'Apprenticeship Patterns' offers invaluable advice.
-In this book, the authors provide practical guidance on seamlessly and efficiently integrating into a new work environment.
-The book's unique structure presents these insights in the form of a pattern list, each offering actionable advice.
-One particularly memorable pattern, 'Sweep the Floor,' underscores the importance of performing the 'grunt work' in order to be of immediate value to a team.
+For individuals transitioning to new teams or roles, Apprenticeship Patterns offers invaluable advice. In this book, the authors provide practical
+guidance on seamlessly and efficiently integrating into a new work environment. The book's unique structure presents these insights in the form of a
+pattern list, each offering actionable advice. One particularly memorable pattern, 'Sweep the Floor,' underscores the importance of performing the '
+grunt work' to be of immediate value to a team.
 """
 levels = ["novice", "reference"]
 tags = ["software development", "team dynamics", "directed learning"]
@@ -70,11 +70,11 @@ year = "2004"
 link = "https://www.goodreads.com/book/show/36072.The_7_Habits_of_Highly_Effective_People"
 image = "covey_habbits.jpg"
 description = """
-A revered classic in the realms of both software development and management, Stephen R. Covey's book delves into the transformative power of effective habits.
-Covey introduces readers to a set of values and practices that promote mindful time management. He explores the art of personal management systems,
-the significance of mastering the skill of saying "no," and the profound notion that "saying yes to something means saying no to something else."
-Covey's book is an invitation for introspection, encouraging readers to reflect on their desired self and guiding them toward tangible steps to achieve
-personal growth and effectiveness.
+A revered classic in the realms of both software development and management, Stephen R. Covey's book delves into the transformative power of
+effective habits. Covey introduces readers to a set of values and practices that promote mindful time management. He explores the art of personal
+management systems, the significance of mastering the skill of saying "no," and the profound notion that "saying yes to something means saying no to
+something else." Covey's book invites the reader to introspection, encouraging them to reflect on their desired self and guiding them toward
+tangible steps to achieve personal growth and effectiveness.
 """
 levels = ["mixed", "novice", "intermediate"]
 tags = ["productivity", "goals", "prioritization", "time management", "organizing"]
@@ -111,13 +111,14 @@ year = "2016"
 link = "https://www.goodreads.com/book/show/27036528-ego-is-the-enemy"
 image = "ego_enemy.jpg"
 description = """
-In "Ego Is the Enemy", Holiday presents a contemporary exploration of Stoic principles,
-emphasizing the importance of authenticity and resilience when faced with adversity.
-Holiday weaves a compelling narrative by drawing on the stories of historical figures to illustrate how unchecked success can corrupt one's character.
+In _"Ego Is the Enemy"_, Holiday presents a contemporary exploration of Stoic principles, emphasizing the importance of authenticity and resilience
+when faced with adversity. He weaves a compelling narrative by drawing on the stories of historical figures to illustrate how unchecked success
+can corrupt one's character.
 <br /><br />
-The book is a mix of inspirational success stories and cautionary tales, offering readers a fresh perspective on their own decisions.
-After reading "Ego Is the Enemy," individuals are encouraged to reflect on a fundamental question: "Do I aspire to do something meaningful, or do I seek to be important?".
-This thought-provoking book challenges readers to examine their ambitions and the role of ego in their pursuit of success and fulfillment.
+The book is a mix of inspirational success stories and cautionary tales, offering readers a fresh perspective on their own decisions. After reading
+Ego Is the Enemy, individuals are encouraged to reflect on a fundamental question: "Do I aspire to do something meaningful, or do I seek to be
+important?" This thought-provoking book challenges readers to examine their ambitions and the role of ego in their pursuit of success and
+fulfilment.
 """
 levels = ["novice"]
 tags = ["mindset", "philosophy", "reflection"]
@@ -150,9 +151,10 @@ year = "2008"
 link = "https://pragprog.com/titles/ahptl/pragmatic-thinking-and-learning/"
 image = "prag_thinking.jpg"
 description = """
-Dive into your own brain, and learn about efficient learning. Hunt discusses various techniques that have helped him stay on top of his game over a career spanning decades.
-As a professional, your main weapon is your ability to learn. Unfortunately, many of us are left to our own devices in figuring out which approaches work well for us.
-This book helps you, by giving you a plethora of time-proven learning techniques, and some tools to discover your own preferences.
+Dive into your own brain and learn about efficient learning. Hunt discusses various techniques that have helped him stay
+on top of his game over a career spanning decades. As a professional, your main weapon is your ability to learn.
+Unfortunately, many of us are left to our own devices in figuring out which approaches work well for us.
+This book helps by providing a plethora of time-proven learning techniques and tools to discover your own preferences.
 """
 levels = ["novice"]
 tags = ["mindset", "directed learning", "reflection", "efficiency", "prioritization"]

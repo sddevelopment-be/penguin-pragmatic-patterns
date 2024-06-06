@@ -331,3 +331,9 @@ pre {
     margin-right: auto;
     clear: both;
 }
+
+@media all and (max-width: 800px) {
+    .half-width {
+        max-width: 100%;
+    }
+}

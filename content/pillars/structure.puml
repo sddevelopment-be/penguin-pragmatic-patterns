@@ -1,0 +1,41 @@
+@startuml
+title Sense-making meta model
+
+left to right direction
+
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
+!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+
+!include <office/users/users.puml>
+!include <material/lightbulb_on_outline.puml>
+!include <material/nature_people.puml>
+!include <material/map_marker_circle.puml>
+!include <material/lock_outline.puml>
+!include <material/lock_open_outline.puml>
+!define DEVICONS https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/devicons
+!define FONTAWESOME https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/font-awesome-5
+
+AddElementTag("idea", $sprite="ma_lightbulb_on_outline,scale=0.45", $legendText="conceptual")
+AddElementTag("real", $sprite="ma_nature_people,scale=0.45", $legendText="actual")
+AddElementTag("mutable", $sprite="ma_lock_outline,scale=0.45", $legendText="mutable")
+AddElementTag("immutable", $sprite="ma_lock_open_outline,scale=0.45", $legendText="immutable")
+AddElementTag("universal", $sprite="ma_map_marker_circle,scale=0.45", $legendText="universal")
+
+System(axiom, "Axioms & Fundamental Laws", "", $tags="universal")
+System(values, "Values", "", $tags="idea")
+System(creed, "Creeds", "", $tags="idea")
+System(behaviour, "Behaviours", "", $tags="idea")
+System_Ext(context, "Context", "", $tags="real")
+System_Ext(effects, "Effects", "", $tags="real")
+
+Rel(values, creed, "")
+Rel(axiom, creed, "")
+Rel(creed, behaviour, "")
+Rel(behaviour, effects, "")
+Rel(context, effects, "")
+
+
+SHOW_LEGEND()
+@enduml

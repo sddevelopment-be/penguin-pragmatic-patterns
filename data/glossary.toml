@@ -752,3 +752,15 @@ aliases = ["Renaissance men"]
 references = [
     { title = "Polymath on wikipedia", link = "https://en.wikipedia.org/wiki/Polymath" }
 ]
+
+[[terminology]]
+name = "objection"
+domain = "cooperation"
+description = """
+An **objection** is an argument - related to a proposal, existing agreement, or activity being conducted by one or more members of the organization -
+that reveals consequences or risks that are preferably avoided for the organization, or that demonstrates worthwhile ways to improve the proposal, agreement, or activity.
+"""
+aliases = []
+references = [
+    { title = "Sociocracy 3.0", link = "https://sociocracy30.org/resources/#se-practical-guide" }
+]

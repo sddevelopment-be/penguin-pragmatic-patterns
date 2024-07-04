@@ -1,12 +1,21 @@
 @startuml
 title Sense-making meta model
 
-left to right direction
+'left to right direction
 
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4.puml
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Container.puml
-!include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Component.puml
+
+skinparam defaultFontName        "Verdana"
+skinparam defaultFontSize        14
+skinparam wrapWidth              324
+
+skinparam arrow {
+	FontName "Segoe Print"
+	Thickness 1.25
+	FontSize 10
+}
 
 !include <office/users/users.puml>
 !include <material/lightbulb_on_outline.puml>
@@ -21,21 +30,26 @@ AddElementTag("idea", $sprite="ma_lightbulb_on_outline,scale=0.45", $legendText=
 AddElementTag("real", $sprite="ma_nature_people,scale=0.45", $legendText="actual")
 AddElementTag("mutable", $sprite="ma_lock_outline,scale=0.45", $legendText="mutable")
 AddElementTag("immutable", $sprite="ma_lock_open_outline,scale=0.45", $legendText="immutable")
-AddElementTag("universal", $sprite="ma_map_marker_circle,scale=0.45", $legendText="universal")
+AddElementTag("universal", $sprite="ma_map_marker_circle,scale=0.45", $legendText="absolute")
 
-System(axiom, "Axioms & Fundamental Laws", "", $tags="universal")
-System(values, "Values", "", $tags="idea")
-System(creed, "Creeds", "", $tags="idea")
-System(behaviour, "Behaviours", "", $tags="idea")
-System_Ext(context, "Context", "", $tags="real")
-System_Ext(effects, "Effects", "", $tags="real")
+System(axiom, "Axioms & Fundamental Laws",$descr="immutable, discovered, universal \n\n---\n\n Core principles or truths that form the foundation for reasoning and understanding.\n\n---\n\n | **principles** | **forces** |", $tags="universal")
+System(values, "Values", "mutable, learned, contextual \n\n---\n\n Deeply held beliefs, reflecting what is considered important and worthwhile.\n\n---\n\n | **societal** | **organizational** | **personal** |", $tags="idea")
+System(creed, "Creeds", "mutable, learned, contextual \n\n---\n\n Formal statements of belief or tenets that people adhere to.\n\n---\n\n | **concepts** | **tenets** |", $tags="idea")
+System(behaviour, "Behaviours", "mutable, learned, contextual \n\n---\n\n Observable actions or reactions of individuals.\n\n---\n\n | **guidelines** | **practices** | **procedures** |", $tags="idea")
+System_Ext(context, "Current Context", "\n---\n\nThe circumstances, background, or setting that influence and shape the way ideas and behaviours are interpreted and enacted.", $tags="real")
+System_Ext(effects, "Effects", "\n---\n\nThe outcomes or consequences that result from specific actions, behaviours, or conditions within a given context.", $tags="real")
 
-Rel(values, creed, "")
-Rel(axiom, creed, "")
-Rel(creed, behaviour, "")
-Rel(behaviour, effects, "")
-Rel(context, effects, "")
+Rel(axiom, creed, "reflected in")
+Rel(axiom, behaviour, "impact")
+Rel(axiom, effects, "determine")
+Rel(values, creed, "reflected in")
+Rel(values, behaviour, "drive")
+Rel_D(creed, behaviour, "drives")
+Rel(context, behaviour, "influence")
+Rel(context, effects, "drives")
+Rel(behaviour, effects, "influence")
 
+context -[hidden]-> creed
 
 SHOW_LEGEND()
 @enduml

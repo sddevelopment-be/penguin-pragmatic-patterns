@@ -1,5 +1,5 @@
 +++
-title = "About"
+title = "Approach"
 order = 1
 +++
 
@@ -76,10 +76,11 @@ There, you'll find a curated list of books, articles, and audiovisual resources 
 
 ### Interoperability with other frameworks
 
-{{< image src="/images/chapters/silly_standards.png"
-alt="Alice and Bob fret over conventions"
-caption="Alice and Bob fret over conventions"
-size="40%" >}}
+{{< image src="/images/sense_making_meta_model.png"
+  alt="Compositional breakdown of the overarching sense-making meta model"
+  caption="Compositional breakdown of the overarching sense-making meta model"
+  size="48%"
+  float="left">}}
 
 ### A pattern-based approach
 

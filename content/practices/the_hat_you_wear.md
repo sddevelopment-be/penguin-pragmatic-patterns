@@ -1,5 +1,5 @@
 +++
-title = "What hat are you wearing? 
+title = "What hat are you wearing?"
 author = "Stijn Dejongh"
 draft = true
 problem = ""

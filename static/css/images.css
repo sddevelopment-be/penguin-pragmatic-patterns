@@ -72,3 +72,25 @@
         max-height: 480px;
     }
 }
+
+.left {
+    float: left;
+    clear: both;
+    padding: 0 1.75rem;
+}
+
+.right {
+    float: right;
+    clear: both;
+    padding: 0 1.75rem;
+}
+
+@media (max-width: 800px) {
+    .left {
+        float: none;
+    }
+
+    .right {
+        float: none;
+    }
+}

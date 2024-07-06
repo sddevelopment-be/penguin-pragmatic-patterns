@@ -19,14 +19,15 @@ internet provides an overwhelming amount of information on coding and productivi
 approach a situation. The proverb "If you put two developers in a room, they will soon generate three dissenting opinions" is, in fact, quite
 accurate.
 
-I realize the irony in writing an opinionated text while also stating that there are too many opinions out there. Still, allow me to explain why I
-set about writing this collection. The basic premise is: __I don't really care how you end up doing things. If you find a way that works well for 
-you, great! By all means, keep doing it.__
-
 {{< image src="/images/chapters/silly_standards.png" 
   alt="Alice and Bob fret over conventions"
   caption="Alice and Bob fret over conventions"
-  size="60%" >}}
+  size="40%"
+  float="right" >}}
+
+I realize the irony in writing an opinionated text while also stating that there are too many opinions out there. Still, allow me to explain why I
+set about writing this collection. The basic premise is: __I don't really care how you end up doing things. If you find a way that works well for
+you, great! By all means, keep doing it.__
 
 As we live our lives, we tend to learn a great deal about a wide variety of topics. From time to time, we are stumped by how elegantly or easily
 someone solves a certain problem. You are left wondering why you have not been tackling similar problems in the same way. It could have saved you
@@ -37,12 +38,6 @@ come before us. Learn what worked, but more importantly, learn why it worked. If
 you, try it out and see what results you achieve with it. If it does not work out as expected, figure out why it did not work. If you are feeling
 particularly charitable, share your newfound knowledge with your friends, coworkers, or the general public.
 
-{{<quote text=`
-Heeded my words not, did you? Pass on what you have learned. Strength. Mastery. 
-But weakness, folly, failure also. Yes,failure most of all. 
-The greatest teacher, failure is. Luke, we are what they grow beyond. That is the true burden of all masters.` 
-author="Yoda, Jedi grandmaster" >}}
-
 ## Intended Audience
 
 This knowledge base is designed to share information and useful practices with technical professionals, particularly those who are new to the
@@ -52,6 +47,12 @@ experiences gathered from various sources, combined with the author's personal e
 The primary goal is to share knowledge and help others improve their skills while navigating the challenges of working in the software development
 field. Ultimately, if this work contributes to making someone's life a little more enjoyable, the mission is accomplished.
 
+{{<quote text=`
+Heeded my words not, did you? Pass on what you have learned. Strength. Mastery.
+But weakness, folly, failure also. Yes,failure most of all.
+The greatest teacher, failure is. Luke, we are what they grow beyond. That is the true burden of all masters.`
+author="Yoda, Jedi grandmaster" >}}
+
 ## Structure
 
 You may already be familiar with some of the ideas presented, so feel free to skip ahead. If you have any feedback or suggestions about
@@ -60,9 +61,12 @@ the content, please leave a comment on the [github page](https://github.com/sdde
 Please note that this knowledge base will remain a work in progress for some time, and not all content will be refined. To stay up-to-date with
 the latest changes, check out the [Changelog](https://github.com/sddevelopment-be/penguin-pragmatic-patterns/blob/develop/docs/CHANGELOG.md).
 
-To enhance your reading experience, this publication is organized by categories, each containing the following types of content:
+To enhance your reading experience, this knowledge base is organized by categories, each containing the following types of content:
 
 - **Patterns:** Short pieces of advice to inspire you, presented in a similar format for easy reference.
+  - **Concepts:** Ideas and models that can change the way you perceive a situation.
+  - **Practices:** Things you can do to improve your skills or work more effectively.
+  - **Procedures:** Step-by-step instructions for completing a task.
 - **Resources and Reviews :** Recommendations for books, articles, and other learning materials that I found helpful.
 - **Glossary:** Definitions and explanations of unfamiliar concepts and abbreviations.
 
@@ -70,7 +74,14 @@ For those interested in further exploration of the topics discussed in this work
 the [Reading list section](/X_Appendix/Learning_Materials/HOME) in the appendices.
 There, you'll find a curated list of books, articles, and audiovisual resources worth exploring.
 
-## A pattern-based approach
+### Interoperability with other frameworks
+
+{{< image src="/images/chapters/silly_standards.png"
+alt="Alice and Bob fret over conventions"
+caption="Alice and Bob fret over conventions"
+size="40%" >}}
+
+### A pattern-based approach
 
 Sharing knowledge can be a challenging task as it involves conveying ideas and thoughts in a way that is easily understood by the receiver. The
 difficulty lies in achieving a high signal-to-noise ratio, where the signal represents the intended message, and the noise represents anything that
@@ -94,9 +105,9 @@ dictionary, each of the "patterns" in this knowledge portfolio is referred to by
 addresses, as well as a description of the context in which it works well.
 
 To share information about things you can do, as well as ideas and models that can change the way you perceive a situation, the patterns in this
-knowledge base are split into two categories: `Concepts` and `Practices`. To keep the content in this work consistent, each pattern follows a similar
-structure. As we now know, context matters! That is why each pattern is prefaced with a short description of when it can be useful to consider using
-it.
+knowledge base are split into the categories: `Concepts`, `Practices`, and `Procedures`. 
+To keep the content in this work consistent, each pattern follows a similar structure. 
+As we now know, context matters! That is why each pattern is prefaced with a short description of when it can be useful to consider using it.
 
 The pattern structure definition is illustrated in the following figure:
 

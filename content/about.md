@@ -74,14 +74,6 @@ For those interested in further exploration of the topics discussed in this work
 the [Reading list section](/X_Appendix/Learning_Materials/HOME) in the appendices.
 There, you'll find a curated list of books, articles, and audiovisual resources worth exploring.
 
-### Interoperability with other frameworks
-
-{{< image src="/images/sense_making_meta_model.png"
-  alt="Compositional breakdown of the overarching sense-making meta model"
-  caption="Compositional breakdown of the overarching sense-making meta model"
-  size="48%"
-  float="left">}}
-
 ### A pattern-based approach
 
 Sharing knowledge can be a challenging task as it involves conveying ideas and thoughts in a way that is easily understood by the receiver. The
@@ -123,11 +115,58 @@ Some patterns may contain references to other resources, as well as supporting e
   tell you what to do?`
 >}}
 
-## Use of AMMERSE values
 
-The [AMMERSE](https://www.ammerse.org/) values are a set of principles that help practitioners evaluate their organizational preferences, needs,
-and desires. Put simple, they are a set of values that can be used to guide decision-making in a variety of contexts.
-AMMERSE is the work of Jonathan B. Crossland, who has kindly allowed their use in this publication.
+## Interoperability with other frameworks
+
+{{< image src="/images/sense_making_meta_model.png"
+alt="Compositional breakdown of the overarching sense-making meta model"
+caption="Compositional breakdown of the overarching sense-making meta model"
+size="40%"
+float="right">}}
+
+One of the tricky things about sharing knowledge is that it is often difficult to find a common language to express ideas. What is evident to
+one person, might be a complete mystery to another. Using a structured way to represent the concepts, practices, and procedures will help you tremendously
+in understanding and sharing them with others. Unfortunately, this does not solve another common problem: __how to make sense of the vast amount
+of frameworks, proscriptive methodologies, and practices that are out there?__
+
+To address this issue, we have created a sense-making meta model that can be used to combine the ideas presented in this knowledge base with
+other sources of information. The model defines three **primary drivers** that influence the way we operate in a certain field of expertise:
+* **Values**: Deeply held beliefs that guide our actions and decisions.
+* **Axioms and Fundamental Laws**: Core (absolute) truths or principles that form the foundation of our understanding of the world.
+* **The current context**: The specific circumstances in which we find ourselves.
+
+These are categorized as **primary drivers** because they are the most influential and deeply rooted aspects of our sense-making process.
+They are --in varying degrees-- difficult to change and are often taken for granted. The model also includes less firmly rooted aspects, which
+are more malleable and can be changed more easily. These are:
+* **Creeds**: Tenet and beliefs that guide our actions and decisions.
+* **Behaviors**: Observable actions and reactions that are influenced by our creed, and the primary drivers.
+
+Finally, the model includes **effects**, which are the outcomes of our actions and decisions.
+These are the (in)direct results of our behaviours, in combination with the current context, and the fundamental laws that apply to the
+situation. For example: If you push a ball off a table (behaviour), while on earth (context), it will fall to the ground (effect) because of
+Newton´s first law of motion (fundamental law).
+
+This knowledge base is designed to help you understand the **creeds**, and **behaviors** parts of the sense-making meta model. That means any of 
+the practices, concepts, and procedures you find here are meant to help you understand and change the way you act and react in a given situation.
+Understanding of the primary drivers is not explicitly covered in this publication, and we recommend you look for other models and frameworks 
+that provide insights into these aspects. This could be the [AMMERSE](https://www.ammerse.org/) values, the [Agile Manifesto](https://agilemanifesto.org/), 
+the [Cynefin framework](https://en.wikipedia.org/wiki/Cynefin_framework), or your religious and ethical beliefs, to name a few. 
+
+{{< warning text=`
+  Please note that the sense-making meta model is a simplification of the complex reality we live in. It is a tool to help you understand and
+  change the way you act and react in a given situation. It is not a complete representation of the world, and it is not meant to be used as a
+  one-size-fits-all explanation for the complexity of the real world.` >}}
+
+### Use of AMMERSE values
+
+As mentioned earlier, this knowledge base is designed to arm you with ideas and practices that can help you navigate the challenges of your 
+daily life. Folowwing the [Sociocracy 3.0](https://sociocracy30.org/) philosophy, the practices are intended to be used as a flexible toolbox.  
+You are free to pick and choose the practices that resonate with you and modify them according to your needs and preferences. To help you out 
+identifying the practices that might be useful to you, we have included an evaluation of the practices based on the [AMMERSE](https://www.ammerse.org/) values.
+
+The [AMMERSE](https://www.ammerse.org/) values are a set of principles that help practitioners evaluate their organizational preferences, 
+needs, and desires. Put simple, they are a set of values that can be used to guide decision-making in a variety of contexts.
+AMMERSE is the work of [Jonathan B. Crossland](https://www.linkedin.com/in/jonathancrossland/), who has kindly allowed their use in this publication.
 Each of the practices is accompanied by an indication of the expected impact of its application on the AMMERSE values in a certain context.
 As an example: a practice titled "Sabotage the project" would have a significant negative effect on the "Environmental", "Reachable" and
 "Maintainable" values.

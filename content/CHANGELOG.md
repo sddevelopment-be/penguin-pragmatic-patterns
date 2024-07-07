@@ -1,3 +1,8 @@
++++
+title = "Change Log"
+subtitle = "All notable changes to this project, documented here"
++++
+
 ## Keeping a Changelog
 
 All notable changes to this project will be documented in this file.

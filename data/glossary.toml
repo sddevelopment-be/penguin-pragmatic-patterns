@@ -322,11 +322,8 @@ references = []
 
 [[terminology]]
 name = "Dispatch latency"
-abbreviation = ""
 domain = "software"
-description = """
-The time it takes to stop one process and start another one.
-"""
+description = "The time it takes to stop one process and start another one."
 aliases = []
 references = []
 
@@ -430,7 +427,7 @@ The Fizz Buzz exercise aims to gauge basic programming aptitude, such as the use
 """
 aliases = []
 references = [
-    { title = "coding doji FizzBuzz description", link = "https://codingdojo.org/kata/FizzBuzz/" }
+    { title = "coding dojo FizzBuzz description", link = "https://codingdojo.org/kata/FizzBuzz/" }
 ]
 
 [[terminology]]

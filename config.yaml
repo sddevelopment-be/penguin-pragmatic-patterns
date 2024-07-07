@@ -79,6 +79,8 @@ params:
         url: /books
       - title: Glossary
         url: /glossary/
+      - title: Change Log
+        url: /changelog/
 
   section2:
     title: What's in it for you?

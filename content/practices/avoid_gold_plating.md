@@ -113,12 +113,12 @@ src="/images/practices/overdesign.png"
 alt="An image of a bicycle with a robotic rear wheel, looking highly complicated and over-engineered"
 >}}
 
-### How not to do it: Enterprise Quality FizzBuzz
+### How not to do it: Enterprise Quality Fizz Buzz
 
-FizzBuzz is a children's game well known to software developers, as it is commonly used as a training exercise or interview question. 
+"Fizz Buzz" is a children's game well known to software developers, as it is commonly used as a training exercise or interview question. 
 The aim is to write a program that counts to a given number. When the current count is divisible by 3, the program should print out `Fizz` rather 
 than the current count. When the current count is divisible by 5, it should print out `Buzz`. If the number divisible by both, we expect `FizzBuzz`.
-The FizzBuzz exercise aims to gauge basic programming aptitude, such as the use of loops and accumulators.
+The Fizz Buzz exercise aims to gauge basic programming aptitude, such as the use of loops and accumulators.
 
 Usually, one can write a program to do this in a dozen lines of code. As satire to the tendency of programmers in big corporations to 
 overcomplicate their code, people have co-created a version of this program that counts upwards of 10'000 lines of code.

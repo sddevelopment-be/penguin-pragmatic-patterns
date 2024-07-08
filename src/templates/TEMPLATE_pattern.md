@@ -54,7 +54,7 @@ The following factors prevent effective application of the practice:
 
 #### Use Cases / Testimonials
 
-### References
+### Further Exploration
 
 > [!STUB]
 > Add references to material referenced in the text, or the original source of the pattern if applicable.

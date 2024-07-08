@@ -32,7 +32,7 @@ params:
   # Open graph allows easy social sharing. If you don't want it you can set it to false or just delete the variable
   openGraph: true
   # Used as meta data; describe your site to make Google Bots happy
-  description:
+  description: Designed to share valuable insights and best practices with kdnowledge workers. Covering a range of topics from cognitive biases to pattern-based knowledge sharing, it combines personal experiences with curated resources to help navigate the complexities of software development.
   # Preloader ensures images are loaded before displaying to the user. If you don't want it uncomment to set it to false
   # preloader: false
   navbarlogo:
@@ -53,7 +53,7 @@ params:
     # Button text
     buttontext: Start Reading
     # Where the main hero button links to
-    buttonlink: "practices"
+    buttonlink: "about"
     # Hero image (from static/images/___)
     image: penguin_learning.png
     # Footer logos (from static/images/logos/clients/*.svg)
@@ -73,12 +73,12 @@ params:
     url: /practices/
   - title: Resources
     sublinks:
-      - title: Tools
-        url: /tools/
-      - title: Bibliography
-        url: /books
       - title: Glossary
         url: /glossary/
+      - title: Bibliography
+        url: /books
+      - title: Recommended Tools
+        url: /tools/
       - title: Change Log
         url: /changelog/
 

@@ -105,7 +105,11 @@ challenges. With "handling most challenges", I do not mean the developer will be
 Rather that they can combine the information they already have, and to come up with of a way of resolving the issue at hand.
 This is what I came up with as a general structure, which you can see reflected in how this work has been structured.
 
-{{< image src="/images/practices/knowledge_map.png"  alt="A mind map of topics in this work"  caption="A mind   map of topics in this work" >}}
+{{< image 
+  src="/images/practices/knowledge_map.png"  
+  alt="A mind map of topics in this work"
+  caption="A mind map of topics in this work" 
+  size="40%" >}}
 
 This map was made digitally by using [PlantUml](https://plantuml.com/mindmap-diagram). This is a text-based graphing language, that you can play
 with on their online editor.

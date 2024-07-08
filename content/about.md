@@ -1,6 +1,9 @@
 +++
 title = "Approach"
 order = 1
+pubdate = "2023-08-26"
+image = "sense_making_meta_model.png"
+summary = "This page is designed to introduce and explain the unique framework through which the site's information is organized and delivered, setting the stage for deeper exploration into the topics covered."
 +++
 
 Over the years, I have consumed numerous books, articles, and videos to enhance my skills as a technical professional. Some lessons have been
@@ -22,7 +25,7 @@ accurate.
 {{< image src="/images/chapters/silly_standards.png" 
   alt="Alice and Bob fret over conventions"
   caption="Alice and Bob fret over conventions"
-  size="40%"
+  size="54%"
   float="right" >}}
 
 I realize the irony in writing an opinionated text while also stating that there are too many opinions out there. Still, allow me to explain why I

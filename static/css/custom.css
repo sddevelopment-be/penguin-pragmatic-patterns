@@ -130,21 +130,25 @@ body {
     text-align: left;
     text-indent: 0;
     margin-bottom: 0.75em;
-    clear: both;
 }
 
-.content h2 {
+.content:not(.pattern) h2 {
     clear: both;
 }
 
 .content h3 {
     font-size: 1.35em;
+}
+.content:not(.pattern) h3 {
     clear: both;
 }
 
 .content h4 {
     font-size: 1.25em;
     margin-top: 2.125em;
+}
+
+.content:not(.pattern) h4 {
     clear: both;
 }
 

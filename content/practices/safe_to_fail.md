@@ -82,7 +82,7 @@ You are not sure if it will be useful for your current project, but you are inte
 
 **Possible outcome:** You decide to not use the new technology for your current project, but you (and your colleagues) have learned something new.
 
-## References
+## Further Exploration
 
 * {{<reference author="Hunt, A."
   year="2008"

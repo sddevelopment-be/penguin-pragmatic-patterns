@@ -134,7 +134,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ```
 
 
-## References
+## Further Exploration
 
 * {{<reference author="Lacan, O."
   year="2023"

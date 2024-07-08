@@ -111,7 +111,7 @@ productive, without losing your mobility.
 
 {{<stub>}}
 
-## References
+## Further Exploration
 
 * {{<reference author="Allen, D."
   year="2015"

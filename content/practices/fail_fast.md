@@ -240,7 +240,7 @@ Failing fast with full feedback allows you to save valuable system resources and
 In real-world scenarios, you could have hundreds of files to check, and the processing of the data is likely to be computationally expensive.
 ` >}}
 
-## References
+## Further Exploration
 
 * {{<reference author="Software Design Knights"
   year="2021"

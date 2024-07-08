@@ -167,7 +167,7 @@ public final class FizzBuzzOutputGenerationContext implements OutputGenerationCo
 }
 ```
 
-## References
+## Further Exploration
 
 * {{<reference author="Nauerby, E. M.; Kragbæk, M.; et al."
   year="2019"

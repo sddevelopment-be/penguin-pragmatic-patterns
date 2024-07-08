@@ -146,7 +146,7 @@ you improve your self-awareness and decision-making skills.
   alt="Applying the STEAM mnemonic model to a real-life situation."  
   caption="Applying the STEAM mnemonic model to a real-life situation." >}}
 
-## References
+## Further Exploration
 
 * {{<reference author="Solan, M."
   year="2022"

@@ -393,7 +393,7 @@ outdated or takes away the possibility of independent thought during implementat
     * **Depends on:** ???
 ```
 
-## References
+## Further Exploration
 
 * {{<reference author="Keeling, M."
     year="2017"

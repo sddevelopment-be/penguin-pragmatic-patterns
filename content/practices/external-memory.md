@@ -89,7 +89,7 @@ workspace of my colleagues. For more long-term or collaborative projects, consid
 developer notes. You can get creative with symbolic links to make these folders show up in your codebase regardless of their physical location.
 ` >}}
 
-## References
+## Further Exploration
 
 * {{<reference author="Pham, T."
   year="2011"

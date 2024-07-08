@@ -129,7 +129,7 @@ Is this urgent? To them, probably. To you? Probably not. If you did not make any
 * **Use as a Guideline:** Treat the matrix as a guideline rather than a strict rule, allowing for adaptability in task prioritization. Use multiple
   prioritization techniques to balance structure and flexibility in task management.
 
-## References
+## Further Exploration
 
 * {{<reference author="Allen, D."
   year="2015"

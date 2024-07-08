@@ -43,7 +43,7 @@ The following factors prevent effective application of the practice:
 
 ## Examples
 
-## References
+## Further Exploration
 
 * {{<reference author="Hunt, A."
   year="2008"

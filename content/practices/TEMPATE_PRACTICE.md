@@ -21,6 +21,8 @@ ammerse = [
     {name = "solvable", delta = "0", rationale = ""},
     {name = "extensible", delta = "0", rationale = ""},
 ]
+related_concepts = []
+related_practices = []
 +++
 
 ## Problem Statement
@@ -40,13 +42,15 @@ The following factors prevent effective application of the practice:
 
 ## Rationale
 
-## Considerations
+## Application
+
+### Considerations
 
 ### Mitigation strategies
 
-## Examples
+### Examples
 
-## References
+## Further Exploration
 
 
 ---

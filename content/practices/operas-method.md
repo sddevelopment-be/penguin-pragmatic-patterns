@@ -128,7 +128,7 @@ In a social context, you might even share your insights with others, so they can
 Note that indirect learning is not for everyone, and others might repeat some of the mistakes you made. Even so, armed with your story, they
 might know a few coping strategies to resolve the situation if it takes a turn for the worst.
 
-## References
+## Further Exploration
 
 * A. Hunt, The GROWS method, [growsmethod.com](https://growsmethod.com/).
 * M. Barnes, The dream game, [theeducationgame.com](https://theeducationgame.com/coaching/).

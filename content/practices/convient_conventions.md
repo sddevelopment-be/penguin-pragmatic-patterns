@@ -178,7 +178,7 @@ Let a machine handle the easily spotted and corrected "issues" in your code base
 Spend your time on digging into the important things, such as functionality or the architecture of the code.
 ` >}}
 
-## References
+## Further Exploration
 
 * {{<reference author="Hoover, D.; Oshineye, A."
   year="2009"

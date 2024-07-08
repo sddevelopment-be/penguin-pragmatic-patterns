@@ -126,7 +126,7 @@ You can see the revised conversation in the image below:
   alt="Alex sends a clearer message to Bernie. Bernie responds with a solution to the problem. Both of them save time."
 >}}
 
-## References
+## Further Exploration
 
 * {{<reference author="Squirrel, D. & Fredrick, J."
   year="2020"

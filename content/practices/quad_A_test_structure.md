@@ -48,7 +48,7 @@ The following factors prevent effective application of the practice:
 
 ## Examples
 
-## References
+## Further Exploration
 
 * {{<reference author="Mellor, A."
   year="2023"

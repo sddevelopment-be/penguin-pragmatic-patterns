@@ -133,7 +133,7 @@ To help you get started on your own list, here are some tasks that can generally
 * throwing away old food from the fridge
 * putting dirty clothes in the laundry basket
 
-## References
+## Further Exploration
 
 * {{<reference author="Covey, S. R.; Collins, J."
   year="2004"

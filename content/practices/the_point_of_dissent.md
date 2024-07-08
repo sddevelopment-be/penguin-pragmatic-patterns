@@ -88,7 +88,7 @@ This proves to be invaluable in identifying alternatives or compromises.
 * When in a discussion, it is more constructive to leave tempers outside.
 * Calmly going through your arguments step-by-step helps avoid personal biases or egos come into play.
 
-## References
+## Further Exploration
 
 * {{<reference author="Squirrel, D. & Fredrick, J."
   year="2022"

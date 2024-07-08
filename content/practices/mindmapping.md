@@ -132,7 +132,7 @@ barrier is quite low. Having a digital copy of your mind map around can come in 
 @endmindmap
 ````
 
-## References
+## Further Exploration
 
 * {{<reference author="Hunt, A."
   year="2008"

@@ -118,22 +118,6 @@ make informed decisions. This approach is based on [the AMMERSE framework for de
      interactions.
    * **Recommendations:** Provide recommendations for mitigation or additional thought based on the comprehensive analysis.
 
-## Considerations
-
-* **Apparent Objectivity:** Though the analysis looks very objective due to the numbers and lengthy calculations, each step in the 
-  analysis is based on subjective assessments and heuristic shortcuts.
-* **Heavy-weight Approach:** The analysis will hinder adaptability, and introduce delays, by its time-consuming nature and tendency to slow down 
-  decision-making processes.
-
-### Mitigation strategies
-
-* **Training and Education:** Provide training on the AMMERSE framework and the impact analysis algorithm to ensure a shared understanding of 
-  its goal, and emphasize how it remains -in essence- an "informed guessing" technique.
-* **Reality check:** Combine quantitative data with qualitative insights for a holistic view.
-* **Simplification:** Streamline the analysis process to minimize initial complexity and enhance practical application.
-* **Pragmatic Adoption:** Use this analysis technique for high-risk, critical decision, or in large, complex, and risk-averse organizations. 
-  Most decisions can be made with less analysis, and effort. 
-
 ## Rationale
 
 ### Interaction Impact Matrices
@@ -193,11 +177,29 @@ Calculating the second-order impact of the other values on the Agile value, we c
 Ma) + (0.05 * E) + (-1 * R) + (0.82 * S) + (0.56 * Ex) / 6). The modifier is how much the second-order feedback loops should be taken into account
 for the final result.
 
-## Examples
+## Application
 
-### Applying the AMMERSE Impact Analysis on the "Let's not make it complicated / Avoid gold plating" pattern
+### Considerations
 
-#### Define the Practice, Technique, or Decision
+* **Apparent Objectivity:** Though the analysis looks very objective due to the numbers and lengthy calculations, each step in the 
+  analysis is based on subjective assessments and heuristic shortcuts.
+* **Heavy-weight Approach:** The analysis will hinder adaptability, and introduce delays, by its time-consuming nature and tendency to slow down 
+  decision-making processes.
+
+### Mitigation strategies
+
+* **Training and Education:** Provide training on the AMMERSE framework and the impact analysis algorithm to ensure a shared understanding of 
+  its goal, and emphasize how it remains -in essence- an "informed guessing" technique.
+* **Reality check:** Combine quantitative data with qualitative insights for a holistic view.
+* **Simplification:** Streamline the analysis process to minimize initial complexity and enhance practical application.
+* **Pragmatic Adoption:** Use this analysis technique for high-risk, critical decision, or in large, complex, and risk-averse organizations. 
+  Most decisions can be made with less analysis, and effort.
+
+### Examples
+
+#### Applying the AMMERSE Impact Analysis on the "Let's not make it complicated / Avoid gold plating" pattern
+
+##### Define the Practice, Technique, or Decision
 
 **Description:**
 The "Avoid Gold-Plating" pattern advises developers to avoid over-designing and over-engineering software. The focus is on implementing only what is necessary to meet current requirements and avoiding unnecessary complexity.
@@ -205,7 +207,7 @@ The "Avoid Gold-Plating" pattern advises developers to avoid over-designing and 
 **Identify Context:**
 This practice can be applied in software development projects, particularly in organizations that prioritize cost-efficiency, readability, and maintainability. It is especially useful in agile environments where iterative development and frequent updates are common.
 
-#### Define Base Impacts
+##### Define Base Impacts
 
 * Agile (A)
    * Definition: Agile refers to the ability to adapt quickly to changes, incorporate feedback, and maintain flexibility in processes and 
@@ -259,7 +261,7 @@ This practice can be applied in software development projects, particularly in o
   * Combined Impact: +0.1 (modularity) - 0.85 (potential significant rework) = -0.75
   * Rationale: The pattern may hinder future extensibility, necessitating significant rework.
 
-#### Summary of Base Impact Values
+##### Summary of Base Impact Values
 
 * **Agile (A):**  `0.4`
 * **Minimal (Mi):**  `0.65`
@@ -270,7 +272,7 @@ This practice can be applied in software development projects, particularly in o
 * **Extensible (Ex):**  `-0.75`
 
 
-#### Step 3: Apply First-Order and Second-Order Interaction Impacts
+##### Step 3: Apply First-Order and Second-Order Interaction Impacts
  
 * **Agile (A)**
   * First-Order Impact: `-0.1333`
@@ -301,9 +303,9 @@ This practice can be applied in software development projects, particularly in o
   * Second-Order Impact: `-0.0405` 
   * Overall Impact: -0.75 + 0.5 *  -0.0366 + 0.25 *  -0.0405 = `-0.7698`
 
-#### Step 4: Summarize Findings
+##### Step 4: Summarize Findings
 
-#####  Rationale for Impact Assessments
+######  Rationale for Impact Assessments
 
 | Value             | Impact Value | Rationale                                                                                                                                                            |
 |-------------------|--------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -315,7 +317,7 @@ This practice can be applied in software development projects, particularly in o
 | Solvable (S)      | `0.35`       | Encourages solving current problems effectively without over-engineering but future problems might require significant refactoring.                                  |
 | Extensible (Ex)   | `-0.8`       | The pattern may hinder future extensibility, necessitating significant rework.                                                                                       |
 
-##### Impact Summary
+###### Impact Summary
 
 | Value         | Impact                                                                                 |
 |---------------|----------------------------------------------------------------------------------------|
@@ -327,7 +329,7 @@ This practice can be applied in software development projects, particularly in o
 | Solvable      | Positive impact on effective problem-solving, but potential for future refactoring.    |
 | Extensible    | Significant negative impact on future extensibility.                                   |
 
-##### Considerations
+###### Considerations
 
 | Value         | Consideration                                                                                                         |
 |---------------|-----------------------------------------------------------------------------------------------------------------------|
@@ -339,7 +341,7 @@ This practice can be applied in software development projects, particularly in o
 | Solvable      | Effective for current issues, but future requirements could necessitate significant changes.                          |
 | Extensible    | Lack of initial extensibility could result in substantial rework later.                                               |
 
-##### Recommendations
+###### Recommendations
 
 * **Regular Reviews:** Implement regular code reviews to ensure adherence to simplicity principles while considering future requirements.
 * **Refactoring:** Encourage refactoring to address technical debt and ensure the codebase remains maintainable.
@@ -352,7 +354,7 @@ focus strictly on current requirements.
 
 By addressing these considerations and implementing the recommendations, the "Avoid Gold-Plating" pattern can be effectively integrated into the software development process, maximizing its positive impacts on the AMMERSE values while mitigating potential downsides.
 
-## References
+## Further Exploration
 
 * {{<reference author="Crossland, J."
   year="2024"

@@ -148,7 +148,7 @@ This gave me two things. Foremost, it helped reassure me that I was not doing ha
 sanity-check of my plans. If my goal was completely unrealistic, she would have undoubtedly told me at that point.
 
 
-## References
+## Further Exploration
 
 * {{<reference author="Various Authors"
   year="2023"

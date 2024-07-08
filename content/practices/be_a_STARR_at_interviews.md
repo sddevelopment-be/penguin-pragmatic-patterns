@@ -135,7 +135,7 @@ truthful) responses.
 * What is one of the most challenging technical issues you encountered so far? How did you solve the problem?
 * Describe a time when you used a metaphor or analogy to explain a tricky concept to a coworker or family member.
 
-## References
+## Further Exploration
 
 * {{<reference author="Cook, S."
   year="2009"

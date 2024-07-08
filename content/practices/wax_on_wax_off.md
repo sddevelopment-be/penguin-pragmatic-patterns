@@ -102,7 +102,7 @@ While this is not training in the same way as performing a kata, it can be a use
 * [Google summer of code challenges](https://summerofcode.withgoogle.com/)
 
 
-## References
+## Further Exploration
 
 * {{<reference author="Handelsman, M. M. PhD" 
 year="2022" 

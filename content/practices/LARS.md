@@ -104,7 +104,7 @@ who seems more interested in tearing you down?
 Here's the real question: What type of host do you aspire to be in your own conversations? The answer may hold the key to more meaningful and
 impactful interactions.
 
-## References
+## Further Exploration
 
 * {{<reference author="Abrahams, M."
   year="2023"

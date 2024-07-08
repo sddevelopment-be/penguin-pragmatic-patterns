@@ -130,7 +130,7 @@ echo $msg
 say -v Luca $msg
 ```
 
-## References
+## Further Exploration
 
 * {{<reference author="Cirillo, F."
   year="2013"

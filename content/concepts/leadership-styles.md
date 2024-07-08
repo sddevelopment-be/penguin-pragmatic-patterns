@@ -56,7 +56,7 @@ of motivation.
 > Researchers found that children under delegative leadership, also known as laissez-fair leadership, were the least productive of all three
 > groups. The children in this group also made more demands on the leader, showed little cooperation and were unable to work independently.
 
-## References, Related Patterns and Resources
+## Further Exploration
 
 * {{<reference author="Doolittle, J."
   year="2020"

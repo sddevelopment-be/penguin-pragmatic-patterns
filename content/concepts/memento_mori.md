@@ -48,7 +48,7 @@ enjoy ourselves[^2]. After all, the graveyards are filled with indispensable peo
 
 
 
-## References
+## Further Exploration
 
 * {{<reference author="Aurelius, M. - Emperor of Rome"
   year="ca. 167"

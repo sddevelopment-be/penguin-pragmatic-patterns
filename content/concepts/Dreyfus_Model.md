@@ -103,7 +103,7 @@ Inexperienced practitioners of a skill are pleased when someone provides them wi
 these instructions will lead to certain success.
 Adapt your coaching and teachings styles to the needs of the learner.
 
-### References and further reading
+## Further Exploration
 
 * {{<reference author="Dreyfus, Stuart E; Dreyfus, Hubert L."
   year="1980"

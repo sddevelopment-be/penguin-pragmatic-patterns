@@ -62,18 +62,25 @@ to creating your own github fork.
 > [!STUB]
 > Describe the reasoning behind the pattern, or go into more detail on why it works.
 
-### Consequences
+### Application
+
+#### Consequences
 
 > [!STUB]
 > Describe how the situation changes after applying the pattern
 > Try and focus on elements that are not immediatly apperent from the "intent" section.
 > Be sure to highlight potential unintended effects.
 
-### Examples
+#### Mitigation strategies
 
-#### Use Cases / Testimonials
+> [!STUB]
+> How to deal with, or prevent, potential negative consequences of applying the pattern
 
-### References
+#### Examples
+
+##### Use Cases / Testimonials
+
+### Further Exploration
 
 > [!STUB]
 > Add references to material referenced in the text, or the original source of the pattern if applicable.

@@ -62,7 +62,7 @@ The expected Return On Investment for each of these options are:
 
 From this we see that option 3 provides the most bang-for-buck. If we only consider ROI, you want to go ahead and work on that one first.
 
-## References
+## Further Exploration
 
 * {{<reference author="CFI Team"
   year="2020"

@@ -45,7 +45,7 @@ You are in a state of flow, not thinking about techniques or principles. You act
 
 {{< image src="/images/concepts/shuhari.jpg" alt="ShuHaRi levels explained" >}}
 
-## References
+## Further Exploration
 
 * {{<reference author="Cockburn, A."
   year="2015"

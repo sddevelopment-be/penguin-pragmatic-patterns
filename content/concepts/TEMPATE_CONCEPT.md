@@ -1,9 +1,10 @@
 +++
-title = "Template name"
+title = "CONCEPT name"
 author = "Stijn Dejongh"
 draft = true
-problem = ""
 description = ""
+summary="""
+"""
 categories = [
     "software development",
 ]
@@ -12,42 +13,34 @@ tags = [
 ]
 uuid="GENERATE-ME!"
 aliases=["uuid"]
-ammerse = [
-    {name = "agile", delta = "0", rationale = ""},
-    {name = "minimal", delta = "0", rationale = ""},
-    {name = "maintainable", delta = "0", rationale = ""},
-    {name = "environmental", delta = "0", rationale = ""},
-    {name = "reachable", delta = "0", rationale = ""},
-    {name = "solvable", delta = "0", rationale = ""},
-    {name = "extensible", delta = "0", rationale = ""},
-]
+related_concepts = []
+related_practices = []
 +++
 
-## Problem Statement
+## Definition
 
-## Intent
+> Offer a precise definition of the concept.
+> Include this in the [../GLOSSARY.md](glossary) as well.
 
-## Contextual forces
-These describe factors at play that influence the outcome of the practice. They are not necessarily good or bad, but they are important to be aware of.
+## Key Components
 
-### Enablers
-The following factors support effective application of the practice:
+## Background
 
-### Deterrents
-The following factors prevent effective application of the practice:
+### Origin
 
-## Solution
+### Application
 
-## Rationale
+### Comparisons
 
-## Considerations
+> Compare the concept with related ideas to highlight its unique aspects.
 
-### Mitigation strategies
+### Examples
+> Illustrate how the concept is applied in a specific scenario.
 
-## Examples
 
-## References
+## Further Exploration
 
+> Provide sources for further reading to allow the reader to explore the concept in more depth.
 
 ---
 

@@ -37,7 +37,7 @@ must prioritize 'performance,' 'low fault tolerance,' 'scalability,' and 'reliab
 
 Now, imagine the business owner also mentions a limited budget for the project—this introduces another critical characteristic: 'feasibility.'
 
-## References
+## Further Exploration
 
 * {{<reference author="CFI Team"
   year="2023"

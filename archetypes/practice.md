@@ -59,7 +59,7 @@ draft = true
 
 ### Use Cases / Testimonials
 
-## References
+## Further Exploration
 
 > [!STUB]
 > Add references to material referenced in the text, or the original source of the pattern if applicable.

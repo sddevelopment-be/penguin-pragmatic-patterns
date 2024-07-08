@@ -69,7 +69,7 @@ Given all these possibilities to dilute a message and draw wrong conclusions, it
 
 
 
-## References, Related Patterns and Resources
+## Further Exploration
 
 * {{<reference author="Abrahams, M."
   year="2023"

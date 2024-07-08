@@ -52,7 +52,7 @@ bases. It may be helpful for you to consider what you can influence in the follo
 * Aspects of company culture
 * Aspects of company policy / procedures, etc
 
-## References
+## Further Exploration
 
 * {{<reference author="Covey, S. R.; Collins, J."
   year="2004"

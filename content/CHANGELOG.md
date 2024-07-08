@@ -27,10 +27,11 @@ Following changes are known:
 
 - Switch from C4-builder to [hugo](https://gohugo.io/) as site generator
 - References now follow the APA format more closely
-- Bibliography and Tool sections now contain a short description
+- Bibliography and Tool sections now contain a shorlot description
 - Display of patterns switched to vertical scroll
-- Updated the ¨development roadmap" mindstorm image
+- Updated the "development roadmap" mindstorm image
 - Split up some patterns to increase their focus on a single technique
+- Updated the "[Approach](/about)" page, introducing the "sense making" meta-model
 
 ### Added
 

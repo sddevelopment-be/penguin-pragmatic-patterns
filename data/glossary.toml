@@ -117,6 +117,21 @@ aliases = []
 references = []
 
 [[terminology]]
+name = "Clean Code"
+domain = "software"
+description = """
+Clean code refers to code that is easy to understand, maintain, and extend. It is written in a way that clearly communicates its intent, making it
+accessible to other developers and to the original author when revisiting the code after some time. Clean code minimizes complexity and avoids
+unnecessary clutter.
+"""
+aliases = []
+references = [
+    { title = "Extreme Programming Explained: Embrace Change", link = "https://www.goodreads.com/book/show/67833.Extreme_Programming_Explained" },
+    { title = "Refactoring: Improving the Design of Existing Code", link = "https://www.goodreads.com/book/show/18624706-refactoring" },
+    { title = "Clean Code: A Handbook of Agile Software Craftsmanship", link = "https://www.goodreads.com/book/show/3735293-clean-code" }
+]
+
+[[terminology]]
 name = "Conway's Law"
 domain = "Software architecture"
 description = """

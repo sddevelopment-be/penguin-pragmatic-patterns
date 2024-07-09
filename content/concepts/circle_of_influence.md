@@ -1,6 +1,6 @@
 +++
 title = "Your circle of influence"
-subtitle=""
+subtitle = ""
 author = "Stijn Dejongh"
 description = "Differentiate between the things/situations where you can have a direct impact, and those where you don't."
 type = "concept"
@@ -10,10 +10,10 @@ categories = [
 tags = [
     "focus", "impact"
 ]
-uuid="3d5b775a-bd5d-40de-8ed3-d390dae16b7b"
-aliases=["3d5b775a-bd5d-40de-8ed3-d390dae16b7b"]
-image="concepts/banner_circle_of_influence.webp"
-pubdate="2023-09-12"
+uuid = "3d5b775a-bd5d-40de-8ed3-d390dae16b7b"
+aliases = ["3d5b775a-bd5d-40de-8ed3-d390dae16b7b"]
+image = "concepts/banner_circle_of_influence.webp"
+pubdate = "2023-09-12"
 +++
 
 
@@ -23,7 +23,6 @@ Courage, to change the things I can;
 And wisdom, to know the difference.  
 `
 author="Reinhold Niebuhr; Shortened Serenity Prayer; ca. 1930.">}}
-
 
 ## Definition
 
@@ -39,7 +38,6 @@ The idea is simple: think of yourself as the centre of a set of circles of incre
 Within each of these areas are things you can influence to various degrees.
 Deciding how far your personal circle of influence reaches, can help you focus your attention and actions to the things that are within your
 grasp to have an impact on.
-
 
 * **Personal Influence:** The innermost circle represents the individual's direct control, including their thoughts, behaviors, and immediate
   actions.
@@ -60,7 +58,7 @@ Though you'd likely have more of an impact directing your attention to your own 
 ### Origin
 
 The Circle of Influence concept is popularized by Stephen R. Covey in his book "The 7 Habits of Highly Effective People," where he emphasizes the
-importance of focusing on what one can control to lead a more effective and fulfilling life. It also draws on the principles of Stoicism, and is 
+importance of focusing on what one can control to lead a more effective and fulfilling life. It also draws on the principles of Stoicism, and is
 closely related to the approach used by the Logotherapy school of psychology, as developed by Viktor Frankl.
 
 ### Application

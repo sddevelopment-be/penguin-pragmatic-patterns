@@ -42,7 +42,6 @@
 .text_image {
     max-height: 65rem;
     max-width: 50rem;
-    margin: 3.65rem auto;
     text-align: center;
     width: auto;
     height: auto;
@@ -57,8 +56,10 @@
 .text_image a img {
     max-height: 65rem;
     max-width: 50rem;
-    width: 100%;
+    width: 95%;
 }
+
+
 
 @media (max-width: 800px) {
     .text_image {
@@ -74,16 +75,23 @@
     }
 }
 
+.center {
+    clear: both;
+    margin: auto;
+}
+
 .left {
     float: left;
     clear: both;
-    padding: 0 1.5rem;
+    padding: 0 1.5rem 0 0.125rem;
+    margin-right: 0.75rem;
 }
 
 .right {
     float: right;
     clear: both;
-    padding: 0 1.5rem;
+    padding: 0 0.125rem 0 1.5rem;
+    margin-left: 0.75rem;
 }
 
 @media (max-width: 800px) {

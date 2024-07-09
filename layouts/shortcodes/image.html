@@ -2,10 +2,14 @@
 {{ $alt := .Get "alt" }}
 {{ $caption := .Get "caption" }}
 {{ $scale := .Get "size" }}
-{{ $float := .Get "float" }}
+{{ $allign := .Get "float" }}
+
+{{ if not $allign }}
+    {{ $allign = "center" }}
+{{ end }}
 
 {{ if $caption }}
-<div class="img-gallery {{ $float }}" {{ if $scale }}style="max-width: {{ $scale }}; "{{ end}}>
+<div class="img-gallery {{ $allign }}" {{ if $scale }}style="max-width: {{ $scale }}; "{{ end}}>
     <figure>
         <a class="search-icon" target="_blank" href="{{ $src }}" title="{{ $alt }}">
             <picture>
@@ -17,7 +21,7 @@
     </figure>
 </div>
 {{ else }}
-<div class="text_image {{ $float }}" {{if $scale}}style="max-width: {{ $scale }}; "{{ end}}>
+<div class="text_image {{ $allign }}" {{if $scale}}style="max-width: {{ $scale }}; "{{ end}}>
     <a class="search-icon" target="_blank" href="{{ $src }}" title="{{ $alt }}">
         <picture>
             <source srcset="{{ $src }}" type="image/png"/>

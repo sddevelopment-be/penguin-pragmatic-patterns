@@ -2,7 +2,9 @@
 title = "Dreyfus model"
 subtitle = "The steps of mastery"
 author = "Stijn Dejongh"
-description = "Formal model on learner progression, the emerging skills they acquire, and the challenges specific to each step."
+description = """The Dreyfus model of skill acquisition is a formal framework that defines five distinct stages of mastery, showing how learners 
+progress and change in their application of skills and knowledge.
+"""
 type = "concept"
 categories = [
     "learning",
@@ -12,6 +14,7 @@ tags = [
 ]
 uuid="98cc5f46-409b-44df-9fb8-fb1d881970b5"
 aliases=["98cc5f46-409b-44df-9fb8-fb1d881970b5"]
+related_concepts = ["a49f917b-c560-462a-ac38-46515f6f62d0"]
 pubdate="2023-09-09"
 image="concepts/banner_dreyfus.webp"
 +++
@@ -21,28 +24,28 @@ Every journey begins with one step in the right direction.
 In order to know the direction to take, it is important to know where you are at right now.
 ` author="paraphrasing Sun Tzu" >}}
 
-## Description
+## Definition
 
-The Dreyfus model of skill acquisition is a formal model, that defines five distinct steps of mastery.  
-As a learner progresses from on stage to the next, there is a series of changes in how they apply their individual skill set and knowledge.
-What is even more interesting is that the learner starts thinking in different ways.
+The Dreyfus model of skill acquisition is a formal framework that defines five distinct stages of mastery, showing how learners progress and change
+in their application of skills and knowledge. These stages are Novice, Advanced Beginner, Competent, Proficient, and Expert.
 
-The different levels of master in the Dreyfus Model (in ascending order of mastery) are:
-* Novice
-* Advanced beginner
-* Competent
-* Proficient
-* Expert
 
-These will be described across these four main areas:
-* **Recollection:** Describes the relationship between the practitioner and the application of knowledge they obtain.
-* **Recognition:** Describes the way the practitioner is able to recognize situations and relevant actions.
-* **Decision:** Describes the way the practitioner decides on a course of action.
-* **Awareness:** Describes the way the practitioner is able to extract information from their context / environment.
+## Key Components
 
-{{<image src="/images/concepts/dreyfus.jpg" alt="An overview of the different mastery levels according to the Dreyfus Model" >}}
+{{<image src="/images/concepts/dreyfus.jpg" 
+  alt="An overview of the different mastery levels according to the Dreyfus Model" 
+  float="right" 
+  size="46%" >}}
+
+The different skill level are described across these four main areas:
+
+* **Recollection:** The relationship between the practitioner and their application of knowledge.
+* **Recognition:** The practitioner's ability to recognize situations and relevant actions.
+* **Decision:** The practitioner's process of deciding on a course of action.
+* **Awareness:** The practitioner's ability to extract information from their context or environment.
 
 ## Breakdown of skill levels
+
 
 ### Novice
 
@@ -94,9 +97,24 @@ These will be described across these four main areas:
 * **Awareness:** Absorbed. The learner subconsciously takes mental note of behaviours and characteristics of their environment. They **feel** when
   something is going well, or when risks are on the horizon.
 
-## Usage
+## Background
 
-### Tailoring coaching approach to the learner's skill level
+### Origin
+
+The Dreyfus model was developed by Stuart E. Dreyfus and Hubert L. Dreyfus at the University of California, Berkeley. It was first introduced in
+their 1980 paper, "A Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition."
+
+### Application
+
+### Comparisons
+
+The Dreyfus model can be compared to other skill acquisition frameworks, such as the Bloom's Taxonomy of Learning Domains, which categorizes
+educational goals and objectives. While Bloom’s Taxonomy focuses on cognitive skills, the Dreyfus model emphasizes practical skill development and
+the transformation in thought processes.
+
+### Examples
+
+#### Tailoring coaching approach to the learner's skill level
 
 In general, the more experienced one becomes, the more they start internalizing a concept of "the bigger picture".
 Inexperienced practitioners of a skill are pleased when someone provides them with clear-cut instructions, especially if they've heard applying

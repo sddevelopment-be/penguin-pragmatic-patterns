@@ -12,6 +12,7 @@ tags = [
 ]
 uuid="a49f917b-c560-462a-ac38-46515f6f62d0"
 aliases=["a49f917b-c560-462a-ac38-46515f6f62d0"]
+related_concepts = ["98cc5f46-409b-44df-9fb8-fb1d881970b5"]
 pubdate="2023-09-09"
 image="concepts/banner_shuhari.webp"
 +++

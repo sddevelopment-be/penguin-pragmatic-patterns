@@ -57,6 +57,7 @@
 .text_image a img {
     max-height: 65rem;
     max-width: 50rem;
+    width: 100%;
 }
 
 @media (max-width: 800px) {
@@ -76,21 +77,23 @@
 .left {
     float: left;
     clear: both;
-    padding: 0 1.75rem;
+    padding: 0 1.5rem;
 }
 
 .right {
     float: right;
     clear: both;
-    padding: 0 1.75rem;
+    padding: 0 1.5rem;
 }
 
 @media (max-width: 800px) {
     .left {
         float: none;
+        max-width: 100% !important;
     }
 
     .right {
         float: none;
+        max-width: 100% !important;
     }
 }

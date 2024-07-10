@@ -62,14 +62,31 @@ the most of their time, and ensure their actions align with their values.
 
 ### Comparisons
 
-Memento Mori is similar to other philosophical and religious practices that emphasize the transient nature of life, such as the Buddhist concept of
-impermanence and the Stoic practice of negative visualization. Other religious traditions, such as Christianity, also incorporate the passing of
-time and the inevitability of death into their teachings to encourage virtuous living.
+#### Philosophical and Religious Practices
 
-In contrast, the hedonistic philosophy of Epicureanism focuses on seeking pleasure and avoiding pain, while Memento Mori encourages individuals to
-consider the long-term impact of their actions. Nihilism, which also emphasizes our eventual demise, rejects the idea of inherent meaning or purpose
-in life, leading to a highly different set of conclusions.
+Similar to Memento Mori, the Buddhist concept of impermanence emphasizes the transient nature of life. Both philosophies encourage mindfulness and
+an appreciation of the present moment, though Buddhism also focuses on the cycle of birth, death, and rebirth, promoting detachment from material
+possessions and desires. Memento Mori closely aligns with the Stoic practice of negative visualization, where individuals are encouraged to contemplate potential
+misfortunes, including death. This practice aims to build resilience and gratitude for what one currently has, fostering a more virtuous and
+meaningful life. Christianity incorporates the inevitability of death into its teachings, urging followers to live virtuously and focus on their spiritual
+well-being. The concept of judgment and the afterlife further encourages ethical living and self-reflection, similar to the goals of Memento Mori.
 
+In contrast to Memento Mori, Epicureanism focuses on seeking pleasure and avoiding pain. While Memento Mori urges individuals to consider the
+long-term impact of their actions and live a meaningful life, Epicureanism prioritizes immediate gratification and the pursuit of personal
+happiness. Nihilism, which also emphasizes the inevitability of death, rejects the idea of inherent meaning or purpose in life. This contrasts sharply with
+Memento Mori, which encourages individuals to find personal meaning and live purposefully despite their mortality. Nihilism can lead to existential
+despair, whereas Memento Mori seeks to motivate and inspire thoughtful living.
+
+#### Mindfulness Practices
+
+Modern mindfulness techniques, often derived from Buddhist practices, encourage living in the present moment and appreciating life as it is. These
+practices, like Memento Mori, promote a deep awareness of one's actions and their impact, though mindfulness may not explicitly focus on mortality.
+
+#### Time Management Strategies
+
+Time management techniques, such as those advocated by Stephen Covey in "The 7 Habits of Highly Effective People," emphasize prioritizing important
+tasks and aligning actions with personal values. While these strategies may not directly address mortality, they share the goal of making the most
+of one's time and living a purposeful life.
 
 ### Examples
 

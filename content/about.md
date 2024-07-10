@@ -25,7 +25,7 @@ accurate.
 {{< image src="/images/chapters/silly_standards.png" 
   alt="Alice and Bob fret over conventions"
   caption="Alice and Bob fret over conventions"
-  size="54%"
+  size="44%"
   float="right" >}}
 
 I realize the irony in writing an opinionated text while also stating that there are too many opinions out there. Still, allow me to explain why I

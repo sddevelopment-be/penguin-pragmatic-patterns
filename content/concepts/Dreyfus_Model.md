@@ -47,55 +47,50 @@ The different skill level are described across these four main areas:
 ## Breakdown of skill levels
 
 
-### Novice
+* **Novice**
+  * **Recollection:** Non-Situational. The learner applies their knowledge by following a script to the letter.
+  * **Recognition:** Decomposed. The learner sees knowledge as fixed predefined scripts or processes, to be followed to the letter.
+  * **Decision:** Analytical. The learner checks whether they know the script for the current situation. They are not comfortable making decisions
+    about their approach.
+  * **Awareness:** Monitoring. The learner has little understanding of what to look out for, and is closely monitoring the desired outcome of their
+    current action/task.
 
-* **Recollection:** Non-Situational. The learner applies their knowledge by following a script to the letter.
-* **Recognition:** Decomposed. The learner sees knowledge as fixed predefined scripts or processes, to be followed to the letter.
-* **Decision:** Analytical. The learner checks whether they know the script for the current situation. They are not comfortable making decisions
-  about their approach.
-* **Awareness:** Monitoring. The learner has little understanding of what to look out for, and is closely monitoring the desired outcome of their
-  current action/task.
+* **Advanced beginner**
+  * **Recollection:** Situational. The learner is able to rely on similar previous experiences and can adapt some of the steps in the script to
+    better fit their situation.
+  * **Recognition:** Decomposed. The learner has gained more insight in the details of each step. They begin to understand the characteristics of
+    the actions they are performing based on previous experiences.
+  * **Decision:** Analytical. The learner checks whether they know the script for the current situation. They are not comfortable making decisions
+    about their approach.
+  * **Awareness:** Monitoring. The learner knows some things to look out for, and is constantly paying close attention to them.
 
-### Advanced beginner
+* **Competent**
+  * **Recollection:** Situational. Rather than relying on a single script, the learner can choose their approach from a variety of possible
+    procedures.
+  * **Recognition:** Holistic. The learner has insight in the larger goals behind the different actions in the process. They are able to adapt
+    their approach to the current situation.
+  * **Decision:** Analytical. The learner is able to accurately assess most situations through careful inspection. Based on this assessment,
+    they plan their approach.
+  * **Awareness:** Monitoring. The learner keeps a close eye on the key characteristics of their environment. They know what to pay attention to
+    in the given situation.
 
-* **Recollection:** Situational. The learner is able to rely on similar previous experiences and can adapt some of the steps in the script to
-  better fit their situation.
-* **Recognition:** Decomposed. The learner has gained more insight in the details of each step. They begin to understand the characteristics of
-  the actions they are performing based on previous experiences.
-* **Decision:** Analytical. The learner checks whether they know the script for the current situation. They are not comfortable making decisions
-  about their approach.
-* **Awareness:** Monitoring. The learner knows some things to look out for, and is constantly paying close attention to them.
+* **Proficient**
+  * **Recollection:** Situational. The learner is guided by the principles rather than scripts.
+  * **Recognition:** Holistic. The learner has a profound insight in the goals behind each step in the process, and how they interact. They see the
+    higher-level guiding principles. They are able to spot deviations from the normal pattern.
+  * **Decision:** Intuitive. The learner has less need for a deep analysis of the full situation before they can decide on a plan of action. They
+    deeply analyse only the most important situational factors.
+  * **Awareness:** Monitoring. The learner knows the characteristics that have an effect on their approach and meticulously keeps track of all of
+    them.
 
-### Competent
-
-* **Recollection:** Situational. Rather than relying on a single script, the learner can choose their approach from a variety of possible
-  procedures.
-* **Recognition:** Holistic. The learner has insight in the larger goals behind the different actions in the process. They are able to adapt
-  their approach to the current situation.
-* **Decision:** Analytical. The learner is able to accurately assess most situations through careful inspection. Based on this assessment,
-  they plan their approach.
-* **Awareness:** Monitoring. The learner keeps a close eye on the key characteristics of their environment. They know what to pay attention to
-  in the given situation.
-
-### Proficient
-
-* **Recollection:** Situational. The learner is guided by the principles rather than scripts.
-* **Recognition:** Holistic. The learner has a profound insight in the goals behind each step in the process, and how they interact. They see the
-  higher-level guiding principles. They are able to spot deviations from the normal pattern.
-* **Decision:** Intuitive. The learner has less need for a deep analysis of the full situation before they can decide on a plan of action. They
-  deeply analyse only the most important situational factors.
-* **Awareness:** Monitoring. The learner knows the characteristics that have an effect on their approach and meticulously keeps track of all of
-  them.
-
-### Expert
-
-* **Recollection:** Situational. The learner no longer relies on adhering to rules or principles, but can adapt their knowledge to the situation
-  at hand.
-* **Recognition:** Holistic. The learner has a very profound understanding of the subject area, and are able to see situations as a whole.
-* **Decision:** Intuitive. The learner's decisions are driven mostly by their gut feeling. They are able to fluently combine their instincts and a
-  deeper analysis of novelties. Often they find it difficult to explain exactly WHY they took a certain decision.
-* **Awareness:** Absorbed. The learner subconsciously takes mental note of behaviours and characteristics of their environment. They **feel** when
-  something is going well, or when risks are on the horizon.
+* **Expert**
+  * **Recollection:** Situational. The learner no longer relies on adhering to rules or principles, but can adapt their knowledge to the situation
+    at hand.
+  * **Recognition:** Holistic. The learner has a very profound understanding of the subject area, and are able to see situations as a whole.
+  * **Decision:** Intuitive. The learner's decisions are driven mostly by their gut feeling. They are able to fluently combine their instincts and a
+    deeper analysis of novelties. Often they find it difficult to explain exactly WHY they took a certain decision.
+  * **Awareness:** Absorbed. The learner subconsciously takes mental note of behaviours and characteristics of their environment. They **feel** when
+    something is going well, or when risks are on the horizon.
 
 ## Background
 

@@ -77,21 +77,21 @@
 
 .center {
     clear: both;
-    margin: auto;
+    margin: 2.75rem auto 1.25rem;
 }
 
 .left {
     float: left;
     clear: both;
     padding: 0 1.5rem 0 0.125rem;
-    margin-right: 0.75rem;
+    margin: auto 0.75rem 1.25rem auto;
 }
 
 .right {
     float: right;
     clear: both;
     padding: 0 0.125rem 0 1.5rem;
-    margin-left: 0.75rem;
+    margin: auto auto 1.25rem 0.75rem;
 }
 
 @media (max-width: 800px) {

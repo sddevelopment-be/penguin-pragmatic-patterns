@@ -144,8 +144,9 @@ body {
 }
 
 .content h4 {
-    font-size: 1.25em;
+    font-size: 1.15em;
     margin-top: 2.125em;
+    color: #556975;
 }
 
 .content:not(.pattern) h4 {

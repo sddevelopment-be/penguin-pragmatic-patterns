@@ -1,11 +1,11 @@
 {{ template "_internal/google_analytics.html" . }}
 
 {{ if .Params.Summary }}
-        <meta property="description" content="{{ .Params.Summary }}" />
+        <meta name="description" content="{{ .Params.Summary }}" />
     {{ else if .Params.Description }}
-        <meta property="description" content="{{ .Params.Description }}" />
+        <meta name="description" content="{{ .Params.Description }}" />
     {{ else if .Site.Params.Description }}
-        <meta property="description" content="{{ .Site.Params.Description }}" />
+        <meta name="description" content="{{ .Site.Params.Description }}" />
     {{ else }}
     <meta property="description" content="No description available" />
 {{ end }}
@@ -13,20 +13,20 @@
 <meta name="robots" content="nofollow" />
 
 {{ if .Params.Title }}
-    <meta property="og:title" content="SD Development: {{ .Params.Title }}">
+    <meta name="og:title" content="SD Development: {{ .Params.Title }}">
     {{ else if .Site.Title }}
-    <meta property="og:title" content="{{ .Site.Title}}" />
+    <meta name="og:title" content="{{ .Site.Title}}" />
 {{ end }}
 {{ if .Params.Summary }}
-    <meta property="og:description" content="{{ .Params.Summary }}" />
+    <meta name="og:description" content="{{ .Params.Summary }}" />
     {{ else if .Params.Description }}
-        <meta property="og:description" content="{{ .Params.Description }}" />
+        <meta name="og:description" content="{{ .Params.Description }}" />
     {{ else if .Site.Params.Description }}
-        <meta property="og:description" content="{{ .Site.Params.Description }}" />
+        <meta name="og:description" content="{{ .Site.Params.Description }}" />
     {{ else }}
-        <meta property="og:description" content="No description available" />
+        <meta name="og:description" content="No description available" />
 {{ end }}
-{{ if .Params.Image }}<meta property="og:image" content="{{ .Site.BaseURL }}/images/{{ .Params.Image }}" />{{ end }}
+{{ if .Params.Image }}<meta name="og:image" content="{{ .Site.BaseURL }}/images/{{ .Params.Image }}" />{{ end }}
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">

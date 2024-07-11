@@ -1,5 +1,5 @@
 ---
-name: Pattern Suggestion
+name: Practice Suggestion
 about: "Suggestion for a technical or behavioural pattern that could be a good addition to the collection."
 title: ""
 labels: "type: practice-suggestion"

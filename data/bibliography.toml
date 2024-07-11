@@ -5,7 +5,7 @@ isbn = "978-0135957059"
 authors = "Thomas, D.; Hunt, A."
 publisher = "Addison-Wesley Professional"
 location = ""
-image = "prag_prog_20.png"
+image = "prag_prog_20.webp"
 year = "2019"
 link = "https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/"
 description = """
@@ -29,7 +29,7 @@ authors = "Hoover, D.; Oshineye, A."
 publisher = "O'Reilly Media, Inc."
 year = "2009"
 location = ""
-image = "apprent_patterns.jpeg"
+image = "apprent_patterns.webp"
 link = "https://www.oreilly.com/library/view/apprenticeship-patterns/9780596806842/"
 description = """
 For individuals transitioning to new teams or roles, Apprenticeship Patterns offers invaluable advice. In this book, the authors provide practical
@@ -49,7 +49,7 @@ publisher = "The Pragmatic Bookshelf"
 location = ""
 year = "2011"
 link = "https://pragprog.com/titles/jcdeg/new-programmer-s-survival-manual/"
-image = "survival_manual.jpg"
+image = "survival_manual.webp"
 description = """
 In "New Programmer's Survival Manual," the author addresses critical questions in the software development field:
 How can you effectively steer your career in this dynamic industry? And how can you ensure you're recognized and not overlooked for promotions,
@@ -68,7 +68,7 @@ publisher = "Free Press"
 location = ""
 year = "2004"
 link = "https://www.goodreads.com/book/show/36072.The_7_Habits_of_Highly_Effective_People"
-image = "covey_habbits.jpg"
+image = "covey_habbits.webp"
 description = """
 A revered classic in the realms of both software development and management, Stephen R. Covey's book delves into the transformative power of
 effective habits. Covey introduces readers to a set of values and practices that promote mindful time management. He explores the art of personal
@@ -88,7 +88,7 @@ publisher = "Pragmatic Bookshelf"
 location = ""
 year = "2006"
 link = "https://pragprog.com/titles/pad/practices-of-an-agile-developer/"
-image = "agile_dev_venkat.jpg"
+image = "agile_dev_venkat.webp"
 description = """
 In "Practices of an Agile Developer," authors Dr. Venkat Subramaniam and Mr. Andy Hunt offer readers a unique perspective on Agile development.
 Unlike many other books on the subject, this book delves into the complexities of working within a corporate environment. Drawing from their personal experiences,
@@ -109,7 +109,7 @@ publisher = "Portfolio"
 location = ""
 year = "2016"
 link = "https://www.goodreads.com/book/show/27036528-ego-is-the-enemy"
-image = "ego_enemy.jpg"
+image = "ego_enemy.webp"
 description = """
 In _"Ego Is the Enemy"_, Holiday presents a contemporary exploration of Stoic principles, emphasizing the importance of authenticity and resilience
 when faced with adversity. He weaves a compelling narrative by drawing on the stories of historical figures to illustrate how unchecked success
@@ -132,7 +132,7 @@ publisher = "Penguin Books"
 location = ""
 year = "2015"
 link = "https://www.goodreads.com/book/show/22573850-getting-things-done"
-image = "gtd.jpg"
+image = "gtd.webp"
 description = """
 A no-nonsense approach to take control of your time. Allen shares his tips to keep focussed on what is important to you,
 emphasises the need for a system you can trust, and empowers you to implement a way of organizing your life and commitments that fits your preferences.
@@ -149,7 +149,7 @@ publisher = "The Pragmatic Bookshelf"
 location = ""
 year = "2008"
 link = "https://pragprog.com/titles/ahptl/pragmatic-thinking-and-learning/"
-image = "prag_thinking.jpg"
+image = "prag_thinking.webp"
 description = """
 Dive into your own brain and learn about efficient learning. Hunt discusses various techniques that have helped him stay
 on top of his game over a career spanning decades. As a professional, your main weapon is your ability to learn.
@@ -168,7 +168,7 @@ publisher = "PuddleDancer Press"
 location = ""
 year = "2015"
 link = "https://www.goodreads.com/book/show/25073935-nonviolent-communication"
-image = "nvc.jpg"
+image = "nvc.webp"
 description = """
 Rosenberg teaches how to talk to others in an empathetic way. But above else, he shows the need for compasionate self-talk, and deep understanding of our own desires and needs.
 While his verbal forms sound a bit artificial and forced, after some practise, you will be able to include the non-violent style of communication in your own relationships.
@@ -186,7 +186,7 @@ publisher = "IT Revolution Press"
 location = ""
 year = "2020"
 link = "https://agileconversations.com"
-image = "agile_conversations.jpg"
+image = "agile_conversations.webp"
 description = """
 The authors start from the premise that every organizational problem is in fact a "people problem".
 Fredrick and Squirrel, hosts of the podcast `Troubleshooting Agile`, help the reader debug their conversations.
@@ -204,7 +204,7 @@ publisher = "Dorset House Publishing"
 location = ""
 year = "1985"
 link = "https://www.goodreads.com/book/show/566213.The_Secrets_of_Consulting"
-image = "secrets_consulting.jpg"
+image = "secrets_consulting.webp"
 description = """
 Stories from the life of a consultant, with detailed descriptions of how the author came to be a consultant, and practical tips on giving advice that is (perceived as) highly valuable.
 Includes such gems as: "whatever your client is doing, suggest they do the opposite", and "be sure to ask for a high fee, so you are taken more seriously".
@@ -221,7 +221,7 @@ publisher = "The Pragmatic Bookshelf"
 location = ""
 year = "2005"
 link = "https://pragprog.com/titles/rdbcd/behind-closed-doors/"
-image = "behind_closed_doors.jpg"
+image = "behind_closed_doors.webp"
 description = """
 The story of an experienced manager, brought into a company to save it. The reader follows along as "Sam" journeys through the corporate landscape, and has conversations with his direct reports.
 Rothman manages to convey important good management practices in an elegant, and easily diggestible way.
@@ -238,7 +238,7 @@ publisher = "Skyhorse"
 location = ""
 year = "2020"
 link = "https://www.goodreads.com/book/show/50041015-the-art-of-captivating-conversation"
-image = "captivating_conversation.jpg"
+image = "captivating_conversation.webp"
 description = """
 King gives us the red pill outline of why we have conversations with people. Bottom line, he says, we want to get something out of the exchange.
 Whether this is entertainment, confort, friendship, or a more direct purpose. The author has a highly utilitairian view on the subject,
@@ -257,7 +257,7 @@ publisher = "Winsome Book India"
 location = ""
 year = "2009"
 link = "https://www.amazon.com/Five-Dysfunctions-Team-Leadership-Fable/dp/8126522747"
-image = "dysfunctions_team.jpg"
+image = "dysfunctions_team.webp"
 description = """
 You will find a plethora of books on how to build succesful teams, but you will not find many that explain what factors can break a team.
 By focussing on the dark side of team dynamics, Lencioni informs us of what to look out for when working with others. He explains how a lack of trust between
@@ -275,7 +275,7 @@ publisher = " Berrett-Koehler Publishers"
 location = ""
 year = "2017"
 link = "https://www.goodreads.com/book/show/33830612-prisoners-of-our-thoughts"
-image = "prisoners.jpg"
+image = "prisoners.webp"
 description = """
 An in depth view on the philosophy of Victor Frankl, the founder of logotherapy. The books explains how Frankl's philosophy helped him not only endure the
 nazi concentration camps, but to do so without losing his sense of self. A powerful read on the strength of a persons mind, and our ability to overcome the gravest of circumstances.
@@ -294,7 +294,7 @@ publisher = "Addison-Wesley"
 location = ""
 year = "2004"
 link = "https://www.goodreads.com/book/show/67833.Extreme_Programming_Explained"
-image = "xp_explained.jpg"
+image = "xp_explained.webp"
 description = """
 Beck describes a project methodology that focusses on the daily practices developers can use, in order to achieve results in a faster, reliable, and sustainable way.
 While other methodologies dive into team structure, and management, Beck and Andres decided to stick to reusable practices that can be applied in most settings.
@@ -313,7 +313,7 @@ publisher = "Addison-Wesley Professional"
 location = ""
 year = "1995"
 link = "https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month"
-image = "mythical_month.jpg"
+image = "mythical_month.webp"
 description = """
 Brooks blends facts and stories together in a though-provoking selection of essays.
 While the author mostly talks about software projects, the lessons and frustrations apply to anyone who has had the dubious pleasure of leading a team.
@@ -332,7 +332,7 @@ publisher = "No Starch Press"
 location = ""
 year = "2019"
 link = "https://automatetheboringstuff.com/"
-image = "automate_boring_stuff.jpg"
+image = "automate_boring_stuff.webp"
 description = """
 Aimed at novice programmers, and those without a formal computer science background, this book teaches you how to automate parts of your working life.
 Using python, the reader is first guided through some programming basics, before diving in to practical examples of automation in real-world contexts.
@@ -350,7 +350,7 @@ publisher = "Wrox"
 location = ""
 year = "2015"
 link = "https://www.goodreads.com/book/show/25531393-patterns-principles-and-practices-of-domain-driven-design"
-image = "ddd_practices.jpg"
+image = "ddd_practices.webp"
 description = """
 Millet and Tune are some of the forerunners in the field of Domain-Driven Design, an architectural approach that aims to
 further allign business concepts and their technical implementation. The authors focus on the core concepts of a domain-driven system development approach,
@@ -369,7 +369,7 @@ publisher = "Addison-Wesley Professional"
 location = ""
 year = "1994"
 link = "https://www.goodreads.com/book/show/85009.Design_Patterns"
-image = "go4_patterns.jpg"
+image = "go4_patterns.webp"
 description = """
 Known as the 'Gang of Four,' the authors of this book have contributed significantly to the field of software development. Their work serves as a foundational text in the discipline.
 <br /><br />
@@ -393,7 +393,7 @@ publisher = "The Pragmatic Bookshelf"
 location = ""
 year = "2017"
 link = "https://pragprog.com/titles/mkdsa/design-it/"
-image = "design_it.jpg"
+image = "design_it.webp"
 description = """
 In "Design It," author Michael Keeling provides valuable insights into the essential responsibilities of a software architect.
 Through the lens of a hypothetical project, readers embark on a journey through various project stages.
@@ -416,7 +416,7 @@ publisher = "Addison-Wesley Professional"
 location = ""
 year = "2012"
 link = "https://www.goodreads.com/book/show/18624706-refactoring"
-image = "refactoring.jpg"
+image = "refactoring.webp"
 description = """
 The authors provide invaluable insights into achieving well-structured code safely, even in the context of modern Integrated Development Environments (IDEs).
 While the book's examples use Java, the underlying concepts are language-agnostic.
@@ -437,7 +437,7 @@ publisher = "The Pragmatic Bookshelf"
 location = ""
 year = "2019"
 link = "https://www.pragprog.com/titles/trevan/driving-technical-change/"
-image = "driving_tech_change.jpg"
+image = "driving_tech_change.webp"
 description = """
 In 'Driving Technical Change,' the author addresses a common frustration among technologists – the challenge of persuading others to adopt their ideas for technical improvement.
 Ryan offers invaluable guidance on how to effectively present and package your suggestions to increase their chances of being accepted. He also highlights the importance of engaging with different types of individuals crucial for bringing your concepts to life.
@@ -458,7 +458,7 @@ publisher = "S&S/Simon Element"
 location = ""
 year = "2023"
 link = "https://www.goodreads.com/book/show/101144770-think-faster-talk-smarter"
-image = "think_talk.jpg"
+image = "think_talk.webp"
 description = """
 In 'Think Faster, Talk Smarter', Abrahams tackles the challenge of impromptu presentations and unexpected public speaking situations.
 Providing a range of communication techniques, he equips readers with the skills to excel in spontaneous communication scenarios.
@@ -482,7 +482,7 @@ publisher = "Riverhead Books"
 location = ""
 year = "2009"
 link = "https://www.goodreads.com/book/show/6452796-drive"
-image = "drive.jpg"
+image = "drive.webp"
 description = """
 How do you motivate yourself, and others? Did your manager get it right by offering you the chance of promotion if you worked all weekend?
 Or would you have preferred a more relaxed approach, where you could work on your own projects, and have the freedom to explore, promotion be damned?<br />
@@ -502,7 +502,7 @@ publisher = "Packt Publishing"
 location = ""
 year = "2023"
 link = "https://www.goodreads.com/book/show/68507606-test-driven-development-with-java"
-image = "tdd_java_mellor.jpg"
+image = "tdd_java_mellor.webp"
 draft = true
 description = """
 
@@ -519,7 +519,7 @@ publisher = "It Revolution Press"
 location = ""
 year = "2019"
 link = "https://www.goodreads.com/book/show/44135420-team-topologies"
-image = "team_topologies.jpg"
+image = "team_topologies.webp"
 description = """
 What is the best way to organize your team? How can you ensure that your team is set up for success?
 Is there a way to structure your team that will allow for fast flow of work?
@@ -542,7 +542,7 @@ publisher = "The Pragmatic Bookshelf"
 location = ""
 year = "2020"
 link = "https://www.goodreads.com/book/show/48764406-a-common-sense-guide-to-data-structures-and-algorithms"
-image = "data_structures.jpg"
+image = "data_structures.webp"
 description = """
 """
 levels = ["novice", "reference"]

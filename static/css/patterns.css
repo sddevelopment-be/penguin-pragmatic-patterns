@@ -12,7 +12,7 @@
     flex-basis: 340px;
     scroll-snap-type: x mandatory;
     scrollbar-color: #F39200 #fff;
-    scrollbar-width: auto;
+    scrollbar-width: thin;
 }
 
 .pattern_container::-webkit-scrollbar {

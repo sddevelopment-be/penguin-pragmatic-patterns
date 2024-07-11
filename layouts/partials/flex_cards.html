@@ -6,7 +6,7 @@
                 <div class="card-image">
                     <a href="{{ .RelPermalink }}">
                         {{ if .Image }}
-                            <img src="/images/{{ .Image }}" alt="{{ .Title }}">
+                            <img src="/images/thumbnails/{{ .Image }}" alt="{{ .Title }}">
                         {{ else }}
                         <img src="/images/placeholder.webp" alt="{{ .Title }}">
                         {{ end }}

@@ -14,9 +14,21 @@ body {
         font-size: 14px;
         line-height: 1.65rem;
     }
+
+    .columns {
+        margin-left: -2.75rem;
+        margin-right: -2.75rem;
+    }
+
+    .footer .columns {
+        margin-left: -0.25rem;
+        margin-right: -0.25rem;
+    }
+
+    .title.is-1 {
+        font-size: 2.75rem;
+    }
 }
-
-
 
 .wrapped-columns {
     display: flex;

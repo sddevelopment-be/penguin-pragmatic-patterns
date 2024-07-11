@@ -19,9 +19,43 @@ Following changes are known:
 - **Fixed** for any bug fixes.
 - **Security** in case of vulnerabilities.
 
+Please not that planned changes are not included in this changelog, as they are not yet implemented. They are tracked using
+[GitHub issues](https://github.com/sddevelopment-be/penguin-pragmatic-patterns/issues).   
+Any feedback or suggestions for changes can be submitted there. 
+
 # Changes
 
-## v2.2.0
+## v2.3.0: Content Consistency Update
+
+### Changed
+
+- Change the titles of the "resources" menu items to be more descriptive
+- Updated all 'Concepts' to follow the same structure
+- Updated all 'Practices' to follow the same structure
+- Expanded all 'Concepts' to include more detailed information
+- Renamed the 'About' page to 'Approach'
+
+### Fixed
+
+- Fixed display error in the Glossary where multiple terms were displayed on a vertical line 
+- Fixed mobile display issue where images would overflow the screen
+- Fixed the display of titles on various devices
+
+### Added
+
+- Added the Changelog to the deployed website
+- Added a template for describing "Concepts" and a related github issue template
+- Update the "Approach" page to include the "sense-making" meta-model
+- Added support for `floating images` in the markdown
+- Multiple new descriptions added to the Glossary
+- Generated images for all practices, using [DALL-E](https://openai.com/index/dall-e/)
+- Indicator to show the horizontal scroll on the patterns page
+
+### Removed
+
+- Removed the `pattern-suggestion` issue type from the github repository
+
+## v2.2.0: Migration to Hugo
 
 ### Changed
 

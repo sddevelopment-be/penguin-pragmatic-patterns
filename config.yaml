@@ -55,7 +55,7 @@ params:
     # Where the main hero button links to
     buttonlink: "about"
     # Hero image (from static/images/___)
-    image: penguin_learning.png
+    image: penguin_learning.webp
     # Footer logos (from static/images/logos/clients/*.svg)
     # urls are optional
     clientlogos:
@@ -95,7 +95,6 @@ params:
   section3:
     title: Learn. Grow. Improve.
     subtitle: discover new ideas and techniques to help you excel
-    image: illustrations/mockups/app-mockup.png
     text: >
       Imagine the thrill of discovering new ideas and techniques that will help you excel at the things you do every day.
       Whether you're already working in a technical role or just starting out, there's always more to learn and explore.

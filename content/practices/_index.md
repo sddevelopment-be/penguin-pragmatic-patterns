@@ -22,7 +22,7 @@ To help you find practices that support you in your particular challenges, each 
 use it. This context is described as `enablers` and `deterrents`, these indicate under which conditions the described pattern is known to work 
 well, and conversely when it doesn't work well. To get the best results, pay attention to these factors when reading the patterns below.  
 
-{{< image src="/images/pattern_structure.png" alt="Structure of a pattern: " >}}
+{{< image src="/images/pattern_structure.webp" alt="Structure of a pattern: " >}}
 
 Each of the patterns is accompanied by a set of `tags` and `categories`, these help you find related learning resources, practices and concepts.
 Additionally, each pattern has been scored on the different aspects of the [AMMERSE framework](https://www.ammerse.org/). This value-based 

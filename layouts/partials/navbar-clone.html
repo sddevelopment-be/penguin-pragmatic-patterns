@@ -7,8 +7,8 @@
     <div class="container">
         <div class="navbar-brand">
             {{- if $navbarLogo}}
-            <a class="navbar-item" href="{{ $navbarLogo.link }}">
-                <img src="{{ printf "images/%s" $navbarLogo.image | relURL }}" alt="" width="{{ $navbarLogoWidth }}" height="{{ $navbarLogoHeight }}">
+            <a class="navbar-item" href="{{ $navbarLogo.link }}" >
+                <img src="{{ printf "images/%s" $navbarLogo.image | relURL }}" alt="website logo" width="{{ $navbarLogoWidth }}" height="{{ $navbarLogoHeight }}">
             </a>
             {{- end}}
 
@@ -53,7 +53,7 @@
                 {{- range $navbar }}
                 {{- if .sublinks }}
                 <div class="navbar-item has-dropdown is-hoverable">
-                    <a class="navbar-link">
+                    <a class="navbar-link" href="">
                         {{ .title }}
                     </a>
 

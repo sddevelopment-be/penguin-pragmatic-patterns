@@ -7,7 +7,7 @@ There is a lot to know about software development. The field is vast, and the bo
 The image below show a few of the topics that are relevant to a software developer. It is by no means exhaustive, but it gives a good idea of
 the sheer quantity of knowledge that is required to be proficient.
 
-![A selection of the recommended  skill set for developers](/images/developer_learning_path.png)
+![A selection of the recommended  skill set for developers](/images/developer_learning_path.webp)
 
 In an attempt to simplify your path to mastery, I have divided the knowledge required to be a proficient software developer into four main pillars.
 These pillars represent the core categories of skills that are required to be successful in the field.

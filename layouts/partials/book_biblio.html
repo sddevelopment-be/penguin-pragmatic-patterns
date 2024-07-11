@@ -23,7 +23,7 @@
         <div class="recommendation-image">
             <a href="{{ $link }}" target="_blank" rel="nofollow,noreferrer">
                 {{if $image}}
-                    <img src="{{ .Site.BaseURL }}/images/thumbnails/books/{{$image}}" alt="cover image for '{{ $title }}'" />
+                    <img src="{{ .Site.BaseURL }}/images/books/{{$image}}" alt="cover image for '{{ $title }}'" />
                 {{else}}
                     <img src="{{ .Site.BaseURL }}/images/books/book_placeholder.png"/>
                 {{end}}

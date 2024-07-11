@@ -61,6 +61,10 @@ body {
     color: #9c671a;
 }
 
+.container p a {
+    text-decoration: underline;
+}
+
 .container a:hover {
     color: #f39200;
 }

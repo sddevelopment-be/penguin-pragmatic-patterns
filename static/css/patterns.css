@@ -144,6 +144,29 @@
     margin-top: 3.75rem;
 }
 
+.pattern-list .subtitle::after {
+    content: 'scroll for more >>';
+    font-size: 0.65rem;
+    font-weight: 650;
+    color: #f39200;
+    text-transform: uppercase;
+    text-shadow:
+            2px 2px 0 #fbfbfb,
+            -2px 2px 0 #fbfbfb,
+            -2px -2px 0 #fbfbfb,
+            2px -2px 0 #fbfbfb;
+    text-align: right;
+    position: absolute;
+    right: 0;
+    padding-top: 1.5rem;
+}
+
+@media (max-width: 800px) {
+    .pattern-list .subtitle::after {
+        content: 'swipe for more >>';
+    }
+}
+
 .pattern-tags {
     display: flex;
     flex-direction: row;

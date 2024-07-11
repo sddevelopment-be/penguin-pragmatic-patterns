@@ -79,7 +79,12 @@
   description: 'Pull requests that address a security vulnerability.'
   aliases: ['security']
 
-- name: 'type: pattern-suggestion'
+- name: 'type: concept-suggestion'
+  color: '3333cc'
+  description: 'Suggestion for a technical or behavioural pattern that could be a good addition to the collection.'
+  aliases: ['pattern', 'suggestion']
+
+- name: 'type: practice-suggestion'
   color: '3333cc'
   description: 'Suggestion for a technical or behavioural pattern that could be a good addition to the collection.'
   aliases: ['pattern', 'suggestion']

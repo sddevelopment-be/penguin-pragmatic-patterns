@@ -3,7 +3,6 @@ title = "Your circle of influence"
 subtitle = ""
 author = "Stijn Dejongh"
 description = "Differentiate between the things/situations where you can have a direct impact, and those where you don't."
-type = "concept"
 categories = [
     "productivity", "communication"
 ]

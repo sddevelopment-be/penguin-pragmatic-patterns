@@ -4,6 +4,8 @@
 {{ $ammerse := .Params.Ammerse }}
 {{ $tags := .Params.tags }}
 {{ $image := .Params.image }}
+{{ $relatedConcepts := .Params.related_concepts }}
+{{ $relatedPatterns := .Params.related_practices }}
 
 <section class="section is-medium">
     <div class="container">
@@ -79,6 +81,25 @@
 
         <div class="content pattern">
             {{ .Content }}
+        </div>
+
+        <div class="content pattern related">
+            {{ if $relatedConcepts }}
+            <h2>Related Concepts</h2>
+            <ul>
+                {{ range where .Site.Pages ".Params.Uuid" "in" $relatedConcepts }}
+                <li><a href="{{ .RelPermalink }}">{{ .Title }}</a>: {{ .Description }}</li>
+                {{ end }}
+            </ul>
+            {{ end }}
+            {{ if $relatedPatterns }}
+            <h2>Related Patterns</h2>
+            <ul>
+                {{ range where .Site.Pages ".Params.Uuid" "in" $relatedPatterns }}
+                <li><a href="{{ .RelPermalink }}">{{ .Title }}</a>: {{ .Description }}</li>
+                {{ end }}
+            </ul>
+            {{ end }}
         </div>
     </div>
 </section>

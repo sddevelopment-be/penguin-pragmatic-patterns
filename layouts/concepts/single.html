@@ -1,0 +1,48 @@
+{{ define "main" }}
+{{ partial "navbar.html" . }}
+{{ partial "navbar-clone.html" . }}
+{{ $tags := .Params.tags }}
+{{ $image := .Params.image }}
+{{ $relatedConcepts := .Params.related_concepts }}
+{{ $relatedPatterns := .Params.related_practices }}
+
+<section class="section is-medium">
+    <div class="container">
+        <div class="columns">
+            <div class="title-wrapper has-text-centered increased-width">
+                <h1 class="title is-3 section-title">{{ .Title }}</h1>
+                <h5 class="subtitle is-4 is-muted">{{ .Params.Subtitle }}</h5>
+                <div class="divider spacer spacer-wide"></div>
+            </div>
+        </div>
+
+        <div class="content pattern">
+            {{ .Content }}
+        </div>
+
+        <div class="content pattern related">
+            {{ if $relatedConcepts }}
+                <h2>Related Concepts</h2>
+                <ul>
+                {{ range where .Site.Pages ".Params.Uuid" "in" $relatedConcepts }}
+                    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a>: {{ .Description }}</li>
+                {{ end }}
+                </ul>
+            {{ end }}
+            {{ if $relatedPatterns }}
+            <h2>Related Patterns</h2>
+            <ul>
+                {{ range where .Site.Pages ".Params.Uuid" "in" $relatedPatterns }}
+                <li><a href="{{ .RelPermalink }}">{{ .Title }}</a>: {{ .Description }}</li>
+                {{ end }}
+            </ul>
+            {{ end }}
+        </div>
+    </div>
+</section>
+
+{{ if .Site.Params.footer }}
+    {{ partial "footer.html" . }}
+{{ end }}
+
+{{ end }}

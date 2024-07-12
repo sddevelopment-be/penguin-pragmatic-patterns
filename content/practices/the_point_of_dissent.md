@@ -22,6 +22,8 @@ ammerse = [
 ]
 pubdate="2023-09-10"
 image = "practices/differences_of_opinion_cover.webp"
+related_concepts = ["7dfd0b45-b8e2-4ef9-90b4-e5316397f55b"]
+related_practices = ["843eb99c-3d89-4333-bb0f-d8efc4916b49"]
 +++
 
 ## Context

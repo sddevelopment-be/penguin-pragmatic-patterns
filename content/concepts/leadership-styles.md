@@ -2,7 +2,6 @@
 title = "Lewin's Leadership Styles"
 author = "Stijn Dejongh"
 description = "Three distinct ways of leading a group, and their impact on productivity."
-type = "concept"
 categories = [
     "communication",
 ]

@@ -19,7 +19,7 @@ It provides actionable advice and timeless wisdom that empowers developers to wr
 maintainable code and become more effective in their work (as well as maintain their sanity while doing so).
 """
 levels = ["intermediate", "mixed"]
-tags = ["software development", "mindset", "organizing", "corporate", "readability"]
+tags = ["mindset", "organizing", "corporate", "readability"]
 
 [[book]]
 id = "d22ee68e-2f19-4677-9123-2994cb111c0c"
@@ -38,7 +38,7 @@ pattern list, each offering actionable advice. One particularly memorable patter
 grunt work' to be of immediate value to a team.
 """
 levels = ["novice", "reference"]
-tags = ["software development", "team dynamics", "directed learning"]
+tags = ["team dynamics", "directed learning"]
 
 [[book]]
 id = "0f2f6abd-b13c-4a35-b2f1-e9d29f1c784f"
@@ -57,7 +57,7 @@ especially when you possess substantial technical expertise? Carter offers insig
 The book provides valuable guidance on seizing control of your career trajectory, equipping readers with tools to thrive and advance in the software development world.
 """
 levels = ["novice"]
-tags = ["software development", "career", "corporate"]
+tags = ["career", "corporate"]
 
 [[book]]
 id = "a688ad2e-beb4-4b84-ad38-e64f523a33d8"
@@ -98,7 +98,7 @@ Through their insights, readers gain a deeper understanding of the Agile mindset
 This book not only offers valuable practical advice but also encourages individuals to strive for excellence in the ever-evolving world of software development.
 """
 levels = ["intermediate", "niche"]
-tags = ["software development", "productivity", "corporate"]
+tags = ["productivity", "corporate"]
 
 [[book]]
 id = "d129136d-d984-4505-8049-d20971a840af"

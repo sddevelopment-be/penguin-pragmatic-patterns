@@ -2,8 +2,7 @@
 title = "Shu Ha Ri"
 subtitle = "Imitation. Understanding. Emulsion."
 author = "Stijn Dejongh"
-description = "Shu Ha Ri is a Japanese martial arts concept that describes the stages of learning on the path to mastery."
-type = "concept"
+description = "a Japanese martial arts concept that describes the stages of learning on the path to mastery."
 categories = [
     "learning",
 ]

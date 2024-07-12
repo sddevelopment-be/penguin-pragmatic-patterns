@@ -5,7 +5,6 @@ author = "Stijn Dejongh"
 description = """The Dreyfus model of skill acquisition is a formal framework that defines five distinct stages of mastery, showing how learners 
 progress and change in their application of skills and knowledge.
 """
-type = "concept"
 categories = [
     "learning",
 ]

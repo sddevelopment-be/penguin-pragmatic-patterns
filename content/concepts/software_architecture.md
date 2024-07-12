@@ -2,7 +2,6 @@
 title = "Software Architecture"
 author = "Stijn Dejongh"
 description = "Converting system characteristics into a structured solution that meets the technical and the business expectations."
-type = "concept"
 categories = [
     "software development",
 ]
@@ -13,6 +12,8 @@ uuid="3683719c-d1ff-4693-a5c5-d9eefb07e409"
 aliases=["3683719c-d1ff-4693-a5c5-d9eefb07e409"]
 pubdate="2023-09-13"
 image="concepts/banner_software_architecture.webp"
+related_practices = ["e6cdeaa2-cc30-4928-95fd-f28ea7cb489d", "8ffeb93b-0f8d-4b01-867b-a8b78ebd4644", "1bdb4866-7c15-46b1-ad38-26111791eed5"]
+related_concepts = ["b86230c6-49fb-4792-9008-a5241c5cdcb2"]
 +++
 
 ## Definition

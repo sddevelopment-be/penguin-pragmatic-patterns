@@ -6,7 +6,6 @@ description = """
 Return on Investment (ROI) is a metric used to evaluate the efficiency or profitability of an investment. It measures the amount of return on an
 investment relative to its cost.
 """
-type = "concept"
 categories = [
     "productivity",
 ]

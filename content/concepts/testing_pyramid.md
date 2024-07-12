@@ -11,9 +11,8 @@ tests for core logic validation to end-to-end tests for comprehensive system val
 recovery tests, and user feedback play crucial roles in uncovering unexpected behaviours and gathering valuable insights, though they come with their unique challenges. By
 Understanding these testing categories, software teams can craft effective testing strategies that enhance software quality.
 """
-type = "concept"
 categories = [
-    "software development",
+    "software-development",
 ]
 tags = [
     "testing", "overview", "trade-off"

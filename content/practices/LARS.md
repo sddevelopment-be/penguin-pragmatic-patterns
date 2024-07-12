@@ -29,6 +29,8 @@ ammerse = [
 ]
 pubdate="2023-10-10"
 image="practices/lars_cover.webp"
+related_concepts = ["7dfd0b45-b8e2-4ef9-90b4-e5316397f55b"]
+related_practices = ["579ac780-4588-4896-9203-901e112f7498"]
 +++
 
 ## Problem Statement

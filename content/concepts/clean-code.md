@@ -2,7 +2,6 @@
 title = "Clean code"
 author = "Stijn Dejongh"
 description = "Code that is easy to understand, maintain, and extend. Clean code minimizes complexity and avoids unnecessary clutter."
-type = "concept"
 categories = [
     "software development",
 ]
@@ -13,6 +12,7 @@ uuid="1f3849c8-28bc-4934-95bf-66d9dcee6858"
 aliases=["1f3849c8-28bc-4934-95bf-66d9dcee6858"]
 pubdate="2023-09-13"
 image="concepts/banner_clean_code.webp"
+related_practices = ["1848f4a6-3acb-4dc8-aa49-e57a1b87cf3b", "94a558cd-4e86-4814-a5e9-d6ecafcb0d6b"]
 +++
 
 {{<quote text="But it works! That's all that matters, right?" author="A lazy developer">}}

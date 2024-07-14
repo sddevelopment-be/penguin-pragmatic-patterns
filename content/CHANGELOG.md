@@ -51,6 +51,7 @@ Any feedback or suggestions for changes can be submitted there.
 - Generated images for all practices, using [DALL-E](https://openai.com/index/dall-e/)
 - Indicator to show the horizontal scroll on the patterns page
 - Added support for cross references in the "Related Patterns" sections
+- 'Defining Test Boundaries' pattern
 
 ### Removed
 

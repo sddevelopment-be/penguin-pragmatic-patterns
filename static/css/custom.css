@@ -165,7 +165,7 @@ body {
     color: #556975;
 }
 
-.content:not(.pattern) h4 {
+.content:not(.pattern) h5 {
     clear: both;
 }
 

@@ -21,6 +21,7 @@ uuid = "6169f9c0-dfe0-49b1-b459-acf01ac69c40"
 aliases = ["6169f9c0-dfe0-49b1-b459-acf01ac69c40"]
 pubdate = "2023-10-01"
 image = "concepts/banner_test_pyramid.webp"
+related_practices = ["04c6129d-11f7-4aa0-a809-1b972a0d7ef9"]
 +++
 
 ## Definition
@@ -211,6 +212,23 @@ responsiveness, and given a complete penetration test to identify potential secu
   title="Facebook Engineering Process with Kent Beck"
   site="Software Engineer Daily"
   link="https://softwareengineeringdaily.com/2019/08/28/facebook-engineering-process-with-kent-beck" >}}
+* {{<reference author="Farley, D."
+  year="2021"
+  title="Modern Software Engineering: Doing What Works to Build Better Software Faster "
+  isbn="978-0137314911"
+  publisher="Addison-Wesley Professional"
+  link="https://www.amazon.com/Modern-Software-Engineering-Discipline-Development/dp/0137314914" >}}
+* {{<reference author="Beck, K."
+  year="2003"
+  title="Test Driven Development: By Example"
+  isbn="978-0321146533"
+  publisher="Addison-Wesley Professional"
+  link="https://www.goodreads.com/book/show/387190.Test_Driven_Development" >}}
+* {{<reference author="Beck, K."
+  year="2022"
+  title="Test Desiderata"
+  site="kentbeck.github.io"
+  link="https://kentbeck.github.io/TestDesiderata/" >}}
 
 ---
 

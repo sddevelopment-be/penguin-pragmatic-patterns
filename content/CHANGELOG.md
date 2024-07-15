@@ -34,6 +34,7 @@ Any feedback or suggestions for changes can be submitted there.
 - Updated all 'Practices' to follow the same structure
 - Expanded all 'Concepts' to include more detailed information
 - Renamed the 'About' page to 'Approach'
+- Changed the sorting of the bibliography to alphabetical order
 
 ### Fixed
 

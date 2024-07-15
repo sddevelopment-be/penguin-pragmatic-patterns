@@ -26,7 +26,7 @@
             </div>
 
             <div class="recommendation-wrapper">
-                {{ range $book := (index .Site.Data "bibliography").book }}
+                {{ range $book := (sort (index .Site.Data "bibliography").book "title" "asc") }}
                     {{ if not $book.draft }}
                         {{ partial "book_biblio.html" (dict "book" $book) }}
                     {{end}}

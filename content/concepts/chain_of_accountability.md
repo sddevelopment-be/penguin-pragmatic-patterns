@@ -14,6 +14,9 @@ uuid="55f51f65-9d4e-4a31-ad8c-242d473a0f77"
 aliases=["55f51f65-9d4e-4a31-ad8c-242d473a0f77"]
 related_concepts = ["3d5b775a-bd5d-40de-8ed3-d390dae16b7b"]
 related_practices = ["47f32286-17b0-471e-90d6-eb0de9f60ac0", "e6cdeaa2-cc30-4928-95fd-f28ea7cb489d"]
+further_exploration = [
+  {type="biblio", id="4b22b149-3d53-40ec-bb84-ecabda4528ab"},
+]
 +++
 
 ## Definition
@@ -55,12 +58,27 @@ hierarchy of accountability.
 
 ### Examples
 
-> Illustrate how the concept is applied in a specific scenario.
+#### The sixth of June, 1944
 
-
-## Further Exploration
-
-> Provide sources for further reading to allow the reader to explore the concept in more depth.
+* **Goal:** Liberate Western Europe from the grip of the facist regime.
+* **Strategy:** Launch a massive amphibious assault on the beaches of Normandy, sending every able body we can muster. Land on the beaches, and 
+  establish a foothold. Then push inland, making sure supply lines are secured. 
+* **Tactics:** Use SOE paracommando's to secure key bridges and roads, to prevent the enemy from reinforcing their positions. Use amphibious 
+  personnel carriers to land infantry on the beaches, make sure the infantry knows to disembark as soon as they hit the beach. Let the royal 
+  navy barrage the bulkheads on the beaches with artillery during the landing, to soften up the enemy positions. Use the element of surprise to gain a foothold before the enemy can react.
+* **Execution:** Bob Jenkins, a private in the 3rd infantry division, is on a barge preparing to land on Omaha beach. He is part of the first 
+  wave, and is tasked with securing a beachhead. When the barge nears the beach, and the armored hatch opens, the enemy opens fire. His squad is 
+  decimated before they can disembark. Private Jenkins is lucky enough to be standing near the back of the barge, and is able to jump over the 
+  side; as he was instructed to do. He is shot in the leg, but manages to crawl to a nearby tank, and uses it as cover to return fire. 
+* **Result:** The allies manage to secure a beachhead, but at a heavy cost. The first wave of the assault is decimated, and the follow-up waves 
+  are delayed. The allies manage to secure the beaches, but the advance inland is slow. The airborne divisions manage to secure key bridges, 
+  but the paratroopers are scattered, and it takes time to regroup.
+* **Rollout:** The allies manage to secure the beaches, and the follow-up waves manage to land. The allies manage to push inland, and secure 
+  the supply lines. The allies manage to secure a foothold, and the liberation of Western Europe is underway. As the allies push inland, 
+  reservist troops and local militias are used to keep the reclaimed territory secure.
+* **Follow-up:** The allies manage to liberate Western Europe, and the war is won. The allies manage to secure the peace, and the Marshall plan 
+  is put into effect to rebuild the war-torn continent. The allies manage to secure the peace, and the United Nations is founded to prevent 
+  future conflicts.
 
 ---
 

@@ -1,34 +1,35 @@
 {{ template "_internal/google_analytics.html" . }}
 
-{{ if .Params.Summary }}
-        <meta name="description" content="{{ .Params.Summary }}" />
-    {{ else if .Params.Description }}
-        <meta name="description" content="{{ .Params.Description }}" />
-    {{ else if .Site.Params.Description }}
-        <meta name="description" content="{{ .Site.Params.Description }}" />
-    {{ else }}
-    <meta property="description" content="No description available" />
-{{ end }}
 <meta name="keywords" content="{{ if .Params.Tags }}{{ .Params.Tags }}{{ else if .Site.Params.Keywords }}{{ .Site.Params.Keywords }}{{ else }}learning,improvement{{ end }}" />
 <meta name="robots" content="nofollow" />
 
 {{ if .Params.Title }}
-    <meta name="og:title" content="SD Development: {{ .Params.Title }}">
+    <meta name="title" content="SD Development: {{ .Params.Title }}">
+    <meta property="og:title" content="SD Development: {{ .Params.Title }}">
     {{ else if .Site.Title }}
-    <meta name="og:title" content="{{ .Site.Title}}" />
+    <meta name="title" content="{{ .Site.Title}}" />
+    <meta property="og:title" content="{{ .Site.Title}}" />
 {{ end }}
 {{ if .Params.Summary }}
-    <meta name="og:description" content="{{ .Params.Summary }}" />
+        <meta name="description" content="{{ .Params.Summary }}" />
+        <meta property="og:description" content="{{ .Params.Summary }}" />
     {{ else if .Params.Description }}
-        <meta name="og:description" content="{{ .Params.Description }}" />
+        <meta name="description" content="{{ .Params.Description }}" />
+        <meta property="og:description" content="{{ .Params.Description }}" />
     {{ else if .Site.Params.Description }}
-        <meta name="og:description" content="{{ .Site.Params.Description }}" />
+        <meta name="description" content="{{ .Site.Params.Description }}" />
+        <meta property="og:description" content="{{ .Site.Params.Description }}" />
     {{ else }}
-        <meta name="og:description" content="No description available" />
+        <meta name="description" content="No description available" />
+        <meta property="og:description" content="No description available" />
 {{ end }}
-{{ if .Params.Image }}<meta name="og:image" content="{{ .Site.BaseURL }}/images/{{ .Params.Image }}" />{{ end }}
+{{ if .Params.Image }}
+    <meta name="image" content="{{ .Site.BaseURL }}images/{{ .Params.Image }}" />
+    <meta property="og:image" content="{{ .Site.BaseURL }}images/{{ .Params.Image }}" />
+{{ end }}
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="theme-color" content="#F39200"/>
+<link rel="copyright" href="{{ .Site.BaseURL }}license">

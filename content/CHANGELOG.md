@@ -21,7 +21,7 @@ Following changes are known:
 
 Please not that planned changes are not included in this changelog, as they are not yet implemented. They are tracked using
 [GitHub issues](https://github.com/sddevelopment-be/penguin-pragmatic-patterns/issues).   
-Any feedback or suggestions for changes can be submitted there. 
+Any feedback or suggestions for changes can be submitted there.
 
 # Changes
 
@@ -29,30 +29,33 @@ Any feedback or suggestions for changes can be submitted there.
 
 ### Changed
 
-- Change the titles of the "resources" menu items to be more descriptive
-- Updated all 'Concepts' to follow the same structure
-- Updated all 'Practices' to follow the same structure
-- Expanded all 'Concepts' to include more detailed information
 - Renamed the 'About' page to 'Approach'
-- Changed the sorting of the bibliography to alphabetical order
+- Change the titles of the "resources" menu items to be more descriptive
+- Updated structure of all 'Concepts' and 'Practices' to follow the same structure
+- Expanded all pages to include more detailed information
+- Changed the sorting of the bibliography and glossary to alphabetical order
 
 ### Fixed
 
-- Fixed display error in the Glossary where multiple terms were displayed on a vertical line 
+- Fixed display error in the Glossary where multiple terms were displayed on a vertical line
 - Fixed mobile display issue where images would overflow the screen
 - Fixed the display of titles on various devices
+- Added support for `floating images` in the markdown
+- Fixed social media share meta tags
 
 ### Added
 
-- Added the Changelog to the deployed website
-- Added a template for describing "Concepts" and a related github issue template
 - Update the "Approach" page to include the "sense-making" meta-model
-- Added support for `floating images` in the markdown
+- Added the Changelog and License to the deployed website
+- Added a template for describing "Concepts" and a related github issue template
 - Multiple new descriptions added to the Glossary
 - Generated images for all practices, using [DALL-E](https://openai.com/index/dall-e/)
 - Indicator to show the horizontal scroll on the patterns page
 - Added support for cross references in the "Related Patterns" and "Further exploration" sections
-- 'Defining Test Boundaries' pattern
+- New patterns added:
+    - [Defining Test Boundaries](/practices/04c6129d-11f7-4aa0-a809-1b972a0d7ef9)
+    - [Chain of Accountability](/concepts/55f51f65-9d4e-4a31-ad8c-242d473a0f77)
+    - [AMMERSE Impact Analysis](/practices/8ffeb93b-0f8d-4b01-867b-a8b78ebd4644)
 
 ### Removed
 
@@ -74,12 +77,12 @@ Any feedback or suggestions for changes can be submitted there.
 
 - Concepts and Patterns overview pages
 - Patterns added:
-  - Keeping a changelog
+    - Keeping a changelog
 - Concepts added:
-  - Memento Mori
-  - Clean code
-  - Architecture
-  - STEAM trade-offs
+    - Memento Mori
+    - Clean code
+    - Architecture
+    - STEAM trade-offs
 - Add company information to the footer
 - Added tag-based browsing and tag-overview pages
 - Content categories
@@ -141,7 +144,6 @@ Any feedback or suggestions for changes can be submitted there.
 - spelling mistakes
 - glossary is now a self-maintained section, without automated links
 - Issue with side-navigation being displayed in a strange manner
-
 
 ## v2.0.0
 

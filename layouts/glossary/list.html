@@ -28,7 +28,7 @@
         <div class="content-wrapper">
 
             <div class="terminology-wrapper">
-                {{ range $terminology := (index .Site.Data "glossary").terminology }}
+                {{ range $terminology := (sort (index .Site.Data "glossary").terminology "name" "asc" ) }}
                     {{ partial "glossary_term.html" (dict "term" $terminology) }}
                 {{ end }}
             </div>

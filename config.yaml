@@ -79,8 +79,12 @@ params:
         url: /books
       - title: Recommended Tools
         url: /tools/
+  - title: Admin
+    sublinks:
       - title: Change Log
         url: /changelog/
+      - title: License
+        url: /license/
 
   section2:
     title: What's in it for you?
@@ -136,21 +140,26 @@ params:
         links:
           - text: Approach
             link: /about
-#          - text: Pillars
-#            link: /pillars
           - text: Practices
             link: /practices
           - text: Concepts
             link: /concepts
       column2:
-        title: "Extra stuff"
+        title: "Resources"
         links:
         - text: Glossary
           link: /glossary
-        - text: Tools
-          link: /tools
-        - text: Books
+        - text: Bibliography
           link: /books
+        - text: Recommended Tools
+          link: /tools
+      column3:
+        title: "Admin"
+        links:
+        - text: Change Log
+          link: /changelog
+        - text: License
+          link: /license
 
 mediaTypes:
   text/enriched:

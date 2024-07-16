@@ -26,6 +26,7 @@ aliases=["04c6129d-11f7-4aa0-a809-1b972a0d7ef9"]
 #    {name = "solvable", delta = "0", rationale = ""},
 #    {name = "extensible", delta = "0", rationale = ""},
 #]
+pubdate = "2024-07-13"
 image = "practices/test_boundary_cover.webp"
 related_concepts = ["6169f9c0-dfe0-49b1-b459-acf01ac69c40", "2eb8fcea-8f12-44d8-97c5-5a48013ae515", "49a014f5-e40b-4c80-ba64-a31626b955ca"]
 related_practices = ["336b0448-e78b-4428-83a5-d4d473afda63", "1848f4a6-3acb-4dc8-aa49-e57a1b87cf3b"]

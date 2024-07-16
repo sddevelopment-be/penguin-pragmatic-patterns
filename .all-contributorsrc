@@ -67,6 +67,15 @@
         "review"
       ]
     },
+    {
+          "login": "",
+          "name": "Joris De Schutter",
+          "avatar_url": "",
+          "profile": "https://www.linkedin.com/in/joris-de-schutter/",
+          "contributions": [
+            "review"
+          ]
+        },
   ],
   "contributorsPerLine": 7,
   "projectName": "penguin-pragmatic-patterns",

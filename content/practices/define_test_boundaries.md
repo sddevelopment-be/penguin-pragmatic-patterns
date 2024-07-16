@@ -285,6 +285,12 @@ continuous delivery of high-quality software.
   isbn="978-0321146533"
   publisher="Addison-Wesley Professional"
   link="https://www.goodreads.com/book/show/387190.Test_Driven_Development" >}}
+* {{<reference author="Mellor, A."
+  year="2023"
+  isbn="180323623X"
+  title="Test-Driven Development with Java"
+  publisher="Packt Publishing"
+  link="https://www.packtpub.com/en-us/product/test-driven-development-with-java-9781803236230" >}}
 * {{<reference author="Beck, K."
   year="2022"
   title="Test Desiderata"

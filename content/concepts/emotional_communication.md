@@ -24,16 +24,13 @@ Other times, they have devastating effects on projects and relationships.
 In the late nineties, a simple misunderstanding caused a NASA orbiter to crash into Mars.
 Controller teams from different parts of the world were collaborating to guide the spacecraft into orbit around the red
 planet. But as both teams used a different measurement system (imperial vs. metric), they ended up creating a very expensive new crater on Mars.
-
 Luckily most misunderstanding do not have a price tag running in the hundreds of millions. Still, it is best to avoid them if we can.
 
 ## Description
 
-We value to ability to stay rational, calm, and collected in any situation.
-
-Think of your run-of-the-mill action hero. In general, you will find they are extremely stoic. Nothing phases them. Their adversaries generally
-become frustrated with their inability to trigger a response from the hero, causing them to do lose their cool, make bad decisions to annoy the 
-hero. Their inability to stay calm leading directly to their downfall.
+We value out ability to stay rational, calm, and collected in any situation. Think of your run-of-the-mill action hero. In general, you will find
+they are extremely stoic. Nothing phases them. Their adversaries generally become frustrated with their inability to trigger a response from the
+hero, causing them to do lose their cool, make bad decisions to annoy the hero. Their inability to stay calm leading directly to their downfall.
 
 Unlike these characters, most of us are not in total control of our emotions. We tend to get bored when listening to long-winded stories that 
 have no impact on our lives. We tend to become upset, or sad, when hearing bad news. And we tend to get angry, or distraught when things do not 

@@ -30,8 +30,11 @@ process.
 
 ## Key Components
 
+
+
 Implementation of any idea can be broken down into key phases and components, each of which playing a bounded role, resulting in a coherent 
-hierarchy of accountability.
+hierarchy of accountability. The goal of the model is to outline the different areas of responsibility. For each component in the chain, there 
+is a clear outline of what is expected, and who is responsible for it. The Chain of Accountability consists of the following components:
 
 * **Goal:** Defining the target, or overall objective. It should be the guiding light that informs all other components, directing the 
   decision-making process towards the desired outcome.

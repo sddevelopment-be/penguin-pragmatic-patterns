@@ -1,11 +1,6 @@
 @startuml
-title "Chain of Accountability"
 
-top to bottom direction
-
-!include ../templates/plantuml/puml-theme-bluegray.puml
-
-skinparam dpi 280
+skinparam dpi 164
 
 skinparam maxMessageSize 184
 skinparam wrapWidth 204
@@ -13,35 +8,52 @@ skinparam wrapWidth 204
 skinparam shadowing true
 
 <style>
-' had to override this here as the included theme was not working properly
-classDiagram {
-  class {
-      ' class name
-      header {
-        FontColor #dedede
-        FontSize 12
-        FontStyle bold
-      }
+activityDiagram {
+  BackgroundColor #33668E
+  BorderColor #33668E
+  LineColor #DarkSlateGrey
+  FontColor #fefefe
+  FontName arial
+
+  diamond {
+    BackgroundColor #ccf
+    FontName arial
+    FontSize 15
   }
+  arrow {
+    FontColor OldLace
+    LineColor OldLace
+    FontName arial
+    FontSize 15
+  }
+  partition {
+    LineColor red
+    FontColor green
+    RoundCorner 10
+    BackgroundColor PeachPuff
+  }
+  note {
+    FontColor Blue
+    LineColor Navy
+    BorderColor #33668E
+    BackgroundColor #ccf
+  }
+}
+document {
+   BackgroundColor transparent
 }
 </style>
 
-hide stereotype
-hide circle
-
-class "Goal" #Darkorange {}
-class "Strategy" #DarkSlateBlue {}
-class "Tactics" #DarkSlateBlue {}
-class "Execution" #DarkSlateBlue {}
-class "Result" {}
-class "Rollout" #DarkSlateGrey {}
-class "Follow-up" #DarkSlateGrey {}
-
-"Goal" -> "Strategy"
-"Strategy" -> "Tactics"
-"Tactics" -> "Execution"
-"Execution" -> "Result"
-"Result" -> "Rollout"
-"Rollout" -> "Follow-up"
+|#MidnightBlue| Vision |
+	:Goal;
+|#DarkSlateBlue| Approach |
+	:Strategy;
+	:Tactics;
+|#SteelBlue| Realization |
+	:Execution;
+	:Result;
+	:Rollout;
+	:Follow-up;
+stop
 
 @enduml

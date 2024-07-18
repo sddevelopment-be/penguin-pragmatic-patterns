@@ -1,0 +1,25 @@
+@startuml
+
+!include <archimate/Archimate>
+
+skinparam dpi 180
+
+skinparam maxMessageSize 184
+skinparam wrapWidth 204
+
+skinparam shadowing true
+
+Motivation_Goal(goal, "Goal")
+Strategy_CourseOfAction(strategy, "Strategy")
+Strategy_CourseOfAction(tactics, "Tactics")
+Strategy_ValueStream(Execution, "Execution")
+Strategy_ValueStream(Rollout, "RollOut")
+Strategy_ValueStream(AfterCare, "Follow-Up")
+
+Motivation_Outcome(Result, "Result")
+
+Motivation_Outcome(Effect, "Effect")
+Motivation_Assessment(Reflection, "Evaluation")
+
+
+@enduml

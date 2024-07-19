@@ -2,7 +2,7 @@
 
 !include <archimate/Archimate>
 
-skinparam dpi 180
+'skinparam dpi 180
 
 skinparam maxMessageSize 184
 skinparam wrapWidth 204
@@ -10,7 +10,7 @@ skinparam nodesep 4
 
 left to right direction
 
-skinparam shadowing true
+skinparam shadowing false
 
 sprite $sCapability jar:archimate/strategy-capability
 sprite $sStream jar:archimate/strategy-value-stream
@@ -24,82 +24,112 @@ interface {
 }
 </style>
 
-skinparam rectangle {
+skinparam rectangle  {
 	BorderThickness 1
 	BorderColor #555555
 }
 
-rectangle "Process Chain" <<$sStream>><<strategy>> #line.dashed {
-	Motivation_Goal(goal, "Goal")
-	Strategy_CourseOfAction(strategy, "Strategy")
-	Strategy_CourseOfAction(tactics, "Tactics")
-	Strategy_ValueStream(execution, "Execution")
-	Strategy_ValueStream(rollout, "RollOut")
-	Strategy_ValueStream(afterCare, "Follow-Up")
-	Motivation_Outcome(result, "Result")
-
-	Rel_Influence(goal, strategy)
-	Rel_Influence(strategy, tactics)
-	Rel_Influence(tactics, execution)
-	Rel_Realization(execution, result)
-	Rel_Triggering(result, rollout)
-	Rel_Influence(rollout, afterCare)
+skinparam rectangle<<content>> {
+    BorderColor transparent
+    FontColor transparent
 }
 
-Motivation_Assessment(reflection, "Evaluation")
-Motivation_Outcome(effect, "Effect")
+rectangle "content" <<content>>{
+	rectangle "Process Chain" <<$sStream>><<strategy>> #line.dashed {
+  	Motivation_Goal(goal, "Goal")
+  	Strategy_CourseOfAction(strategy, "Strategy")
+  	Strategy_CourseOfAction(tactics, "Tactics")
+  	Strategy_ValueStream(execution, "Execution")
+  	Strategy_ValueStream(rollout, "RollOut")
+  	Strategy_ValueStream(afterCare, "Follow-Up")
+  	Motivation_Outcome(result, "Result")
+
+  	Rel_Influence(goal, strategy)
+  	Rel_Influence(strategy, tactics)
+  	Rel_Influence(tactics, execution)
+  	Rel_Realization(execution, result)
+  	Rel_Triggering(result, rollout)
+  	Rel_Influence(rollout, afterCare)
+  }
+
+  Motivation_Assessment(reflection, "Evaluation")
+  Motivation_Outcome(effect, "Effect")
 
 
-Rel_Realization(result, effect)
-Rel_Realization(rollout, effect)
-Rel_Realization(afterCare, effect)
-Rel_Realization(effect, goal)
-Rel_Triggering_Down(effect, reflection)
-Rel_Influence(reflection, strategy)
+  Rel_Realization(result, effect)
+  Rel_Realization(rollout, effect)
+  Rel_Realization(afterCare, effect)
+  Rel_Realization(effect, goal)
+  Rel_Triggering_Down(effect, reflection)
+  Rel_Influence(reflection, strategy)
 
-reflection -[hidden]-> tactics
-reflection -[hidden]-> tactics
+  reflection -[hidden]-> tactics
+  reflection -[hidden]-> tactics
 
-rectangle "organization structure" #line.dashed {
-	Strategy_Capability(leadership, "Org. Leadership")
-	Strategy_Capability(team_lead, "Team Leadership")
+  rectangle "organization structure" #line.dashed {
+  	Strategy_Capability(leadership, "Org. Leadership")
+  	Strategy_Capability(team_lead, "Team Leadership")
 
-	rectangle "Delivery" <<$sCapability>><<strategy>> #Strategy {
-		Strategy_Capability(dev_team, "Implementation")
-    Strategy_Capability(ops_team, "Operations")
+  	rectangle "Delivery" <<$sCapability>><<strategy>> #Strategy {
+  		Strategy_Capability(dev_team, "Implementation")
+      Strategy_Capability(ops_team, "Operations")
+  	}
+
+  	Rel_Influence_Down(leadership, team_lead)
+  	Rel_Influence(team_lead, leadership)
+  	Rel_Influence_Down(team_lead, dev_team)
+  	Rel_Influence(dev_team, team_lead)
+  	Rel_Association_Down(dev_team, ops_team)
+  }
+
+  Rel_Realization_Right(leadership, goal, "Accountable for")
+  Rel_Realization_Right(leadership, strategy, "Accountable for")
+  Rel_Influence_Right(team_lead, strategy, "influences")
+  Rel_Realization_Right(team_lead, tactics, "Accountable for")
+  Rel_Influence_Right(dev_team, tactics, "influences")
+  Rel_Realization_Right(dev_team, execution, "Accountable for")
+  Rel_Realization_Right(dev_team, result, "Accountable for")
+  Rel_Realization_Right(ops_team, rollout, "Accountable for")
+  Rel_Realization_Right(ops_team, afterCare, "Accountable for")
+}
+
+rectangle "Legend" #line.dashed {
+	rectangle "Relationships" {
+		() a1
+		() a2
+		Rel_Realization_Down(a1, a2, "Realizing")
+
+		() b1
+	  () b2
+	  Rel_Influence_Down(b1, b2, "Influencing")
+
+	  () c1
+	  () c2
+	  Rel_Triggering_Down(c1, c2, "Triggering")
 	}
 
-	Rel_Influence_Down(leadership, team_lead)
-	Rel_Influence(team_lead, leadership)
-	Rel_Influence_Down(team_lead, dev_team)
-	Rel_Influence(dev_team, team_lead)
-	Rel_Association_Down(dev_team, ops_team)
+	rectangle "Iconography" #line.dashed {
+		rectangle "Strategic" #Strategy {
+			Strategy_Capability(cap, "Capability")
+			Strategy_CourseOfAction(coa, "Course of Action")
+			Strategy_ValueStream(vs, "Value Stream")
+
+			cap -[hidden]left-> coa
+			coa -[hidden]left-> vs
+		}
+
+		rectangle "Motivational" #Motivation {
+			Motivation_Goal(mg, "Goal")
+			Motivation_Assessment(ma, "Assessment")
+			Motivation_Outcome(mo, "Outcome")
+
+			mg -[hidden]left-> ma
+			ma -[hidden]left-> mo
+		}
+
+		"Strategic" -[hidden]down-> "Motivational"
+	}
 }
 
-Rel_Realization_Right(leadership, goal, "Accountable for")
-Rel_Realization_Right(leadership, strategy, "Accountable for")
-Rel_Influence_Right(team_lead, strategy, "influences")
-Rel_Realization_Right(team_lead, tactics, "Accountable for")
-Rel_Influence_Right(dev_team, tactics, "influences")
-Rel_Realization_Right(dev_team, execution, "Accountable for")
-Rel_Realization_Right(dev_team, result, "Accountable for")
-Rel_Realization_Right(ops_team, rollout, "Accountable for")
-Rel_Realization_Right(ops_team, afterCare, "Accountable for")
 
-rectangle "Relationships" {
-	() a1
-	() a2
-	Rel_Realization_Down(a1, a2, "Realizing")
-
-	() b1
-  () b2
-  Rel_Influence_Down(b1, b2, "Influencing")
-
-  () c1
-  () c2
-  Rel_Triggering_Down(c1, c2, "Triggering")
-}
-
-"Relationships" -[hidden]down-> "Process Chain"
-'"Relationships" -[hidden]right-> "organization structure"
 @enduml

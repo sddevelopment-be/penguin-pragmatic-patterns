@@ -93,43 +93,5 @@ rectangle "content" <<content>>{
   Rel_Realization_Right(ops_team, afterCare, "Accountable for")
 }
 
-rectangle "Legend" #line.dashed {
-	rectangle "Relationships" {
-		() a1
-		() a2
-		Rel_Realization_Down(a1, a2, "Realizing")
-
-		() b1
-	  () b2
-	  Rel_Influence_Down(b1, b2, "Influencing")
-
-	  () c1
-	  () c2
-	  Rel_Triggering_Down(c1, c2, "Triggering")
-	}
-
-	rectangle "Iconography" #line.dashed {
-		rectangle "Strategic" #Strategy {
-			Strategy_Capability(cap, "Capability")
-			Strategy_CourseOfAction(coa, "Course of Action")
-			Strategy_ValueStream(vs, "Value Stream")
-
-			cap -[hidden]left-> coa
-			coa -[hidden]left-> vs
-		}
-
-		rectangle "Motivational" #Motivation {
-			Motivation_Goal(mg, "Goal")
-			Motivation_Assessment(ma, "Assessment")
-			Motivation_Outcome(mo, "Outcome")
-
-			mg -[hidden]left-> ma
-			ma -[hidden]left-> mo
-		}
-
-		"Strategic" -[hidden]down-> "Motivational"
-	}
-}
-
 
 @enduml

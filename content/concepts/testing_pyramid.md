@@ -12,7 +12,7 @@ recovery tests, and user feedback play crucial roles in uncovering unexpected be
 Understanding these testing categories, software teams can craft effective testing strategies that enhance software quality.
 """
 categories = [
-    "software-development",
+    "software development",
 ]
 tags = [
     "testing", "overview", "trade-off"

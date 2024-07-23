@@ -96,7 +96,7 @@
                 {{ $matchingBooks := (where $allBooks "id" "in" $bibliographicReferences ) }}
                 {{ range $book := $matchingBooks }}
                 <li>
-                    {{ $book.authors }} ({{ $book.year}}) <a href="/books/{{$book.id}}" rel="noreferrer" target="_blank">{{ $book.title }}</a>. {{ if $book.publisher }} {{ if $book.location }}, {{ $book.location }}:{{ end }} {{ $book.publisher }}. {{if $book.isbn }}isbn: {{$book.isbn}}. {{ end }} {{ end }}
+                    {{ $book.authors }} ({{ $book.year}}) <a href="/books/{{$book.id}}/" rel="noreferrer" target="_blank">{{ $book.title }}</a>. {{ if $book.publisher }} {{ if $book.location }}, {{ $book.location }}:{{ end }} {{ $book.publisher }}. {{if $book.isbn }}isbn: {{$book.isbn}}. {{ end }} {{ end }}
                 </li>
                 {{ end }}
                 {{ end }}

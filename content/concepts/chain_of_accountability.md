@@ -3,6 +3,10 @@ title = "Chain of Accountability"
 author = "Stijn Dejongh"
 description = "A structured hierarchy of roles and phases in the implementation of an idea, project, or plan."
 summary="""
+The Chain of Accountability is a structured hierarchy ensuring clear roles and responsibilities in project implementation. 
+It comprises phases from defining goals to executing strategies, tactics, and follow-up. Originating from the military chain of command, 
+this model is adapted for civilian use to provide clear accountability in various contexts. Key components include defining goals, strategies, 
+tactics, execution, results, rollout, and follow-up.
 """
 categories = [
     "productivity",
@@ -18,13 +22,15 @@ related_concepts = ["3d5b775a-bd5d-40de-8ed3-d390dae16b7b"]
 related_practices = ["47f32286-17b0-471e-90d6-eb0de9f60ac0", "e6cdeaa2-cc30-4928-95fd-f28ea7cb489d"]
 further_exploration = [
   {type="biblio", id="4b22b149-3d53-40ec-bb84-ecabda4528ab"},
+  {type="biblio", id="b6727fa2-6deb-4080-a440-9697ec3d20e3"},
+  {type="biblio", id="a32510dd-068d-4072-8b68-cce120864a64"}
 ]
 +++
 
 ## Definition
 
 The Chain of Accountability is a structured hierarchy of roles and phases in the implementation of an idea, project, or plan. It ensures clear
-accountability at each step, from defining the goal to executing the strategy and tactics, and finally assessing the results and following up to
+accountability at every step, from defining the goal to executing the strategy and tactics, and finally assessing the results and following up to
 maintain value. Each component plays a specific role in achieving the overall objective, ensuring coherence and responsibility throughout the
 process.  
 
@@ -73,13 +79,16 @@ These capabilities are mapped to the components of the Chain of Accountability, 
 capability. The end-goal is that the right people are responsible for the right tasks, and that the organization's capabilities are leveraged
 effectively to achieve the desired outcome.
 
-People, or capabilities, relate to the components of the Chain of Accountability in different manners. Some bear the end responsability for a 
-component, whilest others are merely impacted by it. The following relationships are defined between the components and the capabilities:
+People, or capabilities, relate to the components of the Chain of Accountability in different manners. Some bear the final responsibility for a 
+component, whilst others are merely impacted by it. The following relationships are defined between the components and the capabilities:
 
-* **'Accountable for':** The person who is ultimately responsible for the component. They are the ones who will be held accountable for the 
-  success or failure of the component.
-* **'Influences':** 
-* **'Impacted by':**
+* **'Accountable for':** The people (or capabilities) who are ultimately responsible for the component. They are the ones who will be held 
+  accountable for the success or failure of the chain component.
+* **'Influences':** The people (or capabilities) who have a direct influence on the component. They are not directly responsible for it,  
+  but their decisions and actions can impact the outcome. While they are not directly accountable, they play a significant role in the success 
+  of the process.
+* **'Impacted by':** The people (or capabilities) who are affected by the component. They do not have a direct role in the execution or 
+  decision-making, but they are impacted by the outcome. Their work or responsibilities may change based on the results of the component.
 
 ## Background
 
@@ -93,7 +102,7 @@ implementation, ensuring that each phase and component is clearly defined and ha
 ### Application
 
 The Chain of Accountability can be applied to a wide range of contexts, including business, project management, and personal development. 
-By breaking down the flow of decision-making and implementation into clear phases and components, the model can help you:
+By breaking down the flow of decision-making and implementation into clear phases and components, the model can help:
 
 - Define clear goals and objectives.
 - Identify and address gaps in the accountability chain.
@@ -121,7 +130,7 @@ clear hierarchy of accountability.
 
 #### The sixth of June, 1944
 
-* **Goal:** Liberate Western Europe from the grip of the facist regime.
+* **Goal:** Liberate Western Europe from the grip of the fascist regime.
 * **Strategy:** Launch a massive amphibious assault on the beaches of Normandy, sending every able body we can muster. Land on the beaches, and 
   establish a foothold. Then push inland, making sure supply lines are secured. 
 * **Tactics:** Use SOE paracommando's to secure key bridges and roads, to prevent the enemy from reinforcing their positions. Use amphibious 
@@ -134,9 +143,9 @@ clear hierarchy of accountability.
 * **Result:** The allies manage to secure a beachhead, but at a heavy cost. The first wave of the assault is decimated, and the follow-up waves 
   are delayed. The allies manage to secure the beaches, but the advance inland is slow. The airborne divisions manage to secure key bridges, 
   but the paratroopers are scattered, and it takes time to regroup.
-* **Rollout:** The allies manage to secure the beaches, and the follow-up waves manage to land. The allies manage to push inland, and secure 
-  the supply lines. The allies manage to secure a foothold, and the liberation of Western Europe is underway. As the allies push inland, 
-  reservist troops and local militias are used to keep the reclaimed territory secure.
+* **Rollout:** The allies manage to secure the beaches, and the follow-up waves manage to land. The allies manage to push inland, and secure
+  the supply lines. The allies manage to secure a foothold, and the liberation of Western Europe is underway. As the allies push inland, reservist
+  troops and local militias secure the reclaimed territory.
 * **Follow-up:** The allies manage to liberate Western Europe, and the war is won. The allies manage to secure the peace, and the Marshall plan 
   is put into effect to rebuild the war-torn continent. The allies manage to secure the peace, and the United Nations is founded to prevent 
   future conflicts.

@@ -51,7 +51,8 @@ Any feedback or suggestions for changes can be submitted there.
 - Multiple new descriptions added to the Glossary
 - Generated images for all practices, using [DALL-E](https://openai.com/index/dall-e/)
 - Indicator to show the horizontal scroll on the patterns page
-- Added support for cross references in the "Related Patterns" and "Further exploration" sections
+- Bibliographical entries are now linked in the "Further exploration" section, using the entries `id` as a reference.
+- Added support for cross-references in the "Related Patterns" and "Further exploration" sections.
 - New patterns added:
     - [Defining Test Boundaries](/practices/04c6129d-11f7-4aa0-a809-1b972a0d7ef9)
     - [Chain of Accountability](/concepts/55f51f65-9d4e-4a31-ad8c-242d473a0f77)

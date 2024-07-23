@@ -37,7 +37,17 @@
                             </li>
                         {{ end }}
                     {{ end }}
+
+                    {{ $rawReferences := where $further_exploration "type" "raw" }}
+                    {{ if $rawReferences }}
+                        {{ range $rawReference := $rawReferences }}
+                            <li>
+                                {{ $rawReference.author }} ({{ $rawReference.year}}). {{ $rawReference.title }}. {{$rawReference.site}}. <a href="{{ $rawReference.link }}" target="_blank" rel="noreferrer"> {{$rawReference.link}}</a>.
+                            </li>
+                        {{ end }}
+                    {{ end }}
                 </ul>
+
             {{ end }}
             {{ if $relatedConcepts }}
                 <h2>Related Concepts</h2>

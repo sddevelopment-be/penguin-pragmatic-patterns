@@ -12,6 +12,14 @@ tags = [
 uuid = "3d5b775a-bd5d-40de-8ed3-d390dae16b7b"
 aliases = ["3d5b775a-bd5d-40de-8ed3-d390dae16b7b"]
 image = "concepts/banner_circle_of_influence.webp"
+related_concepts = ["55f51f65-9d4e-4a31-ad8c-242d473a0f77"]
+related_practices = ["e6cdeaa2-cc30-4928-95fd-f28ea7cb489d"]
+further_exploration = [
+  {type="biblio", id="a688ad2e-beb4-4b84-ad38-e64f523a33d8"},
+  {type="biblio", id="d97d4075-456d-43b8-860b-1c4945ff8616"},
+  {type="biblio", id="d129136d-d984-4505-8049-d20971a840af"},
+  {type="raw", title="Locus of control", author="Various contributions", year="2024", site="wikipedia" ,link="https://en.wikipedia.org/wiki/Locus_of_control"},
+]
 pubdate = "2023-09-12"
 +++
 
@@ -85,31 +93,6 @@ their approach and visualization.
 * **Personal Development:** An individual struggling with stress draws their Circle of Influence, identifying that they can control their responses
   to stressful situations and choose healthier coping mechanisms.
 
-## Further Exploration
-
-* {{<reference author="Covey, S. R.; Collins, J."
-  year="2004"
-  title="The 7 Habits of Highly Effective People: Powerful Lessons in Personal Change"
-  publisher=" Free Press"
-  isbn="0743269519"
-  link="https://www.goodreads.com/book/show/36072.The_7_Habits_of_Highly_Effective_People" >}}
-* {{<reference author="Pattakos, A. & Dundon E."
-  year="2017"
-  title="Prisoners of Our Thoughts"
-  publisher="Berrett-Koehler Publishers"
-  isbn="1626568804"
-  link="https://www.goodreads.com/book/show/33830612-prisoners-of-our-thoughts" >}}
-* {{<reference author="Holiday, R."
-  year="2016"
-  title="Ego Is the Enemy"
-  publisher="Portfolio"
-  isbn="9781591847816"
-  link="https://www.goodreads.com/book/show/27036528-ego-is-the-enemy" >}}
-* {{<reference author="Various contributions"
-  year="2024"
-  title="Locus of control"
-  site="wikipedia"
-  link="https://en.wikipedia.org/wiki/Locus_of_control" >}}
 
 ---
 

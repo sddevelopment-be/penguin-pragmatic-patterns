@@ -38,7 +38,7 @@ is a clear outline of what is expected, and who is responsible for it.
 
 ### Chain Components
 
-The Chain of Accountability consists of the following components:
+The Chain of Accountability consists of the following main components:
 
 * **Goal:** Defining the target, or overall objective. It should be the guiding light that informs all other components, directing the 
   decision-making process towards the desired outcome.
@@ -57,9 +57,29 @@ The Chain of Accountability consists of the following components:
   maintaining the momentum, and ensuring that the plan continues to deliver value. It is also the time to gather feedback, track the impact of 
   the results, and spend time reflecting on the process.
 
+All of these steps contribute towards achieving an effect within the organization, which will (or will not) contribute to the overall goal.
+
+
 ### Accountability Scope
 
+{{< image src="/images/concepts/ARCHI_chain_of_accountability_assigned.png" 
+  alt="The operational chain of accountability mapped to organizational capabilities" 
+  size="90%" >}}
 
+An organizational capability is a specific ability or capacity that an organization possesses to perform a particular task or function. They are 
+realized by various elements of the organization, such as people, processes, and technology. This allows us to reason about "What an 
+organization is capable of doing", without having to dive into the specifics of the organization's structure.
+These capabilities are mapped to the components of the Chain of Accountability, ensuring that each phase is assigned to the appropriate
+capability. The end-goal is that the right people are responsible for the right tasks, and that the organization's capabilities are leveraged
+effectively to achieve the desired outcome.
+
+People, or capabilities, relate to the components of the Chain of Accountability in different manners. Some bear the end responsability for a 
+component, whilest others are merely impacted by it. The following relationships are defined between the components and the capabilities:
+
+* **'Accountable for':** The person who is ultimately responsible for the component. They are the ones who will be held accountable for the 
+  success or failure of the component.
+* **'Influences':** 
+* **'Impacted by':**
 
 ## Background
 

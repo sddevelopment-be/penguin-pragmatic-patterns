@@ -6,11 +6,12 @@
 
 skinparam maxMessageSize 184
 skinparam wrapWidth 204
-skinparam nodesep 4
+skinparam nodesep 16
 
 left to right direction
 
 skinparam shadowing false
+skinparam linetype polyline
 
 sprite $sCapability jar:archimate/strategy-capability
 sprite $sStream jar:archimate/strategy-value-stream
@@ -26,7 +27,8 @@ interface {
 
 skinparam rectangle  {
 	BorderThickness 1
-	BorderColor #555555
+	BorderColor #55555545
+	FontColor #55555560
 }
 
 skinparam rectangle<<content>> {
@@ -66,7 +68,7 @@ rectangle "content" <<content>>{
   reflection -[hidden]-> tactics
   reflection -[hidden]-> tactics
 
-  rectangle "organization structure" #line.dashed {
+  rectangle "Organization Structure" <<content>> #line.dashed  {
   	Strategy_Capability(leadership, "Org. Leadership")
   	Strategy_Capability(team_lead, "Team Leadership")
 

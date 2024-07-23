@@ -803,3 +803,17 @@ aliases = []
 references = [
     { title = "Sociocracy 3.0", link = "https://sociocracy30.org/resources/#se-practical-guide" }
 ]
+
+[[terminology]]
+name = "Organizational Capability"
+domain = "Enterprise Architecture"
+description = """
+An organizational capability is a specific ability or capacity that an organization possesses to perform a particular task or function. They are
+realized by various elements of the organization, such as people, processes, and technology. In the field of business, strategic thinking and planning delivers strategies
+and high-level goals that are often not directly implementable in the architecture of an organization. Describing the organization as a set of capabilties,
+enables organizations to reason about their goals and processes in a structured, strategic, manner. This structure can later be used to ensure business capabilities are assigned to organizational units, and people.
+"""
+aliases = ["Capability"]
+references = [
+    { title = "ArchiMate Reference guide: Strategic Layer", link = "https://pubs.opengroup.org/architecture/archimate32-doc/ch-Strategy-Layer.html" }
+]

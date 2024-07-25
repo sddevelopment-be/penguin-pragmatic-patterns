@@ -1,6 +1,6 @@
 +++
-aliases = ["tools"]
-title = "Tools"
+aliases = ["tools", "links"]
+title = "Tools, Websites, and Apps"
 +++
 
 A list of tools to help you be more efficient in your daily endeavours. 

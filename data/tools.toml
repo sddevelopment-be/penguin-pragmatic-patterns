@@ -6,9 +6,12 @@ image = "sdd_docgen.webp"
 description = """
 Tooling to generate documents from Markdown, using docker images to ensure portability between different environments. Contains a quick-start set-up. Useful for automated pipelines or quick set-up on new computers.
 """
+tags = ["documentation", "automation", "markdown"]
+type = "app"
+
 
 [[tool]]
-name = "Tutorial: Productivity With Shortcuts"
+name = "Productivity With Shortcuts"
 authors = "Schraepen, T.; et al."
 link = "http://sch3lp.github.io/ProductivityWithShortcuts/"
 image = "hotkey_tutorial.webp"
@@ -17,6 +20,8 @@ A step-by-step guide to help you get the most out of your IntelliJ IDEA. A great
 While it might sound like snake-oil to some, the advantages of reducing the need to use a mouse, and typing less characters add up over time.
 Definitly take a look at it, and discover a side of your IDE that you did not think existed before.
 """
+tags = ["IDE", "productivity"]
+type = "tutorial"
 
 [[tool]]
 name = "Docsify"
@@ -27,6 +32,7 @@ description = """
 Generate a documentation website from markdown files quickly. Easy to use, customizable with community-supported plugins. Written in javascript.
 A great way to document your projects in your IDE, and get a visually pleasing documentation site.
 """
+type = "app"
 
 [[tool]]
 name = "CV Compiler"
@@ -37,6 +43,7 @@ description = """
 Leverage Big Data to automate your CV screening. Evaluates resumes based on vacancies from big tech companies. The site offers feedback on your resume, as well
 as various stylistic tips and tricks.
 """
+type = "app"
 
 [[tool]]
 name = "Structurizr "
@@ -46,6 +53,8 @@ image = "structurizr.png"
 description = """
 A DSL for describing software architecture and design. Based on the c4model system for system description. Easy to use, and integrates with the most popular code-to-diagram formats.
 """
+tags = ["architecture", "design", "documentation"]
+type = "app"
 
 [[tool]]
 name = "NextCloud: Remote collaboration made easy"
@@ -56,6 +65,8 @@ description = """
 A self-hosted personal storage system. Designed to be modular, users can spin up their own office-like server environment to keep their notes,
 documents, pictures, and messages. Various options for hosting are available.
 """
+tags = ["storage", "collaboration"]
+type = "app"
 
 [[tool]]
 name = "Firefly III"
@@ -67,4 +78,18 @@ A free and open source personal finance manager. Features data imports for well-
 let's you organize expenses according to categories, and provides an easy way to set budgets for yourself.
 You can host Firefly yourself on a webserver, or run it on your local machine. Docker images are available to get your personal accounting system up and running quickly.
 """
+tags = ["finance", "budget", "accounting"]
+type = "app"
 
+[[tool]]
+id = "89f4afd0-b7f6-4b56-a31d-4d4b9f1d4730"
+authors = "NERIS Analytics Ltd."
+name = "Personality Types"
+year = "2023"
+site = "16personalities.com"
+link = "https://www.16personalities.com/personality-types"
+image = ""
+description = """
+"""
+type = "site"
+tags = ["personality", "psychology", "assessment"]

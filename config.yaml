@@ -77,7 +77,7 @@ params:
         url: /glossary/
       - title: Bibliography
         url: /books
-      - title: Recommended Tools
+      - title: "Tools, Websites, Apps"
         url: /tools/
   - title: Admin
     sublinks:
@@ -151,7 +151,7 @@ params:
           link: /glossary
         - text: Bibliography
           link: /books
-        - text: Recommended Tools
+        - text: "Tools, Websites, Apps"
           link: /tools
       column3:
         title: "Admin"

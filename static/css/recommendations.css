@@ -2,6 +2,30 @@
     margin-top: 3.75rem;
 }
 
+.recommendation-item .recommendation-title {
+    border-bottom: 1px dashed #f39200;
+    text-transform: capitalize;
+    color: #030d12;
+    font-size: 1.25rem;
+    padding: 0.25rem 2.75rem;
+    max-width: 98%;
+    display: flex;
+    flex-direction: row;
+    gap: 0.75rem;
+    justify-content: flex-start;
+
+    .recommendation-type {
+        border-bottom: none;
+        padding: 0.125rem 0.75rem 0.125rem 0.125rem;
+        font-size: 0.75rem;
+        text-transform: uppercase;
+        font-weight: 850;
+        max-width: 6.125em;
+        width: 6.125em;
+        color: #3c5d79;
+    }
+}
+
 .recommendation-item {
     display: flex;
     flex-flow: column wrap;
@@ -14,18 +38,6 @@
     max-width: 100%;
     border-bottom: 1px solid #dcdcdc;
     border-right: 1px solid #dcdcdc;
-}
-
-.recommendation-item .recommendation-title {
-    border-bottom: 1px dashed #f39200;
-    text-transform: capitalize;
-    color: #030d12;
-    font-size: 1.25rem;
-    padding: 0.25rem 2.75rem;
-    max-width: 98%;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
 }
 
 @media (max-width: 800px) {

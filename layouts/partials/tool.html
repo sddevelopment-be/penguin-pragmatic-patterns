@@ -4,9 +4,11 @@
 {{ $author := $tool.authors}}
 {{ $link := $tool.link}}
 {{ $description := $tool.description}}
+{{ $type := $tool.type}}
 
 <div class="recommendation-item revealOnScroll delay-1" data-animation="fadeInLeft">
     <div class="recommendation-title">
+        <span class="recommendation-type">{{ $type }}</span>
         <h3 id={{ replace $name " " "-" | lower }}>{{ $name }}</h3>
     </div>
     <div class="recommendation-content">

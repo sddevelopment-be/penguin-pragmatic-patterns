@@ -21,7 +21,9 @@ uuid = "6169f9c0-dfe0-49b1-b459-acf01ac69c40"
 aliases = ["6169f9c0-dfe0-49b1-b459-acf01ac69c40"]
 pubdate = "2023-10-01"
 image = "concepts/banner_test_pyramid.webp"
+related_concepts = []
 related_practices = ["04c6129d-11f7-4aa0-a809-1b972a0d7ef9"]
+
 +++
 
 ## Definition

@@ -484,11 +484,12 @@ year = "2009"
 link = "https://www.goodreads.com/book/show/6452796-drive"
 image = "drive.webp"
 description = """
-How do you motivate yourself, and others? Did your manager get it right by offering you the chance of promotion if you worked all weekend?
-Or would you have preferred a more relaxed approach, where you could work on your own projects, and have the freedom to explore, promotion be damned?<br />
-In 'Drive', Pink explores the science behind motivation, how it has been applied in the workplace in the past, and how the existing paradigm no longer fits the modern workforce.
-The books introduces the reader to the three pillars of motivation: Autonomy, Mastery, and Purpose. It then goes on to explain how these can be applied to your own situation, work or otherwise.<br /><br />
-If you are in a leadership position, aspire to be, or are just curious about what makes people tick, this book is a must-read.
+How do you motivate yourself and others? Did your manager get it right by offering you a promotion if you worked all weekend? Or would you have preferred a more relaxed approach, allowing you to work on your own projects and explore your interests, promotion be damned?
+<br /><br />
+In "Drive: The Surprising Truth About What Motivates Us," Daniel H. Pink explores the science behind motivation, examining how traditional methods have been applied in the workplace and why they no longer suit the modern workforce.
+Pink introduces the reader to the three pillars of motivation: Autonomy, Mastery, and Purpose. He explains how these elements can be applied to various situations, both in the workplace and beyond.
+<br /><br />
+Whether you are in a leadership position, aspire to be, or are simply curious about what makes people tick, this book is a must-read. Pink's insights offer valuable guidance for fostering motivation in yourself and others, making it a crucial resource for anyone interested in understanding and improving human motivation.
 """
 levels = ["novice"]
 tags=["productivity", "motivation", "goals"]
@@ -526,17 +527,45 @@ Is there a way to structure your team that will allow for fast flow of work?
 In Team Topologoes, the authors evolve the idea behind DevOps Topologies into a model for or organizational design.
 Based on the idea that the structure of your team will influence the flow of work, the authors present a model
 to design team boundaries and communication lines based on the need for interaction between the teams.
-
+<br /><br />
 The authors suggest four essential team types and three interaction models, and present multiple real-world cases where the topologies approach was used to great effect.
 This book is a recommended read for anyone interested in team dynamics, organizational design, and the flow of work within corporate settings.
 """
 levels = ["advanced", "reference"]
-tags=["management", "communication", "structure", "team dynamics", "architecture"]
+tags = ["management", "communication", "structure", "team dynamics", "architecture"]
+
+[[book]]
+id = "644de556-142a-42d7-8b86-1b513b320af6"
+title = "Clean Code: A Handbook of Agile Software Craftsmanship"
+isbn = "978-0132350884"
+authors = "Martin, R. C."
+publisher = "Pearson"
+location = ""
+year = "2008"
+link = "https://www.goodreads.com/book/show/3735293-clean-code"
+image = "clean_code.webp"
+description = """
+In the world of software development, writing code is only half the battle. The real challenge lies in writing clean, efficient, and maintainable
+code. In "Clean Code: A Handbook of Agile Software Craftsmanship," Robert C. Martin, also known as _"Uncle Bob"_, provides invaluable insights into
+the art and science of writing clean code.
+<br /><br />
+Martin emphasizes the importance of readability, simplicity, and attention to detail, guiding readers through the process of writing code that is
+easy to understand, test, and maintain. Whether you're a beginner looking to build strong coding habits or an experienced programmer aiming to
+refine your skills, this book provides the tools and techniques necessary to elevate your craft.
+<br /><br />
+Through a series of practical examples and best practices, "Clean Code" equips readers with the knowledge and skills to write elegant, maintainable
+code. The biggest takeaway from this book is the importance of writing code that is not only functional but also a joy to read and work with. While
+the book offers a wealth of valuable advice, it's important to use "Clean Code" as an inspiration rather than a set of strict rules. Some practices
+may be considered outdated in contemporary software development, but the core principles and concepts remain relevant and essential for any
+programmer or software engineer.
+"""
+levels = ["beginner", "reference"]
+tags = ["programming", "readability", "refactoring", "patterns"]
 
 [[book]]
 id = "1925e2ec-9147-4c4a-9dd8-c3ce6d08eee6"
 title = "A Common-Sense Guide to Data Structures and Algorithms: Level Up Your Core Programming Skills"
-isbn = "9781680507225"
+isbn = "978-1680507225"
 authors = "Wengrow, J."
 publisher = "The Pragmatic Bookshelf"
 location = ""

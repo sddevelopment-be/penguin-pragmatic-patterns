@@ -12,7 +12,15 @@ uuid="1f3849c8-28bc-4934-95bf-66d9dcee6858"
 aliases=["1f3849c8-28bc-4934-95bf-66d9dcee6858"]
 pubdate="2023-09-13"
 image="concepts/banner_clean_code.webp"
+related_concepts = []
 related_practices = ["1848f4a6-3acb-4dc8-aa49-e57a1b87cf3b", "94a558cd-4e86-4814-a5e9-d6ecafcb0d6b"]
+further_exploration = [
+  {type="biblio", id="93c3d298-690e-48b5-8140-b34ce90c2083"},
+  {type="biblio", id="9d8ff83e-f49a-4c7c-8e40-e34ac63e2792"},
+  {type="biblio", id="8572443d-2c27-462a-b9d7-839dd6e4d58b"},
+  {type="biblio", id="644de556-142a-42d7-8b86-1b513b320af6"},
+  {type="raw", author="unknown", year="2009", title="Manifesto for Software Craftsmanship", site="softwarecraftsmanship.org", link="https://manifesto.softwarecraftsmanship.org/" },
+]
 +++
 
 {{<quote text="But it works! That's all that matters, right?" author="A lazy developer">}}
@@ -91,34 +99,4 @@ follow.
 * **Expressiveness:** Writing code that clearly shows its purpose without requiring additional explanation. For example, using meaningful names and 
   avoiding cryptic abbreviations.
 
-## Further Exploration
 
-* {{<reference author="Beck, K. & Andres, C."
-  year="2004"
-  title="Extreme Programming Explained: Embrace Change"
-  isbn="9780321278654"
-  publisher="Addison-Wesley"
-  link="https://www.goodreads.com/book/show/67833.Extreme_Programming_Explained" >}}
-* {{<reference author="Fowler, M.; Beck, K.; Brant J.; Opdyke W.; Roberts D."
-  year="2012"
-  title="Refactoring: Improving the Design of Existing Code"
-  isbn="9780133065268"
-  publisher="Addison-Wesley Professional"
-  link="https://www.goodreads.com/book/show/18624706-refactoring" >}}
-* {{<reference author="Thomas, D.; Hunt, A."
-  year="2019"
-  title="The Pragmatic Programmer, 20th Anniversary Edition: your journey to mastery"
-  isbn="9780135957059"
-  publisher="Addison-Wesley Professional"
-  link="https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/" >}}
-* {{<reference author="Martin, R. C."
-  year="2008"
-  title="Clean Code: A Handbook of Agile Software Craftsmanship"
-  isbn="9780132350884"
-  publisher="Prentice Hall"
-  link="https://www.goodreads.com/book/show/3735293-clean-code" >}}
-* {{<reference author="unknown"
-  year="2009"
-  title="Manifesto for Software Craftsmanship"
-  site="softwarecraftsmanship.org"
-  link="https://manifesto.softwarecraftsmanship.org/" >}}

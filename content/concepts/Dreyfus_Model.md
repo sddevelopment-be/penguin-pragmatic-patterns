@@ -13,9 +13,15 @@ tags = [
 ]
 uuid="98cc5f46-409b-44df-9fb8-fb1d881970b5"
 aliases=["98cc5f46-409b-44df-9fb8-fb1d881970b5"]
-related_concepts = ["a49f917b-c560-462a-ac38-46515f6f62d0"]
 pubdate="2023-09-09"
 image="concepts/banner_dreyfus.webp"
+related_concepts = ["a49f917b-c560-462a-ac38-46515f6f62d0"]
+related_practices = []
+further_exploration = [
+  {type="raw", author="Dreyfus, Stuart E; Dreyfus, Hubert L.", year="1980", title="A Five-Stage Model of the Mental Activities InvolvedinDirected Skill Acquisition", publisher="University of California", location='Berkeley', link="http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA084551&Location=U2&doc=GetTRDoc.pdf"},
+  {type="biblio", id="d22ee68e-2f19-4677-9123-2994cb111c0c"}, 
+  {type="biblio", id="d33fc09e-39c6-411e-a70e-2ca98375abd6"}, 
+]
 +++
 
 {{<quote text=`
@@ -114,24 +120,3 @@ In general, the more experienced one becomes, the more they start internalizing 
 Inexperienced practitioners of a skill are pleased when someone provides them with clear-cut instructions, especially if they've heard applying
 these instructions will lead to certain success.
 Adapt your coaching and teachings styles to the needs of the learner.
-
-## Further Exploration
-
-* {{<reference author="Dreyfus, Stuart E; Dreyfus, Hubert L."
-  year="1980"
-  title="A Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition"
-  publisher="University of California"
-  location='Berkeley'
-  link="http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA084551&Location=U2&doc=GetTRDoc.pdf" >}}
-* {{<reference author="Hunt, A."
-  year="2008"
-  isbn="9781934356050"
-  title="Pragmatic Thinking and Learning: Refactor Your wetware"
-  publisher="The Pragmatic Bookshelf"
-  link="https://pragprog.com/titles/ahptl/pragmatic-thinking-and-learning/" >}}
-* {{<reference author="Hoover, D.; Oshineye, A."
-  year="2009"
-  isbn="9780596518387"
-  title="Apprenticeship Patterns"
-  publisher="O'Reilly Media, Inc."
-  link="https://www.oreilly.com/library/view/apprenticeship-patterns/9780596806842" >}}

@@ -504,9 +504,18 @@ location = ""
 year = "2023"
 link = "https://www.goodreads.com/book/show/68507606-test-driven-development-with-java"
 image = "tdd_java_mellor.webp"
-draft = true
 description = """
-
+Test-Driven Development (TDD) emphasizes writing tests before coding, ensuring that software is both robust and maintainable from the ground up.
+_"Test-Driven Development with Java"_ by Allan Mellor walks readers through the principles and practices of TDD, highlighting how this methodology can
+lead to cleaner, more reliable code.
+<br /><br />
+Mellor provides detailed explanations and practical examples, demonstrating how to implement TDD in real-world Java projects. Readers will learn how
+to write effective unit tests, refactor code efficiently, and integrate TDD into their development workflow. The author conveys the importance of
+continuous improvement and quality assurance in a relatable and accessible manner.
+<br /><br />
+This book is ideal for software developers, testers, and automation engineers looking to enhance their coding skills and deliver high-quality
+software products. Filled with valuable insights, it is also a joy to read, thanks to Mellor's engaging writing style and efforts to make complex
+concepts easy to understand.
 """
 levels = ["novice"]
 tags=["programming", "test-driven", "structure"]

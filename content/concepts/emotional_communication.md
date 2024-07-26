@@ -19,6 +19,8 @@ further_exploration = [
   {type="biblio", id="c109d804-57a4-4acf-8c80-47a88eb6df85"},
   {type="biblio", id="63d02dd1-135f-4e3e-af7b-b2e6f4dbb5e3"},
   {type="biblio", id="f17079c7-1dc6-42de-85c1-f61dbeade355"},
+  {type="tool", id="89f4afd0-b7f6-4b56-a31d-4d4b9f1d4730"},
+  {type="tool", id="b4627229-58db-44cd-93e5-7cff11a0ca65"},
   {type="raw", author="Robin Lloyd", year="1999", site="cnn.com", title="Metric mishap caused loss of NASA orbiter", publisher="CNN News", link="http://edition.cnn.com/TECH/space/9909/30/mars.metric.02/"},
   
 ]
@@ -71,17 +73,3 @@ Given all these possibilities to dilute a message and draw wrong conclusions, it
   alt="A schematic representation of a dialogue." 
   caption="A schematic representation of a dialogue." 
   size="80%" >}}
-
-
-* {{<reference 
-  author="NERIS Analytics Ltd."
-  year="2023"
-  site="16personalities.com"
-  title="Personality Types"
-  link="https://www.16personalities.com/personality-types" >}}
-* {{<reference 
-  author="Kibeom, L. & Ashton, M. C."
-  year="2009"
-  site="hexaco.org"
-  title="The HEXACO personality inventory"
-  link="https://hexaco.org/" >}}

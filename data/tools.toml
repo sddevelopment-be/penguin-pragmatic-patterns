@@ -1,4 +1,5 @@
 [[tool]]
+id = "ce917c05-0e1d-44ce-9874-e61b81e574bd"
 name = "SD Development Document generator"
 authors = "Dejongh, S."
 link = "https://github.com/sddevelopment-be/document-generation"
@@ -11,6 +12,7 @@ type = "app"
 
 
 [[tool]]
+id = "2fcda1f4-7270-4a63-be4a-4c951242a71d"
 name = "Productivity With Shortcuts"
 authors = "Schraepen, T.; et al."
 link = "http://sch3lp.github.io/ProductivityWithShortcuts/"
@@ -24,6 +26,7 @@ tags = ["IDE", "productivity"]
 type = "tutorial"
 
 [[tool]]
+id = "255aa6eb-7668-415a-b725-e387b9b11424"
 name = "Docsify"
 authors = "docsify.js Open Source Community"
 link = "https://docsify.js.org"
@@ -35,6 +38,7 @@ A great way to document your projects in your IDE, and get a visually pleasing d
 type = "app"
 
 [[tool]]
+id = "830947a8-b8c1-4fb1-b1ea-1468060d607c"
 name = "CV Compiler"
 authors = ""
 link = "https://cvcompiler.com/"
@@ -46,6 +50,7 @@ as various stylistic tips and tricks.
 type = "app"
 
 [[tool]]
+id = "ef34ec57-62d1-4616-8f29-050908a23fcc"
 name = "Structurizr "
 authors = ""
 link = "https://structurizr.org/"
@@ -57,6 +62,7 @@ tags = ["architecture", "design", "documentation"]
 type = "app"
 
 [[tool]]
+id = "da6734f3-1fa8-4c50-a068-0e346bb7aa9a"
 name = "NextCloud: Remote collaboration made easy"
 authors = "Nextcloud GmbH"
 link = "https://nextcloud.com"
@@ -69,6 +75,7 @@ tags = ["storage", "collaboration"]
 type = "app"
 
 [[tool]]
+id = "e5fd2b7b-9e33-4792-9205-47ae39b6651f"
 name = "Firefly III"
 authors = "Cole, J."
 link = "https://www.firefly-iii.org/"
@@ -88,6 +95,19 @@ name = "Personality Types"
 year = "2023"
 site = "16personalities.com"
 link = "https://www.16personalities.com/personality-types"
+image = ""
+description = """
+"""
+type = "site"
+tags = ["personality", "psychology", "assessment"]
+
+[[tool]]
+id = "b4627229-58db-44cd-93e5-7cff11a0ca65"
+authors = "Kibeom, L. & Ashton, M. C."
+name = "The HEXACO personality inventory"
+year = "2009"
+site = "hexaco.org"
+link = "https://hexaco.org"
 image = ""
 description = """
 """

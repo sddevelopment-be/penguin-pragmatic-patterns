@@ -12,6 +12,13 @@ uuid="03a278c3-0115-4492-8539-f93cfda96fd7"
 aliases=["03a278c3-0115-4492-8539-f93cfda96fd7"]
 pubdate="2023-08-20"
 image="concepts/banner_leadership_styles.webp"
+related_practices = []
+related_concepts = []
+further_exploration = [
+  {type="raw", author="Doolittle, J.", year="2020", title="The Leadership Style Matrix", site="Jeff Doolittle", link="https://jeffdoolittle.com/2020/11/06/leadership-style-matrix"},
+  {type="raw", author="Sefton, J.", year="2012", title="Definition of Leadership", site="nofinchaos", link="https://nofinchaos.wordpress.com/2012/03/07/definition-of-leadership-kurt-lewin"},
+  {type="raw", author="Lewin, K., Lippit, R. and White, R.K.", year="1939", title="Patterns of aggressive behaviour in experimentally created social climates", publication="Journal of Social Psychology", volume="10(2)", link="https://www.tandfonline.com/doi/abs/10.1080/00224545.1939.9713366?journalCode=vsoc20"}
+]
 +++
 
 ## Definition
@@ -103,22 +110,3 @@ among group members.
 * Delegative Leadership (Laissez-Faire): A research lab where highly skilled scientists are given the freedom to pursue their experiments
   independently.
 
-
-## Further Exploration
-
-* {{<reference author="Doolittle, J."
-  year="2020"
-  title="The Leadership Style Matrix"
-  site="Jeff Doolittle"
-  link="https://jeffdoolittle.com/2020/11/06/leadership-style-matrix" >}}
-* {{<reference author="Sefton, J."
-  year="2012"
-  title="Definition of Leadership"
-  site="nofinchaos"
-  link="https://nofinchaos.wordpress.com/2012/03/07/definition-of-leadership-kurt-lewin" >}}
-* {{<reference author="Lewin, K., Lippit, R. and White, R.K."
-  year="1939"
-  title="Patterns of aggressive behaviour in experimentally created social climates"
-  publication="Journal of Social Psychology"
-  volume="10(2)"
-  link="https://www.tandfonline.com/doi/abs/10.1080/00224545.1939.9713366?journalCode=vsoc20" >}}

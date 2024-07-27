@@ -113,3 +113,29 @@ description = """
 """
 type = "site"
 tags = ["personality", "psychology", "assessment"]
+
+[[tool]]
+id = "80865a5e-a7a1-400a-a07a-3b7639743dfa"
+authors = "Bockelbrink, B.; Priest, J. & David L."
+name = "A Practical Guide for Evolving Agile and Resilient Organizations with Sociocracy 3.0"
+year = "2022"
+site = "sociocracy30.org"
+link = "https://patterns.sociocracy30.org/all.html"
+image = ""
+description = """
+"""
+type = "site"
+tags = []
+
+[[tool]]
+id = "fa17a430-1b3c-487b-82a6-d1b6d5e35d48"
+authors = "Crossland, J."
+name = "AMMERSE: Empowering Businesses with core values"
+year = "2024"
+site = "AMMERSE.org"
+link = "https://www.ammerse.org/"
+image = ""
+description = """
+"""
+type = "site"
+tags = []

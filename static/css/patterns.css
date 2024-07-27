@@ -350,7 +350,12 @@
     }
 }
 
-
+.pattern-related {
+    margin-top: 3.5rem;
+    font-size: 0.85rem;
+    border-top: 1px dotted #f39200;
+    padding-top: 2.75rem;
+}
 
 .ammerse {
     margin-top: 0.5rem;

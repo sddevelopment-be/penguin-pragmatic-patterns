@@ -8,7 +8,7 @@
         {{ $matchingBooks := (where $allBooks "id" "in" $bibliographicReferences ) }}
         {{ range $book := $matchingBooks }}
             <li>
-                {{ $book.authors }} ({{ $book.year}}) <a href="/books/{{$book.id}}" rel="noreferrer" target="_blank">{{ $book.title }}</a>. {{ if $book.publisher }} <br />{{ if $book.location }}, {{ $book.location }}:{{ end }} {{ $book.publisher }}. {{if $book.isbn }}isbn: {{$book.isbn}}. {{ end }} {{ end }}
+                {{ $book.authors }} ({{ $book.year}}) <a href="/books/{{$book.id}}" rel="noreferrer" target="_blank">{{ $book.title }}</a>. {{ if $book.publisher }} {{ if $book.location }}, {{ $book.location }}:{{ end }} {{ $book.publisher }}. {{if $book.isbn }}isbn: {{$book.isbn}}. {{ end }} {{ end }}
             </li>
         {{ end }}
     {{ end }}
@@ -17,7 +17,7 @@
     {{ if $rawReferences }}
         {{ range $rawReference := $rawReferences }}
             <li>
-                {{ $rawReference.author }} ({{ $rawReference.year}}). {{ $rawReference.title }}. {{$rawReference.site}}. <br /> <a href="{{ $rawReference.link }}" target="_blank" rel="noreferrer"> {{$rawReference.link}}</a>.
+                {{ $rawReference.author }} ({{ $rawReference.year}}). <a href="{{ $rawReference.link }}" target="_blank" rel="noreferrer">{{ $rawReference.title }}</a>. {{$rawReference.site}}.  {{$rawReference.link}}.
             </li>
         {{ end }}
     {{ end }}
@@ -28,7 +28,7 @@
         {{ $matchingTools := (where $allTools "id" "in" $toolReferences ) }}
         {{ range $toolReference := $matchingTools }}
             <li>
-                {{ $toolReference.authors }} ({{ $toolReference.year}}). {{ $toolReference.name }}. <a href="{{ $toolReference.link }}" target="_blank" rel="noreferrer"> {{$toolReference.site}}</a>.
+                {{ $toolReference.authors }} ({{ $toolReference.year}}). <a href="{{ $toolReference.link }}" target="_blank" rel="noreferrer"> {{ $toolReference.name }} </a>. {{$toolReference.site}}.
             </li>
         {{ end }}
     {{ end }}

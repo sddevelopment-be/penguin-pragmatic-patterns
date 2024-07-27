@@ -571,6 +571,8 @@ programmer or software engineer.
 levels = ["beginner", "reference"]
 tags = ["programming", "readability", "refactoring", "patterns"]
 
+
+
 [[book]]
 id = "1925e2ec-9147-4c4a-9dd8-c3ce6d08eee6"
 title = "A Common-Sense Guide to Data Structures and Algorithms: Level Up Your Core Programming Skills"

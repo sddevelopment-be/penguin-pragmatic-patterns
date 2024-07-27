@@ -14,6 +14,14 @@ aliases=["97067bdd-7268-4098-ae66-7d4c3ea19fb2"]
 pubdate="2023-09-15"
 image="concepts/banner_memento_mori.webp"
 related_practices = ["1bdb4866-7c15-46b1-ad38-26111791eed5"]
+related_concepts = []
+further_exploration = [
+  {type="biblio", id="a688ad2e-beb4-4b84-ad38-e64f523a33d8"},
+  {type="biblio", id="c109d804-57a4-4acf-8c80-47a88eb6df85"},
+  {type="raw", author="Aurelius, M. - Emperor of Rome", year="ca. 167", title="Mediations", location="Rome", publisher="Marcus Aurelius", link="http://classics.mit.edu/Antoninus/meditations.html"},
+  {type="tool", id="fa17a430-1b3c-487b-82a6-d1b6d5e35d48"},
+  {type="tool", id="80865a5e-a7a1-400a-a07a-3b7639743dfa"}
+]
 +++
 
 {{<quote text=`
@@ -94,40 +102,5 @@ of one's time and living a purposeful life.
 * **Productivity:** Using the awareness of limited time to prioritize important tasks and avoid procrastination.
 * **Relationships:** Valuing and nurturing relationships, understanding that time with loved ones is finite.
 
-## Further Exploration
-
-* {{<reference author="Aurelius, M. - Emperor of Rome"
-  year="ca. 167"
-  title="Mediations"
-  location="Rome"
-  publisher="Marcus Aurelius"
-  link="http://classics.mit.edu/Antoninus/meditations.html" >}}
-* {{<reference author="Covey, S. R.; Collins, J."
-  isbn="0743269519"
-  year="2004"
-  title="The 7 Habits of Highly Effective People: Powerful Lessons in Personal Change"
-  publisher="Free Press"
-  link="https://www.goodreads.com/book/show/36072.The_7_Habits_of_Highly_Effective_People" >}}
-* {{<reference author="Rosenberg, M.B."
-  isbn="9781892005281"
-  year="2015"
-  title="Non-violent Communication: A Language of Life"
-  publisher="PuddleDancer Press"
-  link="https://www.goodreads.com/book/show/25073935-nonviolent-communication" >}}
-* {{<reference author="Crossland, J."
-  year="2024"
-  title="AMMERSE: Empowering Businesses with core values"
-  site="AMMERSE.org"
-  link="https://www.ammerse.org/" >}}
-* {{<reference author="Bockelbrink, B.; Priest, J. & David L."
-  year="2022"
-  title="A Practical Guide for Evolving Agile and Resilient Organizations with Sociocracy 3.0"
-  site="sociocracy30.org"
-  publisher="Open Domain, Creative Commons licence"
-  link="https://patterns.sociocracy30.org/all.html" >}}
-
----
-
-[^1]: As the commentator team for the Toronto Raptors said multiple times in the 2018 NBA season: "The only certainties in life are Death, Taxes and JV threes."
-  
+[^1]: As the commentator team for the Toronto Raptors said multiple times in the 2018 NBA season: "The only certainties in life are Death, Taxes and JV threes." 
 [^2]: As per Oscar Wilde: "Life is too important to be taken seriously."

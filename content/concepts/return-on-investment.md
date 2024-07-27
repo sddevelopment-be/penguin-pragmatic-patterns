@@ -16,6 +16,11 @@ uuid = "b86230c6-49fb-4792-9008-a5241c5cdcb2"
 aliases = ["b86230c6-49fb-4792-9008-a5241c5cdcb2"]
 pubdate="2023-09-13"
 image="concepts/banner_return_on_investment.webp"
+related_concepts = []
+related_practices = ["94a558cd-4e86-4814-a5e9-d6ecafcb0d6b", "d8d2cbc3-1f28-4e6b-937f-2d8cf0bbaed1"]
+further_exploration = [
+  {type="raw", author="CFI Team", year="2020", title="Return on investment (ROI)", site="Corporate Finance Institute", link="https://corporatefinanceinstitute.com/resources/accounting/what-is-return-on-investment-roi"},
+]
 +++
 
 ## Definition
@@ -106,16 +111,3 @@ From this analysis, Option 3 provides the highest ROI. If only considering ROI, 
 
 Consider investing in a professional development course costing 1,000 EUR, which you expect will help you secure a job paying 10,000 EUR more per
 year. The ROI would be: `ROI = (10,000 EUR / 1,000 EUR) = 1,000%`. This high ROI indicates a significant return on your investment in education.
-
-## Further Exploration
-
-* {{<reference author="CFI Team"
-  year="2020"
-  title="Return on investment (ROI)"
-  site="Corporate Finance Institute"
-  link="https://corporatefinanceinstitute.com/resources/accounting/what-is-return-on-investment-roi" >}}
-* {{<reference author="SD Development"
-  year="2023"
-  title="Avoid Gold Plating"
-  site="Pragmatic Penguin Pattern Portfolio"
-  link="/practices/94a558cd-4e86-4814-a5e9-d6ecafcb0d6b/" >}}

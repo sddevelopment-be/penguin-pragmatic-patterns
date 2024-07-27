@@ -2,7 +2,10 @@
 title = "Heartfelt Dialogues"
 subtitle = "Unravelling Emotional Influences on Communication"
 author = "Stijn Dejongh"
-description = "Our responses are mostly governed by our emotions. So are the responses of others."
+description = "Emotional responses significantly influence the exchange of messages, often leading to misunderstandings and varied reactions based on individual emotional states."
+summary= """
+Explore the dynamics of Emotional Conversations, where emotional responses influence communication. Learn key components, practical applications, and how understanding this concept can reduce misunderstandings and enhance interactions in personal and professional settings.
+"""
 categories = [
     "communication",
 ]
@@ -26,50 +29,77 @@ further_exploration = [
 ]
 +++
 
-How often have you said something with the best of intentions, only to have a friend react in an unexpected way?
-Most of us have had multiple experiences with the effects of miscommunications. Usually, these are quite easily resolved.   
-Other times, they have devastating effects on projects and relationships.
+How often have you said something with the best of intentions, only to have a friend react in an unexpected way? Most of us have had multiple
+experiences with the effects of miscommunications. Usually, these are quite easily resolved. Other times, they have devastating effects on projects
+and relationships.
 
-In the late nineties, a simple misunderstanding caused a NASA orbiter to crash into Mars.
-Controller teams from different parts of the world were collaborating to guide the spacecraft into orbit around the red
-planet. But as both teams used a different measurement system (imperial vs. metric), they ended up creating a very expensive new crater on Mars.
-Luckily most misunderstanding do not have a price tag running in the hundreds of millions. Still, it is best to avoid them if we can.
+## Definition
 
-## Description
+**Emotional Conversations** refer to the dynamics of communication where emotional responses significantly influence the exchange of messages, often
+leading to misunderstandings and varied reactions based on individual emotional states.
 
-We value out ability to stay rational, calm, and collected in any situation. Think of your run-of-the-mill action hero. In general, you will find
-they are extremely stoic. Nothing phases them. Their adversaries generally become frustrated with their inability to trigger a response from the
-hero, causing them to do lose their cool, make bad decisions to annoy the hero. Their inability to stay calm leading directly to their downfall.
+## Key Components
 
-Unlike these characters, most of us are not in total control of our emotions. We tend to get bored when listening to long-winded stories that 
-have no impact on our lives. We tend to become upset, or sad, when hearing bad news. And we tend to get angry, or distraught when things do not 
-go our way.
+{{< image src="/images/concepts/communication_processing_emotions.png"
+alt="A schematic representation of a dialogue."
+caption="A schematic representation of a dialogue."
+size="80%" >}}
 
-### How we process messages: a simplified model 
-
-When we hear someone say something, we process the message. Usually, we have some sort of reaction to it.
-How we react tends to depend on a variety of factors: How we are feeling at the time; What is being said; What we heard; What memories this 
-brings up; How we tend to think about life. 
-
-To make matters even more complicated, no two people are alike. What is pleasant or agreeable to one person might be an affront to another.
-In order to reason about this, we can consider how we process incoming information as a series of distinct steps:
-
-* **Our Input Filter:** Sound waves reach our ears, and get processed by our brains. Or light reaches our eyes, and gets processed. Either way, 
-  this causes a subtle change between what is being sent, and what is being received. 
-* **How we process the message:** After we registered information, we process it further, and assign meaning to it. Most miscommunications 
-  happen here.
-* **Our Internal Context:** How we react to the meaning we assigned to what is being said highly depends on what is going on inside our heads at 
-  the time. When we feel particularly tense, or we recall painful memories, we tend to overreact to otherwise harmless stimuli.
-* **Our Emotional Response:** Depending on our internal context, we'll have an emotional reaction to the message.
-* **Back the same way:** Our response then travels all the way back from the "emotional reaction" layer, passing through each of the previous 
-  steps. Until finally, it reaches our **Output filter**. This filter acts as the last line of defence we have before blurting out something we 
-  will regret 
-  later.
+* **Our Input Filter:** Sound waves or visual stimuli reach our sensory organs and are processed by our brains, causing subtle changes between what
+  is sent and what is received.
+* **How We Process the Message:** After registering information, we process it further and assign meaning to it. Most miscommunications occur at
+  this stage.
+* **Our Internal Context:** Our reaction to the meaning we assigned highly depends on our current mental state and memories.
+* **Our Emotional Response:** Based on our internal context, we have an emotional reaction to the message.
+* **Output Filter:** Our response travels back through the previous steps and reaches our output filter, which acts as the last line of defense
+  before expressing something we might regret.
 
 Given all these possibilities to dilute a message and draw wrong conclusions, it should come as no surprise that we often misunderstand each other.
 
-{{< 
-  image src="/images/concepts/communication_processing_emotions.png"
-  alt="A schematic representation of a dialogue." 
-  caption="A schematic representation of a dialogue." 
-  size="80%" >}}
+### Further Explanation
+
+We value our ability to stay rational, calm, and collected in any situation. Think of your run-of-the-mill action hero. In general, you will find
+they are extremely stoic. Nothing phases them. Their adversaries generally become frustrated with their inability to trigger a response from the
+hero, causing them to lose their cool and make bad decisions to annoy the hero. Their inability to stay calm leads directly to their downfall.
+
+Unlike these characters, most of us are not in total control of our emotions. We tend to get bored when listening to long-winded stories that have
+no impact on our lives. We tend to become upset or sad when hearing bad news. And we tend to get angry or distraught when things do not go our way.
+
+The idea of _"Emotional Conversations"_ illustrates how complex our communication processes are, incorporating sensory input, cognitive processing,
+emotional reactions, and the final expression. Each stage can alter the message and lead to misunderstandings, highlighting the importance of being
+aware of these dynamics.
+
+## Background
+
+### Origin
+
+The concept of Emotional Conversations has roots in communication theories and psychology, evolving as researchers and practitioners recognized the
+profound impact emotions have on interpersonal interactions. Historical examples, such as the late nineties NASA Mars orbiter incident, underscore
+the importance of clear communication and the consequences of misunderstandings.
+
+### Application
+
+In practice, understanding Emotional Conversations is vital for improving communication in personal and professional settings. By recognizing the
+stages of message processing and the factors that influence emotional responses, individuals can better navigate conversations, reduce
+misunderstandings, and foster more effective interactions.
+
+### Comparisons
+
+Emotional Conversations differ from purely rational communication models, which assume that messages are processed and responded to logically.
+Unlike stoic action heroes who remain unaffected by emotions, most people experience emotional fluctuations that impact their responses. This
+concept is more dynamic and realistic, acknowledging the human tendency to react emotionally.
+
+### Examples
+
+#### A Very Expensive Crater
+
+In the late nineties, a simple misunderstanding caused a NASA orbiter to crash into Mars. Controller teams from different parts of the world were
+collaborating to guide the spacecraft into orbit around the red planet. But as both teams used a different measurement system (imperial vs. metric),
+they ended up creating a very expensive new crater on Mars. Luckily, most misunderstandings do not have a price tag running in the hundreds of
+millions. Still, it is best to avoid them if we can.
+
+#### Workplace Feedback
+
+Consider a workplace scenario where a manager provides feedback to an employee. If the employee is already stressed, they might interpret
+constructive criticism as a personal attack, leading to an emotional response. By understanding Emotional Conversations, the manager can approach
+the conversation with empathy, ensuring their message is received as intended.

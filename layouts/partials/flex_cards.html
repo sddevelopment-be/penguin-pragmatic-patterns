@@ -1,7 +1,7 @@
 {{ $patterns := .patterns }}
 {{ if $patterns }}
     {{- range sort $patterns "Title" "Asc"}}
-        <div class="pattern-card revealOnScroll delay-1" data-animation="fadeInLeft">
+        <div class="pattern-card revealOnScroll delay-1" data-animation="fadeInLeft" onclick="location.href='{{ .RelPermalink }}';" style="cursor:pointer;">
             <div class="card-title-wrapper">
                 <div class="card-image">
                     <a href="{{ .RelPermalink }}" title="In-depth description of {{ .Title }}">
@@ -41,7 +41,6 @@
             <div class="card-action">
                 <a href="{{ .RelPermalink }}" class="button btn-align-md secondary-btn raised" title="In-depth description of {{ .Title }}">Detailed Description</a>
             </div>
-
         </div>
     {{- end }}
 {{ else }}

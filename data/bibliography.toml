@@ -470,7 +470,7 @@ While the book caters to a broad audience, including those not aspiring to be pu
 By following Abrahams' guidance, readers can improve their message delivery and become more engaging speakers.
 This book is not just about public speaking; it's a valuable tool for anyone seeking to enhance their overall communication effectiveness.
 """
-levels = ["beginner", "mixed"]
+levels = ["novice", "mixed"]
 tags = ["communication", "presenting", "clarity", "structure"]
 
 [[book]]
@@ -568,7 +568,7 @@ the book offers a wealth of valuable advice, it's important to use "Clean Code" 
 may be considered outdated in contemporary software development, but the core principles and concepts remain relevant and essential for any
 programmer or software engineer.
 """
-levels = ["beginner", "reference"]
+levels = ["novice", "reference"]
 tags = ["programming", "readability", "refactoring", "patterns"]
 
 [[book]]
@@ -592,13 +592,13 @@ title = "Modern Software Engineering: Doing What Works to Build Better Software 
 isbn = "978-0137314911"
 authors = "Farley, D."
 publisher = "Addison-Wesley Professional"
-location = ""
 year = "2021"
 link = "https://www.amazon.com/Modern-Software-Engineering-Discipline-Development/dp/0137314914"
-image = ""
+image = "modern_software_engineering.webp"
 description = """
 """
-levels = []
+levels = ["intermediate", "reference"]
+tags = ["testing", "efficiency", "architecture", "programming"]
 
 [[book]]
 unlisted = true
@@ -636,10 +636,10 @@ authors = "Kahneman, D."
 publisher = "Farrar, Straus and Giroux"
 year = "2011"
 link = "https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow"
-image = ""
+image = "fast_and_slow.webp"
 description = """
 """
-levels = ["beginner"]
+levels = ["novice"]
 tags = ["motivation", "decision-making", "bias", "reflection", "thinking"]
 
 [[book]]
@@ -650,7 +650,19 @@ authors = "Young, S. H."
 publisher = "Harper Business"
 year = "2024"
 link = "https://www.goodreads.com/book/show/195853498-get-better-at-anything"
-image = ""
+image = "mastery_get_better_at_anything.webp"
 description = """
+_"Get Better at Anything: 12 Maxims for Mastery"_ guides readers through the process of mastering a skill using a set of practical maxims.
+These maxims include "The best way to learn is to do," "Experience doesn't ensure expertise," "Feedback is king," and "The mind is not a muscle."
+Young effectively conveys the importance of deliberate practice and the necessity of fast feedback loops in a clear and concise manner.
+<br /><br />
+The author writes in an approachable style, simplifying complex ideas for easy understanding. He debunks widely held misconceptions
+and offers practical advice on enhancing the learning process. Filled with real-world examples and actionable insights,
+this book is a must-read for anyone looking to improve their skills and serves as a valuable reference for educators,
+coaches, and mentors who help others in their learning journey.
+<br /><br />
+Whether you're aiming to excel in a hobby or advance professionally,
+Young's guidance will equip you with the tools needed for continuous improvement.
 """
-levels = []
+levels = ["novice", "reference"]
+tags = ["productivity", "goals", "learning", "efficiency", "thinking"]

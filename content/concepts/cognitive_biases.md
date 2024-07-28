@@ -1,11 +1,16 @@
 +++
 title = "Cognitive Biases"
+subtitle = "I will see it when I believe it"
 author = "Stijn Dejongh"
-description = ""
+description = "Systematic errors in thinking that affect decision-making and perception by creating a subjective reality."
 summary="""
+Discover the concept of cognitive biases, systematic errors in thinking that influence how we perceive the world, 
+make decisions, and interact with others. This page explores the origins, key components, and practical applications of cognitive biases, 
+providing insights into social, memory, emotional, and decision-making biases. 
+Learn how understanding these biases can improve judgment and foster better personal and professional relationships.
 """
 categories = [
-    "learning",
+    "learning"
 ]
 tags = [
     "thinking", "psychology", "decision-making", "meta-cognition"
@@ -14,7 +19,14 @@ uuid="d0ce5702-9059-419c-abbf-0d3e501fbaf7"
 aliases=["d0ce5702-9059-419c-abbf-0d3e501fbaf7"]
 related_concepts = ["7dfd0b45-b8e2-4ef9-90b4-e5316397f55b"]
 related_practices = ["1bdb4866-7c15-46b1-ad38-26111791eed5", "49014706-77a2-4b8f-82de-75c16cac9c8c", "8ffeb93b-0f8d-4b01-867b-a8b78ebd4644"]
-further_exploration = []
+further_exploration = [
+    {type="biblio", id="4eee341f-7128-4884-876a-892511e5a13f"},
+    {type="biblio", id="f537c66d-38e8-40cc-aa94-81880f270475"},
+    {type="biblio", id="d33fc09e-39c6-411e-a70e-2ca98375abd6"},
+    {type="raw", title="Cognitive Bias: How We Are Wired to Misjudge", link="https://www.simplypsychology.org/cognitive-bias.html", author="Ruhl,C.", year="2023", site="SimplyPsychology.org"},
+    {type="raw", title="List of cognitive biases", link="https://en.wikipedia.org/wiki/List_of_cognitive_biases", author="Various Authors", year="2024", site="wikipedia.org"}
+]
+pubdate="2024-07-28"
 +++
 
 ## Definition
@@ -106,6 +118,13 @@ behaviors based on prior stimuli.
 ### Examples
 
 #### WWII Fighter Planes
+
+{{<image
+    src="/images/concepts/survivorship_bias_wald.png"  
+    alt="a schematic drawing of a WWII bomber, with damage marked on it. credit: McGeddon CC BY-SA 4.0"
+    caption="a schematic drawing of a WWII bomber, with damage marked on it. credit: McGeddon CC BY-SA 4.0"
+    float="right"
+    size="25%" >}}
 
 During World War II, the US Navy was analyzing the damage to returning fighter planes to determine where to add armor. Initially, they
 considered reinforcing the areas most frequently hit by enemy fire, based on the damage observed on the planes that made it back.

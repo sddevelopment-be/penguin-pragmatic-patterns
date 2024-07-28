@@ -620,10 +620,37 @@ id = "8c0ad1c1-419f-475b-b763-02aa22e93641"
 authors = "Kaner, C.; Bach, J.; Pettichord, B."
 year = "2001"
 title = "Lessons Learned in Software Testing: A Context-Driven Approach"
-isbn = "9780471081128"
+isbn = "978-0471081128"
 publisher = "Wiley"
 link = "https://www.oreilly.com/library/view/lessons-learned-in/9780471081128/"
 image=""
 description="""
 """
 levels=[]
+
+[[book]]
+id = "4eee341f-7128-4884-876a-892511e5a13f"
+title = "Thinking, Fast and Slow"
+isbn = "978-0374275631"
+authors = "Kahneman, D."
+publisher = "Farrar, Straus and Giroux"
+year = "2011"
+link = "https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow"
+image = ""
+description = """
+"""
+levels = ["beginner"]
+tags = ["motivation", "decision-making", "bias", "reflection", "thinking"]
+
+[[book]]
+id = "f537c66d-38e8-40cc-aa94-81880f270475"
+title = "Get Better at Anything: 12 Maxims for Mastery"
+isbn = "978-0063256675"
+authors = "Young, S. H."
+publisher = "Harper Business"
+year = "2024"
+link = "https://www.goodreads.com/book/show/195853498-get-better-at-anything"
+image = ""
+description = """
+"""
+levels = []

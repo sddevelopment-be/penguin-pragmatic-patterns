@@ -14,6 +14,12 @@ pubdate="2023-09-13"
 image="concepts/banner_software_architecture.webp"
 related_practices = ["e6cdeaa2-cc30-4928-95fd-f28ea7cb489d", "8ffeb93b-0f8d-4b01-867b-a8b78ebd4644", "1bdb4866-7c15-46b1-ad38-26111791eed5"]
 related_concepts = ["b86230c6-49fb-4792-9008-a5241c5cdcb2"]
+further_exploration = [
+  {type="biblio", id="e15a25a0-6c08-4b78-b593-ca54eea8cce2"},
+  {type="biblio", id="a32510dd-068d-4072-8b68-cce120864a64"},
+  {type="raw", author="CFI Team", year="2023", title="List of system quality attributes", site="Wikipedia", link="https://en.wikipedia.org/wiki/List_of_system_quality_attributes"},
+  {type="tool", id="89c8394d-87c7-4eaa-8154-b89f0cee77d1"},
+]
 +++
 
 ## Definition
@@ -122,28 +128,3 @@ cost, whereas modifying a building design post-construction is resource-intensiv
 * **Healthcare System:** For a healthcare management system, the architect focuses on security and reliability, ensuring patient data is protected
   and the system remains operational even during peak usage times. The architecture also considers interoperability with other healthcare systems
   for seamless data exchange.
-
-## Further Exploration
-
-* {{<reference author="CFI Team"
-  year="2023"
-  title="List of system quality attributes"
-  site="Wikipedia"
-  link="https://en.wikipedia.org/wiki/List_of_system_quality_attributes" >}}
-* {{<reference author="Keeling, M."
-  year="2017"
-  title="Design It: From Programmer to Software Architect"
-  isbn="1680502093"
-  publisher="The Pragmatic Bookshelf"
-  link="https://pragprog.com/titles/mkdsa/design-it/" >}}
-* {{<reference author=" Object Management Group"
-  year="2010"
-  title="Business Process Model And Notation Specification - Version 2.0"
-  site="omg.org"
-  link="https://www.omg.org/spec/BPMN/2.0/" >}}
-* {{<reference author="Skelton, M.; Pais, M." year="2019"
-  isbn="9781942788829"
-  title="Team Topologies: Organizing Business and Technology Teams for Fast Flow"
-  publisher="It Revolution Press"
-  link="https://pragprog.com/titles/mkdsa/design-it/" >}}
-

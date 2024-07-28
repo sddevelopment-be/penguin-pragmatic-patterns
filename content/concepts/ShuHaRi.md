@@ -11,17 +11,23 @@ tags = [
 ]
 uuid="a49f917b-c560-462a-ac38-46515f6f62d0"
 aliases=["a49f917b-c560-462a-ac38-46515f6f62d0"]
-related_concepts = ["98cc5f46-409b-44df-9fb8-fb1d881970b5"]
 pubdate="2023-09-09"
 image="concepts/banner_shuhari.webp"
+related_concepts = ["98cc5f46-409b-44df-9fb8-fb1d881970b5"]
+related_patterns = ["8c3df901-eefa-4dd1-970a-c00cf3b55379"]
+further_exploration = [
+  {type="raw", author="Cockburn, A.", year="2015", title="Kokoro extends Shu-Ha-Ri with “Heart”", site="Heart of agile", link="https://heartofagile.com/kokoro-extends-shu-ha-ri-with-heart/"}  ,
+  {type="raw", author="Aiki News", year="2005", publication="Japanese on Dou", volume="144", title="An Interview with Endô Seishirô Shihan", link="https://web.archive.org/web/20110610205348/http://homepage3.nifty.com/aikido_sakudojo/Shihan_Interview_Dou144-e.html"},
+]
 +++
 
 ## Definition
 
-{{< image src="/images/concepts/shuhari_kanji.jpg" alt="ShuHaRi Kanji" size="20%" float="left" >}}
 
 Shu Ha Ri is a Japanese martial arts concept that describes the stages of learning on the path to mastery.  
 It represents a progression through three stages: **Shu** (Obey/Protect), **Ha** (Detach/Digress), and **Ri** (Leave/Transcend).  
+
+{{< image src="/images/concepts/shuhari_kanji.jpg" alt="ShuHaRi Kanji" size="20%" >}}
 
 ## Key Components
 
@@ -91,18 +97,3 @@ martial arts tenet: _"You are a beginner, until you are no longer so"_.
 * **Software Development:** A junior developer learns by following coding standards and best practices (Shu), starts to explore new frameworks and
   methodologies and apply them when relevant (Ha). Eventually they develop an understanding that allows them to come up with solutions to tricky 
   problems intuitively (Ri).
-
-
-## Further Exploration
-
-* {{<reference author="Cockburn, A."
-  year="2015"
-  title="Kokoro extends Shu-Ha-Ri with “Heart”"
-  site="Heart of agile"
-  link="https://heartofagile.com/kokoro-extends-shu-ha-ri-with-heart/" >}}
-* {{<reference author="Aiki News"
-  year="2005"
-  publication="Japanese on Dou"
-  volume="144"
-  title="An Interview with Endô Seishirô Shihan"
-  link="https://web.archive.org/web/20110610205348/http://homepage3.nifty.com/aikido_sakudojo/Shihan_Interview_Dou144-e.html" >}}

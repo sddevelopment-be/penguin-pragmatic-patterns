@@ -139,3 +139,16 @@ description = """
 """
 type = "site"
 tags = []
+
+[[tool]]
+id="89c8394d-87c7-4eaa-8154-b89f0cee77d1"
+authors = "Object Management Group"
+name="Business Process Model And Notation Specification - Version 2.0"
+year="2010"
+site="omg.org"
+link="https://www.omg.org/spec/BPMN/2.0/"
+image = ""
+description = """
+"""
+type="site"
+tags=[]

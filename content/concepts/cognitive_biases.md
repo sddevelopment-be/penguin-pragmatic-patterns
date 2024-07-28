@@ -1,6 +1,6 @@
 +++
 title = "Cognitive Biases"
-subtitle = "I will see it when I believe it"
+subtitle = "We will perceive it, when we believe it"
 author = "Stijn Dejongh"
 description = "Systematic errors in thinking that affect decision-making and perception by creating a subjective reality."
 summary="""
@@ -27,6 +27,7 @@ further_exploration = [
     {type="raw", title="List of cognitive biases", link="https://en.wikipedia.org/wiki/List_of_cognitive_biases", author="Various Authors", year="2024", site="wikipedia.org"}
 ]
 pubdate="2024-07-28"
+image="concepts/banner_cognitive_bias.webp"
 +++
 
 ## Definition

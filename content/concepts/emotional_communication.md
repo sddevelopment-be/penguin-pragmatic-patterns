@@ -1,6 +1,6 @@
 +++
 title = "Heartfelt Dialogues"
-subtitle = "Unravelling Emotional Influences on Communication"
+subtitle = "How emotions influence our comprehension"
 author = "Stijn Dejongh"
 description = "Emotional responses significantly influence the exchange of messages, often leading to misunderstandings and varied reactions based on individual emotional states."
 summary= """

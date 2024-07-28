@@ -817,3 +817,47 @@ aliases = ["Capability"]
 references = [
     { title = "ArchiMate Reference guide: Strategic Layer", link = "https://pubs.opengroup.org/architecture/archimate32-doc/ch-Strategy-Layer.html" }
 ]
+
+[[terminology]]
+name = "Cognitive Bias"
+domain = "Psychology"
+description = """
+A **cognitive bias** is an _“error in thinking”_ that affects how we perceive the world, make decisions, and interact with others. Biases are
+systematic patterns of deviation from norm or rationality in judgment, where individuals create their own subjective reality from their perception of the
+input. These biases often stem from the brain's attempt to simplify information processing, leading to errors in decision-making and judgment.
+"""
+aliases = ["error in thinking", "bias", "preconception"]
+
+[[terminology]]
+name = "Heuristic"
+abbreviation = ""
+domain = "Problem Solving"
+description = """
+A heuristic is a problem-solving approach or technique that employs practical, experience-based methods for decision-making, learning, and discovery.
+The core idea is to simplify a complex problem by substituting an aspect of the context with a decent-enough approximation, often ignoring some of the information that is less relevant to the current decision-making process.
+Heuristics are used in various fields, such as computer science, psychology, and engineering, to find approximate solutions to complex problems quickly and efficiently.
+
+- __In Software:__ Heuristics are used to develop algorithms or processes that find solutions to complex problems quickly and efficiently when exact methods are impractical. They rely on rule-of-thumb strategies to achieve approximate solutions.
+
+- __In Psychology:__ Heuristics are mental shortcuts or simplified strategies that humans use to make decisions and judgments quickly without having to consider all possible information. These cognitive shortcuts help in managing the complexities of the world but can sometimes lead to biases or errors in judgment.
+
+- __In Engineering:__ Heuristics are practical methods used to solve complex engineering problems by providing good-enough solutions. An example is substituting the value of `π` (pi) with `22/7` (twenty-two divided by seven) for quick calculations, rather than using its full, infinite decimal representation. This approximation simplifies computations while maintaining sufficient accuracy for many engineering applications.
+"""
+aliases = ["solutioning shortcut", "best practice"]
+
+[[terminology]]
+name = "Search space"
+domain = "Problem Soving"
+description = """
+Search Space refers to the entire set of possible solutions or outcomes that can be considered when solving a problem or making a decision.
+It encompasses all potential approaches, methods, and pathways that can be considered in the problem-solving process.
+
+- __In Machine Learning and AI:__ The search space includes all possible models, parameters, and hyperparameters that an algorithm can explore to identify the best-performing model.
+
+- __In Optimization Problems:__ The search space represents all potential solutions that meet the constraints of the problem. Efficiently navigating this space is crucial for finding the most effective solution without excessive computation.
+
+- __In Heuristics and Algorithms:__ The search space is the domain through which heuristic methods or algorithms iterate to find approximate or near-optimal solutions, balancing between exploration (searching new areas) and exploitation (refining known good solutions).
+
+- __In Education:__ In the context of learning strategies, the search space encompasses various study techniques, mnemonic devices, and cognitive tools that learners might employ to understand and retain information.
+"""
+aliases = ["solution space", "exploration domain"]

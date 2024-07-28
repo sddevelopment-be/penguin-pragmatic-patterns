@@ -1,6 +1,6 @@
 +++
 title = "Return On Investment"
-subtitle="make it worth the effort"
+subtitle="Make it worth the effort"
 author = "Stijn Dejongh"
 description = """
 Return on Investment (ROI) is a metric used to evaluate the efficiency or profitability of an investment. It measures the amount of return on an

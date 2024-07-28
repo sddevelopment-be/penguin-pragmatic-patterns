@@ -27,7 +27,7 @@
 
             <div class="recommendation-wrapper">
                 {{ range $book := (sort (index .Site.Data "bibliography").book "title" "asc") }}
-                    {{ if not $book.draft }}
+                    {{ if and (not $book.draft) (not $book.unlisted)  }}
                         {{ partial "book_biblio.html" (dict "book" $book) }}
                     {{end}}
                 {{ end }}

@@ -23,7 +23,14 @@ pubdate = "2023-10-01"
 image = "concepts/banner_test_pyramid.webp"
 related_concepts = []
 related_practices = ["04c6129d-11f7-4aa0-a809-1b972a0d7ef9"]
-
+further_exploration = [
+  {type="raw", author="Fowler, M.", year="2018", title="The Practical Test Pyramid", site="MartinFowler.com", link="https://martinfowler.com/articles/practical-test-pyramid.html"},
+  {type="raw", author="Beck, K.", year="2022", title="Test Desiderata", site="kentbeck.github.io", link="https://kentbeck.github.io/TestDesiderata/"},
+  {type="raw", author="SE Daily podcast", year="2019", title="Facebook Engineering Process with Kent Beck", site="Software Engineer Daily", link="https://softwareengineeringdaily.com/2019/08/28/facebook-engineering-process-with-kent-beck" },
+  {type="biblio", id="2930d42d-e7cf-4ea5-a6f3-eceb5b9a5fc1"},
+  {type="biblio", id="93c3d298-690e-48b5-8140-b34ce90c2083"},
+  {type="biblio", id="0f300fe5-075d-4add-91d8-605ae5823450"},
+]
 +++
 
 ## Definition
@@ -183,54 +190,6 @@ They then move on to an "alpha release" where a select group of users test the s
 for further improvements. This is followed by a "beta release" to a broader user base, gathering additional insights.
 As part of the beta release, the system is scrutinized through performance tests to ensure it can handle the expected load and maintain
 responsiveness, and given a complete penetration test to identify potential security vulnerabilities.
-
-## Further Exploration
-
-* {{<reference author="Fowler, M."
-  year="2018"
-  title="The Practical Test Pyramid"
-  site="MartinFowler.com"
-  link="https://martinfowler.com/articles/practical-test-pyramid.html" >}}
-* {{<reference author="Cohn, M."
-  year="2010"
-  title="Succeeding with Agile: Software Development Using Scrum"
-  isbn="0321579364"
-  publisher="Addison-Wesley"
-  link="https://www.goodreads.com/en/book/show/6707987-succeeding-with-agile" >}}
-* {{<reference author="Kaner, C.; Bach, J.; Pettichord, B."
-  year="2001"
-  title="Lessons Learned in Software Testing: A Context-Driven Approach"
-  isbn="9780471081128"
-  publisher="Wiley"
-  link="https://www.oreilly.com/library/view/lessons-learned-in/9780471081128/" >}}
-* {{<reference author="Beck, K. & Andres, C."
-  year="2004"
-  title="Extreme Programming Explained: Embrace Change"
-  isbn="9780321278654"
-  publisher="Addison-Wesley"
-  link="https://www.goodreads.com/book/show/67833.Extreme_Programming_Explained" >}}
-* {{<reference author="SE Daily podcast"
-  year="2019"
-  title="Facebook Engineering Process with Kent Beck"
-  site="Software Engineer Daily"
-  link="https://softwareengineeringdaily.com/2019/08/28/facebook-engineering-process-with-kent-beck" >}}
-* {{<reference author="Farley, D."
-  year="2021"
-  title="Modern Software Engineering: Doing What Works to Build Better Software Faster "
-  isbn="978-0137314911"
-  publisher="Addison-Wesley Professional"
-  link="https://www.amazon.com/Modern-Software-Engineering-Discipline-Development/dp/0137314914" >}}
-* {{<reference author="Beck, K."
-  year="2003"
-  title="Test Driven Development: By Example"
-  isbn="978-0321146533"
-  publisher="Addison-Wesley Professional"
-  link="https://www.goodreads.com/book/show/387190.Test_Driven_Development" >}}
-* {{<reference author="Beck, K."
-  year="2022"
-  title="Test Desiderata"
-  site="kentbeck.github.io"
-  link="https://kentbeck.github.io/TestDesiderata/" >}}
 
 ---
 

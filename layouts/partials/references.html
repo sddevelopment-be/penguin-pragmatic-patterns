@@ -4,7 +4,7 @@
 <ul>
     {{ $bibliographicReferences := (apply (where $further_exploration "type" "biblio") "index" "." "id") }}
     {{ if $bibliographicReferences }}
-        {{ $allBooks := (index .Site.Data "bibliography").book }}
+        {{ $allBooks := (sort (index .Site.Data "bibliography").book "authors" "asc" )}}
         {{ $matchingBooks := (where $allBooks "id" "in" $bibliographicReferences ) }}
         {{ range $book := $matchingBooks }}
             <li>
@@ -15,7 +15,7 @@
 
     {{ $rawReferences := where $further_exploration "type" "raw" }}
     {{ if $rawReferences }}
-        {{ range $rawReference := $rawReferences }}
+        {{ range $rawReference := (sort $rawReferences "author" "asc" ) }}
             <li>
                 {{ $rawReference.author }} ({{ $rawReference.year}}). <a href="{{ $rawReference.link }}" target="_blank" rel="noreferrer">{{ $rawReference.title }}</a>. {{$rawReference.site}}.  {{$rawReference.link}}.
             </li>
@@ -25,7 +25,7 @@
     {{ $toolReferences := (apply (where $further_exploration "type" "tool") "index" "." "id") }}
     {{ if $toolReferences }}
         {{ $allTools := (index .Site.Data "tools").tool }}
-        {{ $matchingTools := (where $allTools "id" "in" $toolReferences ) }}
+        {{ $matchingTools := (sort (where $allTools "id" "in" $toolReferences ) "authors" "asc" ) }}
         {{ range $toolReference := $matchingTools }}
             <li>
                 {{ $toolReference.authors }} ({{ $toolReference.year}}). <a href="{{ $toolReference.link }}" target="_blank" rel="noreferrer"> {{ $toolReference.name }} </a>. {{$toolReference.site}}.

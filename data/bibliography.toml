@@ -571,8 +571,6 @@ programmer or software engineer.
 levels = ["beginner", "reference"]
 tags = ["programming", "readability", "refactoring", "patterns"]
 
-
-
 [[book]]
 id = "1925e2ec-9147-4c4a-9dd8-c3ce6d08eee6"
 title = "A Common-Sense Guide to Data Structures and Algorithms: Level Up Your Core Programming Skills"
@@ -587,3 +585,45 @@ description = """
 """
 levels = ["novice", "reference"]
 draft = true
+
+[[book]]
+id = "2930d42d-e7cf-4ea5-a6f3-eceb5b9a5fc1"
+title = "Modern Software Engineering: Doing What Works to Build Better Software Faster"
+isbn = "978-0137314911"
+authors = "Farley, D."
+publisher = "Addison-Wesley Professional"
+location = ""
+year = "2021"
+link = "https://www.amazon.com/Modern-Software-Engineering-Discipline-Development/dp/0137314914"
+image = ""
+description = """
+"""
+levels = []
+
+[[book]]
+unlisted = true
+id = "0f300fe5-075d-4add-91d8-605ae5823450"
+authors = "Cohn, M."
+year = "2010"
+title = "Succeeding with Agile: Software Development Using Scrum"
+isbn = "0321579364"
+publisher = "Addison-Wesley"
+link = "https://www.goodreads.com/en/book/show/6707987-succeeding-with-agile"
+image=""
+description="""
+"""
+levels=[]
+
+[[book]]
+unlisted = true
+id = "8c0ad1c1-419f-475b-b763-02aa22e93641"
+authors = "Kaner, C.; Bach, J.; Pettichord, B."
+year = "2001"
+title = "Lessons Learned in Software Testing: A Context-Driven Approach"
+isbn = "9780471081128"
+publisher = "Wiley"
+link = "https://www.oreilly.com/library/view/lessons-learned-in/9780471081128/"
+image=""
+description="""
+"""
+levels=[]

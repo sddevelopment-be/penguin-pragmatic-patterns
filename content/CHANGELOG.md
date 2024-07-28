@@ -34,6 +34,7 @@ Any feedback or suggestions for changes can be submitted there.
 - Updated structure of all 'Concepts' and 'Practices' to follow the same structure
 - Expanded all pages to include more detailed information
 - Changed the sorting of the bibliography and glossary to alphabetical order
+- Pattern cards are now fully clickable
 
 ### Fixed
 
@@ -42,6 +43,7 @@ Any feedback or suggestions for changes can be submitted there.
 - Fixed the display of titles on various devices
 - Added support for `floating images` in the markdown
 - Fixed social media share meta tags
+- Issue with quotations not being displayed correctly in combination with pattern summary card
 
 ### Added
 
@@ -57,6 +59,7 @@ Any feedback or suggestions for changes can be submitted there.
     - [Defining Test Boundaries](/practices/04c6129d-11f7-4aa0-a809-1b972a0d7ef9)
     - [Chain of Accountability](/concepts/55f51f65-9d4e-4a31-ad8c-242d473a0f77)
     - [AMMERSE Impact Analysis](/practices/8ffeb93b-0f8d-4b01-867b-a8b78ebd4644)
+- References are now sorted by type (book, tools) and author
 
 ### Removed
 

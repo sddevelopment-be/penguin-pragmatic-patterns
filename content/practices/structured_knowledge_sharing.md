@@ -1,7 +1,7 @@
 +++
-title = "Template name"
-author = "Stijn Dejongh"
 draft = true
+title = "Structured Knowledge Sharing"
+author = "Stijn Dejongh"
 problem = ""
 description = ""
 categories = [
@@ -10,8 +10,8 @@ categories = [
 tags = [
     "remembering", "tracking", "tracability", "log"
 ]
-uuid="GENERATE-ME!"
-aliases=["uuid"]
+uuid="ad717858-fd38-491e-ba78-41d50314a353"
+aliases=["ad717858-fd38-491e-ba78-41d50314a353"]
 ammerse = [
     {name = "agile", delta = "0", rationale = ""},
     {name = "minimal", delta = "0", rationale = ""},

@@ -17,7 +17,7 @@
     {{ if $rawReferences }}
         {{ range $rawReference := (sort $rawReferences "author" "asc" ) }}
             <li>
-                {{ $rawReference.author }} ({{ $rawReference.year}}). <a href="{{ $rawReference.link }}" target="_blank" rel="noreferrer">{{ $rawReference.title }}</a>. {{$rawReference.site}}.  {{$rawReference.link}}.
+                {{ $rawReference.author }} ({{ $rawReference.year}}). <a href="{{ $rawReference.link }}" target="_blank" rel="noreferrer">{{ $rawReference.title }}</a>. {{$rawReference.site}}.  <br />{{$rawReference.link}}.
             </li>
         {{ end }}
     {{ end }}

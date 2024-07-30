@@ -1,15 +1,24 @@
 {{ $categories := .Params.Categories }}
 {{ $tags := .Params.tags }}
+{{ $problem := .Params.Problem }}
+{{ $furtherExploration := .Params.further_exploration }}
 
 {
   "id":     "{{ .Params.UUID }}",
   "title":  "{{ .Title }}",
-  "link:": "{{ .Permalink }}",
-  "ammerseValues": {
+  "publishedOn": "{{ .Date.Format "2006-01-02" }}",
+  "link": "{{ .Permalink }}",
+  "problem": "{{ $problem }}",
+  "description": "{{ .Description }}",
+  "ammerseValues": [
     {{ range $index, $value := .Params.Ammerse }}
-       "{{ $value.name }}": "{{ $value.delta }}" {{ if lt $index 6 }},{{end}}
+      {
+          "name": "{{ $value.name }}",
+          "delta": "{{ $value.delta }}"{{ if $value.rationale }},{{ end }}
+          {{ if $value.rationale }}"rationale": "{{ $value.rationale }}"{{ end }}
+      }{{ if lt $index 6 }},{{end}}
     {{end}}
-  },
+  ],
   "categories": [
     {{ range $index, $value := $categories }}
       "{{ $value }}" {{ if lt $index (math.Sum (len $categories) -1) }},{{ end }}
@@ -18,6 +27,18 @@
   "tags": [
     {{ range $index, $value := $tags }}
       "{{ $value }}"{{ if lt $index (math.Sum (len $tags) -1) }},{{ end }}
+    {{end}}
+  ],
+  "related_content": [
+    {{ range $index, $value := $furtherExploration }}
+        {{ if (eq $value.type "raw") }}
+        {{ else }}
+        {
+        "type": "{{ $value.type }}",
+        {{ if (eq $value.type "biblio") }}"href": "/books/{{ $value.id }}"{{end}}
+        {{ if (eq $value.type "tool") }}"href": "/tools/{{ $value.id }}"{{end}}
+        } {{ if lt $index (math.Sum (len $furtherExploration ) -1) }},{{ end }}
+        {{ end }}
     {{end}}
   ]
 }

@@ -1,6 +1,7 @@
 +++
 title = "AMMERSE Impact Analysis"
 author = "Stijn Dejongh"
+outputs = ['html', 'json']
 problem = "You want to ensure balanced and well-informed decision-making that aligns with desired (organizational) core values."
 description = "Apply an AMMERSE-based analysis to evaluate the likely impact of decisions, practices, and techniques on the system under change."
 summary="""
@@ -27,6 +28,14 @@ uuid="8ffeb93b-0f8d-4b01-867b-a8b78ebd4644"
 aliases=["8ffeb93b-0f8d-4b01-867b-a8b78ebd4644"]
 image="practices/AMMERSE_impact_analysis.webp"
 pubdate="2024-05-24"
+related_concepts=["b86230c6-49fb-4792-9008-a5241c5cdcb2", "c57288e3-b102-4212-adb7-a4339a3a9e87"]
+related_practices=["d8d2cbc3-1f28-4e6b-937f-2d8cf0bbaed1", "1bdb4866-7c15-46b1-ad38-26111791eed5", "e6cdeaa2-cc30-4928-95fd-f28ea7cb489d"]
+further_exploration=[
+    {type="raw", author="Dejongh, S.; Open AI Group", year="2024", title="Teaching Open AI's ChatGPT to apply the AMMERSE Impact AnalysisAlgorithm", site="chatgpt.com", link="https://chatgpt.com/share/343aeaa4-2cf1-4e37-8317-ee15fb7244bd"},
+    {type="biblio", id="e15a25a0-6c08-4b78-b593-ca54eea8cce2"},
+    {type="tool", id="fa17a430-1b3c-487b-82a6-d1b6d5e35d48"},
+    {type="tool", id="80865a5e-a7a1-400a-a07a-3b7639743dfa"},
+]
 +++
 
 ## Problem Statement
@@ -353,32 +362,3 @@ where avoiding gold plating led to project success.
 focus strictly on current requirements.
 
 By addressing these considerations and implementing the recommendations, the "Avoid Gold-Plating" pattern can be effectively integrated into the software development process, maximizing its positive impacts on the AMMERSE values while mitigating potential downsides.
-
-## Further Exploration
-
-* {{<reference author="Crossland, J."
-  year="2024"
-  title="AMMERSE: Empowering Businesses with core values"
-  site="AMMERSE.org"
-  link="https://www.ammerse.org/" >}}
-* {{<reference author="Bockelbrink, B.; Priest, J. & David L."
-  year="2022"
-  title="A Practical Guide for Evolving Agile and Resilient Organizations with Sociocracy 3.0"
-  site="sociocracy30.org"
-  publisher="Open Domain, Creative Commons licence"
-  link="https://patterns.sociocracy30.org/all.html" >}}
-* {{<reference author="Keeling, M."
-    year="2017"
-    isbn="1680502093"
-    title="Design It: From Programmer to Software Architect"
-    publisher="The Pragmatic Bookshelf"
-    link="https://pragprog.com/titles/mkdsa/design-it/" >}}
-* {{<reference author="Dejongh, S.; Open AI Group"
-    year="2024"
-    title="Teaching Open AI's ChatGPT to apply the AMMERSE Impact Analysis Algorithm"
-    site="chatgpt.com"
-    link="https://chatgpt.com/share/343aeaa4-2cf1-4e37-8317-ee15fb7244bd" >}}
-
----
-
-

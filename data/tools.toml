@@ -152,3 +152,16 @@ description = """
 """
 type="site"
 tags=[]
+
+[[tool]]
+id = "6d6a2170-e409-40ff-b89c-1f41a47d677d"
+name = "Cynefin Wiki"
+authors = "Snowden, D.; et al."
+link = "https://cynefin.io/wiki/Cynefin"
+site = "cynefin.io"
+year="2023"
+image = "CynefinLogo.png"
+description = """
+"""
+type = "site"
+tags = []

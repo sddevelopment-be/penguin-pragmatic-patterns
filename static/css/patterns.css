@@ -88,7 +88,7 @@
     margin-bottom: 0.5rem;
     flex-grow: 1;
     align-content: center;
-    width: 64%;
+    width: 85%;
 }
 
 .pattern-card .card-title h4 {
@@ -101,7 +101,7 @@
 
 .pattern-card .card-title h5 {
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.125rem;
+    font-size: 1rem;
     font-weight: 450;
     color: #4a4a77;
     padding: 0 0.75rem;

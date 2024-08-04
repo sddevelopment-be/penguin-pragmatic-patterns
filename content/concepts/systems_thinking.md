@@ -1,13 +1,21 @@
 +++
 title = "Thinking in Systems"
+subtitle="Understanding complexity through interconnectedness"
 author = "Stijn Dejongh"
-description = ""
+description = """
+Systems Thinking is an approach that emphasizes understanding situations as interconnected systems, 
+focusing on the interactions and relationships between their fundamental components to manage complexity holistically.
+"""
 summary = """
+Explore Systems Thinking, a technique that emphasizes viewing situations as interconnected systems rather than isolated parts,
+ helping manage complexity by focusing on interactions and relationships. Learn how this approach is applied across various fields 
+ to develop effective, sustainable solutions for complex problems.
 """
 categories = [
     "learning",
 ]
-tags = []
+image="concepts/banner_systems-thinking.webp"
+tags = ["complexity", "systems thinking", "interconnectedness", "strategy", "analysis"]
 uuid = "c57288e3-b102-4212-adb7-a4339a3a9e87"
 aliases = ["c57288e3-b102-4212-adb7-a4339a3a9e87"]
 pubdate = "2024-07-31"

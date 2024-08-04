@@ -35,6 +35,10 @@ Any feedback or suggestions for changes can be submitted there.
 - Expanded all pages to include more detailed information
 - Changed the sorting of the bibliography and glossary to alphabetical order
 - Pattern cards are now fully clickable
+- Change the "tools" section to "Tools, Websites, and Apps"
+- Updated the "Tools" section to include information on the type of reference
+- Updated bibliographical reference display: content title is clickable
+- JSON output format now includes more detailed information
 
 ### Fixed
 
@@ -59,6 +63,8 @@ Any feedback or suggestions for changes can be submitted there.
     - [Defining Test Boundaries](/practices/04c6129d-11f7-4aa0-a809-1b972a0d7ef9)
     - [Chain of Accountability](/concepts/55f51f65-9d4e-4a31-ad8c-242d473a0f77)
     - [AMMERSE Impact Analysis](/practices/8ffeb93b-0f8d-4b01-867b-a8b78ebd4644)
+    - [Thinking in Systems](/concepts/c57288e3-b102-4212-adb7-a4339a3a9e87)
+    - [Cognitive Bias](/concepts/d0ce5702-9059-419c-abbf-0d3e501fbaf7)
 - References are now sorted by type (book, tools) and author
 
 ### Removed

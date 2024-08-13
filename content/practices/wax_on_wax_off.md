@@ -7,10 +7,11 @@ categories = [
     "learning",
 ]
 tags = [
-    "training", "repetition", "directed learning"
+    "training", "repetition", "strategic learning"
 ]
 uuid="8c3df901-eefa-4dd1-970a-c00cf3b55379"
 aliases=["8c3df901-eefa-4dd1-970a-c00cf3b55379"]
+outputs = ['html','rss', 'json']
 ammerse = [ 
   {name = "agile", delta = "0"},  
   {name = "minimal", delta = "0.5"},  

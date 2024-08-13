@@ -10,7 +10,7 @@ tags = [
     "experimentation", "goals", "accountability", "research"
 ]
 uuid = "09986d9e-cd80-4016-8000-c62ed5064914"
-aliases = ["uuid"]
+aliases = ["09986d9e-cd80-4016-8000-c62ed5064914"]
 ammerse = [
     { name = "agile", delta = "1" },
     { name = "minimal", delta = "1" },

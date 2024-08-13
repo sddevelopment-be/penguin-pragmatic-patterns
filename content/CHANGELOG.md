@@ -48,6 +48,7 @@ Any feedback or suggestions for changes can be submitted there.
 - Added support for `floating images` in the markdown
 - Fixed social media share meta tags
 - Issue with quotations not being displayed correctly in combination with pattern summary card
+- File size of images has been reduced to improve loading times
 
 ### Added
 
@@ -65,6 +66,7 @@ Any feedback or suggestions for changes can be submitted there.
     - [AMMERSE Impact Analysis](/practices/8ffeb93b-0f8d-4b01-867b-a8b78ebd4644)
     - [Thinking in Systems](/concepts/c57288e3-b102-4212-adb7-a4339a3a9e87)
     - [Cognitive Bias](/concepts/d0ce5702-9059-419c-abbf-0d3e501fbaf7)
+    - [Your knowledge portfolio](/practices/a22a79f6-2ffa-4a13-a673-2ccb70ba9d42)
 - References are now sorted by type (book, tools) and author
 
 ### Removed

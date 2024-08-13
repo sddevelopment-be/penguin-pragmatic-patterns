@@ -28,7 +28,7 @@
         {{ $matchingTools := (sort (where $allTools "id" "in" $toolReferences ) "authors" "asc" ) }}
         {{ range $toolReference := $matchingTools }}
             <li>
-                {{ $toolReference.authors }} ({{ $toolReference.year}}). <a href="{{ $toolReference.link }}" target="_blank" rel="noreferrer"> {{ $toolReference.name }} </a>. {{$toolReference.site}}.
+                {{ $toolReference.authors }} ({{ $toolReference.year}}) <a href="{{ $toolReference.link }}" target="_blank" rel="noreferrer"> {{ $toolReference.name }}</a>. {{$toolReference.site}}.
             </li>
         {{ end }}
     {{ end }}

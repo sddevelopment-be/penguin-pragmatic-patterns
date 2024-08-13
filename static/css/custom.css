@@ -126,12 +126,12 @@ body {
     text-justify: inter-word;
     text-wrap: pretty;
     letter-spacing: 0.05rem;
-    text-indent: 1.65em;
+    text-indent: 0.5em;
 }
 
 @media all and (max-width: 800px) {
     .content {
-        text-indent: 0.65em;
+        text-indent: 0.25em;
     }
 }
 

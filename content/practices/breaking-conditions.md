@@ -15,6 +15,7 @@ categories = [
 tags = [
     "goals", "pivotting"
 ]
+outputs = ['html', 'json']
 uuid="49014706-77a2-4b8f-82de-75c16cac9c8c"
 aliases=["49014706-77a2-4b8f-82de-75c16cac9c8c"]
 ammerse = [
@@ -28,6 +29,22 @@ ammerse = [
 ]
 image="practices/stopping_conditions.webp"
 pubdate="2023-08-26"
+related_concepts = [
+  "b86230c6-49fb-4792-9008-a5241c5cdcb2",
+  "3d5b775a-bd5d-40de-8ed3-d390dae16b7b"
+]
+related_practices = [
+  "d8d2cbc3-1f28-4e6b-937f-2d8cf0bbaed1",
+  "09986d9e-cd80-4016-8000-c62ed5064914",
+  "1bdb4866-7c15-46b1-ad38-26111791eed5"
+]
+further_exploration=[
+  {type="raw", author="Various Authors", year="2023", title="Game Theory", site="wikipedia.org", link="https://en.wikipedia.org/wiki/Game_theory"},
+  {type="raw", author="Various Authors", year="2023", title="Pareto efficiency", site="wikipedia.org", link="https://en.wikipedia.org/wiki/Pareto_efficiency"},
+  {type="raw", author="Various Authors", year="2023", title="Computer Optimization", site="wikipedia.org", link="https://en.wikipedia.org/wiki/Program_optimization"},
+  {type="raw", author="McKay B.; McKay K.", year="2022", title="Podcast #840: When to Quit", site="artofmanliness.com", link="https://www.artofmanliness.com/character/behavior/podcast-840-when-to-quit/"},
+  {type="raw", author="Greenberg, S.", year="2013", title="Why We Overvalue What We No Longer Have: The Psychology of Loss", site="spencergreenberg.com", link="https://www.spencergreenberg.com/2013/10/why-we-overvalue-the-things-we-lose-the-psychology-of-loss/"}
+]
 +++
 
 ## Problem Statement
@@ -148,32 +165,3 @@ This means I set myself a limit, a breaking condition, before I quit my job. The
 I discussed my intent with my then-fiancee (now wife), as it also affected her. She was okay with delaying our long term plans with about one year in case I did not reach my intended goal.
 This gave me two things. Foremost, it helped reassure me that I was not doing harm to the people I cared about. Secondly, it served as a 
 sanity-check of my plans. If my goal was completely unrealistic, she would have undoubtedly told me at that point.
-
-
-## Further Exploration
-
-* {{<reference author="Various Authors"
-  year="2023"
-  title="Game Theory"
-  site="wikipedia.org"
-  link="https://en.wikipedia.org/wiki/Game_theory" >}}
-* {{<reference author="Various Authors"
-  year="2023"
-  title="Pareto efficiency"
-  site="wikipedia.org"
-  link="https://en.wikipedia.org/wiki/Pareto_efficiency" >}}
-* {{<reference author="Various Authors"
-  year="2023"
-  title="Computer Optimization"
-  site="wikipedia.org"
-  link="https://en.wikipedia.org/wiki/Program_optimization" >}}
-* {{<reference author="McKay B.; McKay K."
-  year="2022"
-  title="Podcast #840: When to Quit"
-  site="artofmanliness.com"
-  link="https://www.artofmanliness.com/character/behavior/podcast-840-when-to-quit/" >}}
-* {{<reference author="Greenberg, S."
-  year="2013"
-  title="Why We Overvalue What We No Longer Have: The Psychology of Loss"
-  site="spencergreenberg.com"
-  link="https://www.spencergreenberg.com/2013/10/why-we-overvalue-the-things-we-lose-the-psychology-of-loss/" >}}

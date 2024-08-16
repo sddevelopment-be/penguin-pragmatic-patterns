@@ -158,17 +158,17 @@ type = "site"
 tags = []
 
 [[tool]]
-id="89c8394d-87c7-4eaa-8154-b89f0cee77d1"
+id = "89c8394d-87c7-4eaa-8154-b89f0cee77d1"
 authors = "Object Management Group"
-name="Business Process Model And Notation Specification - Version 2.0"
-year="2010"
-site="omg.org"
-link="https://www.omg.org/spec/BPMN/2.0/"
+name = "Business Process Model And Notation Specification - Version 2.0"
+year = "2010"
+site = "omg.org"
+link = "https://www.omg.org/spec/BPMN/2.0/"
 image = ""
 description = """
 """
-type="site"
-tags=[]
+type = "site"
+tags = []
 
 [[tool]]
 id = "6d6a2170-e409-40ff-b89c-1f41a47d677d"
@@ -176,7 +176,7 @@ name = "Cynefin Wiki"
 authors = "Snowden, D.; et al."
 link = "https://cynefin.io/wiki/Cynefin"
 site = "cynefin.io"
-year="2023"
+year = "2023"
 image = "CynefinLogo.webp"
 description = """
 """
@@ -189,7 +189,7 @@ name = "The Bowling Game Kata"
 authors = "Martin R."
 link = "http://www.butunclebob.com/ArticleS.UncleBob.TheBowlingGameKata"
 site = "butunclebob.com"
-year="2005"
+year = "2005"
 image = ""
 description = """
 One of the most famous katas in the world of software development. It is used to teach the basics of test-driven development, minimalism,
@@ -198,3 +198,15 @@ and is a great way to get started with TDD.
 type = "site"
 tags = []
 
+[[tool]]
+id = "7c28156d-be10-4b0d-a97a-bed2836bc9a4"
+name = "Google Style Guides"
+authors = "Google Open Source"
+link = "https://google.github.io/styleguide"
+site = "google.GitHub.io"
+year = "2023"
+image = ""
+description = """
+"""
+type = "site"
+tags = []

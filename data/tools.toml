@@ -182,3 +182,19 @@ description = """
 """
 type = "site"
 tags = []
+
+[[tool]]
+id = "d81319c3-355c-43e0-bbd5-0eb3dfe71c76"
+name = "The Bowling Game Kata"
+authors = "Martin R."
+link = "http://www.butunclebob.com/ArticleS.UncleBob.TheBowlingGameKata"
+site = "butunclebob.com"
+year="2005"
+image = ""
+description = """
+One of the most famous katas in the world of software development. It is used to teach the basics of test-driven development, minimalism,
+and is a great way to get started with TDD.
+"""
+type = "site"
+tags = []
+

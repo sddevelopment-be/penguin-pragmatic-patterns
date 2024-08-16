@@ -79,7 +79,7 @@ The following factors prevent effective application of the practice:
 > [!STUB]
 > How to deal with, or prevent, potential negative consequences of applying the pattern
 
-### Examples
+## Examples
 
 > Case-studies, testimonials, or other examples that illustrate the pattern in action.
 

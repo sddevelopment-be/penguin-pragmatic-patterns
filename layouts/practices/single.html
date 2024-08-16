@@ -57,11 +57,20 @@
             {{ end }}
             {{if .Params.outputs}}
             <div class="summary-item ">
-                <span class="summary-title">formats:</span>
+                <span class="summary-title">{{ .Params.outputs | len }} formats available:</span>
                 <span class="summary-content summary-formats">
                     <a href="index.html" rel="noreferrer" target="_blank">HTML</a> /
-                    <a href="index.xml" rel="noreferrer" target="_blank">XML</a> /
-                    <a href="index.json" rel="noreferrer" target="_blank">JSON</a>
+                    {{ $formats := slice }}
+                    {{ range $format := .Params.outputs }}
+                        {{ $toAdd := $format.Name }}
+                        {{ $formats = $formats | append $toAdd }}
+                    {{ end }}
+                    {{ if (in $formats "rss") }}
+                        <a href="index.xml" rel="noreferrer" target="_blank">XML</a> /
+                    {{ end }}
+                    {{ if (in $formats "json") }}
+                        <a href="index.json" rel="noreferrer" target="_blank">JSON</a>
+                    {{ end }}
                 </span>
             </div>
             {{ end }}

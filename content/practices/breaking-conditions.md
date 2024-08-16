@@ -93,7 +93,9 @@ In the end, reaching your goals at all costs is usually not really worth it.
 * The Theory Of Constraints teaches us that holding too much work-in-progress reduces our ability to be effective.
 * Our mental capacity is limited. When we spend too much time fretting over the things we ought to do, there is little room to work on the things we are doing.
 
-## Considerations
+## Application
+
+### Consequences
 
 * **Short-Term Focus:** The pattern’s emphasis on current limits might neglect potential future opportunities, leading to a conservative approach.
 * **External Pressures:** Individuals might still feel pressured by others to exceed their set limits, making adherence difficult.

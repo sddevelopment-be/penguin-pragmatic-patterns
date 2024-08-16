@@ -4,7 +4,8 @@ author = "Stijn Dejongh"
 problem = "Assessing a candidate's skills and experience during an interview using traditional knowledge-based questions often leads to researched and rehearsed answers."
 description = "Employ a behavioural questioning method, to conduct more conversational interviews, and enticing candid and truthful responses."
 summary="""
-improve the quality of candidate assessments during interviews by using situational and behavioural questions based on the STARR (Situation-Task-Action-Results-Reflection) method. 
+Improve the quality of candidate assessments during interviews by using situational and behavioural questions based on the STARR 
+(Situation-Task-Action-Results-Reflection) method. 
 This technique aims to reveal a candidate's practical experience, decision-making skills, and ability to learn from past experiences.
 """
 categories = [
@@ -15,6 +16,7 @@ tags = [
 ]
 uuid="499c0c2f-e2b4-4266-8871-410c9c4c8718"
 aliases=["499c0c2f-e2b4-4266-8871-410c9c4c8718"]
+outputs = ['html', 'json']
 ammerse = [
     {name = "agile", delta = "0.35", rationale="The pattern encourages focusing on current needs, which aligns with agile principles of flexibility and rapid iteration. However, it may lead to future refactoring."},
     {name = "minimal", delta = "-0.65", rationale="The pattern promotes simplicity and avoids over-engineering, effectively reducing unnecessary complexity."},
@@ -26,6 +28,18 @@ ammerse = [
 ]
 pubdate="2024-05-11"
 image = "practices/starr_method_cover.webp"
+related_concepts = [
+  "d0ce5702-9059-419c-abbf-0d3e501fbaf7",
+  "7dfd0b45-b8e2-4ef9-90b4-e5316397f55b"
+]
+related_practices = [
+  "843eb99c-3d89-4333-bb0f-d8efc4916b49"
+]
+further_exploration = [
+  { type="raw", author="McKay B.; McKay K.", year="2017", title="The STAR Interview Method: How to Answer + Examples", site="biginterview.com", link="https://resources.biginterview.com/behavioral-interviews/star-interview-method/" },
+  { type="raw", author="Belludi, N.", year="2007", title="Use The STAR Technique to Ace Your Behavioral Interview", site="rightattitudes.com", link="https://www.rightattitudes.com/2008/07/15/star-technique-answer-interview-questions/"},
+  { type="raw",  author="Cook, S.", year="2009", title="Coaching for High Performance: How to Develop Exceptional Results Through Coaching", isbn="9781849280037", publisher="It Governance Ltd", link="https://www.goodreads.com/book/show/11013308-coaching-for-high-performance"}
+]
 +++
 
 ## Problem Statement
@@ -97,7 +111,9 @@ truthful) responses.
 * When asking about results, pay attention to the candidate's ability to quantify their achievements. This can give you a better understanding of
   how they think about their impact on the project or team.
 
-## Consideration
+## Application
+
+### Consequences
 
 * **Limited Predictive Power:** Directly assesses the candidate's past actions and results, which does not inherently account for their potential to
   adapt to new or evolving situations.
@@ -134,30 +150,5 @@ truthful) responses.
 * Have you ever had to make an unpopular decision, and explain it to those impacted? How did you handle it?
 * What is one of the most challenging technical issues you encountered so far? How did you solve the problem?
 * Describe a time when you used a metaphor or analogy to explain a tricky concept to a coworker or family member.
-
-## Further Exploration
-
-* {{<reference author="Cook, S."
-  year="2009"
-  title="Coaching for High Performance: How to Develop Exceptional Results Through Coaching"
-  isbn="9781849280037"
-  publisher="It Governance Ltd"
-  link="https://www.goodreads.com/book/show/11013308-coaching-for-high-performance" >}}
-* {{<reference author="McKay B.; McKay K."
-  year="2017"
-  title="The STAR Interview Method: How to Answer + Examples"
-  site="biginterview.com"
-  link="https://resources.biginterview.com/behavioral-interviews/star-interview-method/" >}}
-* {{<reference author="Belludi, N."
-  year="2007"
-  title="Use The STAR Technique to Ace Your Behavioral Interview"
-  site="rightattitudes.com"
-  link="https://www.rightattitudes.com/2008/07/15/star-technique-answer-interview-questions/" >}}
-* {{<reference author="Crossland, J.B."
-  year="2024"
-  site="chatgpt.com"
-  title="STARR technique AMMERSE evaluation by openAI"
-  link="https://chatgpt.com/share/19bd350a-b050-4eec-88b1-d54fae0d937d?oai-dm=1" >}}
-
 
 ---

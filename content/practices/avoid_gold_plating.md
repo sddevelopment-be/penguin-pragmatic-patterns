@@ -16,6 +16,7 @@ tags = [
     "elegance", "KISS", "YAGNI", "complexity"
 ]
 uuid="94a558cd-4e86-4814-a5e9-d6ecafcb0d6b"
+outputs = ['html', 'json']
 aliases=["94a558cd-4e86-4814-a5e9-d6ecafcb0d6b"]
 ammerse = [
   {name = "agile", delta = "0.35", rationale="The analysis supports agility by reducing unnecessary work and focusing on immediate needs. However, it may limit future adaptability if initial designs do not consider potential changes."},
@@ -28,6 +29,20 @@ ammerse = [
 ]
 pubdate="2023-09-16"
 image="practices/keep_it_simple_cover.webp"
+related_concepts = [
+  "b86230c6-49fb-4792-9008-a5241c5cdcb2",
+  "1f3849c8-28bc-4934-95bf-66d9dcee6858"
+]
+related_practices = [
+  "d8d2cbc3-1f28-4e6b-937f-2d8cf0bbaed1"
+]
+further_exploration = [
+  { type="raw", author="Nauerby, E. M.; Kragbæk, M.; et al.", year="2019", title="FizzBuzz: Enterprise Edition", site="GitHub.com", link="https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition" },
+  { type="tool", id="d81319c3-355c-43e0-bbd5-0eb3dfe71c76" },
+  { type="biblio", id="e15a25a0-6c08-4b78-b593-ca54eea8cce2"},
+  { type="biblio", id="93c3d298-690e-48b5-8140-b34ce90c2083"},
+  { type="biblio", id="8572443d-2c27-462a-b9d7-839dd6e4d58b"}
+]
 +++
 
 ## Problem Statement
@@ -84,7 +99,9 @@ In order to avoid over-complicating your code, ask yourself:
 
 * The level of refinement of a codebase should make sense for the problem at hand
 
-## Considerations
+## Application
+
+### Consequences
 
 * **Short-Term Focus:** The pattern’s emphasis on the present might neglect potential future needs, leading to frequent refactoring.
 * **Cleverness and Ego:** Developers might still over-complicate to showcase their skills, defeating the pattern’s purpose.
@@ -107,11 +124,10 @@ By focusing on these strategies, the potential drawbacks of the pattern can be m
 
 ## Examples
 
-
 {{<image
-src="/images/practices/overdesign.png"
-alt="An image of a bicycle with a robotic rear wheel, looking highly complicated and over-engineered"
->}}
+  src="/images/practices/overdesign.png"
+  size="35%"
+  alt="An image of a bicycle with a robotic rear wheel, looking highly complicated and over-engineered" >}}
 
 ### How not to do it: Enterprise Quality Fizz Buzz
 
@@ -132,7 +148,7 @@ The class below shows a strategy-injection visitor to determine which output for
 /**
  * Context for FizzBuzzOutputGeneration
  */
-public final class FizzBuzzOutputGenerationContext implements OutputGenerationContext {
+ public final class FizzBuzzOutputGenerationContext implements OutputGenerationContext {
 
 	private final DataPrinter printer;
 	private final IsEvenlyDivisibleStrategy strategy;
@@ -166,25 +182,3 @@ public final class FizzBuzzOutputGenerationContext implements OutputGenerationCo
 
 }
 ```
-
-## Further Exploration
-
-* {{<reference author="Nauerby, E. M.; Kragbæk, M.; et al."
-  year="2019"
-  title="FizzBuzz: Enterprise Edition"
-  site="GitHub.com"
-  link="https://github.com/EnterpriseQualityCoding/FizzBuzzEnterpriseEdition" >}}
-* {{<reference author="Martin R."
-  year="2005"
-  title="The Bowling Game Kata"
-  site="butunclebob.com"
-  link="http://www.butunclebob.com/ArticleS.UncleBob.TheBowlingGameKata" >}}
-* {{<reference author="Keeling, M."
-  year="2017"
-  isbn="1680502093"
-  title="Design It: From Programmer to Software Architect"
-  publisher="The Pragmatic Bookshelf"
-  link="https://pragprog.com/titles/mkdsa/design-it/" >}}
-
-
----

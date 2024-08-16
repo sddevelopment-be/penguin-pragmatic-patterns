@@ -15,6 +15,7 @@ tags = [
 ]
 uuid="1848f4a6-3acb-4dc8-aa49-e57a1b87cf3b"
 aliases=["1848f4a6-3acb-4dc8-aa49-e57a1b87cf3b"]
+outputs = ['html', 'json']
 ammerse = [
   {name = "agile", delta = "-0.45", rationale="Potential for lengthy discussions and meetings on coding standards, which can detract from agility and speed."},
   {name = "minimal", delta = "-0.3", rationale="Initial overhead and potential for over-discussion, making the process less minimal."},
@@ -26,6 +27,21 @@ ammerse = [
 ]
 pubdate="2023-08-26"
 image="practices/conventions_cover.webp"
+related_concepts = [
+  "1f3849c8-28bc-4934-95bf-66d9dcee6858",
+]
+related_practices = [
+  "94a558cd-4e86-4814-a5e9-d6ecafcb0d6b"
+]
+further_exploration = [
+  {type="bilbio", id="d22ee68e-2f19-4677-9123-2994cb111c0c"},
+  {type="biblio", id="9d8ff83e-f49a-4c7c-8e40-e34ac63e2792"},
+  {type="biblio", id="8572443d-2c27-462a-b9d7-839dd6e4d58b"},
+  {type="biblio", id="2930d42d-e7cf-4ea5-a6f3-eceb5b9a5fc1"},
+  {type="raw", author="Various authors", year="2023", title="Programming Style", site="wikipedia.org", link="https://en.wikipedia.org/wiki/Programming_style"},  
+  {type="tool", id="7c28156d-be10-4b0d-a97a-bed2836bc9a4"},  
+  {type="raw", author="Gravley, L.", year="2020", title="Introducing GitHub Super Linter", site="GitHub.blog", link="https://github.blog/2020-06-18-introducing-github-super-linter-one-linter-to-rule-them-all/"},  
+]
 +++
 
 {{<image
@@ -87,7 +103,10 @@ As long as the code is consistent with it's surrounding, you will get the benefi
 * Working with consistent representations lowers mental load.
 * Humans are excellent at recognizing deviations from the norm.
 
-## Considerations
+
+## Application
+
+### Consequences
 
 * **Developer Resistance:** Enforcing a uniform style might face pushback from developers who value their coding individuality.
 * **Initial Overhead:** The process of defining, documenting, and implementing consistent coding standards can be time-consuming and
@@ -178,38 +197,3 @@ Let a machine handle the easily spotted and corrected "issues" in your code base
 Spend your time on digging into the important things, such as functionality or the architecture of the code.
 ` >}}
 
-## Further Exploration
-
-* {{<reference author="Hoover, D.; Oshineye, A."
-  year="2009"
-  title="Apprenticeship Patterns"
-  isbn="9780596518387"
-  publisher="O'Reilly Media, Inc."
-  link="https://www.oreilly.com/library/view/apprenticeship-patterns/9780596806842/" >}}
-* {{<reference author="Fowler, M.; Beck, K.; Brant J.; Opdyke W.; Roberts D."
-  year="2012"
-  title="Refactoring: Improving the Design of Existing Code"
-  isbn="9780133065268"
-  publisher="Addison-Wesley Professional"
-  link="https://www.goodreads.com/book/show/18624706-refactoring" >}}
-* {{<reference author="Thomas, D.; Hunt, A."
-  year="2019"
-  title="The Pragmatic Programmer, 20th Anniversary Edition: your journey to mastery"
-  isbn="9780135957059"
-  publisher="Addison-Wesley Professional"
-  link="https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/" >}}
-* {{<reference author="Various authors"
-  year="2023"
-  title="Programming Style"
-  site="wikipedia.org"
-  link="https://en.wikipedia.org/wiki/Programming_style" >}}
-* {{<reference author="Gravley, L."
-  year="2020"
-  title="Introducing GitHub Super Linter"
-  site="GitHub.blog"
-  link="https://github.blog/2020-06-18-introducing-github-super-linter-one-linter-to-rule-them-all/" >}}
-* {{<reference author="Google Open Source"
-  year="2023"
-  title="Google Style Guides"
-  site="GitHub.io"
-  link="https://google.github.io/styleguide/" >}}

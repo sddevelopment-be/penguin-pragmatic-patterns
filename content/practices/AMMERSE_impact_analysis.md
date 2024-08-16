@@ -1,7 +1,7 @@
 +++
 title = "AMMERSE Impact Analysis"
 author = "Stijn Dejongh"
-outputs = ['html', 'json']
+outputs = ['html','rss', 'json']
 problem = "You want to ensure balanced and well-informed decision-making that aligns with desired (organizational) core values."
 description = "Apply an AMMERSE-based analysis to evaluate the likely impact of decisions, practices, and techniques on the system under change."
 summary="""
@@ -85,6 +85,19 @@ The AMMERSE Impact Analysis involves several steps:
 The AMMERSE Impact Analysis is a comprehensive framework assessing the impact of practices, techniques, and decisions on seven AMMERSE values. By
 examining both direct and indirect effects, this algorithm provides a detailed picture of how changes can influence a system, helping stakeholders
 make informed decisions. This approach is based on [the AMMERSE framework for decision making](https://www.ammerse.org/toolbox/decision-making/).
+
+### Key component: AMMERSE VALUES
+
+The AMMERSE decision-making framework defines seven core values that guide decision-making processes:
+
+* **Agile (A):** The ability to adapt quickly to changes, incorporate feedback, and maintain flexibility in processes and decision-making.
+* **Minimal (Mi):** The focus on simplicity and avoiding unnecessary complexity in processes and systems.
+* **Maintainable (Ma):** The ease of keeping processes and systems in working condition over time.
+* **Environmental (E):** Considering the broader context, including cultural fit, impact on nature and society, standards, and ethical 
+  considerations.
+* **Reachable (R):** Setting practical goals and ensuring they are achievable within the given constraints.
+* **Solvable (S):** The ability to effectively solve problems and address challenges that arise.
+* **Extensible (Ex):** The capacity to extend or scale processes and systems to meet future needs.
 
 ### Step-by-step: performing the AMMERSE Impact Analysis
 

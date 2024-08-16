@@ -21,6 +21,15 @@ uuid="a22a79f6-2ffa-4a13-a673-2ccb70ba9d42"
 aliases=["a22a79f6-2ffa-4a13-a673-2ccb70ba9d42"]
 outputs = ['html','rss', 'json']
 image="practices/personal_knowledge_portfolio.webp"
+ammerse = [
+    {name = "agile", delta = "0", rationale = ""},
+    {name = "minimal", delta = "0", rationale = ""},
+    {name = "maintainable", delta = "0", rationale = ""},
+    {name = "environmental", delta = "0", rationale = ""},
+    {name = "reachable", delta = "0", rationale = ""},
+    {name = "solvable", delta = "0", rationale = ""},
+    {name = "extensible", delta = "0", rationale = ""},
+]
 related_concepts = [
     "b86230c6-49fb-4792-9008-a5241c5cdcb2",
     "98cc5f46-409b-44df-9fb8-fb1d881970b5",

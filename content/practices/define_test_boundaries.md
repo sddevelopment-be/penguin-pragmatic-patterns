@@ -6,8 +6,15 @@ Badly defined test boundaries can lead to tests that are too broad, too narrow, 
 difficult to maintain, provide little value, or break easily.
 """
 description = """
-Define the scope of a `unit under test` based on the responsibility and functionality it provides rather than strictly adhering 
-to structural boundaries.
+Defining test boundaries based on the functionality and responsibilities of a system, rather than its structural or architectural layers, leads 
+to more meaningful, maintainable, and effective tests. 
+"""
+summary="""
+Badly defined test boundaries can lead to tests that are too broad, too narrow, or too fragile. This results in tests that are 
+difficult to maintain, provide little value, or break easily. We will learn how defining test boundaries based on the functionality and 
+responsibilities of a system, rather than its structural or architectural layers, leads to more meaningful, maintainable, 
+and effective tests. This approach reduces the brittleness of tests, makes them easier to maintain, and ensures 
+they focus on validating the system's intended behavior rather than its implementation details.
 """
 categories = [
     "software development",
@@ -17,22 +24,32 @@ tags = [
 ]
 uuid="04c6129d-11f7-4aa0-a809-1b972a0d7ef9"
 aliases=["04c6129d-11f7-4aa0-a809-1b972a0d7ef9"]
-#ammerse = [
-#    {name = "agile", delta = "0", rationale = ""},
-#    {name = "minimal", delta = "0", rationale = ""},
-#    {name = "maintainable", delta = "0", rationale = ""},
-#    {name = "environmental", delta = "0", rationale = ""},
-#    {name = "reachable", delta = "0", rationale = ""},
-#    {name = "solvable", delta = "0", rationale = ""},
-#    {name = "extensible", delta = "0", rationale = ""},
-#]
+outputs = ['html','rss', 'json']
+ammerse = [
+    {name = "agile", delta = "0.5", rationale = "ability to adapt quickly to changes in functionality without being tightly coupled to system structure."},
+    {name = "minimal", delta = "0.2", rationale = "The positive impact is moderated slightly by the complexity introduced when compared to not testing at all or using simpler testing methods. The focus on functionality over structure means the minimalism value is positive but not substantial."},
+    {name = "maintainable", delta = "0.85", rationale = "The practice excels in maintaining system integrity by reducing test brittleness and supporting ongoing system evolution. The adjusted value reinforces this as a core benefit of the approach."},
+    {name = "environmental", delta = "0.1", rationale = "While the positive impact of aligning testing with functional needs is recognized, the challenges in getting a team to adopt this approach are reflected in a moderate positive impact."},
+    {name = "reachable", delta = "0.35", rationale = "The value increases due to the practice's alignment with practical goals and its potential to make tests more manageable. However, the complexity of initial setup and the need for familiarity with stubbing/mocking tools keep this value below higher-impact categories like Maintainable or Extensible."},
+    {name = "solvable", delta = "0.65", rationale = "The ability of this technique to solve problems effectively is reinforced, especially by focusing on relevant functionality and reducing test fragility."},
+    {name = "extensible", delta = "0.75", rationale = "The pattern significantly enhances extensibility by decoupling tests from specific structural elements of the system, focusing instead on functionality. This means that as the system grows or evolves, tests can be adjusted more easily without being tightly bound to the system's original structure."},
+]
 pubdate = "2024-07-13"
 image = "practices/test_boundary_cover.webp"
 related_concepts = ["6169f9c0-dfe0-49b1-b459-acf01ac69c40", "2eb8fcea-8f12-44d8-97c5-5a48013ae515", "49a014f5-e40b-4c80-ba64-a31626b955ca"]
 related_practices = ["336b0448-e78b-4428-83a5-d4d473afda63", "1848f4a6-3acb-4dc8-aa49-e57a1b87cf3b"]
+further_exploration = [
+  {type="raw", author="Beck, K.", year="2022", title="Test Desiderata", site="kentbeck.github.io", link="https://kentbeck.github.io/TestDesiderata/"},
+  {type="biblio", id="1925e2ec-9147-4c4a-9dd8-c3ce6d08eee6"},
+  {type="biblio", id="2930d42d-e7cf-4ea5-a6f3-eceb5b9a5fc1"},
+  {type="biblio", id="9d8ff83e-f49a-4c7c-8e40-e34ac63e2792"},
+  {type="biblio", id="a78d1c3f-6365-47ac-baa4-86c6371c1eed"},
+  {type="raw", author="Beck, K.", year="2003", title="Test Driven Development: By Example", isbn="978-0321146533", publisher="Addison-Wesley Professional", link="https://www.goodreads.com/book/show/387190.Test_Driven_Development"},
+  {type="raw", author="Stanek, A.", year="2022", title="Software Engineering and Communication", site="linkedin.com", link="https://www.linkedin.com/posts/adrianstanek_softwareengineering-communication-activity-7125755594849804290-s9II"}
+]
 +++
 
-### Problem Statement
+## Problem Statement
 
 Badly defined test boundaries can lead to tests that are too broad, too narrow, or too fragile. This can result in tests that are difficult to maintain, provide little value, or break easily.
 Determining the appropriate scope and size of a "unit" in unit testing can be challenging, as it significantly impacts the effectiveness and
@@ -103,6 +120,10 @@ catching issues. It also allows for more flexibility in refactoring and changing
 
 ### Consequences
 
+The primary considerations relate to the potential difficulty in team adoption and the initial complexity of setting up functional slicing tests.
+While the practice is highly beneficial in the long run, it requires a commitment to understanding the system's functionality and adapting testing
+strategies accordingly.
+
 * **Decreased Initial Speed:** Defining test boundaries based on functionality may require more time and effort initially, especially if the 
   team is unfamiliar with this approach.
 * **Knowledge Requirements:** Developers need a clear understanding of the system's functionality and responsibility boundaries to define
@@ -114,17 +135,23 @@ catching issues. It also allows for more flexibility in refactoring and changing
 * **Interoperability Issues:** If the system relies heavily on external dependencies that cannot be easily stubbed or mocked, defining test 
   boundaries based on functionality may be challenging. Making too many assumptions about external components can lead to issues when 
   integrating the systems.
+* **Resistance to Change:** Teams accustomed to more minimal testing approaches may resist transitioning to a functional slicing strategy,
+  especially if they are comfortable with the existing process. While the practice is highly beneficial in the long run, it requires a commitment to
+  understanding the system's functionality and adapting testing strategies accordingly.
 
 ### Mitigation strategies
 
-* **Iterate:** Regularly review and update test boundaries as the system evolves.
 * **Shared Understanding:** Ensure all stakeholders, and the development team in particular, understand the system's functionality and 
   responsibility boundaries. This can be achieved by creating thorough documentation of test boundaries and responsibility definitions.
 * **Diversification:** Use a combination of unit, integration, and system tests to cover different aspects of functionality.
+* **Monitor and Iterate:** Regularly review and iterate on test boundaries and approaches to ensure they remain aligned with evolving system 
+  requirements. Encourage feedback loops within the team to refine the process continually.
+* **Mitigation of Complexity:** To counter the slight negative impact on Minimalism, provide clear, accessible training on functional slicing and 
+  stubbing/mocking techniques. Encourage incremental adoption to reduce the initial overhead.
 
-### Examples
+## Examples
 
-#### From Layers to Slices: A Case Study in Variable Test Scopes
+### From Layers to Slices: A Case Study in Variable Test Scopes
 
 This case study explores the transition from a layered testing approach to a functional slicing approach in software testing. Initially, the
 system's architecture followed a traditional layered model, but challenges in maintaining effective tests led to the adoption of a more dynamic,
@@ -137,7 +164,7 @@ The system under examination is an online retail platform. Initially, its archit
 3. **Data Access Layer:** Managing database interactions.
 4. **Integration Layer:** Communicating with external services.
 
-##### Initial Testing Strategy
+#### Initial Testing Strategy
 
 Testing was initially structured around these layers. The team employed a mix of unit, integration, and end-to-end tests to validate the 
 system's functionality. They had unit test suites for each layer, integration tests to validate interactions between layers, and end-to-end 
@@ -198,7 +225,7 @@ the system's validity. In order to ensure a stable release, after updating the t
 registration system to ensure that the new functionality was working as expected.
 
 
-##### Transition to Functional Slicing
+#### Transition to Functional Slicing
 
 To address these issues, the team decided to transition to a functional slicing approach, focusing on vertical slices of functionality rather than
 horizontal layers. They redefined their test boundaries based on the system's functional responsibilities, rather than its architectural layers, 
@@ -255,7 +282,7 @@ class UserRegistrationTest implements WithAssertions {
 }
 ```
 
-##### Conclusion
+#### Conclusion
 
 The transition from a layered approach to a functional slicing strategy significantly improved the testing process. By focusing on vertical slices
 of functionality, the team achieved more robust and maintainable tests, faster feedback loops, and a more resilient testing framework. This case
@@ -263,41 +290,3 @@ study underscores the importance of adapting test strategies to align with syste
 continuous delivery of high-quality software.
 
 {{< image src="/images/practices/test_boundary_slicing.webp"  alt="Pattern structure definition"  size="30%" >}}
-
-
-## Further Exploration
-
-* {{<reference author="Fowler, M.; Beck, K.; Brant J.; Opdyke W.; Roberts D."
-  year="2012"
-  title="Refactoring: Improving the Design of Existing Code"
-  isbn="978-0133065268"
-  publisher="Addison-Wesley Professional"
-  link="https://www.goodreads.com/book/show/18624706-refactoring" >}}
-* {{<reference author="Farley, D."
-  year="2021"
-  title="Modern Software Engineering: Doing What Works to Build Better Software Faster "
-  isbn="978-0137314911"
-  publisher="Addison-Wesley Professional"
-  link="https://www.amazon.com/Modern-Software-Engineering-Discipline-Development/dp/0137314914" >}}
-* {{<reference author="Beck, K."
-  year="2003"
-  title="Test Driven Development: By Example"
-  isbn="978-0321146533"
-  publisher="Addison-Wesley Professional"
-  link="https://www.goodreads.com/book/show/387190.Test_Driven_Development" >}}
-* {{<reference author="Mellor, A."
-  year="2023"
-  isbn="180323623X"
-  title="Test-Driven Development with Java"
-  publisher="Packt Publishing"
-  link="https://www.packtpub.com/en-us/product/test-driven-development-with-java-9781803236230" >}}
-* {{<reference author="Beck, K."
-  year="2022"
-  title="Test Desiderata"
-  site="kentbeck.github.io"
-  link="https://kentbeck.github.io/TestDesiderata/" >}}
-* {{<reference author="Stanek, A."
-  year="2022"
-  title="Software Engineering and Communication"
-  site="linkedin.com"
-  link="https://www.linkedin.com/posts/adrianstanek_softwareengineering-communication-activity-7125755594849804290-s9II?utm_source=share&utm_medium=member_desktop" >}}

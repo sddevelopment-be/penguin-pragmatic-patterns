@@ -39,6 +39,8 @@ Any feedback or suggestions for changes can be submitted there.
 - Updated the "Tools" section to include information on the type of reference
 - Updated bibliographical reference display: content title is clickable
 - JSON output format now includes more detailed information
+- Update AMMERSE values and added rationale to the metadata
+  - Updated "Defining Test Boundaries"
 
 ### Fixed
 

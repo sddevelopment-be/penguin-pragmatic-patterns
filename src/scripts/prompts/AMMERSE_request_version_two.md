@@ -9,6 +9,16 @@ Tell me what the base impact of using this technique is, using the AMMERSE Impac
 Only perform the "Define the Practice, Technique, or Decision" and "Define Base Impacts" steps of the evaluation for now. 
 Provide a base score for each AMMERSE value, and explain your reasoning for each score.
 For step 2, make sure to evaluate the positive and negative aspects of the practice separately, and then combine them into a single impact value.
+
+* **Agile (A):** The ability to adapt quickly to changes, incorporate feedback, and maintain flexibility in processes and decision-making.
+* **Minimal (Mi):** The focus on simplicity and avoiding unnecessary complexity in processes and systems.
+* **Maintainable (Ma):** The ease of keeping processes and systems in working condition over time.
+* **Environmental (E):** Considering the broader context, including cultural fit, impact on nature and society, standards, and ethical
+  considerations.
+* **Reachable (R):** Setting practical goals and ensuring they are achievable within the given constraints.
+* **Solvable (S):** The ability to effectively solve problems and address challenges that arise.
+* **Extensible (Ex):** The capacity to extend or scale processes and systems to meet future needs.
+
 As a reminder, these steps are:
 
 ---- STEP 1 (markdown) ----

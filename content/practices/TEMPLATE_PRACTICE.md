@@ -12,6 +12,7 @@ tags = [
 ]
 uuid="GENERATE-ME!"
 aliases=["uuid"]
+outputs = ['html','rss', 'json']
 ammerse = [
     {name = "agile", delta = "0", rationale = ""},
     {name = "minimal", delta = "0", rationale = ""},

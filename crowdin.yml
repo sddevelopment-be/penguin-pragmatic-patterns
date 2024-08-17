@@ -22,13 +22,13 @@ files: [
     # Where translations will be placed
     # e.g. "/resources/%two_letters_code%/%original_file_name%"
     #
-    "translation": "/content/%two_letters_code%/%original_file_name%",
+    "translation": "/**/%two_letters_code%/%original_file_name%",
 
     #
     # Files or directories for ignore
     # e.g. ["/**/?.txt", "/**/[0-9].txt", "/**/*\?*.txt"]
     #
-    # "ignore": [],
+    "ignore": ["/**/%two_letters_code%/*", "*TEMPLATE*"],
 
     #
     # The dest allows you to specify a file name in Crowdin

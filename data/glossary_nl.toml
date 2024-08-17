@@ -1,0 +1,863 @@
+[[terminology]]
+name = "Application Programming Interface"
+abbreviation = "API"
+domain = "software"
+description = """
+Specifies a set of software functions that are made available to an application programmer.
+The API typically includes function names, the parameters that can be passed into each function, and a
+description of the return values one can expect.
+    """
+aliases = []
+references = [
+    { title = "IBM: What is an API?", link = "https://www.ibm.com/topics/api" }
+]
+
+[[terminology]]
+name = "Asymmetric clustering"
+domain = "software"
+description = """
+One machine is in hot-standby mode and does nothing by monitor the other.
+In case of failure, the hot-standby takes over.
+    """
+aliases = ["failover configuration"]
+references = []
+
+[[terminology]]
+name = "Asymmetric multiprocessing"
+domain = "software"
+description = """
+Each processor is assigned to a single task.
+One processor is called the _master (or main) processor_, and controls the system.
+    """
+aliases = []
+references = []
+
+[[terminology]]
+name = "Asynchronous cancellation"
+domain = "software"
+description = """
+Cancellation of a target thread that immediately terminates it.
+(e.g. Unix' `kill -9 $PID` command)
+    """
+aliases = []
+references = []
+
+[[terminology]]
+name = "Blade servers"
+domain = "hardware"
+description = """
+A single chassis with multiple processor boards, I/O boards, and networking boards.
+Each processor board boots independently and runs its own operating system.
+        """
+aliases = []
+references = []
+
+[[terminology]]
+name = "Bootstrap program"
+domain = "software"
+description = """
+An initial program, usually stored on ROM or EEPROM memory, to initialize all aspects of the system.
+    """
+aliases = ["bootloader"]
+references = []
+
+[[terminology]]
+name = "Bounded buffer"
+domain = "software"
+description = """
+A type of buffer uses with shared memory IPC. Bounded buffers can only use a fixed amount of memory space.
+    """
+aliases = []
+references = []
+
+[[terminology]]
+name = "Boyscout rule"
+domain = "software"
+description = """
+The base premise of the Boyscout rule is that if everyone leaves their environment a little bit better than it was when they found it, eventually it
+will flourish. The term originates from the handbook of the Boyscouts of America, where it was phrased slightly differently to apply mostly to campsites.
+In software development, the phrase is commonly used to entice programmers to clean up their own messes and the messes that were left behind by
+their predecessors. This relates strongly to the broken window theory.
+    """
+aliases = []
+references = []
+
+[[terminology]]
+name = "Broken window theory"
+domain = "software"
+description = """
+A theory originating from the domain of criminology. The idea being that if an environment is
+already decayed, people have less ethical problems with making it worse. In the original criminological experiment from the 1990s, researchers measured how long it took for a building to be completely vandalized after
+breaking a single window. Psychologist believe that outward signs of neglect make us feel that no one cares about the object in question, hence we
+are not likely to care for it either.
+    """
+aliases = []
+references = [
+    { title = "wikipedia article", link = "https://en.wikipedia.org/wiki/Broken_windows_theory" }
+]
+
+[[terminology]]
+name = "Caching"
+domain = "software"
+description = """
+The storing of information on a faster, smaller storage system than the main memory bank where the data originates from.
+Cache management is highly important due to the limited size of the faster storage medium. There are different levels
+of cache-memory, indicating the memory's proximity to the CPU (lower == closer). As the distance to the CPU increases, so does the available memory space of the cache.
+    """
+aliases = []
+references = []
+
+[[terminology]]
+name = "Cascading termination"
+domain = "software"
+description = """
+Some systems terminate all the child processes when they terminate the parent process. This is called 'cascading termination'.
+    """
+aliases = []
+references = []
+
+[[terminology]]
+name = "Clean Code"
+domain = "software"
+description = """
+Clean code refers to code that is easy to understand, maintain, and extend. It is written in a way that clearly communicates its intent, making it
+accessible to other developers and to the original author when revisiting the code after some time. Clean code minimizes complexity and avoids
+unnecessary clutter.
+"""
+aliases = []
+references = [
+    { title = "Extreme Programming Explained: Embrace Change", link = "https://www.goodreads.com/book/show/67833.Extreme_Programming_Explained" },
+    { title = "Refactoring: Improving the Design of Existing Code", link = "https://www.goodreads.com/book/show/18624706-refactoring" },
+    { title = "Clean Code: A Handbook of Agile Software Craftsmanship", link = "https://www.goodreads.com/book/show/3735293-clean-code" }
+]
+
+[[terminology]]
+name = "Conway's Law"
+domain = "Software architecture"
+description = """
+Melvin Conway wrote: __'Any organization that designs a system (defined broadly) will produce a design whose structure
+is a copy of the organization's communication structure'__. The law originates from the observation that software is built by teams of people who are organized in a specific way. In order to build software effectively,
+these groups must work together to achieve their shared goal. Therefore, the software produced by these teams will invariably
+resemble the structure of the teams themselves.
+As an example, a company with two separate teams working for different departments (invoicing and sales) will likely produce software that
+is divided into two separate modules, one for invoicing and one for sales. These modules will probably interact with each other along pre-defined interfaces.
+Much like the teams interact with each other along pre-defined communication channels. If the teams are working in isolation, the software will likely be built in a similar way,
+with the two modules being designed in a way that allows them to be deployed and changed as independently as possible.
+    """
+aliases = []
+references = [
+    { title = "Conway's Law on wikipedia", link = "https://en.wikipedia.org/wiki/Conway%27s_law" },
+    { title = "Fowler on Conway's Law", link = "https://martinfowler.com/bliki/ConwaysLaw.html" }
+]
+
+[[terminology]]
+name = "Command Line Interface."
+abbreviation = "CLI"
+domain = "software"
+description = """
+A textual user interface, allowing for system interaction solely through text-based instructions and feedback.
+    """
+aliases = ["terminal", "shell"]
+references = []
+
+[[terminology]]
+name = "Clustered systems"
+domain = "computer networks"
+description = """
+Two or more individual systems coupled together, with shared storage and closely linked via a LAN or faster interconnect.
+    """
+aliases = []
+references = []
+
+[[terminology]]
+name = "Communication programs"
+abbreviation = ""
+domain = "software"
+description = """
+These programs provide the mechanism for creating virtual connections among processes, users, and computer systems. They
+allow users to send messages to other screens, to browse web pages, to send electronic-mail messages, to log in
+remotely or to transfer files from one machine to another.
+    """
+aliases = []
+references = []
+
+[[terminology]]
+name = "Control card"
+abbreviation = ""
+domain = "software"
+description = """
+A batch system concept. This is a command to manage the execution of a process (start, stop, interrupts, ...). It can
+be used to distinct between different error levels, and severity of instructions.
+    """
+aliases = []
+references = []
+
+[[terminology]]
+name = "Control program"
+abbreviation = ""
+domain = "software"
+description = """
+A control program manages the execution of user programs to prevent errors and improper use of the computer.
+    """
+aliases = []
+references = []
+
+[[terminology]]
+name = "Context"
+abbreviation = ""
+domain = ""
+description = """
+- The circumstances in which an event occurs; a setting.
+
+- The part of a text or statement that surrounds a particular word or passage and determines its meaning.
+    """
+aliases = []
+references = []
+
+[[terminology]]
+name = "Context switching"
+abbreviation = ""
+domain = "software"
+description = """
+In computer science: A state save of the current process and the state restore of a different process, when a swap occurs.
+    """
+aliases = []
+references = []
+
+[[terminology]]
+name = "CPU registers"
+abbreviation = ""
+domain = "hardware"
+description = """
+Registers are special purpose physical memory used during runtime execution of instruction sets. These registers are usually optimized for their
+dedicated task. These registers vary in number and type, depending on the computer architecture. They include `accumulators`, `index registers`, `stack pointers`,
+and general-purpose registers,
+plus any condition-code information (e.g. status codes). Along with the program counter, the content of these registers must be saved when an
+interrupt occurs, to allow the process to be continued correctly afterward.
+    """
+aliases = ["registry"]
+references = []
+
+[[terminology]]
+name = "CPU scheduling information"
+abbreviation = ""
+domain = "software"
+description = """
+Information related to task-scheduling on the processor. Usually includes `process priority`, `pointers to scheduling queues`, as well as
+architecture specific information.
+    """
+aliases = []
+references = []
+
+[[terminology]]
+name = "Code Review"
+abbreviation = ""
+domain = "software"
+description = """
+Code review is a software development practice where developers review each other’s code to ensure high quality and alignment with project goals.
+This process involves reading through the code to identify bugs, suggest structural improvements, and enhance readability.
+Code reviews can be conducted in person or remotely using specialized software tools. A key metric for code reviews is a decrease in defects,
+achieved by catching low-quality work early and fostering better coding practices. Additionally, developers benefit from code reviews by learning
+new techniques and approaches, promoting continuous learning and collaboration within the team.
+"""
+aliases = [" four-eyes principle", "peer review"]
+references = []
+
+[[terminology]]
+name = "Comma-separated values"
+abbreviation = "CSV"
+domain = "software"
+description = """
+A commonly used file format to represent tabular data. These files usually start with a line denoting the names of the columns. Each subsequent line is considered to be a data row.
+"""
+aliases = []
+references = []
+
+[[terminology]]
+name = "Domain Driven Design"
+abbreviation = "DDD"
+domain = "software architecture"
+description = """
+Domain-Driven Design is a set of principles and schemes aimed at creating optimal systems of objects. Reduced to the
+creation of software abstractions, which are called models of subject areas. These models include business logic that
+establishes a link between the real conditions of the products' application area and the code.
+<br />
+<br />
+Domain-Driven Design is about creating shared understanding of the problem space. This shared understanding is reinforced ubiquitously via conversations,
+code and diagrams. DDD’s Shared understanding enhances synergy and alignment, increasing the ability to deliver value sustainably — ideally over the lifetime of a product.
+"""
+aliases = []
+references = []
+
+[[terminology]]
+name = "Debugger"
+abbreviation = ""
+domain = "Software Development"
+description = """
+A program to help the user find and correct defects in their program.
+The term _"bug"_ originates from one of the original calculation machines at the IBM labs. Notoriously, one of their
+calculations misbehaved, and the researches were unable to find a logical error in their work.
+It had turned out an insect wandered into the machinery and disrupted its proper execution.
+To fix their calculation, one of the researchers had to physically rid the machine of pesky "bugs",
+hence coining the phrase _"debugging the system"_.
+    """
+aliases = []
+references = []
+
+[[terminology]]
+name = "Deferred cancellation"
+abbreviation = ""
+domain = "Software"
+description = """
+Thread cancellation style, in which the target thread is gracefully shut down. The target thread periodically checks whether it should/can
+terminate, allowing it an opportunity to terminate itself in an orderly fashion. By doing this, it can release any held system resources, and
+cascade the shutdown command to its children.
+    """
+aliases = []
+references = []
+
+[[terminology]]
+name = "Deprecated methods"
+domain = "Software Development"
+description = """
+Methods that are still implemented in the current API, but are marked for removal in the future.
+Reliance on these methods is generally discouraged.
+"""
+aliases = []
+references = []
+
+[[terminology]]
+name = "Desiderata"
+abbreviation = ""
+domain = "Software Development"
+description = """
+(singular: Desideratum) Latin for "the things we want". Occasionally used in software development and program management to make a clear
+distinction between a "requirement" and a "desired result". Whereas requirements define the minimum acceptable qualities of a result,
+approximating our desiderata is often sufficient to call our efforts a success.
+"""
+aliases = ["requirements", "desires", "wishes"]
+references = []
+
+[[terminology]]
+name = "Direct communication"
+abbreviation = ""
+domain = "Software"
+description = """
+A type of message-passing system, where each process that wishes to communicate with another must explicitly name the recipient or sender of the
+communication.
+"""
+aliases = []
+references = []
+
+[[terminology]]
+name = "Dispatch latency"
+domain = "software"
+description = "The time it takes to stop one process and start another one."
+aliases = []
+references = []
+
+[[terminology]]
+name = "Distributed lock manager."
+abbreviation = "DLM"
+domain = "Software Development"
+description = """
+A function that ensures that no conflicting operations occur in clustered systems.
+    """
+aliases = []
+references = []
+
+[[terminology]]
+name = "Direct Memory Access"
+abbreviation = "DMA"
+domain = "Software Development"
+description = """
+A specific way of organizing memory on a computer system. After setting up buffers,
+pointers, and counters for the I/O device, the device controller transfers an entire block of data directly to or from
+its on-buffer storage to memory, with no intervention by the CPU. Only one interrupt is generated per block to tell the
+device driver that the operation has completed, rather than the one interrupt per byte generated by low-speed devices.
+While the device controller is performing those operations, the CPU is available to accomplish other work.
+    """
+aliases = []
+references = []
+
+[[terminology]]
+name = "Domain Specific Language"
+abbreviation = "DSL"
+domain = "Software Development"
+description = """
+A specialized programming language intended to be used in a specific business context.
+Usually a bespoke language, developed to fit the business context. These languages are created to serve as shorthand for common operations within a
+business environment (e.g. configuration, creation of new CRUD endpoints, etc.). As a higher-order language, DSLs are generally built on top of
+existing powerful language stacks, such as Kotlin, Java, Rust, and Typescript.
+You might see them as specialist programming interfaces, written in such a way that most of the boilerplate and ceremony can be avoided.
+"""
+aliases = []
+references = []
+
+[[terminology]]
+name = "Engineering"
+abbreviation = ""
+domain = ""
+description = """
+Engineering is the application of an empirical, scientific approach to finding efficient, economic solutions to practical problems.
+"""
+aliases = []
+references = []
+
+[[terminology]]
+name = "Fault-tolerant systems"
+abbreviation = ""
+domain = "Software Development"
+description = """
+Systems that can suffer a failure but continue to work nonetheless.
+"""
+aliases = []
+references = []
+
+[[terminology]]
+name = "First come, first served"
+abbreviation = "FCFS"
+domain = "Software Development"
+description = """
+A scheduling algorithm: the first process that requests a system resource will get priority over the others.
+    """
+aliases = []
+references = []
+
+[[terminology]]
+name = "File management"
+abbreviation = ""
+domain = "Software Development"
+description = """
+Programs that create, delete, copy, rename, print, dump, list, and generally manipulate files and directories.
+"""
+aliases = []
+references = []
+
+[[terminology]]
+name = "File modifications"
+abbreviation = ""
+domain = ""
+description = """
+Several text editors may be available to create and modify the content of files stored on disk or other storage devices.
+There may also be special commands to search contents of files or perform transformations of the text.
+"""
+aliases = []
+references = []
+
+[[terminology]]
+name = "Fizz Buzz"
+domain = "software development"
+description = """
+Fizz Buzz is a children's game well known to software developers, as it is commonly used as a training exercise or interview question.
+The aim is to write a program that counts to a given number. When the current count is divisible by 3, the program should print out `Fizz` rather
+than the current count. When the current count is divisible by 5, it should print out `Buzz`. When divisible by both, we expect `Fizz Buzz`.
+The Fizz Buzz exercise aims to gauge basic programming aptitude, such as the use of loops and accumulators.
+"""
+aliases = []
+references = [
+    { title = "coding dojo FizzBuzz description", link = "https://codingdojo.org/kata/FizzBuzz/" }
+]
+
+[[terminology]]
+name = "Fluent API"
+abbreviation = ""
+domain = "Software Development"
+description = """
+In software engineering, a fluent interface is an object-oriented API whose design relies extensively on method chaining. Its goal is to increase
+code legibility by creating a domain-specific language. The term was coined in 2005 by Eric Evans and Martin Fowler.
+"""
+aliases = ["chainable methods"]
+references = []
+
+[[terminology]]
+name = "Garbage collection"
+abbreviation = "GC"
+domain = ""
+description = """
+The practice of reclaiming memory of objects that are no longer used. Control over the memory is returned to the system,
+rather than being allocated to a specific program/process.
+    """
+aliases = []
+references = []
+
+[[terminology]]
+name = "Graceful degradation"
+abbreviation = ""
+domain = "Software"
+description = """
+The ability to continue providing service proportional to the level of surviving hardware in the event of a system failure.
+"""
+aliases = []
+references = []
+
+[[terminology]]
+name = "Graphical User Interface"
+abbreviation = "GUI"
+domain = "Software"
+description = """
+A user interface that enables human-to-machine interaction using visual iconography that is
+more complex than its purely textual CLI alternative.
+"""
+aliases = []
+references = []
+
+[[terminology]]
+name = "Heap"
+abbreviation = ""
+domain = "Software Development"
+description = """
+Block of memory that is dynamically allocated during process run time. The heap is usually linked to a specific
+execution environment or process. In certain programming languages, this memory is also referred to as "the stack".
+    """
+aliases = ["stack"]
+references = []
+
+[[terminology]]
+name = "Integrated Development Environment"
+abbreviation = "IDE"
+domain = "Software Development"
+description = """
+An application that helps you to develop software, by combining useful features and libraries into one single
+application. These IDEs usually allow you to run your tests and code without needing to leave the comfort of your
+development environment.
+"""
+aliases = []
+references = []
+
+[[terminology]]
+name = "Indirect communication"
+abbreviation = ""
+domain = "Software Development"
+description = """
+A message passing system, in which processes send messages to mailboxes, or ports, rather than to a directly addressed recipient.
+(as opposed to direct communication)
+"""
+aliases = []
+references = []
+
+[[terminology]]
+name = "Interrupt Vector"
+abbreviation = ""
+domain = ""
+description = """
+An array which contains the addresses of the interrupt service routines.
+"""
+aliases = []
+references = []
+
+[[terminology]]
+name = "Inter-process communication"
+abbreviation = "IPC"
+domain = "Software Development"
+description = """
+A mechanism for passing information and data between cooperating processes. There are two fundamental
+models:
+
+* **shared memory**: a region of memory is established for the processes to use
+* **message passing**: the communication takes place through passing messages between the processes.
+"""
+aliases = []
+references = []
+
+[[terminology]]
+name = "Jargon"
+abbreviation = ""
+domain = "Communication"
+description = """
+The specialized language of a trade, profession, or similar group, especially when viewed as difficult to understand
+by outsiders."_. Its goal is to make the exchange of information more efficient by giving specific names to things that
+are relevant to the in-group. It is said that the Inuit have over thirty words to differentiate between different types
+of snow. Other professions, such as software developers, strongly rely on metaphors to refer to technical concepts.
+"""
+aliases = ["lingo"]
+references = []
+
+[[terminology]]
+name = "Just In Time compiler"
+abbreviation = "JIT compiler"
+domain = "Software Development"
+description = """
+A compiler that turns the architecture-neutral byte code into native machine language for the
+host computer, only when it is needed for execution. An example can be found in the Java programming language, which
+uses a virtual machine to translate its source code into machine executable instructions.
+"""
+aliases = []
+references = []
+
+[[terminology]]
+name = "Kernel mode"
+abbreviation = ""
+domain = ""
+description = """
+One of two modes of operation of a computer system. Opposed to User Mode.
+When in kernel mode, privileged instructions can be executed. A mode bit, added to the hardware, indicated the current
+mode.
+"""
+aliases = ["root mode", "elevated access mode"]
+references = []
+
+[[terminology]]
+name = "Key Performance Indicator"
+abbreviation = "KPI"
+domain = "Management"
+description = """
+The critical (key) indicators of progress toward an intended result. KPIs provide a focus for strategic and operational
+improvement, create an analytical basis for decision-making and help focus attention on what matters most.
+"""
+aliases = []
+references = []
+
+[[terminology]]
+name = "Natural order"
+abbreviation = ""
+domain = "Software development"
+description = """
+Elements of a collection (a list, array, ...) having a relationship that allows them to be sorted.
+Mathematically speaking, elements of these collections are said to form a `linearly bi-ordered group`.
+A group G is said to be linearly ordered, if and only if it is equipped with a total order `<=` that is translation-invariant.
+<br /><br />
+In software development, we use this group property in order to sort collections according to a specific order-function.
+Examples include: "is larger than", "is smaller than", "Alphabetical order of first letter", etc.
+    """
+aliases = []
+references = [
+    { title = "Linearly ordered group, wikipedia", link = "https://en.wikipedia.org/wiki/Linearly_ordered_group" }
+]
+
+[[terminology]]
+name = "Layered approach"
+abbreviation = ""
+domain = "Software Architecture"
+description = """
+A method to make the operating system more modular. The OS is broken up into several layers (as in _"layers of a
+cake"_), each of which performing a specific function.
+The bottom-most layer is said to be the hardware, the top-most layer the user interface. Intermediary layers can be
+added as needed. Within a layered approach, any layer consumes services from the layer _below_ it and offers services to
+the one above. Effectively stacking functionality on top of each other.
+"""
+aliases = []
+references = []
+
+[[terminology]]
+name = "Refactoring"
+domain = "software development"
+description = """
+The process of rewriting software, without changing the way it functions, in order to improve its readability, testability or maintainability.
+    """
+aliases = []
+references = [
+    { title = "Refactoring: Improving the Design of Existing Code", link = "https://www.goodreads.com/book/show/18624706-refactoring" }
+]
+
+[[terminology]]
+name = "Sunk-cost fallacy"
+abbreviation = ""
+domain = "economy"
+description = """
+A psychological trick we play on ourselves, to justify additional investment into a decision, even though there is evidence to suggest that future costs will outweigh the expected benefit.
+We do this because we feel that we have already invested too much into something to back out now.
+<br /><br />
+Example: __"We already spent two months working on getting this software to function properly, we are not going to stop now!"__ Even though little to no progress has been made.
+"""
+aliases = ["Escalation of commitment "]
+references = []
+
+[[terminology]]
+name = "Non-Preemptive scheduling"
+domain = "software development"
+description = """
+Scheduling that takes place, only when a process switches from running to waiting state, or when a process terminates.
+In contrast, pre-emptive scheduling can interrupt a process while it is running.
+    """
+aliases = []
+references = [
+]
+
+[[terminology]]
+name = "Dispatch latency"
+domain = "software development"
+description = """
+The time it takes to stop one process and start another one.
+"""
+aliases = []
+references = []
+
+[[terminology]]
+name = "Offering"
+abbreviation = ""
+domain = "corporate"
+description = """
+An offering is a project, product or service provided by a business to meet the needs of its customers. It can be tangible, such as a physical
+product, or intangible, such as a service or software solution. Offerings are designed to address specific customer needs or problems and are
+typically marketed and sold to generate revenue. Businesses often differentiate their offerings from competitors through unique features, quality,
+pricing, or customer service. The success of an offering is often measured by customer satisfaction, market share, and financial performance.
+"""
+aliases = ["deliverable", "solution"]
+references = []
+
+[[terminology]]
+name = "Throughput"
+domain = "software development"
+description = """
+The amount of processes that are completed per unit of time.
+"""
+aliases = []
+references = []
+
+[[terminology]]
+name = "Turnaround time"
+domain = "software development"
+description = """
+The interval of time counted from the moment of submission of a process to the time of completion.
+"""
+aliases = []
+references = []
+
+[[terminology]]
+name = "Waiting time"
+domain = "software development"
+description = """
+The sum of the periods processes spend waiting in the ready queue.
+"""
+aliases = []
+references = []
+
+[[terminology]]
+name = "Response time"
+domain = "software development"
+description = """
+The time it takes from the submission of a request until the first result is produced.
+In specific software development niches, the response time is commonly divided into multiple subcategories, as results are produced incrementally.
+
+As an example, loading a modern web page requires multiple steps, such as loading the HTML, CSS, and JavaScript files, authentication, and backend data retrieval.
+This results in a significant difference between the time it takes to load the first byte of the HTML file, and the time it takes to render the entire page.
+What is more, web developers tend to invest into making their partially loaded pages useable for the site's visitor, even if all the data is not present yet.
+This response time is known as "time to interactive".
+"""
+aliases = ["Load time", "Render time", "Time to interactive", "First input delay"]
+references = []
+
+[[terminology]]
+name = "Selective Perception"
+domain = "psychology"
+description = """
+The tendency not to notice, and more quickly forget, events and data that do not align with our expectations.
+This bias is a common psychological phenomenon, and is often used to explain why people tend to ignore or forget
+information that contradicts their current beliefs or causes emotional discomfort.
+"""
+aliases = ["Situational blindness", "Perceptual defense"]
+references = []
+
+[[terminology]]
+name = "Silver Bullet"
+domain = "folklore"
+description = """
+A simple, magical, solution to a complex problem. The term likely originates from the use of silver weapons in Greek mythology,
+as they were believed to symbolize purity of heart, and known to bestow divine favour on the person wielding them.
+Later in history, the use of silver bullets was popularized in folkloric tales about werewolves, vampires, witches, and other monsters.
+This trope made its way into modern times, where it is used to describe a method that works without fail.
+"""
+aliases = ["Cure-all", "Panacea"]
+references = [
+    { title = "Silver Bullet on wikipedia", link = "https://en.wikipedia.org/wiki/Silver_bullet" },
+    { title = "Ethymology Online", link = "https://www.etymonline.com/word/silver%20bullet" },
+    { title = "Phrase Finder", link = "https://www.phrases.org.uk/meanings/silver-bullet.html" }
+]
+
+[[terminology]]
+name = "Entropy"
+domain = "physics"
+description = """
+Entropy is a measure of the amount of disorder in a system. It is a measure of the number of ways in which a system can be arranged,
+often taken to be a measure of "disorder" (the higher the entropy, the higher the disorder). The second law of thermodynamics teaches us that
+any isolated system will inevitably tend towards a state of maximum entropy.
+
+**Tip:** Next time someone asks you why your desk is a mess, you can tell them that you are simply a victim of the laws of physics.
+"""
+aliases = ["chaos", "disorder"]
+references = [
+    { title = "Entropy on wikipedia", link = "https://en.wikipedia.org/wiki/Entropy" }
+]
+
+[[terminology]]
+name = "Polymath"
+domain = "history"
+description = """
+A person with a wide range of knowledge or learning. The term is often used to describe people who have excelled in multiple fields, and are able to make significant contributions to each of them.
+Many admired scholars, such as Aristotle, Galileo, Da Vinci, and Isaac Newton, were considered "Polymaths" or "Renaissance men".
+"""
+aliases = ["Renaissance men"]
+references = [
+    { title = "Polymath on wikipedia", link = "https://en.wikipedia.org/wiki/Polymath" }
+]
+
+[[terminology]]
+name = "objection"
+domain = "cooperation"
+description = """
+An **objection** is an argument - related to a proposal, existing agreement, or activity being conducted by one or more members of the organization -
+that reveals consequences or risks that are preferably avoided for the organization, or that demonstrates worthwhile ways to improve the proposal, agreement, or activity.
+"""
+aliases = []
+references = [
+    { title = "Sociocracy 3.0", link = "https://sociocracy30.org/resources/#se-practical-guide" }
+]
+
+[[terminology]]
+name = "Organizational Capability"
+domain = "Enterprise Architecture"
+description = """
+An organizational capability is a specific ability or capacity that an organization possesses to perform a particular task or function. They are
+realized by various elements of the organization, such as people, processes, and technology. In the field of business, strategic thinking and planning delivers strategies
+and high-level goals that are often not directly implementable in the architecture of an organization. Describing the organization as a set of capabilties,
+enables organizations to reason about their goals and processes in a structured, strategic, manner. This structure can later be used to ensure business capabilities are assigned to organizational units, and people.
+"""
+aliases = ["Capability"]
+references = [
+    { title = "ArchiMate Reference guide: Strategic Layer", link = "https://pubs.opengroup.org/architecture/archimate32-doc/ch-Strategy-Layer.html" }
+]
+
+[[terminology]]
+name = "Cognitive Bias"
+domain = "Psychology"
+description = """
+A **cognitive bias** is an _“error in thinking”_ that affects how we perceive the world, make decisions, and interact with others. Biases are
+systematic patterns of deviation from norm or rationality in judgment, where individuals create their own subjective reality from their perception of the
+input. These biases often stem from the brain's attempt to simplify information processing, leading to errors in decision-making and judgment.
+"""
+aliases = ["error in thinking", "bias", "preconception"]
+
+[[terminology]]
+name = "Heuristic"
+abbreviation = ""
+domain = "Problem Solving"
+description = """
+A heuristic is a problem-solving approach or technique that employs practical, experience-based methods for decision-making, learning, and discovery.
+The core idea is to simplify a complex problem by substituting an aspect of the context with a decent-enough approximation, often ignoring some of the information that is less relevant to the current decision-making process.
+Heuristics are used in various fields, such as computer science, psychology, and engineering, to find approximate solutions to complex problems quickly and efficiently.
+
+- __In Software:__ Heuristics are used to develop algorithms or processes that find solutions to complex problems quickly and efficiently when exact methods are impractical. They rely on rule-of-thumb strategies to achieve approximate solutions.
+
+- __In Psychology:__ Heuristics are mental shortcuts or simplified strategies that humans use to make decisions and judgments quickly without having to consider all possible information. These cognitive shortcuts help in managing the complexities of the world but can sometimes lead to biases or errors in judgment.
+
+- __In Engineering:__ Heuristics are practical methods used to solve complex engineering problems by providing good-enough solutions. An example is substituting the value of `π` (pi) with `22/7` (twenty-two divided by seven) for quick calculations, rather than using its full, infinite decimal representation. This approximation simplifies computations while maintaining sufficient accuracy for many engineering applications.
+"""
+aliases = ["solutioning shortcut", "best practice"]
+
+[[terminology]]
+name = "Search space"
+domain = "Problem Soving"
+description = """
+Search Space refers to the entire set of possible solutions or outcomes that can be considered when solving a problem or making a decision.
+It encompasses all potential approaches, methods, and pathways that can be considered in the problem-solving process.
+
+- __In Machine Learning and AI:__ The search space includes all possible models, parameters, and hyperparameters that an algorithm can explore to identify the best-performing model.
+
+- __In Optimization Problems:__ The search space represents all potential solutions that meet the constraints of the problem. Efficiently navigating this space is crucial for finding the most effective solution without excessive computation.
+
+- __In Heuristics and Algorithms:__ The search space is the domain through which heuristic methods or algorithms iterate to find approximate or near-optimal solutions, balancing between exploration (searching new areas) and exploitation (refining known good solutions).
+
+- __In Education:__ In the context of learning strategies, the search space encompasses various study techniques, mnemonic devices, and cognitive tools that learners might employ to understand and retain information.
+"""
+aliases = ["solution space", "exploration domain"]

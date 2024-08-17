@@ -85,7 +85,7 @@ Any feedback or suggestions for changes can be submitted there.
 - Display of patterns switched to vertical scroll
 - Updated the "development roadmap" mindstorm image
 - Split up some patterns to increase their focus on a single technique
-- Updated the "[Approach](/about)" page, introducing the "sense making" meta-model
+- Updated the "[Approach](/content/en/about.md)" page, introducing the "sense making" meta-model
 
 ### Added
 

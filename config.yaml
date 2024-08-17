@@ -1,5 +1,5 @@
 baseURL: http://something-fresh.org/
-languageCode: en-us
+languageCode: en-US
 title: Pragmatic Penguin Patterns
 
 module:
@@ -205,3 +205,23 @@ author:
   email: stijn@sddevelopment.be
   name: Stijn Dejongh
 copyright: © 2023 SD Development, BV.
+
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: false
+languages:
+  en:
+    contentDir: content/en
+    disabled: false
+    languageCode: en-US
+    languageDirection: ""
+    languageName: "English"
+    title: ""
+    weight: 0
+  nl:
+    contentDir: content/nl
+    disabled: false
+    languageCode: nl-BE
+    languageDirection: ""
+    languageName: "Nederlands"
+    title: ""
+    weight: 1

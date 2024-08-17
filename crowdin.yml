@@ -16,13 +16,13 @@ files: [
     # Source files filter
     # e.g. "/resources/en/*.json"
     #
-    "source": "/content/**/*.md",
+    "source": "/content/en/**/*.md",
 
     #
     # Where translations will be placed
     # e.g. "/resources/%two_letters_code%/%original_file_name%"
     #
-    "translation": "/**/%two_letters_code%/%original_file_name%",
+    "translation": "/content/%two_letters_code%/**/%original_file_name%",
 
     #
     # Files or directories for ignore

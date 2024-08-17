@@ -1,7 +1,7 @@
 +++
-aliases = [ "tags" ]
-title = "Tags"
+aliases = [ "labels" ]
+title = "Labels"
 outputs = [ "html" ]
 +++
 
-List of tags used in the knowledge base:
+Lijst met labels zoals gebruikt in de kennisbasis:

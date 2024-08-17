@@ -1,5 +1,3 @@
-baseURL: http://something-fresh.org/
-languageCode: en-US
 title: Pragmatic Penguin Patterns
 
 module:
@@ -29,6 +27,7 @@ taxonomies:
   level: "levels"
 
 params:
+  dataDir: /data/en/
   # Open graph allows easy social sharing. If you don't want it you can set it to false or just delete the variable
   openGraph: true
   # Used as meta data; describe your site to make Google Bots happy
@@ -62,11 +61,8 @@ params:
 
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
-
   - title: Approach
     url: /about
-#  - title: Pillars
-#    url: /pillars/
   - title: Concepts
     url: /concepts/
   - title: Practices
@@ -225,3 +221,25 @@ languages:
     languageName: "Nederlands"
     title: ""
     weight: 1
+    params:
+      navbar:
+        - title: Aanpak
+          url: /nl/about
+        - title: Concepten
+          url: /nl/concepts/
+        - title: Methodes
+          url: /nl/practices/
+        - title: Hulpmiddelen
+          sublinks:
+            - title: Woordenlijst
+              url: /nl/glossary/
+            - title: Bibliografie
+              url: /nl/books
+            - title: "Tools, Websites, Apps"
+              url: /nl/tools/
+        - title: Admin
+          sublinks:
+            - title: Aanpassingsoverzicht
+              url: /nl/changelog/
+            - title: Licentie
+              url: /nl/license/

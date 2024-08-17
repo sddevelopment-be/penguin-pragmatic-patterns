@@ -1,5 +1,5 @@
 +++
-title = "Aanpak"
+title = "Approach"
 order = 1
 pubdate = "2023-08-26"
 image = "sense_making_meta_model.webp"
@@ -50,7 +50,7 @@ experiences gathered from various sources, combined with the author's personal e
 The primary goal is to share knowledge and help others improve their skills while navigating the challenges of working in the software development
 field. Ultimately, if this work contributes to making someone's life a little more enjoyable, the mission is accomplished.
 
-{{< quote text=`
+{{\<quote text=`
 Heeded my words not, did you? Pass on what you have learned. Strength. Mastery.
 But weakness, folly, failure also. Yes,failure most of all.
 The greatest teacher, failure is. Luke, we are what they grow beyond. That is the true burden of all masters.`
@@ -107,7 +107,7 @@ As we now know, context matters! That is why each pattern is prefaced with a sho
 
 The pattern structure definition is illustrated in the following figure:
 
-{{< image src="/images/chapters/pattern_definition.webp" alt="Pattern structure definition" >}}
+{{< image src="/images/chapters/pattern_definition.webp"  alt="Pattern structure definition" >}}
 
 Some patterns may contain references to other resources, as well as supporting examples, testimonials, tutorials, and so on. These examples can be included inside the pattern description, but they might also exist as separate resources in a different section of this publication.
 
@@ -115,7 +115,9 @@ Some patterns may contain references to other resources, as well as supporting e
   Please note that pattern lists are not like a bingo chart or a collection of Pokémon.
   There is no special prize for incorporating all the patterns in this publication into your work or life. Instead, we encourage you to be selective
   and only use the practices that resonate with you. You are free to modify them according to your needs and preferences. After all, who are we to
-  tell you what to do?` >}}
+  tell you what to do?`
+
+> }}
 
 ## Interoperability with other frameworks
 
@@ -123,7 +125,7 @@ Some patterns may contain references to other resources, as well as supporting e
 alt="Compositional breakdown of the overarching sense-making meta model"
 caption="Compositional breakdown of the overarching sense-making meta model"
 size="40%"
-float="right" >}}
+float="right">}}
 
 One of the tricky things about sharing knowledge is that it is often difficult to find a common language to express ideas. What is evident to
 one person, might be a complete mystery to another. Using a structured way to represent the concepts, practices, and procedures will help you tremendously
@@ -189,6 +191,7 @@ of incorporating the practice into their work. To do so, we use a scale from -1 
 indicates no meaningful impact, and 1 indicates a significant positive impact. The iconography used to represent these values is as follows:
 
 {{< bootstrap-table "bootstrap-table table-striped table-responsive half-width" >}}
+
 |                   icon                   | value range     | meaning                     |
 | :--------------------------------------: | --------------- | --------------------------- |
 | <i class='fas fa-angle-double-down'></i> | `]-0.5; -1]`    | Significant negative impact |
@@ -198,7 +201,7 @@ indicates no meaningful impact, and 1 indicates a significant positive impact. T
 |   <i class='fas fa-arrow-trend-up'></i>  | `]0.1; 0.25]`   | Slight positive impact      |
 |      <i class='fas fa-angle-up'></i>     | `]0.25; 0.5]`   | Moderate positive impact    |
 |  <i class='fas fa-angle-double-up'></i>  | `]0.5; 1]`      | Significant positive impact |
-{{</ bootstrap-table >}}
+|         {{\</ bootstrap-table >}}        |                 |                             |
 
 We hope you find this knowledge base useful and that it helps you navigate the challenges of working in the software development field.
 

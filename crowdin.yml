@@ -22,7 +22,8 @@ files: [
     "ignore": [ "/%two_letters_code%/*", "*TEMPLATE*" ],
   },
   {
-    "source": "/data/*_en.toml",
-    "translation": "/data/%file_name%_%two_letters_code%.%file_extension%"
+    "source": "/data/*.toml",
+    "translation": "/data/%file_name%_%two_letters_code%.%file_extension%",
+    "ignore": [ "**/*%two_letters_code%.toml" ],
   }
 ]

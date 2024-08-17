@@ -1,8 +1,10 @@
 ![./static/images/logos/pp_open-learning.png](/static/images/logos/pp_open-learning.png)
 
+[![Crowdin](https://badges.crowdin.net/penguin-pragmatic-patterns/localized.svg)](https://crowdin.com/project/penguin-pragmatic-patterns)
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-6-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
+[![Deploy Hugo site to Github Pages](https://github.com/sddevelopment-be/penguin-pragmatic-patterns/actions/workflows/hugo.yml/badge.svg?branch=develop)](https://github.com/sddevelopment-be/penguin-pragmatic-patterns/actions/workflows/hugo.yml)
 
 A learning and development repository, aimed to share knowledge with other technical professionals.
 The contents of this repository are somewhat of a "personal wiki". It contains knowledge and

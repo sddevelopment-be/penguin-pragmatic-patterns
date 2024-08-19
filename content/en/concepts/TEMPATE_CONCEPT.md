@@ -1,7 +1,7 @@
 +++
+draft = true
 title = "CONCEPT name"
 author = "Stijn Dejongh"
-draft = true
 description = ""
 summary="""
 """
@@ -13,8 +13,17 @@ tags = [
 ]
 uuid="GENERATE-ME!"
 aliases=["uuid"]
-related_concepts = []
-related_practices = []
+pubdate=""
+image = ""
+related_concepts = [
+    
+]
+related_practices = [
+    
+]
+further_exporlation = [
+    
+]
 +++
 
 ## Definition

@@ -48,6 +48,6 @@ out/**
 
 # Custom ignores
 old_source
-
 public/
 resources/_gen/
+SPELLCHECK_OUTPUT.*

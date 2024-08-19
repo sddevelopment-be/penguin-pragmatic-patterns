@@ -3,13 +3,8 @@
 
 #
 # Choose file structure in Crowdin
-# e.g. true or false
-#
 "preserve_hierarchy": true
 
-#
-# Files configuration
-#
 files: [
   {
     "source": "/content/en/**/*.md",
@@ -22,8 +17,8 @@ files: [
     "ignore": [ "/%two_letters_code%/*", "*TEMPLATE*" ],
   },
   {
-    "source": "/data/*.toml",
+    "source": "/data/*",
     "translation": "/data/%file_name%_%two_letters_code%.%file_extension%",
-    "ignore": [ "**/*%two_letters_code%.toml" ],
+    "ignore": [ "/data/*_nl.*" ],
   }
 ]

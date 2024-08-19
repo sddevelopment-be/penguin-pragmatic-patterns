@@ -10,10 +10,10 @@ By using first-order reasoning for immediate insights and second-order reasoning
 the algorithm ensures thorough and balanced decision-making. This method helps identify both direct and indirect effects, enabling stakeholders to make informed choices that align with their strategic goals.
 """
 categories = [
-    "learning",
+    "learning"
 ]
 tags = [
-    "analysis", "evaluation", "decision-making", "systemic-thinking", "trade-offs", "AMMERSE",
+    "analysis", "evaluation", "decision-making", "systemic-thinking", "trade-offs", "AMMERSE"
 ]
 ammerse = [
     {name = "agile", delta = "-0.35", rationale = "The analysis is time-consuming and may hinder agility by slowing down decision-making processes. The potential indirect support for better decisions is not enough to offset this."},
@@ -84,7 +84,7 @@ The AMMERSE Impact Analysis involves several steps:
 
 The AMMERSE Impact Analysis is a comprehensive framework assessing the impact of practices, techniques, and decisions on seven AMMERSE values. By
 examining both direct and indirect effects, this algorithm provides a detailed picture of how changes can influence a system, helping stakeholders
-make informed decisions. This approach is based on [the AMMERSE framework for decision making](https://www.ammerse.org/toolbox/decision-making/).
+make informed decisions. This approach is based on [the AMMERSE framework for decision-making](https://www.ammerse.org/toolbox/decision-making/).
 
 ### Key component: AMMERSE VALUES
 

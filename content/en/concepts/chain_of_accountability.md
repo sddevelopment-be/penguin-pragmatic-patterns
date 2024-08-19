@@ -128,16 +128,17 @@ clear hierarchy of accountability.
 
 ### Examples
 
-#### The sixth of June, 1944
+#### The sixth of June 1944
 
 * **Goal:** Liberate Western Europe from the grip of the fascist regime.
 * **Strategy:** Launch a massive amphibious assault on the beaches of Normandy, sending every able body we can muster. Land on the beaches, and 
   establish a foothold. Then push inland, making sure supply lines are secured. 
 * **Tactics:** Use SOE paracommando's to secure key bridges and roads, to prevent the enemy from reinforcing their positions. Use amphibious 
-  personnel carriers to land infantry on the beaches, make sure the infantry knows to disembark as soon as they hit the beach. Let the royal 
-  navy barrage the bulkheads on the beaches with artillery during the landing, to soften up the enemy positions. Use the element of surprise to gain a foothold before the enemy can react.
+  personnel carriers to land infantry on the beaches, make sure the infantry knows to disembark as soon as they hit the beach. Let the Royal 
+  Navy barrage the bulkheads on the beaches with artillery during the landing, to soften up the enemy positions. Use the element of surprise to 
+  gain a foothold before the enemy can react.
 * **Execution:** Bob Jenkins, a private in the 3rd infantry division, is on a barge preparing to land on Omaha beach. He is part of the first 
-  wave, and is tasked with securing a beachhead. When the barge nears the beach, and the armored hatch opens, the enemy opens fire. His squad is 
+  wave, and is tasked with securing a beachhead. When the barge nears the beach, and the armoured hatch opens, the enemy opens fire. His squad is 
   decimated before they can disembark. Private Jenkins is lucky enough to be standing near the back of the barge, and is able to jump over the 
   side; as he was instructed to do. He is shot in the leg, but manages to crawl to a nearby tank, and uses it as cover to return fire. 
 * **Result:** The allies manage to secure a beachhead, but at a heavy cost. The first wave of the assault is decimated, and the follow-up waves 

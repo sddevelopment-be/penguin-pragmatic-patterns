@@ -19,7 +19,7 @@ further_exploration = [
     { type = "biblio", id = "9d8ff83e-f49a-4c7c-8e40-e34ac63e2792" },
     { type = "biblio", id = "8572443d-2c27-462a-b9d7-839dd6e4d58b" },
     { type = "biblio", id = "644de556-142a-42d7-8b86-1b513b320af6" },
-    { type = "raw", author = "unknown", year = "2009", title = "Manifesto for Software Craftsmanship", site = "softwarecraftsmanship.org", link = "https://manifesto.softwarecraftsmanship.org/" },
+    { type = "raw", author = "unknown", year = "2009", title = "Manifesto for Software Craftsmanship", site = "softwarecraftsmanship.org", link = "https://manifesto.softwarecraftsmanship.org/" }
 ]
 +++
 

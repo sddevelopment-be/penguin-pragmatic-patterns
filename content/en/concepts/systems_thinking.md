@@ -63,7 +63,7 @@ In other words: How well do we understand WHAT we are dealing with (certainty), 
 Charting these factors on a graph gives us these main zones of complexity:
 
 * **Simple:** In environments where we are certain about what we are doing and there is a high degree of agreement on how to approach it, the
-  challenge is fairly simple. Examples include well-known problems such as baking a cake, solving a simple math problem, or writing a piece of code
+  challenge is fairly simple. Examples include well-known problems such as baking a cake, solving a simple maths problem, or writing a piece of code
   to sort an array of integers.
 * **Complicated:** When there is certainty about what we are doing but a low degree of agreement on how to best approach it, the challenge becomes
   more complicated. These typically require analysis and adjustments to the approach. Examples include building a bridge, designing a new software
@@ -73,11 +73,11 @@ Charting these factors on a graph gives us these main zones of complexity:
   with a server outage, or raising a child.
 * **Chaotic:** The final quadrant is the domain of chaos, where we have no idea what is going on, and there is no agreement on how to best approach
   it. These situations require fast action to stabilize the environment and make it more manageable. Examples include dealing with a natural
-  disaster, responding to a cyber attack, exploring new scientific frontiers, or managing a global pandemic.
+  disaster, responding to a cyberattack, exploring new scientific frontiers, or managing a global pandemic.
 
 {{<tip text=`
 Generally, the more complex a system is, the more we need to rely on Systems Thinking to understand and navigate it effectively. For simple and 
-complicated environments, linear and structured approaches are usually sufficient. Avoid the temptation of over-analyzing simple problems, you 
+complicated environments, linear and structured approaches are usually sufficient. Avoid the temptation of overanalyzing simple problems, you 
 are likely to cause confusion and waste time.` >}}
 
 ## Background

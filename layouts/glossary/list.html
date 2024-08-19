@@ -30,7 +30,7 @@
             <div class="terminology-wrapper">
                 {{ $fileToUse := "glossary" }}
                 {{ if ne .Site.Language.Lang "en" }}
-                    {{ $fileToUse := (printf "glossary_%s" .Site.Language.Lang ) }}
+                    {{ $fileToUse = (printf "%s_%s" "glossary" .Site.Language.Lang ) }}
                 {{ end }}
                 {{ range $terminology := (sort (index .Site.Data $fileToUse).terminology "name" "asc" ) }}
                     {{ partial "glossary_term.html" (dict "term" $terminology) }}

@@ -18,7 +18,7 @@ further_exploration = [
   {type="biblio", id="a688ad2e-beb4-4b84-ad38-e64f523a33d8"},
   {type="biblio", id="d97d4075-456d-43b8-860b-1c4945ff8616"},
   {type="biblio", id="d129136d-d984-4505-8049-d20971a840af"},
-  {type="raw", title="Locus of control", author="Various contributions", year="2024", site="wikipedia" ,link="https://en.wikipedia.org/wiki/Locus_of_control"},
+  {type="raw", title="Locus of control", author="Various contributions", year="2024", site="wikipedia", link="https://en.wikipedia.org/wiki/Locus_of_control"}
 ]
 pubdate = "2023-09-12"
 +++
@@ -34,7 +34,7 @@ author="Reinhold Niebuhr; Shortened Serenity Prayer; ca. 1930.">}}
 ## Definition
 
 The Circle of Influence is a concept that helps individuals focus their attention and actions on the things they can control or influence. By
-visualizing oneself at the center of concentric circles, each representing different levels of influence, one can better understand and manage their
+visualizing oneself at the centre of concentric circles, each representing different levels of influence, one can better understand and manage their
 impact on various aspects of their life and environment.
 
 ## Key Components
@@ -46,7 +46,7 @@ Within each of these areas are things you can influence to various degrees.
 Deciding how far your personal circle of influence reaches, can help you focus your attention and actions to the things that are within your
 grasp to have an impact on.
 
-* **Personal Influence:** The innermost circle represents the individual's direct control, including their thoughts, behaviors, and immediate
+* **Personal Influence:** The innermost circle represents the individual's direct control, including their thoughts, behaviours, and immediate
   actions.
 * **Interpersonal Influence:** The middle circle includes the individual's influence on close relationships and direct interactions with others.
 * **Extended Influence:** The outermost circle encompasses broader societal and environmental factors that the individual can influence to a lesser

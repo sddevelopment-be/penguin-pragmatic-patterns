@@ -1,6 +1,7 @@
 +++
 aliases = ["categories", "pillars"]
 title = "Pillars"
+draft = true
 +++
 
 There is a lot to know about software development. The field is vast, and the body of knowledge is growing at an incredible pace[^2].

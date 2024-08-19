@@ -18,6 +18,7 @@ related_concepts = []
 further_exploration = [
   {type="biblio", id="a688ad2e-beb4-4b84-ad38-e64f523a33d8"},
   {type="biblio", id="c109d804-57a4-4acf-8c80-47a88eb6df85"},
+  {type="biblio", id="d97d4075-456d-43b8-860b-1c4945ff8616"},
   {type="raw", author="Aurelius, M. - Emperor of Rome", year="ca. 167", title="Mediations", location="Rome", publisher="Marcus Aurelius", link="http://classics.mit.edu/Antoninus/meditations.html"},
   {type="tool", id="fa17a430-1b3c-487b-82a6-d1b6d5e35d48"},
   {type="tool", id="80865a5e-a7a1-400a-a07a-3b7639743dfa"}

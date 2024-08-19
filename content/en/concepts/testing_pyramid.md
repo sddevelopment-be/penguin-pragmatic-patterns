@@ -71,7 +71,7 @@ substantial setup effort, making them more time-consuming and expensive to creat
 
 {{<tip text=`
 The testing pyramid provides insight into various test types, but it doesn't imply that you should use all of them or that some are inherently
-better than others. Like many aspects of software development, your choice should align with your specific context.Ask yourself how much feedback
+better than others. Like many aspects of software development, your choice should align with your specific context. Ask yourself how much feedback
 speed and implementation time you are willing to sacrifice in exchange for additional realism.
 
 A recommended heuristic is to **aim for the fastest possible feedback loop that catches ~90% of issues.**
@@ -163,7 +163,7 @@ specific project needs and team preferences.
 
 The Testing Pyramid is often compared with other frameworks like the V-Model, which emphasizes verification and validation through parallel testing
 phases corresponding to development stages. While the V-Model provides a structured approach to testing, the Testing Pyramid focuses on balancing
-different test types to optimize feedback and coverage. Additionally, frameworks like Behavior-Driven Development (BDD) and Test-Driven
+different test types to optimize feedback and coverage. Additionally, frameworks like Behaviour-Driven Development (BDD) and Test-Driven
 Development (TDD) emphasize writing tests before code, aligning closely with the Testing Pyramid's emphasis on thorough and early testing.
 
 ### Examples
@@ -186,7 +186,7 @@ control. Integration tests are used to ensure the system interfaces correctly wi
 result databases. End-to-end tests simulate real-world scenarios, such as scheduling appointments and generating reports, to validate the entire
 user workflow. Additionally, the team incorporates manual exploratory tests to identify edge cases and recovery tests to assess system resilience.
 
-They then move on to an "alpha release" where a select group of users test the system in a controlled environment, providing valuable feedback
+They then move on to an "alpha release" where a select group of users verify the system in a controlled environment, providing valuable feedback
 for further improvements. This is followed by a "beta release" to a broader user base, gathering additional insights.
 As part of the beta release, the system is scrutinized through performance tests to ensure it can handle the expected load and maintain
 responsiveness, and given a complete penetration test to identify potential security vulnerabilities.

@@ -4,11 +4,9 @@ author = "Stijn Dejongh"
 problem = "You often struggle with deciding what to do next, feeling uncertain about which choice would be most beneficial for you."
 description = "Use a systematic framework to make informed decisions by evaluating your resources — Support, Time, Energy, Attention, and Money."
 summary="""
-When struggling to decide what to do next, and feeling uncertain about which choice would be most beneficial, 
-the STEAM trade-off method provides a structured approach to decision-making by evaluating key personal resources.
-It enhances agility, maintainability, and realistic goal-setting but may introduce challenges such as analysis paralysis and perceived rigidity.
-By applying the technique selectively, balancing focus, seeking peer feedback, and maintaining flexibility, its benefits can be maximized while 
-mitigating potential drawbacks.
+The pattern introduces the STEAM framework, a mental model for decision-making that encourages individuals to evaluate 
+their options based on five key resources: Support, Time, Energy, Attention, and Money. 
+This model is intended to help individuals make more informed and balanced decisions by considering the availability and impact of these resources.
 """
 categories = [
     "productivity",
@@ -16,20 +14,37 @@ categories = [
 tags = [
     "goals", "prioritization", "decision-making", "reflection"
 ]
+outputs = ['html', 'json']
 uuid = "2cd8e850-9934-40f1-8d1a-d419ef96c33f"
 aliases = ["2cd8e850-9934-40f1-8d1a-d419ef96c33f"]
 ammerse = [
-    { name = "agile", delta = "0.5", rationale=""},
-    { name = "minimal", delta = "-0.5", rationale=""},
-    { name = "maintainable", delta = "1", rationale=""},
-    { name = "environmental", delta = "0.5", rationale=""},
-    { name = "reachable", delta = "0.5", rationale=""},
-    { name = "solvable", delta = "0", rationale=""},
-    { name = "extensible", delta = "0.5", rationale=""},
+    { name = "agile", delta = "0.25", rationale="The STEAM framework promotes flexibility by helping individuals evaluate resources and adapt their decisions. However, the structured nature of the approach might slow down decision-making in fast-paced environments."},
+    { name = "minimal", delta = "-0.15", rationale="The framework's complexity and effort requirements make it less suitable for minimalistic approaches."},
+    { name = "maintainable", delta = "0.85", rationale="The framework significantly enhances long-term mental stability and consistency in decision-making. Interaction impacts with agility and extensibility further bolster maintainability, making it a robust practice for sustainable personal development."},
+    { name = "environmental", delta = "0.1", rationale="The framework's environmental impact is modestly positive, mainly due to its encouragement of responsible decision-making and consideration of external factors. However, interaction impacts reveal that broader adoption challenges may slightly limit its effectiveness."},
+    { name = "reachable", delta = "0.25", rationale="The framework helps set achievable goals by focusing on resource availability, but itsconservative nature may limit ambition."},
+    { name = "solvable", delta = "0.7", rationale="The framework excels at solving problems effectively by systematically evaluating resources. Interaction impacts further enhance this score, as the positive influences of agility, maintainability, and extensibility reinforce the framework's problem-solving capabilities."},
+    { name = "extensible", delta = "0.5", rationale="The framework's adaptability and scalability are strong, especially when considering the interaction impacts with agility, maintainability, and problem-solving capabilities. This makes the framework versatile and applicable to a wide range of scenarios."},
 ]
-outputs = ['html', 'rss', 'json']
 image = "practices/steam_image.webp"
 pubdate="2024-05-01"
+related_concepts = [
+  "b86230c6-49fb-4792-9008-a5241c5cdcb2",
+  "97067bdd-7268-4098-ae66-7d4c3ea19fb2",
+  "3d5b775a-bd5d-40de-8ed3-d390dae16b7b"
+]
+related_practices = [
+  "d8d2cbc3-1f28-4e6b-937f-2d8cf0bbaed1",
+  "ef0c0e1b-f395-4ee0-8360-e419e97f7447"
+]
+further_exploration = [
+  {type="raw", author="Solan, M.", year="2022", title="The art of monotasking", site="health.harvard.edu", link="https://www.health.harvard.edu/mind-and-mood/the-art-of-monotasking" },
+  {type="raw", title = "TEA: The 3 Pillars of Productivity You Need To Unlock Your Full Potential", authors = "Pham, T.", site = "asianefficiency.com", year ="2018", link = "https://www.asianefficiency.com/productivity/tea-framework/"},
+  {type="raw", author="Wickens, C.", year="2021", title="The art of monotasking", publication="International Journal of Human–Computer Interaction", volume="37", issue="5", link="https://www.tandfonline.com/doi/full/10.1080/10447318.2021.1874741"},
+  {type="biblio", id="faf35830-29af-4957-8ad1-0d37d6bd60db"},
+  {type="biblio", id="a688ad2e-beb4-4b84-ad38-e64f523a33d8"},
+  {type="biblio", id="ee406fae-4177-4abc-8d70-23175009bc58"},
+]
 +++
 
 ## Problem Statement
@@ -120,7 +135,13 @@ best effort. Avoid wasting your energy on second-guessing yourself, but use it t
 Schedule a moment to revisit your decision at a later time, and reflect on the outcomes. This will help you to learn from your choices, and help
 you improve your self-awareness and decision-making skills.
 
-## Considerations
+## Application
+
+### Consequences
+
+The main concern with the STEAM framework is its potential to over-complicate decision-making processes, especially for those who prefer a more
+minimalistic or intuitive approach. While the framework is beneficial in maintaining consistency and solving problems, it may not always be the
+most efficient or flexible approach, particularly when quick decisions are necessary.
 
 * **High Effort:** Regular assessment and reflection can be time-consuming and require significant effort.
 * **Over-emphasis on Resources:** Focusing too much on the resources might lead to analysis paralysis or neglect of other important factors.
@@ -130,13 +151,14 @@ you improve your self-awareness and decision-making skills.
 
 ### Mitigation Strategies
 
-* **Use Tactically:** Apply the framework selectively to important decisions, or when you are stuck in a rut, rather than using it for every minor
-  choice.
-* **Balanced Focus:** While using the framework, remind yourself to consider other important factors beyond the STEAM resources to avoid narrow
-  decision-making.
-* **Peer Feedback:** Incorporate feedback from peers or mentors to reduce subjectivity and biases in the resource assessment process.
-* **Flexibility:** Adapt the framework to fit your personal decision-making style, allowing for intuitive adjustments while maintaining the
-  structured approach.
+* **Selective Application**: Consider applying the STEAM framework only to significant decisions or when you feel stuck. This ensures that the
+  benefits of the framework are realized without overwhelming daily decision-making processes.
+* **Simplification**: For individuals or teams who prefer a minimalistic approach, consider simplifying the framework or adapting it to reduce
+  complexity and effort.
+* **Integration with Intuition**: Encourage a blend of structured and intuitive decision-making, allowing for flexibility in fast-paced
+  environments while still benefiting from the framework's thoroughness.
+* **Peer Collaboration**: To mitigate subjectivity and biases, incorporate feedback from peers or mentors during the assessment process. This can
+  help refine the resource evaluation and lead to more balanced decisions.
 
 ## Examples
 
@@ -146,34 +168,5 @@ you improve your self-awareness and decision-making skills.
   alt="Applying the STEAM mnemonic model to a real-life situation."  
   caption="Applying the STEAM mnemonic model to a real-life situation." >}}
 
-## Further Exploration
-
-* {{<reference author="Solan, M."
-  year="2022"
-  title="The art of monotasking"
-  site="health.harvard.edu"
-  link="https://www.health.harvard.edu/mind-and-mood/the-art-of-monotasking" >}}
-* {{<reference author="Wickens, C."
-  year="2021"
-  title="The art of monotasking"
-  publication="International Journal of Human–Computer Interaction"
-  volume="37"
-  issue="5"
-  link="https://www.tandfonline.com/doi/full/10.1080/10447318.2021.1874741" >}}
-* {{<reference
-  title = "Drive: The Surprising Truth About What Motivates Us"
-  isbn = "9781594488849"
-  authors = "Pink, D. H."
-  publisher = "Riverhead Books"
-  year = "2009"
-  link = "https://www.goodreads.com/book/show/6452796-drive" >}}
-* {{<reference
-  title = "TEA: The 3 Pillars of Productivity You Need To Unlock Your Full Potential"
-  authors = "Pham, T."
-  site = "asianefficiency.com"
-  year = "2018"
-  link = "https://www.asianefficiency.com/productivity/tea-framework/" >}}
-
----
 
 

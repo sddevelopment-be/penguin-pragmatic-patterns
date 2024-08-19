@@ -88,3 +88,19 @@ For reference, here are the steps:
     interactions.
   * **Recommendations:** Provide recommendations for mitigation or additional though based on the comprehensive analysis.
 ---- END OF STEP 4 ----
+
+---
+
+Please format your final summary as structured metadata, using this structure:
+
+--- STRUCTURE TEMPLATE ---
+ammerse = [
+    {name = "agile", delta = "0", rationale = ""},
+    {name = "minimal", delta = "0", rationale = ""},
+    {name = "maintainable", delta = "0", rationale = ""},
+    {name = "environmental", delta = "0", rationale = ""},
+    {name = "reachable", delta = "0", rationale = ""},
+    {name = "solvable", delta = "0", rationale = ""},
+    {name = "extensible", delta = "0", rationale = ""}
+]
+--- END TEMPLATE ---

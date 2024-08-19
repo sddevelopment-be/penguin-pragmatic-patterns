@@ -4,29 +4,48 @@ author = "Stijn Dejongh"
 problem="You find yourself constantly busy, yet achieving little of value."
 description = "Assign a priority category to tasks based on their urgency and importance. Act depending on priority category."
 summary="""
-The core message is to help individuals manage their tasks more effectively by prioritizing them using techniques such as the Eisenhower Priority 
-Matrix. This ensures that the most important tasks are completed first, leading to better productivity and less stress.
+Struggling with a never-ending to-do list? This prioritization technique helps you focus on what truly matters, 
+ensuring you tackle the most important tasks first and achieve your goals with clarity and purpose.
 """
 categories = [
     "productivity",
 ]
 tags = [
-    "prioritization", "organizing", "decision-making"
+    "prioritization", "organizing", "decision-making", "task management", "goals", "time management", "workflow"
 ]
 uuid="d8d2cbc3-1f28-4e6b-937f-2d8cf0bbaed1"
 aliases=["d8d2cbc3-1f28-4e6b-937f-2d8cf0bbaed1"]
-ammerse = [
-  {name = "agile", delta = "-0.5"},
-  {name = "minimal", delta = "0.75"},
-  {name = "maintainable", delta = "1"},
-  {name = "environmental", delta = "0"},
-  {name = "reachable", delta = "0.5"},
-  {name = "solvable", delta = "1"},
-  {name = "extensible", delta = "0"},
-]
-outputs = ['html', 'rss', 'json']
+outputs = ['html', 'json']
 pubdate="2023-11-23"
 image = "practices/priorities_cover.webp"
+ammerse = [
+  {name = "agile", delta = "0.4", rationale = "The positive impact on agility comes from the structured approach that allows for clearer prioritization and quicker adjustments when priorities change. However, the technique's structured nature might slightly limit flexibility, leading to a moderate overall positive impact."},
+  {name = "minimal", delta = "-0.05", rationale = "While the technique adds structure to task management, it also introduces a layer of complexity that detracts from minimalism. This results in a slightly negative impact on the minimal value."},
+  {name = "maintainable", delta = "0.75", rationale = "The emphasis on regular reviews and prioritization strongly supports maintainability. The technique's ability to sustain effective task management over time leads to a significant positive impact on maintainability."},
+  {name = "environmental", delta = "0.25", rationale = "The technique's alignment with professional practices and its potential for reducing stress contribute to a moderate positive impact on the environmental value."},
+  {name = "reachable", delta = "1", rationale = "The technique directly supports the achievement of goals by prioritizing tasks that align with personal objectives, leading to a very strong positive impact on reachability."},
+  {name = "solvable", delta = "0.65", rationale = "The clear focus on critical tasks enhances problem-solving capabilities, contributing to a positive impact on the solvable value."},
+  {name = "extensible", delta = "0.35", rationale = "The technique's adaptability and scalability across different contexts contribute to a moderate positive impact on extensibility."},
+]
+related_concepts = [
+  "b86230c6-49fb-4792-9008-a5241c5cdcb2",
+  "97067bdd-7268-4098-ae66-7d4c3ea19fb2",
+  "ec95a389-25c7-4919-8246-dc6e7c725b5c",
+  "1af423be-8164-4974-bf5c-e2bd38f4b160"
+]
+related_practices = [
+  "2cd8e850-9934-40f1-8d1a-d419ef96c33f",
+  "ef0c0e1b-f395-4ee0-8360-e419e97f7447",
+  "cfd81655-1c47-4ee9-9f73-ea959bba3af4"
+]
+further_exploration = [
+  {type="biblio", id="77fd967c-fe5b-4095-a36b-7e6d0ecbb33e"},
+  {type="biblio", id="a688ad2e-beb4-4b84-ad38-e64f523a33d8"},
+  {type="biblio", id="ee406fae-4177-4abc-8d70-23175009bc58"},
+  {type="biblio", id="faf35830-29af-4957-8ad1-0d37d6bd60db"},
+  {type="tool", id="fa17a430-1b3c-487b-82a6-d1b6d5e35d48"},
+  {type="raw", author="Unknown", year="2023", title="What is the Eisenhower Matrix?", site="productplan.com", link="https://www.productplan.com/glossary/eisenhower-matrix/"}
+]
 +++
 
 ## Problem Statement
@@ -50,8 +69,8 @@ The following factors support effective application of the practice:
 * You always have a notebook (digital or analogue) close by.
 * You can communicate your intent to people effectively.
 
-### Enablers
-The following factors support effective application of the practice:
+### Deterrents
+The following factors prevent effective application of the practice:
 
 * You do not know what your goals and ambitions are.
 * You find it hard to rank tasks according to their importance.
@@ -74,10 +93,9 @@ Organize your action items according to:
 
 This leaves you with a nice 2-by-2 grid in which to place your actionable items[^3].
 
-{{<image
+{{< image
   src="/images/practices/eis_matrix.png"
-  alt="A 2-by-2 priority matrix, commonly known as the Eisenhouwer matrix."
->}}
+  alt="A 2-by-2 priority matrix, commonly known as the Eisenhouwer matrix." >}}
 
 Each grid section corresponds to a specific way to handle the action items contained within:
 
@@ -104,7 +122,9 @@ Is this urgent? To them, probably. To you? Probably not. If you did not make any
 * Standard to-do lists have no readily available means of prioritizing items.
 * Multitasking is hard. Our brains work better if we can compartmentalize between different modes of thinking (planning and executing).
 
-## Considerations
+## Application
+
+### Consequences
 
 * **Over-emphasis on Structure:** The structured approach may lead to rigidity and reduced flexibility in task management. It introduces the 
   risk of overlooking emergent tasks or opportunities.
@@ -124,27 +144,7 @@ Is this urgent? To them, probably. To you? Probably not. If you did not make any
 * **Avoid Peer Pressure:** Ensure the prioritization is based on personal goals and commitments, rather than external pressures or expectations.
   Clearly communicate your goals and boundaries to others. This will help reduce the influence of external demands on your
   decision-making process.
-* **Combine Tools:** Use the matrix in conjunction with other task management tools, such as To-Do list and personal planners, to balance structure
+* **Combine Tools:** Use the matrix alongside other task management tools, such as To-Do list and personal planners, to balance structure
   and flexibility in task prioritization.
 * **Use as a Guideline:** Treat the matrix as a guideline rather than a strict rule, allowing for adaptability in task prioritization. Use multiple
   prioritization techniques to balance structure and flexibility in task management.
-
-## Further Exploration
-
-* {{<reference author="Allen, D."
-  year="2015"
-  title="Getting Things Done: The Art of Stress-Free Productivity"
-  isbn="0143126563"
-  publisher="Penguin Books"
-  link="https://www.goodreads.com/book/show/22573850-getting-things-done" >}}
-* {{<reference author="Covey, S. R.; Collins, J."
-  year="2004"
-  title="The 7 Habits of Highly Effective People: Powerful Lessons in Personal Change"
-  isbn="0743269519"
-  publisher="Free Press"
-  link="https://www.goodreads.com/book/show/36072.The_7_Habits_of_Highly_Effective_People" >}}
-* {{<reference author="Unknown"
-  year="2023"
-  title="What is the Eisenhower Matrix?"
-  site="productplan.com"
-  link="https://www.productplan.com/glossary/eisenhower-matrix/" >}}

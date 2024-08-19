@@ -667,3 +667,21 @@ Young's guidance will equip you with the tools needed for continuous improvement
 levels = ["novice", "reference"]
 tags = ["productivity", "goals", "learning", "efficiency", "thinking"]
 
+[[book]]
+id = "ee406fae-4177-4abc-8d70-23175009bc58"
+title = "How to Be Accountable"
+isbn = "978-1665036573"
+authors = "Harper, F. G.; Biel, J."
+publisher = "Blackstone Publishing"
+year = "2020"
+link = "https://www.goodreads.com/book/show/58261546-how-to-be-accountable"
+image = "how_to_be_accountable.webp"
+description = """
+Accountability is an obligation or willingness to accept responsibility for and to repair the harm caused by one’s actions.
+In "How to Be Accountable," authors Harper and Biel explore the concept of accountability and its significance in personal and professional settings.
+The book provides practical advice on how to cultivate accountability, emphasizing the importance of integrity, honesty, and transparency.
+"""
+levels = ["novice"]
+tags = ["goals", "reflection", "accountability", "relationships"]
+
+

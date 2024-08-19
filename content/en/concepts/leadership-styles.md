@@ -25,7 +25,7 @@ further_exploration = [
 
 Lewin's Leadership Styles is a model developed by psychologist Kurt Lewin in 1939, identifying three primary styles of leadership:
 Authoritarian (Autocratic), Participative (Democratic), and Delegative (Laissez-Faire). These styles were observed and analyzed based on their
-effects on group behavior and productivity in an experimental setting.
+effects on group behaviour and productivity in an experimental setting.
 
 {{<image
   src="/images/concepts/leadership_styles.png"  
@@ -69,7 +69,7 @@ three groups. The children in this group also made more demands on the leader, s
 
 In 1939, Kurt Lewin and his colleagues conducted an influential study to identify different styles of leadership. They assigned schoolchildren to
 arts and crafts projects under three distinct leadership styles: Authoritarian, Participative, and Delegative. The researchers observed the
-children's behavior and productivity, establishing the foundation for understanding how different leadership approaches impact group dynamics.
+children's behaviour and productivity, establishing the foundation for understanding how different leadership approaches impact group dynamics.
 
 ### Application
 
@@ -83,7 +83,7 @@ among group members.
 
 * **Transformational Leadership:** Transformational leadership emphasizes inspiring and motivating followers to achieve their highest potential
   and fosters an environment of intellectual stimulation and personal development. Like Participative Leadership, it encourages engagement and
-  creativity, but goes further , focusing on long-term vision and personal growth, by transforming the underlying values and beliefs of their
+  creativity, but goes further, focusing on long-term vision and personal growth, by transforming the underlying values and beliefs of their
   followers. 
 
 * **Situational Leadership:** This model, developed by Paul Hersey and Ken Blanchard, posits that no single leadership style is best. Instead,

@@ -68,7 +68,7 @@ The following factors prevent effective application of the practice:
 Instead of defaulting to responding, practice empathetic listening using the LARS acronym:
 
 * **(L)isten:** Actively listen to what the other person is saying, resisting the urge to formulate a response immediately. If you find your
-  mind drifting, take a deep breath, and refocus on their words. Non-verbal cues like nodding or acknowledging sounds (_"aaahhh"_ , _"hm, hm"_, _"I
+  mind drifting, take a deep breath, and refocus on their words. Non-verbal cues like nodding or acknowledging sounds (_"aaahhh"_, _"hm, hm"_, _"I
   see"_) can help[^2].
 
 * **(A)sk:** Engage your conversational partner by asking questions about their perspective, feelings, and needs. This signals your genuine

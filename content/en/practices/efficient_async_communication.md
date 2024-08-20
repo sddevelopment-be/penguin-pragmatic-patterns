@@ -154,7 +154,7 @@ Due to its importance, the client has demanded the development team put their be
 Alex, being used to face-to-face conversations and online chats with their friends, says hello to Bernie.
 As Bernie is busy working on an important task, it takes some time for them to see the message.
 Distracted by the message, Bernie drops what they are doing and responds.
-You can see their conversation in the image below:
+You can see their conversation in the        below:
 
 {{< image
   src="/images/practices/async_message_bad_practices.png"

@@ -16,8 +16,8 @@ tags = [
     "elegance", "KISS", "YAGNI", "complexity"
 ]
 uuid="94a558cd-4e86-4814-a5e9-d6ecafcb0d6b"
-outputs = ['html', 'json']
 aliases=["94a558cd-4e86-4814-a5e9-d6ecafcb0d6b"]
+outputs = ['html', 'json']
 ammerse = [
   {name = "agile", delta = "0.35", rationale="The analysis supports agility by reducing unnecessary work and focusing on immediate needs. However, it may limit future adaptability if initial designs do not consider potential changes."},
   {name = "minimal", delta = "0.8", rationale="The analysis promotes minimalism by encouraging simplicity and avoiding unnecessary complexity."},

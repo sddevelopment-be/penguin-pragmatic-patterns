@@ -27,6 +27,7 @@
     align-content: center;
     display: block;
     object-fit: contain;
+    margin: auto;
 }
 
 .img-gallery figcaption {

@@ -14,7 +14,13 @@ uuid="GENERATE-ME!"
 aliases=["uuid"]
 outputs = ['html', 'json']
 ammerse = [
-    
+    {name = "agile", delta = "0", rationale = ""},
+    {name = "minimal", delta = "0", rationale = ""},
+    {name = "maintainable", delta = "0", rationale = ""},
+    {name = "environmental", delta = "0", rationale = ""},
+    {name = "reachable", delta = "0", rationale = ""},
+    {name = "solvable", delta = "0", rationale = ""},
+    {name = "extensible", delta = "0", rationale = ""}    
 ]
 related_concepts = []
 related_practices = []

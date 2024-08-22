@@ -2,24 +2,27 @@
 title = "Use an External Memory"
 author = "Stijn Dejongh"
 problem = "You want to reduce the impact of being pulled out of your flow."
-description = "Free your mind by delegating the remembering of things to an external system."
+description = "Delegate memory tasks to an external system to reduce cognitive load, maintain focus, and improve task management."
+summary="""
+Struggling with forgetfulness and interruptions? Learn how to leverage an external memory system to free up your mental space, boost productivity, and maintain focus. This technique helps you offload routine tasks, allowing you to prioritize what truly matters while minimizing the risk of being pulled out of your flow. Discover the benefits, potential pitfalls, and strategies for effectively implementing this practice.
+"""
 categories = [
     "productivity",
 ]
 tags = [
-    "tasks", "remembering", "tracking", "organizing"
+    "task management", "focus", "remembering", "tracking", "organizing", "cognitive load"
 ]
 uuid="18091885-3e43-43f5-a0f7-bcb6c625612b"
 aliases=["18091885-3e43-43f5-a0f7-bcb6c625612b"]
 outputs = ['html', 'json']
 ammerse = [
-  {name = "agile", delta = "0"},
-  {name = "minimal", delta = "0.5"},
-  {name = "maintainable", delta = "1"},
-  {name = "environmental", delta = "0"},
-  {name = "reachable", delta = "0"},
-  {name = "solvable", delta = "0"},
-  {name = "extensible", delta = "1"},
+  {name = "agile", delta = "0.35", rationale = "The practice moderately enhances agility by freeing up mental resources, allowing for quicker responses to changes and improving adaptability."},
+  {name = "minimal", delta = "0.75", rationale = "Supports minimalism by reducing cognitive load and simplifying task management, though there is a risk of over-complicating the external memory system."},
+  {name = "maintainable", delta = "0.85", rationale = "Strongly supports maintainability by encouraging regular review and simplification of external memory systems, reducing mental clutter over time."},
+  {name = "environmental", delta = "0.1", rationale = "Minimal impact on the broader environment, requiring only slight cultural adaptation where reliance on external memory systems is not the norm."},
+  {name = "reachable", delta = "0.15", rationale = "Slightly improves goal reachability by organizing tasks and reducing the risk of forgetting, though its impact is limited by user consistency."},
+  {name = "solvable", delta = "0.7", rationale = "Enhances problem-solving by offloading memory tasks, allowing for better focus on critical thinking, though over-reliance may reduce on-the-spot problem-solving."},
+  {name = "extensible", delta = "0.6", rationale = "The practice is generally extensible and adaptable to various contexts, though its effectiveness relies on consistent use and periodic review."}
 ]
 pubdate="2023-08-23"
 image="practices/external_memory_cover.webp"
@@ -50,6 +53,20 @@ You want to reduce the impact of _"forgetfulness"_ and being _"pulled out of you
 
 Delegate the remembering of things to an external system, in order to free up your headspace for more important tasks.
 
+## Solution
+
+* **Implement a Reliable External Memory System:** Use a combination of technological and/or physical tools to keep track of your tasks, ideas, and
+  notes. This can include apps, digital notebooks, or physical systems like paper planners or sticky notes.
+* **Regular Review and Maintenance:** Establish a routine for revisiting and updating your notes, ensuring that your external memory remains a
+  reliable source of truth. This can be done through daily or weekly reviews.
+* **Prioritize Searchability and Organization:** Favor systems that allow for easy searching, tagging, and categorization. Text-based formats are
+  recommended for their simplicity, version control, and portability across different platforms.
+* **Ensure Accessibility:** Make sure that your external memory system is accessible from multiple devices and platforms. This reduces the friction
+  involved in capturing and retrieving information.
+* **Avoid Over-complication:** Keep the system simple and easy to use, avoiding the temptation to over-engineer your external memory with
+  unnecessary features or integrations. Favour using plain text based formats and tools, as they are easier to version, maintain, and port to
+  different systems.
+
 ## Contextual forces
 
 ### Enablers
@@ -57,23 +74,21 @@ The following factors support effective application of the practice:
 
 * **Trust**: You trust your external brain to remember things for you, and you trust yourself to remember to check it.
 * **Routine**: You can schedule time consistently, to revisit your notes and take action if needed.
-* **Optimize for looking up**: You have a system in place that allows you to quickly find what you need.
+* **Searchability**: You have a system in place that allows you to quickly find what you need.
 * **Availability**: Your external brain is easily accessible, and does not require a lot of effort to use.
+* **Simplicity:** The system is simple enough to use that it doesn't add cognitive load, but rather reduces it by offloading memory tasks.
 
 ### Deterrents
 The following factors prevent effective application of the practice:
 
-* **Inconsistency**: You do not trust your external brain to remember things for you, or you do not trust yourself to remember to check it.
-* **Overwhelm**: You have too many notes, or your notes are distributed amongst a multitude of systems, making it hard to find what you need.
-* **Inconvenience**: Your external brain is not easily accessible, or requires a lot of effort to use.
-
-## Solution
-
-* Use a technological or physical aid to keep track of your ideas and notes
-* Make sure you **trust** your external brain, in order to free head-space
-* Revisit your notes regularly
-* favour text-based formats, as they are easier to version, maintain and port
-* Whatever system you use, make sure it is easily accessible, and non-disruptive to your primary focus
+* **Inconsistency:** You lack trust in your external memory system, either because you forget to check it or because it has failed you in the past.
+  This inconsistency can lead to missed deadlines or forgotten tasks.
+* **Overwhelm:** You have accumulated too many notes across various systems, leading to confusion and difficulty in finding relevant information
+  when needed. This fragmentation can negate the benefits of using an external memory.
+* **Inconvenience:** Your external memory is not easily accessible, requiring too much effort to input or retrieve information. This inconvenience
+  can lead to underuse and a failure to fully integrate the system into your workflow.
+* **Over-automation:** Relying too heavily on automated systems (e.g., task managers or reminders) without a manual review process can lead to
+  complacency and the overlooking of critical tasks.
 
 ## Rationale
 
@@ -98,15 +113,31 @@ It makes practical and economic sense to try and find a way to free up your head
 
 ### Consequences
 
-* **Perfectionism**: Using an external memory can cause certain people to become perfectionists in their tooling choices, resulting in them
-  spending more time on configuring their tools than actually using them. A secondary effect of this is that they might become less productive,
-  hyper-focusing on the tooling or formatting of their notes, rather than the content.
-* **Over-reliance**: There is a risk of over-reliance on the external memory, which can lead to a lack of critical thinking and problem-solving
-  skills. If you always rely on your notes to solve problems, you might not develop the ability to think on your feet.
-* **Anxiety**: If you lose access to your external memory, you might feel anxious or lost. This can be mitigated by having a backup system in place,
-  or by using a system that is easily accessible and reliable (such as a simple physical notepad).
+* **Perfectionism:** Using an external memory can lead to perfectionism in tool selection and configuration, where more time is spent fine-tuning
+  the system than actually using it. This can detract from overall productivity, as the focus shifts from content to tooling.
+* **Over-reliance:** There is a risk of becoming too dependent on the external memory, which might diminish your ability to think critically and
+  solve problems on the spot. If you always rely on your notes for problem-solving, your capacity for improvisation and quick decision-making might
+  suffer.
+* **Anxiety from Loss of Access:** If you lose access to your external memory—whether due to technical issues, loss of physical notes, or being
+  away from your usual tools—you might experience anxiety or feel lost. This can be particularly troubling if your entire workflow depends on this
+  system.
+* **Data Overload:** As you accumulate more notes and tasks, there is a risk of becoming overwhelmed by the sheer volume of information stored.
+  Without proper organization and regular culling of outdated or irrelevant information, the system can become a burden rather than a relief.
 
 ### Mitigation strategies
+
+* **Set Boundaries for Tooling:** Limit the time and effort spent on configuring and selecting tools. Choose a simple, reliable system early on,
+  and resist the urge to constantly tweak or upgrade it. The focus should be on utility, not perfection.
+* **Periodic Review and Pruning:** Regularly review and tidy up your external memory. Remove outdated notes and tasks, and reorganize information
+  as necessary to prevent data overload. This helps maintain the system's usefulness and prevents it from becoming a source of stress.
+* **Backup and Redundancy:** Implement a backup system to prevent loss of information. This could be as simple as regularly exporting digital notes
+  or keeping a physical backup of critical information. Consider combining digital and physical systems to mitigate the risk of total
+  data loss.
+* **Balance Memory with Critical Thinking:** While it is important to trust your external memory, make a conscious effort to engage in
+  problem-solving and critical thinking without immediately turning to your notes. This practice can help maintain and develop cognitive skills
+  alongside external aids.
+* **Establish a Routine:** To avoid inconsistency, create a daily or weekly routine for checking and updating your external memory. This ensures
+  that your notes remain relevant and actionable and that you develop a habit of relying on the system without becoming overly dependent.
 
 ## Examples
 
@@ -115,7 +146,7 @@ Some of them are listed below in the _references_ section.
 
 You can use a simple text-based system to keep track of your thoughts, or To-Do items.
 I personally prefer using these text-based systems as they allow for easier cross-platform portability, and avoid being locked in to a
-single vendor solution. This entire knowledge base can be seen as one big "external brain".
+single vendor solution. This entire knowledge base can be seen as one big _"external brain"_.
 
 ### Stijn's developer logs
 

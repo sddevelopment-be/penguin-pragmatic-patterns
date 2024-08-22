@@ -27,7 +27,7 @@ related_practices = []
 further_exploration = []
 +++
 
-### Problem statement
+## Problem statement
 
 > [!STUB]
 > Describe the problem that this pattern aims to solve
@@ -35,6 +35,12 @@ further_exploration = []
 ## Intent
 > [!STUB]
 > Describe the desired outcome
+
+## Solution
+
+> [!STUB]
+> Describe the core idea of the pattern and how to apply it.
+> Add subsections as you see fit in order to clearly communicate the idea
 
 ## Contextual forces
 
@@ -53,12 +59,6 @@ The following factors prevent effective application of the practice:
 
 > [!STUB]
 > Contextual factors that decrease the viability of implementing the pattern
-
-## Solution
-
-> [!STUB]
-> Describe the core idea of the pattern and how to apply it.
-> Add subsections as you see fit in order to clearly communicate the idea
 
 ## Rationale
 

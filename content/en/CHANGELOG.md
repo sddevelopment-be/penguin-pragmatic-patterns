@@ -40,7 +40,6 @@ Any feedback or suggestions for changes can be submitted there.
 - Updated bibliographical reference display: content title is clickable
 - JSON output format now includes more detailed information
 - Update AMMERSE values and added rationale to the metadata
-  - Updated "Defining Test Boundaries"
 
 ### Fixed
 
@@ -51,6 +50,7 @@ Any feedback or suggestions for changes can be submitted there.
 - Fixed social media share meta tags
 - Issue with quotations not being displayed correctly in combination with pattern summary card
 - File size of images has been reduced to improve loading times
+- Issue with images with caption not being centered correctly
 
 ### Added
 

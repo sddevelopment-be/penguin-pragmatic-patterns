@@ -91,7 +91,9 @@ For reference, here are the steps:
 
 ---
 
-Please format your final summary as structured metadata, using this structure:
+Please format your final summary as structured metadata, using this structure.
+Be sure to round the numbers in the structured metadata to reflect that this is the result of an intuitive, qualitative process and not an exact 
+scientific measurement.
 
 --- STRUCTURE TEMPLATE ---
 ammerse = [

@@ -1,32 +1,17 @@
-+++
-title = "Template name"
-author = "Stijn Dejongh"
-draft = true
-problem = ""
-description = ""
-categories = [
-    "software development",
-]
-tags = [
-    "remembering", "tracking", "tracability", "log"
-]
-uuid="GENERATE-ME!"
-aliases=["uuid"]
-outputs = ['html', 'json']
-ammerse = [
-    {name = "agile", delta = "0", rationale = ""},
-    {name = "minimal", delta = "0", rationale = ""},
-    {name = "maintainable", delta = "0", rationale = ""},
-    {name = "environmental", delta = "0", rationale = ""},
-    {name = "reachable", delta = "0", rationale = ""},
-    {name = "solvable", delta = "0", rationale = ""},
-    {name = "extensible", delta = "0", rationale = ""}    
-]
-related_concepts = []
-related_practices = []
-further_exploration = []
-+++
+Acting as my editor, please proofread this pattern. It is intended to be used in my online knowledge base.  
+The pattern consists of a problem statement, intent, contextual forces (drivers), and a solution as described in the attached template. 
+The pattern is written in a conversational tone, and uses British English spelling. 
+The format of the pattern is HuGo-enhanced markdown. Assume all footnotes are correctly linked, and all referenced images are present.
 
+Tell me what the core message of the text is in 4 sentences.
+Next, give me some feedback on the tone and style of writing.
+Next, list any grammar, spelling, or stylistic faults and how to resolve them.
+Finally, provide me with a revised version of the text, making sure to align it with the attached template.
+
+The pattern template below. Note that the template is written in HuGo-enhanced markdown.
+The quoted text blocks ( preceded by '>' ) are intended as guidance for the pattern author, and should not be included in the final text.
+
+--- START OF TEMPLATE ---
 ## Problem statement
 
 > [!STUB]
@@ -68,7 +53,6 @@ The following factors prevent effective application of the practice:
 ## Application
 
 ### Consequences
-While the approach brings numerous benefits, it can also lead to several unexpected or undesired outcomes:
 
 > [!STUB]
 > Describe how the situation changes after applying the pattern
@@ -76,7 +60,6 @@ While the approach brings numerous benefits, it can also lead to several unexpec
 > Be sure to highlight potential unintended effects.
 
 ### Mitigation strategies
-To mitigate the potential negative consequences of the approach:
 
 > [!STUB]
 > How to deal with, or prevent, potential negative consequences of applying the pattern
@@ -84,7 +67,10 @@ To mitigate the potential negative consequences of the approach:
 ## Examples
 
 > Case-studies, testimonials, or other examples that illustrate the pattern in action.
+--- END OF TEMPLATE ---
 
----
+The pattern description is show below. 
 
+--- START OF PATTERN ---
 
+--- END OF TEXT ---

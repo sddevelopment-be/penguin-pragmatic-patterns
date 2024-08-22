@@ -31,7 +31,8 @@ related_concepts = [
   "1f3849c8-28bc-4934-95bf-66d9dcee6858",
 ]
 related_practices = [
-  "94a558cd-4e86-4814-a5e9-d6ecafcb0d6b"
+  "94a558cd-4e86-4814-a5e9-d6ecafcb0d6b",
+  "336b0448-e78b-4428-83a5-d4d473afda63"
 ]
 further_exploration = [
   {type="bilbio", id="d22ee68e-2f19-4677-9123-2994cb111c0c"},

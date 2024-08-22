@@ -2,77 +2,70 @@
 title = "Fail Fast, Formulate Feedback!"
 author = "Stijn Dejongh"
 problem = "Invalid input data causing your software to crash midway through its execution is expensive, both in terms of processing power and resolution time."
-description = "Avoid wasting resources by not processing data that is known to be invalid. Provide clear feedback on what is wrong with the input data to allow for quick resolution."
+description = "Validate input data before processing to avoid unnecessary resource consumption and ensure efficient error handling."
+summary="""
+Prevent costly crashes and wasted resources in your software by validating input data upfront. Learn how to implement a 'fail fast' approach with clear feedback mechanisms, ensuring your applications run smoothly even when unexpected errors arise. Explore practical examples and tips for improving data processing efficiency.
+"""
 categories = [
     "software development",
 ]
 tags = [
-    "structure", "efficiency", "validation"
+    "structure", "efficiency", "validation", "data", "error handling"
 ]
 uuid="336b0448-e78b-4428-83a5-d4d473afda63"
 aliases=["336b0448-e78b-4428-83a5-d4d473afda63"]
+outputs = ['html', 'json']
 ammerse = [
-    {name = "agile", delta = "0"},
-    {name = "minimal", delta = "-0.5"},
-    {name = "maintainable", delta = "1"},
-    {name = "environmental", delta = "1"},
-    {name = "reachable", delta = "0"},
-    {name = "solvable", delta = "1"},
-    {name = "extensible", delta = "0"},
+  {name = "agile", delta = "0.1", rationale = "The practice supports agility by catching errors early, but it may introduce some rigidity due to the complexity of validation rules, which can limit quick adaptability."},
+  {name = "minimal", delta = "0.5", rationale = "The technique promotes minimalism by avoiding unnecessary processing, but the initial setup and complexity of validation might introduce some overhead, reducing the minimalistic approach slightly."},
+  {name = "maintainable", delta = "0.5", rationale = "While the practice generally supports maintainability by ensuring errors are caught early, the overhead of maintaining complex validation rules can detract from this, leading to potential long-term maintenance challenges."},
+  {name = "environmental", delta = "0.5", rationale = "The technique improves user experience by reducing the need for repeated submissions, but the necessity of balancing security with user feedback and potential complexity of validation rules slightly limits its broader environmental impact."},
+  {name = "reachable", delta = "0", rationale = "The technique has a minimal impact on goal achievement. While it ensures reliability and prevents errors, the overhead from maintaining complex validation rules can slightly detract from its effectiveness in supporting goal attainment."},
+  {name = "solvable", delta = "1", rationale = "The practice is highly effective in problem-solving, as it catches errors early and provides clear feedback, significantly improving the ability to address and resolve issues quickly."},
+  {name = "extensible", delta = "0.4", rationale = "The practice is moderately extensible, as validation logic can be adapted to different scenarios, but maintaining and updating these rules as the system evolves can present challenges."}
 ]
 pubdate="2024-05-18"
 image="practices/fail_fast_feedback.webp"
+related_concepts = [
+]
+related_practices = [
+  "1848f4a6-3acb-4dc8-aa49-e57a1b87cf3b"
+]
+further_exploration = [
+  {type="biblio", id="8572443d-2c27-462a-b9d7-839dd6e4d58b"},
+  {type="biblio", id="704fb2a3-0207-4f8d-87f9-31b7fa5949c0"},
+  {type="raw", author="Software Design Knights", year="2021", title="Fail Fast (FF)", site="PrinciplesWiki.net", link="http://principles-wiki.net/principles:fail_fast" },
+  {type="raw", author="SD Development", year="2023", title="Java Modular Validators", site="GitHub.com", link="https://github.com/sddevelopment-be/modular-validators" },
+  {type="raw", author="Gorts, S.", year="2023", title="Better Validation Rules with ValidationResults", publisher="Self-published on Public Domain", link="https://www.linkedin.com/posts/svengorts_better-validation-rules-with-validationresults-activity-7139998913746329600-Zv4B" }
+]
 +++
 
 ## Problem Statement
 
-Invalid input data causing your software to crash midway its through execution is expensive, both in terms of processing power and resolution time.
+Invalid input data causing your software to crash midway through its execution is costly in terms of processing power and resolution time.
 
 ## Intent
 
-Avoid wasting resources by not processing data that is known to be invalid.
-Provide clear feedback on what is wrong with the input data to allow for quick resolution.
-
-
-## Contextual forces
-
-### Enablers
-The following factors support effective application of the practice:
-
-* Processing data is one of the core tasks of software applications
-* You have a clear understanding of the expected input data format and structure
-* Your software is designed to handle errors gracefully, allowing for a quick recovery from unexpected issues.
-* Logging and monitoring infrastructure exists, allowing detailed error information to be captured and analysed
-* Your software already has robust input validation mechanisms in place, making it easier to implement comprehensive checks early in the process.
-
-### Deterrents
-The following factors prevent effective application of the practice:
-
-* The validation checks are computationally expensive, and introduce unacceptable latency or resource consumption
-* Lacking experience or expertise in implementing effective error handling and validation mechanisms
-* The input data specifications are unclear or frequently changing
-* Lack of established, or adequate, logging infrastructure
-* Errors are seldom monitored or acted upon
+Avoid wasting resources by not processing data known to be invalid. Provide clear feedback on errors in the input data to facilitate quick
+resolution.
 
 ## Solution
 
-When processing data, validate as much of the input before processing it. In most cases, this means checking whether:
+When processing data, validate as much of the input as possible before processing. This typically involves checking whether:
 
-* the input data is present
-* the input is of the expected format
-* all required fields are present
-* the data is within the expected range
-* the data is logically consistent
-* no duplicates are present
+* The input data is present
+* The input is in the expected format
+* All required fields are present
+* The data is within the expected range
+* The data is logically consistent
+* No duplicates are present
 
-If any of these checks fail, stop the processing and provide feedback on what is wrong with the input data.
-This feedback can be as simple as a message to the user, writing a detailed error report to an internal log file, or sending a notification event 
-to a logging and auditing system.
+If any of these checks fail, halt processing and provide feedback on what is wrong with the input data. Feedback can range from a simple message to
+the user, a detailed error log for internal use, or a notification event sent to a logging and auditing system.
 
 {{<tip text=`
-In cases where confidentiality or security is a concern, avoid providing detailed feedback to the user.   
-Instead, provide a generic error message to the user, but make sure to write a detailed error log for use by the development team. 
-Example: 
+In cases where confidentiality or security is a concern, consider providing a generic error message to the user while recording a detailed error log for internal use.
+Example:
 
      An error occurred while processing your request. 
      We apologize for the inconvenience. Our development team has been notified and will take corrective action. 
@@ -81,7 +74,66 @@ Example:
      please contact our support team and provide the following reference number: 1234567890
 ` >}}
 
+## Contextual forces
 
+### Enablers
+The following factors support effective application of the practice:
+
+* Processing data is a core task of software applications
+* Clear understanding of the expected input data format and structure
+* Software designed to handle errors gracefully, allowing for quick recovery from unexpected issues
+* Established logging and monitoring infrastructure to capture and analyse detailed error information
+* Existing robust input validation mechanisms, making comprehensive checks easier to implement early in the process
+
+### Deterrents
+The following factors prevent effective application of the practice:
+
+* Validation checks are computationally expensive, introducing unacceptable latency or resource consumption
+* Lack of experience or expertise in implementing effective error handling and validation mechanisms
+* Input data specifications are unclear or frequently changing
+* Absence of adequate logging infrastructure
+* Errors are seldom monitored or acted upon
+
+## Application
+
+### Consequences
+While the approach brings numerous benefits in terms of efficiency and reliability, it can also lead to several unexpected or undesired outcomes:
+
+* **Increased User Frustration:** If the validation process is too strict or frequently results in errors, users might become frustrated,
+  especially if they don't understand why their input is being rejected. This can lead to a negative user experience, particularly if the error
+  messages are not clear or helpful.
+* **False Positives:** Overly aggressive validation checks can sometimes reject valid data as erroneous, leading to what are known as false
+  positives. This can prevent legitimate data from being processed and may cause disruptions in workflows or services.
+* **Performance Overhead:** While validation is meant to save resources by preventing the processing of bad data, in some cases, the validation
+  process itself can become a significant performance bottleneck. This is especially true if the checks are complex, require interaction with
+  external systems, or if they are applied to large datasets.
+* **Maintenance Burden:** As the number of validation rules increases, the complexity of maintaining them can grow. This can lead to higher
+  maintenance costs and the risk of introducing bugs during updates or changes to the validation logic.
+* **Security Risks from Detailed Feedback:** Providing detailed error messages as part of the "fail fast" approach can inadvertently expose
+  sensitive information about the system's internals. This can be exploited by malicious users to gain insights into how the system works or to
+  identify potential vulnerabilities.
+* **Dependency on Accurate Specifications:** The effectiveness of the "fail fast" approach relies heavily on having accurate and stable input data
+  specifications. If these specifications are unclear, incomplete, or frequently changing, the validation logic can quickly become outdated, leading
+  to more errors and a less stable system.
+
+### Mitigation strategies
+
+To mitigate the potential negative consequences of the approach:
+
+* **Balance Validation Rigor with Performance:** Ensure that your validation checks are comprehensive but not overly complex. Focus on
+  validating the most critical aspects of the input data that could cause significant failures, while avoiding checks that add unnecessary overhead.
+* **Design User-Friendly Error Messages:** When providing feedback on validation failures, craft messages that are clear, concise, and
+  informative. For end-users, avoid exposing technical details that could confuse them or expose vulnerabilities. Instead, use generic messages that
+  maintain security while offering a path to resolution. Internally, maintain detailed logs that developers can use to diagnose and fix issues.
+* **Implement Progressive Validation:** In scenarios where input data is extensive or complex, consider breaking down the validation process
+  into stages. This allows you to catch and report errors as early as possible without delaying the overall process. For example, validate the
+  presence of required fields first, then move on to format checks, and finally perform more detailed logical consistency checks.
+* **Use Validation Libraries:** Instead of writing custom validation logic from scratch, leverage existing validation libraries or frameworks
+  that have been optimized for performance and security. This not only reduces development time but also ensures that your validation processes are
+  built on well-tested and reliable code.
+* **Regularly Review and Update Validation Rules:** As your application evolves, so will the types of input data it processes. Periodically
+  review and update your validation rules to ensure they remain relevant and effective. This is especially important in dynamic environments where
+  data specifications may change frequently.
 
 ## Examples
 
@@ -239,38 +291,4 @@ You can now contact the supplier and ask for the correct file.
 Failing fast with full feedback allows you to save valuable system resources and troubleshoot the issue quickly.
 In real-world scenarios, you could have hundreds of files to check, and the processing of the data is likely to be computationally expensive.
 ` >}}
-
-## Further Exploration
-
-* {{<reference author="Software Design Knights"
-  year="2021"
-  title="Fail Fast (FF)"
-  site="PrinciplesWiki.net"
-  link="http://principles-wiki.net/principles:fail_fast" >}}
-* {{<reference author="Thomas, D.; Hunt, A."
-  year="2019"
-  title="The Pragmatic Programmer, 20th Anniversary Edition: your journey to mastery"
-  isbn="9780135957059"
-  publisher="Addison-Wesley Professional"
-  link="https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/" >}}
-* {{<reference author="Raymond, E.S."
-    year="2003"
-    title="The Art of Unix Programming"
-    isbn="9780131429017"
-    publisher="Addison-Wesley"
-    link="http://www.catb.org/~esr/writings/taoup/html/ch01s06.html#id2878538" >}}
-* {{<reference author="SD Development"
-  year="2023"
-  title="Java Modular Validators"
-  site="GitHub.com"
-  link="https://github.com/sddevelopment-be/modular-validators" >}}
-* {{<reference author="Gorts, S."
-  year="2023"
-  title="Better Validation Rules with ValidationResults"
-  publisher="Self-published on Public Domain"
-  link="https://www.linkedin.com/posts/svengorts_better-validation-rules-with-validationresults-activity-7139998913746329600-Zv4B" >}}
-
-
----
-
 

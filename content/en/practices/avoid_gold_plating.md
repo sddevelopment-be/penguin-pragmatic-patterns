@@ -59,6 +59,19 @@ Or worse: they build in functionality or capabilities that will never be used.
 * Reduced cyclic complexity
 * Improved readability
 
+## Solution
+
+* write code that is as well-designed as it needs to be at this point in time.
+* make sure the code you write at this point in time adheres to the basic principles of clean code and design
+* when an idea for a more generic solution comes to mind during your implementation, take note of it and revisit it afterwards
+* iteratively enhance the codebase when it makes sense to do so: when tackling a new code challenge, look for reusable components or
+  structural improvements.
+
+In order to avoid over-complicating your code, ask yourself:
+* _"Is this code likely to be changed/expanded in the future?"_
+* _"Is my design solving an issue that is here NOW, or am I solving an issue that might never happen?"_
+* _"If this expected issue occurs in the future, can it be easily fixed at that time?"_
+
 ## Contextual forces
 This practice can be applied in software development projects, particularly in contexts where efficiency, readability, and maintainability are
 critical. It is suited for projects with well-defined short-term goals and limited lifespans, where over-engineering could lead to wasted time and
@@ -81,19 +94,6 @@ The following factors prevent effective application of the practice:
 * **High-Complexity Systems:** In systems where thinking ahead can prevent larger issues down the line.
 * **Unclear Requirements:** When the requirements (or the problem to solve) are vaguely described or likely to change significantly in the short 
   term.
-
-## Solution
-
-* write code that is as well-designed as it needs to be at this point in time.
-* make sure the code you write at this point in time adheres to the basic principles of clean code and design
-* when an idea for a more generic solution comes to mind during your implementation, take note of it and revisit it afterwards
-* iteratively enhance the codebase when it makes sense to do so: when tackling a new code challenge, look for reusable components or
-  structural improvements.
-
-In order to avoid over-complicating your code, ask yourself:
-* _"Is this code likely to be changed/expanded in the future?"_
-* _"Is my design solving an issue that is here NOW, or am I solving an issue that might never happen?"_
-* _"If this expected issue occurs in the future, can it be easily fixed at that time?"_
 
 ## Rationale
 

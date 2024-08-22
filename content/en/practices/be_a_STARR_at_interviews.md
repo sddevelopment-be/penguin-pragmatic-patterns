@@ -53,6 +53,25 @@ Assess a candidate's skills and experience by asking situational and behavioural
 experience and how the candidate handled specific situations. By asking open-ended questions, and cueing the 
 interviewee to provide specific examples, you can gain a better understanding of their capabilities and how they might fit into your team. 
 
+## Solution
+
+The STARR (Situation-Task-Action-Results-Reflection) method is a structured approach to interviewing that helps you gather all the
+necessary information about a candidate.
+
+{{< image src="/images/practices/starr_diagram.png"  alt="Overview of the STAR-R acronym." caption="STAR-R: situational and behavioural interview questions" >}}
+
+* **Situation:** The context in which the interviewee found themselves. What was going on? What was the interviewee's role and responsibility?
+* **Task:** What was the goal or objective? What was the interviewee trying to achieve?
+* **Action:** What did the interviewee do? What steps did they take to achieve the goal?
+* **Results:** What was the outcome? How did the situation unfold? What did the interviewee accomplish?
+* **Reflection:** What did the interviewee learn from the experience? How did they grow or change as a result?
+
+This structure helps you to ask open-ended questions that require the interviewee to provide specific examples.
+This way, you can gain a better understanding of their capabilities and how they might fit into your team. Be sure to ask follow-up questions to
+the interviewee's responses to get a deeper understanding of their thought process and decision-making skills.  
+The purpose is to make the interview as conversational as possible, putting the interviewee at ease and allowing them to provide more candid (and
+truthful) responses.
+
 ## Contextual forces
 These describe factors at play that influence the outcome of the practice. They are not necessarily good or bad, but they are important to be aware of.
 
@@ -78,40 +97,21 @@ The following factors prevent effective application of the practice:
 * **Resistance to Change**: There is resistance within the organization to adopt new interview methodologies, hindering the implementation of the STARR technique.
 * **Candidate Stress:** When candidates feel pressured to provide the "right" answers, leading to less representative responses.
 
-## Solution
+## Application
 
-The STARR (Situation-Task-Action-Results-Reflection) method is a structured approach to interviewing that helps you gather all the 
-necessary information about a candidate.
+### Practical Pointers
 
-{{< image src="/images/practices/starr_diagram.png"  alt="Overview of the STAR-R acronym." caption="STAR-R: situational and behavioural interview questions" >}}
-
-* **Situation:** The context in which the interviewee found themselves. What was going on? What was the interviewee's role and responsibility? 
-* **Task:** What was the goal or objective? What was the interviewee trying to achieve? 
-* **Action:** What did the interviewee do? What steps did they take to achieve the goal?
-* **Results:** What was the outcome? How did the situation unfold? What did the interviewee accomplish?
-* **Reflection:** What did the interviewee learn from the experience? How did they grow or change as a result?
-
-This structure helps you to ask open-ended questions that require the interviewee to provide specific examples. 
-This way, you can gain a better understanding of their capabilities and how they might fit into your team. Be sure to ask follow-up questions to 
-the interviewee's responses to get a deeper understanding of their thought process and decision-making skills.  
-The purpose is to make the interview as conversational as possible, putting the interviewee at ease and allowing them to provide more candid (and 
-truthful) responses.
-
-### Notes
-
-* A candidate that answers the "Task" part of the question with a self-imposed goal rather than a direct order from their superior is likely 
+* A candidate that answers the "Task" part of the question with a self-imposed goal rather than a direct order from their superior is likely
   showing initiative and intrinsic motivation.
-* A candidate that mostly answers the questions in the interview with _"We"_ instead of _"I"_ might be trying to take credit for the work of a 
+* A candidate that mostly answers the questions in the interview with _"We"_ instead of _"I"_ might be trying to take credit for the work of a
   team, to which they contributed little.
-* The answers to the "Results" part of the interview indicate whether the candidate is able to list both desired and undesired outcomes. 
+* The answers to the "Results" part of the interview indicate whether the candidate is able to list both desired and undesired outcomes.
   This can give you an idea of how they handle failure and success, and whether they are forthcoming about potential problems.
-* While optional, the "Reflection" step is crucial for understanding how the candidate learns from their experiences. This can give you an idea of 
-  how they approach iterative personal growth and development. These reflection-based questions are not useful in all contexts, but can be very 
+* While optional, the "Reflection" step is crucial for understanding how the candidate learns from their experiences. This can give you an idea of
+  how they approach iterative personal growth and development. These reflection-based questions are not useful in all contexts, but can be very
   revealing.
 * When asking about results, pay attention to the candidate's ability to quantify their achievements. This can give you a better understanding of
   how they think about their impact on the project or team.
-
-## Application
 
 ### Consequences
 

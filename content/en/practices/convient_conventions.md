@@ -57,6 +57,21 @@ Developers struggle to maintain code consistency, negatively affecting code main
 
 We wish to maintain a higher level of code discipline, increasing the reliability of the code.
 
+## Solution
+
+Define a consistent coding style for your team, document it, use it, and enforce it.
+If possible, add automation to your build process to point out any irregularities.
+<br /><br />
+Even if code is not fully up to spec, it is better to be consistent with the rest of the surrounding code than to introduce yet another style to
+an existing project. If you are going to change conventions midway through the life-cycle of a codebase, be sure to change all of it.
+Do not let inconsistent styles creep into your repositories.  
+
+{{<info text=`
+Being consistent within a codebase does not mean your need to apply the same style to all repositories within your project.
+It can be a viable option to apply a certain style within one repository, and a different one in another.
+As long as the code is consistent with it's surrounding, you will get the benefit of pattern recognition.
+` >}}
+
 ## Contextual forces
 
 Well-suited for teams working on projects where code maintainability and readability are paramount, such as large-scale enterprise applications
@@ -80,22 +95,6 @@ The following factors prevent effective application of the practice:
   style.
 * **Lack of Tooling:** Manually reviewing code for consistency is tedious and often avoided.
 * **Bless this Mess:** The development culture is heavily influenced by the normalization of deviance, where exceptions become the norm.
-
-## Solution
-
-Define a consistent coding style for your team, document it, use it, and enforce it.
-If possible, add automation to your build process to point out any irregularities.
-<br /><br />
-Even if code is not fully up to spec, it is better to be consistent with the rest of the surrounding code than to introduce yet another style to 
-an existing project. If you are going to change conventions midway through the life-cycle of a codebase, be sure to change all of it.
-Do not let inconsistent styles creep into your repositories.
-<br />
-
-{{<info text=`
-Being consistent within a codebase does not mean your need to apply the same style to all repositories within your project.
-It can be a viable option to apply a certain style within one repository, and a different one in another.
-As long as the code is consistent with it's surrounding, you will get the benefit of pattern recognition.
-` >}}
 
 ## Rationale
 

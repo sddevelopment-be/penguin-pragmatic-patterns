@@ -55,37 +55,17 @@ You often struggle with deciding what to do next, feeling uncertain about which 
 
 Employ a mental framework to evaluate your options systematically, aiding in making informed decisions that align with your goals and needs.
 
-## Contextual forces
-
-### Enablers
-The following factors support effective application of the practice:
-
-* Understanding of personal goals and ambitions.
-* Awareness of individual needs and willingness to confront them.
-* Dedication to daily reflection and self-assessment.
-* Preference for visual aids in understanding complex situations.
-* Desire to take control of life and make decisions autonomously.
-
-### Deterrents
-The following factors prevent effective application of the practice:
-
-* Lack of clarity regarding personal goals and ambitions.
-* Tendency to rely on external influences for decision-making.
-* Disconnect from personal needs and avoidance of self-confrontation.
-* Difficulty in self-management and lack of discipline.
-* Perception of current circumstances as satisfactory, neglecting the need for decision-making refinement.
-
 ## Solution
 
 ### Outline
 
-When considering what to do next, use the STEAM framework to evaluate the possible options. 
+When considering what to do next, use the STEAM framework to evaluate the possible options.
 The model applies an economical perspective to the resources you have available, and how you can use them to your advantage.
-While this way of evaluating trade-offs is not a silver bullet, it can help you to make an informed decision that suits your needs. 
+While this way of evaluating trade-offs is not a silver bullet, it can help you to make an informed decision that suits your needs.
 
 The STEAM framework is a mnemonic shortcut to remember your most important assets. It stands for:
 
-* **Support**: Your social capital. The help of others, whom you can call upon to assist you in your endeavours or to provide you with advice. 
+* **Support**: Your social capital. The help of others, whom you can call upon to assist you in your endeavours or to provide you with advice.
   This can be in the form of a mentor, a coach, a friend, or a colleague.
 * **Time**: The amount of time you have available to invest in activities. The baseline is similar for everyone, as we all have 24 hours in a
   day. How we spend this time, is what makes the difference.
@@ -100,7 +80,7 @@ The STEAM framework is a mnemonic shortcut to remember your most important asset
 alt="Overview of the different elements of the STEAM mnemonic model."  
 caption="The different resources that allow you to plow full STEAM ahead." >}}
 
-### Usage
+### Steps to Implement
 
 Summarized, the STEAM framework can be used as follows:
 
@@ -112,8 +92,8 @@ Summarized, the STEAM framework can be used as follows:
 6. Take action confidently and reflect on outcomes for continuous improvement.
 
 When you are faced with a decision, consider what your current assets are in each of the STEAM categories.
-This will give you a better understanding of what you can leverage to make to most of the situation, 
-as will it inform you which resources are currently lacking. (ex. _if you have plenty of time, but lack energy, maybe it is time for an 
+This will give you a better understanding of what you can leverage to make to most of the situation,
+as will it inform you which resources are currently lacking. (ex. _if you have plenty of time, but lack energy, maybe it is time for an
 energizing hobby_). When considering these trade-offs, remember that the goal is not to maximize all categories, but to find a balance that suits your needs.
 
 {{<tip text=`
@@ -134,6 +114,26 @@ Once you have made your decision, take charge and act upon it. Do not let the fe
 best effort. Avoid wasting your energy on second-guessing yourself, but use it to make the most of the situation.
 Schedule a moment to revisit your decision at a later time, and reflect on the outcomes. This will help you to learn from your choices, and help
 you improve your self-awareness and decision-making skills.
+
+## Contextual forces
+
+### Enablers
+The following factors support effective application of the practice:
+
+* Understanding of personal goals and ambitions.
+* Awareness of individual needs and willingness to confront them.
+* Dedication to daily reflection and self-assessment.
+* Preference for visual aids in understanding complex situations.
+* Desire to take control of life and make decisions autonomously.
+
+### Deterrents
+The following factors prevent effective application of the practice:
+
+* Lack of clarity regarding personal goals and ambitions.
+* Tendency to rely on external influences for decision-making.
+* Disconnect from personal needs and avoidance of self-confrontation.
+* Difficulty in self-management and lack of discipline.
+* Perception of current circumstances as satisfactory, neglecting the need for decision-making refinement.
 
 ## Application
 

@@ -58,25 +58,6 @@ You find yourself constantly busy, yet achieving little of value.
 * You know which tasks you should pick up first.
 * You have peace of mind as tasks you need to do are not forgotten.
 
-## Contextual forces
-These describe factors at play that influence the outcome of the practice. They are not necessarily good or bad, but they are important to be aware of.
-
-### Enablers
-The following factors support effective application of the practice:
-
-* You can decide and manage your tasks.
-* You are aware of your personal goals and ambitions.
-* You always have a notebook (digital or analogue) close by.
-* You can communicate your intent to people effectively.
-
-### Deterrents
-The following factors prevent effective application of the practice:
-
-* You do not know what your goals and ambitions are.
-* You find it hard to rank tasks according to their importance.
-* You are unable to consistently apply a prioritization technique.
-* Others frequently dictate the individual's tasks and priorities (micromanagement).
-
 ## Solution
 
 Ensure your tasks have a clear order by assigning properties to them, allowing you to prioritize effectively. The Eisenhower Priority Matrix, a well-known technique, can be a great starting point. This allows you to work down your list starting with the task with the highest priority and working your way down.
@@ -94,8 +75,8 @@ Organize your action items according to:
 This leaves you with a nice 2-by-2 grid in which to place your actionable items[^3].
 
 {{< image
-  src="/images/practices/eis_matrix.png"
-  alt="A 2-by-2 priority matrix, commonly known as the Eisenhouwer matrix." >}}
+src="/images/practices/eis_matrix.png"
+alt="A 2-by-2 priority matrix, commonly known as the Eisenhouwer matrix." >}}
 
 Each grid section corresponds to a specific way to handle the action items contained within:
 
@@ -114,6 +95,24 @@ Each grid section corresponds to a specific way to handle the action items conta
 When adding tasks to your matrix, remember **not to adopt someone else's urgency as your own**. Not every task is yours to resolve; use your judgment to prioritize based on your goals and commitments. While certain requests might be important and urgent to someone else, they might not be to you. As an example: consider an acquaintance that calls you on a Friday evening, trying to convince you to fix their computer.
 Is this urgent? To them, probably. To you? Probably not. If you did not make any other plans, you can consider helping them. If you have other things to do, this would be categorized as "urgent, not-important."
 
+## Contextual forces
+These describe factors at play that influence the outcome of the practice. They are not necessarily good or bad, but they are important to be aware of.
+
+### Enablers
+The following factors support effective application of the practice:
+
+* You can decide and manage your tasks.
+* You are aware of your personal goals and ambitions.
+* You always have a notebook (digital or analogue) close by.
+* You can communicate your intent to people effectively.
+
+### Deterrents
+The following factors prevent effective application of the practice:
+
+* You do not know what your goals and ambitions are.
+* You find it hard to rank tasks according to their importance.
+* You are unable to consistently apply a prioritization technique.
+* Others frequently dictate the individual's tasks and priorities (micromanagement).
 
 ## Rationale
 

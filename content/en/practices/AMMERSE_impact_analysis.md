@@ -50,6 +50,76 @@ You want to ensure balanced and well-informed decision-making that aligns with d
 * Make informed choices that align with your strategic goals.
 * Introduce quantitative reasoning to indicate the impact of decisions on key values.
 
+## Solution
+
+The AMMERSE Impact Analysis involves several steps:
+
+1. **Define the Practice, Technique, or Decision:** Clearly define what is being evaluated, along with its context and how it relates to the
+   AMMERSE values.
+2. **Calculate Impacts:** Assign interaction weights (from -1 to 1) for both first-order (direct) and second-order (indirect) impacts. Perform a
+   subjective assessment for each value, providing a rationale for the impact value. Evaluate the positive and negative aspects separately,
+   then combine them into a single impact value.
+3. **Aggregate and Summarize:** Aggregate the impacts, and summarize the findings. Focusing on any
+   negative, or unexpected, interactions. Provide recommendations based on the comprehensive analysis.
+
+The AMMERSE Impact Analysis is a comprehensive framework assessing the impact of practices, techniques, and decisions on seven AMMERSE values. By
+examining both direct and indirect effects, this algorithm provides a detailed picture of how changes can influence a system, helping stakeholders
+make informed decisions. This approach is based on [the AMMERSE framework for decision-making](https://www.ammerse.org/toolbox/decision-making/).
+
+### Key component: AMMERSE VALUES
+
+The AMMERSE decision-making framework defines seven core values that guide decision-making processes:
+
+* **Agile (A):** The ability to adapt quickly to changes, incorporate feedback, and maintain flexibility in processes and decision-making.
+* **Minimal (Mi):** The focus on simplicity and avoiding unnecessary complexity in processes and systems.
+* **Maintainable (Ma):** The ease of keeping processes and systems in working condition over time.
+* **Environmental (E):** Considering the broader context, including cultural fit, impact on nature and society, standards, and ethical
+  considerations.
+* **Reachable (R):** Setting practical goals and ensuring they are achievable within the given constraints.
+* **Solvable (S):** The ability to effectively solve problems and address challenges that arise.
+* **Extensible (Ex):** The capacity to extend or scale processes and systems to meet future needs.
+
+### Step-by-step: performing the AMMERSE Impact Analysis
+
+1. **Define the Practice, Technique, or Decision**
+    * **Description:** Clearly define the practice, technique, or decision being evaluated.
+    * **Identify Context:** Identify the system in which this practice or decision will be applied (organization, software project, personal life,
+      etc.).
+
+2. **Define Base Impacts:** Assign subjective value to represent base impact of the practice on each AMMERSE value
+    * Interaction weights range from -1 to 1, indicating significantly negative (-1), neutral (0), or significantly positive (1) impacts.
+    * **Definition:** Provide a clear definition of the AMMERSE value being evaluated.
+    * **Subjective Assessment:** For each AMMERSE value, evaluate the impact of applying the pattern in an existing context and whether it would increase or decrease the contextual support of the AMMERSE value.
+        * **Split Evaluation:** Evaluate the positive and negative aspects of the practice separately.
+        * **Combined Impact:** Combine the positive and negative impacts into a single impact value.
+    * **Describe Rationale:** Explain the reasoning behind the impact value assigned to each AMMERSE value.
+
+3. **Apply First-Order and Second order Interaction Impacts**
+    * **Feedback Loop impact:** define how much you want to take the feedback loops into account for the final result.
+      A suggested approach is: `base value` + `0.5 first-order impact` + `0.25 second-order impact`.
+    * **Use heuristic Calculation**: Use predefined heuristic calculations to determine the first- and second-order impacts.
+        * **Agile Value:** `A` `+` `0.5 * ((-0.5 * Mi) + (0.25 * Ma) + (0 * E) + (-0.75 * R) + (0.5 * S) + (0.5 * Ex) / 6)` `+` `0.25 * (
+          (-0.69 * Mi) + (0.25 * Ma) + (0.05 * E) + (-1 * R) + (0.82 * S) + (0.56 * Ex) / 6)`
+        * **Minimal Value:** `Mi` `+` `0.5 * ((-0.5 * A) + (0.75 * Ma) + (0.5 * E) + (0.75 * R) + (0.75 * S) + (-0.75 * Ex) / 6)` `+` `0.
+          25 * ((-0.69 * A) + (0.25 * Ma) + (0.05 * E) + (-1 * R) + (0.82 * S) + (0.56 * Ex) / 6)`
+        * **Maintainable Value:** `Ma` `+` `0.5 * ((0.6 * A) + (-0.5 * Mi) + (0.4 * E) + (0.7 * R) + (0.5 * S) + (-0.4 * Ex) / 6)` `+` `0.
+          25 * ((0.25 * A) + (-0.5 * Mi) + (0.05 * E) + (-1 * R) + (0.82 * S) + (0.56 * Ex) / 6)`
+        * **Environmental Value:** `E` `+` `0.5 * ((0 * A) + (0.5 * Mi) + (0.4 * Ma) + (0 * R) + (0.5 * S) + (0 * Ex) / 6)` `+` `0.25 * (
+          (0.05 * A) + (0.56 * Mi) + (0.33 * Ma) + (0 * R) + (0.33 * S) + (0.15 * Ex) / 6)`
+        * **Reachable Value:** `R` `+` `0.5 * ((0.7 * A) + (0.35 * Mi) + (0.35 * Ma) + (0 * E) + (0 * S) + (-0.95 * Ex) / 6)` `+` `0.25 * (
+          (-1 * A) + (0.82 * Mi) + (0.64 * Ma) + (0.33 * E) + (1 * S) + (-0.95 * Ex) / 6)`
+        * **Solvable Value:** `S` `+` `0.5 * ((0.5 * A) + (0.35 * Mi) + (0.35 * Ma) + (0.5 * E) + (0.75 * R) + (0.64 * Ex) / 6)` `+` `0.25
+          ((0.82 * A) + (1 * Mi) + (0.82 * Ma) + (0.38 * E) + (1 * R) + (0.64 * Ex) / 6)`
+        * **Extensible Value:** `Ex` `+` `0.5 * ((0.56 * A) + (-0.75 * Mi) + (0.56 * Ma) + (0.15 * E) + (-0.95 * R) + 0 * S / 6)` `+` `0.
+          25 * ((0.56 * A) + (-0.95 * Mi) + (0.56 * Ma) + (0.15 * E) + (-0.95 * R) + 0 * S / 6)`
+
+4. **Summarize Findings**
+    * **Rationale:** For each AMMERSE value, provide a rationale for the impact assessment.
+    * **Impact Summary:** Summarize the findings from both first- and second-order analyses.
+    * **Consideration:** Reflect on the implications of the practice or decision based on the analysis, focussing on the negative (or unexpected)
+      interactions.
+    * **Recommendations:** Provide recommendations for mitigation or additional thought based on the comprehensive analysis.
+
 ## Contextual forces
 
 ### Enablers
@@ -69,76 +139,6 @@ The following factors prevent effective application of the practice:
 * **Risk Aversion:** Resistance to change from stakeholders.
 * **Unknown Situations:** Limited knowledge of the context in which the evaluated decision is taken. Lack of even the most basic conceptual
   model of the system in which the decision will have an impact.
-
-## Solution
-
-The AMMERSE Impact Analysis involves several steps:
-
-1. **Define the Practice, Technique, or Decision:** Clearly define what is being evaluated, along with its context and how it relates to the 
-   AMMERSE values.
-2. **Calculate Impacts:** Assign interaction weights (from -1 to 1) for both first-order (direct) and second-order (indirect) impacts. Perform a 
-   subjective assessment for each value, providing a rationale for the impact value. Evaluate the positive and negative aspects separately, 
-   then combine them into a single impact value.
-3. **Aggregate and Summarize:** Aggregate the impacts, and summarize the findings. Focusing on any 
-   negative, or unexpected, interactions. Provide recommendations based on the comprehensive analysis.
-
-The AMMERSE Impact Analysis is a comprehensive framework assessing the impact of practices, techniques, and decisions on seven AMMERSE values. By
-examining both direct and indirect effects, this algorithm provides a detailed picture of how changes can influence a system, helping stakeholders
-make informed decisions. This approach is based on [the AMMERSE framework for decision-making](https://www.ammerse.org/toolbox/decision-making/).
-
-### Key component: AMMERSE VALUES
-
-The AMMERSE decision-making framework defines seven core values that guide decision-making processes:
-
-* **Agile (A):** The ability to adapt quickly to changes, incorporate feedback, and maintain flexibility in processes and decision-making.
-* **Minimal (Mi):** The focus on simplicity and avoiding unnecessary complexity in processes and systems.
-* **Maintainable (Ma):** The ease of keeping processes and systems in working condition over time.
-* **Environmental (E):** Considering the broader context, including cultural fit, impact on nature and society, standards, and ethical 
-  considerations.
-* **Reachable (R):** Setting practical goals and ensuring they are achievable within the given constraints.
-* **Solvable (S):** The ability to effectively solve problems and address challenges that arise.
-* **Extensible (Ex):** The capacity to extend or scale processes and systems to meet future needs.
-
-### Step-by-step: performing the AMMERSE Impact Analysis
-
-1. **Define the Practice, Technique, or Decision**
-   * **Description:** Clearly define the practice, technique, or decision being evaluated.
-   * **Identify Context:** Identify the system in which this practice or decision will be applied (organization, software project, personal life, 
-     etc.).
-
-2. **Define Base Impacts:** Assign subjective value to represent base impact of the practice on each AMMERSE value
-   * Interaction weights range from -1 to 1, indicating significantly negative (-1), neutral (0), or significantly positive (1) impacts.
-   * **Definition:** Provide a clear definition of the AMMERSE value being evaluated.
-   * **Subjective Assessment:** For each AMMERSE value, evaluate the impact of applying the pattern in an existing context and whether it would increase or decrease the contextual support of the AMMERSE value.
-     * **Split Evaluation:** Evaluate the positive and negative aspects of the practice separately.
-     * **Combined Impact:** Combine the positive and negative impacts into a single impact value.
-   * **Describe Rationale:** Explain the reasoning behind the impact value assigned to each AMMERSE value.
-      
-3. **Apply First-Order and Second order Interaction Impacts**
-    * **Feedback Loop impact:** define how much you want to take the feedback loops into account for the final result.
-     A suggested approach is: `base value` + `0.5 first-order impact` + `0.25 second-order impact`.
-    * **Use heuristic Calculation**: Use predefined heuristic calculations to determine the first- and second-order impacts.
-        * **Agile Value:** `A` `+` `0.5 * ((-0.5 * Mi) + (0.25 * Ma) + (0 * E) + (-0.75 * R) + (0.5 * S) + (0.5 * Ex) / 6)` `+` `0.25 * (
-          (-0.69 * Mi) + (0.25 * Ma) + (0.05 * E) + (-1 * R) + (0.82 * S) + (0.56 * Ex) / 6)`
-        * **Minimal Value:** `Mi` `+` `0.5 * ((-0.5 * A) + (0.75 * Ma) + (0.5 * E) + (0.75 * R) + (0.75 * S) + (-0.75 * Ex) / 6)` `+` `0.
-          25 * ((-0.69 * A) + (0.25 * Ma) + (0.05 * E) + (-1 * R) + (0.82 * S) + (0.56 * Ex) / 6)`
-        * **Maintainable Value:** `Ma` `+` `0.5 * ((0.6 * A) + (-0.5 * Mi) + (0.4 * E) + (0.7 * R) + (0.5 * S) + (-0.4 * Ex) / 6)` `+` `0.
-          25 * ((0.25 * A) + (-0.5 * Mi) + (0.05 * E) + (-1 * R) + (0.82 * S) + (0.56 * Ex) / 6)`
-        * **Environmental Value:** `E` `+` `0.5 * ((0 * A) + (0.5 * Mi) + (0.4 * Ma) + (0 * R) + (0.5 * S) + (0 * Ex) / 6)` `+` `0.25 * (
-          (0.05 * A) + (0.56 * Mi) + (0.33 * Ma) + (0 * R) + (0.33 * S) + (0.15 * Ex) / 6)`
-        * **Reachable Value:** `R` `+` `0.5 * ((0.7 * A) + (0.35 * Mi) + (0.35 * Ma) + (0 * E) + (0 * S) + (-0.95 * Ex) / 6)` `+` `0.25 * (
-          (-1 * A) + (0.82 * Mi) + (0.64 * Ma) + (0.33 * E) + (1 * S) + (-0.95 * Ex) / 6)`
-        * **Solvable Value:** `S` `+` `0.5 * ((0.5 * A) + (0.35 * Mi) + (0.35 * Ma) + (0.5 * E) + (0.75 * R) + (0.64 * Ex) / 6)` `+` `0.25
-          ((0.82 * A) + (1 * Mi) + (0.82 * Ma) + (0.38 * E) + (1 * R) + (0.64 * Ex) / 6)`
-        * **Extensible Value:** `Ex` `+` `0.5 * ((0.56 * A) + (-0.75 * Mi) + (0.56 * Ma) + (0.15 * E) + (-0.95 * R) + 0 * S / 6)` `+` `0.
-          25 * ((0.56 * A) + (-0.95 * Mi) + (0.56 * Ma) + (0.15 * E) + (-0.95 * R) + 0 * S / 6)`
-   
-4. **Summarize Findings**
-   * **Rationale:** For each AMMERSE value, provide a rationale for the impact assessment.
-   * **Impact Summary:** Summarize the findings from both first- and second-order analyses.
-   * **Consideration:** Reflect on the implications of the practice or decision based on the analysis, focussing on the negative (or unexpected) 
-     interactions.
-   * **Recommendations:** Provide recommendations for mitigation or additional thought based on the comprehensive analysis.
 
 ## Rationale
 

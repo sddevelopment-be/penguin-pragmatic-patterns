@@ -52,6 +52,33 @@ People tend to wait for responses before stating what they want, causing unneede
 * Do not waste time waiting for back-and-forth acknowledgements
 * Allow people to retain their focus on their most important tasks
 
+## Solution
+
+The practice involves structuring messages in a semi-asynchronous communication environment to include all necessary context and details upfront.
+This approach aims to minimize unnecessary back-and-forth interactions, enabling recipients to prioritize and respond efficiently.
+
+### Key attention points
+
+Write your messages with enough context for the recipient to prioritize them, keeping in mind they will be read and acted upon
+when it best suits your conversational partner.
+
+* Write multiple sentences in the same chat message
+* In general, follow the structure:  
+  "Hello X. Could you \[request\], by \[timeframe\]. I need this in order to \[describe intent\]. I am currently \[describe context\]. "
+* When asking for help, be sure to outline:
+  * What you want your conversational partner to do
+  * How urgent the request is
+  * What you are trying to do
+  * What you have tried
+  * What is preventing you from continuing
+* When giving an update, be sure to include:
+  * Why it is relevant for the recipient
+  * What has happened, what still needs to happen
+  * How much time is still needed to finalize the task
+  * Whether this still matches the projected timings
+
+In general: **Optimise for quick reading and processing, not for quick sending.**
+
 ## Contextual forces
 
 The context is semi-asynchronous communication environments, such as messaging applications used by remote or distributed teams, where maintaining
@@ -75,33 +102,6 @@ The following factors prevent effective application of the practice:
 * **Inexperience with Messaging Tools:** Teams unfamiliar with chat-like messaging applications may struggle to adopt this practice.
 * **Expectation of Immediate Responses:** If the team or organization expects quick replies to messages,
   this pattern may cause frustration, as it relies on the idea that messages will be read and acted upon when convenient.
-
-## Solution
-
-The practice involves structuring messages in a semi-asynchronous communication environment to include all necessary context and details upfront.
-This approach aims to minimize unnecessary back-and-forth interactions, enabling recipients to prioritize and respond efficiently.
-
-### Key attention points
-
-Write your messages with enough context for the recipient to prioritize them, keeping in mind they will be read and acted upon
-when it best suits your conversational partner.
-
-* Write multiple sentences in the same chat message
-* In general, follow the structure:  
-  "Hello X. Could you \[request\], by \[timeframe\]. I need this in order to \[describe intent\]. I am currently \[describe context\]. "
-* When asking for help, be sure to outline:
-    * What you want your conversational partner to do
-    * How urgent the request is
-    * What you are trying to do
-    * What you have tried
-    * What is preventing you from continuing
-* When giving an update, be sure to include:
-    * Why it is relevant for the recipient
-    * What has happened, what still needs to happen
-    * How much time is still needed to finalize the task
-    * Whether this still matches the projected timings
-
-In general: **Optimise for quick reading and processing, not for quick sending.** 
 
 ## Application
 

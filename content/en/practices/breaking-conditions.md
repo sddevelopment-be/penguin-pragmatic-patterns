@@ -56,6 +56,22 @@ You tend to push too hard trying to reach a goal, or invest more than you can su
 * Get a clear understanding of what is expected of you.
 * Do not lose more than you are willing to lose in the pursuit of a goal.
 
+## Solution
+
+* Before starting a task clearly define what `positive evolution`/`success` means, also clearly define `negative impact`/`warning signals`.
+* Set a hard limit on what you are willing to sacrifice in order to try and reach your goal.
+  * make these as concrete as possible, similar to using SMART goals.
+  * Focus on specifying your limits in various areas: financial, physical, mental, moral, time-bound, ...
+* STOP IMMEDIATELY if you cross this threshold.
+* When you are working on a commitment you made to someone else, be upfront about how far you are willing to go to achieve it.
+  * People might still be disappointed you back out, but since you acted with honesty and integrity, no blame should be attributed to you.
+
+Rather than only focussing on tracking progress, it is wise to also keep tabs on the cost it is inducing into your life or organization.
+This is important if you want to evaluate the ROI of an approach. If you notice you are sacrificing too much of what is dear to you: stop striving to reach that particular goal.
+To better cope with the disappointment of "needing to give up", it helps to see most endeavours as experiments rather than "do-or-die" type of deals.
+
+In the end, reaching your goals at all costs is usually not really worth it.
+
 ## Contextual forces
 
 ### Enablers
@@ -78,22 +94,6 @@ The following factors prevent effective application of the practice:
 * **Unpredictable Situations:** In highly unpredictable situations where flexibility is crucial, and setting stopping conditions upfront is 
   challenging.
 * **Inflexibility:** When rigid stopping criteria hinder adaptability and responsiveness to changing circumstances.
-
-## Solution
-
-* Before starting a task clearly define what `positive evolution`/`success` means, also clearly define `negative impact`/`warning signals`.
-* Set a hard limit on what you are willing to sacrifice in order to try and reach your goal.
-    * make these as concrete as possible, similar to using SMART goals.
-    * Focus on specifying your limits in various areas: financial, physical, mental, moral, time-bound, ...
-* STOP IMMEDIATELY if you cross this threshold.
-* When you are working on a commitment you made to someone else, be upfront about how far you are willing to go to achieve it.
-    * People might still be disappointed you back out, but since you acted with honesty and integrity, no blame should be attributed to you.
-
-Rather than only focussing on tracking progress, it is wise to also keep tabs on the cost it is inducing into your life or organization.
-This is important if you want to evaluate the ROI of an approach. If you notice you are sacrificing too much of what is dear to you: stop striving to reach that particular goal.
-In order to better cope with the disappointment of "needing to give up", it helps to see most endeavours as experiments rather than "do-or-die" type of deals.
-
-In the end, reaching your goals at all costs is usually not really worth it.
 
 ## Rationale
 

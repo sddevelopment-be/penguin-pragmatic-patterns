@@ -1,6 +1,7 @@
 [[book]]
 id = "8572443d-2c27-462a-b9d7-839dd6e4d58b"
 title = "The Pragmatic Programmer, 20th Anniversary Edition: your journey to mastery"
+minimized_title = "Pragmatic Programmer, 20th Anniversary Edition: your journey to mastery"
 isbn = "978-0135957059"
 authors = "Thomas, D.; Hunt, A."
 publisher = "Addison-Wesley Professional"
@@ -24,6 +25,7 @@ tags = ["mindset", "organizing", "corporate", "readability"]
 [[book]]
 id = "d22ee68e-2f19-4677-9123-2994cb111c0c"
 title = "Apprenticeship Patterns"
+minimized_title = "Apprenticeship Patterns"
 isbn = "978-0596518387"
 authors = "Hoover, D.; Oshineye, A."
 publisher = "O'Reilly Media, Inc."
@@ -43,6 +45,7 @@ tags = ["team dynamics", "directed learning"]
 [[book]]
 id = "0f2f6abd-b13c-4a35-b2f1-e9d29f1c784f"
 title = "New Programmer's Survival Manual: Navigate Your Workplace, Cube Farm, or Startup"
+minimized_title = "New Programmer's Survival Manual: Navigate Your Workplace, Cube Farm, or Startup"
 authors = "Carter, J."
 isbn = "978-1934356814"
 publisher = "The Pragmatic Bookshelf"
@@ -62,6 +65,7 @@ tags = ["career", "corporate"]
 [[book]]
 id = "a688ad2e-beb4-4b84-ad38-e64f523a33d8"
 title = "The 7 Habits of Highly Effective People: Powerful Lessons in Personal Change"
+minimized_title = "7 Habits of Highly Effective People: Powerful Lessons in Personal Change"
 isbn = "0743269519"
 authors = "Covey, S. R.; Collins, J."
 publisher = "Free Press"
@@ -82,6 +86,7 @@ tags = ["productivity", "goals", "prioritization", "time management", "organizin
 [[book]]
 id = "8e75b108-2be2-463a-9b05-7a386943a31a"
 title = "Practices of an Agile Developer"
+minimized_title = "Practices of an Agile Developer"
 isbn = "978-0974514086"
 authors = "Subramaniam, V.; Hunt, A."
 publisher = "Pragmatic Bookshelf"
@@ -103,6 +108,7 @@ tags = ["productivity", "corporate"]
 [[book]]
 id = "d129136d-d984-4505-8049-d20971a840af"
 title = "Ego Is the Enemy"
+minimized_title = "Ego Is the Enemy"
 isbn = "978-1591847816"
 authors = "Holiday, R."
 publisher = "Portfolio"
@@ -126,6 +132,7 @@ tags = ["mindset", "philosophy", "reflection"]
 [[book]]
 id = "77fd967c-fe5b-4095-a36b-7e6d0ecbb33e"
 title = "Getting Things Done: The Art of Stress-Free Productivity"
+minimized_title = "Getting Things Done: The Art of Stress-Free Productivity"
 isbn = "0143126563"
 authors = "Allen, D."
 publisher = "Penguin Books"
@@ -143,6 +150,7 @@ tags = ["productivity", "prioritization", "goals", "organizing"]
 [[book]]
 id = "d33fc09e-39c6-411e-a70e-2ca98375abd6"
 title = "Pragmatic Thinking and Learning: Refactor Your wetware"
+minimized_title = "Pragmatic Thinking and Learning: Refactor Your wetware"
 isbn = "978-1934356050"
 authors = "Hunt, A."
 publisher = "The Pragmatic Bookshelf"
@@ -162,6 +170,7 @@ tags = ["mindset", "directed learning", "reflection", "efficiency", "prioritizat
 [[book]]
 id = "c109d804-57a4-4acf-8c80-47a88eb6df85"
 title = "Nonviolent Communication: A Language of Life"
+minimized_title = "Nonviolent Communication: A Language of Life"
 isbn = "978-1892005281"
 authors = "Rosenberg, M.B."
 publisher = "PuddleDancer Press"
@@ -180,6 +189,7 @@ tags = ["communication", "empathy", "team dynamics", "conflict"]
 [[book]]
 id = "63d02dd1-135f-4e3e-af7b-b2e6f4dbb5e3"
 title = "Agile Conversations: Transform Your Conversations, Transform Your Culture"
+minimized_title = "Agile Conversations: Transform Your Conversations, Transform Your Culture"
 isbn = "1942788975"
 authors = "Squirrel, D. & Fredrick, J."
 publisher = "IT Revolution Press"
@@ -198,6 +208,7 @@ tags = ["communication", "directed learning", "conflict"]
 [[book]]
 id = "628b3d06-4524-4ce1-9044-c595b2a492f1"
 title = "The Secrets of Consulting: A Guide to Giving and Getting Advice Successfully"
+minimized_title = "Secrets of Consulting: A Guide to Giving and Getting Advice Successfully"
 isbn = "0932633013"
 authors = "Weinberg, G. M."
 publisher = "Dorset House Publishing"
@@ -215,6 +226,7 @@ tags = ["communication", "corporate", "consulting", "career"]
 [[book]]
 id = "b6727fa2-6deb-4080-a440-9697ec3d20e3"
 title = "Behind Closed Doors: Secrets of Great Management"
+minimized_title = "Behind Closed Doors: Secrets of Great Management"
 isbn = "978-0976694021"
 authors = "Rothman, J. & Derby, E."
 publisher = "The Pragmatic Bookshelf"
@@ -232,6 +244,7 @@ tags = ["communication", "corporate", "management", "leadership", "team dynamics
 [[book]]
 id = "f054e443-2434-4f8d-a4c1-43ef93331d6f"
 title = "The Art of Captivating Conversation"
+minimized_title = "Art of Captivating Conversation"
 isbn = "1510729062"
 authors = "King, P."
 publisher = "Skyhorse"
@@ -251,6 +264,7 @@ tags = ["communication", "goals", "consulting"]
 [[book]]
 id = "4b22b149-3d53-40ec-bb84-ecabda4528ab"
 title = "The Five Dysfunctions of a Team: A Leadership Fable"
+minimized_title = "Five Dysfunctions of a Team: A Leadership Fable"
 isbn = "978-8126522743"
 authors = "Lencioni, P."
 publisher = "Winsome Book India"
@@ -269,6 +283,7 @@ tags = ["team dynamics", "leadership", "corporate", "management"]
 [[book]]
 id = "d97d4075-456d-43b8-860b-1c4945ff8616"
 title = "Prisoners of Our Thoughts"
+minimized_title = "Prisoners of Our Thoughts"
 isbn = "1626568804"
 authors = "Pattakos, A. & Dundon E."
 publisher = " Berrett-Koehler Publishers"
@@ -288,6 +303,7 @@ tags = ["mindset", "resilience", "decision making"]
 [[book]]
 id = "93c3d298-690e-48b5-8140-b34ce90c2083"
 title = "Extreme Programming Explained: Embrace Change"
+minimized_title = "Extreme Programming Explained: Embrace Change"
 isbn = "978-0321278654"
 authors = "Beck, K. & Andres, C."
 publisher = "Addison-Wesley"
@@ -307,6 +323,7 @@ tags = ["programming", "testing", "test-driven", "team dynamics", "efficiency"]
 [[book]]
 id = "6a18e90d-4b11-488d-839f-6e6223c5955f"
 title = "The Mythical Man-Month: Essays on Software Engineering, Anniversary Edition"
+minimized_title = "Mythical Man-Month: Essays on Software Engineering, Anniversary Edition"
 isbn = "978-0201835953"
 authors = "Brooks, F. P. Jr."
 publisher = "Addison-Wesley Professional"
@@ -326,6 +343,7 @@ tags = ["time management", "management", "corporate"]
 [[book]]
 id = "a749cf2a-2d10-41a0-97a4-8d1adc9953fe"
 title = "Automate the Boring Stuff with Python"
+minimized_title = "Automate the Boring Stuff with Python"
 isbn = "1593279922"
 authors = "Sweigart, A."
 publisher = "No Starch Press"
@@ -344,6 +362,7 @@ tags = ["programming", "automation"]
 [[book]]
 id = "a78d1c3f-6365-47ac-baa4-86c6371c1eed"
 title = "Patterns, Principles, and Practices of Domain-Driven Design"
+minimized_title = "Patterns, Principles, and Practices of Domain-Driven Design"
 isbn = "1118714709"
 authors = "Millet, S. & Tune, N."
 publisher = "Wrox"
@@ -363,6 +382,7 @@ tags = ["architecture", "patterns", "communication"]
 [[book]]
 id = "0628f537-6527-4722-93d9-5b765b4c339d"
 title = "Design Patterns: Elements of Reusable Object-Oriented Software"
+minimized_title = "Design Patterns: Elements of Reusable Object-Oriented Software"
 isbn = "978-0201633610"
 authors = "Gamma, A.; Helm, Rl; Johnson, R., Vlissides, J."
 publisher = "Addison-Wesley Professional"
@@ -387,6 +407,7 @@ tags = ["programming", "refactoring", "patterns", "readability"]
 [[book]]
 id = "e15a25a0-6c08-4b78-b593-ca54eea8cce2"
 title = "Design It: From Programmer to Software Architect"
+minimized_title = "Design It: From Programmer to Software Architect"
 isbn = "1680502093"
 authors = "Keeling, M."
 publisher = "The Pragmatic Bookshelf"
@@ -410,6 +431,7 @@ tags = ["architecture", "trade-off", "documentation", "readability"]
 [[book]]
 id = "9d8ff83e-f49a-4c7c-8e40-e34ac63e2792"
 title = "Refactoring: Improving the Design of Existing Code"
+minimized_title = "Refactoring: Improving the Design of Existing Code"
 isbn = "978-0133065268"
 authors = "Fowler, M.; Beck, K.; Brant J.; Opdyke W.; Roberts D."
 publisher = "Addison-Wesley Professional"
@@ -431,6 +453,7 @@ tags = ["programming", "refactoring", "patterns", "readability"]
 [[book]]
 id = "b6da416a-00a2-46dd-a211-fb4d4f0382e3"
 title = "Driving Technical Change"
+minimized_title = "Driving Technical Change"
 isbn = "978-1934356609"
 authors = "Ryan, T."
 publisher = "The Pragmatic Bookshelf"
@@ -452,6 +475,7 @@ tags = ["communication", "convincing", "change", "team dynamics"]
 [[book]]
 id = "f17079c7-1dc6-42de-85c1-f61dbeade355"
 title = "Think Faster, Talk Smarter"
+minimized_title = "Think Faster, Talk Smarter"
 isbn = "978-1668010303"
 authors = "Abrahams, M."
 publisher = "S&S/Simon Element"
@@ -476,6 +500,7 @@ tags = ["communication", "presenting", "clarity", "structure"]
 [[book]]
 id = "faf35830-29af-4957-8ad1-0d37d6bd60db"
 title = "Drive: The Surprising Truth About What Motivates Us"
+minimized_title = "Drive: The Surprising Truth About What Motivates Us"
 isbn = "9781594488849"
 authors = "Pink, D. H."
 publisher = "Riverhead Books"
@@ -497,6 +522,7 @@ tags=["productivity", "motivation", "goals"]
 [[book]]
 id = "1925e2ec-9147-4c4a-9dd8-c3ce6d08eee6"
 title = "Test-Driven Development with Java"
+minimized_title = "Test-Driven Development with Java"
 isbn = " 978-1803236230"
 authors = "Mellor, A."
 publisher = "Packt Publishing"
@@ -523,6 +549,7 @@ tags=["programming", "test-driven", "structure"]
 [[book]]
 id = "a32510dd-068d-4072-8b68-cce120864a64"
 title = "Team Topologies: Organizing Business and Technology Teams for Fast Flow"
+minimized_title = "Team Topologies: Organizing Business and Technology Teams for Fast Flow"
 isbn = "9781942788829"
 authors = "Skelton, M.; Pais, M."
 publisher = "It Revolution Press"
@@ -546,6 +573,7 @@ tags = ["management", "communication", "structure", "team dynamics", "architectu
 [[book]]
 id = "644de556-142a-42d7-8b86-1b513b320af6"
 title = "Clean Code: A Handbook of Agile Software Craftsmanship"
+minimized_title = "Clean Code: A Handbook of Agile Software Craftsmanship"
 isbn = "978-0132350884"
 authors = "Martin, R. C."
 publisher = "Pearson"
@@ -574,6 +602,7 @@ tags = ["programming", "readability", "refactoring", "patterns"]
 [[book]]
 id = "1925e2ec-9147-4c4a-9dd8-c3ce6d08eee6"
 title = "A Common-Sense Guide to Data Structures and Algorithms: Level Up Your Core Programming Skills"
+minimized_title = "Common-Sense Guide to Data Structures and Algorithms: Level Up Your Core Programming Skills"
 isbn = "978-1680507225"
 authors = "Wengrow, J."
 publisher = "The Pragmatic Bookshelf"
@@ -589,6 +618,7 @@ draft = true
 [[book]]
 id = "2930d42d-e7cf-4ea5-a6f3-eceb5b9a5fc1"
 title = "Modern Software Engineering: Doing What Works to Build Better Software Faster"
+minimized_title = "Modern Software Engineering: Doing What Works to Build Better Software Faster"
 isbn = "978-0137314911"
 authors = "Farley, D."
 publisher = "Addison-Wesley Professional"
@@ -606,6 +636,7 @@ id = "0f300fe5-075d-4add-91d8-605ae5823450"
 authors = "Cohn, M."
 year = "2010"
 title = "Succeeding with Agile: Software Development Using Scrum"
+minimized_title = "Succeeding with Agile: Software Development Using Scrum"
 isbn = "0321579364"
 publisher = "Addison-Wesley"
 link = "https://www.goodreads.com/en/book/show/6707987-succeeding-with-agile"
@@ -620,6 +651,7 @@ id = "8c0ad1c1-419f-475b-b763-02aa22e93641"
 authors = "Kaner, C.; Bach, J.; Pettichord, B."
 year = "2001"
 title = "Lessons Learned in Software Testing: A Context-Driven Approach"
+minimized_title = "Lessons Learned in Software Testing: A Context-Driven Approach"
 isbn = "978-0471081128"
 publisher = "Wiley"
 link = "https://www.oreilly.com/library/view/lessons-learned-in/9780471081128/"
@@ -631,6 +663,7 @@ levels=[]
 [[book]]
 id = "4eee341f-7128-4884-876a-892511e5a13f"
 title = "Thinking, Fast and Slow"
+minimized_title = "Thinking, Fast and Slow"
 isbn = "978-0374275631"
 authors = "Kahneman, D."
 publisher = "Farrar, Straus and Giroux"
@@ -645,6 +678,7 @@ tags = ["motivation", "decision-making", "bias", "reflection", "thinking"]
 [[book]]
 id = "f537c66d-38e8-40cc-aa94-81880f270475"
 title = "Get Better at Anything: 12 Maxims for Mastery"
+minimized_title = "Get Better at Anything: 12 Maxims for Mastery"
 isbn = "978-0063256675"
 authors = "Young, S. H."
 publisher = "Harper Business"
@@ -670,6 +704,7 @@ tags = ["productivity", "goals", "learning", "efficiency", "thinking"]
 [[book]]
 id = "ee406fae-4177-4abc-8d70-23175009bc58"
 title = "How to Be Accountable"
+minimized_title = "How to Be Accountable"
 isbn = "978-1665036573"
 authors = "Harper, F. G.; Biel, J."
 publisher = "Blackstone Publishing"
@@ -684,4 +719,19 @@ The book provides practical advice on how to cultivate accountability, emphasizi
 levels = ["novice"]
 tags = ["goals", "reflection", "accountability", "relationships"]
 
+
+[[book]]
+id = "704fb2a3-0207-4f8d-87f9-31b7fa5949c0"
+title = "The Art of Unix Programming "
+minimized_title = "Art of Unix Programming "
+isbn = "978-0131429017"
+authors = "Raymond, E.S."
+publisher = "Addison-Wesley"
+year = "2003"
+link = "http://www.catb.org/~esr/writings/taoup/html/ch01s06.html#id2878538"
+image = "art_of_unix.webp"
+description = """
+"""
+levels = ["intermediate", "reference"]
+tags = ["programming", "unix", "efficiency", "structure", "architecture"]
 

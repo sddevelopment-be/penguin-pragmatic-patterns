@@ -108,7 +108,7 @@ and their interactions.
 
 Once the architecture is in place, it serves as a reference point for developers, helping them understand the system's design and make informed
 decisions during implementation. The architect's role will then shift to overseeing the development process, and updating the architecture as
-needed. This iterative approach ensures that the system remains aligned with the initial vision and requirements, and allows to rectify any
+needed. This iterative approach ensures that the system remains aligned with the initial vision and requirements, and allows for rectifying any
 mistakes or shortcomings that may become apparent during development.
 
 ### Comparisons
@@ -139,6 +139,6 @@ cost, whereas modifying a building design post-construction is resource-intensiv
 - **Business Application:** In a rapidly growing e-commerce platform, the software architect prioritizes scalability and performance to handle
   increasing user traffic and transaction volumes. The architecture includes modular components to allow for future feature expansions without
   overhauling the entire system.
-- **Healthcare System:** For a healthcare management system, the architect focuses on security and reliability, ensuring patient data is protected
+- **Healthcare System:** For a healthcare management system, the architect focuses on security and reliability, ensuring patient data is protected,
   and the system remains operational even during peak usage times. The architecture also considers interoperability with other healthcare systems
   for seamless data exchange.

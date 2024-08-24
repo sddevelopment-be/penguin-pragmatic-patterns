@@ -87,7 +87,7 @@ challenges and develop strategies to mitigate them, leading to more informed and
 #### Spontaneous Decision-Making
 
 In contrast, "just doing whatever comes to mind" is the spontaneous and unstructured approach to decision-making that most people use on a daily
-basis. This method lacks the analytical rigor of ROI, often leading to inconsistent outcomes as decisions are made based on immediate impulses or
+basis. This method lacks the analytical rigour of ROI, often leading to inconsistent outcomes as decisions are made based on immediate impulses or
 random choices rather than calculated evaluations. While this approach might occasionally lead to innovation or unexpected successes, it typically
 lacks the focus and predictability that ROI provides. Without a framework to assess potential gains and costs, resources can be misallocated,
 opportunities can be missed, and strategic goals can remain unmet. Therefore, while spontaneity can fuel creativity, it is the structured assessment

@@ -8,7 +8,7 @@ categories = [ "software development" ]
 tags = [ "remembering", "tracking", "tracability", "log" ]
 uuid = "GENERATE-ME!"
 aliases = [ "uuid" ]
-outputs = [ "html", "rss", "json" ]
+outputs = [ "html", "json" ]
 related_concepts = [ ]
 related_practices = [ ]
 further_exploration = [ ]
@@ -49,7 +49,7 @@ delta = "0"
 rationale = ""
 +++
 
-### Problem statement
+## Problem statement
 
 > [!STUB]
 > Describe the problem that this pattern aims to solve
@@ -58,6 +58,12 @@ rationale = ""
 
 > [!STUB]
 > Describe the desired outcome
+
+## Solution
+
+> [!STUB]
+> Describe the core idea of the pattern and how to apply it.
+> Add subsections as you see fit in order to clearly communicate the idea
 
 ## Contextual forces
 
@@ -79,12 +85,6 @@ The following factors prevent effective application of the practice:
 > [!STUB]
 > Contextual factors that decrease the viability of implementing the pattern
 
-## Solution
-
-> [!STUB]
-> Describe the core idea of the pattern and how to apply it.
-> Add subsections as you see fit in order to clearly communicate the idea
-
 ## Rationale
 
 > [!STUB]
@@ -94,6 +94,8 @@ The following factors prevent effective application of the practice:
 
 ### Consequences
 
+While the approach brings numerous benefits, it can also lead to several unexpected or undesired outcomes:
+
 > [!STUB]
 > Describe how the situation changes after applying the pattern
 > Try and focus on elements that are not immediatly apperent from the "intent" section.
@@ -101,22 +103,13 @@ The following factors prevent effective application of the practice:
 
 ### Mitigation strategies
 
+To mitigate the potential negative consequences of the approach:
+
 > [!STUB]
 > How to deal with, or prevent, potential negative consequences of applying the pattern
 
 ## Examples
 
 > Case-studies, testimonials, or other examples that illustrate the pattern in action.
-
-## Further Exploration
-
-> [!STUB]
-> Add references to material referenced in the text, or the original source of the pattern if applicable.
-> Be sure to credit authors and publications that inspired you.
-> Add links to other patterns or content in this collection (or external ones).
->
-> References should follow the [IEEE convention](https://www.scribbr.com/ieee/ieee-reference-page/) as close as possible.
->
-> - Author, "TITLE". Publisher, Date (, additional information e.g. isbn).
 
 ---

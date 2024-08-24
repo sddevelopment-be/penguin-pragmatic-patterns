@@ -70,7 +70,7 @@ size="80%" >}}
   this stage.
 - **Our Internal Context:** Our reaction to the meaning we assigned highly depends on our current mental state and memories.
 - **Our Emotional Response:** Based on our internal context, we have an emotional reaction to the message.
-- **Output Filter:** Our response travels back through the previous steps and reaches our output filter, which acts as the last line of defense
+- **Output Filter:** Our response travels back through the previous steps and reaches our output filter, which acts as the last line of defence
   before expressing something we might regret.
 
 Given all these possibilities to dilute a message and draw wrong conclusions, it should come as no surprise that we often misunderstand each other.
@@ -78,7 +78,7 @@ Given all these possibilities to dilute a message and draw wrong conclusions, it
 ### Further Explanation
 
 We value our ability to stay rational, calm, and collected in any situation. Think of your run-of-the-mill action hero. In general, you will find
-they are extremely stoic. Nothing phases them. Their adversaries generally become frustrated with their inability to trigger a response from the
+they are extremely Stoic. Nothing phases them. Their adversaries generally become frustrated with their inability to trigger a response from the
 hero, causing them to lose their cool and make bad decisions to annoy the hero. Their inability to stay calm leads directly to their downfall.
 
 Unlike these characters, most of us are not in total control of our emotions. We tend to get bored when listening to long-winded stories that have

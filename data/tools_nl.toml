@@ -5,134 +5,129 @@ authors = "Dejongh, S."
 link = "https://github.com/sddevelopment-be/document-generation"
 image = "sdd_docgen.webp"
 description = """
-Tooling to generate documents from Markdown, using docker images to ensure portability between different environments. Contains a quick-start set-up. Useful for automated pipelines or quick set-up on new computers.
+Aanmaken van documenten uit Markdown, gebruikt docker om portabiliteit tussen verschillende omgevingen te waarborgen. Bevat een "snelle start"-installatie. Handig voor geautomatiseerde pipelines of om snel installaties uit te voeren op nieuwe computers.
 """
-tags = [ "documentation", "automation", "markdown" ]
+tags = [ "documentatie", "automatisering", "markdown" ]
 type = "app"
 
 [[tool]]
-id = "2fcda1f4-7270-4a63-be4a-4c951242a71d"
-name = "Productivity With Shortcuts"
+id = "2fcda1f4-7270-4a63-be4c951242a71d"
+name = "Productiviteit met sneltoetsen"
 authors = "Schraepen, T.; et al."
 link = "http://sch3lp.github.io/ProductivityWithShortcuts/"
 image = "hotkey_tutorial.webp"
 description = """
-A step-by-step guide to help you get the most out of your IntelliJ IDEA. A great tutorial for developers that are not used to using hotkeys in order to improve their productivity.
-While it might sound like snake-oil to some, the advantages of reducing the need to use a mouse, and typing less characters add up over time.
-Definitly take a look at it, and discover a side of your IDE that you did not think existed before.
+Een stapsgewijze handleiding om u te helpen het meeste uit uw IntelliJ IDEA te halen. Een geweldige handleiding voor ontwikkelaars, die niet gewend zijn om sneltoetsen te gebruiken, om hun productiviteit te verbeteren.
+Terwijl het voor sommigen misschien gebakken lucht lijkt, zijn er voordelen aan het verminderen van de gewoonte om een muis te gebruiken, en na verloop van tijd minder toetsen aan te moeten slaan.
+Neem een kijkje, en ontdek een kant van je IDE die je wellicht nog niet kende.
 """
-tags = [ "IDE", "productivity" ]
+tags = [ "IDE", "productiviteit" ]
 type = "tutorial"
 
 [[tool]]
 id = "255aa6eb-7668-415a-b725-e387b9b11424"
 name = "Docsify"
-authors = "docsify.js Open Source Community"
+authors = "docsify.js Open Source Gemeenschap"
 link = "https://docsify.js.org"
 image = "docsify.webp"
 description = """
-Generate a documentation website from markdown files quickly. Easy to use, customizable with community-supported plugins. Written in javascript.
-A great way to document your projects in your IDE, and get a visually pleasing documentation site.
+Genereer snel een documentatie-website vanuit markdown bestanden. Makkelijk te gebruiken, aanpasbaar met community-ondersteunde plugins. Geschreven in javascript.
+Een geweldige manier om je projecten te documenteren vanuit je IDE, en een visueel aantrekkelijke site te verkrijgen.
 """
 type = "app"
 
 [[tool]]
 id = "830947a8-b8c1-4fb1-b1ea-1468060d607c"
-name = "CV Compiler"
+name = "CV Compilator"
 authors = "Stetsenko, A."
 year = "2018"
 site = "cvcompiler.com"
 link = "https://cvcompiler.com/"
 image = "cv_compiler.webp"
 description = """
-Leverage Big Data to automate your CV screening. Evaluates resumes based on vacancies from big tech companies. The site offers feedback on your resume, as well
-as various stylistic tips and tricks.
+Maak gebruik van Big Data voor het automatisch nalezen van je CV. Evalueert CVs op basis van vacatures van grote technologie bedrijven. De site biedt feedback over je document, evenals verschillende stylistische tips en trucs.
 """
 type = "app"
 
 [[tool]]
 id = "7202b347-87f0-43af-b011-e6ee30a8cff7"
-name = "DojiCV: slick resume template"
-title = "SD Development: DojiCV"
+name = "DojiCV: een vlot cv-sjabloon"
+title = "SD Ontwikkeling: DojiCV"
 authors = "SD Development"
 year = "2019"
 link = "https://sddevelopment.be/projects/cv-template/"
 site = "GitHub.com"
 image = "cv-template.webp"
 description = """
-A to-the-point LaTeX template for resumés, aimed to help you write a visually pleasing CV.
-Writing an engaging Resume is not an easy task. This template will help you by providing you with a basic structure in
-which to enter your personal information. This means you will write your content in an encoded way, and let the processor take care of the layouting.
+Een doelgericht LaTeX-sjabloon voor CVs, gericht op het schrijven van een visueel aantrekkelijk document.
+Het schrijven van een sprekend CV is geen sinecure. Deze template helpt je door een basisstructuur aan te bieden waarin je jouw persoonlijke gegevens invult. Je schrijft eenvoudige code, en de verwerker regelt de lay-out.
 """
 type = "template"
 
 [[tool]]
 id = "ef34ec57-62d1-4616-8f29-050908a23fcc"
-name = "Structurizr"
+name = "Structuren"
 authors = ""
 link = "https://structurizr.org/"
 image = "structurizr.webp"
 description = """
-A DSL for describing software architecture and design. Based on the c4model system for system description. Easy to use, and integrates with the most popular code-to-diagram formats.
+Een DSL voor het beschrijven van softwarearchitectuur en -ontwerp. Gebaseerd op het c4model systeem voor systeembeschrijving. Makkelijk te gebruiken en integreert met de meest populaire code-to-diagram formaten.
 """
-tags = [ "architecture", "design", "documentation" ]
+tags = [ "architectuur", "ontwerp", "documentatie" ]
 type = "app"
 
 [[tool]]
 id = "da6734f3-1fa8-4c50-a068-0e346bb7aa9a"
-name = "NextCloud: Remote collaboration made easy"
+name = "NextCloud: samenwerking op afstand eenvoudig"
 authors = "Nextcloud GmbH"
 link = "https://nextcloud.com"
 image = "nextcloud.webp"
 description = """
-A self-hosted personal storage system. Designed to be modular, users can spin up their own office-like server environment to keep their notes,
-documents, pictures, and messages. Various options for hosting are available.
+Een zelf gehost persoonlijk opslagsysteem. Het modulair ontwerp laat gebruikers toe hun eigen kantoor-achtige serveromgeving op te starten, waarin ze hun notities, documenten, foto's en berichten kunnen bewaren. Er zijn verschillende hosting-opties beschikbaar.
 """
-tags = [ "storage", "collaboration" ]
+tags = [ "opslag", "samenwerking" ]
 type = "app"
 
 [[tool]]
 id = "e5fd2b7b-9e33-4792-9205-47ae39b6651f"
 name = "Firefly III"
 authors = "Cole, J."
-link = "https://www.firefly-iii.org/"
+link = "https://www.firefly-iiii.org/"
 image = "firefly-3.webp"
 description = """
-A free and open source personal finance manager. Features data imports for well-known banks, allows for an easy overview of various accounts,
-let's you organize expenses according to categories, and provides an easy way to set budgets for yourself.
-You can host Firefly yourself on a webserver, or run it on your local machine. Docker images are available to get your personal accounting system up and running quickly.
+Een gratis en open source application voor persoonlijk financieel beheer. Biedt gegevensinvoer voor bekende banken aan, maakt een eenvoudig overzicht van verschillende rekeningen mogelijk, laat toe je uitgaven te organiseren op basis van categorieën, en geeft je een makkelijke manier om budgetten voor jezelf op te stellen. Je kan Firefly zelf hosten op een webserver, of het op je lokale machine uitvoeren. Docker-afbeeldingen zijn beschikbaar om uw persoonlijke boekhoudsysteem snel te laten werken.
 """
-tags = [ "finance", "budget", "accounting" ]
+tags = [ "financiën", "budget", "boekhouding" ]
 type = "app"
 
 [[tool]]
 id = "89f4afd0-b7f6-4b56-a31d-4d4b9f1d4730"
 authors = "NERIS Analytics Ltd."
-name = "Personality Types"
+name = "Persoonlijkheidstypen"
 year = "2023"
-site = "16personalities.com"
-link = "https://www.16personalities.com/personality-types"
+site = "16personalities.com/nl"
+link = "https://www.16personalities.com/nl/persoonlijkheidstypen"
 image = ""
 description = ""
 type = "site"
-tags = [ "personality", "psychology", "assessment" ]
+tags = [ "persoonlijkheid", "psychologie", "beoordeling" ]
 
 [[tool]]
 id = "b4627229-58db-44cd-93e5-7cff11a0ca65"
 authors = "Kibeom, L. & Ashton, M. C."
-name = "The HEXACO personality inventory"
+name = "De HEXACO persoonlijkheidsinventaris"
 year = "2009"
 site = "hexaco.org"
 link = "https://hexaco.org"
 image = ""
 description = ""
 type = "site"
-tags = [ "personality", "psychology", "assessment" ]
+tags = [ "persoonlijkheid", "psychologie", "beoordeling" ]
 
 [[tool]]
 id = "80865a5e-a7a1-400a-a07a-3b7639743dfa"
-authors = "Bockelbrink, B.; Priest, J. & David L."
-name = "A Practical Guide for Evolving Agile and Resilient Organizations with Sociocracy 3.0"
+authors = "Bockelbrink, B.; Priester, J. & David L."
+name = "Een Praktische gids voor Evolving Agile en veerkrachtige organisaties met Sociocratie 3.0"
 year = "2022"
 site = "sociocracy30.org"
 link = "https://patterns.sociocracy30.org/all.html"
@@ -150,13 +145,13 @@ site = "AMMERSE.org"
 link = "https://www.ammerse.org/"
 image = ""
 description = ""
-type = "site"
+type = "Werkruimte"
 tags = [ ]
 
 [[tool]]
 id = "89c8394d-87c7-4eaa-8154-b89f0cee77d1"
 authors = "Object Management Group"
-name = "Business Process Model And Notation Specification - Version 2.0"
+name = "Bedrijfsproces Modelering en Notatie specificatie - versie 2.0"
 year = "2010"
 site = "omg.org"
 link = "https://www.omg.org/spec/BPMN/2.0/"
@@ -166,7 +161,7 @@ type = "site"
 tags = [ ]
 
 [[tool]]
-id = "6d6a2170-e409-40ff-b89c-1f41a47d677d"
+id = "6a2170-e409-40ff-b89c-1f41a47d677d"
 name = "Cynefin Wiki"
 authors = "Snowden, D.; et al."
 link = "https://cynefin.io/wiki/Cynefin"
@@ -179,22 +174,21 @@ tags = [ ]
 
 [[tool]]
 id = "d81319c3-355c-43e0-bbd5-0eb3dfe71c76"
-name = "The Bowling Game Kata"
+name = "De Bowling Game Kata"
 authors = "Martin R."
 link = "http://www.butunclebob.com/ArticleS.UncleBob.TheBowlingGameKata"
 site = "butunclebob.com"
 year = "2005"
 image = ""
 description = """
-One of the most famous katas in the world of software development. It is used to teach the basics of test-driven development, minimalism,
-and is a great way to get started with TDD.
+Een van de beroemdste katas in de wereld van de softwareontwikkeling. Deze wordt gebruikt om de basis van test-gedreven ontwikkeling, en minimalisme, aan te leren. Een geweldige manier om te beginnen met TDD.
 """
 type = "site"
 tags = [ ]
 
 [[tool]]
 id = "7c28156d-be10-4b0d-a97a-bed2836bc9a4"
-name = "Google Style Guides"
+name = "Google Style Handleidingen"
 authors = "Google Open Source"
 link = "https://google.github.io/styleguide"
 site = "google.GitHub.io"

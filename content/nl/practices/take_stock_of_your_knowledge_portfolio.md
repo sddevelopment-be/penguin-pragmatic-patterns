@@ -93,10 +93,10 @@ link = "https://dzone.com/articles/a-guide-to-growing-your-technical-knowledge-p
 [[further_exploration]]
 type = "raw"
 author = "StackOverflow Community"
-year = "2023"
+year = "2024"
 title = "Stack Overflow Annual Developer Survey"
 site = "StackOverflow.com"
-link = "https://survey.stackoverflow.com/"
+link = "https://stackoverflow.blog/2024/07/24/developers-want-more-more-more-the-2024-results-from-stack-overflow-s-annual-developer-survey/"
 +++
 
 ## Problem Statement

@@ -43,7 +43,7 @@ id = "d33fc09e-39c6-411e-a70e-2ca98375abd6"
 type = "raw"
 title = "Cognitive Bias: How We Are Wired to Misjudge"
 link = "https://www.simplypsychology.org/cognitive-bias.html"
-author = "Ruhl,C."
+author = "Ruhl, C."
 year = "2023"
 site = "SimplyPsychology.org"
 
@@ -95,10 +95,10 @@ hindsight bias (where we see events as having been predictable after they have a
 ### Emotional biases
 
 These biases are based on how we feel about certain situations. Examples include the sunk cost fallacy (where we continue an
-endeavor because of previously invested resources), loss aversion (where we fear losses more than we value gains), and the status quo bias (where
+endeavour because of previously invested resources), loss aversion (where we fear losses more than we value gains), and the status quo bias (where
 we prefer things to stay the same). Examples include:
 
-- **Sunk Cost Fallacy:** We continue an endeavor because of previously invested resources.
+- **Sunk Cost Fallacy:** We continue an endeavour because of previously invested resources.
 - **Loss Aversion:** We fear losses more than we value gains.
 - **Status Quo Bias:** We prefer things to stay the same.
 
@@ -116,7 +116,7 @@ confirms our beliefs), and survivorship bias (where we focus on successful examp
 
 ### Origin
 
-The concept of cognitive biases has roots in psychology and behavioral economics. It gained prominence in the 1970s through the work of
+The concept of cognitive biases has roots in psychology and behavioural economics. It gained prominence in the 1970s through the work of
 psychologists Amos Tversky and Daniel Kahneman, who identified and described many of these biases in their research on judgment and decision-making.
 
 ### Application
@@ -136,12 +136,12 @@ conclusions, but they arise from different cognitive processes.
 #### Psychological Priming
 
 Psychological priming involves the exposure to a stimulus influencing the response to a subsequent stimulus, often without conscious
-guidance or intention. Priming can shape perceptions, behaviors, and attitudes by activating certain associations in memory. For instance, if
-individuals are primed with words related to old age, they may walk more slowly afterward, demonstrating how subtle cues can affect behavior. While
+guidance or intention. Priming can shape perceptions, behaviours, and attitudes by activating certain associations in memory. For instance, if
+individuals are primed with words related to old age, they may walk more slowly afterward, demonstrating how subtle cues can affect behavioUr. While
 cognitive biases are often unconscious errors in thinking that skew judgment, psychological priming is a process where exposure to certain stimuli
-can unconsciously influence subsequent responses. Both concepts illustrate the powerful, often hidden forces that shape human thought and behavior,
+can unconsciously influence subsequent responses. Both concepts illustrate the powerful, often hidden forces that shape human thought and behavioUr,
 but they operate through different mechanisms: biases distort our decision-making processes, whereas priming subtly alters our reactions and
-behaviors based on prior stimuli.
+behavioUrs based on prior stimuli.
 
 ### Examples
 
@@ -149,12 +149,12 @@ behaviors based on prior stimuli.
 
 {{<image
  src="/images/concepts/survivorship_bias_wald.png"  
- alt="a schematic drawing of a WWII bomber, with damage marked on it. credit: McGeddon CC BY-SA 4.0"
- caption="a schematic drawing of a WWII bomber, with damage marked on it. credit: McGeddon CC BY-SA 4.0"
+ alt="a schematic drawing of a WWII bomber, with damage marked on it. Credit: McGeddon CC BY-SA 4.0"
+ caption="a schematic drawing of a WWII bomber, with damage marked on it. Credit: McGeddon CC BY-SA 4.0"
  float="right"
  size="25%" >}}
 
-During World War II, the US Navy was analyzing the damage to returning fighter planes to determine where to add armor. Initially, they
+During World War II, the US Navy was analyzing the damage to returning fighter planes to determine where to add armour. Initially, they
 considered reinforcing the areas most frequently hit by enemy fire, based on the damage observed on the planes that made it back.
 
 However, Abraham Wald, a statistician, pointed out that this approach was flawed due to survivorship bias. The planes that returned safely did so
@@ -188,4 +188,4 @@ the end of the world.
 These interpretations exemplify the fundamental attribution error, where people attributed the cause of the plague to internal, moral, or spiritual
 failings rather than external, situational factors. This bias led to a widespread misunderstanding of the disease and hindered effective responses
 to the crisis. By recognizing this error, we can learn to consider broader situational factors in our judgments, leading to more accurate and
-compassionate understanding of events and behaviors.
+compassionate understanding of events and behavioUrs.

@@ -21,6 +21,10 @@ type = "biblio"
 id = "c109d804-57a4-4acf-8c80-47a88eb6df85"
 
 [[further_exploration]]
+type = "biblio"
+id = "d97d4075-456d-43b8-860b-1c4945ff8616"
+
+[[further_exploration]]
 type = "raw"
 author = "Aurelius, M. - Emperor of Rome"
 year = "ca. 167"

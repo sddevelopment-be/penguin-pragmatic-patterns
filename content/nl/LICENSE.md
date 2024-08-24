@@ -1,19 +1,19 @@
 +++
-title = "License"
-subtitle = "EUPL v. 1.2 or later, (c) 2022 Stijn Dejongh"
+title = "Licentie"
+subtitle = "EUPL v. 1.2 of hoger, (c) 2022 Stijn Dejongh"
 +++
 
-# Overview
+# Overzicht
 
-The EUPL v. 1.2 is a free software license that allows the use, modification, and distribution of the licensed work. It is designed to be compatible
-with several other licenses and ensures that the licensed software remains free and open. The following sections provide an overview of the
-license. The full text of the EUPL can be found [here](https://joinup.ec.europa.eu/collection/eupl/eupl-text-eupl-12), or further down this page.
+De EUPL v. 1.2 is een gratis softwarelicentie die het gebruik, wijziging en distributie van het gelicenseerde werk toestaat. Het is ontworpen om compatibel te zijn
+met verschillende andere licenties en zorgt ervoor dat de gelicentieerde software gratis en open blijft. De volgende secties bieden een overzicht van de
+licentie. De volledige tekst van de EUPL kan gevonden worden [op deze webpagina](https://joinup.ec.ec.europa.eu/collection/eupl/eupl-text-eupl-12), of hieronder.
 
-## Definitions:
+## Definities:
 
-- **Original Work:** The initial software or work distributed under the EUPL.
-- **Derivative Works:** New works created based on the Original Work.
-- **Licensor:** The person or entity that distributes the Original Work under this license.
+- **Origineel Werk:** De initiële software of het Werk verspreid onder de EUPL.
+- **Derivatief Werk:** Nieuw Werk gemaakt op basis van het Oorspronkelijk Werk.
+- **Licentie:** De persoon of entiteit die het Oorspronkelijk Werk onder deze licentie distribueert.
 - **Licensee:** Anyone who uses the work under the terms of the EUPL.
 - **Source Code:** The human-readable form of the work.
 - **Executable Code:** The compiled form of the work intended for execution by a computer.
@@ -76,29 +76,23 @@ a computer as a program.
 — ‘Contributor(s)’:any natural or legal person who modifies the Work under the Licence, or otherwise contributes to
 the creation of a Derivative Work.
 — ‘The Licensee’ or ‘You’:any natural or legal person who makes any usage of the Work under the terms of the
-Licence.
-— ‘Distribution’ or ‘Communication’:any act of selling, giving, lending, renting, distributing, communicating,
-transmitting, or otherwise making available, online or offline, copies of the Work or providing access to its essential
-functionalities at the disposal of any other natural or legal person.
+Licence.* 'Distributie’ of ‘Communicatie’: elke handeling van verkoop, schenking, uitlening, verhuur, distributie, communicatie, transmissie, of anderszins beschikbaar stellen, online of offline, van kopieën van het Werk of het verlenen van toegang tot de essentiële functionaliteiten ervan voor enige andere natuurlijke of rechtspersoon.
 
 ## 2. Scope of the rights granted by the Licence
 
-The Licensor hereby grants You a worldwide, royalty-free, non-exclusive, sublicensable licence to do the following, for
-the duration of copyright vested in the Original Work:
-— use the Work in any circumstance and for all usage,
-— reproduce the Work,
-— modify the Work, and make Derivative Works based upon the Work,
-— communicate to the public, including the right to make available or display the Work or copies thereof to the public
-and perform publicly, as the case may be, the Work,
-— distribute the Work or copies thereof,
-— lend and rent the Work or copies thereof,
-— sublicense rights in the Work or copies thereof.
-Those rights can be exercised on any media, supports and formats, whether now known or later invented, as far as the
-applicable law permits so.
-In the countries where moral rights apply, the Licensor waives his right to exercise his moral right to the extent allowed
-by law in order to make effective the licence of the economic rights here above listed.
-The Licensor grants to the Licensee royalty-free, non-exclusive usage rights to any patents held by the Licensor, to the
-extent necessary to make use of the rights granted on the Work under this Licence.
+De Licentiegever verleent u hierbij een wereldwijde, royalty-vrije, niet-exclusieve, sublicentieerbare licentie om het volgende te doen, voor de duur van het auteursrecht op het Originele Werk:* het Werk in elke omstandigheid en voor elk gebruik te gebruiken,
+* het Werk te reproduceren,
+* het Werk te wijzigen en Afgeleide Werken op basis van het Werk te maken,
+* het Werk aan het publiek mee te delen, inclusief het recht om het Werk of kopieën daarvan beschikbaar te stellen of te tonen aan het publiek en het Werk in het openbaar uit te voeren, al naargelang het geval,
+* het Werk of kopieën daarvan te distribueren,
+* het Werk of kopieën daarvan uit te lenen en te verhuren,
+* rechten in het Werk of kopieën daarvan te sublicentiëren.
+  Those rights can be exercised on any media, supports and formats, whether now known or later invented, as far as the
+  applicable law permits so.
+  In the countries where moral rights apply, the Licensor waives his right to exercise his moral right to the extent allowed
+  by law in order to make effective the licence of the economic rights here above listed.
+  The Licensor grants to the Licensee royalty-free, non-exclusive usage rights to any patents held by the Licensor, to the
+  extent necessary to make use of the rights granted on the Work under this Licence.
 
 ## 3. Communication of the Source Code
 
@@ -173,10 +167,7 @@ the Licensor will be liable under statutory product liability laws as far such l
 ## 9. Additional agreements
 
 While distributing the Work, You may choose to conclude an additional agreement, defining obligations or services
-consistent with this Licence. However, if accepting obligations, You may act only on your own behalf and on your sole
-responsibility, not on behalf of the original Licensor or any other Contributor, and only if You agree to indemnify,
-defend, and hold each Contributor harmless for any liability incurred by, or claims asserted against such Contributor by
-the fact You have accepted any warranty or additional liability.
+consistent with this Licence. Echter, bij het aanvaarden van verplichtingen, mag u alleen namens uzelf en op uw eigen verantwoordelijkheid handelen, niet namens de oorspronkelijke Licentiegever of enige andere Bijdrager, en alleen als u ermee instemt om elke Bijdrager te vrijwaren, te verdedigen en schadeloos te stellen voor enige aansprakelijkheid of vorderingen die tegen zo'n Bijdrager worden ingesteld als gevolg van het feit dat u enige garantie of extra aansprakelijkheid hebt aanvaard.
 
 ## 10. Acceptance of the Licence
 
@@ -205,8 +196,7 @@ the Licence, provided such persons remain in full compliance with the Licence.
 
 Without prejudice of Article 9 above, the Licence represents the complete agreement between the Parties as to the
 Work.
-If any provision of the Licence is invalid or unenforceable under applicable law, this will not affect the validity or
-enforceability of the Licence as a whole. Such provision will be construed or reformed so as necessary to make it valid
+Indien een bepaling van de Licentie ongeldig of niet-afdwingbaar is volgens de toepasselijke wetgeving, zal dit de geldigheid of afdwingbaarheid van de Licentie als geheel niet beïnvloeden. Such provision will be construed or reformed so as necessary to make it valid
 and enforceable.
 The European Commission may publish other linguistic versions or new versions of this Licence or updated versions of
 the Appendix, so far this is required and reasonable, without reducing the scope of the rights granted by the Licence.
@@ -228,10 +218,8 @@ the exclusive jurisdiction of the competent court where the Licensor resides or 
 
 Without prejudice to specific agreement between parties,
 
-— this Licence shall be governed by the law of the European Union Member State where the Licensor has his seat,
-resides or has his registered office,
-— this licence shall be governed by Belgian law if the Licensor has no seat, residence or registered office inside
-a European Union Member State.
+- deze Licentie wordt beheerst door de wetgeving van de lidstaat van de Europese Unie waar de Licentiegever zijn zetel, woonplaats of geregistreerde kantoor heeft,
+- deze Licentie wordt beheerst door het Belgische recht als de Licentiegever geen zetel, woonplaats of geregistreerd kantoor binnen een lidstaat van de Europese Unie heeft.
 
 # Appendix
 

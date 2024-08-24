@@ -1,13 +1,13 @@
 +++
-aliases = [ "bibliography" ]
-title = "Bibliography"
+aliases = [ "bibliografie" ]
+title = "Bibliografie"
 outputs = [ "html", "rss" ]
 +++
 
-If you enjoy learning and reading, one of the best sections in each book is the bibliography.
-It contains a list of books that generally link to the topic you were reading about in the first place.
-As I also like scavenging for new material, I aimed to add a short description to each book referenced here.
-This will help you figure out why I added it to this list, and whether it is something you'd enjoy digging into deeper.
+Als je geniet van bijleren en lezen, is de bibliografie een van de beste secties in elk boek.
+Het bevat een lijst met andere boeken die verband houden met het onderwerp waar je over aan het lezen bent.
+Omdat ik ook graag snuister naar nieuw leermateriaal, wilde ik een korte beschrijving toevoegen aan elk boek in deze oplijsting.
+Dit zal je helpen uitvissen waarom ik het aan deze lijst heb toegevoegd, en of het iets is waarin je je graag wil verdiepen.
 
 In order to help you find a book suited to your current skill level, and understanding, I have added suggested "complexity levels" to each of
 the books in this bibliography.\

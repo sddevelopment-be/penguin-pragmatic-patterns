@@ -1,7 +1,7 @@
 +++
-aliases = [ "tools", "links" ]
-title = "Tools, Websites, and Apps"
+aliases = [ "hulpmiddelen", "links" ]
+title = "Gereedschappen, Websites en Apps"
 +++
 
-A list of tools to help you be more efficient in your daily endeavours.
-Each entry goes with a short description of what to expect and why you might find it useful.
+Een lijst van hulpmiddelen om je te helpen je dagelijkse bekommernissen efficiënter uit te voeren.
+Elke inzending bevat een korte beschrijving van wat te verwachten, en waarom deze nuttig kan zijn.

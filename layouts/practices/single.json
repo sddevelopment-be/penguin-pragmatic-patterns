@@ -55,7 +55,7 @@
             "type": "GET",
             "href": "{{ $siteUrl }}practices/{{ $value }}"
           } {{ if lt $index (math.Sum (len $relatedPractices) -1) }},{{ end }}
-      {{end}}{{if ge (len $relatedPractices) 1 }},{{end}}
+      {{end}}{{if ge (len $relatedConcepts) 1 }},{{end}}
       {{end}}
       {{ if $relatedConcepts }}
       {{ range $index, $value := $relatedConcepts }}

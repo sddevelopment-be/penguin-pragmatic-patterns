@@ -48,8 +48,8 @@
                     <span class="summary-title">Tags:</span>
                     <span class="summary-content">
                         <div class="pattern-tags">
-                        {{ range $index, $value := $tags }}
-                            <span class="pattern-tag"><a href="/tags/{{ $value }}">{{ $value }}</a></span>
+                        {{ range $index, $value := (sort $tags "value" "asc") }}
+                            <span class="pattern-tag"><a href="/tags/{{ $value | urlize }}">{{ $value }}</a></span>
                         {{end}}
                         </div>
                     </span>

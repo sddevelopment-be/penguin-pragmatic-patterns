@@ -1,7 +1,5 @@
 name: <(^v^)> Update README.md with Changelog
 
-on:
-
 jobs:
   build:
     name:

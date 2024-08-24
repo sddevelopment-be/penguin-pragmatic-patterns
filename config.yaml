@@ -15,6 +15,13 @@ canonifyURLs: true
 # Disables warnings
 markup:
   defaultMarkdownHandler: goldmark
+  highlight:
+    codeFences: true
+    noClasses: true
+    lineNos: true
+    style: catppuccin-frappe
+    guessSyntax: true
+    tabWidth: 2
   goldmark:
     extensions:
       footnote: true
@@ -27,7 +34,7 @@ taxonomies:
   level: "levels"
 
 params:
-  dataDir: /data/en/
+  dataDir: /data
   # Open graph allows easy social sharing. If you don't want it you can set it to false or just delete the variable
   openGraph: true
   # Used as meta data; describe your site to make Google Bots happy

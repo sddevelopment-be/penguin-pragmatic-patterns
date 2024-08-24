@@ -420,3 +420,11 @@
     color: #ab101b;
     border: 1px solid #ab101b65;
 }
+
+.comments {
+    background: #fefefe;
+    margin-top: -1.5rem;
+    padding-top: 1.75rem;
+    border-top: 1px dashed #f39200;
+    border-bottom: 2px solid #f39200;
+}

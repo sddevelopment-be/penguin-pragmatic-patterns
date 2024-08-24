@@ -37,12 +37,12 @@
   ],
   "links": [
     {
-            "href": "{{ $siteUrl }}/practices/{{ .Params.UUID }}",
+            "href": "{{ $siteUrl }}practices/{{ .Params.UUID }}",
             "rel": "self",
             "type": "GET"
     },
     {
-    "href": "{{ $siteUrl }}/{{ .RelPermalink }}",
+    "href": "{{ $siteUrl }}{{ .RelPermalink }}",
     "rel": "alternate",
     "type": "GET"
     }
@@ -53,7 +53,7 @@
           {
             "rel": "related",
             "type": "GET",
-            "href": "{{ $siteUrl }}/practices/{{ $value }}"
+            "href": "{{ $siteUrl }}practices/{{ $value }}"
           } {{ if lt $index (math.Sum (len $relatedPractices) -1) }},{{ end }}
       {{end}}{{if ge (len $relatedPractices) 1 }},{{end}}
       {{end}}
@@ -62,7 +62,7 @@
         {
           "rel": "related",
           "type": "GET",
-          "href": "{{ $siteUrl }}/concepts/{{ $value }}"
+          "href": "{{ $siteUrl }}concepts/{{ $value }}"
         } {{ if lt $index (math.Sum (len $relatedConcepts) -1) }},{{ end }}
       {{end}}
       {{end}}
@@ -79,8 +79,8 @@
         {
           "rel": "appendix",
           "type": "GET",
-          {{ if (eq $value.type "biblio") }}"href": "{{ $siteUrl }}/books/{{ $value.id }}"{{end}}
-          {{ if (eq $value.type "tool") }}"href": "{{ $siteUrl }}/tools/{{ $value.id }}"{{end}}
+          {{ if (eq $value.type "biblio") }}"href": "{{ $siteUrl }}books/{{ $value.id }}"{{end}}
+          {{ if (eq $value.type "tool") }}"href": "{{ $siteUrl }}tools/{{ $value.id }}"{{end}}
         } {{ if lt $index (math.Sum (len $furtherExploration ) -1) }},{{ end }}
         {{ end }}
     {{end}}

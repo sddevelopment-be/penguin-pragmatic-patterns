@@ -67,6 +67,7 @@ The following factors prevent effective application of the practice:
 ## Examples
 
 > Case-studies, testimonials, or other examples that illustrate the pattern in action.
+
 --- END OF TEMPLATE ---
 
 The pattern description is show below. 

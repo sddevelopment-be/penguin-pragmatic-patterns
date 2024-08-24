@@ -48,7 +48,7 @@ experiences gathered from various sources, combined with the author's personal e
 The primary goal is to share knowledge and help others improve their skills while navigating the challenges of working in the software development
 field. Ultimately, if this work contributes to making someone's life a little more enjoyable, the mission is accomplished.
 
-{{< quote text=`
+{{\<quote text=`
 Heeded my words not, did you? Pass on what you have learned. Strength. Mastery.
 But weakness, folly, failure also. Yes,failure most of all.
 The greatest teacher, failure is. Luke, we are what they grow beyond. That is the true burden of all masters.`
@@ -113,7 +113,9 @@ Some patterns may contain references to other resources, as well as supporting e
   Please note that pattern lists are not like a bingo chart or a collection of Pokémon.
   There is no special prize for incorporating all the patterns in this publication into your work or life. Instead, we encourage you to be selective
   and only use the practices that resonate with you. You are free to modify them according to your needs and preferences. After all, who are we to
-  tell you what to do?` >}}
+  tell you what to do?`
+
+> }}
 
 ## Interoperability with other frameworks
 
@@ -198,7 +200,7 @@ indicates no meaningful impact, and 1 indicates a significant positive impact. T
 |      <i class='fas fa-angle-up'></i>     | `]0.25; 0.5]`   | Moderate positive impact    |
 |  <i class='fas fa-angle-double-up'></i>  | `]0.5; 1]`      | Significant positive impact |
 
-{{</ bootstrap-table >}}
+{{\\</ bootstrap-table >}}
 
 We hope you find this knowledge base useful and that it helps you navigate the challenges of working in the software development field.
 

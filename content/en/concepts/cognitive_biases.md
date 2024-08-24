@@ -13,7 +13,7 @@ categories = [
     "learning"
 ]
 tags = [
-    "thinking", "psychology", "decision-making", "meta-cognition"
+    "thinking", "psychology", "decision-making", "meta-cognition", "critical thinking", "reflection"
 ]
 uuid="d0ce5702-9059-419c-abbf-0d3e501fbaf7"
 aliases=["d0ce5702-9059-419c-abbf-0d3e501fbaf7"]

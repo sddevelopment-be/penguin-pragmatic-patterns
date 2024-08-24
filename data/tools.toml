@@ -210,3 +210,30 @@ description = """
 """
 type = "site"
 tags = []
+
+
+[[tool]]
+id = "146fc358-525c-4ad3-915f-efd6f6f04f11"
+name = "The GROWS method"
+authors = "Hunt, A."
+link = "https://growsmethod.com/"
+site = "growsmethod.com"
+year = "2023"
+image = "grows_method.webp"
+description = """
+"""
+type = "site"
+tags = []
+
+[[tool]]
+id = "c279aea8-47fc-4b2d-8f61-89109fb30a3c"
+name = "The dream game"
+authors = "Barnes, M."
+link = "https://theeducationgame.com/coaching/"
+site = "theeducationgame.com"
+year = "2021"
+image = "teg.webp"
+description = """
+"""
+type = "site"
+tags = []

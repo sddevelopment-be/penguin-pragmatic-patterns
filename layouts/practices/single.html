@@ -43,18 +43,6 @@
                 <span class="summary-content">{{.Params.pubdate}}</span>
             </div>
             {{ end }}
-            {{ if $tags }}
-                <div class="summary-item">
-                    <span class="summary-title">Tags:</span>
-                    <span class="summary-content">
-                        <div class="pattern-tags">
-                        {{ range $index, $value := (sort $tags "value" "asc") }}
-                            <span class="pattern-tag"><a href="/tags/{{ $value | urlize }}">{{ $value }}</a></span>
-                        {{end}}
-                        </div>
-                    </span>
-                </div>
-            {{ end }}
             {{if .Params.outputs}}
             <div class="summary-item ">
                 <span class="summary-title">{{ .Params.outputs | len }} formats available:</span>
@@ -84,6 +72,17 @@
                         {{ end }}
                     </div>
                 </div>
+            </div>
+            {{ end }}
+            {{ if $tags }}
+            <div class="summary-item">
+                <span class="summary-content full">
+                        <div class="pattern-tags">
+                        {{ range $index, $value := (sort $tags "value" "asc") }}
+                            <span class="pattern-tag"><a href="/tags/{{ $value | urlize }}">{{ $value }}</a></span>
+                        {{end}}
+                        </div>
+                    </span>
             </div>
             {{ end }}
         </div>

@@ -44,7 +44,7 @@ further_exploration = [
   {type="tool", id="830947a8-b8c1-4fb1-b1ea-1468060d607c"},
   {type="tool", id="7202b347-87f0-43af-b011-e6ee30a8cff7"},
   {type="raw", author="Kustagi, R.", year="2023", title="A Guide To Growing Your Technical Knowledge Portfolio", site="DZone.com", link="https://dzone.com/articles/a-guide-to-growing-your-technical-knowledge-portfo" }, 
-  {type="raw"   , author="StackOverflow Community", year="2023", title="Stack Overflow Annual Developer Survey", site="StackOverflow.com", link="https://survey.stackoverflow.com/"}
+  {type="raw", author="StackOverflow Community", year="2024", title="Stack Overflow Annual Developer Survey", site="StackOverflow.com", link="https://stackoverflow.blog/2024/07/24/developers-want-more-more-more-the-2024-results-from-stack-overflow-s-annual-developer-survey/"}
 ]
 +++
 

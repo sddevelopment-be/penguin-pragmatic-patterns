@@ -14,7 +14,7 @@ tags = [
   "analysis",
   "evaluation",
   "decision-making",
-  "systemic-thinking",
+  "systems thinking",
   "trade-offs",
   "AMMERSE"
 ]

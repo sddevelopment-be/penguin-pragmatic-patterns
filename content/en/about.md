@@ -188,6 +188,7 @@ of incorporating the practice into their work. To do so, we use a scale from -1 
 indicates no meaningful impact, and 1 indicates a significant positive impact. The iconography used to represent these values is as follows:
 
 {{< bootstrap-table "bootstrap-table table-striped table-responsive half-width" >}}
+
 |                   icon                   | value range     | meaning                     |
 |:----------------------------------------:|-----------------|-----------------------------|
 | <i class='fas fa-angle-double-down'></i> | `]-0.5; -1]`    | Significant negative impact |
@@ -197,6 +198,7 @@ indicates no meaningful impact, and 1 indicates a significant positive impact. T
 |  <i class='fas fa-arrow-trend-up'></i>   | `]0.1; 0.25]`   | Slight positive impact      |
 |     <i class='fas fa-angle-up'></i>      | `]0.25; 0.5]`   | Moderate positive impact    |
 |  <i class='fas fa-angle-double-up'></i>  | `]0.5; 1]`      | Significant positive impact |
+
 {{</ bootstrap-table >}}
 
 

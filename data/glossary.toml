@@ -695,6 +695,21 @@ aliases = ["Escalation of commitment "]
 references = []
 
 [[terminology]]
+name = "Systems Thinking"
+abbreviation = ""
+domain = "Learning"
+description = """
+Systems Thinking is an approach to understanding and solving complex problems by viewing them as parts of an interconnected whole rather than in isolation. It involves recognizing patterns, relationships, and feedback loops within systems to better anticipate the impact of decisions and actions, thereby enabling more holistic and effective solutions.
+"""
+aliases = ["Holistic Thinking", "Systems Approach"]
+references = [
+    { title = "The Fifth Discipline: The Art & Practice of The Learning Organization by Peter Senge", link = "https://www.amazon.com/Fifth-Discipline-Practice-Learning-Organization/dp/0385517254" },
+    { title = "Thinking in Systems: A Primer by Donella H. Meadows", link = "https://www.amazon.com/Thinking-Systems-Donella-H-Meadows/dp/1603580557" },
+    { title = "Systems Thinking For Social Change: A Practical Guide to Solving Complex Problems, Avoiding Unintended Consequences, and Achieving Lasting Results by David Peter Stroh", link = "https://www.amazon.com/Systems-Thinking-Social-Change-Consequences/dp/160358580X" }
+]
+
+
+[[terminology]]
 name = "Non-Preemptive scheduling"
 domain = "software development"
 description = """
@@ -821,6 +836,20 @@ Many admired scholars, such as Aristotle, Galileo, Da Vinci, and Isaac Newton, w
 aliases = ["Renaissance men"]
 references = [
     { title = "Polymath on wikipedia", link = "https://en.wikipedia.org/wiki/Polymath" }
+]
+
+[[terminology]]
+name = "Prioritization"
+abbreviation = ""
+domain = "Productivity"
+description = """
+Prioritization is the process of arranging tasks, activities, or projects in order of importance or urgency to ensure that the most critical and impactful work is completed first. It is a key skill in productivity, helping individuals and teams manage time and resources efficiently by focusing on what truly matters and deferring or delegating less critical tasks.
+"""
+aliases = ["Task Ranking", "Priority Setting"]
+references = [
+    { title = "Essentialism: The Disciplined Pursuit of Less by Greg McKeown", link = "https://www.amazon.com/Essentialism-Disciplined-Pursuit-Greg-McKeown/dp/0804137382" },
+    { title = "The 7 Habits of Highly Effective People by Stephen R. Covey", link = "https://www.amazon.com/Habits-Highly-Effective-People-Powerful/dp/0743269519" },
+    { title = "Eat That Frog!: 21 Great Ways to Stop Procrastinating and Get More Done in Less Time by Brian Tracy", link = "https://www.amazon.com/Eat-That-Frog-Great-Procrastinating/dp/162656941X" }
 ]
 
 [[terminology]]

@@ -1,6 +1,15 @@
 "base_path": "."
 "base_url": "https://api.crowdin.com"
 
+"pull_request_labels": [
+    "crowdin",
+    "l10n"
+]
+"commit_message": "[ci skip]"
+"pull_request_assignees": [
+    "stijn-dejongh"
+]
+
 #
 # Choose file structure in Crowdin
 "preserve_hierarchy": true
@@ -10,15 +19,21 @@ files: [
     "source": "/content/en/**/*.md",
     "translation": "/content/%two_letters_code%/**/%original_file_name%",
     "ignore": ["/**/%two_letters_code%/*", "*TEMPLATE*"],
+    "escape_quotes": 0,
+    "escape_special_characters": 0
   },
   {
     "source": "/content/en/*.md",
     "translation": "/content/%two_letters_code%/%original_file_name%",
     "ignore": [ "/%two_letters_code%/*", "*TEMPLATE*" ],
+    "escape_quotes": 0,
+    "escape_special_characters": 0
   },
   {
     "source": "/data/*",
     "translation": "/data/%file_name%_%two_letters_code%.%file_extension%",
     "ignore": [ "/data/*_nl.*" ],
+    "escape_quotes": 0,
+    "escape_special_characters": 0
   }
 ]

@@ -43,6 +43,7 @@
     }
   ],
   "relatedContent": [
+      {{ if $relatedPractices }}
       {{ range $index, $value := $relatedPractices }}
           {
             "rel": "related",
@@ -50,6 +51,8 @@
             "href": "/practices/{{ $value }}"
           } {{ if lt $index (math.Sum (len $relatedPractices) -1) }},{{ end }}
       {{end}}{{if ge (len $relatedPractices) 1 }},{{end}}
+      {{end}}
+      {{ if $relatedConcepts }}
       {{ range $index, $value := $relatedConcepts }}
         {
           "rel": "related",
@@ -57,13 +60,14 @@
           "href": "/concepts/{{ $value }}"
         } {{ if lt $index (math.Sum (len $relatedConcepts) -1) }},{{ end }}
       {{end}}
+      {{end}}
   ],
   "references": [
     {{ range $index, $value := $furtherExploration }}
         {{ if (eq $value.type "raw") }}
         {{ else }}
         {
-          "rel": "related",
+          "rel": "appendix",
           "type": "GET",
           {{ if (eq $value.type "biblio") }}"href": "/books/{{ $value.id }}"{{end}}
           {{ if (eq $value.type "tool") }}"href": "/tools/{{ $value.id }}"{{end}}

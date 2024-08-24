@@ -1,4 +1,20 @@
 [[terminology]]
+name = "Efficiency"
+abbreviation = ""
+domain = "Productivity"
+description = """
+Efficiency refers to the ability to achieve maximum output with minimum input. It involves optimizing the use of resources (such as time, energy, and materials)
+to accomplish tasks in the most effective and economical manner, thereby reducing waste and increasing overall productivity.
+"""
+aliases = ["Effectiveness", "Resource Optimization"]
+references = [
+    { title = "The Effective Executive by Peter Drucker", link = "https://www.amazon.com/Effective-Executive-Peter-F-Drucker/dp/0060833459" },
+    { title = "The 4-Hour Workweek by Timothy Ferriss", link = "https://www.amazon.com/4-Hour-Workweek-Escape-Live-Anywhere/dp/0307465357" },
+    { title = "The Principles of Scientific Management by Frederick Taylor", link = "https://www.gutenberg.org/ebooks/6435" },
+    { title = "Harvard Business Review - Articles on Productivity", link = "https://hbr.org/search?term=productivity+efficiency" }
+]
+
+[[terminology]]
 name = "Application Programming Interface"
 abbreviation = "API"
 domain = "software"
@@ -649,6 +665,21 @@ aliases = []
 references = [
     { title = "Refactoring: Improving the Design of Existing Code", link = "https://www.goodreads.com/book/show/18624706-refactoring" }
 ]
+
+[[terminology]]
+name = "Strategic Learning"
+abbreviation = ""
+domain = "Learning"
+description = """
+Strategic Learning refers to the process of acquiring and applying knowledge in a way that aligns with long-term goals and objectives. It involves continuously learning, adapting, and refining strategies based on experience, feedback, and changing circumstances to ensure that actions taken are effective in achieving desired outcomes.
+"""
+aliases = ["Adaptive Learning", "Strategic Knowledge Acquisition"]
+references = [
+    { title = "Strategic Learning: How to Be Smarter Than Your Competition and Turn Key Insights into Competitive Advantage by Willie Pietersen", link = "https://www.amazon.com/Strategic-Learning-Competition-Insights-Advantage/dp/1118163795" },
+    { title = "The Fifth Discipline by Peter Senge", link = "https://www.amazon.com/Fifth-Discipline-Practice-Learning-Organization/dp/0385517254" },
+    { title = "Learning in Action: A Guide to Putting the Learning Organization to Work by David A. Garvin", link = "https://www.amazon.com/Learning-Action-Putting-Organization-Work/dp/1578512514" }
+]
+
 
 [[terminology]]
 name = "Sunk-cost fallacy"

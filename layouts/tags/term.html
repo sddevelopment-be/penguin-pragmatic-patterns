@@ -3,63 +3,105 @@
 {{ partial "navbar-clone.html" . }}
 
 {{ $tag := .Title}}
+{{ $description := .Description}}
+
+{{ $fileToUse := "glossary" }}
+{{ if ne .Site.Language.Lang "en" }}
+    {{ $fileToUse = (printf "%s_%s" "glossary" .Site.Language.Lang ) }}
+{{ end }}
+{{ range $terminology := (sort (index .Site.Data $fileToUse).terminology "name" "asc" ) }}
+    {{ if eq ( $terminology.name | lower ) $tag }}
+        {{ $description = $terminology.description }}
+    {{ end }}
+{{ end }}
 
 <section class="section section-feature-grey is-medium" id="practices">
     <div class="container">
-
-        <div class="content">
-            Below is an overview of content that matches the tag <i>"{{ $tag }}"</i>.
-            <br /><br />
-            Note that this list is not exhaustive, as it is automatically aggregated based on manually assigned categorizations.<br />
-            If you notice a missing element, or think some of the items are wrongfully categorized, please create a bug/improvement ticket on our <a href="https://github.com/sddevelopment-be/penguin-pragmatic-patterns/issues" target="_blank">github issue tracker</a>.
-
-            <br /><br />
-            An overview of all tags used in this publication can be found in our tag list: <a href='{{ "/tags/" | relLangURL }}'>go to overview</a>
-        </div>
-
-        <div class="content-wrapper">
-            <div class="column is-centered-tablet-portrait">
-                <h2 class="title section-title">
-                    Patterns: {{ .Title }}
-                </h2>
+        <div class="recommendation-item" >
+            <div class="recommendation-title">
+                <h3 id={{ replace $tag " " "-" | lower }}>{{ $tag }}</h3>
+                <span class="permalink">
+                ( <a href="/tags/{{$tag}}" rel="noreferrer" target="_blank">permalink</a> )
+        </span>
             </div>
-            <div class="pattern-list">
-                <div class="wrapped-columns pattern_container">
-                    {{ $patterns := slice  }}
-                        {{ range where (where .Site.Pages ".Params.tags" "intersect" (slice $tag)) "Section" "in" (slice "practices" "concepts") }}
-                        {{ $ctx := dict
-                            "Date" .Date
-                            "Title" .Title
-                            "RelPermalink" .RelPermalink
-                            "Description"  .Description
-                            "Problem" .Params.problem
-                            "Categories" .Params.categories
-                            "Tags" .Params.tags
-                            "Ammerse" .Params.Ammerse
-                            }}
-                            {{ $patterns = $patterns | append $ctx }}
-                        {{ end }}
-                    {{ partial "flex_cards.html" (dict "context" . "patterns" $patterns) }}
-                </div>
-            </div>
-        </div>
-
-        <div class="content-wrapper">
-            <div class="column is-centered-tablet-portrait">
-                <h2 class="title section-title">
-                    Resources: {{ .Title }}
-                </h2>
-            </div>
-            <div class="pattern-list">
-                <div class="recommendation-wrapper">
-                    {{ range $book := (index .Site.Data "bibliography").book }}
-                        {{ if and (not $book.draft) (intersect $book.tags (slice $tag))}}
-                            {{ partial "book_biblio.html" (dict "book" $book) }}
-                        {{end}}
+            <div class="recommendation-content">
+                <div class="recommendation-text">
+                    {{ if $description }}
+                        <div class="recommendation-description text-item">
+                            <b>description:</b>
+                            <p>{{ $description }}</p>
+                        </div>
                     {{ end }}
+                    <div class="text-item">
+                        <b>Information:</b>
+                        <p>
+                            Below is an overview of content that matches the tag <i>"{{ $tag }}"</i>.
+                            <br /><br />
+                            Note that this list is not exhaustive, as it is automatically aggregated based on manually assigned categorizations.<br />
+                            If you notice a missing element, or think some of the items are wrongfully categorized, please create a bug/improvement ticket on our <a href="https://github.com/sddevelopment-be/penguin-pragmatic-patterns/issues" target="_blank">github issue tracker</a>.
+                        </p>
+                    </div>
+                    <div class="text-item">
+                        An overview of all tags used in this publication can be found in our tag list: <a href='{{ "/tags/" | relLangURL }}'>go to overview</a>
+                    </div>
                 </div>
             </div>
         </div>
+
+        {{ $patterns := slice  }}
+        {{ range where (where .Site.Pages ".Params.tags" "intersect" (slice $tag)) "Section" "in" (slice "practices" "concepts") }}
+            {{ $ctx := dict
+            "Date" .Date
+            "Title" .Title
+            "SubTitle" .Params.subtitle
+            "Image" .Params.image
+            "RelPermalink" .RelPermalink
+            "Description"  .Description
+            "Problem" .Params.problem
+            "Categories" .Params.categories
+            "Tags" .Params.tags
+            "Ammerse" .Params.Ammerse
+            }}
+            {{ $patterns = $patterns | append $ctx }}
+        {{ end }}
+        {{if ge (len $patterns) 1}}
+            <div class="content-wrapper">
+                <div class="column is-centered-tablet-portrait">
+                    <h2 class="title section-title">
+                        Patterns: {{ .Title }}
+                    </h2>
+                </div>
+                <div class="pattern-list">
+                    <div class="wrapped-columns pattern_container">
+
+                            {{ partial "flex_cards.html" (dict "context" . "patterns" $patterns) }}
+                    </div>
+                </div>
+            </div>
+        {{ end }}
+
+        {{ $resources := slice  }}
+        {{ range $book := (index .Site.Data "bibliography").book }}
+            {{ if and (not $book.draft) (intersect $book.tags (slice $tag))}}
+                {{ $resources = $resources | append $book }}
+            {{end}}
+        {{ end }}
+        {{ if ge (len $resources) 1 }}
+            <div class="content-wrapper">
+                <div class="column is-centered-tablet-portrait">
+                    <h2 class="title section-title">
+                        Resources: {{ .Title }}
+                    </h2>
+                </div>
+                <div class="pattern-list">
+                    <div class="recommendation-wrapper">
+                        {{ range $resource := $resources }}
+                            {{ partial "book_biblio.html" (dict "book" $resource) }}
+                        {{ end }}
+                    </div>
+                </div>
+            </div>
+        {{ end }}
     </div>
 </section>
 

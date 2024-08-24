@@ -2,26 +2,45 @@
 title = "Traceable decisions"
 author = "Stijn Dejongh"
 problem = "You are looking for ways to enhance productivity by reducing meeting time, interruptions, and communication overhead."
-description = "Write minimally viable documentation to assist in decision tracking, context understanding, and effective stakeholder communication."
+description = "Creating minimal but effective design documentation to track and communicate decisions in software development, reducing the need for excessive meetings and improving team alignment."
+summary = """
+Streamline your software development process by documenting decisions with 'just enough design documentation'. 
+Save time, avoid miscommunication, and focus on what really matters: getting things done.
+"""
 categories = [
     "software development",
 ]
 tags = [
-    "decision-making", "organizing", "goals", "research", "tracking"
+    "decision-making", "organizing", "goals", "research", "tracking", "documentation"
 ]
 uuid="e6cdeaa2-cc30-4928-95fd-f28ea7cb489d"
 aliases=["e6cdeaa2-cc30-4928-95fd-f28ea7cb489d", "ADRs"]
+outputs = ['html', 'json']
 ammerse = [
-    {name = "agile", delta = "0.5"},
-    {name = "minimal", delta = "-1"},
-    {name = "maintainable", delta = "1"},
-    {name = "environmental", delta = "0"},
-    {name = "reachable", delta = "0"},
-    {name = "solvable", delta = "1"},
-    {name = "extensible", delta = "0.5"},
+  {name = "agile", delta = "0.45", rationale = "Documentation improves agility by providing structured decision-tracking, enabling quick adaptation."},
+  {name = "minimal", delta = "-0.35", rationale = "The necessary overhead is offset by efforts to keep documentation minimal."},
+  {name = "maintainable", delta = "0.9", rationale = "Documentation significantly enhances maintainability by providing a reliable reference for future tasks and reducing knowledge loss."},
+  {name = "environmental", delta = "0.15", rationale = "The impact is positive but limited, depending on the organizational culture."},
+  {name = "reachable", delta = "0.4", rationale = "Clear documentation aids in setting and achieving realistic goals within project constraints."},
+  {name = "solvable", delta = "0.8", rationale = "Documentation enhances problem-solving by providing clear context and records of past decisions."},
+  {name = "extensible", delta = "0.5", rationale = "Documentation moderately supports scalability and extensibility, though the impact is less pronounced."}
 ]
 pubdate = "2024-04-20"
 image = "practices/traceable_decisions_cover.webp"
+related_concepts = [
+]
+related_practices = [
+    "642d0d66-7b5d-4900-8f68-66adf41466d2"
+]
+further_exploration = [
+    { type="biblio", id="e15a25a0-6c08-4b78-b593-ca54eea8cce2" },
+    { type="biblio", id="a32510dd-068d-4072-8b68-cce120864a64" },
+    { type="tool", id="fa17a430-1b3c-487b-82a6-d1b6d5e35d48" },
+    { type="raw", author="Brown, S.", year="2023", title="The C4 model for visualising software architecture", publisher="LeanPub", link="https://leanpub.com/visualising-software-architecture" },
+    { type="raw", author="plantUML Open Source Community", year="2024", title="plantUML: diagrams as code", site="plantUML.com", link="https://www.plantuml.com" },
+    { type="raw", author="various contributors", year="2024", title="Objectives and key results", site="wikipedia.org", link="https://en.wikipedia.org/wiki/Objectives_and_key_results" },
+    { type="raw", author=" Object Management Group", year="2010", title="Business Process Model And Notation Specification - Version 2.0", site="omg.org", link="https://www.omg.org/spec/BPMN/2.0/" },
+]
 +++
 
 ## Problem Statement
@@ -30,13 +49,22 @@ You are making decisions in your software development process, and spending cons
 management, and business stakeholders. These parties are not always aware of the context in which the decision was made, the trade-offs that were considered,
 making it hard for them to evaluate the impact of their own decisions on the project.
 
-
 ## Intent
 
 Use a structured way to document the decisions made in your software development process. This will allow you to track the decisions made, and 
 why they were made. It will also allow you to evaluate the impact of these decisions, and to communicate them to the relevant stakeholders in an 
 asynchronous way. This will allow you to spend less time in meetings or answering questions, and more time on work that requires focus ( Talk 
 less, Do more ).
+
+## Solution
+
+Write *"just enough design documentation"* to document the decisions made in your software development process. Make sure you keep the
+documentation as light-weight and accessible as possible. The aim is to make the documentation useful, not to make it complete.
+You should generally start by writing down some high-level design documentation, outlining the project goals, the key stakeholders, and the
+context in which you are working. This will help you when trade-offs need to be made, to evaluate the impact of decisions, and to communicate
+with various stakeholders. The high-level documents should be readable by anyone, and are an excellent visual aid to discuss ideas and
+challenges. As your team matures and develops other needs, you can add more detailed documents, such as functional requirements, technical
+designs, and drill-downs of particularly complicated aspects of the system.
 
 ## Contextual forces
 
@@ -60,17 +88,9 @@ The following factors prevent effective application of the practice:
 * Your organization has a culture of "blame and shame".
 * Your team is not used to writing documentation.
 
-## Solution
+## Application
 
-Write *"just enough design documentation"* to document the decisions made in your software development process. Make sure you keep the 
-documentation as light-weight and accessible as possible. The aim is to make the documentation useful, not to make it complete. 
-You should generally start by writing down some high-level design documentation, outlining the project goals, the key stakeholders, and the 
-context in which you are working. This will help you when trade-offs need to be made, to evaluate the impact of decisions, and to communicate 
-with various stakeholders. The high-level documents should be readable by anyone, and are an excellent visual aid to discuss ideas and 
-challenges. As your team matures and develops other needs, you can add more detailed documents, such as functional requirements, technical 
-designs, and drill-downs of particularly complicated aspects of the system. 
-
-## Considerations
+### Considerations
 
 * **Over-documentation:** There is a risk of creating too much documentation, which can become overwhelming and counterproductive.
 * **Resistance to Change:** Teams not used to documentation may resist adopting this pattern.
@@ -90,6 +110,8 @@ designs, and drill-downs of particularly complicated aspects of the system.
 ## Examples
 
 ### Just-enough design documentation templates
+
+{{< image src="/images/practices/traceable_decisions_example_overview.png" float="right" size="34%" >}}
 
 Writing design documentation can be a daunting task. It is often seen as a necessary evil, and as a result, it is often done poorly.
 The result of this is that the documentation is not useful, stays unmaintained, and is not used by the team. 
@@ -114,8 +136,6 @@ Just make sure to only write what is needed, and what is likely to remain unchan
 For instance, adding a detailed technical diagram of all the classes in your system is likely to be a waste of time,
 as it will be outdated as soon as you start coding. Instead, focus on the high-level architecture, the key components, and the most important
 trade-offs. Your aim is for the documentation to be useful, not for it to be complete.
-
-{{< image src="/images/practices/traceable_decisions_example_overview.png" >}}
 
 #### Design Vision Template
 
@@ -142,7 +162,8 @@ It answers the questions: *"What are we trying to do, why are we trying to do it
     > compete with third-party vendors and suppliers, Hardware Company ABC wants to provide a platform to allow international customers 
     > to purchase products online.".
 
-    For a more detailed breakdown of the business goals into functional requirements, refer to the [Functional Requirements Overview](./functional_requirements.md).
+    For a more detailed breakdown of the business goals into functional requirements, 
+    refer to the [Functional Requirements Overview](./functional_requirements.md).
     
     ## Desired Quality Attributes
     
@@ -392,45 +413,3 @@ outdated or takes away the possibility of independent thought during implementat
     * **Estimated added value:** `high`, `medium`, `low`
     * **Depends on:** ???
 ```
-
-## Further Exploration
-
-* {{<reference author="Keeling, M."
-    year="2017"
-    isbn="1680502093"
-    title="Design It: From Programmer to Software Architect"
-    publisher="The Pragmatic Bookshelf"
-    link="https://pragprog.com/titles/mkdsa/design-it/" >}}
-* {{<reference author="Brown, S."
-    year="2023"
-    title="The C4 model for visualising software architecture"
-    publisher="LeanPub"
-    link="https://leanpub.com/visualising-software-architecture" >}}
-* {{<reference author="Crossland, J."
-  year="2024"
-  title="AMMERSE: Empowering Businesses with core values"
-  site="AMMERSE.org"
-  link="https://www.ammerse.org/" >}}
-* {{<reference author="plantUML Open Source Community"
-  year="2024"
-  title="plantUML: diagrams as code"
-  site="plantUML.com"
-  link="https://www.plantuml.com" >}}
-* {{<reference author="various contributors"
-  year="2024"
-  title="Objectives and key results"
-  site="wikipedia.org"
-  link="https://en.wikipedia.org/wiki/Objectives_and_key_results" >}}
-* {{<reference author=" Object Management Group"
-    year="2010"
-    title="Business Process Model And Notation Specification - Version 2.0"
-    site="omg.org"
-    link="https://www.omg.org/spec/BPMN/2.0/" >}}
-* {{<reference author="Skelton, M.; Pais, M." year="2019"
-    isbn="9781942788829"
-    title="Team Topologies: Organizing Business and Technology Teams for Fast Flow"
-    publisher="It Revolution Press"
-    link="https://pragprog.com/titles/mkdsa/design-it/" >}}
----
-
-

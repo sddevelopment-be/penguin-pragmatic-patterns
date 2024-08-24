@@ -699,7 +699,7 @@ Whether you're aiming to excel in a hobby or advance professionally,
 Young's guidance will equip you with the tools needed for continuous improvement.
 """
 levels = ["novice", "reference"]
-tags = ["productivity", "goals", "learning", "efficiency", "thinking"]
+tags = ["productivity", "goals", "strategic learning", "efficiency", "thinking"]
 
 [[book]]
 id = "ee406fae-4177-4abc-8d70-23175009bc58"
@@ -735,3 +735,16 @@ description = """
 levels = ["intermediate", "reference"]
 tags = ["programming", "unix", "efficiency", "structure", "architecture"]
 
+[[book]]
+id = "0b0d7895-af87-4564-881f-501cb38c5e7a"
+title = "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones"
+isbn = "0735211299"
+authors = "Clear, J."
+publisher = "Avery"
+year = "2018"
+link = "https://www.goodreads.com/book/show/40244063-atomic-habits"
+image = "atomic_habbits.webp"
+description = """
+"""
+levels = ["novice"]
+tags = ["productivity", "goals", "habits", "efficiency", "time management", "efficiency"]

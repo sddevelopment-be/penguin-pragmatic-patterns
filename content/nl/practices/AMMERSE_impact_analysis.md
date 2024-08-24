@@ -100,28 +100,6 @@ You want to ensure balanced and well-informed decision-making that aligns with d
 - Make informed choices that align with your strategic goals.
 - Introduce quantitative reasoning to indicate the impact of decisions on key values.
 
-## Contextual forces
-
-### Enablers
-
-The following factors support effective application of the practice:
-
-- **Framework Knowledge:** Understanding of trade-offs, systemic thinking, and the AMMERSE framework for value alignment.
-- **Alignment:** Effective communication within the team, and a shared vision.
-- **Desire for structural evaluations:** Stakeholder commitment to regular review and adaptation. A need for deep analysis of decisions and
-  practices.
-- **Contextual Awareness:** Understanding of the context in which the evaluated decision is taken.
-
-### Deterrents
-
-The following factors prevent effective application of the practice:
-
-- **Lack of knowledge:** Lack of understanding of AMMERSE, or lack of understanding of the concept of trade-offs.
-- **Gung Ho Execution:** Rushed, or inconsistent application of the analysis.
-- **Risk Aversion:** Resistance to change from stakeholders.
-- **Unknown Situations:** Limited knowledge of the context in which the evaluated decision is taken. Lack of even the most basic conceptual
-  model of the system in which the decision will have an impact.
-
 ## Solution
 
 The AMMERSE Impact Analysis involves several steps:
@@ -136,7 +114,7 @@ The AMMERSE Impact Analysis involves several steps:
 
 The AMMERSE Impact Analysis is a comprehensive framework assessing the impact of practices, techniques, and decisions on seven AMMERSE values. By
 examining both direct and indirect effects, this algorithm provides a detailed picture of how changes can influence a system, helping stakeholders
-make informed decisions. This approach is based on [the AMMERSE framework for decision making](https://www.ammerse.org/toolbox/decision-making/).
+make informed decisions. This approach is based on [the AMMERSE framework for decision-making](https://www.ammerse.org/toolbox/decision-making/).
 
 ### Key component: AMMERSE VALUES
 
@@ -191,6 +169,28 @@ The AMMERSE decision-making framework defines seven core values that guide decis
    - **Consideration:** Reflect on the implications of the practice or decision based on the analysis, focussing on the negative (or unexpected)
      interactions.
    - **Recommendations:** Provide recommendations for mitigation or additional thought based on the comprehensive analysis.
+
+## Contextual forces
+
+### Enablers
+
+The following factors support effective application of the practice:
+
+- **Framework Knowledge:** Understanding of trade-offs, systemic thinking, and the AMMERSE framework for value alignment.
+- **Alignment:** Effective communication within the team, and a shared vision.
+- **Desire for structural evaluations:** Stakeholder commitment to regular review and adaptation. A need for deep analysis of decisions and
+  practices.
+- **Contextual Awareness:** Understanding of the context in which the evaluated decision is taken.
+
+### Deterrents
+
+The following factors prevent effective application of the practice:
+
+- **Lack of knowledge:** Lack of understanding of AMMERSE, or lack of understanding of the concept of trade-offs.
+- **Gung Ho Execution:** Rushed, or inconsistent application of the analysis.
+- **Risk Aversion:** Resistance to change from stakeholders.
+- **Unknown Situations:** Limited knowledge of the context in which the evaluated decision is taken. Lack of even the most basic conceptual
+  model of the system in which the decision will have an impact.
 
 ## Rationale
 

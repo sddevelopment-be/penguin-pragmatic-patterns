@@ -6,8 +6,8 @@ description = ""
 summary = ""
 categories = [ "software development" ]
 tags = [ "remembering", "tracking", "tracability", "log" ]
-uuid = "GENERATE-ME!"
-aliases = [ "uuid" ]
+uuid = "ec95a389-25c7-4919-8246-dc6e7c725b5c"
+aliases = [ "ec95a389-25c7-4919-8246-dc6e7c725b5c" ]
 related_concepts = [ ]
 related_practices = [ ]
 +++

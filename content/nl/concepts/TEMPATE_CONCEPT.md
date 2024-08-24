@@ -1,15 +1,18 @@
 +++
+draft = true
 title = "CONCEPT name"
 author = "Stijn Dejongh"
-draft = true
 description = ""
 summary = ""
 categories = [ "software development" ]
 tags = [ "remembering", "tracking", "tracability", "log" ]
 uuid = "GENERATE-ME!"
 aliases = [ "uuid" ]
+pubdate = ""
+image = ""
 related_concepts = [ ]
 related_practices = [ ]
+further_exporlation = [ ]
 +++
 
 ## Definition

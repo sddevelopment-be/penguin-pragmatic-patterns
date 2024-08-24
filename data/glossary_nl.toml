@@ -1,4 +1,30 @@
 [[terminology]]
+name = "Efficiency"
+abbreviation = ""
+domain = "Productivity"
+description = """
+Efficiency refers to the ability to achieve maximum output with minimum input. It involves optimizing the use of resources (such as time, energy, and materials)
+to accomplish tasks in the most effective and economical manner, thereby reducing waste and increasing overall productivity.
+"""
+aliases = [ "Effectiveness", "Resource Optimization" ]
+
+  [[terminology.references]]
+  title = "The Effective Executive by Peter Drucker"
+  link = "https://www.amazon.com/Effective-Executive-Peter-F-Drucker/dp/0060833459"
+
+  [[terminology.references]]
+  title = "The 4-Hour Workweek by Timothy Ferriss"
+  link = "https://www.amazon.com/4-Hour-Workweek-Escape-Live-Anywhere/dp/0307465357"
+
+  [[terminology.references]]
+  title = "The Principles of Scientific Management by Frederick Taylor"
+  link = "https://www.gutenberg.org/ebooks/6435"
+
+  [[terminology.references]]
+  title = "Harvard Business Review - Articles on Productivity"
+  link = "https://hbr.org/search?term=productivity+efficiency"
+
+[[terminology]]
 name = "Application Programming Interface"
 abbreviation = "API"
 domain = "software"
@@ -7,10 +33,11 @@ Specifies a set of software functions that are made available to an application 
 The API typically includes function names, the parameters that can be passed into each function, and a
 description of the return values one can expect.
     """
-aliases = []
-references = [
-    { title = "IBM: What is an API?", link = "https://www.ibm.com/topics/api" }
-]
+aliases = [ ]
+
+  [[terminology.references]]
+  title = "IBM: What is an API?"
+  link = "https://www.ibm.com/topics/api"
 
 [[terminology]]
 name = "Asymmetric clustering"
@@ -19,8 +46,8 @@ description = """
 One machine is in hot-standby mode and does nothing by monitor the other.
 In case of failure, the hot-standby takes over.
     """
-aliases = ["failover configuration"]
-references = []
+aliases = [ "failover configuration" ]
+references = [ ]
 
 [[terminology]]
 name = "Asymmetric multiprocessing"
@@ -29,8 +56,8 @@ description = """
 Each processor is assigned to a single task.
 One processor is called the _master (or main) processor_, and controls the system.
     """
-aliases = []
-references = []
+aliases = [ ]
+references = [ ]
 
 [[terminology]]
 name = "Asynchronous cancellation"
@@ -39,8 +66,8 @@ description = """
 Cancellation of a target thread that immediately terminates it.
 (e.g. Unix' `kill -9 $PID` command)
     """
-aliases = []
-references = []
+aliases = [ ]
+references = [ ]
 
 [[terminology]]
 name = "Blade servers"
@@ -49,8 +76,8 @@ description = """
 A single chassis with multiple processor boards, I/O boards, and networking boards.
 Each processor board boots independently and runs its own operating system.
         """
-aliases = []
-references = []
+aliases = [ ]
+references = [ ]
 
 [[terminology]]
 name = "Bootstrap program"
@@ -58,8 +85,8 @@ domain = "software"
 description = """
 An initial program, usually stored on ROM or EEPROM memory, to initialize all aspects of the system.
     """
-aliases = ["bootloader"]
-references = []
+aliases = [ "bootloader" ]
+references = [ ]
 
 [[terminology]]
 name = "Bounded buffer"
@@ -67,8 +94,8 @@ domain = "software"
 description = """
 A type of buffer uses with shared memory IPC. Bounded buffers can only use a fixed amount of memory space.
     """
-aliases = []
-references = []
+aliases = [ ]
+references = [ ]
 
 [[terminology]]
 name = "Boyscout rule"
@@ -79,8 +106,8 @@ will flourish. The term originates from the handbook of the Boyscouts of America
 In software development, the phrase is commonly used to entice programmers to clean up their own messes and the messes that were left behind by
 their predecessors. This relates strongly to the broken window theory.
     """
-aliases = []
-references = []
+aliases = [ ]
+references = [ ]
 
 [[terminology]]
 name = "Broken window theory"
@@ -91,10 +118,11 @@ already decayed, people have less ethical problems with making it worse. In the 
 breaking a single window. Psychologist believe that outward signs of neglect make us feel that no one cares about the object in question, hence we
 are not likely to care for it either.
     """
-aliases = []
-references = [
-    { title = "wikipedia article", link = "https://en.wikipedia.org/wiki/Broken_windows_theory" }
-]
+aliases = [ ]
+
+  [[terminology.references]]
+  title = "wikipedia article"
+  link = "https://en.wikipedia.org/wiki/Broken_windows_theory"
 
 [[terminology]]
 name = "Caching"
@@ -104,8 +132,8 @@ The storing of information on a faster, smaller storage system than the main mem
 Cache management is highly important due to the limited size of the faster storage medium. There are different levels
 of cache-memory, indicating the memory's proximity to the CPU (lower == closer). As the distance to the CPU increases, so does the available memory space of the cache.
     """
-aliases = []
-references = []
+aliases = [ ]
+references = [ ]
 
 [[terminology]]
 name = "Cascading termination"
@@ -113,8 +141,8 @@ domain = "software"
 description = """
 Some systems terminate all the child processes when they terminate the parent process. This is called 'cascading termination'.
     """
-aliases = []
-references = []
+aliases = [ ]
+references = [ ]
 
 [[terminology]]
 name = "Clean Code"
@@ -124,12 +152,19 @@ Clean code refers to code that is easy to understand, maintain, and extend. It i
 accessible to other developers and to the original author when revisiting the code after some time. Clean code minimizes complexity and avoids
 unnecessary clutter.
 """
-aliases = []
-references = [
-    { title = "Extreme Programming Explained: Embrace Change", link = "https://www.goodreads.com/book/show/67833.Extreme_Programming_Explained" },
-    { title = "Refactoring: Improving the Design of Existing Code", link = "https://www.goodreads.com/book/show/18624706-refactoring" },
-    { title = "Clean Code: A Handbook of Agile Software Craftsmanship", link = "https://www.goodreads.com/book/show/3735293-clean-code" }
-]
+aliases = [ ]
+
+  [[terminology.references]]
+  title = "Extreme Programming Explained: Embrace Change"
+  link = "https://www.goodreads.com/book/show/67833.Extreme_Programming_Explained"
+
+  [[terminology.references]]
+  title = "Refactoring: Improving the Design of Existing Code"
+  link = "https://www.goodreads.com/book/show/18624706-refactoring"
+
+  [[terminology.references]]
+  title = "Clean Code: A Handbook of Agile Software Craftsmanship"
+  link = "https://www.goodreads.com/book/show/3735293-clean-code"
 
 [[terminology]]
 name = "Conway's Law"
@@ -144,11 +179,15 @@ is divided into two separate modules, one for invoicing and one for sales. These
 Much like the teams interact with each other along pre-defined communication channels. If the teams are working in isolation, the software will likely be built in a similar way,
 with the two modules being designed in a way that allows them to be deployed and changed as independently as possible.
     """
-aliases = []
-references = [
-    { title = "Conway's Law on wikipedia", link = "https://en.wikipedia.org/wiki/Conway%27s_law" },
-    { title = "Fowler on Conway's Law", link = "https://martinfowler.com/bliki/ConwaysLaw.html" }
-]
+aliases = [ ]
+
+  [[terminology.references]]
+  title = "Conway's Law on wikipedia"
+  link = "https://en.wikipedia.org/wiki/Conway%27s_law"
+
+  [[terminology.references]]
+  title = "Fowler on Conway's Law"
+  link = "https://martinfowler.com/bliki/ConwaysLaw.html"
 
 [[terminology]]
 name = "Command Line Interface."
@@ -157,8 +196,8 @@ domain = "software"
 description = """
 A textual user interface, allowing for system interaction solely through text-based instructions and feedback.
     """
-aliases = ["terminal", "shell"]
-references = []
+aliases = [ "terminal", "shell" ]
+references = [ ]
 
 [[terminology]]
 name = "Clustered systems"
@@ -166,8 +205,8 @@ domain = "computer networks"
 description = """
 Two or more individual systems coupled together, with shared storage and closely linked via a LAN or faster interconnect.
     """
-aliases = []
-references = []
+aliases = [ ]
+references = [ ]
 
 [[terminology]]
 name = "Communication programs"
@@ -178,8 +217,8 @@ These programs provide the mechanism for creating virtual connections among proc
 allow users to send messages to other screens, to browse web pages, to send electronic-mail messages, to log in
 remotely or to transfer files from one machine to another.
     """
-aliases = []
-references = []
+aliases = [ ]
+references = [ ]
 
 [[terminology]]
 name = "Control card"
@@ -189,8 +228,8 @@ description = """
 A batch system concept. This is a command to manage the execution of a process (start, stop, interrupts, ...). It can
 be used to distinct between different error levels, and severity of instructions.
     """
-aliases = []
-references = []
+aliases = [ ]
+references = [ ]
 
 [[terminology]]
 name = "Control program"
@@ -199,8 +238,8 @@ domain = "software"
 description = """
 A control program manages the execution of user programs to prevent errors and improper use of the computer.
     """
-aliases = []
-references = []
+aliases = [ ]
+references = [ ]
 
 [[terminology]]
 name = "Context"
@@ -211,8 +250,8 @@ description = """
 
 - The part of a text or statement that surrounds a particular word or passage and determines its meaning.
     """
-aliases = []
-references = []
+aliases = [ ]
+references = [ ]
 
 [[terminology]]
 name = "Context switching"
@@ -221,8 +260,8 @@ domain = "software"
 description = """
 In computer science: A state save of the current process and the state restore of a different process, when a swap occurs.
     """
-aliases = []
-references = []
+aliases = [ ]
+references = [ ]
 
 [[terminology]]
 name = "CPU registers"
@@ -235,8 +274,8 @@ and general-purpose registers,
 plus any condition-code information (e.g. status codes). Along with the program counter, the content of these registers must be saved when an
 interrupt occurs, to allow the process to be continued correctly afterward.
     """
-aliases = ["registry"]
-references = []
+aliases = [ "registry" ]
+references = [ ]
 
 [[terminology]]
 name = "CPU scheduling information"
@@ -246,8 +285,8 @@ description = """
 Information related to task-scheduling on the processor. Usually includes `process priority`, `pointers to scheduling queues`, as well as
 architecture specific information.
     """
-aliases = []
-references = []
+aliases = [ ]
+references = [ ]
 
 [[terminology]]
 name = "Code Review"
@@ -260,8 +299,8 @@ Code reviews can be conducted in person or remotely using specialized software t
 achieved by catching low-quality work early and fostering better coding practices. Additionally, developers benefit from code reviews by learning
 new techniques and approaches, promoting continuous learning and collaboration within the team.
 """
-aliases = [" four-eyes principle", "peer review"]
-references = []
+aliases = [ " four-eyes principle", "peer review" ]
+references = [ ]
 
 [[terminology]]
 name = "Comma-separated values"
@@ -270,8 +309,8 @@ domain = "software"
 description = """
 A commonly used file format to represent tabular data. These files usually start with a line denoting the names of the columns. Each subsequent line is considered to be a data row.
 """
-aliases = []
-references = []
+aliases = [ ]
+references = [ ]
 
 [[terminology]]
 name = "Domain Driven Design"
@@ -286,8 +325,8 @@ establishes a link between the real conditions of the products' application area
 Domain-Driven Design is about creating shared understanding of the problem space. This shared understanding is reinforced ubiquitously via conversations,
 code and diagrams. DDD’s Shared understanding enhances synergy and alignment, increasing the ability to deliver value sustainably — ideally over the lifetime of a product.
 """
-aliases = []
-references = []
+aliases = [ ]
+references = [ ]
 
 [[terminology]]
 name = "Debugger"
@@ -301,8 +340,8 @@ It had turned out an insect wandered into the machinery and disrupted its proper
 To fix their calculation, one of the researchers had to physically rid the machine of pesky "bugs",
 hence coining the phrase _"debugging the system"_.
     """
-aliases = []
-references = []
+aliases = [ ]
+references = [ ]
 
 [[terminology]]
 name = "Deferred cancellation"
@@ -313,8 +352,8 @@ Thread cancellation style, in which the target thread is gracefully shut down. T
 terminate, allowing it an opportunity to terminate itself in an orderly fashion. By doing this, it can release any held system resources, and
 cascade the shutdown command to its children.
     """
-aliases = []
-references = []
+aliases = [ ]
+references = [ ]
 
 [[terminology]]
 name = "Deprecated methods"
@@ -323,8 +362,8 @@ description = """
 Methods that are still implemented in the current API, but are marked for removal in the future.
 Reliance on these methods is generally discouraged.
 """
-aliases = []
-references = []
+aliases = [ ]
+references = [ ]
 
 [[terminology]]
 name = "Desiderata"
@@ -335,8 +374,8 @@ description = """
 distinction between a "requirement" and a "desired result". Whereas requirements define the minimum acceptable qualities of a result,
 approximating our desiderata is often sufficient to call our efforts a success.
 """
-aliases = ["requirements", "desires", "wishes"]
-references = []
+aliases = [ "requirements", "desires", "wishes" ]
+references = [ ]
 
 [[terminology]]
 name = "Direct communication"
@@ -346,15 +385,15 @@ description = """
 A type of message-passing system, where each process that wishes to communicate with another must explicitly name the recipient or sender of the
 communication.
 """
-aliases = []
-references = []
+aliases = [ ]
+references = [ ]
 
 [[terminology]]
 name = "Dispatch latency"
 domain = "software"
 description = "The time it takes to stop one process and start another one."
-aliases = []
-references = []
+aliases = [ ]
+references = [ ]
 
 [[terminology]]
 name = "Distributed lock manager."
@@ -363,8 +402,8 @@ domain = "Software Development"
 description = """
 A function that ensures that no conflicting operations occur in clustered systems.
     """
-aliases = []
-references = []
+aliases = [ ]
+references = [ ]
 
 [[terminology]]
 name = "Direct Memory Access"
@@ -377,8 +416,8 @@ its on-buffer storage to memory, with no intervention by the CPU. Only one inter
 device driver that the operation has completed, rather than the one interrupt per byte generated by low-speed devices.
 While the device controller is performing those operations, the CPU is available to accomplish other work.
     """
-aliases = []
-references = []
+aliases = [ ]
+references = [ ]
 
 [[terminology]]
 name = "Domain Specific Language"
@@ -391,8 +430,8 @@ business environment (e.g. configuration, creation of new CRUD endpoints, etc.).
 existing powerful language stacks, such as Kotlin, Java, Rust, and Typescript.
 You might see them as specialist programming interfaces, written in such a way that most of the boilerplate and ceremony can be avoided.
 """
-aliases = []
-references = []
+aliases = [ ]
+references = [ ]
 
 [[terminology]]
 name = "Engineering"
@@ -401,8 +440,8 @@ domain = ""
 description = """
 Engineering is the application of an empirical, scientific approach to finding efficient, economic solutions to practical problems.
 """
-aliases = []
-references = []
+aliases = [ ]
+references = [ ]
 
 [[terminology]]
 name = "Fault-tolerant systems"
@@ -411,8 +450,8 @@ domain = "Software Development"
 description = """
 Systems that can suffer a failure but continue to work nonetheless.
 """
-aliases = []
-references = []
+aliases = [ ]
+references = [ ]
 
 [[terminology]]
 name = "First come, first served"
@@ -421,8 +460,8 @@ domain = "Software Development"
 description = """
 A scheduling algorithm: the first process that requests a system resource will get priority over the others.
     """
-aliases = []
-references = []
+aliases = [ ]
+references = [ ]
 
 [[terminology]]
 name = "File management"
@@ -431,8 +470,8 @@ domain = "Software Development"
 description = """
 Programs that create, delete, copy, rename, print, dump, list, and generally manipulate files and directories.
 """
-aliases = []
-references = []
+aliases = [ ]
+references = [ ]
 
 [[terminology]]
 name = "File modifications"
@@ -442,8 +481,8 @@ description = """
 Several text editors may be available to create and modify the content of files stored on disk or other storage devices.
 There may also be special commands to search contents of files or perform transformations of the text.
 """
-aliases = []
-references = []
+aliases = [ ]
+references = [ ]
 
 [[terminology]]
 name = "Fizz Buzz"
@@ -454,10 +493,11 @@ The aim is to write a program that counts to a given number. When the current co
 than the current count. When the current count is divisible by 5, it should print out `Buzz`. When divisible by both, we expect `Fizz Buzz`.
 The Fizz Buzz exercise aims to gauge basic programming aptitude, such as the use of loops and accumulators.
 """
-aliases = []
-references = [
-    { title = "coding dojo FizzBuzz description", link = "https://codingdojo.org/kata/FizzBuzz/" }
-]
+aliases = [ ]
+
+  [[terminology.references]]
+  title = "coding dojo FizzBuzz description"
+  link = "https://codingdojo.org/kata/FizzBuzz/"
 
 [[terminology]]
 name = "Fluent API"
@@ -467,8 +507,8 @@ description = """
 In software engineering, a fluent interface is an object-oriented API whose design relies extensively on method chaining. Its goal is to increase
 code legibility by creating a domain-specific language. The term was coined in 2005 by Eric Evans and Martin Fowler.
 """
-aliases = ["chainable methods"]
-references = []
+aliases = [ "chainable methods" ]
+references = [ ]
 
 [[terminology]]
 name = "Garbage collection"
@@ -478,8 +518,8 @@ description = """
 The practice of reclaiming memory of objects that are no longer used. Control over the memory is returned to the system,
 rather than being allocated to a specific program/process.
     """
-aliases = []
-references = []
+aliases = [ ]
+references = [ ]
 
 [[terminology]]
 name = "Graceful degradation"
@@ -488,8 +528,8 @@ domain = "Software"
 description = """
 The ability to continue providing service proportional to the level of surviving hardware in the event of a system failure.
 """
-aliases = []
-references = []
+aliases = [ ]
+references = [ ]
 
 [[terminology]]
 name = "Graphical User Interface"
@@ -499,8 +539,8 @@ description = """
 A user interface that enables human-to-machine interaction using visual iconography that is
 more complex than its purely textual CLI alternative.
 """
-aliases = []
-references = []
+aliases = [ ]
+references = [ ]
 
 [[terminology]]
 name = "Heap"
@@ -510,8 +550,8 @@ description = """
 Block of memory that is dynamically allocated during process run time. The heap is usually linked to a specific
 execution environment or process. In certain programming languages, this memory is also referred to as "the stack".
     """
-aliases = ["stack"]
-references = []
+aliases = [ "stack" ]
+references = [ ]
 
 [[terminology]]
 name = "Integrated Development Environment"
@@ -522,8 +562,8 @@ An application that helps you to develop software, by combining useful features 
 application. These IDEs usually allow you to run your tests and code without needing to leave the comfort of your
 development environment.
 """
-aliases = []
-references = []
+aliases = [ ]
+references = [ ]
 
 [[terminology]]
 name = "Indirect communication"
@@ -533,8 +573,8 @@ description = """
 A message passing system, in which processes send messages to mailboxes, or ports, rather than to a directly addressed recipient.
 (as opposed to direct communication)
 """
-aliases = []
-references = []
+aliases = [ ]
+references = [ ]
 
 [[terminology]]
 name = "Interrupt Vector"
@@ -543,8 +583,8 @@ domain = ""
 description = """
 An array which contains the addresses of the interrupt service routines.
 """
-aliases = []
-references = []
+aliases = [ ]
+references = [ ]
 
 [[terminology]]
 name = "Inter-process communication"
@@ -557,8 +597,8 @@ models:
 * **shared memory**: a region of memory is established for the processes to use
 * **message passing**: the communication takes place through passing messages between the processes.
 """
-aliases = []
-references = []
+aliases = [ ]
+references = [ ]
 
 [[terminology]]
 name = "Jargon"
@@ -570,8 +610,8 @@ by outsiders."_. Its goal is to make the exchange of information more efficient 
 are relevant to the in-group. It is said that the Inuit have over thirty words to differentiate between different types
 of snow. Other professions, such as software developers, strongly rely on metaphors to refer to technical concepts.
 """
-aliases = ["lingo"]
-references = []
+aliases = [ "lingo" ]
+references = [ ]
 
 [[terminology]]
 name = "Just In Time compiler"
@@ -582,8 +622,8 @@ A compiler that turns the architecture-neutral byte code into native machine lan
 host computer, only when it is needed for execution. An example can be found in the Java programming language, which
 uses a virtual machine to translate its source code into machine executable instructions.
 """
-aliases = []
-references = []
+aliases = [ ]
+references = [ ]
 
 [[terminology]]
 name = "Kernel mode"
@@ -594,8 +634,8 @@ One of two modes of operation of a computer system. Opposed to User Mode.
 When in kernel mode, privileged instructions can be executed. A mode bit, added to the hardware, indicated the current
 mode.
 """
-aliases = ["root mode", "elevated access mode"]
-references = []
+aliases = [ "root mode", "elevated access mode" ]
+references = [ ]
 
 [[terminology]]
 name = "Key Performance Indicator"
@@ -605,8 +645,8 @@ description = """
 The critical (key) indicators of progress toward an intended result. KPIs provide a focus for strategic and operational
 improvement, create an analytical basis for decision-making and help focus attention on what matters most.
 """
-aliases = []
-references = []
+aliases = [ ]
+references = [ ]
 
 [[terminology]]
 name = "Natural order"
@@ -620,10 +660,11 @@ A group G is said to be linearly ordered, if and only if it is equipped with a t
 In software development, we use this group property in order to sort collections according to a specific order-function.
 Examples include: "is larger than", "is smaller than", "Alphabetical order of first letter", etc.
     """
-aliases = []
-references = [
-    { title = "Linearly ordered group, wikipedia", link = "https://en.wikipedia.org/wiki/Linearly_ordered_group" }
-]
+aliases = [ ]
+
+  [[terminology.references]]
+  title = "Linearly ordered group, wikipedia"
+  link = "https://en.wikipedia.org/wiki/Linearly_ordered_group"
 
 [[terminology]]
 name = "Layered approach"
@@ -636,8 +677,8 @@ The bottom-most layer is said to be the hardware, the top-most layer the user in
 added as needed. Within a layered approach, any layer consumes services from the layer _below_ it and offers services to
 the one above. Effectively stacking functionality on top of each other.
 """
-aliases = []
-references = []
+aliases = [ ]
+references = [ ]
 
 [[terminology]]
 name = "Refactoring"
@@ -645,10 +686,32 @@ domain = "software development"
 description = """
 The process of rewriting software, without changing the way it functions, in order to improve its readability, testability or maintainability.
     """
-aliases = []
-references = [
-    { title = "Refactoring: Improving the Design of Existing Code", link = "https://www.goodreads.com/book/show/18624706-refactoring" }
-]
+aliases = [ ]
+
+  [[terminology.references]]
+  title = "Refactoring: Improving the Design of Existing Code"
+  link = "https://www.goodreads.com/book/show/18624706-refactoring"
+
+[[terminology]]
+name = "Strategic Learning"
+abbreviation = ""
+domain = "Learning"
+description = """
+Strategic Learning refers to the process of acquiring and applying knowledge in a way that aligns with long-term goals and objectives. It involves continuously learning, adapting, and refining strategies based on experience, feedback, and changing circumstances to ensure that actions taken are effective in achieving desired outcomes.
+"""
+aliases = [ "Adaptive Learning", "Strategic Knowledge Acquisition" ]
+
+  [[terminology.references]]
+  title = "Strategic Learning: How to Be Smarter Than Your Competition and Turn Key Insights into Competitive Advantage by Willie Pietersen"
+  link = "https://www.amazon.com/Strategic-Learning-Competition-Insights-Advantage/dp/1118163795"
+
+  [[terminology.references]]
+  title = "The Fifth Discipline by Peter Senge"
+  link = "https://www.amazon.com/Fifth-Discipline-Practice-Learning-Organization/dp/0385517254"
+
+  [[terminology.references]]
+  title = "Learning in Action: A Guide to Putting the Learning Organization to Work by David A. Garvin"
+  link = "https://www.amazon.com/Learning-Action-Putting-Organization-Work/dp/1578512514"
 
 [[terminology]]
 name = "Sunk-cost fallacy"
@@ -660,8 +723,29 @@ We do this because we feel that we have already invested too much into something
 <br /><br />
 Example: __"We already spent two months working on getting this software to function properly, we are not going to stop now!"__ Even though little to no progress has been made.
 """
-aliases = ["Escalation of commitment "]
-references = []
+aliases = [ "Escalation of commitment " ]
+references = [ ]
+
+[[terminology]]
+name = "Systems Thinking"
+abbreviation = ""
+domain = "Learning"
+description = """
+Systems Thinking is an approach to understanding and solving complex problems by viewing them as parts of an interconnected whole rather than in isolation. It involves recognizing patterns, relationships, and feedback loops within systems to better anticipate the impact of decisions and actions, thereby enabling more holistic and effective solutions.
+"""
+aliases = [ "Holistic Thinking", "Systems Approach" ]
+
+  [[terminology.references]]
+  title = "The Fifth Discipline: The Art & Practice of The Learning Organization by Peter Senge"
+  link = "https://www.amazon.com/Fifth-Discipline-Practice-Learning-Organization/dp/0385517254"
+
+  [[terminology.references]]
+  title = "Thinking in Systems: A Primer by Donella H. Meadows"
+  link = "https://www.amazon.com/Thinking-Systems-Donella-H-Meadows/dp/1603580557"
+
+  [[terminology.references]]
+  title = "Systems Thinking For Social Change: A Practical Guide to Solving Complex Problems, Avoiding Unintended Consequences, and Achieving Lasting Results by David Peter Stroh"
+  link = "https://www.amazon.com/Systems-Thinking-Social-Change-Consequences/dp/160358580X"
 
 [[terminology]]
 name = "Non-Preemptive scheduling"
@@ -670,9 +754,8 @@ description = """
 Scheduling that takes place, only when a process switches from running to waiting state, or when a process terminates.
 In contrast, pre-emptive scheduling can interrupt a process while it is running.
     """
-aliases = []
-references = [
-]
+aliases = [ ]
+references = [ ]
 
 [[terminology]]
 name = "Dispatch latency"
@@ -680,8 +763,8 @@ domain = "software development"
 description = """
 The time it takes to stop one process and start another one.
 """
-aliases = []
-references = []
+aliases = [ ]
+references = [ ]
 
 [[terminology]]
 name = "Offering"
@@ -693,8 +776,8 @@ product, or intangible, such as a service or software solution. Offerings are de
 typically marketed and sold to generate revenue. Businesses often differentiate their offerings from competitors through unique features, quality,
 pricing, or customer service. The success of an offering is often measured by customer satisfaction, market share, and financial performance.
 """
-aliases = ["deliverable", "solution"]
-references = []
+aliases = [ "deliverable", "solution" ]
+references = [ ]
 
 [[terminology]]
 name = "Throughput"
@@ -702,8 +785,8 @@ domain = "software development"
 description = """
 The amount of processes that are completed per unit of time.
 """
-aliases = []
-references = []
+aliases = [ ]
+references = [ ]
 
 [[terminology]]
 name = "Turnaround time"
@@ -711,8 +794,8 @@ domain = "software development"
 description = """
 The interval of time counted from the moment of submission of a process to the time of completion.
 """
-aliases = []
-references = []
+aliases = [ ]
+references = [ ]
 
 [[terminology]]
 name = "Waiting time"
@@ -720,8 +803,8 @@ domain = "software development"
 description = """
 The sum of the periods processes spend waiting in the ready queue.
 """
-aliases = []
-references = []
+aliases = [ ]
+references = [ ]
 
 [[terminology]]
 name = "Response time"
@@ -735,8 +818,13 @@ This results in a significant difference between the time it takes to load the f
 What is more, web developers tend to invest into making their partially loaded pages useable for the site's visitor, even if all the data is not present yet.
 This response time is known as "time to interactive".
 """
-aliases = ["Load time", "Render time", "Time to interactive", "First input delay"]
-references = []
+aliases = [
+  "Load time",
+  "Render time",
+  "Time to interactive",
+  "First input delay"
+]
+references = [ ]
 
 [[terminology]]
 name = "Selective Perception"
@@ -746,8 +834,8 @@ The tendency not to notice, and more quickly forget, events and data that do not
 This bias is a common psychological phenomenon, and is often used to explain why people tend to ignore or forget
 information that contradicts their current beliefs or causes emotional discomfort.
 """
-aliases = ["Situational blindness", "Perceptual defense"]
-references = []
+aliases = [ "Situational blindness", "Perceptual defense" ]
+references = [ ]
 
 [[terminology]]
 name = "Silver Bullet"
@@ -758,12 +846,19 @@ as they were believed to symbolize purity of heart, and known to bestow divine f
 Later in history, the use of silver bullets was popularized in folkloric tales about werewolves, vampires, witches, and other monsters.
 This trope made its way into modern times, where it is used to describe a method that works without fail.
 """
-aliases = ["Cure-all", "Panacea"]
-references = [
-    { title = "Silver Bullet on wikipedia", link = "https://en.wikipedia.org/wiki/Silver_bullet" },
-    { title = "Ethymology Online", link = "https://www.etymonline.com/word/silver%20bullet" },
-    { title = "Phrase Finder", link = "https://www.phrases.org.uk/meanings/silver-bullet.html" }
-]
+aliases = [ "Cure-all", "Panacea" ]
+
+  [[terminology.references]]
+  title = "Silver Bullet on wikipedia"
+  link = "https://en.wikipedia.org/wiki/Silver_bullet"
+
+  [[terminology.references]]
+  title = "Ethymology Online"
+  link = "https://www.etymonline.com/word/silver%20bullet"
+
+  [[terminology.references]]
+  title = "Phrase Finder"
+  link = "https://www.phrases.org.uk/meanings/silver-bullet.html"
 
 [[terminology]]
 name = "Entropy"
@@ -775,10 +870,11 @@ any isolated system will inevitably tend towards a state of maximum entropy.
 
 **Tip:** Next time someone asks you why your desk is a mess, you can tell them that you are simply a victim of the laws of physics.
 """
-aliases = ["chaos", "disorder"]
-references = [
-    { title = "Entropy on wikipedia", link = "https://en.wikipedia.org/wiki/Entropy" }
-]
+aliases = [ "chaos", "disorder" ]
+
+  [[terminology.references]]
+  title = "Entropy on wikipedia"
+  link = "https://en.wikipedia.org/wiki/Entropy"
 
 [[terminology]]
 name = "Polymath"
@@ -787,10 +883,32 @@ description = """
 A person with a wide range of knowledge or learning. The term is often used to describe people who have excelled in multiple fields, and are able to make significant contributions to each of them.
 Many admired scholars, such as Aristotle, Galileo, Da Vinci, and Isaac Newton, were considered "Polymaths" or "Renaissance men".
 """
-aliases = ["Renaissance men"]
-references = [
-    { title = "Polymath on wikipedia", link = "https://en.wikipedia.org/wiki/Polymath" }
-]
+aliases = [ "Renaissance men" ]
+
+  [[terminology.references]]
+  title = "Polymath on wikipedia"
+  link = "https://en.wikipedia.org/wiki/Polymath"
+
+[[terminology]]
+name = "Prioritization"
+abbreviation = ""
+domain = "Productivity"
+description = """
+Prioritization is the process of arranging tasks, activities, or projects in order of importance or urgency to ensure that the most critical and impactful work is completed first. It is a key skill in productivity, helping individuals and teams manage time and resources efficiently by focusing on what truly matters and deferring or delegating less critical tasks.
+"""
+aliases = [ "Task Ranking", "Priority Setting" ]
+
+  [[terminology.references]]
+  title = "Essentialism: The Disciplined Pursuit of Less by Greg McKeown"
+  link = "https://www.amazon.com/Essentialism-Disciplined-Pursuit-Greg-McKeown/dp/0804137382"
+
+  [[terminology.references]]
+  title = "The 7 Habits of Highly Effective People by Stephen R. Covey"
+  link = "https://www.amazon.com/Habits-Highly-Effective-People-Powerful/dp/0743269519"
+
+  [[terminology.references]]
+  title = "Eat That Frog!: 21 Great Ways to Stop Procrastinating and Get More Done in Less Time by Brian Tracy"
+  link = "https://www.amazon.com/Eat-That-Frog-Great-Procrastinating/dp/162656941X"
 
 [[terminology]]
 name = "objection"
@@ -799,10 +917,11 @@ description = """
 An **objection** is an argument - related to a proposal, existing agreement, or activity being conducted by one or more members of the organization -
 that reveals consequences or risks that are preferably avoided for the organization, or that demonstrates worthwhile ways to improve the proposal, agreement, or activity.
 """
-aliases = []
-references = [
-    { title = "Sociocracy 3.0", link = "https://sociocracy30.org/resources/#se-practical-guide" }
-]
+aliases = [ ]
+
+  [[terminology.references]]
+  title = "Sociocracy 3.0"
+  link = "https://sociocracy30.org/resources/#se-practical-guide"
 
 [[terminology]]
 name = "Organizational Capability"
@@ -813,10 +932,11 @@ realized by various elements of the organization, such as people, processes, and
 and high-level goals that are often not directly implementable in the architecture of an organization. Describing the organization as a set of capabilties,
 enables organizations to reason about their goals and processes in a structured, strategic, manner. This structure can later be used to ensure business capabilities are assigned to organizational units, and people.
 """
-aliases = ["Capability"]
-references = [
-    { title = "ArchiMate Reference guide: Strategic Layer", link = "https://pubs.opengroup.org/architecture/archimate32-doc/ch-Strategy-Layer.html" }
-]
+aliases = [ "Capability" ]
+
+  [[terminology.references]]
+  title = "ArchiMate Reference guide: Strategic Layer"
+  link = "https://pubs.opengroup.org/architecture/archimate32-doc/ch-Strategy-Layer.html"
 
 [[terminology]]
 name = "Cognitive Bias"
@@ -826,7 +946,7 @@ A **cognitive bias** is an _“error in thinking”_ that affects how we perceiv
 systematic patterns of deviation from norm or rationality in judgment, where individuals create their own subjective reality from their perception of the
 input. These biases often stem from the brain's attempt to simplify information processing, leading to errors in decision-making and judgment.
 """
-aliases = ["error in thinking", "bias", "preconception"]
+aliases = [ "error in thinking", "bias", "preconception" ]
 
 [[terminology]]
 name = "Heuristic"
@@ -843,7 +963,7 @@ Heuristics are used in various fields, such as computer science, psychology, and
 
 - __In Engineering:__ Heuristics are practical methods used to solve complex engineering problems by providing good-enough solutions. An example is substituting the value of `π` (pi) with `22/7` (twenty-two divided by seven) for quick calculations, rather than using its full, infinite decimal representation. This approximation simplifies computations while maintaining sufficient accuracy for many engineering applications.
 """
-aliases = ["solutioning shortcut", "best practice"]
+aliases = [ "solutioning shortcut", "best practice" ]
 
 [[terminology]]
 name = "Search space"
@@ -860,4 +980,4 @@ It encompasses all potential approaches, methods, and pathways that can be consi
 
 - __In Education:__ In the context of learning strategies, the search space encompasses various study techniques, mnemonic devices, and cognitive tools that learners might employ to understand and retain information.
 """
-aliases = ["solution space", "exploration domain"]
+aliases = [ "solution space", "exploration domain" ]

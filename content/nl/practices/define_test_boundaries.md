@@ -122,6 +122,26 @@ maintainability of tests.
 - Provide a clear and practical method for defining the boundaries of a unit in unit testing.
 - Ensure the test suite is meaningful, maintainable, and effective in validating the intended functionality.
 
+## Solution
+
+Define the scope of a "unit under test" based on the responsibility and functionality it provides rather than strictly adhering to structural
+boundaries such as layers or modules. Adjust the size of the unit according to the specific functionality being tested, ensuring that tests focus on
+relevant components while minimizing dependencies on external elements.\
+In short: **Based on the functionality you are looking to validate, adjust your test boundary to contain only the components that are
+responsible for supplying said functionality.**
+
+### Steps to Implement
+
+1. **Identify the functionality to be tested:** Determine the specific feature or functionality that needs validation.
+2. **Define responsibility boundaries:** Outline the components directly responsible for the functionality.
+3. **Minimize external dependencies:** Stub or mock components that are not directly responsible for the functionality.
+   - Stub or mock external services, data access layers, or other components that are not directly related to the functionality being tested.
+   - Do not stub or mock components that are part of the system module being tested.
+4. **Create focused tests:** Develop tests that validate the core logic within the defined boundaries.
+   - Write tests that focus on the core functionality of the unit.
+   - Avoid testing unrelated functionality or components that can reasonably be expected to work (externals, such as other services, the file
+     system, ...) .
+
 ## Contextual forces
 
 ### Enablers
@@ -146,26 +166,6 @@ The following factors prevent effective application of the practice:
   - (e.g. "Each layer should be tested in isolation.", "Each function should have its own test.")
 - Unfamiliarity with stubbing and mocking tools and techniques.
 - Lack of clarity regarding the system's functionality.
-
-## Solution
-
-Define the scope of a "unit under test" based on the responsibility and functionality it provides rather than strictly adhering to structural
-boundaries such as layers or modules. Adjust the size of the unit according to the specific functionality being tested, ensuring that tests focus on
-relevant components while minimizing dependencies on external elements.\
-In short: **Based on the functionality you are looking to validate, adjust your test boundary to contain only the components that are
-responsible for supplying said functionality.**
-
-### Steps to Implement
-
-1. **Identify the functionality to be tested:** Determine the specific feature or functionality that needs validation.
-2. **Define responsibility boundaries:** Outline the components directly responsible for the functionality.
-3. **Minimize external dependencies:** Stub or mock components that are not directly responsible for the functionality.
-   - Stub or mock external services, data access layers, or other components that are not directly related to the functionality being tested.
-   - Do not stub or mock components that are part of the system module being tested.
-4. **Create focused tests:** Develop tests that validate the core logic within the defined boundaries.
-   - Write tests that focus on the core functionality of the unit.
-   - Avoid testing unrelated functionality or components that can reasonably be expected to work (externals, such as other services, the file
-     system, ...) .
 
 ## Rationale
 

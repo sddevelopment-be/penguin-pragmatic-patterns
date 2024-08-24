@@ -22,13 +22,13 @@ aliases=["a22a79f6-2ffa-4a13-a673-2ccb70ba9d42"]
 outputs = ['html','rss', 'json']
 image="practices/personal_knowledge_portfolio.webp"
 ammerse = [
-    {name = "agile", delta = "0", rationale = ""},
-    {name = "minimal", delta = "0", rationale = ""},
-    {name = "maintainable", delta = "0", rationale = ""},
-    {name = "environmental", delta = "0", rationale = ""},
-    {name = "reachable", delta = "0", rationale = ""},
-    {name = "solvable", delta = "0", rationale = ""},
-    {name = "extensible", delta = "0", rationale = ""},
+    {name = "agile", delta = "0.75", rationale = "The practice significantly enhances agility by encouraging continuous adaptation and alignment with market demands, while balancing short-term and long-term goals."},
+    {name = "minimal", delta = "-0.35", rationale = "The complexity introduced by ongoing portfolio management is relatively low but detracts from simplicity."},
+    {name = "maintainable", delta = "-0.15", rationale = "Maintaining an up-to-date knowledge portfolio can become a resource-intensive process, which may strain maintainability."},
+    {name = "environmental", delta = "0.5", rationale = "Aligning personal development with market trends and organizational goals has a positive environmental impact, improving cultural and organizational fit."},
+    {name = "reachable", delta = "0.6", rationale = "Breaking down goals into manageable steps and aligning with market needs makes goals more attainable."},
+    {name = "solvable", delta = "0.6", rationale = "The practice improves problem-solving by promoting diverse skill acquisition, though the emphasis on continuous learning can sometimes dilute focus."},
+    {name = "extensible", delta = "0.15", rationale = "While the practice supports growth and scalability by encouraging the exploration of new knowledge areas, its impact on extensibility is slight."}
 ]
 related_concepts = [
     "b86230c6-49fb-4792-9008-a5241c5cdcb2",
@@ -44,7 +44,9 @@ further_exploration = [
   {type="tool", id="830947a8-b8c1-4fb1-b1ea-1468060d607c"},
   {type="tool", id="7202b347-87f0-43af-b011-e6ee30a8cff7"},
   {type="raw", author="Kustagi, R.", year="2023", title="A Guide To Growing Your Technical Knowledge Portfolio", site="DZone.com", link="https://dzone.com/articles/a-guide-to-growing-your-technical-knowledge-portfo" }, 
-  {type="raw", author="StackOverflow Community", year="2024", title="Stack Overflow Annual Developer Survey", site="StackOverflow.com", link="https://stackoverflow.blog/2024/07/24/developers-want-more-more-more-the-2024-results-from-stack-overflow-s-annual-developer-survey/"}
+  {type="raw", author="StackOverflow Community", year="2024", title="Stack Overflow Annual Developer Survey", site="StackOverflow.com", link="https://stackoverflow.blog/2024/07/24/developers-want-more-more-more-the-2024-results-from-stack-overflow-s-annual-developer-survey/"},
+  {type="raw", author="Dejongh, S.", year="2024", title="Learning for the Long Haul: A Tale of Two Approaches", site="linkedin.com", link="https://www.linkedin.com/pulse/learning-long-haul-tale-two-approaches-stijn-dejongh-8ybye/" }, 
+    
 ]
 +++
 
@@ -58,6 +60,44 @@ effectively allocate their learning efforts. This can lead to underutilised skil
 The intent of this pattern is to provide a structured approach for knowledge workers to regularly evaluate and balance their personal knowledge
 portfolios. By taking stock of their current knowledge assets, they can make informed decisions about where to invest their time and effort to
 maximise personal and professional growth.
+
+## Solution
+
+{{< image
+src="/images/practices/portfolio_loop.png"
+alt="High-level view of the approach"
+caption="the steps of a portfolio management approach"
+float="right"
+size="38%" >}}
+
+The core idea of this pattern is to regularly assess your personal knowledge portfolio as you would a financial investment portfolio. This involves
+taking stock of your current knowledge assets, evaluating their current and future value, and identifying areas where you should invest more time
+and effort. The process can be broken down into the following steps:
+
+
+1. **Inventorize Your Knowledge Assets**: List all your current skills, knowledge areas, and experiences. Be thorough, including both technical and
+   soft skills.
+
+2. **Analyze the Value of Each Asset**: Consider the relevance and utility of each knowledge asset in your current role and potential future roles.
+   Which assets do you use most frequently? Which ones are becoming obsolete? Which new knowledge assets could open doors to new opportunities?
+
+3. **Strategize:** Based on your evaluation, develop a strategy for managing your knowledge portfolio.   
+   Consider the following principles:
+    * **Align with Market Demands**: Use market research to ensure your investments align with current and future job market trends. Look at job
+      postings, industry reports, and expert opinions to understand which knowledge assets are in demand and which are declining in relevance.
+    * **Diversify Your Knowledge Investments**: Just like in a financial portfolio, it's important to balance your knowledge portfolio with a mix of
+      low-risk and high-risk investments:
+        - **Low-Risk Investments:** Focus on refining and expanding knowledge assets that are currently in demand or foundational to your career. These are
+          your "steady returns" – reliable assets that are less likely to become obsolete.
+          - **High-Risk Investments:** Allocate a portion of your time to learning new, emergent technologies or methodologies that have the
+          potential for significant impact. These are speculative investments that may not always pay off but can yield substantial rewards if they do.
+
+4. **Realize**: Based on your strategy, develop a plan to acquire new knowledge assets, update existing ones, and possibly phase out
+   those that are no longer valuable. Set specific, measurable goals and deadlines for your learning activities.
+    - **Invest regularly:** Dedicate time each week or month to learning new skills or deepening existing ones, rather than attempting to do it
+      in one go. Like financial portfolio management: consistent, incremental investments are more likely to yield long-term benefits.
+    - **Track your progress:** Keep a record of your learning activities, noting what you've learned, how you've applied it, and any outcomes or
+      feedback you've received.
 
 ## Contextual Forces
 
@@ -86,46 +126,6 @@ The following factors prevent effective application of the practice:
   apply this pattern effectively.
 - **Job Market Mismatch**: Investing in knowledge assets that are not aligned with current or future job market demands can lead to wasted effort
   and missed opportunities.
-
-## Solution
-
-
-
-{{< image
-src="/images/practices/portfolio_loop.png"
-alt="High-level view of the approach"
-caption="the steps of a portfolio management approach"
-float="right"
-size="20%" >}}
-
-The core idea of this pattern is to regularly assess your personal knowledge portfolio as you would a financial investment portfolio. This involves
-taking stock of your current knowledge assets, evaluating their current and future value, and identifying areas where you should invest more time
-and effort. The process can be broken down into the following steps:
-
-
-1. **Inventorize Your Knowledge Assets**: List all your current skills, knowledge areas, and experiences. Be thorough, including both technical and
-   soft skills.
-
-2. **Analyze the Value of Each Asset**: Consider the relevance and utility of each knowledge asset in your current role and potential future roles.
-   Which assets do you use most frequently? Which ones are becoming obsolete? Which new knowledge assets could open doors to new opportunities?
-
-3. **Strategize:** Based on your evaluation, develop a strategy for managing your knowledge portfolio.   
-   Consider the following principles:
-    * **Align with Market Demands**: Use market research to ensure your investments align with current and future job market trends. Look at job
-      postings, industry reports, and expert opinions to understand which knowledge assets are in demand and which are declining in relevance.
-    * **Diversify Your Knowledge Investments**: Just like in a financial portfolio, it's important to balance your knowledge portfolio with a mix of
-      low-risk and high-risk investments:
-         - **Low-Risk Investments:** Focus on refining and expanding knowledge assets that are currently in demand or foundational to your career. These are
-           your "steady returns" – reliable assets that are less likely to become obsolete.
-          - **High-Risk Investments:** Allocate a portion of your time to learning new, emergent technologies or methodologies that have the
-           potential for significant impact. These are speculative investments that may not always pay off but can yield substantial rewards if they do.
-
-4. **Realize**: Based on your strategy, develop a plan to acquire new knowledge assets, update existing ones, and possibly phase out
-   those that are no longer valuable. Set specific, measurable goals and deadlines for your learning activities.
-    - **Invest regularly:** Dedicate time each week or month to learning new skills or deepening existing ones, rather than attempting to do it
-      in one go. Like financial portfolio management: consistent, incremental investments are more likely to yield long-term benefits.
-    - **Track your progress:** Keep a record of your learning activities, noting what you've learned, how you've applied it, and any outcomes or
-      feedback you've received.
 
 ## Rationale
 
@@ -246,6 +246,3 @@ In the end, Blaine's decision to chase superficial trends and prioritize image o
 short-term gains quickly evaporated, leaving him with fewer opportunities, damaged client relationships, and a tarnished reputation both inside and
 outside the company. Blaine's story is a stark reminder that success built on quick fixes and hollow tactics is fleeting at best and can often lead
 to long-term damage.
-
----
-

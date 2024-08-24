@@ -2,14 +2,15 @@
 {{ $tags := .Params.tags }}
 {{ $problem := .Params.Problem }}
 {{ $furtherExploration := .Params.further_exploration }}
+{{ $relatedPractices := .Params.related_practices }}
+{{ $relatedConcepts := .Params.related_concepts }}
 
 {
   "id":     "{{ .Params.UUID }}",
   "title":  "{{ .Title }}",
   "publishedOn": "{{ .Date.Format "2006-01-02" }}",
-  "link": "{{ .Permalink }}",
-  "problem": "{{ $problem }}",
-  "description": "{{ .Description }}",
+  "problem": "{{ replace $problem "\n" "" }}",
+  "description": "{{ replace .Description "\n" "" }}",
   "ammerseValues": [
     {{ range $index, $value := .Params.Ammerse }}
       {
@@ -29,14 +30,43 @@
       "{{ $value }}"{{ if lt $index (math.Sum (len $tags) -1) }},{{ end }}
     {{end}}
   ],
-  "related_content": [
+  "links": [
+    {
+            "href": "/practices/{{ .Params.UUID }}",
+            "rel": "self",
+            "type": "GET"
+    },
+    {
+    "href": "{{ .RelPermalink }}",
+    "rel": "alternate",
+    "type": "GET"
+    }
+  ],
+  "relatedContent": [
+      {{ range $index, $value := $relatedPractices }}
+          {
+            "rel": "related",
+            "type": "GET",
+            "href": "/practices/{{ $value }}"
+          } {{ if lt $index (math.Sum (len $relatedPractices) -1) }},{{ end }}
+      {{end}}{{if ge (len $relatedPractices) 1 }},{{end}}
+      {{ range $index, $value := $relatedConcepts }}
+        {
+          "rel": "related",
+          "type": "GET",
+          "href": "/concepts/{{ $value }}"
+        } {{ if lt $index (math.Sum (len $relatedConcepts) -1) }},{{ end }}
+      {{end}}
+  ],
+  "references": [
     {{ range $index, $value := $furtherExploration }}
         {{ if (eq $value.type "raw") }}
         {{ else }}
         {
-        "type": "{{ $value.type }}",
-        {{ if (eq $value.type "biblio") }}"href": "/books/{{ $value.id }}"{{end}}
-        {{ if (eq $value.type "tool") }}"href": "/tools/{{ $value.id }}"{{end}}
+          "rel": "related",
+          "type": "GET",
+          {{ if (eq $value.type "biblio") }}"href": "/books/{{ $value.id }}"{{end}}
+          {{ if (eq $value.type "tool") }}"href": "/tools/{{ $value.id }}"{{end}}
         } {{ if lt $index (math.Sum (len $furtherExploration ) -1) }},{{ end }}
         {{ end }}
     {{end}}

@@ -52,9 +52,11 @@ How do you make structured progress towards a specific overarching goal?
 
 ## Intent
 
+- split big goals into bite-sized chunks
 - Your operational process is more structured
 - You can apply different approaches to each step of the process
 - You can keep tabs on the status of various goals and objectives, using the step names as status indicators
+- stay committed to your goals without feeling like you are drowning in a never ending cycle of irrelevant 'side quests
 
 ## Solution
 
@@ -141,15 +143,10 @@ might know a few coping strategies to resolve the situation if it takes a turn f
 
 ## Contextual forces
 
-{{<whatis text=`
-These describe factors at play that influence the outcome of the practice. They are not necessarily good or bad, but they are important to be
-aware of. Some contextual forces are enablers, giving the practice a higher chance of being useful. Others are deterrents, making the practice less useful
-in your given context.` >}}
+### Enablers
 
 - You have a need to keep tabs on the status of various goals and objectives, by using the step names as status indicators
 - having a clear idea of progress made, when combined with the KPI pattern
-- split big goals into bite-sized chunks
-- stay committed to your goals without feeling like you are drowning in a never ending cycle of irrelevant 'side quests
 
 ## Application
 

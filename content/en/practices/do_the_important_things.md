@@ -72,7 +72,7 @@ Organize your action items according to:
 * their **importance**: actions can be either `important` or `unimportant`
 * their **urgency**: these are either `urgent` or `not urgent`
 
-This leaves you with a nice 2-by-2 grid in which to place your actionable items[^3].
+This leaves you with a nice 2-by-2 grid in which to place your actionable items[^1].
 
 {{< image
 src="/images/practices/eis_matrix.png"
@@ -147,3 +147,5 @@ The following factors prevent effective application of the practice:
   and flexibility in task prioritization.
 * **Use as a Guideline:** Treat the matrix as a guideline rather than a strict rule, allowing for adaptability in task prioritization. Use multiple
   prioritization techniques to balance structure and flexibility in task management.
+
+[^1]: Mathematicians (and computer programmers) call this a _"Matrix"_. We are sorry to disappoint you if you expected leather clad martial artists to help you out with setting your priorities.

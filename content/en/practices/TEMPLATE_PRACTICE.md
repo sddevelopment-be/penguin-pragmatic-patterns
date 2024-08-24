@@ -5,10 +5,10 @@ draft = true
 problem = ""
 description = ""
 categories = [
-    "software development",
+    "category",
 ]
 tags = [
-    "remembering", "tracking", "tracability", "log"
+    "tag"
 ]
 uuid="GENERATE-ME!"
 aliases=["uuid"]

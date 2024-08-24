@@ -453,3 +453,25 @@
     font-size: 0.875rem;
     padding: 0 2.75rem 1.5rem 2.75rem;
 }
+
+@media (max-width: 800px) {
+    .related .related-content {
+        padding: 0 0.5rem 1.5rem 0.5rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .table-responsive {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+}
+@media (max-width: 800px) {
+    .img-gallery {
+        width: 98% !important;
+        max-width: 98% !important;
+    }
+}
+
+

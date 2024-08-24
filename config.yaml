@@ -18,7 +18,7 @@ markup:
   highlight:
     codeFences: true
     noClasses: true
-    lineNos: true
+    lineNos: false
     style: catppuccin-frappe
     guessSyntax: true
     tabWidth: 2

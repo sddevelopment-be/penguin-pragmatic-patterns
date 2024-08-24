@@ -240,7 +240,7 @@
     width: calc(calc(100% / 3) - 1.25rem);
     align-content: normal;
     background-image: linear-gradient(#fefefe, #fdfdfd);
-    border-radius: 3px;
+    border-radius: 6px;
     border: 1px solid rgba(224, 205, 193, 0.99);
     padding: 1.125rem;
     scroll-snap-align: start;
@@ -427,4 +427,29 @@
     padding-top: 1.75rem;
     border-top: 1px dashed #f39200;
     border-bottom: 2px solid #f39200;
+}
+
+.related {
+    margin-top: 3.75rem;
+    background: #fefefe;
+    padding: 0.25rem;
+    border-radius: 6px;
+    border: 1px solid rgba(224, 205, 193, 0.99);
+}
+
+.related summary {
+    font-size: 1.125rem;
+    padding: 0.75rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.related summary::marker {
+    color: #f39200;
+}
+
+.related .related-content {
+    font-size: 0.775rem;
+    padding: 0 2.75rem 1.5rem 2.75rem;
 }

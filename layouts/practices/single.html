@@ -92,7 +92,9 @@
             {{ .Content }}
         </div>
 
-        <div class="content pattern related">
+        <details class="content pattern related">
+            <summary>References and Related Patterns</summary>
+            <div class="related-content">
             {{ if $further_exploration }}
                 <h2>Further Exploration</h2>
 
@@ -115,7 +117,8 @@
                 {{ end }}
             </ul>
             {{ end }}
-        </div>
+            </div>
+        </details>
     </div>
 </section>
 

@@ -371,3 +371,11 @@ pre {
         max-width: 100%;
     }
 }
+
+hr {
+    border-top: 1px solid #f3920045;
+    background: none;
+    display: block;
+    height: 4px;
+    margin: 1.5rem 0;
+}

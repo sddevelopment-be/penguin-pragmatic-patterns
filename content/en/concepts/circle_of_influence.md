@@ -3,6 +3,8 @@ title = "Your circle of influence"
 subtitle = ""
 author = "Stijn Dejongh"
 description = "Differentiate between the things/situations where you can have a direct impact, and those where you don't."
+summary="""
+"""
 categories = [
     "productivity", "communication"
 ]
@@ -22,7 +24,6 @@ further_exploration = [
 ]
 pubdate = "2023-09-12"
 +++
-
 
 {{<quote text=`
 Grant me the serenity, to accept the things I cannot change;  
@@ -85,7 +86,7 @@ The Circle of Influence can be compared to the concept of __"Locus of Control"__
 extent to which they can control events affecting them. Both concepts emphasize the importance of focusing on controllable factors but differ in
 their approach and visualization.
 
-### Examples
+## Examples
 
 * **Workplace Application:** An employee identifies aspects of their job they can control, such as their work habits and interactions with
   colleagues, and focuses on improving these areas to increase job satisfaction and productivity. For instance, a software developer can control

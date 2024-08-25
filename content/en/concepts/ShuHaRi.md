@@ -2,12 +2,16 @@
 title = "Shu Ha Ri"
 subtitle = "Imitation. Understanding. Emulsion."
 author = "Stijn Dejongh"
-description = "a Japanese martial arts concept that describes the stages of learning on the path to mastery."
+description = "a Japanese martial arts concept that outlines the progression of learning from strict adherence to innovation and ultimately, mastery."
+summary="""
+Explore the concept of Shu Ha Ri, a Japanese martial arts principle applied in various disciplines to describe the stages of learning and mastery. 
+Learn how strict adherence, innovation, and transcendence can guide skill development from novice to expert.
+"""
 categories = [
     "learning",
 ]
 tags = [
-    "growth", "mastery", "skill levels"
+    "growth", "mastery", "skill levels", "incrementalism"
 ]
 uuid="a49f917b-c560-462a-ac38-46515f6f62d0"
 aliases=["a49f917b-c560-462a-ac38-46515f6f62d0"]
@@ -22,7 +26,6 @@ further_exploration = [
 +++
 
 ## Definition
-
 
 Shu Ha Ri is a Japanese martial arts concept that describes the stages of learning on the path to mastery.  
 It represents a progression through three stages: **Shu** (Obey/Protect), **Ha** (Detach/Digress), and **Ri** (Leave/Transcend).  
@@ -92,7 +95,7 @@ martial arts tenet: _"You are a beginner, until you are no longer so"_.
   * Decision: Making decisions intuitively and effortlessly.
   * Awareness: Operating in a state of flow, with actions driven by subconscious mastery.
 
-### Examples
+## Examples
 
 * **Software Development:** A junior developer learns by following coding standards and best practices (Shu), starts to explore new frameworks and
   methodologies and apply them when relevant (Ha). Eventually they develop an understanding that allows them to come up with solutions to tricky 

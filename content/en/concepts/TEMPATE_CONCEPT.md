@@ -1,6 +1,7 @@
 +++
 draft = true
 title = "CONCEPT name"
+subtitle = "Catchy subtitle"
 author = "Stijn Dejongh"
 description = ""
 summary="""
@@ -15,15 +16,9 @@ uuid="GENERATE-ME!"
 aliases=["uuid"]
 pubdate=""
 image = ""
-related_concepts = [
-    
-]
-related_practices = [
-    
-]
-further_exporlation = [
-    
-]
+related_concepts = []
+related_practices = []
+further_exporlation = []
 +++
 
 ## Definition
@@ -55,15 +50,7 @@ further_exporlation = [
 > Be brief and to the point, focusing on the most important aspects. Further details can be referred to as a link to relevant background reading in
 > the "Further Exploration" section.
 
-### Examples
+## Examples
 > Illustrate how the concept is applied in a specific scenario.
-
-
-## Further Exploration
-
-> Provide sources for further reading to allow the reader to explore the concept in more depth.
-
-
----
 
 

@@ -116,9 +116,9 @@ can unconsciously influence subsequent responses. Both concepts illustrate the p
 but they operate through different mechanisms: biases distort our decision-making processes, whereas priming subtly alters our reactions and
 behavioUrs based on prior stimuli.
 
-### Examples
+## Examples
 
-#### WWII Fighter Planes
+### WWII Fighter Planes
 
 {{<image
     src="/images/concepts/survivorship_bias_wald.png"  
@@ -137,7 +137,7 @@ should instead reinforce the areas where the returning planes showed no damage, 
 By acknowledging and addressing **survivorship bias**, the military was able to make more informed decisions. This strategic change is believed to 
 have saved many lives and aircraft, showcasing the importance of considering unseen failures and not just visible successes.
 
-#### Workplace Pigeonholing
+### Workplace Pigeonholing
 
 Imagine you believe that people from a particular country are generally late to meetings. One day, a colleague from that country arrives late to a
 meeting. Your confirmation bias kicks in, reinforcing your stereotype. You recall other instances when people from that country were late, while
@@ -151,7 +151,7 @@ negative work environment where individuals are judged based on stereotypes rath
 professional relationships and reduce the overall effectiveness of the team.
 
 
-#### Who caused the plague?
+### Who caused the plague?
 
 During the time of the plague, different cultures interpreted the cause of the devastating disease in ways that reflected their own beliefs and
 values, often committing the **fundamental attribution error**. In Europe, the plague was seen as divine punishment for the sins of the people. This

@@ -1,0 +1,15 @@
+
+.title {
+    display: none;
+}
+
+.section {
+    padding-top: 0.75rem !important;
+}
+
+.visualization_container {
+    max-width: 680px;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+}

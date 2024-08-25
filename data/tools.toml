@@ -140,9 +140,13 @@ site = "sociocracy30.org"
 link = "https://patterns.sociocracy30.org/all.html"
 image = ""
 description = """
+The Sociocracy 3.0 (S3) Patterns website offers a comprehensive collection of patterns designed to enhance collaboration, governance, and
+decision-making within organizations. By providing a flexible framework based on principles of sociocracy and agile methodologies, S3 helps teams
+adapt to changing environments, make decentralized decisions, and improve overall effectiveness. This resource is particularly useful for knowledge
+workers and organizations seeking to implement more inclusive and efficient ways of working.
 """
 type = "site"
-tags = []
+tags = ["governance", "collaboration", "agile", "decision-making", "empathy"]
 
 [[tool]]
 id = "fa17a430-1b3c-487b-82a6-d1b6d5e35d48"
@@ -153,9 +157,10 @@ site = "AMMERSE.org"
 link = "https://www.ammerse.org/"
 image = ""
 description = """
+
 """
 type = "site"
-tags = []
+tags = ["principles"]
 
 [[tool]]
 id = "89c8394d-87c7-4eaa-8154-b89f0cee77d1"
@@ -166,9 +171,13 @@ site = "omg.org"
 link = "https://www.omg.org/spec/BPMN/2.0/"
 image = ""
 description = """
+The BPMN (Business Process Model and Notation) 2.0 specification website by OMG (Object Management Group) provides detailed documentation on the
+BPMN standard, which is widely used for modeling business processes. This standard offers a graphical notation that is understandable to all
+business stakeholders, enabling them to collaborate and understand processes clearly. BPMN 2.0 supports both technical and business-level
+communication.
 """
 type = "site"
-tags = []
+tags = ["visualization", "business process", "modeling", "documentation", "analysis", "research"]
 
 [[tool]]
 id = "6d6a2170-e409-40ff-b89c-1f41a47d677d"
@@ -179,9 +188,12 @@ site = "cynefin.io"
 year = "2023"
 image = "CynefinLogo.webp"
 description = """
+The Cynefin framework homepage provides an overview of a decision-making model used to navigate complex, chaotic, and simple situations. It offers a
+way to identify the nature of different contexts so that appropriate responses can be applied. Developed by Dave Snowden, Cynefin is valuable for
+knowledge workers, leaders, and strategists who need to make sense of complex environments and choose suitable actions in varying situations.
 """
 type = "site"
-tags = []
+tags = ["decision-making", "complexity", "strategy", "leadership", "sense-making"]
 
 [[tool]]
 id = "d81319c3-355c-43e0-bbd5-0eb3dfe71c76"
@@ -211,7 +223,6 @@ description = """
 type = "site"
 tags = []
 
-
 [[tool]]
 id = "146fc358-525c-4ad3-915f-efd6f6f04f11"
 name = "The GROWS method"
@@ -221,9 +232,13 @@ site = "growsmethod.com"
 year = "2023"
 image = "grows_method.webp"
 description = """
+The GROWS Method® website details a framework for improving software development by blending practical habits with adaptive thinking. Created by
+Andy Hunt, a co-author of "The Manifesto for Agile Software Development," GROWS emphasizes iterative learning, psychological safety, and continuous
+improvement to help teams navigate the complexities of modern software projects. This approach is particularly beneficial for knowledge workers
+seeking to enhance collaboration and adaptability in a constantly changing environment.
 """
 type = "site"
-tags = []
+tags = ["agile", "continuous improvement", "collaboration", "adaptive thinking"]
 
 [[tool]]
 id = "c279aea8-47fc-4b2d-8f61-89109fb30a3c"
@@ -237,3 +252,36 @@ description = """
 """
 type = "site"
 tags = []
+
+[[tool]]
+id = "6ecca4ee-bed6-47ae-ae90-3f67fcdef3e2"
+name = "The C4 model for visualising software architecture"
+authors = "Brown, S."
+link = "https://c4model.com/"
+site = "c4model.com"
+year = "2019"
+image = "c4_model.webp"
+description = """
+The C4 Model website outlines a method for visualizing software architecture through four distinct diagram types: Context, Container, Component, and
+Code. This model simplifies the complexity of software systems by offering different levels of abstraction, making it easier for teams to
+communicate and understand architectural designs. Knowledge workers will find it useful for maintaining clarity and consistency in documentation and
+for facilitating effective collaboration across development teams.
+"""
+type = "site"
+tags = ["software architecture", "visualization", "structuring", "documentation"]
+
+[[tool]]
+id = "f606b7e7-3eb2-410b-96a0-757b56615789"
+name = "Manifesto for Agile Software Development"
+authors = "Beck, K., Beedle, M., Bennekum, A. van, et al."
+link = "https://agilemanifesto.org/"
+site = "agilemanifesto.org"
+year = "2001"
+image = ""
+description = """
+The Manifesto for Agile Software Development website presents the foundational principles and values of the Agile movement, emphasizing individuals
+and interactions, working software, customer collaboration, and responding to change. This manifesto guides software development teams in creating
+more flexible and efficient workflows.
+"""
+type = "site"
+tags = ["agile", "software-development", "principles", "values", "collaboration"]

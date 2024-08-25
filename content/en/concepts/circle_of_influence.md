@@ -94,6 +94,3 @@ their approach and visualization.
 * **Personal Development:** An individual struggling with stress draws their Circle of Influence, identifying that they can control their responses
   to stressful situations and choose healthier coping mechanisms.
 
-
----
-

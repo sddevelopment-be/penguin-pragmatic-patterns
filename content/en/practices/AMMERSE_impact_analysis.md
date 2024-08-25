@@ -13,7 +13,7 @@ categories = [
     "learning"
 ]
 tags = [
-    "analysis", "evaluation", "decision-making", "systems thinking", "trade-offs", "AMMERSE"
+    "analysis", "evaluation", "decision-making", "systems thinking", "trade-offs", "adaptive thinking"
 ]
 ammerse = [
     {name = "agile", delta = "-0.35", rationale = "The analysis is time-consuming and may hinder agility by slowing down decision-making processes. The potential indirect support for better decisions is not enough to offset this."},

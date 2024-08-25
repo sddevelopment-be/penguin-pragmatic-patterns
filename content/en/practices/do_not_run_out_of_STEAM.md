@@ -12,7 +12,7 @@ categories = [
     "productivity",
 ]
 tags = [
-    "goals", "prioritization", "decision-making", "reflection"
+    "goals", "prioritization", "decision-making", "reflection", "adaptive thinking"
 ]
 outputs = ['html', 'json']
 uuid = "2cd8e850-9934-40f1-8d1a-d419ef96c33f"

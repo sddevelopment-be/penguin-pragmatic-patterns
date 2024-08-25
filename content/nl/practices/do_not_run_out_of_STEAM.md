@@ -9,7 +9,13 @@ their options based on five key resources: Support, Time, Energy, Attention, and
 This model is intended to help individuals make more informed and balanced decisions by considering the availability and impact of these resources.
 """
 categories = [ "productivity" ]
-tags = [ "goals", "prioritization", "decision-making", "reflection" ]
+tags = [
+  "goals",
+  "prioritization",
+  "decision-making",
+  "reflection",
+  "adaptive thinking"
+]
 outputs = [ "html", "json" ]
 uuid = "2cd8e850-9934-40f1-8d1a-d419ef96c33f"
 aliases = [ "2cd8e850-9934-40f1-8d1a-d419ef96c33f" ]

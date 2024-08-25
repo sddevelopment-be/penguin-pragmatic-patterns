@@ -131,9 +131,9 @@ collaboration, and adaptability, the Chain of Accountability complements these m
 strategies, tactics, execution, results, rollout, and follow-up. It ensures that even within the flexible and iterative Agile framework, there is a
 clear hierarchy of accountability.
 
-### Examples
+## Examples
 
-#### The sixth of June 1944
+### The sixth of June 1944
 
 - **Goal:** Liberate Western Europe from the grip of the fascist regime.
 - **Strategy:** Launch a massive amphibious assault on the beaches of Normandy, sending every able body we can muster. Land on the beaches, and
@@ -156,7 +156,7 @@ clear hierarchy of accountability.
   is put into effect to rebuild the war-torn continent. The allies manage to secure the peace, and the United Nations is founded to prevent
   future conflicts.
 
-#### A corporate AI initiative
+### A corporate AI initiative
 
 In a bustling corporate office, top management enthusiastically decided to "leverage the use of AI" to revolutionize their operations. However,
 their lack of understanding of AI and their unbridled excitement led them to bypass crucial planning stages. Development teams were instructed to

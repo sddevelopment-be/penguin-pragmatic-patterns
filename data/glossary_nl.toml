@@ -313,6 +313,19 @@ aliases = [ ]
 references = [ ]
 
 [[terminology]]
+name = "Documentation"
+abbreviation = ""
+domain = "Software Development"
+description = """
+Documentation is the process of creating, maintaining, and storing written records of a project's development, including requirements, design, implementation, testing, and maintenance. It serves as a reference for developers, stakeholders, and users, ensuring that everyone involved in the project has access to accurate and up-to-date information about the system's functionality and structure.
+"""
+aliases = [ "Project Documentation", "Technical Documentation" ]
+
+  [[terminology.references]]
+  title = "The Importance of Documentation in Software Development"
+  link = "https://www.atlassian.com/software/documentation"
+
+[[terminology]]
 name = "Domain Driven Design"
 abbreviation = "DDD"
 domain = "software architecture"
@@ -649,6 +662,19 @@ aliases = [ ]
 references = [ ]
 
 [[terminology]]
+name = "Knowledge Retention"
+abbreviation = ""
+domain = "Project Management"
+description = """
+Knowledge retention refers to the practice of capturing, storing, and managing information or knowledge within a project or organization to ensure that it remains accessible and usable in the future. This process is crucial for maintaining continuity, especially when team members leave or transition between roles, ensuring that valuable insights and data are not lost.
+"""
+aliases = [ ]
+
+  [[terminology.references]]
+  title = "Knowledge Retention Strategies"
+  link = "https://www.apqc.org/resource-library/resource-listing/knowledge-retention-strategies"
+
+[[terminology]]
 name = "Natural order"
 abbreviation = ""
 domain = "Software development"
@@ -691,6 +717,19 @@ aliases = [ ]
   [[terminology.references]]
   title = "Refactoring: Improving the Design of Existing Code"
   link = "https://www.goodreads.com/book/show/18624706-refactoring"
+
+[[terminology]]
+name = "Release Management"
+abbreviation = ""
+domain = "Software Development"
+description = """
+Release management is the process of planning, scheduling, and controlling the build, testing, and deployment of software releases. It ensures that software is reliably released into production, minimizing risks and maximizing efficiency by coordinating the various stages and teams involved in the release process.
+"""
+aliases = [ ]
+
+  [[terminology.references]]
+  title = "Release Management Best Practices"
+  link = "https://www.atlassian.com/software/jira/release-management"
 
 [[terminology]]
 name = "Strategic Learning"
@@ -789,6 +828,19 @@ aliases = [ ]
 references = [ ]
 
 [[terminology]]
+name = "Traceability"
+abbreviation = ""
+domain = "Project Management"
+description = """
+Traceability is the ability to link project artifacts, such as requirements, design elements, code, and test cases, to their corresponding outcomes or deliverables. It ensures that every change or decision made during a project's lifecycle can be traced back to its origin, providing transparency, accountability, and the ability to verify that all requirements have been met.
+"""
+aliases = [ "Requirements Traceability" ]
+
+  [[terminology.references]]
+  title = "Requirements Traceability"
+  link = "https://www.incose.org/docs/default-source/enchantment/requirements-traceability.pdf"
+
+[[terminology]]
 name = "Turnaround time"
 domain = "software development"
 description = """
@@ -796,6 +848,19 @@ The interval of time counted from the moment of submission of a process to the t
 """
 aliases = [ ]
 references = [ ]
+
+[[terminology]]
+name = "Version Control"
+abbreviation = "VC"
+domain = "Software Development"
+description = """
+Version control is the practice of managing and tracking changes to software code, documents, and other project artifacts over time. It allows teams to collaborate effectively, maintain a history of changes, and revert to previous versions if necessary, ensuring that work is not lost and that changes are made in a controlled and transparent manner.
+"""
+aliases = [ "Source Control", "Revision Control" ]
+
+  [[terminology.references]]
+  title = "Version Control Systems"
+  link = "https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control"
 
 [[terminology]]
 name = "Waiting time"
@@ -947,6 +1012,19 @@ systematic patterns of deviation from norm or rationality in judgment, where ind
 input. These biases often stem from the brain's attempt to simplify information processing, leading to errors in decision-making and judgment.
 """
 aliases = [ "error in thinking", "bias", "preconception" ]
+
+[[terminology]]
+name = "Collaboration"
+abbreviation = ""
+domain = "Project Management"
+description = """
+Collaboration is the process of working together as a team to achieve common goals in a project. It involves effective communication, sharing of knowledge, and coordination among team members, often facilitated by tools and practices that support teamwork, such as version control systems, project management platforms, and collaborative documentation.
+"""
+aliases = [ ]
+
+  [[terminology.references]]
+  title = "Effective Collaboration in Project Management"
+  link = "https://www.pmi.org/learning/library/effective-collaboration-project-teams-11639"
 
 [[terminology]]
 name = "Heuristic"

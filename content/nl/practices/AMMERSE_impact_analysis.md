@@ -16,7 +16,7 @@ tags = [
   "decision-making",
   "systems thinking",
   "trade-offs",
-  "AMMERSE"
+  "adaptive thinking"
 ]
 uuid = "8ffeb93b-0f8d-4b01-867b-a8b78ebd4644"
 aliases = [ "8ffeb93b-0f8d-4b01-867b-a8b78ebd4644" ]
@@ -192,65 +192,6 @@ The following factors prevent effective application of the practice:
 - **Unknown Situations:** Limited knowledge of the context in which the evaluated decision is taken. Lack of even the most basic conceptual
   model of the system in which the decision will have an impact.
 
-## Rationale
-
-### Interaction Impact Matrices
-
-To facilitate the AMMERSE Impact Analysis Algorithm and avoid recalculation or overly complex interaction assessments, it is wise to use predefined
-interaction impact matrices. For this purpose, the following interaction impact matrices are provided:
-
-#### First-Order Impact Matrix
-
-The values in the matrix are the direct impacts of the row value on the column value. First-order impact reasoning provides a straightforward and
-immediate understanding of how a change will affect each AMMERSE value, making it ideal for quick assessments and initial evaluations.
-
-| X                 | AGILE                 | MINIMAL               | MAINTAINABLE          | ENVIRONMENTAL        | REACHABLE             | SOLVABLE             | EXTENSIBLE            |
-| ----------------- | --------------------- | --------------------- | --------------------- | -------------------- | --------------------- | -------------------- | --------------------- |
-| **AGILE**         | 0                     | -0.5  | 0.25  | 0                    | -0.75 | 0.5  | 0.5   |
-| **MINIMAL**       | -0.5  | 0                     | 0.75  | 0.5  | 0.75  | 0.75 | -0.75 |
-| **MAINTAINABLE**  | 0.25  | 0.75  | 0                     | 0.25 | 0.5   | 0.5  | 0.75  |
-| **ENVIRONMENTAL** | 0                     | 0.5   | 0.25  | 0                    | 0                     | 0.25 | 0                     |
-| **REACHABLE**     | -0.75 | 0.75  | 0.5   | 0                    | 0                     | 0.75 | -0.75 |
-| **SOLVABLE**      | 0.5   | 0.75  | 0.5   | 0.25 | 0.75  | 0                    | 0.5   |
-| **EXTENSIBLE**    | 0.5   | -0.75 | -0.75 | 0                    | -0.75 | 0.5  | 0                     |
-
-Calculating the first-order impact of the other values on the Agile value, we can use the following formula: modifier \* ((-0.5 \* Mi) + (0.25 \*
-Ma) + (0 \* E) + (-0.75 \* R) + (0.5 \* S) + (0.5 \* Ex) / 6). The modifier is how much the first-order feedback loops should be taken into account for
-the final result.
-
-#### Second-Order Impact Matrix
-
-The values in the matrix are the compounded effects of interactions through intermediate values, providing a more comprehensive view. This offers a
-deeper insight into how changes propagate through the system, revealing indirect and long-term effects, making it valuable for strategic planning
-and understanding complex system dynamics. The values in this matrix are calculated by multiplying the first-order impact matrix with itself, this
-simulates applying the feedback loop twice.
-
-| X                 | AGILE                   | MINIMAL                | MAINTAINABLE           | ENVIRONMENTAL          | REACHABLE               | SOLVABLE              | EXTENSIBLE             |
-| ----------------- | ----------------------- | ---------------------- | ---------------------- | ---------------------- | ----------------------- | --------------------- | ---------------------- |
-| **AGILE**         | 0                       | -0.875 | 0.4375 | 0.1875 | -1.3125 | 0.875 | 0.75   |
-| **MINIMAL**       | -0.875  | 0                      | 1.125  | 0.875  | 1.25    | 1.5   | -1.25  |
-| **MAINTAINABLE**  | 0.4375  | 1.125  | 0                      | 0.5625 | 1                       | 1.25  | 0.875  |
-| **ENVIRONMENTAL** | 0.1875  | 0.875  | 0.5625 | 0                      | 0.5625  | 0.625 | 0.3125 |
-| **REACHABLE**     | -1.3125 | 1.25   | 1                      | 0.5625 | 0                       | 1.5   | -1.25  |
-| **SOLVABLE**      | 0.875   | 1.5    | 1.25   | 0.625  | 1.5     | 0                     | 1                      |
-| **EXTENSIBLE**    | 0.75    | -1.25  | 0.875  | 0.3125 | -1.25   | 1                     | 0                      |
-
-Normalizing this table, gives us:
-
-| X                 | AGILE                 | MINIMAL               | MAINTAINABLE         | ENVIRONMENTAL        | REACHABLE             | SOLVABLE             | EXTENSIBLE            |
-| ----------------- | --------------------- | --------------------- | -------------------- | -------------------- | --------------------- | -------------------- | --------------------- |
-| **AGILE**         | 0                     | -0.69 | 0.25 | 0.05 | -1                    | 0.82 | 0.56  |
-| **MINIMAL**       | -0.69 | 0                     | 0.75 | 0.56 | 0.82  | 1                    | -0.95 |
-| **MAINTAINABLE**  | 0.25  | 0.74  | 0                    | 0.33 | 0.64  | 0.82 | 0.56  |
-| **ENVIRONMENTAL** | 0.05  | 0.56  | 0.33 | 0                    | 0.33  | 0.38 | 0.15  |
-| **REACHABLE**     | -1                    | 0.82  | 0.64 | 0.33 | 0                     | 1                    | -0.95 |
-| **SOLVABLE**      | 0.82  | 1                     | 0.82 | 0.38 | 1                     | 0                    | 0.64  |
-| **EXTENSIBLE**    | 0.56  | -0.95 | 0.56 | 0.15 | -0.95 | 0.64 | 0                     |
-
-Calculating the second-order impact of the other values on the Agile value, we can use the following formula: modifier \* ((-0.69 \* Mi) + (0.25 \*
-Ma) + (0.05 \* E) + (-1 \* R) + (0.82 \* S) + (0.56 \* Ex) / 6). The modifier is how much the second-order feedback loops should be taken into account
-for the final result.
-
 ## Application
 
 ### Considerations
@@ -269,9 +210,78 @@ for the final result.
 - **Pragmatic Adoption:** Use this analysis technique for high-risk, critical decision, or in large, complex, and risk-averse organizations.
   Most decisions can be made with less analysis, and effort.
 
-### Examples
+### Interaction Impact Matrices
 
-#### Applying the AMMERSE Impact Analysis on the "Let's not make it complicated / Avoid gold plating" pattern
+To facilitate the AMMERSE Impact Analysis Algorithm and avoid recalculation or overly complex interaction assessments, it is wise to use predefined
+interaction impact matrices. For this purpose, the following interaction impact matrices are provided:
+
+#### First-Order Impact Matrix
+
+The values in the matrix are the direct impacts of the row value on the column value. First-order impact reasoning provides a straightforward and
+immediate understanding of how a change will affect each AMMERSE value, making it ideal for quick assessments and initial evaluations.
+
+{{< bootstrap-table "bootstrap-table table-striped table-responsive half-width" >}}
+
+| X                 | AGILE                 | MINIMAL               | MAINTAINABLE          | ENVIRONMENTAL                                                                                                                                                                                                                                                                  | REACHABLE             | SOLVABLE             | EXTENSIBLE            |
+| ----------------- | --------------------- | --------------------- | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------- | -------------------- | --------------------- |
+| **AGILE**         | 0                     | -0.5  | 0.25  | 0                                                                                                                                                                                                                                                                              | -0.75 | 0.5  | 0.5   |
+| **MINIMAL**       | -0.5  | 0                     | 0.75  | year="2003"&#xA;title="The Art of Unix Programming"&#xA;isbn="9780131429017"&#xA;publisher="Addison-Wesley"&#xA;link="http://www.catb.org/~esr/writings/taoup/html/ch01s06.html#id2878538" >}} | 0                     | 0.75 | -0.75 |
+| **MAINTAINABLE**  | rss                   | 0.75  | 0                     | rss                                                                                                                                                                                                                                                                            | 0.5   | 0.5  | 0.75  |
+| **ENVIRONMENTAL** | 0                     | 0.5   | 0.25  | 0                                                                                                                                                                                                                                                                              | 0                     | 0.25 | 0                     |
+| **REACHABLE**     | -0.75 | 0.75  | 0.5   | 0                                                                                                                                                                                                                                                                              | 0                     | 0.75 | -0.75 |
+| **SOLVABLE**      | 0.5   | 0.75  | 0.5   | 0.25                                                                                                                                                                                                                                                           | 0.75  | 0                    | 0.5   |
+| **EXTENSIBLE**    | 0.5   | -0.75 | -0.75 | 0                                                                                                                                                                                                                                                                              | -0.75 | 0.5  | 0                     |
+
+{{\\</ bootstrap-table >}}
+
+Calculating the first-order impact of the other values on the Agile value, we can use the following formula: modifier \* ((-0.5 \* Mi) + (0.25 \*
+Ma) + (0 \* E) + (-0.75 \* R) + (0.5 \* S) + (0.5 \* Ex) / 6). The modifier is how much the first-order feedback loops should be taken into account for
+the final result.
+
+#### Second-Order Impact Matrix
+
+The values in the matrix are the compounded effects of interactions through intermediate values, providing a more comprehensive view. This offers a
+deeper insight into how changes propagate through the system, revealing indirect and long-term effects, making it valuable for strategic planning
+and understanding complex system dynamics. The values in this matrix are calculated by multiplying the first-order impact matrix with itself, this
+simulates applying the feedback loop twice.
+
+{{< bootstrap-table "bootstrap-table table-striped table-responsive half-width" >}}
+
+| X                 | AGILE                   | MINIMAL                | MAINTAINABLE           | ENVIRONMENTAL          | REACHABLE               | SOLVABLE              | EXTENSIBLE             |
+| ----------------- | ----------------------- | ---------------------- | ---------------------- | ---------------------- | ----------------------- | --------------------- | ---------------------- |
+| **AGILE**         | 0                       | -0.875 | 0.4375 | 0.1875 | -1.3125 | 0.875 | 0.75   |
+| **MINIMAL**       | -0.875  | 0                      | 1.125  | 0.875  | 1.25    | 1.5   | -1.25  |
+| **MAINTAINABLE**  | 0.4375  | 1.125  | 0                      | 0.5625 | 1                       | 1.25  | 0.875  |
+| **ENVIRONMENTAL** | 0.1875  | 0.875  | 0.5625 | 0                      | 0.5625  | 0.625 | 0.3125 |
+| **REACHABLE**     | -1.3125 | 1.25   | 1                      | 0.5625 | 0                       | 1.5   | -1.25  |
+| **SOLVABLE**      | 0.875   | 1.5    | 1.25   | 0.625  | 1.5     | 0                     | 1                      |
+| **EXTENSIBLE**    | 0.75    | -1.25  | 0.875  | 0.3125 | -1.25   | 1                     | 0                      |
+
+{{\\</ bootstrap-table >}}
+
+Normalizing this table, gives us:
+
+{{< bootstrap-table "bootstrap-table table-striped table-responsive half-width" >}}
+
+| X                 | AGILE                 | MINIMAL               | MAINTAINABLE         | ENVIRONMENTAL        | REACHABLE             | SOLVABLE             | EXTENSIBLE            |
+| ----------------- | --------------------- | --------------------- | -------------------- | -------------------- | --------------------- | -------------------- | --------------------- |
+| **AGILE**         | 0                     | -0.69 | rss                  | 0.05 | -1                    | 0.82 | 0.56  |
+| **MINIMAL**       | -0.69 | 0                     | 0.75 | 0.56 | 0.82  | 1                    | -0.95 |
+| **MAINTAINABLE**  | 0.25  | 0.74  | 0                    | 0.33 | 0.64  | 0.82 | 0.56  |
+| **ENVIRONMENTAL** | 0.05  | 0.56  | 0.33 | 0                    | 0.33  | 0.38 | 0.15  |
+| **REACHABLE**     | -1                    | 0.82  | 0.64 | 0.33 | 0                     | 1                    | -0.95 |
+| **SOLVABLE**      | 0.82  | 1                     | 0.82 | 0.38 | 1                     | 0                    | 0.64  |
+| **EXTENSIBLE**    | 0.56  | -0.95 | 0.56 | 0.15 | -0.95 | 0.64 | 0                     |
+
+{{\\</ bootstrap-table >}}
+
+Calculating the second-order impact of the other values on the Agile value, we can use the following formula: modifier \* ((-0.69 \* Mi) + (0.25 \*
+Ma) + (0.05 \* E) + (-1 \* R) + (0.82 \* S) + (0.56 \* Ex) / 6). The modifier is how much the second-order feedback loops should be taken into account
+for the final result.
+
+## Examples
+
+### Applying the AMMERSE Impact Analysis on the "Let's not make it complicated / Avoid gold plating" pattern
 
 ##### Define the Practice, Technique, or Decision
 
@@ -385,6 +395,8 @@ This practice can be applied in software development projects, particularly in o
 
 ###### Rationale for Impact Assessments
 
+{{< bootstrap-table "bootstrap-table table-striped table-responsive half-width" >}}
+
 | Value                                | Impact Value | Rationale                                                                                                                                                                                            |
 | ------------------------------------ | ------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | Agile (A)         | `0.3`        | The pattern encourages focusing on current needs, which aligns with agile principles of flexibility and rapid iteration. However, it may lead to future refactoring. |
@@ -395,7 +407,11 @@ This practice can be applied in software development projects, particularly in o
 | Solvable (S)      | `0.35`       | Encourages solving current problems effectively without over-engineering but future problems might require significant refactoring.                                                  |
 | Extensible (Ex)   | `-0.8`       | The pattern may hinder future extensibility, necessitating significant rework.                                                                                                       |
 
+{{\\</ bootstrap-table >}}
+
 ###### Impact Summary
+
+{{< bootstrap-table "bootstrap-table table-striped table-responsive half-width" >}}
 
 | Value         | Impact                                                                                                 |
 | ------------- | ------------------------------------------------------------------------------------------------------ |
@@ -407,7 +423,11 @@ This practice can be applied in software development projects, particularly in o
 | Solvable      | Positive impact on effective problem-solving, but potential for future refactoring.    |
 | Extensible    | Significant negative impact on future extensibility.                                   |
 
+{{\\</ bootstrap-table >}}
+
 ###### Considerations
+
+{{< bootstrap-table "bootstrap-table table-striped table-responsive half-width" >}}
 
 | Value         | Consideration                                                                                                                                         |
 | ------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -418,6 +438,8 @@ This practice can be applied in software development projects, particularly in o
 | Reachable     | Practical goals are beneficial, but frequent updates may be needed.                                                                   |
 | Solvable      | Effective for current issues, but future requirements could necessitate significant changes.                                          |
 | Extensible    | Lack of initial extensibility could result in substantial rework later.                                                               |
+
+{{\\</ bootstrap-table >}}
 
 ###### Recommendations
 

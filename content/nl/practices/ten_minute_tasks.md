@@ -1,21 +1,28 @@
 +++
-title = "Ten Minute Tasks"
+title = "10 Minute Tasks"
+subtitle = "Reclaiming wasted moments"
 author = "Stijn Dejongh"
 problem = "There are not enough hours in a day, you have many small tasks that you never get around to doing."
-description = """
-Reclaim otherwise wasted moments by using them to complete small, useful tasks. By preparing for these lulls with a list of quick,
-actionable tasks, individuals can make better use of their time and avoid procrastination."
-"""
+description = "Reclaim otherwise wasted moments by using them to complete small, useful tasks."
 summary = """
 Reclaim otherwise wasted moments by using them to complete small, useful tasks. By preparing for these lulls with a list of quick, actionable 
 tasks, individuals can make better use of their time and avoid procrastination. This pattern works well in environments where there are frequent short breaks or waiting periods, such as between meetings, commuting, or during short intervals at home. 
 """
 categories = [ "productivity" ]
-tags = [ "time management", "habbits" ]
+tags = [
+  "time management",
+  "habbits",
+  "continuous improvement",
+  "incremental progress",
+  "iteration"
+]
 uuid = "d27c9889-dcb4-45f4-a36c-5af7f85b6a76"
 aliases = [ "d27c9889-dcb4-45f4-a36c-5af7f85b6a76" ]
+outputs = [ "html", "json" ]
 image = "practices/ten_minute_tasks.webp"
 pubdate = "2024-06-05"
+related_concepts = [ ]
+related_practices = [ "cfd81655-1c47-4ee9-9f73-ea959bba3af4" ]
 
 [[ammerse]]
 name = "agile"
@@ -24,7 +31,7 @@ rationale = "The practice fosters adaptability and flexibility by encouraging th
 
 [[ammerse]]
 name = "minimal"
-delta = "0.3"
+delta = "rss"
 rationale = "While the practice itself is straight-forward, it requires some preparation and planning to be effective."
 
 [[ammerse]]
@@ -34,7 +41,7 @@ rationale = "Regularly addressing small tasks enhances maintainability by preven
 
 [[ammerse]]
 name = "environmental"
-delta = "0.15"
+delta = "0"
 rationale = "Efficient use of time can indirectly support environmental sustainability by freeing up time and mental space."
 
 [[ammerse]]
@@ -51,6 +58,23 @@ rationale = "Addressing and completing small tasks can prevent minor issues from
 name = "extensible"
 delta = "0"
 rationale = "The practice primarily focuses on immediate productivity rather than long-term extensibility."
+
+[[further_exploration]]
+type = "biblio"
+id = "a688ad2e-beb4-4b84-ad38-e64f523a33d8"
+
+[[further_exploration]]
+type = "biblio"
+id = "0b0d7895-af87-4564-881f-501cb38c5e7a"
+
+[[further_exploration]]
+type = "raw"
+author = "Dicks, M."
+year = "2022"
+title = "Someday Is Today: 22 Simple, Actionable Ways to Propel Your Creative Life"
+publisher = "New World Library"
+isbn = "1608687503"
+link = "https://www.goodreads.com/book/show/60965575-someday-is-today"
 +++
 
 ## Problem Statement
@@ -61,28 +85,6 @@ There are many lulls in a day when you have a few minutes to spare, these are of
 
 Reclaim lost moments by doing something useful in the time you have available. Prepare for these waiting times by having a list of tasks that
 can be done in a very short amount of time. Avoid doing nothing, or worse, getting lost in things that add no value to your life.
-
-## Contextual forces
-
-These describe factors at play that influence the outcome of the practice. They are not necessarily good or bad, but they are important to be aware of.
-
-### Enablers
-
-The following factors support effective application of the practice:
-
-- **Preparation:** Having a list of tasks ready to go, and having tools nearby to enable you to start a task with low friction.
-- **Prioritization:** Knowing which tasks are most important, and which can be done in a short amount of time.
-- **Awareness:** Being aware of the time you have available. Knowing how long a task will take.
-- **Elephant Carpaccio:** Having tasks that can be broken down into smaller parts, so you can make some progress in the time you have available.
-
-### Deterrents
-
-The following factors prevent effective application of the practice:
-
-- **Distractions:** Being distracted by other things that are happening around you, or getting sucked into useless rabbit holes.
-- **Lack of preparation:** Not having a list of tasks ready to go, or not having the tools you need to start a task.
-- **Overwhelm:** Having too many tasks to choose from, or not knowing what to do next.
-- **Perfectionism:** Not starting a task because you don't have enough time to do it perfectly, or finish it completely.
 
 ## Solution
 
@@ -106,6 +108,29 @@ allow you to make progress on things that you would otherwise never get around t
 tidying your closet, you will have a clean closet in a few weeks. If you try and do it all at once, you will likely need to dedicate a whole day
 to it.
 
+## Contextual forces
+
+These describe factors at play that influence the outcome of the practice. They are not necessarily good or bad, but they are important to be aware
+of.
+
+### Enablers
+
+The following factors support effective application of the practice:
+
+- **Preparation:** Having a list of tasks ready to go, and having tools nearby to enable you to start a task with low friction.
+- **Prioritization:** Knowing which tasks are most important, and which can be done in a short amount of time.
+- **Awareness:** Being aware of the time you have available. Knowing how long a task will take.
+- **Elephant Carpaccio:** Having tasks that can be broken down into smaller parts, so you can make some progress in the time you have available.
+
+### Deterrents
+
+The following factors prevent effective application of the practice:
+
+- **Distractions:** Being distracted by other things that are happening around you, or getting sucked into useless rabbit holes.
+- **Lack of preparation:** Not having a list of tasks ready to go, or not having the tools you need to start a task.
+- **Overwhelm:** Having too many tasks to choose from, or not knowing what to do next.
+- **Perfectionism:** Not starting a task because you don't have enough time to do it perfectly, or finish it completely.
+
 ## Rationale
 
 - **Avoiding procrastination:** By doing something useful in the time you have available, you avoid procrastinating on tasks that you know you
@@ -119,7 +144,9 @@ to it.
 - **Building habits:** By making a habit of doing small tasks in the time you have available, you build a habit of being productive. This can help
   you be more productive in general.
 
-## Considerations
+## Usage
+
+### Considerations
 
 - **Perfectionism:** People can avoid starting a task because they don't have enough time to do it perfectly, or finish it completely.
 - **Self-induced stress:** People applying this technique can feel driven to always be productive, and can feel guilty when they are not.
@@ -157,26 +184,3 @@ To help you get started on your own list, here are some tasks that can generally
 - folding a couple of pieces of laundry
 - throwing away old food from the fridge
 - putting dirty clothes in the laundry basket
-
-## Further Exploration
-
-- {{<reference author="Covey, S. R.; Collins, J."
-  year="2004"
-  title="The 7 Habits of Highly Effective People: Powerful Lessons in Personal Change"
-  publisher="Free Press"
-  isbn="0743269519"
-  link="https://www.goodreads.com/book/show/36072.The_7_Habits_of_Highly_Effective_People" >}}
-- {{<reference author="Clear, J."
-  year="2018"
-  title="Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones"
-  publisher="Avery"
-  isbn="0735211299"
-  link="https://www.goodreads.com/book/show/40244063-atomic-habits" >}}
-- {{<reference author="Dicks, M."
-  year="2022"
-  title="Someday Is Today: 22 Simple, Actionable Ways to Propel Your Creative Life"
-  publisher="New World Library ]"
-  isbn="1608687503"
-  link="https://www.goodreads.com/book/show/60965575-someday-is-today" >}}
-
----

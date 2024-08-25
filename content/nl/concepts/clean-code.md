@@ -2,8 +2,17 @@
 title = "Clean code"
 author = "Stijn Dejongh"
 description = "Code that is easy to understand, maintain, and extend. Clean code minimizes complexity and avoids unnecessary clutter."
+summary = """
+Discover the importance of writing clean code that is easy to understand, maintain, and extend. 
+Learn how readability, maintainability, and expressiveness can make your codebase more accessible and reduce the risk of technical debt.
+"""
 categories = [ "software development" ]
-tags = [ "maintainability", "cleanliness", "readability" ]
+tags = [
+  "maintainability",
+  "cleanliness",
+  "readability",
+  "refactoring"
+]
 uuid = "1f3849c8-28bc-4934-95bf-66d9dcee6858"
 aliases = [ "1f3849c8-28bc-4934-95bf-66d9dcee6858" ]
 pubdate = "2023-09-13"
@@ -105,7 +114,9 @@ The idea of clean code is closely related to:
   codebase.
 - the practice of **refactoring**, which involves restructuring existing code to improve its readability, maintainability, and extensibility.
 
-### Examples
+## Examples
+
+### Some simple guidelines
 
 - **Readability:** Using descriptive variable and function names, writing comments where necessary, and organizing code logically to make it easy to
   follow.
@@ -113,3 +124,138 @@ The idea of clean code is closely related to:
   might change.
 - **Expressiveness:** Writing code that clearly shows its purpose without requiring additional explanation. For example, using meaningful names and
   avoiding cryptic abbreviations.
+
+### The power of Naming
+
+In a surprising amount of fairy tales, myths, and legends the _"power of naming"_ is an ancient magical ability that allows you to control things if
+you just know how it is really called. Programming is not much different. If the entities and variables you work with have revealing names, a
+confusing piece of code becomes very clear.
+This clarity is achieved by simple renaming things to be expressive, a feat most modern IDE's can do for you at little cost.
+
+Take a look at the code below:
+
+```java
+public class Main {
+
+	public static final int MRIG = 21;
+	public static final int AMOUNT = 10;
+	public static final int MAX = 10;
+
+	private final int[] down = new int[MRIG];
+	private int cr = 0;
+
+	public void go(int input) {
+		down[cr++] = input;
+	}
+
+	public int calcResult() {
+		int result = 0;
+		int counter = 0;
+		for(int i = 0; i < AMOUNT; i++) {
+			if(caseOne(counter)) {
+				result += 10 + bonusOne(counter);
+				counter += 1;
+			} else if(caseTwo(counter)) {
+				result += sum(counter) + bonusTwo(counter);
+				counter += 2;
+			} else {
+				result += sum(counter);
+				counter += 2;
+			}
+		}
+		return result;
+	}
+
+	private boolean caseOne(int in) {
+		return down[in] == MAX;
+	}
+
+	private boolean caseTwo(int in) {
+		return sum(in) == MAX;
+	}
+
+	private int sum(int in) {
+		return down[in] + down[in + 1];
+	}
+
+	private int bonusTwo(int in) {
+		return down[in + 2];
+	}
+
+	private int bonusOne(int in) {
+		return down[in + 1] + down[in + 2];
+	}
+}
+```
+
+Do you understand what it does? Did you recognize what real-life activity it is representing?
+Let's look at the exact same piece of code. Only this time, we will use better names for methods, fields, and variables.
+
+```java
+public class Game {
+
+	public static final int MAXIMUM_ROLL_IN_GAME = 21;
+	public static final int AMOUNT_OF_FRAMES_IN_GAME = 10;
+	public static final int MAX_PINS_PER_FRAME = 10;
+
+	private final int[] pinsKnockedOver = new int[MAXIMUM_ROLL_IN_GAME];
+	private int currentRoll = 0;
+
+	public void roll(int pinsRolledOver) {
+		pinsKnockedOver[currentRoll++] = pinsRolledOver;
+	}
+
+	public int score() {
+		int score = 0;
+		int rollCounter = 0;
+		for(int frame = 0; frame < AMOUNT_OF_FRAMES_IN_GAME; frame++) {
+			if(isStrike(rollCounter)) {
+				score += 10 + strikeBonus(rollCounter);
+				rollCounter += 1;
+			} else if(isSpare(rollCounter)) {
+				score += sumOfPinsKnockedOverInFrame(rollCounter) 
+                           + spareBonus(rollCounter);
+				rollCounter += 2;
+			} else {
+				score += sumOfPinsKnockedOverInFrame(rollCounter);
+				rollCounter += 2;
+			}
+		}
+		return score;
+	}
+
+	private boolean isStrike(int rollCounter) {
+		return pinsKnockedOver[rollCounter] == MAX_PINS_PER_FRAME;
+	}
+
+	private boolean isSpare(int rollCounter) {
+		return sumOfPinsKnockedOverInFrame(rollCounter) == MAX_PINS_PER_FRAME;
+	}
+
+	private int sumOfPinsKnockedOverInFrame(int rollCounter) {
+		return pinsKnockedOver[rollCounter] 
+                + pinsKnockedOver[rollCounter + 1];
+	}
+
+	private int spareBonus(int rollCounter) {
+		return pinsKnockedOver[rollCounter + 2];
+	}
+
+	private int strikeBonus(int rollCounter) {
+		return pinsKnockedOver[rollCounter + 1] 
+                + pinsKnockedOver[rollCounter + 2];
+	}
+}
+```
+
+To a compiler both code snippets are identical. Humans however are not computers (even though most developer would like them to be).
+Being human, we understand text fragments better if we are given enough context and if we understand a majority of the words that are being
+used.
+Good code should allow anyone with a fundamental understanding of the language of choice to understand what is happening at a glance.
+The older you get, the harder it becomes to keep a large stack of working knowledge in your head. If your code requires you to hold a lot of this
+knowledge just to be able to understand what is going on, it is probably not very well written.
+
+The additional benefit of having your code be understandable at a glance is most noticeable when you are interrupted.
+Having to stop what you are doing and focus on something else, is what we call a _context switch_.
+Research has shown that it takes a surprising amount of time. Some researchers claim this refocus time to take around 20 minutes.
+The more knowledge you are required to hold on to, the harder it will be to refocus on what you were doing before the interruption happened.

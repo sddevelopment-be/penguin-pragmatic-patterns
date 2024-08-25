@@ -1,13 +1,13 @@
 title: Pragmatic Penguin Patterns
+baseURL: "localhost:1313"
+
 
 module:
-  # uncomment line below for local development of module
-  # workspace: hugo.work
   imports:
     path: github.com/StefMa/hugo-fresh
 
-googleAnalytics: # Put in your tracking code without quotes like this: UA-XXX for universal tracking or G-XXX analytics v4 tracking
 assetDir: "assets"
+enableRobotsTXT: true
 
 paginate: 5
 canonifyURLs: true

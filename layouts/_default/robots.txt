@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: {{ .Site.BaseURL }}{{ if not (hasSuffix .Site.BaseURL "/") }}/{{ end }}sitemap.xml

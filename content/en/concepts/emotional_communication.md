@@ -88,16 +88,9 @@ Emotional Conversations differ from purely rational communication models, which 
 Unlike stoic action heroes who remain unaffected by emotions, most people experience emotional fluctuations that impact their responses. This
 concept is more dynamic and realistic, acknowledging the human tendency to react emotionally.
 
-### Examples
+## Examples
 
-#### A Very Expensive Crater
-
-In the late nineties, a simple misunderstanding caused a NASA orbiter to crash into Mars. Controller teams from different parts of the world were
-collaborating to guide the spacecraft into orbit around the red planet. But as both teams used a different measurement system (imperial vs. metric),
-they ended up creating a very expensive new crater on Mars. Luckily, most misunderstandings do not have a price tag running in the hundreds of
-millions. Still, it is best to avoid them if we can.
-
-#### Workplace Feedback
+### Workplace Feedback
 
 Consider a workplace scenario where a manager provides feedback to an employee. If the employee is already stressed, they might interpret
 constructive criticism as a personal attack, leading to an emotional response. By understanding Emotional Conversations, the manager can approach

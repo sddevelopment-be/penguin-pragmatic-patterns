@@ -4,7 +4,9 @@ subtitle = "How emotions influence our comprehension"
 author = "Stijn Dejongh"
 description = "Emotional responses significantly influence the exchange of messages, often leading to misunderstandings and varied reactions based on individual emotional states."
 summary= """
-Explore the dynamics of Emotional Conversations, where emotional responses influence communication. Learn key components, practical applications, and how understanding this concept can reduce misunderstandings and enhance interactions in personal and professional settings.
+Understanding the dynamics of Emotional Conversations helps us navigate the complexities of communication, acknowledging how emotions influence our
+interactions and often lead to misunderstandings. By recognizing the stages of message processing and the factors that influence emotional 
+responses, individuals can better navigate conversations, reduce misunderstandings, and foster more effective interactions.
 """
 categories = [
     "communication",
@@ -39,7 +41,7 @@ leading to misunderstandings and varied reactions based on individual emotional 
 
 ## Key Components
 
-{{< image src="/images/concepts/communication_processing_emotions.png"
+{{< image src="/images/concepts/  communication_processing_emotions.png"
 alt="A schematic representation of a dialogue."
 caption="A schematic representation of a dialogue."
 size="80%" >}}

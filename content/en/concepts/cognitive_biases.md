@@ -110,11 +110,11 @@ conclusions, but they arise from different cognitive processes.
 
 Psychological priming involves the exposure to a stimulus influencing the response to a subsequent stimulus, often without conscious
 guidance or intention. Priming can shape perceptions, behaviours, and attitudes by activating certain associations in memory. For instance, if
-individuals are primed with words related to old age, they may walk more slowly afterward, demonstrating how subtle cues can affect behavioUr. While
+individuals are primed with words related to old age, they may walk more slowly afterward, demonstrating how subtle cues can affect behaviour. While
 cognitive biases are often unconscious errors in thinking that skew judgment, psychological priming is a process where exposure to certain stimuli
-can unconsciously influence subsequent responses. Both concepts illustrate the powerful, often hidden forces that shape human thought and behavioUr,
+can unconsciously influence subsequent responses. Both concepts illustrate the powerful, often hidden forces that shape human thought and behaviour,
 but they operate through different mechanisms: biases distort our decision-making processes, whereas priming subtly alters our reactions and
-behavioUrs based on prior stimuli.
+behaviours based on prior stimuli.
 
 ## Examples
 
@@ -162,4 +162,11 @@ the end of the world.
 These interpretations exemplify the fundamental attribution error, where people attributed the cause of the plague to internal, moral, or spiritual
 failings rather than external, situational factors. This bias led to a widespread misunderstanding of the disease and hindered effective responses
 to the crisis. By recognizing this error, we can learn to consider broader situational factors in our judgments, leading to more accurate and
-compassionate understanding of events and behavioUrs.
+compassionate understanding of events and behaviours.
+
+### A Very Expensive Crater
+
+In the late nineties, a simple misunderstanding caused a NASA orbiter to crash into Mars. Controller teams from different parts of the world were
+collaborating to guide the spacecraft into orbit around the red planet. But as both teams used a different measurement system (imperial vs. metric),
+they ended up creating a very expensive new crater on Mars. Luckily, most misunderstandings do not have a price tag running in the hundreds of
+millions. Still, it is best to avoid them if we can.

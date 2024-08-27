@@ -71,6 +71,8 @@ Any feedback or suggestions for changes can be submitted there.
     - [Cognitive Bias](/concepts/d0ce5702-9059-419c-abbf-0d3e501fbaf7)
     - [Your knowledge portfolio](/practices/a22a79f6-2ffa-4a13-a673-2ccb70ba9d42)
 - References are now sorted by type (book, tools) and author
+- Add tools, websites, and apps to the "Further exploration" section
+- Add multiple new references to the bibliography
 
 ### Removed
 

@@ -3,18 +3,21 @@ title = "Memento Mori"
 subtitle = "Remember, you will die"
 author = "Stijn Dejongh"
 description = "Our time on earth is limited, so try to make the most of it."
+summary="""
+Memento Mori is a powerful reminder of our mortality, urging us to live meaningfully, appreciate each moment, and align our actions with our values.
+"""
 categories = [
     "productivity",
 ]
 tags = [
-    "decision-making", "prioritization"
+    "decision-making", "prioritization", "stoicism", "mindfulness", "legacy", "purpose"
 ]
 uuid="97067bdd-7268-4098-ae66-7d4c3ea19fb2"
 aliases=["97067bdd-7268-4098-ae66-7d4c3ea19fb2"]
 pubdate="2023-09-15"
 image="concepts/banner_memento_mori.webp"
-related_practices = ["1bdb4866-7c15-46b1-ad38-26111791eed5"]
-related_concepts = []
+related_practices = ["1bdb4866-7c15-46b1-ad38-26111791eed5", "d8d2cbc3-1f28-4e6b-937f-2d8cf0bbaed1"]
+related_concepts = ["3d5b775a-bd5d-40de-8ed3-d390dae16b7b"]
 further_exploration = [
   {type="biblio", id="a688ad2e-beb4-4b84-ad38-e64f523a33d8"},
   {type="biblio", id="c109d804-57a4-4acf-8c80-47a88eb6df85"},
@@ -96,7 +99,7 @@ Time management techniques, such as those advocated by Stephen Covey in "The 7 H
 tasks and aligning actions with personal values. While these strategies may not directly address mortality, they share the goal of making the most
 of one's time and living a purposeful life.
 
-### Examples
+## Examples
 
 * **Personal Reflection:** Taking time each day to reflect on one's mortality and considering whether current actions and decisions align with
   long-term values and goals.

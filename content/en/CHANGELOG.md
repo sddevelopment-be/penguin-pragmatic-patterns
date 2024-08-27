@@ -40,6 +40,7 @@ Any feedback or suggestions for changes can be submitted there.
 - Updated bibliographical reference display: content title is clickable
 - JSON output format now includes more detailed information
 - Update AMMERSE values and added rationale to the metadata
+- Clean up the image used in the "Heartfelt Dialogues" concept
 
 ### Fixed
 

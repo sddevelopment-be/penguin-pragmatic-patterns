@@ -1,19 +1,25 @@
 +++
 title = "Lewin's Leadership Styles"
 author = "Stijn Dejongh"
-description = "Three distinct ways of leading a group, and their impact on productivity."
+description = "Lewin's Leadership Styles model outlines three primary approaches to leadership, each impacting group behavior and productivity in distinct ways."
+summary="""
+Explore Lewin's Leadership Styles—a model that categorizes leadership into Authoritarian, Participative, and Delegative styles, helping leaders
+adapt their approach to group dynamics for optimal productivity and satisfaction.
+"""
 categories = [
     "communication",
 ]
 tags = [
-    "leadership", "management", "delegation"
+    "leadership", "management", "delegation", "team dynamics"
 ]
 uuid="03a278c3-0115-4492-8539-f93cfda96fd7"
 aliases=["03a278c3-0115-4492-8539-f93cfda96fd7"]
 pubdate="2023-08-20"
 image="concepts/banner_leadership_styles.webp"
 related_practices = []
-related_concepts = []
+related_concepts = [
+  "55f51f65-9d4e-4a31-ad8c-242d473a0f77"
+]
 further_exploration = [
   {type="raw", author="Doolittle, J.", year="2020", title="The Leadership Style Matrix", site="Jeff Doolittle", link="https://jeffdoolittle.com/2020/11/06/leadership-style-matrix"},
   {type="raw", author="Sefton, J.", year="2012", title="Definition of Leadership", site="nofinchaos", link="https://nofinchaos.wordpress.com/2012/03/07/definition-of-leadership-kurt-lewin"},
@@ -103,10 +109,9 @@ among group members.
   leader working closely with followers and valuing their input. Servant Leadership focuses more on the leader’s responsibility to serve followers
   and develop their potential, whereas Participative Leadership is primarily concerned with collaborative decision-making.
 
-### Examples
+## Examples
 
 * Authoritarian Leadership (Autocratic): A military commander issuing direct orders to ensure swift and precise execution of tasks.
 * Participative Leadership (Democratic): A project manager involving team members in decision-making processes to foster creativity and ownership.
 * Delegative Leadership (Laissez-Faire): A research lab where highly skilled scientists are given the freedom to pursue their experiments
   independently.
-

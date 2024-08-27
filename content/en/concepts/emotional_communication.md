@@ -19,7 +19,7 @@ aliases = ["7dfd0b45-b8e2-4ef9-90b4-e5316397f55b"]
 pubdate = "2023-11-18"
 image="concepts/banner_heartfelt_dialogues.webp"
 related_practices = ["843eb99c-3d89-4333-bb0f-d8efc4916b49", "579ac780-4588-4896-9203-901e112f7498"]
-related_concepts = []
+related_concepts = ["d0ce5702-9059-419c-abbf-0d3e501fbaf7"]
 further_exploration = [
   {type="biblio", id="c109d804-57a4-4acf-8c80-47a88eb6df85"},
   {type="biblio", id="63d02dd1-135f-4e3e-af7b-b2e6f4dbb5e3"},
@@ -41,10 +41,10 @@ leading to misunderstandings and varied reactions based on individual emotional 
 
 ## Key Components
 
-{{< image src="/images/concepts/  communication_processing_emotions.png"
-alt="A schematic representation of a dialogue."
-caption="A schematic representation of a dialogue."
-size="80%" >}}
+{{< image src="/images/concepts/emotional_communication_CLEANED.png"
+  alt="A schematic representation of a dialogue."
+  caption="A schematic representation of a dialogue, and how we process a message."
+  size="80%" >}}
 
 * **Our Input Filter:** Sound waves or visual stimuli reach our sensory organs and are processed by our brains, causing subtle changes between what
   is sent and what is received.

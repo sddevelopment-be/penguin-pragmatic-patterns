@@ -2,9 +2,12 @@
 title = "Memento Mori"
 subtitle = "Remember, you will die"
 author = "Stijn Dejongh"
-description = "Our time on earth is limited, so try to make the most of it."
+description = "Embrace our mortality and live a meaningful life by aligning our actions with our core values."
 summary="""
-Memento Mori is a powerful reminder of our mortality, urging us to live meaningfully, appreciate each moment, and align our actions with our values.
+The concept "Memento Mori" emphasizes the importance of remembering our mortality to live a meaningful and purposeful life. It encourages us to
+focus on what truly matters, ensuring our actions align with our values and legacy. By reflecting on death, we can prioritize our time,
+relationships, and productivity more effectively. The concept is compared with other philosophies and practices that also address the transient
+nature of life, though with different approaches and outcomes.
 """
 categories = [
     "productivity",
@@ -57,14 +60,14 @@ appreciating each moment while being mindful of the legacy we leave behind.
 The concept of Memento Mori dates back to ancient Rome, where it was used to remind individuals, particularly those in power, of their mortality.
 This reminder was intended to keep them humble and focused on living virtuously.
 
-The ancient Romans believed that being aware of our mortality, enabled us to experience life more fully and virtuously.
+The ancient Romans believed that awareness of our mortality enabled us to experience life more fully and virtuously.
 They advise us to understand our core values and live by them. Do not wait until tomorrow to do that which can be done today.  
 If you die tomorrow, did you leave things in a good state for those that stay around?  
 Did you live how you wanted to live? What will people say about who you were as a person?
 
 While the knowledge of our own mortality can drive us to be the best version of ourselves, it can also help to not consider ourselves
-indispensable. While being productive is important, we should not forget to spend time with our loved ones, or take a few moments to relax and
-enjoy ourselves[^2]. After all, the graveyards are filled with indispensable people.
+indispensable. While productivity is important, we shouldn't forget to spend time with loved ones or take moments to relax and enjoy life[^2]. After
+all, the graveyards are filled with indispensable people.
 
 ### Application
 

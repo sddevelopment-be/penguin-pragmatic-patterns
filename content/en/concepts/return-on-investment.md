@@ -10,16 +10,18 @@ categories = [
     "productivity",
 ]
 tags = [
-    "management", "decision-making", "efficiency", "trade-off"
+    "management", "decision-making", "efficiency", "trade-off", "analysis", "impact"
 ]
 uuid = "b86230c6-49fb-4792-9008-a5241c5cdcb2"
 aliases = ["b86230c6-49fb-4792-9008-a5241c5cdcb2"]
 pubdate="2023-09-13"
 image="concepts/banner_return_on_investment.webp"
-related_concepts = []
-related_practices = ["94a558cd-4e86-4814-a5e9-d6ecafcb0d6b", "d8d2cbc3-1f28-4e6b-937f-2d8cf0bbaed1"]
+related_concepts = ["3d5b775a-bd5d-40de-8ed3-d390dae16b7b", "97067bdd-7268-4098-ae66-7d4c3ea19fb2"]
+related_practices = ["94a558cd-4e86-4814-a5e9-d6ecafcb0d6b", "d8d2cbc3-1f28-4e6b-937f-2d8cf0bbaed1", "2cd8e850-9934-40f1-8d1a-d419ef96c33f"]
 further_exploration = [
   {type="raw", author="CFI Team", year="2020", title="Return on investment (ROI)", site="Corporate Finance Institute", link="https://corporatefinanceinstitute.com/resources/accounting/what-is-return-on-investment-roi"},
+  {type="biblio", id="a688ad2e-beb4-4b84-ad38-e64f523a33d8"},  
+  {type="biblio", id="0b0d7895-af87-4564-881f-501cb38c5e7a"}
 ]
 +++
 

@@ -120,7 +120,7 @@ However, software architecture deals with intangible, digital products that are 
 compared to the tangible, physical structures of building architecture. Changes in software can be implemented relatively quickly and at a lower
 cost, whereas modifying a building design post-construction is resource-intensive and time-consuming.
 
-### Examples
+## Examples
 
 * **Business Application:** In a rapidly growing e-commerce platform, the software architect prioritizes scalability and performance to handle
   increasing user traffic and transaction volumes. The architecture includes modular components to allow for future feature expansions without

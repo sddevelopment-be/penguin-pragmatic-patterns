@@ -101,9 +101,9 @@ While analytical thinking breaks down problems into smaller parts to understand 
 interactions within the whole system. Analytical thinking is useful for detailed analysis, whereas systemic thinking is essential for understanding
 complex, dynamic systems.
 
-### Examples
+## Examples
 
-#### Improving Team Performance
+### Improving Team Performance
 
 Imagine a team in a large organization struggling to meet deadlines and losing stakeholder trust. Initially, management might look at individual
 team members' performance, workload distribution, or even the tools they use. However, a systemic thinker approaches the problem differently. They

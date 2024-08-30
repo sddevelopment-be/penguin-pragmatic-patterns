@@ -66,6 +66,16 @@
         "design",
         "review"
       ]
+    },
+    {
+      "login": "S2ophia",
+      "name": "S2ophia",
+      "avatar_url": "https://avatars.githubusercontent.com/u/178637045?v=4",
+      "profile": "https://github.com/S2ophia",
+      "contributions": [
+        "review",
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
@@ -73,5 +83,7 @@
   "projectOwner": "sddevelopment-be",
   "repoType": "github",
   "repoHost": "https://github.com",
-  "skipCi": true
+  "skipCi": true,
+  "commitType": "docs",
+  "commitConvention": "angular"
 }

@@ -166,9 +166,9 @@ phases corresponding to development stages. While the V-Model provides a structu
 different test types to optimize feedback and coverage. Additionally, frameworks like Behaviour-Driven Development (BDD) and Test-Driven
 Development (TDD) emphasize writing tests before code, aligning closely with the Testing Pyramid's emphasis on thorough and early testing.
 
-### Examples
+## Examples
 
-#### Example 1: E-Commerce Platform
+### Example 1: E-Commerce Platform
 
 Imagine a development team working on an e-commerce platform. They decide to create a validation strategy using the Testing Pyramid. They start with
 a solid foundation of unit tests to validate individual functions and methods, ensuring core logic works as expected. Next, they add integration
@@ -178,7 +178,7 @@ confirmation. Once the system is live, they collect user feedback through forms,
 and areas for improvement. By prioritizing these test types, the team balances quick feedback with comprehensive validation, catching issues early
 and ensuring a smooth user experience.
 
-#### Example 2: Healthcare Management System
+### Example 2: Healthcare Management System
 
 In a healthcare management system, the development team faces stringent regulatory requirements and high user expectations. They employ the Testing
 Pyramid to structure their validation strategy. They begin with unit tests to validate critical functions like patient data encryption and access

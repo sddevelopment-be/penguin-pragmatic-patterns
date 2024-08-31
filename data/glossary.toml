@@ -716,6 +716,20 @@ references = [
     { title = "Learning in Action: A Guide to Putting the Learning Organization to Work by David A. Garvin", link = "https://www.amazon.com/Learning-Action-Putting-Organization-Work/dp/1578512514" }
 ]
 
+[[terminology]]
+name = "Structured Knowledge Sharing"
+abbreviation = ""
+domain = "learning"
+description = """
+Structured Knowledge Sharing is a systematic approach to disseminating expertise within an organization through well-defined, goal-oriented training
+sessions. This practice ensures that critical knowledge is transferred effectively, reducing dependency on a select group of experts and promoting a
+broader understanding across teams.
+"""
+aliases = []
+references = [
+    { title = "", link = "" }
+]
+
 
 [[terminology]]
 name = "Sunk-cost fallacy"

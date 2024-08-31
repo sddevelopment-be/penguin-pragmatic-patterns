@@ -1,0 +1,45 @@
+{{ $pages := .Site.Pages }}
+{{ $titles := (slice "learning" "productivity" "communication" "software development")}}
+
+{{  $concepts := where $pages ".Type" "eq" "concepts"  }}
+{{  $practices := where $pages ".Type" "eq" "practices"  }}
+
+{
+"name": "content",
+"children":
+[
+{{ range $i, $categoryTitle := $titles }}
+{
+"name": "{{ $categoryTitle }}",
+"children": [
+{
+"name": "concepts",
+"children": [
+{{ $children := where $concepts ".Params.categories" "intersect" (slice $categoryTitle) }}
+{{ range $index, $pattern := $children }}
+{
+"name": "{{ $pattern.Title }}",
+"link": "{{ $pattern.RelPermalink }}",
+"value": 1
+} {{if lt $index (math.Sum (len $children) -1 ) }},{{ end }}
+{{ end }}
+]
+},
+{
+"name": "practices",
+"children": [
+{{ $children := where $practices ".Params.categories" "intersect" (slice $categoryTitle) }}
+{{ range $index, $pattern := $children }}
+{
+"name": "{{ $pattern.Title }}",
+"link": "{{ $pattern.RelPermalink }}",
+"value": 1
+} {{if lt $index (math.Sum (len $children) -1 ) }},{{ end }}
+{{ end }}
+]
+}
+]
+}{{if lt $i (math.Sum (len $titles) -1 ) }},{{ end }}
+{{ end }}
+]
+}

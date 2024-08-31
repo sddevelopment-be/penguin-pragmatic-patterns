@@ -25,7 +25,9 @@
 {{ $dataFile :=  printf "/visualization/%s" .Params.DataFile }}
 {{ $data := $dataFile | relURL | readFile }}
 
-{{ partial "sunburst.html" (dict "data" $data) }}
+<!--{{ partial "sunburst.html" (dict "data" $data) }}-->
+{{ partial "site_content.html" . }}
+
 
 {{ if .Site.Params.footer }}
     {{ partial "footer.html" . }}

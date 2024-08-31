@@ -5,9 +5,10 @@
     {{ $siteUrl = (replace $siteUrl "//" "http://") }}
 {{ end }}
 
+
 {{ if $patterns }}
     {{- range sort $patterns "Title" "Asc"}}
-        <div class="pattern-card revealOnScroll delay-1" data-animation="fadeInLeft" onclick="location.href='{{ $siteUrl }}/{{ .RelPermalink }}';" style="cursor:pointer;">
+        <div class="pattern-card revealOnScroll delay-1" data-animation="fadeInLeft" onclick="location.href='{{ $siteUrl }}{{ .RelPermalink }}';" style="cursor:pointer;">
             <div class="card-title-wrapper">
                 <div class="card-image">
                     <a href="{{ .RelPermalink }}" title="In-depth description of {{ .Title }}">

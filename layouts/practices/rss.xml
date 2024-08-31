@@ -31,7 +31,7 @@
             <link>{{ .Permalink }}</link>
             <pubDate>{{ .PublishDate.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
             {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
-            <guid>{{.Site.BaseURL}}/practices/{{ .Params.uuid }}</guid>
+            <guid>{{.Site.BaseURL}}practices/{{ .Params.uuid }}</guid>
             <description>{{ .Summary | html }}</description>
         </item>
         {{ end }}

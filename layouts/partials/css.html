@@ -5,9 +5,11 @@
 {{- $fontName     := .Site.Params.font.name | default "Open Sans" }}
 {{- $fontFace     := replace $fontName " " "+" }}
 {{- $fontSizes    := delimit (.Site.Params.font.sizes | default (slice 300 400 600 700)) "," }}
-{{- $fontUrl      := printf "https://fonts.googleapis.com/css?family=%s:%s" $fontFace $fontSizes }}
+{{- $fontUrl      := printf "/css/open-sans.css?family=%s:%s" $fontFace $fontSizes }}
 <link rel="icon" type="image/png" href="{{ "images/favicon.ico" | relURL }}" />
-<link href="{{ $fontUrl }}" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="{{ $fontUrl | relURL }}" />
+    
 {{- if $inServerMode }}
 {{- $css := resources.Get $sass | toCSS $cssOpts }}
 <link rel="preload" href="{{ $css.RelPermalink }}" as="style" onload="this.onload=null;this.rel='stylesheet'" />
@@ -21,7 +23,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" />
 <link rel="preconnect" href="https://ka-f.fontawesome.com" />
 
-<script src="https://kit.fontawesome.com/23575b1502.js" crossorigin="anonymous"></script>
+{{- $icons := "js/23575b1502.js" | relURL }}
+<script type="text/javascript" src="{{  $icons }}"></script>
 
 {{ partial "stylesheet.html" (dict "css" "css/icons.css")  }}
 {{ partial "stylesheet.html" (dict "css" "css/custom.css")  }}
@@ -32,5 +35,7 @@
 {{ partial "stylesheet.html" (dict "css" "css/quotes.css")  }}
 {{ partial "stylesheet.html" (dict "css" "css/taxonomies.css")  }}
 
-<link rel="stylesheet" type="text/css" href="{{ "css/lightbox.css" | relURL }}">
-<script type="text/javascript" src="{{ "js/lightbox.js" | relURL }}"></script>
+{{ partial "stylesheet.html" (dict "css" "css/lightbox.css")  }}
+
+{{- $lightbox := "js/lightbox.js" | relURL }}
+<script type="text/javascript" src="{{ $lightbox }}"></script>

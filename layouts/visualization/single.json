@@ -1,0 +1,23 @@
+{{ $pages := .Site.Pages }}
+{{ $titles := (slice "learning" "productivity" "communication" "software development")}}
+
+{{  $concepts := where $pages ".Type" "eq" "concepts"  }}
+{{  $practices := where $pages ".Type" "eq" "practices"  }}
+
+{{ range $categoryTitle := $titles }}
+{
+"name": "{{ $categoryTitle }}",
+"children": [
+  {
+  "name": "concepts",
+      "children": [
+        {{ range $patterns := where $concepts ".Params.categories" "intersect" (slice $categoryTitle)  }}
+        {
+        "name": "{{ .Title }}",
+        "link": "{{ .RelPermalink }}",
+        },
+        {{ end }}
+      ]
+  }]
+},
+{{ end }}

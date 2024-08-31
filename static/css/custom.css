@@ -154,10 +154,9 @@ body {
 }
 
 .content p::first-letter {
-    font-size: 1.25em;
-    font-weight: 500;
+    font-size: 1.125em;
+    font-weight: 400;
     color: #1c3337;
-    margin-right: -0.05rem;
 }
 
 .content h2, h3, h4 {

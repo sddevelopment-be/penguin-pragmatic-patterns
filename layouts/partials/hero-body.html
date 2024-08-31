@@ -4,6 +4,10 @@
 {{- $buttonText := index $hero "buttontext" }}
 {{- $buttonLink := index $hero "buttonlink" }}
 {{- $image      := index $hero "image" }}
+
+{{- $imageFull := printf "images/%s.webp" $image | relURL }}"
+{{- $imageMobile := printf "images/%s-mobile.webp" $image | relURL }}"
+
 <div class="hero-body">
     <div class="container">
         <div class="columns is-vcentered">
@@ -24,7 +28,11 @@
             </div>
             <div class="column is-5 is-offset-1">
                 <figure class="image is-4by3">
-                    <img src="{{ printf "images/%s" $image | relURL }}" alt="Description">
+                    <picture>
+                        <source media="(max-width: 600px)" srcset="{{ $imageMobile}}" />
+                        <source media="(min-width: 800px)" srcset="{{ $imageFull }}" />
+                        <img src="{{ $imageFull }}" alt="An image of a penguin using a laptop" load="lazy" />
+                    </picture>
                 </figure>
             </div>
         </div>

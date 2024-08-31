@@ -5,11 +5,11 @@
 {{- $fontName     := .Site.Params.font.name | default "Open Sans" }}
 {{- $fontFace     := replace $fontName " " "+" }}
 {{- $fontSizes    := delimit (.Site.Params.font.sizes | default (slice 300 400 600 700)) "," }}
-{{- $fontUrl      := printf "/css/open-sans.css?family=%s:%s" $fontFace $fontSizes }}
+{{- $fontUrl      := printf "/css/open-sans.css?family=%s:%s&display=swap" $fontFace $fontSizes }}
 <link rel="icon" type="image/png" href="{{ "images/favicon.ico" | relURL }}" />
 
 <link rel="stylesheet" type="text/css" href="{{ $fontUrl | relURL }}" />
-    
+
 {{- if $inServerMode }}
 {{- $css := resources.Get $sass | toCSS $cssOpts }}
 <link rel="preload" href="{{ $css.RelPermalink }}" as="style" onload="this.onload=null;this.rel='stylesheet'" />
@@ -27,13 +27,13 @@
 <script type="text/javascript" src="{{  $icons }}"></script>
 
 {{ partial "stylesheet.html" (dict "css" "css/icons.css")  }}
-{{ partial "stylesheet.html" (dict "css" "css/custom.css")  }}
-{{ partial "stylesheet.html" (dict "css" "css/glossary.css")  }}
-{{ partial "stylesheet.html" (dict "css" "css/recommendations.css")  }}
-{{ partial "stylesheet.html" (dict "css" "css/images.css")  }}
-{{ partial "stylesheet.html" (dict "css" "css/patterns.css")  }}
-{{ partial "stylesheet.html" (dict "css" "css/quotes.css")  }}
-{{ partial "stylesheet.html" (dict "css" "css/taxonomies.css")  }}
+{{ partial "stylesheet.html" (dict "css" "css/custom.min.css")  }}
+{{ partial "stylesheet.html" (dict "css" "css/glossary.min.css")  }}
+{{ partial "stylesheet.html" (dict "css" "css/recommendations.min.css")  }}
+{{ partial "stylesheet.html" (dict "css" "css/images.min.css")  }}
+{{ partial "stylesheet.html" (dict "css" "css/patterns.min.css")  }}
+{{ partial "stylesheet.html" (dict "css" "css/quotes.min.css")  }}
+{{ partial "stylesheet.html" (dict "css" "css/taxonomies.min.css")  }}
 
 {{ partial "stylesheet.html" (dict "css" "css/lightbox.css")  }}
 

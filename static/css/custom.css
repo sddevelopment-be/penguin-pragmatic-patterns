@@ -109,6 +109,10 @@ body {
     .hero-links {
         flex-direction: column;
     }
+
+    .hero-body {
+        padding: 2.75rem 1.75rem;
+    }
 }
 
 .hero-link {
@@ -337,6 +341,12 @@ pre {
     text-wrap: pretty;
     letter-spacing: 0.05rem;
     text-indent: 0;
+}
+
+@media all and (max-width: 800px) {
+    .media .content {
+        text-align: left;
+    }
 }
 
 .has-text-centered {

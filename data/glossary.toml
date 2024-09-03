@@ -730,6 +730,20 @@ references = [
     { title = "", link = "" }
 ]
 
+[[terminology]]
+name = "Subject Matter Expert"
+abbreviation = "SME"
+domain = "knowledge"
+description = """
+A Subject Matter Expert (SME) is an individual with deep knowledge and expertise in a particular area, subject, or domain. SMEs are often called
+upon to provide specialized insight and guidance in their area of expertise, making them invaluable resources in project development, training, and
+decision-making processes. They play a critical role in knowledge sharing, ensuring that accurate and relevant information is communicated within
+organizations.
+"""
+aliases = ["Domain Expert", "Specialist"]
+references = [
+    { title = "The SME role explained", link = "https://www.responsive.io/blog/sme-role/" }
+]
 
 [[terminology]]
 name = "Sunk-cost fallacy"

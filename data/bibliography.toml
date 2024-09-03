@@ -760,9 +760,11 @@ year = "2007"
 link = "https://www.goodreads.com/book/show/2506719.Developing_Technical_Training"
 image = "tech_training.webp"
 description = """
-First published in 1989, this book contains a wealth of information on how to ensure that your trainings are effective, efficient, and engaging.
-The author makes a strong case for the use of a structured approach to training, and provides a plethora of examples and case studies to illustrate these points.
-Reading this book will help you understand the importance of training, repeatability, and how to structure your own training materials to ensure that your audience is engaged and learning.
+First published in 1989, this book offers a comprehensive guide on creating impactful training programs.
+The author emphasizes the importance of a structured approach to ensure that trainings are not only effective but also efficient and engaging.
+Through numerous examples and case studies, the book illustrates how to design training materials that captivate your audience and facilitate
+meaningful learning. Whether you're new to instructional design or seeking to refine your skills, this book will help you master the art of
+developing repeatable and successful training programs.
 """
 levels = ["intermediate", "reference"]
 tags = ["education", "training", "teaching", "communication"]

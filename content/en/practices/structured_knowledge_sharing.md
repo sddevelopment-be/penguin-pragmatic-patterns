@@ -238,17 +238,50 @@ To mitigate the potential negative consequences:
 
 ## Examples
 
-### Example 1: Technical Onboarding Program
+### Cross-Departmental Training at Acme Corporation
 
-A company facing frequent delays due to a small team of experts being the only ones capable of troubleshooting critical systems introduced a
-structured onboarding program. This program included well-defined learning objectives, a clear prerequisite list, and practical exercises. As a
-result, new hires could quickly become proficient, reducing the workload on the expert team and improving overall system reliability.
+#### Background
 
-### Example 2: Cross-Departmental Training
+Acme Corporation, a global manufacturing company, was facing challenges with knowledge silos across its various departments. Engineers, sales teams,
+and customer support staff all had deep expertise in their respective areas, but there was little cross-departmental knowledge sharing. This led to
+inefficiencies, miscommunication, and delays in project timelines. For example, the sales team often struggled to understand the technical
+limitations of the products they were selling, while engineers were unaware of customer pain points that the support team dealt with daily.
 
-An organization with complex processes that span multiple departments implemented a structured knowledge-sharing initiative. By creating targeted
-training sessions for each department, with content tailored to their specific needs and interaction points, the company improved inter-departmental
-communication and efficiency, reducing errors and misunderstandings.
+#### Problem
 
+The lack of cross-departmental knowledge was creating bottlenecks and slowing down the overall productivity of the company. The leadership team
+recognized that without a structured approach to sharing knowledge across departments, the company would continue to face these challenges, which
+could ultimately impact its competitiveness in the market.
 
+#### Approach
+
+Acme Corporation decided to implement a Structured Knowledge Sharing program focused on cross-departmental training. The goal was to ensure that all
+teams had a basic understanding of the roles, challenges, and expertise of other departments, thereby fostering better collaboration and efficiency.
+
+* **Define the Audience:** The program targeted key members from each department, including engineers, sales representatives, and customer support
+  staff. The training was tailored to each group’s specific needs and knowledge gaps, ensuring relevance and engagement.
+
+* **Clarity of Purpose and Structured Learning Goals:** The training sessions were designed with clear objectives:
+  * **What to Know:** Provide an overview of each department’s core functions and challenges.
+  * **How to Recognize:** Equip participants with the ability to identify when cross-departmental collaboration was needed to solve a problem.
+  * **How to Do:** Teach practical skills for effective communication and collaboration across departments.
+
+* **Prerequisite Definition:** Participants were required to complete a short online module on basic corporate structure and terminology before
+  attending the training. This ensured that all attendees had a foundational understanding and could fully engage in the sessions.
+
+* **Identify the Format of Knowledge Sharing:** Acme Corporation used a mix of Static Synchronous Learning and Dynamic Synchronous Learning formats.
+  Traditional lecture-style sessions were used to introduce key concepts, followed by interactive workshops where participants could apply what they
+  learned through role-playing exercises and group discussions.
+
+#### Outcome
+
+The Structured Knowledge Sharing program at Acme Corporation led to significant improvements in cross-departmental collaboration. Sales teams gained
+a better understanding of the technical aspects of the products, allowing them to communicate more effectively with customers. Engineers learned
+about customer feedback from the support team, which informed product design improvements. The program also fostered a greater sense of unity within
+the company, as employees felt more connected to the broader organizational goals.
+
+Due to the increased understanding of each other's needs, core business, and challenges, communication became more efficient across departments.
+Additionally, a select group of participants took it upon themselves to keep the training materials updated as their departments evolved. They did
+this by creating dedicated webpages on the company’s intranet for each department, ensuring that the training materials remained relevant and
+accessible to all employees.
 

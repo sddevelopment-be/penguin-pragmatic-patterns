@@ -749,3 +749,17 @@ description = """
 levels = ["novice"]
 tags = ["productivity", "goals", "habits", "efficiency", "time management", "efficiency"]
 
+[[book]]
+id = "f67e9f3f-0467-4753-a791-7b26a20215a8"
+title = "Developing Technical Training"
+subtitle = "A Structured Approach for Developing Classroom and Computer-based Instructional Materials"
+isbn = "978-0787988463"
+authors = "Clark, R. C."
+publisher = "Pfeiffer"
+year = "2007"
+link = "https://www.goodreads.com/book/show/2506719.Developing_Technical_Training"
+image = "tech_training.webp"
+description = """
+"""
+levels = ["intermediate", "reference"]
+tags = ["education", "training", "teaching", "communication"]

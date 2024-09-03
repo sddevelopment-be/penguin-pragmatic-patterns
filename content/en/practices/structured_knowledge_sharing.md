@@ -22,7 +22,12 @@ ammerse = [
 ]
 related_concepts = []
 related_practices = []
-further_exploration = []
+further_exploration = [
+  {type="bilbio", id="f537c66d-38e8-40cc-aa94-81880f270475"},
+  {type="bilbio", id="e15a25a0-6c08-4b78-b593-ca54eea8cce2"},
+  {type="bilbio", id="d22ee68e-2f19-4677-9123-2994cb111c0c"},
+  {type="bilbio", id="f67e9f3f-0467-4753-a791-7b26a20215a8"}
+]
 +++
 
 ## Problem statement
@@ -110,16 +115,12 @@ The following factors support effective application of Structured Knowledge Shar
 - **Organizational Culture of Collaboration**: An environment that values teamwork and knowledge sharing is conducive to the successful
   implementation of this pattern. When the organization encourages cross-functional collaboration and continuous learning, employees are more likely
   to engage in structured knowledge transfer.
-
 - **Leadership Support**: Buy-in from leadership ensures that resources are allocated for developing structured training sessions and that the
   importance of knowledge sharing is communicated across the organization.
-
 - **Availability of Subject Matter Experts (SMEs)**: Having readily available experts who are willing to share their knowledge is crucial. SMEs play
   a pivotal role in creating content and conducting training sessions.
-
 - **Established Learning and Development Infrastructure**: Organizations with existing tools and platforms for training (e.g., Learning Management
   Systems, online courses) will find it easier to implement Structured Knowledge Sharing.
-
 - **Clear Communication Channels**: Effective communication within the organization, including feedback loops, ensures that the knowledge-sharing
   process is transparent and that any issues can be quickly addressed.
 
@@ -129,16 +130,15 @@ The following factors prevent effective application of Structured Knowledge Shar
 
 - **Time Constraints**: Employees may be too busy with their regular tasks to engage in or contribute to structured training sessions, leading to
   incomplete or rushed knowledge sharing.
-
 - **Resistance to Change**: If employees are accustomed to informal knowledge sharing or feel threatened by the idea of sharing their expertise,
   they may resist structured processes.
-
+- **Desire to Maintain Status Quo**: In some cases, experts may prefer to hoard knowledge as a way to maintain their importance within the
+  organization, making it difficult to implement structured knowledge-sharing practices. This can be exacerbated by a lack of incentives for
+  sharing, glorification of heroic efforts, and a fear of losing job security. 
 - **Lack of Standardization**: Without a standardized approach to training, knowledge transfer can become inconsistent, reducing the effectiveness
   of the sessions and creating confusion.
-
 - **Inadequate Resources**: Insufficient tools, platforms, or budget can hinder the development and delivery of structured knowledge-sharing
   programs.
-
 - **Over-Complexity**: If the structured knowledge-sharing process is perceived as too complex or burdensome, it can discourage participation and
   reduce the overall effectiveness of the practice.
 

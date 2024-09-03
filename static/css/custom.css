@@ -154,7 +154,7 @@ body {
 }
 
 .content p::first-letter {
-    font-size: 1.125em;
+    font-size: 1.125rem;
     font-weight: 400;
     color: #1c3337;
 }

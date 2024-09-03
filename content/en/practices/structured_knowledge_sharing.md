@@ -20,13 +20,22 @@ ammerse = [
     {name = "solvable", delta = "0", rationale = ""},
     {name = "extensible", delta = "0", rationale = ""},
 ]
-related_concepts = []
-related_practices = []
+related_concepts = [
+  "a49f917b-c560-462a-ac38-46515f6f62d0", 
+  "98cc5f46-409b-44df-9fb8-fb1d881970b5", 
+  "c57288e3-b102-4212-adb7-a4339a3a9e87"
+]
+related_practices = [
+  "e6cdeaa2-cc30-4928-95fd-f28ea7cb489d",
+  "a22a79f6-2ffa-4a13-a673-2ccb70ba9d42"
+]
 further_exploration = [
-  {type="bilbio", id="f537c66d-38e8-40cc-aa94-81880f270475"},
-  {type="bilbio", id="e15a25a0-6c08-4b78-b593-ca54eea8cce2"},
-  {type="bilbio", id="d22ee68e-2f19-4677-9123-2994cb111c0c"},
-  {type="bilbio", id="f67e9f3f-0467-4753-a791-7b26a20215a8"}
+  {type="biblio", id="f537c66d-38e8-40cc-aa94-81880f270475"},
+  {type="biblio", id="e15a25a0-6c08-4b78-b593-ca54eea8cce2"},
+  {type="biblio", id="d22ee68e-2f19-4677-9123-2994cb111c0c"},
+  {type="biblio", id="f67e9f3f-0467-4753-a791-7b26a20215a8"},
+  {type="tool", id="2fcda1f4-7270-4a63-be4a-4c951242a71d"},
+  {type="tool", id="c279aea8-47fc-4b2d-8f61-89109fb30a3c"}
 ]
 +++
 
@@ -64,12 +73,13 @@ When implementing Structured Knowledge Sharing, follow these key steps:
 #### Define the Audience
 
 Identify the target audience for each training session or document. Ask yourself:
+  
   - What is their reason for learning?
   - What are their current knowledge levels?
   - Are there any specific needs or challenges they face?
   - Are there cultural or language considerations to be aware of? 
 
-  - Ensure that the content is tailored to the knowledge level and needs of the participants to avoid mismatches in understanding.
+Ensure that the content is tailored to the knowledge level and needs of the participants to avoid mismatches in understanding.
 
 #### Clarity of Purpose and Structured Learning Goals
 
@@ -86,22 +96,26 @@ This ensures that training is comprehensive yet focused, covering both theory an
 
 - Specify any prior knowledge or skills required before participating in the training.
 - Provide additional training materials or resources for participants to meet these prerequisites, similar to how academic courses build on
-  foundational knowledge.
-- This helps set the scope of the session and ensures that all participants are on the same level of understanding.
+  foundational knowledge. 
+
+This helps set the scope of the session and ensures that all participants are on the same level of understanding.
+
 
 #### Identify the Format of Knowledge Sharing
 
 Determine the most effective format for delivering the knowledge based on the audience and the nature of the content.
 
+{{< image src="/images/practices/knowledge_sharing_types.webp" size="36%" float="right" >}}
+
 * **Static Synchronous Learning:** Traditional lecture-style sessions where the instructor delivers content in a structured format, often with
   limited interaction from participants. This format is useful for conveying large amounts of information in a short time.
+* **Static Asynchronous Learning Tools:** Such as books, webpages, or PDFs, which provide stable and consistent reference material that can be
+  accessed anytime. These resources are ideal for learners who prefer self-paced study or need to review information after initial instruction.
 * **Dynamic Synchronous Learning:** Interactive workshops or training sessions that involve hands-on exercises, group activities, and
   opportunities for real-time interaction with peers and instructors. This format is ideal for fostering deeper understanding through practical
   application and collaborative learning.
 * **Dynamic Asynchronous Learning Tools:** Such as videos or interactive online courses, which allow participants to learn at their own pace
   while still engaging with dynamic content that includes quizzes, simulations, or other interactive elements.
-* **Static Asynchronous Learning Tools:** Such as books, webpages, or PDFs, which provide stable and consistent reference material that can be
-  accessed anytime. These resources are ideal for learners who prefer self-paced study or need to review information after initial instruction.
 
 Selecting the appropriate format is critical to maximizing engagement and retention of the material, ensuring that the knowledge is effectively
 transferred and applied.

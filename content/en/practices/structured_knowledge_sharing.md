@@ -20,14 +20,15 @@ tags = [
 ]
 uuid="ad717858-fd38-491e-ba78-41d50314a353"
 aliases=["ad717858-fd38-491e-ba78-41d50314a353"]
+outputs = ['html', 'json']
 ammerse = [
-    {name = "agile", delta = "0", rationale = ""},
-    {name = "minimal", delta = "0", rationale = ""},
-    {name = "maintainable", delta = "0", rationale = ""},
-    {name = "environmental", delta = "0", rationale = ""},
-    {name = "reachable", delta = "0", rationale = ""},
-    {name = "solvable", delta = "0", rationale = ""},
-    {name = "extensible", delta = "0", rationale = ""},
+  {name = "agile", delta = "-0.1", rationale = "The technique is highly structured, limiting rapid adaptability, but feedback loops enable iterative improvements."},
+  {name = "minimal", delta = "-0.4", rationale = "The complexity of creating and maintaining structured knowledge sharing adds resource strain, slightly reducing simplicity."},
+  {name = "maintainable", delta = "+0.5", rationale = "The structured approach makes maintenance easier, especially as the system scales and matures."},
+  {name = "environmental", delta = "+0.25", rationale = "The system improves organizational collaboration and social cohesion, though broader environmental impact is limited."},
+  {name = "reachable", delta = "+0.35", rationale = "Goals are clear and practical but can be resource-intensive for smaller teams or organizations."},
+  {name = "solvable", delta = "+0.7", rationale = "The approach addresses the core problem of knowledge silos, improving communication and problem-solving capacity."},
+  {name = "extensible", delta = "+0.85", rationale = "The technique is highly scalable and can extend across various organizational layers and global teams."}
 ]
 related_concepts = [
   "a49f917b-c560-462a-ac38-46515f6f62d0", 
@@ -46,6 +47,8 @@ further_exploration = [
   {type="tool", id="2fcda1f4-7270-4a63-be4a-4c951242a71d"},
   {type="tool", id="c279aea8-47fc-4b2d-8f61-89109fb30a3c"}
 ]
+image="practices/structured_knowledge_sharing.webp"
+pubdate="2024-09-04"
 +++
 
 ## Problem statement
@@ -57,8 +60,8 @@ stifled due to the uneven distribution of critical knowledge.
 
 ## Intent
 
-The primary intent of Structured Knowledge Sharing is to break down knowledge silos by ensuring that critical knowledge is transferred as
-effectively and efficiently as possible within the organization. Given the high cost of training in terms of lost productivity, it is essential that
+The primary intent of Structured Knowledge Sharing is to break down knowledge silos by ensuring that critical knowledge is transferred 
+efficiently and with maximum impact. Given the high cost of training in terms of lost productivity, it is essential that
 these sessions impart significant new information and skills to participants, justifying the investment.
 
 ## Solution
@@ -134,6 +137,9 @@ Selecting the appropriate format is critical to maximizing engagement and retent
 transferred and applied.
 
 ## Contextual Forces
+
+This technique is applied in an organizational context, particularly in large companies or departments where knowledge bottlenecks hinder
+productivity and growth. It is especially useful in cross-departmental training, project management, or technical skill dissemination.
 
 ### Enablers
 

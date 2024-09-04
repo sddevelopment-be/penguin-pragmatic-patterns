@@ -27,6 +27,8 @@ ammerse = [
 related_concepts = []
 related_practices = []
 further_exploration = []
+image="practices/XXXX.webp"
+pubdate="2024-06-05"
 +++
 
 ## Problem statement

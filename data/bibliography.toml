@@ -600,7 +600,7 @@ levels = ["novice", "reference"]
 tags = ["programming", "readability", "refactoring", "patterns"]
 
 [[book]]
-id = "1925e2ec-9147-4c4a-9dd8-c3ce6d08eee6"
+id = "49109152-09f1-4d31-aef3-d244598bd2f4"
 title = "A Common-Sense Guide to Data Structures and Algorithms: Level Up Your Core Programming Skills"
 minimized_title = "Common-Sense Guide to Data Structures and Algorithms: Level Up Your Core Programming Skills"
 isbn = "978-1680507225"
@@ -768,3 +768,4 @@ developing repeatable and successful training programs.
 """
 levels = ["intermediate", "reference"]
 tags = ["education", "training", "teaching", "communication"]
+

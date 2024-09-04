@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Simple iterative parser implementation for a TOML file containing bibliographical information
-outputDir="content/books"
+outputDir="content/en/books"
 book="";
 title=""
 id=""

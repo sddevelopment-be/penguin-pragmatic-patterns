@@ -22,64 +22,66 @@
                 <img src="/images/{{ $image }}" alt="{{ .Title }}">
             </div>
             {{ end }}
-            <div class="summary-item">
-                <span class="summary-title">UUID:</span>
-                <span class="summary-content"><a href="/practices/{{.Params.UUID}}" rel="noreferrer" target="_blank">{{.Params.UUID}}</a></span>
-            </div>
-            {{if .Params.author}}
-            <div class="summary-item">
-                <span class="summary-title">Author:</span>
-                <span class="summary-content">{{.Params.author}}</span>
-            </div>
-            {{ end }}
-            {{if .Params.pubdate}}
-            <div class="summary-item">
-                <span class="summary-title">Published on:</span>
-                <span class="summary-content">{{.Params.pubdate}}</span>
-            </div>
-            {{ end }}
-            {{if .Params.outputs}}
-            <div class="summary-item ">
-                <span class="summary-title">{{ .Params.outputs | len }} formats available:</span>
-                <span class="summary-content summary-formats">
-                    <a href="index.html" rel="noreferrer" target="_blank">HTML</a> /
-                    {{ $formats := slice }}
-                    {{ range $format := .Params.outputs }}
-                        {{ $toAdd := $format.Name }}
-                        {{ $formats = $formats | append $toAdd }}
-                    {{ end }}
-                    {{ if (in $formats "rss") }}
-                        <a href="index.xml" rel="noreferrer" target="_blank">XML</a> /
-                    {{ end }}
-                    {{ if (in $formats "json") }}
-                        <a href="index.json" rel="noreferrer" target="_blank">JSON</a>
-                    {{ end }}
-                </span>
-            </div>
-            {{ end }}
-            {{if $ammerse}}
-            <div class="summary-item">
-                <span class="summary-title">Ammerse Values <a href="https://www.ammerse.org/" target="_blank" title="What is this?"><i class="fa-solid fa-circle-info"></i></a>:</span>
-                <div class="summary-content">
-                    <div class="ammerse-values">
-                        {{ range $value := $ammerse}}
-                        {{partial "ammerse.html" (dict "value" $value )}}
+            <div class="summary-wrapper">
+                <div class="summary-item">
+                    <span class="summary-title">UUID:</span>
+                    <span class="summary-content"><a href="/practices/{{.Params.UUID}}" rel="noreferrer" target="_blank">{{.Params.UUID}}</a></span>
+                </div>
+                {{if .Params.author}}
+                <div class="summary-item">
+                    <span class="summary-title">Author:</span>
+                    <span class="summary-content">{{.Params.author}}</span>
+                </div>
+                {{ end }}
+                {{if .Params.pubdate}}
+                <div class="summary-item">
+                    <span class="summary-title">Published on:</span>
+                    <span class="summary-content">{{.Params.pubdate}}</span>
+                </div>
+                {{ end }}
+                {{if .Params.outputs}}
+                <div class="summary-item ">
+                    <span class="summary-title">{{ .Params.outputs | len }} formats available:</span>
+                    <span class="summary-content summary-formats">
+                        <a href="index.html" rel="noreferrer" target="_blank">HTML</a> /
+                        {{ $formats := slice }}
+                        {{ range $format := .Params.outputs }}
+                            {{ $toAdd := $format.Name }}
+                            {{ $formats = $formats | append $toAdd }}
                         {{ end }}
+                        {{ if (in $formats "rss") }}
+                            <a href="index.xml" rel="noreferrer" target="_blank">XML</a> /
+                        {{ end }}
+                        {{ if (in $formats "json") }}
+                            <a href="index.json" rel="noreferrer" target="_blank">JSON</a>
+                        {{ end }}
+                    </span>
+                </div>
+                {{ end }}
+                {{if $ammerse}}
+                <div class="summary-item">
+                    <span class="summary-title">Ammerse Values <a href="https://www.ammerse.org/" target="_blank" title="What is this?"><i class="fa-solid fa-circle-info"></i></a>:</span>
+                    <div class="summary-content">
+                        <div class="ammerse-values">
+                            {{ range $value := $ammerse}}
+                            {{partial "ammerse.html" (dict "value" $value )}}
+                            {{ end }}
+                        </div>
                     </div>
                 </div>
+                {{ end }}
+                {{ if $tags }}
+                <div class="summary-item">
+                    <span class="summary-content full">
+                            <div class="pattern-tags">
+                            {{ range $index, $value := (sort $tags "value" "asc") }}
+                                <span class="pattern-tag"><a href="/tags/{{ $value | urlize }}">{{ $value }}</a></span>
+                            {{end}}
+                            </div>
+                        </span>
+                </div>
+                {{ end }}
             </div>
-            {{ end }}
-            {{ if $tags }}
-            <div class="summary-item">
-                <span class="summary-content full">
-                        <div class="pattern-tags">
-                        {{ range $index, $value := (sort $tags "value" "asc") }}
-                            <span class="pattern-tag"><a href="/tags/{{ $value | urlize }}">{{ $value }}</a></span>
-                        {{end}}
-                        </div>
-                    </span>
-            </div>
-            {{ end }}
         </div>
 
         <div class="content pattern">

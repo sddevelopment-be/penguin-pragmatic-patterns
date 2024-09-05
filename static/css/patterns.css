@@ -332,6 +332,20 @@
     margin: 0.25rem 0.25rem 3rem 4.5rem;
 }
 
+.pattern-summary .title-wrapper {
+    flex-grow: 1;
+    align-content: center;
+    margin-bottom: 0.5rem;
+    margin-top: 0.75rem;
+    padding: 0.25rem;
+}
+
+.pattern-summary .spacer-wide {
+    width: 80% !important;
+    clear: both;
+    margin: auto auto 1.75rem;
+}
+
 .card-image {
     display: flex;
     flex-direction: row;

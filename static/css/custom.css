@@ -16,6 +16,10 @@ body {
     line-height: 1.75rem;
 }
 
+#navbar-clone {
+    z-index: 999 !important;
+}
+
 @media all and (max-width: 800px) {
     body {
         font-size: 14px;

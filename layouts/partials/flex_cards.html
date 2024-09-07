@@ -8,7 +8,7 @@
 
 {{ if $patterns }}
     {{- range sort $patterns "Title" "Asc"}}
-        <div class="pattern-card revealOnScroll delay-1" data-animation="fadeInLeft" onclick="location.href='{{ $siteUrl }}{{ .RelPermalink }}';" style="cursor:pointer;">
+        <div class="pattern-card revealOnScroll delay-1" data-animation="fadeInLeft" onclick="location.href='{{ .RelPermalink }}';" style="cursor:pointer;">
             <div class="card-title-wrapper">
                 <div class="card-image">
                     <a href="{{ .RelPermalink }}" title="In-depth description of {{ .Title }}">
@@ -31,19 +31,6 @@
                     {{if .Description }}<p><span class="item-title">description:</span>{{ .Description }}</p> {{end}}
                 </div>
                 <div class="card-stretch"></div>
-
-                {{if .Ammerse}}
-                <div class="card-text ammerse">
-                    <p>
-                        <span class="item-title">AMMERSE values <a href="/about/#use-of-ammerse-values" target="_blank" title="What is this?"><i class="fa-solid fa-circle-info"></i></a>:</span>
-                    <div class="ammerse-values">
-                        {{ range $value := .Ammerse}}
-                        {{partial "ammerse.html" (dict "value" $value )}}
-                        {{ end }}
-                    </div>
-                    </p>
-                </div>
-                {{ end }}
             </div>
             <div class="card-action">
                 <a href="{{ .RelPermalink }}" class="button btn-align-md secondary-btn raised" title="In-depth description of {{ .Title }}">Detailed Description</a>

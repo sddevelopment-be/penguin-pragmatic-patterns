@@ -308,6 +308,17 @@
     color: #f39200;
 }
 
+.summary-content a {
+    color: #363636;
+    border-bottom: 1px dashed #f39200;
+}
+
+.summary-content a:hover {
+    color: #f39200 !important;
+    border-bottom: 1px dashed #363636 !important;
+}
+
+
 .fa-circle-info {
     font-size: 0.65rem;
 
@@ -478,7 +489,7 @@
 }
 
 .fas {
-    padding-left: 10%;
+    padding-left: 0.15rem;
 }
 
 .ammerse-values {
@@ -486,7 +497,7 @@
     flex-direction: row;
     justify-content: space-between;
     margin-top: 0.125rem;
-    padding: 0.5rem;
+    padding: 0.25rem;
     gap: 0.25rem;
 }
 
@@ -673,7 +684,11 @@
         }
     }
 
-    .ammerse-values {
+    .pattern-summary .ammerse-values {
+
+        .fas {
+            padding-left: 10%;
+        }
 
         .ammerse-value {
             background: #08141f;
@@ -757,7 +772,6 @@
     margin-top: -1.5rem;
     padding-top: 1.75rem;
     border-top: 1px dashed #f39200;
-    border-bottom: 2px solid #f39200;
 }
 
 .related {

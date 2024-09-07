@@ -406,3 +406,28 @@ hr {
     height: 4px;
     margin: 1.5rem 0;
 }
+
+footer {
+    margin-top: 3.75rem;
+    border-top: 2px solid #f39200;
+}
+
+footer.footer-dark {
+    background: linear-gradient(
+            rgba(1, 13, 24, 0.95),
+            rgba(1, 13, 24, 0.85),
+            rgba(1, 13, 24, 0.95),
+            rgba(1, 13, 24, 0.95),
+            rgba(1, 13, 24, 1)
+        ),
+        url("/images/tiles.webp") repeat;
+}
+
+footer.footer-dark .footer-column ul.link-list a {
+    padding-left: 0.75rem;
+    border-left: 2px solid transparent;
+}
+
+footer.footer-dark .footer-column ul.link-list a:hover {
+    border-left: 2px solid #f39200;
+}

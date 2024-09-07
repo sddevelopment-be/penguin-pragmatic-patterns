@@ -356,7 +356,7 @@
 
 .card-image img {
     border-radius: 1.5rem;
-    border: 2px solid #34626f;
+    border: 8px solid #fdf9f7;
     max-width: 90%;
     width: auto;
     height: auto;
@@ -396,48 +396,6 @@
     padding: 0.125rem;
     margin: auto;
     clear: both;
-}
-/* META DATA AND TITLE DISPLAY */
-
-@media (min-width: 1024px) {
-    .card-image img {
-        border-radius: 1.5rem;
-        border: 8px solid #fdf9f7;
-        max-width: 95%;
-        width: auto;
-        height: auto;
-    }
-
-    .card-title-wrapper {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-content: center;
-        gap: 0.125rem;
-        max-height: 4.5rem;
-    }
-
-    .card-title-wrapper .card-image {
-        max-width: 6.5rem;
-        max-height: 6.5rem;
-        position: relative;
-        left: -2.125rem;
-        top: -2.125rem;
-        align-content: center;
-    }
-
-    .pattern-summary {
-        float: none;
-        width: 100%;
-    }
-}
-
-@media (max-width: 800px) {
-    .card-title-wrapper .card-image {
-        max-width: 5.5rem;
-        max-height: 5.5rem;
-        position: relative;
-    }
 }
 
 .card-title-wrapper .card-image img {
@@ -508,16 +466,6 @@
     z-index: 500;
 }
 
-@media (max-width: 800px) {
-    .pattern-summary {
-        width: 100%;
-        flex-shrink: 0;
-        margin: 0.15rem 0.35rem 2.5rem 0;
-        float: none;
-        padding: 0.25rem;
-    }
-}
-
 .pattern-related {
     margin-top: 3.5rem;
     font-size: 0.85rem;
@@ -527,6 +475,10 @@
 
 .ammerse {
     margin-top: 0.5rem;
+}
+
+.fas {
+    padding-left: 25%;
 }
 
 .ammerse-values {
@@ -541,11 +493,164 @@
 .ammerse-values .ammerse-value {
     display: block;
     font-size: 0.85rem;
-    padding: 0.25rem;
+    padding: 0.5rem;
     border-radius: 0.25rem;
     text-align: center;
     flex: 1 1 0px;
     align-content: center;
+    max-width: 2.75rem;
+}
+
+/* META DATA AND TITLE DISPLAY */
+
+@media (min-width: 1024px) {
+    .pattern-summary .title-wrapper .divider{
+        display: none;
+    }
+
+    .pattern-summary {
+        float: none;
+        display: block;
+        width: 100%;
+        margin: 0;
+        padding: 3rem 3rem 0rem;
+    }
+
+    .pattern-summary .title-wrapper {
+        width: 100%;
+        max-width: 100%;
+        max-height: 9.5rem;
+        height: 9.5rem;
+        background: #34626f;
+        padding-top: 1.75rem;
+        padding-bottom: 1.125rem;
+        padding-right: 6.5rem;
+        margin-bottom: 2.75rem;
+        margin-left: 6.5rem;
+
+        .title {
+            color: #fefefe;
+        }
+
+        .subtitle {
+            color: #fceddf;
+        }
+    }
+
+    .card-image {
+        max-width: 12.5rem;
+        max-height: 12.5rem;
+        position: absolute;
+        top: 6.5rem;
+        left: 5.5rem;
+    }
+
+    .summary-wrapper {
+        display: flex;
+        flex-direction: row;
+        width: 94%;
+        clear: none;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .pattern-summary .card-image img {
+        border-radius: 6.75rem;
+        border: 4px solid #34626f;
+        max-width: 95%;
+        width: auto;
+        height: auto;
+    }
+
+    .card-title-wrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: center;
+        gap: 0.125rem;
+        max-height: 4.5rem;
+    }
+
+    .card-title-wrapper .card-image {
+        position: relative;
+        left: -2.125rem;
+        top: -2.125rem;
+        align-content: center;
+    }
+
+    .pattern-summary .summary-content {
+        justify-content: start;
+        max-width: 100%;
+        padding: 0.75rem 0.95rem 1.75rem;
+        border-left: 1px solid #f39200;
+    }
+
+    .pattern-summary .summary-title {
+        max-width: 100%;
+        padding-left: 1.75rem;
+        margin-top: -0.75rem;
+    }
+
+    .pattern-summary .summary-item:before {
+        border-top: 1px solid #f39200;
+        border-left: 1px solid #f39200;
+        content: '';
+        display: block;
+        width: 1.125rem;
+        height: .5rem;
+        margin-bottom: -0.25rem;
+    }
+
+    .summary-item {
+        flex-direction: column;
+        justify-content: flex-end;
+        padding-left: 0.35rem;
+        margin: 0.25rem 0.75rem 0;
+
+        a {
+            color: #7d4b01;
+        }
+
+        a:hover {
+            color: #f39200;
+        }
+    }
+
+    .pattern-summary .summary-item .summary-formats {
+        display: block;
+        padding: 0.75rem 0.95rem 1.75rem;
+        max-width: 100%;
+
+        a {
+            padding: 0.5rem;
+        }
+    }
+
+    .summary-content .pattern-tags {
+        flex-direction: column;
+        padding: 0 0.5rem;
+    }
+
+    .pattern-tags .pattern-tag {
+        padding: 0.35rem 0.65rem;
+        text-align: right;
+    }
+}
+
+@media (max-width: 800px) {
+    .pattern-summary {
+        width: 90%;
+        margin: 0.15rem 1.35rem 2.5rem 1.35rem;
+        flex-shrink: 0;
+        float: none;
+        padding: 0.25rem;
+    }
+
+    .card-title-wrapper .card-image {
+        max-width: 5.5rem;
+        max-height: 5.5rem;
+        position: relative;
+    }
 }
 
 .base {

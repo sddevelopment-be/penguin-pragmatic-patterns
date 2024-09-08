@@ -20,7 +20,7 @@ body {
     z-index: 999 !important;
 }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 1024px) {
     body {
         font-size: 14px;
         line-height: 1.65rem;
@@ -123,7 +123,7 @@ body {
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1024px) {
     .hero-links {
         flex-direction: column;
     }
@@ -151,7 +151,7 @@ body {
     text-indent: 0.5em;
 }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 1024px) {
     .content {
         text-indent: 0.25em;
     }
@@ -211,7 +211,7 @@ body {
 }
 
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 1024px) {
     .content pre {
         padding: 0.75em 0.25em;
         margin-left: -0.5rem;
@@ -314,7 +314,7 @@ body {
 pre {
     text-indent: 0;
 }
-@media all and (max-width: 800px) {
+@media all and (max-width: 1024px) {
 
     .content    pre {
         text-indent: 0.75rem;
@@ -360,7 +360,7 @@ pre {
     text-indent: 0;
 }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 1024px) {
     .media .content {
         text-align: left;
     }
@@ -393,7 +393,7 @@ pre {
     clear: both;
 }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 1024px) {
     .half-width {
         max-width: 100%;
     }

@@ -738,6 +738,7 @@ tags = ["programming", "unix", "efficiency", "structure", "architecture"]
 [[book]]
 id = "0b0d7895-af87-4564-881f-501cb38c5e7a"
 title = "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones"
+minimized_title = "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones"
 isbn = "0735211299"
 authors = "Clear, J."
 publisher = "Avery"
@@ -752,6 +753,7 @@ tags = ["productivity", "goals", "habits", "efficiency", "time management", "eff
 [[book]]
 id = "f67e9f3f-0467-4753-a791-7b26a20215a8"
 title = "Developing Technical Training"
+minimized_title = "Developing Technical Training"
 subtitle = "A Structured Approach for Developing Classroom and Computer-based Instructional Materials"
 isbn = "978-0787988463"
 authors = "Clark, R. C."

@@ -1,6 +1,7 @@
 +++
 aliases = ["bibliography"]
 title = "Bibliography"
+subtitle = "Recommended Reading: books to broaden your view"
 outputs = ['html', 'rss'] 
 +++
 

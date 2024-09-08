@@ -5,35 +5,13 @@
 {{ $titles := (slice "learning" "productivity" "communication" "software development")}}
 {{ $pages := .Pages}}
 
-<section class="hero is-default section-feature-grey is-medium" id="practices">
+{{ partial "title-section.html" . }}
 
+<section class="hero is-default section-feature-grey is-medium" id="practices">
     <div class="hero-body">
         <div class="container">
-            <div class="title-wrapper fitted">
-                    <h1 class="title fitted is-1 is-bold is-spaced">
-                        {{ .Title }}
-                        <div class="divider"></div>
-                        {{ if .Params.subtitle }}
-                        <h2 class="subtitle is-5 is-muted">
-                            {{ .Params.subtitle }}
-                        </h2>
-                        {{ end }}
-                    </h1>
-            </div>
             <div class="wide columns">
-                <div class="column is-2 is-offset-1">
-                    <figure class="image is-1by1">
-                        <img src="{{ printf "images/penguin_teacher.webp" | relURL }}" alt="Glossary hero image">
-                    </figure>
-                    <p class="pattern-buttons">
-                        <span class="pattern-buttons-title">Discover techniques :</span>
-                        <a class="button cta rounded primary-btn raised" href="#learning">Learning</a>
-                        <a class="button cta rounded primary-btn raised" href="#productivity">Productivity</a>
-                        <a class="button cta rounded primary-btn raised" href="#communication">Communication</a>
-                        <a class="button cta rounded primary-btn raised" href="#software-development">Software Development</a>
-                    </span>
-                </div>
-                <div class="column is-8 is-offset-1 landing-caption vert-align">
+                <div class="column is-10 is-offset-1 landing-caption vert-align">
                     {{ .Content }}
                 </div>
             </div>

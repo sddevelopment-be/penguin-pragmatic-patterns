@@ -1,0 +1,13 @@
+<section>
+    <div class="title-wrapper-dark fitted">
+        <h1 class="title fitted is-1 is-bold is-spaced">
+            {{ .Title }}
+            <div class="divider"></div>
+            {{ if .Params.subtitle }}
+            <h2 class="subtitle fitted is-4 is-muted">
+                {{ .Params.subtitle }}
+            </h2>
+            {{ end }}
+        </h1>
+    </div>
+</section>

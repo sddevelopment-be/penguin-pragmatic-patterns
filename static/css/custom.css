@@ -431,3 +431,37 @@ footer.footer-dark .footer-column ul.link-list a {
 footer.footer-dark .footer-column ul.link-list a:hover {
     border-left: 2px solid #f39200;
 }
+
+.title-wrapper-dark {
+    float: none;
+    display: block;
+    width: 100%;
+    margin: 0;
+    padding: 3rem 3rem 2.75rem;
+    background: linear-gradient(rgba(11, 28, 42, 0.9), rgba(1, 13, 24, 0.95)), url("/images/tiles.webp") repeat;
+    border: 0;
+    border-top: 2px solid #162431;
+    border-bottom: 4px solid #535353;
+    border-radius: 0;
+
+    .title {
+        color: #fefefe;
+        margin-left: auto;
+        margin-right: auto;
+        clear: both;
+    }
+
+    .subtitle {
+        color: #f39200;
+        font-weight: 300;
+        margin-left: auto;
+        margin-right: auto;
+        clear: both;
+    }
+}
+
+@media (min-width: 1024px) {
+    .section.is-medium {
+        padding: 5.25rem 4.5rem;
+    }
+}

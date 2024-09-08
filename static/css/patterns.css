@@ -383,7 +383,7 @@
 
 @media (max-width: 1024px) {
     .card-title-wrapper {
-        flex-direction: column;
+        flex-direction: row;
     }
 }
 
@@ -495,7 +495,8 @@
 .ammerse-values {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     margin-top: 0.125rem;
     padding: 0.25rem;
     gap: 0.25rem;
@@ -509,7 +510,7 @@
     text-align: center;
     flex: 1 1 0px;
     align-content: center;
-    max-width: 2.75rem;
+    max-width: 2.25rem;
 }
 
 /* META DATA AND TITLE DISPLAY */
@@ -720,9 +721,10 @@
     .pattern-summary .summary-item {
         margin: 1.75rem 0.25rem 0.75rem 0.5rem;
         padding-left: 0.5rem;
-        padding-top: 0.5rem;
+        padding-top: 0.75rem;
         justify-content: space-between;
         border-top: 1px solid #f39200;
+        border-right: 1px solid #f39200;
         border-radius: 0;
         background: #08141f85;
 
@@ -737,13 +739,13 @@
         }
     }
 
-    .pattern-summary .summary-item::after {
+    .pattern-summary .summary-item::before {
         content: '';
-        width: 1.75rem;
-        margin-right: -0.5rem;
-        margin-top: -0.55rem;
-        height: 0.75rem;
-        border-right: 6px solid #f39200;
+        width: 0rem;
+        margin-left: -0.5rem;
+        margin-top: -0.75rem;
+        height: .75rem;
+        border-left: 6px solid #f39200;
     }
 
     .pattern-summary .summary-title {
@@ -766,6 +768,19 @@
 
     .summary-title {
         flex-grow: 1;
+    }
+
+    .pattern-tags {
+        flex-direction: column;
+        align-content: flex-end;
+    }
+
+    .ammerse-wrapper {
+            flex-direction: column;
+
+        .summary-content {
+            padding: 0.75rem 0.25rem;
+        }
     }
 
 }

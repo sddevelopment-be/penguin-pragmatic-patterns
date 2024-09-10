@@ -286,3 +286,21 @@ more flexible and efficient workflows.
 """
 type = "site"
 tags = ["agile", "software-development", "principles", "values", "collaboration"]
+
+[[tool]]
+id = "6a07f122-8e3d-4d2d-a26f-d6ca8c4d3edd"
+name = "DevPedia"
+authors = "Jayasinghe, C."
+link = "https://devpedia.pages.dev/"
+site = "devpedia.dev"
+year = "2024"
+image = "devpedia.webp"
+description = """
+This website has almost all the commonly used technical terms,
+concepts and even programming-language specific jargons explained and links provided for further reading.
+It contains a wealth of information on common technical terminology, making it a great resource for beginners and experts alike.
+"""
+type = "site"
+tags = ["glossary", "programming", "reference", "development"]
+
+

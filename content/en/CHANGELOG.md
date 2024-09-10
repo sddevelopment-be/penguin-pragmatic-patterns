@@ -27,12 +27,20 @@ Any feedback or suggestions for changes can be submitted there.
 
 ## v2.4.0: Visual Improvements
 
+### Added
+
+- Images and descriptions for websites included in the "Tools, Websites, and Apps" section
+
 ### Changed
 
 - Pattern overview pages now display a grid on larger screens
 - The "More Details" button on the pattern overview pages has been removed
 - The pattern cards are now clickable and will redirect to the pattern page
+- Visual improvements to the pattern detail pages
 
+### Fixed
+
+- Issue with titles not being displayed correctly on various handheld devices
 
 ## v2.3.0: Content Consistency Update
 

@@ -139,7 +139,7 @@ name = "A Practical Guide for Evolving Agile and Resilient Organizations with So
 year = "2022"
 site = "sociocracy30.org"
 link = "https://patterns.sociocracy30.org/all.html"
-image = ""
+image = "sociocracy30.webp"
 description = """
 The Sociocracy 3.0 (S3) Patterns website offers a comprehensive collection of patterns designed to enhance collaboration, governance, and
 decision-making within organizations. By providing a flexible framework based on principles of sociocracy and agile methodologies, S3 helps teams
@@ -156,12 +156,14 @@ name = "AMMERSE: Empowering Businesses with core values"
 year = "2024"
 site = "AMMERSE.org"
 link = "https://www.ammerse.org/"
-image = ""
+image = "ammerse.webp"
 description = """
-
+The AMMERSE framework is a method for scaling agile practices across organizations while preserving flexibility and adaptability. It combines
+decentralized decision-making with principles from sociocracy and holacracy, supporting continuous improvement and alignment across teams. The
+framework is tailored to help larger organizations scale agile methodologies without losing their responsiveness.
 """
 type = "site"
-tags = ["principles"]
+tags = ["principles", "values", "strategic learning", "trade-offs"]
 
 [[tool]]
 id = "89c8394d-87c7-4eaa-8154-b89f0cee77d1"

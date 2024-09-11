@@ -2,36 +2,22 @@
 {{ partial "navbar.html" . }}
 {{ partial "navbar-clone.html" . }}
 
-<section class="section section-feature-grey is-medium" id="books">
-    <div class="container">
-        <div class="column is-centered-tablet-portrait">
-            <h1 class="title section-title">
-                {{ .Title }}
-            </h1>
-            <div class="divider"></div>
-        </div>
+{{ partial "title-section.html" . }}
 
-        <div class="content-wrapper">
-
-            <div class="content">
-                {{ .Content }}
-            </div>
-            <br/><br/>
-
-            <div >
-                <ul class="tag-wrapper">
-                    {{if .Data.Terms }}
-                        {{ range .Data.Terms.Alphabetical }}
-                            <li class="tag-block"><a href="{{ .Page.Permalink }}" class="tag-name">{{ .Page.Title }}</a> <span class="tag-count">{{ .Count }}</span></li>
-                        {{ end }}
-                    {{ else }}
-                        No content with tags found.
-                    {{ end }}
-                </ul>
-            </div>
-
-        </div>
-
+<section class="section section-feature-grey is-medium" id="tags">
+    <div class="content">
+        {{ .Content }}
+    </div>
+    <div >
+        <ul class="tag-wrapper">
+            {{if .Data.Terms }}
+                {{ range .Data.Terms.Alphabetical }}
+                    <li class="tag-block"><a href="{{ .Page.Permalink }}" class="tag-name">{{ .Page.Title }}</a> <span class="tag-count">{{ .Count }}</span></li>
+                {{ end }}
+            {{ else }}
+                No content with tags found.
+            {{ end }}
+        </ul>
     </div>
 </section>
 

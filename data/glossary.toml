@@ -1022,3 +1022,88 @@ It encompasses all potential approaches, methods, and pathways that can be consi
 - __In Education:__ In the context of learning strategies, the search space encompasses various study techniques, mnemonic devices, and cognitive tools that learners might employ to understand and retain information.
 """
 aliases = ["solution space", "exploration domain"]
+
+[[terminology]]
+name = "Accountability"
+abbreviation = ""
+domain = "ethics"
+description = """
+Accountability refers to the obligation of an individual or organization to take responsibility for their actions, decisions, and outcomes, and to
+transparently report on them. It involves being answerable to stakeholders and accepting the consequences, whether positive or negative, of one's
+performance or conduct.
+"""
+aliases = ["responsibility", "answerability"]
+references = [
+    { title = "Definition of Accountability", link = "https://www.merriam-webster.com/dictionary/accountability" }
+]
+
+[[terminology]]
+name = "Adaptive Thinking"
+abbreviation = ""
+domain = "cognitive science"
+description = """
+Adaptive thinking refers to the ability to adjust one's thought processes in response to changing circumstances, new information, or evolving
+challenges. It involves flexibility, creativity, and the capacity to develop new strategies or approaches to solve problems in dynamic environments.
+"""
+aliases = ["cognitive flexibility", "situational thinking"]
+references = [
+]
+
+[[terminology]]
+name = "Analysis"
+abbreviation = ""
+domain = "decision-making"
+description = """
+Analysis is the process of breaking down complex information or systems into smaller, more manageable components in order to understand, interpret,
+or evaluate them. It involves critical thinking, data interpretation, and systematic exploration of elements or structures.
+"""
+aliases = ["examination", "dissection", "evaluation"]
+references = [
+    { title = "Definition of Analysis", link = "https://www.merriam-webster.com/dictionary/analysis" }
+]
+
+[[terminology]]
+name = "Complexity"
+abbreviation = ""
+domain = "systems theory, decision-making, leadership"
+description = """
+Complexity refers to the state or quality of a system or environment that has multiple interconnected and interdependent parts, making it difficult
+to predict outcomes or behaviors. In a business or organizational context, it often involves dealing with uncertainty, ambiguity, and dynamic
+interactions.
+"""
+aliases = ["intricacy", "complicatedness"]
+references = [
+]
+
+[[terminology]]
+name = "Continuous Improvement"
+abbreviation = ""
+domain = "quality management, process improvement"
+description = """
+Continuous improvement is an ongoing effort to enhance products, services, or processes by making small, incremental changes over time. It is a
+fundamental concept in quality management methodologies like Lean and Kaizen, aiming to boost efficiency and reduce waste.
+"""
+aliases = ["incremental improvement", "process optimization", "Kaizen"]
+references = [
+    { title = "Continuous Improvement Definition", link = "https://asq.org/quality-resources/continuous-improvement" }
+]
+
+[[terminology]]
+name = "Cognitive Load"
+abbreviation = ""
+domain = "cognitive science"
+description = """
+Cognitive load refers to the amount of mental effort required to process information or complete a task. It can be influenced by factors such as
+task complexity, the individual's working memory capacity, and the design of learning materials or environments.
+"""
+aliases = ["mental load", "cognitive effort"]
+references = [
+    { title = "Cognitive Load Theory", link = "https://www.instructionaldesign.org/theories/cognitive-load/" }
+]
+
+
+
+
+
+
+

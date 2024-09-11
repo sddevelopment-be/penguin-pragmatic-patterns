@@ -147,7 +147,7 @@ adapt to changing environments, make decentralized decisions, and improve overal
 workers and organizations seeking to implement more inclusive and efficient ways of working.
 """
 type = "site"
-tags = ["governance", "collaboration", "agile", "decision-making", "empathy"]
+tags = ["governance", "collaboration", "agile", "decision-making", "empathy", "accountability"]
 
 [[tool]]
 id = "fa17a430-1b3c-487b-82a6-d1b6d5e35d48"

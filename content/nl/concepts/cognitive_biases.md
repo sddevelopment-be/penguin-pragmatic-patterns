@@ -14,7 +14,7 @@ tags = [
   "thinking",
   "psychology",
   "decision-making",
-  "meta-cognition"
+  "cognitive science"
 ]
 uuid = "d0ce5702-9059-419c-abbf-0d3e501fbaf7"
 aliases = [ "d0ce5702-9059-419c-abbf-0d3e501fbaf7" ]

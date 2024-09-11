@@ -15,15 +15,11 @@
     {{ end }}
 {{ end }}
 
+{{ partial "title-section.html" . }}
+
 <section class="section section-feature-grey is-medium" id="practices">
     <div class="container">
-        <div class="recommendation-item" >
-            <div class="recommendation-title">
-                <h3 id={{ replace $tag " " "-" | lower }}>{{ $tag }}</h3>
-                <span class="permalink">
-                ( <a href="/tags/{{$tag}}" rel="noreferrer" target="_blank">permalink</a> )
-        </span>
-            </div>
+        <div class="recommendation-item no-card" >
             <div class="recommendation-content">
                 <div class="recommendation-text">
                     {{ if $description }}
@@ -68,7 +64,7 @@
             <div class="content-wrapper">
                 <div class="column is-centered-tablet-portrait">
                     <h2 class="title section-title">
-                        Patterns: {{ .Title }}
+                        Patterns tagged with "{{ .Title }}"
                     </h2>
                 </div>
                 <div class="pattern-list">
@@ -80,27 +76,50 @@
             </div>
         {{ end }}
 
-        {{ $resources := slice  }}
+        {{ $books := slice  }}
         {{ range $book := (index .Site.Data "bibliography").book }}
             {{ if and (not $book.draft) (intersect $book.tags (slice $tag))}}
-                {{ $resources = $resources | append $book }}
+                {{ $books = $books | append $book }}
             {{end}}
         {{ end }}
-        {{ if ge (len $resources) 1 }}
+        {{ if ge (len $books) 1 }}
             <div class="content-wrapper">
                 <div class="column is-centered-tablet-portrait">
                     <h2 class="title section-title">
-                        Resources: {{ .Title }}
+                        Books tagged with "{{ .Title }}"
                     </h2>
                 </div>
                 <div class="pattern-list">
                     <div class="recommendation-wrapper">
-                        {{ range $resource := $resources }}
+                        {{ range $resource := $books }}
                             {{ partial "book_biblio.html" (dict "book" $resource) }}
                         {{ end }}
                     </div>
                 </div>
             </div>
+        {{ end }}
+
+        {{ $tools := slice  }}
+        {{ range $tool := (index .Site.Data "tools").tool }}
+            {{ if and (not $tool.draft) (intersect $tool.tags (slice $tag))}}
+            {{ $tools = $tools | append $tool }}
+        {{end}}
+        {{ end }}
+        {{ if ge (len $tools) 1 }}
+        <div class="content-wrapper">
+            <div class="column is-centered-tablet-portrait">
+                <h2 class="title section-title">
+                    Other Resources tagged with "{{ .Title }}"
+                </h2>
+            </div>
+            <div class="pattern-list">
+                <div class="recommendation-wrapper">
+                    {{ range $tool := $tools }}
+                        {{ partial "tool.html" (dict "tool" $tool) }}
+                    {{ end }}
+                </div>
+            </div>
+        </div>
         {{ end }}
     </div>
 </section>

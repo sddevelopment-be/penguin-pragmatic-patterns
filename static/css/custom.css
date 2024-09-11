@@ -453,6 +453,7 @@ footer.footer-dark .footer-column ul.link-list a:hover {
         margin-left: auto;
         margin-right: auto;
         clear: both;
+        text-transform: capitalize;
     }
 
     .subtitle {

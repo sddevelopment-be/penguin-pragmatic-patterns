@@ -30,6 +30,7 @@ Any feedback or suggestions for changes can be submitted there.
 ### Added
 
 - Images and descriptions for websites included in the "Tools, Websites, and Apps" section
+- Dynamic table of contents for pattern detail pages
 
 ### Changed
 

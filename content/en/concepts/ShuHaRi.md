@@ -11,7 +11,7 @@ categories = [
     "learning",
 ]
 tags = [
-    "growth", "mastery", "skill levels", "continuous improvement", "iteration"
+    "growth", "mastery", "skill levels", "continuous improvement", "iteration", "cognitive science"
 ]
 uuid="a49f917b-c560-462a-ac38-46515f6f62d0"
 aliases=["a49f917b-c560-462a-ac38-46515f6f62d0"]

@@ -2,6 +2,14 @@
     margin-top: 3.75rem;
 }
 
+.no-card {
+    background: #fefefe;
+    border: 0 !important;
+    border-radius: 0 !important;
+    padding: 0.25rem 0.75rem;
+    width: 100%;
+}
+
 .recommendation-item .recommendation-title {
     border-bottom: 1px dashed #f39200;
     text-transform: capitalize;
@@ -33,9 +41,10 @@
     justify-content: space-evenly;
     padding: 1.25rem 0.25rem;
     margin-bottom: 1.25rem;
+    max-width: 100%;
+    width: 100%;
     background: #fefefe;
     border-radius: 1.75rem;
-    max-width: 100%;
     border-bottom: 1px solid #dcdcdc;
     border-right: 1px solid #dcdcdc;
 }

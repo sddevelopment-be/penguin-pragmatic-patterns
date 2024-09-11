@@ -16,7 +16,8 @@
     border: 2px solid #f39200;
     border-radius: 0.25rem;
     display: block;
-    width: 20rem;
+    max-width: 20rem;
+    width: 100%;
     height: fit-content;
     margin: 0.95rem;
     color: #7d4b01;

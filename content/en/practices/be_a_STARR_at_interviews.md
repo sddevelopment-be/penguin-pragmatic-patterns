@@ -27,7 +27,7 @@ ammerse = [
     {name = "extensible", delta = "0.25", rationale="The pattern may hinder future extensibility, necessitating significant rework."},
 ]
 pubdate="2024-05-11"
-image = "practices/starr_method_cover.webp"
+image = "practices/starr_method_cover"
 related_concepts = [
   "d0ce5702-9059-419c-abbf-0d3e501fbaf7",
   "7dfd0b45-b8e2-4ef9-90b4-e5316397f55b"
@@ -58,7 +58,7 @@ interviewee to provide specific examples, you can gain a better understanding of
 The STARR (Situation-Task-Action-Results-Reflection) method is a structured approach to interviewing that helps you gather all the
 necessary information about a candidate.
 
-{{< image src="/images/practices/starr_diagram.png"  alt="Overview of the STAR-R acronym." caption="STAR-R: situational and behavioural interview questions" >}}
+{{< image src="/images/practices/starr_diagram"  alt="Overview of the STAR-R acronym." caption="STAR-R: situational and behavioural interview questions" >}}
 
 * **Situation:** The context in which the interviewee found themselves. What was going on? What was the interviewee's role and responsibility?
 * **Task:** What was the goal or objective? What was the interviewee trying to achieve?

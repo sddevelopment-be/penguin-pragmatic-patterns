@@ -26,7 +26,7 @@ ammerse = [
   {name = "extensible", delta = "0", rationale="No significant impact on extensibility, as long as conventions are well-documented and flexible."}
 ]
 pubdate="2023-08-26"
-image="practices/conventions_cover.webp"
+image="practices/conventions_cover"
 related_concepts = [
   "1f3849c8-28bc-4934-95bf-66d9dcee6858",
 ]
@@ -46,7 +46,7 @@ further_exploration = [
 +++
 
 {{<image
-src="/images/practices/outlier_consistency.png"
+src="/images/practices/outlier_consistency"
 alt="A field of blue circles and a single orange square"
 caption="Find the orange square! Illustrating that finding an outlier is easier in a mostly uniform environment." >}}
 

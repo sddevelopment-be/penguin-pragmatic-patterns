@@ -26,7 +26,7 @@ ammerse = [
   {name = "solvable", delta = "0.6", rationale = "Moderate improvement in problem-solving by promoting exploration and learning."},
   {name = "extensible", delta = "0.15", rationale = "Limited positive impact on extensibility, with some transferable insights but restricted by context-specific experiments."}
 ]
-image="practices/safe_to_fail_cover.webp"
+image="practices/safe_to_fail_cover"
 pubdate="2024-01-28"
 related_concepts = [
   "a49f917b-c560-462a-ac38-46515f6f62d0", "98cc5f46-409b-44df-9fb8-fb1d881970b5"

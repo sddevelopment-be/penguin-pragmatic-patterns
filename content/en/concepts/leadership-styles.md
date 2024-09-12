@@ -15,7 +15,7 @@ tags = [
 uuid="03a278c3-0115-4492-8539-f93cfda96fd7"
 aliases=["03a278c3-0115-4492-8539-f93cfda96fd7"]
 pubdate="2023-08-20"
-image="concepts/banner_leadership_styles.webp"
+image="concepts/banner_leadership_styles"
 related_practices = []
 related_concepts = [
   "55f51f65-9d4e-4a31-ad8c-242d473a0f77"
@@ -34,7 +34,7 @@ Authoritarian (Autocratic), Participative (Democratic), and Delegative (Laissez-
 effects on group behaviour and productivity in an experimental setting.
 
 {{<image
-  src="/images/concepts/leadership_styles.png"  
+  src="/images/concepts/leadership_styles"  
   alt="Different leadership styles by amount of decision makers" >}}
 
 ## Key Components

@@ -26,7 +26,7 @@ ammerse = [
   {name = "extensible", delta = "0.5", rationale = "Documentation moderately supports scalability and extensibility, though the impact is less pronounced."}
 ]
 pubdate = "2024-04-20"
-image = "practices/traceable_decisions_cover.webp"
+image = "practices/traceable_decisions_cover"
 related_concepts = [
 ]
 related_practices = [
@@ -111,7 +111,7 @@ The following factors prevent effective application of the practice:
 
 ### Just-enough design documentation templates
 
-{{< image src="/images/practices/traceable_decisions_example_overview.png" float="right" size="34%" >}}
+{{< image src="/images/practices/traceable_decisions_example_overview" float="right" size="34%" >}}
 
 Writing design documentation can be a daunting task. It is often seen as a necessary evil, and as a result, it is often done poorly.
 The result of this is that the documentation is not useful, stays unmaintained, and is not used by the team. 

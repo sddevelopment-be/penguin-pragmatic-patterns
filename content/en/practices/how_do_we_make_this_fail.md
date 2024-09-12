@@ -44,7 +44,7 @@ further_exploration = [
   {type="biblio", id="b6da416a-00a2-46dd-a211-fb4d4f0382e3"}
 ]
 pubdate="2023-09-19"
-image = "practices/self_sabotage_cover.webp"
+image = "practices/self_sabotage_cover"
 +++
 
 ## Problem Statement
@@ -78,7 +78,7 @@ You have an idea and want to strengthen it against negative forces.
   * During execution of your plan, actively track and reassess the risks to your idea. Be prepared to act!
   * Concentrate your attention and efforts on the failure modes that have the highest impact, as identified in the matrix.
 
-{{<image src="/images/practices/sabotage.png" alt="A 2-by-2 matrix showing risks to an idea/plan ordered by impact and likelihood" >}}
+{{<image src="/images/practices/sabotage" alt="A 2-by-2 matrix showing risks to an idea/plan ordered by impact and likelihood" >}}
 
 By following this systematic approach, you can proactively strengthen your ideas against negative forces, ensuring they are more resilient and
 better prepared for potential challenges.

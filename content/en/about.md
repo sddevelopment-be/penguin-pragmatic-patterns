@@ -2,7 +2,7 @@
 title = "Approach"
 order = 1
 pubdate = "2023-08-26"
-image = "sense_making_meta_model.webp"
+image = "sense_making_meta_model"
 summary = "This page is designed to introduce and explain the unique framework through which the site's information is organized and delivered, setting the stage for deeper exploration into the topics covered."
 +++
 
@@ -22,7 +22,7 @@ internet provides an overwhelming amount of information on coding and productivi
 approach a situation. The proverb "If you put two developers in a room, they will soon generate three dissenting opinions" is, in fact, quite
 accurate.
 
-{{< image src="/images/chapters/silly_standards.webp" 
+{{< image src="/images/chapters/silly_standards" 
   alt="Alice and Bob fret over conventions"
   caption="Alice and Bob fret over conventions"
   size="44%"
@@ -107,7 +107,7 @@ As we now know, context matters! That is why each pattern is prefaced with a sho
 
 The pattern structure definition is illustrated in the following figure:
 
-{{< image src="/images/chapters/pattern_definition.webp"  alt="Pattern structure definition" >}}
+{{< image src="/images/chapters/pattern_definition"  alt="Pattern structure definition" >}}
 
 Some patterns may contain references to other resources, as well as supporting examples, testimonials, tutorials, and so on. These examples can be included inside the pattern description, but they might also exist as separate resources in a different section of this publication.
 
@@ -121,7 +121,7 @@ Some patterns may contain references to other resources, as well as supporting e
 
 ## Interoperability with other frameworks
 
-{{< image src="/images/sense_making_meta_model.webp"
+{{< image src="/images/sense_making_meta_model"
 alt="Compositional breakdown of the overarching sense-making meta model"
 caption="Compositional breakdown of the overarching sense-making meta model"
 size="40%"
@@ -203,8 +203,6 @@ indicates no meaningful impact, and 1 indicates a significant positive impact. T
 
 
 We hope you find this knowledge base useful and that it helps you navigate the challenges of working in the software development field.
-
----
 
 [^0]: Statistics retrieved
 from [https://www.zippia.com/software-engineer-jobs/demographics/](https://www.zippia.com/software-engineer-jobs/demographics/), Evolution of

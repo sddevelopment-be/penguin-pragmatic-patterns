@@ -17,7 +17,7 @@ tags = [
 uuid="55f51f65-9d4e-4a31-ad8c-242d473a0f77"
 aliases=["55f51f65-9d4e-4a31-ad8c-242d473a0f77"]
 pubdate = "2024-07-16"
-image = "concepts/chain_of_accountability_cover.webp"
+image = "concepts/chain_of_accountability_cover"
 related_concepts = ["3d5b775a-bd5d-40de-8ed3-d390dae16b7b"]
 related_practices = ["47f32286-17b0-471e-90d6-eb0de9f60ac0", "e6cdeaa2-cc30-4928-95fd-f28ea7cb489d"]
 further_exploration = [
@@ -40,7 +40,7 @@ Implementation of any idea can be broken down into key phases and components, ea
 hierarchy of accountability. The goal of the model is to outline the different areas of responsibility. For each component in the chain, there
 is a clear outline of what is expected, and who is responsible for it.
 
-{{< image src="/images/concepts/BASE_chain_of_accountability.png" alt="The operational chain of accountability" size="75%">}}
+{{< image src="/images/concepts/BASE_chain_of_accountability" alt="The operational chain of accountability" size="75%">}}
 
 ### Chain Components
 
@@ -68,7 +68,7 @@ All of these steps contribute towards achieving an effect within the organizatio
 
 ### Accountability Scope
 
-{{< image src="/images/concepts/ARCHI_chain_of_accountability_assigned.png" 
+{{< image src="/images/concepts/ARCHI_chain_of_accountability_assigned" 
   alt="The operational chain of accountability mapped to organizational capabilities" 
   size="90%" >}}
 

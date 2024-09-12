@@ -27,7 +27,7 @@ further_exploration = [
     {type="raw", title="List of cognitive biases", link="https://en.wikipedia.org/wiki/List_of_cognitive_biases", author="Various Authors", year="2024", site="wikipedia.org"}
 ]
 pubdate="2024-07-28"
-image="concepts/banner_cognitive_bias.webp"
+image="concepts/banner_cognitive_bias"
 +++
 
 ## Definition
@@ -121,7 +121,7 @@ behaviours based on prior stimuli.
 ### WWII Fighter Planes
 
 {{<image
-    src="/images/concepts/survivorship_bias_wald.png"  
+    src="/images/concepts/survivorship_bias_wald"  
     alt="a schematic drawing of a WWII bomber, with damage marked on it. Credit: McGeddon CC BY-SA 4.0"
     caption="a schematic drawing of a WWII bomber, with damage marked on it. Credit: McGeddon CC BY-SA 4.0"
     float="right"

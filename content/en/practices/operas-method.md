@@ -31,7 +31,7 @@ ammerse = [
 ]
 
 pubdate="2023-08-26"
-image="practices/operas_cover.webp"
+image="practices/operas_cover"
 related_concepts = [
 ]
 related_practices = [
@@ -78,7 +78,7 @@ size, and can range from 'build a house' to 'do the dishes'.
 
 
 ### Detailed steps
-{{< image src="/images/practices/OPERAs.png"  alt="OPERAs step by step" caption="OPERAs step by step" size="40%" float="right" >}}
+{{< image src="/images/practices/OPERAs"  alt="OPERAs step by step" caption="OPERAs step by step" size="40%" float="right" >}}
 
 #### 1. Orientate
 

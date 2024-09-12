@@ -26,7 +26,7 @@ ammerse = [
   {name = "extensible", delta = "0"},
 ]
 pubdate="2023-09-10"
-image = "practices/differences_of_opinion_cover.webp"
+image = "practices/differences_of_opinion_cover"
 related_concepts = ["7dfd0b45-b8e2-4ef9-90b4-e5316397f55b", "d0ce5702-9059-419c-abbf-0d3e501fbaf7"]
 related_practices = ["843eb99c-3d89-4333-bb0f-d8efc4916b49"]
 further_exploration = [
@@ -71,7 +71,7 @@ You might still end up in disagreement, but at least you have an understanding o
 This proves to be invaluable in identifying alternatives or compromises.
 
 {{<image
-  src="/images/practices/example_differences_of_opinion.png"  
+  src="/images/practices/example_differences_of_opinion"  
   alt="Flowchart illustrating a difference of opinion"
   caption="Flowchart illustrating differences of opinion"
   size="40%">}}

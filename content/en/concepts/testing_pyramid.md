@@ -20,7 +20,7 @@ tags = [
 uuid = "6169f9c0-dfe0-49b1-b459-acf01ac69c40"
 aliases = ["6169f9c0-dfe0-49b1-b459-acf01ac69c40"]
 pubdate = "2023-10-01"
-image = "concepts/banner_test_pyramid.webp"
+image = "concepts/banner_test_pyramid"
 related_concepts = []
 related_practices = ["04c6129d-11f7-4aa0-a809-1b972a0d7ef9"]
 further_exploration = [
@@ -57,7 +57,7 @@ Software development involves combining numerous small building blocks, arrangin
 behaviour[^1]. Each of these building blocks must behave as intended. While validating individual components doesn't guarantee the perfect
 functioning of the overall system, neglecting this step almost certainly guarantees failure.
 
-{{< image src="/images/concepts/testing_pyramid.png" alt="The testing pyramid" size="48%" float="left" >}}
+{{< image src="/images/concepts/testing_pyramid" alt="The testing pyramid" size="48%" float="left" >}}
 
 There are various ways to validate software behaviour, ranging from highly isolated tests that scrutinize small code segments to user feedback
 forms, where users report any issues they encounter. The Testing Pyramid provides a structured approach to categorize these tests, ensuring a good

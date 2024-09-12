@@ -17,7 +17,7 @@ uuid="d8d2cbc3-1f28-4e6b-937f-2d8cf0bbaed1"
 aliases=["d8d2cbc3-1f28-4e6b-937f-2d8cf0bbaed1"]
 outputs = ['html', 'json']
 pubdate="2023-11-23"
-image = "practices/priorities_cover.webp"
+image = "practices/priorities_cover"
 ammerse = [
   {name = "agile", delta = "0.4", rationale = "The positive impact on agility comes from the structured approach that allows for clearer prioritization and quicker adjustments when priorities change. However, the technique's structured nature might slightly limit flexibility, leading to a moderate overall positive impact."},
   {name = "minimal", delta = "-0.05", rationale = "While the technique adds structure to task management, it also introduces a layer of complexity that detracts from minimalism. This results in a slightly negative impact on the minimal value."},
@@ -75,7 +75,7 @@ Organize your action items according to:
 This leaves you with a nice 2-by-2 grid in which to place your actionable items[^1].
 
 {{< image
-src="/images/practices/eis_matrix.png"
+src="/images/practices/eis_matrix"
 alt="A 2-by-2 priority matrix, commonly known as the Eisenhouwer matrix." >}}
 
 Each grid section corresponds to a specific way to handle the action items contained within:

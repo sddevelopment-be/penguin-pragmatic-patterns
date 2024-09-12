@@ -39,7 +39,7 @@ further_exploration = [
   {type="biblio", id="e15a25a0-6c08-4b78-b593-ca54eea8cce2"},
 ]
 pubdate="2023-09-15"
-image="practices/changelog_cover.webp"
+image="practices/changelog_cover"
 +++
 
 ## Problem Statement

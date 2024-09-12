@@ -40,7 +40,7 @@ further_exploration = [
   { type="raw", author="Unknown", year="2023", title="What is the Eisenhower Matrix?", site="productplan.com", link="https://www.productplan.com/glossary/eisenhower-matrix/" }
 ]
 pubdate="2023-08-26"
-image="practices/organize_workflow_cover.webp"
+image="practices/organize_workflow_cover"
 +++
 
 ## Problem Statement
@@ -80,7 +80,7 @@ The core ideas of the GTD approach is to have:
 * A calendar to plan time-allocations in
 
 {{<image
-  src="/images/practices/task_flow.png"
+  src="/images/practices/task_flow"
   alt="Mind like water, a productivity flow inspired by the Getting Things Done methodology"
   caption="A high-level productivity flow inspired by the Getting Things Done methodology" >}}
 

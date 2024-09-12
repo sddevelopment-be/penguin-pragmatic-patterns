@@ -27,7 +27,7 @@ ammerse = [
 ]
 
 pubdate="2023-09-10"
-image = "practices/wax_on_cover.webp"
+image = "practices/wax_on_cover"
 related_concepts = [
   "a49f917b-c560-462a-ac38-46515f6f62d0", "98cc5f46-409b-44df-9fb8-fb1d881970b5"
 ]

@@ -26,7 +26,7 @@ ammerse = [
   {name = "extensible", delta = "0", rationale = "Neutral impact on scalability, depending heavily on the specific context of application."}
 ]
 pubdate="2023-08-26"
-image = "practices/pomodoro_cover.webp"
+image = "practices/pomodoro_cover"
 related_concepts = [
   "b86230c6-49fb-4792-9008-a5241c5cdcb2"
 ]

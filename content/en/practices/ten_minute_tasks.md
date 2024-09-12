@@ -26,7 +26,7 @@ ammerse = [
     {name = "solvable", delta = "0.95", rationale = "Addressing and completing small tasks can prevent minor issues from becoming larger problems, supporting proactive problem-solving."},
     {name = "extensible", delta = "0", rationale = "The practice primarily focuses on immediate productivity rather than long-term extensibility."},
 ]
-image="practices/ten_minute_tasks.webp"
+image="practices/ten_minute_tasks"
 pubdate="2024-06-05"
 related_concepts = []
 related_practices = [

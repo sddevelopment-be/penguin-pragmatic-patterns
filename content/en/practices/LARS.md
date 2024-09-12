@@ -30,7 +30,7 @@ ammerse = [
   {name = "extensible", delta = "0.5", rationale = "The technique can be adapted to various contexts, contributing to a slight positive impact on extensibility."}
 ]
 pubdate="2023-10-10"
-image="practices/lars_cover.webp"
+image="practices/lars_cover"
 related_concepts = ["7dfd0b45-b8e2-4ef9-90b4-e5316397f55b"]
 related_practices = ["579ac780-4588-4896-9203-901e112f7498"]
 further_exploration = [
@@ -72,7 +72,7 @@ Instead of defaulting to responding, practice empathetic listening using the LAR
   likely overreacting. Avoid using trivializing words, and platitudes, such as _"just"_, _"easy"_, _"we've all been there"_, _"that's nothing, you
   should hear what I went through"_.
 
-{{< image src="/images/practices/LARS_technique.png"  alt="Overview of the LARS acronym, showing you care." caption="LARS: showing you are present and caring" >}}
+{{< image src="/images/practices/LARS_technique"  alt="Overview of the LARS acronym, showing you care." caption="LARS: showing you are present and caring" >}}
 
 ## Contextual forces
 

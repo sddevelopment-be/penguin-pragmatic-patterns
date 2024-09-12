@@ -36,7 +36,7 @@ further_exploration = [
   {type="biblio", id="f537c66d-38e8-40cc-aa94-81880f270475"},
 ]
 pubdate = "2023-09-05"
-image = "practices/mindmapping_cover.webp"
+image = "practices/mindmapping_cover"
 +++
 
 ## Problem Statement
@@ -122,7 +122,7 @@ Rather that they can combine the information they already have, and to come up w
 This is what I came up with as a general structure, which you can see reflected in how this work has been structured.
 
 {{< image 
-  src="/images/practices/knowledge_map.png"  
+  src="/images/practices/knowledge_map"  
   alt="A mind map of topics in this work"
   caption="A mind map of topics in this work" 
   size="40%" >}}

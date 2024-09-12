@@ -15,7 +15,7 @@ tags = [
 uuid = "1f3849c8-28bc-4934-95bf-66d9dcee6858"
 aliases = ["1f3849c8-28bc-4934-95bf-66d9dcee6858"]
 pubdate = "2023-09-13"
-image = "concepts/banner_clean_code.webp"
+image = "concepts/banner_clean_code"
 related_concepts = []
 related_practices = ["1848f4a6-3acb-4dc8-aa49-e57a1b87cf3b", "94a558cd-4e86-4814-a5e9-d6ecafcb0d6b"]
 further_exploration = [
@@ -48,7 +48,7 @@ deciphering existing code. Even if you primarily work in isolation, confusion ca
 time-lapse.
 
 {{<image
-  src="/images/concepts/wtf_per_minute.png"  
+  src="/images/concepts/wtf_per_minute"  
   alt="my attempt at reproducing the infamous `WTF-per-minute` cartoon"
   float="left"
   size="30%" >}}

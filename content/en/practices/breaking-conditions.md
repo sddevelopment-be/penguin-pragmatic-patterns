@@ -27,7 +27,7 @@ ammerse = [
   {name = "solvable", delta = "0.35", rationale="The analysis supports effective problem-solving by ensuring goals are manageable and resources are not over-committed."},
   {name = "extensible", delta = "0", rationale=" The analysis supports extensibility by preventing over-commitment and allowing for reassessment but may introduce rigidity if stopping conditions are too strict."},
 ]
-image="practices/stopping_conditions.webp"
+image="practices/stopping_conditions"
 pubdate="2023-08-26"
 related_concepts = [
   "b86230c6-49fb-4792-9008-a5241c5cdcb2",

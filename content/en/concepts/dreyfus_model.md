@@ -19,7 +19,7 @@ tags = [
 uuid="98cc5f46-409b-44df-9fb8-fb1d881970b5"
 aliases=["98cc5f46-409b-44df-9fb8-fb1d881970b5"]
 pubdate="2023-09-09"
-image="concepts/banner_dreyfus.webp"
+image="concepts/banner_dreyfus"
 related_concepts = ["a49f917b-c560-462a-ac38-46515f6f62d0"]
 related_practices = ["8c3df901-eefa-4dd1-970a-c00cf3b55379"]
 further_exploration = [
@@ -44,7 +44,7 @@ in their application of skills and knowledge. These stages are Novice, Advanced 
 
 ## Key Components
 
-{{<image src="/images/concepts/dreyfus.jpg" 
+{{<image src="/images/concepts/dreyfus" 
   alt="An overview of the different mastery levels according to the Dreyfus Model" 
   float="right" 
   size="46%" >}}

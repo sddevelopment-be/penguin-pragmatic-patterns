@@ -47,7 +47,7 @@ further_exploration = [
   {type="tool", id="2fcda1f4-7270-4a63-be4a-4c951242a71d"},
   {type="tool", id="c279aea8-47fc-4b2d-8f61-89109fb30a3c"}
 ]
-image="practices/structured_knowledge_sharing.webp"
+image="practices/structured_knowledge_sharing"
 pubdate="2024-09-04"
 +++
 

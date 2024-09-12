@@ -25,7 +25,7 @@ ammerse = [
   {name = "extensible", delta = "0.4", rationale = "The practice is moderately extensible, as validation logic can be adapted to different scenarios, but maintaining and updating these rules as the system evolves can present challenges."}
 ]
 pubdate="2024-05-18"
-image="practices/fail_fast_feedback.webp"
+image="practices/fail_fast_feedback"
 related_concepts = [
 ]
 related_practices = [

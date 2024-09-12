@@ -20,7 +20,7 @@ tags = [
 uuid="a22a79f6-2ffa-4a13-a673-2ccb70ba9d42"
 aliases=["a22a79f6-2ffa-4a13-a673-2ccb70ba9d42"]
 outputs = ['html','rss', 'json']
-image="practices/personal_knowledge_portfolio.webp"
+image="practices/personal_knowledge_portfolio"
 ammerse = [
     {name = "agile", delta = "0.75", rationale = "The practice significantly enhances agility by encouraging continuous adaptation and alignment with market demands, while balancing short-term and long-term goals."},
     {name = "minimal", delta = "-0.35", rationale = "The complexity introduced by ongoing portfolio management is relatively low but detracts from simplicity."},
@@ -64,7 +64,7 @@ maximise personal and professional growth.
 ## Solution
 
 {{< image
-src="/images/practices/portfolio_loop.png"
+src="/images/practices/portfolio_loop"
 alt="High-level view of the approach"
 caption="the steps of a portfolio management approach"
 float="right"

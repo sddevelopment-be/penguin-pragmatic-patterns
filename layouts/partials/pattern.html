@@ -14,8 +14,18 @@
         </div>
         {{ if $image }}
         <div class="card-image">
-            <img src="/images/{{ $image }}" alt="{{ .Title }}">
+            <picture>
+                {{ $imageFull := printf "images/%s.webp" $image | relURL }}
+                {{ $imageMedium := printf "images/%s-medium.webp" $image | relURL }}
+                {{ $imageMobile := printf "images/%s-mobile.webp" $image | relURL }}
+                <source media="(max-width: 600px)" srcset="{{ $imageMobile}}" />
+                <source media="(max-width: 860px)" srcset="{{ $imageMedium }}" />
+                <source media="(max-width: 1024px)" srcset="{{ $imageFull }}" />
+                <source media="(min-width: 1024px)" srcset="{{ $imageMobile }}" />
+                <img src="{{ $imageFull }}" alt="{{ .Title }}" decoding="async" loading="lazy"/>
+            </picture>
         </div>
+
         {{ end }}
         <div class="summary-wrapper" >
             <div class="summary-item">

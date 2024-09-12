@@ -500,6 +500,9 @@
     margin-top: 0.125rem;
     padding: 0.25rem;
     gap: 0.25rem;
+    max-width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .ammerse-values .ammerse-value {
@@ -873,7 +876,7 @@
 .related {
     margin-top: 3.75rem;
     background: #fefefe;
-    padding: 0.25rem;
+    padding: 0.25rem !important;
     border-radius: 6px;
     border: 1px solid rgba(224, 205, 193, 0.99);
 }

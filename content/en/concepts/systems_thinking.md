@@ -14,7 +14,7 @@ Explore Systems Thinking, a technique that emphasizes viewing situations as inte
 categories = [
     "learning",
 ]
-image="concepts/banner_systems-thinking.webp"
+image="concepts/banner_systems-thinking"
 tags = ["complexity", "systems thinking", "interconnectedness", "strategy", "analysis"]
 uuid = "c57288e3-b102-4212-adb7-a4339a3a9e87"
 aliases = ["c57288e3-b102-4212-adb7-a4339a3a9e87"]
@@ -51,7 +51,7 @@ situation.
 Systems Thinking is a foundational technique in the study of organizational complexity. Various models exist to help practitioners understand the
 different types of systems they might encounter.
 
-{{<image src="/images/concepts/stacey-matrix_base.png"
+{{<image src="/images/concepts/stacey-matrix_base"
 alt="The Stacey Matrix "
 caption="Domains of complexity, image by Ralph Douglas Stacey"
 size="35%"
@@ -109,7 +109,7 @@ Imagine a team in a large organization struggling to meet deadlines and losing s
 team members' performance, workload distribution, or even the tools they use. However, a systemic thinker approaches the problem differently. They
 understand that the team's challenges cannot be fully comprehended in isolation but must be viewed as part of a larger organizational system.
 
-{{<image src="/images/concepts/project_death_spiral.png"
+{{<image src="/images/concepts/project_death_spiral"
   alt="The dreaded project death spiral"
   float="right"
   size="35%" >}}
@@ -124,7 +124,7 @@ dynamics. This map reveals the complex web of interactions that influence the te
 reliance on a single outdated software tool is a critical point of failure, or that the high turnover rate in the adjacent support team is causing
 knowledge gaps and delays.
 
-{{<image src="/images/concepts/project_death_spiral_context.png"
+{{<image src="/images/concepts/project_death_spiral_context"
   alt="A systemic view of the struggling project, illustrating their context and key interactions."
   size="65%" >}}
 

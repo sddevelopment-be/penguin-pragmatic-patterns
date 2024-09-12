@@ -17,7 +17,7 @@ tags = [
 uuid = "7dfd0b45-b8e2-4ef9-90b4-e5316397f55b"
 aliases = ["7dfd0b45-b8e2-4ef9-90b4-e5316397f55b"]
 pubdate = "2023-11-18"
-image="concepts/banner_heartfelt_dialogues.webp"
+image="concepts/banner_heartfelt_dialogues"
 related_practices = ["843eb99c-3d89-4333-bb0f-d8efc4916b49", "579ac780-4588-4896-9203-901e112f7498"]
 related_concepts = ["d0ce5702-9059-419c-abbf-0d3e501fbaf7"]
 further_exploration = [
@@ -41,7 +41,7 @@ leading to misunderstandings and varied reactions based on individual emotional 
 
 ## Key Components
 
-{{< image src="/images/concepts/emotional_communication_CLEANED.png"
+{{< image src="/images/concepts/emotional_communication_CLEANED"
   alt="A schematic representation of a dialogue."
   caption="A schematic representation of a dialogue, and how we process a message."
   size="80%" >}}

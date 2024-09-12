@@ -35,7 +35,7 @@ ammerse = [
     {name = "extensible", delta = "0.75", rationale = "The pattern significantly enhances extensibility by decoupling tests from specific structural elements of the system, focusing instead on functionality. This means that as the system grows or evolves, tests can be adjusted more easily without being tightly bound to the system's original structure."},
 ]
 pubdate = "2024-07-13"
-image = "practices/test_boundary_cover.webp"
+image = "practices/test_boundary_cover"
 related_concepts = ["6169f9c0-dfe0-49b1-b459-acf01ac69c40", "2eb8fcea-8f12-44d8-97c5-5a48013ae515", "49a014f5-e40b-4c80-ba64-a31626b955ca"]
 related_practices = ["336b0448-e78b-4428-83a5-d4d473afda63", "1848f4a6-3acb-4dc8-aa49-e57a1b87cf3b"]
 further_exploration = [
@@ -289,4 +289,4 @@ of functionality, the team achieved more robust and maintainable tests, faster f
 study underscores the importance of adapting test strategies to align with system architecture and project needs, ensuring effective validation and
 continuous delivery of high-quality software.
 
-{{< image src="/images/practices/test_boundary_slicing.webp"  alt="Pattern structure definition"  size="30%" >}}
+{{< image src="/images/practices/test_boundary_slicing"  alt="Pattern structure definition"  size="30%" >}}

@@ -25,7 +25,7 @@ ammerse = [
   {name = "extensible", delta = "0.6", rationale = "The practice is generally extensible and adaptable to various contexts, though its effectiveness relies on consistent use and periodic review."}
 ]
 pubdate="2023-08-23"
-image="practices/external_memory_cover.webp"
+image="practices/external_memory_cover"
 related_concepts = [
     
 ]

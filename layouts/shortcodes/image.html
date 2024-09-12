@@ -2,30 +2,50 @@
 {{ $alt := .Get "alt" }}
 {{ $caption := .Get "caption" }}
 {{ $scale := .Get "size" }}
-{{ $allign := .Get "float" }}
+{{ $align := .Get "float" }}
+{{ $style := .Get "style" }}
 
-{{ if not $allign }}
-    {{ $allign = "center" }}
+{{ if not $align }}
+    {{ $align = "center" }}
+{{ end }}
+
+{{ if not $style }}
+    {{ $style = "text_image" }}
+{{ end }}
+
+
+{{ $imageFull := $src }}
+{{ $imageMedium := $src }}
+{{ $imageMobile := $src }}
+
+{{ if not (hasSuffix $src ".gif") }}
+    {{ $imageFull = printf "%s.webp" $src | relURL }}
+    {{ $imageMedium = printf "%s-medium.webp" $src | relURL }}
+    {{ $imageMobile = printf "%s-mobile.webp" $src | relURL }}
 {{ end }}
 
 {{ if $caption }}
-<div class="img-gallery {{ $allign }}" {{ if $scale }}style="max-width: {{ $scale }}; "{{ end}}>
+<div class="img-gallery {{ $align }}" {{ if $scale }}style="max-width: {{ $scale }}; "{{ end}}>
     <figure>
-        <a class="search-icon" target="_blank" href="{{ $src }}" title="{{ $alt }}">
+        <a class="search-icon" target="_blank" href="{{ $imageFull }}" title="{{ $alt }}">
             <picture>
-                <source srcset="{{ $src }}" type="image/png" />
-                <img src="{{ $src }}" type="image/png" alt="{{ $alt }}" decoding="async" />
+                <source media="(max-width: 600px)" srcset="{{ $imageMobile}}" />
+                <source media="(max-width: 1024px)" srcset="{{ $imageMedium }}" />
+                <source media="(min-width: 1024px)" srcset="{{ $imageFull }}" />
+                <img src="{{ $imageFull }}" alt="{{ $alt }}" decoding="async" loading="lazy"/>
             </picture>
         </a>
         <figcaption>{{ $caption }}</figcaption>
     </figure>
 </div>
 {{ else }}
-<div class="text_image {{ $allign }}" {{if $scale}}style="max-width: {{ $scale }}; "{{ end}}>
-    <a class="search-icon" target="_blank" href="{{ $src }}" title="{{ $alt }}">
+<div class="{{ $style }} {{ $align }}" {{if $scale}}style="max-width: {{ $scale }}; "{{ end}}>
+    <a class="search-icon" target="_blank" href="{{ $imageFull }}" title="{{ $alt }}">
         <picture>
-            <source srcset="{{ $src }}" type="image/png"/>
-            <img src="{{ $src }}" type="image/png" alt="{{ $alt }}" decoding="async"/>
+            <source media="(max-width: 600px)" srcset="{{ $imageMobile}}" />
+            <source media="(max-width: 1024px)" srcset="{{ $imageMedium }}" />
+            <source media="(min-width: 1024px)" srcset="{{ $imageFull }}" />
+            <img src="{{ $imageFull }}" alt="{{ $alt }}" decoding="async" loading="lazy"/>
         </picture>
     </a>
 </div>

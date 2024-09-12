@@ -13,7 +13,7 @@ tags = [
 ]
 uuid = "3d5b775a-bd5d-40de-8ed3-d390dae16b7b"
 aliases = ["3d5b775a-bd5d-40de-8ed3-d390dae16b7b"]
-image = "concepts/banner_circle_of_influence.webp"
+image = "concepts/banner_circle_of_influence"
 related_concepts = ["55f51f65-9d4e-4a31-ad8c-242d473a0f77"]
 related_practices = ["e6cdeaa2-cc30-4928-95fd-f28ea7cb489d"]
 further_exploration = [
@@ -40,7 +40,7 @@ impact on various aspects of their life and environment.
 
 ## Key Components
 
-{{< image src="/images/concepts/circle_of_influence.png"  alt="Your personal circles of influence" size="35%" float="right">}}
+{{< image src="/images/concepts/circle_of_influence"  alt="Your personal circles of influence" size="35%" float="right">}}
 
 The idea is simple: think of yourself as the centre of a set of circles of increasing size.
 Within each of these areas are things you can influence to various degrees.

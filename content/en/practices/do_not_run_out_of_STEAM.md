@@ -26,7 +26,7 @@ ammerse = [
     { name = "solvable", delta = "0.7", rationale="The framework excels at solving problems effectively by systematically evaluating resources. Interaction impacts further enhance this score, as the positive influences of agility, maintainability, and extensibility reinforce the framework's problem-solving capabilities."},
     { name = "extensible", delta = "0.5", rationale="The framework's adaptability and scalability are strong, especially when considering the interaction impacts with agility, maintainability, and problem-solving capabilities. This makes the framework versatile and applicable to a wide range of scenarios."},
 ]
-image = "practices/steam_image.webp"
+image = "practices/steam_image"
 pubdate="2024-05-01"
 related_concepts = [
   "b86230c6-49fb-4792-9008-a5241c5cdcb2",
@@ -76,7 +76,7 @@ The STEAM framework is a mnemonic shortcut to remember your most important asset
   be engaged with the task at hand.
 * **Money**: Your financial assets, the amount of funds you have to invest in activities, products, or services.
 
-{{< image src="/images/practices/steam_concept.png"  
+{{< image src="/images/practices/steam_concept"  
 alt="Overview of the different elements of the STEAM mnemonic model."  
 caption="The different resources that allow you to plow full STEAM ahead." >}}
 
@@ -164,7 +164,7 @@ most efficient or flexible approach, particularly when quick decisions are neces
 
 ### Evening Plans
 
-{{< image src="/images/practices/steam_illustration.png"  
+{{< image src="/images/practices/steam_illustration"  
   alt="Applying the STEAM mnemonic model to a real-life situation."  
   caption="Applying the STEAM mnemonic model to a real-life situation." >}}
 

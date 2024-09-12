@@ -25,7 +25,7 @@ ammerse = [
   {name = "extensible", delta = "0.5", rationale = "Generally extensible across different contexts, although consistent adoption and adaptationare required for it to be fully effective."}
 ]
 pubdate="2023-09-17"
-image="practices/async_communication_cover.webp"
+image="practices/async_communication_cover"
 related_concepts = []
 related_practices = [
   "ef0c0e1b-f395-4ee0-8360-e419e97f7447", 
@@ -157,7 +157,7 @@ Distracted by the message, Bernie drops what they are doing and responds.
 You can see their conversation in the        below:
 
 {{< image
-  src="/images/practices/async_message_bad_practices.png"
+  src="/images/practices/async_message_bad_practices"
   alt="Alex sends an unclear message to Bernie, disturbing their flow and delaying the conversation." >}}
 
 #### Revised conversation
@@ -175,5 +175,5 @@ both of them can continue their work more rapidly.
 
 You can see the revised conversation in the image below:
 {{< image
-  src="/images/practices/async_message_improved.png"
+  src="/images/practices/async_message_improved"
   alt="Alex sends a clearer message to Bernie. Bernie responds with a solution to the problem. Both of them save time." >}}

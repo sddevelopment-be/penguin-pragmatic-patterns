@@ -28,7 +28,7 @@ ammerse = [
   {name = "extensible", delta = "-0.7", rationale="The practice may initially limit extensibility and require significant rework if future requirements are not considered."}
 ]
 pubdate="2023-09-16"
-image="practices/keep_it_simple_cover.webp"
+image="practices/keep_it_simple_cover"
 related_concepts = [
   "b86230c6-49fb-4792-9008-a5241c5cdcb2",
   "1f3849c8-28bc-4934-95bf-66d9dcee6858"
@@ -125,7 +125,7 @@ By focusing on these strategies, the potential drawbacks of the pattern can be m
 ## Examples
 
 {{<image
-  src="/images/practices/overdesign.png"
+  src="/images/practices/overdesign"
   size="35%"
   alt="An image of a bicycle with a robotic rear wheel, looking highly complicated and over-engineered" >}}
 

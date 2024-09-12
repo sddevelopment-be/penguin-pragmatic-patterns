@@ -26,7 +26,7 @@ ammerse = [
 ]
 uuid="8ffeb93b-0f8d-4b01-867b-a8b78ebd4644"
 aliases=["8ffeb93b-0f8d-4b01-867b-a8b78ebd4644"]
-image="practices/AMMERSE_impact_analysis.webp"
+image="practices/AMMERSE_impact_analysis"
 pubdate="2024-05-24"
 related_concepts=["b86230c6-49fb-4792-9008-a5241c5cdcb2", "c57288e3-b102-4212-adb7-a4339a3a9e87"]
 related_practices=["d8d2cbc3-1f28-4e6b-937f-2d8cf0bbaed1", "1bdb4866-7c15-46b1-ad38-26111791eed5", "e6cdeaa2-cc30-4928-95fd-f28ea7cb489d"]

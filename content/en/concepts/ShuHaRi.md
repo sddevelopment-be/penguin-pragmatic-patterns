@@ -16,7 +16,7 @@ tags = [
 uuid="a49f917b-c560-462a-ac38-46515f6f62d0"
 aliases=["a49f917b-c560-462a-ac38-46515f6f62d0"]
 pubdate="2023-09-09"
-image="concepts/banner_shuhari.webp"
+image="concepts/banner_shuhari"
 related_concepts = ["98cc5f46-409b-44df-9fb8-fb1d881970b5"]
 related_patterns = ["8c3df901-eefa-4dd1-970a-c00cf3b55379"]
 further_exploration = [
@@ -33,7 +33,7 @@ further_exploration = [
 Shu Ha Ri is a Japanese martial arts concept that describes the stages of learning on the path to mastery.  
 It represents a progression through three stages: **Shu** (Obey/Protect), **Ha** (Detach/Digress), and **Ri** (Leave/Transcend).  
 
-{{< image src="/images/concepts/shuhari_kanji.jpg" alt="ShuHaRi Kanji" size="20%" >}}
+{{< image src="/images/concepts/shuhari_kanji" alt="ShuHaRi Kanji" size="20%" >}}
 
 ## Key Components
 
@@ -45,7 +45,7 @@ It represents a progression through three stages: **Shu** (Obey/Protect), **Ha**
   instinctive and effortless. The practitioner transcends formal learning and acts intuitively.
 
 {{< image
-  src="/images/concepts/shuhari.jpg"
+  src="/images/concepts/shuhari"
   alt="ShuHaRi levels explained"
   size="62%" >}}
 

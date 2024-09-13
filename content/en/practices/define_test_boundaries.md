@@ -1,5 +1,5 @@
 +++
-title = "Defining Test Boundaries"
+title = "Clean Test Boundaries"
 author = "Stijn Dejongh"
 problem = """
 Badly defined test boundaries can lead to tests that are too broad, too narrow, or too fragile. This results in tests that are 
@@ -45,7 +45,8 @@ further_exploration = [
   {type="biblio", id="9d8ff83e-f49a-4c7c-8e40-e34ac63e2792"},
   {type="biblio", id="a78d1c3f-6365-47ac-baa4-86c6371c1eed"},
   {type="raw", author="Beck, K.", year="2003", title="Test Driven Development: By Example", isbn="978-0321146533", publisher="Addison-Wesley Professional", link="https://www.goodreads.com/book/show/387190.Test_Driven_Development"},
-  {type="raw", author="Stanek, A.", year="2022", title="Software Engineering and Communication", site="linkedin.com", link="https://www.linkedin.com/posts/adrianstanek_softwareengineering-communication-activity-7125755594849804290-s9II"}
+  {type="raw", author="Stanek, A.", year="2022", title="Software Engineering and Communication", site="linkedin.com", link="https://www.linkedin.com/posts/adrianstanek_softwareengineering-communication-activity-7125755594849804290-s9II"},
+  {type="raw", author="Ottinger, T.", year="2021", title="Structure-Shy Tests and Code", site="industriallogic.com", link="https://www.industriallogic.com/blog/structure-shy-tests-with-lod/"}
 ]
 +++
 

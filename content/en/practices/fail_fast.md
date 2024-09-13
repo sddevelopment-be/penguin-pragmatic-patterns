@@ -36,7 +36,7 @@ further_exploration = [
   {type="biblio", id="704fb2a3-0207-4f8d-87f9-31b7fa5949c0"},
   {type="raw", author="Software Design Knights", year="2021", title="Fail Fast (FF)", site="PrinciplesWiki.net", link="http://principles-wiki.net/principles:fail_fast" },
   {type="raw", author="SD Development", year="2023", title="Java Modular Validators", site="GitHub.com", link="https://github.com/sddevelopment-be/modular-validators" },
-  {type="raw", author="Gorts, S.", year="2023", title="Better Validation Rules with ValidationResults", publisher="Self-published on Public Domain", link="https://www.linkedin.com/posts/svengorts_better-validation-rules-with-validationresults-activity-7139998913746329600-Zv4B" }
+  {type="raw", author="Gorts, S.", year="2023", title="Better Validation Rules with ValidationResults", publisher="Self-published on Public Domain", link="/attachments/GORTS_Better-Validation-Rules.pdf" }
 ]
 +++
 

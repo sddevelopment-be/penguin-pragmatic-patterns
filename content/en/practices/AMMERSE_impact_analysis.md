@@ -1,5 +1,6 @@
 +++
-title = "AMMERSE Impact Analysis"
+title = "Value-based Impact Analysis"
+subtitle = "an AMMERSE-based Impact Analysis Algorithm"
 author = "Stijn Dejongh"
 outputs = ['html','rss', 'json']
 problem = "You want to ensure balanced and well-informed decision-making that aligns with desired (organizational) core values."

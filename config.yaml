@@ -90,8 +90,9 @@ params:
         url: /license/
 
   section2:
-    title: What's in it for you?
-    subtitle: How this publication is different from others
+    title: Yet another framework?
+    subtitle: Not quite. Here's what makes us different.
+    image: sense_making_meta_model
     features:
     - title: Focus on practical use
       text: Rather than stick to theory, we aim to help you put what you learn into effect as quickly as possible. By focussing on when techniques and ideas are valuable, you will understand when to apply an idea. And more importantly, when not to apply it.

@@ -362,6 +362,7 @@ pre {
     text-wrap: pretty;
     letter-spacing: 0.05rem;
     text-indent: 0;
+    padding-top: 1.25rem;
 }
 
 @media all and (max-width: 1024px) {

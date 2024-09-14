@@ -1,26 +1,41 @@
 {{- $section2 := .Site.Params.section2 }}
 {{- $title    := index $section2 "title" }}
 {{- $subtitle := index $section2 "subtitle" }}
+{{- $image      := index $section2 "image" }}
+
 {{- $features := index $section2 "features" }}
+
+{{- $imageFull := printf "images/%s.webp" $image | relURL }}
+{{- $imageMedium := printf "images/%s-medium.webp" $image | relURL }}
+{{- $imageMobile := printf "images/%s-mobile.webp" $image | relURL }}
+
 <section class="section is-medium" id="section2">
     <div class="container">
+        <div class="title-wrapper has-text-centered">
+            <h1 class="title section-title">{{ $title }}</h1>
+            <h3 class="subtitle is-5 is-muted">{{ $subtitle }}</h3>
+        </div>
+
         <div class="columns">
-            <div class="column is-centered-tablet-portrait">
-                <h1 class="title section-title">{{ $title }}</h1>
-                <h3 class="subtitle is-5 is-muted">{{ $subtitle }}</h3>
-                <div class="divider"></div>
+            <div class="column is-5 v-centered">
+                <figure class="media-left">
+                    <p class="image">
+                        <a href="{{ $imageFull }}" target="_blank">
+                            <picture>
+                                <source media="(max-width: 600px)" srcset="{{ $imageMobile}}" />
+                                <source media="(max-width: 1024px)" srcset="{{ $imageMedium }}" />
+                                <source media="(min-width: 1024px)" srcset="{{ $imageFull }}" />
+                                <img src="{{ $imageFull }}" alt="An image of a penguin using a laptop" loading="lazy" />
+                            </picture>
+                        </a>
+                </figure>
+                    </p>
+                </figure>
             </div>
-            <div class="column is-7 mt-60">
+            <div class="column is-6 is-offset-1">
                 {{- range $features }}
                 <article class="media icon-box">
-                    <figure class="media-left">
-                        {{if .icon }}
-                        <p class="image">
-                            <img src="{{ printf "images/illustrations/icons/%s.svg" .icon | relURL }}">
-                        </p>
-                        {{ end }}
-                    </figure>
-                    <div class="media-content mt-50">
+                    <div class="media-content">
                         <div class="content">
                             <p>
                                 <span class="icon-box-title">{{ .title }}</span>

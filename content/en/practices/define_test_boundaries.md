@@ -1,5 +1,5 @@
 +++
-title = "Clean Test Boundaries"
+title = "Clear Test Boundaries"
 author = "Stijn Dejongh"
 problem = """
 Badly defined test boundaries can lead to tests that are too broad, too narrow, or too fragile. This results in tests that are 

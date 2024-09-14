@@ -59,7 +59,7 @@ params:
     # Button text
     buttontext: Start Reading
     # Where the main hero button links to
-    buttonlink: "about"
+    buttonlink: "#introduction"
     # Hero image (from static/images/___)
     image: penguin_learning
     # Footer logos (from static/images/logos/clients/*.svg)
@@ -89,6 +89,26 @@ params:
       - title: License
         url: /license/
 
+  section1:
+    title: Making sense of advice
+    subtitle: the trouble with "best practices" is they never seem to work
+    text: >
+      We tend to learn a great deal about a wide variety of topics. Yet, from time to time, we are stumped by how elegantly or easily
+      someone solves a certain problem. You are left wondering why you have not been tackling similar problems in the same way. It could have saved you
+      vast amounts of frustration if only you had known earlier. <br />
+      Why did you not know? Why did you not see the solution? Why did you not apply the same technique? 
+      <br /><br />
+      The answer is simple: you did not know it existed.  
+      <br />No one told you about it. No one shared their knowledge with you.  
+      <br />Or maybe they did, but you did not understand it. Or you did not see the value in it.
+      <br /><br />
+      Sharing knowledge can be challenging because people often speak different "languages" when it comes to ideas. 
+      Using a structured approach helps us better express and understand concepts, but how do we make sense of the countless frameworks and practices that exist?
+      <br /><br />
+      And even if we do understand them, how do we know when to apply them? After all, not every tool is right for every job. You are unique, your situation is unique, and so should be your approach.
+      <br /><br />
+      That's where we come in.<br /> 
+      This knowledge base will help you make sense of the vast amount of information out there, so you can focus on what matters most to you.
   section2:
     title: Yet another framework?
     subtitle: Not quite. Here's what makes us different.

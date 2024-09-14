@@ -5,15 +5,15 @@
 {{ end }}
 
 {{ if .Site.Params.section1 }}
-{{ partial "section1.html" . }}
-{{ end }}
-
-{{ if .Site.Params.section3 }}
-{{ partial "section3.html" . }}
+    {{ partial "section1.html" . }}
 {{ end }}
 
 {{ if .Site.Params.section2 }}
-{{ partial "section2.html" . }}
+    {{ partial "section2.html" . }}
+{{ end }}
+
+{{ if .Site.Params.section3 }}
+    {{ partial "section3.html" . }}
 {{ end }}
 
 {{ if .Site.Params.section4 }}

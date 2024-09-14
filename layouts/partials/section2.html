@@ -4,6 +4,7 @@
 {{- $image      := index $section2 "image" }}
 
 {{- $features := index $section2 "features" }}
+{{- $intro := index $section2 "intro" }}
 
 {{- $imageFull := printf "images/%s.webp" $image | relURL }}
 {{- $imageMedium := printf "images/%s-medium.webp" $image | relURL }}

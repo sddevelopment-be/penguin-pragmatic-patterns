@@ -61,7 +61,7 @@ params:
     # Where the main hero button links to
     buttonlink: "#introduction"
     # Hero image (from static/images/___)
-    image: penguin_learning
+    image: pattern_portfolio
     # Footer logos (from static/images/logos/clients/*.svg)
     # urls are optional
     clientlogos:

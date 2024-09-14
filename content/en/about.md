@@ -1,13 +1,13 @@
 +++
 title = "Approach"
 order = 1
-pubdate = "2023-08-26"
+pubdate = "2024-09-14"
 image = "sense_making_meta_model"
 summary = "This page is designed to introduce and explain the unique framework through which the site's information is organized and delivered, setting the stage for deeper exploration into the topics covered."
 +++
 
-Over the years, I have consumed numerous books, articles, and videos to enhance my skills as a technical professional. Some lessons have been
-invaluable on my professional journey, while others have been less helpful. Through discussions with fellow software professionals, I have noticed a
+Over the years, we have consumed numerous books, articles, and videos to enhance our skills as a technical professional. Some lessons have been
+invaluable on my professional journey, while others have been less helpful. Through discussions with fellow software professionals, we've noticed a
 lack of common ground within our industry. Unlike more mature professions, such as woodworking, medicine, law, or politics, software development is
 a relatively young field.
 
@@ -28,8 +28,8 @@ accurate.
   size="44%"
   float="right" >}}
 
-I realize the irony in writing an opinionated text while also stating that there are too many opinions out there. Still, allow me to explain why I
-set about writing this collection. The basic premise is: __I don't really care how you end up doing things. If you find a way that works well for
+We realize the irony in writing an opinionated text while also stating that there are too many opinions out there. Still, allow us to explain why I
+set about writing this collection. The basic premise is: __We don't really care how you end up doing things. If you find a way that works well for
 you, great! By all means, keep doing it.__
 
 As we live our lives, we tend to learn a great deal about a wide variety of topics. From time to time, we are stumped by how elegantly or easily
@@ -70,7 +70,7 @@ To enhance your reading experience, this knowledge base is organized by categori
   - **Concepts:** Ideas and models that can change the way you perceive a situation.
   - **Practices:** Things you can do to improve your skills or work more effectively.
   - **Procedures:** Step-by-step instructions for completing a task.
-- **Resources and Reviews :** Recommendations for books, articles, and other learning materials that I found helpful.
+- **Resources and Reviews :** Recommendations for books, articles, and other learning materials we've found helpful on our own journeys.
 - **Glossary:** Definitions and explanations of unfamiliar concepts and abbreviations.
 
 For those interested in further exploration of the topics discussed in this work, check out

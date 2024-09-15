@@ -3,11 +3,13 @@
     url('/fonts/literta-font')
 }
 
-.pattern h3::before, h4::before {
-    content: "";
-    display: block;
-    height: 6rem; /* fixed header height*/
-    margin: -6rem 0 0; /* negative fixed header height */
+.pattern {
+    h3::before, h4::before {
+        content: "";
+        display: block;
+        height: 6rem; /* fixed header height*/
+        margin: -6rem 0 0; /* negative fixed header height */
+    }
 }
 
 body {

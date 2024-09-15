@@ -15,11 +15,11 @@
     text-transform: capitalize;
     color: #030d12;
     font-size: 1.25rem;
-    padding: 0.25rem 2.75rem;
+    padding: 0.25rem 2.75rem 1.45rem;
     max-width: 98%;
     display: flex;
-    flex-direction: row;
-    gap: 0.75rem;
+    flex-direction: column;
+    gap: 0.25rem;
     justify-content: flex-start;
 
     .recommendation-type {
@@ -31,6 +31,25 @@
         max-width: 6.125em;
         width: 6.125em;
         color: #3c5d79;
+    }
+
+    h3 {
+        font-size: 1.45rem;
+        font-weight: 550;
+        color: #0b1d27;
+        line-height: 1.25;
+    }
+
+    h4 {
+        padding-top: 0.25rem;
+        font-size: 1.25rem;
+        font-weight: 40;
+        color: #0b1d27;
+        line-height: 1.25;
+    }
+
+    .subtitle {
+        margin-bottom: 0.25rem;
     }
 }
 
@@ -179,9 +198,8 @@
 }
 
 .permalink {
-    display: block;
+    display: none;
     font-size: 0.85rem;
-    margin-left: 1.125rem;
     height: 100%;
 }
 

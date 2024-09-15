@@ -29,7 +29,7 @@
     <figure>
         <a class="search-icon" target="_blank" href="{{ $imageFull }}" title="{{ $alt }}">
             <picture>
-                <source media="(max-width: 600px)" srcset="{{ $imageMobile}}" />
+                <source media="(max-width: 600px)" srcset="{{ $imageMedium}}" />
                 <source media="(max-width: 1024px)" srcset="{{ $imageMedium }}" />
                 <source media="(min-width: 1024px)" srcset="{{ $imageFull }}" />
                 <img src="{{ $imageFull }}" alt="{{ $alt }}" decoding="async" loading="lazy"/>
@@ -42,7 +42,7 @@
 <div class="{{ $style }} {{ $align }}" {{if $scale}}style="max-width: {{ $scale }}; "{{ end}}>
     <a class="search-icon" target="_blank" href="{{ $imageFull }}" title="{{ $alt }}">
         <picture>
-            <source media="(max-width: 600px)" srcset="{{ $imageMobile}}" />
+            <source media="(max-width: 600px)" srcset="{{ $imageMedium }}" />
             <source media="(max-width: 1024px)" srcset="{{ $imageMedium }}" />
             <source media="(min-width: 1024px)" srcset="{{ $imageFull }}" />
             <img src="{{ $imageFull }}" alt="{{ $alt }}" decoding="async" loading="lazy"/>

@@ -918,3 +918,7 @@
         max-width: 98% !important;
     }
 }
+
+.pattern h2, h3, h4 {
+    margin-bottom: 0.75em;
+}

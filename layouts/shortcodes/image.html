@@ -18,7 +18,7 @@
 {{ $imageMedium := $src }}
 {{ $imageMobile := $src }}
 
-{{ if not (hasSuffix $src ".gif") }}
+{{ if and (not (hasSuffix $src ".gif")) (not (hasSuffix $src ".svg")) }}
     {{ $imageFull = printf "%s.webp" $src | relURL }}
     {{ $imageMedium = printf "%s-medium.webp" $src | relURL }}
     {{ $imageMobile = printf "%s-mobile.webp" $src | relURL }}

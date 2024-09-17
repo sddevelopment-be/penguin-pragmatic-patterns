@@ -32,7 +32,7 @@ responsibility, and helpers often move between these roles as the situation evol
 
 {{< image src="/images/concepts/helping_attitudes.svg"
   alt="Helping Attitudes"
-  caption="Helping Attitudes represent different roles or approaches a helper can adopt when assisting someone in solving a problem."
+  caption="Helping Attitudes represent different roles or approaches a helper can adopt when assisting someone in solving a problem." 
 >}}
 
 ## Key Components
@@ -54,16 +54,26 @@ Often, the helper’s role is to empower the person seeking help, rather than im
 This requires a delicate balance between offering support and guidance while allowing the person being helped to maintain autonomy and ownership
 over the problem-solving process.
 
-### Primary Attitudes/Roles
+### Primary Attitudes and Modes of Inquiry
 
-* **Rubber Duck**: In this role, the helper listens and validates without becoming actively involved in solving the problem. The focus is on
+The four primary attitudes a helper can adopt are:
+
+* **Rubber Duck**: The helper listens and validates without becoming actively involved in solving the problem. The focus is on
   being present and allowing the person to process their thoughts aloud.
-* **Process Consultant**: The helper acts as a facilitator, inquiring about the issue and helping the person clarify their thoughts. This role
+* **Process Consultant**: The helper acts as a facilitator, inquiring about the issue and helping the person clarify their thoughts. This attitude
   involves moderate involvement in the problem-solving process and focuses on guiding the person toward their own conclusions.
 * **Crafter**: Here, the helper implements predefined solutions provided by the person being helped. The helper is highly involved but has
   limited control, as they are executing someone else's plan.
-* **Doctor**: In this role, the helper takes full responsibility for diagnosing the problem and prescribing a solution. This is a highly
-  involved role with significant control over the direction and outcome of the assistance.
+* **Doctor**: The helper takes full responsibility for diagnosing the problem and prescribing a solution. This is a highly
+  involved attitude with significant control over the direction and outcome of the assistance.
+
+The helper can use different types of inquiry to guide the conversation and help the person seeking assistance explore their problem:
+
+* **Pure Inquiry**: Open-ended questions that allow the person to share their thoughts and feelings without interruption.
+* **Diagnostic Inquiry**: Targeted questions that focus on specific aspects of the problem to gather more detailed information.
+* **Confrontational Inquiry**: Questions that challenge the person’s assumptions or beliefs, encouraging them to re-evaluate their thinking.
+* **Process-Oriented Inquiry**: Questions that focus on the dynamics of the interaction between the helper and the person being helped, exploring
+  relational aspects and emotional responses.
 
 ### Flexibility and Reversion
 
@@ -83,7 +93,9 @@ understanding of the problem. The flexibility to shift between these attitudes e
 useful for the person being assisted.
 
 
-### Details: Overview of Attitudes
+### Component: Overview of Attitudes
+
+{{< image src="/images/concepts/helping_attitudes_roles.svg" alt="Detail view of different Attitudes" size="30%" float="right" >}}
 
 #### Rubber Duck
 
@@ -113,6 +125,69 @@ effort, but the control over decision-making remains low.
 The **Doctor** role represents the highest level of control and involvement. The helper diagnoses the problem, prescribes a solution, and often
 takes responsibility for its implementation. This role is suitable when the individual lacks the expertise to understand or solve the problem
 themselves. The helper’s knowledge and authority are central to solving the issue.
+
+### Component: Types of Inquiry
+
+There a generally four distinct types of inquiry that can be used in helping relationships, each with a different purpose and level of influence
+on the conversation. These types of inquiry allow the helper to guide the process while adjusting their level of involvement based on the client’s
+needs and the situation. The four types are:
+
+#### 1. Pure Inquiry
+
+This type of inquiry is characterized by non-directive, open-ended questions. The helper remains neutral and allows the client to share their
+thoughts, experiences, and perspectives without any influence or guidance from the helper. Pure inquiry is aimed at understanding the client’s
+viewpoint and encouraging them to express themselves freely.
+
+**Purpose**:
+To explore the client’s situation and allow them to reflect and think deeply without interruption or redirection.
+
+**Example**:
+
+- “Can you tell me more about what happened?”
+- “How do you feel about the current situation?”
+
+#### 2. Diagnostic Inquiry
+
+In diagnostic inquiry, the helper begins to steer the conversation by focusing on specific areas of the client’s experience or problem. While still
+listening actively, the helper asks more targeted questions to gather specific information or explore certain aspects in more depth. This helps the
+helper better understand the underlying dynamics or causes of the problem.
+
+**Purpose**:
+To gather more detailed information and focus on areas that seem relevant to the issue at hand.
+
+**Example**:
+
+- “What were the key challenges in that situation?”
+- “How did the team respond to the feedback you gave?”
+
+#### 3. Confrontational Inquiry
+
+Confrontational inquiry goes a step further by challenging the client’s assumptions, beliefs, or actions. The helper poses questions that introduce
+new perspectives or raise contradictions in the client’s story, encouraging them to re-evaluate their thinking. This form of inquiry is more
+directive and can lead to moments of insight or realization for the client.
+
+**Purpose**:
+To encourage the client to reflect on discrepancies or challenges in their thinking, helping them to see the issue from a different angle.
+
+**Example**:
+
+- “You mentioned that communication was clear, but you also said the team was confused—how do you reconcile that?”
+- “Do you think your approach might be contributing to the resistance you’re facing?”
+
+#### 4. Process-Oriented Inquiry
+
+Process-oriented inquiry focuses on the here-and-now, examining the dynamics of the interaction between the helper and the client. The helper draws
+attention to the immediate processes at play, such as emotions, behaviors, or reactions, both in the conversation and in the client’s situation.
+This type of inquiry is often used to explore relational dynamics and can be particularly useful in group settings or when addressing interpersonal
+issues.
+
+**Purpose**:
+To bring awareness to the processes and dynamics at play, encouraging reflection on the interaction or the relationships involved.
+
+**Example**:
+
+- “I notice you seem hesitant to talk about this issue—can we explore why that might be?”
+- “You looked uncomfortable when discussing your team’s feedback. What was going through your mind?”
 
 ## Background
 

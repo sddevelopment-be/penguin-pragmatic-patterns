@@ -4,7 +4,10 @@ subtitle = "Understanding Helping Attitudes"
 author = "Stijn Dejongh"
 description = " "
 summary = """
-Blah blah
+The pattern of "Helping Attitudes" explores various roles a helper can adopt when assisting someone in solving a problem. These roles range from
+passive listening (Rubber Duck) to actively diagnosing and solving problems (Doctor). A key element is the flexibility of the helper to shift
+between roles as the situation evolves, frequently returning to the Process Consultant stance to reassess and realign. Understanding these roles
+ensures that the help provided is both relevant and adaptive to the person being helped.
 """
 categories = [
     "communication"
@@ -57,7 +60,7 @@ adaptive to the client’s needs.
 
 Effective helping relationships require humility and an understanding of power dynamics. The person offering help should
 recognize that the person being helped might feel vulnerable or defensive, which can affect how the help is received.
-He also discusses the importance of building trust and creating a collaborative atmosphere where both parties are aligned in their goals.
+It is important to build trust and create a collaborative atmosphere where both parties are aligned in their goals.
 
 The helper must be aware of their own biases, assumptions, and limitations, as these can influence the quality of the help provided.
 Often, the helper’s role is to empower the person seeking help, rather than imposing their own solutions or ideas.
@@ -115,7 +118,7 @@ often arrive at solutions on their own, without active involvement from the help
 
 This role is particularly useful when the person seeking help already has the knowledge and skills they need to solve their problem but feels stuck
 or overwhelmed. By having a "safe" and non-judgmental listener, they can process their emotions, vent frustrations, or explore ideas without
-interference or guidance. The helper acts almost like a therapeutic presence, just being there for the person without imposing expertise, advice, or
+interference or guidance. The helper serves as a passive, non-judgmental presence, just being there for the person without imposing expertise, advice, or
 facilitation.
 
 #### Process Consultant
@@ -243,25 +246,36 @@ For example:
 
 ## Examples
 
+
 ### Example 1: Mentoring a Junior Developer
 
-A junior developer is struggling with a coding problem and seeks help from their mentor. The mentor initially adopts the **Process Consultant**
-role, asking the developer to explain their thought process and identify where they think the issue lies. After clarifying the problem, the mentor
-shifts into the **Crafter** role, helping the junior developer implement a solution based on the instructions provided. If the problem turns out to
-be more complex than expected, the mentor may shift to the **Doctor** role, diagnosing the issue and prescribing a solution.
+A junior developer is struggling with a coding problem and asks their mentor for help. The mentor begins by adopting the **Rubber Duck** role,
+encouraging the developer to talk through the problem while simply listening and validating their thought process. As the developer articulates the
+issue, the mentor shifts into the **Process Consultant** role, asking open-ended questions to clarify specific aspects of the problem and guide the
+developer toward potential solutions.
+
+When it becomes clear that the developer has hit a roadblock, the mentor moves into the **Crafter** role, offering hands-on assistance by walking
+through the code and making minor adjustments based on the developer’s instructions. However, upon discovering a more complex underlying issue, the
+mentor transitions to the **Doctor** role, diagnosing the root cause and prescribing a solution by demonstrating a new approach or coding technique.
+
+After resolving the issue, the mentor reverts to the **Process Consultant** stance, asking reflective questions to ensure the developer understands
+the solution and can apply it in the future. This cycle of shifting between roles helps the developer learn effectively, while still allowing them
+to maintain ownership of their progress.
+
+Here’s a revised version of **Example 2: Supporting a Colleague in Crisis**, with a focus on how the helper moves between roles and emphasizes encouragement and empathy:
 
 ### Example 2: Supporting a Colleague in Crisis
 
-A colleague is feeling overwhelmed with their workload and asks for support. The helper adopts the **Rubber Duck** role, providing a listening ear
-as the colleague vents their frustrations. After validating the colleague's feelings, the helper switches to the **Process Consultant** role, asking
-open-ended questions to help the colleague reflect on potential solutions. If necessary, the helper might suggest some concrete actions (**Doctor**)
-or offer hands-on assistance (**Crafter**) to help the colleague regain control over their workload.
+A colleague is feeling overwhelmed by their workload and turns to a peer for support. The helper begins by adopting the **Rubber Duck** role, simply
+listening as the colleague vents their frustrations and speaks openly about the pressure they are facing. The helper offers minimal input, allowing
+the colleague to express their feelings and frustrations freely. Through this empathetic, non-intrusive presence, the colleague feels heard and
+starts to process their thoughts aloud.
 
-### Example 3: Cross-Departmental Collaboration
+As the conversation progresses and the colleague begins to regain clarity, the helper moves into the **Process Consultant** role, asking gentle,
+open-ended questions to encourage further reflection. By prompting the colleague to explore potential solutions or next steps, the helper guides the
+colleague toward self-discovery without offering direct advice.
 
-In a large corporation, different departments (e.g., engineering, marketing, and sales) often struggle to collaborate effectively. A facilitator is
-brought in to help the teams improve their communication and problem-solving capabilities. Initially, the facilitator adopts the **Process
-Consultant** role, asking questions to clarify the teams' frustrations and goals. As the sessions progress, the facilitator moves into the
-**Doctor** role to suggest specific frameworks and strategies for improvement. In the final stages, the facilitator shifts to the **Rubber Duck**  
-attitude, allowing the teams to discuss and process their own solutions while offering minimal input.
-The flexibility in shifting between roles leads to a more effective collaboration across departments.
+Ultimately, the helper’s encouragement and empathy alone help the colleague feel more in control, and they begin to identify their own ways to
+tackle the workload. By allowing the colleague space to speak, and then guiding them with subtle inquiry, the helper ensures that the colleague
+retains ownership of their next steps, while feeling supported and validated.
+

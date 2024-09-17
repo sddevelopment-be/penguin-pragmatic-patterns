@@ -10,17 +10,27 @@ categories = [
     "communication"
 ]
 tags = [
-    "consulting", "advice"
+    "consulting", "advice", "empathy", "interpersonal skills", "understanding"
 ]
 uuid = "cffb7fab-580e-4add-b807-d3a76b3209c7"
 aliases = ["cffb7fab-580e-4add-b807-d3a76b3209c7"]
-pubdate = "2024-09-15"
+pubdate = "2024-09-17"
 image = ""
 related_concepts = [
+  "7dfd0b45-b8e2-4ef9-90b4-e5316397f55b", 
+  "c57288e3-b102-4212-adb7-a4339a3a9e87",
+  "7dfd0b45-b8e2-4ef9-90b4-e5316397f55b"
 ]
 related_practices = [
+  "47f32286-17b0-471e-90d6-eb0de9f60ac0",
+  "499c0c2f-e2b4-4266-8871-410c9c4c8718",
+  "843eb99c-3d89-4333-bb0f-d8efc4916b49"
 ]
-further_exporlation = [
+further_exploration = [
+  {type="biblio", id="45e61f6c-bc4e-44f8-ad6d-500fb8b01447" },
+  {type="biblio", id="63d02dd1-135f-4e3e-af7b-b2e6f4dbb5e3" },
+  {type="biblio", id="b6727fa2-6deb-4080-a440-9697ec3d20e3" },
+  {type="raw", title="What is Cognitive Behavioral Therapy? ", year="2017", author="Society of Clinical Psychology", site="apa.org", link="https://www.apa.org/ptsd-guideline/patients-and-families/cognitive-behavioral" },
 ]
 +++
 

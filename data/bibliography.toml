@@ -797,7 +797,7 @@ levels = ["intermediate", "reference"]
 tags = ["education", "training", "teaching", "communication"]
 
 [[book]]
-id = ""
+id = "45e61f6c-bc4e-44f8-ad6d-500fb8b01447"
 title = "Helping"
 subtitle = "How to Offer, Give, and Receive Help"
 minimized_title = "Helping: How to Offer, Give, and Receive Help"
@@ -808,7 +808,6 @@ year = "2011"
 link = "https://www.goodreads.com/book/show/6370491-helping"
 image = "helping.webp"
 description = """
-
 """
 levels = ["beginner", "reference"]
 tags = ["consultancy", "communication", "effectiveness", "relationships", "advice", "corporate"]

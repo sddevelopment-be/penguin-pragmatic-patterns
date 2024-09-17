@@ -1,5 +1,6 @@
 {{ $ammerse := .Params.Ammerse }}
 {{ $tags := .Params.tags }}
+{{ $type := .Type }}
 {{ $image := .Params.image }}
 {{ $relatedConcepts := .Params.related_concepts }}
 {{ $relatedPatterns := .Params.related_practices }}
@@ -30,7 +31,7 @@
         <div class="summary-wrapper" >
             <div class="summary-item">
                 <span class="summary-title">UUID:</span>
-                <span class="summary-content"><a href="/practices/{{.Params.UUID}}" rel="noreferrer" target="_blank">{{.Params.UUID}}</a></span>
+                <span class="summary-content"><a href="/{{ $type }}/{{.Params.UUID}}" rel="noreferrer" target="_blank">{{.Params.UUID}}</a></span>
             </div>
             {{if .Params.author}}
             <div class="summary-item">
@@ -41,7 +42,7 @@
             {{if .Params.pubdate}}
             <div class="summary-item">
                 <span class="summary-title">Published on:</span>
-                <span class="summary-content">{{.Params.pubdate}}</span>
+                <span class="summary-content">{{.Params.pubdate | time.Format ":date_medium" }}</span>
             </div>
             {{ end }}
             {{if .Params.outputs}}

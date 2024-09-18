@@ -5,8 +5,16 @@
 {{- $buttonLink := index $hero "buttonlink" }}
 {{- $image      := index $hero "image" }}
 
-{{- $imageFull := printf "images/%s.webp" $image | relURL }}
-{{- $imageMobile := printf "images/%s-medium.webp" $image | relURL }}
+{{- $imageFull := "" }}
+{{- $imageMobile := "" }}
+
+{{ if and (not (hasSuffix $image ".gif")) (not (hasSuffix $image ".svg")) }}
+    {{- $imageFull = printf "images/%s.webp" $image | relURL }}
+    {{- $imageMobile = printf "images/%s-medium.webp" $image | relURL }}
+{{ else }}
+    {{- $imageFull = printf "images/%s" $image | relURL }}
+    {{- $imageMobile = $imageFull }}
+{{ end }}
 
 <div class="hero-body">
     <div class="container">

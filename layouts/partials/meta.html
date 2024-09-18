@@ -24,10 +24,17 @@
         <meta name="description" content="No description available" />
         <meta property="og:description" content="No description available" />
 {{ end }}
-{{ if .Params.Image }}
+{{ if .Params.SocialImage }}
+    <meta name="image" content="{{ .Site.BaseURL }}images/{{ .Params.SocialImage }}" />
+    <meta property="og:image" content="{{ .Site.BaseURL }}images/{{ .Params.SocialImage }}" />
+{{ else if .Params.Image }}
     <meta name="image" content="{{ .Site.BaseURL }}images/{{ .Params.Image }}" />
     <meta property="og:image" content="{{ .Site.BaseURL }}images/{{ .Params.Image }}" />
+{{ else }}
+    <meta name="image" content="{{ .Site.BaseURL }}images/pattern_portfolio-medium.webp" />
+    <meta property="og:image" content="{{ .Site.BaseURL }}images/pattern_portfolio-medium.webp" />
 {{ end }}
+
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">

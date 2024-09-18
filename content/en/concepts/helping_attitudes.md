@@ -19,6 +19,7 @@ uuid = "cffb7fab-580e-4add-b807-d3a76b3209c7"
 aliases = ["cffb7fab-580e-4add-b807-d3a76b3209c7"]
 pubdate = "2024-09-17"
 image = ""
+social_image = ""
 related_concepts = [
   "7dfd0b45-b8e2-4ef9-90b4-e5316397f55b", 
   "c57288e3-b102-4212-adb7-a4339a3a9e87",
@@ -262,8 +263,6 @@ After resolving the issue, the mentor reverts to the **Process Consultant** stan
 the solution and can apply it in the future. This cycle of shifting between roles helps the developer learn effectively, while still allowing them
 to maintain ownership of their progress.
 
-Here’s a revised version of **Example 2: Supporting a Colleague in Crisis**, with a focus on how the helper moves between roles and emphasizes encouragement and empathy:
-
 ### Example 2: Supporting a Colleague in Crisis
 
 A colleague is feeling overwhelmed by their workload and turns to a peer for support. The helper begins by adopting the **Rubber Duck** role, simply
@@ -279,3 +278,13 @@ Ultimately, the helper’s encouragement and empathy alone help the colleague fe
 tackle the workload. By allowing the colleague space to speak, and then guiding them with subtle inquiry, the helper ensures that the colleague
 retains ownership of their next steps, while feeling supported and validated.
 
+### Example 3: Misapplying the Doctor Role
+
+A colleague approaches their manager feeling overwhelmed by a challenging project. Without fully listening to the colleague’s concerns, the manager
+immediately adopts the **Doctor** role, diagnosing the problem based on their own assumptions. They prescribe a detailed solution, outlining
+specific steps for the colleague to follow. However, the colleague is frustrated because the manager's solution doesn’t consider the unique nuances
+of their situation and overlooks key details that they hadn’t yet explained.
+
+Because the manager skipped the **Rubber Duck** or **Process Consultant** roles, the colleague feels unheard and unsupported. The premature advice
+not only fails to address the real issues but also leaves the colleague disengaged and less likely to seek help in the future, as the prescribed
+solution doesn’t fit their actual context.

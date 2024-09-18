@@ -75,8 +75,12 @@ html {
         grid-template-columns: 1fr 14em;
         max-width: 100em;
         width: 90%;
-        margin: 0 auto;
+        margin: 0 2.75rem 0 auto;
         grid-gap: 2.75rem;
+    }
+
+    .container {
+        padding-right: 4.25rem;
     }
 
     .content {

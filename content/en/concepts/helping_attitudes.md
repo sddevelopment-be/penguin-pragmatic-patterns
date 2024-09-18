@@ -2,24 +2,28 @@
 title = "Styles of Support"
 subtitle = "Understanding Helping Attitudes"
 author = "Stijn Dejongh"
-description = " "
+description = """
+Helping Attitudes describes different roles helpers adopt to offer appropriate support, emphasizing flexibility, active listening, and the
+importance of shifting between roles based on the client's evolving needs.
+"""
 summary = """
-The pattern of "Helping Attitudes" explores various roles a helper can adopt when assisting someone in solving a problem. These roles range from
-passive listening (Rubber Duck) to actively diagnosing and solving problems (Doctor). A key element is the flexibility of the helper to shift
-between roles as the situation evolves, frequently returning to the Process Consultant stance to reassess and realign. Understanding these roles
-ensures that the help provided is both relevant and adaptive to the person being helped.
+Helping Attitudes refer to the various roles helpers can adopt when assisting others in problem-solving, ranging from listening passively to
+actively diagnosing and prescribing solutions. Flexibility in shifting between these roles ensures relevant and adaptive support. The helper's
+ability to move between attitudes such as Rubber Duck, Process Consultant, Crafter, and Doctor, based on the client's needs, is essential for
+maintaining a balanced and effective helping relationship. This pattern highlights the importance of understanding power dynamics and re-engaging in
+a reflective, non-directive manner when necessary.
 """
 categories = [
     "communication"
 ]
 tags = [
-    "consulting", "advice", "empathy", "interpersonal skills", "understanding"
+    "consulting", "advice", "empathy", "interpersonal skills", "understanding", "relationships"
 ]
 uuid = "cffb7fab-580e-4add-b807-d3a76b3209c7"
 aliases = ["cffb7fab-580e-4add-b807-d3a76b3209c7"]
 pubdate = "2024-09-17"
-image = ""
-social_image = ""
+image = "concepts/banner_helping_attitudes"
+socialImage = "concepts/helping_attitudes_roles.svg"
 related_concepts = [
   "7dfd0b45-b8e2-4ef9-90b4-e5316397f55b", 
   "c57288e3-b102-4212-adb7-a4339a3a9e87",
@@ -146,6 +150,8 @@ There a generally four distinct types of inquiry that can be used in helping rel
 on the conversation. These types of inquiry allow the helper to guide the process while adjusting their level of involvement based on the client’s
 needs and the situation. The four types are:
 
+{{< image src="/images/concepts/helping_attitudes_questions.svg" alt="Detail view of different Attitudes" size="30%" float="right" >}}
+
 #### 1. Pure Inquiry
 
 This type of inquiry is characterized by non-directive, open-ended questions. The helper remains neutral and allows the client to share their
@@ -155,10 +161,7 @@ viewpoint and encouraging them to express themselves freely.
 **Purpose**:
 To explore the client’s situation and allow them to reflect and think deeply without interruption or redirection.
 
-**Example**:
-
-- “Can you tell me more about what happened?”
-- “How do you feel about the current situation?”
+**Examples**: _“Can you tell me more about what happened?”_, _“How do you feel about the current situation?”_
 
 #### 2. Diagnostic Inquiry
 
@@ -166,13 +169,9 @@ In diagnostic inquiry, the helper begins to steer the conversation by focusing o
 listening actively, the helper asks more targeted questions to gather specific information or explore certain aspects in more depth. This helps the
 helper better understand the underlying dynamics or causes of the problem.
 
-**Purpose**:
-To gather more detailed information and focus on areas that seem relevant to the issue at hand.
+**Purpose**: To gather more detailed information and focus on areas that seem relevant to the issue at hand.
 
-**Example**:
-
-- “What were the key challenges in that situation?”
-- “How did the team respond to the feedback you gave?”
+**Examples**: _“What were the key challenges in that situation?”_, _“How did the team respond to the feedback you gave?”_
 
 #### 3. Confrontational Inquiry
 
@@ -180,13 +179,10 @@ Confrontational inquiry goes a step further by challenging the client’s assump
 new perspectives or raise contradictions in the client’s story, encouraging them to re-evaluate their thinking. This form of inquiry is more
 directive and can lead to moments of insight or realization for the client.
 
-**Purpose**:
-To encourage the client to reflect on discrepancies or challenges in their thinking, helping them to see the issue from a different angle.
+**Purpose**: To encourage the client to reflect on discrepancies or challenges in their thinking, helping them to see the issue from a different angle.
 
-**Example**:
-
-- “You mentioned that communication was clear, but you also said the team was confused—how do you reconcile that?”
-- “Do you think your approach might be contributing to the resistance you’re facing?”
+**Examples**: _“You mentioned that communication was clear, but you also said the team was confused—how do you reconcile that?”_, _“Do you think 
+your approach might be contributing to the resistance you’re facing?”_
 
 #### 4. Process-Oriented Inquiry
 
@@ -195,13 +191,10 @@ attention to the immediate processes at play, such as emotions, behaviors, or re
 This type of inquiry is often used to explore relational dynamics and can be particularly useful in group settings or when addressing interpersonal
 issues.
 
-**Purpose**:
-To bring awareness to the processes and dynamics at play, encouraging reflection on the interaction or the relationships involved.
+**Purpose**: To bring awareness to the processes and dynamics at play, encouraging reflection on the interaction or the relationships involved.
 
-**Example**:
-
-- “I notice you seem hesitant to talk about this issue—can we explore why that might be?”
-- “You looked uncomfortable when discussing your team’s feedback. What was going through your mind?”
+**Examples**: _“I notice you seem hesitant to talk about this issue—can we explore why that might be?”_, _“You looked uncomfortable when 
+discussing your team’s feedback. What was going through your mind?”_
 
 ## Background
 

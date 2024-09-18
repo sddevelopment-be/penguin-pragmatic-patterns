@@ -28,6 +28,49 @@
         </div>
 
         {{ end }}
+    </div>
+</section>
+
+<section class="section is-medium main">
+    <div class="container">
+        <div class="content pattern">
+            {{ .Content }}
+        </div>
+
+        <details class="content pattern related">
+            <summary>References and Related Patterns</summary>
+            <div class="related-content">
+                {{ if $further_exploration }}
+                <h2>Further Exploration</h2>
+
+                {{ partial "references.html" . }}
+
+                {{ end }}
+                {{ if $relatedConcepts }}
+                <h2>Related Concepts</h2>
+                <ul>
+                    {{ range where .Site.Pages ".Params.Uuid" "in" $relatedConcepts }}
+                    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a>: {{ .Description }}</li>
+                    {{ end }}
+                </ul>
+                {{ end }}
+                {{ if $relatedPatterns }}
+                <h2>Related Patterns</h2>
+                <ul>
+                    {{ range where .Site.Pages ".Params.Uuid" "in" $relatedPatterns }}
+                    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a>: {{ .Description }}</li>
+                    {{ end }}
+                </ul>
+                {{ end }}
+            </div>
+        </details>
+    </div>
+
+    {{ partial "sidebar.html" .}}
+</section>
+
+<section class="cutout">
+    <div class="pattern-summary">
         <div class="summary-wrapper" >
             <div class="summary-item">
                 <span class="summary-title">UUID:</span>
@@ -90,42 +133,4 @@
             {{ end }}
         </div>
     </div>
-</section>
-
-<section class="section is-medium main">
-    <div class="container">
-        <div class="content pattern">
-            {{ .Content }}
-        </div>
-
-        <details class="content pattern related">
-            <summary>References and Related Patterns</summary>
-            <div class="related-content">
-                {{ if $further_exploration }}
-                <h2>Further Exploration</h2>
-
-                {{ partial "references.html" . }}
-
-                {{ end }}
-                {{ if $relatedConcepts }}
-                <h2>Related Concepts</h2>
-                <ul>
-                    {{ range where .Site.Pages ".Params.Uuid" "in" $relatedConcepts }}
-                    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a>: {{ .Description }}</li>
-                    {{ end }}
-                </ul>
-                {{ end }}
-                {{ if $relatedPatterns }}
-                <h2>Related Patterns</h2>
-                <ul>
-                    {{ range where .Site.Pages ".Params.Uuid" "in" $relatedPatterns }}
-                    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a>: {{ .Description }}</li>
-                    {{ end }}
-                </ul>
-                {{ end }}
-            </div>
-        </details>
-    </div>
-
-    {{ partial "sidebar.html" .}}
 </section>

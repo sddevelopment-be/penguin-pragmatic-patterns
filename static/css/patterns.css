@@ -329,6 +329,7 @@
 
 .pattern-summary {
     display: flex;
+    padding: 2.125rem;
     flex-shrink: 0;
     flex-flow: column nowrap;
     justify-content: start;
@@ -337,9 +338,7 @@
     background-image: linear-gradient(#fefefe, #fdfdfd);
     border-radius: 6px;
     border: 1px solid rgba(224, 205, 193, 0.99);
-    padding: 1.125rem;
     scroll-snap-align: start;
-    float: right;
     margin: 0.25rem 0.25rem 3rem 4.5rem;
 }
 
@@ -363,6 +362,7 @@
     justify-content: center;
     align-content: center;
     margin-bottom: 0.5rem;
+    text-align: center;
 }
 
 .card-image img {
@@ -524,11 +524,9 @@
     }
 
     .pattern-summary {
-        float: none;
         display: block;
         width: 100%;
         margin: 0;
-        padding: 3rem 3rem 0rem;
         background: linear-gradient(rgba(11, 28, 42, 0.9), rgba(1, 13, 24, 0.95)), url("/images/tiles.webp") repeat;
         border: 0;
         border-bottom: 2px solid #030303;
@@ -681,7 +679,7 @@
 @media (max-width: 1024px) {
     .pattern-summary {
         width: 100%;
-        padding: 0;
+        padding: 0.25rem;
         margin: 0;
         flex-shrink: 0;
         float: none;
@@ -718,6 +716,12 @@
     .card-title-wrapper .card-image {
         max-width: 5.5rem;
         max-height: 5.5rem;
+        position: relative;
+    }
+
+    .card-image picture {
+        max-width: 10.5rem;
+        max-height: 10.5rem;
         position: relative;
     }
 
@@ -868,9 +872,16 @@
 
 .comments {
     background: #fefefe;
-    margin-top: -1.5rem;
     padding-top: 1.75rem;
-    border-top: 1px dashed #f39200;
+    margin-top: 1.25rem;
+    padding-left: 8rem;
+}
+
+@media(max-width: 1024px) {
+    .comments {
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+    }
 }
 
 .related {
@@ -921,4 +932,14 @@
 
 .pattern h2, h3, h4 {
     margin-bottom: 0.75em;
+}
+
+.cutout {
+    border-bottom: 2px solid #f39200;
+    border-top: 2px solid #f39200;
+
+    .pattern-summary {
+        border-bottom: 4px solid #0b1a25;
+        border-top: 4px solid #0b1a25;
+    }
 }

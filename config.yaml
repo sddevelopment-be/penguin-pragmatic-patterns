@@ -84,6 +84,8 @@ params:
         url: /tools/
   - title: Admin
     sublinks:
+      - title: Helping Out
+        url: /contributing/
       - title: Change Log
         url: /changelog/
       - title: License

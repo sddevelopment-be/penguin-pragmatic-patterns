@@ -46,15 +46,7 @@ at the top level.
 * [PlantUML](https://plantuml.com/) : Diagrams as code, allows to version source files and convert them into images
 * [Markdown](https://www.markdownguide.org/): Easy to use markup language, allowing the writer to focus on content rather than format
 * [HuGo Static site generator](https://gohugo.io): Static website generator, compiles markdown files and configuration into HTML pages 
-  (including styling, and JavaScript if applicable) 
-
-### Getting started with local development
-
-* Install HuGo: see the [official guide](https://gohugo.io/installation/)
-* Fork this repository, create a feature branch if desired
-* Use `hugo server` to spawn a local webserver that dynamically updates to inspect your changes
-
-When your changes are done, launch a Pull Request towards the `develop` branch.
+  (including styling, and JavaScript if applicable)
 
 ### Deployment system
 
@@ -67,7 +59,7 @@ The code in this repository is automatically pushed to:
 ## Contributors ✨
 
 If you wish to contribute in any way to this initiative, please have a look at
-our [Contribution Guide](docs/CONTRIBUTING.md).
+our [Contribution Guide](content/en/CONTRIBUTING.md).
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->

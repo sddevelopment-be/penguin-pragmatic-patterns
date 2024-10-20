@@ -1,24 +1,74 @@
-# (Self-)Documenting Code
++++
+title = "(Self-)Documenting Code"
+subtitle = "low friction doc creation & maintenance"
+author = "Stijn Dejongh"
+date = "2024-10-24"
+abstract = """
+    
+"""
++++
 
 ## Why (don't we) document code?
 
+--
+
 ### We like good documentation
+
+--
+
 ### We hate writing it
 
-## Goal: Lowering friction!
+---
+
+## Goal: Reducing friction!
+
+--
 
 ### Useful
+
+--
+
 ### Maintainable
+
+--
+
 ### Accessible
 
-## How to write documentation?
+---
+
+## Writing Documentation
+
+---
 
 ### What to document?
 
-### Self-documenting code
+--
 
-#### Test Cases
-#### Annotations and Comments
 #### Structure
 
-### Batch Sizing
+---
+
+### How to document?
+
+---
+
+### Self-documenting code?
+
+--
+
+#### Repository Structure
+
+--
+
+#### Test Cases
+
+--
+
+#### Annotations and Comments
+
+--
+
+#### Code Change Rate
+
+---
+

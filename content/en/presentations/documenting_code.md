@@ -52,13 +52,23 @@ margin = 0.2
 
 <img src="/images/presentations/wtf_documentation.png" style="width: 60%;" />
 
+> Source Code never lies
+
 ---
 
 ### We like good documentation
 
+- helps us understand the code
+- helps us implement new features
+- helps us avoid mistakes
+- saves us mental energy
+
 ---
 
 ### We hate writing it
+
+- [Working Software](https://agilemanifesto.org/) over Comprehensive Documentation
+- 
 
 {{% /section %}}
 
@@ -84,25 +94,25 @@ margin = 0.2
 
 ---
 
-## Writing Documentation
+# Writing Documentation
 
 ---
 
 {{% section %}}
 
-### What to document?
+## What to document?
 
 ---
 
-#### Structure
+### Structure
 
 ---
 
-#### Intent
+### Intent
 
 ---
 
-#### Decisions
+### Decisions
 
 {{% /section %}}
 
@@ -110,24 +120,33 @@ margin = 0.2
 
 {{% section %}}
 
-### Self-documenting code?
+## Self-documenting code?
 
 ---
 
-#### Repository Structure
+### Repository Structure
 
 ---
 
-#### Test Cases
+### Test Cases
+
+<img src="/images/presentations/readable_tests.png" style="width: 60%;" />
 
 ---
 
-#### Annotations and Comments
+- Write test names as specifications
+- Avoid weasel words
+- 4xA Test Structure (Arrange, Assume , Act, Assert)
+- Dogfooding
+
+---
+
+### Annotations and Comments
 
 
 ---
 
-#### Code Change Rate
+### Code Change Rate
 
 {{% /section %}}
 
@@ -135,22 +154,23 @@ margin = 0.2
 
 {{% section %}}
 
-### Low-friction tools
+## Low-friction tools
 
+> ~  
 > Keep your friends close, and your documentation even closer!  
 > ~ 
 
 ---
 
-#### Plain Text all the way!
+### Plain Text all the way!
 
 ---
 
-#### Make it shine
+### Make it shine
 
 ---
 
-#### your IDE and pipelines can help 
+### your IDE and pipelines can help 
 
 {{% /section %}}
 

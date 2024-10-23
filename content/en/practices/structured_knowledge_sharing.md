@@ -117,7 +117,7 @@ This helps set the scope of the session and ensures that all participants are on
 
 Determine the most effective format for delivering the knowledge based on the audience and the nature of the content.
 
-{{< image src="/images/practices/knowledge_sharing_types.webp" 
+{{< image src="/images/practices/knowledge_sharing_types" 
   alt="Image depicting different knowledge sharing formats." 
   caption="A 2-by-2 overview of different knowledge sharing formats." 
   size="36%" 

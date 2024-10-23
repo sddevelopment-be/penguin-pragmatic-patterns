@@ -68,7 +68,14 @@ margin = 0.2
 ### We hate writing it
 
 - [Working Software](https://agilemanifesto.org/) over Comprehensive Documentation
-- 
+- Low immediate value
+- Maintenance burden
+- Tools are often cumbersome
+
+{{% note %}}
+* We don't need it until we do.  
+* Most documentation artefacts are outdated the moment they are written.
+{{% /note %}}
 
 {{% /section %}}
 
@@ -78,23 +85,56 @@ margin = 0.2
 
 ## Goal: Reducing friction!
 
+* Documentation should be a byproduct of the process
+* Good documentation should be: **UWMA**
+
 ---
 
 ### Useful
+
+* The code
+* The project
+* The organization
+* Past decisions
+* Common tricks and traps
 
 ---
 
 ### Well-Maintained
 
+* Aligned with reality
+* Updated frequently
+* Whole team effort
+
+{{% note %}}
+* If it's not maintained, it's worse than no documentation at all.
+* Whole team effort: everyone should contribute (dev, QA, FA, PM, ...)
+{{% /note %}}
+
 ---
 
 ### Accessible
+
+* Easy to find
+* Clear and concise
+* Actionable
+* Searchable
 
 {{% /section %}}
 
 ---
 
+{{% section %}}
+
 # Writing Documentation
+
+---
+
+> Most organizations have their own standards for design documentation. 
+> These standards can range from _“You must use confluence”_ to _“Just write it
+> down on a napkin and take a picture of it”_.
+
+{{% /section %}}
 
 ---
 
@@ -104,15 +144,55 @@ margin = 0.2
 
 ---
 
-### Structure
+### Intent
+
+* Why are we doing this?
+* Who cares?
+* What are we trying to achieve?
 
 ---
 
-### Intent
+#### Why? Who? What?
+
+<img src="/images/concepts/ARCHI_chain_of_accountability_assigned.webp" style="width: 100%; background: #fefefe" />
+
+---
+
+### Structure
+
+* High-level overview of placement in organization
+* Key interaction with other systems
+* Module-level overview
+* Technical Dependencies
 
 ---
 
 ### Decisions
+
+---
+
+### Issues and Improvements
+
+* Known bugs
+* Code quality metrics
+* Change rate
+* Code smells and Security issues
+
+---
+
+### Usage and Examples
+
+* How to use (part of) the code
+* Usage metrics
+
+---
+
+### Recap
+
+<img src="/images/practices/traceable_decisions_example_overview.webp" style="width: 50%; background: #fefefe" />
+
+from: [traceable decisions](https://patterns.sddevelopment.be/practices/traceable_decisions/)
+
 
 {{% /section %}}
 

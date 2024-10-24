@@ -50,7 +50,7 @@ margin = 0.2
 
 ### The docs are a lie
 
-<img src="/images/presentations/wtf_documentation.png" style="width: 60%;" />
+<img src="/images/presentations/documenting_code/wtf_documentation.png" style="width: 60%;" />
 
 > Source Code never lies
 
@@ -152,7 +152,7 @@ margin = 0.2
 
 ---
 
-<img src="/images/presentations/follow_the_money.jpg" style="width: 60%; background: #fefefe" />
+<img src="/images/presentations/documenting_code/follow_the_money.jpg" style="width: 60%; background: #fefefe" />
 
 > When in doubt: follow the money!
 
@@ -234,49 +234,97 @@ from: [traceable decisions](https://patterns.sddevelopment.be/practices/traceabl
 
 ## (Self-)Documenting Code
 
-<img src="/images/presentations/self-documenting_code.png" style="width: 50%; background: #fefefe" />
+<img src="/images/presentations/documenting_code/self-documenting_code.png" style="width: 50%; background: #fefefe" />
+
+
+{{% note %}}
+* Be lazy!
+* Let the code do the talking
+* Use tools that are already there
+* Add tools that make it easier!
+{{% /note %}}
 
 ---
 
 ### Repository Structure
 
-* Package structure
-* Which folder contains what?
-* How to run the code?
+* Create a README.md
+* Describe the project, and its purpose 
+* Describe the directory structure
+* Actually use JavaDoc!
 
 {{% note %}}
-Those that are familiar with Open Source projects know this is
-the README.md file.
+Those that are familiar with Open Source projects know the value of a good README.md file.
 {{% /note %}}
 
 ---
 
+![readme example](/images/presentations/documenting_code/modular_validators.png)
 
-<img src="/images/presentations/modular_validators.png" style="width: 60%;" />
+---
 
-example: [modular validators](https://github.com/sddevelopment-be/modular-validators)
+![JavaDoc, but not as you know it](/images/presentations/documenting_code/lazy_javadoc.png)
 
 ---
 
 ### Test Cases
 
-<img src="/images/presentations/readable_tests.png" style="width: 60%;" />
-
----
-
 - Write test names as specifications
 - Avoid weasel words
 - 4xA Test Structure (Arrange, Assume , Act, Assert)
 - Dogfooding
+- Test adherence to your conventions!
+
+---
+
+<img src="/images/presentations/documenting_code/readable_tests.png" style="width: 80%;" />
+
+---
+
+<img src="/images/presentations/documenting_code/ocd_tests.png" style="width: 80%;" />
+
+---
+
+<img src="/images/presentations/documenting_code/test_the_conventions.png" style="width: 80%;" />
+
+{{% note %}}
+* If your code tests your conventions, they are documented!
+* And you don't have to enforce them!
+* The build will do it for you.
+{{% /note %}}
 
 ---
 
 ### Annotations and Comments
 
+* Describe the intent
+* Create custom annotations!
+
+---
+
+![Annotations, the easy way](/images/presentations/documenting_code/lazy_annotations.png)
 
 ---
 
 ### Code Change Rate
+
+* git knows all
+* git remembers all
+
+---
+   
+```bash
+git log --format=format: --name-only \\
+  | egrep -v '^$' \\
+  | sort \\
+  | uniq -c \\
+  | sort -rh
+```
+
+---
+
+![Code Change rate, lazy style](/images/presentations/documenting_code/change_rate.png)
+
 
 {{% /section %}}
 
@@ -294,14 +342,60 @@ example: [modular validators](https://github.com/sddevelopment-be/modular-valida
 
 ### Plain Text all the way!
 
+* txt files, markDown, xml, json,plantUML, code,...
+* Plain text is easy to search, version, and diff
+* Plain text is easy to **convert**
+
+{{% note %}}
+* But my company....
+* You are a developer, you can integrate anything!
+{{% /note %}}
+
 ---
 
 ### Make it shine
+
+* Static Site Generators
+* JavaDoc + CSS
+* PlantUML
 
 ---
 
 ### your IDE and pipelines can help 
 
+* Script it once 
+* Run it forever
+* You have a build pipeline and IDE anyway
+* Use it!
+
 {{% /section %}}
 
 ---
+
+{{% section %}}
+
+# Thank you!
+
+---
+
+## References
+
+Source code used:
+* [coding-utils](https://github.com/sddevelopment-be/coding-utils/)
+* [modular-validators](https://github.com/sddevelopment-be/modular-validators)
+* [docgen stuff](https://github.com/sddevelopment-be/document-generation)
+* [This presentation](https://github.com/sddevelopment-be/penguin-pragmatic-patterns)
+
+---
+
+## Brought to you by
+
+* Me, [Stijn](https://www.linkedin.com/in/stijn-dejongh/)
+* MarkDown
+* `reveal.js` + `HuGo`
+
+---
+
+![This presentation: Easter egg!](/images/presentations/documenting_code/meta_dogfooding.png)
+
+{{% /section %}}

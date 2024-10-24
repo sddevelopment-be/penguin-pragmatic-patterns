@@ -152,6 +152,12 @@ margin = 0.2
 
 ---
 
+<img src="/images/presentations/follow_the_money.jpg" style="width: 60%; background: #fefefe" />
+
+> When in doubt: follow the money!
+
+---
+
 #### Why? Who? What?
 
 <img src="/images/concepts/ARCHI_chain_of_accountability_assigned.webp" style="width: 100%; background: #fefefe" />
@@ -165,9 +171,27 @@ margin = 0.2
 * Module-level overview
 * Technical Dependencies
 
+{{% note %}}
+* The same code can be shitty or great, depending on the context
+* It is hard to put this in the code itself
+* There are easy ways to get around this 
+{{% /note %}}
+
 ---
 
 ### Decisions
+
+* What?
+* When?
+* Why?
+* Why not X ?
+
+{{% note %}}
+* Trade-offs, always!
+* Decisions are the most important part of documentation.
+* In retrospect, they often don't make sense.
+* Help your future self and others: sketch the context, avoid "design by tradition"
+{{% /note %}}
 
 ---
 
@@ -177,6 +201,10 @@ margin = 0.2
 * Code quality metrics
 * Change rate
 * Code smells and Security issues
+
+{{% note %}}
+
+{{% /note %}}
 
 ---
 
@@ -204,7 +232,29 @@ from: [traceable decisions](https://patterns.sddevelopment.be/practices/traceabl
 
 ---
 
+## (Self-)Documenting Code
+
+<img src="/images/presentations/self-documenting_code.png" style="width: 50%; background: #fefefe" />
+
+---
+
 ### Repository Structure
+
+* Package structure
+* Which folder contains what?
+* How to run the code?
+
+{{% note %}}
+Those that are familiar with Open Source projects know this is
+the README.md file.
+{{% /note %}}
+
+---
+
+
+<img src="/images/presentations/modular_validators.png" style="width: 60%;" />
+
+example: [modular validators](https://github.com/sddevelopment-be/modular-validators)
 
 ---
 

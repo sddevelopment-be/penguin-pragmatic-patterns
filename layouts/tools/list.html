@@ -12,7 +12,7 @@
             {{ .Content }}
 
             <div class="recommendation-wrapper">
-                {{ range $tool := (sort (index .Site.Data "tools").tool "name" "asc") }}
+                {{ range $tool := (sort (index .Site.Data "tools").tool "minimized_name" "asc") }}
                     {{ partial "tool.html" (dict "tool" $tool) }}
                 {{ end }}
             </div>

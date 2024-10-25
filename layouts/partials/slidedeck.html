@@ -1,0 +1,47 @@
+{{ $deck := .deck }}
+{{ $title := $deck.title }}
+{{ $subtitle := $deck.subtitle }}
+{{ $image := $deck.image }}
+{{ $date := $deck.date }}
+{{ $author := $deck.authors}}
+{{ $venue := $deck.venue}}
+{{ $link := $deck.link}}
+{{ $description := $deck.description}}
+{{ $type := $deck.type}}
+
+<div class="recommendation-item revealOnScroll delay-1" data-animation="fadeInLeft">
+    <div class="recommendation-title">
+        <span class="recommendation-type">{{ $type }}</span>
+        <h3 id={{ replace $title " " "-" | lower }}>{{ $title }}: {{ $subtitle }}</h3>
+    </div>
+    <div class="recommendation-content">
+        <div class="recommendation-image">
+            <a href="{{ $link }}" target="_blank" rel="noreferrer">
+                {{if $image}}
+                <img src="{{ .Site.BaseURL }}/images/presentations/{{$image}}"/>
+                {{else}}
+                <img src="{{ .Site.BaseURL }}/images/presentations/default.png"/>
+                {{end}}
+            </a>
+        </div>
+        <div class="recommendation-text">
+            {{if $description}}
+            <div class="recommendation-description text-item">
+                <b>abstract:</b>
+                <p>{{ $description }}</p>
+            </div>
+            {{end}}
+            {{if $link}}
+            <div class="link text-item">
+                <b>link:</b>
+                <a href="{{ .Site.BaseURL }}/presentations/{{ $link }}" target="_blank" rel="noreferrer">Click here for the slidedeck!</a>
+            </div>
+            {{end}}
+            {{if $author}}
+            <div class="author text-item">
+                Presented on {{ $date }} by {{ $author }} at <a href="{{ .Site.BaseURL }}/presentations/{{ $link }}" target="_blank">{{ $venue }}</a>
+            </div>
+            {{end}}
+        </div>
+    </div>
+</div>

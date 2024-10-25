@@ -82,6 +82,8 @@ params:
         url: /books
       - title: "Tools, Websites, Apps"
         url: /tools/
+      - title: "Slidedecks"
+        url: /presentations/
   - title: Admin
     sublinks:
       - title: Helping Out

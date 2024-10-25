@@ -1,9 +1,12 @@
-[[talk]]
+[[slidedeck]]
 id = "2e5f07c1-a5f6-47f2-8910-8596a88e67ce"
 title = "(self-)Documenting Code"
 subtitle = "low friction doc creation & maintenance"
 link = "documenting_code"
+image = "documenting_code/banner.png"
 authors = "Dejongh, Stijn"
+venue = "Belgian Java Users Group"
+venue_link = "https://bejug.github.io/"
 date = "2024-10-24"
 description = """
 The goal of software documentation is to be useful: providing clarity and support to developers maintaining and expanding the codebase.

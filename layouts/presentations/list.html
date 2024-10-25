@@ -1,4 +1,29 @@
 {{ define "main" }}
-  {{ partial "reveal-hugo/slides" (slice .Page) }}
-  {{ partial "reveal-hugo/slides" (where .Pages "Kind" "page") }}
+{{ partial "navbar.html" . }}
+{{ partial "navbar-clone.html" . }}
+
+{{ partial "title-section.html" . }}
+
+<section class="section section-feature-grey is-medium" id="tools">
+    <div class="container">
+
+        <div class="content-wrapper">
+
+            {{ .Content }}
+
+            <div class="recommendation-wrapper">
+                {{ range $slides := (sort (index .Site.Data "presentations").slidedeck "title" "asc") }}
+                    {{ partial "slidedeck.html" (dict "deck" $slides) }}
+                {{ end }}
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+{{ if .Site.Params.footer }}
+    {{ partial "footer.html" . }}
+{{ end }}
+
 {{ end }}

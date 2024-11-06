@@ -65,6 +65,12 @@ params:
     # Footer logos (from static/images/logos/clients/*.svg)
     # urls are optional
     clientlogos:
+  comments:
+    repo: 'sddevelopment-be/penguin-pragmatic-patterns'
+    repoId: 'MDEwOlJlcG9zaXRvcnkzMzg3NjE5NDE='
+    category: 'Pattern Comments'
+    categoryId: 'DIC_kwDOFDEY1c4CBILi'
+    theme: 'light'
 
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:

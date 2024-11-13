@@ -43,9 +43,10 @@
 
 .groucho {
     position: relative;
-    font-family: 'Sanchez', serif;
+    font-family: 'd-din', 'Sanchez', serif;
+    font-weight: 250;
     font-size: 1.3em;
-    line-height: 1.4em;
+    line-height: 1.25em;
     color: #0b121b;
 }
 
@@ -63,12 +64,11 @@
     box-sizing: border-box;
 }
 
-/* Some generic stuff. Don't worry about it */
-/* Some generic stuff. Don't worry about it */
 .content blockquote {
     margin: 0 0 0 0;
+    padding: 0.75em 1.5em;
     background-color: transparent;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'd-din', 'Open Sans', sans-serif;
     font-size: 1.125rem;
     text-align: justify-all;
     font-style: oblique;
@@ -76,15 +76,15 @@
 }
 
 .alert-container {
-    padding: 1.75rem;
-    margin: 1.75rem 0 1.75rem 0;
+    padding: 0.75em 1.5rem;
+    margin: 1.25rem 0 1.25rem 0;
     width: auto;
     display: flex;
 }
 
 .quote {
     color: #1f2226;
-    border-left: 5px solid #471a8b !important;
+    border-left: 4px solid #471a8b !important;
 }
 
 .quote:after {
@@ -105,7 +105,7 @@
 
 .warning {
     color: #1f2226;
-    border-left: 5px solid #f0ad4e !important;
+    border-left: 4px solid #f0ad4e !important;
 }
 
 .warning:after {
@@ -131,9 +131,23 @@
     padding: 0.25rem;
 }
 
+.info {
+    color: #123254;
+    border-left: 4px solid #255787 !important;
+}
+
+.info-title {
+    color: #255787;
+    text-transform: uppercase;
+    font-size: 1.25rem;
+    font-weight: 650;
+    margin-right: 0.75rem;
+    padding: 0.25rem;
+}
+
 .tip {
     color: #1f2226;
-    border-left: 5px solid #126fbe !important;
+    border-left: 4px solid #126fbe !important;
 }
 
 .tip-title {

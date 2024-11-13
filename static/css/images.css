@@ -40,6 +40,11 @@
     padding-bottom: 0.5rem;
 }
 
+.content figure figcaption {
+    font-style: italic;
+    font-family: d-din, "Gill Sans", 'Open Sans', sans-serif;
+}
+
 .text_image {
     max-height: 65rem;
     max-width: 50rem;

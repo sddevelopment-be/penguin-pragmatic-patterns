@@ -3,23 +3,57 @@
     url('/fonts/literta-font')
 }
 
+@font-face {
+    font-family: d-din;
+    url('/fonts/d-din')
+}
+
+.content h2:not(:first-child) {
+    margin-top: 3.75rem;
+}
+
 .pattern {
-    h3::before, h4::before {
+    h3::before, h4::before, h2::before {
         content: "";
         display: block;
         height: 6rem; /* fixed header height*/
-        margin: -6rem 0 0; /* negative fixed header height */
+        margin: -4.75rem 0 0; /* negative fixed header height */
     }
 }
 
 body {
-    font-family: literta, "Gill Sans", 'Open Sans', sans-serif;
+    font-family: 'd-din', literta, "Gill Sans", 'Open Sans', sans-serif;
     font-size: 16px;
     line-height: 1.75rem;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'd-din', "Gill Sans", 'Open Sans', sans-serif;
+}
+
+.title-wrapper .title .title-wrapper .subtitle{
+    font-family: 'd-din', "Gill Sans", 'Open Sans', sans-serif !important;
+}
+
+.hero-body .title, .hero-body .subtitle {
+    font-family: 'd-din', "Gill Sans", 'Open Sans', sans-serif
+}
+
 .navbar {
+    font-family: 'd-din', "Gill Sans", 'Open Sans', sans-serif;
+    font-size: 1.25rem;
     border-bottom: 2px solid #1e75c050;
+}
+
+@media screen and (min-width: 1024px) {
+    .navbar-dropdown {
+        font-size: 0.975rem;
+    }
+}
+
+.sidebar {
+    font-family: d-din, "Gill Sans", 'Open Sans', sans-serif;
+    font-size: 0.85rem;
 }
 
 #navbar-clone {
@@ -168,6 +202,10 @@ body {
     color: #1c3337;
 }
 
+.content h1, h2, h3, h4 {
+    font-family: d-din, "Gill Sans", 'Open Sans', sans-serif;
+}
+
 .content h2, h3, h4 {
     text-align: left;
     text-indent: 0;
@@ -285,14 +323,35 @@ body {
 
 .footer-logo {
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer-logo img {
+    max-width: 100%;
+    height: auto;
+    margin: auto 0.25rem;
+    clear: both;
+}
+
+.company-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+    padding: 0.75rem 1.25rem;
 }
 
 .company-name {
-    font-weight: 900;
-    margin-left: 0.125rem;
-    border-bottom: 2px solid #1e75c0;
-    padding-left: 0.75rem;
-    padding-right: 0.25rem;
+    font-weight: 500;
+    padding: 0 0.25rem;
+}
+
+.company-slogan {
+    font-weight: 400;
+    padding: 0 0.25rem;
+    font-size: 0.95rem;
+    color: #f29200;
 }
 
 .company {
@@ -305,7 +364,7 @@ body {
     font-weight: 450;
     line-height: 1.75;
     margin-top: 0.125rem;
-    padding: 0.125rem 0 0 3.45rem;
+    padding: .125rem 0 0 5rem;
 }
 
 .company-info a {
@@ -471,4 +530,8 @@ footer.footer-dark .footer-column ul.link-list a:hover {
     .section.is-medium {
         padding: 5.25rem 4.5rem;
     }
+}
+
+code {
+    color: #1e75c0;
 }

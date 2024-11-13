@@ -871,10 +871,10 @@
 }
 
 .comments {
-    background: #fefefe;
-    padding-top: 1.75rem;
-    margin-top: 1.25rem;
+    padding-top: 6.75rem;
+    padding-bottom: 5.75rem;
     padding-left: 8rem;
+    margin-top: 0;
 }
 
 @media(max-width: 1024px) {
@@ -893,6 +893,7 @@
 }
 
 .related summary {
+    font-family: d-din, "Gill Sans", 'Open Sans', sans-serif;
     font-size: 1.125rem;
     padding: 0.75rem;
     text-align: center;
@@ -905,6 +906,7 @@
 }
 
 .related .related-content {
+    font-family: d-din, "Gill Sans", 'Open Sans', sans-serif;
     font-size: 0.875rem;
     padding: 0 2.75rem 1.5rem 2.75rem;
 }
@@ -942,4 +944,12 @@
         border-bottom: 4px solid #0b1a25;
         border-top: 4px solid #0b1a25;
     }
+}
+
+.dark {
+    background: rgba(1, 13, 24, 0.95);
+}
+
+.dark-pattern {
+    background: linear-gradient(rgba(11, 28, 42, 0.9), rgba(1, 13, 24, 0.95)), url("/images/tiles.webp") repeat;
 }

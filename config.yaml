@@ -43,11 +43,10 @@ params:
   # preloader: false
   navbarlogo:
   # Logo (from static/images/logos/___)
-    image: logos/ppp_logo.png
+    image: logos/ppp_logo.webp
     link: "/"
-    # Default width/height. Uncomment if you need to change
-    # width: 112
-    # height: 28
+    width: 112
+    height: 28
   font:
     name: "Open Sans"
     sizes: [400,600]
@@ -156,7 +155,7 @@ params:
 
   footer:
     # Logo (from /images/logos/___)
-    logo: logo_trans_border_scaled.webp
+    logo: LOGO_BASE_SMALL.webp
     # Social Media Title
     socialmediatitle: Socials
     # Social media links (GitHub, Twitter, etc.). All are optional.
@@ -226,7 +225,7 @@ services:
 author:
   email: stijn@sddevelopment.be
   name: Stijn Dejongh
-copyright: © 2023 SD Development, BV.
+copyright: © 2024 SD Development, BV.
 
 defaultContentLanguage: en
 defaultContentLanguageInSubdir: false

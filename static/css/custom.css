@@ -253,6 +253,13 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
 }
 
+.offset-anchor::before {
+    content: '';
+    display: block;
+    height:      5.25rem;
+    margin-top: -5.25rem;
+    visibility: hidden;
+}
 
 @media all and (max-width: 1024px) {
     .content pre {

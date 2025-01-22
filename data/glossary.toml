@@ -772,6 +772,18 @@ references = [
     { title = "Systems Thinking For Social Change: A Practical Guide to Solving Complex Problems, Avoiding Unintended Consequences, and Achieving Lasting Results by David Peter Stroh", link = "https://www.amazon.com/Systems-Thinking-Social-Change-Consequences/dp/160358580X" }
 ]
 
+[[terminology]]
+name = "Trade-off"
+abbreviation = ""
+domain = "software development"
+description = """
+A trade-off in software architecture is a conscious choice that balances competing priorities — like `performance versus maintainability` or `speed to market versus long-term scalability`.
+By selecting one approach, you gain certain benefits but often sacrifice others. Hence: _'trading off one property for another'_. Recognizing and documenting these decisions ensures that the team understands the rationale behind the chosen path and can adapt if priorities change.
+"""
+aliases = []
+references = [
+    { title = "Wikipedia: Software Architecture Trade-offs", link = "https://en.wikipedia.org/wiki/Architecture_tradeoff_analysis_method" }
+]
 
 [[terminology]]
 name = "Non-Preemptive scheduling"

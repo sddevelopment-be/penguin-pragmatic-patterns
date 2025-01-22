@@ -4,35 +4,40 @@
 {{ $description := $term.description}}
 {{ $aliases := $term.aliases}}
 {{ $references := $term.references}}
+{{ $identifier := replace $name " " "-" | lower }}
 
-<div class="glossary-term revealOnScroll delay-1" data-animation="fadeInLeft" id={{ replace $name " " "-" | lower }}>
-    <div class="term-name">
-        <h3>{{ $name }}</h3>
-    </div>
-    <div class="term-content">
-        {{ if $short }}<div class="term-abbreviation"> <b>short:</b> {{ $short }} </div> {{end}}
-        <div class="term-text">
-            <b>description:</b>
-            {{ $optOrg := dict "markup" "org" }}
-            <p>{{ $description | markdownify }}</p>
-        </div>
-        <div class="term-aliases">
-        {{if $aliases}}
-            <b>also known as:</b>
-            {{ range $aliases }}
-                <span class="term-alias"> {{ . }}</span>
-            {{ end }}
-        {{ end }}
-        </div>
-        <div class="term-references">
-            {{if $references}}
-            <b>references:</b><br />
-            <ul>
-                {{ range $reference := $references }}
-                    <li class="term-reference"><a href="{{ $reference.link }}" target="_blank">{{ $reference.title }}</a></li>
-                {{ end }}
-            </ul>
-            {{ end }}
-        </div>
-    </div>
+<div class="glossary-term revealOnScroll delay-1" data-animation="fadeInLeft">
+	<div class="term-name">
+		<a class="offset-anchor" id="{{ $identifier }}">
+			<h3><a href="/glossary/#{{ $identifier }}" rel=noreferrer target=_blank>{{ $name }}</a></h3>
+		</a>
+	</div>
+	<div class="term-content">
+		{{ if $short }}
+		<div class="term-abbreviation"><b>short:</b> {{ $short }}</div>
+		{{end}}
+		<div class="term-text">
+			<b>description:</b>
+			{{ $optOrg := dict "markup" "org" }}
+			<p>{{ $description | markdownify }}</p>
+		</div>
+		<div class="term-aliases">
+			{{if $aliases}}
+			<b>also known as:</b>
+			{{ range $aliases }}
+			<span class="term-alias"> {{ . }}</span>
+			{{ end }}
+			{{ end }}
+		</div>
+		<div class="term-references">
+			{{if $references}}
+			<b>references:</b><br/>
+			<ul>
+				{{ range $reference := $references }}
+				<li class="term-reference"><a href="{{ $reference.link }}" target="_blank">{{ $reference.title }}</a></li>
+				{{ end }}
+			</ul>
+			{{ end }}
+		</div>
+	</div>
 </div>

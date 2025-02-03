@@ -23,19 +23,30 @@ related_practices = [
     "04c6129d-11f7-4aa0-a809-1b972a0d7ef9"
 ]
 further_exporlation = [
-    {type="biblio", id="9d8ff83e-f49a-4c7c-8e40-e34ac63e2792"}
+    {type="biblio", id="9d8ff83e-f49a-4c7c-8e40-e34ac63e2792"},
+    {type="raw", author="Mozingo, D.; Richards, T.", year="2019", title="What is Connascence?", url="https://connascence.io/", site="Connascence.io"},
+    {type="raw", author="Weirich, J", year="2012", title="Talk: Connascence Examined", url="https://www.youtube.com/watch?v=HQXVKHoUQxY", site="YouTube"},
+    {type="raw", author="Brown, G.", year="2011", title="Connascence as a Software Design Metric", url="https://practicingruby.com/articles/connascence", site="practicingruby.com"},
+    {type="raw", author="Page-Jones, M.", year="1992", title="Comparing techniques by means of encapsulation and connascence", url="https://dl.acm.org/doi/abs/10.1145/130994.131004", publication="Communications of the ACM", volume="35", issue="9"}
 ]
+
 +++
 
 ## Definition
 
-> Offer a precise definition of the concept.
+Originating from the latin word _'connascere'_, meaning _'born together'_, connascence is a term used in software development to describe the interdependence of software components -- a property often referred to as _'coupling'_. It is a measure of how much two or more software components are dependent on each other, with respect to a particular reason for change. Excessive connascence in our software means that the system is hard to change and hard to maintain.
+
+{{< quote text=`Two elements are connascent if a change to one element would also force a change to the other in order for the program to be correct.`author="Meilir Page-Jones" >}}
+
+One of the most important benefits of connascence is that it gives developers a vocabulary to talk about different types of coupling. Connascence codifies what many experienced engineers have learned by trial and error: Having a common set of nouns to refer to different types of coupling allows us to share that experience more easily.
 
 ## Key Components
 
-> Breakdown of the concept into it's most important component ideas.
-> Start by a list of compontents, with a brief explanation of each.
-> Further full-text explanation of the concept can be added bellow said bullet list.
+Reasoning about the amount of interdependence between softare components is tricky, as it is not a binary property. Components can be interdependent is various ways, and to various degrees. To make reasoning about coupling of components more manageable, the connascence metric has been broken down into several different facets. Software components can be evaluated for their connascence based on the following criteria:
+
+- **Strength**: The strength of connascence is a measure of how much a change in one component would necessitate a change in another component. The higher the strength, the more tightly coupled the components are.
+- **Degree**: The degree of connascence is a measure of how many components are dependent on each other. The higher the degree, the more components are affected by a change in one component.
+- **Locality**: The locality of connascence is a measure of how close the dependent components are to each other. The closer the components, the more localized the connascence.
 
 ## Background
 

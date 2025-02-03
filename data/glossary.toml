@@ -59,6 +59,18 @@ aliases = []
 references = []
 
 [[terminology]]
+name = "Asynchronous Communication"
+abbreviation = ""
+domain = "communication"
+description = """
+Asynchronous communication refers to interactions where participants engage in communication without requiring all parties to be present simultaneously. This form of communication allows for flexibility in timing and location, enabling individuals to send and receive messages at different times. Examples of asynchronous communication include emails, text messages, and discussion boards.
+"""
+aliases = []
+references = [
+    { title = "Microsoft Architecure Pages: Asynchronous Message Based Communication", link = "https://learn.microsoft.com/en-us/dotnet/architecture/microservices/architect-microservice-container-applications/asynchronous-message-based-communication" }
+]
+
+[[terminology]]
 name = "Blade servers"
 domain = "hardware"
 description = """
@@ -67,6 +79,17 @@ Each processor board boots independently and runs its own operating system.
         """
 aliases = []
 references = []
+
+[[terminology]]
+name = "Blocking Wait"
+abbreviation = ""
+domain = ""
+description = """
+Blocking wait refers to a situation where a process is paused or delayed until a specific condition is met or an event occurs. During this time, the process remains inactive and cannot proceed until the blocking condition is resolved. Blocking waits can impact system performance and responsiveness, especially in scenarios where multiple processes are waiting for the same resource or event, or where the resolution of the delegated processing takes a significant amount of time.
+"""
+aliases = []
+references = [
+]
 
 [[terminology]]
 name = "Bootstrap program"
@@ -433,6 +456,18 @@ aliases = []
 references = []
 
 [[terminology]]
+name = "Fail Early"
+abbreviation = ""
+domain = "software development"
+description = """
+The "fail early" principle emphasizes the importance of detecting failures at the earliest possible point in the delivery chain. This approach means that when a defect or issue arises—whether in the design, coding, or testing phase—the process is structured to immediately flag the problem and halt further progression until it is addressed. By doing so, resources are not wasted on subsequent processes built on faulty assumptions, and remediation is more cost-effective and efficient.
+"""
+aliases = []
+references = [
+    { title = "SDD Patterns: Fail Fast", link = "https://patterns.sddevelopment.be/practices/fail_fast/" }
+]
+
+[[terminology]]
 name = "Fault-tolerant systems"
 abbreviation = ""
 domain = "Software Development"
@@ -630,8 +665,7 @@ name = "Key Performance Indicator"
 abbreviation = "KPI"
 domain = "Management"
 description = """
-The critical (key) indicators of progress toward an intended result. KPIs provide a focus for strategic and operational
-improvement, create an analytical basis for decision-making and help focus attention on what matters most.
+Key Performance Indicators (KPIs) are quantifiable metrics used to evaluate the success of an organization, project, or individual in achieving specific objectives. KPIs are typically aligned with strategic goals and provide a clear, measurable indication of performance. They help organizations track progress, identify areas for improvement, and make informed decisions based on data-driven insights.
 """
 aliases = []
 references = []
@@ -663,6 +697,17 @@ Examples include: "is larger than", "is smaller than", "Alphabetical order of fi
 aliases = []
 references = [
     { title = "Linearly ordered group, wikipedia", link = "https://en.wikipedia.org/wiki/Linearly_ordered_group" }
+]
+
+[[terminology]]
+name = "Non-Repudiation"
+abbreviation = ""
+domain = "Security"
+description = """
+Non-repudiation is a principle that ensures a party cannot deny the authenticity of their signature or the sending and receiving of a message, often achieved through digital signatures and cryptography. It provides proof of the origin and integrity of data, making it crucial in legal and digital communications.
+"""
+aliases = []
+references = [
 ]
 
 [[terminology]]
@@ -703,6 +748,17 @@ references = [
 ]
 
 [[terminology]]
+name = "Shift Left"
+abbreviation = ""
+domain = "Quality Assurance"
+description = """
+The practice of moving testing, analysis, and defect detection earlier in the lifecycle of automated processes. Rather than waiting for later stages -- such as integration, deployment, or delivery -- to uncover issues, teams integrate quality checks and automated testing right from the design and development phases. This proactive approach minimizes the cost and complexity of fixing defects, reduces the risk of operational issues, and ultimately contributes to a more stable, high-quality product. It embodies a culture where continuous feedback and early warning mechanisms, such as those provided by Canary, enable swift remediation and improve overall process efficiency.
+"""
+aliases = []
+references = [
+]
+
+[[terminology]]
 name = "Strategic Learning"
 abbreviation = ""
 domain = "Learning"
@@ -727,7 +783,6 @@ broader understanding across teams.
 """
 aliases = []
 references = [
-    { title = "", link = "" }
 ]
 
 [[terminology]]
@@ -770,6 +825,17 @@ references = [
     { title = "The Fifth Discipline: The Art & Practice of The Learning Organization by Peter Senge", link = "https://www.amazon.com/Fifth-Discipline-Practice-Learning-Organization/dp/0385517254" },
     { title = "Thinking in Systems: A Primer by Donella H. Meadows", link = "https://www.amazon.com/Thinking-Systems-Donella-H-Meadows/dp/1603580557" },
     { title = "Systems Thinking For Social Change: A Practical Guide to Solving Complex Problems, Avoiding Unintended Consequences, and Achieving Lasting Results by David Peter Stroh", link = "https://www.amazon.com/Systems-Thinking-Social-Change-Consequences/dp/160358580X" }
+]
+
+[[terminology]]
+name = "Synchronous Communication"
+abbreviation = ""
+domain = ""
+description = """
+Synchronous communication refers to real-time interactions where participants engage in immediate, simultaneous exchanges of information. This form of communication requires all parties to be present and actively involved in the conversation, enabling instant feedback and response. Examples of synchronous communication include face-to-face meetings, phone calls, video conferences, and live chat sessions.
+"""
+aliases = []
+references = [
 ]
 
 [[terminology]]
@@ -980,6 +1046,20 @@ references = [
 ]
 
 [[terminology]]
+name = "Causal Loop Diagram"
+abbreviation = ""
+domain = "Systems Thinking"
+description = """
+A causal loop diagram is a visual representation of the feedback loops within a system, illustrating how various elements interact and influence each other over time. It consists of nodes (variables) and arrows (causal links) that show the relationships between these variables, highlighting the reinforcing and balancing feedback loops that drive system behavior. Causal loop diagrams are used in systems thinking and dynamic modeling to understand complex systems, identify leverage points, and predict system behavior under different conditions.
+"""
+aliases = []
+references = [
+    { title="Guidelines for Drawing Causal Loop Diagram", link="https://www.cs.toronto.edu/~sme/SystemsThinking/GuidelinesforDrawingCausalLoopDiagrams.pdf" },
+    title="Business Dynamics: Systems Thinking and Modeling for a Complex World", link="https://www.goodreads.com/book/show/39736248-business-dynamics",
+    {title="Thinking in Systems: A Primer", link="https://www.goodreads.com/book/show/3828902-thinking-in-systems"}
+]
+
+[[terminology]]
 name = "Cognitive Bias"
 domain = "Psychology"
 description = """
@@ -1114,8 +1194,13 @@ references = [
 ]
 
 
-
-
-
-
-
+[[terminology]]
+name = "Value Stream"
+abbreviation = ""
+domain = "Software Architecure"
+description = """
+A Value Stream is a sequence of interrelated activities and processes that collectively enable an organization to deliver its core products or services. Drawing on concepts from frameworks such as ArchiMate and SAFe, it represents the flow of value from the initial request or input through to the final delivery, ensuring that every step contributes to the organization’s strategic objectives. This holistic view helps identify inefficiencies, optimize workflows, and continuously enhance the overall effectiveness of business operations.
+"""
+aliases = []
+references = [
+]

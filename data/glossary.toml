@@ -1204,3 +1204,39 @@ A Value Stream is a sequence of interrelated activities and processes that colle
 aliases = []
 references = [
 ]
+
+[[terminology]]
+name = "Progressive Disclosure"
+abbreviation = ""
+domain = "User Experience, Technical Communication"
+description = """
+A content design and usability principle where information is presented gradually, revealing complexity only when necessary. This approach improves user comprehension by preventing cognitive overload, ensuring that users receive only the most relevant details at each stage of interaction.
+"""
+aliases = ["Incremental Information Disclosure"]
+references = [
+    { title = "Nielsen Norman Group: Progressive Disclosure", link = "https://www.nngroup.com/articles/progressive-disclosure/" }
+]
+
+[[terminology]]
+name = "Persona"
+abbreviation = ""
+domain = "User Experience, Content Strategy"
+description = """
+A fictional but research-based representation of a target audience segment, capturing key characteristics such as demographics, goals, motivations, and pain points. Personas help guide content development, ensuring that communication is tailored to real-world user needs.
+"""
+aliases = ["User Persona", "Customer Persona"]
+references = [
+    { title = "Cooper: The Origin of Personas", link = "https://urbanmobilitycourses.eu/wp-content/uploads/2020/08/cooper.com-The-origin-of-personas.pdf" }
+]
+
+[[terminology]]
+name = "Segmentation"
+abbreviation = ""
+domain = "Marketing, Technical Communication"
+description = """
+The process of dividing a broader audience into distinct groups based on shared characteristics such as expertise level, interests, or needs. In content strategy, segmentation allows for more targeted communication, ensuring that different user groups receive the most relevant information.
+"""
+aliases = ["Audience Segmentation", "Market Segmentation"]
+references = [
+    { title = "Wikipedia: market segmentation", link = "https://en.wikipedia.org/wiki/Market_segmentation" }
+]

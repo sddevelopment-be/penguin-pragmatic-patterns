@@ -1240,3 +1240,29 @@ aliases = ["Audience Segmentation", "Market Segmentation"]
 references = [
     { title = "Wikipedia: market segmentation", link = "https://en.wikipedia.org/wiki/Market_segmentation" }
 ]
+
+[[terminology]]
+name = "Orthogonality"
+abbreviation = ""
+domain = "Software Engineering, System Design"
+description = """
+A design principle where components or concerns are independent of one another, such that changes in one do not affect the others. Orthogonal systems are easier to understand, test, and maintain, as each part can be modified or replaced without unintended side effects on unrelated parts.
+"""
+aliases = ["Design Independence", "Separation of Concerns"]
+references = [
+    { title = "The Pragmatic Programmer", link = "https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/" },
+    { title = "Wikipedia: Orthogonality in Programming", link = "https://en.wikipedia.org/wiki/Orthogonality_(programming)" }
+]
+
+[[terminology]]
+name = "Connascence"
+abbreviation = ""
+domain = "Software Engineering, Code Quality"
+description = """
+A metric and conceptual model for evaluating how tightly two parts of a system are coupled, based on the types of changes in one component that would require changes in another. Lower degrees of connascence indicate better modularity and maintainability, while higher degrees signal stronger and often more brittle dependencies.
+"""
+aliases = ["Code Coupling", "Change Affinity"]
+references = [
+    { title = "Connascence by Meilir Page-Jones", link = "http://www.connascence.io/" },
+    { title = "Wikipedia: Connascence", link = "https://en.wikipedia.org/wiki/Connascence_(software)" }
+]

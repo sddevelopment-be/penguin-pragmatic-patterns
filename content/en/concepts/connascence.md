@@ -22,12 +22,15 @@ related_concepts = [
 related_practices = [
     "04c6129d-11f7-4aa0-a809-1b972a0d7ef9"
 ]
-further_exporlation = [
+further_exploration = [
     {type="biblio", id="9d8ff83e-f49a-4c7c-8e40-e34ac63e2792"},
-    {type="raw", author="Mozingo, D.; Richards, T.", year="2019", title="What is Connascence?", url="https://connascence.io/", site="Connascence.io"},
-    {type="raw", author="Weirich, J", year="2012", title="Talk: Connascence Examined", url="https://www.youtube.com/watch?v=HQXVKHoUQxY", site="YouTube"},
-    {type="raw", author="Brown, G.", year="2011", title="Connascence as a Software Design Metric", url="https://practicingruby.com/articles/connascence", site="practicingruby.com"},
-    {type="raw", author="Page-Jones, M.", year="1992", title="Comparing techniques by means of encapsulation and connascence", url="https://dl.acm.org/doi/abs/10.1145/130994.131004", publication="Communications of the ACM", volume="35", issue="9"}
+    {type="biblio", id="8572443d-2c27-462a-b9d7-839dd6e4d58b"},
+    {type="raw", author="Mozingo, D.; Richards, T.", year="2019", title="What is Connascence?", link="https://connascence.io/", site="Connascence.io"},
+    {type="raw", author="Weirich, J", year="2012", title="Talk: Connascence Examined", link="https://www.youtube.com/watch?v=HQXVKHoUQxY", site="YouTube"},
+    {type="raw", author="Brown, G.", year="2011", title="Connascence as a Software Design Metric", link="https://practicingruby.com/articles/connascence", site="practicingruby.com"},
+    {type="raw", author="Page-Jones, M.", year="1992", title="Comparing techniques by means of encapsulation and connascence", link="https://dl.acm.org/doi/abs/10.1145/130994.131004", publication="Communications of the ACM", volume="35", issue="9"},
+	{type="raw", author="Raymond, E. S.", year="2023", title="The art of Unix Programming", link="http://www.catb.org/~esr/writings/taoup/html/index.html", publication="Cathedral and the Bazaar"},
+	{type="raw", author="Various authors", site="wikipedia.org", title="Orthogonality", link="https://en.wikipedia.org/wiki/Orthogonality_(programming)"}
 ]
 
 +++
@@ -66,6 +69,26 @@ Reasoning about the amount of interdependence between softare components is tric
 > some illustrating similarities and others highlighting differences.
 > Be brief and to the point, focusing on the most important aspects. Further details can be referred to as a link to relevant background reading in
 > the "Further Exploration" section.
+
+#### Relationship to Orthogonality
+
+At first glance, **connascence** and **orthogonality** may appear similar—they both deal with how parts of a system relate to each other, but they differ in **focus**, **granularity**, and **intent**. The table below summarizes the key differences:
+
+| Aspect          | **Orthogonality**                                          | **Connascence**                                                       |
+|-----------------|------------------------------------------------------------|-----------------------------------------------------------------------|
+| **Focus**       | Design independence—how isolated responsibilities are.     | Degree and nature of coupling—how changes in one part affect another. |
+| **Perspective** | Encourages *separation of concerns* and *minimal overlap*. | Classifies the *strength and type of dependencies*.                   |
+| **Granularity** | Typically applied at the module or system design level.    | Often applied at the code level: functions, arguments, naming.        |
+| **Intent**      | Promote composability, clarity, and modifiability.         | Evaluate and reduce harmful coupling to improve maintainability.      |
+
+In simple terms:
+
+- **Orthogonality** asks:  
+  _“Can I understand, use, or change this component without needing to understand or touch others?”_
+- **Connascence** asks:  
+  _“If I change this, how many other things do I need to change? and why?”_
+
+While both concepts aim to reduce unnecessary entanglement, **orthogonality is a design principle**, whereas **connascence is a diagnostic lens**. Orthogonality helps you **prevent entanglement**, connascence helps you **detect and classify it**.
 
 ## Examples
 > Illustrate how the concept is applied in a specific scenario.

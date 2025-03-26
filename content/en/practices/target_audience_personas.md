@@ -1,7 +1,6 @@
 +++
 title = "Target Audience Personas"
 author = "Stijn Dejongh"
-draft = true
 problem = "Technical and complex communication often fails to engage or resonate with its intended audience, either by assuming too much prior knowledge, oversimplifying concepts, or lacking a clear connection to the reader’s real-world challenges."
 description = "A technique to help technical writers structure content for different reader groups by adapting tone, depth, and complexity or splitting content when necessary."
 summary = """
@@ -34,10 +33,13 @@ ammerse = [
 related_concepts = ["98cc5f46-409b-44df-9fb8-fb1d881970b5"]
 related_practices = ["e6cdeaa2-cc30-4928-95fd-f28ea7cb489d"]
 further_exploration = [
-  {type="biblio", id="f67e9f3f-0467-4753-a791-7b26a20215a8"}
+  {type="biblio", id="f67e9f3f-0467-4753-a791-7b26a20215a8"},
+  {type="raw", author="Qian, S.", year="2020", title="A Personas Guideline, From What They Are to How To Use", link="https://uxdesign.cc/while-we-are-talking-about-personas-what-exactly-are-we-talking-525a645eb61a", site="usdesign.cc"},
+  {type="raw", author="unknown", year="2025", title="Persona knowledge: the history of buyer personas", link="https://www.persona-institut.de/en/die-geschichte-der-buyer-personas/", site="persona-institut.de"},
+  {type="raw", author="Cooper, A.", year="2003", title="The Origins of Personas", link="https://urbanmobilitycourses.eu/wp-content/uploads/2020/08/cooper.com-The-origin-of-personas.pdf", site="urbanmobilitycourses.eu"},
 ]
-image=""
-pubdate="2025-02-20"
+image="practices/personas_cover"
+pubdate="2025-03-09"
 +++
 
 ## Problem Statement
@@ -143,6 +145,7 @@ The **Target Audience Personas** technique works because it aligns communication
 - By thinking about **real readers**, you can tap into their **motivations and pain points**, making your content more engaging and relevant.
 
 ## Application
+
 ### Consequences
 While the approach brings numerous benefits, it can also lead to several unexpected or undesired outcomes:
 
@@ -179,29 +182,29 @@ The persona descriptions can also be used to **guide the structure of the course
 
 #### Persona Description: Alex - The Reflective Technical Leader
 
-Alex is a seasoned Engineering Manager or Technical Lead who has grown from being a strong developer into a leadership role. They are comfortable with system architecture but often find themselves caught between business expectations and technical reality. They appreciate structured, well-reasoned content that helps them make informed decisions while balancing trade-offs.
+Alex is a seasoned Engineering Manager or Technical Lead who has grown from being a strong developer into a leadership role. They are comfortable with system architecture but often find themselves caught between business expectations and technical reality. They appreciate structured, well-reasoned content to help them make informed decisions while balancing trade-offs.
 
-| Attribute                        | Description                                                                                         |
-|----------------------------------|-----------------------------------------------------------------------------------------------------|
-| **Name**                         | Alex (The Reflective Technical Leader)                                                             |
-| **Role**                         | Engineering Manager or Technical Lead                                                              |
-| **Experience**                   | 12-15 years in software development, 3-5 years in leadership, balancing business and technical decisions. |
+| **Attribute**                    | **Description**                                                                                                                          |
+|----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------|
+| **Name**                         | Alex (The Reflective Technical Leader)                                                                                                   |
+| **Role**                         | Engineering Manager or Technical Lead                                                                                                    |
+| **Experience**                   | 12-15 years in software development, 3-5 years in leadership, balancing business and technical decisions.                                |
 | **Pain Points**                  | - Struggles with aligning technical decisions with business priorities. <br> - Needs to justify architectural decisions to stakeholders. |
-| **What They Seek**               | - Structured frameworks for decision-making. <br> - Practical guidance on documenting architecture for traceability. |
-| **How They Engage with Content** | - Prefers asynchronous, in-depth written content. <br> - Enjoys well-structured case studies and real-world examples. |
+| **What They Seek**               | - Structured frameworks for decision-making. <br> - Practical guidance on documenting architecture for traceability.                     |
+| **How They Engage with Content** | - Prefers asynchronous, in-depth written content. <br> - Enjoys well-structured case studies and real-world examples.                    |
 
 
 #### Persona Description: Jamie - The Eager Developer in Transition
 
 Jamie is a senior software developer stepping into technical leadership for the first time. They are technically strong but feel uncertain about architectural decisions and leadership responsibilities. They appreciate clear, structured content that demystifies architectural concepts without assuming prior experience in system design.
 
-| Attribute                        | Description                                                                                         |
-|----------------------------------|-----------------------------------------------------------------------------------------------------|
-| **Name**                         | Jamie (The Eager Developer in Transition)                                                          |
-| **Role**                         | Senior Software Developer aspiring to be a Tech Lead                                              |
-| **Experience**                   | 5-7 years in software development, with recent exposure to architectural decisions.               |
-| **Pain Points**                  | - Lacks confidence in making technical design choices. <br> - Unfamiliar with documenting and communicating architecture. |
-| **What They Seek**               | - Step-by-step guidance on transitioning from developer to architect. <br> - Hands-on exercises and practical examples. |
+| **Attribute**                    | **Description**                                                                                                             |
+|----------------------------------|-----------------------------------------------------------------------------------------------------------------------------|
+| **Name**                         | Jamie (The Eager Developer in Transition)                                                                                   |
+| **Role**                         | Senior Software Developer aspiring to be a Tech Lead                                                                        |
+| **Experience**                   | 5-7 years in software development, with recent exposure to architectural decisions.                                         |
+| **Pain Points**                  | - Lacks confidence in making technical design choices. <br> - Unfamiliar with documenting and communicating architecture.   |
+| **What They Seek**               | - Step-by-step guidance on transitioning from developer to architect. <br> - Hands-on exercises and practical examples.     |
 | **How They Engage with Content** | - Engages best with interactive or structured learning. <br> - Prefers visual guides, annotated examples, and walkthroughs. |
 
 
@@ -209,12 +212,12 @@ Jamie is a senior software developer stepping into technical leadership for the 
 
 Jordan is an early-career developer or student eager to understand architectural principles from the ground up. They have basic programming knowledge but struggle to see how systems fit together at a higher level. They need foundational explanations, progressive learning, and accessible content to help them build confidence in architectural thinking.
 
-| Attribute                        | Description                                                                                         |
-|----------------------------------|-----------------------------------------------------------------------------------------------------|
-| **Name**                         | Jordan (The Motivated Beginner)                                                                    |
-| **Role**                         | Junior Developer or Recent Graduate                                                               |
-| **Experience**                   | 1-2 years in software development, with limited exposure to system design.                        |
+| **Attribute**                    | **Description**                                                                                                                           |
+|----------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
+| **Name**                         | Jordan (The Motivated Beginner)                                                                                                           |
+| **Role**                         | Junior Developer or Recent Graduate                                                                                                       |
+| **Experience**                   | 1-2 years in software development, with limited exposure to system design.                                                                |
 | **Pain Points**                  | - Overwhelmed by technical jargon and complex architectural concepts. <br> - Lacks real-world context for applying theoretical knowledge. |
-| **What They Seek**               | - Clear, beginner-friendly explanations of architecture. <br> - Step-by-step guides that build understanding progressively. |
-| **How They Engage with Content** | - Prefers structured, easy-to-digest content. <br> - Engages best with tutorials, visual aids, and guided exercises. |
+| **What They Seek**               | - Clear, beginner-friendly explanations of architecture. <br> - Step-by-step guides that build understanding progressively.               |
+| **How They Engage with Content** | - Prefers structured, easy-to-digest content. <br> - Engages best with tutorials, visual aids, and guided exercises.                      |
 

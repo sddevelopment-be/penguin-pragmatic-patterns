@@ -2,7 +2,7 @@
 {{ partial "navbar.html" . }}
 {{ partial "navbar-clone.html" . }}
 
-{{ $tag := .Title}}
+{{ $tag := .Title | lower}}
 {{ $description := .Description}}
 
 {{ $fileToUse := "glossary" }}

@@ -2,19 +2,20 @@
 title = "Connascence"
 subtitle = "Interdependence of software components"
 author = "Nicholas Ocket, Stijn Dejongh"
-description = ""
-summary="""
+description = "Connascence describes how strongly software components depend on each other and what kinds of changes create ripple effects across a system."
+summary = """
+Connascence is a powerful concept for understanding the hidden dependencies between software components. Unlike generic discussions of coupling, it breaks interdependence down into specific, measurable types --- such as name, timing, or meaning. This helps developers reason about change impact more effectively and communicate design concerns with precision.
 """
 categories = [
     "software development",
 ]
 tags = [
-    "connascence", "software development", "interdependence", "components", "design", "system characteristics"
+    "coupling", "software development", "interdependence", "components", "design", "system characteristics"
 ]
 uuid="c8c57ad1-c7f0-49ff-8aa1-f37166f8f65d"
 aliases=["c8c57ad1-c7f0-49ff-8aa1-f37166f8f65d", "orthogonality"]
-pubdate="2024-12-12"
-image = ""
+pubdate="2025-04-05"
+image = "concepts/connascence"
 related_concepts = [
     "c57288e3-b102-4212-adb7-a4339a3a9e87",
     "3683719c-d1ff-4693-a5c5-d9eefb07e409"
@@ -37,7 +38,7 @@ further_exploration = [
 
 ## Definition
 
-Originating from the latin word _'connascere'_, meaning _'born together'_, connascence is a term used in software development to describe the interdependence of software components -- a property often referred to as _'coupling'_. It is a measure of how much two or more software components are dependent on each other, with respect to a particular reason for change. Excessive connascence in our software means that the system is hard to change and hard to maintain.
+Originating from the Latin word _'connascere'_, meaning _'born together'_, connascence is a term used in software development to describe the interdependence of software components --- a property often referred to as _'coupling'_. It is a measure of how much two or more software components are dependent on each other, with respect to a particular reason for change. Excessive connascence in our software means that the system is hard to change and hard to maintain.
 
 {{< quote text=`Two elements are connascent if a change to one element would also force a change to the other in order for the program to be correct.` author="Meilir Page-Jones" >}}
 
@@ -72,6 +73,14 @@ Static connascence is established at compile time, meaning that the dependencies
 
 Dynamic connascence is established at runtime, meaning that the dependencies between components are determined while the program is running. This type of connascence is often associated with weak coupling, as it can lead to a more flexible and adaptable system. Dynamic connascence can be further divided into several subtypes:
 
+* **Connascence of Execution**: When two components must be executed in a specific order to function correctly. Example: A service that must initialise a connection before sending data.
+* **Connascence of Timing**: When components depend on each other completing tasks within a certain time window. Example: A consumer process that fails if the producer is delayed.
+* **Connascence of Values**: When one component must use values produced or modified by another. Example: A downstream module relying on dynamically calculated thresholds from an upstream module.
+* **Connascence of Identity**: When two components must refer to the exact same instance or object. Example: Passing a shared object between modules where identity equality (not just value equality) matters.
+* **Connascence of Convention**: When components rely on shared, informal agreements about behaviour or usage. Example: Multiple modules that interpret a log level string like `WARN` in a hardcoded, implicit way.
+
+These dynamic types of connascence are typically challenging to detect and manage, as they do not show themselves until the system is running. They can be mitigated through careful design and testing practices. Using shared interfaces, common libraries, and well-defined APIs can help make these dependencies more explicit --- and therefore easier to manage.  
+
 ## Background
 
 ### Origin
@@ -83,16 +92,18 @@ In software design, the term was popularised by **Meilir Page-Jones** in the ear
 
 ### Application
 
-> A paragraph or two explaining how the concept is applied in practice, from a high-level perspective.
-> This section should provide a clear understanding of the concept's purpose and value.
+Connascence helps experienced developers and technical leads reason more effectively about design quality and system maintenance. It is particularly useful when:
+
+* **You need language for design trade-offs**: Connascence provides a structured vocabulary to describe different kinds of coupling, helping you move beyond vague concerns like “this feels brittle.”
+* **You're reviewing code or evolving APIs**: It highlights what kinds of changes will ripple through a system, making review feedback more concrete and easier to act on.
+* **You’re managing systems with shared ownership**: When multiple teams depend on the same components, connascence makes hidden dependencies easier to detect and discuss.
+* **You want to reduce long-term maintenance risks**: Understanding strength, degree, and locality of dependencies helps prioritise what to decouple and when.
+* **You're working in complex, layered systems**: Whether it’s microservices, shared schemas, or asynchronous flows, connascence clarifies where coordination is fragile and why.
+* **You care about growing design literacy in your team**: It gives your team a shared language to talk about interdependence clearly and consistently.
+
+{{<tip text=`Use connascence to explain **why** a refactor or rewrite is needed, not just that it is required. For example, instead of saying __"we need to decouple this module"__, you can say __"this module has high connascence of name and type with several other modules, which makes it hard to change without breaking things. We should refactor it to reduce that coupling."__` >}}
 
 ### Comparisons
-
-> Compare the concept with related ideas to highlight its unique aspects.
-> Make sure to express a clear distinction between the concept and related concepts. This is best done by providing a varied set of examples,
-> some illustrating similarities and others highlighting differences.
-> Be brief and to the point, focusing on the most important aspects. Further details can be referred to as a link to relevant background reading in
-> the "Further Exploration" section.
 
 #### Relationship to Orthogonality
 
@@ -115,6 +126,29 @@ In simple terms:
 While both concepts aim to reduce unnecessary entanglement, **orthogonality is a design principle**, whereas **connascence is a diagnostic lens**. Orthogonality helps you **prevent entanglement**, connascence helps you **detect and classify it**.
 
 ## Examples
-> Illustrate how the concept is applied in a specific scenario.
 
+
+{{<tip text=`Connascence is not a silver bullet. It is a tool for reasoning about design quality, but it does not replace the need for good design principles, testing practices, and team communication. Use it as part of a broader toolkit for building maintainable systems.` >}}
+
+### Micro-Services, Macro Problems 
+
+A team deploys a new version of a microservice that exposes an internal API to several downstream services. The deployment passes CI/CD checks, and all services start up correctly in staging and production — everything seems fine. However, within minutes, logs begin to show erratic failures in related services.
+
+The problem? The development team made what seemed like a harmless change: they reordered the parameters of a JSON payload in a request object (static connascence of position), renamed a status field (connascence of name), and refined a timeout behaviour that slightly delays a response under certain conditions (dynamic connascence of timing).
+
+Although the schema wasn’t formally versioned, other services were implicitly relying on field names, order, and response timing. These dependencies weren’t enforced by any compiler or test suite — they only showed up when the system was live. The result was a cascade of subtle failures, including retries, dropped messages, and incorrect status reporting. Fixing the issue required careful rollback and a clearer contract definition between services.
+
+### Database Schema Changes
+
+An engineering team updates a backend service that reads from a shared customer database. As part of a schema cleanup, they remove a legacy `status_code` field that was deemed unused, and refactor the `created_at` field from a `string` to a proper `timestamp` format in the database.
+
+The application’s unit tests pass, and the deployment succeeds --- but hours later, support tickets start rolling in. A different internal tool, maintained by another team, had been silently depending on the `status_code` field to filter active accounts. Worse, a nightly reporting job fails because it attempts to parse the `created_at` field as a string, causing the entire pipeline to break.
+
+In this case, the system exhibited:
+
+* **Connascence of Meaning**: Different applications implicitly shared an understanding of what `status_code` meant.
+* **Connascence of Type**: The reporting job expected a `string` where a `timestamp` was now stored.
+* **Connascence of Values**: The removed `status_code` values (e.g. "active", "pending") were hardcoded elsewhere.
+
+These kinds of issues are difficult to detect ahead of time because the coupling is **not visible at the API level**. It hides in the database schema and in informal agreements between teams. The lack of an explicit contract or shared data ownership policy made it easy for one change to have far-reaching, unintended effects.
 

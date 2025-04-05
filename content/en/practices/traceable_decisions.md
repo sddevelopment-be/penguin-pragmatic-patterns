@@ -204,8 +204,6 @@ It answers the questions: *"What are we trying to do, why are we trying to do it
     
     > Describe the high-level solution to the problem. This should be a non-technical description of the system, focusing on the key components.
     > If you use the [C4-Model](https://c4model.com/), this would include the System Context and the Container diagrams.
-    
-    
 ```
 
 #### Functional Requirements Template
@@ -215,8 +213,7 @@ It answers the questions: *"What are we trying to do, why are we trying to do it
 
     ## Business Statement
     Briefly describe the problem that the system is intended to solve. How it aims to solve it, and what the expected benefits are.
-    Write this in a way that is understandable to all stakeholders, not just technical people. Think of it as your 2-minute management pitch on 
-    which you can expand if people are interested.
+    Write this in a way that is understandable to all stakeholders, not just technical people. Think of it as your 2-minute management pitch on which you can expand if people are interested.
 
     ## Stakeholders Overview
     A short summary of the key people / personas that will interact with the system in some way. Be sure to include the developers, testers, and 

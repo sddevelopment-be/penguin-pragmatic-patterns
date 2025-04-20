@@ -78,7 +78,7 @@ Ikigai is often used as a reflection tool for bringing more intention and cohere
 - To reflect on what brings meaning in everyday moments
 - In coaching or mentoring to uncover deeper motivations
 
-{{<tip text=`Ikigai is not a fixed destination" 
+{{<tip title="Ikigai is not a fixed destination" text=`   
 While the Venn diagram can be helpful, it’s important not to confuse Ikigai with a singular, perfect path to be discovered. In traditional Japanese thinking, **Ikigai is something cultivated**, not optimised --- it may grow from a daily ritual, a sense of responsibility, or a practice honed over time. You can move closer to Ikigai not only by finding new roles, but by discovering new dimensions of meaning in what you already do.` >}}
 
 There is also a strong resonance between Ikigai, and the Stoic principle of **amor fati** — the idea of loving one's fate. While Ikigai invites us to align our actions with joy and meaning, amor fati teaches us to embrace all that life brings, including hardship, as inherently worthwhile. Both philosophies encourage presence, acceptance, and the intentional shaping of meaning within the lives we already live.

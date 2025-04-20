@@ -186,9 +186,13 @@ params:
           link: /books
         - text: "Tools, Websites, Apps"
           link: /tools
+        - text: "Slide decks"
+          link: /presentations
       column3:
         title: "Admin"
         links:
+        - text: Contributing
+          link: /contributing
         - text: Change Log
           link: /changelog
         - text: License

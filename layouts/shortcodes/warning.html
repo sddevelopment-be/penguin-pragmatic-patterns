@@ -1,8 +1,9 @@
 {{ $text := .Get "text" }}
+{{ $title := .Get "title" }}
 
 <div class="alert-container">
     <blockquote class="groucho warning">
-        <span class="warning-title">warning:</span>
+        <span class="warning-title">warning: {{if $title }} {{ $title }} <br /> {{ end }}</span>
         {{ $text }}
     </blockquote>
 </div>

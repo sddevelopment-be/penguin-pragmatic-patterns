@@ -1,8 +1,9 @@
 {{ $text := .Get "text" }}
+{{ $title := .Get "title" }}
 
 <div class="alert-container">
     <blockquote class="groucho tip"x>
-        <span class="tip-title">tip:</span>
+        <span class="tip-title">tip: {{if $title }} {{ $title }} <br /> {{ end }}</span>
         {{ $text | markdownify }}
     </blockquote>
 </div>

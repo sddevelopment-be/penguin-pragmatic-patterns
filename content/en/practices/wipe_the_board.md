@@ -135,6 +135,7 @@ To mitigate the potential negative consequences of the approach:
 
 ### A personal checklist
 
-{{<image src="/images/practices/wipe_the_board-checklist.webp" alt="Checklist for Wipe the Board" caption="Checklist for Wipe the Board" size="75%" >}}
+{{<image src="/images/practices/wipe_the_board-checklist" alt="Checklist for Wipe the Board" caption="Checklist for Wipe the Board" size="40%" float="left" >}}
+
 
 

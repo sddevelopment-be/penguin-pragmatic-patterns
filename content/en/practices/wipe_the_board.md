@@ -16,13 +16,13 @@ uuid="e4564f9d-d0af-4644-a4c0-48824db0b2e2"
 aliases=["e4564f9d-d0af-4644-a4c0-48824db0b2e2"]
 outputs = ['html', 'json']
 ammerse = [
-    {name = "agile", delta = "0", rationale = ""},
-    {name = "minimal", delta = "0", rationale = ""},
-    {name = "maintainable", delta = "0", rationale = ""},
-    {name = "environmental", delta = "0", rationale = ""},
-    {name = "reachable", delta = "0", rationale = ""},
-    {name = "solvable", delta = "0", rationale = ""},
-    {name = "extensible", delta = "0", rationale = ""}    
+   {name = "agile", delta = "1", rationale = "Strong support for agility through daily re-evaluation, prioritisation, and flow orientation."},
+   {name = "minimal", delta = "0.75", rationale = "Promotes lean boards, stripped-down task lists, and avoidance of ambiguous states."},
+   {name = "maintainable", delta = "0", rationale = "Despite theoretical cleanliness, the daily upkeep burden limits long-term sustainability."},
+   {name = "environmental", delta = "0.125", rationale = "Encourages mental clarity and healthier habits, but limited broader ethical/systemic reach."},
+   {name = "reachable", delta = "0", rationale = "Increases task realism but does not improve actual achievement or unblock goals."},
+   {name = "solvable", delta = "0.5", rationale = "Surfaces blocked work and decision friction, but does not provide means to resolve them."},
+   {name = "extensible", delta = "0", rationale = "The technique is self-contained and has no inherent affordance for scale or layering."}
 ]
 related_concepts = [
    "c57288e3-b102-4212-adb7-a4339a3a9e87",
@@ -114,23 +114,30 @@ __“Wipe the Board”__ applies these ideas at the personal and team level. By 
 
 ## Application
 
+This is a high-clarity, high-discipline practice that strongly supports agility and minimalism, with slight benefits for solvability and emotional sustainability. But it’s not inherently reachable, maintainable, or extensible without further practices layered on top.
+
 ### Consequences
 While the approach brings numerous benefits, it can also lead to several unexpected or undesired outcomes:
 
-- Individuals may feel anxious about losing visibility into paused tasks.
-- Status boards may appear “empty” or stagnant to outside observers.
-- Stakeholders unfamiliar with the practice may question progress or accountability.
-- Some may use the practice to abandon responsibility rather than refocus it.
+* The practice may frustrate stakeholders who are used to tracking progress linearly, or expect visible partial progress.
+  - Individuals may feel anxious about losing visibility into paused tasks.
+  - Status boards may appear “empty” or stagnant to outside observers.
+* It places a high cognitive and behavioural demand on teams to build a habit --- its biggest vulnerability is drop-off due to lack of reinforcement.
+* Over time, its failure modes include passive abandonment, tool misuse (e.g. hoarding “paused” columns), or the ritual becoming mechanical.
+    
 
 ### Mitigation strategies
 To mitigate the potential negative consequences of the approach:
 
+* Offer visibility through curated summaries, rather than cluttered boards.
 * Maintain a cold shelf or secondary list for paused items that aren’t lost — just shelved.
 * Use percentage annotations or brief comments (e.g. “~40% complete”) when moving tasks out of WIP.
-* Set team-wide expectations around what “in progress” means.
-* Reinforce the value of flow and intentionality in retrospectives and 1:1s.
-* Offer visibility through curated summaries, rather than cluttered boards.
-* Use repetition of deferral as a signal — if you move the same task out every day, explore the real reason for not being able to move it to "Done!".
+* Pair with lightweight visualisation (e.g. cold shelf or shelved item stats) to maintain external visibility of effort.
+* Use facilitation (stand-ups, retros) to build the ritual until it becomes habit.
+  * Use repetition of deferral as a signal — if you move the same task out every day, explore the real reason for not being able to move it to "Done!".
+  * Set team-wide expectations around what “in progress” means.
+  * Reinforce the value of flow and intentionality in retrospectives and 1:1s.
+* Consider integrating this with task slicing or short-cycle planning to make goals more reachable and practice more maintainable.
 
 ## Examples
 

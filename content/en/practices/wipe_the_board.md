@@ -25,8 +25,7 @@ ammerse = [
    {name = "extensible", delta = "0", rationale = "The technique is self-contained and has no inherent affordance for scale or layering."}
 ]
 related_concepts = [
-   "c57288e3-b102-4212-adb7-a4339a3a9e87",
-   
+   "c57288e3-b102-4212-adb7-a4339a3a9e87"
 ]
 related_practices = [
    "cfd81655-1c47-4ee9-9f73-ea959bba3af4",
@@ -38,7 +37,7 @@ further_exploration = [
    {type="raw", author="Various Authors", title="Theory of Constraints", year="2024",  site="Wikipedia", link= "https://en.wikipedia.org/wiki/Theory_of_constraints"},
    {type="biblio", id="77fd967c-fe5b-4095-a36b-7e6d0ecbb33e"}
 ]
-image="practices/XXXX.webp"
+image="practices/wipe_the_board"
 pubdate="2024-04-20"
 +++
 

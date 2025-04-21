@@ -1,6 +1,7 @@
 {{ $value := .value }}
 {{ $delta := $value.delta }}
 {{ $name := $value.name }}
+{{ $rationale := $value.rationale }}
 {{ $icon := newScratch }}
 {{ $mapping := dict "agile" "A" "minimal" "Mi" "maintainable" "M" "environmental" "E" "reachable" "R" "solvable" "S" "extensible" "Ex" }}
 
@@ -41,5 +42,7 @@
     {{ $icon.Set "desc" "significant increase"}}
 {{ end }}
 
+{{ $desc := (printf "%s\n%s" ($icon.Get "desc") $rationale ) }}
+{{ $icon.Set "desc" $desc}}
 
 <span class='ammerse-value {{$icon.Get "style"}}' title='{{ $value.name | humanize}}: {{ $icon.Get "desc" }}'>{{$abbrev}}: <i class='{{$icon.Get "val"}}'></i></span>

@@ -890,6 +890,7 @@
     padding: 0.25rem !important;
     border-radius: 6px;
     border: 1px solid rgba(224, 205, 193, 0.99);
+    clear: both;
 }
 
 .related summary {

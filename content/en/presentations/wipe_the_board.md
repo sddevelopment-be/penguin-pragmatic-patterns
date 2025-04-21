@@ -35,32 +35,65 @@ margin = 0.2
 
 ---
 
-## "Everything is In Progress"
+## Still "In Progress" ?
+
+<img src="/images/presentations/wip_wipe/board_overload.png" style="height: 30rem; float: right;" />
+
+<p style="display: block; align-content: baseline; text-align: left; padding: 2.5rem; margin-top: 6rem;">
+You’ve got tasks you started weeks ago.
+They’re still on your board. <br /><br />
+<b>Are they still real?</b>
+</p>
 
 ---
 
-### What happens?
+### The problem with WIP
 
-* Paused tasks, forgotten drafts, half-baked ideas
-* "Zombie work" stays visible just because it once started
-* Bloated boards => false progress and mental clutter
+* **Zombie work:** false signals of productivity
+* **Cognitive overload:** lack of clarity 
+* **Inventory waste:** paused tasks, forgotten drafts, half-baked ideas
+* **Guilt:** "I should be working on this"
 
 ---
 
 ## Wipe the Board
 
-<img src="/images/presentations/wip_wipe/wipe_the_board.webp" style="width: 60%;" />
+<img src="/images/presentations/wip_wipe/wipe_the_board.webp" style="height: 30rem;" />
+
+Every morning, start with a blank slate.  
+Recommit only to what truly matters today. Shelve the rest.
 
 ---
 
-### 6 daily steps  
+{{% section %}}
 
-1. Clear the board
-2. Re-evaluate each task
-3. Be strict: no "maybe" zones
-4. Move leftovers to backlog/cold shelf
-5. Recommit to a few
-6. Leave the rest behind
+## 5 simple daily steps  
+
+---
+
+### Clear the board
+
+---
+
+### Re-evaluate each task
+
+---
+
+### Be strict: no "maybe" zones
+
+---
+
+### Move leftovers to backlog/cold shelf
+
+---
+
+### Recommit to a few
+
+---
+
+### Leave the rest behind
+
+{{% /section %}}
 
 ---
 

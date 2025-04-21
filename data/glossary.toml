@@ -1187,12 +1187,13 @@ domain = "cognitive science"
 description = """
 Cognitive load refers to the amount of mental effort required to process information or complete a task. It can be influenced by factors such as
 task complexity, the individual's working memory capacity, and the design of learning materials or environments.
+In knowledge work, cognitive load refers to the strain imposed by juggling too many tasks, decisions, or pieces of information simultaneously.
+High cognitive load reduces focus, increases errors, and slows down decision-making.
 """
 aliases = ["mental load", "cognitive effort"]
 references = [
     { title = "Cognitive Load Theory", link = "https://www.instructionaldesign.org/theories/cognitive-load/" }
 ]
-
 
 [[terminology]]
 name = "Value Stream"
@@ -1266,3 +1267,15 @@ references = [
     { title = "Connascence by Meilir Page-Jones", link = "http://www.connascence.io/" },
     { title = "Wikipedia: Connascence", link = "https://en.wikipedia.org/wiki/Connascence_(software)" }
 ]
+
+[[terminology]]
+name = "Cold Shelf"
+abbreviation = ""
+domain = "productivity, task management"
+description = """
+A designated backlog or list where paused, deprioritised, or inactive tasks are temporarily placed.
+The Cold Shelf helps keep current focus areas clean and intentional, without deleting or losing track of tasks that may regain relevance later.
+It serves as a low-friction holding zone for items not currently in motion.
+"""
+aliases = ["paused tasks", "task freezer", "parking lot", "fridge"]
+references = []

@@ -3,8 +3,9 @@ title = "(self-)Documenting Code"
 subtitle = "low friction doc creation & maintenance"
 author = "Stijn Dejongh"
 [logo]
-src = "/images/logos/sdd_logo.svg"
-width = "5%"
+src = "/images/logos/LOGO_BASE_SMALL.webp"
+text = "SD Development.be"
+link = "https://sddevelopment.be"
 [reveal_hugo]
 margin = 0.2
 +++

@@ -1,15 +1,16 @@
 +++
 title = "Wipe the board"
 author = "Stijn Dejongh"
-problem = ""
-description = ""
+problem = "You are accumulating invisible baggage: paused tasks, lingering ideas, and false progress signals."
+description = "Reset of your work-in-progress every day. Recommit only to what truly matters, and shelve the rest without feeling guilty."
 summary = """
+Knowledge work often accumulates invisible baggage: paused tasks, lingering ideas, and false progress signals. This practice encourages individuals and teams to clear their active task list daily, and recommit only to what deserves their attention today. Reduce mental clutter, expose blockers, and restore focus — one reset at a time.
 """
 categories = [
     "productivity"
 ]
 tags = [
-    
+    "focus", "work in progress", "lean thinking", "progress", "cognitive load"
 ]
 uuid="e4564f9d-d0af-4644-a4c0-48824db0b2e2"
 aliases=["e4564f9d-d0af-4644-a4c0-48824db0b2e2"]
@@ -24,13 +25,18 @@ ammerse = [
     {name = "extensible", delta = "0", rationale = ""}    
 ]
 related_concepts = [
-
-]
-related_practices = [
+   "c57288e3-b102-4212-adb7-a4339a3a9e87",
    
 ]
+related_practices = [
+   "cfd81655-1c47-4ee9-9f73-ea959bba3af4",
+   "47f32286-17b0-471e-90d6-eb0de9f60ac0",
+   "d8d2cbc3-1f28-4e6b-937f-2d8cf0bbaed1"
+]
 further_exploration = [
-   {type="raw", author="Kaizen Insitute", year="2024", title="Understanding Lean Manufacturing", site="kaizen.com", link="https://kaizen.com/insights/understanding-lean-manufacturing-guide/" }
+   {type="raw", author="Kaizen Insitute", year="2024", title="Understanding Lean Manufacturing", site="kaizen.com", link="https://kaizen.com/insights/understanding-lean-manufacturing-guide/" },
+   {type="raw", author="Various Authors", title="Theory of Constraints", year="2024",  site="Wikipedia", link= "https://en.wikipedia.org/wiki/Theory_of_constraints"},
+   {type="biblio", id="77fd967c-fe5b-4095-a36b-7e6d0ecbb33e"}
 ]
 image="practices/XXXX.webp"
 pubdate="2024-04-20"
@@ -61,7 +67,7 @@ This reframes WIP as a present-moment decision rather than a lingering obligatio
    * Is it still relevant?
    * Does it deserve today’s attention?
 3. **Be strict**: avoid “maybe” stages like "waiting" or "paused" in your tracker. **If it’s not active, move it out!** 
-4. **Move unfinished items back** to the backlog, TODO, or a cold shelf, and optionally annotate with a percentage or status marker (e.g. 30% done). Alternatively, slice off completed subtasks, mark those as done, and reframe the remainder as new to-do's. 
+4. **Move unfinished items back** to the backlog, TODO, or a cold shelf, and optionally add a percentage or status marker (e.g. 30% done). Alternatively, slice off completed subtasks, mark those as done, and reframe the remainder as new to-dos. 
 5. **Re-commit consciously** to only a handful of tasks that align with your current focus. 
 6. **Leave the rest behind**: not abandoned, but parked until they truly deserve attention again.
 
@@ -81,13 +87,13 @@ The following factors support effective application of the practice:
 The following factors prevent effective application of the practice:
 
 - Teams that use rigid tools or workflows may resist removing WIP manually.
-- Individuals may feel guilt or insecurity when uncommiting from tasks.
+- Individuals may feel guilt or insecurity when uncommitting from tasks.
 - Organizational cultures may reward “busy boards” over completed outcomes.
 - Leaders may expect visibility into partial progress, reinforcing inflated WIP.
 
 ## Rationale
 
-This practice is inspired by principles from [Lean Manufacturing](https://kaizen.com/insights/understanding-lean-manufacturing-guide/) and the [Theory of Constraints]() (ToC), where work-in-progress (WIP) is seen not as a sign of progress, but as a form of inventory — and often, as waste.
+This practice is inspired by principles from [Lean Manufacturing](https://kaizen.com/insights/understanding-lean-manufacturing-guide/) and the [Theory of Constraints](https://en.wikipedia.org/wiki/Theory_of_constraints) (ToC), where work-in-progress (WIP) is seen not as a sign of progress, but as a form of inventory — and often, as waste.
 
 In manufacturing:
 
@@ -119,11 +125,12 @@ While the approach brings numerous benefits, it can also lead to several unexpec
 ### Mitigation strategies
 To mitigate the potential negative consequences of the approach:
 
-- Maintain a **cold shelf** or secondary list for paused items that aren’t lost — just shelved.
-- Use percentage annotations or brief comments (e.g. “~40% complete”) when moving tasks out of WIP.
-- Set team-wide expectations around what “in progress” means.
-- Reinforce the value of flow and intentionality in retrospectives and 1:1s.
-- Offer visibility through curated summaries, rather than cluttered boards.
+* Maintain a cold shelf or secondary list for paused items that aren’t lost — just shelved.
+* Use percentage annotations or brief comments (e.g. “~40% complete”) when moving tasks out of WIP.
+* Set team-wide expectations around what “in progress” means.
+* Reinforce the value of flow and intentionality in retrospectives and 1:1s.
+* Offer visibility through curated summaries, rather than cluttered boards.
+* Use repetition of deferral as a signal — if you move the same task out every day, explore the real reason for not being able to move it to "Done!".
 
 ## Examples
 
@@ -135,7 +142,72 @@ To mitigate the potential negative consequences of the approach:
 
 ### A personal checklist
 
-{{<image src="/images/practices/wipe_the_board-checklist" alt="Checklist for Wipe the Board" caption="Checklist for Wipe the Board" size="40%" float="left" >}}
+Here is a checklist to help you apply the 'Wipe the Board' practice in your daily routine. It includes the steps and considerations mentioned above, as well as some additional tips/actions to help you get started and stay on track. 
 
+Use this checklist at the start of your workday to reset your WIP, focus your energy, and recommit with clarity. Print this checklist, add it to your daily journal, or turn it into a recurring reminder in your task manager!
+
+#### Checklist for Wipe the Board
+
+{{<image src="/images/practices/wipe_the_board-checklist" alt="Checklist for Wipe the Board" caption="Checklist for Wipe the Board" size="40%" float="right" >}}
+
+
+##### 1. Clear the Board
+- [ ] Remove all items from the “In Progress” column or task list
+- [ ] Close any leftover tabs, drafts, or windows from yesterday
+
+##### 2. Re-Evaluate Each Task
+
+For each task from the previous day:
+- [ ] Is it still relevant?
+- [ ] Do I have the time, focus, or energy for it today?
+- [ ] Is this the **most important** thing I could be doing right now?
+
+##### 3. Re-Commit with Intention
+
+- [ ] Select 1–3 meaningful tasks to re-commit to today
+- [ ] Confirm these tasks align with current goals or priorities
+
+##### 4. Shelve the Rest Thoughtfully
+
+- [ ] Move paused or inactive items back to the backlog, cold shelf, or TODO list
+- [ ] Optionally note completion % (e.g., “~40% done”) or add a reason for shelving
+- [ ] If I keep bouncing a task — have I stopped to ask *why*?
+
+##### 5. Protect Flow
+- [ ] Avoid ambiguous “maybe”/“waiting” stages — keep your board clean and honest
+- [ ] Confirm that your board reflects only *active*, *intentional* WIP
+- [ ] Feel clear and ready to focus on what truly matters today
+
+#### Markdown Template
+
+```markdown
+##### 1. Clear the Board
+- [ ] Remove all items from the “In Progress” column or task list
+- [ ] Close any leftover tabs, drafts, or windows from yesterday
+
+##### 2. Re-Evaluate Each Task
+
+For each task from the previous day:
+- [ ] Is it still relevant?
+- [ ] Do I have the time, focus, or energy for it today?
+- [ ] Is this the **most important** thing I could be doing right now?
+
+##### 3. Re-Commit with Intention
+
+- [ ] Select 1–3 meaningful tasks to re-commit to today
+- [ ] Confirm these tasks align with current goals or priorities
+
+##### 4. Shelve the Rest Thoughtfully
+
+- [ ] Move paused or inactive items back to the backlog, cold shelf, or TODO list
+- [ ] Optionally note completion % (e.g., “~40% done”) or add a reason for shelving
+- [ ] If I keep bouncing a task — have I stopped to ask *why*?
+
+##### 5. Protect Flow
+- [ ] Avoid ambiguous “maybe”/“waiting” stages — keep your board clean and honest
+- [ ] Confirm that your board reflects only *active*, *intentional* WIP
+- [ ] Feel clear and ready to focus on what truly matters today
+
+```
 
 

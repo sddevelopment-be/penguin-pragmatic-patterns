@@ -58,10 +58,25 @@ They’re still on your board. <br /><br />
 
 ## Wipe the Board
 
-<img src="/images/presentations/wip_wipe/wipe_the_board.webp" style="height: 30rem;" />
+<img src="/images/presentations/wip_wipe/wipe_the_board.webp" style="height: 26rem;" />
 
 Every morning, start with a blank slate.  
-Recommit only to what truly matters today. Shelve the rest.
+Recommit only to what truly matters today.  
+Shelve the rest.
+
+---
+
+## Why it works
+
+> LESS IS MORE, MORE IS LESS
+>   
+> **less** work in progress = **more** results.  
+> **more** work in progress = **less** results.
+
+* Progress comes from **flow, not volume**
+* **Clarity** on real status
+* Channels focus towards what actually matters
+
 
 ---
 
@@ -77,9 +92,7 @@ Recommit only to what truly matters today. Shelve the rest.
 
 ### Re-evaluate each task
 
----
-
-### Be strict: no "maybe" zones
+**Be strict: no "maybe" zones**
 
 ---
 
@@ -97,22 +110,13 @@ Recommit only to what truly matters today. Shelve the rest.
 
 ---
 
-### Intent
+### What this reveals
 
-* Make WIP a decision, not a default
-* Refocus your attention daily
-* Reduce inventory waste
-* Create emotional clarity by letting go
+* If you **keep shelving** the same task, ask yourself __"WHY?"__
+* If everything feels urgent, nothing is urgent
+* WIP is a **liability**. Attention is a **scarce resource**.
 
 ---
-
-### Why it works
-
-* WIP = Inventory = Liability
-* Progress ≠ volume, but flow
-* Tasks you can’t finish are bottlenecks
-
---- 
 
 ### This Isn't Easy — And That’s the Point
 
@@ -134,3 +138,11 @@ Recommit only to what truly matters today. Shelve the rest.
 ---
 
 <img src="/images/presentations/wip_wipe/checklist.webp" style="width: 50%;" />
+
+---
+
+## Questions? More info?
+
+Drop a comment,  
+reach out to me on [LinkedIn](https://www.linkedin.com/in/stijn-dejongh/) / [github](https://github.com/stijn-dejongh),  
+or visit the [SDD Patterns Repository](https://patterns.sddevelopment.be) for more patterns.

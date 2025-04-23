@@ -20,11 +20,12 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
  *********************************************/
 :root {
   --r-background-color: #fbfbfb;
+  --r-quote-bg-color: #f6e5d8;
   --r-main-font: 'd-din', "Gill Sans", 'Open Sans', Lato, sans-serif;
   --r-main-font-size: 34px;
   --r-main-color: #000;
   --r-accent-color: #f39200;
-  --r-block-margin: 20px;
+  --r-block-margin: 1.5rem;
   --r-heading-margin: 0 0 20px 0;
   --r-heading-font: 'd-din', "Gill Sans", 'Open Sans', News Cycle, Impact, sans-serif;
   --r-heading-color: #000;
@@ -195,14 +196,18 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 }
 
 .reveal blockquote {
+  background: var(--r-quote-bg-color);
+  border: 2px solid var(--r-accent-color);
+  color: #0b1d27;
+  font-weight: 500;
+  font-size: 2.75rem;
   display: block;
   position: relative;
   width: 70%;
   margin: var(--r-block-margin) auto;
-  padding: 5px;
-  font-style: italic;
-  background: rgba(255, 255, 255, 0.05);
-  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+  padding: 1.75rem;
+  /*background: rgba(255, 255, 255, 0.05);*/
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
 }
 
 .reveal blockquote p:first-child,

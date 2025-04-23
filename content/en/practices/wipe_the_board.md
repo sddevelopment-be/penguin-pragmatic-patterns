@@ -43,9 +43,12 @@ pubdate="2024-04-20"
 
 ## Problem statement
 
+
 Most knowledge workers accumulate a growing pile of __'work in progress'__: unfinished tasks, paused drafts, and half-considered decisions. These items remain marked as active not because they are still relevant, but simply because they were once started.
 
 This creates a misleading picture of progress, adds cognitive load, and fosters guilt or pressure. Over time, this leads to bloated boards, mental clutter, and a distorted sense of productivity.
+
+{{<image src="/images/presentations/wip_wipe/board_overload.png" alt="Board overload. Does this look familiar?" caption="Board overload! Does this look familiar?" size="30%" >}}
 
 ## Intent
 
@@ -62,13 +65,14 @@ This reframes WIP as a present-moment decision rather than a lingering obligatio
 
 1. **Wipe the board**: physically or digitally remove all items from your “in progress” column or mental task list.
 2. **Re-evaluate** each task:
-   * Is it truly active?
-   * Is it still relevant?
-   * Does it deserve today’s attention?
-3. **Be strict**: avoid “maybe” stages like "waiting" or "paused" in your tracker. **If it’s not active, move it out!** 
-4. **Move unfinished items back** to the backlog, TODO, or a cold shelf, and optionally add a percentage or status marker (e.g. 30% done). Alternatively, slice off completed subtasks, mark those as done, and reframe the remainder as new to-dos. 
-5. **Re-commit consciously** to only a handful of tasks that align with your current focus. 
-6. **Leave the rest behind**: not abandoned, but parked until they truly deserve attention again.
+   * Ask yourself:
+      * Is it truly active?
+      * Is it still relevant?
+      * Does it deserve today’s attention?
+   * **Be strict!**: avoid “maybe” stages like "waiting" or "paused" in your tracker. **If it’s not active, move it out!** 
+3. **Move unfinished items back** to the backlog, TODO, or a cold shelf, and optionally add a percentage or status marker (e.g. 30% done). Alternatively, slice off completed subtasks, mark those as done, and reframe the remainder as new to-dos. 
+4. **Re-commit consciously** to only a handful of tasks that align with your current focus. 
+5. **Leave the rest behind**: not abandoned, but parked until they truly deserve attention again.
 
 ## Contextual forces
 

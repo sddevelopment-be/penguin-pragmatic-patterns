@@ -110,7 +110,13 @@ Shelve the rest.
 
 ---
 
-### What this reveals
+{{% section %}}
+
+## What happens?
+
+---
+
+### What it reveals
 
 * If you **keep shelving** the same task, ask yourself __"WHY?"__
 * If everything feels urgent, nothing is urgent
@@ -124,6 +130,8 @@ Shelve the rest.
 * Risk of appearing “unproductive” externally
 * Doesn't unblock tasks, only makes them visible
 * Needs cultural safety to uncommit without shame
+
+{{% /section %}}
 
 ---
 

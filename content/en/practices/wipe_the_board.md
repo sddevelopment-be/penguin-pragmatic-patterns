@@ -63,6 +63,7 @@ This reframes WIP as a present-moment decision rather than a lingering obligatio
 
 ### Steps to Apply
 
+
 1. **Wipe the board**: physically or digitally remove all items from your “in progress” column or mental task list.
 2. **Re-evaluate** each task:
    * Ask yourself:

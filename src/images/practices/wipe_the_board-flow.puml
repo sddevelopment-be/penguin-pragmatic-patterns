@@ -1,0 +1,22 @@
+@startuml
+title Wipe the Board: flow
+
+!include ../../templates/plantuml/puml-theme-stickies.puml
+
+skinparam backgroundColor white
+skinparam linetype default
+
+Sticky_Orange(wipe, "Clear the board")
+Sticky_Blue(revise, "Re-evaluate \n each task")
+Sticky_Blue(shelve, "Shelve the cruft")
+Sticky_Purple(recommit, "Recommit")
+Sticky_Green(move_on, "Move on!")
+
+wipe -right-> revise
+revise -right-> shelve
+shelve -right-> recommit
+recommit --> move_on
+
+move_on ..> wipe: repeat
+
+@enduml

@@ -26,7 +26,8 @@ skinparam backgroundColor $BGCOLOR
 !$DANGER = "#cf2a2a"
 !$LIGHT = "#d2d2d2"
 !$DARK = "#103a82"
-
+!$ACCENT = "#f39200"
+!$LINK = "#2a5670"
 !$FGCOLOR = $DARK
 !$PRIMARY_LIGHT = "#1c75cc"
 !$PRIMARY_DARK = "#0A0721"
@@ -96,6 +97,8 @@ skinparam maxMessageSize         224
 skinparam wrapWidth              224
 skinparam defaultTextAlignment   center
 skinparam linetype               polyline
+skinparam HyperlinkColor         $LINK
+skinparam  HyperlinkUnderline    false
 
 hide stereotypes
 
@@ -114,10 +117,18 @@ skinparam stereotype {
 skinparam title {
 	FontColor	                 $PRIMARY_DARK
 	BorderColor	               $SECONDARY_DARK
-	FontSize	    	           12
+	FontSize	    	           16
 	BorderRoundCorner          2
 	BorderThickness 	         0
 	BackgroundColor            $SECONDARY_LIGHT-$SECONDARY
+}
+
+skinparam footer {
+	FontColor	                 $PRIMARY_DARK
+	BorderColor	               $SECONDARY_DARK
+	FontSize	    	           12
+	BorderRoundCorner          2
+	BorderThickness 	         0
 }
 
 skinparam legend {

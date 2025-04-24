@@ -210,3 +210,10 @@
 .permalink a:hover {
     color: #f39200;
 }
+
+.buttons {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

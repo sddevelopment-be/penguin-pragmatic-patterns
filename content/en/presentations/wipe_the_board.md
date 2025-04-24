@@ -17,7 +17,7 @@ margin = 0.2
 <h2 style="font-size: 4.125rem; color: #f39200;">Reset WIP. Reclaim Focus.</h2>
 
 <div style="font-size: 1.2rem; margin-top: 10.25em;">
-    <a href="https://www.linkedin.com/in/stijn-dejongh/" target="_blank">Stijn Dejongh</a> | <span>2025-04-21</span>
+    <a href="https://www.linkedin.com/in/stijn-dejongh/" target="_blank">Stijn Dejongh</a> | <span>2025-04-24</span>
 </div>
 
 </section>
@@ -34,10 +34,11 @@ margin = 0.2
 {{% /section %}}
 
 ---
+{{% section %}}
 
 ## Still "In Progress" ?
 
-<img src="/images/presentations/wip_wipe/board_overload.png" style="height: 30rem; float: right;" />
+<img src="/images/practices/wipe_the_board/board_overload.png" style="height: 30rem; float: right;" />
 
 <p style="display: block; align-content: baseline; text-align: left; padding: 2.5rem; margin-top: 6rem;">
 You’ve got tasks you started weeks ago.
@@ -54,9 +55,24 @@ They’re still on your board. <br /><br />
 * **Inventory waste:** paused tasks, forgotten drafts, half-baked ideas
 * **Guilt:** "I should be working on this"
 
+{{% /section %}}
+
 ---
 
-## Wipe the Board
+## What we want
+
+> LESS IS MORE, MORE IS LESS
+>
+> **less** work in progress = **more** results.  
+> **more** work in progress = **less** results.
+
+* Progress comes from **flow, not volume**
+* **Clarity** on real status
+* Channels focus towards what actually matters
+
+---
+
+## So . . . Wipe the Board
 
 <img src="/images/presentations/wip_wipe/wipe_the_board.webp" style="height: 26rem;" />
 
@@ -66,45 +82,58 @@ Shelve the rest.
 
 ---
 
-## Why it works
-
-> LESS IS MORE, MORE IS LESS
->   
-> **less** work in progress = **more** results.  
-> **more** work in progress = **less** results.
-
-* Progress comes from **flow, not volume**
-* **Clarity** on real status
-* Channels focus towards what actually matters
-
-
----
-
 {{% section %}}
 
 ## 5 simple daily steps  
+
+<img src="/images/practices/wipe_the_board/daily_steps-flow.svg" style="height: 30rem;" />
 
 ---
 
 ### Clear the board
 
+> Today starts fresh.
+
+* Wipe your “In Progress” column **completely**.    
+* No inherited productivity debt.
+
 ---
 
 ### Re-evaluate each task
 
-**Be strict: no "maybe" zones**
+> "Would I start this today if I had not been working on it?"
+
+* Is it truly active, relevant, and worth today’s energy?
+* **Be strict:** no "maybe" zones
 
 ---
 
-### Move leftovers to backlog/cold shelf
+### Shelve the cruft
+
+> Put it on ice.
+
+* Irrelevant tasks to **cold storage**
+* Inactive tasks to **backlog** 
+* (optional) Add a **% done** and **reason** for shelving
 
 ---
 
 ### Recommit to a few
 
+> What will I work on today?
+
+* Pick one or two tasks to focus on
+* Only pick stuff you can actively progress today
+
 ---
 
 ### Leave the rest behind
+
+> Move on. Get sh*t done.
+
+* No guilt, no shame
+* Transparency > Optics
+* If it was important, it will come back
 
 {{% /section %}}
 
@@ -113,6 +142,18 @@ Shelve the rest.
 {{% section %}}
 
 ## What happens?
+
+The effects of applying the 'Wipe the Board' practice.
+
+---
+
+### What it does
+
+> Reframe WIP as a present decision,  
+> not a lingering obligation
+
+* Reduced **cognitive load**
+* Increased **clarity**
 
 ---
 
@@ -135,6 +176,8 @@ Shelve the rest.
 
 ---
 
+{{% section %}}
+
 ## Go Forth and Wipe the Board
 
 * Start with an empty "In Progress" column
@@ -146,6 +189,8 @@ Shelve the rest.
 ---
 
 <img src="/images/presentations/wip_wipe/checklist.webp" style="width: 50%;" />
+
+{{% /section %}}
 
 ---
 

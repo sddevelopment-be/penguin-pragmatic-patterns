@@ -1,5 +1,6 @@
 @startuml
-title Wipe the Board: flow
+
+title Wipe the Board: daily flow chart
 
 !include ../../templates/plantuml/puml-theme-stickies.puml
 
@@ -18,5 +19,9 @@ shelve -right-> recommit
 recommit --> move_on
 
 move_on ..> wipe: repeat
+
+center footer
+	Image courtesy of [[http://sddevelopment.be SD Development]]
+end footer
 
 @enduml

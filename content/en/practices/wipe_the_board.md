@@ -38,7 +38,7 @@ further_exploration = [
    {type="biblio", id="77fd967c-fe5b-4095-a36b-7e6d0ecbb33e"}
 ]
 image="practices/wipe_the_board"
-pubdate="2024-04-20"
+pubdate="2024-04-24"
 +++
 
 ## Problem statement
@@ -48,7 +48,12 @@ Most knowledge workers accumulate a growing pile of __'work in progress'__: unfi
 
 This creates a misleading picture of progress, adds cognitive load, and fosters guilt or pressure. Over time, this leads to bloated boards, mental clutter, and a distorted sense of productivity.
 
-{{<image src="/images/presentations/wip_wipe/board_overload.png" alt="Board overload. Does this look familiar?" caption="Board overload! Does this look familiar?" size="30%" >}}
+{{<image 
+    src="/images/practices/wipe_the_board/board_overload.png" 
+    alt="Board overload. Does this look familiar?" 
+    caption="Board overload! Does this look familiar?" 
+    size="40%" 
+>}}
 
 ## Intent
 
@@ -63,17 +68,25 @@ This reframes WIP as a present-moment decision rather than a lingering obligatio
 
 ### Steps to Apply
 
+{{<image 
+    src="/images/practices/wipe_the_board/daily_steps-flow.svg" 
+    alt="Daily steps to apply Wipe the Board" 
+    caption="Daily steps to apply Wipe the Board" 
+    size="50%" 
+>}}
 
 1. **Wipe the board**: physically or digitally remove all items from your “in progress” column or mental task list.
 2. **Re-evaluate** each task:
-   * Ask yourself:
-      * Is it truly active?
-      * Is it still relevant?
+     * Ask yourself:
+          * Is it truly active?
+          * Is it still relevant?
       * Does it deserve today’s attention?
-   * **Be strict!**: avoid “maybe” stages like "waiting" or "paused" in your tracker. **If it’s not active, move it out!** 
-3. **Move unfinished items back** to the backlog, TODO, or a cold shelf, and optionally add a percentage or status marker (e.g. 30% done). Alternatively, slice off completed subtasks, mark those as done, and reframe the remainder as new to-dos. 
-4. **Re-commit consciously** to only a handful of tasks that align with your current focus. 
+     * **Be strict!**: avoid “maybe” stages like "waiting" or "paused" in your tracker. **If it’s not active, move it out!**
+3. **Move unfinished items back** to the backlog, TODO, or a cold shelf, and optionally add a percentage or status marker (e.g. 30% done). Alternatively, slice off completed subtasks, mark those as done, and reframe the remainder as new to-dos.
+4. **Re-commit consciously** to only a handful of tasks that align with your current focus.
 5. **Leave the rest behind**: not abandoned, but parked until they truly deserve attention again.
+
+
 
 ## Contextual forces
 

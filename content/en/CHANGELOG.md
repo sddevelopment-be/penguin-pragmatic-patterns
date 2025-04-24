@@ -31,6 +31,13 @@ Any feedback or suggestions for changes can be submitted there.
 
 - Images and descriptions for websites included in the "Tools, Websites, and Apps" section
 - Dynamic table of contents for pattern detail pages
+- Printable PDF version of the presentations
+- New patterns added:
+    - [Wipe the Board](/practices/wipe_the_board)
+    - [Connascence](/concepts/connascence)
+    - [Ikigai](/concepts/ikigai)
+    - [Styles of Support](/concepts/helping_attitudes)
+- Various new glossary entries
 
 ### Changed
 
@@ -38,6 +45,10 @@ Any feedback or suggestions for changes can be submitted there.
 - The "More Details" button on the pattern overview pages has been removed
 - The pattern cards are now clickable and will redirect to the pattern page
 - Visual improvements to the pattern detail pages
+- Improved the image sizing on all pages
+- Improve layout of the presentations page
+- AMMERSE values are now displayed in a more readable format
+- AMMERSE values tooltips now contain rationale
 
 ### Fixed
 

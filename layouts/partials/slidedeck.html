@@ -18,9 +18,9 @@
         <div class="recommendation-image">
             <a href="{{ $link }}" target="_blank" rel="noreferrer">
                 {{if $image}}
-                <img src="{{ .Site.BaseURL }}/images/presentations/{{$image}}"/>
+                    <img src="{{ .Site.BaseURL }}/images/presentations/{{$image}}" alt="Banner for presentation: {{ $title }}"/>
                 {{else}}
-                <img src="{{ .Site.BaseURL }}/images/presentations/default.png"/>
+                    <img src="{{ .Site.BaseURL }}/images/presentations/default.png" alt="Banner for presentation: {{ $title }}"/>
                 {{end}}
             </a>
         </div>
@@ -32,9 +32,9 @@
             </div>
             {{end}}
             {{if $link}}
-            <div class="link text-item">
-                <b>link:</b>
-                <a href="{{ .Site.BaseURL }}/presentations/{{ $link }}" target="_blank" rel="noreferrer">Click here for the slidedeck!</a>
+            <div class="text-item buttons">
+                <a class="button cta rounded secondary-btn raised" href="{{ .Site.BaseURL }}/presentations/{{ $link }}" target="_blank" rel="noreferrer">View the slidedeck!</a>
+                <a class="button cta rounded primary-btn raised" href="{{ .Site.BaseURL }}/presentations/{{ $link }}?print-pdf" target="_blank" rel="noreferrer">PDF version</a>
             </div>
             {{end}}
             {{if $author}}

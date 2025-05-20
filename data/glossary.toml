@@ -1279,3 +1279,106 @@ It serves as a low-friction holding zone for items not currently in motion.
 """
 aliases = ["paused tasks", "task freezer", "parking lot", "fridge"]
 references = []
+
+[[terminology]]
+name = "BLUF"
+abbreviation = "Bottom Line Up Front"
+domain = "communication"
+description = """
+A communication strategy where the main conclusion or most important point is stated at the beginning of the message. Common in military, executive, and high-stakes contexts where fast clarity is critical.
+"""
+aliases = ["bottom line up front", "lead with impact"]
+references = [
+    { title = "How to write Email with military precision", link = "https://hbr.org/2016/11/how-to-write-email-with-military-precision" },
+    { title = "BLUF: The military standard that can make your writing more powerful", link = "https://www.animalz.co/blog/bottom-line-up-front/" }
+]
+
+[[terminology]]
+name = "Management by Objectives"
+abbreviation = "MbO"
+domain = "organisational management"
+description = """
+A management approach in which individual, team, and company objectives are clearly defined and used to guide performance and alignment. Typically emphasizes measurable outcomes, accountability, and strategic focus.
+"""
+aliases = ["MbO", "goal alignment"]
+references = [
+    { title = "The Practice of Management", author = "Peter Drucker", year = "1954", link="/books/06a5cfd2-0204-4199-966e-8a7a4847742a" },
+    { title = "What are Objectives and Key Results (OKRs)?", link = "https://www.ibm.com/think/topics/okrs" }
+]
+
+[[terminology]]
+name = "Quantification"
+abbreviation = ""
+domain = "problem solving"
+description = """
+The process of expressing outcomes, progress, or effects in measurable or numerical terms. In communication and analysis, quantification supports clarity, comparability, and credibility.
+"""
+aliases = ["measurable impact", "numerical framing"]
+references = [
+    { title = "How to Quantify Resume Accomplishments", link = "https://www.indeed.com/career-advice/resumes-cover-letters/how-to-quantify-resume" }
+]
+
+[[terminology]]
+name = "Rebutability"
+abbreviation = ""
+domain = "reasoning and evidence"
+description = """
+The quality of a claim or conclusion that makes it open to challenge or disproof. Rebuttable statements are grounded in specific evidence or measurement, making them falsifiable and useful in decision-making.
+"""
+aliases = ["falsifiability", "challengeability"]
+references = [
+    { title = "Turn the Ship Around", author = "David Marquet", year = "2013" }
+]
+
+
+[[terminology]]
+name = "Objectives and Key Results"
+abbreviation = "OKRs"
+domain = "organisational strategy"
+description = """
+A goal-setting framework used to align individual and team efforts with broader organisational priorities.
+Each Objective defines a qualitative direction or ambition, while its associated Key Results describe specific, measurable outcomes used to track progress.
+OKRs encourage transparency, focus, and outcome-driven planning across all levels of an organisation.
+"""
+aliases = ["OKRs", "goal alignment framework", "outcome tracking"]
+references = [
+    { title = "What are Objectives and Key Results (OKRs)?", link = "https://www.ibm.com/think/topics/okrs" },
+    { title = "Measure What Matters", author = "John Doerr", year = "2017", link="https://www.goodreads.com/book/show/39286958-measure-what-matters" }
+]
+
+[[terminology]]
+name = "Goodhart's Law"
+abbreviation = ""
+domain = "metrics and decision-making"
+description = """
+A principle stating that when a metric is used as a target for decision-making, it tends to lose its effectiveness as a measure. Once people begin optimising for the metric itself, they may distort behaviour in ways that undermine the original goal.
+"""
+aliases = ["metric manipulation", "KPI dysfunction"]
+references = [
+    { title = "Goodhart's Law", link = "https://en.wikipedia.org/wiki/Goodhart%27s_law" }
+]
+
+[[terminology]]
+name = "The Cobra Effect"
+abbreviation = ""
+domain = "behavioural economics"
+description = """
+A specific manifestation of perverse incentives where an attempted solution to a problem makes the problem worse. Originates from a colonial anecdote where a bounty for dead cobras led people to breed them for profit.
+"""
+aliases = ["Perverse Incentives", "incentive failure"]
+references = [
+    { title = "The Cobra Effect", link = "https://en.wikipedia.org/wiki/Perverse_incentive#The_Cobra_Effect" }
+]
+
+[[terminology]]
+name = "Confirmation Bias"
+abbreviation = ""
+domain = "cognitive psychology"
+description = """
+The human tendency to seek, interpret, and recall information in ways that confirm pre-existing beliefs or hypotheses. In impact reporting, this can lead to selectively framing results to appear more favourable than they are.
+"""
+aliases = ["selective reasoning", "motivated reasoning"]
+references = [
+    { title = "Confirmation Bias", link = "https://en.wikipedia.org/wiki/Confirmation_bias" }
+]
+

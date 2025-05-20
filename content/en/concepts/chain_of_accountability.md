@@ -18,8 +18,8 @@ uuid="55f51f65-9d4e-4a31-ad8c-242d473a0f77"
 aliases=["55f51f65-9d4e-4a31-ad8c-242d473a0f77"]
 pubdate = "2024-07-16"
 image = "concepts/chain_of_accountability_cover"
-related_concepts = ["3d5b775a-bd5d-40de-8ed3-d390dae16b7b"]
-related_practices = ["47f32286-17b0-471e-90d6-eb0de9f60ac0", "e6cdeaa2-cc30-4928-95fd-f28ea7cb489d"]
+related_concepts = ["3d5b775a-bd5d-40de-8ed3-d390dae16b7b", "c57288e3-b102-4212-adb7-a4339a3a9e87"]
+related_practices = ["47f32286-17b0-471e-90d6-eb0de9f60ac0", "e6cdeaa2-cc30-4928-95fd-f28ea7cb489d", "81733c4f-a952-47d2-a678-900956ac728d"]
 further_exploration = [
   {type="biblio", id="4b22b149-3d53-40ec-bb84-ecabda4528ab"},
   {type="biblio", id="b6727fa2-6deb-4080-a440-9697ec3d20e3"},

@@ -71,3 +71,50 @@
     background: #e8e8e8;
     border-radius: 0.25rem;
 }
+
+.glossary-inline {
+    display: inline;
+    position: relative;
+    cursor: pointer;
+}
+
+.glossary-inline summary {
+    display: inline;
+    font-weight: bold;
+    text-decoration: underline dotted;
+    cursor: pointer;
+    list-style: none;
+}
+
+.glossary-inline::-webkit-details-marker {
+    display: none;
+}
+
+.glossary-popover {
+    position: absolute;
+    top: 1.75em;
+    left: -2.5em;
+    z-index: 10;
+    background: #fefefe;
+    border: 1px solid #f39200;
+    border-radius: 0.25rem;
+    padding: 0.75rem;
+    width: 42em;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    font-size: 0.875rem;
+}
+
+.glossary-popover-title {
+    font-weight: bold;
+    font-size: 0.9125rem;
+    margin-bottom: 0.125rem;
+}
+
+.glossary-inline[open] .glossary-popover {
+    display: block;
+}
+
+.glossary-popover a {
+    color: #007acc;
+    text-decoration: underline;
+}

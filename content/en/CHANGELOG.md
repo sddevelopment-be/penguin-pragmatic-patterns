@@ -25,7 +25,27 @@ Any feedback or suggestions for changes can be submitted there.
 
 # Changes
 
+## v2.5.0: Content Updates and Reusability
+
+> **Facilitate easier content sharing and reuse.** This release focuses heavily on expanding the existing content, adding items to the different sections (especially those that were unattended for a while), and making the content more reusable (internally, and externally).
+
+### Added
+
+* New patterns added:
+  - [Connascence](/concepts/c8c57ad1-c7f0-49ff-8aa1-f37166f8f65d)
+  - [Impact-oriented communication](/practices/81733c4f-a952-47d2-a678-900956ac728d)
+* Added support for Glossary links in pattern content
+  * Include `term` shortcode
+  * Add custom CSS for glossary references
+
+### Changed
+
+* Updated various items to include cross-references to new patterns
+* Updated the visual style of the Presentations (lightened colours, included logo)
+
 ## v2.4.0: Visual Improvements
+
+> This release focuses on visual improvements and minor content updates. It includes new patterns, improved layout, and enhanced user experience.
 
 ### Added
 
@@ -34,7 +54,6 @@ Any feedback or suggestions for changes can be submitted there.
 - Printable PDF version of the presentations
 - New patterns added:
     - [Wipe the Board](/practices/wipe_the_board)
-    - [Connascence](/concepts/connascence)
     - [Ikigai](/concepts/ikigai)
     - [Styles of Support](/concepts/helping_attitudes)
 - Various new glossary entries

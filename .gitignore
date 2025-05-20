@@ -54,5 +54,6 @@ resources/_gen/
 SPELLCHECK_OUTPUT.*
 
 **/*.http
+**/*.drawio.bkp
 
 auto

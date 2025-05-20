@@ -36,7 +36,7 @@ ammerse = [
 ]
 pubdate = "2024-07-13"
 image = "practices/test_boundary_cover"
-related_concepts = ["6169f9c0-dfe0-49b1-b459-acf01ac69c40", "2eb8fcea-8f12-44d8-97c5-5a48013ae515", "49a014f5-e40b-4c80-ba64-a31626b955ca"]
+related_concepts = ["6169f9c0-dfe0-49b1-b459-acf01ac69c40", "2eb8fcea-8f12-44d8-97c5-5a48013ae515", "49a014f5-e40b-4c80-ba64-a31626b955ca", "c8c57ad1-c7f0-49ff-8aa1-f37166f8f65d"]
 related_practices = ["336b0448-e78b-4428-83a5-d4d473afda63", "1848f4a6-3acb-4dc8-aa49-e57a1b87cf3b"]
 further_exploration = [
   {type="raw", author="Beck, K.", year="2022", title="Test Desiderata", site="kentbeck.github.io", link="https://kentbeck.github.io/TestDesiderata/"},

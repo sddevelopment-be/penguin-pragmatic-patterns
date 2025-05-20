@@ -1,0 +1,30 @@
+{{ $term := .Get "name" | lower }}
+{{ $title := .Get "title" | default $term }}
+{{ $entry := slice }}
+
+{{ range site.Data.glossary.terminology }}
+    {{ if or (eq (lower .name) $term) (in (apply .aliases "lower" "." ) $term) }}
+        {{ $entry = . }}
+    {{ end }}
+{{ end }}
+
+{{ if $entry }}
+    <details class="glossary-inline">
+        <summary>{{ $title }}</summary>
+        <div class="glossary-popover">
+            {{with $entry }}
+                <p class="glossary-popover-title"> {{ .name }} </p>
+                <p>{{ .description }}</p>
+                See: <a href="/glossary/#{{ .name | urlize }}" target="_blank">{{ $title }}</a>
+            {{ end }}
+        </div>
+    </details>
+{{ else }}
+    <details class="glossary-inline">
+        <summary>{{ $title }}</summary>
+        <div class="glossary-popover">
+            <p>Sorry, no definition found for {{ $term }}.</p>
+        </div>
+    </details>
+{{ end }}
+

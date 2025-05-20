@@ -812,3 +812,20 @@ description = """
 levels = ["beginner", "reference"]
 tags = ["consultancy", "communication", "effectiveness", "relationships", "advice", "corporate"]
 
+[[book]]
+id = "06a5cfd2-0204-4199-966e-8a7a4847742a"
+title = "The Practice of Management"
+minimized_title = "Practice of Management"
+isbn = "978-0060878979"
+authors = "Drucker, P. F."
+publisher = "Harper Business"
+year = "2006"
+link = "https://www.goodreads.com/book/show/48018.The_Practice_of_Management"
+image = "practice_of_management.webp"
+description = """
+A foundational text on management practices, exploring the principles and strategies for effective leadership and organizational success.
+Drucker emphasizes the importance of understanding the human element in management and provides insights into decision-making, innovation, and performance measurement.
+"""
+levels = ["intermediate", "reference"]
+tags = ["management", "corporate", "leadership"]
+

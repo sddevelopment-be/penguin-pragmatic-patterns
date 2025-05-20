@@ -70,7 +70,7 @@ This practice encourages you to **frame your work in terms of measurable outcome
 
 ### Core technique
 
-Using a combination of Bottom Line Up Front (BLUF) and quantifiable impact statements, outcome-oriented communication helps frame your work in a way that is relevant, credible, and meaningful, to your audience:
+Using a combination of {{< term name="Bottom Line Up Front" title="Bottom Line Up Front (BLUF)" >}} and quantifiable impact statements, outcome-oriented communication helps frame your work in a way that is relevant, credible, and meaningful, to your audience:
 
 * **BLUF:** ensures your main message (the result) is communicated first, not buried in explanation.
 * **Quantified impact statements:** ensure that the message is meaningful and measurable.

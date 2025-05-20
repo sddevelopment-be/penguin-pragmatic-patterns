@@ -27,7 +27,7 @@ Any feedback or suggestions for changes can be submitted there.
 
 ## v2.5.0: Content Updates and Reusability
 
-> **Facilitate easier content sharing and reuse.** .This release focuses heavily on expanding the existing content, adding items to the different sections (especially those that were unattended for a while), and making the content more reusable ( internally, and externally).
+> **Facilitate easier content sharing and reuse.** This release focuses heavily on expanding the existing content, adding items to the different sections (especially those that were unattended for a while), and making the content more reusable (internally, and externally).
 
 ### Added
 

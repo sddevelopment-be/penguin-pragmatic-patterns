@@ -1281,13 +1281,13 @@ aliases = ["paused tasks", "task freezer", "parking lot", "fridge"]
 references = []
 
 [[terminology]]
-name = "BLUF"
-abbreviation = "Bottom Line Up Front"
+name = "Bottom Line Up Front"
+abbreviation = "BLUF"
 domain = "communication"
 description = """
 A communication strategy where the main conclusion or most important point is stated at the beginning of the message. Common in military, executive, and high-stakes contexts where fast clarity is critical.
 """
-aliases = ["bottom line up front", "lead with impact"]
+aliases = ["start with why", "bottom line up front", "lead with impact"]
 references = [
     { title = "How to write Email with military precision", link = "https://hbr.org/2016/11/how-to-write-email-with-military-precision" },
     { title = "BLUF: The military standard that can make your writing more powerful", link = "https://www.animalz.co/blog/bottom-line-up-front/" }

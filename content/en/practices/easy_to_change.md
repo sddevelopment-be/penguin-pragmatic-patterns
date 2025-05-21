@@ -25,6 +25,8 @@ ammerse = [
 
 ## Problem Statement
 
+Technical choices should support future adaptation, not just current implementation. Many costly change scenarios stem from an unclear understanding of business variability and goals at the time of design.
+
 ## Intent
 
 ## Contextual forces

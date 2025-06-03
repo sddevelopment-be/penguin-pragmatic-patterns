@@ -8,7 +8,7 @@ categories = [
     "software development",
 ]
 tags = [
-    "remembering", "tracking", "tracability", "log"
+    "remembering", "tracking", "traceability", "log"
 ]
 uuid="GENERATE-ME!"
 aliases=["uuid"]

@@ -11,7 +11,7 @@ categories = [
     "communication",
 ]
 tags = [
-    "debate", "conflict resolution", "understanding", "disagreement", "bias", "constructive dialogue", "critical thinking"
+    "conflict resolution", "understanding", "bias", "constructive dialogue", "critical thinking"
 ]
 uuid="579ac780-4588-4896-9203-901e112f7498"
 aliases=["579ac780-4588-4896-9203-901e112f7498"]

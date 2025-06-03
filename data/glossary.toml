@@ -1382,3 +1382,47 @@ references = [
     { title = "Confirmation Bias", link = "https://en.wikipedia.org/wiki/Confirmation_bias" }
 ]
 
+[[terminology]]
+name = "metrics"
+abbreviation = ""
+domain = "Measurement & Evaluation"
+description = """
+Quantitative indicators used to track performance, progress, or system behavior. While metrics can support decision-making and alignment, they often become counterproductive when used as proxies for complex goals — particularly when incentives or evaluation criteria are tied too closely to them (see Goodhart’s Law).
+"""
+aliases = ["quantitative indicators", "performance metrics"]
+references = [
+]
+
+[[terminology]]
+name = "mentorship"
+abbreviation = ""
+domain = "Professional Growth"
+description = """
+A developmental relationship in which a more experienced individual supports the learning, confidence, and capability-building of a less experienced peer. Mentorship can be formal or informal and often includes guidance, encouragement, and honest reflection. It plays a key role in skill development, knowledge transfer, and shaping professional identity.
+"""
+aliases = ["mentoring", "coaching relationship"]
+references = [
+]
+
+[[terminology]]
+name = "conflict"
+abbreviation = ""
+domain = "Collaboration & Communication"
+description = """
+A state of tension or disagreement between individuals or groups, often arising from misaligned goals, values, or interpretations. Conflict is not inherently negative; when handled constructively, it can surface important issues, improve decisions, and build trust. Effective conflict resolution involves curiosity, structured dialogue, and a shared commitment to progress.
+"""
+aliases = ["disagreement", "tension", "interpersonal conflict"]
+references = [
+]
+
+[[terminology]]
+name = "feedback culture"
+abbreviation = ""
+domain = "Collaboration & Communication"
+description = """
+A shared team or organizational norm that encourages timely, constructive, and reciprocal feedback. A strong feedback culture supports psychological safety, continuous improvement, and personal growth. It balances honesty with care and treats feedback as a regular practice — not just a performance tool.
+"""
+aliases = ["feedback loop", "constructive feedback", "feedback environment"]
+references = [
+    { title = "Radical Candor by Kim Scott", link = "https://www.radicalcandor.com/" }
+]

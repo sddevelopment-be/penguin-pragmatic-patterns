@@ -20,7 +20,7 @@ categories = [
     "software development",
 ]
 tags = [
-    "testing", "trade-off", "tracability", "maintainability"
+    "testing", "trade-off", "traceability", "maintainability"
 ]
 uuid="04c6129d-11f7-4aa0-a809-1b972a0d7ef9"
 aliases=["04c6129d-11f7-4aa0-a809-1b972a0d7ef9"]

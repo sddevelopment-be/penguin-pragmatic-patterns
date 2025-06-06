@@ -1426,3 +1426,20 @@ aliases = ["feedback loop", "constructive feedback", "feedback environment"]
 references = [
     { title = "Radical Candor by Kim Scott", link = "https://www.radicalcandor.com/" }
 ]
+
+[[terminology]]
+name = "Team Dynamics"
+abbreviation = ""
+domain = "collaboration"
+description = """
+The patterns of interaction, behavior, and influence between members of a team.
+Team dynamics shape how work is done, how decisions are made, and how conflict or collaboration unfold over time.
+Healthy dynamics foster trust, psychological safety, and effective coordination --- while toxic dynamics can lead to misalignment,
+disengagement, or performance breakdowns.
+"""
+aliases = ["group behavior", "team interaction patterns", "collaborative dynamics", "team culture"]
+references = [
+    { title = "Team of Teams", author = "McChrystal, S.", year = "2015", link = "https://www.goodreads.com/book/show/22529127-team-of-teams" },
+    { title = "The Five Dysfunctions of a Team", author = "Lencioni, P.", year = "2002", link = "https://www.goodreads.com/book/show/21343.The_Five_Dysfunctions_of_a_Team" },
+    { title = "The Dream Team Nightmare", author = "Tung, P.", year = "2013", link = "https://pragprog.com/titles/ptdream/the-dream-team-nightmare/" }
+]

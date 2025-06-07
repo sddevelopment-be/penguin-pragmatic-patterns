@@ -6,8 +6,10 @@
         interested in adding content here, please refer to the <a
             href="https://github.com/sddevelopment-be/penguin-pragmatic-patterns/blob/content/software_patterns/CONTRIBUTING.md"
             target="_blank">“How to contribute”</a> guide on GitHub.
-
-        {{ $text | markdownify }}
+        {{if $text }}
+            <br /><br />
+            <b>To be added here:</b> {{ $text | markdownify }}
+        {{ end }}
     </blockquote>
 </div>
 

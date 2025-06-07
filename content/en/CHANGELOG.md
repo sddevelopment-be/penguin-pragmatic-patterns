@@ -37,6 +37,7 @@ Any feedback or suggestions for changes can be submitted there.
 * Added support for Glossary links in pattern content
   * Include `term` shortcode
   * Add custom CSS for glossary references
+* Added new optional "Criticism & Clarifications" section to some patterns
 
 ### Changed
 

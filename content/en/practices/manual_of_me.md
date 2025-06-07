@@ -33,17 +33,24 @@ related_practices = [
     "fe600488-e27b-4f62-9e2a-75b7bd1ee1a3",
     "579ac780-4588-4896-9203-901e112f7498"
 ]
-further_exploration = []
+further_exploration = [
+    {type="biblio", id="b6727fa2-6deb-4080-a440-9697ec3d20e3"},
+    {type="biblio", id="63d02dd1-135f-4e3e-af7b-b2e6f4dbb5e3"},
+    {type="biblio", id="d33fc09e-39c6-411e-a70e-2ca98375abd6"},
+    {type="biblio", id="d129136d-d984-4505-8049-d20971a840af"},
+    {type="biblio", id="faf35830-29af-4957-8ad1-0d37d6bd60db"}
+]
 #image="practices/XXXX.webp"
-pubdate="2025-06-04"
+pubdate="2025-06-06"
 +++
 
 ## Problem statement
 
-> [!STUB]
-> Describe the problem that this pattern aims to solve
+Working with different people is challenging. Not every context is right for you, and not every person is easy to work with. Finding a way to collaborate effectively requires understanding your own preferences, and those of others. However, these preferences are often implicit, leading to misunderstanding and conflict.
 
 ## Intent
+
+{{< info text="Get to know yourself better. Invite others to understand your preferences." >}}
 
 Make your prefered ways of working, communicating, and interacting explicit to others, so they can better understand you and work with you constructively.
 The aim is to improve self-awareness and communication, and being candid about your preferences and quirks.
@@ -60,44 +67,42 @@ Reflect on your working style, communication preferences, and personal quirks th
 
 Rather than waiting for conflict or discomfort to surface your needs, the manual invites proactive clarity and shared understanding. It builds trust, speeds up team integration, and fosters more humane collaboration.
 
+### Approach
+
+{{< stub >}}
+
 ## Contextual forces
 
-> [!STUB]
-> A bullet list explaining why this pattern makes sense, try and be as objective as possible here
-> The sections "Enablers" and "Deterents" can be used to divide the forces in a more structured way.
+{{< stub text=`A bullet list explaining why this pattern makes sense, try and be as objective as possible here
+The sections "Enablers" and "Deterents" can be used to divide the forces in a more structured way.` >}}
 
 ### Enablers
 The following factors support effective application of the practice:
 
-> [!STUB]
-> Contextual factors that increase the viability of implementing the pattern
+{{< stub text=`Contextual factors that increase the viability of implementing the pattern` >}}
 
 ### Deterrents
 The following factors prevent effective application of the practice:
 
-> [!STUB]
-> Contextual factors that decrease the viability of implementing the pattern
+{{< stub text=`Contextual factors that decrease the viability of implementing the pattern` >}}
 
 ## Rationale
 
-> [!STUB]
-> Describe the reasoning behind the pattern, or go into more detail on why it works.
+{{< stub text=`Describe the reasoning behind the pattern, or go into more detail on why it works.` >}}
 
 ## Application
 
 ### Consequences
 While the approach brings numerous benefits, it can also lead to several unexpected or undesired outcomes:
 
-> [!STUB]
-> Describe how the situation changes after applying the pattern
-> Try and focus on elements that are not immediatly apperent from the "intent" section.
-> Be sure to highlight potential unintended effects.
+{{< stub text=`How the situation changes after applying the pattern.
+Try and focus on elements that are not immediatly apperent from the "intent" section.
+Be sure to highlight potential unintended effects.` >}}
 
 ### Mitigation strategies
 To mitigate the potential negative consequences of the approach:
 
-> [!STUB]
-> How to deal with, or prevent, potential negative consequences of applying the pattern
+{{< stub text=`How to deal with, or prevent, potential negative consequences of applying the pattern.` >}}
 
 ## Examples
 
@@ -156,6 +161,10 @@ To mitigate the potential negative consequences of the approach:
 - __“First, seek to understand.”__
 - __“If it works, it’s their win. If it fails, it’s my miss.”__
 - __“Clarity before complexity. Integrity before elegance.”__
+
+## Criticism & Clarifications
+
+{{< stub text=`A section to clarify or criticize the pattern, or to provide alternative viewpoints.` >}}
 
 ---
 

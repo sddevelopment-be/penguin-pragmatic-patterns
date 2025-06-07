@@ -1518,4 +1518,113 @@ references = [
     { title = "Maslow’s Hierarchy of Needs", year="2014", author="Various Contributors", site="Wikipedia", link = "https://en.wikipedia.org/wiki/Maslow%27s_hierarchy_of_needs" }
 ]
 
+[[terminology]]
+name = "Barnum Effect"
+abbreviation = ""
+domain = "cognitive psychology"
+description = """
+A cognitive bias in which individuals believe vague, general statements about personality are highly accurate for them personally. Often exploited by horoscopes, personality tests, and pseudoscientific diagnostics, the Barnum Effect explains why people perceive such feedback as insightful even when it applies to most others.
+"""
+aliases = ["Forer Effect", "subjective validation"]
+references = [
+    { title = "The Barnum Effect", author="Various Contributors", site="Wikipedia", link = "https://en.wikipedia.org/wiki/Barnum_effect" },
+    { title = "The Fallacy of Personal Validation: A Classroom Demonstration of Gullibility", author="Forer, B. R.", site="APA PsycNet", year="1943", link = "https://psycnet.apa.org/doiLanding?doi=10.1037%2Fh0059240" }
+]
 
+[[terminology]]
+name = "Cognitive agency"
+abbreviation = ""
+domain = "cognitive science"
+description = """
+The capacity of a person or system to perceive, interpret, and act based on knowledge, goals, and intent. In humans, cognitive agency involves self-directed reasoning, planning, and decision-making. In organizational or AI contexts, it refers to the ability to independently pursue objectives with adaptive intelligence.
+"""
+aliases = ["mental autonomy", "reasoning agency"]
+references = [
+    { title = "Agency in Cognitive Science", author="Various Contributors", site="Wikipedia", link = "https://en.wikipedia.org/wiki/Agency_(philosophy)" },
+    { title = "What Is Agency?", site = "Stanford Encyclopedia of Philosophy", author="Schlosser, M.", year="2015", link = "https://plato.stanford.edu/entries/agency/" }
+]
+
+[[terminology]]
+name = "Labeling Bias"
+abbreviation = ""
+domain = "social psychology"
+description = """
+The tendency for people’s behavior or identity to be interpreted through the lens of an assigned label, often reinforcing stereotypes and limiting individual growth. Labeling bias can reduce cognitive agency by constraining how others perceive and interact with the labeled person — regardless of nuance or change.
+"""
+aliases = ["stereotype reinforcement", "identity bias"]
+references = [
+    { title = "Labeling Theory",author="Various Contributors", site="Wikipedia",  link = "https://en.wikipedia.org/wiki/Labeling_theory" }
+]
+
+[[terminology]]
+name = "Cold Reading"
+abbreviation = ""
+domain = "communication psychology"
+description = """
+A technique used to make high-probability guesses about someone’s background or personality without prior knowledge, often by observing cues and using general statements. Common in pseudoscience and performance (e.g. psychics, mediums), cold reading exploits confirmation bias and the Barnum Effect to appear insightful or prophetic.
+"""
+aliases = ["psychic reading", "persuasive guessing"]
+references = [
+    { title = "Cold Reading", author="Various Contributors", site="Wikipedia",  link = "https://en.wikipedia.org/wiki/Cold_reading" }
+]
+
+[[terminology]]
+name = "Big Five Personality Traits"
+abbreviation = ""
+domain = "psychology"
+description = """
+A widely accepted model in personality psychology that describes human personality through five broad dimensions:
+Openness, Conscientiousness, Extraversion, Agreeableness, and Neuroticism (OCEAN). Unlike many typologies, the Big Five is based on empirical research and sees traits as spectrums rather than categories.
+"""
+aliases = ["OCEAN model", "Five Factor Model"]
+references = [
+    { title = "Big Five Personality Traits", link = "https://en.wikipedia.org/wiki/Big_Five_personality_traits" }
+]
+
+[[terminology]]
+name = "HEXACO Personality Model"
+abbreviation = ""
+domain = "psychology"
+description = """
+An extension of the Big Five model that adds a sixth factor: Honesty-Humility. The HEXACO model captures traits across six domains: Honesty-Humility, Emotionality, eXtraversion, Agreeableness, Conscientiousness, and Openness. It emphasizes ethical behavior and social deviance more explicitly than OCEAN-based models.
+"""
+aliases = ["six-factor personality model"]
+references = [
+    { title = "HEXACO Personality Inventory", link = "https://hexaco.org/" }
+]
+
+[[terminology]]
+name = "Nonviolent Communication"
+abbreviation = "NVC"
+domain = "communication"
+description = """
+A structured approach to communication developed by Marshall Rosenberg that fosters empathy, mutual understanding, and conflict resolution.
+NVC separates observation from judgment, expresses feelings and needs, and makes clear, respectful requests, rather than demands or accusations.
+"""
+aliases = ["NVC", "compassionate communication"]
+references = [
+    { title = "Nonviolent Communication: A Language of Life", author = "Marshall B. Rosenberg", year = "2003", link = "https://www.goodreads.com/book/show/71730.Nonviolent_Communication" },
+    { title = "Center for Nonviolent Communication", link = "https://www.cnvc.org/" }
+]
+
+[[terminology]]
+name = "Placating"
+abbreviation = ""
+domain = "communication dynamics"
+description = """
+A conflict-avoidant behavior where someone attempts to appease others or defuse tension by agreeing, apologizing, or giving in; often at the cost of their own needs or honesty.
+Placating can appear kind but may undermine trust, clarity, or long-term collaboration when used manipulatively or habitually.
+"""
+aliases = ["appeasement", "passive compliance"]
+references = []
+
+[[terminology]]
+name = "Manipulation"
+abbreviation = ""
+domain = "interpersonal behavior"
+description = """
+The use of indirect, deceptive, or coercive tactics to influence another person’s behavior, often serving the manipulator’s interests while masking intent.
+Manipulation may include guilt-tripping, gaslighting, passive-aggressive behavior, or selective omission --- and typically exploits emotional or relational dynamics.
+"""
+aliases = ["emotional control", "covert influence"]
+references = []

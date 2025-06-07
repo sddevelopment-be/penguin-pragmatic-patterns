@@ -38,12 +38,17 @@ Any feedback or suggestions for changes can be submitted there.
   * Include `term` shortcode
   * Add custom CSS for glossary references
 * Added new optional "Criticism & Clarifications" section to some patterns
+* Added `Review template` to the github repository, to facilitate the review of patterns and suggestions
 
 ### Changed
 
 * Updated various items to include cross-references to new patterns
 * Updated the visual style of the Presentations (lightened colours, included logo)
 * Refactored pattern metadata to use consistent tagging (see: [Overview of tags](https://patterns.sddevelopment.be/tags/) )
+
+### Removed
+
+* Deleted the split between `Concepts` and `Practices` for pattern suggestions, as it was not used in practice.
 
 ## v2.4.0: Visual Improvements
 

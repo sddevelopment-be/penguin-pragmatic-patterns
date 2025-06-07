@@ -1443,3 +1443,21 @@ references = [
     { title = "The Five Dysfunctions of a Team", author = "Lencioni, P.", year = "2002", link = "https://www.goodreads.com/book/show/21343.The_Five_Dysfunctions_of_a_Team" },
     { title = "The Dream Team Nightmare", author = "Tung, P.", year = "2013", link = "https://pragprog.com/titles/ptdream/the-dream-team-nightmare/" }
 ]
+
+[[terminology]]
+name = "Congruence"
+abbreviation = ""
+domain = "self-awareness"
+description = """
+The alignment between a person’s internal values, beliefs, and emotions, and their external behavior, language, or decisions.
+In team and leadership contexts, congruence builds trust by demonstrating integrity and coherence.
+A congruent person is perceived as authentic. They __“walk their talk”__ and act in ways that reflect what they truly believe.
+"""
+aliases = ["authenticity", "alignment", "integrity"]
+references = [
+    { title = "On Becoming a Person", author = "Rogers, C.", year = "1961", link = "https://www.goodreads.com/book/show/174879.On_Becoming_a_Person" },
+    { title = "Dare to Lead", author = "Brown, B.", year = "2018", link = "https://www.goodreads.com/book/show/40109367-dare-to-lead" },
+    { title = "The 8th Habit: From Effectiveness to Greatness", author = "Covey, S. R.", year = "2010", link = "https://www.goodreads.com/book/show/14596922" },
+    { title = "Behind Closed Doors", author = "Rothman, J.", year = "2005", link = "https://www.goodreads.com/book/show/4100.Behind_Closed_Doors" }
+]
+

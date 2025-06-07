@@ -42,6 +42,7 @@ Any feedback or suggestions for changes can be submitted there.
 
 * Updated various items to include cross-references to new patterns
 * Updated the visual style of the Presentations (lightened colours, included logo)
+* Refactored pattern metadata to use consistent tagging (see: [Overview of tags](https://patterns.sddevelopment.be/tags/) )
 
 ## v2.4.0: Visual Improvements
 

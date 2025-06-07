@@ -1,7 +1,9 @@
 {{ template "_internal/google_analytics.html" . }}
 
 <meta name="keywords" content="{{ if .Params.Tags }}{{ .Params.Tags }}{{ else if .Site.Params.Keywords }}{{ .Site.Params.Keywords }}{{ else }}learning,improvement{{ end }}" />
-<meta name="robots" content="nofollow" />
+<meta name="robots" content="index" />
+<meta name="rating" content="General">
+<meta name="revisit-after" content="10 days">
 <meta name="google-site-verification" content="oLCEMKvfvKAzhdTDMhNYEX08dQJZtk4VecfaoonsZmI" />
 
 {{ if .Params.Title }}

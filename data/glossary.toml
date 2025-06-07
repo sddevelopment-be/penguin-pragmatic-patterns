@@ -1461,3 +1461,61 @@ references = [
     { title = "Behind Closed Doors", author = "Rothman, J.", year = "2005", link = "https://www.goodreads.com/book/show/4100.Behind_Closed_Doors" }
 ]
 
+[[terminology]]
+name = "Self-actualization"
+abbreviation = ""
+domain = "personal development"
+description = """
+The process of realising and expressing one's full potential, talents, and creativity. Often considered the highest level of psychological development, self-actualization occurs when basic needs have been met and individuals pursue purpose, meaning, and personal growth. Associated with autonomy, authenticity, and intrinsic motivation.
+"""
+aliases = ["self-fulfilment", "personal growth", "realising potential"]
+references = [
+    { title = "Maslow’s Hierarchy of Needs", link = "https://en.wikipedia.org/wiki/Maslow%27s_hierarchy_of_needs" }
+]
+
+[[terminology]]
+name = "Zibaldone"
+abbreviation = ""
+domain = "knowledge management"
+description = """
+An eclectic personal notebook or commonplace book used to collect thoughts, quotes, observations, and ideas. Originating from the Italian word for “heap of things,” a zibaldone is a private, unstructured record of personal knowledge — often used as a thinking aid, reference archive, or creative incubator.
+"""
+aliases = ["commonplace book", "idea journal", "thinking notebook"]
+references = [
+    { title = "Zibaldone", author="Various Contributors", site="Wikipedia", year="2025", link = "https://en.wikipedia.org/wiki/Zibaldone" }
+]
+
+[[terminology]]
+name = "Myers–Briggs Type Indicator"
+abbreviation = "MBTI"
+domain = "personality psychology"
+description = """
+A psychological framework based on Carl Jung's theories of personality types, categorising individuals along four dimensions: Extraversion–Introversion, Sensing–Intuition, Thinking–Feeling, and Judging–Perceiving.
+The resulting 16 personality types aim to describe cognitive preferences and behavioural tendencies. Often used in team building, coaching, and self-awareness contexts --- though its scientific validity is unconfirmed.
+
+**Use with caution!** While the theory is widely popular, it can be dangerous to use it as a definitive measure of personality. Personality indicators are best used as a tool for self-reflection and understanding, rather than as a rigid classification system.
+"""
+aliases = ["MBTI", "Jungian personality types", "Myers-Briggs"]
+references = [
+    { title = "MBTI", author="Various Contributors", site="Wikipedia", year="2025", link = "https://en.wikipedia.org/wiki/Myers%E2%80%93Briggs_Type_Indicator" },
+    { title = "16 Personalities Test", author="Analytics Limited", site="16 Personalities", year="2025", link = "https://www.16personalities.com/" },
+    { title = "Take the MBTI® Instrument", year="2018", site="Myers & Briggs Foundation", link = "https://www.myersbriggs.org/my-mbti-personality-type/take-the-mbti-instrument/" },
+    { title="How thousands of companies ended up using a bogus psychology test on their staff", author="Edwards, J.", year="2022", site="The Independant", link="https://www.independent.co.uk/voices/myers-briggs-psychology-test-garbage-b2200663.html"},
+    { title="What You Don't Know about This Personality Test Can Hurt You ", author="Whitbourne, S. K.", year="2014", site="Psychology Today", link="https://www.psychologytoday.com/us/blog/fulfillment-at-any-age/201401/what-you-dont-know-about-this-personality-test-can-hurt-you"},
+    { title="DISC Assessment", author="Various Contributors", year="2014", site="Wikipedia", link="https://en.wikipedia.org/wiki/DISC_assessment"}
+]
+
+[[terminology]]
+name = "Maslow’s hierarchy of needs"
+abbreviation = ""
+domain = "psychology"
+description = """
+A motivational theory proposing that human needs are structured in a five-level hierarchy: physiological needs, safety, love and belonging, esteem, and self-actualization. The theory suggests that basic needs must be met before individuals can pursue higher-level psychological growth and fulfilment. Often used in education, coaching, and workplace wellbeing.
+"""
+aliases = ["Maslow’s pyramid", "needs hierarchy", "human motivation"]
+references = [
+    { title = "A Theory of Human Motivation", author = "Maslow, A.H.", year = "1943", link = "https://psychclassics.yorku.ca/Maslow/motivation.htm" },
+    { title = "Maslow’s Hierarchy of Needs", year="2014", author="Various Contributors", site="Wikipedia", link = "https://en.wikipedia.org/wiki/Maslow%27s_hierarchy_of_needs" }
+]
+
+

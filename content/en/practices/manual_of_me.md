@@ -1,9 +1,10 @@
 +++
-title = "Write a manual for yourself"
+title = "Write a 'Manual of Me'"
 author = "Stijn Dejongh"
-problem = ""
+problem = "Working with different people is challenging. Not every context is right for you, and not every person is easy to work with. Finding a way to collaborate effectively requires understanding your own preferences, and those of others. However, these preferences are often implicit, leading to misunderstanding and conflict."
 description = ""
 summary = """
+Working with different people is challenging. Not every context is right for you, and not every person is easy to work with. Finding a way to collaborate effectively requires understanding your own preferences, and those of others. However, these preferences are often implicit, leading to misunderstanding and conflict.
 """
 categories = [
     "communication", "learning"
@@ -38,7 +39,10 @@ further_exploration = [
     {type="biblio", id="63d02dd1-135f-4e3e-af7b-b2e6f4dbb5e3"},
     {type="biblio", id="d33fc09e-39c6-411e-a70e-2ca98375abd6"},
     {type="biblio", id="d129136d-d984-4505-8049-d20971a840af"},
-    {type="biblio", id="faf35830-29af-4957-8ad1-0d37d6bd60db"}
+    {type="biblio", id="faf35830-29af-4957-8ad1-0d37d6bd60db"},
+    {type="raw", title="16 Personalities: IMBT online test and resources", author="NERIS Analytics Limited", year="2011-2025", site="16 Personalities", link="https://www.16personalities.com/"},
+    {type="raw", author="Lee, K.; Ashton, M. C.", year="2009", title="The HEXACO Personality Inventory", site="HEXACO Personality Inventory", link="https://hexaco.org/"},
+    {type="raw", author="Various Contributors", year="2025", title="Maslow's hierarchy of needs", site="Wikipedia", link="https://en.wikipedia.org/wiki/Maslow's_hierarchy_of_needs"}
 ]
 #image="practices/XXXX.webp"
 pubdate="2025-06-06"
@@ -46,30 +50,87 @@ pubdate="2025-06-06"
 
 ## Problem statement
 
-Working with different people is challenging. Not every context is right for you, and not every person is easy to work with. Finding a way to collaborate effectively requires understanding your own preferences, and those of others. However, these preferences are often implicit, leading to misunderstanding and conflict.
+Working with people is hard — not because they’re difficult, but because they’re different. We all have implicit preferences, communication habits, and stress responses that shape how we show up. Without shared context, these differences turn into friction, misunderstanding, or avoidable conflict. Without introspection, we may not even realize how others experience us.
+
 
 ## Intent
 
 {{< info text="Get to know yourself better. Invite others to understand your preferences." >}}
 
-Make your prefered ways of working, communicating, and interacting explicit to others, so they can better understand you and work with you constructively.
-The aim is to improve self-awareness and communication, and being candid about your preferences and quirks.
+Help yourself --- and others --- by naming the conditions under which you thrive, struggle, and grow.
+A personal operating manual improves communication, fosters team empathy, and signals emotional maturity.
 
-* Enhance communication and productivity by making your working style explicit.
-* Share your preferences and quirks to others, signalling introspection and self-awareness.
-* Foster better collaboration by helping others understand how to work with you effectively.
-* Avoid misunderstandings and destructive {{< term name="conflict" title="conflicts" >}} by providing a clear framework for interaction.
-* Encourage candidness and openness in team dynamics, leading to a more harmonious working environment.
+* Encourage reflection on your working style, values, and triggers.
+* Invite candid collaboration by giving colleagues a starting point for interacting with you.
+* Reduce friction caused by mismatched expectations or unseen assumptions.
+* Enable better teaming, feedback, and growth through open self-description.
+* Shift conflict resolution from reactive to proactive.
 
 ## Solution
 
-Reflect on your working style, communication preferences, and personal quirks that you bring to the table. Write these down in a structured format (be it a document, wiki page, or even a personal website). Share this __"Manual of Me"__ with your friends, colleagues, team members, or anyone you work closely with. Alternatively, keep it private and use it as a self-reflection tool to better understand yourself, and build awareness of how you interact with others, and what types of situations you thrive in.
 
-Rather than waiting for conflict or discomfort to surface your needs, the manual invites proactive clarity and shared understanding. It builds trust, speeds up team integration, and fosters more humane collaboration.
+Reflect on your working style, communication preferences, and personal quirks that you bring to the table. Write these down in a structured format (be it a document, wiki page, or even a personal website). 
 
-### Approach
+Share this __"Manual of Me"__ with your friends, colleagues, team members, or anyone you work closely with. Alternatively, keep it private and use it as a self-reflection tool to better understand yourself, and build awareness of how you interact with others, and what types of situations you thrive in.
 
-{{< stub >}}
+Rather than waiting for conflict or discomfort to surface your needs, the manual invites proactive clarity and shared understanding. It builds trust, speeds up team integration, and fosters more humane collaboration. A personal operating manual is both a self-reflection exercise and a communication tool. It invites you to clarify how you work best, and to share that clarity with others.
+
+### Approach to writing your manual
+
+#### Step 1 — Aggregate and Reflect
+
+Begin by thinking honestly about your past experiences.
+
+* When were you most productive? What conditions helped?
+* When did things go wrong? What caused stress, conflict, or withdrawal?
+* What feedback have you received? What have others appreciated — or misunderstood — about you?
+
+If you have past feedback, assessments, or coaching notes, use them as a mirror. But don’t overengineer it: memory and intuition are valid sources, too.
+
+#### Step 2 — Identify Key Signals
+
+Pick the elements that define how you show up at work. This might include:
+
+* **What energises you**: autonomy, clarity, praise, momentum, deep work, collaboration, etc.
+* **What drains or frustrates you**: ambiguity, micromanagement, last-minute pivots, excessive meetings, etc.
+* **Communication preferences**: Do you prefer async updates or live discussions? Directness or diplomacy? Space to think or real-time dialogue?
+* **Work rhythm**: Are you most focused in the morning? Do you need recovery after social days? How do you signal “in the zone”?
+* **Feedback style**: How do you prefer to give and receive feedback?
+* **Stress signs and support**: How do you respond under pressure? What helps you recover?
+
+You can also ask yourself:
+
+* What makes me feel respected?
+* What helps me do my best work?
+* What kinds of tension do I want to avoid — or invite?
+
+#### Step 3 — Clarify Core Values (Optional)
+
+Name the values, principles, or beliefs that guide you. You might draw inspiration from frameworks like [Maslow’s hierarchy of needs](https://en.wikipedia.org/wiki/Maslow's_hierarchy_of_needs) or personal growth models. Common values include: `Autonomy`, `Authenticity`, `Impact`, `Clarity`, `Learning`, `Equity`, `Recognition`, `Tranquility`, `Craftsmanship`, `Service`, `Status`, `Financial Prosperity`.
+
+This isn’t a branding exercise. It’s about making it easier for others to understand what matters to you, so they can meet you where you are.
+
+#### Step 4 — Choose a Format
+
+Write down your manual in a format that works for you, and is easy for others to digest. The format can be anything that works for you: a document, a wiki page, a personal website, or even a slide deck. The key is to make it accessible and easy to share. The content should be structured, but not overly formal. It should feel like a conversation starter, not a rigid contract.
+
+Aim to keep it concise, ideally one page or less. Use bullet points, headings, and clear sections to make it skimmable. Avoid jargon or overly complex language. Stick to the essentials. You are not writing a biography, manifesto, or sales pitch. **You're writing to be understood, not to impress**.
+
+#### Step 5 — Add Human Touches
+
+Include quirks, rituals, or values beyond your formal role. These signals create connection and help others see the full person.
+Examples:
+* __“Please don’t schedule meetings before 9:30am. I’m not my best self in the morning.”__
+* __“I may look calm, but I care deeply --- and sometimes over-invest.”__
+* __“When I go quiet, I’m either thinking hard or feeling off. Either way, it’s okay to check in.”__
+* __“I prefer to communicate in writing first, then discuss live. It helps me gather my thoughts.”__
+* __"I prefer very direct communication and animated debate. You can be frank with me, I will do the same."__
+
+Being candid doesn’t mean oversharing. Share what feels right, especially the bits that would help others support you or avoid friction.
+
+## Using the manual
+
+{{< stub text=`Describe some use cases, and options to work with the manual once you have it in place. Outline this can be used as a running document, evolving along with you as you make your path in life. It can be used in a teambuilding session, or simply advertised publically.` >}}
 
 ## Contextual forces
 

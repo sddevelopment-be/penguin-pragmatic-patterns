@@ -2,11 +2,18 @@
 {{ $title := .Get "title" | default $term }}
 {{ $entry := slice }}
 
+
+
 {{ range site.Data.glossary.terminology }}
-    {{ if or (eq (lower .name) $term) (in (apply .aliases "lower" "." ) $term) }}
+    {{ $matchers := slice  }}
+    {{ $matchers = $matchers | append (lower .name) }}
+    {{ $matchers = $matchers | append (apply .aliases "lower" ".") }}
+    {{ $matchers = $matchers | append (lower .abbreviation) }}
+    {{ if in (apply $matchers "lower" "." ) $term }}
         {{ $entry = . }}
     {{ end }}
 {{ end }}
+
 
 {{ if $entry }}
     <details class="glossary-inline">
@@ -14,7 +21,7 @@
         <div class="glossary-popover">
             {{with $entry }}
                 <p class="glossary-popover-title"> {{ .name }} </p>
-                <p>{{ .description }}</p>
+                <p>{{ .description | markdownify }}</p>
                 See: <a href="/glossary/#{{ .name | urlize }}" target="_blank">{{ $title }}</a>
             {{ end }}
         </div>

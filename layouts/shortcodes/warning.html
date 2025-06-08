@@ -4,6 +4,6 @@
 <div class="alert-container">
     <blockquote class="groucho warning">
         <span class="warning-title">warning: {{if $title }} {{ $title }} <br /> {{ end }}</span>
-        {{ $text }}
+        {{ $text | markdownify }}
     </blockquote>
 </div>

@@ -71,7 +71,7 @@ A personal operating manual improves communication, fosters team empathy, and si
 
 Reflect on your working style, communication preferences, and personal quirks that you bring to the table. Write these down in a structured format (be it a document, wiki page, or even a personal website). 
 
-Share this __"Manual of Me"__ with your friends, colleagues, team members, or anyone you work closely with. Alternatively, keep it private and use it as a self-reflection tool to better understand yourself, and build awareness of how you interact with others, and what types of situations you thrive in.
+Share this _"Manual of Me"_ with your friends, colleagues, team members, or anyone you work closely with. Alternatively, keep it private and use it as a self-reflection tool to better understand yourself, and build awareness of how you interact with others, and what types of situations you thrive in.
 
 Rather than waiting for conflict or discomfort to surface your needs, the manual invites proactive clarity and shared understanding. It builds trust, speeds up team integration, and fosters more humane collaboration. A personal operating manual is both a self-reflection exercise and a communication tool. It invites you to clarify how you work best, and to share that clarity with others.
 
@@ -86,6 +86,12 @@ Begin by thinking honestly about your past experiences.
 * What feedback have you received? What have others appreciated — or misunderstood — about you?
 
 If you have past feedback, assessments, or coaching notes, use them as a mirror. But don’t overengineer it: memory and intuition are valid sources, too.
+
+{{< warning title="Be cautious with personality tests as input" text=`
+While structured prompts can help you reflect, many popular personality or productivity tests — especially free online ones — are not scientifically grounded. Tools like MBTI, 16Personalities, Insights color wheels, Enneagram quizzes, or even _“What Pokémon are you?”_-style diagnostics may feel insightful, but they often rely on vague, flattering generalisations or untested models.
+  
+ These tools can be fun conversation starters, but they should not be treated as truth or used as the core structure of your manual. If you do reference them, make sure to frame them as playful metaphors, not psychological facts.
+` >}}
 
 #### Step 2 — Identify Key Signals
 
@@ -106,7 +112,7 @@ You can also ask yourself:
 
 #### Step 3 — Clarify Core Values (Optional)
 
-Name the values, principles, or beliefs that guide you. You might draw inspiration from frameworks like [Maslow’s hierarchy of needs](https://en.wikipedia.org/wiki/Maslow's_hierarchy_of_needs) or personal growth models. Common values include: `Autonomy`, `Authenticity`, `Impact`, `Clarity`, `Learning`, `Equity`, `Recognition`, `Tranquility`, `Craftsmanship`, `Service`, `Status`, `Financial Prosperity`.
+Name the values, principles, or beliefs that guide you. You might draw inspiration from frameworks like {{< term title="needs hierarchy" title="Maslow’s hierarchy of needs" >}} or personal growth models. Common values include: `Autonomy`, `Authenticity`, `Impact`, `Clarity`, `Learning`, `Equity`, `Recognition`, `Tranquility`, `Craftsmanship`, `Service`, `Status`, `Financial Prosperity`.
 
 This isn’t a branding exercise. It’s about making it easier for others to understand what matters to you, so they can meet you where you are.
 
@@ -120,50 +126,81 @@ Aim to keep it concise, ideally one page or less. Use bullet points, headings, a
 
 Include quirks, rituals, or values beyond your formal role. These signals create connection and help others see the full person.
 Examples:
-* __“Please don’t schedule meetings before 9:30am. I’m not my best self in the morning.”__
-* __“I may look calm, but I care deeply --- and sometimes over-invest.”__
-* __“When I go quiet, I’m either thinking hard or feeling off. Either way, it’s okay to check in.”__
-* __“I prefer to communicate in writing first, then discuss live. It helps me gather my thoughts.”__
-* __"I prefer very direct communication and animated debate. You can be frank with me, I will do the same."__
+* _“Please don’t schedule meetings before 9:30am. I’m not my best self in the morning.”_
+* _“I may look calm, but I care deeply --- and sometimes over-invest.”_
+* _“When I go quiet, I’m either thinking hard or feeling off. Either way, it’s okay to check in.”_
+* _“I prefer to communicate in writing first, then discuss live. It helps me gather my thoughts.”_
+* _"I prefer very direct communication and animated debate. You can be frank with me, I will do the same."_
 
-Being candid doesn’t mean oversharing. Share what feels right, especially the bits that would help others support you or avoid friction.
 
-## Using the manual
+{{< tip text="Being candid doesn’t mean oversharing. Share what feels right, especially the bits that would help others support you or avoid friction." >}}
+
+### Using the manual
 
 {{< stub text=`Describe some use cases, and options to work with the manual once you have it in place. Outline this can be used as a running document, evolving along with you as you make your path in life. It can be used in a teambuilding session, or simply advertised publically.` >}}
 
 ## Contextual forces
 
-{{< stub text=`A bullet list explaining why this pattern makes sense, try and be as objective as possible here
-The sections "Enablers" and "Deterents" can be used to divide the forces in a more structured way.` >}}
-
 ### Enablers
 The following factors support effective application of the practice:
 
-{{< stub text=`Contextual factors that increase the viability of implementing the pattern` >}}
+* **Psychological safety:** Your environment welcomes self-expression, reflection, and open sharing of personal quirks or boundaries.
+* **Self-reflective culture:** Your team values introspection, values alignment, or feedback rituals. Personal operating manuals fit well alongside retrospectives or team charters.
+* **Cross-functional collaboration:** You work with people from diverse roles, backgrounds, or disciplines who may not share the same implicit norms or communication styles.
+* **Coaching and team development:** You lead or support others and want to model clarity, self-awareness, or sustainable ways of working. By sharing your manual, you set an example for others to follow.
+* **Mentorship or pairing culture:**  Your team uses mentorship, pairing, or rotating roles, where deeper individual understanding leads to smoother collaboration.
+* **Remote or hybrid teams:** Physical separation reduces ambient understanding. A Manual of Me helps fill in the context that would otherwise be learned through hallway conversations or observation.
+* **New team formation / Onboarding support:** Your team is newly formed, cross-company, or going through a restructuring, and people are learning to collaborate for the first time. You want to ease the ramp-up for new team members, helping them understand colleagues without needing to decode each personality from scratch.
 
 ### Deterrents
+
 The following factors prevent effective application of the practice:
 
-{{< stub text=`Contextual factors that decrease the viability of implementing the pattern` >}}
+* **Low-trust environments:** In toxic or overly political cultures, being candid about preferences or needs may be seen as weakness or self-indulgence.
+* **Lack of introspection:** If you haven’t reflected deeply on how you operate, the manual risks becoming vague, aspirational, or performative. In cultures where communication is already performative or over-curated, the Manual of Me may be co-opted into a form of personal branding rather than honest introspection.
+* **One-size-fits-all assumptions:** Teams may treat the exercise as a formality rather than an individual reflection, leading to formulaic manuals that lack depth or authenticity.
+* **Time pressure or low perceived ROI:** Teams may deprioritize personal reflection practices, seeing them as “nice to have” rather than mission-critical.
+* **Over-professionalism:** Some people view emotional self-disclosure or contextual framing as unprofessional, preferring to _“just get on with the work”_.
+* **Overuse of personality typologies:** Your organisation heavily relies on formal assessments (MBTI, DISC, etc.), which can lead to rigid interpretations of behaviour and discourage more nuanced or evolving self-description. There’s a risk of treating personality traits or value statements as deterministic categories. If readers treat the manual as a label rather than a lens, it can reduce empathy rather than deepen it.
+* **Hierarchical mistrust:** In highly hierarchical settings, manuals may be misread as entitlement or boundary-setting, especially when created by junior contributors. In rigid organisations with strong cultural defaults, declaring personal preferences may feel unsafe or be actively discouraged. 
 
 ## Rationale
 
-{{< stub text=`Describe the reasoning behind the pattern, or go into more detail on why it works.` >}}
+The Manual of Me practice makes tacit preferences explicit, helping others engage with you more intentionally and compassionately.
+
+Most interpersonal friction stems not from bad intent, but from mismatched assumptions: about what drives us, how we like to work, or what we need to feel safe and effective. By surfacing this context early, the manual offers a proactive alternative to conflict mediation, coaching escalation, or months of silent friction. It acts as a lightweight, human-readable spec for effective collaboration.
+
+For individuals, it fosters **self-awareness and psychological congruence** — acting in alignment with your needs and values. For teams, it builds **empathy, psychological safety, and cultural flexibility**, making it easier for different working styles to coexist without friction.
+
+Unlike many personality frameworks, a personal manual is not a diagnostic tool. It’s not a fixed label, but a living reflection — one that invites curiosity rather than categorisation. It gives the author agency in what they share and how, avoiding the flattening effect that models and traits can sometimes create.
+
+The goal is not to reduce people to patterns. It’s to offer others a map — knowing full well that humans are more than any map can describe.
 
 ## Application
 
 ### Consequences
 While the approach brings numerous benefits, it can also lead to several unexpected or undesired outcomes:
 
-{{< stub text=`How the situation changes after applying the pattern.
-Try and focus on elements that are not immediatly apperent from the "intent" section.
-Be sure to highlight potential unintended effects.` >}}
+- **Perceived self-centredness:** Others may interpret your manual as overly self-focused, especially in cultures that value group identity or humility over individual preferences. Particularly if you are the one introducing the practice, it can be interpreted as narcissistic, manipulative, or self-serving. This is especially true if the manual is not framed as an invitation to dialogue, but rather as a set of demands or expectations. 
+- **Over-reliance on the manual:** People may treat the manual as a definitive guide, rather than a starting point for conversation. This can lead to assumptions rather than curiosity, reducing the opportunity for deeper understanding. This can also lead to rigidity in collaboration, where colleagues expect you to **always operate exactly as described**, even as your context or growth evolves.
+- **Self-limiting beliefs:** Individuals may begin to internalize or perform their own manuals too rigidly. Using them to justify avoidant behaviours or downplay their ability to adapt. (see: {{< term name="Barnum Effect" >}})
+- **Confirmation bias in interpretation:** Once a colleague has read your manual, they may unconsciously filter future interactions through that lens. People are prone to start noticing behaviours that match your description while overlooking evidence to the contrary. This can reinforce outdated or simplistic views of how you work. 
+- **Misuse of vulnerability:** In low-trust or competitive environments, sharing boundaries or quirks can be misinterpreted as fragility or ammunition. Instead of empathy, it may elicit judgment or exclusion.
+- **Overemphasis on individualism:** The practice may inadvertently shift focus from team dynamics to individual quirks, leading to a culture of self-absorption rather than collective growth. It can create an expectation that everyone should have a manual, which may not be comfortable or appropriate for all team members.
+- **Labeling and flattening:** Especially in organisations already steeped in frameworks (e.g., {{< term name="MBTI" title="MBTI" >}}, DISC), manuals may be read through the lens of cognitive shortcuts. THis risks reducing individuals to a handful of traits or types.
 
-### Mitigation strategies
-To mitigate the potential negative consequences of the approach:
+###  Mitigation strategies
 
-{{< stub text=`How to deal with, or prevent, potential negative consequences of applying the pattern.` >}}
+To reduce the risk of negative consequences, consider these mitigations:
+
+- **Reinforce that this is a snapshot, not a contract:** Clearly signal that the manual is a living document, an evolving reflection, not a fixed identity. Encourage updates, edits, or _“reintroductions”_ as people grow or change.
+- **Prompt others to verify, not assume:** Normalize curiosity over categorization. Encourage teammates to say things like *“Is this still how you prefer to communicate?”*, rather than assuming the manual always applies.
+- **Contextualize with humility:** Frame your manual as *“This is what I’ve noticed about myself . . . so far”*. Acknowledge that others may experience you differently. This opens space for reciprocal clarity rather than defensive alignment.
+- **Name the bias, not just the pattern:** Briefly call out confirmation bias as a known risk: *“I know people tend to see what they expect --- feel free to challenge this if I show up differently.”* This helps reset expectations over time.
+- **Allow for privacy and choice:** Make it clear that no one is obligated to create or share a manual. Offer it as an invitation, not a requirement. Respect different boundaries around openness.
+- **Model constructive use:** As a team or leader, avoid using manuals in evaluation, hiring, or performance framing. Anchor them in empathy and collaboration, not accountability. Ensure the manuals are used to open dialogue, and not to box people in. Ideally, they should **never be used in performance reviews or hiring decisions**.
+- **Layer reflection over performance:** If manuals are encouraged as a team ritual, provide optional prompts or feedback mechanisms that keep the practice grounded in reflection rather than positioning.
+
 
 ## Examples
 
@@ -183,7 +220,7 @@ To mitigate the potential negative consequences of the approach:
 
 - I like layered communication: **context first, conclusion second**. ( unless I sense the reverse is needed to get my point across ).
 - I calibrate to the audience: I can go executive-brief or engineer-deep, but not both at once.
-- I ask clarifying questions to reveal assumptions or surface friction. Expect a __“Just to check...”__ or __“Help me understand...”__ as invitations, not doubts.
+- I ask clarifying questions to reveal assumptions or surface friction. Expect a _“Just to check...”_ or _“Help me understand...”_ as invitations, not doubts.
 - I’m transparent with what I know and don’t. I value mutual clarity over being right.
 
 #### What I value in others
@@ -219,9 +256,9 @@ To mitigate the potential negative consequences of the approach:
 
 #### Mantras I live by
 
-- __“First, seek to understand.”__
-- __“If it works, it’s their win. If it fails, it’s my miss.”__
-- __“Clarity before complexity. Integrity before elegance.”__
+- _“First, seek to understand.”_
+- _“If it works, it’s their win. If it fails, it’s my miss.”_
+- _“Clarity before complexity. Integrity before elegance.”_
 
 ## Criticism & Clarifications
 

@@ -262,7 +262,26 @@ To reduce the risk of negative consequences, consider these mitigations:
 
 ## Criticism & Clarifications
 
-{{< stub text=`A section to clarify or criticize the pattern, or to provide alternative viewpoints.` >}}
+### This can be weaponized
+
+{{< quote author="Skeptic #1" text=`
+I get the idea, but I worry this kind of thing is ripe for misuse. In the wrong hands, a ‘Manual of Me’ stops being a bridge and becomes a weapon. A way to judge, label, or sideline people.  
+ 
+Managers might treat it like a personality test and box you into roles. Colleagues could misread vulnerability as fragility. And let’s be honest: in low-trust cultures, it’s easy for something well-intended to turn into performative fluff or a political liability. How do we stop it from backfiring?` >}}
+
+That’s a totally fair concern. Manuals like this aren’t a {{< term name="silver bullet" title="silver bullter" >}} — and in some environments, sharing one might actually put you at risk. But even then, the exercise itself can still be worthwhile. 
+
+It helps you notice what energizes or drains you, which patterns tend to repeat, and where you might quietly shift how you show up. You don’t have to share it. Sometimes just knowing what you need, and **where you’re stretching too far**, is enough to make the next decision with more clarity. No sharing needed. No system change required.
+
+### This is just a self-indulgent exercise
+
+{{< quote author="Skeptic #2" text=`
+This feels like a self-indulgent exercise. Aren’t we just creating more noise in an already noisy world? Isn’t this just another way to make ourselves feel special or unique?
+
+Honestly, it seems like a lot of fireside _"Kumbaya"_-type stuff that doesn't really change anything. We all have our quirks and preferences, but do we really need to write them down? 
+Isn’t this just a way to avoid real work? Wouldn’t it be better to focus on the actual tasks at hand, rather than navel-gazing about how we like to work?` >}}
+
+
 
 ---
 

@@ -122,8 +122,13 @@ minimized_name = "Personality Types"
 year = "2023"
 site = "16personalities.com"
 link = "https://www.16personalities.com/personality-types"
-image = ""
+image = "mbti_personalities.webp"
 description = """
+A visually engaging and popular introduction to personality preferences, based on the MBTI framework.
+<br /><br />
+While widely used, 16Personalities leans on the **Myers-Briggs Type Indicator (MBTI)** --- a system that categorizes individuals into 16 personality “types” using four binary dimensions. The approach is accessible and often resonates with users due to its rapid process and simplified language.
+<br /><br />
+However, MBTI’s scientific underpinnings are weak: it lacks consistent empirical support, oversimplifies human behavior into rigid types, and often encourages false dichotomies. As such, this tool is **better suited for sparking self-reflection than guiding decisions or assessments**.
 """
 type = "site"
 tags = ["personality", "psychology", "assessment"]
@@ -343,4 +348,25 @@ The company behind Open Rewrite also offers a paid version with additional featu
 """
 type = "site"
 tags = ["refactoring", "code-quality", "java", "codebase", "plugin", "automation"]
+
+[[tool]]
+id = "bc207cd2-6ca3-47eb-b7ac-3401d2b16770"
+name = "The SAPA Project Personality Test"
+minimized_name = "SAPA Project"
+authors = "Condon, D. M."
+link = "https://www.sapa-project.org/"
+site = "The SAPA Project"
+year = "2018"
+image = "sapa_example.webp"
+description = """
+A free, academically grounded set of personality assessments built around the Big Five and EPS models.
+<br /><br />
+The SAPA Project offers a range of **science-based personality instruments** designed and maintained by psychologists. Its main tests are long and cognitively repetitive, but they rest on a stronger theoretical and statistical foundation than most commercial tools. The site's contents and tests focus on the Big Five traits (OCEAN) and their EPS-27 subfacet hierarchy (more granular expressions of personality).
+<br /><br />
+Rather than assign labels or types, the SAPA assessments emphasize trait distributions and nuanced tendencies. The tone is clinical, the experience is slow, and the results aim to inform rather than persuade --- no sales funnel, no typological oversimplification.
+<br /><br />
+Best suited for those who want a **deeper, non-commercial look at personality structure**, and who are willing to endure a tedious process for more rigorous insight.
+"""
+type = "site"
+tags = ["personal growth", "self-assessment", "personality"]
 

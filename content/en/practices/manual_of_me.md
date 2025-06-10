@@ -1,10 +1,13 @@
 +++
 title = "Write a 'Manual of Me'"
+subtitle = "Document your habits, communication preferences, and quirks"
 author = "Stijn Dejongh"
 problem = "Working with different people is challenging. Not every context is right for you, and not every person is easy to work with. Finding a way to collaborate effectively requires understanding your own preferences, and those of others. However, these preferences are often implicit, leading to misunderstanding and conflict."
-description = ""
+description = "The Manual of Me is a lightweight, self-authored guide to your preferred working style, communication habits, and values. It’s a reflection tool first, and optionally, a shared resource to help others understand how best to collaborate with you."
 summary = """
-Working with different people is challenging. Not every context is right for you, and not every person is easy to work with. Finding a way to collaborate effectively requires understanding your own preferences, and those of others. However, these preferences are often implicit, leading to misunderstanding and conflict.
+This is a medium-effort, high-context pattern that improves team health and adaptive collaboration — especially in distributed or fast-changing environments. Its value is disproportionately high in psychologically safe, cross-functional, and introspective cultures. It trades efficiency for clarity, and replaces informal guessing with thoughtful self-description.
+
+Done poorly, it risks becoming performative, rigid, or misused. Done well, it strengthens empathy, reflection, and system-fit for both individuals and teams.
 """
 categories = [
     "communication", "learning"
@@ -16,13 +19,13 @@ uuid="ef281403-6cde-4936-a718-c077a3bf5aef"
 aliases=["ef281403-6cde-4936-a718-c077a3bf5aef"]
 outputs = ['html', 'json']
 ammerse = [
-    {name = "agile", delta = "0", rationale = ""},
-    {name = "minimal", delta = "0", rationale = ""},
-    {name = "maintainable", delta = "0", rationale = ""},
-    {name = "environmental", delta = "0", rationale = ""},
-    {name = "reachable", delta = "0", rationale = ""},
-    {name = "solvable", delta = "0", rationale = ""},
-    {name = "extensible", delta = "0", rationale = ""}    
+    {name = "agile", delta = "0.75", rationale = "While not dynamic in execution, the manual improves adaptive collaboration. It accelerates psychological safety and realignment when team dynamics shift, new members join, or working conditions change. It enables faster convergence by reducing hidden friction."},
+    {name = "minimal", delta = "0.25", rationale = "The practice introduces documentation and cognitive overhead. Compared to informal trust-building or unstructured reflection, it is decidedly not minimal. However, this extra scaffolding serves a purpose in complex or high-friction environments."},
+    {name = "maintainable", delta = "0", rationale = " The manual is static unless actively revisited. While technically maintainable, in practice this often decays without prompts. There’s no built-in mechanism to ensure updates or revalidation."},
+    {name = "environmental", delta = "0.85", rationale = " Promotes healthier team interactions, reduces ambient stress, and improves emotional climate. Especially impactful in hybrid/remote teams or cross-cultural groups."},
+    {name = "reachable", delta = "0.35", rationale = " Requires introspection, emotional vocabulary, and some psychological safety, which may not be universally available. Still, the practice scales down if framed as private reflection rather than public declaration."},
+    {name = "solvable", delta = "0", rationale = "The practice doesn’t solve hard technical or organizational problems directly. It supports healthier functioning but is rarely transformative on its own."},
+    {name = "extensible", delta = "0.75", rationale = " Highly modular. Can be adapted to personal, team, or leadership contexts. Works as a one-pager, a facilitated ritual, or a quiet solo habit. Can integrate with onboarding, pairing, coaching, or retrospectives."}    
 ]
 related_concepts = [
     "7dfd0b45-b8e2-4ef9-90b4-e5316397f55b",
@@ -44,13 +47,18 @@ further_exploration = [
     {type="raw", author="Lee, K.; Ashton, M. C.", year="2009", title="The HEXACO Personality Inventory", site="HEXACO Personality Inventory", link="https://hexaco.org/"},
     {type="raw", author="Various Contributors", year="2025", title="Maslow's hierarchy of needs", site="Wikipedia", link="https://en.wikipedia.org/wiki/Maslow's_hierarchy_of_needs"}
 ]
-#image="practices/XXXX.webp"
+image="practices/cover_manual_of_me"
 pubdate="2025-06-06"
+tldr = [
+    {name = "strengths", text="Psychological clarity, cultural adaptability, team empathy, reflection scaffolding."},
+    {name = "cautions", text="Risk of misuse, templating, or flattening of nuance; not well-suited to high-pressure or hierarchical contexts without adaptation."},
+    {name = "best_used_as", text="A voluntary, evolving tool for people who care about how they work with others — not a policy or universal requirement."},
+]
 +++
 
 ## Problem statement
 
-Working with people is hard — not because they’re difficult, but because they’re different. We all have implicit preferences, communication habits, and stress responses that shape how we show up. Without shared context, these differences turn into friction, misunderstanding, or avoidable conflict. Without introspection, we may not even realize how others experience us.
+Working with people is hard. Not because they’re difficult, but because they’re different. We all have implicit preferences, communication habits, and stress responses that shape how we show up. Without shared context, these differences turn into friction, misunderstanding, or avoidable conflict. Without introspection, we may not even realize how others experience us.
 
 
 ## Intent
@@ -77,27 +85,27 @@ Rather than waiting for conflict or discomfort to surface your needs, the manual
 
 ### Approach to writing your manual
 
-#### Step 1 — Aggregate and Reflect
+#### Step 1: Aggregate and Reflect
 
 Begin by thinking honestly about your past experiences.
 
 * When were you most productive? What conditions helped?
 * When did things go wrong? What caused stress, conflict, or withdrawal?
-* What feedback have you received? What have others appreciated — or misunderstood — about you?
+* What feedback have you received? What have others appreciated --- or misunderstood --- about you?
 
-If you have past feedback, assessments, or coaching notes, use them as a mirror. But don’t overengineer it: memory and intuition are valid sources, too.
+If you have past feedback, assessments, or coaching notes, use them as a mirror. But don’t overengineer it: memory and intuition are valid sources, too. There are a plethora of online personality-based tests, which you can use as a starting point for your self-reflection. We suggest looking into [the International Personality Item Pool](https://ipip.ori.org) to find peer-reviewed, and science-backed, tooling.
 
 {{< warning title="Be cautious with personality tests as input" text=`
-While structured prompts can help you reflect, many popular personality or productivity tests — especially free online ones — are not scientifically grounded. Tools like MBTI, 16Personalities, Insights color wheels, Enneagram quizzes, or even _“What Pokémon are you?”_-style diagnostics may feel insightful, but they often rely on vague, flattering generalisations or untested models.
+While structured prompts can help you reflect, many popular personality or productivity tests (especially free online ones) are not scientifically grounded. Tools like MBTI, 16Personalities, Insights color wheels, Enneagram quizzes, or even _“What Pokémon are you?”_-style diagnostics may feel insightful, but they often rely on vague, flattering generalisations or untested models.
   
  These tools can be fun conversation starters, but they should not be treated as truth or used as the core structure of your manual. If you do reference them, make sure to frame them as playful metaphors, not psychological facts.
 ` >}}
 
-#### Step 2 — Identify Key Signals
+#### Step 2: Identify Key Signals
 
 Pick the elements that define how you show up at work. This might include:
 
-* **What energises you**: autonomy, clarity, praise, momentum, deep work, collaboration, etc.
+* **What energizes you**: autonomy, clarity, praise, momentum, deep work, collaboration, etc.
 * **What drains or frustrates you**: ambiguity, micromanagement, last-minute pivots, excessive meetings, etc.
 * **Communication preferences**: Do you prefer async updates or live discussions? Directness or diplomacy? Space to think or real-time dialogue?
 * **Work rhythm**: Are you most focused in the morning? Do you need recovery after social days? How do you signal “in the zone”?
@@ -108,21 +116,21 @@ You can also ask yourself:
 
 * What makes me feel respected?
 * What helps me do my best work?
-* What kinds of tension do I want to avoid — or invite?
+* What kinds of tension do I want to avoid, or invite?
 
-#### Step 3 — Clarify Core Values (Optional)
+#### Step 3: Clarify Core Values (Optional)
 
-Name the values, principles, or beliefs that guide you. You might draw inspiration from frameworks like {{< term title="needs hierarchy" title="Maslow’s hierarchy of needs" >}} or personal growth models. Common values include: `Autonomy`, `Authenticity`, `Impact`, `Clarity`, `Learning`, `Equity`, `Recognition`, `Tranquility`, `Craftsmanship`, `Service`, `Status`, `Financial Prosperity`.
+Name the values, principles, or beliefs that guide you. You might draw inspiration from frameworks like {{< term name="needs hierarchy" title="Maslow’s hierarchy of needs" >}} or personal growth models. Common values include: `Autonomy`, `Authenticity`, `Impact`, `Clarity`, `Learning`, `Equity`, `Recognition`, `Tranquility`, `Craftsmanship`, `Service`, `Status`, `Financial Prosperity`.
 
 This isn’t a branding exercise. It’s about making it easier for others to understand what matters to you, so they can meet you where you are.
 
-#### Step 4 — Choose a Format
+#### Step 4: Choose a Format
 
 Write down your manual in a format that works for you, and is easy for others to digest. The format can be anything that works for you: a document, a wiki page, a personal website, or even a slide deck. The key is to make it accessible and easy to share. The content should be structured, but not overly formal. It should feel like a conversation starter, not a rigid contract.
 
 Aim to keep it concise, ideally one page or less. Use bullet points, headings, and clear sections to make it skimmable. Avoid jargon or overly complex language. Stick to the essentials. You are not writing a biography, manifesto, or sales pitch. **You're writing to be understood, not to impress**.
 
-#### Step 5 — Add Human Touches
+#### Step 5: Add Human Touches
 
 Include quirks, rituals, or values beyond your formal role. These signals create connection and help others see the full person.
 Examples:
@@ -134,10 +142,6 @@ Examples:
 
 
 {{< tip text="Being candid doesn’t mean oversharing. Share what feels right, especially the bits that would help others support you or avoid friction." >}}
-
-### Using the manual
-
-{{< stub text=`Describe some use cases, and options to work with the manual once you have it in place. Outline this can be used as a running document, evolving along with you as you make your path in life. It can be used in a teambuilding session, or simply advertised publically.` >}}
 
 ## Contextual forces
 
@@ -170,11 +174,11 @@ The Manual of Me practice makes tacit preferences explicit, helping others engag
 
 Most interpersonal friction stems not from bad intent, but from mismatched assumptions: about what drives us, how we like to work, or what we need to feel safe and effective. By surfacing this context early, the manual offers a proactive alternative to conflict mediation, coaching escalation, or months of silent friction. It acts as a lightweight, human-readable spec for effective collaboration.
 
-For individuals, it fosters **self-awareness and psychological congruence** — acting in alignment with your needs and values. For teams, it builds **empathy, psychological safety, and cultural flexibility**, making it easier for different working styles to coexist without friction.
+For individuals, it fosters **self-awareness and psychological congruence**, acting in alignment with your needs and values. For teams, it builds **empathy, psychological safety, and cultural flexibility**, making it easier for different working styles to coexist without friction.
 
-Unlike many personality frameworks, a personal manual is not a diagnostic tool. It’s not a fixed label, but a living reflection — one that invites curiosity rather than categorisation. It gives the author agency in what they share and how, avoiding the flattening effect that models and traits can sometimes create.
+Unlike many personality frameworks, a personal manual is not a diagnostic tool. It’s not a fixed label, but a living reflection. One that invites curiosity rather than categorisation. It gives the author agency in what they share and how, avoiding the flattening effect that models and traits can sometimes create.
 
-The goal is not to reduce people to patterns. It’s to offer others a map — knowing full well that humans are more than any map can describe.
+The goal is not to reduce people to patterns. It’s to offer others a map, knowing full well that humans are more than any map can describe.
 
 ## Application
 
@@ -187,7 +191,8 @@ While the approach brings numerous benefits, it can also lead to several unexpec
 - **Confirmation bias in interpretation:** Once a colleague has read your manual, they may unconsciously filter future interactions through that lens. People are prone to start noticing behaviours that match your description while overlooking evidence to the contrary. This can reinforce outdated or simplistic views of how you work. 
 - **Misuse of vulnerability:** In low-trust or competitive environments, sharing boundaries or quirks can be misinterpreted as fragility or ammunition. Instead of empathy, it may elicit judgment or exclusion.
 - **Overemphasis on individualism:** The practice may inadvertently shift focus from team dynamics to individual quirks, leading to a culture of self-absorption rather than collective growth. It can create an expectation that everyone should have a manual, which may not be comfortable or appropriate for all team members.
-- **Labeling and flattening:** Especially in organisations already steeped in frameworks (e.g., {{< term name="MBTI" title="MBTI" >}}, DISC), manuals may be read through the lens of cognitive shortcuts. THis risks reducing individuals to a handful of traits or types.
+- **Labeling and flattening:** Especially in organisations already steeped in frameworks (e.g., {{< term name="MBTI" title="MBTI" >}}, DISC), manuals may be read through the lens of cognitive shortcuts. This risks reducing individuals to a handful of traits or types.
+- **Loss of nuance through scale:** As the practice spreads, organizations may create templates, frameworks, or checklists that erode its original intent. The result is mechanical manuals that are less honest and more sanitized. Teams might over-rely on manuals and written cues rather than practicing live dialogue or co-adaptation, reducing actual collaborative resilience.
 
 ###  Mitigation strategies
 
@@ -269,7 +274,7 @@ I get the idea, but I worry this kind of thing is ripe for misuse. In the wrong 
  
 Managers might treat it like a personality test and box you into roles. Colleagues could misread vulnerability as fragility. And let’s be honest: in low-trust cultures, it’s easy for something well-intended to turn into performative fluff or a political liability. How do we stop it from backfiring?` >}}
 
-That’s a totally fair concern. Manuals like this aren’t a {{< term name="silver bullet" title="silver bullter" >}} — and in some environments, sharing one might actually put you at risk. But even then, the exercise itself can still be worthwhile. 
+That’s a totally fair concern. Manuals like this aren’t a {{< term name="silver bullet" title="silver bullet" >}} --- and in some environments, sharing one might actually put you at risk. But even then, the exercise itself can still be worthwhile. 
 
 It helps you notice what energizes or drains you, which patterns tend to repeat, and where you might quietly shift how you show up. You don’t have to share it. Sometimes just knowing what you need, and **where you’re stretching too far**, is enough to make the next decision with more clarity. No sharing needed. No system change required.
 
@@ -281,6 +286,13 @@ This feels like a self-indulgent exercise. Aren’t we just creating more noise 
 Honestly, it seems like a lot of fireside _"Kumbaya"_-type stuff that doesn't really change anything. We all have our quirks and preferences, but do we really need to write them down? 
 Isn’t this just a way to avoid real work? Wouldn’t it be better to focus on the actual tasks at hand, rather than navel-gazing about how we like to work?` >}}
 
+There’s definitely a version of this that is performative or self-indulgent. If the Manual of Me becomes a personality branding exercise, or a way to avoid real engagement, then yes: it’s just another polished artifact adding to the noise. But that’s not what this is aiming for.
+
+The real intent here isn’t to show off quirks. The technique aims to surface friction early, before it festers into something costly. It’s not about making ourselves feel special. It’s about helping others work with us without having to guess or stumble for months.
+
+For some people, that’s just _“being professional”_. But what professionalism looks like can vary wildly across cultures, personalities, or neurotypes. Writing it down is a small act of clarity that can prevent a lot of unnecessary tension later on.
+
+And it’s not for everyone. If a team has high trust, great communication, and plenty of informal ways to learn each other’s styles --- then fine, skip the manual. But for cross-functional, remote, or fast-forming teams, it can save time, build empathy, and create space for actual work --- not replace it.
 
 
 ---

@@ -12,7 +12,7 @@ categories = [
     "productivity",
 ]
 tags = [
-    "time management", "habbits", "continuous improvement", "incremental progress", "iteration"
+    "time management", "habits", "continuous improvement", "incremental progress", "iteration"
 ]
 uuid="d27c9889-dcb4-45f4-a36c-5af7f85b6a76"
 aliases=["d27c9889-dcb4-45f4-a36c-5af7f85b6a76"]

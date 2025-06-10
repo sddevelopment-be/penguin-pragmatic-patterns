@@ -1,5 +1,5 @@
 +++
-title = "Template name"
+title = "Communication Channels Compression"
 author = "Stijn Dejongh"
 draft = true
 problem = ""
@@ -8,7 +8,7 @@ categories = [
     "software development",
 ]
 tags = [
-    "remembering", "tracking", "tracability", "log"
+    "remembering", "tracking", "traceability", "log"
 ]
 uuid="GENERATE-ME!"
 aliases=["uuid"]
@@ -27,7 +27,7 @@ related_practices = []
 
 ### Problem statement
 
-Too many communication channels leading to time wasted on context switching and information retrieval.
+Too many communication channels (Slack, email, Jira, Notion, voice, comments, docs) are used in parallel without clear conventions. The cost of context-switching and information retrieval compounds. This creates friction, silos, and decision delays.
 
 ## Intent
 > [!STUB]

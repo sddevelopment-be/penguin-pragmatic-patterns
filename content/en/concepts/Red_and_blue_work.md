@@ -9,7 +9,7 @@ categories = [
     "software development",
 ]
 tags = [
-    "remembering", "tracking", "tracability", "log"
+    "remembering", "tracking", "traceability", "log"
 ]
 uuid="ec95a389-25c7-4919-8246-dc6e7c725b5c"
 aliases=["ec95a389-25c7-4919-8246-dc6e7c725b5c"]

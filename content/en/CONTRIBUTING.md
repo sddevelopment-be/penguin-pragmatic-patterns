@@ -7,7 +7,7 @@ subtitle = "How you can help out the Pragmatic Penguin Pattern Portfolio"
 
 Thank you for taking the time to see how you can help out our project. We could use your help!
 
-Even if you are not a automation expert, you can provide meaningful input to the project.
+Even if you are not a developer, writer, or subject matter expert, you can definitely provide meaningful input to the project.
 We are appreciative of anyone willing to donate some of their time by giving user feedback, testing the information or techniques mentioned, or providing your own experiences and input.
 
 ## How can I help?
@@ -17,10 +17,11 @@ You can find the source code on [GitHub](https://github.com/sddevelopment-be/pen
 From there, you can:
 
 * Join the existing discussions on the [GitHub Discussions board](https://github.com/sddevelopment-be/penguin-pragmatic-patterns/discussions).
-* Create a new discussion by opening a new thread fron the [Pragmatic Penguin Pattern Portfolio main website](https://patterns.sddevelopment.com)
+* Create a new discussion by opening a new thread from the [Pragmatic Penguin Pattern Portfolio main website](https://patterns.sddevelopment.com) by using the built-in discussion feature.
 * Report a bug or request a feature by [opening an issue](https://github.com/sddevelopment-be/penguin-pragmatic-patterns/issues/new/choose)
 * Suggest a new pattern, idea, or learning resource by [opening an issue](https://github.com/sddevelopment-be/penguin-pragmatic-patterns/issues/new/choose)
-* Contribute code by submitting a pull request. See the [Code Contribution Guidelines](#code-contribution-guidelines) below for more information.
+* Contribute code or content by submitting a pull request. See the [Code Contribution Guidelines](#code-contribution-guidelines) below for more information.
+* Share your experiences and insights by writing a blog post or article about the patterns and techniques you find useful, or simply by referring someone who might benefit from this project.
 
 ## Ideas and Bug hunting
 

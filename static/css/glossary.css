@@ -75,14 +75,14 @@
 .glossary-inline {
     display: inline;
     position: relative;
-    cursor: pointer;
+    cursor: help;
 }
 
 .glossary-inline summary {
     display: inline;
     font-weight: bold;
     text-decoration: underline dotted;
-    cursor: pointer;
+    cursor: help;
     list-style: none;
 }
 

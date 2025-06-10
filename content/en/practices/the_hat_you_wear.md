@@ -25,6 +25,8 @@ ammerse = [
 
 ## Problem Statement
 
+Context-switching between different “roles” (e.g. developer, reviewer, mentor, planner) leads to mental noise, second-guessing, and decision paralysis.  
+
 ## Intent
 
 ## Contextual forces

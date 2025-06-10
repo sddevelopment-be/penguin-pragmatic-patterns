@@ -25,7 +25,7 @@ ammerse = [
 
 ## Problem Statement
 
-
+Automated tests without a clear purpose (a hypothesis that is being validated) risk becoming overly entangled, making them difficult to read and maintain. 
 
 ## Intent
 

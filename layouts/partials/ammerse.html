@@ -2,47 +2,34 @@
 {{ $delta := $value.delta }}
 {{ $name := $value.name }}
 {{ $rationale := $value.rationale }}
-{{ $icon := newScratch }}
-{{ $mapping := dict "agile" "A" "minimal" "Mi" "maintainable" "M" "environmental" "E" "reachable" "R" "solvable" "S" "extensible" "Ex" }}
 
-{{ $abbrev := index $mapping $name}}
+{{ $style := newScratch }}
+{{ $style.Set "color" "#4682b4" }}
 
-{{ $icon.Set "val" "fas fa-arrows-left-right"}}
-{{ $icon.Set "style" "base"}}
-{{ $icon.Set "sign" "+"}}
-{{ $icon.Set "desc" "no effect"}}
-{{ if and (ge $delta -0.25) (lt $delta -0.1) }}
-    {{ $icon.Set "val" "fas fa-arrow-trend-down"}}
-    {{ $icon.Set "style" "down"}}
-    {{ $icon.Set "sign" "-"}}
-    {{ $icon.Set "desc" "slight decrease"}}
-{{ else if and (ge $delta -0.5) (lt $delta -0.25) }}
-    {{ $icon.Set "val" "fas fa-angle-down"}}
-    {{ $icon.Set "style" "down"}}
-    {{ $icon.Set "sign" "-"}}
-    {{ $icon.Set "desc" "decrease"}}
+{{ if and (ge $delta -0.35) (lt $delta -0.1) }}
+    {{ $style.Set "color" "#f49f75" }}
+{{ else if and (ge $delta -0.5) (lt $delta -0.35) }}
+    {{ $style.Set "color" "#f24907" }}
 {{ else if (lt $delta -0.5)}}
-    {{ $icon.Set "val" "fas fa-angle-double-down"}}
-    {{ $icon.Set "style" "double-down"}}
-    {{ $icon.Set "sign" "-"}}
-    {{ $icon.Set "desc" "significant decrease"}}
-{{ else if and (gt $delta 0.1) (le $delta 0.25)}}
-    {{ $icon.Set "val" "fas fa-arrow-trend-up"}}
-    {{ $icon.Set "style" "up"}}
-    {{ $icon.Set "desc" "slight increase"}}
-{{ else if and (gt $delta 0.25) (le $delta 0.5)}}
-    {{ $icon.Set "val" "fas fa-angle-up"}}
-    {{ $icon.Set "style" "up"}}
-    {{ $icon.Set "desc" "increase"}}
-{{ $icon.Set "sign" "+"}}
+    {{ $style.Set "color" "#cd0c1a" }}
+{{ else if and (gt $delta 0.1) (le $delta 0.35)}}
+    {{ $style.Set "color" "#11758e" }}
+{{ else if and (gt $delta 0.35) (le $delta 0.5)}}
+    {{ $style.Set "color" "#0786a6" }}
 {{ else if (gt $delta 0.5)}}
-    {{ $icon.Set "val" "fas fa-angle-double-up"}}
-    {{ $icon.Set "style" "double-up"}}
-    {{ $icon.Set "sign" "+"}}
-    {{ $icon.Set "desc" "significant increase"}}
+    {{ $style.Set "color" "#3fb0cc" }}
 {{ end }}
 
-{{ $desc := (printf "%s\n%s" ($icon.Get "desc") $rationale ) }}
-{{ $icon.Set "desc" $desc}}
-
-<span class='ammerse-value {{$icon.Get "style"}}' title='{{ $value.name | humanize}}: {{ $icon.Get "desc" }}'>{{$abbrev}}: <i class='{{$icon.Get "val"}}'></i></span>
+<div class="ammerse-item">
+    <div class="ammerse-bar-row">
+        <div class="ammerse-label">{{ $name | humanize}}</div>
+        <div class="ammerse-bar-wrapper" style="--overlay: ' {{$delta}}';">
+            <div class="ammerse-bar" style="--delta: {{$delta}}; --color: {{$style.Get "color" }};" ></div>
+        </div>
+    </div>
+    <div class="ammerse-bar-info">
+        <div class="ammerse-description">
+            {{ $rationale| humanize}}
+        </div>
+    </div>
+</div>

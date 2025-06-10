@@ -25,7 +25,11 @@ ammerse = [
 
 ## Problem Statement
 
+People tend to fall into the same roles in meetings, often causing the same sub-group to dominate the proceedings. This leads to a lack of diversity in perspectives and ideas, and risks creating a culture of disengagement among those who are not in the dominant group.
+
 ## Intent
+
+Rotating roles (note-taker, facilitator, devil’s advocate, timekeeper) invites new perspectives, distributes engagement, and improves group dynamics.
 
 ## Contextual forces
 These describe factors at play that influence the outcome of the practice. They are not necessarily good or bad, but they are important to be aware of.

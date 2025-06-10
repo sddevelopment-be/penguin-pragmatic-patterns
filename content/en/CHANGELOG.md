@@ -38,7 +38,7 @@ Any feedback or suggestions for changes can be submitted there.
   * Include `term` shortcode
   * Add custom CSS for glossary references
 * Added new optional "Criticism & Clarifications" section to some patterns
-* Added `Review template` to the github repository, to facilitate the review of patterns and suggestions
+* Added `Review template` to the GitHub repository, to facilitate the review of patterns and suggestions
 * Added two additional resources on personality tests to the 'Tools' section
 
 ### Changed

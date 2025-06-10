@@ -7,7 +7,7 @@ subtitle = "How you can help out the Pragmatic Penguin Pattern Portfolio"
 
 Thank you for taking the time to see how you can help out our project. We could use your help!
 
-Even if you are not a developer, writer, or subject matter expert, you can definetly provide meaningful input to the project.
+Even if you are not a developer, writer, or subject matter expert, you can definitely provide meaningful input to the project.
 We are appreciative of anyone willing to donate some of their time by giving user feedback, testing the information or techniques mentioned, or providing your own experiences and input.
 
 ## How can I help?

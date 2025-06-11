@@ -1,7 +1,7 @@
 ![./static/images/logos/pp_open-learning.png](/static/images/logos/pp_open-learning.png)
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-7-orange.svg?style=flat-square)](#contributors-)
+[![All Contributors](https://img.shields.io/badge/all_contributors-8-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Deploy Hugo site to Github Pages](https://github.com/sddevelopment-be/penguin-pragmatic-patterns/actions/workflows/hugo.yml/badge.svg?branch=develop)](https://github.com/sddevelopment-be/penguin-pragmatic-patterns/actions/workflows/hugo.yml)
@@ -75,6 +75,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
       <td align="center" valign="top" width="14.28%"><a href="http://sch3lp.github.io"><img src="https://avatars.githubusercontent.com/u/648703?v=4?s=100" width="100px;" alt="Tim Schraepen"/><br /><sub><b>Tim Schraepen</b></sub></a><br /><a href="https://github.com/sddevelopment-be/penguin-pragmatic-patterns/commits?author=Sch3lp" title="Code">💻</a> <a href="https://github.com/sddevelopment-be/penguin-pragmatic-patterns/commits?author=Sch3lp" title="Documentation">📖</a> <a href="#ideas-Sch3lp" title="Ideas, Planning, & Feedback">🤔</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/Vankerkom"><img src="https://avatars.githubusercontent.com/u/16082198?v=4?s=100" width="100px;" alt="Daan Vankerkom"/><br /><sub><b>Daan Vankerkom</b></sub></a><br /><a href="#design-Vankerkom" title="Design">🎨</a> <a href="https://github.com/sddevelopment-be/penguin-pragmatic-patterns/pulls?q=is%3Apr+reviewed-by%3AVankerkom" title="Reviewed Pull Requests">👀</a></td>
       <td align="center" valign="top" width="14.28%"><a href="https://github.com/S2ophia"><img src="https://avatars.githubusercontent.com/u/178637045?v=4?s=100" width="100px;" alt="S2ophia"/><br /><sub><b>S2ophia</b></sub></a><br /><a href="https://github.com/sddevelopment-be/penguin-pragmatic-patterns/pulls?q=is%3Apr+reviewed-by%3AS2ophia" title="Reviewed Pull Requests">👀</a> <a href="#ideas-S2ophia" title="Ideas, Planning, & Feedback">🤔</a></td>
+    </tr>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/maarten2000ha"><img src="https://avatars.githubusercontent.com/u/44111556?v=4?s=100" width="100px;" alt="Maarten Hanssen"/><br /><sub><b>Maarten Hanssen</b></sub></a><br /><a href="#ideas-maarten2000ha" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/sddevelopment-be/penguin-pragmatic-patterns/commits?author=maarten2000ha" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>

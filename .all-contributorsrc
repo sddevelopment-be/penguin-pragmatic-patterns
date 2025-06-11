@@ -76,6 +76,16 @@
         "review",
         "ideas"
       ]
+    },
+    {
+      "login": "maarten2000ha",
+      "name": "Maarten Hanssen",
+      "avatar_url": "https://avatars.githubusercontent.com/u/44111556?v=4",
+      "profile": "https://github.com/maarten2000ha",
+      "contributions": [
+        "ideas",
+        "doc"
+      ]
     }
   ],
   "contributorsPerLine": 7,

@@ -1,0 +1,380 @@
+{
+  "name": "feelings",
+  "children": [
+    {
+      "name": "OKAY",
+      "children": [
+        {
+          "name": "Affectionate",
+          "children": [
+            { "name": "compassionate", "value": 1 },
+            { "name": "friendly",  "value": 1 },
+            { "name": "loving",  "value": 1 },
+            { "name": "open-hearted",  "value": 1 },
+            { "name": "sympathetic",  "value": 1 },
+            { "name": "tender",  "value": 1 },
+            { "name": "warm",  "value": 1 }
+          ]
+        },
+        {
+          "name": "Engaged",
+          "children": [
+            { "name": "absorbed",  "value": 1 },
+            { "name": "alert",  "value": 1 },
+            { "name": "curious",  "value": 1 },
+            { "name": "engrossed",  "value": 1 },
+            { "name": "enchanted",  "value": 1 },
+            { "name": "entranced",  "value": 1 },
+            { "name": "fascinated",  "value": 1 },
+            { "name": "interested",  "value": 1 },
+            { "name": "intrigued",  "value": 1 },
+            { "name": "involved",  "value": 1 },
+            { "name": "spellbound",  "value": 1 },
+            { "name": "stimulated",  "value": 1 }
+          ]
+        },
+        {
+          "name": "Hopeful",
+          "children": [
+            { "name": "expectant",  "value": 1 },
+            { "name": "encouraged",  "value": 1 },
+            { "name": "optimistic",  "value": 1 },
+            { "name": "positive",  "value": 1 },
+            { "name": "receptive",  "value": 1 }
+          ]
+        },
+        {
+          "name": "Confident",
+          "children": [
+            { "name": "empowered",  "value": 1 },
+            { "name": "open",  "value": 1 },
+            { "name": "proud",  "value": 1 },
+            { "name": "safe",  "value": 1 },
+            { "name": "secure",  "value": 1 }
+          ]
+        },
+        {
+          "name": "Excited",
+          "children": [
+            { "name": "amazed",  "value": 1 },
+            { "name": "ardent",  "value": 1 },
+            { "name": "energetic",  "value": 1 },
+            { "name": "enthusiastic",  "value": 1 },
+            { "name": "exhilarated",  "value": 1 },
+            { "name": "lively",  "value": 1 },
+            { "name": "passionate",  "value": 1 },
+            { "name": "surprised",  "value": 1 },
+            { "name": "vibrant",  "value": 1 }
+          ]
+        },
+        {
+          "name": "Grateful",
+          "children": [
+            { "name": "appreciative",  "value": 1 },
+            { "name": "moved",  "value": 1 },
+            { "name": "thankful",  "value": 1 },
+            { "name": "touched",  "value": 1 },
+            { "name": "blessed",  "value": 1 },
+            { "name": "gracious",  "value": 1 }
+          ]
+        },
+        {
+          "name": "Serene",
+          "children": [
+            { "name": "calm", "value": 1 },
+            { "name": "tranquil", "value": 1 },
+            { "name": "peaceful", "value": 1 },
+            { "name": "untroubled", "value": 1 },
+            { "name": "at ease", "value": 1 },
+            { "name": "comfortable", "value": 1 }
+          ]
+        },
+        {
+          "name": "Inspired",
+          "children": [
+            { "name": "amazed",  "value": 1 },
+            { "name": "awed",  "value": 1 },
+            { "name": "wonder",  "value": 1 },
+            { "name": "elevated",  "value": 1 },
+            { "name": "liberated",  "value": 1 },
+            { "name": "refreshed",  "value": 1 },
+            { "name": "stimulated",  "value": 1 },
+            { "name": "creative",  "value": 1 }
+          ]
+        },
+        {
+          "name": "Eager",
+          "children": [
+            { "name": "enthusiastic", "value": 1 },
+            { "name": "keen", "value": 1 },
+            { "name": "ready", "value": 1 },
+            { "name": "willing", "value": 1 },
+            { "name": "sharp", "value": 1 },
+            { "name": "prepared", "value": 1 }
+          ]
+        },
+        {
+          "name": "Joyful",
+          "children": [
+            { "name": "amused",  "value": 1 },
+            { "name": "delighted",  "value": 1 },
+            { "name": "glad",  "value": 1 },
+            { "name": "happy",  "value": 1 },
+            { "name": "jubilant",  "value": 1 },
+            { "name": "pleased",  "value": 1 },
+            { "name": "tickled",  "value": 1 },
+            { "name": "elated", "value": 1 }
+          ]
+        },
+        {
+          "name": "Playful",
+          "children": [
+            { "name": "fun", "value": 1 },
+            { "name": "silly", "value": 1 },
+            { "name": "lighthearted", "value": 1 },
+            { "name": "spontaneous", "value": 1 },
+            { "name": "cheerful", "value": 1 },
+            { "name": "giddy", "value": 1 },
+            { "name": "jovial", "value": 1 },
+            { "name": "jocular", "value": 1 }
+          ]
+        },
+        {
+          "name": "Peaceful",
+          "children": [
+            { "name": "calm",  "value": 1 },
+            { "name": "clear-headed",  "value": 1 },
+            { "name": "comfortable",  "value": 1 },
+            { "name": "centered",  "value": 1 },
+            { "name": "content",  "value": 1 },
+            { "name": "equanimous",  "value": 1 },
+            { "name": "fulfilled",  "value": 1 },
+            { "name": "mellow",  "value": 1 },
+            { "name": "quiet",  "value": 1 },
+            { "name": "relaxed",  "value": 1 },
+            { "name": "relieved",  "value": 1 },
+            { "name": "satisfied",  "value": 1 },
+            { "name": "trusting",  "value": 1 }
+          ]
+        },
+        {
+          "name": "Refreshed",
+          "children": [
+            { "name": "enlivened",  "value": 1 },
+            { "name": "rejuvenated",  "value": 1 },
+            { "name": "renewed",  "value": 1 },
+            { "name": "rested",  "value": 1 },
+            { "name": "restored",  "value": 1 },
+            { "name": "revived",  "value": 1 }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "NOT OKAY",
+      "children": [
+        {
+          "name": "Afraid",
+          "children": [
+            { "name": "apprehensive", "value": 1 },
+            { "name": "dread", "value":  1 },
+            { "name": "foreboding", "value":  1 },
+            { "name": "frightened", "value":  1 },
+            { "name": "mistrustful", "value":  1 },
+            { "name": "nervous", "value":  1 },
+            { "name": "panicked", "value":  1 },
+            { "name": "petrified", "value":  1 },
+            { "name": "scared", "value":  1 },
+            { "name": "suspicious", "value":  1 },
+            { "name": "terrified", "value":  1 },
+            { "name": "uneasy", "value":  1 },
+            { "name": "worried", "value":  1 }
+          ]
+        },
+        {
+          "name": "Annoyed",
+          "children": [
+            { "name": "aggravated", "value":  1 },
+            { "name": "dismayed", "value":  1 },
+            { "name": "disgruntled", "value":  1 },
+            { "name": "displeased", "value":  1 },
+            { "name": "exasperated", "value":  1 },
+            { "name": "frustrated", "value":  1 },
+            { "name": "impatient", "value":  1 },
+            { "name": "irritated", "value":  1 },
+            { "name": "irked", "value":  1 }
+          ]
+        },
+        {
+          "name": "Angry",
+          "children": [
+            { "name": "enraged", "value":  1 },
+            { "name": "furious", "value":  1 },
+            { "name": "incensed", "value":  1 },
+            { "name": "indignant", "value":  1 },
+            { "name": "irate", "value":  1 },
+            { "name": "livid", "value":  1 },
+            { "name": "outraged", "value":  1 },
+            { "name": "resentful", "value":  1 },
+            { "name": "vindictive", "value":  1 },
+            { "name": "wrathful", "value":  1 }
+          ]
+        },
+        {
+          "name": "Aversion",
+          "children": [
+            { "name": "animosity", "value":  1 },
+            { "name": "appalled", "value":  1 },
+            { "name": "contempt", "value":  1 },
+            { "name": "disgusted", "value":  1 },
+            { "name": "dislike", "value":  1 },
+            { "name": "hate", "value":  1 },
+            { "name": "horrified", "value":  1 },
+            { "name": "hostile", "value":  1 },
+            { "name": "repulsed", "value":  1 }
+          ]
+        },
+        {
+          "name": "Confused",
+          "children": [
+            { "name": "ambivalent", "value":  1 },
+            { "name": "baffled", "value":  1 },
+            { "name": "bewildered", "value":  1 },
+            { "name": "dazed", "value":  1 },
+            { "name": "hesitant", "value":  1 },
+            { "name": "lost", "value":  1 },
+            { "name": "mystified", "value":  1 },
+            { "name": "perplexed", "value":  1 },
+            { "name": "puzzled", "value":  1 },
+            { "name": "torn", "value":  1 }
+          ]
+        },
+        {
+          "name": "Disconnected",
+          "children": [
+            { "name": "aloof", "value":  1 },
+            { "name": "apathetic", "value":  1 },
+            { "name": "bored", "value":  1 },
+            { "name": "cold", "value":  1 },
+            { "name": "detached", "value":  1 },
+            { "name": "distant", "value":  1 },
+            { "name": "distracted", "value":  1 },
+            { "name": "indifferent", "value":  1 },
+            { "name": "numb", "value":  1 },
+            { "name": "removed", "value":  1 },
+            { "name": "uninterested", "value":  1 },
+            { "name": "withdrawn", "value":  1 }
+          ]
+        },
+        {
+          "name": "Disquiet",
+          "children": [
+            { "name": "agitated", "value":  1 },
+            { "name": "alarmed", "value":  1 },
+            { "name": "discombobulated", "value":  1 },
+            { "name": "disconcerted", "value":  1 },
+            { "name": "disturbed", "value":  1 },
+            { "name": "perturbed", "value":  1 },
+            { "name": "rattled", "value":  1 },
+            { "name": "restless", "value":  1 },
+            { "name": "shocked", "value":  1 },
+            { "name": "startled", "value":  1 },
+            { "name": "surprised", "value":  1 },
+            { "name": "troubled", "value":  1 },
+            { "name": "turbulent", "value":  1 },
+            { "name": "unsettled", "value":  1 },
+            { "name": "upset", "value":  1 }
+          ]
+        },
+        {
+          "name": "Embarrassed",
+          "children": [
+            { "name": "ashamed", "value":  1 },
+            { "name": "chagrined", "value":  1 },
+            { "name": "flustered", "value":  1 },
+            { "name": "guilty", "value":  1 },
+            { "name": "mortified", "value":  1 },
+            { "name": "self-conscious", "value":  1 }
+          ]
+        },
+        {
+          "name": "Fatigue",
+          "children": [
+            { "name": "beat", "value":  1 },
+            { "name": "burnt out", "value":  1 },
+            { "name": "depleted", "value":  1 },
+            { "name": "exhausted", "value":  1 },
+            { "name": "lethargic", "value":  1 },
+            { "name": "listless", "value":  1 },
+            { "name": "sleepy", "value":  1 },
+            { "name": "tired", "value":  1 },
+            { "name": "weary", "value":  1 },
+            { "name": "worn out", "value":  1 }
+          ]
+        },
+        {
+          "name": "Pain",
+          "children": [
+            { "name": "agony", "value":  1 },
+            { "name": "anguished", "value":  1 },
+            { "name": "bereaved", "value":  1 },
+            { "name": "devastated", "value":  1 },
+            { "name": "grief", "value":  1 },
+            { "name": "heartbroken", "value":  1 },
+            { "name": "hurt", "value":  1 },
+            { "name": "lonely", "value":  1 },
+            { "name": "miserable", "value":  1 },
+            { "name": "regretful", "value":  1 },
+            { "name": "remorseful", "value":  1 },
+            { "name": "sad", "value":  1 },
+            { "name": "sorrowful", "value":  1 },
+            { "name": "unhappy", "value":  1 },
+            { "name": "wretched", "value":  1 },
+            { "name": "disappointed", "value": 1 },
+            { "name": "discouraged", "value": 1 }
+          ]
+        },
+        {
+          "name": "Tense",
+          "children": [
+            { "name": "anxious", "value":  1 },
+            { "name": "cranky", "value":  1 },
+            { "name": "distraught", "value":  1 },
+            { "name": "distressed", "value":  1 },
+            { "name": "edgy", "value":  1 },
+            { "name": "fidgety", "value":  1 },
+            { "name": "frazzled", "value":  1 },
+            { "name": "overwhelmed", "value":  1 },
+            { "name": "restless", "value":  1 },
+            { "name": "stressed", "value":  1 },
+            { "name": "troubled", "value":  1 }
+          ]
+        },
+        {
+          "name": "Vulnerable",
+          "children": [
+            { "name": "fragile", "value":  1 },
+            { "name": "guarded", "value":  1 },
+            { "name": "helpless", "value":  1 },
+            { "name": "insecure", "value":  1 },
+            { "name": "leery", "value":  1 },
+            { "name": "reserved", "value":  1 },
+            { "name": "sensitive", "value":  1 },
+            { "name": "shaky", "value":  1 }
+          ]
+        },
+        {
+          "name": "Yearning",
+          "children": [
+            { "name": "envious", "value":  1 },
+            { "name": "jealous", "value":  1 },
+            { "name": "longing", "value":  1 },
+            { "name": "nostalgic", "value":  1 },
+            { "name": "pining", "value":  1 },
+            { "name": "wistful", "value":  1 }
+          ]
+        }
+      ]
+    }
+  ]
+}

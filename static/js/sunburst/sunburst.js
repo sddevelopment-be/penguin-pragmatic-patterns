@@ -1,24 +1,32 @@
-{{ $data := .data }}
-<div id="chart" style="max-width: 860px; margin: auto; clear: both;"></div>
-<script type="module">
-
-    import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
-
-    // var data = await d3.json("/data/flare.json");
-    const data = await d3.json({{ $data }});
-    if (!data) {
-        throw new Error("Failed to load data");
-    } else {
-        console.log("Data loaded!");
-    }
-
-    // Specify the chart’s dimensions.
-    const width = 860;
-    const height = width;
-    const radius = width / 6;
+// Copyright 2021-2023 Observable, Inc.
+// Released under the ISC license.
+// https://observablehq.com/@d3/sunburst
+function sunburst(data, { // data is either tabular (array of objects) or hierarchy (nested objects)
+    id = Array.isArray(data) ? d => d.id : null, // if tabular data, given a d in data, returns a unique identifier (string)
+    parentId = Array.isArray(data) ? d => d.parentId : null, // if tabular data, given a node d, returns its parent’s identifier
+    children, // if hierarchical data, given a d in data, returns its children
+    value, // given a node d, returns a quantitative value (for area encoding; null for count)
+    sort = (a, b) => d3.descending(a.value, b.value), // how to sort nodes prior to layout
+    title, // given a node d, returns its hover text
+    link, // given a node d, its link (if any)
+    linkTarget = "_blank", // the target attribute for links (if any)
+    width = 928, // outer width, in pixels
+    height = 928, // outer height, in pixels
+    margin = 1, // shorthand for margins
+    marginTop = margin, // top margin, in pixels
+    marginRight = margin, // right margin, in pixels
+    marginBottom = margin, // bottom margin, in pixels
+    marginLeft = margin, // left margin, in pixels
+    padding = 1, // separation between arcs
+    startAngle = 0, // the starting angle for the sunburst
+    endAngle = 2 * Math.PI, // the ending angle for the sunburst
+    radius = Math.min(width - marginLeft - marginRight, height - marginTop - marginBottom) / 2, // outer radius
+    fill = "#ccc", // fill for arcs (if no color encoding)
+    fillOpacity = 0.6, // fill opacity for arcs
+} = {}) {
 
     // Create the color scale.
-    const color = d3.scaleOrdinal(d3.quantize(d3.interpolateRainbow, data.children[1].children.length + 1));
+    const color = d3.scaleOrdinal(d3.quantize(d3.interpolateRainbow, data.children.length + 1));
 
     // Compute the layout.
     const hierarchy = d3.hierarchy(data)
@@ -41,16 +49,17 @@
     // Create the SVG container.
     const svg = d3.create("svg")
         .attr("viewBox", [-width / 2, -height / 2, width, width])
-        .style("font", "18px D-DIN, sans-serif")
-        .style("font-weight", "500")
-    ;
+        .style("font", "10px sans-serif");
 
     // Append the arcs.
     const path = svg.append("g")
         .selectAll("path")
         .data(root.descendants().slice(1))
         .join("path")
-        .attr("fill", d => { while (d.depth > 2) d = d.parent; return color(d.data.name); })
+        .attr("fill", d => {
+            while (d.depth > 1) d = d.parent;
+            return color(d.data.name);
+        })
         .attr("fill-opacity", d => arcVisible(d.current) ? (d.children ? 0.6 : 0.4) : 0)
         .attr("pointer-events", d => arcVisible(d.current) ? "auto" : "none")
         .attr("d", d => arc(d.current));
@@ -104,7 +113,7 @@
                 const i = d3.interpolate(d.current, d.target);
                 return t => d.current = i(t);
             })
-            .filter(function(d) {
+            .filter(function (d) {
                 return +this.getAttribute("fill-opacity") || arcVisible(d.target);
             })
             .attr("fill-opacity", d => arcVisible(d.target) ? (d.children ? 0.6 : 0.4) : 0)
@@ -112,7 +121,7 @@
 
             .attrTween("d", d => () => arc(d.current));
 
-        label.filter(function(d) {
+        label.filter(function (d) {
             return +this.getAttribute("fill-opacity") || labelVisible(d.target);
         }).transition(t)
             .attr("fill-opacity", d => +labelVisible(d.target))
@@ -133,5 +142,8 @@
         return `rotate(${x - 90}) translate(${y},0) rotate(${x < 180 ? 0 : 180})`;
     }
 
-    document.getElementById("chart").appendChild(svg.node());
-</script>
+    return svg.node();
+}
+
+// Optional global for non-module usage
+if (typeof window !== "undefined") window.sunburst = sunburst;

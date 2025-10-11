@@ -1,0 +1,22 @@
+{{ define "main" }}
+{{ partial "navbar.html" . }}
+{{ partial "navbar-clone.html" . }}
+
+{{ partial "title-section.html" . }}
+
+<section class="section is-medium">
+
+    <div class="container">]
+        <div class="content">
+            {{ .Content }}
+        </div>
+    </div>
+
+    {{ partial "sunburst.html" (dict "context" . "data" "/data/feelings.json") }}
+</section>
+
+{{ if .Site.Params.footer }}
+    {{ partial "footer.html" . }}
+{{ end }}
+
+{{ end }}

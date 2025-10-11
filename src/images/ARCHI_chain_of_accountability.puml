@@ -93,6 +93,7 @@ rectangle "content" <<content>>{
   Rel_Realization_Right(dev_team, result, "Accountable for")
   Rel_Realization_Right(ops_team, rollout, "Accountable for")
   Rel_Realization_Right(ops_team, afterCare, "Accountable for")
+
 }
 
 

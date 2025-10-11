@@ -55,4 +55,5 @@ A -> B: "Hey mom. Could you bring the cake by the house in a couple of hours? Th
 B -> A <<reply>>: "What cake? I told you I was too busy to be baking this week. You're a grown man, clean up your own messes."
 A -> B: "Gee... Thanks for nothing, I guess."
 note over A, B: Alex hangs up angrily
+
 @enduml

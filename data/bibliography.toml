@@ -11,16 +11,14 @@ image = "prag_prog_20.webp"
 year = "2019"
 link = "https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/"
 description = """
-Widely regarded as one of the finest books on software development, 'The Pragmatic Programmer'
-by Andy Hunt and Dave Thomas offers invaluable insights into their approach to software development.
-Presented in a highly practical, down-to-earth, and conversational style,
-this revised classic is a must-read for anyone involved in software development.
+Widely regarded as one of the definitive books on software development, _The Pragmatic Programmer_
+by Andy Hunt and Dave Thomas distills decades of pragmatic software craftsmanship.
+Presented in an approachable, conversational style, this revised edition remains essential reading for developers at any stage.
 <br /><br />
-The book covers a wide range of topics, from coding techniques and project management to software architecture and best practices.
-It provides actionable advice and timeless wisdom that empowers developers to write elegant,
-maintainable code and become more effective in their work (as well as maintain their sanity while doing so).
+The authors span coding techniques, architecture, project management, and career habits, weaving actionable advice with memorable anecdotes.
+Their guidance helps developers deliver elegant, maintainable code while staying adaptable—and keeping their sanity intact.
 """
-levels = ["intermediate", "mixed"]
+levels = ["Intermediate level", "Mixed"]
 tags = ["mindset", "organizing", "corporate", "readability"]
 
 [[book]]
@@ -36,12 +34,11 @@ location = ""
 image = "apprent_patterns.webp"
 link = "https://www.oreilly.com/library/view/apprenticeship-patterns/9780596806842/"
 description = """
-For individuals transitioning to new teams or roles, Apprenticeship Patterns offers invaluable advice. In this book, the authors provide practical
-guidance on seamlessly and efficiently integrating into a new work environment. The book's unique structure presents these insights in the form of a
-pattern list, each offering actionable advice. One particularly memorable pattern, 'Sweep the Floor,' underscores the importance of performing the '
-grunt work' to be of immediate value to a team.
+Perfect for developers moving into new teams or roles, _Apprenticeship Patterns_ offers practical guidance on integrating quickly and contributing meaningfully.
+The authors package each lesson as a named pattern, complete with suggested actions and reflection prompts.
+One memorable example, "Sweep the Floor," encourages craftspeople to tackle humble work early so they can earn trust and accelerate their learning.
 """
-levels = ["novice", "reference"]
+levels = ["Novice-friendly", "Reference / Comprehensive Guides"]
 tags = ["team dynamics", "directed learning"]
 
 [[book]]
@@ -57,12 +54,11 @@ year = "2011"
 link = "https://pragprog.com/titles/jcdeg/new-programmer-s-survival-manual/"
 image = "survival_manual.webp"
 description = """
-In "New Programmer's Survival Manual," the author addresses critical questions in the software development field:
-How can you effectively steer your career in this dynamic industry? And how can you ensure you're recognized and not overlooked for promotions,
-especially when you possess substantial technical expertise? Carter offers insights into the often-overlooked non-technical aspects of corporate culture.
-The book provides valuable guidance on seizing control of your career trajectory, equipping readers with tools to thrive and advance in the software development world.
+_New Programmer's Survival Manual_ tackles the questions junior developers face when they land their first professional role.
+Carter explains how to build credibility, get oriented in unfamiliar environments, and avoid common corporate-culture traps.
+Practical advice on communication, learning plans, and career stewardship helps readers chart deliberate growth from the start.
 """
-levels = ["novice"]
+levels = ["Novice-friendly"]
 tags = ["career", "corporate"]
 
 [[book]]
@@ -78,19 +74,18 @@ year = "2004"
 link = "https://www.goodreads.com/book/show/36072.The_7_Habits_of_Highly_Effective_People"
 image = "covey_habbits.webp"
 description = """
-A revered classic in the realms of both software development and management, Stephen R. Covey's book delves into the transformative power of
-effective habits. Covey introduces readers to a set of values and practices that promote mindful time management. He explores the art of personal
-management systems, the significance of mastering the skill of saying "no," and the profound notion that "saying yes to something means saying no to
-something else." Covey's book invites the reader to introspection, encouraging them to reflect on their desired self and guiding them toward
-tangible steps to achieve personal growth and effectiveness.
+Stephen R. Covey's enduring classic examines seven habits that compound into personal and professional effectiveness.
+He highlights mindful time management, intentional trade-offs, and proactive planning that keep commitments aligned with values.
+Reflection prompts encourage readers to define who they want to become and translate insight into everyday habits.
 """
-levels = ["mixed", "novice", "intermediate"]
+levels = ["Mixed", "Novice-friendly", "Intermediate level"]
 tags = ["productivity", "goals", "prioritization", "time management", "organizing"]
 
 [[book]]
 id = "8e75b108-2be2-463a-9b05-7a386943a31a"
 title = "Practices of an Agile Developer"
-minimized_title = "Practices of an Agile Developer"
+subtitle = "Working in the Real World"
+minimized_title = "Practices of an Agile Developer: Working in the Real World"
 isbn = "978-0974514086"
 authors = "Subramaniam, V.; Hunt, A."
 publisher = "Pragmatic Bookshelf"
@@ -99,14 +94,11 @@ year = "2006"
 link = "https://pragprog.com/titles/pad/practices-of-an-agile-developer/"
 image = "agile_dev_venkat.webp"
 description = """
-In "Practices of an Agile Developer," authors Dr. Venkat Subramaniam and Mr. Andy Hunt offer readers a unique perspective on Agile development.
-Unlike many other books on the subject, this book delves into the complexities of working within a corporate environment. Drawing from their personal experiences,
-Subramaniam and Hunt provide a series of candid, and at times, challenging pieces of advice.
-<br /><br />
-Through their insights, readers gain a deeper understanding of the Agile mindset and are inspired to excel within the constraints of their circumstances.
-This book not only offers valuable practical advice but also encourages individuals to strive for excellence in the ever-evolving world of software development.
+Venkat Subramaniam and Andy Hunt distill pragmatic habits for thriving on agile teams that ship inside real-world organisations.
+Each short practice pairs a warning sign with a concrete remedy, helping teams balance craft, collaboration, and delivery pressure.
+The authors emphasise communication, iteration discipline, and continuous learning so developers stay effective when constraints mount.
 """
-levels = ["intermediate", "niche"]
+levels = ["Intermediate level", "Specialized / Niche"]
 tags = ["productivity", "corporate"]
 
 [[book]]
@@ -121,16 +113,11 @@ year = "2016"
 link = "https://www.goodreads.com/book/show/27036528-ego-is-the-enemy"
 image = "ego_enemy.webp"
 description = """
-In _"Ego Is the Enemy"_, Holiday presents a contemporary exploration of Stoic principles, emphasizing the importance of authenticity and resilience
-when faced with adversity. He weaves a compelling narrative by drawing on the stories of historical figures to illustrate how unchecked success
-can corrupt one's character.
-<br /><br />
-The book is a mix of inspirational success stories and cautionary tales, offering readers a fresh perspective on their own decisions. After reading
-Ego Is the Enemy, individuals are encouraged to reflect on a fundamental question: "Do I aspire to do something meaningful, or do I seek to be
-important?" This thought-provoking book challenges readers to examine their ambitions and the role of ego in their pursuit of success and
-fulfilment.
+_Ego Is the Enemy_ translates Stoic principles into modern stories about ambition, humility, and resilience.
+Holiday draws from historical and contemporary case studies to show how unchecked ego can derail careers, teams, and personal growth.
+The blend of inspiration and cautionary tales invites readers to ask whether they want to do something meaningful or simply be seen as important.
 """
-levels = ["novice"]
+levels = ["Novice-friendly"]
 tags = ["mindset", "philosophy", "reflection"]
 
 [[book]]
@@ -146,10 +133,11 @@ year = "2015"
 link = "https://www.goodreads.com/book/show/22573850-getting-things-done"
 image = "gtd.webp"
 description = """
-A no-nonsense approach to take control of your time. Allen shares his tips to keep focussed on what is important to you,
-emphasises the need for a system you can trust, and empowers you to implement a way of organizing your life and commitments that fits your preferences.
+_Getting Things Done_ outlines David Allen's trusted workflow for capturing commitments and creating mental space.
+He shows how to collect open loops, clarify work into outcomes and next actions, and review regularly to stay aligned.
+The method helps readers reduce stress, focus on meaningful priorities, and tailor a system that fits their context.
 """
-levels = ["novice"]
+levels = ["Novice-friendly"]
 tags = ["productivity", "prioritization", "goals", "organizing"]
 
 [[book]]
@@ -165,12 +153,11 @@ year = "2008"
 link = "https://pragprog.com/titles/ahptl/pragmatic-thinking-and-learning/"
 image = "prag_thinking.webp"
 description = """
-Dive into your own brain and learn about efficient learning. Hunt discusses various techniques that have helped him stay
-on top of his game over a career spanning decades. As a professional, your main weapon is your ability to learn.
-Unfortunately, many of us are left to our own devices in figuring out which approaches work well for us.
-This book helps by providing a plethora of time-proven learning techniques and tools to discover your own preferences.
+_Pragmatic Thinking and Learning_ examines how developers can harness the way their brains absorb and apply new ideas.
+Andy Hunt shares techniques from decades of practice—ranging from deliberate experimentation to reflective journalling—to keep skills sharp.
+It treats learning as the professional's main tool, encouraging readers to tailor habits and discover systems that fit their own preferences.
 """
-levels = ["novice"]
+levels = ["Novice-friendly"]
 tags = ["mindset", "directed learning", "reflection", "efficiency", "prioritization"]
 
 [[book]]
@@ -179,18 +166,18 @@ title = "Nonviolent Communication"
 subtitle = "A Language of Life"
 minimized_title = "Nonviolent Communication: A Language of Life"
 isbn = "978-1892005281"
-authors = "Rosenberg, M.B."
+authors = "Rosenberg, M. B."
 publisher = "PuddleDancer Press"
 location = ""
 year = "2015"
 link = "https://www.goodreads.com/book/show/25073935-nonviolent-communication"
 image = "nvc.webp"
 description = """
-Rosenberg teaches how to talk to others in an empathetic way. But above else, he shows the need for compasionate self-talk, and deep understanding of our own desires and needs.
-While his verbal forms sound a bit artificial and forced, after some practise, you will be able to include the non-violent style of communication in your own relationships.
-After all, what is the use in conversing if not to understand each other.
+_Nonviolent Communication_ teaches empathic dialogue that surfaces needs without judgement or blame.
+Rosenberg encourages beginning with compassionate self-talk, then expressing observations, feelings, needs, and requests clearly.
+The sentence structures may feel formal at first, yet with practice the approach becomes a practical way to build understanding in everyday conversations.
 """
-levels = ["novice"]
+levels = ["Novice-friendly"]
 tags = ["communication", "empathy", "team dynamics", "conflict"]
 
 [[book]]
@@ -199,18 +186,18 @@ title = "Agile Conversations"
 subtitle = "Transform Your Conversations, Transform Your Culture"
 minimized_title = "Agile Conversations: Transform Your Conversations, Transform Your Culture"
 isbn = "1942788975"
-authors = "Squirrel, D. & Fredrick, J."
+authors = "Squirrel, D.; Fredrick, J."
 publisher = "IT Revolution Press"
 location = ""
 year = "2020"
 link = "https://agileconversations.com"
 image = "agile_conversations.webp"
 description = """
-The authors start from the premise that every organizational problem is in fact a "people problem".
-Fredrick and Squirrel, hosts of the podcast `Troubleshooting Agile`, help the reader debug their conversations.
-The book is mostly targetting software professionals, though the techniques discussed are usable, and valuable, for anyone that spends most of their time working with other people.
+_Agile Conversations_ starts from the idea that every organisational bottleneck is a conversation problem.
+Drawing on their Troubleshooting Agile coaching work, Jeffrey Fredrick and Douglas Squirrel offer five dialogue formats that surface assumptions, align intent, and rebuild trust.
+The techniques target software leaders yet apply to any team that needs candid, outcome-oriented conversations.
 """
-levels = ["intermediate", "niche"]
+levels = ["Intermediate level", "Specialized / Niche"]
 tags = ["communication", "directed learning", "conflict"]
 
 [[book]]
@@ -226,10 +213,11 @@ year = "1985"
 link = "https://www.goodreads.com/book/show/566213.The_Secrets_of_Consulting"
 image = "secrets_consulting.webp"
 description = """
-Stories from the life of a consultant, with detailed descriptions of how the author came to be a consultant, and practical tips on giving advice that is (perceived as) highly valuable.
-Includes such gems as: "whatever your client is doing, suggest they do the opposite", and "be sure to ask for a high fee, so you are taken more seriously".
+Gerald Weinberg shares consulting stories that double as heuristics for giving advice clients can actually use.
+He distils principles such as diagnosing the real problem, pricing for credibility, and running safe-to-learn experiments before prescribing change.
+The vignettes balance humour with practical wisdom, making the lessons memorable for anyone who influences without formal authority.
 """
-levels = ["advanced", "niche"]
+levels = ["Advanced / In-depth", "Specialized / Niche"]
 tags = ["communication", "corporate", "consulting", "career"]
 
 [[book]]
@@ -238,23 +226,25 @@ title = "Behind Closed Doors"
 subtitle = "Secrets of Great Management"
 minimized_title = "Behind Closed Doors: Secrets of Great Management"
 isbn = "978-0976694021"
-authors = "Rothman, J. & Derby, E."
+authors = "Rothman, J.; Derby, E."
 publisher = "The Pragmatic Bookshelf"
 location = ""
 year = "2005"
 link = "https://pragprog.com/titles/rdbcd/behind-closed-doors/"
 image = "behind_closed_doors.webp"
 description = """
-The story of an experienced manager, brought into a company to save it. The reader follows along as "Sam" journeys through the corporate landscape, and has conversations with his direct reports.
-Rothman manages to convey important good management practices in an elegant, and easily diggestible way.
+_Behind Closed Doors_ follows interim manager Sam as he steadies a struggling team and rebuilds trust.
+Johanna Rothman and Esther Derby show how purposeful one-on-ones, visual management, and timely feedback change the team's trajectory.
+The narrative makes core management habits accessible and easy to adapt to your own context.
 """
-levels = ["intermediate"]
+levels = ["Intermediate level"]
 tags = ["communication", "corporate", "management", "leadership", "team dynamics"]
 
 [[book]]
 id = "f054e443-2434-4f8d-a4c1-43ef93331d6f"
 title = "The Art of Captivating Conversation"
-minimized_title = "Art of Captivating Conversation"
+subtitle = "How to Be Confident, Charismatic, and Likable in Any Situation"
+minimized_title = "Art of Captivating Conversation: How to Be Confident, Charismatic, and Likable in Any Situation"
 isbn = "1510729062"
 authors = "King, P."
 publisher = "Skyhorse"
@@ -263,12 +253,11 @@ year = "2020"
 link = "https://www.goodreads.com/book/show/50041015-the-art-of-captivating-conversation"
 image = "captivating_conversation.webp"
 description = """
-King gives us the red pill outline of why we have conversations with people. Bottom line, he says, we want to get something out of the exchange.
-Whether this is entertainment, confort, friendship, or a more direct purpose. The author has a highly utilitairian view on the subject,
-aiming to help people that have difficulty with casual conversation to up their game.
-While cynical at times, the book offers clear, practical advice on how to be a good conversationalist.
+Patrick King treats small talk as a learnable skill for building trust, influence, and connection.
+He offers tactics for opening conversations, sustaining curiosity, and reading social cues without sliding into manipulation.
+The advice is direct yet practical, aimed at readers who find casual conversation draining or awkward.
 """
-levels = ["novice", "niche"]
+levels = ["Novice-friendly", "Specialized / Niche"]
 tags = ["communication", "goals", "consulting"]
 
 [[book]]
@@ -284,32 +273,32 @@ year = "2009"
 link = "https://www.amazon.com/Five-Dysfunctions-Team-Leadership-Fable/dp/8126522747"
 image = "dysfunctions_team.webp"
 description = """
-You will find a plethora of books on how to build succesful teams, but you will not find many that explain what factors can break a team.
-By focussing on the dark side of team dynamics, Lencioni informs us of what to look out for when working with others. He explains how a lack of trust between
-individuals eventually cascades into a lack of overall results. A must-read book for team leaders and team members alike.
+_The Five Dysfunctions of a Team_ explores how trust, conflict, commitment, accountability, and results form a tightly coupled system.
+Patrick Lencioni tells a leadership fable about an executive team that slips into dysfunction, then demonstrates facilitation techniques to reverse the spiral.
+It is a quick read for leaders and team members who want to spot warning signs early and restore performance.
 """
-levels = ["intermediate"]
+levels = ["Intermediate level"]
 tags = ["team dynamics", "leadership", "corporate", "management"]
 
 [[book]]
 id = "d97d4075-456d-43b8-860b-1c4945ff8616"
 title = "Prisoners of Our Thoughts"
-minimized_title = "Prisoners of Our Thoughts"
+subtitle = "Viktor Frankl's Principles for Discovering Meaning in Life and Work"
+minimized_title = "Prisoners of Our Thoughts: Viktor Frankl's Principles for Discovering Meaning in Life and Work"
 isbn = "1626568804"
-authors = "Pattakos, A. & Dundon E."
-publisher = " Berrett-Koehler Publishers"
+authors = "Pattakos, A.; Dundon, E."
+publisher = "Berrett-Koehler Publishers"
 location = ""
 year = "2017"
 link = "https://www.goodreads.com/book/show/33830612-prisoners-of-our-thoughts"
 image = "prisoners.webp"
 description = """
-An in depth view on the philosophy of Victor Frankl, the founder of logotherapy. The books explains how Frankl's philosophy helped him not only endure the
-nazi concentration camps, but to do so without losing his sense of self. A powerful read on the strength of a persons mind, and our ability to overcome the gravest of circumstances.
-Frankl's core tennet, __"No one can take away my choice over my own actions"__, is both thought-provoking, and empowering.
-The authors do a fantastic job of describing both the man himself, and his philosophy.
+_Prisoners of Our Thoughts_ translates Viktor Frankl's logotherapy into practical principles for modern work and life.
+Alex Pattakos and Elaine Dundon show how meaning, choice, and responsibility help people navigate adversity without losing their identity.
+Frankl's assertion that no one can take away your freedom to choose your response anchors each story and reflection exercise.
 """
-levels = ["intermediate"]
-tags = ["mindset", "resilience", "decision making"]
+levels = ["Intermediate level"]
+tags = ["mindset", "resilience", "decision-making"]
 
 [[book]]
 id = "93c3d298-690e-48b5-8140-b34ce90c2083"
@@ -317,19 +306,18 @@ title = "Extreme Programming Explained"
 subtitle = "Embrace Change"
 minimized_title = "Extreme Programming Explained: Embrace Change"
 isbn = "978-0321278654"
-authors = "Beck, K. & Andres, C."
+authors = "Beck, K.; Andres, C."
 publisher = "Addison-Wesley"
 location = ""
 year = "2004"
 link = "https://www.goodreads.com/book/show/67833.Extreme_Programming_Explained"
 image = "xp_explained.webp"
 description = """
-Beck describes a project methodology that focusses on the daily practices developers can use, in order to achieve results in a faster, reliable, and sustainable way.
-While other methodologies dive into team structure, and management, Beck and Andres decided to stick to reusable practices that can be applied in most settings.
-This book popularized the ideas of "Test Driven Development" and "Pair Programming", and is a must read for any developer that is looking to increase their knowledge of project approaches
-and the technical practices that support them.
+_Extreme Programming Explained_ centres on daily engineering practices—pairing, test-driven development, continuous integration—that keep teams adaptable.
+Kent Beck and Cynthia Andres advocate short feedback loops, shared ownership, and sustainable pace instead of rigid process prescription.
+It remains a key reference for developers who want to ground agile values in concrete software practices.
 """
-levels = ["intermediate", "reference"]
+levels = ["Intermediate level", "Reference / Comprehensive Guides"]
 tags = ["programming", "testing", "test-driven", "team dynamics", "efficiency"]
 
 [[book]]
@@ -345,18 +333,18 @@ year = "1995"
 link = "https://www.goodreads.com/book/show/13629.The_Mythical_Man_Month"
 image = "mythical_month.webp"
 description = """
-Brooks blends facts and stories together in a though-provoking selection of essays.
-While the author mostly talks about software projects, the lessons and frustrations apply to anyone who has had the dubious pleasure of leading a team.
-The book challenges readers to think about the sense and non-sense of generally held maxims, and strives to re-introduce some common-sense to project management.
-A prime example of this, is the saying: "hiring nine women will not get you a baby in one month".
+Frederick P. Brooks Jr. blends project folklore with data in a collection of essays that explain why complex software efforts slip.
+He challenges comforting myths about staffing, communication overhead, and conceptual integrity; adding people to a late project, he argues, only makes it later.
+The anniversary edition remains a staple reference for leaders who need common-sense heuristics to steer ambitious delivery work.
 """
-levels = ["intermediate", "reference"]
+levels = ["Intermediate level", "Reference / Comprehensive Guides"]
 tags = ["time management", "management", "corporate"]
 
 [[book]]
 id = "a749cf2a-2d10-41a0-97a4-8d1adc9953fe"
 title = "Automate the Boring Stuff with Python"
-minimized_title = "Automate the Boring Stuff with Python"
+subtitle = "Practical Programming for Total Beginners"
+minimized_title = "Automate the Boring Stuff with Python: Practical Programming for Total Beginners"
 isbn = "1593279922"
 authors = "Sweigart, A."
 publisher = "No Starch Press"
@@ -365,31 +353,31 @@ year = "2019"
 link = "https://automatetheboringstuff.com/"
 image = "automate_boring_stuff.webp"
 description = """
-Aimed at novice programmers, and those without a formal computer science background, this book teaches you how to automate parts of your working life.
-Using python, the reader is first guided through some programming basics, before diving in to practical examples of automation in real-world contexts.
-Examples include: Automated emails, cleaning files on your machine, converting documents from one format to another, and creating excel sheets.
+Al Sweigart introduces Python by solving everyday automation tasks such as sending emails, cleaning up files, and manipulating spreadsheets.
+Each chapter pairs a concise language lesson with hands-on projects so readers can see results quickly.
+It is written for self-taught professionals who want to remove repetitive chores without needing a computer science background.
 """
-levels = ["novice"]
+levels = ["Novice-friendly"]
 tags = ["programming", "automation"]
 
 [[book]]
 id = "a78d1c3f-6365-47ac-baa4-86c6371c1eed"
 title = "Patterns, Principles, and Practices of Domain-Driven Design"
-minimized_title = "Patterns, Principles, and Practices of Domain-Driven Design"
+subtitle = "Implementing Domain-Driven Design in .NET"
+minimized_title = "Patterns, Principles, and Practices of Domain-Driven Design: Implementing Domain-Driven Design in .NET"
 isbn = "1118714709"
-authors = "Millet, S. & Tune, N."
+authors = "Millett, S.; Tune, N."
 publisher = "Wrox"
 location = ""
 year = "2015"
 link = "https://www.goodreads.com/book/show/25531393-patterns-principles-and-practices-of-domain-driven-design"
 image = "ddd_practices.webp"
 description = """
-Millet and Tune are some of the forerunners in the field of Domain-Driven Design, an architectural approach that aims to
-further allign business concepts and their technical implementation. The authors focus on the core concepts of a domain-driven system development approach,
-and offer practical advice to the reader on how to apply the principles and ideas in their daily endeavours.
-As the book dives deep into advanced concepts, it is advisable to pick this up later in your journey, after you have gained experience working on real systems.
+Scott Millett and Nick Tune provide a comprehensive guide to applying domain-driven design within .NET ecosystems.
+They connect strategic patterns—bounded contexts, context mapping—with tactical constructs such as aggregates, domain services, and events.
+Depth and detailed examples make this a later-stage read for engineers ready to align code with business language across large systems.
 """
-levels = ["advanced", "reference"]
+levels = ["Advanced / In-depth", "Reference / Comprehensive Guides"]
 tags = ["architecture", "patterns", "communication"]
 
 [[book]]
@@ -398,24 +386,18 @@ title = "Design Patterns"
 subtitle = "Elements of Reusable Object-Oriented Software"
 minimized_title = "Design Patterns: Elements of Reusable Object-Oriented Software"
 isbn = "978-0201633610"
-authors = "Gamma, A.; Helm, Rl; Johnson, R., Vlissides, J."
+authors = "Gamma, E.; Helm, R.; Johnson, R.; Vlissides, J."
 publisher = "Addison-Wesley Professional"
 location = ""
 year = "1994"
 link = "https://www.goodreads.com/book/show/85009.Design_Patterns"
 image = "go4_patterns.webp"
 description = """
-Known as the 'Gang of Four,' the authors of this book have contributed significantly to the field of software development. Their work serves as a foundational text in the discipline.
-<br /><br />
-In the book, they present a collection of programming structures in the form of design patterns.
-These patterns explain when and how to apply them, as well as their potential drawbacks.
-While some of the advice in the book, particularly those related to inheritance, may be considered outdated in contemporary software development,
-the core concepts remain relevant.
-<br /><br />
-The 'Gang of Four' patterns provide valuable insights into addressing challenges like extensibility, maintainability, and encapsulation.
-They offer tried and tested approaches to structuring software, making it a valuable resource for any programmer or software engineer.
+Often called the Gang of Four book, _Design Patterns_ catalogues reusable solutions for object-oriented systems.
+Each pattern outlines intent, structure, and trade-offs so teams can spot when the guidance helps and when it adds unnecessary complexity.
+Despite its age, the catalogue remains a foundational reference for developers who need shared language around extensibility and maintainability.
 """
-levels = ["intermediate", "reference"]
+levels = ["Intermediate level", "Reference / Comprehensive Guides"]
 tags = ["programming", "refactoring", "patterns", "readability"]
 
 [[book]]
@@ -431,16 +413,11 @@ year = "2017"
 link = "https://pragprog.com/titles/mkdsa/design-it/"
 image = "design_it.webp"
 description = """
-In "Design It," author Michael Keeling provides valuable insights into the essential responsibilities of a software architect.
-Through the lens of a hypothetical project, readers embark on a journey through various project stages.
-The book strikes a balance between theoretical knowledge, practical methodologies, and a profound exploration of guiding principles.
-<br /><br />
-Keeling skilfully conveys the pivotal role of a software architect, highlighting their ability to bridge the gap between the business's requirements,
-the technical team's needs, and the broader operational context. "Design It" offers readers a comprehensive understanding of software architecture,
-making it a valuable resource for programmers aspiring to become adept software architects, as well as for experienced architects wishing to refresh
-their knowledge of modern techniques.
+_Design It_ follows a fictional project to illustrate how software architects balance stakeholder goals, constraints, and technical options.
+Michael Keeling mixes facilitation techniques, documentation strategies, and decision records so architects can make their thinking transparent.
+It serves both aspiring architects and experienced leads who want a modern, collaborative toolkit.
 """
-levels = ["advanced", "reference"]
+levels = ["Advanced / In-depth", "Reference / Comprehensive Guides"]
 tags = ["architecture", "trade-off", "documentation", "readability"]
 
 [[book]]
@@ -449,21 +426,18 @@ title = "Refactoring"
 subtitle = "Improving the Design of Existing Code"
 minimized_title = "Refactoring: Improving the Design of Existing Code"
 isbn = "978-0133065268"
-authors = "Fowler, M.; Beck, K.; Brant J.; Opdyke W.; Roberts D."
+authors = "Fowler, M.; Beck, K.; Brant, J.; Opdyke, W.; Roberts, D."
 publisher = "Addison-Wesley Professional"
 location = ""
 year = "2012"
 link = "https://www.goodreads.com/book/show/18624706-refactoring"
 image = "refactoring.webp"
 description = """
-The authors provide invaluable insights into achieving well-structured code safely, even in the context of modern Integrated Development Environments (IDEs).
-While the book's examples use Java, the underlying concepts are language-agnostic.
-Whether you work with a programming language or a scripting language, the principles and techniques discussed here are universally applicable.
-<br /><br />
-For those with an particularly strong aversion to Java, a recent edition of the book showcases the same techniques using TypeScript.
-Whichever edition you choose, "Refactoring" offers timeless wisdom for enhancing your code quality.
+_Refactoring_ teaches how to improve existing code safely by taking small, behaviour-preserving steps.
+Martin Fowler and collaborators catalogue common code smells, explain when to refactor, and demonstrate each transformation with tests.
+The examples use Java (and newer editions TypeScript), but the principles apply across languages whenever teams need cleaner design.
 """
-levels = ["novice", "mixed", "reference"]
+levels = ["Novice-friendly", "Mixed", "Reference / Comprehensive Guides"]
 tags = ["programming", "refactoring", "patterns", "readability"]
 
 [[book]]
@@ -478,15 +452,12 @@ year = "2019"
 link = "https://www.pragprog.com/titles/trevan/driving-technical-change/"
 image = "driving_tech_change.webp"
 description = """
-In 'Driving Technical Change,' the author addresses a common frustration among technologists – the challenge of persuading others to adopt their ideas for technical improvement.
-Ryan offers invaluable guidance on how to effectively present and package your suggestions to increase their chances of being accepted. He also highlights the importance of engaging with different types of individuals crucial for bringing your concepts to life.
-This book is a treasure trove of practical advice, making it an essential read for software developers with some experience. It goes beyond coding skills and shows how to expand your influence and contribute to your organization's success.
-<br /><br />
-If you are looking to take the next steps to advance your technological career, or enhance your team's performance, 'Driving Technical Change' is a recommended read.
-It empowers you to transition from merely being a capable programmer to becoming an invaluable asset in driving your team's overall performance."
+_Driving Technical Change_ tackles the challenge technologists face when they see a better way forward but cannot get others onboard.
+Terrence Ryan profiles common resistance personas and shows how to package experiments, evidence, and storytelling for each audience.
+The guidance equips experienced developers to become thoughtful change agents who elevate their teams and organisations.
 """
-levels = ["intermediate"]
-tags = ["communication", "convincing", "change", "team dynamics"]
+levels = ["Intermediate level"]
+tags = ["communication", "leadership", "team dynamics"]
 
 [[book]]
 id = "f17079c7-1dc6-42de-85c1-f61dbeade355"
@@ -500,17 +471,11 @@ year = "2023"
 link = "https://www.goodreads.com/book/show/101144770-think-faster-talk-smarter"
 image = "think_talk.webp"
 description = """
-In 'Think Faster, Talk Smarter', Abrahams tackles the challenge of impromptu presentations and unexpected public speaking situations.
-Providing a range of communication techniques, he equips readers with the skills to excel in spontaneous communication scenarios.
-The book delves into various message structuring methods to enhance clarity, with a central theme: __'Prepare and organize your thoughts'__.
-Contrary to intuition, honing your communication skills through practice enables you to confidently respond when put on the spot.
-<br /><br />
-While the book caters to a broad audience, including those not aspiring to be public speakers,
-'Think Faster, Talk Smarter' offers a wealth of practical advice and insightful tips to elevate interpersonal communication.
-By following Abrahams' guidance, readers can improve their message delivery and become more engaging speakers.
-This book is not just about public speaking; it's a valuable tool for anyone seeking to enhance their overall communication effectiveness.
+_Think Faster, Talk Smarter_ tackles the anxiety of answering on the spot during meetings, interviews, and presentations.
+Matt Abrahams blends improv exercises, message maps, and rehearsal techniques so speakers can organise thoughts quickly without freezing.
+The guidance is approachable for anyone who wants clearer, more confident spontaneous communication—not just formal presenters.
 """
-levels = ["novice", "mixed"]
+levels = ["Novice-friendly", "Mixed"]
 tags = ["communication", "presenting", "clarity", "structure"]
 
 [[book]]
@@ -526,21 +491,18 @@ year = "2009"
 link = "https://www.goodreads.com/book/show/6452796-drive"
 image = "drive.webp"
 description = """
-How do you motivate yourself and others? Did your manager get it right by offering you a promotion if you worked all weekend? Or would you have preferred a more relaxed approach, allowing you to work on your own projects and explore your interests, promotion be damned?
-<br /><br />
-In "Drive: The Surprising Truth About What Motivates Us," Daniel H. Pink explores the science behind motivation, examining how traditional methods have been applied in the workplace and why they no longer suit the modern workforce.
-Pink introduces the reader to the three pillars of motivation: Autonomy, Mastery, and Purpose. He explains how these elements can be applied to various situations, both in the workplace and beyond.
-<br /><br />
-Whether you are in a leadership position, aspire to be, or are simply curious about what makes people tick, this book is a must-read. Pink's insights offer valuable guidance for fostering motivation in yourself and others, making it a crucial resource for anyone interested in understanding and improving human motivation.
+_Drive_ explores why carrot-and-stick incentives underperform in modern knowledge work.
+Daniel H. Pink synthesises research around autonomy, mastery, and purpose, showing how these three motivators sustain energy and creativity.
+Leaders and individual contributors alike can use the insights to design environments where motivation grows instead of fades.
 """
-levels = ["novice"]
-tags=["productivity", "motivation", "goals"]
+levels = ["Novice-friendly"]
+tags = ["productivity", "motivation", "goals"]
 
 [[book]]
 id = "1925e2ec-9147-4c4a-9dd8-c3ce6d08eee6"
 title = "Test-Driven Development with Java"
 minimized_title = "Test-Driven Development with Java"
-isbn = " 978-1803236230"
+isbn = "978-1803236230"
 authors = "Mellor, A."
 publisher = "Packt Publishing"
 location = ""
@@ -548,20 +510,12 @@ year = "2023"
 link = "https://www.goodreads.com/book/show/68507606-test-driven-development-with-java"
 image = "tdd_java_mellor.webp"
 description = """
-Test-Driven Development (TDD) emphasizes writing tests before coding, ensuring that software is both robust and maintainable from the ground up.
-_"Test-Driven Development with Java"_ by Allan Mellor walks readers through the principles and practices of TDD, highlighting how this methodology can
-lead to cleaner, more reliable code.
-<br /><br />
-Mellor provides detailed explanations and practical examples, demonstrating how to implement TDD in real-world Java projects. Readers will learn how
-to write effective unit tests, refactor code efficiently, and integrate TDD into their development workflow. The author conveys the importance of
-continuous improvement and quality assurance in a relatable and accessible manner.
-<br /><br />
-This book is ideal for software developers, testers, and automation engineers looking to enhance their coding skills and deliver high-quality
-software products. Filled with valuable insights, it is also a joy to read, thanks to Mellor's engaging writing style and efforts to make complex
-concepts easy to understand.
+_Test-Driven Development with Java_ introduces TDD by walking through practical Java projects.
+Allan Mellor explains how to write meaningful unit tests, refactor with confidence, and weave TDD into a modern toolchain.
+Clear walkthroughs and exercises help developers build habits that keep codebases reliable and easy to change.
 """
-levels = ["novice"]
-tags=["programming", "test-driven", "structure"]
+levels = ["Novice-friendly"]
+tags = ["programming", "test-driven", "testing"]
 
 [[book]]
 id = "a32510dd-068d-4072-8b68-cce120864a64"
@@ -576,17 +530,12 @@ year = "2019"
 link = "https://www.goodreads.com/book/show/44135420-team-topologies"
 image = "team_topologies.webp"
 description = """
-What is the best way to organize your team? How can you ensure that your team is set up for success?
-Is there a way to structure your team that will allow for fast flow of work?
-In Team Topologoes, the authors evolve the idea behind DevOps Topologies into a model for or organizational design.
-Based on the idea that the structure of your team will influence the flow of work, the authors present a model
-to design team boundaries and communication lines based on the need for interaction between the teams.
-<br /><br />
-The authors suggest four essential team types and three interaction models, and present multiple real-world cases where the topologies approach was used to great effect.
-This book is a recommended read for anyone interested in team dynamics, organizational design, and the flow of work within corporate settings.
+_Team Topologies_ evolves DevOps topology work into a practical playbook for structuring teams and interactions.
+Matthew Skelton and Manuel Pais describe four fundamental team types and three interaction modes designed to improve flow and reduce cognitive load.
+Case studies show how intentional boundaries and communication paths accelerate delivery in complex organisations.
 """
-levels = ["advanced", "reference"]
-tags = ["management", "communication", "structure", "team dynamics", "architecture"]
+levels = ["Advanced / In-depth", "Reference / Comprehensive Guides"]
+tags = ["management", "communication", "team dynamics", "architecture"]
 
 [[book]]
 id = "644de556-142a-42d7-8b86-1b513b320af6"
@@ -601,21 +550,11 @@ year = "2008"
 link = "https://www.goodreads.com/book/show/3735293-clean-code"
 image = "clean_code.webp"
 description = """
-In the world of software development, writing code is only half the battle. The real challenge lies in writing clean, efficient, and maintainable
-code. In "Clean Code: A Handbook of Agile Software Craftsmanship," Robert C. Martin, also known as _"Uncle Bob"_, provides invaluable insights into
-the art and science of writing clean code.
-<br /><br />
-Martin emphasizes the importance of readability, simplicity, and attention to detail, guiding readers through the process of writing code that is
-easy to understand, test, and maintain. Whether you're a beginner looking to build strong coding habits or an experienced programmer aiming to
-refine your skills, this book provides the tools and techniques necessary to elevate your craft.
-<br /><br />
-Through a series of practical examples and best practices, "Clean Code" equips readers with the knowledge and skills to write elegant, maintainable
-code. The biggest takeaway from this book is the importance of writing code that is not only functional but also a joy to read and work with. While
-the book offers a wealth of valuable advice, it's important to use "Clean Code" as an inspiration rather than a set of strict rules. Some practices
-may be considered outdated in contemporary software development, but the core principles and concepts remain relevant and essential for any
-programmer or software engineer.
+_Clean Code_ advocates for readable, maintainable software through small, disciplined practices.
+Robert C. Martin demonstrates naming, function extraction, and test-first habits that keep code easy to change while cautioning against dogma.
+Treat it as a set of guiding principles to inspire teams, adapting the advice to modern tooling and context.
 """
-levels = ["novice", "reference"]
+levels = ["Novice-friendly", "Reference / Comprehensive Guides"]
 tags = ["programming", "readability", "refactoring", "patterns"]
 
 [[book]]
@@ -631,9 +570,13 @@ year = "2020"
 link = "https://www.goodreads.com/book/show/48764406-a-common-sense-guide-to-data-structures-and-algorithms"
 image = "data_structures.webp"
 description = """
+_A Common-Sense Guide to Data Structures and Algorithms_ demystifies core computer science concepts for self-taught developers.
+Jay Wengrow uses approachable visuals and analogies to explain time complexity, recursion, and trade-offs between common data structures.
+It is a clear companion for engineers who want to strengthen fundamentals while building practical intuition.
 """
-levels = ["novice", "reference"]
+levels = ["Novice-friendly", "Reference / Comprehensive Guides"]
 draft = true
+tags = ["programming", "directed learning", "efficiency"]
 
 [[book]]
 id = "2930d42d-e7cf-4ea5-a6f3-eceb5b9a5fc1"
@@ -647,8 +590,11 @@ year = "2021"
 link = "https://www.amazon.com/Modern-Software-Engineering-Discipline-Development/dp/0137314914"
 image = "modern_software_engineering.webp"
 description = """
+_Modern Software Engineering_ reframes development as a disciplined, experiment-driven activity built on fast feedback.
+Dave Farley connects lean principles with practices such as trunk-based development, test automation, and continuous delivery pipelines.
+The book serves as a reference for teams that want to scale quality without sacrificing speed.
 """
-levels = ["intermediate", "reference"]
+levels = ["Intermediate level", "Reference / Comprehensive Guides"]
 tags = ["testing", "efficiency", "architecture", "programming"]
 
 [[book]]
@@ -662,10 +608,14 @@ minimized_title = "Succeeding with Agile: Software Development Using Scrum"
 isbn = "0321579364"
 publisher = "Addison-Wesley"
 link = "https://www.goodreads.com/en/book/show/6707987-succeeding-with-agile"
-image=""
-description="""
+image = "book_placeholder.webp"
+description = """
+Mike Cohn offers a pragmatic guide to adopting Scrum beyond the first pilot team, covering organisational change, scaling, and coaching.
+He outlines how to tailor roles, plan releases, and handle resistance while keeping agile values intact.
+The book serves as a reference for leaders shepherding sustained agile transformations.
 """
-levels=[]
+levels = ["Advanced / In-depth", "Reference / Comprehensive Guides"]
+tags = ["management", "team dynamics", "leadership"]
 
 [[book]]
 unlisted = true
@@ -678,10 +628,14 @@ minimized_title = "Lessons Learned in Software Testing: A Context-Driven Approac
 isbn = "978-0471081128"
 publisher = "Wiley"
 link = "https://www.oreilly.com/library/view/lessons-learned-in/9780471081128/"
-image=""
-description="""
+image = "book_placeholder.webp"
+description = """
+Cem Kaner, James Bach, and Bret Pettichord share context-driven testing lessons gathered from real projects.
+They show how to tailor strategy to risk, constraints, and team skills instead of following prescriptive processes.
+The book is a deep reference for testers and coaches who need adaptable heuristics in complex environments.
 """
-levels=[]
+levels = ["Advanced / In-depth", "Reference / Comprehensive Guides"]
+tags = ["testing", "directed learning", "team dynamics"]
 
 [[book]]
 id = "4eee341f-7128-4884-876a-892511e5a13f"
@@ -694,8 +648,11 @@ year = "2011"
 link = "https://www.goodreads.com/book/show/11468377-thinking-fast-and-slow"
 image = "fast_and_slow.webp"
 description = """
+_Thinking, Fast and Slow_ distils decades of behavioural research into the dual-system model of thinking.
+Daniel Kahneman explains common cognitive biases, how they influence judgement, and how to design decisions that counteract them.
+It is essential reading for anyone who wants to understand how people perceive risk, value, and evidence.
 """
-levels = ["novice"]
+levels = ["Novice-friendly"]
 tags = ["motivation", "decision-making", "bias", "reflection", "thinking"]
 
 [[book]]
@@ -722,8 +679,8 @@ coaches, and mentors who help others in their learning journey.
 Whether you're aiming to excel in a hobby or advance professionally,
 Young's guidance will equip you with the tools needed for continuous improvement.
 """
-levels = ["novice", "reference"]
-tags = ["productivity", "goals", "strategic learning", "efficiency", "thinking"]
+levels = ["Novice-friendly", "Reference / Comprehensive Guides"]
+tags = ["productivity", "goals", "directed learning", "efficiency", "thinking"]
 
 [[book]]
 id = "ee406fae-4177-4abc-8d70-23175009bc58"
@@ -736,18 +693,18 @@ year = "2020"
 link = "https://www.goodreads.com/book/show/58261546-how-to-be-accountable"
 image = "how_to_be_accountable.webp"
 description = """
-Accountability is an obligation or willingness to accept responsibility for and to repair the harm caused by one’s actions.
-In "How to Be Accountable," authors Harper and Biel explore the concept of accountability and its significance in personal and professional settings.
-The book provides practical advice on how to cultivate accountability, emphasizing the importance of integrity, honesty, and transparency.
+_How to Be Accountable_ explains what meaningful accountability looks like in personal and professional relationships.
+F. G. Harper and J. Biel blend psychological insight with exercises for noticing patterns, making amends, and rebuilding trust.
+It is a supportive guide for people who want practical steps toward integrity and repair.
 """
-levels = ["novice"]
+levels = ["Novice-friendly"]
 tags = ["goals", "reflection", "accountability", "relationships"]
 
 
 [[book]]
 id = "704fb2a3-0207-4f8d-87f9-31b7fa5949c0"
-title = "The Art of Unix Programming "
-minimized_title = "Art of Unix Programming "
+title = "The Art of Unix Programming"
+minimized_title = "Art of Unix Programming"
 isbn = "978-0131429017"
 authors = "Raymond, E.S."
 publisher = "Addison-Wesley"
@@ -755,9 +712,12 @@ year = "2003"
 link = "http://www.catb.org/~esr/writings/taoup/html/ch01s06.html#id2878538"
 image = "art_of_unix.webp"
 description = """
+_The Art of Unix Programming_ captures the Unix philosophy through essays on simplicity, modularity, and composability.
+Eric S. Raymond profiles successful tools and communities to show how small programs that do one thing well combine into powerful systems.
+The collection remains a valuable reference for developers who want to design software with clear boundaries and reusable interfaces.
 """
-levels = ["intermediate", "reference"]
-tags = ["programming", "unix", "efficiency", "structure", "architecture"]
+levels = ["Intermediate level", "Reference / Comprehensive Guides"]
+tags = ["programming", "unix", "efficiency", "architecture", "readability"]
 
 [[book]]
 id = "0b0d7895-af87-4564-881f-501cb38c5e7a"
@@ -771,9 +731,12 @@ year = "2018"
 link = "https://www.goodreads.com/book/show/40244063-atomic-habits"
 image = "atomic_habbits.webp"
 description = """
+James Clear breaks habit formation into small, compounding actions linked to identity, cues, cravings, and rewards.
+He offers frameworks such as habit stacking and environment design to make good behaviours easier and bad ones harder.
+The book helps readers build sustainable routines whether they want personal growth or team-level improvements.
 """
-levels = ["novice"]
-tags = ["productivity", "goals", "habits", "efficiency", "time management", "efficiency"]
+levels = ["Novice-friendly"]
+tags = ["productivity", "goals", "habits", "efficiency", "time management"]
 
 [[book]]
 id = "f67e9f3f-0467-4753-a791-7b26a20215a8"

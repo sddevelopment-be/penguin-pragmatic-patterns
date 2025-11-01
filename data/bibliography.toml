@@ -751,8 +751,8 @@ link = "https://www.goodreads.com/book/show/2506719.Developing_Technical_Trainin
 image = "tech_training.webp"
 description = """
 _Developing Technical Training_ provides a structured approach to designing instructor-led and computer-based programmes that change behaviour.
-Ruth Colvin Clark walks through analysis, design, development, implementation, and evaluation with practical checklists and case studies.
-It is a reliable reference for instructional designers who need repeatable processes and engaging materials.
+Ruth Colvin Clark walks through analysis, design, development, implementation, and evaluation with checklists, templates, and case studies.
+It remains a reliable reference for instructional designers who need repeatable processes and engaging materials.
 """
 levels = ["Intermediate level", "Reference / Comprehensive Guides"]
 tags = ["education", "training", "teaching", "communication"]
@@ -769,8 +769,11 @@ year = "2011"
 link = "https://www.goodreads.com/book/show/6370491-helping"
 image = "helping.webp"
 description = """
+_Helping_ examines the dynamics between the helper and the person receiving support, emphasising humility and curiosity.
+Edgar H. Schein outlines different modes of help—from expert advice to process consulting—and explains when each builds trust or creates dependence.
+The guidance helps coaches, managers, and teammates offer support without disempowering others.
 """
-levels = ["beginner", "reference"]
+levels = ["Novice-friendly", "Reference / Comprehensive Guides"]
 tags = ["consultancy", "communication", "effectiveness", "relationships", "advice", "corporate"]
 
 [[book]]
@@ -784,10 +787,11 @@ year = "2006"
 link = "https://www.goodreads.com/book/show/48018.The_Practice_of_Management"
 image = "practice_of_management.webp"
 description = """
-A foundational text on management practices, exploring the principles and strategies for effective leadership and organizational success.
-Drucker emphasizes the importance of understanding the human element in management and provides insights into decision-making, innovation, and performance measurement.
+_The Practice of Management_ frames management as a discipline grounded in purpose, accountability, and attention to people.
+Peter F. Drucker explains how to set objectives, measure performance, foster innovation, and build organisations that learn.
+Despite its age, the book remains a reference for leaders who want timeless principles to balance strategy and execution.
 """
-levels = ["intermediate", "reference"]
+levels = ["Intermediate level", "Reference / Comprehensive Guides"]
 tags = ["management", "corporate", "leadership"]
 
 [[book]]
@@ -806,7 +810,7 @@ description = """
 Brené Brown translates her research on vulnerability and courage into a leadership playbook that centres trust, empathy, and accountability.
 The book offers practical tools for naming hard topics, building inclusive rituals, and creating the psychological safety required for teams to do meaningful work together.
 """
-levels = ["intermediate"]
+levels = ["Intermediate level"]
 tags = ["leadership", "team dynamics", "empathy"]
 
 [[book]]
@@ -825,7 +829,7 @@ description = """
 Amy Edmondson distills decades of research on psychological safety into a guide for leaders who want teams to learn faster and surface difficult truths.
 Case studies and diagnostics demonstrate how deliberate facilitation, rapid feedback loops, and shared accountability unlock experimentation without fear of blame.
 """
-levels = ["intermediate", "reference"]
+levels = ["Intermediate level", "Reference / Comprehensive Guides"]
 tags = ["leadership", "team dynamics", "psychological safety"]
 
 [[book]]
@@ -841,9 +845,11 @@ location = ""
 link = "https://pragprog.com/titles/jkmgti/manage-it/"
 image = "book_placeholder.webp"
 description = """
-Johanna Rothman presents a pragmatic playbook for steering projects without clinging to heavyweight process. The book blends real-world case studies with lightweight planning tools so teams can balance delivery pressure, risk, and learning without losing momentum.
+_Manage It!_ provides pragmatic project-management practices for teams delivering software under pressure.
+Johanna Rothman blends real-world case studies with lightweight planning tools so you can balance risk, delivery, and learning without adding bureaucracy.
+It is a handy reference when you need structure that still leaves room for experimentation.
 """
-levels = ["intermediate", "reference"]
+levels = ["Intermediate level", "Reference / Comprehensive Guides"]
 tags = ["management", "team dynamics", "delivery"]
 
 [[book]]
@@ -858,7 +864,9 @@ location = ""
 link = "https://hbr.org/1991/05/teaching-smart-people-how-to-learn"
 image = "book_placeholder.webp"
 description = """
-Chris Argyris outlines why highly skilled professionals often resist feedback and how facilitators can create the reflective space needed for genuine learning loops. The essay introduces double-loop learning and concrete interventions coaches can adapt for technical teams.
+Chris Argyris explains why highly skilled professionals often resist feedback and how facilitators can create space for double-loop learning.
+He shares interventions coaches can use to surface reasoning, challenge defensive routines, and turn setbacks into shared insight.
+The essay remains essential for leaders guiding experts through change.
 """
-levels = ["intermediate"]
+levels = ["Intermediate level"]
 tags = ["leadership", "reflection", "team dynamics"]

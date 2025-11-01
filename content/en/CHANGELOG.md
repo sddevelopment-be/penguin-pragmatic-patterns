@@ -40,6 +40,7 @@ Any feedback or suggestions for changes can be submitted there.
 - Consistency pass on bibliography entries 1–10 (Pragmatic Programmer through Agile Conversations) refreshing descriptions, normalising complexity levels, and aligning author formatting
 - Consistency pass on bibliography entries 11–20 (Prisoners of Our Thoughts through Design Patterns) adding missing subtitles, correcting attributions, and tightening technical summaries
 - Consistency pass on bibliography entries 21–30 (Design It through Modern Software Engineering) enriching descriptions, updating tags, and standardising test-and-delivery guidance
+- Consistency pass on bibliography entries 31–40 (Succeeding with Agile through The Practice of Management) bolstering change-management guidance, testing references, and motivation content
 
 ## v2.5.0: Content Updates and Reusability
 

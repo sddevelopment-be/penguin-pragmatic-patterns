@@ -57,3 +57,4 @@ SPELLCHECK_OUTPUT.*
 **/*.drawio.bkp
 
 auto
+tmp

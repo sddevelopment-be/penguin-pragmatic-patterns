@@ -1629,3 +1629,30 @@ Manipulation may include guilt-tripping, gaslighting, passive-aggressive behavio
 aliases = ["emotional control", "covert influence"]
 references = []
 
+[[terminology]]
+name = "Gamification"
+abbreviation = ""
+domain = "learning"
+description = """
+Applying game design elements such as points, challenges, or levels to non-game contexts to encourage engagement, sustained motivation, and iterative progress.
+In teams, gamification can make routine work feel purposeful by rewarding experimentation and visible wins.
+"""
+aliases = ["game-based motivation"]
+references = [
+    { title = "Actionable Gamification by Yu-kai Chou", link = "https://yukaichou.com/gamification-examples/octalysis-complete-gamification-framework/" },
+    { title = "Gamification at Work", link = "https://hbr.org/2014/02/how-gamification-motivates-people" }
+]
+
+[[terminology]]
+name = "Team morale"
+abbreviation = ""
+domain = "collaboration"
+description = """
+The collective emotional state, motivation, and confidence of a team when pursuing shared goals.
+High morale amplifies engagement, resilience, and willingness to support one another, while low morale erodes focus and productivity.
+"""
+aliases = ["collective spirit", "group morale"]
+references = [
+    { title = "The Importance of Team Morale", link = "https://www.apa.org/news/press/releases/2022/05/workplace-well-being" },
+    { title = "Boosting Team Morale", link = "https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/rewiring-leadership-development" }
+]

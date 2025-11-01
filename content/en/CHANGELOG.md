@@ -25,6 +25,17 @@ Any feedback or suggestions for changes can be submitted there.
 
 # Changes
 
+## Unreleased
+
+### Added
+
+- New practice: [Transform Drudgery into Dojo](/practices/76a4e67f-a28f-454e-8fd2-e389d5e93075)
+- Glossary entries for *Gamification* and *Team morale* to support new practice metadata
+
+### Changed
+
+- Updated practice metadata to link related concepts and practices for quicker discovery
+
 ## v2.5.0: Content Updates and Reusability
 
 > **Facilitate easier content sharing and reuse.** This release focuses heavily on expanding the existing content, adding items to the different sections (especially those that were unattended for a while), and making the content more reusable (internally, and externally).

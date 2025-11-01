@@ -1,0 +1,27 @@
+@startuml
+
+title Transform Drudgery into Dojo — facilitation loop
+
+!include ../../templates/plantuml/puml-theme-bluegray.puml
+
+skinparam backgroundColor white
+skinparam linetype polyline
+skinparam defaultFontSize 16
+skinparam wrapWidth 220
+skinparam shadowing false
+
+start
+:Frame the pain openly;
+:Define experiment-ready improvement goals;
+:Gamify visible progress;
+:Rotate roles and perspectives;
+:Capture automation candidates & patterns;
+:Reflect together on energy and insights;
+
+repeat
+    :Choose next drudgery session;
+repeat while (Need another dojo?) is (yes)
+
+stop
+
+@enduml

@@ -13,7 +13,7 @@ categories = [
     "learning"
 ]
 tags = [
-    "thinking", "decision-making", "cognitive science", "critical thinking", "reflection", "bias"
+    "Cognitive Bias", "Decision-making", "Reflection", "Analysis"
 ]
 uuid="d0ce5702-9059-419c-abbf-0d3e501fbaf7"
 aliases=["d0ce5702-9059-419c-abbf-0d3e501fbaf7"]

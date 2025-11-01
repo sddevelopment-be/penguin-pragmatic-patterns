@@ -15,7 +15,7 @@ categories = [
     "learning",
 ]
 image="concepts/banner_systems-thinking"
-tags = ["complexity", "systems thinking", "interconnectedness", "strategy", "analysis"]
+tags = ["Complexity", "Systems Thinking", "Adaptive Thinking", "Analysis"]
 uuid = "c57288e3-b102-4212-adb7-a4339a3a9e87"
 aliases = ["c57288e3-b102-4212-adb7-a4339a3a9e87"]
 pubdate = "2024-07-31"
@@ -136,4 +136,3 @@ efficiency.
 Through these systemic interventions, the team begins to experience fewer bottlenecks, clearer direction, and a more responsive environment. The
 stakeholders notice improved performance and restored trust in the team's ability to meet deadlines. This example demonstrates how systemic thinking
 allows for a deeper understanding of complex problems and the development of more effective, sustainable solutions.
-

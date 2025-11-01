@@ -10,7 +10,7 @@ categories = [
     "software development",
 ]
 tags = [
-    "maintainability", "cleanliness", "readability", "refactoring"
+    "Clean Code", "Readability", "Refactoring", "Programming"
 ]
 uuid = "1f3849c8-28bc-4934-95bf-66d9dcee6858"
 aliases = ["1f3849c8-28bc-4934-95bf-66d9dcee6858"]

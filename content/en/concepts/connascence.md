@@ -10,7 +10,7 @@ categories = [
     "software development",
 ]
 tags = [
-    "coupling", "software development", "interdependence", "components", "design", "system characteristics"
+    "Architecture", "Design", "Programming", "Trade-off"
 ]
 uuid="c8c57ad1-c7f0-49ff-8aa1-f37166f8f65d"
 aliases=["c8c57ad1-c7f0-49ff-8aa1-f37166f8f65d", "orthogonality"]
@@ -151,4 +151,3 @@ In this case, the system exhibited:
 * **Connascence of Values**: The removed `status_code` values (e.g. "active", "pending") were hardcoded elsewhere.
 
 These kinds of issues are difficult to detect ahead of time because the coupling is **not visible at the API level**. It hides in the database schema and in informal agreements between teams. The lack of an explicit contract or shared data ownership policy made it easy for one change to have far-reaching, unintended effects.
-

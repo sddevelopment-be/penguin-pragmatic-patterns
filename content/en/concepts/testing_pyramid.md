@@ -15,7 +15,7 @@ categories = [
     "software development",
 ]
 tags = [
-    "testing", "overview", "trade-off"
+    "Testing", "Trade-off", "Programming"
 ]
 uuid = "6169f9c0-dfe0-49b1-b459-acf01ac69c40"
 aliases = ["6169f9c0-dfe0-49b1-b459-acf01ac69c40"]
@@ -206,4 +206,3 @@ logic to perform user interaction. If you make some visual changes to your web a
 of elements, these tests tend to break in spectacular fashion. As they are difficult to set up and maintain, and tend to result in false-negative
 issue reports, developers tend to avoid using them. Have a look at [cypress.io](https://www.cypress.io/)
 or [selenium.dev](https://www.selenium.dev/) if you are interested in learning more about this type of tests.
-

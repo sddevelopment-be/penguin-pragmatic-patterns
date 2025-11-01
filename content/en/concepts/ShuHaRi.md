@@ -11,14 +11,14 @@ categories = [
     "learning",
 ]
 tags = [
-    "growth", "mastery", "skill levels", "continuous improvement", "iteration", "cognitive science"
+    "Continuous Improvement", "Strategic Learning", "mentorship", "Adaptive Thinking"
 ]
 uuid="a49f917b-c560-462a-ac38-46515f6f62d0"
 aliases=["a49f917b-c560-462a-ac38-46515f6f62d0"]
 pubdate="2023-09-09"
 image="concepts/banner_shuhari"
 related_concepts = ["98cc5f46-409b-44df-9fb8-fb1d881970b5"]
-related_patterns = ["8c3df901-eefa-4dd1-970a-c00cf3b55379"]
+related_practices = ["8c3df901-eefa-4dd1-970a-c00cf3b55379"]
 further_exploration = [
   {type="raw", author="Cockburn, A.", year="2015", title="Kokoro extends Shu-Ha-Ri with “Heart”", site="Heart of agile", link="https://heartofagile.com/kokoro-extends-shu-ha-ri-with-heart/"}  ,
   {type="raw", author="Aiki News", year="2005", publication="Japanese on Dou", volume="144", title="An Interview with Endô Seishirô Shihan", link="https://web.archive.org/web/20110610205348/http://homepage3.nifty.com/aikido_sakudojo/Shihan_Interview_Dou144-e.html"},

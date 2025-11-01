@@ -2,11 +2,15 @@
 title = "Software Architecture"
 author = "Stijn Dejongh"
 description = "Converting system characteristics into a structured solution that meets the technical and the business expectations."
+summary = """
+Explore how software architecture translates quality attributes and constraints into cohesive structures that guide delivery.
+Learn how architects balance trade-offs, communicate decisions, and keep systems aligned with business intent.
+"""
 categories = [
     "software development",
 ]
 tags = [
-    "architecture"
+    "Architecture", "Design", "Programming", "Trade-off"
 ]
 uuid="3683719c-d1ff-4693-a5c5-d9eefb07e409"
 aliases=["3683719c-d1ff-4693-a5c5-d9eefb07e409"]

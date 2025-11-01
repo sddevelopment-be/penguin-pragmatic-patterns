@@ -10,7 +10,7 @@ categories = [
     "communication",
 ]
 tags = [
-    "leadership", "management", "delegation", "team dynamics"
+    "Team Dynamics", "Decision-making", "Management by Objectives", "Organizational Capability"
 ]
 uuid="03a278c3-0115-4492-8539-f93cfda96fd7"
 aliases=["03a278c3-0115-4492-8539-f93cfda96fd7"]

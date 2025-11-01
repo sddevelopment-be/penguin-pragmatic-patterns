@@ -17,7 +17,7 @@ categories = [
     "communication"
 ]
 tags = [
-    "consulting", "advice", "empathy", "interpersonal skills", "understanding", "relationships"
+    "Conversation", "Empathy", "Interpersonal Skills", "Understanding", "Relationships", "mentorship"
 ]
 uuid = "cffb7fab-580e-4add-b807-d3a76b3209c7"
 aliases = ["cffb7fab-580e-4add-b807-d3a76b3209c7"]
@@ -26,8 +26,7 @@ image = "concepts/banner_helping_attitudes"
 socialImage = "concepts/helping_attitudes_roles.svg"
 related_concepts = [
   "7dfd0b45-b8e2-4ef9-90b4-e5316397f55b", 
-  "c57288e3-b102-4212-adb7-a4339a3a9e87",
-  "7dfd0b45-b8e2-4ef9-90b4-e5316397f55b"
+  "c57288e3-b102-4212-adb7-a4339a3a9e87"
 ]
 related_practices = [
   "47f32286-17b0-471e-90d6-eb0de9f60ac0",

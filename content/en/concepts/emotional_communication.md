@@ -5,7 +5,6 @@ author = "Stijn Dejongh"
 description = "Emotional responses significantly influence the exchange of messages, often leading to misunderstandings and varied reactions based on individual emotional states."
 summary= """
 Understanding the dynamics of Emotional Conversations helps us navigate the complexities of communication, acknowledging how emotions influence our
-Understanding the dynamics of Emotional Conversations helps us navigate the complexities of communication, acknowledging how emotions influence our
 interactions and often lead to misunderstandings. By recognizing the stages of message processing and the factors that influence emotional 
 responses, individuals can better navigate conversations, reduce misunderstandings, and foster more effective interactions.
 """
@@ -13,7 +12,7 @@ categories = [
     "communication",
 ]
 tags = [
-    "responses", "empathy", "emotions"
+    "Empathy", "Emotional Intelligence", "Conversation"
 ]
 uuid = "7dfd0b45-b8e2-4ef9-90b4-e5316397f55b"
 aliases = ["7dfd0b45-b8e2-4ef9-90b4-e5316397f55b"]

@@ -13,7 +13,7 @@ categories = [
     "productivity",
 ]
 tags = [
-    "decision-making", "prioritization", "stoicism", "mindfulness", "legacy", "purpose"
+    "Decision-making", "Prioritization", "Reflection", "Understanding"
 ]
 uuid="97067bdd-7268-4098-ae66-7d4c3ea19fb2"
 aliases=["97067bdd-7268-4098-ae66-7d4c3ea19fb2"]

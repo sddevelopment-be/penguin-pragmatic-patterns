@@ -12,7 +12,7 @@ categories = [
     "productivity",
 ]
 tags = [
-    "tracking", "accountability", "roles"
+    "Task Management", "Accountability", "Management by Objectives"
 ]
 uuid="55f51f65-9d4e-4a31-ad8c-242d473a0f77"
 aliases=["55f51f65-9d4e-4a31-ad8c-242d473a0f77"]

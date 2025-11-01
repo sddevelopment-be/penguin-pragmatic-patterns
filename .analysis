@@ -22,3 +22,18 @@ Additional template considerations
 - content/en/practices/quad_A_test_structure.md remains flagged as `draft = true`; ensure this is intentional before publication.
 - No other structural gaps were detected during this pass.
 
+Concept Consistency Review — 2025-11-01
+---------------------------------------
+- *Front matter updates*: Normalised glossary tags and metadata across published concepts:
+  - `content/en/concepts/ShuHaRi.md`, `content/en/concepts/chain_of_accountability.md`, `content/en/concepts/circle_of_influence.md`, `content/en/concepts/clean-code.md`, `content/en/concepts/cognitive_biases.md` — aligned tags to glossary entries and, where needed, added summaries plus corrected relationship keys.
+  - `content/en/concepts/connascence.md`, `content/en/concepts/dreyfus_model.md`, `content/en/concepts/emotional_communication.md`, `content/en/concepts/helping_attitudes.md`, `content/en/concepts/ikigai.md` — refreshed tag sets, removed duplicate relations, and tidied supporting summaries.
+  - `content/en/concepts/leadership-styles.md`, `content/en/concepts/memento_mori.md`, `content/en/concepts/return-on-investment.md`, `content/en/concepts/software_architecture.md`, `content/en/concepts/systems_thinking.md`, `content/en/concepts/testing_pyramid.md` — supplied missing summaries, rebalanced tags, and reinforced architectural context links.
+- *Body structure*: Every published concept retains the required Definition → Key Components → Background (Origin/Application/Comparisons) → Examples flow; no section gaps found.
+- *Media & shortcodes*: No broken hero images or shortcode assets detected during the pass.
+- *Localization*: `content/nl/concepts/` currently lacks translations. Prioritise `content/en/concepts/systems_thinking.md`, `content/en/concepts/software_architecture.md`, and `content/en/concepts/chain_of_accountability.md` for Dutch localisation to cover foundational themes.
+
+Tooling & Automation Ideas
+--------------------------
+- Add a lint script that parses concept front matter to verify required fields, enforce UUID-in-alias rules, and flag draft placeholders.
+- Extend the tag validator used in this pass to run in CI, cross-checking tag names against `data/glossary.toml` for all content types.
+- Introduce a shortcode/media checker that resolves `image` references and reports missing assets without requiring manual spot checks.

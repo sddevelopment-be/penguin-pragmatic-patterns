@@ -4,12 +4,14 @@ subtitle = ""
 author = "Stijn Dejongh"
 description = "Differentiate between the things/situations where you can have a direct impact, and those where you don't."
 summary="""
+Explore the Circle of Influence to distinguish between situations you can shape and those you simply witness.
+Mapping personal, interpersonal, and extended spheres helps you focus effort where it creates meaningful change.
 """
 categories = [
     "productivity", "communication"
 ]
 tags = [
-    "focus", "impact"
+    "Decision-making", "Prioritization", "Reflection"
 ]
 uuid = "3d5b775a-bd5d-40de-8ed3-d390dae16b7b"
 aliases = ["3d5b775a-bd5d-40de-8ed3-d390dae16b7b"]
@@ -93,4 +95,3 @@ their approach and visualization.
   the quality of their code and the effort they put in, but not the decisions of the project manager.
 * **Personal Development:** An individual struggling with stress draws their Circle of Influence, identifying that they can control their responses
   to stressful situations and choose healthier coping mechanisms.
-

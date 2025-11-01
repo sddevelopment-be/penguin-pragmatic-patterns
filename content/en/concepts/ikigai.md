@@ -10,7 +10,7 @@ categories = [
     "learning",
 ]
 tags = [
-	"personal development", "motivation", "purpose", "reflection", "well-being"
+    "Self-actualization", "Goals", "Reflection", "Understanding", "Strategic Learning"
 ]
 uuid="28cffe88-1f8f-477e-be5a-ffc75f0e712e"
 aliases=["28cffe88-1f8f-477e-be5a-ffc75f0e712e", "ikigai"]
@@ -149,4 +149,3 @@ Tempted by better pay, he moved into a series of administrative and consultancy 
 Then, unexpectedly, a cousin asked him to help tutor her teenage son who was struggling with maths. That single hour rekindled something he hadn’t realised was missing: the spark of shared curiosity, the satisfaction of seeing someone "get it." It reminded him why he started teaching in the first place.
 
 Soon after, he began volunteering in a local after-school programme, and eventually returned to part-time teaching. He now balances strategic education projects with direct student engagement and mentoring. For Eric, his Ikigai hadn’t disappeared — it had just been buried under layers of professional optimisation. Rediscovering it meant stepping away from the pursuit of prestige and reconnecting with the simple joy of helping others learn.
-

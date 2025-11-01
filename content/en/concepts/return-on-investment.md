@@ -6,11 +6,15 @@ description = """
 Return on Investment (ROI) is a metric used to evaluate the efficiency or profitability of an investment. It measures the amount of return on an
 investment relative to its cost.
 """
+summary="""
+Understand how Return on Investment (ROI) compares the value gained from an initiative against the effort and cost required.
+Use the metric to prioritise work, communicate trade-offs, and focus on activities that maximise impact.
+"""
 categories = [
     "productivity",
 ]
 tags = [
-    "management", "decision-making", "efficiency", "trade-off", "analysis", "impact"
+    "Decision-making", "Efficiency", "Trade-off", "Analysis", "metrics"
 ]
 uuid = "b86230c6-49fb-4792-9008-a5241c5cdcb2"
 aliases = ["b86230c6-49fb-4792-9008-a5241c5cdcb2"]

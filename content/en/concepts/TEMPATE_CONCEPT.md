@@ -18,7 +18,7 @@ pubdate=""
 image = ""
 related_concepts = []
 related_practices = []
-further_exporlation = []
+further_exploration = []
 +++
 
 ## Definition

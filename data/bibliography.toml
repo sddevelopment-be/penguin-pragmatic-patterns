@@ -750,13 +750,11 @@ year = "2007"
 link = "https://www.goodreads.com/book/show/2506719.Developing_Technical_Training"
 image = "tech_training.webp"
 description = """
-First published in 1989, this book offers a comprehensive guide on creating impactful training programs.
-The author emphasizes the importance of a structured approach to ensure that trainings are not only effective but also efficient and engaging.
-Through numerous examples and case studies, the book illustrates how to design training materials that captivate your audience and facilitate
-meaningful learning. Whether you're new to instructional design or seeking to refine your skills, this book will help you master the art of
-developing repeatable and successful training programs.
+_Developing Technical Training_ provides a structured approach to designing instructor-led and computer-based programmes that change behaviour.
+Ruth Colvin Clark walks through analysis, design, development, implementation, and evaluation with practical checklists and case studies.
+It is a reliable reference for instructional designers who need repeatable processes and engaging materials.
 """
-levels = ["intermediate", "reference"]
+levels = ["Intermediate level", "Reference / Comprehensive Guides"]
 tags = ["education", "training", "teaching", "communication"]
 
 [[book]]

@@ -38,13 +38,13 @@ further_exploration = [
     { type = "book", author = "Brown, B.", year = "2018", title = "Dare to Lead", publisher = "Random House" },
     { type = "book", author = "Edmondson, A.", year = "2018", title = "The Fearless Organization", publisher = "Wiley" }
 ]
-image = "practices/drudge_dojo.webp"
+image = "practices/drudge_dojo"
 pubdate = "2025-11-01"
 +++
 
 ## Problem statement
 
-Repetitive or tedious work—manual data fixes, legacy maintenance, rote deployments—erodes motivation and attention. Teams often approach these tasks mechanically, missing chances to reflect, improve, or support one another, which eventually nurtures cynicism and learned helplessness.
+Repetitive or tedious work (manual data fixes, legacy maintenance, rote deployments, administrative tasks, ...) erodes motivation and attention. Teams often approach these tasks mechanically, missing chances to reflect, improve, or support one another, which eventually nurtures cynicism and learned helplessness.
 
 ## Intent
 
@@ -57,8 +57,7 @@ Convert unavoidable drudgery into a shared learning laboratory that nurtures tea
     alt="Facilitation flow for Transform Drudgery into Dojo"
     caption="The dojo loop keeps facilitation intentional."
     float="right"
-    size="20%"
->}}
+    size="20%" >}}
 
 Treat the work session as a dojo rather than a chore by following a lightweight facilitation arc:
 
@@ -132,4 +131,4 @@ An operations team schedules a monthly dojo around a brittle release pipeline. E
 
 - The dojo approach is not a license to ignore systemic fixes; it works best when paired with roadmaps that retire drudgery over time.
 - Some practitioners prefer quiet, solitary execution for repetitive tasks—mixing solo focus blocks with dojo sessions keeps the practice inclusive.
-- Use sparingly: over-gamifying every support duty can desensitise the team and dilute the special focus the dojo is meant to provide.
+- Use sparingly: over-gamifying every support duty can desensitize the team and dilute the special focus the dojo is meant to provide.

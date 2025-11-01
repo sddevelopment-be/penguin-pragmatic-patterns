@@ -829,3 +829,40 @@ Drucker emphasizes the importance of understanding the human element in manageme
 levels = ["intermediate", "reference"]
 tags = ["management", "corporate", "leadership"]
 
+[[book]]
+id = "1e810ebf-f195-420c-8fc7-40ef45ceda29"
+title = "Dare to Lead"
+subtitle = "Brave Work. Tough Conversations. Whole Hearts."
+minimized_title = "Dare to Lead"
+isbn = "978-0399592522"
+authors = "Brown, B."
+publisher = "Random House"
+year = "2018"
+location = ""
+link = "https://brenebrown.com/book/dare-to-lead/"
+image = "dare_to_lead.webp"
+description = """
+Brené Brown translates her research on vulnerability and courage into a leadership playbook that centres trust, empathy, and accountability.
+The book offers practical tools for naming hard topics, building inclusive rituals, and creating the psychological safety required for teams to do meaningful work together.
+"""
+levels = ["intermediate"]
+tags = ["leadership", "team dynamics", "empathy"]
+
+[[book]]
+id = "d0e2bad8-7764-47e4-96c7-4c2c9b838d25"
+title = "The Fearless Organization"
+subtitle = "Creating Psychological Safety in the Workplace for Learning, Innovation, and Growth"
+minimized_title = "The Fearless Organization"
+isbn = "978-1119477242"
+authors = "Edmondson, A. C."
+publisher = "Wiley"
+year = "2018"
+location = ""
+link = "https://amycedmondson.com/books/the-fearless-organization/"
+image = "fearless_org.webp"
+description = """
+Amy Edmondson distills decades of research on psychological safety into a guide for leaders who want teams to learn faster and surface difficult truths.
+Case studies and diagnostics demonstrate how deliberate facilitation, rapid feedback loops, and shared accountability unlock experimentation without fear of blame.
+"""
+levels = ["intermediate", "reference"]
+tags = ["leadership", "team dynamics", "psychological safety"]

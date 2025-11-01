@@ -1,0 +1,79 @@
+@startuml
+
+skinparam dpi 280
+skinparam wrapWidth 220
+skinparam shadowing true
+left to right direction
+
+!include ../../templates/plantuml/puml-theme-bluegray.puml
+
+<style>
+classDiagram {
+  class {
+    BackgroundColor #1b1f3b
+    BorderColor #5c6f8c
+    FontColor #f5f8ff
+    FontSize 13
+    FontStyle bold
+  }
+}
+</style>
+
+hide stereotype
+hide circle
+
+together {
+    class "Prime the exercise" {
+      Clarify domain task & success signals
+      Name the micro-skills to layer together
+      Share ground rules for rotation & feedback
+    }
+
+    class "Demonstrate composite flow" {
+      Coach runs end-to-end once while narrating
+      Learners log heuristics in shared template
+      Highlight checkpoints that balance speed & quality
+    }
+
+    class "Rotate roles deliberately" {
+      Learners cycle driver ▶ navigator ▶ observer
+      Reflect after each pass on coordination quality
+      Observer feeds insights into lightweight checklist
+    }
+}
+
+
+together {
+    class "Introduce purposeful constraints" {
+      Toggle tensions (no mouse, timeboxes, limited tools)
+      Surface blind spots in tooling, communication, or cadence
+      Keep humor & safety visible while pressure increases
+    }
+
+    class "Withdraw the scaffold" {
+      Coach shifts to silent observer / sparing prompts
+      Pair self-corrects using shared heuristics
+      Capture reusable scripts, checklists, or rituals
+    }
+
+    class "Debrief & capture ripples" {
+      Review tensions, breakthroughs, & next experiments
+      Decide how insights spread to wider team work
+      Schedule reiteration to compound fluency
+    }
+}
+
+
+START -right-> "Prime the exercise"
+
+"Prime the exercise" --> "Demonstrate composite flow" : Seed shared mental model
+"Demonstrate composite flow" --> "Rotate roles deliberately" : Hand agency to learners
+"Rotate roles deliberately" --> "Introduce purposeful constraints" : Expose integration stress
+"Introduce purposeful constraints" -up-> "Withdraw the scaffold" : Normalize autonomy
+"Withdraw the scaffold" -up-> "Debrief & capture ripples" : Lock in learning loop
+"Debrief & capture ripples" -left-> "Prime the exercise" : Prepare next iteration
+
+"Introduce purposeful constraints" -[hidden]right-> "Rotate roles deliberately"
+"Withdraw the scaffold" -[hidden]right-> "Demonstrate composite flow"
+
+@enduml

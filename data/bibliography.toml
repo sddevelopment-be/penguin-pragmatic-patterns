@@ -866,3 +866,38 @@ Case studies and diagnostics demonstrate how deliberate facilitation, rapid feed
 """
 levels = ["intermediate", "reference"]
 tags = ["leadership", "team dynamics", "psychological safety"]
+
+[[book]]
+id = "95713217-317c-4464-b575-359682329baa"
+title = "Manage It!"
+subtitle = "Your Guide to Modern, Pragmatic Project Management"
+minimized_title = "Manage It!"
+isbn = "978-0978739249"
+authors = "Rothman, J."
+publisher = "Pragmatic Bookshelf"
+year = "2007"
+location = ""
+link = "https://pragprog.com/titles/jkmgti/manage-it/"
+image = "book_placeholder.webp"
+description = """
+Johanna Rothman presents a pragmatic playbook for steering projects without clinging to heavyweight process. The book blends real-world case studies with lightweight planning tools so teams can balance delivery pressure, risk, and learning without losing momentum.
+"""
+levels = ["intermediate", "reference"]
+tags = ["management", "team dynamics", "delivery"]
+
+[[book]]
+id = "b7a9f1f9-f89d-4018-8705-1fd87320fe86"
+title = "Teaching Smart People How to Learn"
+minimized_title = "Teaching Smart People How to Learn"
+isbn = ""
+authors = "Argyris, C."
+publisher = "Harvard Business Review"
+year = "1991"
+location = ""
+link = "https://hbr.org/1991/05/teaching-smart-people-how-to-learn"
+image = "book_placeholder.webp"
+description = """
+Chris Argyris outlines why highly skilled professionals often resist feedback and how facilitators can create the reflective space needed for genuine learning loops. The essay introduces double-loop learning and concrete interventions coaches can adapt for technical teams.
+"""
+levels = ["intermediate"]
+tags = ["leadership", "reflection", "team dynamics"]

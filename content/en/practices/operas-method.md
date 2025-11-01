@@ -14,7 +14,7 @@ categories = [
     "productivity",
 ]
 tags = [
-    "workflow", "research", "goals", "problem solving", "process improvement", "task management"
+    "Workflow", "Goals", "Task Management", "Continuous Improvement", "Analysis"
 ]
 displaySection = "productivity"
 uuid="47f32286-17b0-471e-90d6-eb0de9f60ac0"
@@ -46,7 +46,7 @@ further_exploration = [
 ]
 +++
 
-## Problem
+## Problem statement
 
 How do you make structured progress towards a specific overarching goal?
 
@@ -145,8 +145,22 @@ might know a few coping strategies to resolve the situation if it takes a turn f
 
 ### Enablers
 
+The following factors support effective application of the practice:
+
 - You have a need to keep tabs on the status of various goals and objectives, by using the step names as status indicators
 - having a clear idea of progress made, when combined with the KPI pattern
+
+### Deterrents
+
+The following factors prevent effective application of the practice:
+
+- Your work happens in a highly reactive environment where long-form planning or reflection is impractical.
+- Stakeholders or teammates consider the reflective cadence unnecessary overhead and resist pausing execution.
+- You are tackling ultra-small or transactional tasks where the full OPERAS loop feels disproportionate to the effort.
+
+## Rationale
+
+OPERAS makes progress visible by breaking work into a shared sequence of states. Inspecting movement through these stages surfaces blockers early, encourages coarse-grained course corrections, and captures reusable playbooks for future goals.
 
 ## Application
 
@@ -183,3 +197,9 @@ To mitigate the potential negative consequences of using the OPERAS model, consi
 
 By implementing these strategies, you can maximize the benefits of the OPERAS model while minimizing its potential drawbacks, ensuring that it
 remains a valuable tool in your problem-solving and goal-achievement toolkit.
+
+## Criticism & Clarifications
+
+- OPERAS is a thinking aid, not a compliance checklist—skip or compress stages when they add no insight.
+- The model leans on self-reporting; combine it with objective metrics or peer review so status isn’t purely anecdotal.
+- Frequent resets can exhaust teams already working in rapid cycles; blend OPERAS with iterative planning cadences they already trust.

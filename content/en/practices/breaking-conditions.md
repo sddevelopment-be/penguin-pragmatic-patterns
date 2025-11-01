@@ -47,7 +47,7 @@ further_exploration=[
 ]
 +++
 
-## Problem Statement
+## Problem statement
 
 You tend to push too hard trying to reach a goal, or invest more than you can support.
 
@@ -123,7 +123,7 @@ The following factors prevent effective application of the practice:
 * **Not keeping commitments:** Setting stopping criteria too early might prevent individuals from reaching their full potential and achieving their 
   goals. When working on a commitment made to someone else, it is important to be upfront about how far you are willing to go to achieve it.
 
-### Mitigation Strategies
+### Mitigation strategies
 
 * **Regular Reassessment:** Regularly review and adjust stopping criteria based on new information and evolving contexts to maintain a balance
   between caution and opportunity.
@@ -165,3 +165,9 @@ This means I set myself a limit, a breaking condition, before I quit my job. The
 I discussed my intent with my then-fiancee (now wife), as it also affected her. She was okay with delaying our long term plans with about one year in case I did not reach my intended goal.
 This gave me two things. Foremost, it helped reassure me that I was not doing harm to the people I cared about. Secondly, it served as a 
 sanity-check of my plans. If my goal was completely unrealistic, she would have undoubtedly told me at that point.
+
+## Criticism & Clarifications
+
+- Stopping conditions can be weaponised to mask fear of discomfort; pair them with courageous goals so they invite experimentation, not avoidance.
+- In complex initiatives you rarely know the right threshold upfront—schedule reviews to adjust limits as new data emerges.
+- Stakeholders may interpret quitting as lack of commitment. Communicate the rationale early and highlight how the practice protects long-term outcomes.

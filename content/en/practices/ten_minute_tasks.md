@@ -12,7 +12,7 @@ categories = [
     "productivity",
 ]
 tags = [
-    "time management", "habits", "continuous improvement", "incremental progress", "iteration"
+    "Time Management", "Continuous Improvement", "Workflow", "Organizing"
 ]
 uuid="d27c9889-dcb4-45f4-a36c-5af7f85b6a76"
 aliases=["d27c9889-dcb4-45f4-a36c-5af7f85b6a76"]
@@ -39,7 +39,7 @@ further_exploration = [
 ]
 +++
 
-## Problem Statement
+## Problem statement
 
 There are many lulls in a day when you have a few minutes to spare, these are often lost because you don't know what to do with them.
 
@@ -108,7 +108,7 @@ The following factors prevent effective application of the practice:
 
 ## Application
 
-### Considerations
+### Consequences
 
 * **Perfectionism:** People can avoid starting a task because they don't have enough time to do it perfectly, or finish it completely.
 * **Self-induced stress:** People applying this technique can feel driven to always be productive, and can feel guilty when they are not.
@@ -147,6 +147,11 @@ To help you get started on your own list, here are some tasks that can generally
 * throwing away old food from the fridge
 * putting dirty clothes in the laundry basket
 
+## Criticism & Clarifications
 
+- Short tasks should not become a substitute for deep work—protect longer focus blocks when they matter most.
+- Some downtime is restorative; intentionally choose when to rest instead of reflexively filling every gap.
+- If the list grows stale, prune it—items that linger for months probably need a different approach.
 
+---
 

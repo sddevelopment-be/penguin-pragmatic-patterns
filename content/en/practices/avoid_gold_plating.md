@@ -45,7 +45,7 @@ further_exploration = [
 ]
 +++
 
-## Problem Statement
+## Problem statement
 
 Programmers tend to over-design simple things to make them more capable, clever, or beautiful than they need to be at that point in time. 
 In doing so, they often end up spending much more time and mental effort on a piece of software than is needed.  
@@ -109,7 +109,7 @@ The following factors prevent effective application of the practice:
   under-designing is likely to take place, making the codebase fragile when new requirements emerge.
 * **Team Dynamics:** Developers may feel demotivated if their ideas for better designs are consistently postponed.
 
-### Mitigation Strategies
+### Mitigation strategies
 
 * **Regular Reviews:** Implement regular code reviews to ensure adherence to simplicity principles while considering future requirements.
 * **Refactoring:** Encourage refactoring to address technical debt and ensure the codebase remains maintainable.
@@ -182,3 +182,9 @@ The class below shows a strategy-injection visitor to determine which output for
 
 }
 ```
+
+## Criticism & Clarifications
+
+- Avoiding gold plating is not a license to ignore architecture; revisit decisions regularly so short-term hacks do not calcify into core systems.
+- Critics sometimes equate this practice with complacency. Clarify that the goal is sequencing improvements, not abandoning quality altogether.
+- Teams in safety-critical or highly regulated domains may need more upfront investment—adapt the heuristic to match compliance or risk thresholds.

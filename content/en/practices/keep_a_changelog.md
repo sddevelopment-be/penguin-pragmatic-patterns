@@ -12,7 +12,7 @@ categories = [
     "software development",
 ]
 tags = [
-    "knowledge retention", "documentation", "traceability", "collaboration", "release management", "version control"
+    "Knowledge Retention", "Documentation", "Traceability", "Collaboration", "Release Management", "Version Control"
 ]
 uuid="642d0d66-7b5d-4900-8f68-66adf41466d2"
 aliases=["642d0d66-7b5d-4900-8f68-66adf41466d2"]
@@ -42,7 +42,7 @@ pubdate="2023-09-15"
 image="practices/changelog_cover"
 +++
 
-## Problem Statement
+## Problem statement
 
 You are experiencing difficulty in keeping track of which changes have been made to your project.
 
@@ -218,3 +218,9 @@ jobs:
           files: ./README.md
           message: "[GITOPS] updated README with latest changes"
 ```
+
+## Criticism & Clarifications
+
+- Update discipline is everything; an unmaintained changelog misleads more than it helps—assign ownership or automate reminders.
+- Duplicating context between changelog and release notes can frustrate readers; link or embed to avoid diverging narratives.
+- Regulated environments may require audit-grade detail—add appendices or additional artefacts instead of bloating the public changelog.

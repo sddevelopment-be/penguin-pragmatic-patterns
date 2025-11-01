@@ -42,7 +42,7 @@ further_exploration = [
 ]
 +++
 
-## Problem Statement
+## Problem statement
 
 Assessing a candidate's skills and experience during an interview using traditional knowledge-based questions often leads to researched and 
 rehearsed answers. You want to assess and verify the interviewee has experience in the application of certain skills.
@@ -97,6 +97,12 @@ The following factors prevent effective application of the practice:
 * **Resistance to Change**: There is resistance within the organization to adopt new interview methodologies, hindering the implementation of the STARR technique.
 * **Candidate Stress:** When candidates feel pressured to provide the "right" answers, leading to less representative responses.
 
+## Rationale
+
+The STARR structure invites candidates to unpack real stories, making it harder to hide behind rehearsed theory or resume keywords.
+Interviewers gain a consistent lens for comparing evidence across candidates, and can probe for lessons learned instead of memorised answers.
+Because reflection is built into the arc, the method also surfaces how someone grows after a win or a setback—insight traditional Q&A rarely yields.
+
 ## Application
 
 ### Practical Pointers
@@ -150,5 +156,11 @@ The following factors prevent effective application of the practice:
 * Have you ever had to make an unpopular decision, and explain it to those impacted? How did you handle it?
 * What is one of the most challenging technical issues you encountered so far? How did you solve the problem?
 * Describe a time when you used a metaphor or analogy to explain a tricky concept to a coworker or family member.
+
+## Criticism & Clarifications
+
+- Behavioural interviews are still subjective; calibrate panels and debrief collectively so evidence is interpreted consistently.
+- Some roles require real-time problem solving; complement STARR artefacts with live exercises or work samples for a balanced view.
+- Offer accommodations for neurodiverse candidates who may need more time or a written prompt to recall relevant stories.
 
 ---

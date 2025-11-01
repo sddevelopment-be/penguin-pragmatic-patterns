@@ -10,7 +10,7 @@ categories = [
     "productivity"
 ]
 tags = [
-    "focus", "work in progress", "lean thinking", "progress", "cognitive load"
+    "Workflow", "Organizing", "Continuous Improvement", "Cognitive Load", "Goals"
 ]
 uuid="e4564f9d-d0af-4644-a4c0-48824db0b2e2"
 aliases=["e4564f9d-d0af-4644-a4c0-48824db0b2e2"]
@@ -235,3 +235,11 @@ For each task from the previous day:
 ```
 
 
+
+## Criticism & Clarifications
+
+- Resetting daily is a strong medicine; dial the cadence back if the ritual itself becomes waste.
+- Pair the practice with metrics or notes so executives still see progress even when boards look empty.
+- For compliance-heavy work, ensure archived items preserve required audit trails before wiping them away.
+
+---

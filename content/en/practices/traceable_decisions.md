@@ -11,7 +11,7 @@ categories = [
     "software development",
 ]
 tags = [
-    "decision-making", "organizing", "goals", "research", "tracking", "documentation"
+    "Decision-making", "Organizing", "Goals", "Analysis", "Documentation"
 ]
 uuid="e6cdeaa2-cc30-4928-95fd-f28ea7cb489d"
 aliases=["e6cdeaa2-cc30-4928-95fd-f28ea7cb489d", "ADRs"]
@@ -43,7 +43,7 @@ further_exploration = [
 ]
 +++
 
-## Problem Statement
+## Problem statement
 
 You are making decisions in your software development process, and spending considerable amounts of time communicating them to your team, 
 management, and business stakeholders. These parties are not always aware of the context in which the decision was made, the trade-offs that were considered,
@@ -97,7 +97,7 @@ The following factors prevent effective application of the practice:
 * **Time Investment:** Initial setup and continuous maintenance of documentation require significant time and effort.
 * **Tool Dependence:** The effectiveness of this pattern heavily relies on the availability and usability of documentation tools.
 
-### Mitigation Strategies
+### Mitigation strategies
 
 * **Set Clear Guidelines:** Establish clear guidelines on what needs to be documented and what does not. Focus on essential information to avoid
   over-documentation.
@@ -410,3 +410,11 @@ outdated or takes away the possibility of independent thought during implementat
     * **Estimated added value:** `high`, `medium`, `low`
     * **Depends on:** ???
 ```
+
+## Criticism & Clarifications
+
+- Templates help but cannot replace conversations—schedule checkpoints for decisions that carry large risk.
+- Documentation that no one reads is waste; archive or delete artefacts that no longer guide active work.
+- Keep security and confidentiality in mind when recording sensitive trade-offs or stakeholder debates.
+
+---

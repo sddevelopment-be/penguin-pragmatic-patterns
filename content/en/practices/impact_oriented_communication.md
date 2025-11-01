@@ -11,7 +11,7 @@ categories = [
     "communication"
 ]
 tags = [
-    "outcomes", "communication", "visibility", "measurement", "feedback", "quantification"
+    "Quantification", "Feedback culture", "Conversation", "Evaluation"
 ]
 uuid="81733c4f-a952-47d2-a678-900956ac728d"
 aliases=["81733c4f-a952-47d2-a678-900956ac728d"]
@@ -257,5 +257,4 @@ Framing impact doesn’t mean performing. It means reducing ambiguity and making
 {{< tip text="Don’t spin. Just say what changed — how much, and why it mattered." >}}
 
 ---
-
 

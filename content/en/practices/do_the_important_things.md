@@ -148,4 +148,16 @@ The following factors prevent effective application of the practice:
 * **Use as a Guideline:** Treat the matrix as a guideline rather than a strict rule, allowing for adaptability in task prioritization. Use multiple
   prioritization techniques to balance structure and flexibility in task management.
 
+## Examples
+
+- **Weekly planning ritual:** On Sunday evenings, review the backlog, map each item onto the Eisenhower quadrants, and pick three “important & not urgent” tasks for the coming week so they do not keep slipping.
+- **Support alignment:** Before agreeing to a cross-team initiative, run through STEAM or a similar resource checklist to ensure you have the required attention and time—if not, negotiate scope or deadline changes.
+- **Meeting triage:** When your calendar fills up, categorise each meeting invite using urgent/important labels. Decline or delegate the “not important/not urgent” items to reclaim focus time.
+
+## Criticism & Clarifications
+
+- Prioritisation frameworks can become busywork. Track outcomes (e.g. number of important tasks completed) to confirm the practice pays off.
+- The matrix assumes you control your workload. In highly interrupt-driven roles, complement it with kanban-style WIP limits rather than forcing misaligned categories.
+- Beware of the “urgent/important” buzzwords becoming status signals; remind teams that the goal is clarity, not gaming the labels.
+
 [^1]: Mathematicians (and computer programmers) call this a _"Matrix"_. We are sorry to disappoint you if you expected leather clad martial artists to help you out with setting your priorities.

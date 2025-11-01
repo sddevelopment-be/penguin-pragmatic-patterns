@@ -291,3 +291,9 @@ study underscores the importance of adapting test strategies to align with syste
 continuous delivery of high-quality software.
 
 {{< image src="/images/practices/test_boundary_slicing"  alt="Pattern structure definition"  size="30%" >}}
+
+## Criticism & Clarifications
+
+- Boundary definitions can fossilise as architecture evolves; review them whenever services split or merge so tests still mirror functional truth.
+- Functional slicing complements rather than replaces contract or component testing—balance the suite to avoid redundant coverage that slows feedback loops.
+- Teams without strong test doubles can over-mock collaborators and recreate brittleness; invest in tooling and coaching so substitutes represent behaviour, not implementation detail.

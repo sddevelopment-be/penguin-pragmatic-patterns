@@ -14,7 +14,12 @@ categories = [
     "learning"
 ]
 tags = [
-    "analysis", "evaluation", "decision-making", "systems thinking", "trade-offs", "adaptive thinking"
+    "analysis",
+    "evaluation",
+    "decision-making",
+    "systems thinking",
+    "trade-off",
+    "adaptive thinking",
 ]
 ammerse = [
     {name = "agile", delta = "-0.35", rationale = "The analysis is time-consuming and may hinder agility by slowing down decision-making processes. The potential indirect support for better decisions is not enough to offset this."},
@@ -39,7 +44,7 @@ further_exploration=[
 ]
 +++
 
-## Problem Statement
+## Problem statement
 
 You want to ensure balanced and well-informed decision-making that aligns with desired (organizational) core values.
 
@@ -141,10 +146,17 @@ The following factors prevent effective application of the practice:
 * **Unknown Situations:** Limited knowledge of the context in which the evaluated decision is taken. Lack of even the most basic conceptual
   model of the system in which the decision will have an impact.
 
+## Rationale
+
+The AMMERSE impact algorithm exposes the reasoning behind a decision by forcing teams to articulate assumptions, feedback loops, and value trade-offs.
+Documenting both base impacts and interaction effects creates a transparent trail that can be reviewed, challenged, and iterated when conditions evolve.
+That traceability helps teams distinguish between gut feeling and structured insight without pretending the method is perfectly objective.
+
 ## Application
 
-### Considerations
+### Consequences
 
+* **Shared visibility:** Running the analysis surfaces implicit assumptions and creates a common vocabulary around value trade-offs.
 * **Apparent Objectivity:** Though the analysis looks very objective due to the numbers and lengthy calculations, each step in the 
   analysis is based on subjective assessments and heuristic shortcuts.
 * **Heavy-weight Approach:** The analysis will hinder adaptability, and introduce delays, by its time-consuming nature and tendency to slow down 
@@ -398,3 +410,9 @@ where avoiding gold plating led to project success.
 focus strictly on current requirements.
 
 By addressing these considerations and implementing the recommendations, the "Avoid Gold-Plating" pattern can be effectively integrated into the software development process, maximizing its positive impacts on the AMMERSE values while mitigating potential downsides.
+
+## Criticism & Clarifications
+
+- The algorithm can project a false sense of precision; treat the numeric output as a conversation prompt, not a deterministic verdict.
+- High-effort analyses are rarely justified for low-stakes decisions—use lighter-weight heuristics unless the risk profile warrants the investment.
+- AMMERSE deltas reflect the facilitator’s mental model; revisit the inputs when new data or stakeholders surface conflicting perspectives.

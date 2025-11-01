@@ -13,7 +13,7 @@ categories = [
     "communication", "learning"
 ]
 tags = [
-    "reflection", "self-awareness", "personal development", "conflict resolution", "team dynamics", "understanding"
+    "Reflection", "Self-actualization", "Interpersonal Skills", "conflict", "Team Dynamics", "Understanding"
 ]
 uuid="ef281403-6cde-4936-a718-c077a3bf5aef"
 aliases=["ef281403-6cde-4936-a718-c077a3bf5aef"]
@@ -194,7 +194,7 @@ While the approach brings numerous benefits, it can also lead to several unexpec
 - **Labeling and flattening:** Especially in organisations already steeped in frameworks (e.g., {{< term name="MBTI" title="MBTI" >}}, DISC), manuals may be read through the lens of cognitive shortcuts. This risks reducing individuals to a handful of traits or types.
 - **Loss of nuance through scale:** As the practice spreads, organizations may create templates, frameworks, or checklists that erode its original intent. The result is mechanical manuals that are less honest and more sanitized. Teams might over-rely on manuals and written cues rather than practicing live dialogue or co-adaptation, reducing actual collaborative resilience.
 
-###  Mitigation strategies
+### Mitigation strategies
 
 To reduce the risk of negative consequences, consider these mitigations:
 
@@ -296,5 +296,4 @@ And it’s not for everyone. If a team has high trust, great communication, and 
 
 
 ---
-
 

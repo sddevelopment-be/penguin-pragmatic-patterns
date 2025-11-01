@@ -82,12 +82,16 @@ Maintain a pace that keeps tension productive: humor, visible timers, or micro-b
 - Progressive withdrawal, feedback culture, and psychological safety allow peers to challenge habits without blame.
 
 ### Enablers
+The following factors support effective application of the practice:
+
 - Small groups (2–3 learners) that can rotate roles without losing focus.
 - Access to realistic yet bounded tasks that can be attempted multiple times in a session.
 - A coach comfortable modulating tone, constraints, and feedback intensity.
 - Participants motivated to improve autonomy and to teach back what they learn.
 
 ### Deterrents
+The following factors prevent effective application of the practice:
+
 - Low-trust environments or teams preoccupied with near-term throughput.
 - Facilitators who cannot balance constructive tension with care, leading to anxiety.
 - Large groups that dilute feedback loops or make role rotation impractical.

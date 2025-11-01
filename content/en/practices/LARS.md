@@ -40,7 +40,7 @@ further_exploration = [
 ]
 +++
 
-## Problem Statement
+## Problem statement
 
 You have difficulties connecting with others, and find yourself disengaged during conversations.
 
@@ -148,6 +148,11 @@ who seems more interested in tearing you down?
 Here's the real question: What type of host do you aim to be in your own conversations? The answer may hold the key to more meaningful and
 impactful interactions.
 
+## Criticism & Clarifications
+
+- LARS is not always the fastest route to decisions—align expectations when agendas require concrete outcomes or time-boxed meetings.
+- Some partners may perceive paraphrasing as insincere; model curiosity and adapt the cadence so the exchange still feels natural.
+- Empathetic listening complements, rather than replaces, professional support; encourage people to seek specialists when conversations surface deeper trauma or therapy needs.
 
 [^1]: For instance, political debates often highlight participants' focus on asserting their viewpoints rather than truly listening, building on
 top of, or responding to arguments made by other participants.

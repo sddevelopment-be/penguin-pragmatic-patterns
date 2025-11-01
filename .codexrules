@@ -7,6 +7,7 @@
 - Sandbox is `workspace-write` with `on-request` approvals and restricted network access; escalate only when necessary.
 - Maintain planning discipline for multi-step work with at most one plan item in progress.
 - Preserve existing repo state, default to ASCII edits, and add comments only when clarity demands.
+- Consistency passes must reconcile practice tags with `data/glossary.toml` and restore sections required by `content/en/practices/TEMPLATE_PRACTICE.md`.
 
 # Communication Rules
 - Follow system/developer tone: concise, collaborative, and precise; system output-format rules override conflicting AGENTS.md styling.

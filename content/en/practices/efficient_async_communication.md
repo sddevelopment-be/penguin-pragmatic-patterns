@@ -6,11 +6,14 @@ description = """
 Write your messages with enough context for the recipient to prioritize them, keeping in mind they will be read and acted upon
 when it best suits your conversational partner.
 """
+summary="""
+Turn chat posts into concise mini-emails that bundle context, intent, and urgency so teammates can respond without needless back-and-forth.
+"""
 categories = [
     "communication",
 ]
 tags = [
-    "clarity", "asynchronous-communication", "chat"
+    "Asynchronous Communication", "Conversation", "Bottom Line Up Front"
 ]
 uuid="158a883c-e537-4b92-869f-95d5e0483f3c"
 aliases=["158a883c-e537-4b92-869f-95d5e0483f3c"]
@@ -38,11 +41,9 @@ further_exploration = [
 ]
 +++
 
-## Context
+## Problem statement
 
 You communicate with others in a semi-asynchronous way, through messaging applications.
-
-## Problem Statement
 
 People tend to wait for responses before stating what they want, causing unneeded distractions.
 
@@ -177,3 +178,9 @@ You can see the revised conversation in the image below:
 {{< image
   src="/images/practices/async_message_improved"
   alt="Alex sends a clearer message to Bernie. Bernie responds with a solution to the problem. Both of them save time." >}}
+
+## Criticism & Clarifications
+
+- Some recipients interpret the direct style as brusque—prime teams on why the structure exists and adapt tone for new collaborators.
+- Use the format as a starting scaffold, not a script; drop detail when a quick emoji or thumbs-up does the job.
+- When conversations turn sensitive or ambiguous, switch to richer channels (call, meeting) rather than forcing nuance into a single message.

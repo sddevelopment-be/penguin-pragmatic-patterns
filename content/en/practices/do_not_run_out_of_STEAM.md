@@ -168,5 +168,10 @@ most efficient or flexible approach, particularly when quick decisions are neces
   alt="Applying the STEAM mnemonic model to a real-life situation."  
   caption="Applying the STEAM mnemonic model to a real-life situation." >}}
 
+## Criticism & Clarifications
+
+- STEAM is a thinking aid, not an optimisation algorithm—capture the reflections but trust yourself to make trade-offs that stretch beyond perfect balance.
+- Resource audits can trigger guilt or scarcity mindsets; pair the exercise with gratitude or wins so it remains energising.
+- In collaborative settings clarify who owns which resources; otherwise teammates may expect shared support or money that the model treats as personal.
 
 

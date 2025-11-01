@@ -35,7 +35,7 @@ related_practices = [
   "336b0448-e78b-4428-83a5-d4d473afda63"
 ]
 further_exploration = [
-  {type="bilbio", id="d22ee68e-2f19-4677-9123-2994cb111c0c"},
+  {type="biblio", id="d22ee68e-2f19-4677-9123-2994cb111c0c"},
   {type="biblio", id="9d8ff83e-f49a-4c7c-8e40-e34ac63e2792"},
   {type="biblio", id="8572443d-2c27-462a-b9d7-839dd6e4d58b"},
   {type="biblio", id="2930d42d-e7cf-4ea5-a6f3-eceb5b9a5fc1"},
@@ -132,8 +132,6 @@ The following factors prevent effective application of the practice:
 * **Flexible Enforcement:** Allow for exceptions where necessary and encourage developers to suggest improvements to the conventions.
 * **Comprehensive Training:** Provide training sessions and resources to help developers understand and adopt the new standards effectively.
 * **Regular Reviews:** Conduct regular code reviews and discussions to address any issues with the conventions and make adjustments as needed.
-* **Inclusive Decision-Making:** Involve the entire team, including junior and timid members, in defining coding standards to ensure broad buy-in
-  and reduce the risk of power imbalances.
 * **Mentorship Programs:** Pair new team members with mentors who can help them understand and adapt to coding standards without feeling
   intimidated.
 
@@ -197,3 +195,8 @@ Let a machine handle the easily spotted and corrected "issues" in your code base
 Spend your time on digging into the important things, such as functionality or the architecture of the code.
 ` >}}
 
+## Criticism & Clarifications
+
+- Standardisation can drift into bureaucracy—review the rule set periodically and delete guidance that no longer adds value.
+- People may treat linters as antagonists; frame automation as a time saver so humans focus on design and behaviour, not whitespace.
+- Global mandates are risky: allow teams to diverge deliberately when domain constraints (embedded, data science, etc.) require alternate conventions.

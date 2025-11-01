@@ -11,7 +11,7 @@ categories = [
     "productivity",
 ]
 tags = [
-    "time management", "focus", "timeboxing", "task management"
+    "Time Management", "Task Management", "Workflow", "Organizing"
 ]
 uuid="cfd81655-1c47-4ee9-9f73-ea959bba3af4"
 aliases=["cfd81655-1c47-4ee9-9f73-ea959bba3af4"]
@@ -108,7 +108,7 @@ While the Pomodoro technique is highly effective for enhancing focus and product
 * **Break Mismanagement:** If breaks are not managed effectively, they can lead to procrastination or loss of momentum. While the 5-minute
   breaks are designed to recharge, they may not always be sufficient, potentially leading to fatigue if not extended when needed.
 
-### Mitigation Strategies
+### Mitigation strategies
 
 To maximize the effectiveness of the Pomodoro technique while minimizing potential downsides, consider the following strategies:
 
@@ -172,6 +172,12 @@ echo $msg
 say -v Luca $msg
 ```
 
+## Criticism & Clarifications
 
+- Pomodoros can fragment deep work—treat the timer as optional when flow arrives rather than interrupting yourself mid-insight.
+- The external discipline can trigger anxiety for neurodivergent folks; adapt interval length or switch modalities when the countdown feels punitive.
+- Shared spaces matter: audible timers or constant breaks may disrupt colleagues, so coordinate norms before rolling out team-wide.
+
+---
 
 [^0]: Old-school kitchen timers in the shape of a tomato are where this technique got its name. The Italian word for "tomato" being __"pomodoro"__. 

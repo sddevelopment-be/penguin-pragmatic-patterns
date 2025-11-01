@@ -16,7 +16,7 @@ categories = [
     "learning", "communication"
 ]
 tags = [
-    "knowledge transfer", "growth", "skill development", "training", "collaboration", "structured approach"
+    "Knowledge Retention", "Collaboration", "Continuous Improvement", "Mentorship", "Organizing"
 ]
 uuid="ad717858-fd38-491e-ba78-41d50314a353"
 aliases=["ad717858-fd38-491e-ba78-41d50314a353"]
@@ -291,3 +291,10 @@ Additionally, a select group of participants took it upon themselves to keep the
 this by creating dedicated webpages on the company’s intranet for each department, ensuring that the training materials remained relevant and
 accessible to all employees.
 
+## Criticism & Clarifications
+
+- Structure is a means to an end; treat it as scaffolding that can be relaxed once teams internalise the habits.
+- Knowledge bases drift when ownership is unclear—assign maintainers or sunset stale material explicitly.
+- Not every topic needs a full workshop; use lighter channels when a quick tip or screencast will do.
+
+---

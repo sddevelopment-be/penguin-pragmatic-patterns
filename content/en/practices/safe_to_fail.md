@@ -12,7 +12,7 @@ categories = [
     "learning",
 ]
 tags = [
-    "experimentation", "goals", "accountability", "research", "innovation", "resilience"
+    "Goals", "Accountability", "Adaptive Thinking", "Continuous Improvement", "Analysis"
 ]
 uuid = "09986d9e-cd80-4016-8000-c62ed5064914"
 aliases = ["09986d9e-cd80-4016-8000-c62ed5064914"]
@@ -43,7 +43,7 @@ further_exploration = [
 ]
 +++
 
-## Problem Statement
+## Problem statement
 
 * When learning new skills, a significant part of the process may not yield immediate or desired results.
 * We are hardwired to avoid failure, which, while crucial for survival, hinders trying new things.
@@ -85,6 +85,10 @@ The following factors prevent effective application of the practice:
 * Environment devalues learning or is unwilling to invest in it.
 * Presence of an expert in the subject you're trying to learn.[^1]
 * Environment prioritizes optics over results, punishing failure.
+
+## Rationale
+
+Running low-risk experiments reframes failure as signal instead of shame. By breaking ambitions into testable slices, you surface assumptions earlier, collect evidence faster, and normalise sharing what you tried. That rhythm accelerates learning loops for individuals and teams alike.
 
 ## Application
 
@@ -137,6 +141,14 @@ You are not sure if it will be useful for your current project, but you are inte
 * You park your small feature, discuss your recommendations with your team, and move on with your work.
 
 **Possible outcome:** You decide to not use the new technology for your current project, but you (and your colleagues) have learned something new.
+
+## Criticism & Clarifications
+
+- Safe-to-fail does not mean low accountability; define guardrails, budgets, and review points before you start.
+- Some domains (safety-critical, regulatory) cannot absorb repeated failures—adapt the pattern with simulations or sandboxes.
+- Archive experiment notes alongside outcomes so future teams can build on what you tried instead of repeating it blindly.
+
+---
 
 [^1]: This is somewhat counter-intuitive, but it is a real thing. If you are trying to learn something, and there is an expert present, you (or your
 organization) will be tempted to ask them to pick up the work. Reliance on skilled individuals can be detrimental to your growth, as it results in

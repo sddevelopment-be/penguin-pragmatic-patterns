@@ -17,7 +17,7 @@ categories = [
     "learning",
 ]
 tags = [
-    "exploration", "discovery", "hardening", "risk management", "assessment", "strategy"
+    "Analysis", "Evaluation", "Adaptive Thinking", "Decision-making"
 ]
 uuid="1bdb4866-7c15-46b1-ad38-26111791eed5"
 aliases=["1bdb4866-7c15-46b1-ad38-26111791eed5"]
@@ -47,7 +47,7 @@ pubdate="2023-09-19"
 image = "practices/self_sabotage_cover"
 +++
 
-## Problem Statement
+## Problem statement
 
 You have an idea and want to strengthen it against negative forces.
 
@@ -128,7 +128,7 @@ The following factors prevent effective application of the practice:
 
 ## Application
 
-### Considerations
+### Consequences
 
 * **Over-emphasis on Risks:** Focusing too much on potential failures can lead to excessive caution and hinder progress.
 * **Time and Effort:** Conducting a thorough self-sabotage analysis requires significant time and effort, potentially detracting from other 
@@ -136,13 +136,19 @@ The following factors prevent effective application of the practice:
 * **Negative Mindset:** Continually thinking about how things can fail might foster a negative mindset, which can be demotivating and 
   counterproductive.
 
-### Mitigation Strategies
+### Mitigation strategies
 
 * **Balance Risk Assessment:** Maintain a balanced approach by also considering potential positive outcomes and opportunities.
 * **Allocate Time Wisely:** Schedule dedicated time for self-sabotage analysis to ensure it does not interfere with other important tasks. Know 
   when to stop and move forward. Not every potential risk warrants extensive mitigation.
 * **Foster a Positive Environment:** Encourage a positive mindset by celebrating small successes and learning from identified risks rather than
   focusing solely on failures.
+
+## Criticism & Clarifications
+
+- Self-sabotage exercises can drift into catastrophic thinking; pair them with “what would make this succeed?” to keep morale intact.
+- Some stakeholders experience analysis fatigue—timebox the activity and socialise outcomes so it feels purposeful, not indulgent.
+- When risks implicate sensitive people or vendors, anonymise or park the detail so the exercise remains psychologically safe.
 
 ---
 

@@ -1155,6 +1155,26 @@ references = [
 ]
 
 [[terminology]]
+name = "Decision-making"
+abbreviation = ""
+domain = "leadership"
+description = """
+Decision-making is the deliberate process of selecting a course of action from several possibilities. It blends data, experience, and stakeholder input to choose a path that advances shared objectives while managing risk.
+"""
+aliases = ["decision taking", "choosing options"]
+references = []
+
+[[terminology]]
+name = "Evaluation"
+abbreviation = ""
+domain = "analysis"
+description = """
+Evaluation is a structured review of evidence, outcomes, and assumptions to determine the merit or effectiveness of an initiative. It compares observed results against intended goals to inform adjustments and next steps.
+"""
+aliases = ["assessment", "appraisal"]
+references = []
+
+[[terminology]]
 name = "Complexity"
 abbreviation = ""
 domain = "systems theory, decision-making, leadership"
@@ -1462,6 +1482,216 @@ references = [
 ]
 
 [[terminology]]
+name = "Conversation"
+abbreviation = ""
+domain = "communication"
+description = """
+A conversation is an interactive exchange where people share information, perspectives, and emotions in real time. High-quality conversations balance speaking and listening so all parties feel heard and can co-create new understanding.
+"""
+aliases = ["dialogue", "discussion"]
+references = []
+
+[[terminology]]
+name = "Emotional Intelligence"
+abbreviation = ""
+domain = "personal development"
+description = """
+Emotional intelligence is the capacity to recognise, understand, and manage your own emotions while responding effectively to the emotions of others. It blends self-awareness, empathy, and regulation to maintain constructive relationships under pressure.
+"""
+aliases = ["EQ", "emotional maturity"]
+references = []
+
+[[terminology]]
+name = "Empathy"
+abbreviation = ""
+domain = "communication"
+description = """
+Empathy is the ability to perceive and appreciate another person’s feelings, experiences, or perspectives. It requires curiosity and presence, going beyond sympathy to connect with what someone else may be living through.
+"""
+aliases = ["compassionate understanding"]
+references = []
+
+[[terminology]]
+name = "Elegance"
+abbreviation = ""
+domain = "software development"
+description = """
+Elegance describes solutions that deliver the required outcome with minimal complexity. Elegant code favours clarity, proportion, and purpose so future contributors can understand and extend it quickly.
+"""
+aliases = ["simplicity", "graceful design"]
+references = []
+
+[[terminology]]
+name = "Goals"
+abbreviation = ""
+domain = "productivity"
+description = """
+Goals express the outcomes a person or team intends to achieve. Good goals clarify scope, success measures, and time horizons so effort can be coordinated and progress evaluated.
+"""
+aliases = ["objectives", "targets"]
+references = []
+
+[[terminology]]
+name = "Interviewing"
+abbreviation = ""
+domain = "talent acquisition"
+description = """
+Interviewing is a structured conversation where an organisation explores a candidate’s experience, judgement, and fit. Effective interviewing combines preparation, open questions, and evidence-based evaluation to reduce bias.
+"""
+aliases = ["candidate interviewing"]
+references = []
+
+[[terminology]]
+name = "Assessments"
+abbreviation = ""
+domain = "talent acquisition"
+description = """
+Assessments evaluate a person’s skills, behaviours, or potential against defined criteria. They range from interviews and simulations to written tests, providing comparable data to support hiring or development decisions.
+"""
+aliases = ["candidate assessments", "evaluation exercises"]
+references = []
+
+[[terminology]]
+name = "Programming"
+abbreviation = ""
+domain = "software development"
+description = """
+Programming is the act of designing and implementing instructions a computer can execute. It blends problem decomposition, abstraction, and tooling to turn ideas into working software.
+"""
+aliases = ["software development"]
+references = []
+
+[[terminology]]
+name = "Readability"
+abbreviation = ""
+domain = "software development"
+description = """
+Readability describes how easily other people can follow a piece of code or documentation. High readability reduces cognitive load, shortens reviews, and lowers the risk of bugs when changes are made.
+"""
+aliases = ["code clarity"]
+references = []
+
+[[terminology]]
+name = "Testing"
+abbreviation = ""
+domain = "quality assurance"
+description = """
+Testing exercises a system to discover whether it behaves as intended, exposes defects, or regresses after change. Effective testing blends automation and exploration to build confidence in releases.
+"""
+aliases = ["quality testing", "software testing"]
+references = []
+
+[[terminology]]
+name = "Reflection"
+abbreviation = ""
+domain = "personal development"
+description = """
+Reflection is the deliberate act of reviewing experiences to extract insight, validate assumptions, and adapt future behaviour. Regular reflection strengthens learning loops and clarifies priorities.
+"""
+aliases = ["self-reflection", "introspection"]
+references = []
+
+[[terminology]]
+name = "Organizing"
+abbreviation = ""
+domain = "productivity"
+description = """
+Organizing arranges commitments, information, and resources so work can advance without friction. It turns scattered intentions into structured plans people can act on.
+"""
+aliases = ["organisation", "arranging work"]
+references = []
+
+[[terminology]]
+name = "Task Management"
+abbreviation = ""
+domain = "productivity"
+description = """
+Task management is the practice of capturing, prioritising, and tracking work items from idea to completion. It ensures focus stays on the right commitments and makes progress observable.
+"""
+aliases = ["task tracking"]
+references = []
+
+[[terminology]]
+name = "Time Management"
+abbreviation = ""
+domain = "productivity"
+description = """
+Time management coordinates activities within the limited hours available. It blends planning, scheduling, and boundary-setting so important work receives the attention it deserves.
+"""
+aliases = ["calendar management"]
+references = []
+
+[[terminology]]
+name = "Workflow"
+abbreviation = ""
+domain = "process design"
+description = """
+A workflow is the sequence of steps that transforms input into outcome. Mapping workflows clarifies hand-offs, reveals bottlenecks, and guides improvement.
+"""
+aliases = ["process flow"]
+references = []
+
+[[terminology]]
+name = "Design"
+abbreviation = ""
+domain = "software development"
+description = """
+Design decides how parts of a system fit together to solve a problem within given constraints. Good design balances clarity, flexibility, and cost so the system remains understandable when change arrives.
+"""
+aliases = ["system design"]
+references = []
+
+[[terminology]]
+name = "Architecture"
+abbreviation = ""
+domain = "software development"
+description = """
+Architecture defines the high-level structure and guiding principles of a system. It spotlights the decisions that are hard to reverse and communicates how components collaborate to deliver value.
+"""
+aliases = ["software architecture"]
+references = []
+
+[[terminology]]
+name = "Adaptability"
+abbreviation = ""
+domain = "strategy"
+description = """
+Adaptability is the capability to adjust plans, systems, or behaviour when conditions shift. Organisations cultivate adaptability to stay resilient in the face of new information or constraints.
+"""
+aliases = ["flexibility", "resilience"]
+references = []
+
+[[terminology]]
+name = "Pivotting"
+abbreviation = ""
+domain = "strategy"
+description = """
+Pivotting is the deliberate act of changing direction when emerging evidence shows the current trajectory will not deliver the desired outcome. It keeps investments aligned with reality instead of sunk-cost momentum.
+"""
+aliases = ["course correction", "strategic pivot"]
+references = []
+
+[[terminology]]
+name = "Relationships"
+abbreviation = ""
+domain = "collaboration"
+description = """
+Relationships capture the ongoing connections between people or groups. Healthy relationships feature trust, dependable communication, and mutual benefit; fragile ones show misalignment or low psychological safety.
+"""
+aliases = ["working relationships", "partnerships"]
+references = []
+
+[[terminology]]
+name = "Interpersonal Skills"
+abbreviation = ""
+domain = "collaboration"
+description = """
+Interpersonal skills are the behaviours and techniques that enable people to build rapport, coordinate work, and resolve friction. They include active listening, feedback, and the conscious use of tone and body language.
+"""
+aliases = ["people skills", "soft skills"]
+references = []
+
+[[terminology]]
 name = "Self-actualization"
 abbreviation = ""
 domain = "personal development"
@@ -1472,6 +1702,36 @@ aliases = ["self-fulfilment", "personal growth", "realising potential"]
 references = [
     { title = "Maslow’s Hierarchy of Needs", link = "https://en.wikipedia.org/wiki/Maslow%27s_hierarchy_of_needs" }
 ]
+
+[[terminology]]
+name = "KISS"
+abbreviation = ""
+domain = "software development"
+description = """
+KISS stands for “Keep It Simple, Stupid” — a design principle that encourages building the simplest solution that fulfils the requirement. It reminds teams that unnecessary complexity rarely pays off.
+"""
+aliases = ["Keep It Simple"]
+references = []
+
+[[terminology]]
+name = "Understanding"
+abbreviation = ""
+domain = "communication"
+description = """
+Understanding is the mental process of accurately grasping the meaning, intent, or significance of information shared by others. It demands attention, context, and clarification so that what is heard aligns with what was meant.
+"""
+aliases = ["comprehension", "grasp"]
+references = []
+
+[[terminology]]
+name = "YAGNI"
+abbreviation = ""
+domain = "software development"
+description = """
+YAGNI — “You Aren’t Gonna Need It” — cautions developers against implementing capabilities before they are required. It keeps focus on current needs to avoid wasted effort and latent defects.
+"""
+aliases = []
+references = []
 
 [[terminology]]
 name = "Zibaldone"

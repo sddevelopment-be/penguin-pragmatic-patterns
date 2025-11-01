@@ -1,0 +1,24 @@
+Practice Consistency Review — Deviation Log
+=========================================
+
+Scope: Practices revised in the recent consistency pass. Observations highlight mismatches against the practice template (e.g. required sections) and recorded user preferences. Image filename suffixes were intentionally excluded after clarification that Hugo tolerates varying extensions.
+
+Missing `## Criticism & Clarifications` section
+----------------------------------------------
+The following practices still lack the closing section mandated by `content/en/practices/TEMPLATE_PRACTICE.md`:
+
+- content/en/practices/efficient_async_communication.md
+- content/en/practices/external-memory.md
+- content/en/practices/fail_fast.md
+- content/en/practices/how_do_we_make_this_fail.md
+- content/en/practices/keep_a_changelog.md
+- content/en/practices/mindmapping.md
+- content/en/practices/operas-method.md
+- content/en/practices/personal_productivity_flow.md
+- content/en/practices/pomodoro_focus.md
+
+Additional template considerations
+---------------------------------
+- content/en/practices/quad_A_test_structure.md remains flagged as `draft = true`; ensure this is intentional before publication.
+- No other structural gaps were detected during this pass.
+

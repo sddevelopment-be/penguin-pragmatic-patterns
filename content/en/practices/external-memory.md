@@ -10,7 +10,7 @@ categories = [
     "productivity",
 ]
 tags = [
-    "task management", "focus", "remembering", "tracking", "organizing", "cognitive load"
+    "Task Management", "Knowledge Retention", "Organizing", "Cognitive Load"
 ]
 uuid="18091885-3e43-43f5-a0f7-bcb6c625612b"
 aliases=["18091885-3e43-43f5-a0f7-bcb6c625612b"]
@@ -164,3 +164,9 @@ For short-lived projects or changes, I tend to add this file to the .gitignore c
 workspace of my colleagues. For more long-term or collaborative projects, consider creating a dedicated repository to host all of your
 developer notes. You can get creative with symbolic links to make these folders show up in your codebase regardless of their physical location.
 ` >}}
+
+## Criticism & Clarifications
+
+- External brains collapse when trust drops—maintain regular reviews or the tool becomes a graveyard you ignore.
+- Offloading everything can dull recall; pair capture with spaced retrieval or deliberate practice to keep key facts handy.
+- Some data is sensitive; encrypt or segment systems so “write it down” never leaks personal or confidential information.

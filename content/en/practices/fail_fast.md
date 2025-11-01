@@ -10,7 +10,7 @@ categories = [
     "software development",
 ]
 tags = [
-    "structure", "efficiency", "validation", "data", "error handling"
+    "Efficiency", "Testing", "Programming", "Design"
 ]
 uuid="336b0448-e78b-4428-83a5-d4d473afda63"
 aliases=["336b0448-e78b-4428-83a5-d4d473afda63"]
@@ -40,7 +40,7 @@ further_exploration = [
 ]
 +++
 
-## Problem Statement
+## Problem statement
 
 Invalid input data causing your software to crash midway through its execution is costly in terms of processing power and resolution time.
 
@@ -292,3 +292,8 @@ Failing fast with full feedback allows you to save valuable system resources and
 In real-world scenarios, you could have hundreds of files to check, and the processing of the data is likely to be computationally expensive.
 ` >}}
 
+## Criticism & Clarifications
+
+- Over-validating can slow hot paths or break incompatible clients; profile frequently and version contracts when behaviour must change.
+- Error payloads need governance—reveal enough detail for remediation without leaking internals an attacker can weaponise.
+- A fail-fast culture still needs recovery stories: pair quick exits with observability, retries, or compensating workflows so the user can succeed.

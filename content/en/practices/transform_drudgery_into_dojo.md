@@ -132,3 +132,5 @@ An operations team schedules a monthly dojo around a brittle release pipeline. E
 - The dojo approach is not a license to ignore systemic fixes; it works best when paired with roadmaps that retire drudgery over time.
 - Some practitioners prefer quiet, solitary execution for repetitive tasks—mixing solo focus blocks with dojo sessions keeps the practice inclusive.
 - Use sparingly: over-gamifying every support duty can desensitize the team and dilute the special focus the dojo is meant to provide.
+
+---

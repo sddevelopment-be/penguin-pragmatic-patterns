@@ -14,7 +14,7 @@ categories = [
     "learning",
 ]
 tags = [
-    "ideation", "research", "visualization", "knowledge management", "thought structuring", "brainstorming"
+    "Knowledge Retention", "Organizing", "Strategic Learning", "Analysis"
 ]
 displaySection = "learning"
 uuid="71261539-4964-4575-820b-1b155d1b6071"
@@ -39,7 +39,7 @@ pubdate = "2023-09-05"
 image = "practices/mindmapping_cover"
 +++
 
-## Problem Statement
+## Problem statement
 
 You are learning a wealth of new information, but find it difficult to keep an overview of what you know or how certain things relate to other
 knowledge you have.
@@ -94,7 +94,7 @@ Most mind maps are used as a temporary tool to organize your thoughts, or help y
 The drawing is less important than the clarity of mind you gain by creating it.
 ` >}}
 
-### Considerations
+### Consequences
 
 * **High Effort:** Creating and maintaining mind maps can be time-consuming and require significant effort.
 * **Staleness:** Mind maps can quickly become outdated if not regularly updated, losing their value as a knowledge management tool.
@@ -103,7 +103,7 @@ The drawing is less important than the clarity of mind you gain by creating it.
 * **Over-reliance on Visuals:** Some individuals may rely too heavily on visual aids, potentially neglecting other forms of cognitive processing
   and learning.
 
-### Mitigation Strategies
+### Mitigation strategies
 
 * **Scheduled Updates:** Set regular intervals for reviewing and updating mind maps to keep fresh. Throw out outdated maps, and create new ones
   when learning new ideas.
@@ -147,3 +147,9 @@ barrier is quite low. Having a digital copy of your mind map around can come in 
 ---- Finding gaps
 @endmindmap
 ````
+
+## Criticism & Clarifications
+
+- Mind maps encode bias—invite peers to poke holes or you risk reinforcing the same mental model you started with.
+- Large maps become unwieldy; archive older branches or snapshot versions rather than cramming everything on one canvas.
+- Not everyone thinks visually; maintain textual outlines or alternative artefacts so collaborators are not excluded.

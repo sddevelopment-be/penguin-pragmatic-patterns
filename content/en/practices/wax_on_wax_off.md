@@ -11,7 +11,7 @@ categories = [
     "learning",
 ]
 tags = [
-    "training", "repetition", "strategic learning", "mastery", "consistency"
+    "Strategic Learning", "Continuous Improvement", "Goals", "Reflection", "Adaptive Thinking"
 ]
 uuid="8c3df901-eefa-4dd1-970a-c00cf3b55379"
 aliases=["8c3df901-eefa-4dd1-970a-c00cf3b55379"]
@@ -146,6 +146,16 @@ While this is not training in the same way as performing a kata, it can be a use
 
 * [codewars.com](https://www.codewars.com/)
 * [Google summer of code challenges](https://summerofcode.withgoogle.com/)
+
+
+## Criticism & Clarifications
+
+- Repetition is powerful but only when technique is correct—seek feedback to avoid hard-coding mistakes.
+- Do not let katas displace real-world practice; alternate between controlled drills and messy application.
+- Mind your health: sustained physical or cognitive drills still need rest and recovery.
+
+---
+
 
 
 [^1]: In martial arts, this is called a "kata". A kata is generally a select few movements, which are executed in a fixed order at a fixed

@@ -31,10 +31,12 @@ Any feedback or suggestions for changes can be submitted there.
 
 - New practice: [Transform Drudgery into Dojo](/practices/76a4e67f-a28f-454e-8fd2-e389d5e93075)
 - Glossary entries for *Gamification* and *Team morale* to support new practice metadata
+- Glossary expansions supporting practice tagging: *Decision-making*, *Evaluation*, *Conversation*, *Emotional Intelligence*, *Empathy*, *Interpersonal Skills*, *Relationships*, *Understanding*, *Goals*, *Pivotting*, *Elegance*, *KISS*, *YAGNI*, *Interviewing*, *Assessments*
 
 ### Changed
 
 - Updated practice metadata to link related concepts and practices for quicker discovery
+- Consistency pass applied to practices (Communication Channel Compression, Synced Style, Clear Test Boundaries, Don't run out of STEAM, Get your priorities straight, Easy to Change, Value-based Impact Analysis, Listening to Understand, Avoid Gold Plating, Interviewing like a STARR, Set stopping conditions, Compound Coaching, Write chat messages as mini-emails, Use an External Memory, Fail Fast, Formulate Feedback!, Plan a self-sabotage, Impact-Oriented Communication, Keep a changelog, Write a 'Manual of Me', Mind Mapping, The OPERAs method, Organize your workflow, Pomodoro Focus, The quadruple-A test structure, Rotating Roles in Meetings, Safe to fail experiments, Structured Knowledge Sharing, Build your knowledge portfolio, Target Audience Personas, 10 Minute Tasks, What hat are you wearing?, Find the source of dissent, Traceable decisions, Transform Drudgery into Dojo, Wax on, wax off, Wipe the board) restoring template structure, standardizing headings, and aligning tags with the glossary
 
 ## v2.5.0: Content Updates and Reusability
 

@@ -11,7 +11,7 @@ categories = [
     "communication",
 ]
 tags = [
-    "conflict resolution", "understanding", "bias", "constructive dialogue", "critical thinking"
+    "conflict", "Understanding", "Cognitive Bias", "Conversation", "Analysis"
 ]
 uuid="579ac780-4588-4896-9203-901e112f7498"
 aliases=["579ac780-4588-4896-9203-901e112f7498"]
@@ -134,6 +134,14 @@ To mitigate the potential negative consequences of this approach, consider the f
   later. This allows all parties to reflect on the conversation and return with a clearer mind.
 
 By applying these mitigation strategies, you can maximize the benefits of this pattern while minimizing potential drawbacks, leading to more productive and meaningful discussions.
+
+## Criticism & Clarifications
+
+- Some disagreements hinge on values, not logic—acknowledge when divergent ethics or incentives are the real blockers.
+- The technique is not a debate win button; use it to understand, not to trap partners into conceding.
+- When stakes are high and time is short, agree on decision protocols up front so analysis does not stall action.
+
+---
 
 
 [^1]: In my experience, a lot of disagreements are semantic in nature. This means that you are in agreement of what happened, and what is to be

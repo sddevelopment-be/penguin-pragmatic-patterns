@@ -15,7 +15,7 @@ categories = [
     "learning",
 ]
 tags = [
-    "goals", "gap analysis", "opportunities", "reflection", "evaluation", "career development", "strategic learning"
+    "Goals", "Reflection", "Evaluation", "Strategic Learning", "Adaptive Thinking"
 ]
 uuid="a22a79f6-2ffa-4a13-a673-2ccb70ba9d42"
 aliases=["a22a79f6-2ffa-4a13-a673-2ccb70ba9d42"]
@@ -50,7 +50,7 @@ further_exploration = [
 ]
 +++
 
-## Problem Statement
+## Problem statement
 
 Knowledge workers often accumulate a vast array of skills and knowledge over time, but without regular evaluation, they often struggle to
 effectively allocate their learning efforts. This can lead to underutilised skills, outdated knowledge, and missed opportunities for growth.
@@ -99,7 +99,7 @@ and effort. The process can be broken down into the following steps:
     - **Track your progress:** Keep a record of your learning activities, noting what you've learned, how you've applied it, and any outcomes or
       feedback you've received.
 
-## Contextual Forces
+## Contextual forces
 
 ### Enablers
 The following factors support effective application of the practice:
@@ -155,7 +155,7 @@ energy.
 
 - **Perceived Competitiveness Among Peers**: In environments where this practice is widely adopted, individuals might start to see their colleagues more as competitors in a race to acquire new skills rather than collaborators. This could foster a less collaborative, more competitive work environment, potentially damaging team dynamics.
 
-### Mitigation Strategies
+### Mitigation strategies
 
 - **Prioritise Learning Goals**: Focus on a few key areas at a time to avoid feeling overwhelmed. It’s better to master a few important knowledge assets than to spread yourself too thin.
 - **Diversify Gradually**: Start with small investments in high-risk, high-reward knowledge assets to test the waters before committing more time and effort.
@@ -246,3 +246,11 @@ In the end, Blaine's decision to chase superficial trends and prioritize image o
 short-term gains quickly evaporated, leaving him with fewer opportunities, damaged client relationships, and a tarnished reputation both inside and
 outside the company. Blaine's story is a stark reminder that success built on quick fixes and hollow tactics is fleeting at best and can often lead
 to long-term damage.
+
+## Criticism & Clarifications
+
+- A portfolio is a decision aid, not a scoreboard—avoid using it to justify hoarding courses or signalling superiority.
+- Documenting personal learning goals may expose sensitive career aspirations; decide what stays private versus what you share.
+- Revisiting plans without acting can become procrastination theatre; pair reviews with concrete experiments or practice blocks.
+
+---

@@ -13,7 +13,7 @@ categories = [
     "productivity",
 ]
 tags = [
-    "tasks", "organizing", "personal productivity", "task management", "time management"
+    "Task Management", "Organizing", "Time Management", "Workflow", "Goals"
 ]
 uuid="ef0c0e1b-f395-4ee0-8360-e419e97f7447"
 aliases=["ef0c0e1b-f395-4ee0-8360-e419e97f7447", "gtd"]
@@ -43,7 +43,7 @@ pubdate="2023-08-26"
 image="practices/organize_workflow_cover"
 +++
 
-## Problem Statement
+## Problem statement
 
 You find it difficult to remember what you want to achieve, and are distraught by the amount of tasks you have yet to finish.
 
@@ -146,6 +146,12 @@ To mitigate the potential negative consequences of using this pattern, consider 
   open to adjusting your system as needed, especially when facing unexpected changes or new priorities.
 
 By following these strategies, you can maximize the benefits of your personalized productivity flow while minimizing potential downsides. This will help you maintain peace of mind and stay on top of your tasks and ideas effectively.
+
+## Criticism & Clarifications
+
+- Productivity stacks easily become hobbies—schedule regular “tool audits” to delete the ones that no longer pay rent.
+- Some tasks require deep focus; batching everything into micro slots can fragment attention instead of helping it.
+- Accountability systems process personal data—store it securely and prune sensitive entries you wouldn’t want leaked.
 
 ## Examples
 

@@ -1916,3 +1916,43 @@ references = [
     { title = "The Importance of Team Morale", link = "https://www.apa.org/news/press/releases/2022/05/workplace-well-being" },
     { title = "Boosting Team Morale", link = "https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/rewiring-leadership-development" }
 ]
+
+[[terminology]]
+name = "log"
+domain = "software"
+description = """
+A log is a structured record of events emitted by a system or process. Logs provide a chronological trail of what happened, when it happened, and
+often include contextual metadata to support auditing, debugging, and operational analysis.
+"""
+aliases = ["Logging", "Event Log"]
+references = []
+
+[[terminology]]
+name = "remembering"
+domain = "learning"
+description = """
+Remembering is the cognitive ability to recall previously stored information, experiences, or commitments. It underpins reflection, learning, and
+follow-through by keeping past insights available for present decisions.
+"""
+aliases = []
+references = []
+
+[[terminology]]
+name = "traceability"
+domain = "software development"
+description = """
+Traceability links requirements, decisions, and artifacts across the software lifecycle so that teams can follow how and why a system evolved.
+It enables impact analysis, compliance audits, and confident change management.
+"""
+aliases = []
+references = []
+
+[[terminology]]
+name = "tracking"
+domain = "productivity"
+description = """
+Tracking is the practice of monitoring work, commitments, or metrics over time. It creates visibility into progress and helps individuals and teams
+adjust their plans based on real data rather than assumptions.
+"""
+aliases = []
+references = []

@@ -58,8 +58,8 @@ size="35%"
 float="right" >}}
 
 Sense-making frameworks like the **Stacey Matrix** and the **Cynefin framework** help us understand the nature of the systems we are dealing with.
-This is done by considering two key factors: the level of _certainty_ in the environment and the level of _agreement_ among stakeholders. This 
-In other words: How well do we understand WHAT we are dealing with (certainty), and do we know HOW we should deal with it (agreement)?
+They do so by considering two key factors: the level of _certainty_ in the environment and the level of _agreement_ among stakeholders. In other
+words: How well do we understand what we are dealing with (certainty), and do we know how we should deal with it (agreement)?
 Charting these factors on a graph gives us these main zones of complexity:
 
 * **Simple:** In environments where we are certain about what we are doing and there is a high degree of agreement on how to approach it, the

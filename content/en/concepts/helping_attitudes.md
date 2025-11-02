@@ -145,7 +145,7 @@ themselves. The helper’s knowledge and authority are central to solving the is
 
 ### Component: Types of Inquiry
 
-There a generally four distinct types of inquiry that can be used in helping relationships, each with a different purpose and level of influence
+There are generally four distinct types of inquiry that can be used in helping relationships, each with a different purpose and level of influence
 on the conversation. These types of inquiry allow the helper to guide the process while adjusting their level of involvement based on the client’s
 needs and the situation. The four types are:
 

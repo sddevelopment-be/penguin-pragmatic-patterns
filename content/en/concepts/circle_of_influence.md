@@ -57,11 +57,11 @@ grasp to have an impact on.
 
 While we can certainly have an impact on the choices of others, the further these people are distant from us, the less effect you can have on
 them. As an example of this, ask yourself: How many strangers on the internet have you managed to convince to change their ways?
-Note that the circles of influence vary widely from one person to the next. A private citizen will have less influence over country politics
+Note that the circles of influence vary widely from one person to the next. A private citizen will have less influence over national politics
 than the prime minister will. But even this prime minister will have no impact on what the weather will be like tomorrow.
 
 You can spend your whole life shouting at clouds, hoping the world will change for the better.
-Though you'd likely have more of an impact directing your attention to your own actions, and to the people you interact with on a daily basis.
+Yet you'd likely have more impact by directing your attention to your own actions and to the people you interact with on a daily basis.
 
 ## Background
 
@@ -77,10 +77,10 @@ Draw a circle covering the paper, with your name at the centre. Reflect on what 
 bases. It may be helpful for you to consider what you can influence in the following areas:
 
 * Your work and tasks
-* Your Relationships
+* Your relationships
 * Aspects of your own behaviour
 * Aspects of company culture
-* Aspects of company policy / procedures, etc
+* Aspects of company policy and procedures
 
 ### Comparisons
 

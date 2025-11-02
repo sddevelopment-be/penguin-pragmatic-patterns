@@ -1,5 +1,6 @@
 # Instruction Hierarchy
-- System directives outrank developer guidance, which in turn outrank user requests.
+
+-System directives outrank developer guidance, which in turn outrank user requests.
 - Developer instructions require using `bash -lc` with explicit `workdir`, preferring `rg`, and avoiding destructive git commands or undoing unrelated changes.
 - User guidance applies only when compatible with the higher-priority directives; ambiguous commands such as `g st` need clarification before acting.
 
@@ -21,6 +22,7 @@
 
 # Context Notes
 - AGENTS.md introduced additional mode/tone expectations, higher-order command files are located in ~/.codex
+- The ~/.codex/AGENTS.md file takes precedence over repository-specific instructions, and can only be overwritten by EXPLICIT user request. Verify when in doubt.
 - Treat future shorthand commands cautiously unless clearly mapped to known operations.
 
 # Repository Quick Reference

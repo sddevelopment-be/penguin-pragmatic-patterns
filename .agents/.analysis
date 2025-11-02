@@ -37,3 +37,10 @@ Tooling & Automation Ideas
 - Add a lint script that parses concept front matter to verify required fields, enforce UUID-in-alias rules, and flag draft placeholders.
 - Extend the tag validator used in this pass to run in CI, cross-checking tag names against `data/glossary.toml` for all content types.
 - Introduce a shortcode/media checker that resolves `image` references and reports missing assets without requiring manual spot checks.
+
+
+Concept Consistency Review — 2025-11-02
+---------------------------------------
+- `content/en/concepts/behaviour_driven.md`, `content/en/concepts/project_lifecycle.md`, `content/en/concepts/Red_and_blue_work.md`, `content/en/concepts/return-on-investment.md`, `content/en/concepts/test_driven.md`, and `content/en/concepts/tool_or_device.md` lack a top-level `## Examples` section (ROI currently uses a level-3 heading); `content/en/concepts/_index.md` is an overview file and omits the section by design.
+- The following concepts do not yet provide a `## Further Exploration` section: `chain_of_accountability.md`, `circle_of_influence.md`, `clean-code.md`, `cognitive_biases.md`, `connascence.md`, `dreyfus_model.md`, `emotional_communication.md`, `helping_attitudes.md`, `ikigai.md`, `leadership-styles.md`, `memento_mori.md`, `return-on-investment.md`, `ShuHaRi.md`, `software_architecture.md`, `systems_thinking.md`, `testing_pyramid.md`, and `ubiquitous_language.md` (plus templates `_index.md` and `TEMPATE_CONCEPT.md`).
+- These draft concepts still miss front-matter `image` values: `behaviour_driven.md`, `project_lifecycle.md`, `Red_and_blue_work.md`, `test_driven.md`, `tool_or_device.md`, and `ubiquitous_language.md`.

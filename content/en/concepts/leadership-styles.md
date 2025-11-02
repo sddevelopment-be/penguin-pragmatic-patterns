@@ -23,7 +23,7 @@ related_concepts = [
 further_exploration = [
   {type="raw", author="Doolittle, J.", year="2020", title="The Leadership Style Matrix", site="Jeff Doolittle", link="https://jeffdoolittle.com/2020/11/06/leadership-style-matrix"},
   {type="raw", author="Sefton, J.", year="2012", title="Definition of Leadership", site="nofinchaos", link="https://nofinchaos.wordpress.com/2012/03/07/definition-of-leadership-kurt-lewin"},
-  {type="raw", author="Lewin, K., Lippit, R. and White, R.K.", year="1939", title="Patterns of aggressive behaviour in experimentally created social climates", publication="Journal of Social Psychology", volume="10(2)", link="https://www.tandfonline.com/doi/abs/10.1080/00224545.1939.9713366?journalCode=vsoc20"}
+  {type="raw", author="Lewin, K., Lippitt, R. and White, R.K.", year="1939", title="Patterns of aggressive behaviour in experimentally created social climates", publication="Journal of Social Psychology", volume="10(2)", link="https://www.tandfonline.com/doi/abs/10.1080/00224545.1939.9713366?journalCode=vsoc20"}
 ]
 +++
 
@@ -65,7 +65,7 @@ Leaders offer minimal guidance, leaving decision-making to group members, suitab
 
 Delegative leaders offer little or no guidance to group members and leave decision-making up to group members. While this style can be
 effective in situations where group members are highly qualified in an area of expertise, it often leads to poorly defined roles and a lack
-of motivation. Researchers found that children under delegative leadership, also known as laissez-fair leadership, were the least productive of all
+of motivation. Researchers found that children under delegative leadership, also known as laissez-faire leadership, were the least productive of all
 three groups. The children in this group also made more demands on the leader, showed little cooperation and were unable to work independently.
 
 

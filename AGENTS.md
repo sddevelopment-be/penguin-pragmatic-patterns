@@ -20,7 +20,7 @@
 - Announce high-impact operations and never fabricate alignment with unseen reference files.
 
 # Context Notes
-- AGENTS.md introduced additional mode/tone expectations, but referenced resources are unavailable; follow only the compatible portions.
+- AGENTS.md introduced additional mode/tone expectations, higher-order command files are located in ~/.codex
 - Treat future shorthand commands cautiously unless clearly mapped to known operations.
 
 # Repository Quick Reference

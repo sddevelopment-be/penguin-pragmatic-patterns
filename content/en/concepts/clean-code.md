@@ -53,7 +53,7 @@ time-lapse.
   float="left"
   size="30%" >}}
 
-The mean culprit for this confusion is often code that's simply hard to understand.
+The main culprit for this confusion is often code that's simply hard to understand.
 It lacks expressiveness or becomes overly verbose. One helpful metric to gauge the cleanliness of your code is humorously known as the 'WTFs per
 minute metric,' inspired by a well-known cartoon that has been recreated numerous times.
 
@@ -109,7 +109,7 @@ The idea of clean code is closely related to:
 In a surprising amount of fairy tales, myths, and legends the _"power of naming"_ is an ancient magical ability that allows you to control things if
 you just know how it is really called. Programming is not much different. If the entities and variables you work with have revealing names, a
 confusing piece of code becomes very clear.
-This clarity is achieved by simple renaming things to be expressive, a feat most modern IDE's can do for you at little cost.
+This clarity is achieved by simply renaming things to be expressive, a feat most modern IDEs can do for you at little cost.
 
 Take a look at the code below:
 
@@ -227,7 +227,7 @@ public class Game {
 }
 ```
 
-To a compiler both code snippets are identical. Humans however are not computers (even though most developer would like them to be).
+To a compiler, both code snippets are identical. Humans, however, are not computers (even though most developers would like them to be).
 Being human, we understand text fragments better if we are given enough context and if we understand a majority of the words that are being
 used.
 Good code should allow anyone with a fundamental understanding of the language of choice to understand what is happening at a glance.
@@ -236,5 +236,5 @@ knowledge just to be able to understand what is going on, it is probably not ver
 
 The additional benefit of having your code be understandable at a glance is most noticeable when you are interrupted.
 Having to stop what you are doing and focus on something else, is what we call a _context switch_.
-Research has shown that it takes a surprising amount of time. Some researchers claim this refocus time to take around 20 minutes.
+Research has shown that regaining focus takes longer than expected; some researchers estimate the refocus window at roughly 20 minutes.
 The more knowledge you are required to hold on to, the harder it will be to refocus on what you were doing before the interruption happened.

@@ -36,9 +36,9 @@ process.
 
 ## Key Components
 
-Implementation of any idea can be broken down into key phases and components, each of which playing a bounded role, resulting in a coherent
-hierarchy of accountability. The goal of the model is to outline the different areas of responsibility. For each component in the chain, there
-is a clear outline of what is expected, and who is responsible for it.
+Implementation of any idea can be broken down into key phases and components, each of which plays a bounded role, resulting in a coherent
+hierarchy of accountability. The goal of the model is to outline the different areas of responsibility. For each component in the chain,
+there is a clear outline of what is expected and who is responsible for it.
 
 {{< image src="/images/concepts/BASE_chain_of_accountability" alt="The operational chain of accountability" size="75%">}}
 
@@ -131,24 +131,23 @@ clear hierarchy of accountability.
 ### The sixth of June 1944
 
 * **Goal:** Liberate Western Europe from the grip of the fascist regime.
-* **Strategy:** Launch a massive amphibious assault on the beaches of Normandy, sending every able body we can muster. Land on the beaches, and 
+* **Strategy:** Launch a massive amphibious assault on the beaches of Normandy, sending every able-bodied person we can muster. Land on the beaches, and 
   establish a foothold. Then push inland, making sure supply lines are secured. 
-* **Tactics:** Use SOE paracommando's to secure key bridges and roads, to prevent the enemy from reinforcing their positions. Use amphibious 
-  personnel carriers to land infantry on the beaches, make sure the infantry knows to disembark as soon as they hit the beach. Let the Royal 
-  Navy barrage the bulkheads on the beaches with artillery during the landing, to soften up the enemy positions. Use the element of surprise to 
+* **Tactics:** Use SOE paracommandos to secure key bridges and roads to prevent the enemy from reinforcing their positions. Use amphibious 
+  personnel carriers to land infantry on the beaches, and make sure the infantry knows to disembark as soon as they hit the beach. Let the Royal 
+  Navy barrage the bulkheads on the beaches with artillery during the landing to soften up the enemy positions. Use the element of surprise to 
   gain a foothold before the enemy can react.
-* **Execution:** Bob Jenkins, a private in the 3rd infantry division, is on a barge preparing to land on Omaha beach. He is part of the first 
-  wave, and is tasked with securing a beachhead. When the barge nears the beach, and the armoured hatch opens, the enemy opens fire. His squad is 
-  decimated before they can disembark. Private Jenkins is lucky enough to be standing near the back of the barge, and is able to jump over the 
-  side; as he was instructed to do. He is shot in the leg, but manages to crawl to a nearby tank, and uses it as cover to return fire. 
-* **Result:** The allies manage to secure a beachhead, but at a heavy cost. The first wave of the assault is decimated, and the follow-up waves 
-  are delayed. The allies manage to secure the beaches, but the advance inland is slow. The airborne divisions manage to secure key bridges, 
+* **Execution:** Bob Jenkins, a private in the 3rd infantry division, is on a barge preparing to land on Omaha Beach. He is part of the first 
+  wave and is tasked with securing a beachhead. When the barge nears the beach and the armoured hatch opens, the enemy opens fire. His squad is 
+  decimated before they can disembark. Private Jenkins is lucky enough to be standing near the back of the barge and is able to jump over the 
+  side as he was instructed to do. He is shot in the leg but manages to crawl to a nearby tank and uses it as cover to return fire. 
+* **Result:** The Allies secure a beachhead, but at a heavy cost. The first wave of the assault is decimated, and the follow-up waves 
+  are delayed. They succeed in holding the beaches, yet the advance inland is slow. The airborne divisions secure key bridges, 
   but the paratroopers are scattered, and it takes time to regroup.
-* **Rollout:** The allies manage to secure the beaches, and the follow-up waves manage to land. The allies manage to push inland, and secure
-  the supply lines. The allies manage to secure a foothold, and the liberation of Western Europe is underway. As the allies push inland, reservist
-  troops and local militias secure the reclaimed territory.
-* **Follow-up:** The allies manage to liberate Western Europe, and the war is won. The allies manage to secure the peace, and the Marshall plan 
-  is put into effect to rebuild the war-torn continent. The allies manage to secure the peace, and the United Nations is founded to prevent 
+* **Rollout:** Reinforcements land, supply lines are secured, and the foothold grows. As the advance progresses, reservist
+  troops and local militias reinforce and stabilize the reclaimed territory.
+* **Follow-up:** The Allies liberate Western Europe, and the Marshall Plan is put into effect to rebuild the war-torn continent. A new
+  international order takes shape, and the United Nations is founded to prevent 
   future conflicts.
 
 ### A corporate AI initiative

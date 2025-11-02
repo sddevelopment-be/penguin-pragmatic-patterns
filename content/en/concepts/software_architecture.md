@@ -129,6 +129,6 @@ cost, whereas modifying a building design post-construction is resource-intensiv
 * **Business Application:** In a rapidly growing e-commerce platform, the software architect prioritizes scalability and performance to handle
   increasing user traffic and transaction volumes. The architecture includes modular components to allow for future feature expansions without
   overhauling the entire system.
-* **Healthcare System:** For a healthcare management system, the architect focuses on security and reliability, ensuring patient data is protected,
-  and the system remains operational even during peak usage times. The architecture also considers interoperability with other healthcare systems
+* **Healthcare System:** For a healthcare management system, the architect focuses on security and reliability, protecting patient data and
+  keeping the system operational even during peak usage times. The architecture also considers interoperability with other healthcare systems
   for seamless data exchange.

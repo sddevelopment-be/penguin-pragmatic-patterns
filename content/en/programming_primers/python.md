@@ -190,6 +190,35 @@ total = sum(v for v in gross if v > 12)
 
 Reach for FP when modeling transformations (parsing, validation, scoring) or whenever you want trivial unit tests. Property-based testing (`hypothesis`) pairs naturally with this style.
 
+### 6.3 Imperative Programming Idioms
+
+Imperative code glues everything together: CLI commands, cron jobs, deployment scripts, and adapters that coordinate IO. Being explicit about steps and side effects keeps failure modes visible.
+
+- Favor straight-line `for`/`while` control flow for orchestration.
+- Use context managers (`with ...`) to scope resources such as files or network connections.
+- Bubble up meaningful exceptions; define domain-specific ones when necessary.
+
+```python
+from pathlib import Path
+
+def copy_nonempty(src: Path, dst: Path) -> int:
+    count = 0
+    with src.open() as fin, dst.open("w") as fout:
+        for line in fin:
+            if line.strip():
+                fout.write(line)
+                count += 1
+    return count
+
+try:
+    written = copy_nonempty(Path("input.txt"), Path("output.txt"))
+    print(f"Copied {written} lines")
+except FileNotFoundError as err:
+    print(f"Missing file: {err.filename}")
+```
+
+Use imperative style for orchestration layers, CLI tooling (`typer`, `click`), and task runners (`invoke`, `nox`). Keep domain logic in pure functions; call them from these command surfaces so behavior remains testable.
+
 ## 7. Workspace Bootstrap
 
 - Prerequisites (toolchains, system dependencies)

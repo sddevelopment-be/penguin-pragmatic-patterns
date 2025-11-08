@@ -127,6 +127,41 @@ Python embraces multiple paradigms. Object-oriented code structures long-lived d
 
 ### 6.1 Object-Oriented Idioms
 
+Reach for OO when you need identity, lifecycle, or substitutable collaborators. Python favors composition over inheritance: keep behavior in focused methods, lean on `@dataclass` for value objects, and expose interfaces via `abc.ABC` or `typing.Protocol`.
+
+- Use `dataclasses`/`attrs` for concise domain models and value semantics.
+- Rely on `@property`, `__repr__`, and comparison dunder methods to keep objects debuggable.
+- Prefer protocols and dependency injection over hard-coded concrete types.
+
+```python
+from dataclasses import dataclass, field
+from enum import Enum, auto
+from datetime import datetime
+
+class TaskState(Enum):
+    TODO = auto()
+    IN_PROGRESS = auto()
+    DONE = auto()
+
+@dataclass
+class Task:
+    title: str
+    state: TaskState = TaskState.TODO
+    created_at: datetime = field(default_factory=datetime.utcnow)
+    completed_at: datetime | None = None
+
+    def start(self) -> None:
+        if self.state == TaskState.TODO:
+            self.state = TaskState.IN_PROGRESS
+
+    def complete(self) -> None:
+        if self.state == TaskState.IN_PROGRESS:
+            self.state = TaskState.DONE
+            self.completed_at = datetime.utcnow()
+```
+
+Pair these objects with thin service classes (e.g., `OrderService`, `TaskRepository`) so orchestration layers can swap implementations in tests. OO shines when you must guard invariants or coordinate multiple collaborators over time.
+
 
 ## 7. Workspace Bootstrap
 

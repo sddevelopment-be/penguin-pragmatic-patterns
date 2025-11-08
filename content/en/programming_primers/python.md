@@ -41,10 +41,26 @@ PEP 8 is the shared style contract. Enforce it automatically with [Black](https:
 
 ## 3. Version and Dependency Management
 
-- Environment isolation tools (e.g., pyenv, virtualenv)
-- Dependency managers and lockfiles
-- Project initialization and dependency workflows
-- Common pitfalls and cultural expectations around package management
+Isolation is non-negotiable because Python versions, native extensions, and CLI tools evolve at their own pace. The modern kit keeps system Python untouched while giving each project a repeatable environment.
+
+| Tool        | Role                                           | Why teams use it                               |
+|-------------|-----------------------------------------------|------------------------------------------------|
+| `pyenv`     | Install and switch between Python runtimes    | Keeps multiple 3.x versions side by side       |
+| `pipx`      | Isolated global CLI installer                 | Lets you install Poetry, Ruff, etc. safely     |
+| `poetry`    | Dependency manager + virtualenv + builder     | Single command surface for add/install/publish |
+| `venv`      | Standard library virtual environment module   | Lightweight fallback used under the hood       |
+
+Typical workflow:
+
+```bash
+pyenv install 3.12.3
+pyenv local 3.12.3
+poetry init
+poetry add requests pytest
+poetry shell
+```
+
+`poetry.lock` pins exact versions for reproducibility. Legacy stacks may still rely on `pip` + `requirements.txt`, so expect to read both formats. Teams expect developers to activate the right virtualenv before running tools—automate it via direnv or shell hooks if needed.
 
 
 ## 4. Build and Packaging Tooling
@@ -124,4 +140,3 @@ PEP 8 is the shared style contract. Enforce it automatically with [Black](https:
 - Recommended learning resources
 - Common pitfalls and recovery commands
 - Optional IDE/editor configuration (VS Code, JetBrains, etc.)
-

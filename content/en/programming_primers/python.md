@@ -219,6 +219,16 @@ except FileNotFoundError as err:
 
 Use imperative style for orchestration layers, CLI tooling (`typer`, `click`), and task runners (`invoke`, `nox`). Keep domain logic in pure functions; call them from these command surfaces so behavior remains testable.
 
+### 6.4 Idiom Integration
+
+Healthy Python systems layer paradigms to keep trade-offs explicit:
+
+1. **Domain core (FP).** Pure functions implement calculations, parsing, validation, and decisions so they remain easy to test and reason about.
+2. **Application services (OO).** Small classes model stateful collaborators—repositories, gateways, schedulers—and give you seams for substitution or instrumentation.
+3. **Orchestration (imperative).** Commands, CLI entry points, and adapters invoke the core, handle IO, retries, logging, and configuration.
+
+This separation keeps logic deterministic, side effects contained, and architecture approachable for new collaborators.
+
 ## 7. Workspace Bootstrap
 
 - Prerequisites (toolchains, system dependencies)

@@ -123,24 +123,9 @@ Commands stay explicit: `poetry run pytest`, `poetry run pytest tests/integratio
 
 ## 6. Programming Idioms
 
+Python embraces multiple paradigms. Object-oriented code structures long-lived domains, functional helpers keep transformations honest, and imperative orchestration glues everything together. The language makes paradigm shifts cheap, so choose the style that keeps intent clearest for each layer.
+
 ### 6.1 Object-Oriented Idioms
-- Key language features (classes, dataclasses, properties)
-- Example (Task with states, lifecycle transitions)
-- When to use OO in this ecosystem
-
-### 6.2 Functional Programming Idioms
-- Pure functions, immutability, and pipelines
-- Example (Task transformation and filtering)
-- When FP shines and how it coexists with OO
-
-### 6.3 Imperative Programming Idioms
-- Straight-line control flow and orchestration
-- Example (CLI or script-based workflow)
-- Typical use cases and stylistic guidance
-
-### 6.4 Idiom Integration
-- Combining OO, FP, and imperative layers
-- Realistic architecture layering (domain core → logic utilities → orchestration)
 
 
 ## 7. Workspace Bootstrap

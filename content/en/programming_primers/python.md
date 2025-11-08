@@ -10,10 +10,16 @@ tags = ["programming", "python", "primer", "beginners", "introduction"]
 
 ## 1. Language Philosophy
 
-- Core values and worldview
-- The “spirit” of the language
-- The trade-offs it optimizes for
-- Cultural norms in the ecosystem (community mindset, design patterns, conventions)
+> “There should be one — and preferably only one — obvious way to do it.” — *The Zen of Python*
+
+Python prizes clarity over cleverness and treats readability as a social contract. Code should look like well-edited prose: explicit, orthogonal, and easy to explain to the next engineer. The language stays small on purpose so that libraries, not the core grammar, carry most complexity.
+
+- **Human-centric design.** Features exist to keep conversations about code short—naming, indentation, and structure all reinforce collective understanding.
+- **Pragmatic dynamism.** Strong introspection and runtime flexibility let you build tools quickly, but the community expects discipline when touching metaprogramming or monkey-patching.
+- **Batteries included.** The standard library covers files, networking, parsing, testing, and concurrency so teams can focus on their own logic.
+- **Cultural restraint.** Community norms discourage “clever” one-liners when straight code is clearer; idioms evolve from practice, not dogma.
+
+Treat Python as a glue language with range: ideal for orchestration, data analysis, scripting, and prototyping, yet capable of long-lived services when you apply structure intentionally.
 
 
 ## 2. Syntax and Naming Conventions
@@ -111,6 +117,5 @@ tags = ["programming", "python", "primer", "beginners", "introduction"]
 - Recommended learning resources
 - Common pitfalls and recovery commands
 - Optional IDE/editor configuration (VS Code, JetBrains, etc.)
-
 
 

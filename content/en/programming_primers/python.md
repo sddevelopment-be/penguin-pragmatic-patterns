@@ -342,7 +342,23 @@ Run these commands once the project scaffold is in place to ensure everything wo
 
 ## 10. Appendix
 
-- Links to official docs (language, tools, style guide)
-- Recommended learning resources
-- Common pitfalls and recovery commands
-- Optional IDE/editor configuration (VS Code, JetBrains, etc.)
+- **Official docs and references**
+  - [Python documentation](https://docs.python.org/3/) — language, stdlib, tutorial.
+  - [The Zen of Python](https://peps.python.org/pep-0020/) and [PEP 8](https://peps.python.org/pep-0008/) — philosophy and style.
+  - [Pyenv](https://github.com/pyenv/pyenv), [Poetry](https://python-poetry.org/docs/), [Pipx](https://pipx.pypa.io/stable/) — tooling manuals.
+  - [Pytest](https://docs.pytest.org/), [Hypothesis](https://hypothesis.readthedocs.io/), [Ruff](https://docs.astral.sh/ruff/) — testing and linting guides.
+
+- **Recommended learning material**
+  - `import this` in the REPL as a reminder of idioms.
+  - `black --diff .` and `ruff --explain <code>` to see how tools encode style expectations.
+  - Small spikes that rebuild the TODO app layers (OO model, FP utilities, CLI) help internalize the paradigm blend.
+
+- **Common pitfalls**
+  - **Environment drift:** forgetting to activate the project `.venv`. Fix with `poetry shell` or `direnv`.
+  - **System package gaps:** missing SSL/zlib headers when compiling Python — reinstall prerequisites, then rerun `pyenv install`.
+  - **Implicit globals:** default mutable arguments (`def foo(data=[])`) bite newcomers; always default to `None`.
+
+- **Editor setup**
+  - VS Code: enable the Python, Pylance, Ruff, Black, and Mypy extensions; point the interpreter to `.venv/bin/python`.
+  - JetBrains IDEs: configure Poetry as the interpreter and enable on-save formatting via Black/Ruff.
+  - Terminal aliases from the quickstart (`fmt`, `lint`, `test`, `typecheck`) keep workflows consistent across IDEs.

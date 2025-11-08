@@ -2,7 +2,7 @@
 title = "Python Primer"
 subtitle = ""
 author = "Stijn Dejongh"
-outputs = ['html','rss', 'json']
+outputs = ['html', 'rss', 'json']
 draft = true
 date = "2024-06-10T12:00:00+00:00"
 tags = ["programming", "python", "primer", "beginners", "introduction"]
@@ -12,7 +12,8 @@ tags = ["programming", "python", "primer", "beginners", "introduction"]
 
 > “There should be one — and preferably only one — obvious way to do it.” — *The Zen of Python*
 
-Python prizes clarity over cleverness and treats readability as a social contract. Code should look like well-edited prose: explicit, orthogonal, and easy to explain to the next engineer. The language stays small on purpose so that libraries, not the core grammar, carry most complexity.
+Python prizes clarity over cleverness and treats readability as a social contract. Code should look like well-edited prose: explicit, orthogonal, and easy to explain to the next engineer. The language stays small on purpose so that libraries, not
+the core grammar, carry most complexity.
 
 - **Human-centric design.** Features exist to keep conversations about code short—naming, indentation, and structure all reinforce collective understanding.
 - **Pragmatic dynamism.** Strong introspection and runtime flexibility let you build tools quickly, but the community expects discipline when touching metaprogramming or monkey-patching.
@@ -21,23 +22,22 @@ Python prizes clarity over cleverness and treats readability as a social contrac
 
 Treat Python as a glue language with range: ideal for orchestration, data analysis, scripting, and prototyping, yet capable of long-lived services when you apply structure intentionally.
 
-
 ## 2. Syntax and Naming Conventions
 
 Python syntax stays intentionally boring so that structure—not punctuation—carries the meaning. Naming is the loudest signal of intent, so teams lean on consistent cases and docstrings.
 
-| Element               | Convention                    | Example                           |
-|-----------------------|-------------------------------|-----------------------------------|
-| Variables/functions   | `snake_case`                  | `total_count`, `process_invoice()`|
-| Classes               | `PascalCase`                  | `InvoiceBatch`, `UserProfile`     |
-| Constants             | `ALL_CAPS`                    | `MAX_RETRIES = 3`                 |
-| Private members       | `_single_leading_underscore`  | `_cache`, `_reset_state()`        |
-| Modules/files         | `lowercase_with_underscores`  | `billing_rules.py`                |
-| Docstrings            | Triple quotes, summary first  | `"""Compute average value."""`    |
-| Type hints            | Optional but encouraged       | `def greet(name: str) -> str:`    |
+| Element               | Convention                    | Example                               |
+|-----------------------|-------------------------------|---------------------------------------|
+| Variables/functions   | `snake_case`                  | `pending_tasks`, `archive_completed()`|
+| Classes               | `PascalCase`                  | `TaskBoard`, `TaskRepository`         |
+| Constants             | `ALL_CAPS`                    | `MAX_ACTIVE_TASKS = 10`               |
+| Private members       | `_single_leading_underscore`  | `_task_cache`, `_load_board()`        |
+| Modules/files         | `lowercase_with_underscores`  | `task_filters.py`                     |
+| Docstrings            | Triple quotes, summary first  | `"""Calculate completion rate."""`    |
+| Type hints            | Optional but encouraged       | `def mark_done(task: Task) -> Task:`  |
 
-PEP 8 is the shared style contract. Enforce it automatically with [Black](https://black.readthedocs.io/en/stable/) for formatting and [Ruff](https://docs.astral.sh/ruff/) or `flake8` for linting. F-strings, assignment expressions, and type hints are idiomatic when they keep code expressive without obscuring intent.
-
+PEP 8 is the shared style contract. Enforce it automatically with [Black](https://black.readthedocs.io/en/stable/) for formatting and [Ruff](https://docs.astral.sh/ruff/) or `flake8` for linting. F-strings, assignment expressions, and type hints
+are idiomatic when they keep code expressive without obscuring intent.
 
 ## 3. Version and Dependency Management
 
@@ -60,8 +60,8 @@ poetry add requests pytest
 poetry shell
 ```
 
-`poetry.lock` pins exact versions for reproducibility. Legacy stacks may still rely on `pip` + `requirements.txt`, so expect to read both formats. Teams expect developers to activate the right virtualenv before running tools—automate it via direnv or shell hooks if needed.
-
+`poetry.lock` pins exact versions for reproducibility. Legacy stacks may still rely on `pip` + `requirements.txt`, so expect to read both formats. Teams expect developers to activate the right virtualenv before running tools—automate it via direnv
+or shell hooks if needed.
 
 ## 4. Build and Packaging Tooling
 
@@ -93,10 +93,10 @@ project/
 
 CI typically runs `poetry install`, `poetry run pytest`, and `poetry build`. Publishing is either `poetry publish` (with stored credentials) or a `twine upload dist/*` step.
 
-
 ## 5. Testing Frameworks
 
-- **Testing mindset:** prefer small, behavior-focused tests with descriptive names. Fixtures and parametrization replace heavy inheritance hierarchies. Integration tests stay close to the public interface; property-based approaches cover data-heavy paths.
+- **Testing mindset:** prefer small, behavior-focused tests with descriptive names. Fixtures and parametrization replace heavy inheritance hierarchies. Integration tests stay close to the public interface; property-based approaches cover data-heavy
+  paths.
 
 | Tool         | Purpose                          | Why it matters                                  |
 |--------------|----------------------------------|-------------------------------------------------|
@@ -108,26 +108,34 @@ CI typically runs `poetry install`, `poetry run pytest`, and `poetry build`. Pub
 Canonical `pytest` example:
 
 ```python
-# tests/test_core.py
-from my_package.core import compute_total
+# tests/test_stats.py
+from todo_app.models import Task, TaskState
+from todo_app.stats import completion_rate
 
-def test_compute_total_handles_empty_list():
-    assert compute_total([]) == 0
 
-def test_compute_total_sums_positive_numbers():
-    assert compute_total([2, 3, 5]) == 10
+def test_completion_rate_handles_empty_board():
+    assert completion_rate([]) == 0.0
+
+
+def test_completion_rate_counts_done_tasks():
+    tasks = [
+        Task(title="Draft notes", state=TaskState.DONE),
+        Task(title="Record episode", state=TaskState.IN_PROGRESS),
+    ]
+    assert completion_rate(tasks) == 0.5
 ```
 
 Commands stay explicit: `poetry run pytest`, `poetry run pytest tests/integration`, or `tox -e py312`. Coverage tooling (`coverage.py`) and mutation testing (`mutmut`) are optional add-ons when the domain justifies them.
 
-
 ## 6. Programming Idioms
 
-Python embraces multiple paradigms. Object-oriented code structures long-lived domains, functional helpers keep transformations honest, and imperative orchestration glues everything together. The language makes paradigm shifts cheap, so choose the style that keeps intent clearest for each layer.
+Python embraces multiple paradigms. Object-oriented code structures long-lived domains, functional helpers keep transformations honest, and imperative orchestration glues everything together. The language makes paradigm shifts cheap, so choose the
+style that keeps intent clearest for each layer.
 
 ### 6.1 Object-Oriented Idioms
 
-Reach for OO when you need identity, lifecycle, or substitutable collaborators. Python favors composition over inheritance: keep behavior in focused methods, lean on `@dataclass` for value objects, and expose interfaces via `abc.ABC` or `typing.Protocol`.
+Reach for OO when you need identity, lifecycle, or substitutable collaborators. Python favors composition over inheritance: keep behavior in focused methods, lean on `@dataclass` for value objects, and expose interfaces via `abc.ABC` or
+`typing.Protocol`.
 
 - Use `dataclasses`/`attrs` for concise domain models and value semantics.
 - Rely on `@property`, `__repr__`, and comparison dunder methods to keep objects debuggable.
@@ -138,16 +146,20 @@ from dataclasses import dataclass, field
 from enum import Enum, auto
 from datetime import datetime
 
+
 class TaskState(Enum):
     TODO = auto()
     IN_PROGRESS = auto()
     DONE = auto()
+
 
 @dataclass
 class Task:
     title: str
     state: TaskState = TaskState.TODO
     created_at: datetime = field(default_factory=datetime.utcnow)
+    due_at: datetime | None = None
+    tags: set[str] = field(default_factory=set)
     completed_at: datetime | None = None
 
     def start(self) -> None:
@@ -160,7 +172,7 @@ class Task:
             self.completed_at = datetime.utcnow()
 ```
 
-Pair these objects with thin service classes (e.g., `OrderService`, `TaskRepository`) so orchestration layers can swap implementations in tests. OO shines when you must guard invariants or coordinate multiple collaborators over time.
+Pair these objects with thin service classes (e.g., `TaskSyncService`, `TaskRepository`) so orchestration layers can swap implementations in tests. OO shines when you must guard invariants or coordinate multiple collaborators over time.
 
 ### 6.2 Functional Programming Idioms
 
@@ -171,21 +183,28 @@ Functional techniques keep business rules pure and predictable. Treat functions 
 - `itertools`, generator expressions, and comprehensions make lazy pipelines ergonomic.
 
 ```python
-from functools import partial, lru_cache
-from itertools import chain
+from dataclasses import replace
+from datetime import datetime, timedelta
+from functools import partial
 
-def taxed(rate: float, amount: float) -> float:
-    return round(amount * (1 + rate), 2)
+from todo_app.models import Task, TaskState
 
-apply_vat = partial(taxed, 0.21)
 
-@lru_cache(maxsize=256)
-def fibonacci(n: int) -> int:
-    return n if n < 2 else fibonacci(n - 1) + fibonacci(n - 2)
+def tag_overdue(current_time: datetime, task: Task) -> Task:
+    if task.due_at and task.due_at < current_time and task.state != TaskState.DONE:
+        return replace(task, tags=task.tags | {"overdue"})
+    return task
 
-prices = [10, 15, 20]
-gross = (apply_vat(p) for p in prices)
-total = sum(v for v in gross if v > 12)
+
+mark_overdue = partial(tag_overdue, datetime.utcnow())
+
+tasks = [
+    Task(title="Draft outline", due_at=datetime.utcnow() - timedelta(days=1)),
+    Task(title="Record episode", due_at=datetime.utcnow() + timedelta(days=2)),
+]
+
+active = (t for t in tasks if t.state != TaskState.DONE)
+overdue = [mark_overdue(t) for t in active]
 ```
 
 Reach for FP when modeling transformations (parsing, validation, scoring) or whenever you want trivial unit tests. Property-based testing (`hypothesis`) pairs naturally with this style.
@@ -199,22 +218,32 @@ Imperative code glues everything together: CLI commands, cron jobs, deployment s
 - Bubble up meaningful exceptions; define domain-specific ones when necessary.
 
 ```python
+import json
 from pathlib import Path
 
-def copy_nonempty(src: Path, dst: Path) -> int:
-    count = 0
-    with src.open() as fin, dst.open("w") as fout:
-        for line in fin:
-            if line.strip():
-                fout.write(line)
-                count += 1
-    return count
+from todo_app.models import Task, TaskState
+
+
+def sync_tasks(path: Path) -> list[Task]:
+    if not path.exists():
+        return []
+    data = json.loads(path.read_text())
+    return [Task(**task) for task in data]
+
+
+def complete_first_task(path: Path) -> None:
+    tasks = sync_tasks(path)
+    if not tasks:
+        return
+    tasks[0].state = TaskState.DONE
+    path.write_text(json.dumps([task.__dict__ for task in tasks], default=str, indent=2))
+
 
 try:
-    written = copy_nonempty(Path("input.txt"), Path("output.txt"))
-    print(f"Copied {written} lines")
-except FileNotFoundError as err:
-    print(f"Missing file: {err.filename}")
+    complete_first_task(Path("tasks.json"))
+    print("Marked the first task as done.")
+except json.JSONDecodeError:
+    print("tasks.json is corrupt — run the repair command.")
 ```
 
 Use imperative style for orchestration layers, CLI tooling (`typer`, `click`), and task runners (`invoke`, `nox`). Keep domain logic in pure functions; call them from these command surfaces so behavior remains testable.
@@ -233,32 +262,34 @@ This separation keeps logic deterministic, side effects contained, and architect
 
 Stabilize the local environment before writing code so every collaborator can reproduce the same workflow.
 
-1. **Install prerequisites.** Make sure build essentials, `git`, and SSL/zlib headers are present. On Ubuntu this is `sudo apt install build-essential curl git zlib1g-dev libssl-dev ...`; on macOS run `xcode-select --install` and `brew install openssl readline sqlite3 xz zlib tcl-tk git`.
+1. **Install prerequisites.** Make sure build essentials, `git`, and SSL/zlib headers are present. On Ubuntu this is `sudo apt install build-essential curl git zlib1g-dev libssl-dev ...`; on macOS run `xcode-select --install` and
+   `brew install openssl readline sqlite3 xz zlib tcl-tk git`.
 2. **Provision runtimes.** Use `pyenv` to install and pin the project’s Python (e.g., `pyenv install 3.12.3 && pyenv local 3.12.3`). Install `pipx` so CLI tools (Poetry, Ruff, Black, Mypy) stay isolated from system Python.
-3. **Initialize Poetry.** Run `poetry init -n`, then add dependencies (`poetry add typer rich` and `poetry add --group dev pytest black ruff mypy pre-commit`). Configure `poetry config virtualenvs.in-project true` if you want `.venv/` checked in gitignore.
+3. **Initialize Poetry.** Run `poetry init -n`, then add dependencies (`poetry add typer rich` and `poetry add --group dev pytest black ruff mypy pre-commit`). Configure `poetry config virtualenvs.in-project true` if you want `.venv/` checked in
+   gitignore.
 4. **Lay out automation.** Create a `Makefile` (or `noxfile.py`) with targets like `fmt`, `lint`, `test`, and `typecheck` that shell out to `poetry run ...`. Keep orchestration declarative so CI can reuse the same commands.
 5. **Wire quality gates.** Install `pre-commit` via `pipx install pre-commit`, add hooks for Ruff, Black, and Mypy, then run `pre-commit install`. CI should execute the same hooks plus `poetry run pytest`.
-6. **Scaffold the TODO app (or your domain).** Organize code under `src/your_package`, tests under `tests/`, and keep CLI entry points (Typer, Click) in `src/your_package/cli.py`. Store example data/state (e.g., `tasks.json`) in `examples/` so onboarding developers can run through a realistic workflow.
-
+6. **Scaffold the TODO app (or your domain).** Organize code under `src/your_package`, tests under `tests/`, and keep CLI entry points (Typer, Click) in `src/your_package/cli.py`. Store example data/state (e.g., `tasks.json`) in `examples/` so
+   onboarding developers can run through a realistic workflow.
 
 ## 8. Quickstart Setup (Unix)
 
 > Minimal, repeatable steps for macOS, Ubuntu, and most Linux distributions.
 
-1. **System dependencies.**  
-   - Ubuntu:  
-     ```bash
-     sudo apt update
-     sudo apt install -y build-essential curl git zlib1g-dev libssl-dev \
-         libbz2-dev libsqlite3-dev libncurses5-dev libffi-dev liblzma-dev tk-dev
-     ```  
-   - macOS (Homebrew):  
-     ```bash
-     xcode-select --install
-     brew install openssl readline sqlite3 xz zlib tcl-tk git
-     ```
+1. **System dependencies.**
+    - Ubuntu:
+      ```bash
+      sudo apt update
+      sudo apt install -y build-essential curl git zlib1g-dev libssl-dev \
+          libbz2-dev libsqlite3-dev libncurses5-dev libffi-dev liblzma-dev tk-dev
+      ```  
+    - macOS (Homebrew):
+      ```bash
+      xcode-select --install
+      brew install openssl readline sqlite3 xz zlib tcl-tk git
+      ```
 
-2. **Install `pyenv`.**  
+2. **Install `pyenv`.**
    ```bash
    curl https://pyenv.run | bash
    echo 'export PATH="$HOME/.pyenv/bin:$PATH"' >> ~/.zshrc
@@ -267,20 +298,20 @@ Stabilize the local environment before writing code so every collaborator can re
    ```  
    Restart your shell, then `pyenv install 3.12.3 && pyenv global 3.12.3`.
 
-3. **Install `pipx`.**  
+3. **Install `pipx`.**
    ```bash
    python -m pip install --user pipx
    python -m pipx ensurepath
    ```
 
-4. **Install Poetry.**  
+4. **Install Poetry.**
    ```bash
    pipx install poetry
    poetry --version
    poetry config virtualenvs.in-project true
    ```
 
-5. **Install global tooling (optional).**  
+5. **Install global tooling (optional).**
    ```bash
    pipx install pre-commit
    pipx install ruff
@@ -288,7 +319,7 @@ Stabilize the local environment before writing code so every collaborator can re
    pipx install mypy
    ```
 
-6. **Create a project scaffold.**  
+6. **Create a project scaffold.**
    ```bash
    mkdir todo-app && cd todo-app
    poetry init -n
@@ -298,7 +329,7 @@ Stabilize the local environment before writing code so every collaborator can re
    poetry shell
    ```
 
-7. **Verify tooling.**  
+7. **Verify tooling.**
    ```bash
    python -V          # 3.12.x
    poetry -V
@@ -308,7 +339,7 @@ Stabilize the local environment before writing code so every collaborator can re
 
 8. **Optional VS Code setup.** Install the Python, Pylance, Black, Ruff, and Mypy extensions, then choose the Poetry-created `.venv` via *Python: Select Interpreter*.
 
-9. **Convenience aliases (optional).**  
+9. **Convenience aliases (optional).**
    ```bash
    alias fmt="poetry run ruff --fix . && poetry run black ."
    alias lint="poetry run ruff ."
@@ -316,22 +347,21 @@ Stabilize the local environment before writing code so every collaborator can re
    alias typecheck="poetry run mypy"
    ```
 
-
 ## 9. First-Time Verification Checklist
 
 Run these commands once the project scaffold is in place to ensure everything works end-to-end:
 
-| Check | Command | Expected |
-|-------|---------|----------|
-| Python runtime | `python -V` | `Python 3.12.x` (from project `.venv`) |
-| Poetry version | `poetry -V` | Displays installed release |
-| Dependency install | `poetry install` | Resolves and installs app + dev deps |
-| Tests | `poetry run pytest` | All tests green; failure output if not |
-| Formatter | `poetry run black --check .` | “All done!” or files listed for fix |
-| Linter | `poetry run ruff .` | No diagnostics or actionable warnings |
-| Type checker | `poetry run mypy` | “Success: no issues found” |
-| Pre-commit | `pre-commit install && pre-commit run --all-files` | Hooks run cleanly |
-| CLI smoke test | `poetry run python -m your_package.cli --help` | Help text rendered |
+| Check              | Command                                            | Expected                               |
+|--------------------|----------------------------------------------------|----------------------------------------|
+| Python runtime     | `python -V`                                        | `Python 3.12.x` (from project `.venv`) |
+| Poetry version     | `poetry -V`                                        | Displays installed release             |
+| Dependency install | `poetry install`                                   | Resolves and installs app + dev deps   |
+| Tests              | `poetry run pytest`                                | All tests green; failure output if not |
+| Formatter          | `poetry run black --check .`                       | “All done!” or files listed for fix    |
+| Linter             | `poetry run ruff .`                                | No diagnostics or actionable warnings  |
+| Type checker       | `poetry run mypy`                                  | “Success: no issues found”             |
+| Pre-commit         | `pre-commit install && pre-commit run --all-files` | Hooks run cleanly                      |
+| CLI smoke test     | `poetry run python -m your_package.cli --help`     | Help text rendered                     |
 
 **Troubleshooting notes**
 
@@ -339,26 +369,31 @@ Run these commands once the project scaffold is in place to ensure everything wo
 - For SSL or bz2 import errors, install the missing system libraries (`libssl-dev`, `libbz2-dev`, etc.) and rebuild the Python version via `pyenv uninstall && pyenv install`.
 - When hooks modify files, rerun `git status` to ensure changes are staged before committing.
 
-
 ## 10. Appendix
 
-- **Official docs and references**
-  - [Python documentation](https://docs.python.org/3/) — language, stdlib, tutorial.
-  - [The Zen of Python](https://peps.python.org/pep-0020/) and [PEP 8](https://peps.python.org/pep-0008/) — philosophy and style.
-  - [Pyenv](https://github.com/pyenv/pyenv), [Poetry](https://python-poetry.org/docs/), [Pipx](https://pipx.pypa.io/stable/) — tooling manuals.
-  - [Pytest](https://docs.pytest.org/), [Hypothesis](https://hypothesis.readthedocs.io/), [Ruff](https://docs.astral.sh/ruff/) — testing and linting guides.
+### Core References
 
-- **Recommended learning material**
-  - `import this` in the REPL as a reminder of idioms.
-  - `black --diff .` and `ruff --explain <code>` to see how tools encode style expectations.
-  - Small spikes that rebuild the TODO app layers (OO model, FP utilities, CLI) help internalize the paradigm blend.
+- [Python documentation](https://docs.python.org/3/) — canonical manual for language, stdlib, and tooling.
+- [The Zen of Python](https://peps.python.org/pep-0020/) and [PEP 8](https://peps.python.org/pep-0008/) — tone setters for clarity and style.
+- Tooling specs: [Pyenv](https://github.com/pyenv/pyenv), [Poetry](https://python-poetry.org/docs/), [Pipx](https://pipx.pypa.io/stable/), [Ruff](https://docs.astral.sh/ruff/), [Pytest](https://docs.pytest.org/),
+  and [Hypothesis](https://hypothesis.readthedocs.io/).
 
-- **Common pitfalls**
-  - **Environment drift:** forgetting to activate the project `.venv`. Fix with `poetry shell` or `direnv`.
-  - **System package gaps:** missing SSL/zlib headers when compiling Python — reinstall prerequisites, then rerun `pyenv install`.
-  - **Implicit globals:** default mutable arguments (`def foo(data=[])`) bite newcomers; always default to `None`.
+### Practice Accelerators
 
-- **Editor setup**
-  - VS Code: enable the Python, Pylance, Ruff, Black, and Mypy extensions; point the interpreter to `.venv/bin/python`.
-  - JetBrains IDEs: configure Poetry as the interpreter and enable on-save formatting via Black/Ruff.
-  - Terminal aliases from the quickstart (`fmt`, `lint`, `test`, `typecheck`) keep workflows consistent across IDEs.
+- Run `import this` in the REPL weekly to keep the philosophy fresh.
+- Use `black --diff .` and `ruff --explain <code>` to understand the reasoning behind formatting or linting nudges.
+- Rebuild the TODO app layers from scratch (datamodel, stats functions, CLI) whenever you join a new team—twenty focused minutes reinforces idioms better than reading another blog post.
+- Keep a `scripts/experiments/` directory for short notebooks or throwaway spikes; it reduces pressure to over-engineer early drafts.
+
+### Recovery Moves
+
+- **Environment drift:** if commands suddenly hit the wrong Python, re-run `pyenv local <version>` and `poetry env info` to confirm you are inside `.venv`. Consider `direnv` to automate activation.
+- **System package gaps:** SSL, bz2, or sqlite import errors usually mean missing OS libraries—install the relevant `lib*-dev` packages (or Homebrew formulas) and reinstall the Python version via `pyenv`.
+- **Mutable defaults:** avoid `def add_task(task, labels=set())`; default to `None` and instantiate inside the function.
+- **Corrupt task data:** keep a `poetry run python -m todo_app repair tasks.json` helper (or similar) so the team can fix JSON state without guesswork.
+
+### Editor and Tooling Profiles
+
+- **VS Code:** enable Python, Pylance, Ruff, Black, and Mypy extensions; set `"python.defaultInterpreterPath": ".venv/bin/python"` and wire format-on-save to Black.
+- **JetBrains (PyCharm / IDEA):** add the Poetry interpreter, enable “on save” actions for Black/Ruff, and configure file watchers for `mypy` if you want instant feedback.
+- **Terminal aliases:** the quickstart’s `fmt`, `lint`, `test`, and `typecheck` keep CLIs symmetrical across IDEs; add `sync` for `poetry run todo sync` if your workflow depends on remote boards.

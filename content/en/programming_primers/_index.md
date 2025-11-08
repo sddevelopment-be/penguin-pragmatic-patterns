@@ -1,6 +1,6 @@
 +++
-aliases = ["primers", "languages"]
 title = "Programming Language Primers"
+aliases = ["primers", "languages"]
 subtitle = "Get up to speed quickly in a new programming language, the hollistic way."
 +++
 

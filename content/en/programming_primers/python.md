@@ -231,12 +231,14 @@ This separation keeps logic deterministic, side effects contained, and architect
 
 ## 7. Workspace Bootstrap
 
-- Prerequisites (toolchains, system dependencies)
-- Project structure and Makefile targets
-- Setting up Poetry (or equivalent) for dependencies
-- Linting, formatting, type-checking, testing
-- Pre-commit hooks and CI integration
-- Example: full TODO app scaffolding
+Stabilize the local environment before writing code so every collaborator can reproduce the same workflow.
+
+1. **Install prerequisites.** Make sure build essentials, `git`, and SSL/zlib headers are present. On Ubuntu this is `sudo apt install build-essential curl git zlib1g-dev libssl-dev ...`; on macOS run `xcode-select --install` and `brew install openssl readline sqlite3 xz zlib tcl-tk git`.
+2. **Provision runtimes.** Use `pyenv` to install and pin the project’s Python (e.g., `pyenv install 3.12.3 && pyenv local 3.12.3`). Install `pipx` so CLI tools (Poetry, Ruff, Black, Mypy) stay isolated from system Python.
+3. **Initialize Poetry.** Run `poetry init -n`, then add dependencies (`poetry add typer rich` and `poetry add --group dev pytest black ruff mypy pre-commit`). Configure `poetry config virtualenvs.in-project true` if you want `.venv/` checked in gitignore.
+4. **Lay out automation.** Create a `Makefile` (or `noxfile.py`) with targets like `fmt`, `lint`, `test`, and `typecheck` that shell out to `poetry run ...`. Keep orchestration declarative so CI can reuse the same commands.
+5. **Wire quality gates.** Install `pre-commit` via `pipx install pre-commit`, add hooks for Ruff, Black, and Mypy, then run `pre-commit install`. CI should execute the same hooks plus `poetry run pytest`.
+6. **Scaffold the TODO app (or your domain).** Organize code under `src/your_package`, tests under `tests/`, and keep CLI entry points (Typer, Click) in `src/your_package/cli.py`. Store example data/state (e.g., `tasks.json`) in `examples/` so onboarding developers can run through a realistic workflow.
 
 
 ## 8. Quickstart Setup (Unix)

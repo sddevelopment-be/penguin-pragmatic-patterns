@@ -24,12 +24,19 @@ Treat Python as a glue language with range: ideal for orchestration, data analys
 
 ## 2. Syntax and Naming Conventions
 
-- Variable and function naming
-- Class and constant conventions
-- Module and package structure
-- Style guide summary (e.g., PEP 8 for Python)
-- Examples of idiomatic syntax
-- Formatter tools and style enforcers
+Python syntax stays intentionally boring so that structure—not punctuation—carries the meaning. Naming is the loudest signal of intent, so teams lean on consistent cases and docstrings.
+
+| Element               | Convention                    | Example                           |
+|-----------------------|-------------------------------|-----------------------------------|
+| Variables/functions   | `snake_case`                  | `total_count`, `process_invoice()`|
+| Classes               | `PascalCase`                  | `InvoiceBatch`, `UserProfile`     |
+| Constants             | `ALL_CAPS`                    | `MAX_RETRIES = 3`                 |
+| Private members       | `_single_leading_underscore`  | `_cache`, `_reset_state()`        |
+| Modules/files         | `lowercase_with_underscores`  | `billing_rules.py`                |
+| Docstrings            | Triple quotes, summary first  | `"""Compute average value."""`    |
+| Type hints            | Optional but encouraged       | `def greet(name: str) -> str:`    |
+
+PEP 8 is the shared style contract. Enforce it automatically with [Black](https://black.readthedocs.io/en/stable/) for formatting and [Ruff](https://docs.astral.sh/ruff/) or `flake8` for linting. F-strings, assignment expressions, and type hints are idiomatic when they keep code expressive without obscuring intent.
 
 
 ## 3. Version and Dependency Management
@@ -117,5 +124,4 @@ Treat Python as a glue language with range: ideal for orchestration, data analys
 - Recommended learning resources
 - Common pitfalls and recovery commands
 - Optional IDE/editor configuration (VS Code, JetBrains, etc.)
-
 

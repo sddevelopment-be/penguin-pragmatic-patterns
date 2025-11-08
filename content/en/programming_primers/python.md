@@ -65,11 +65,33 @@ poetry shell
 
 ## 4. Build and Packaging Tooling
 
-- The canonical build tool(s)
-- Lifecycle overview (build → test → publish)
-- Common file structure and project layout
-- Modern conventions (e.g., `pyproject.toml`, `package.json`, etc.)
-- Deployment and distribution basics
+Python build tooling is layered: the language runtime stays small while packaging tools evolve independently. Modern projects lean on the `pyproject.toml` standard so that formatters, linters, and build tools share one config surface.
+
+| Tool         | Role                                      | Notes                                           |
+|--------------|-------------------------------------------|-------------------------------------------------|
+| `poetry`     | Build + publish projects via PEP 517 flow | Recommended default; wraps env + deps + build   |
+| `setuptools` | Legacy builder                            | Still common in older repos or corporate libs   |
+| `build`      | PEP 517 reference builder                 | What `poetry build` calls under the hood        |
+| `twine`      | Upload wheels/sdist to PyPI               | Used for manual or CI-driven publishing         |
+
+Reference layout:
+
+```
+project/
+├── pyproject.toml        # build + dependency metadata
+├── poetry.lock
+├── src/
+│   └── my_package/
+│       ├── __init__.py
+│       ├── core.py
+│       └── adapters.py
+├── tests/
+│   └── test_core.py
+├── README.md
+└── .pre-commit-config.yaml
+```
+
+CI typically runs `poetry install`, `poetry run pytest`, and `poetry build`. Publishing is either `poetry publish` (with stored credentials) or a `twine upload dist/*` step.
 
 
 ## 5. Testing Frameworks

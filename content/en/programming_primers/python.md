@@ -96,11 +96,29 @@ CI typically runs `poetry install`, `poetry run pytest`, and `poetry build`. Pub
 
 ## 5. Testing Frameworks
 
-- Core philosophy of testing in this language
-- Canonical frameworks and libraries
-- Unit vs integration vs property-based testing
-- Typical test directory structure
-- Example test file and run commands
+- **Testing mindset:** prefer small, behavior-focused tests with descriptive names. Fixtures and parametrization replace heavy inheritance hierarchies. Integration tests stay close to the public interface; property-based approaches cover data-heavy paths.
+
+| Tool         | Purpose                          | Why it matters                                  |
+|--------------|----------------------------------|-------------------------------------------------|
+| `pytest`     | De facto testing framework       | Fixtures, parametrization, rich plugin ecosystem|
+| `unittest`   | Standard library xUnit           | Still used in legacy codebases                  |
+| `hypothesis` | Property-based testing           | Generates inputs to challenge invariants        |
+| `tox`        | Multi-environment orchestration  | Runs tests across Python versions or envs       |
+
+Canonical `pytest` example:
+
+```python
+# tests/test_core.py
+from my_package.core import compute_total
+
+def test_compute_total_handles_empty_list():
+    assert compute_total([]) == 0
+
+def test_compute_total_sums_positive_numbers():
+    assert compute_total([2, 3, 5]) == 10
+```
+
+Commands stay explicit: `poetry run pytest`, `poetry run pytest tests/integration`, or `tox -e py312`. Coverage tooling (`coverage.py`) and mutation testing (`mutmut`) are optional add-ons when the domain justifies them.
 
 
 ## 6. Programming Idioms

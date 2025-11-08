@@ -162,6 +162,33 @@ class Task:
 
 Pair these objects with thin service classes (e.g., `OrderService`, `TaskRepository`) so orchestration layers can swap implementations in tests. OO shines when you must guard invariants or coordinate multiple collaborators over time.
 
+### 6.2 Functional Programming Idioms
+
+Functional techniques keep business rules pure and predictable. Treat functions as values, chain them with comprehensions or iterators, and pass data through pipelines instead of mutating shared state.
+
+- First-class functions, closures, and `functools.partial` encourage composition.
+- Immutability via tuples, frozen dataclasses, or `typing.NamedTuple` keeps data trustworthy.
+- `itertools`, generator expressions, and comprehensions make lazy pipelines ergonomic.
+
+```python
+from functools import partial, lru_cache
+from itertools import chain
+
+def taxed(rate: float, amount: float) -> float:
+    return round(amount * (1 + rate), 2)
+
+apply_vat = partial(taxed, 0.21)
+
+@lru_cache(maxsize=256)
+def fibonacci(n: int) -> int:
+    return n if n < 2 else fibonacci(n - 1) + fibonacci(n - 2)
+
+prices = [10, 15, 20]
+gross = (apply_vat(p) for p in prices)
+total = sum(v for v in gross if v > 12)
+```
+
+Reach for FP when modeling transformations (parsing, validation, scoring) or whenever you want trivial unit tests. Property-based testing (`hypothesis`) pairs naturally with this style.
 
 ## 7. Workspace Bootstrap
 

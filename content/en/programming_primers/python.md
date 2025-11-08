@@ -1,11 +1,12 @@
 +++
 title = "Python Primer"
-subtitle = ""
+subtitle = "There should be one — and preferably only one — obvious way to do it."
+aliases = ["python-primer", "programming-languages/python"]
 author = "Stijn Dejongh"
 outputs = ['html', 'rss', 'json']
 draft = true
 date = "2024-06-10T12:00:00+00:00"
-tags = ["programming", "python", "primer", "beginners", "introduction"]
+tags = ["programming", "python", "primer", "reference", "intermdeiate"]
 +++
 
 ## 1. Language Philosophy
@@ -26,15 +27,15 @@ Treat Python as a glue language with range: ideal for orchestration, data analys
 
 Python syntax stays intentionally boring so that structure—not punctuation—carries the meaning. Naming is the loudest signal of intent, so teams lean on consistent cases and docstrings.
 
-| Element               | Convention                    | Example                               |
-|-----------------------|-------------------------------|---------------------------------------|
-| Variables/functions   | `snake_case`                  | `pending_tasks`, `archive_completed()`|
-| Classes               | `PascalCase`                  | `TaskBoard`, `TaskRepository`         |
-| Constants             | `ALL_CAPS`                    | `MAX_ACTIVE_TASKS = 10`               |
-| Private members       | `_single_leading_underscore`  | `_task_cache`, `_load_board()`        |
-| Modules/files         | `lowercase_with_underscores`  | `task_filters.py`                     |
-| Docstrings            | Triple quotes, summary first  | `"""Calculate completion rate."""`    |
-| Type hints            | Optional but encouraged       | `def mark_done(task: Task) -> Task:`  |
+| Element             | Convention                   | Example                                |
+|---------------------|------------------------------|----------------------------------------|
+| Variables/functions | `snake_case`                 | `pending_tasks`, `archive_completed()` |
+| Classes             | `PascalCase`                 | `TaskBoard`, `TaskRepository`          |
+| Constants           | `ALL_CAPS`                   | `MAX_ACTIVE_TASKS = 10`                |
+| Private members     | `_single_leading_underscore` | `_task_cache`, `_load_board()`         |
+| Modules/files       | `lowercase_with_underscores` | `task_filters.py`                      |
+| Docstrings          | Triple quotes, summary first | `"""Calculate completion rate."""`     |
+| Type hints          | Optional but encouraged      | `def mark_done(task: Task) -> Task:`   |
 
 PEP 8 is the shared style contract. Enforce it automatically with [Black](https://black.readthedocs.io/en/stable/) for formatting and [Ruff](https://docs.astral.sh/ruff/) or `flake8` for linting. F-strings, assignment expressions, and type hints
 are idiomatic when they keep code expressive without obscuring intent.

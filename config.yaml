@@ -79,6 +79,8 @@ params:
     url: /concepts/
   - title: Practices
     url: /practices/
+  - title: Primers
+    url: /programming_primers/
   - title: Resources
     sublinks:
       - title: Glossary

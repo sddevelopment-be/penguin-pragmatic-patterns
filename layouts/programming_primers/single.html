@@ -1,0 +1,42 @@
+{{ define "main" }}
+{{ partial "navbar.html" . }}
+{{ partial "navbar-clone.html" . }}
+
+<section class="hero is-default section-feature-grey is-medium" id="primer-meta">
+    <div class="hero-body">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-8 is-offset-2">
+                    <h1 class="title">{{ .Title }}</h1>
+                    {{ with .Params.subtitle }}<p class="subtitle">{{ . }}</p>{{ end }}
+                    <div class="meta is-size-7 has-text-grey">
+                        Written by {{ .Params.author }} · {{ .Date.Format "02 Jan 2006" }} · {{ .ReadingTime }} min read
+                    </div>
+                    {{ with .Params.tags }}
+                    <div class="tags">
+                        {{ range . }}<span class="tag">{{ . }}</span>{{ end }}
+                    </div>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section is-medium">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-8 is-offset-2 content">
+                {{ .Content }}
+            </div>
+        </div>
+    </div>
+</section>
+
+{{ partial "comments.html" . }}
+
+{{ if .Site.Params.footer }}
+    {{ partial "footer.html" . }}
+{{ end }}
+
+{{ end }}

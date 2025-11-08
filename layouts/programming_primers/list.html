@@ -1,0 +1,48 @@
+{{ define "main" }}
+{{ partial "navbar.html" . }}
+{{ partial "navbar-clone.html" . }}
+
+{{ partial "title-section.html" . }}
+
+<section class="hero is-default section-feature-grey is-medium" id="primer-intro">
+    <div class="hero-body">
+        <div class="container">
+            <div class="columns">
+                <div class="column is-10 is-offset-1 landing-caption vert-align">
+                    {{ .Content }}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section is-medium" id="primer-list">
+    <div class="container">
+        <div class="pattern-list">
+            {{ range .Pages.ByTitle }}
+            <article class="card pattern-card">
+                <div class="card-content">
+                    <p class="title is-4">
+                        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                        {{ if .Draft }}<span class="tag is-warning is-light">Draft</span>{{ end }}
+                    </p>
+                    {{ with .Params.subtitle }}<p class="subtitle is-6">{{ . }}</p>{{ end }}
+                    <p class="content">{{ .Summary }}</p>
+                    <div class="tags">
+                        {{ range .Params.tags }}<span class="tag">{{ . }}</span>{{ end }}
+                    </div>
+                    <div class="meta is-size-7 has-text-grey">
+                        Last updated {{ .Lastmod.Format "02 Jan 2006" }} · {{ .ReadingTime }} min read
+                    </div>
+                </div>
+            </article>
+            {{ end }}
+        </div>
+    </div>
+</section>
+
+{{ if .Site.Params.footer }}
+    {{ partial "footer.html" . }}
+{{ end }}
+
+{{ end }}

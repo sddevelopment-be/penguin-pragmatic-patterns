@@ -319,13 +319,25 @@ Stabilize the local environment before writing code so every collaborator can re
 
 ## 9. First-Time Verification Checklist
 
-- Commands and expected outputs for:
-    - Tool version check
-    - Environment validation
-    - Lint/format/type/test passes
-    - Pre-commit and git setup
-    - CLI execution test
-- Troubleshooting notes
+Run these commands once the project scaffold is in place to ensure everything works end-to-end:
+
+| Check | Command | Expected |
+|-------|---------|----------|
+| Python runtime | `python -V` | `Python 3.12.x` (from project `.venv`) |
+| Poetry version | `poetry -V` | Displays installed release |
+| Dependency install | `poetry install` | Resolves and installs app + dev deps |
+| Tests | `poetry run pytest` | All tests green; failure output if not |
+| Formatter | `poetry run black --check .` | “All done!” or files listed for fix |
+| Linter | `poetry run ruff .` | No diagnostics or actionable warnings |
+| Type checker | `poetry run mypy` | “Success: no issues found” |
+| Pre-commit | `pre-commit install && pre-commit run --all-files` | Hooks run cleanly |
+| CLI smoke test | `poetry run python -m your_package.cli --help` | Help text rendered |
+
+**Troubleshooting notes**
+
+- If `pyenv` shims are not picked up, confirm the PATH exports live in your shell rc file and reopen the terminal.
+- For SSL or bz2 import errors, install the missing system libraries (`libssl-dev`, `libbz2-dev`, etc.) and rebuild the Python version via `pyenv uninstall && pyenv install`.
+- When hooks modify files, rerun `git status` to ensure changes are staged before committing.
 
 
 ## 10. Appendix

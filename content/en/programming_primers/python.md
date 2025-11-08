@@ -243,12 +243,78 @@ Stabilize the local environment before writing code so every collaborator can re
 
 ## 8. Quickstart Setup (Unix)
 
-- Installing system dependencies (build essentials, curl, git)
-- Installing pyenv, pipx, and Poetry
-- Configuring environment variables
-- Validating installations
-- Setting up and activating virtual environments
-- Basic project creation commands
+> Minimal, repeatable steps for macOS, Ubuntu, and most Linux distributions.
+
+1. **System dependencies.**  
+   - Ubuntu:  
+     ```bash
+     sudo apt update
+     sudo apt install -y build-essential curl git zlib1g-dev libssl-dev \
+         libbz2-dev libsqlite3-dev libncurses5-dev libffi-dev liblzma-dev tk-dev
+     ```  
+   - macOS (Homebrew):  
+     ```bash
+     xcode-select --install
+     brew install openssl readline sqlite3 xz zlib tcl-tk git
+     ```
+
+2. **Install `pyenv`.**  
+   ```bash
+   curl https://pyenv.run | bash
+   echo 'export PATH="$HOME/.pyenv/bin:$PATH"' >> ~/.zshrc
+   echo 'eval "$(pyenv init -)"' >> ~/.zshrc
+   echo 'eval "$(pyenv virtualenv-init -)"' >> ~/.zshrc
+   ```  
+   Restart your shell, then `pyenv install 3.12.3 && pyenv global 3.12.3`.
+
+3. **Install `pipx`.**  
+   ```bash
+   python -m pip install --user pipx
+   python -m pipx ensurepath
+   ```
+
+4. **Install Poetry.**  
+   ```bash
+   pipx install poetry
+   poetry --version
+   poetry config virtualenvs.in-project true
+   ```
+
+5. **Install global tooling (optional).**  
+   ```bash
+   pipx install pre-commit
+   pipx install ruff
+   pipx install black
+   pipx install mypy
+   ```
+
+6. **Create a project scaffold.**  
+   ```bash
+   mkdir todo-app && cd todo-app
+   poetry init -n
+   poetry env use 3.12.3
+   poetry add typer rich
+   poetry add --group dev pytest black ruff mypy pre-commit
+   poetry shell
+   ```
+
+7. **Verify tooling.**  
+   ```bash
+   python -V          # 3.12.x
+   poetry -V
+   pytest --version
+   ruff --version
+   ```
+
+8. **Optional VS Code setup.** Install the Python, Pylance, Black, Ruff, and Mypy extensions, then choose the Poetry-created `.venv` via *Python: Select Interpreter*.
+
+9. **Convenience aliases (optional).**  
+   ```bash
+   alias fmt="poetry run ruff --fix . && poetry run black ."
+   alias lint="poetry run ruff ."
+   alias test="poetry run pytest"
+   alias typecheck="poetry run mypy"
+   ```
 
 
 ## 9. First-Time Verification Checklist

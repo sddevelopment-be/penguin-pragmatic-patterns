@@ -74,12 +74,12 @@ hugo --gc --minify --buildDrafts=true
 /content/
 ├── en/                          # English content (primary)
 │   ├── practices/              # 40+ practice files (UUID filenames + TEMPLATE_PRACTICE.md)
-│   ├── concepts/               # 25+ concept files (TEMPATE_CONCEPT.md with typo in name)
+│   ├── concepts/               # 25+ concept files (UUID filenames + TEMPLATE_CONCEPT.md)
 │   ├── books/                  # Bibliography entries (UUID-named files)
 │   ├── glossary/               # Term definitions (UUID-named files)
 │   ├── presentations/          # Slide deck landing pages
 │   ├── tools/                  # Tool/app write-ups
-│   ├── programming_primers/    # Programming language guides
+│   ├── programming_primers/    # Programming language guides ( TEMPLATE_PROGRAMMING_PRIMER.md )
 │   └── CONTRIBUTING.md         # Contribution guide
 ├── nl/                         # Dutch translations (fewer entries)
 └── pillars/                    # Cross-locale thematic pages
@@ -296,6 +296,7 @@ auto/                # Automation metadata
 
 - `content/en/practices/TEMPLATE_PRACTICE.md` - Practice template scaffold
 - `content/en/concepts/TEMPLATE_CONCEPT.md` - Concept template 
+- `content/en/programming_primers/TEMPLATE_PROGRAMMING_PRIMER.md` - Concept template 
 
 ### Documentation
 

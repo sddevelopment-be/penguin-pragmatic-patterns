@@ -43,8 +43,6 @@ gradlew.*
 hs_err_pid*
 
 node_modules/**
-package-lock.json
-package.json
 out/**
 
 # Custom ignores
@@ -52,11 +50,16 @@ old_source
 public/
 resources/_gen/
 SPELLCHECK_OUTPUT.*
-
-**/*.http
-**/*.drawio.bkp
-
+.**/*.http
+.**/*.drawio.bkp
+**/*.bkp
 auto
 tmp
 
 OUT
+
+# Cypress validation
+validation/cypress/videos/
+validation/cypress/screenshots/
+validation/.cypress/
+validation/node_modules/

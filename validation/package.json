@@ -1,0 +1,25 @@
+{
+  "name": "validation",
+  "version": "1.0.0",
+  "description": "Cypress-based validation test suite for Penguin Pragmatic Patterns website",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "test": "cypress run",
+    "test:headed": "cypress run --headed",
+    "test:chrome": "cypress run --browser chrome",
+    "test:firefox": "cypress run --browser firefox"
+  },
+  "keywords": [
+    "testing",
+    "cypress",
+    "e2e",
+    "validation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^15.6.0"
+  }
+}

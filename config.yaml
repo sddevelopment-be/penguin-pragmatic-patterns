@@ -179,6 +179,8 @@ params:
             link: /practices
           - text: Concepts
             link: /concepts
+          - text: Primers
+            link: /programming_primers/
       column2:
         title: "Resources"
         links:

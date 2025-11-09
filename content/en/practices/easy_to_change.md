@@ -1,4 +1,4 @@
-++
++++
 title = "Easy to Change"
 author = "Stijn Dejongh"
 draft = true
@@ -31,7 +31,7 @@ ammerse = [
 related_concepts = []
 related_practices = []
 further_exploration = []
-++
++++
 
 ## Problem statement
 

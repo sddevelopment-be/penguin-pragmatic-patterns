@@ -57,7 +57,8 @@ Typical workflow:
 pyenv install 3.12.3
 pyenv local 3.12.3
 poetry init
-poetry add requests pytest
+poetry add requests
+poetry add --group dev pytest
 poetry shell
 ```
 
@@ -220,6 +221,7 @@ Imperative code glues everything together: CLI commands, cron jobs, deployment s
 
 ```python
 import json
+from dataclasses import asdict
 from pathlib import Path
 
 from todo_app.models import Task, TaskState
@@ -237,7 +239,7 @@ def complete_first_task(path: Path) -> None:
     if not tasks:
         return
     tasks[0].state = TaskState.DONE
-    path.write_text(json.dumps([task.__dict__ for task in tasks], default=str, indent=2))
+    path.write_text(json.dumps([asdict(task) for task in tasks], default=str, indent=2))
 
 
 try:

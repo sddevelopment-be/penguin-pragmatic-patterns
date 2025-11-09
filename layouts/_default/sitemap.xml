@@ -1,30 +1,30 @@
 {{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
-    {{ range where .Pages "Sitemap.Disable" "ne" true }}
+    {{- range where .Pages "Sitemap.Disable" "ne" true }}
     {{- if .Permalink -}}
-    {{ $pageURL := .Permalink }}
-    {{ if not (or (hasPrefix .Permalink "http://") (hasPrefix .Permalink "https://")) }}
-    {{ $pageURL = printf "http://%s" .Permalink }}
-    {{ end }}
+    {{- $pageURL := .Permalink -}}
+    {{- if not (or (hasPrefix .Permalink "http://") (hasPrefix .Permalink "https://")) -}}
+        {{- $pageURL = printf "http://%s" .Permalink -}}
+    {{- end }}
     <url>
         <loc>{{ $pageURL }}</loc>{{ if not .Lastmod.IsZero }}
         <lastmod>{{ safeHTML ( .Lastmod.Format "2006-01-02T15:04:05-07:00" ) }}</lastmod>{{ end }}{{ with .Sitemap.ChangeFreq }}
         <changefreq>{{ . }}</changefreq>{{ end }}{{ if ge .Sitemap.Priority 0.0 }}
         <priority>{{ .Sitemap.Priority }}</priority>{{ end }}{{ if .IsTranslated }}{{ range .Translations }}
-        {{ $translationURL := .Permalink }}
-        {{ if not (or (hasPrefix .Permalink "http://") (hasPrefix .Permalink "https://")) }}
-        {{ $translationURL = printf "http://%s" .Permalink }}
-        {{ end }}
+        {{- $translationURL := .Permalink -}}
+        {{- if not (or (hasPrefix .Permalink "http://") (hasPrefix .Permalink "https://")) -}}
+            {{- $translationURL = printf "http://%s" .Permalink -}}
+        {{- end }}
         <xhtml:link
                 rel="alternate"
                 hreflang="{{ .Language.Lang }}"
                 href="{{ $translationURL | safeURL }}"
         />{{ end }}
-        {{ $selfURL := .Permalink }}
-        {{ if not (or (hasPrefix .Permalink "http://") (hasPrefix .Permalink "https://")) }}
-        {{ $selfURL = printf "http://%s" .Permalink }}
-        {{ end }}
+        {{- $selfURL := .Permalink -}}
+        {{- if not (or (hasPrefix .Permalink "http://") (hasPrefix .Permalink "https://")) -}}
+            {{- $selfURL = printf "http://%s" .Permalink -}}
+        {{- end }}
         <xhtml:link
                 rel="alternate"
                 hreflang="{{ .Language.Lang }}"
@@ -32,5 +32,5 @@
         />{{ end }}
     </url>
     {{- end -}}
-    {{ end }}
+    {{- end }}
 </urlset>

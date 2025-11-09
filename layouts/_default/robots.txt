@@ -1,2 +1,6 @@
 User-agent: *
-Sitemap: {{ .Site.BaseURL }}{{ if not (hasSuffix .Site.BaseURL "/") }}/{{ end }}sitemap.xml
+{{ $baseURL := .Site.BaseURL }}
+{{ if not (or (hasPrefix .Site.BaseURL "http://") (hasPrefix .Site.BaseURL "https://")) }}
+{{ $baseURL = printf "http://%s" .Site.BaseURL }}
+{{ end }}
+Sitemap: {{ $baseURL }}{{ if not (hasSuffix $baseURL "/") }}/{{ end }}sitemap.xml

@@ -1956,3 +1956,46 @@ adjust their plans based on real data rather than assumptions.
 """
 aliases = []
 references = []
+
+[[terminology]]
+name = "Python"
+domain = "software development"
+description = """
+Python is a high-level, general-purpose programming language that emphasizes code readability and developer productivity.
+It features a dynamic type system, automatic memory management, and a comprehensive standard library that supports multiple programming paradigms including procedural, object-oriented, and functional programming.
+"""
+aliases = ["python programming language"]
+references = [
+    { title = "Python Official Documentation", link = "https://docs.python.org/3/" },
+    { title = "The Zen of Python (PEP 20)", link = "https://peps.python.org/pep-0020/" }
+]
+
+[[terminology]]
+name = "Primer"
+domain = "learning"
+description = """
+A primer is an introductory educational resource that provides foundational knowledge and essential concepts for a particular subject.
+It serves as a starting point for learners, offering concise explanations, key principles, and practical guidance to build competence quickly.
+"""
+aliases = ["introduction", "getting started guide"]
+references = []
+
+[[terminology]]
+name = "Reference"
+domain = "learning"
+description = """
+A reference is a comprehensive informational resource that provides detailed, systematic documentation about a topic.
+Unlike tutorials or guides, references are designed for lookup and consultation, offering authoritative information that practitioners can return to repeatedly.
+"""
+aliases = ["reference material", "documentation"]
+references = []
+
+[[terminology]]
+name = "Intermediate"
+domain = "learning"
+description = """
+Intermediate describes a level of knowledge or skill that falls between beginner and advanced.
+Intermediate learners have grasped fundamental concepts and are ready to tackle more complex problems, nuanced techniques, and real-world applications.
+"""
+aliases = ["mid-level", "intermediate level"]
+references = []

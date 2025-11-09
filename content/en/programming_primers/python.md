@@ -6,7 +6,7 @@ author = "Stijn Dejongh"
 outputs = ['html', 'rss', 'json']
 draft = true
 date = "2024-06-10T12:00:00+00:00"
-tags = ["programming", "python", "primer", "reference", "intermdeiate"]
+tags = ["programming", "python", "primer", "reference", "intermediate"]
 +++
 
 ## 1. Language Philosophy
@@ -57,7 +57,8 @@ Typical workflow:
 pyenv install 3.12.3
 pyenv local 3.12.3
 poetry init
-poetry add requests pytest
+poetry add requests
+poetry add --group dev pytest
 poetry shell
 ```
 
@@ -145,7 +146,7 @@ Reach for OO when you need identity, lifecycle, or substitutable collaborators. 
 ```python
 from dataclasses import dataclass, field
 from enum import Enum, auto
-from datetime import datetime
+from datetime import datetime, timezone
 
 
 class TaskState(Enum):
@@ -158,7 +159,7 @@ class TaskState(Enum):
 class Task:
     title: str
     state: TaskState = TaskState.TODO
-    created_at: datetime = field(default_factory=datetime.utcnow)
+    created_at: datetime = field(default_factory=lambda: datetime.now(timezone.utc))
     due_at: datetime | None = None
     tags: set[str] = field(default_factory=set)
     completed_at: datetime | None = None
@@ -170,7 +171,7 @@ class Task:
     def complete(self) -> None:
         if self.state == TaskState.IN_PROGRESS:
             self.state = TaskState.DONE
-            self.completed_at = datetime.utcnow()
+            self.completed_at = datetime.now(timezone.utc)
 ```
 
 Pair these objects with thin service classes (e.g., `TaskSyncService`, `TaskRepository`) so orchestration layers can swap implementations in tests. OO shines when you must guard invariants or coordinate multiple collaborators over time.
@@ -185,7 +186,7 @@ Functional techniques keep business rules pure and predictable. Treat functions 
 
 ```python
 from dataclasses import replace
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from functools import partial
 
 from todo_app.models import Task, TaskState
@@ -197,11 +198,11 @@ def tag_overdue(current_time: datetime, task: Task) -> Task:
     return task
 
 
-mark_overdue = partial(tag_overdue, datetime.utcnow())
+mark_overdue = partial(tag_overdue, datetime.now(timezone.utc))
 
 tasks = [
-    Task(title="Draft outline", due_at=datetime.utcnow() - timedelta(days=1)),
-    Task(title="Record episode", due_at=datetime.utcnow() + timedelta(days=2)),
+    Task(title="Draft outline", due_at=datetime.now(timezone.utc) - timedelta(days=1)),
+    Task(title="Record episode", due_at=datetime.now(timezone.utc) + timedelta(days=2)),
 ]
 
 active = (t for t in tasks if t.state != TaskState.DONE)
@@ -220,6 +221,7 @@ Imperative code glues everything together: CLI commands, cron jobs, deployment s
 
 ```python
 import json
+from dataclasses import asdict
 from pathlib import Path
 
 from todo_app.models import Task, TaskState
@@ -237,7 +239,7 @@ def complete_first_task(path: Path) -> None:
     if not tasks:
         return
     tasks[0].state = TaskState.DONE
-    path.write_text(json.dumps([task.__dict__ for task in tasks], default=str, indent=2))
+    path.write_text(json.dumps([asdict(task) for task in tasks], default=str, indent=2))
 
 
 try:
@@ -266,8 +268,8 @@ Stabilize the local environment before writing code so every collaborator can re
 1. **Install prerequisites.** Make sure build essentials, `git`, and SSL/zlib headers are present. On Ubuntu this is `sudo apt install build-essential curl git zlib1g-dev libssl-dev ...`; on macOS run `xcode-select --install` and
    `brew install openssl readline sqlite3 xz zlib tcl-tk git`.
 2. **Provision runtimes.** Use `pyenv` to install and pin the project’s Python (e.g., `pyenv install 3.12.3 && pyenv local 3.12.3`). Install `pipx` so CLI tools (Poetry, Ruff, Black, Mypy) stay isolated from system Python.
-3. **Initialize Poetry.** Run `poetry init -n`, then add dependencies (`poetry add typer rich` and `poetry add --group dev pytest black ruff mypy pre-commit`). Configure `poetry config virtualenvs.in-project true` if you want `.venv/` checked in
-   gitignore.
+3. **Initialize Poetry.** Run `poetry init -n`, then add dependencies (`poetry add typer rich` and `poetry add --group dev pytest black ruff mypy pre-commit`). Configure `poetry config virtualenvs.in-project true` if you want `.venv/` 
+   located in the project directory (and add it to `.gitignore`).
 4. **Lay out automation.** Create a `Makefile` (or `noxfile.py`) with targets like `fmt`, `lint`, `test`, and `typecheck` that shell out to `poetry run ...`. Keep orchestration declarative so CI can reuse the same commands.
 5. **Wire quality gates.** Install `pre-commit` via `pipx install pre-commit`, add hooks for Ruff, Black, and Mypy, then run `pre-commit install`. CI should execute the same hooks plus `poetry run pytest`.
 6. **Scaffold the TODO app (or your domain).** Organize code under `src/your_package`, tests under `tests/`, and keep CLI entry points (Typer, Click) in `src/your_package/cli.py`. Store example data/state (e.g., `tasks.json`) in `examples/` so

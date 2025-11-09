@@ -1,4 +1,4 @@
-++ 
++++
 title = "Communication Channel Compression"
 author = "Stijn Dejongh"
 draft = true

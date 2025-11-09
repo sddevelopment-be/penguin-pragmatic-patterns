@@ -21,12 +21,23 @@
         <div class="pattern-list">
             {{ range .Pages.ByTitle }}
             <article class="card pattern-card">
-                <div class="card-content">
-                    <p class="title is-4">
-                        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                <div class="card-title-wrapper">
+                    <div class="card-image">
+                        <a href="{{ .RelPermalink }}" title="In-depth description of {{ .Title }}">
+                            {{ if .Params.Image }}
+                            <img src="/images/thumbnails/{{ .Params.Image }}.webp" alt="{{ .Title }}">
+                            {{ else }}
+                            <img src="/images/placeholder.webp" alt="{{ .Title }}">
+                            {{ end }}
+                        </a>
+                    </div>
+                    <div class="card-title">
+                        <a href="{{ .RelPermalink }}" class="" title="In-depth description of {{ .Title }}"><h4>{{ .Title }}</h4></a>
                         {{ if .Draft }}<span class="tag is-warning is-light">Draft</span>{{ end }}
-                    </p>
-                    {{ with .Params.subtitle }}<p class="subtitle is-6">{{ . }}</p>{{ end }}
+                        <h5 title="In-depth description of {{ .Title }}">{{ .Params.SubTitle }}</h5>
+                    </div>
+                </div>
+                <div class="card-content">
                     <p class="content">{{ .Summary }}</p>
                     <div class="tags">
                         {{ range .Params.tags }}<span class="tag">{{ . }}</span>{{ end }}

@@ -294,9 +294,9 @@ auto/                # Automation metadata
 
 ### Templates
 
-- `content/en/practices/TEMPLATE_PRACTICE.md` - Practice template scaffold
-- `content/en/concepts/TEMPLATE_CONCEPT.md` - Concept template 
-- `content/en/programming_primers/TEMPLATE_PROGRAMMING_PRIMER.md` - Concept template 
+- `src/templates/TEMPLATE_PROGRAMMING_PRIMER.md/TEMPLATE_PRACTICE.md` - Practice template scaffold
+- `src/templates/TEMPLATE_CONCEPT`  Concept template 
+- `src/templates/TEMPLATE_PROGRAMMING_PRIMER.md` - Concept template 
 
 ### Documentation
 
@@ -340,7 +340,7 @@ git status  # Ensure no unintended files (public/, resources/_gen/, tmp/)
 UUID=$(uuidgen)
 
 # 2. Create file
-cp content/en/practices/TEMPLATE_PRACTICE.md "content/en/practices/your_practice_name.md"
+cp src/templates/TEMPLATE_PRACTICE.md "content/en/practices/your_practice_name.md"
 
 # 3. Edit front matter (use generated UUID)
 # 4. Add any new tags to data/glossary.toml FIRST

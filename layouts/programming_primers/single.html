@@ -2,35 +2,46 @@
 {{ partial "navbar.html" . }}
 {{ partial "navbar-clone.html" . }}
 
-<section class="hero is-default section-feature-grey is-medium" id="primer-meta">
-    <div class="hero-body">
-        <div class="container">
-            <div class="columns">
-                <div class="column is-8 is-offset-2">
-                    <h1 class="title">{{ .Title }}</h1>
-                    {{ with .Params.subtitle }}<p class="subtitle">{{ . }}</p>{{ end }}
-                    <div class="meta is-size-7 has-text-grey">
-                        Written by {{ .Params.author }} · {{ .Date.Format "02 Jan 2006" }} · {{ .ReadingTime }} min read
-                    </div>
-                    {{ with .Params.tags }}
-                    <div class="tags">
-                        {{ range . }}<span class="tag">{{ . }}</span>{{ end }}
-                    </div>
-                    {{ end }}
-                </div>
-            </div>
+<section>
+    <div class="pattern-summary">
+        <div class="title-wrapper has-text-centered increased-width">
+            <h1 class="title is-3 section-title">{{ .Title }}</h1>
+            <h2 class="subtitle is-4 is-muted">{{ .Params.Subtitle }}</h2>
+            <div class="divider spacer spacer-wide"></div>
         </div>
+        {{ if .Params.Image}}
+        <div class="card-image">
+            <picture>
+                {{ $imageFull := printf "images/%s.webp" .Params.Image| relURL }}
+                {{ $imageMedium := printf "images/%s-medium.webp" .Params.Image| relURL }}
+                {{ $imageMobile := printf "images/%s-mobile.webp" .Params.Image| relURL }}
+                <source media="(max-width: 600px)" srcset="{{ $imageMobile}}" />
+                <source media="(max-width: 860px)" srcset="{{ $imageMedium }}" />
+                <source media="(max-width: 1024px)" srcset="{{ $imageFull }}" />
+                <source media="(min-width: 1024px)" srcset="{{ $imageMobile }}" />
+                <img src="{{ $imageFull }}" alt="{{ .Title }}" decoding="async" loading="lazy"/>
+            </picture>
+        </div>
+
+        <div class="meta is-size-7 has-text-grey">
+            Written by {{ .Params.author }} · {{ .Date.Format "02 Jan 2006" }} · {{ .ReadingTime }} min read
+        </div>
+
+        {{ end }}
     </div>
 </section>
 
-<section class="section is-medium">
+<section class="section is-medium main">
     <div class="container">
+
         <div class="columns">
             <div class="column is-8 is-offset-2 content">
                 {{ .Content }}
             </div>
         </div>
     </div>
+
+    {{ partial "sidebar.html" .}}
 </section>
 
 {{ partial "comments.html" . }}

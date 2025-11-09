@@ -4,12 +4,12 @@ subtitle = "There should be one — and preferably only one — obvious way to d
 aliases = ["python-primer", "programming-languages/python"]
 author = "Stijn Dejongh"
 outputs = ['html', 'rss', 'json']
-date = "2024-06-10T12:00:00+00:00"
+date = "2025-11-09T12:00:00+00:00"
 tags = ["programming", "python", "primer", "reference", "intermediate"]
 summary = """
 Python prizes clarity over cleverness and treats readability as a social contract. Code should look like well-edited prose: explicit, orthogonal, and easy to explain to the next engineer. The language stays small on purpose so that libraries, not the core grammar, carry most complexity.
 """
-image = "programming_languages/python.png"
+image = "primers/python_logo"
 +++
 
 ## 1. Language Philosophy

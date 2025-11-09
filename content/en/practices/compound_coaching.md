@@ -40,6 +40,7 @@ further_exploration = [
     { type = "biblio", id = "95713217-317c-4464-b575-359682329baa" },
     { type = "biblio", id = "b7a9f1f9-f89d-4018-8705-1fd87320fe86" }
 ]
+draft = true
 image = "practices/compound_coaching.webp"
 pubdate = "2025-11-01"
 +++

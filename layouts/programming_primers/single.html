@@ -13,12 +13,6 @@
         <div class="card-image">
             <picture>
                 {{ $imageFull := printf "images/%s.webp" .Params.Image| relURL }}
-                {{ $imageMedium := printf "images/%s-medium.webp" .Params.Image| relURL }}
-                {{ $imageMobile := printf "images/%s-mobile.webp" .Params.Image| relURL }}
-                <source media="(max-width: 600px)" srcset="{{ $imageMobile}}" />
-                <source media="(max-width: 860px)" srcset="{{ $imageMedium }}" />
-                <source media="(max-width: 1024px)" srcset="{{ $imageFull }}" />
-                <source media="(min-width: 1024px)" srcset="{{ $imageMobile }}" />
                 <img src="{{ $imageFull }}" alt="{{ .Title }}" decoding="async" loading="lazy"/>
             </picture>
         </div>

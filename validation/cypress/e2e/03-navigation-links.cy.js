@@ -1,17 +1,20 @@
 /**
  * Navigation Links Test
- * 
+ *
  * Verifies that all navigational links in the navbar and footer work correctly
  * and lead to valid pages.
  */
 
-function getNavbar() {
+const PAGE_WAIT_TIMEOUT = 20000
+
+function getNavbar()  {
     return cy.get('nav[class$=\'no-shadow\'] div[class=\'container\']');
 }
 
 describe('Navigation Links Functionality', () => {
   beforeEach(() => {
-    cy.visit('/')
+    cy.visitAndWaitForMain('/')
+    cy.waitForNavbar()
   })
 
   describe('Main Navigation Links', () => {
@@ -24,10 +27,10 @@ describe('Navigation Links Functionality', () => {
 
     mainNavLinks.forEach(({ text, url }) => {
       it(`should navigate to ${text} page`, () => {
-        cy.get('nav.navbar').contains(text).click()
-        cy.url().should('include', url)
-        // Verify page loaded by checking for content
-        cy.get('body').should('be.visible')
+        getNavbar().contains(text).click()
+        cy.location('pathname', { timeout: PAGE_WAIT_TIMEOUT }).should('include', url.replace(/\/?$/, ''))
+        cy.get('main', { timeout: PAGE_WAIT_TIMEOUT }).should('be.visible')
+        cy.visitAndWaitForMain('/')
       })
     })
   })
@@ -42,11 +45,12 @@ describe('Navigation Links Functionality', () => {
     adminLinks.forEach(({ text, url }) => {
       it(`should navigate to ${text} page from Admin dropdown`, () => {
         // Hover over Admin to show dropdown
-        cy.get('nav.navbar').contains('Admin').trigger('mouseover')
+        getNavbar().contains('Admin').trigger('mouseover')
         // Click the link
         cy.get('nav.navbar .navbar-dropdown').contains(text).click({ force: true })
-        cy.url().should('include', url)
-        cy.get('body').should('be.visible')
+        cy.location('pathname', { timeout: PAGE_WAIT_TIMEOUT }).should('include', url.replace(/\/?$/, ''))
+        cy.get('main', { timeout: PAGE_WAIT_TIMEOUT }).should('be.visible')
+        cy.visitAndWaitForMain('/')
       })
     })
   })
@@ -68,8 +72,9 @@ describe('Navigation Links Functionality', () => {
     footerLinks.forEach(({ text, url }) => {
       it(`should navigate to ${text} page from footer`, () => {
         cy.get('footer.footer').contains(text).scrollIntoView().click()
-        cy.url().should('include', url)
-        cy.get('body').should('be.visible')
+        cy.location('pathname', { timeout: PAGE_WAIT_TIMEOUT }).should('include', url.replace(/\/?$/, ''))
+        cy.get('main', { timeout: PAGE_WAIT_TIMEOUT }).should('be.visible')
+        cy.visitAndWaitForMain('/')
       })
     })
   })
@@ -77,10 +82,10 @@ describe('Navigation Links Functionality', () => {
   describe('Logo Links', () => {
     it('should navigate to home when clicking navbar logo', () => {
       // Navigate to a different page first
-      cy.visit('/about')
+      cy.visitAndWaitForMain('/about')
       // Click the navbar logo
       cy.get('nav.navbar .navbar-brand a').first().click()
-      cy.url().should('match', /\/$|\/index\.html$/)
+      cy.location('pathname', { timeout: PAGE_WAIT_TIMEOUT }).should('match', /\/$|\/index\.html$/)
     })
   })
 

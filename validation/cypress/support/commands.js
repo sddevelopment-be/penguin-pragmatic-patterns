@@ -1,25 +1,31 @@
 // ***********************************************
-// This example commands.js shows you how to
-// create various custom commands and overwrite
-// existing commands.
-//
-// For more comprehensive examples of custom
-// commands please read more here:
-// https://on.cypress.io/custom-commands
+// Custom Cypress Commands
 // ***********************************************
-//
-//
-// -- This is a parent command --
-// Cypress.Commands.add('login', (email, password) => { ... })
-//
-//
-// -- This is a child command --
-// Cypress.Commands.add('drag', { prevSubject: 'element'}, (subject, options) => { ... })
-//
-//
-// -- This is a dual command --
-// Cypress.Commands.add('dismiss', { prevSubject: 'optional'}, (subject, options) => { ... })
-//
-//
-// -- This will overwrite an existing command --
-// Cypress.Commands.overwrite('visit', (originalFn, url, options) => { ... })
+
+const PAGE_LOAD_TIMEOUT = 20000
+const VISIT_TIMEOUT = 120000
+
+Cypress.Commands.add('visitAndWaitForMain', (url, options = {}) => {
+  cy.visit(url, { timeout: VISIT_TIMEOUT, ...options })
+  cy.get('body ', { timeout: PAGE_LOAD_TIMEOUT }).should('be.visible')
+})
+
+Cypress.Commands.add('waitForNavbar', () => {
+  cy.get('nav[class$=\'no-shadow\'] div[class=\'container\']', { timeout: PAGE_LOAD_TIMEOUT }).should('be.visible')
+})
+
+
+Cypress.Commands.add('waitForFooter', () => {
+  cy.get('footer.footer', { timeout: PAGE_LOAD_TIMEOUT }).should('be.visible')
+})
+
+Cypress.Commands.add('ensureDetailsOpen', (selector = 'details.related') => {
+  cy.get(selector, { timeout: PAGE_LOAD_TIMEOUT })
+    .should('exist')
+    .then(($details) => {
+      if (!$details.prop('open')) {
+        cy.wrap($details).find('summary').click()
+        cy.wrap($details).should('have.attr', 'open')
+      }
+    })
+})

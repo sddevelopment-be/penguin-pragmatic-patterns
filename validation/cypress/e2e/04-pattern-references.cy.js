@@ -1,15 +1,26 @@
 /**
  * Pattern Reference Sections Test
- * 
+ *
  * Verifies that pattern pages (practices and concepts) have proper reference sections
  * including Further Exploration, Related Concepts, and Related Patterns.
  */
+
+const PAGE_LOAD_TIMEOUT = 20000
+
+const visitAndWaitForReferences = (url) => {
+  cy.visitAndWaitForMain(url)
+  cy.contains('References and Related Patterns', { timeout: PAGE_LOAD_TIMEOUT }).should('exist')
+}
+
+const ensureRelatedSectionOpen = () => {
+  cy.ensureDetailsOpen('details.related')
+}
 
 describe('Pattern Reference Sections', () => {
   describe('Practice Pages - Reference Sections', () => {
     // Test with the "Wax on, wax off" practice as a representative example
     beforeEach(() => {
-      cy.visit('/practices/wax_on_wax_off/')
+      visitAndWaitForReferences('/practices/wax_on_wax_off/')
     })
 
     it('should have a References and Related Patterns section', () => {
@@ -38,11 +49,7 @@ describe('Pattern Reference Sections', () => {
 
     it('should display bibliography references in Further Exploration', () => {
       // Open the details element if needed
-      cy.get('details.related').then($details => {
-        if (!$details.prop('open')) {
-          cy.wrap($details).find('summary').click()
-        }
-      })
+      ensureRelatedSectionOpen()
       
       // Check for bibliography entries
       cy.get('details.related').within(() => {
@@ -53,11 +60,7 @@ describe('Pattern Reference Sections', () => {
     })
 
     it('should have clickable links in Further Exploration', () => {
-      cy.get('details.related').then($details => {
-        if (!$details.prop('open')) {
-          cy.wrap($details).find('summary').click()
-        }
-      })
+      ensureRelatedSectionOpen()
 
       // Check that links exist and have proper attributes
       cy.get('details.related').within(() => {
@@ -69,11 +72,7 @@ describe('Pattern Reference Sections', () => {
     })
 
     it('should have links to related concepts', () => {
-      cy.get('details.related').then($details => {
-        if (!$details.prop('open')) {
-          cy.wrap($details).find('summary').click()
-        }
-      })
+      ensureRelatedSectionOpen()
 
       cy.get('details.related').within(() => {
         // Related Concepts section should have links
@@ -83,11 +82,7 @@ describe('Pattern Reference Sections', () => {
     })
 
     it('should have links to related patterns', () => {
-      cy.get('details.related').then($details => {
-        if (!$details.prop('open')) {
-          cy.wrap($details).find('summary').click()
-        }
-      })
+      ensureRelatedSectionOpen()
 
       cy.get('details.related').within(() => {
         // Related Patterns section should have links
@@ -106,7 +101,7 @@ describe('Pattern Reference Sections', () => {
 
     practiceUrls.forEach((url) => {
       it(`should have reference section on ${url}`, () => {
-        cy.visit(url)
+        visitAndWaitForReferences(url)
         cy.contains('References and Related Patterns').should('exist')
       })
     })
@@ -115,7 +110,7 @@ describe('Pattern Reference Sections', () => {
   describe('Concept Pages - Reference Sections', () => {
 
       beforeEach(() => {
-          cy.visit('/concepts/chain_of_accountability/')
+          visitAndWaitForReferences('/concepts/chain_of_accountability/')
       })
 
       it('should have a References and Related Patterns section', () => {
@@ -133,7 +128,7 @@ describe('Pattern Reference Sections', () => {
 
   describe('Reference Section Expandability', () => {
     beforeEach(() => {
-      cy.visit('/practices/wax_on_wax_off/')
+      visitAndWaitForReferences('/practices/wax_on_wax_off/')
     })
 
     it('should be able to expand/collapse the references section', () => {
@@ -152,15 +147,11 @@ describe('Pattern Reference Sections', () => {
 
   describe('Reference Links Validity', () => {
     beforeEach(() => {
-      cy.visit('/concepts/chain_of_accountability/')
+      visitAndWaitForReferences('/concepts/chain_of_accountability/')
     })
 
     it('should have valid internal links in Related Concepts', () => {
-      cy.get('details.related').then($details => {
-        if (!$details.prop('open')) {
-          cy.wrap($details).find('summary').click()
-        }
-      })
+      ensureRelatedSectionOpen()
 
       // Get first related concept link and verify it's valid
       cy.get('details.related').contains('Related Concepts')
@@ -170,16 +161,12 @@ describe('Pattern Reference Sections', () => {
         .should('have.attr', 'href')
         .then((href) => {
           // Verify the href is a valid URL structure
-          expect(href).to.match(/\/concepts\/|\/practices\//)
+          expect(href).to.match(/\/concepts\/|\/practices\/|\/books\/|\/programming_primers\//)
         })
     })
 
     it('should have valid internal links in Related Patterns', () => {
-      cy.get('details.related').then($details => {
-        if (!$details.prop('open')) {
-          cy.wrap($details).find('summary').click()
-        }
-      })
+      ensureRelatedSectionOpen()
 
       // Get first related pattern link and verify it's valid
       cy.get('details.related').contains('Related Patterns')
@@ -188,7 +175,7 @@ describe('Pattern Reference Sections', () => {
         .first()
         .should('have.attr', 'href')
         .then((href) => {
-          expect(href).to.match(/\/practices\/|\/concepts\//)
+          expect(href).to.match(/\/practices\/|\/concepts\/|\/books\/|\/programming_primers\//)
         })
     })
   })

@@ -5,13 +5,15 @@
  * and contain the expected elements.
  */
 
-function getNavbar() {
+function getNavbar()  {
     return cy.get('nav[class$=\'no-shadow\'] div[class=\'container\']');
 }
 
 describe('Navigation Bar and Footer Presence', () => {
   beforeEach(() => {
-    cy.visit('/')
+    cy.visitAndWaitForMain('/')
+    cy.waitForNavbar()
+    cy.waitForFooter()
   })
 
   describe('Navigation Bar', () => {

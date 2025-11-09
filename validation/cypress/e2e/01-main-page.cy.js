@@ -7,7 +7,7 @@
 describe('Main Page Loading', () => {
   beforeEach(() => {
     // Visit the main page before each test
-    cy.visit('/')
+    cy.visitAndWaitForMain('/')
   })
 
   it('should load the homepage successfully', () => {

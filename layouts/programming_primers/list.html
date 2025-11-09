@@ -20,7 +20,7 @@
     <div class="container">
         <div class="pattern-list">
             {{ range .Pages.ByTitle }}
-            <article class="card pattern-card">
+            <article class="card pattern-card revealOnScroll delay-1" data-animation="fadeInLeft" onclick="location.href='{{ .RelPermalink }}';" style="cursor:pointer;">
                 <div class="card-title-wrapper">
                     <div class="card-image">
                         <a href="{{ .RelPermalink }}" title="In-depth description of {{ .Title }}">

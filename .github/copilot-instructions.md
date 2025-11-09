@@ -295,7 +295,7 @@ auto/                # Automation metadata
 ### Templates
 
 - `content/en/practices/TEMPLATE_PRACTICE.md` - Practice template scaffold
-- `content/en/concepts/TEMPATE_CONCEPT.md` - Concept template (note typo in filename!)
+- `content/en/concepts/TEMPLATE_CONCEPT.md` - Concept template 
 
 ### Documentation
 
@@ -312,7 +312,7 @@ Before submitting changes:
 - [ ] All new tags exist in `data/glossary.toml`
 - [ ] Front matter has valid TOML with `+++` delimiters (not `++` or `++ `)
 - [ ] UUIDs generated with `uuidgen` and added to aliases
-- [ ] Practice categories are one of the four allowed values
+- [ ] Practice and Concept categories are one of the four allowed values
 - [ ] Required sections present (Problem statement, Intent, Solution, etc.)
 
 **2. Build Validation:**

@@ -1,9 +1,13 @@
 {{ printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    {{ range . }}
+    {{- range . }}
+    {{- $sitemapURL := printf "%s/%s/sitemap.xml" .Site.BaseURL .Language.Lang -}}
+    {{- if not (or (hasPrefix .Site.BaseURL "http://") (hasPrefix .Site.BaseURL "https://")) -}}
+        {{- $sitemapURL = printf "http://%s/%s/sitemap.xml" .Site.BaseURL .Language.Lang -}}
+    {{- end }}
     <sitemap>
-        <loc>{{ .BaseURL }}/{{ .Language.Lang }}/sitemap.xml</loc>
-        {{ if not .LastChange.IsZero }}<lastmod>{{ safeHTML ( .LastChange.Format "2006-01-02T15:04:05-07:00" ) }}</lastmod>{{ end }}
+        <loc>{{ $sitemapURL }}</loc>
+        {{- if not .LastChange.IsZero }}<lastmod>{{ safeHTML ( .LastChange.Format "2006-01-02T15:04:05-07:00" ) }}</lastmod>{{ end }}
     </sitemap>
-    {{ end }}
+    {{- end }}
 </sitemapindex>

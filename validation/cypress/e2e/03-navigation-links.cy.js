@@ -22,7 +22,7 @@ describe('Navigation Links Functionality', () => {
       { text: 'Approach', url: '/about' },
       { text: 'Concepts', url: '/concepts/' },
       { text: 'Practices', url: '/practices/' },
-      { text: 'Primers', url: '/programming_primers/' },
+      { text: 'Primers', url: '/primers/' },
     ]
 
     mainNavLinks.forEach(({ text, url }) => {

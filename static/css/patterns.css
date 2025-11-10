@@ -29,6 +29,10 @@
     }
 }
 
+.primer {
+    margin-bottom: 2.75rem !important;
+}
+
 .pattern_container::-webkit-scrollbar {
     height: 1.125rem;
 }

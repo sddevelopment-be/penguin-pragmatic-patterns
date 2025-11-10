@@ -40,6 +40,7 @@ further_exploration = [
 ]
 image = "practices/drudge_dojo"
 pubdate = "2025-11-01"
+draft = true
 +++
 
 ## Problem statement

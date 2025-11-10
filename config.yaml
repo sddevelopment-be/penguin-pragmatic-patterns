@@ -187,7 +187,9 @@ params:
         - text: Change Log
           link: /changelog
         - text: License
-          link: /license
+          link: /license/
+  visualisations:
+    alpha: false
 
 mediaTypes:
   text/enriched:

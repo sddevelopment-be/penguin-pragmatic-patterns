@@ -41,6 +41,11 @@
     (dict "source" "domains/toc.scss" "target" "css/toc.css")
     (dict "source" "domains/ammerse.scss" "target" "css/ammerse.css")
 }}
+{{- with .Site.Params.visualisations }}
+  {{- if .alpha }}
+    {{- $scssBundles = $scssBundles | append (dict "source" "domains/visualization.scss" "target" "css/visualization.css") }}
+  {{- end }}
+{{- end }}
 {{- range $bundle := $scssBundles }}
   {{- $opts := merge $scssBaseOpts (dict "targetPath" $bundle.target) }}
   {{- $scss := resources.Get (printf "styles/%s" $bundle.source) | resources.ToCSS $opts }}

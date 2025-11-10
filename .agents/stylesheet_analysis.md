@@ -119,15 +119,14 @@
 
 ## Remediation path (proposal)
 
-1. **Establish SCSS sources**
-   - Move each existing CSS file into `src/styles/domains/_<name>.scss`. Clean up nesting so selectors compile correctly, add missing `src:` declarations to `@font-face`, and normalize class naming (prefer BEM-ish dashes).
-   - Create `_variables.scss` for shared tokens (brand colors, neutrals, font stacks).
-2. **Define entry points**
-   - `src/styles/site.scss` should `@use` the settings/mixins plus each domain module (patterns, glossary, toc, etc.).
-   - Add `src/styles/visualizations.scss` but keep it behind a feature flag or separate import so the “shadow alpha” CSS is opt-in.
-3. **Compile before Hugo**
-   - Option A: rely on Hugo Pipes — copy the `src/styles` tree into `assets/styles` (or update `partials/css.html` to `resources.Get "styles/site.scss"`). Hugo will output a single fingerprinted CSS file; remove the manual `<link>` tags for each static bundle.
-   - Option B: keep SCSS under `src/` and add an NPM/scripted build step that writes `static/css/site.css` + `static/css/site.min.css` before `hugo`. Document this in `README` and CI scripts.
+1. **Establish SCSS sources in `assets/styles/`**
+   - Create `assets/styles/_settings.scss` (colors, typography, spacing) plus helpers like `_mixins.scss`.
+   - Move each legacy CSS file into `assets/styles/domains/<name>.scss`, cleaning up nesting and fixing `@font-face` declarations during the migration.
+2. **Define per-domain entry points**
+   - Each domain file becomes an independent SCSS entry (`domains/custom.scss`, `domains/patterns.scss`, etc.) that `@use`s `_settings.scss`.
+   - Add `domains/visualizations.scss` but only import/compile it when `params.visualizations.alpha` is true.
+3. **Compile via Hugo Pipes**
+   - Update `partials/css.html` to iterate over a list of SCSS entry files, run `resources.ToCSS`, and (when not in server mode) `minify | fingerprint` each bundle. This retains per-domain downloads while delivering automatic hashing/cache busting.
 4. **Update templates**
    - Replace the series of `partial "stylesheet.html"` includes with a single link to the compiled `site.css`. Keep section-specific classes unchanged so content stays stable.
    - Remove the dead `css/icons.css` include and conditionally include `visualization.css` only when the feature flag is enabled.

@@ -2,18 +2,18 @@
 
 /* Some vars */
 .small-padding {
-    padding: 0.5rem !important;
+    padding: $space-xs !important;
 }
 
 .brooks {
     position: relative;
-    font-family: 'Sanchez', serif;
+    font-family: Sanchez, serif;
     font-size: 2.4em;
     line-height: 1.5em;
     font-style: italic;
 }
 
-.brooks:before {
+.brooks::before {
     content: '\201C';
     position: absolute;
     top: 0.25em;
@@ -27,25 +27,26 @@
     position: relative;
     padding-left: 1em;
     border-left: 0.2em solid #4d91b3;
-    font-family: 'Roboto', serif;
+    font-family: Roboto, serif;
     font-size: 2.4em;
     line-height: 1.5em;
     font-weight: 100;
 }
 
-.ludwig:before, .ludwig:after {
+.ludwig::before,
+.ludwig::after {
     content: '\201C';
-    font-family: 'Sanchez';
+    font-family: Sanchez, serif;
     color: #4d91b3;
 }
 
-.ludwig:after {
+.ludwig::after {
     content: '\201D';
 }
 
 .groucho {
     position: relative;
-    font-family: 'd-din', 'Sanchez', serif;
+    font-family: d-din, Sanchez, serif;
     font-weight: 250;
     font-size: 1.3em;
     line-height: 1.25em;
@@ -58,38 +59,38 @@
     font-weight: 700;
     color: #d1d1d1;
     text-align: right;
-    margin-top: 1.75rem;
+    margin-top: $space-2xl;
 }
 
-.groucho footer:before {
+.groucho footer::before {
     content: '\2015';
     box-sizing: border-box;
 }
 
 .content blockquote {
-    margin: 0 0 0 0;
+    margin: 0;
     padding: 0.75em 1.5em;
     background-color: transparent;
-    font-family: 'd-din', 'Open Sans', sans-serif;
-    font-size: 1.125rem;
-    text-align: justify-all;
+    font-family: d-din, "Open Sans", sans-serif;
+    font-size: $space-card;
+    text-align: justify;
     font-style: oblique;
     text-indent: 0;
 }
 
 .alert-container {
-    padding: 0.75em 1.5rem;
-    margin: 1.25rem 0 1.25rem 0;
+    padding: 0.75em $space-xl;
+    margin: $space-lg 0;
     width: auto;
     display: flex;
 }
 
 .quote {
-    color: #1f2226;
+    color: $color-text-soft;
     border-left: 4px solid #471a8b !important;
 }
 
-.quote:after {
+.quote::after {
     content: '\201D';
     position: absolute;
     top: 0.28em;
@@ -106,11 +107,11 @@
 }
 
 .warning {
-    color: #1f2226;
-    border-left: 4px solid #f0ad4e !important;
+    color: $color-text-soft;
+    border-left: 4px solid $color-warning !important;
 }
 
-.warning:after {
+.warning::after {
     content: '!';
     position: absolute;
     top: 0.28em;
@@ -119,55 +120,55 @@
     font-weight: 900;
     font-family: 'Operator Mono', 'Fira Code', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
     font-style: italic;
-    color: #f0ad4e;
+    color: $color-warning;
     z-index: -1;
     box-sizing: border-box;
 }
 
 .warning-title {
-    color: #f0ad4e;
+    color: $color-warning;
     text-transform: uppercase;
-    font-size: 1.25rem;
+    font-size: $space-lg;
     font-weight: 650;
-    margin-right: 0.75rem;
-    padding: 0.25rem;
+    margin-right: $space-sm;
+    padding: $space-2xs;
 }
 
 .info {
     color: #123254;
-    border-left: 4px solid #255787 !important;
+    border-left: 4px solid $color-info !important;
 }
 
 .info-title {
-    color: #255787;
+    color: $color-info;
     text-transform: uppercase;
-    font-size: 1.25rem;
+    font-size: $space-lg;
     font-weight: 650;
-    margin-right: 0.75rem;
-    padding: 0.25rem;
+    margin-right: $space-sm;
+    padding: $space-2xs;
 }
 
 .tip {
-    color: #1f2226;
-    border-left: 4px solid #126fbe !important;
+    color: $color-text-soft;
+    border-left: 4px solid $color-tip !important;
 }
 
 .tip-title {
-    color: #126fbe;
+    color: $color-tip;
     text-transform: uppercase;
-    font-size: 1.25rem;
+    font-size: $space-lg;
     font-weight: 650;
-    margin-right: 0.75rem;
-    padding: 0.25rem;
+    margin-right: $space-sm;
+    padding: $space-2xs;
 }
 
 .muted {
     border-left: 2px solid #cecece !important;
-    padding: 0.75rem 1.5rem;
+    padding: $space-sm $space-xl;
     text-align: justify;
-    color: #1f3c48;
+    color: $color-text-muted;
     font-style: italic;
-    font-size: 1.125rem;
+    font-size: $space-card;
 }
 
 .muted-title {
@@ -175,29 +176,29 @@
     text-transform: uppercase;
     font-style: normal;
     font-weight: 350;
-    margin-right: 0.75rem;
+    margin-right: $space-sm;
 }
 
-@media (max-width: 800px) {
+@media (width <= $breakpoint-tablet) {
     .alert-container {
-        padding: 0.75rem;
-        margin: 1.125rem 0 1.125rem 0;
+        padding: $space-sm;
+        margin: $space-card 0;
     }
 
     .content blockquote {
         padding: 0.95em 0.75em;
-        font-size: 0.95rem;
+        font-size: $space-cozy;
         text-align-last: left;
         text-align: justify;
-        margin-left: -0.45rem;
+        margin-left: -$space-gap-narrow;
     }
 
-    .quote:after {
+    .quote::after {
         font-size: 2.5em;
         color: #471a8b75;
     }
 }
 
 .whatis {
-    font-size: 0.85rem !important;
+    font-size: $space-snug !important;
 }

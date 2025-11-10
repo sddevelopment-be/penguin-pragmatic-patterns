@@ -2,10 +2,10 @@
 
 
 .section {
-    padding-top: 0.75rem !important;
+    padding-top: $space-sm !important;
 }
 
-.visualization_container {
+.visualization-container {
     max-width: 680px;
     margin-left: auto;
     margin-right: auto;

@@ -7,7 +7,7 @@
     {{- end }}
     <sitemap>
         <loc>{{ $sitemapURL }}</loc>
-        {{- if not .LastChange.IsZero }}<lastmod>{{ safeHTML ( .LastChange.Format "2006-01-02T15:04:05-07:00" ) }}</lastmod>{{ end }}
+        {{- if not .Lastmod.IsZero }}<lastmod>{{ safeHTML ( .Lastmod.Format "2006-01-02T15:04:05-07:00" ) }}</lastmod>{{ end }}
     </sitemap>
     {{- end }}
 </sitemapindex>

@@ -1,6 +1,13 @@
 # Website Validation Test Suite
 
-This directory contains a Cypress-based end-to-end (E2E) test suite for validating the Penguin Pragmatic Patterns website. These tests ensure the website functions correctly and all critical features work as expected.
+This directory contains the reusable validation toolchain for Penguin Pragmatic Patterns. It now bundles:
+
+- Cypress end-to-end flows
+- Linting (Stylelint, ESLint, remark-lint; cspell available as an optional manual step)
+- Hugo integrity checks
+- Lighthouse + Sitespeed smoke tests
+
+Together these commands form the same pipeline that the GitHub workflow (`.github/workflows/validation.yml`) can execute on demand.
 
 ## Overview
 
@@ -16,18 +23,51 @@ The validation test suite covers the following areas:
 
 Before running the tests, ensure you have:
 
-1. **Node.js** installed (version 14 or higher recommended)
-2. **npm** package manager
-3. The Hugo site running locally on `http://localhost:1313`
+1. **Node.js** installed (tested with v25.1.0; v20+ should work)
+2. **npm** (v11.6.2 or compatible)
+3. Hugo extended 0.118.2 available in `$PATH`
+4. Chrome/Chromium system dependencies (for Sitespeed/Lighthouse) if you plan to run smoke tests locally
 
 ## Installation
 
-Navigate to the validation directory and install dependencies:
+All tooling is scoped to this directory:
 
 ```bash
 cd validation
 npm install
 ```
+
+> If npm reports peer dependency conflicts, rerun with `npm install --legacy-peer-deps`.
+
+The install step pulls Cypress, linting packages, Lighthouse, Sitespeed, and helper utilities such as `wait-on`.
+
+## Automation commands
+
+| Command | Purpose |
+| --- | --- |
+| `npm run lint:css` | Stylelint across `assets/styles/**/*.scss` |
+| `npm run lint:js` | ESLint for Hugo JS, Cypress specs, and scripts |
+| `npm run lint:md` | remark-lint (front matter + Hugo shortcodes aware) |
+| `npm run lint:spell` | cspell project glossary (manual/optional while custom dictionary is prepared) |
+| `npm run lint` | Runs Stylelint, ESLint, and remark-lint sequentially via `scripts/run-lints.sh` (writes `reports/npm-lint-latest.log`) |
+| `npm run test:hugo` | Executes `scripts/run-hugo-tests.sh` (`hugo --panicOnWarning` + `hugo check`) |
+| `npm run perf:lighthouse` | Builds + serves `public/` locally and runs a desktop Lighthouse audit via Chromium (`BASE_URL`, `PORT`, `CHROME_PATH` overridable) |
+| `npm run perf:sitespeed` | Sitespeed run using `validation/sitespeed.config.json` |
+| `npm run test:cypress` | Headless Cypress |
+| `npm run test:smoke` | Spins up a temporary Hugo server then runs Lighthouse, Sitespeed, and Cypress in sequence |
+
+`npm run test:smoke` accepts optional environment overrides:
+
+```bash
+BASE_URL=https://patterns.sddevelopment.be npm run test:smoke
+PORT=8080 npm run test:smoke
+```
+
+The script writes logs and reports to `validation/reports/`.
+
+> **Spell checking:** `npm run lint:spell` remains available for ad-hoc runs, but it is intentionally excluded from the default `npm run lint` chain until we finish curating allow-lists for glossary terms, personal names, and brand jargon. Capture any findings manually and feed new words into `cspell.config.yaml` once the glossary work is complete.
+
+> `npm run perf:lighthouse` spins up a temporary static server whenever local sockets are permitted; otherwise it falls back to auditing the generated `public/` files directly. Export `CHROME_PATH` (and optionally `LIGHTHOUSE_PORT`) if Chromium lives outside `/usr/bin/chromium` or you need a custom debugging port.
 
 ## Running the Hugo Server
 
@@ -44,11 +84,19 @@ hugo mod graph
 # Build the site
 hugo --gc --minify --buildDrafts=false
 
-# Start the Hugo development server
-hugo server --bind 0.0.0.0
+# Start the Hugo development server (for manual browsing)
+hugo server --bind 0.0.0.0 --buildDrafts=false
 ```
 
-The site should now be available at `http://localhost:1313`.
+The site should now be available at `http://localhost:1313`. The smoke script automatically starts its own server, so you only need the above commands for manual verification or development.
+
+## GitHub workflow (on-demand)
+
+`.github/workflows/validation.yml` mirrors the local commands. It currently exposes a `workflow_dispatch` trigger so you can run the full lint → Hugo → smoke chain on demand. Uncomment the `push`/`pull_request` sections in that file once you are ready for automatic enforcement on `develop` and PRs targeting `main`/`develop`.
+
+Tips:
+- Pass a custom base URL during dispatch if you want to validate a deployed environment (input `target-url`).
+- Reports are uploaded as workflow artifacts (Lighthouse JSON + Sitespeed HTML + Cypress logs).
 
 ## Running Tests
 
@@ -157,6 +205,20 @@ cypress/
 - AMMERSE information link is present
 
 ## Configuration
+
+- `sitespeed.config.json` defines Browsertime/Graphite defaults. The smoke script derives target URLs from `BASE_URL`, but you can also run `npm run perf:sitespeed -- <url1> <url2>` to hit other environments.
+- `sitespeed.budgets.json` raises warnings if LCP, fully loaded time, requests, or transfer sizes exceed the documented thresholds.
+- `scripts/run-hugo-tests.sh` and `scripts/run-smoke-tests.sh` wrap the multi-step commands so they can run identically on developer machines and inside CI.
+
+### Optional: Grafana/Graphite containers
+
+If you want persistent Sitespeed dashboards locally, launch the provided compose file:
+
+```bash
+docker compose -f validation/containers/sitespeed_compose.yml up -d
+```
+
+This brings up Grafana (port 3000) and Graphite (ports 2003/8080); Sitespeed will automatically ship metrics when `GRAPHITE_HOST`/`GRAPHITE_PORT` point to those services.
 
 The Cypress configuration is defined in `cypress.config.js`:
 

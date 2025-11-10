@@ -7,23 +7,23 @@
     justify-content: space-around;
     overflow: auto;
     text-align:  center;
-    margin-bottom: 1.25rem;
+    margin-bottom: $space-lg;
     margin-left: auto;
     margin-right: auto;
     clear: both;
-    border-radius: 0.75rem;
+    border-radius: $space-sm;
 }
 
 .img-gallery figure {
-    background: rgba(254, 244, 238, 0.15);
-    margin-right: 0.25rem;
-    margin-left: 0.25rem;
-    margin-bottom: 1.25rem;
+    background: $color-surface-haze;
+    margin-right: $space-2xs;
+    margin-left: $space-2xs;
+    margin-bottom: $space-lg;
     clear: both;
 }
 
-.img-gallery figure img{
-    padding: 0.75rem 0.75rem 0rem;
+.img-gallery figure img {
+    padding: $space-sm $space-sm 0;
     max-width: 100%;
     height: auto;
     align-content: center;
@@ -34,12 +34,12 @@
 
 .img-gallery figcaption {
     text-align: center;
-    color: #1f3c48;
-    background: rgba(254, 244, 238, 0.15);
+    color: $color-text-muted;
+    background: $color-surface-haze;
     font-size: 0.975rem;
     font-weight: 350;
     font-style: oblique;
-    padding-bottom: 0.5rem;
+    padding-bottom: $space-xs;
 }
 
 .content figure figcaption {
@@ -47,7 +47,7 @@
     font-family: d-din, "Gill Sans", 'Open Sans', sans-serif;
 }
 
-.text_image {
+.text-image {
     max-height: 65rem;
     max-width: 50rem;
     text-align: center;
@@ -56,12 +56,12 @@
     object-fit: contain;
 }
 
-.text_image a {
+.text-image a {
     object-fit: contain;
     cursor: zoom-in;
 }
 
-.text_image a img {
+.text-image a img {
     max-height: 65rem;
     max-width: 50rem;
     width: 95%;
@@ -69,15 +69,15 @@
 
 
 
-@media (max-width: 800px) {
-    .text_image {
+@media (width <= $breakpoint-tablet) {
+    .text-image {
         max-width: 98%;
         max-height: 480px;
-        margin-left: -0.25rem;
-        margin-right: -0.5rem;
+        margin-left: -$space-2xs;
+        margin-right: -$space-xs;
     }
 
-    .text_image a img {
+    .text-image a img {
         max-width: 100%;
         max-height: 480px;
     }
@@ -85,24 +85,24 @@
 
 .center {
     clear: both;
-    margin: 2.75rem auto 1.25rem;
+    margin: $space-3xl auto $space-lg;
 }
 
 .left {
     float: left;
     clear: both;
-    padding: 0 1.5rem 0 0.125rem;
-    margin: auto 0.75rem 1.25rem auto;
+    padding: 0 $space-xl 0 $space-3xs;
+    margin: auto $space-sm $space-lg auto;
 }
 
 .right {
     float: right;
     clear: both;
-    padding: 0 0.125rem 0 1.5rem;
-    margin: auto auto 1.25rem 0.75rem;
+    padding: 0 $space-3xs 0 $space-xl;
+    margin: auto auto $space-lg $space-sm;
 }
 
-@media (max-width: 800px) {
+@media (width <= $breakpoint-tablet) {
     .left {
         float: none;
         max-width: 100% !important;

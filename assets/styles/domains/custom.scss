@@ -1,81 +1,157 @@
 @use "../settings" as *;
 
+/* Accessibility helpers */
+.skip-link {
+    position: absolute;
+    left: -9999px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    z-index: 1000;
+
+    &:focus {
+        left: 0;
+        top: 0;
+        width: auto;
+        height: auto;
+        padding: $space-sm 1rem;
+        background: #fff;
+        color: #000;
+    }
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    border: 0;
+    white-space: nowrap;
+}
+
 @font-face {
     font-family: literta;
     src: local('literta'), url('/fonts/literta-font/LiterataBook.otf') format('opentype');
+    font-display: swap;
 }
 
 @font-face {
     font-family: d-din;
     src: local('d-din');
-}
-
-.content h2:not(:first-child) {
-    margin-top: 3.75rem;
+    font-display: swap;
 }
 
 .pattern {
     h3::before, h4::before, h2::before {
         content: "";
         display: block;
-        height: 6rem; /* fixed header height*/
+        height: 6rem; /* fixed header height */
         margin: -4.75rem 0 0; /* negative fixed header height */
     }
 }
 
 body {
-    font-family: 'd-din', literta, "Gill Sans", 'Open Sans', sans-serif;
+    font-family: d-din, literta, "Gill Sans", "Open Sans", sans-serif;
     font-size: 18px;
-    line-height: 1.75rem;
+    line-height: $space-2xl;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'd-din', "Gill Sans", 'Open Sans', sans-serif;
+    font-family: d-din, "Gill Sans", "Open Sans", sans-serif;
 }
 
-.title-wrapper .title .title-wrapper .subtitle{
-    font-family: 'd-din', "Gill Sans", 'Open Sans', sans-serif !important;
+.title-wrapper .subtitle {
+    font-family: d-din, "Gill Sans", "Open Sans", sans-serif !important;
 }
 
 .hero-body .title, .hero-body .subtitle {
-    font-family: 'd-din', "Gill Sans", 'Open Sans', sans-serif
+    font-family: d-din, "Gill Sans", "Open Sans", sans-serif;
 }
 
 .navbar {
-    font-family: 'd-din', "Gill Sans", 'Open Sans', sans-serif;
-    font-size: 1.25rem;
-    border-bottom: 2px solid #1e75c050;
+    font-family: d-din, "Gill Sans", "Open Sans", sans-serif;
+    font-size: $space-lg;
+    border-bottom: $border-width-thin solid rgba($brand-secondary, 0.31);
 }
 
-@media screen and (min-width: 1024px) {
+.navbar .navbar-item,
+.navbar .navbar-link {
+    color: $color-text-primary;
+    font-weight: 400;
+}
+
+.navbar .navbar-item:focus,
+.navbar .navbar-item:hover,
+.navbar .navbar-link:focus,
+.navbar .navbar-link:hover {
+    color: $brand-primary;
+}
+
+.navbar.is-fresh .navbar-item.has-dropdown .navbar-link,
+.navbar.is-fresh .navbar-item.has-dropdown,
+.navbar.is-fresh .navbar-item.is-secondary {
+    color: #1f2933;
+    font-weight: 400;
+}
+
+.navbar.is-fresh .navbar-item.is-secondary:hover {
+    border-bottom: 2px solid $brand-primary;
+}
+
+#navbar-clone .navbar-item,
+#navbar-clone .navbar-link {
+    color: $color-text-primary;
+    font-weight: 400;
+}
+
+#navbar-clone .navbar-item:focus,
+#navbar-clone .navbar-item:active,
+#navbar-clone .navbar-item:hover,
+#navbar-clone .navbar-link:focus,
+#navbar-clone .navbar-link:active,
+#navbar-clone .navbar-link:hover {
+    color: $brand-primary !important;
+}
+
+@media (width >= $breakpoint-desktop) {
     .navbar-dropdown {
         font-size: 0.975rem;
+    }
+
+    .navbar.is-transparent .navbar-dropdown a.navbar-item:focus, .navbar.is-transparent .navbar-dropdown a.navbar-item:hover {
+      color: $brand-primary;
+      background-color: #202e39 !important;
+      font-weight: 600;
     }
 }
 
 .sidebar {
-    font-family: d-din, "Gill Sans", 'Open Sans', sans-serif;
-    font-size: 0.85rem;
+    font-family: d-din, "Gill Sans", "Open Sans", sans-serif;
+    font-size: $space-snug;
 }
 
 #navbar-clone {
     z-index: 999 !important;
 }
 
-@media all and (max-width: 1024px) {
+@media (width <= $breakpoint-desktop) {
     body {
         font-size: 14px;
         line-height: 1.65rem;
     }
 
     .wide {
-        margin-left: -1.125rem;
+        margin-left: -$space-card;
         margin-right: -1.1255rem;
     }
 
     .footer .columns {
-        margin-left: -0.25rem;
-        margin-right: -0.25rem;
+        margin-left: -$space-2xs;
+        margin-right: -$space-2xs;
     }
 
     .title.is-1 {
@@ -90,62 +166,31 @@ h1, h2, h3, h4, h5, h6 {
 
 .flex-column {
     display: flex;
-    flex-basis: 0;
-    flex-grow: 1;
-    flex-shrink: 1;
-    padding: 0.75rem;
+    flex: 1 1 0;
+    padding: $space-sm;
     justify-content: space-around;
-}
-
-.chapter {
-    padding: 1.125rem;
-    margin-bottom: 2.5rem;
-}
-
-.chapter a {
-    color: #9c671a;
-}
-
-.chapter a:hover {
-    color: #f39200;
-}
-
-.container a {
-    color: #9c671a;
-}
-
-.container p a {
-    text-decoration: underline;
-}
-
-.container a:hover {
-    color: #f39200;
-}
-
-.chapter_summary {
-
 }
 
 .nav-item {
     display: block;
     font-weight: 350;
-    color: #f39200;
-    margin: 0.5rem;
+    color: $brand-primary;
+    margin: $space-xs;
 }
 
 .page-navigation {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    border-top: 2px solid #f39200;
+    border-top: 2px solid $brand-primary;
     margin-top: 4.275rem;
-    padding: 1.25rem;
+    padding: $space-lg;
     font-weight: 450;
 }
 
 .content-hero {
     margin-top: 2.25rem;
-    margin-bottom: 1.25rem;
+    margin-bottom: $space-lg;
 }
 
 .hero-links {
@@ -155,33 +200,33 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero-body {
-    padding: 5rem 4.5rem;
+    padding: 5rem $space-hero;
 }
 
-@media all and (min-width: 1024px) {
+@media (width >= $breakpoint-desktop) {
     .hero-body {
-        padding: 3.75rem 2.25rem !important;
-        margin-bottom: 1.75rem;
+        padding: $space-4xl 2.25rem !important;
+        margin-bottom: $space-2xl;
     }
 }
 
-@media (max-width: 1024px) {
+@media (width <= $breakpoint-desktop) {
     .hero-links {
         flex-direction: column;
     }
 
     .hero-body {
-        padding: 2.75rem 1.75rem;
+        padding: $space-3xl $space-2xl;
     }
 }
 
 .hero-link {
-    margin: 0.45rem 1.25rem;
+    margin: $space-gap-narrow $space-lg;
 }
 
 .title.is-3 {
     font-size: 2.25rem;
-    letter-spacing: 0.125rem;
+    letter-spacing: $space-3xs;
 }
 
 .content {
@@ -193,34 +238,39 @@ h1, h2, h3, h4, h5, h6 {
     text-indent: 0.5em;
 }
 
-@media all and (max-width: 1024px) {
+@media (width <= $breakpoint-desktop) {
     .content {
         text-indent: 0.25em;
     }
 }
 
 .content p::first-letter {
-    font-size: 1.125rem;
+    font-size: $space-card;
     color: #1c3337;
 }
 
 .content h1, h2, h3, h4 {
-    font-family: d-din, "Gill Sans", 'Open Sans', sans-serif;
+    font-family: d-din, "Gill Sans", "Open Sans", sans-serif;
 }
 
 .content h2, h3, h4 {
     text-align: left;
     text-indent: 0;
-    margin-bottom: 0.25rem;
+    margin-bottom: $space-2xs;
 }
 
 .content:not(.pattern) h2 {
     clear: both;
 }
 
+.content h2:not(:first-child) {
+    margin-top: $space-4xl;
+}
+
 .content h3 {
     font-size: 1.35em;
 }
+
 .content:not(.pattern) h3 {
     clear: both;
 }
@@ -236,23 +286,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .content ul {
-    margin-top: 0.85rem;
+    margin-top: $space-snug;
     text-indent: 0;
 }
 
 .content ul li {
-    margin-bottom: 0.45rem;
+    margin-bottom: $space-gap-narrow;
     text-align: left;
-}
-
-.content a {
-    color: #b56f07;
-    font-weight: 600;
-}
-
-.content a:hover {
-    color: #f39200;
-    font-weight: 600;
 }
 
 .offset-anchor::before {
@@ -263,17 +303,17 @@ h1, h2, h3, h4, h5, h6 {
     visibility: hidden;
 }
 
-@media all and (max-width: 1024px) {
+@media (width <= $breakpoint-desktop) {
     .content pre {
         padding: 0.75em 0.25em;
-        margin-left: -0.5rem;
-        margin-right: -0.5rem;
-        text-indent: 0.25rem;
+        margin-left: -$space-xs;
+        margin-right: -$space-xs;
+        text-indent: $space-2xs;
         tab-size: 2;
     }
 
     pre code {
-        text-indent: -0.75rem;
+        text-indent: -$space-sm;
     }
 }
 
@@ -285,27 +325,22 @@ h1, h2, h3, h4, h5, h6 {
 
 .reference {
     max-width: 100%;
-    word-break: break-word;
-    font-size: 0.85rem;
+    overflow-wrap: anywhere;
+    word-break: normal;
+    font-size: $space-snug;
 }
 
 .reference a {
     font-weight: 600;
 }
 
-.content .reference a {
-    font-size: 0.7rem;
-    text-transform: uppercase;
-    font-weight: 600;
-}
-
 .content .footnotes ol li {
-    margin: 1.25rem 0;
+    margin: $space-lg 0;
 }
 
 .content em {
     font-style: italic;
-    color: #3c5d79;
+    color: $color-navy-muted;
     font-family: Georgia, serif;
     font-size: 0.975rem;
     font-kerning: auto;
@@ -313,9 +348,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .highlight {
-    margin: 2.75rem 0;
-    font-size: 0.95rem;
-    line-height: 1.5rem;
+    margin: $space-3xl 0;
+    font-size: $space-cozy;
+    line-height: $space-xl;
 }
 
 .increased-width {
@@ -327,7 +362,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .title-wrapper {
-    margin-bottom: 3.75rem;
+    margin-bottom: $space-4xl;
+    max-width: 600px;
 }
 
 .footer-logo {
@@ -339,7 +375,7 @@ h1, h2, h3, h4, h5, h6 {
 .footer-logo img {
     max-width: 100%;
     height: auto;
-    margin: auto 0.25rem;
+    margin: auto $space-2xs;
     clear: both;
 }
 
@@ -348,49 +384,90 @@ h1, h2, h3, h4, h5, h6 {
     flex-direction: column;
     justify-content: space-around;
     align-items: start;
-    padding: 0.75rem 1.25rem;
+    padding: $space-sm $space-lg;
 }
 
 .company-name {
     font-weight: 500;
-    padding: 0 0.25rem;
+    padding: 0 $space-2xs;
 }
 
 .company-slogan {
     font-weight: 400;
-    padding: 0 0.25rem;
-    font-size: 0.95rem;
+    padding: 0 $space-2xs;
+    font-size: $space-cozy;
     color: #f29200;
 }
 
+.container a {
+    color: $color-amber-shadow;
+}
+
+.content a {
+  color: #b56f07;
+  font-weight: 600;
+}
+
 .company {
-    flex-basis: 200px;
+  flex-basis: 200px;
 }
 
 .company-info {
-    color: #98a9c3;
-    font-size: 0.75rem;
-    font-weight: 450;
-    line-height: 1.75;
-    margin-top: 0.125rem;
-    padding: .125rem 0 0 5rem;
+  color: #98a9c3;
+  font-size: $space-sm;
+  font-weight: 450;
+  line-height: 1.75;
+  margin-top: $space-3xs;
+  padding: .125rem 0 0 5rem;
 }
 
 .company-info a {
-    color: #98a9c3;
+  color: #98a9c3;
+}
+
+.chapter {
+  padding: $space-card;
+  margin-bottom: 2.5rem;
+}
+
+.chapter a {
+  color: $color-amber-shadow;
+}
+
+.container p a {
+  text-decoration: underline;
+}
+
+.content a:hover {
+  color: $brand-primary;
+  font-weight: 600;
 }
 
 .company-info a:hover {
-    color: #fefefe;
+  color: $color-surface-light;
+}
+
+.chapter a:hover {
+  color: $brand-primary;
+}
+
+.container a:hover {
+  color: $brand-primary;
+}
+
+.content .reference a {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    font-weight: 600;
 }
 
 pre {
     text-indent: 0;
 }
-@media all and (max-width: 1024px) {
 
+@media (width <= $breakpoint-desktop) {
     .content    pre {
-        text-indent: 0.75rem;
+        text-indent: $space-sm;
         padding-left: 2rem;
     }
 }
@@ -398,27 +475,22 @@ pre {
 .pattern-buttons {
     display: flex;
     flex-direction: column;
-    gap: 0.75rem;
-    justify-content: center;
-    align-content: center;
+    gap: $space-sm;
+    place-content: center;
 }
 
 .pattern-buttons-title {
     font-size: 0.9rem;
-    color: #f39200;
+    color: $brand-primary;
     text-transform: uppercase;
     font-weight: 600;
     text-align: center;
     display: block;
-    margin-bottom: 0.75rem;
+    margin-bottom: $space-sm;
 }
 
 .fitted {
     width: fit-content;
-}
-
-.title-wrapper {
-    max-width: 600px;
 }
 
 .vert-align {
@@ -431,10 +503,10 @@ pre {
     text-wrap: pretty;
     letter-spacing: 0.05rem;
     text-indent: 0;
-    padding-top: 1.25rem;
+    padding-top: $space-lg;
 }
 
-@media all and (max-width: 1024px) {
+@media (width <= $breakpoint-desktop) {
     .media .content {
         text-align: left;
     }
@@ -453,11 +525,11 @@ pre {
 }
 
 #practices {
-    padding-top: 0.75rem;
+    padding-top: $space-sm;
 }
 
 #concepts {
-    padding-top: 0.75rem;
+    padding-top: $space-sm;
 }
 
 .half-width {
@@ -467,43 +539,43 @@ pre {
     clear: both;
 }
 
-@media all and (max-width: 1024px) {
+@media (width <= $breakpoint-desktop) {
     .half-width {
         max-width: 100%;
     }
 }
 
 hr {
-    border-top: 1px solid #f3920045;
+    border-top: $border-width-hairline solid rgba($brand-primary, 0.27);
     background: none;
     display: block;
     height: 4px;
-    margin: 1.5rem 0;
+    margin: $space-xl 0;
 }
 
 footer {
-    margin-top: 3.75rem;
-    border-top: 2px solid #f39200;
+    margin-top: $space-4xl;
+    border-top: 2px solid $brand-primary;
 }
 
 footer.footer-dark {
     background: linear-gradient(
-            rgba(1, 13, 24, 0.95),
-            rgba(1, 13, 24, 0.85),
-            rgba(1, 13, 24, 0.95),
-            rgba(1, 13, 24, 0.95),
-            rgba(1, 13, 24, 1)
+            rgb(1 13 24 / 95%),
+            rgb(1 13 24 / 85%),
+            rgb(1 13 24 / 95%),
+            rgb(1 13 24 / 95%),
+            rgb(1 13 24)
         ),
         url("/images/tiles.webp") repeat;
 }
 
 footer.footer-dark .footer-column ul.link-list a {
-    padding-left: 0.75rem;
+    padding-left: $space-sm;
     border-left: 2px solid transparent;
 }
 
 footer.footer-dark .footer-column ul.link-list a:hover {
-    border-left: 2px solid #f39200;
+    border-left: 2px solid $brand-primary;
 }
 
 .title-wrapper-dark {
@@ -511,15 +583,15 @@ footer.footer-dark .footer-column ul.link-list a:hover {
     display: block;
     width: 100%;
     margin: 0;
-    padding: 3rem 3rem 2.75rem;
-    background: linear-gradient(rgba(11, 28, 42, 0.9), rgba(1, 13, 24, 0.95)), url("/images/tiles.webp") repeat;
+    padding: 3rem 3rem $space-3xl;
+    background: linear-gradient(rgb(11 28 42 / 90%), rgb(1 13 24 / 95%)), url("/images/tiles.webp") repeat;
     border: 0;
-    border-top: 2px solid #162431;
+    border-top: 2px solid $color-slate;
     border-bottom: 4px solid #535353;
     border-radius: 0;
 
     .title {
-        color: #fefefe;
+        color: $color-surface-light;
         margin-left: auto;
         margin-right: auto;
         clear: both;
@@ -527,7 +599,7 @@ footer.footer-dark .footer-column ul.link-list a:hover {
     }
 
     .subtitle {
-        color: #f39200;
+        color: $brand-primary;
         font-weight: 300;
         margin-left: auto;
         margin-right: auto;
@@ -535,12 +607,12 @@ footer.footer-dark .footer-column ul.link-list a:hover {
     }
 }
 
-@media (min-width: 1024px) {
+@media (width >= $breakpoint-desktop) {
     .section.is-medium {
-        padding: 5.25rem 4.5rem;
+        padding: 5.25rem $space-hero;
     }
 }
 
 code {
-    color: #1e75c0;
+    color: $brand-secondary;
 }

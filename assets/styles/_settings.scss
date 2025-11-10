@@ -1,5 +1,53 @@
 $font-family-base: 'd-din', literta, 'Gill Sans', 'Open Sans', sans-serif;
 $font-family-heading: 'd-din', 'Gill Sans', 'Open Sans', sans-serif;
+
+/* Brand palette */
 $brand-primary: #f39200;
 $brand-secondary: #1e75c0;
 $brand-dark: #1c3337;
+
+/* Core colors */
+$color-text-primary: #1f2933;
+$color-text-ink: #0b1d27;
+$color-text-heavy: #030d12;
+$color-text-muted: #1f3c48;
+$color-text-soft: #1f2226;
+$color-surface-light: #fefefe;
+$color-surface-deep: #08141f;
+$color-surface-haze: rgb(254 244 238 / 15%);
+$color-earth-amber: #7d4b01;
+$color-slate: #162431;
+$color-navy-muted: #3c5d79;
+$color-amber-shadow: #9c671a;
+$color-info: #255787;
+$color-tip: #126fbe;
+$color-warning: #f0ad4e;
+$color-shadow-deep: #0b1723;
+
+/* Spacing scale */
+$space-4xs: 0.15rem;
+$space-3xs: 0.125rem;
+$space-2xs: 0.25rem;
+$space-xs: 0.5rem;
+$space-sm: 0.75rem;
+$space-snug: 0.85rem;
+$space-cozy: 0.95rem;
+$space-card: 1.125rem;
+$space-lg: 1.25rem;
+$space-xl: 1.5rem;
+$space-2xl: 1.75rem;
+$space-3xl: 2.75rem;
+$space-4xl: 3.75rem;
+$space-hero: 4.5rem;
+$space-gap-tight: 0.35rem;
+$space-gap-narrow: 0.45rem;
+$space-gutter: 0.65rem;
+
+/* Shared dimensions */
+$border-width-hairline: 1px;
+$border-width-thin: 2px;
+$border-width-regular: 4px;
+
+/* Breakpoints */
+$breakpoint-desktop: 1024px;
+$breakpoint-tablet: 800px;

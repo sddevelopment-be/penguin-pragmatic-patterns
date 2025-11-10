@@ -317,7 +317,7 @@ These actions stay within the existing SCSS pipeline described in `assets/README
    - Pipeline jobs only run on PRs to `main` or `develop` branches, or on `develop` branch pushes (non-PR)
    - Ensure the pipeline is fast-failing: if lint fails, skip Hugo tests; if Hugo tests fail, skip smoke tests.
    - Set the pipeline as inactive, only triggering on demand until the initial setup is verified.
-   - Upload Lighthouse/Sitespeed reports as artifacts for manual review.
+   - Upload Lighthouse/Sitespeed reports as artuifacts for manual review.
 5. **Local developer ergonomics**
    - Document a `make test` (or `npm run test:all`) entry that sequentially runs lint, Hugo tests, and smoke tests.
    - Include instructions for optional shortcuts: `npm run test:smoke -- --url=http://localhost:1313` for pre-commit validation; `docker compose down -v` cleanup.

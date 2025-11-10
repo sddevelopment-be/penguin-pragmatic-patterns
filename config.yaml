@@ -8,8 +8,22 @@ module:
 assetDir: "assets"
 enableRobotsTXT: true
 
-paginate: 5
+pagination:
+  pagerSize: 5
 canonifyURLs: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+  section:
+    - HTML
+  page:
+    - HTML
+  taxonomy:
+    - HTML
+  term:
+    - HTML
 
 # Disables warnings
 markup:
@@ -49,6 +63,9 @@ params:
   font:
     name: "Open Sans"
     sizes: [400,600]
+  author:
+    name: Stijn Dejongh
+    email: stijn@sddevelopment.be
   hero:
     # Main hero title
     title: Pragmatic Penguin Patterns
@@ -219,9 +236,6 @@ services:
   rss:
     limit: 42
 
-author:
-  email: stijn@sddevelopment.be
-  name: Stijn Dejongh
 copyright: © 2024 SD Development, BV.
 
 defaultContentLanguage: en

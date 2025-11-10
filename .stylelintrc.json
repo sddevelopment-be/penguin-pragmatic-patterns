@@ -1,10 +1,18 @@
 {
   "extends": [
-    "stylelint-config-standard-scss",
-    "stylelint-config-prettier"
+    "stylelint-config-standard",
+    "stylelint-config-standard-scss"
   ],
   "rules": {
     "color-hex-length": "short",
-    "selector-class-pattern": "^[a-z0-9\\-]+$"
+    "selector-class-pattern": "^[a-z0-9\\-]+$",
+    "declaration-property-value-no-unknown": [
+      true,
+      {
+        "ignoreProperties": {
+          "/.*/": "/\\$/"
+        }
+      }
+    ]
   }
 }

@@ -4,39 +4,37 @@ html {
     scroll-behavior: smooth;
 }
 
-.tableOfContentContainer {
+.table-of-content-container {
     font-family: d-din, "Gill Sans", 'Open Sans', sans-serif;
 }
 
-@media (max-width: 1024px) {
-    .tableOfContentContainer {
+@media (width <= $breakpoint-desktop) {
+    .table-of-content-container {
         display: none;
     }
 }
 
-@media (min-width: 1024px) {
-
+@media (width >= $breakpoint-desktop) {
     /* Sidebar Navigation */
-    .tableOfContentContainer {
+    .table-of-content-container {
         font-weight: 500;
-        margin-top: 1.125rem;
+        margin-top: $space-card;
         padding-top: 3.125rem;
-        padding-left: 0.75rem;
-        padding-bottom: 2.75rem;
-        border-left: 2px solid #1e75c050;
-        border-radius: 0.125rem;
-
+        padding-left: $space-sm;
+        padding-bottom: $space-3xl;
+        border-left: $border-width-thin solid rgba($brand-secondary, 0.31);
+        border-radius: $space-3xs;
         position: sticky;
         top: 2rem;
         align-self: start;
 
         h2 {
-            font-size: 0.75rem;
+            font-size: $space-sm;
             font-weight: 650;
-            margin-bottom: 0.75rem;
-            color: #1e75c075;
+            margin-bottom: $space-sm;
+            color: rgba($brand-secondary, 0.46);
             width: 100%;
-            padding-left: 0.125rem;
+            padding-left: $space-3xs;
             text-transform: uppercase;
         }
 
@@ -51,10 +49,10 @@ html {
         }
     }
 
-    .tableOfContentContainer a {
+    .table-of-content-container a {
         text-decoration: none;
         display: block;
-        padding: .125rem 0.25rem;
+        padding: .125rem $space-2xs;
         color: #ccc;
         transition: all 50ms ease-in-out; /* 💡 This small transition makes setting of the active state smooth */
     }
@@ -64,10 +62,10 @@ html {
     }
 
     .active > a,
-    .tableOfContentContainer a:hover {
-        border-right: 4px solid #f39200;
-        background: linear-gradient(to left, #f3920005 15%, #fefefe 85%);
-        color: #1e75c0;
+    .table-of-content-container a:hover {
+        border-right: $border-width-regular solid $brand-primary;
+        background: linear-gradient(to left, rgba($brand-primary, 0.02) 15%, $color-surface-light 85%);
+        color: $brand-secondary;
     }
 
     /** Poor man's reset **/
@@ -81,8 +79,8 @@ html {
         grid-template-columns: 1fr 14em;
         max-width: 100em;
         width: 90%;
-        margin: 0 2.75rem 0 auto;
-        grid-gap: 2.75rem;
+        margin: 0 $space-3xl 0 auto;
+        gap: $space-3xl;
     }
 
     .container {
@@ -90,10 +88,10 @@ html {
     }
 
     .content {
-        padding-top: 3.75rem;
+        padding-top: $space-4xl;
     }
 
     .section.is-medium.main {
-        padding: 1.25rem 0.125rem 5.25rem 4.5rem;
+        padding: $space-lg $space-3xs 5.25rem $space-hero;
     }
 }

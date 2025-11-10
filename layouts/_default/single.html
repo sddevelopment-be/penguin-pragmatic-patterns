@@ -1,4 +1,5 @@
 {{ define "main" }}
+<main id="main-content" class="site-main" role="main" tabindex="-1">
 {{ partial "navbar.html" . }}
 {{ partial "navbar-clone.html" . }}
 
@@ -15,5 +16,5 @@
 {{ if .Site.Params.footer }}
     {{ partial "footer.html" . }}
 {{ end }}
-
+</main>
 {{ end }}

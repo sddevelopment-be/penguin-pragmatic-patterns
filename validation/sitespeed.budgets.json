@@ -1,0 +1,22 @@
+{
+  "budget": [
+    {
+      "url": "http://localhost:1313/",
+      "timings": {
+        "largestContentfulPaint": 2500,
+        "fullyLoaded": 5000
+      },
+      "requests": 80,
+      "transferSize": 400000
+    },
+    {
+      "url": "http://localhost:1313/practices/",
+      "timings": {
+        "largestContentfulPaint": 2800,
+        "fullyLoaded": 5500
+      },
+      "requests": 90,
+      "transferSize": 450000
+    }
+  ]
+}

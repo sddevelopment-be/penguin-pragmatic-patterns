@@ -1,4 +1,6 @@
 {{ define "main" }}
+<main id="main-content" class="site-main" role="main" tabindex="-1">
+
 {{ partial "navbar.html" . }}
 {{ partial "navbar-clone.html" . }}
 
@@ -30,7 +32,7 @@
                         </h2>
                     </a>
                 </div>
-                <div class="wrapped-columns pattern_container">
+                <div class="wrapped-columns pattern-container">
                     {{ $patterns := slice  }}
                     {{ range where $pages ".Params.categories" "intersect" (slice $categoryTitle) }}
                     {{ $ctx := dict
@@ -57,5 +59,7 @@
 {{ if .Site.Params.footer }}
     {{ partial "footer.html" . }}
 {{ end }}
+
+</main>
 
 {{ end }}

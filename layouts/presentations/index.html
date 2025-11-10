@@ -1,4 +1,6 @@
 {{ define "main" }}
+<main id="main-content" class="site-main" role="main" tabindex="-1">
   {{ partial "reveal-hugo/slides" (slice .Page) }}
   {{ partial "reveal-hugo/slides" (where .Site.RegularPages "Type" "home") }}
+</main>
 {{ end }}

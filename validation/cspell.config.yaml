@@ -1,0 +1,21 @@
+version: "0.2"
+language: en
+words:
+  - pragmatics
+  - sddevelopment
+  - Zottegem
+  - ammerse
+  - sensemaking
+  - literta
+  - d-din
+  - pragmatists
+ignorePaths:
+  - node_modules
+  - validation/node_modules
+  - public
+  - resources/_gen
+  - ".git"
+  - ".hugo_build.lock"
+overrides:
+  - filename: "**/*.toml"
+    language: en

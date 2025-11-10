@@ -1,7 +1,7 @@
-{{- $inServerMode := .Site.IsServer }}
+{{- $inServerMode := hugo.IsServer }}
 {{- $sass         := "style.sass" }}
 {{- $cssTarget    := "css/style.css" }}
-{{- $cssOpts      := cond ($inServerMode) (dict "targetPath" $cssTarget "enableSourceMap" true) (dict "targetPath" $cssTarget "outputStyle" "compressed") }}
+{{- $cssOpts      := cond $inServerMode (dict "targetPath" $cssTarget "enableSourceMap" true "transpiler" "dartsass" "quietDeps" true) (dict "targetPath" $cssTarget "outputStyle" "compressed" "transpiler" "dartsass" "quietDeps" true) }}
 {{- $fontName     := .Site.Params.font.name | default "Open Sans" }}
 {{- $fontFace     := replace $fontName " " "+" }}
 {{- $fontSizes    := delimit (.Site.Params.font.sizes | default (slice 300 400 600 700)) "," }}
@@ -10,14 +10,17 @@
 
 <link rel="stylesheet" type="text/css" href="{{ $fontUrl | relURL }}" />
 
-{{- if $inServerMode }}
-{{- $css := resources.Get $sass | toCSS $cssOpts }}
-<link rel="preload" href="{{ $css.RelPermalink }}" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-<noscript><link rel="stylesheet" type="text/css" href="{{ $css.RelPermalink }}"></noscript>
-{{- else }}
-{{- $css := resources.Get $sass | toCSS $cssOpts | minify | fingerprint }}
-<link rel="preload" href="{{ $css.RelPermalink }}" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-<noscript><link rel="stylesheet" type="text/css" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}" /></noscript>
+{{- with resources.GetMatch $sass }}
+  {{- $baseCSS := . | css.Sass $cssOpts }}
+  {{- if $inServerMode }}
+    {{- $css := $baseCSS }}
+    <link rel="preload" href="{{ $css.RelPermalink }}" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript><link rel="stylesheet" type="text/css" href="{{ $css.RelPermalink }}"></noscript>
+  {{- else }}
+    {{- $css := $baseCSS | minify | fingerprint }}
+    <link rel="preload" href="{{ $css.RelPermalink }}" as="style" onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript><link rel="stylesheet" type="text/css" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}" /></noscript>
+  {{- end }}
 {{- end }}
 
 <link rel="preconnect" href="https://fonts.gstatic.com" />
@@ -29,7 +32,7 @@
 {{- $toc := "js/sdd_toc.js" | relURL }}
 <script type="text/javascript" src="{{ $toc }}"></script>
 
-{{- $scssBaseOpts := cond $inServerMode (dict "enableSourceMap" true) (dict "outputStyle" "compressed") }}
+{{- $scssBaseOpts := cond $inServerMode (dict "enableSourceMap" true "transpiler" "dartsass" "quietDeps" true) (dict "outputStyle" "compressed" "transpiler" "dartsass" "quietDeps" true) }}
 {{- $scssBundles := slice
     (dict "source" "domains/custom.scss" "target" "css/custom.css")
     (dict "source" "domains/patterns.scss" "target" "css/patterns.css")
@@ -48,8 +51,8 @@
 {{- end }}
 {{- range $bundle := $scssBundles }}
   {{- $opts := merge $scssBaseOpts (dict "targetPath" $bundle.target) }}
-  {{- $scss := resources.Get (printf "styles/%s" $bundle.source) | resources.ToCSS $opts }}
-  {{- $css := cond $inServerMode $scss ($scss | fingerprint) }}
+  {{- $scss := resources.Get (printf "styles/%s" $bundle.source) | css.Sass $opts }}
+  {{- $css := cond $inServerMode $scss ($scss | minify | fingerprint) }}
   <link rel="preload" href="{{ $css.RelPermalink }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" type="text/css" href="{{ $css.RelPermalink }}" {{ if not $inServerMode }}integrity="{{ $css.Data.Integrity }}"{{ end }} /></noscript>
 {{- end }}

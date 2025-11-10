@@ -1,26 +1,24 @@
 @use "../settings" as *;
 
-.pattern_container {
-    background-color: rgba(255, 248, 244, 0.55);
-    border-top: 2px solid #F39200;
+.pattern-container {
+    background-color: rgb(255 248 244 / 55%);
+    border-top: 2px solid $brand-primary;
     margin-bottom: 3.5rem;
-    padding: 1.125rem 0.75rem;
+    padding: $space-card $space-sm;
     display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
+    flex-flow: row nowrap;
     overflow-x: scroll;
-    align-content: center;
-    justify-content: start;
+    place-content: center flex-start;
     flex-basis: 340px;
     scroll-snap-type: x mandatory;
-    scrollbar-color: #F39200 #fff;
+    scrollbar-color: $brand-primary #fff;
     scrollbar-width: thin;
 }
 
-@media (min-width: 1024px) {
-    .pattern_container {
+@media (width >= $breakpoint-desktop) {
+    .pattern-container {
         display: grid;
-        grid-gap: 0.5rem;
+        gap: $space-xs;
         grid-template-columns: auto auto auto;
         grid-template-rows: repeat(auto-fill, minmax(16rem, auto));
         margin-bottom: 2.125rem;
@@ -32,39 +30,37 @@
 }
 
 .primer {
-    margin-bottom: 2.75rem !important;
+    margin-bottom: $space-3xl !important;
 }
 
-.pattern_container::-webkit-scrollbar {
-    height: 1.125rem;
+.pattern-container::-webkit-scrollbar {
+    height: $space-card;
 }
 
-.pattern_container::-webkit-scrollbar-thumb,
-.pattern_container::-webkit-scrollbar-track {
+.pattern-container::-webkit-scrollbar-thumb,
+.pattern-container::-webkit-scrollbar-track {
     border-radius: 6rem;
 }
 
 .cards::-webkit-scrollbar-thumb {
-    background: #F39200;
+    background: $brand-primary;
 }
 
 .cards::-webkit-scrollbar-track {
-    background: #F39200;
+    background: $brand-primary;
 }
 
 
-@media (max-width: 1024px) {
-    .pattern_container {
-        flex-direction: row;
+@media (width <= $breakpoint-desktop) {
+    .pattern-container {
+        flex-flow: row nowrap;
         overflow-x: scroll;
-        padding: 0.65rem 0.25rem;
+        padding: $space-gutter $space-2xs;
         display: flex;
-        flex-wrap: nowrap;
-        justify-content: start;
-        align-content: center;
+        place-content: center flex-start;
         flex-basis: 340px;
         scroll-snap-type: x mandatory;
-        scrollbar-color: #F39200 #fff;
+        scrollbar-color: $brand-primary #fff;
         scrollbar-width: thin;
     }
 }
@@ -78,24 +74,37 @@
     height: 90%;
     z-index: 1;
     background-color: #fe0000;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    filter: alpha(opacity=70);
     opacity: 0;
+}
+
+.card-image {
+    display: flex;
+    flex-flow: row nowrap;
+    place-content: center;
+    margin-bottom: $space-xs;
+    text-align: center;
+}
+
+.card-image img {
+    border-radius: $space-xl;
+    border: 8px solid #fdf9f7;
+    max-width: 90%;
+    width: auto;
+    height: auto;
 }
 
 .pattern-card {
     display: flex;
     flex-shrink: 0;
     flex-flow: column nowrap;
-    justify-content: start;
-    width: calc(calc(100% / 3) - 1.25rem);
+    place-content: normal flex-start;
+    width: calc(calc(100% / 3) - $space-lg);
     height: auto;
-    margin: 0.35rem 0.5rem 0.35rem 0.25rem;
-    align-content: normal;
-    background-image: linear-gradient(#fefefe, #fdfdfd);
+    margin: $space-gap-tight $space-xs $space-gap-tight $space-2xs;
+    background-image: linear-gradient($color-surface-light, #fdfdfd);
     border-radius: 3px;
-    border: 1px solid rgba(224, 205, 193, 0.99);
-    padding: 1.125rem;
+    border: 1px solid rgb(224 205 193 / 99%);
+    padding: $space-card;
     scroll-snap-align: start;
 }
 
@@ -105,27 +114,25 @@
 }
 
 .pattern-card .card-title {
-    margin-bottom: 0.5rem;
+    margin-bottom: $space-xs;
     flex-grow: 1;
-    align-content: center;
     width: 85%;
 }
 
-@media (min-width: 1024px) {
-
+@media (width >= $breakpoint-desktop) {
     .pattern-card {
         width: auto;
     }
 
     .pattern-card:hover {
         background-image: linear-gradient(#fbf1e9, #fdf1de, #fdf1de, #fbebd4, #fbf1e9);
-        border: 1px solid #f39200;
+        border: 1px solid $brand-primary;
     }
 
     .pattern-card .card-title {
-        margin-bottom: 0.125rem;
+        margin-bottom: $space-3xs;
         width: 100%;
-        padding: 0.125rem;
+        padding: $space-3xs;
         margin-top: -0.7rem;
         margin-left: -2.95rem;
     }
@@ -137,19 +144,15 @@
 
     .animated {
         opacity: 1;
-        -webkit-animation: none !important;
-        -moz-animation: none !important;
-        -o-animation: none !important;
-        -ms-animation: none !important;
         animation: none !important;
     }
 }
 
-@media (max-width: 1024px) {
+@media (width <= $breakpoint-desktop) {
     .pattern-card {
-        width: calc(calc(100%) - 0.15rem);
+        width: calc(calc(100%) - $space-4xs);
         flex-shrink: 0;
-        margin: 0.15rem 0.35rem 0.15rem 0;
+        margin: $space-4xs $space-gap-tight $space-4xs 0;
     }
 
     .delay-1 {
@@ -158,12 +161,18 @@
     }
 }
 
+.pattern h2,
+.pattern h3,
+.pattern h4 {
+    margin-bottom: 0.75em;
+}
+
 .pattern-card .card-title h4 {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.2rem;
     font-weight: 600;
     color: #1e1e3f;
-    padding: 0 0.75rem;
+    padding: 0 $space-sm;
 }
 
 .pattern-card .card-title h5 {
@@ -171,7 +180,7 @@
     font-size: 1rem;
     font-weight: 450;
     color: #4a4a77;
-    padding: 0 0.75rem;
+    padding: 0 $space-sm;
     line-height: 1.25;
 }
 
@@ -189,7 +198,7 @@
 
 .pattern-card .card-text {
     color: #2c3e50;
-    padding-left: 0.25rem;
+    padding-left: $space-2xs;
     font-size: 0.9rem;
     text-align: justify;
     text-align-last: left;
@@ -199,10 +208,11 @@
 }
 
 .pattern-card .card-text p {
-    padding: 0 0.5rem;
-    margin-top: 1.25rem;
+    padding: 0 $space-xs;
+    margin-top: $space-lg;
     text-justify: inter-word;
-    word-break: break-word;
+    overflow-wrap: anywhere;
+    word-break: normal;
 }
 
 .pattern-card .card-text p .item-title {
@@ -210,15 +220,15 @@
     font-stretch: extra-condensed;
     text-transform: uppercase;
     font-weight: 350;
-    font-size: 0.75rem;
+    font-size: $space-sm;
     display: block;
 }
 
-@media (min-width: 1024px) {
+@media (width >= $breakpoint-desktop) {
     .pattern-card .card-text p {
-        padding: 0 0.5rem;
-        margin-top: 0.25rem;
-        margin-bottom: 0.5rem;
+        padding: 0 $space-xs;
+        margin-top: $space-2xs;
+        margin-bottom: $space-xs;
     }
 
     .pattern-card .card-action {
@@ -226,11 +236,11 @@
     }
 }
 
-@media (max-width: 1024px) {
+@media (width <= $breakpoint-desktop) {
     .pattern-card .card-action {
-        padding-top: 0.5rem;
-        margin-bottom: 0.25rem;
-        margin-top: 0.45rem;
+        padding-top: $space-xs;
+        margin-bottom: $space-2xs;
+        margin-top: $space-gap-narrow;
         display: flex;
         justify-content: end;
     }
@@ -238,14 +248,14 @@
 
 
 .pattern-list {
-    margin-top: 0.5rem;
+    margin-top: $space-xs;
 }
 
 .pattern-list .subtitle::after {
     content: 'scroll for more >>';
-    font-size: 0.65rem;
+    font-size: $space-gutter;
     font-weight: 650;
-    color: #f39200;
+    color: $brand-primary;
     text-transform: uppercase;
     text-shadow: 2px 2px 0 #fbfbfb,
     -2px 2px 0 #fbfbfb,
@@ -254,149 +264,125 @@
     text-align: right;
     position: absolute;
     right: 0;
-    padding-top: 1.5rem;
+    padding-top: $space-xl;
 }
 
-@media (min-width: 1024px) {
+@media (width >= $breakpoint-desktop) {
     .pattern-list .subtitle::after {
         content: '';
     }
 }
 
-@media (max-width: 1024px) {
+@media (width <= $breakpoint-desktop) {
     .pattern-list .subtitle::after {
         content: 'swipe for more >>';
     }
 
     .pattern-list {
-        margin-top: 3.75rem;
+        margin-top: $space-4xl;
     }
 }
 
 .pattern-tags {
     display: flex;
-    flex-direction: row;
-    align-content: flex-start;
-    flex-wrap: wrap;
-    padding: 0 0.35rem;
+    flex-flow: row wrap;
+    place-content: flex-start;
+    padding: 0 $space-gap-tight;
     max-width: 100%;
-    margin-top: 0.65rem;
-    margin-bottom: 0.25rem;
-}
-
-.summary-content .pattern-tags {
-    justify-content: center;
-    padding: 0 0;
-    gap: 0.1rem;
-}
-
-.summary-content .pattern-tags .pattern-tag {
-    font-size: 0.65rem;
-}
-
-.pattern-tags .pattern-tag {
-    display: block;
-    font-size: 0.65rem;
-    font-weight: bold;
-    padding: 0.25rem 0.3rem;
-    color: #7d4b01;
-    background: #f9d3b265;
-    text-transform: uppercase;
-    border-radius: 0.25rem;
-    margin: 0 0.5rem 0.5rem 0;
-}
-
-.pattern-tags .pattern-tag a {
-    color: #7d4b01;
-}
-
-.pattern-tags .pattern-tag a:hover {
-    color: #f39200;
+    margin-top: $space-gutter;
+    margin-bottom: $space-2xs;
 }
 
 .summary-content a {
     color: #363636;
-    border-bottom: 1px dashed #f39200;
+    border-bottom: 1px dashed $brand-primary;
 }
 
 .summary-content a:hover {
-    color: #f39200 !important;
+    color: $brand-primary !important;
     border-bottom: 1px dashed #363636 !important;
 }
 
-
-.fa-circle-info {
-    font-size: 0.65rem;
-
-    color: #34626f;
-    margin-right: 0.25rem;
-    margin-left: 0.25rem;
+.pattern-tags .pattern-tag {
+    display: block;
+    font-size: $space-gutter;
+    font-weight: bold;
+    padding: $space-2xs 0.3rem;
+    color: $color-earth-amber;
+    background: #f9d3b265;
+    text-transform: uppercase;
+    border-radius: $space-2xs;
+    margin: 0 $space-xs $space-xs 0;
 }
 
-.pattern-summary {
+.pattern-tags .pattern-tag a {
+    color: $color-earth-amber;
+}
+
+.pattern-tags .pattern-tag a:hover {
+    color: $brand-primary;
+}
+
+.summary-content .pattern-tags {
+    justify-content: center;
+    padding: 0;
+    gap: 0.1rem;
+}
+
+.summary-content .pattern-tags .pattern-tag {
+    font-size: $space-gutter;
+}
+
+.fa-circle-info {
+    font-size: $space-gutter;
+    color: #34626f;
+    margin-right: $space-2xs;
+    margin-left: $space-2xs;
+}
+
+ .pattern-summary {
     display: flex;
     padding: 2.125rem;
     flex-shrink: 0;
     flex-flow: column nowrap;
-    justify-content: start;
-    width: calc(calc(100% / 3) - 1.25rem);
-    align-content: normal;
-    background-image: linear-gradient(#fefefe, #fdfdfd);
+    place-content: normal flex-start;
+    width: calc(calc(100% / 3) - $space-lg);
+    background-image: linear-gradient($color-surface-light, #fdfdfd);
     border-radius: 6px;
-    border: 1px solid rgba(224, 205, 193, 0.99);
+    border: 1px solid rgb(224 205 193 / 99%);
     scroll-snap-align: start;
-    margin: 0.25rem 0.25rem 3rem 4.5rem;
+    margin: $space-2xs $space-2xs 3rem $space-hero;
 }
 
 .pattern-summary .title-wrapper {
     flex-grow: 1;
-    align-content: center;
-    margin-bottom: 0.5rem;
-    margin-top: 0.75rem;
-    padding: 0.25rem;
+    margin-bottom: $space-xs;
+    margin-top: $space-sm;
+    padding: $space-2xs;
 }
 
 .pattern-summary .spacer-wide {
     width: 80% !important;
     clear: both;
-    margin: auto auto 1.75rem;
-}
-
-.card-image {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-content: center;
-    margin-bottom: 0.5rem;
-    text-align: center;
-}
-
-.card-image img {
-    border-radius: 1.5rem;
-    border: 8px solid #fdf9f7;
-    max-width: 90%;
-    width: auto;
-    height: auto;
+    margin: auto auto $space-2xl;
 }
 
 .card-title-wrapper {
     display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    align-content: center;
-    gap: 0.125rem;
+    flex-flow: row-reverse nowrap;
+    place-content: center space-between;
+    gap: $space-3xs;
 }
 
-@media (max-width: 1024px) {
+@media (width <= $breakpoint-desktop) {
     .card-title-wrapper {
-        flex-direction: row;
+        flex-flow: row nowrap;
     }
 }
 
 .card-title-wrapper .card-image {
     max-width: 8rem;
     max-height: 8rem;
-    align-content: center;
     margin-left: auto;
     margin-right: auto;
     clear: both;
@@ -407,16 +393,15 @@
     display: flex;
     flex-shrink: 0;
     flex-flow: column nowrap;
-    justify-content: start;
+    place-content: normal flex-start;
     width: 100%;
-    align-content: normal;
-    padding: 0.125rem;
+    padding: $space-3xs;
     margin: auto;
     clear: both;
 }
 
 .card-title-wrapper .card-image img {
-    border-radius: 3.75rem;
+    border-radius: $space-4xl;
     overflow: hidden;
 }
 
@@ -425,27 +410,28 @@
     font-size: 1.2rem;
     font-weight: 600;
     color: #1e1e3f;
-    padding: 0 0.75rem;
+    padding: 0 $space-sm;
     text-align: center;
     justify-content: center;
 }
 
+
 .pattern-summary .summary-title {
-    padding: 0 0.5rem;
-    align-content: center;
+    padding: 0 $space-xs;
     color: #1f586f85;
     font-stretch: extra-condensed;
     text-transform: uppercase;
     font-weight: 350;
     font-size: 0.6rem;
     display: block;
-    line-height: 0.95rem;
+    line-height: $space-cozy;
     max-width: 20%;
+    flex-grow: 1;
 }
 
 .pattern-summary .summary-content {
-    font-size: 0.75rem;
-    padding: 0 0.5rem;
+    font-size: $space-sm;
+    padding: 0 $space-xs;
     line-height: 1.25;
     text-align: right;
     max-width: 80%;
@@ -455,19 +441,19 @@
 }
 
 .pattern-summary .summary-item .summary-formats {
-    font-size: 0.75rem;
-    padding: 0 0.5rem;
+    font-size: $space-sm;
+    padding: 0 $space-xs;
     line-height: 1.25;
     text-align: right;
     max-width: 80%;
     display: flex;
     justify-content: end;
-    gap: 0.5rem;
+    gap: $space-xs;
     flex-direction: row;
 }
 
 .info-line {
-    padding: 0.25rem;
+    padding: $space-2xs;
     text-align: center;
     font-size: 0.6rem;
     font-weight: 300;
@@ -478,21 +464,21 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 0.125rem;
-    padding: 0.35rem;
+    margin-top: $space-3xs;
+    padding: $space-gap-tight;
     z-index: 500;
 }
 
 .pattern-related {
     margin-top: 3.5rem;
-    font-size: 0.85rem;
-    border-top: 1px dotted #f39200;
-    padding-top: 2.75rem;
+    font-size: $space-snug;
+    border-top: 1px dotted $brand-primary;
+    padding-top: $space-3xl;
 }
 
 /* META DATA AND TITLE DISPLAY */
 
-@media (min-width: 1024px) {
+@media (width >= $breakpoint-desktop) {
     .pattern-summary .title-wrapper .divider{
         display: none;
     }
@@ -501,7 +487,7 @@
         display: block;
         width: 100%;
         margin: 0;
-        background: linear-gradient(rgba(11, 28, 42, 0.9), rgba(1, 13, 24, 0.95)), url("/images/tiles.webp") repeat;
+        background: linear-gradient(rgb(11 28 42 / 90%), rgb(1 13 24 / 95%)), url("/images/tiles.webp") repeat;
         border: 0;
         border-bottom: 2px solid #030303;
         border-radius: 0;
@@ -512,27 +498,27 @@
         max-width: 100%;
         max-height: 9.5rem;
         height: 9.5rem;
-        background: #08141f;
-        padding-top: 1.75rem;
-        border-top: 2px solid #162431;
-        border-bottom: 2px solid #162431;
-        padding-bottom: 1.125rem;
+        background: $color-surface-deep;
+        padding-top: $space-2xl;
+        border-top: 2px solid $color-slate;
+        border-bottom: 2px solid $color-slate;
+        padding-bottom: $space-card;
         padding-right: 6.5rem;
-        margin-bottom: 2.75rem;
+        margin-bottom: $space-3xl;
         margin-left: 6.5rem;
 
 
         .title {
-            color: #fefefe;
+            color: $color-surface-light;
         }
 
         .subtitle {
-            color: #f39200;
+            color: $brand-primary;
             font-weight: 300;
         }
     }
 
-    .card-image {
+    .pattern-summary .card-image {
         max-width: 12.5rem;
         max-height: 12.5rem;
         position: absolute;
@@ -542,140 +528,137 @@
 
     .summary-wrapper {
         display: flex;
-        flex-direction: row;
+        flex-flow: row wrap;
         width: 94%;
         clear: none;
-        flex-wrap: wrap;
         justify-content: space-evenly;
     }
 
     .pattern-summary .card-image img {
         border-radius: 6.75rem;
-        border: 4px solid #08141f;
+        border: 4px solid $color-surface-deep;
         max-width: 95%;
         width: auto;
         height: auto;
     }
 
-    .card-title-wrapper {
+    .pattern-summary .card-title-wrapper {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-        align-content: center;
-        gap: 0.125rem;
-        max-height: 4.5rem;
+        place-content: center space-between;
+        gap: $space-3xs;
+        max-height: $space-hero;
     }
 
-    .card-title-wrapper .card-image {
+    .pattern-summary .card-title-wrapper .card-image {
         position: relative;
         left: -2.125rem;
         top: -2.125rem;
-        align-content: center;
     }
 
     .pattern-summary .summary-content {
         justify-content: start;
         max-width: 100%;
-        padding: 0.75rem 0.95rem 0.45rem;
-        border-left: 1px solid #f39200;
-        color: #fefefe;
+        padding: $space-sm $space-cozy $space-gap-narrow;
+        border-left: 1px solid $brand-primary;
+        color: $color-surface-light;
         font-weight: 650;
-        background: #08141f85;
+        background: rgba($color-surface-deep, 0.52);
     }
 
     .pattern-summary .summary-title {
         max-width: 100%;
-        padding-left: 1.75rem;
-        margin-top: -0.75rem;
-        color: #f39200;
+        padding-left: $space-2xl;
+        margin-top: -$space-sm;
+        color: $brand-primary;
         font-weight: 500;
     }
 
-    .pattern-summary .summary-item:before {
-        border-top: 1px solid #f39200;
-        border-left: 1px solid #f39200;
+    .pattern-summary .summary-item::before {
+        border-top: 1px solid $brand-primary;
+        border-left: 1px solid $brand-primary;
         content: '';
         display: block;
-        width: 1.125rem;
+        width: $space-card;
         height: .5rem;
-        margin-bottom: -0.25rem;
+        margin-bottom: -$space-2xs;
     }
 
     .summary-item {
         flex-direction: column;
         justify-content: flex-end;
-        padding-left: 0.35rem;
-        margin: 0.25rem 0.75rem 0;
+        padding-left: $space-gap-tight;
+        margin: $space-2xs $space-sm 0;
 
         a {
-            color: #fefefe;
-            border-bottom: 1px dashed #f39200;
+            color: $color-surface-light;
+            border-bottom: 1px dashed $brand-primary;
         }
 
         a:hover {
-            color: #f39200;
-            border-bottom: 1px dashed #fefefe;
+            color: $brand-primary;
+            border-bottom: 1px dashed $color-surface-light;
         }
 
         .fa-circle-info {
-            font-size: 0.65rem;
-            color: #f39200;
+            font-size: $space-gutter;
+            color: $brand-primary;
         }
     }
 
     .summary-item::after {
-        border-bottom: 1px solid #f39200;
-        border-right: 4px solid #f39200;
-        border-left: 1px solid #f39200;
+        border-bottom: 1px solid $brand-primary;
+        border-right: 4px solid $brand-primary;
+        border-left: 1px solid $brand-primary;
         content: '';
         width: 100%;
-        height: 0.5rem;
+        height: $space-xs;
         display: block;
-        background: #08141f85;
+        background: rgba($color-surface-deep, 0.52);
     }
 
     .pattern-summary .summary-item .summary-formats {
         display: block;
-        padding: 0.75rem 0.95rem 1.75rem;
+        padding: $space-sm $space-cozy $space-2xl;
         max-width: 100%;
 
         a {
-            padding: 0.5rem;
+            padding: $space-xs;
         }
     }
 
     .summary-content .pattern-tags {
         flex-direction: column;
-        padding: 0 0.5rem;
+        padding: 0 $space-xs;
     }
 }
 
-@media (max-width: 1024px) {
+@media (width <= $breakpoint-desktop) {
     .pattern-summary {
         width: 100%;
-        padding: 0.25rem;
+        padding: $space-2xs;
         margin: 0;
         flex-shrink: 0;
         float: none;
-        background: linear-gradient(rgba(11, 28, 42, 0.9), rgba(1, 13, 24, 0.95)), url("/images/tiles.webp") repeat;
+        background: linear-gradient(rgb(11 28 42 / 90%), rgb(1 13 24 / 95%)), url("/images/tiles.webp") repeat;
         border: 0;
         border-bottom: 2px solid #030303;
         border-radius: 0;
     }
 
     .pattern-summary .title-wrapper {
-        background: #08141f;
-        padding-bottom: 1.5rem;
-        padding-top: 1.75rem;
+        background: $color-surface-deep;
+        padding-bottom: $space-xl;
+        padding-top: $space-2xl;
         margin-top: 0;
-        margin-bottom: 1.5rem;
+        margin-bottom: $space-xl;
 
         .title {
-            color: #fefefe;
+            color: $color-surface-light;
         }
 
         .subtitle {
-            color: #f39200;
+            color: $brand-primary;
             font-weight: 300;
         }
     }
@@ -683,8 +666,8 @@
     .pattern-summary .divider {
         height: 3px;
         border-radius: 50px;
-        margin-top: 2.75rem;
-        margin-bottom: 0.5rem;
+        margin-top: $space-3xl;
+        margin-bottom: $space-xs;
     }
 
     .card-title-wrapper .card-image {
@@ -694,61 +677,57 @@
     }
 
     .card-image picture {
-        max-width: 10.5rem;
-        max-height: 10.5rem;
+        max-width: 1$space-xs;
+        max-height: 1$space-xs;
         position: relative;
     }
 
     .pattern-summary .summary-item {
-        margin: 1.75rem 0.25rem 0.75rem 0.5rem;
-        padding-left: 0.5rem;
-        padding-top: 0.75rem;
+        margin: $space-2xl $space-2xs $space-sm $space-xs;
+        padding-left: $space-xs;
+        padding-top: $space-sm;
         justify-content: space-between;
-        border-top: 1px solid #f39200;
-        border-right: 1px solid #f39200;
+        border-top: 1px solid $brand-primary;
+        border-right: 1px solid $brand-primary;
         border-radius: 0;
-        background: #08141f85;
+        background: rgba($color-surface-deep, 0.52);
 
         a {
-            color: #fefefe;
-            border-bottom: 1px dashed #f39200;
+            color: $color-surface-light;
+            border-bottom: 1px dashed $brand-primary;
         }
 
         .fa-circle-info {
-            font-size: 0.65rem;
-            color: #f39200;
+            font-size: $space-gutter;
+            color: $brand-primary;
         }
     }
 
     .pattern-summary .summary-item::before {
         content: '';
-        width: 0rem;
-        margin-left: -0.5rem;
-        margin-top: -0.75rem;
+        width: 0;
+        margin-left: -$space-xs;
+        margin-top: -$space-sm;
         height: .75rem;
-        border-left: 6px solid #f39200;
+        border-left: 6px solid $brand-primary;
     }
 
     .pattern-summary .summary-title {
         max-width: 100%;
-        padding-left: 0.75rem;
-        color: #f39200;
+        padding-left: $space-sm;
+        color: $brand-primary;
         font-weight: 500;
     }
 
     .pattern-summary .summary-content {
         justify-content: start;
-        padding: 0.75rem 0.95rem 1.75rem;
-        color: #fefefe;
+        padding: $space-sm $space-cozy $space-2xl;
+        color: $color-surface-light;
         font-weight: 650;
         flex-grow: 1;
         max-width: 100%;
         display: block;
         width: 100%;
-    }
-
-    .summary-title {
-        flex-grow: 1;
     }
 
     .pattern-tags {
@@ -759,19 +738,19 @@
 }
 
 .pattern-summary .pattern-tags .pattern-tag {
-    padding: 0.35rem 0.65rem;
+    padding: $space-xs $space-sm;
     text-align: right;
-    color: #fefefe;
-    background: #08141f;
+    color: $color-surface-light;
+    background: $color-surface-deep;
 
     a {
-        color: #fefefe;
+        color: $color-surface-light;
     }
 }
 
 .base {
-    color: #7d4b0165;
-    border: 1px solid #7d4b0165;
+    color: rgba($color-earth-amber, 0.4);
+    border: 1px solid rgba($color-earth-amber, 0.4);
 }
 
 .up {
@@ -801,48 +780,48 @@
     margin-top: 0;
 }
 
-@media(max-width: 1024px) {
+@media (width <= $breakpoint-desktop) {
     .comments {
-        padding-left: 0.75rem;
-        padding-right: 0.75rem;
+        padding-left: $space-sm;
+        padding-right: $space-sm;
     }
 }
 
 .related {
-    margin-top: 3.75rem;
-    background: #fefefe;
-    padding: 0.25rem !important;
+    margin-top: $space-4xl;
+    background: $color-surface-light;
+    padding: $space-2xs !important;
     border-radius: 6px;
-    border: 1px solid rgba(224, 205, 193, 0.99);
+    border: 1px solid rgb(224 205 193 / 99%);
     clear: both;
 }
 
 .related summary {
     font-family: d-din, "Gill Sans", 'Open Sans', sans-serif;
-    font-size: 1.125rem;
-    padding: 0.75rem;
+    font-size: $space-card;
+    padding: $space-sm;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
 }
 
 .related summary::marker {
-    color: #f39200;
+    color: $brand-primary;
 }
 
 .related .related-content {
     font-family: d-din, "Gill Sans", 'Open Sans', sans-serif;
     font-size: 0.875rem;
-    padding: 0 2.75rem 1.5rem 2.75rem;
+    padding: 0 $space-3xl $space-xl;
 }
 
-@media (max-width: 1024px) {
+@media (width <= $breakpoint-desktop) {
     .related .related-content {
-        padding: 0 0.5rem 1.5rem 0.5rem;
+        padding: 0 $space-xs $space-xl;
     }
 }
 
-@media (max-width: 1024px) {
+@media (width <= $breakpoint-desktop) {
     .table-responsive {
         display: block;
         overflow-x: auto;
@@ -850,20 +829,17 @@
     }
 }
 
-@media (max-width: 1024px) {
+@media (width <= $breakpoint-desktop) {
     .img-gallery {
         width: 98% !important;
         max-width: 98% !important;
     }
 }
 
-.pattern h2, h3, h4 {
-    margin-bottom: 0.75em;
-}
 
 .cutout {
-    border-bottom: 2px solid #f39200;
-    border-top: 2px solid #f39200;
+    border-bottom: 2px solid $brand-primary;
+    border-top: 2px solid $brand-primary;
 
     .pattern-summary {
         border-bottom: 4px solid #0b1a25;
@@ -872,9 +848,9 @@
 }
 
 .dark {
-    background: rgba(1, 13, 24, 0.95);
+    background: rgb(1 13 24 / 95%);
 }
 
 .dark-pattern {
-    background: linear-gradient(rgba(11, 28, 42, 0.9), rgba(1, 13, 24, 0.95)), url("/images/tiles.webp") repeat;
+    background: linear-gradient(rgb(11 28 42 / 90%), rgb(1 13 24 / 95%)), url("/images/tiles.webp") repeat;
 }

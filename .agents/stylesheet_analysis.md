@@ -32,4 +32,90 @@
 - Layout partials assume the Bulma grid (classes like `section`, `hero`, `columns`) and then layer custom hooks (e.g., `.pattern_container`). Any refactor must preserve those hooks or update both markup and CSS concurrently.
 - There is no shared variables/mixins layer; color tokens (`#f39200`, `#1f3c48`, etc.) are duplicated across files. Moving to `assets/` + SCSS would enable centralizing tokens and generating the minified outputs automatically before publishing.
 
+---
+
+## CSS smell log (current state)
+
+- **Missing assets** — `layouts/partials/css.html` hardcodes `css/icons.css`, but that file does not exist anywhere in the repo (`rg --files -g 'icons.css'` returns nothing). The link currently yields a 404 and costs an HTTP request per page.
+- **Shadow visualizations** — `static/css/visualization.css` defines `.visualization_container` helpers, yet no layout imports it and the `layouts/visualisations` directory is empty. The style lives in “shadow alpha” mode: accessible if manually linked, but disconnected from any public section.
+- **Invalid nesting left uncompiled** — Several files contain Sass-style nesting that browsers ignore:
+  - `static/css/custom.css:16-24` and `:210` nest selectors inside `.pattern` and `.has-text-centered` blocks, so the `.pattern h3::before` and `.has-text-centered .title` rules never apply.
+  - `static/css/toc.css:19-70` nests `h2`, `ul`, `li` inside `.tableOfContentContainer`; these declarations are silently dropped in browsers that do not implement the experimental CSS Nesting Module.
+  - `static/css/patterns.css` mixes Sass-style placeholders (e.g., `.pattern-card { @media ... }` ), which makes the cascade hard to reason about.
+- **Broken `@font-face` declarations** — `static/css/custom.css:1-12` defines `@font-face` blocks without `src:` properties, so the browser ignores them and the site falls back to Open Sans. The minified file carries the same issue.
+- **Manual dual-file maintenance** — Every functional stylesheet has a hand-maintained `.min` twin with no build provenance. Risks:
+  - Easy to forget to regenerate the minified copy → production and dev styles drift.
+  - Adds clutter to diffs and git history.
+- **Color tokens & typography duplicated** — `#f39200`, `#1e75c0`, `#1f3c48`, and font stacks (`'d-din', "Gill Sans", 'Open Sans'`) are repeated across `custom.css`, `patterns.css`, `glossary.css`, `quotes.css`, `recommendations.css`, `toc.css`, etc. Any rebrand requires N edits.
+- **Layout/CSS drift** — Partial markup sometimes expects classes that no longer exist in CSS. Example: glossary cards add `.term-references` lists but the CSS only styles `.term-references .term-reference`, leading to default bullets outside the intended container.
+- **Ampersand vs. dash naming** — The CSS alternates between `pattern_container`, `pattern-card`, and `pattern-card-title`, making it difficult to search and increases class name collisions.
+- **Font loading duplication** — `open-sans.css` lives in `static/css/` and includes local files, but `css.html` still appends a `?family=...&display=swap` query to the URL. That query mimics Google Fonts parameters but provides no value, so requests are uncached (different query string for each weight combination).
+
+---
+
+## Visualizations “shadow alpha” note
+
+- Content authors can reach visualization pages via direct URLs under `content/en/visualizations`, but no menu/section renders them and the matching layout directory is empty. Likewise, the CSS (`static/css/visualization.css`) is never loaded because `partials/css.html` omits it.
+- Recommendation: keep the file in `static/css/visualization.css` but gate inclusion behind a feature flag in `config.yaml` (e.g., `params.visualizations.alpha = true`). Until then, annotate the stylesheet header with a warning so contributors know it is intentionally disconnected.
+
+---
+
+## SCSS migration assessment (using `src/` + precompile)
+
+**Why the current approach strains maintainability**
+1. **Invalid syntax** — The presence of Sass-style nesting inside `.css` files proves that past edits expected a preprocessor. Browsers ignore the nested portions, so the intended selectors never run.
+2. **Duplication & drift** — Redundant `.min.css` files and repeated color tokens add review overhead and increase the chance of stale styles.
+3. **No composition** — Without variables/mixins/maps it is impossible to share spacing rules between `patterns`, `glossary`, `recommendations`, etc., so tweaks have to be copy-pasted.
+
+**Feasibility of an SCSS pipeline rooted in `src/`**
+- The repo already uses Hugo Pipes (the `style.sass` hook in `partials/css.html`), so Hugo can compile SCSS without extra tooling. Alternatively, we can store SCSS sources under `src/styles/` and run `npm run build:css` (using `sass` or `dart-sass`) before `hugo`. Both approaches avoid committing minified artifacts.
+- Recommended hierarchy:
+  ```
+  src/styles/
+  ├── _settings.scss      # colors, typography, spacing scales
+  ├── _mixins.scss
+  ├── domains/
+  │   ├── _custom.scss    # global overrides
+  │   ├── _patterns.scss
+  │   ├── _glossary.scss
+  │   ├── _toc.scss
+  │   └── _visualizations.scss (alpha)
+  └── site.scss           # orchestrates imports
+  ```
+- Hugo-compatible option: symlink or copy `src/styles` into `assets/styles`, then update `partials/css.html` to compile `assets/styles/site.scss`. That keeps sources in `src/` (as requested) yet lets Hugo handle fingerprinting and cache busting.
+- Build pipeline suggestion:
+  ```bash
+  # package.json
+  "scripts": {
+    "build:css": "sass --no-source-map src/styles/site.scss static/css/site.css && postcss static/css/site.css --use autoprefixer --replace"
+  }
+  ```
+  The script can run pre-commit or inside Netlify before `hugo`.
+
+**Maintenance impact**
+- ✅ Pros: single source of truth, variables/mixins, Hugo fingerprinting, no `.min` twins, easier theming, ability to gate alpha sections via feature flags or separate entry points (e.g., only import `_visualizations.scss` when `params.visualizations.alpha` is true).
+- ⚠️ Cons: introduces a build prerequisite (Sass/Pnpm). Contributors who only edit Markdown will need docs for installing the toolchain. Need to ensure Netlify/GitHub actions install the Sass compiler before builds.
+
+---
+
+## Remediation path (proposal)
+
+1. **Establish SCSS sources**
+   - Move each existing CSS file into `src/styles/domains/_<name>.scss`. Clean up nesting so selectors compile correctly, add missing `src:` declarations to `@font-face`, and normalize class naming (prefer BEM-ish dashes).
+   - Create `_variables.scss` for shared tokens (brand colors, neutrals, font stacks).
+2. **Define entry points**
+   - `src/styles/site.scss` should `@use` the settings/mixins plus each domain module (patterns, glossary, toc, etc.).
+   - Add `src/styles/visualizations.scss` but keep it behind a feature flag or separate import so the “shadow alpha” CSS is opt-in.
+3. **Compile before Hugo**
+   - Option A: rely on Hugo Pipes — copy the `src/styles` tree into `assets/styles` (or update `partials/css.html` to `resources.Get "styles/site.scss"`). Hugo will output a single fingerprinted CSS file; remove the manual `<link>` tags for each static bundle.
+   - Option B: keep SCSS under `src/` and add an NPM/scripted build step that writes `static/css/site.css` + `static/css/site.min.css` before `hugo`. Document this in `README` and CI scripts.
+4. **Update templates**
+   - Replace the series of `partial "stylesheet.html"` includes with a single link to the compiled `site.css`. Keep section-specific classes unchanged so content stays stable.
+   - Remove the dead `css/icons.css` include and conditionally include `visualization.css` only when the feature flag is enabled.
+5. **Clean up artifacts**
+   - Delete legacy `.min.css` files once the pipeline emits compressed output.
+   - Add linting (`stylelint` or `sass-lint`) to catch future nesting/config mistakes.
+
+This transition directly addresses the current smells (invalid nesting, duplicated tokens, manual minification) and sets up a clearer path for gating alpha features like visualizations.
+
 ✅ Context captured — ready for further validation or follow-up analysis.

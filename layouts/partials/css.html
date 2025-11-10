@@ -33,6 +33,7 @@
 {{- $scssBundles := slice
     (dict "source" "domains/custom.scss" "target" "css/custom.css")
     (dict "source" "domains/patterns.scss" "target" "css/patterns.css")
+    (dict "source" "domains/glossary.scss" "target" "css/glossary.css")
 }}
 {{- range $bundle := $scssBundles }}
   {{- $opts := merge $scssBaseOpts (dict "targetPath" $bundle.target) }}
@@ -43,7 +44,7 @@
 {{- end }}
 
 {{ partial "stylesheet.html" (dict "css" "css/icons.css")  }}
-{{ partial "stylesheet.html" (dict "css" "css/glossary.min.css")  }}
+{{/* Glossary styles compiled via Hugo Pipes */}}
 {{ partial "stylesheet.html" (dict "css" "css/recommendations.min.css")  }}
 {{ partial "stylesheet.html" (dict "css" "css/images.min.css")  }}
 {{ partial "stylesheet.html" (dict "css" "css/toc.min.css")  }}

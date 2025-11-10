@@ -145,4 +145,30 @@ This transition directly addresses the current smells (invalid nesting, duplicat
 - **Legacy cleanup** — All redundant files under `static/css/*.css` and `*.min.css` (except the self-hosted `open-sans.css`) were removed, ensuring Hugo’s asset pipeline is the sole source of truth.
 - **Contributor steps** — Edit the SCSS in `assets/styles/domains/`, run `hugo --gc --minify --buildDrafts=false` to verify, and toggle `visualisations.alpha` in `config.yaml` when that section should surface.
 
+---
+
+## Post-resolution notes
+
+1. **Stylelint guide**
+   - Install dependencies locally (once): `npm install --save-dev stylelint stylelint-config-standard-scss stylelint-config-prettier`.
+   - Create/extend `.stylelintrc.json` (example):
+     ```json
+     {
+       "extends": [
+         "stylelint-config-standard-scss",
+         "stylelint-config-prettier"
+       ],
+       "rules": {
+         "color-hex-length": "short",
+         "selector-class-pattern": "^[a-z0-9\\-]+$"
+       }
+     }
+     ```
+   - Lint everything: `npx stylelint "assets/styles/**/*.scss"`.
+   - Recommended workflow: run `npx stylelint --fix "assets/styles/**/*.scss"` before each commit; CI can reuse the same command to keep the bundle consistent.
+2. **Future guardrails**
+   - Keep new domains isolated under `assets/styles/domains/` and append their entry to `layouts/partials/css.html`.
+   - When promoting the visualization section, flip `params.visualisations.alpha` and add navigation hooks so the bundle is included automatically.
+   - For experiments, prefer feature flags plus dedicated SCSS files to keep the production payload lean.
+
 ✅ Context captured — ready for further validation or follow-up analysis.

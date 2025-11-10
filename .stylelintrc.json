@@ -1,0 +1,10 @@
+{
+  "extends": [
+    "stylelint-config-standard-scss",
+    "stylelint-config-prettier"
+  ],
+  "rules": {
+    "color-hex-length": "short",
+    "selector-class-pattern": "^[a-z0-9\\-]+$"
+  }
+}

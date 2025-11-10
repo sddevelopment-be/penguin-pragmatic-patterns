@@ -30,7 +30,10 @@
 <script type="text/javascript" src="{{ $toc }}"></script>
 
 {{- $scssBaseOpts := cond $inServerMode (dict "enableSourceMap" true) (dict "outputStyle" "compressed") }}
-{{- $scssBundles := slice (dict "source" "domains/custom.scss" "target" "css/custom.css") }}
+{{- $scssBundles := slice
+    (dict "source" "domains/custom.scss" "target" "css/custom.css")
+    (dict "source" "domains/patterns.scss" "target" "css/patterns.css")
+}}
 {{- range $bundle := $scssBundles }}
   {{- $opts := merge $scssBaseOpts (dict "targetPath" $bundle.target) }}
   {{- $scss := resources.Get (printf "styles/%s" $bundle.source) | resources.ToCSS $opts }}
@@ -43,7 +46,6 @@
 {{ partial "stylesheet.html" (dict "css" "css/glossary.min.css")  }}
 {{ partial "stylesheet.html" (dict "css" "css/recommendations.min.css")  }}
 {{ partial "stylesheet.html" (dict "css" "css/images.min.css")  }}
-{{ partial "stylesheet.html" (dict "css" "css/patterns.min.css")  }}
 {{ partial "stylesheet.html" (dict "css" "css/toc.min.css")  }}
 {{ partial "stylesheet.html" (dict "css" "css/quotes.min.css")  }}
 {{ partial "stylesheet.html" (dict "css" "css/taxonomies.min.css")  }}

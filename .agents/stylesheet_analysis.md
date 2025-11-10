@@ -136,4 +136,13 @@
 
 This transition directly addresses the current smells (invalid nesting, duplicated tokens, manual minification) and sets up a clearer path for gating alpha features like visualizations.
 
+---
+
+## Implemented pipeline (2025-11-10)
+
+- **Sources** — All user-defined styles now live under `assets/styles/domains/`, one file per domain (`custom`, `patterns`, `glossary`, `recommendations`, `images`, `quotes`, `taxonomies`, `toc`, `ammerse`, `visualization`). Shared tokens live in `assets/styles/_settings.scss`.
+- **Compilation flow** — `layouts/partials/css.html` iterates through the bundle list, runs `resources.ToCSS`, fingerprints each result, and emits `<link rel="preload">` tags. The visualization bundle is only appended when `params.visualisations.alpha` is true so it can stay in “shadow alpha”.
+- **Legacy cleanup** — All redundant files under `static/css/*.css` and `*.min.css` (except the self-hosted `open-sans.css`) were removed, ensuring Hugo’s asset pipeline is the sole source of truth.
+- **Contributor steps** — Edit the SCSS in `assets/styles/domains/`, run `hugo --gc --minify --buildDrafts=false` to verify, and toggle `visualisations.alpha` in `config.yaml` when that section should surface.
+
 ✅ Context captured — ready for further validation or follow-up analysis.

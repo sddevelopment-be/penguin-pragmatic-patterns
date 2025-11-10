@@ -53,12 +53,3 @@
   <link rel="preload" href="{{ $css.RelPermalink }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link rel="stylesheet" type="text/css" href="{{ $css.RelPermalink }}" {{ if not $inServerMode }}integrity="{{ $css.Data.Integrity }}"{{ end }} /></noscript>
 {{- end }}
-
-{{ partial "stylesheet.html" (dict "css" "css/icons.css")  }}
-{{/* Glossary styles compiled via Hugo Pipes */}}
-{{/* Recommendations styles compiled via Hugo Pipes */}}
-{{/* Images styles compiled via Hugo Pipes */}}
-{{/* Table of contents styles compiled via Hugo Pipes */}}
-{{/* Quotes styles compiled via Hugo Pipes */}}
-{{/* Taxonomy styles compiled via Hugo Pipes */}}
-{{/* AMMERSE styles compiled via Hugo Pipes */}}

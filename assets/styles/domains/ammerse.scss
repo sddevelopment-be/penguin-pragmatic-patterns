@@ -1,0 +1,181 @@
+@use "../settings" as *;
+
+.ammerse-item {
+    display: block;
+    height: 2.75em;
+}
+.ammerse-bar-row {
+    display: flex;
+    align-items: center;
+    margin: 0.25rem 0;
+}
+.ammerse-label {
+    min-width: 6.5em;
+    font-weight: bold;
+    text-align: right;
+}
+.ammerse-bar-wrapper {
+    flex: 1;
+    height: 16px;
+    background: transparent;
+    min-width: 12em;
+    position: relative;
+}
+
+.ammerse-bar-wrapper:after {
+    content: var(--overlay);
+    position: absolute;
+    z-index: 500;
+    min-width: 1.5em;
+    text-align: center;
+    left: 50%;
+    height: 20px;
+    font-weight: 100;
+    font-size: 0.75rem;
+    border-left: 1px solid #f39200;
+    padding: 0.15rem 0.25rem;
+    text-shadow: 1px 0 4px #0b1723,
+                0 1px 4px #0b1723,
+                0 -1px 4px #0b1723,
+                -1px 0 4px #0b1723;
+}
+.ammerse-bar {
+    height: 100%;
+    padding: 0 0.25rem;
+    background-color: var(--color, #4682b4);
+    position: absolute;
+    left: 50%;
+    top: 2px;
+    transform-origin: left center;
+    transform: scaleX(var(--delta, 1));
+    width: 5em;
+}
+
+.ammerse-bar-info:before {
+    visibility: hidden;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    border: solid #f39200;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    content: '';
+    width: 8px;
+    margin-right: calc(100% - 4.5rem);
+    margin-bottom: -0.65rem;
+    margin-top: -2.75rem;
+}
+
+.ammerse-description {
+    visibility: hidden;
+    text-align: left;
+    padding: 0.75rem 0.5rem;
+    max-width: 20em;
+    font-weight: 400;
+    font-size: 0.85rem;
+    background: #0b1723;
+    color: #fefefe;
+    border-top: 2px solid #f39200;
+    position: absolute;
+    z-index: 650;
+}
+
+.ammerse-info-bar {
+    margin-top: -1.75rem;
+}
+
+.ammerse-info-bar .ammerse-description {
+    top: -3.75rem;
+}
+
+.ammerse-item:hover .ammerse-description {
+    visibility: visible;
+}
+
+.ammerse-item:hover .ammerse-bar-info:before {
+    visibility: visible;
+}
+
+.ammerse {
+    margin-top: 0.5rem;
+}
+
+.fas {
+    padding-left: 0.15rem;
+}
+
+.ammerse-values {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 0.125rem;
+    padding: 0.25rem;
+    gap: 0.25rem;
+    max-width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ammerse-values .ammerse-value {
+    display: block;
+    font-size: 0.85rem;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    text-align: center;
+    flex: 1 1 0px;
+    align-content: center;
+    max-width: 2.25rem;
+}
+
+.pattern-summary .ammerse-values {
+
+    .fas {
+        padding-left: 10%;
+    }
+
+    .ammerse-value {
+        background: #08141f;
+    }
+
+    .base {
+        background: #08141f;
+        color: #9e9e9e;
+        border: 1px solid #9e9e9e;
+    }
+
+    .down {
+        background: #08141f;
+        color: #cd0c1a;
+        border: 1px solid #cd0c1a;
+    }
+
+    .double-down {
+        background: #08141f;
+        color: #cd0c1a;
+        border: 1px solid #d50c1a;
+    }
+
+    .up {
+        background: #08141f;
+        color: #0786a6;
+        border: 1px solid #0786a6;
+    }
+
+    .double-up {
+        background: #08141f;
+        color: #0786a6;
+        border: 1px solid #0786a6;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .ammerse-wrapper {
+        flex-direction: column;
+
+        .summary-content {
+            padding: 0.75rem 0.25rem;
+        }
+    }
+}

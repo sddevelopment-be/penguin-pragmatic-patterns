@@ -39,6 +39,7 @@
     (dict "source" "domains/quotes.scss" "target" "css/quotes.css")
     (dict "source" "domains/taxonomies.scss" "target" "css/taxonomies.css")
     (dict "source" "domains/toc.scss" "target" "css/toc.css")
+    (dict "source" "domains/ammerse.scss" "target" "css/ammerse.css")
 }}
 {{- range $bundle := $scssBundles }}
   {{- $opts := merge $scssBaseOpts (dict "targetPath" $bundle.target) }}
@@ -55,4 +56,4 @@
 {{/* Table of contents styles compiled via Hugo Pipes */}}
 {{/* Quotes styles compiled via Hugo Pipes */}}
 {{/* Taxonomy styles compiled via Hugo Pipes */}}
-{{ partial "stylesheet.html" (dict "css" "css/ammerse.min.css")  }}
+{{/* AMMERSE styles compiled via Hugo Pipes */}}

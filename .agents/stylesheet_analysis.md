@@ -90,11 +90,11 @@
     "build:css": "sass --no-source-map src/styles/site.scss static/css/site.css && postcss static/css/site.css --use autoprefixer --replace"
   }
   ```
-  The script can run pre-commit or inside Netlify before `hugo`.
+  The script can run pre-commit or inside CI before `hugo`.
 
 **Maintenance impact**
 - ✅ Pros: single source of truth, variables/mixins, Hugo fingerprinting, no `.min` twins, easier theming, ability to gate alpha sections via feature flags or separate entry points (e.g., only import `_visualizations.scss` when `params.visualizations.alpha` is true).
-- ⚠️ Cons: introduces a build prerequisite (Sass/Pnpm). Contributors who only edit Markdown will need docs for installing the toolchain. Need to ensure Netlify/GitHub actions install the Sass compiler before builds.
+- ⚠️ Cons: introduces a build prerequisite (Sass/Pnpm). Contributors who only edit Markdown will need docs for installing the toolchain. Need to ensure CI jobs install the Sass compiler before builds.
 
 ---
 
@@ -177,7 +177,7 @@ This transition directly addresses the current smells (invalid nesting, duplicat
 
 ## Lighthouse desktop QA (2025-11-10)
 
-**Scope** — Reviewed the desktop-mode Lighthouse JSON dumps under `docs/lighthouse/` (`MAINPAGE`, listing pages for Books/Glossary/Practices/Primers, and the `Manual_of_me` practice detail). All reports were generated against `hugo serve`, so networking/caching numbers reflect the development server and not Netlify.
+**Scope** — Reviewed the desktop-mode Lighthouse JSON dumps under `docs/lighthouse/` (`MAINPAGE`, listing pages for Books/Glossary/Practices/Primers, and the `Manual_of_me` practice detail). All reports were generated against `hugo serve`, so networking/caching numbers reflect the development server and not the production deployment.
 
 ### Score snapshot
 | Page | Perf | A11y | Best | SEO | Notes |
@@ -213,7 +213,7 @@ This transition directly addresses the current smells (invalid nesting, duplicat
 - **Practice detail** — The “Manual of me” page inherits all global issues plus `link-name` failures for the breadcrumb/back button inside `layouts/partials/single/sidebar.html`. When adjusting nav labels, include sidebar close buttons (`data-feather="x"`).
 
 ### WONTFIX (desktop, `hugo serve` only)
-- **`bf-cache` (WebSocket)** — Dev server injects LiveReload via WebSocket, blocking back/forward cache. Production builds served from Netlify don’t open sockets, so mark as `WONTFIX – dev tooling artifact`.
+- **`bf-cache` (WebSocket)** — Dev server injects LiveReload via WebSocket, blocking back/forward cache. Production builds served from static hosting won’t open sockets, so mark as `WONTFIX – dev tooling artifact`.
 - **`uses-text-compression`, `uses-long-cache-ttl`, `cache-insight`, `document-latency-insight`, `font-display-insight` entries referencing `http://localhost:1313/css/*.css` and `livereload.js`** — All triggered because Hugo’s dev server disables compression/caching and streams the livereload script. Re-run Lighthouse against the production host before spending time on CDN/header tweaks. `WONTFIX – local server characteristics`.
 
 ### Action plan
@@ -246,9 +246,81 @@ These actions stay within the existing SCSS pipeline described in `assets/README
   ```
   This catches template warnings, missing translations, and link rot during CI instead of relying on manual `hugo serve`.
 - **Node hook** — In `validation/package.json`, add a script entry `"test:hugo": "bash scripts/run-hugo-tests.sh"` and expose a meta-script `"test": "npm run lint && npm run test:hugo"` so Cypress/emulated Lighthouse runs can execute after Hugo verifies content integrity.
-- **CI wiring** — Update the GitHub Actions (or Netlify prebuild hook) to call `npm run test:hugo` before Lighthouse/visual tests. This ensures template regressions, missing sections, and broken links are blocked in the same pipeline that already contains Cypress tooling inside `validation/`.
+- **CI wiring** — Update GitHub Actions (or whichever CI pipeline) to call `npm run test:hugo` before Lighthouse/visual tests. This ensures template regressions, missing sections, and broken links are blocked in the same pipeline that already contains Cypress tooling inside `validation/`.
 
 #### ESLint / Stylelint rules
 - **ESLint scope** — Reuse the `validation` workspace to manage JS linting. Install `eslint`, `eslint-config-standard`, `eslint-plugin-import`, `eslint-plugin-node`, and `eslint-plugin-promise` as devDependencies; create `validation/.eslintrc.cjs` with `root: true`, `env: { browser: true, es2021: true }`, and target `static/js/**/*.js`, `assets/**/*.js`, and Cypress specs. Add `"lint:js": "eslint static/js assets/**/*.js validation/cypress/**/*.ts"` to `validation/package.json`.
 - **Stylelint scope** — At the repo root (where SCSS lives), add a tiny `package.json` with `stylelint`, `stylelint-config-standard-scss`, and `stylelint-config-prettier`, or extend the `validation` package if we prefer a single workspace. Create `.stylelintrc.json` at the root (see previous recommendation) and a script `"lint:css": "stylelint 'assets/styles/**/*.scss'"`.
 - **Unified command** — Wire a top-level `npm run lint` inside `validation/package.json` to call both `lint:js` and `lint:css` (the latter via `npm run --prefix .. lint:css` if CSS linting lives at the repo root). This keeps every lint/test entry under the existing `validation/` automation umbrella, so CI and contributors can run `npm run lint && npm run test:hugo` before pushing changes.
+
+#### Self-hosted perf & smoke tests
+- **Sitespeed.io stack** — Leverage `validation/containers/sitespeed_compose.yml` to spin up Grafana + Graphite locally or in CI (`docker compose -f validation/containers/sitespeed_compose.yml up -d grafana graphite`). This stores long-lived metrics while still running on developer hardware.
+- **Reusable npx entrypoint** — Add `validation/sitespeed.config.js` (or similar) with target URLs (local preview + production) and command flags (Chrome headless, number of runs, budgets). Then create an npm script:  
+  `"perf:sitespeed": "npx sitespeed.io --config validation/sitespeed.config.js"`  
+  This works locally (point at `http://localhost:1313` after `hugo server` or `hugo --baseURL`) and in CI (point at the deployed URL for the PR preview or production).
+- **Lighthouse CLI** — Complement Sitespeed with `npx lighthouse` runs:  
+  `"perf:lighthouse": "npx lighthouse https://patterns.sddevelopment.be --preset=desktop --only-categories=performance,accessibility --output=json --output-path=validation/reports/lighthouse-desktop.json"`  
+  Add a second script for mobile. Because Lighthouse ships via npm, the same command runs locally, inside GitHub Actions, or as a post-deploy smoke test (hit production URL).
+- **Cypress integration** — Keep Cypress under `validation/cypress/` for functional flows. Expose `"test:smoke": "npm run perf:lighthouse && npm run perf:sitespeed && npx cypress run --config-file cypress.config.js"`. The combined script becomes the single entrypoint for local smoke tests, CI build validation, and post-deploy verification.
+- **GitHub workflow** — In GitHub Actions, structure jobs as: install deps → `npm run lint` → `npm run test:hugo` → `npm run test:smoke`. The identical `npx` commands can also run locally or in any other CI runner, keeping all environments consistent without SaaS dependencies.
+
+#### Spellchecking hooks
+- **codespell** — Lightweight and fast; install via `pipx install codespell` or add to `validation/requirements.txt`. Create a config listing allowed project-specific terms (e.g., “pragmatic”, “sddevelopment”). Add an npm script `"lint:spelling": "codespell --config validation/codespell.toml content/ data/ README.md"`. Runs quickly locally and in CI.
+- **cspell** — NPM-based and integrates with existing JS tooling. Add `cspell.config.yaml` (include dictionaries for software terms) and script `"lint:spelling": "npx cspell --no-must-find-files '**/*.{md,mdx,scss,ts,js}'"`. Supports custom dictionaries committed under `validation/dictionaries/`. Choose whichever ecosystem fits contributor tooling; both can coexist if needed.
+
+#### Markdown/Hugo linting options
+- **remark-lint (preferred)** — Provides extensible Markdown linting with plugins that understand Hugo front matter and shortcodes. Setup:
+  1. Install `remark-cli`, `remark-preset-lint-consistent`, `remark-frontmatter`, `remark-gfm`, and `remark-shortcodes`.
+  2. Create `remark-config.mjs`:
+     ```js
+     import remarkPreset from 'remark-preset-lint-consistent';
+     import remarkFrontmatter from 'remark-frontmatter';
+     import remarkGfm from 'remark-gfm';
+     import remarkShortcodes from 'remark-shortcodes';
+
+     export default {
+       plugins: [
+         remarkPreset,
+         [remarkFrontmatter, ['toml', 'yaml']],
+         remarkGfm,
+         [remarkShortcodes, {start: '{{<', end: '>}}'}]
+       ]
+     };
+     ```
+  3. Add script `"lint:md": "npx remark --frail 'content/**/*.md'"`. The shortcodes plugin preserves `{{< shortcode >}}` blocks, while `remark-frontmatter` ensures TOML headers aren’t treated as prose.
+- **markdownlint-cli2** — Optionally run alongside remark for simpler style rules (headings, spacing, code fences). Configuration lives in `.markdownlint.jsonc`. Add script `"lint:markdownlint": "npx markdownlint-cli2 '**/*.md'"`.
+- **Vale** — Natural-language linter with reusable style guides; catches tone/style regressions in Markdown/Hugo content. Config via `vale.ini`, dictionaries under `styles/`. Integrates with CI via `vale sync` and `vale .`.
+- **Hugo-specific checks** — `hugo --templateMetricsHints`, `hugo --printUnusedTemplates`, and `hugo --panicOnWarning` already planned in the test harness; for deeper linting, consider [`hugo-lint`](https://github.com/peaceiris/actions-hugo/tree/main/hugo-lint) or [`weasyprint` link checking], but the built-in `hugo check --internal-links --external-links --missing` plus markdownlint/Vale cover most content issues without extra tooling.
+
+### Implementation plan: npx-based CI stack
+1. **Repository scripts**
+   - Create `package.json` entries (root or `validation/`) for:
+     - `lint:css` (stylelint)
+     - `lint:js` (eslint)
+     - `lint:md` (remark)
+     - `lint:spell` (vale + quick pass codespell or cspell)
+     - `test:hugo` (wrapper script running `hugo --gc --minify --panicOnWarning` + `hugo check`)
+     - `perf:lighthouse`, `perf:sitespeed`, and `test:cypress`
+     - Aggregate commands: `npm run lint` (parallel/sequential lint tasks) and `npm run test:smoke` (Lighthouse + Sitespeed + Cypress)
+2. **Config assets**
+   - Add config files referenced above (`.stylelintrc.json`, `.eslintrc.cjs`, `remark-config.mjs`, `cspell.config.yaml`/`codespell.toml`, `validation/sitespeed.config.js`, `validation/scripts/run-hugo-tests.sh`).
+   - Ensure each config respects Hugo front matter/shortcodes and shared SCSS tokens (`assets/styles/_settings.scss`).
+3. **Containerized perf stack**
+   - Check `validation/containers/sitespeed_compose.yml` into version control (already present) and add docs/Make target to start/stop Graphite+Grafana when running Sitespeed locally.
+   - Provide example budget files (e.g., `validation/sitespeed.budgets.json`) to flag regressions automatically.
+4. **GitHub Actions workflow**
+   - Add `.github/workflows/ci.yml` with jobs:
+     1. `setup` → checkout repo, cache npm/pip deps, install Hugo extended.
+     2. `lint` → run `npm run lint`.
+     3. `hugo-test` → `npm run test:hugo`.
+     4. `smoke` → build site, start `docker compose` (Graphite/Grafana), run `npm run test:smoke`.
+   - Pipeline jobs only run on PRs to `main` or `develop` branches, or on `develop` branch pushes (non-PR)
+   - Ensure the pipeline is fast-failing: if lint fails, skip Hugo tests; if Hugo tests fail, skip smoke tests.
+   - Set the pipeline as inactive, only triggering on demand until the initial setup is verified.
+   - Upload Lighthouse/Sitespeed reports as artifacts for manual review.
+5. **Local developer ergonomics**
+   - Document a `make test` (or `npm run test:all`) entry that sequentially runs lint, Hugo tests, and smoke tests.
+   - Include instructions for optional shortcuts: `npm run test:smoke -- --url=http://localhost:1313` for pre-commit validation; `docker compose down -v` cleanup.
+6. **Post-deploy smoke tests**
+   - Provide a script `scripts/smoke-prod.sh` that accepts a base URL (e.g., GitHub Pages, production host) and invokes `npm run perf:lighthouse -- --url=$BASE` plus `npm run perf:sitespeed -- --config=...`.
+   - Integrate with release pipeline or manual checklist so every deploy gets repeatable verification without relying on external SaaS.

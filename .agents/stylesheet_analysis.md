@@ -172,3 +172,83 @@ This transition directly addresses the current smells (invalid nesting, duplicat
    - For experiments, prefer feature flags plus dedicated SCSS files to keep the production payload lean.
 
 ✅ Context captured — ready for further validation or follow-up analysis.
+
+---
+
+## Lighthouse desktop QA (2025-11-10)
+
+**Scope** — Reviewed the desktop-mode Lighthouse JSON dumps under `docs/lighthouse/` (`MAINPAGE`, listing pages for Books/Glossary/Practices/Primers, and the `Manual_of_me` practice detail). All reports were generated against `hugo serve`, so networking/caching numbers reflect the development server and not Netlify.
+
+### Score snapshot
+| Page | Perf | A11y | Best | SEO | Notes |
+| --- | --- | --- | --- | --- | --- |
+| Home | 0.89 | 0.85 | 1.00 | 0.92 | LCP 2.2 s, multiple a11y blockers |
+| Practices index | 0.77 | 0.86 | 1.00 | 0.92 | CLS spikes during nav render |
+| Manual of Me | 0.72 | 0.88 | 1.00 | 0.92 | Same structural issues as listing |
+| Glossary | 0.73 | 0.85 | 1.00 | 0.92 | `<title>` and heading-order failures |
+| Primers | 0.75 | 0.86 | 1.00 | 0.92 | Identical nav/link contrast problems |
+| Books | 0.70 | 0.85 | 1.00 | 0.92 | Worst CLS due to long card grid |
+
+### Cross-page findings & feasibility
+1. **Empty `<title>` tags (score = 0 across every page)**  
+   - The rendered HTML in `public/index.html` shows `<title></title>` even though `config.yaml` defines `title: Pragmatic Penguin Patterns`. The culprit is likely a theme/head partial that renders `{{ or .Page.Title .Site.Title }}` before `.Site.Title` is set in the fresh theme context. Fixing the partial (or setting `.Title` in `layouts/_default/baseof.html`) is a **high-feasibility** change touching one template, and it closes the Lighthouse a11y and SEO warnings simultaneously.
+2. **Navigation contrast + accessible names**  
+   - Audit `color-contrast` flags every `.navbar-item` because the Bulma “secondary” link color (`#999` on white) only yields a 2.84 ratio. Update `assets/styles/domains/custom.scss` to use the same dark blue palette already defined in `_settings.scss`.  
+   - `link-name` shows the brand link (`.navbar-item` with logo) plus the GitHub/LinkedIn icons lack discernible text. A hidden `<span class="sr-only">` or `aria-label` per anchor is enough. Both fixes are **low-effort SCSS/HTML edits**.
+3. **Heading order breaks (score = 0)**  
+   - Example: section titles jump from `<h2>` to `<h1>` or `<h3>` without a sequential structure (see `section#section2` subtitle flagged in `lighthouse_MAINPAGE…`). Standardize headings in the landing partials so sections use `h2` followed by `h3`, and ensure detail pages only expose one `h1`. This is a **moderate** markup pass across `layouts/partials/section*.html`.
+4. **Hero and feature images drive LCP & unsized-image issues**  
+   - LCP is the hero SVG (`images/pattern_portfolio.svg`, 1.1 MB) which is lazily loaded and lacks `width`/`height`. Removing `loading="lazy"` from the LCP candidate, adding `fetchpriority="high"`, and inlining `width`/`height` constraints are straightforward.  
+   - Feature art like `sense_making_meta_model.webp` currently serves the same full-size asset to every breakpoint. Use Hugo’s `resources.Get` + `Resize` inside the partial to generate real `srcset`s (tie back into the workflow described in `assets/README.md`). Both tasks are **medium effort** because they touch multiple partials but don’t require new tooling.
+5. **Layout shift spikes**  
+   - `layout-shifts` shows the Bulma navbar and cloned sticky navbar cause most CLS (scores up to 0.77 on Books). Two root causes: fonts swap late (custom `literta`/`d-din` declarations omit `font-display`) and the JS-driven navbar clones inject DOM without reserving space. Add `font-display: swap` to the custom `@font-face` blocks in `assets/styles/domains/custom.scss`, and replace the JS clone with a pure CSS sticky nav or pre-size the clone container (`min-height`) to eliminate jumps. This is **medium feasibility** because it needs both CSS and minor JS surgery.
+6. **Legacy JavaScript + render-blocking requests**  
+   - Every page loads `https://unpkg.com/feather-icons@4.29.2/dist/feather.min.js` even though only `layouts/partials/single/sidebar.html` uses one `data-feather` icon. Self-host the icon sprite or swap in inline SVGs to drop the external dependency, removing ~10 KiB of legacy JS and a blocking request. Also consider deferring the FontAwesome kit (`static/js/23575b1502.js`) since it contributes to render delay. **Feasibility: high** once we decide which icon set is canonical.
+7. **CSS bloat and duplicated blocking stylesheets**  
+   - `unused-css-rules` reports ~297 KiB of unused rules, mainly from the upstream `style.css` shipped by the theme. Now that our canonical sources live under `assets/styles/domains/` (see `assets/README.md`), we can progressively migrate Bulma overrides into the custom bundles and stop shipping the monolithic `style.min.*`. This is a **larger project** but aligns with the roadmap already outlined earlier in this file: migrate components, drop the theme CSS, and let Hugo Pipes fingerprint only the bundles we actually need.
+
+### Page-specific observations
+- **Books** — Highest CLS because the long cards list loads imagery without fixed dimensions. Prioritize width/height on `.book-card` thumbnails and consider paginating or virtualizing the list.
+- **Glossary & Primers** — Both highlight heading-order and `<title>` gaps; once the head partial is fixed, double-check that taxonomy list templates set `title` in front matter (currently blank in several `_index.md` files).
+- **Practice detail** — The “Manual of me” page inherits all global issues plus `link-name` failures for the breadcrumb/back button inside `layouts/partials/single/sidebar.html`. When adjusting nav labels, include sidebar close buttons (`data-feather="x"`).
+
+### WONTFIX (desktop, `hugo serve` only)
+- **`bf-cache` (WebSocket)** — Dev server injects LiveReload via WebSocket, blocking back/forward cache. Production builds served from Netlify don’t open sockets, so mark as `WONTFIX – dev tooling artifact`.
+- **`uses-text-compression`, `uses-long-cache-ttl`, `cache-insight`, `document-latency-insight`, `font-display-insight` entries referencing `http://localhost:1313/css/*.css` and `livereload.js`** — All triggered because Hugo’s dev server disables compression/caching and streams the livereload script. Re-run Lighthouse against the production host before spending time on CDN/header tweaks. `WONTFIX – local server characteristics`.
+
+### Action plan
+1. **Semantic & a11y hardening (short-term)**  
+   - Patch the head partial so `<title>` always resolves to `.Site.Title` + `.Title`.  
+   - Update nav/footer anchors with accessible text and fix heading hierarchy within `section*.html`, `layouts/practices/list.html`, and taxonomy templates.  
+   - Adjust the nav color tokens in `assets/styles/domains/custom.scss` to meet 4.5:1 contrast.
+2. **Hero/media performance (short-term)**  
+   - Remove `loading="lazy"` from the hero LCP image, add `fetchpriority="high"`, explicit `width`/`height`, and `decoding="async"`.  
+   - Use Hugo image processing in the hero/feature partials to ship responsive `srcset`s for `sense_making_meta_model` and other large art; align with the workflow already documented in `assets/README.md`.
+3. **Layout stability (mid-term)**  
+   - Add `font-display: swap` to the custom `literta`/`d-din` faces and preload whichever font the nav uses first.  
+   - Replace the JS navbar clone with CSS `position: sticky` or pre-sized placeholder to stop CLS spikes on long scrolling pages (Books/Glossary).
+4. **JS and CSS hygiene (mid-term)**  
+   - Remove the remote Feather Icons script by inlining the close icon SVG or bundling it locally; defer the FontAwesome kit or scope it to pages that need icons.  
+   - Continue migrating away from the theme’s `style.css` to the scoped SCSS bundles so we can delete the unused 280 KiB stylesheet and satisfy `unused-css-rules`.
+5. **Verification loop**  
+   - After applying the above, rerun Lighthouse against the production domain (desktop + mobile) to validate caching/compression assumptions and capture any residual issues not observable on `hugo serve`.
+
+These actions stay within the existing SCSS pipeline described in `assets/README.md` and mainly require partial/SCSS edits—no tooling changes beyond what is already in place.
+
+### Additional QOL changes
+#### Hugo test harness
+- **Wrapper script** — Add `validation/scripts/run-hugo-tests.sh` that runs the full production build plus integrity checks in one place:
+  ```bash
+  #!/usr/bin/env bash
+  set -euo pipefail
+  hugo --gc --minify --buildDrafts=false --panicOnWarning --templateMetricsHints --printI18nWarnings
+  hugo check --internal-links --external-links --missing --verbose
+  ```
+  This catches template warnings, missing translations, and link rot during CI instead of relying on manual `hugo serve`.
+- **Node hook** — In `validation/package.json`, add a script entry `"test:hugo": "bash scripts/run-hugo-tests.sh"` and expose a meta-script `"test": "npm run lint && npm run test:hugo"` so Cypress/emulated Lighthouse runs can execute after Hugo verifies content integrity.
+- **CI wiring** — Update the GitHub Actions (or Netlify prebuild hook) to call `npm run test:hugo` before Lighthouse/visual tests. This ensures template regressions, missing sections, and broken links are blocked in the same pipeline that already contains Cypress tooling inside `validation/`.
+
+#### ESLint / Stylelint rules
+- **ESLint scope** — Reuse the `validation` workspace to manage JS linting. Install `eslint`, `eslint-config-standard`, `eslint-plugin-import`, `eslint-plugin-node`, and `eslint-plugin-promise` as devDependencies; create `validation/.eslintrc.cjs` with `root: true`, `env: { browser: true, es2021: true }`, and target `static/js/**/*.js`, `assets/**/*.js`, and Cypress specs. Add `"lint:js": "eslint static/js assets/**/*.js validation/cypress/**/*.ts"` to `validation/package.json`.
+- **Stylelint scope** — At the repo root (where SCSS lives), add a tiny `package.json` with `stylelint`, `stylelint-config-standard-scss`, and `stylelint-config-prettier`, or extend the `validation` package if we prefer a single workspace. Create `.stylelintrc.json` at the root (see previous recommendation) and a script `"lint:css": "stylelint 'assets/styles/**/*.scss'"`.
+- **Unified command** — Wire a top-level `npm run lint` inside `validation/package.json` to call both `lint:js` and `lint:css` (the latter via `npm run --prefix .. lint:css` if CSS linting lives at the repo root). This keeps every lint/test entry under the existing `validation/` automation umbrella, so CI and contributors can run `npm run lint && npm run test:hugo` before pushing changes.

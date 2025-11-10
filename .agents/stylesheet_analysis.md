@@ -128,8 +128,8 @@
 3. **Compile via Hugo Pipes**
    - Update `partials/css.html` to iterate over a list of SCSS entry files, run `resources.ToCSS`, and (when not in server mode) `minify | fingerprint` each bundle. This retains per-domain downloads while delivering automatic hashing/cache busting.
 4. **Update templates**
-   - Replace the series of `partial "stylesheet.html"` includes with a single link to the compiled `site.css`. Keep section-specific classes unchanged so content stays stable.
-   - Remove the dead `css/icons.css` include and conditionally include `visualization.css` only when the feature flag is enabled.
+   - Replace the hard-coded `<link>` list with a loop that emits one tag per compiled domain bundle (custom, patterns, glossary, toc, images, etc.), preserving the existing load order but pointing at Hugo-generated assets.
+   - Remove the dead `css/icons.css` include and conditionally emit the visualization bundle only when the feature flag is enabled.
 5. **Clean up artifacts**
    - Delete legacy `.min.css` files once the pipeline emits compressed output.
    - Add linting (`stylelint` or `sass-lint`) to catch future nesting/config mistakes.

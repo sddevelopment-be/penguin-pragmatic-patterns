@@ -29,6 +29,7 @@ Any feedback or suggestions for changes can be submitted there.
 
 ### Added
 
+- New programming primer: [Perl Primer](/programming_primers/perl) - Comprehensive guide to modern Perl development covering language philosophy, syntax, tooling (perlbrew, cpanm, Carton), testing frameworks, and programming idioms (OO with Moose, functional, imperative) using a TODO application domain
 - New practice: [Transform Drudgery into Dojo](/practices/76a4e67f-a28f-454e-8fd2-e389d5e93075)
 - Glossary entries for *Gamification* and *Team morale* to support new practice metadata
 - Glossary expansions supporting practice tagging: *Decision-making*, *Evaluation*, *Conversation*, *Emotional Intelligence*, *Empathy*, *Interpersonal Skills*, *Relationships*, *Understanding*, *Goals*, *Pivotting*, *Elegance*, *KISS*, *YAGNI*, *Interviewing*, *Assessments*

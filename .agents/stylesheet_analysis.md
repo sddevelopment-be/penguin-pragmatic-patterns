@@ -98,6 +98,25 @@
 
 ---
 
+### Variant: per-domain SCSS via Hugo assets (best of both worlds)
+
+- **Viability** — Hugo Pipes happily compiles multiple SCSS entry points. Each domain stylesheet (patterns, glossary, toc, etc.) can live under `assets/styles/domains/<name>.scss`, import shared tokens from `assets/styles/_settings.scss`, and then be compiled + fingerprinted individually inside `partials/css.html`.
+- **Mechanics** — Replace the static `<link>` tags with a helper that:
+  ```go-html-template
+  {{ $shared := resources.Get "styles/_settings.scss" }}
+  {{ range $entry := slice "domains/custom.scss" "domains/patterns.scss" "domains/glossary.scss" }}
+    {{ $scss := resources.Get (printf "styles/%s" $entry) | resources.ToCSS (dict "enableSourceMap" $inServerMode) }}
+    {{ $css  := cond $inServerMode $scss ($scss | minify | fingerprint) }}
+    <link rel="preload" href="{{ $css.RelPermalink }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="{{ $css.RelPermalink }}" {{ if not $inServerMode }}integrity="{{ $css.Data.Integrity }}"{{ end }}></noscript>
+  {{ end }}
+  ```
+  Each compiled asset keeps its own hash, so browsers only download what changes.
+- **Benefits** — Maintains locality (patterns styles live near their templates), preserves smaller downloads for pages that only need a subset, and still eliminates the hand-managed `.min.css` files. Contributors edit per-domain SCSS files but inherit shared tokens/mixins from `_settings.scss`.
+- **Considerations** — Need to document naming so partials know which SCSS bundles to include. For alpha sections (visualizations) we can guard the inclusion with config flags (`if .Site.Params.visualizations.alpha`). The only runtime cost is a few extra Hugo pipeline executions during build, which is negligible for ~10 bundles.
+
+---
+
 ## Remediation path (proposal)
 
 1. **Establish SCSS sources**

@@ -1,7 +1,6 @@
 title: Pragmatic Penguin Patterns
 baseURL: "localhost:1313"
 
-
 module:
   imports:
     path: github.com/StefMa/hugo-fresh
@@ -80,7 +79,7 @@ params:
   - title: Practices
     url: /practices/
   - title: Primers
-    url: /programming_primers/
+    url: /primers/
   - title: Resources
     sublinks:
       - title: Glossary
@@ -150,10 +149,10 @@ params:
     links:
       - text: Concepts
         link: "/concepts"
-#      - text: Pillars
-#        link: "/pillars"
       - text: Practices
         link: "/practices"
+      - text: Primers
+        link: "/primers"
 
   footer:
     # Logo (from /images/logos/___)
@@ -180,7 +179,7 @@ params:
           - text: Concepts
             link: /concepts
           - text: Primers
-            link: /programming_primers/
+            link: /primers
       column2:
         title: "Resources"
         links:
@@ -262,6 +261,8 @@ languages:
           url: /nl/concepts/
         - title: Methodes
           url: /nl/practices/
+        - title: Introducties
+          url: /nl/primers/
         - title: Hulpmiddelen
           sublinks:
             - title: Woordenlijst

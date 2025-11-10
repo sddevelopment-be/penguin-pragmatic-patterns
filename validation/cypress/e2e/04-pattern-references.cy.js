@@ -161,7 +161,7 @@ describe('Pattern Reference Sections', () => {
         .should('have.attr', 'href')
         .then((href) => {
           // Verify the href is a valid URL structure
-          expect(href).to.match(/\/concepts\/|\/practices\/|\/books\/|\/programming_primers\//)
+          expect(href).to.match(/\/concepts\/|\/practices\/|\/books\/|\/primers\//)
         })
     })
 
@@ -175,7 +175,7 @@ describe('Pattern Reference Sections', () => {
         .first()
         .should('have.attr', 'href')
         .then((href) => {
-          expect(href).to.match(/\/practices\/|\/concepts\/|\/books\/|\/programming_primers\//)
+          expect(href).to.match(/\/practices\/|\/concepts\/|\/books\/|\/primers\//)
         })
     })
   })

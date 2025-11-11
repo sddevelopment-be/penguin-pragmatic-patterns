@@ -1,0 +1,46 @@
+# Contextive Glossary: Personality Psychology
+# Auto-generated from data/glossary.toml
+# Domain: personality psychology
+# Terms: 1
+#
+# This file provides IDE integration for ubiquitous language terms.
+# See https://docs.contextive.tech for more information.
+
+contexts:
+- name: Personality Psychology
+  domainVisionStatement: This domain encompasses specialized terminology and concepts
+    used in professional practice.
+  meta:
+    👥 Owner: Patterns Team
+  terms:
+  - name: Myers–Briggs Type Indicator
+    definition: 'A psychological framework based on Carl Jung''s theories of personality
+      types, categorising individuals along four dimensions: Extraversion–Introversion,
+      Sensing–Intuition, Thinking–Feeling, and Judging–Perceiving.
+
+      The resulting 16 personality types aim to describe cognitive preferences and
+      behavioural tendencies. Often used in team building, coaching, and self-awareness
+      contexts --- though its scientific validity is unconfirmed.
+
+
+      **Use with caution!** While the theory is widely popular, it can be dangerous
+      to use it as a definitive measure of personality. Personality indicators are
+      best used as a tool for self-reflection and understanding, rather than as a
+      rigid classification system.'
+    aliases:
+    - MBTI
+    - Jungian personality types
+    - Myers-Briggs
+    examples:
+    - 'See: [MBTI](https://en.wikipedia.org/wiki/Myers%E2%80%93Briggs_Type_Indicator)
+      for more details.'
+    - 'See: [16 Personalities Test](https://www.16personalities.com/) for more details.'
+    - 'See: [Take the MBTI® Instrument](https://www.myersbriggs.org/my-mbti-personality-type/take-the-mbti-instrument/)
+      for more details.'
+    - 'See: [How thousands of companies ended up using a bogus psychology test on
+      their staff](https://www.independent.co.uk/voices/myers-briggs-psychology-test-garbage-b2200663.html)
+      for more details.'
+    - 'See: [What You Don''t Know about This Personality Test Can Hurt You ](https://www.psychologytoday.com/us/blog/fulfillment-at-any-age/201401/what-you-dont-know-about-this-personality-test-can-hurt-you)
+      for more details.'
+    - 'See: [DISC Assessment](https://en.wikipedia.org/wiki/DISC_assessment) for more
+      details.'

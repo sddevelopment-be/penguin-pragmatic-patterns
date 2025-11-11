@@ -1,0 +1,86 @@
+# Contextive Glossary: Communication
+# Auto-generated from data/glossary.toml
+# Domain: communication
+# Terms: 7
+#
+# This file provides IDE integration for ubiquitous language terms.
+# See https://docs.contextive.tech for more information.
+
+contexts:
+- name: Communication
+  domainVisionStatement: Effective communication enables collaboration and shared
+    understanding across teams and stakeholders.
+  meta:
+    👥 Owner: Patterns Team
+  terms:
+  - name: Asynchronous Communication
+    definition: Asynchronous communication refers to interactions where participants
+      engage in communication without requiring all parties to be present simultaneously.
+      This form of communication allows for flexibility in timing and location, enabling
+      individuals to send and receive messages at different times. Examples of asynchronous
+      communication include emails, text messages, and discussion boards.
+    examples:
+    - 'See: [Microsoft Architecure Pages: Asynchronous Message Based Communication](https://learn.microsoft.com/en-us/dotnet/architecture/microservices/architect-microservice-container-applications/asynchronous-message-based-communication)
+      for more details.'
+  - name: Bottom Line Up Front
+    definition: A communication strategy where the main conclusion or most important
+      point is stated at the beginning of the message. Common in military, executive,
+      and high-stakes contexts where fast clarity is critical.
+    aliases:
+    - start with why
+    - bottom line up front
+    - lead with impact
+    - BLUF
+    examples:
+    - 'See: [How to write Email with military precision](https://hbr.org/2016/11/how-to-write-email-with-military-precision)
+      for more details.'
+    - 'See: [BLUF: The military standard that can make your writing more powerful](https://www.animalz.co/blog/bottom-line-up-front/)
+      for more details.'
+  - name: Conversation
+    definition: A conversation is an interactive exchange where people share information,
+      perspectives, and emotions in real time. High-quality conversations balance
+      speaking and listening so all parties feel heard and can co-create new understanding.
+    aliases:
+    - dialogue
+    - discussion
+  - name: Empathy
+    definition: Empathy is the ability to perceive and appreciate another person’s
+      feelings, experiences, or perspectives. It requires curiosity and presence,
+      going beyond sympathy to connect with what someone else may be living through.
+    aliases:
+    - compassionate understanding
+  - name: Jargon
+    definition: 'The specialized language of a trade, profession, or similar group,
+      especially when viewed as difficult to understand
+
+      by outsiders."_. Its goal is to make the exchange of information more efficient
+      by giving specific names to things that
+
+      are relevant to the in-group. It is said that the Inuit have over thirty words
+      to differentiate between different types
+
+      of snow. Other professions, such as software developers, strongly rely on metaphors
+      to refer to technical concepts.'
+    aliases:
+    - lingo
+  - name: Nonviolent Communication
+    definition: 'A structured approach to communication developed by Marshall Rosenberg
+      that fosters empathy, mutual understanding, and conflict resolution.
+
+      NVC separates observation from judgment, expresses feelings and needs, and makes
+      clear, respectful requests, rather than demands or accusations.'
+    aliases:
+    - NVC
+    - compassionate communication
+    examples:
+    - 'See: [Nonviolent Communication: A Language of Life](https://www.goodreads.com/book/show/71730.Nonviolent_Communication)
+      for more details.'
+    - 'See: [Center for Nonviolent Communication](https://www.cnvc.org/) for more
+      details.'
+  - name: Understanding
+    definition: Understanding is the mental process of accurately grasping the meaning,
+      intent, or significance of information shared by others. It demands attention,
+      context, and clarification so that what is heard aligns with what was meant.
+    aliases:
+    - comprehension
+    - grasp

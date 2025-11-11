@@ -1,0 +1,22 @@
+# Contextive Glossary: Leadership
+# Auto-generated from data/glossary.toml
+# Domain: leadership
+# Terms: 1
+#
+# This file provides IDE integration for ubiquitous language terms.
+# See https://docs.contextive.tech for more information.
+
+contexts:
+- name: Leadership
+  domainVisionStatement: This domain encompasses specialized terminology and concepts
+    used in professional practice.
+  meta:
+    👥 Owner: Patterns Team
+  terms:
+  - name: Decision-making
+    definition: Decision-making is the deliberate process of selecting a course of
+      action from several possibilities. It blends data, experience, and stakeholder
+      input to choose a path that advances shared objectives while managing risk.
+    aliases:
+    - decision taking
+    - choosing options

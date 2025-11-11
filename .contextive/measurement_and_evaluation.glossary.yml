@@ -1,0 +1,24 @@
+# Contextive Glossary: Measurement & Evaluation
+# Auto-generated from data/glossary.toml
+# Domain: measurement & evaluation
+# Terms: 1
+#
+# This file provides IDE integration for ubiquitous language terms.
+# See https://docs.contextive.tech for more information.
+
+contexts:
+- name: Measurement & Evaluation
+  domainVisionStatement: This domain encompasses specialized terminology and concepts
+    used in professional practice.
+  meta:
+    👥 Owner: Patterns Team
+  terms:
+  - name: metrics
+    definition: Quantitative indicators used to track performance, progress, or system
+      behavior. While metrics can support decision-making and alignment, they often
+      become counterproductive when used as proxies for complex goals — particularly
+      when incentives or evaluation criteria are tied too closely to them (see Goodhart’s
+      Law).
+    aliases:
+    - quantitative indicators
+    - performance metrics

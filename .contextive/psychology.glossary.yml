@@ -1,0 +1,76 @@
+# Contextive Glossary: Psychology
+# Auto-generated from data/glossary.toml
+# Domain: psychology
+# Terms: 5
+#
+# This file provides IDE integration for ubiquitous language terms.
+# See https://docs.contextive.tech for more information.
+
+contexts:
+- name: Psychology
+  domainVisionStatement: Understanding human behavior and cognition improves collaboration
+    and decision-making.
+  meta:
+    👥 Owner: Patterns Team
+  terms:
+  - name: Big Five Personality Traits
+    definition: 'A widely accepted model in personality psychology that describes
+      human personality through five broad dimensions:
+
+      Openness, Conscientiousness, Extraversion, Agreeableness, and Neuroticism (OCEAN).
+      Unlike many typologies, the Big Five is based on empirical research and sees
+      traits as spectrums rather than categories.'
+    aliases:
+    - OCEAN model
+    - Five Factor Model
+    examples:
+    - 'See: [Big Five Personality Traits](https://en.wikipedia.org/wiki/Big_Five_personality_traits)
+      for more details.'
+  - name: Cognitive Bias
+    definition: 'A **cognitive bias** is an _“error in thinking”_ that affects how
+      we perceive the world, make decisions, and interact with others. Biases are
+
+      systematic patterns of deviation from norm or rationality in judgment, where
+      individuals create their own subjective reality from their perception of the
+
+      input. These biases often stem from the brain''s attempt to simplify information
+      processing, leading to errors in decision-making and judgment.'
+    aliases:
+    - error in thinking
+    - bias
+    - preconception
+  - name: HEXACO Personality Model
+    definition: 'An extension of the Big Five model that adds a sixth factor: Honesty-Humility.
+      The HEXACO model captures traits across six domains: Honesty-Humility, Emotionality,
+      eXtraversion, Agreeableness, Conscientiousness, and Openness. It emphasizes
+      ethical behavior and social deviance more explicitly than OCEAN-based models.'
+    aliases:
+    - six-factor personality model
+    examples:
+    - 'See: [HEXACO Personality Inventory](https://hexaco.org/) for more details.'
+  - name: Maslow’s hierarchy of needs
+    definition: 'A motivational theory proposing that human needs are structured in
+      a five-level hierarchy: physiological needs, safety, love and belonging, esteem,
+      and self-actualization. The theory suggests that basic needs must be met before
+      individuals can pursue higher-level psychological growth and fulfilment. Often
+      used in education, coaching, and workplace wellbeing.'
+    aliases:
+    - Maslow’s pyramid
+    - needs hierarchy
+    - human motivation
+    examples:
+    - 'See: [A Theory of Human Motivation](https://psychclassics.yorku.ca/Maslow/motivation.htm)
+      for more details.'
+    - 'See: [Maslow’s Hierarchy of Needs](https://en.wikipedia.org/wiki/Maslow%27s_hierarchy_of_needs)
+      for more details.'
+  - name: Selective Perception
+    definition: 'The tendency not to notice, and more quickly forget, events and data
+      that do not align with our expectations.
+
+      This bias is a common psychological phenomenon, and is often used to explain
+      why people tend to ignore or forget
+
+      information that contradicts their current beliefs or causes emotional discomfort.'
+    aliases:
+    - Situational blindness
+    - Perceptual defense

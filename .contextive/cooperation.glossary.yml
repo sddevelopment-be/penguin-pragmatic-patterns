@@ -1,0 +1,26 @@
+# Contextive Glossary: Cooperation
+# Auto-generated from data/glossary.toml
+# Domain: cooperation
+# Terms: 1
+#
+# This file provides IDE integration for ubiquitous language terms.
+# See https://docs.contextive.tech for more information.
+
+contexts:
+- name: Cooperation
+  domainVisionStatement: This domain encompasses specialized terminology and concepts
+    used in professional practice.
+  meta:
+    👥 Owner: Patterns Team
+  terms:
+  - name: objection
+    definition: 'An **objection** is an argument - related to a proposal, existing
+      agreement, or activity being conducted by one or more members of the organization
+      -
+
+      that reveals consequences or risks that are preferably avoided for the organization,
+      or that demonstrates worthwhile ways to improve the proposal, agreement, or
+      activity.'
+    examples:
+    - 'See: [Sociocracy 3.0](https://sociocracy30.org/resources/#se-practical-guide)
+      for more details.'

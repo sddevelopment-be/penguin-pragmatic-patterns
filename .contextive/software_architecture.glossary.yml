@@ -1,0 +1,23 @@
+# Contextive Glossary: Software Architecture
+# Auto-generated from data/glossary.toml
+# Domain: software architecture
+# Terms: 1
+#
+# This file provides IDE integration for ubiquitous language terms.
+# See https://docs.contextive.tech for more information.
+
+contexts:
+- name: Software Architecture
+  domainVisionStatement: This domain encompasses specialized terminology and concepts
+    used in professional practice.
+  meta:
+    👥 Owner: Patterns Team
+  terms:
+  - name: Value Stream
+    definition: A Value Stream is a sequence of interrelated activities and processes
+      that collectively enable an organization to deliver its core products or services.
+      Drawing on concepts from frameworks such as ArchiMate and SAFe, it represents
+      the flow of value from the initial request or input through to the final delivery,
+      ensuring that every step contributes to the organization’s strategic objectives.
+      This holistic view helps identify inefficiencies, optimize workflows, and continuously
+      enhance the overall effectiveness of business operations.

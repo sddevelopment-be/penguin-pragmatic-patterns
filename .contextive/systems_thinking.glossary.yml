@@ -1,0 +1,30 @@
+# Contextive Glossary: Systems Thinking
+# Auto-generated from data/glossary.toml
+# Domain: systems thinking
+# Terms: 1
+#
+# This file provides IDE integration for ubiquitous language terms.
+# See https://docs.contextive.tech for more information.
+
+contexts:
+- name: Systems Thinking
+  domainVisionStatement: This domain encompasses specialized terminology and concepts
+    used in professional practice.
+  meta:
+    👥 Owner: Patterns Team
+  terms:
+  - name: Causal Loop Diagram
+    definition: A causal loop diagram is a visual representation of the feedback loops
+      within a system, illustrating how various elements interact and influence each
+      other over time. It consists of nodes (variables) and arrows (causal links)
+      that show the relationships between these variables, highlighting the reinforcing
+      and balancing feedback loops that drive system behavior. Causal loop diagrams
+      are used in systems thinking and dynamic modeling to understand complex systems,
+      identify leverage points, and predict system behavior under different conditions.
+    examples:
+    - 'See: [Guidelines for Drawing Causal Loop Diagram](https://www.cs.toronto.edu/~sme/SystemsThinking/GuidelinesforDrawingCausalLoopDiagrams.pdf)
+      for more details.'
+    - 'See: [Business Dynamics: Systems Thinking and Modeling for a Complex World](https://www.goodreads.com/book/show/39736248-business-dynamics)
+      for more details.'
+    - 'See: [Thinking in Systems: A Primer](https://www.goodreads.com/book/show/3828902-thinking-in-systems)
+      for more details.'

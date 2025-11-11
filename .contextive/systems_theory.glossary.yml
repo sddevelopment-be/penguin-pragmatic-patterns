@@ -1,0 +1,26 @@
+# Contextive Glossary: Systems Theory
+# Auto-generated from data/glossary.toml
+# Domain: systems theory
+# Terms: 1
+#
+# This file provides IDE integration for ubiquitous language terms.
+# See https://docs.contextive.tech for more information.
+
+contexts:
+- name: Systems Theory
+  domainVisionStatement: This domain encompasses specialized terminology and concepts
+    used in professional practice.
+  meta:
+    👥 Owner: Patterns Team
+  terms:
+  - name: Complexity
+    definition: 'Complexity refers to the state or quality of a system or environment
+      that has multiple interconnected and interdependent parts, making it difficult
+
+      to predict outcomes or behaviors. In a business or organizational context, it
+      often involves dealing with uncertainty, ambiguity, and dynamic
+
+      interactions.'
+    aliases:
+    - intricacy
+    - complicatedness

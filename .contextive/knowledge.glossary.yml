@@ -1,0 +1,33 @@
+# Contextive Glossary: Knowledge
+# Auto-generated from data/glossary.toml
+# Domain: knowledge
+# Terms: 1
+#
+# This file provides IDE integration for ubiquitous language terms.
+# See https://docs.contextive.tech for more information.
+
+contexts:
+- name: Knowledge
+  domainVisionStatement: This domain encompasses specialized terminology and concepts
+    used in professional practice.
+  meta:
+    👥 Owner: Patterns Team
+  terms:
+  - name: Subject Matter Expert
+    definition: 'A Subject Matter Expert (SME) is an individual with deep knowledge
+      and expertise in a particular area, subject, or domain. SMEs are often called
+
+      upon to provide specialized insight and guidance in their area of expertise,
+      making them invaluable resources in project development, training, and
+
+      decision-making processes. They play a critical role in knowledge sharing, ensuring
+      that accurate and relevant information is communicated within
+
+      organizations.'
+    aliases:
+    - Domain Expert
+    - Specialist
+    - SME
+    examples:
+    - 'See: [The SME role explained](https://www.responsive.io/blog/sme-role/) for
+      more details.'

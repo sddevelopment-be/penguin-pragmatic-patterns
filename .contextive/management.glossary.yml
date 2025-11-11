@@ -1,0 +1,24 @@
+# Contextive Glossary: Management
+# Auto-generated from data/glossary.toml
+# Domain: management
+# Terms: 1
+#
+# This file provides IDE integration for ubiquitous language terms.
+# See https://docs.contextive.tech for more information.
+
+contexts:
+- name: Management
+  domainVisionStatement: Management practices guide effective leadership and organizational
+    coordination.
+  meta:
+    👥 Owner: Patterns Team
+  terms:
+  - name: Key Performance Indicator
+    definition: Key Performance Indicators (KPIs) are quantifiable metrics used to
+      evaluate the success of an organization, project, or individual in achieving
+      specific objectives. KPIs are typically aligned with strategic goals and provide
+      a clear, measurable indication of performance. They help organizations track
+      progress, identify areas for improvement, and make informed decisions based
+      on data-driven insights.
+    aliases:
+    - KPI

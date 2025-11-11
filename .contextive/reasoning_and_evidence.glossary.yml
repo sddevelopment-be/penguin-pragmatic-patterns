@@ -1,0 +1,24 @@
+# Contextive Glossary: Reasoning And Evidence
+# Auto-generated from data/glossary.toml
+# Domain: reasoning and evidence
+# Terms: 1
+#
+# This file provides IDE integration for ubiquitous language terms.
+# See https://docs.contextive.tech for more information.
+
+contexts:
+- name: Reasoning And Evidence
+  domainVisionStatement: This domain encompasses specialized terminology and concepts
+    used in professional practice.
+  meta:
+    👥 Owner: Patterns Team
+  terms:
+  - name: Rebutability
+    definition: The quality of a claim or conclusion that makes it open to challenge
+      or disproof. Rebuttable statements are grounded in specific evidence or measurement,
+      making them falsifiable and useful in decision-making.
+    aliases:
+    - falsifiability
+    - challengeability
+    examples:
+    - 'Reference: Turn the Ship Around'

@@ -1,0 +1,592 @@
+# Contextive Glossary: Software
+# Auto-generated from data/glossary.toml
+# Domain: software
+# Terms: 66
+#
+# This file provides IDE integration for ubiquitous language terms.
+# See https://docs.contextive.tech for more information.
+
+contexts:
+- name: Software
+  domainVisionStatement: Professional software development aims to solve human problems
+    by leveraging technological solutions.
+  meta:
+    👥 Owner: Patterns Team
+  terms:
+  - name: Application Programming Interface
+    definition: 'Specifies a set of software functions that are made available to
+      an application programmer.
+
+      The API typically includes function names, the parameters that can be passed
+      into each function, and a
+
+      description of the return values one can expect.'
+    aliases:
+    - API
+    examples:
+    - 'See: [IBM: What is an API?](https://www.ibm.com/topics/api) for more details.'
+  - name: Architecture
+    definition: Architecture defines the high-level structure and guiding principles
+      of a system. It spotlights the decisions that are hard to reverse and communicates
+      how components collaborate to deliver value.
+    aliases:
+    - software architecture
+  - name: Asymmetric clustering
+    definition: 'One machine is in hot-standby mode and does nothing by monitor the
+      other.
+
+      In case of failure, the hot-standby takes over.'
+    aliases:
+    - failover configuration
+  - name: Asymmetric multiprocessing
+    definition: 'Each processor is assigned to a single task.
+
+      One processor is called the _master (or main) processor_, and controls the system.'
+  - name: Asynchronous cancellation
+    definition: 'Cancellation of a target thread that immediately terminates it.
+
+      (e.g. Unix'' `kill -9 $PID` command)'
+  - name: Bootstrap program
+    definition: An initial program, usually stored on ROM or EEPROM memory, to initialize
+      all aspects of the system.
+    aliases:
+    - bootloader
+  - name: Bounded buffer
+    definition: A type of buffer uses with shared memory IPC. Bounded buffers can
+      only use a fixed amount of memory space.
+  - name: Boyscout rule
+    definition: 'The base premise of the Boyscout rule is that if everyone leaves
+      their environment a little bit better than it was when they found it, eventually
+      it
+
+      will flourish. The term originates from the handbook of the Boyscouts of America,
+      where it was phrased slightly differently to apply mostly to campsites.
+
+      In software development, the phrase is commonly used to entice programmers to
+      clean up their own messes and the messes that were left behind by
+
+      their predecessors. This relates strongly to the broken window theory.'
+  - name: Broken window theory
+    definition: 'A theory originating from the domain of criminology. The idea being
+      that if an environment is
+
+      already decayed, people have less ethical problems with making it worse. In
+      the original criminological experiment from the 1990s, researchers measured
+      how long it took for a building to be completely vandalized after
+
+      breaking a single window. Psychologist believe that outward signs of neglect
+      make us feel that no one cares about the object in question, hence we
+
+      are not likely to care for it either.'
+    examples:
+    - 'See: [wikipedia article](https://en.wikipedia.org/wiki/Broken_windows_theory)
+      for more details.'
+  - name: CPU scheduling information
+    definition: 'Information related to task-scheduling on the processor. Usually
+      includes `process priority`, `pointers to scheduling queues`, as well as
+
+      architecture specific information.'
+  - name: Caching
+    definition: 'The storing of information on a faster, smaller storage system than
+      the main memory bank where the data originates from.
+
+      Cache management is highly important due to the limited size of the faster storage
+      medium. There are different levels
+
+      of cache-memory, indicating the memory''s proximity to the CPU (lower == closer).
+      As the distance to the CPU increases, so does the available memory space of
+      the cache.'
+  - name: Cascading termination
+    definition: Some systems terminate all the child processes when they terminate
+      the parent process. This is called 'cascading termination'.
+  - name: Clean Code
+    definition: 'Clean code refers to code that is easy to understand, maintain, and
+      extend. It is written in a way that clearly communicates its intent, making
+      it
+
+      accessible to other developers and to the original author when revisiting the
+      code after some time. Clean code minimizes complexity and avoids
+
+      unnecessary clutter.'
+    examples:
+    - 'See: [Extreme Programming Explained: Embrace Change](https://www.goodreads.com/book/show/67833.Extreme_Programming_Explained)
+      for more details.'
+    - 'See: [Refactoring: Improving the Design of Existing Code](https://www.goodreads.com/book/show/18624706-refactoring)
+      for more details.'
+    - 'See: [Clean Code: A Handbook of Agile Software Craftsmanship](https://www.goodreads.com/book/show/3735293-clean-code)
+      for more details.'
+  - name: Code Review
+    definition: 'Code review is a software development practice where developers review
+      each other’s code to ensure high quality and alignment with project goals.
+
+      This process involves reading through the code to identify bugs, suggest structural
+      improvements, and enhance readability.
+
+      Code reviews can be conducted in person or remotely using specialized software
+      tools. A key metric for code reviews is a decrease in defects,
+
+      achieved by catching low-quality work early and fostering better coding practices.
+      Additionally, developers benefit from code reviews by learning
+
+      new techniques and approaches, promoting continuous learning and collaboration
+      within the team.'
+    aliases:
+    - ' four-eyes principle'
+    - peer review
+  - name: Comma-separated values
+    definition: A commonly used file format to represent tabular data. These files
+      usually start with a line denoting the names of the columns. Each subsequent
+      line is considered to be a data row.
+    aliases:
+    - CSV
+  - name: Command Line Interface.
+    definition: A textual user interface, allowing for system interaction solely through
+      text-based instructions and feedback.
+    aliases:
+    - terminal
+    - shell
+    - CLI
+  - name: Communication programs
+    definition: 'These programs provide the mechanism for creating virtual connections
+      among processes, users, and computer systems. They
+
+      allow users to send messages to other screens, to browse web pages, to send
+      electronic-mail messages, to log in
+
+      remotely or to transfer files from one machine to another.'
+  - name: Context switching
+    definition: 'In computer science: A state save of the current process and the
+      state restore of a different process, when a swap occurs.'
+  - name: Control card
+    definition: 'A batch system concept. This is a command to manage the execution
+      of a process (start, stop, interrupts, ...). It can
+
+      be used to distinct between different error levels, and severity of instructions.'
+  - name: Control program
+    definition: A control program manages the execution of user programs to prevent
+      errors and improper use of the computer.
+  - name: Conway's Law
+    definition: 'Melvin Conway wrote: __''Any organization that designs a system (defined
+      broadly) will produce a design whose structure
+
+      is a copy of the organization''s communication structure''__. The law originates
+      from the observation that software is built by teams of people who are organized
+      in a specific way. In order to build software effectively,
+
+      these groups must work together to achieve their shared goal. Therefore, the
+      software produced by these teams will invariably
+
+      resemble the structure of the teams themselves.
+
+      As an example, a company with two separate teams working for different departments
+      (invoicing and sales) will likely produce software that
+
+      is divided into two separate modules, one for invoicing and one for sales. These
+      modules will probably interact with each other along pre-defined interfaces.
+
+      Much like the teams interact with each other along pre-defined communication
+      channels. If the teams are working in isolation, the software will likely be
+      built in a similar way,
+
+      with the two modules being designed in a way that allows them to be deployed
+      and changed as independently as possible.'
+    examples:
+    - 'See: [Conway''s Law on wikipedia](https://en.wikipedia.org/wiki/Conway%27s_law)
+      for more details.'
+    - 'See: [Fowler on Conway''s Law](https://martinfowler.com/bliki/ConwaysLaw.html)
+      for more details.'
+  - name: Debugger
+    definition: 'A program to help the user find and correct defects in their program.
+
+      The term _"bug"_ originates from one of the original calculation machines at
+      the IBM labs. Notoriously, one of their
+
+      calculations misbehaved, and the researches were unable to find a logical error
+      in their work.
+
+      It had turned out an insect wandered into the machinery and disrupted its proper
+      execution.
+
+      To fix their calculation, one of the researchers had to physically rid the machine
+      of pesky "bugs",
+
+      hence coining the phrase _"debugging the system"_.'
+  - name: Deferred cancellation
+    definition: 'Thread cancellation style, in which the target thread is gracefully
+      shut down. The target thread periodically checks whether it should/can
+
+      terminate, allowing it an opportunity to terminate itself in an orderly fashion.
+      By doing this, it can release any held system resources, and
+
+      cascade the shutdown command to its children.'
+  - name: Deprecated methods
+    definition: 'Methods that are still implemented in the current API, but are marked
+      for removal in the future.
+
+      Reliance on these methods is generally discouraged.'
+  - name: Desiderata
+    definition: '(singular: Desideratum) Latin for "the things we want". Occasionally
+      used in software development and program management to make a clear
+
+      distinction between a "requirement" and a "desired result". Whereas requirements
+      define the minimum acceptable qualities of a result,
+
+      approximating our desiderata is often sufficient to call our efforts a success.'
+    aliases:
+    - requirements
+    - desires
+    - wishes
+  - name: Design
+    definition: Design decides how parts of a system fit together to solve a problem
+      within given constraints. Good design balances clarity, flexibility, and cost
+      so the system remains understandable when change arrives.
+    aliases:
+    - system design
+  - name: Direct Memory Access
+    definition: 'A specific way of organizing memory on a computer system. After setting
+      up buffers,
+
+      pointers, and counters for the I/O device, the device controller transfers an
+      entire block of data directly to or from
+
+      its on-buffer storage to memory, with no intervention by the CPU. Only one interrupt
+      is generated per block to tell the
+
+      device driver that the operation has completed, rather than the one interrupt
+      per byte generated by low-speed devices.
+
+      While the device controller is performing those operations, the CPU is available
+      to accomplish other work.'
+    aliases:
+    - DMA
+  - name: Direct communication
+    definition: 'A type of message-passing system, where each process that wishes
+      to communicate with another must explicitly name the recipient or sender of
+      the
+
+      communication.'
+  - name: Dispatch latency
+    definition: The time it takes to stop one process and start another one.
+  - name: Dispatch latency
+    definition: The time it takes to stop one process and start another one.
+  - name: Distributed lock manager.
+    definition: A function that ensures that no conflicting operations occur in clustered
+      systems.
+    aliases:
+    - DLM
+  - name: Documentation
+    definition: Documentation is the process of creating, maintaining, and storing
+      written records of a project's development, including requirements, design,
+      implementation, testing, and maintenance. It serves as a reference for developers,
+      stakeholders, and users, ensuring that everyone involved in the project has
+      access to accurate and up-to-date information about the system's functionality
+      and structure.
+    aliases:
+    - Project Documentation
+    - Technical Documentation
+    examples:
+    - 'See: [The Importance of Documentation in Software Development](https://www.atlassian.com/software/documentation)
+      for more details.'
+  - name: Domain Driven Design
+    definition: 'Domain-Driven Design is a set of principles and schemes aimed at
+      creating optimal systems of objects. Reduced to the
+
+      creation of software abstractions, which are called models of subject areas.
+      These models include business logic that
+
+      establishes a link between the real conditions of the products'' application
+      area and the code.
+
+      <br />
+
+      <br />
+
+      Domain-Driven Design is about creating shared understanding of the problem space.
+      This shared understanding is reinforced ubiquitously via conversations,
+
+      code and diagrams. DDD’s Shared understanding enhances synergy and alignment,
+      increasing the ability to deliver value sustainably — ideally over the lifetime
+      of a product.'
+    aliases:
+    - DDD
+  - name: Domain Specific Language
+    definition: 'A specialized programming language intended to be used in a specific
+      business context.
+
+      Usually a bespoke language, developed to fit the business context. These languages
+      are created to serve as shorthand for common operations within a
+
+      business environment (e.g. configuration, creation of new CRUD endpoints, etc.).
+      As a higher-order language, DSLs are generally built on top of
+
+      existing powerful language stacks, such as Kotlin, Java, Rust, and Typescript.
+
+      You might see them as specialist programming interfaces, written in such a way
+      that most of the boilerplate and ceremony can be avoided.'
+    aliases:
+    - DSL
+  - name: Elegance
+    definition: Elegance describes solutions that deliver the required outcome with
+      minimal complexity. Elegant code favours clarity, proportion, and purpose so
+      future contributors can understand and extend it quickly.
+    aliases:
+    - simplicity
+    - graceful design
+  - name: Fail Early
+    definition: The "fail early" principle emphasizes the importance of detecting
+      failures at the earliest possible point in the delivery chain. This approach
+      means that when a defect or issue arises—whether in the design, coding, or testing
+      phase—the process is structured to immediately flag the problem and halt further
+      progression until it is addressed. By doing so, resources are not wasted on
+      subsequent processes built on faulty assumptions, and remediation is more cost-effective
+      and efficient.
+    examples:
+    - 'See: [SDD Patterns: Fail Fast](https://patterns.sddevelopment.be/practices/fail_fast/)
+      for more details.'
+  - name: Fault-tolerant systems
+    definition: Systems that can suffer a failure but continue to work nonetheless.
+  - name: File management
+    definition: Programs that create, delete, copy, rename, print, dump, list, and
+      generally manipulate files and directories.
+  - name: First come, first served
+    definition: 'A scheduling algorithm: the first process that requests a system
+      resource will get priority over the others.'
+    aliases:
+    - FCFS
+  - name: Fizz Buzz
+    definition: 'Fizz Buzz is a children''s game well known to software developers,
+      as it is commonly used as a training exercise or interview question.
+
+      The aim is to write a program that counts to a given number. When the current
+      count is divisible by 3, the program should print out `Fizz` rather
+
+      than the current count. When the current count is divisible by 5, it should
+      print out `Buzz`. When divisible by both, we expect `Fizz Buzz`.
+
+      The Fizz Buzz exercise aims to gauge basic programming aptitude, such as the
+      use of loops and accumulators.'
+    examples:
+    - 'See: [coding dojo FizzBuzz description](https://codingdojo.org/kata/FizzBuzz/)
+      for more details.'
+  - name: Fluent API
+    definition: 'In software engineering, a fluent interface is an object-oriented
+      API whose design relies extensively on method chaining. Its goal is to increase
+
+      code legibility by creating a domain-specific language. The term was coined
+      in 2005 by Eric Evans and Martin Fowler.'
+    aliases:
+    - chainable methods
+  - name: Graceful degradation
+    definition: The ability to continue providing service proportional to the level
+      of surviving hardware in the event of a system failure.
+  - name: Graphical User Interface
+    definition: 'A user interface that enables human-to-machine interaction using
+      visual iconography that is
+
+      more complex than its purely textual CLI alternative.'
+    aliases:
+    - GUI
+  - name: Heap
+    definition: 'Block of memory that is dynamically allocated during process run
+      time. The heap is usually linked to a specific
+
+      execution environment or process. In certain programming languages, this memory
+      is also referred to as "the stack".'
+    aliases:
+    - stack
+  - name: Indirect communication
+    definition: 'A message passing system, in which processes send messages to mailboxes,
+      or ports, rather than to a directly addressed recipient.
+
+      (as opposed to direct communication)'
+  - name: Integrated Development Environment
+    definition: 'An application that helps you to develop software, by combining useful
+      features and libraries into one single
+
+      application. These IDEs usually allow you to run your tests and code without
+      needing to leave the comfort of your
+
+      development environment.'
+    aliases:
+    - IDE
+  - name: Inter-process communication
+    definition: 'A mechanism for passing information and data between cooperating
+      processes. There are two fundamental
+
+      models:
+
+
+      * **shared memory**: a region of memory is established for the processes to
+      use
+
+      * **message passing**: the communication takes place through passing messages
+      between the processes.'
+    aliases:
+    - IPC
+  - name: Just In Time compiler
+    definition: 'A compiler that turns the architecture-neutral byte code into native
+      machine language for the
+
+      host computer, only when it is needed for execution. An example can be found
+      in the Java programming language, which
+
+      uses a virtual machine to translate its source code into machine executable
+      instructions.'
+    aliases:
+    - JIT compiler
+  - name: KISS
+    definition: KISS stands for “Keep It Simple, Stupid” — a design principle that
+      encourages building the simplest solution that fulfils the requirement. It reminds
+      teams that unnecessary complexity rarely pays off.
+    aliases:
+    - Keep It Simple
+  - name: Layered approach
+    definition: 'A method to make the operating system more modular. The OS is broken
+      up into several layers (as in _"layers of a
+
+      cake"_), each of which performing a specific function.
+
+      The bottom-most layer is said to be the hardware, the top-most layer the user
+      interface. Intermediary layers can be
+
+      added as needed. Within a layered approach, any layer consumes services from
+      the layer _below_ it and offers services to
+
+      the one above. Effectively stacking functionality on top of each other.'
+  - name: Natural order
+    definition: 'Elements of a collection (a list, array, ...) having a relationship
+      that allows them to be sorted.
+
+      Mathematically speaking, elements of these collections are said to form a `linearly
+      bi-ordered group`.
+
+      A group G is said to be linearly ordered, if and only if it is equipped with
+      a total order `<=` that is translation-invariant.
+
+      <br /><br />
+
+      In software development, we use this group property in order to sort collections
+      according to a specific order-function.
+
+      Examples include: "is larger than", "is smaller than", "Alphabetical order of
+      first letter", etc.'
+    examples:
+    - 'See: [Linearly ordered group, wikipedia](https://en.wikipedia.org/wiki/Linearly_ordered_group)
+      for more details.'
+  - name: Non-Preemptive scheduling
+    definition: 'Scheduling that takes place, only when a process switches from running
+      to waiting state, or when a process terminates.
+
+      In contrast, pre-emptive scheduling can interrupt a process while it is running.'
+  - name: Programming
+    definition: Programming is the act of designing and implementing instructions
+      a computer can execute. It blends problem decomposition, abstraction, and tooling
+      to turn ideas into working software.
+    aliases:
+    - software development
+  - name: Python
+    definition: 'Python is a high-level, general-purpose programming language that
+      emphasizes code readability and developer productivity.
+
+      It features a dynamic type system, automatic memory management, and a comprehensive
+      standard library that supports multiple programming paradigms including procedural,
+      object-oriented, and functional programming.'
+    aliases:
+    - python programming language
+    examples:
+    - 'See: [Python Official Documentation](https://docs.python.org/3/) for more details.'
+    - 'See: [The Zen of Python (PEP 20)](https://peps.python.org/pep-0020/) for more
+      details.'
+  - name: Readability
+    definition: Readability describes how easily other people can follow a piece of
+      code or documentation. High readability reduces cognitive load, shortens reviews,
+      and lowers the risk of bugs when changes are made.
+    aliases:
+    - code clarity
+  - name: Refactoring
+    definition: The process of rewriting software, without changing the way it functions,
+      in order to improve its readability, testability or maintainability.
+    examples:
+    - 'See: [Refactoring: Improving the Design of Existing Code](https://www.goodreads.com/book/show/18624706-refactoring)
+      for more details.'
+  - name: Release Management
+    definition: Release management is the process of planning, scheduling, and controlling
+      the build, testing, and deployment of software releases. It ensures that software
+      is reliably released into production, minimizing risks and maximizing efficiency
+      by coordinating the various stages and teams involved in the release process.
+    examples:
+    - 'See: [Release Management Best Practices](https://www.atlassian.com/software/jira/release-management)
+      for more details.'
+  - name: Response time
+    definition: 'The time it takes from the submission of a request until the first
+      result is produced.
+
+      In specific software development niches, the response time is commonly divided
+      into multiple subcategories, as results are produced incrementally.
+
+
+      As an example, loading a modern web page requires multiple steps, such as loading
+      the HTML, CSS, and JavaScript files, authentication, and backend data retrieval.
+
+      This results in a significant difference between the time it takes to load the
+      first byte of the HTML file, and the time it takes to render the entire page.
+
+      What is more, web developers tend to invest into making their partially loaded
+      pages useable for the site''s visitor, even if all the data is not present yet.
+
+      This response time is known as "time to interactive".'
+    aliases:
+    - Load time
+    - Render time
+    - Time to interactive
+    - First input delay
+  - name: Throughput
+    definition: The amount of processes that are completed per unit of time.
+  - name: Trade-off
+    definition: 'A trade-off in software architecture is a conscious choice that balances
+      competing priorities — like `performance versus maintainability` or `speed to
+      market versus long-term scalability`.
+
+      By selecting one approach, you gain certain benefits but often sacrifice others.
+      Hence: _''trading off one property for another''_. Recognizing and documenting
+      these decisions ensures that the team understands the rationale behind the chosen
+      path and can adapt if priorities change.'
+    examples:
+    - 'See: [Wikipedia: Software Architecture Trade-offs](https://en.wikipedia.org/wiki/Architecture_tradeoff_analysis_method)
+      for more details.'
+  - name: Turnaround time
+    definition: The interval of time counted from the moment of submission of a process
+      to the time of completion.
+  - name: Version Control
+    definition: Version control is the practice of managing and tracking changes to
+      software code, documents, and other project artifacts over time. It allows teams
+      to collaborate effectively, maintain a history of changes, and revert to previous
+      versions if necessary, ensuring that work is not lost and that changes are made
+      in a controlled and transparent manner.
+    aliases:
+    - Source Control
+    - Revision Control
+    - VC
+    examples:
+    - 'See: [Version Control Systems](https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control)
+      for more details.'
+  - name: Waiting time
+    definition: The sum of the periods processes spend waiting in the ready queue.
+  - name: YAGNI
+    definition: YAGNI — “You Aren’t Gonna Need It” — cautions developers against implementing
+      capabilities before they are required. It keeps focus on current needs to avoid
+      wasted effort and latent defects.
+  - name: log
+    definition: 'A log is a structured record of events emitted by a system or process.
+      Logs provide a chronological trail of what happened, when it happened, and
+
+      often include contextual metadata to support auditing, debugging, and operational
+      analysis.'
+    aliases:
+    - Logging
+    - Event Log
+  - name: traceability
+    definition: 'Traceability links requirements, decisions, and artifacts across
+      the software lifecycle so that teams can follow how and why a system evolved.
+
+      It enables impact analysis, compliance audits, and confident change management.'

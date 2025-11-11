@@ -1,0 +1,26 @@
+# Contextive Glossary: Communication Psychology
+# Auto-generated from data/glossary.toml
+# Domain: communication psychology
+# Terms: 1
+#
+# This file provides IDE integration for ubiquitous language terms.
+# See https://docs.contextive.tech for more information.
+
+contexts:
+- name: Communication Psychology
+  domainVisionStatement: This domain encompasses specialized terminology and concepts
+    used in professional practice.
+  meta:
+    👥 Owner: Patterns Team
+  terms:
+  - name: Cold Reading
+    definition: A technique used to make high-probability guesses about someone’s
+      background or personality without prior knowledge, often by observing cues and
+      using general statements. Common in pseudoscience and performance (e.g. psychics,
+      mediums), cold reading exploits confirmation bias and the Barnum Effect to appear
+      insightful or prophetic.
+    aliases:
+    - psychic reading
+    - persuasive guessing
+    examples:
+    - 'See: [Cold Reading](https://en.wikipedia.org/wiki/Cold_reading) for more details.'

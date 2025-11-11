@@ -1,0 +1,43 @@
+# Contextive Glossary: Personal Development
+# Auto-generated from data/glossary.toml
+# Domain: personal development
+# Terms: 3
+#
+# This file provides IDE integration for ubiquitous language terms.
+# See https://docs.contextive.tech for more information.
+
+contexts:
+- name: Personal Development
+  domainVisionStatement: This domain encompasses specialized terminology and concepts
+    used in professional practice.
+  meta:
+    👥 Owner: Patterns Team
+  terms:
+  - name: Emotional Intelligence
+    definition: Emotional intelligence is the capacity to recognise, understand, and
+      manage your own emotions while responding effectively to the emotions of others.
+      It blends self-awareness, empathy, and regulation to maintain constructive relationships
+      under pressure.
+    aliases:
+    - EQ
+    - emotional maturity
+  - name: Reflection
+    definition: Reflection is the deliberate act of reviewing experiences to extract
+      insight, validate assumptions, and adapt future behaviour. Regular reflection
+      strengthens learning loops and clarifies priorities.
+    aliases:
+    - self-reflection
+    - introspection
+  - name: Self-actualization
+    definition: The process of realising and expressing one's full potential, talents,
+      and creativity. Often considered the highest level of psychological development,
+      self-actualization occurs when basic needs have been met and individuals pursue
+      purpose, meaning, and personal growth. Associated with autonomy, authenticity,
+      and intrinsic motivation.
+    aliases:
+    - self-fulfilment
+    - personal growth
+    - realising potential
+    examples:
+    - 'See: [Maslow’s Hierarchy of Needs](https://en.wikipedia.org/wiki/Maslow%27s_hierarchy_of_needs)
+      for more details.'

@@ -1,0 +1,20 @@
+# Contextive Glossary: Security
+# Auto-generated from data/glossary.toml
+# Domain: security
+# Terms: 1
+#
+# This file provides IDE integration for ubiquitous language terms.
+# See https://docs.contextive.tech for more information.
+
+contexts:
+- name: Security
+  domainVisionStatement: Security practices protect systems, data, and users from
+    threats and vulnerabilities.
+  meta:
+    👥 Owner: Patterns Team
+  terms:
+  - name: Non-Repudiation
+    definition: Non-repudiation is a principle that ensures a party cannot deny the
+      authenticity of their signature or the sending and receiving of a message, often
+      achieved through digital signatures and cryptography. It provides proof of the
+      origin and integrity of data, making it crucial in legal and digital communications.

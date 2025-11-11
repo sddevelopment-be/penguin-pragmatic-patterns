@@ -1,0 +1,24 @@
+# Contextive Glossary: Professional Growth
+# Auto-generated from data/glossary.toml
+# Domain: professional growth
+# Terms: 1
+#
+# This file provides IDE integration for ubiquitous language terms.
+# See https://docs.contextive.tech for more information.
+
+contexts:
+- name: Professional Growth
+  domainVisionStatement: This domain encompasses specialized terminology and concepts
+    used in professional practice.
+  meta:
+    👥 Owner: Patterns Team
+  terms:
+  - name: mentorship
+    definition: A developmental relationship in which a more experienced individual
+      supports the learning, confidence, and capability-building of a less experienced
+      peer. Mentorship can be formal or informal and often includes guidance, encouragement,
+      and honest reflection. It plays a key role in skill development, knowledge transfer,
+      and shaping professional identity.
+    aliases:
+    - mentoring
+    - coaching relationship

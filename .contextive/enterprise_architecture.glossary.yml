@@ -1,0 +1,34 @@
+# Contextive Glossary: Enterprise Architecture
+# Auto-generated from data/glossary.toml
+# Domain: enterprise architecture
+# Terms: 1
+#
+# This file provides IDE integration for ubiquitous language terms.
+# See https://docs.contextive.tech for more information.
+
+contexts:
+- name: Enterprise Architecture
+  domainVisionStatement: This domain encompasses specialized terminology and concepts
+    used in professional practice.
+  meta:
+    👥 Owner: Patterns Team
+  terms:
+  - name: Organizational Capability
+    definition: 'An organizational capability is a specific ability or capacity that
+      an organization possesses to perform a particular task or function. They are
+
+      realized by various elements of the organization, such as people, processes,
+      and technology. In the field of business, strategic thinking and planning delivers
+      strategies
+
+      and high-level goals that are often not directly implementable in the architecture
+      of an organization. Describing the organization as a set of capabilties,
+
+      enables organizations to reason about their goals and processes in a structured,
+      strategic, manner. This structure can later be used to ensure business capabilities
+      are assigned to organizational units, and people.'
+    aliases:
+    - Capability
+    examples:
+    - 'See: [ArchiMate Reference guide: Strategic Layer](https://pubs.opengroup.org/architecture/archimate32-doc/ch-Strategy-Layer.html)
+      for more details.'

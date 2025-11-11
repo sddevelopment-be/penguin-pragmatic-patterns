@@ -1,0 +1,29 @@
+# Contextive Glossary: Ethics
+# Auto-generated from data/glossary.toml
+# Domain: ethics
+# Terms: 1
+#
+# This file provides IDE integration for ubiquitous language terms.
+# See https://docs.contextive.tech for more information.
+
+contexts:
+- name: Ethics
+  domainVisionStatement: This domain encompasses specialized terminology and concepts
+    used in professional practice.
+  meta:
+    👥 Owner: Patterns Team
+  terms:
+  - name: Accountability
+    definition: 'Accountability refers to the obligation of an individual or organization
+      to take responsibility for their actions, decisions, and outcomes, and to
+
+      transparently report on them. It involves being answerable to stakeholders and
+      accepting the consequences, whether positive or negative, of one''s
+
+      performance or conduct.'
+    aliases:
+    - responsibility
+    - answerability
+    examples:
+    - 'See: [Definition of Accountability](https://www.merriam-webster.com/dictionary/accountability)
+      for more details.'

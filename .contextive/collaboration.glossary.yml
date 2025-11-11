@@ -1,0 +1,66 @@
+# Contextive Glossary: Collaboration
+# Auto-generated from data/glossary.toml
+# Domain: collaboration
+# Terms: 4
+#
+# This file provides IDE integration for ubiquitous language terms.
+# See https://docs.contextive.tech for more information.
+
+contexts:
+- name: Collaboration
+  domainVisionStatement: This domain encompasses specialized terminology and concepts
+    used in professional practice.
+  meta:
+    👥 Owner: Patterns Team
+  terms:
+  - name: Interpersonal Skills
+    definition: Interpersonal skills are the behaviours and techniques that enable
+      people to build rapport, coordinate work, and resolve friction. They include
+      active listening, feedback, and the conscious use of tone and body language.
+    aliases:
+    - people skills
+    - soft skills
+  - name: Relationships
+    definition: Relationships capture the ongoing connections between people or groups.
+      Healthy relationships feature trust, dependable communication, and mutual benefit;
+      fragile ones show misalignment or low psychological safety.
+    aliases:
+    - working relationships
+    - partnerships
+  - name: Team Dynamics
+    definition: 'The patterns of interaction, behavior, and influence between members
+      of a team.
+
+      Team dynamics shape how work is done, how decisions are made, and how conflict
+      or collaboration unfold over time.
+
+      Healthy dynamics foster trust, psychological safety, and effective coordination
+      --- while toxic dynamics can lead to misalignment,
+
+      disengagement, or performance breakdowns.'
+    aliases:
+    - group behavior
+    - team interaction patterns
+    - collaborative dynamics
+    - team culture
+    examples:
+    - 'See: [Team of Teams](https://www.goodreads.com/book/show/22529127-team-of-teams)
+      for more details.'
+    - 'See: [The Five Dysfunctions of a Team](https://www.goodreads.com/book/show/21343.The_Five_Dysfunctions_of_a_Team)
+      for more details.'
+    - 'See: [The Dream Team Nightmare](https://pragprog.com/titles/ptdream/the-dream-team-nightmare/)
+      for more details.'
+  - name: Team morale
+    definition: 'The collective emotional state, motivation, and confidence of a team
+      when pursuing shared goals.
+
+      High morale amplifies engagement, resilience, and willingness to support one
+      another, while low morale erodes focus and productivity.'
+    aliases:
+    - collective spirit
+    - group morale
+    examples:
+    - 'See: [The Importance of Team Morale](https://www.apa.org/news/press/releases/2022/05/workplace-well-being)
+      for more details.'
+    - 'See: [Boosting Team Morale](https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/rewiring-leadership-development)
+      for more details.'

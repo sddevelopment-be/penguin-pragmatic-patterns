@@ -1,0 +1,95 @@
+# Contextive Glossary: Productivity
+# Auto-generated from data/glossary.toml
+# Domain: productivity
+# Terms: 8
+#
+# This file provides IDE integration for ubiquitous language terms.
+# See https://docs.contextive.tech for more information.
+
+contexts:
+- name: Productivity
+  domainVisionStatement: Productivity practices help individuals and teams achieve
+    their goals efficiently and sustainably.
+  meta:
+    👥 Owner: Patterns Team
+  terms:
+  - name: Cold Shelf
+    definition: 'A designated backlog or list where paused, deprioritised, or inactive
+      tasks are temporarily placed.
+
+      The Cold Shelf helps keep current focus areas clean and intentional, without
+      deleting or losing track of tasks that may regain relevance later.
+
+      It serves as a low-friction holding zone for items not currently in motion.'
+    aliases:
+    - paused tasks
+    - task freezer
+    - parking lot
+    - fridge
+  - name: Efficiency
+    definition: 'Efficiency refers to the ability to achieve maximum output with minimum
+      input. It involves optimizing the use of resources (such as time, energy, and
+      materials)
+
+      to accomplish tasks in the most effective and economical manner, thereby reducing
+      waste and increasing overall productivity.'
+    aliases:
+    - Effectiveness
+    - Resource Optimization
+    examples:
+    - 'See: [The Effective Executive by Peter Drucker](https://www.amazon.com/Effective-Executive-Peter-F-Drucker/dp/0060833459)
+      for more details.'
+    - 'See: [The 4-Hour Workweek by Timothy Ferriss](https://www.amazon.com/4-Hour-Workweek-Escape-Live-Anywhere/dp/0307465357)
+      for more details.'
+    - 'See: [The Principles of Scientific Management by Frederick Taylor](https://www.gutenberg.org/ebooks/6435)
+      for more details.'
+    - 'See: [Harvard Business Review - Articles on Productivity](https://hbr.org/search?term=productivity+efficiency)
+      for more details.'
+  - name: Goals
+    definition: Goals express the outcomes a person or team intends to achieve. Good
+      goals clarify scope, success measures, and time horizons so effort can be coordinated
+      and progress evaluated.
+    aliases:
+    - objectives
+    - targets
+  - name: Organizing
+    definition: Organizing arranges commitments, information, and resources so work
+      can advance without friction. It turns scattered intentions into structured
+      plans people can act on.
+    aliases:
+    - organisation
+    - arranging work
+  - name: Prioritization
+    definition: Prioritization is the process of arranging tasks, activities, or projects
+      in order of importance or urgency to ensure that the most critical and impactful
+      work is completed first. It is a key skill in productivity, helping individuals
+      and teams manage time and resources efficiently by focusing on what truly matters
+      and deferring or delegating less critical tasks.
+    aliases:
+    - Task Ranking
+    - Priority Setting
+    examples:
+    - 'See: [Essentialism: The Disciplined Pursuit of Less by Greg McKeown](https://www.amazon.com/Essentialism-Disciplined-Pursuit-Greg-McKeown/dp/0804137382)
+      for more details.'
+    - 'See: [The 7 Habits of Highly Effective People by Stephen R. Covey](https://www.amazon.com/Habits-Highly-Effective-People-Powerful/dp/0743269519)
+      for more details.'
+    - 'See: [Eat That Frog!: 21 Great Ways to Stop Procrastinating and Get More Done
+      in Less Time by Brian Tracy](https://www.amazon.com/Eat-That-Frog-Great-Procrastinating/dp/162656941X)
+      for more details.'
+  - name: Task Management
+    definition: Task management is the practice of capturing, prioritising, and tracking
+      work items from idea to completion. It ensures focus stays on the right commitments
+      and makes progress observable.
+    aliases:
+    - task tracking
+  - name: Time Management
+    definition: Time management coordinates activities within the limited hours available.
+      It blends planning, scheduling, and boundary-setting so important work receives
+      the attention it deserves.
+    aliases:
+    - calendar management
+  - name: tracking
+    definition: 'Tracking is the practice of monitoring work, commitments, or metrics
+      over time. It creates visibility into progress and helps individuals and teams
+
+      adjust their plans based on real data rather than assumptions.'

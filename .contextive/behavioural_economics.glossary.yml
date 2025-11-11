@@ -1,0 +1,25 @@
+# Contextive Glossary: Behavioural Economics
+# Auto-generated from data/glossary.toml
+# Domain: behavioural economics
+# Terms: 1
+#
+# This file provides IDE integration for ubiquitous language terms.
+# See https://docs.contextive.tech for more information.
+
+contexts:
+- name: Behavioural Economics
+  domainVisionStatement: This domain encompasses specialized terminology and concepts
+    used in professional practice.
+  meta:
+    👥 Owner: Patterns Team
+  terms:
+  - name: The Cobra Effect
+    definition: A specific manifestation of perverse incentives where an attempted
+      solution to a problem makes the problem worse. Originates from a colonial anecdote
+      where a bounty for dead cobras led people to breed them for profit.
+    aliases:
+    - Perverse Incentives
+    - incentive failure
+    examples:
+    - 'See: [The Cobra Effect](https://en.wikipedia.org/wiki/Perverse_incentive#The_Cobra_Effect)
+      for more details.'

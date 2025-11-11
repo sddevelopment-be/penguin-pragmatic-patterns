@@ -1,0 +1,26 @@
+# Contextive Glossary: Technical Communication
+# Auto-generated from data/glossary.toml
+# Domain: technical communication
+# Terms: 1
+#
+# This file provides IDE integration for ubiquitous language terms.
+# See https://docs.contextive.tech for more information.
+
+contexts:
+- name: Technical Communication
+  domainVisionStatement: This domain encompasses specialized terminology and concepts
+    used in professional practice.
+  meta:
+    👥 Owner: Patterns Team
+  terms:
+  - name: Segmentation
+    definition: The process of dividing a broader audience into distinct groups based
+      on shared characteristics such as expertise level, interests, or needs. In content
+      strategy, segmentation allows for more targeted communication, ensuring that
+      different user groups receive the most relevant information.
+    aliases:
+    - Audience Segmentation
+    - Market Segmentation
+    examples:
+    - 'See: [Wikipedia: market segmentation](https://en.wikipedia.org/wiki/Market_segmentation)
+      for more details.'

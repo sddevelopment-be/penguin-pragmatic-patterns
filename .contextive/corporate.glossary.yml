@@ -1,0 +1,30 @@
+# Contextive Glossary: Corporate
+# Auto-generated from data/glossary.toml
+# Domain: corporate
+# Terms: 1
+#
+# This file provides IDE integration for ubiquitous language terms.
+# See https://docs.contextive.tech for more information.
+
+contexts:
+- name: Corporate
+  domainVisionStatement: This domain encompasses specialized terminology and concepts
+    used in professional practice.
+  meta:
+    👥 Owner: Patterns Team
+  terms:
+  - name: Offering
+    definition: 'An offering is a project, product or service provided by a business
+      to meet the needs of its customers. It can be tangible, such as a physical
+
+      product, or intangible, such as a service or software solution. Offerings are
+      designed to address specific customer needs or problems and are
+
+      typically marketed and sold to generate revenue. Businesses often differentiate
+      their offerings from competitors through unique features, quality,
+
+      pricing, or customer service. The success of an offering is often measured by
+      customer satisfaction, market share, and financial performance.'
+    aliases:
+    - deliverable
+    - solution

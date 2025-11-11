@@ -1,0 +1,27 @@
+# Contextive Glossary: Organisational Management
+# Auto-generated from data/glossary.toml
+# Domain: organisational management
+# Terms: 1
+#
+# This file provides IDE integration for ubiquitous language terms.
+# See https://docs.contextive.tech for more information.
+
+contexts:
+- name: Organisational Management
+  domainVisionStatement: This domain encompasses specialized terminology and concepts
+    used in professional practice.
+  meta:
+    👥 Owner: Patterns Team
+  terms:
+  - name: Management by Objectives
+    definition: A management approach in which individual, team, and company objectives
+      are clearly defined and used to guide performance and alignment. Typically emphasizes
+      measurable outcomes, accountability, and strategic focus.
+    aliases:
+    - MbO
+    - goal alignment
+    examples:
+    - 'See: [The Practice of Management](/books/06a5cfd2-0204-4199-966e-8a7a4847742a)
+      for more details.'
+    - 'See: [What are Objectives and Key Results (OKRs)?](https://www.ibm.com/think/topics/okrs)
+      for more details.'

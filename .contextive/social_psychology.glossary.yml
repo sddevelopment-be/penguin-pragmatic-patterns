@@ -1,0 +1,26 @@
+# Contextive Glossary: Social Psychology
+# Auto-generated from data/glossary.toml
+# Domain: social psychology
+# Terms: 1
+#
+# This file provides IDE integration for ubiquitous language terms.
+# See https://docs.contextive.tech for more information.
+
+contexts:
+- name: Social Psychology
+  domainVisionStatement: This domain encompasses specialized terminology and concepts
+    used in professional practice.
+  meta:
+    👥 Owner: Patterns Team
+  terms:
+  - name: Labeling Bias
+    definition: The tendency for people’s behavior or identity to be interpreted through
+      the lens of an assigned label, often reinforcing stereotypes and limiting individual
+      growth. Labeling bias can reduce cognitive agency by constraining how others
+      perceive and interact with the labeled person — regardless of nuance or change.
+    aliases:
+    - stereotype reinforcement
+    - identity bias
+    examples:
+    - 'See: [Labeling Theory](https://en.wikipedia.org/wiki/Labeling_theory) for more
+      details.'

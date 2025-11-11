@@ -1,0 +1,107 @@
+# Contextive Glossary: Learning
+# Auto-generated from data/glossary.toml
+# Domain: learning
+# Terms: 8
+#
+# This file provides IDE integration for ubiquitous language terms.
+# See https://docs.contextive.tech for more information.
+
+contexts:
+- name: Learning
+  domainVisionStatement: Learning and knowledge acquisition are essential for professional
+    growth and adaptation.
+  meta:
+    👥 Owner: Patterns Team
+  terms:
+  - name: Gamification
+    definition: 'Applying game design elements such as points, challenges, or levels
+      to non-game contexts to encourage engagement, sustained motivation, and iterative
+      progress.
+
+      In teams, gamification can make routine work feel purposeful by rewarding experimentation
+      and visible wins.'
+    aliases:
+    - game-based motivation
+    examples:
+    - 'See: [Actionable Gamification by Yu-kai Chou](https://yukaichou.com/gamification-examples/octalysis-complete-gamification-framework/)
+      for more details.'
+    - 'See: [Gamification at Work](https://hbr.org/2014/02/how-gamification-motivates-people)
+      for more details.'
+  - name: Intermediate
+    definition: 'Intermediate describes a level of knowledge or skill that falls between
+      beginner and advanced.
+
+      Intermediate learners have grasped fundamental concepts and are ready to tackle
+      more complex problems, nuanced techniques, and real-world applications.'
+    aliases:
+    - mid-level
+    - intermediate level
+  - name: Primer
+    definition: 'A primer is an introductory educational resource that provides foundational
+      knowledge and essential concepts for a particular subject.
+
+      It serves as a starting point for learners, offering concise explanations, key
+      principles, and practical guidance to build competence quickly.'
+    aliases:
+    - introduction
+    - getting started guide
+  - name: Reference
+    definition: 'A reference is a comprehensive informational resource that provides
+      detailed, systematic documentation about a topic.
+
+      Unlike tutorials or guides, references are designed for lookup and consultation,
+      offering authoritative information that practitioners can return to repeatedly.'
+    aliases:
+    - reference material
+    - documentation
+  - name: Strategic Learning
+    definition: Strategic Learning refers to the process of acquiring and applying
+      knowledge in a way that aligns with long-term goals and objectives. It involves
+      continuously learning, adapting, and refining strategies based on experience,
+      feedback, and changing circumstances to ensure that actions taken are effective
+      in achieving desired outcomes.
+    aliases:
+    - Adaptive Learning
+    - Strategic Knowledge Acquisition
+    examples:
+    - 'See: [Strategic Learning: How to Be Smarter Than Your Competition and Turn
+      Key Insights into Competitive Advantage by Willie Pietersen](https://www.amazon.com/Strategic-Learning-Competition-Insights-Advantage/dp/1118163795)
+      for more details.'
+    - 'See: [The Fifth Discipline by Peter Senge](https://www.amazon.com/Fifth-Discipline-Practice-Learning-Organization/dp/0385517254)
+      for more details.'
+    - 'See: [Learning in Action: A Guide to Putting the Learning Organization to Work
+      by David A. Garvin](https://www.amazon.com/Learning-Action-Putting-Organization-Work/dp/1578512514)
+      for more details.'
+  - name: Structured Knowledge Sharing
+    definition: 'Structured Knowledge Sharing is a systematic approach to disseminating
+      expertise within an organization through well-defined, goal-oriented training
+
+      sessions. This practice ensures that critical knowledge is transferred effectively,
+      reducing dependency on a select group of experts and promoting a
+
+      broader understanding across teams.'
+  - name: Systems Thinking
+    definition: Systems Thinking is an approach to understanding and solving complex
+      problems by viewing them as parts of an interconnected whole rather than in
+      isolation. It involves recognizing patterns, relationships, and feedback loops
+      within systems to better anticipate the impact of decisions and actions, thereby
+      enabling more holistic and effective solutions.
+    aliases:
+    - Holistic Thinking
+    - Systems Approach
+    examples:
+    - 'See: [The Fifth Discipline: The Art & Practice of The Learning Organization
+      by Peter Senge](https://www.amazon.com/Fifth-Discipline-Practice-Learning-Organization/dp/0385517254)
+      for more details.'
+    - 'See: [Thinking in Systems: A Primer by Donella H. Meadows](https://www.amazon.com/Thinking-Systems-Donella-H-Meadows/dp/1603580557)
+      for more details.'
+    - 'See: [Systems Thinking For Social Change: A Practical Guide to Solving Complex
+      Problems, Avoiding Unintended Consequences, and Achieving Lasting Results by
+      David Peter Stroh](https://www.amazon.com/Systems-Thinking-Social-Change-Consequences/dp/160358580X)
+      for more details.'
+  - name: remembering
+    definition: 'Remembering is the cognitive ability to recall previously stored
+      information, experiences, or commitments. It underpins reflection, learning,
+      and
+
+      follow-through by keeping past insights available for present decisions.'

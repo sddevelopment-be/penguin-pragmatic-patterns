@@ -1,0 +1,18 @@
+# Contextive Glossary: Computer Networks
+# Auto-generated from data/glossary.toml
+# Domain: computer networks
+# Terms: 1
+#
+# This file provides IDE integration for ubiquitous language terms.
+# See https://docs.contextive.tech for more information.
+
+contexts:
+- name: Computer Networks
+  domainVisionStatement: This domain encompasses specialized terminology and concepts
+    used in professional practice.
+  meta:
+    👥 Owner: Patterns Team
+  terms:
+  - name: Clustered systems
+    definition: Two or more individual systems coupled together, with shared storage
+      and closely linked via a LAN or faster interconnect.

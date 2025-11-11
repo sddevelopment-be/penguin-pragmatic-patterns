@@ -1,0 +1,37 @@
+# Contextive Glossary: Self-Awareness
+# Auto-generated from data/glossary.toml
+# Domain: self-awareness
+# Terms: 1
+#
+# This file provides IDE integration for ubiquitous language terms.
+# See https://docs.contextive.tech for more information.
+
+contexts:
+- name: Self-Awareness
+  domainVisionStatement: This domain encompasses specialized terminology and concepts
+    used in professional practice.
+  meta:
+    👥 Owner: Patterns Team
+  terms:
+  - name: Congruence
+    definition: 'The alignment between a person’s internal values, beliefs, and emotions,
+      and their external behavior, language, or decisions.
+
+      In team and leadership contexts, congruence builds trust by demonstrating integrity
+      and coherence.
+
+      A congruent person is perceived as authentic. They __“walk their talk”__ and
+      act in ways that reflect what they truly believe.'
+    aliases:
+    - authenticity
+    - alignment
+    - integrity
+    examples:
+    - 'See: [On Becoming a Person](https://www.goodreads.com/book/show/174879.On_Becoming_a_Person)
+      for more details.'
+    - 'See: [Dare to Lead](https://www.goodreads.com/book/show/40109367-dare-to-lead)
+      for more details.'
+    - 'See: [The 8th Habit: From Effectiveness to Greatness](https://www.goodreads.com/book/show/14596922)
+      for more details.'
+    - 'See: [Behind Closed Doors](https://www.goodreads.com/book/show/4100.Behind_Closed_Doors)
+      for more details.'

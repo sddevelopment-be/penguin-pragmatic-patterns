@@ -1,5 +1,29 @@
 version: "0.2"
-language: en
+language: en-GB
+locale: en-GB,nl
+useGitignore: true
+dictionaries:
+  - en-gb-oxendict
+  - en-gb
+  - en
+  - proper-names
+  - tooling-terms
+  - acronyms
+  - narratives
+dictionaryDefinitions:
+  - name: proper-names
+    path: ./dictionaries/proper-names.txt
+    addWords: true
+  - name: tooling-terms
+    path: ./dictionaries/tooling-terms.txt
+    addWords: true
+  - name: acronyms
+    path: ./dictionaries/acronyms.txt
+    addWords: true
+  - name: narratives
+    path: ./dictionaries/narratives.txt
+    addWords: true
+enableCompoundWords: true
 words:
   - pragmatics
   - sddevelopment
@@ -9,6 +33,31 @@ words:
   - literta
   - d-din
   - pragmatists
+  - cynefin
+  - kata
+  - holocracy
+  - sociocracy
+  - kanban
+  - HEXACO
+  - scrum
+  - MBTI
+  - OKR
+  - Structurizr
+  - webp
+  - docsify
+  - Zibaldone
+  - holistic
+  - S2ophia
+  - license
+  - changelog
+  - biblio
+  - pubdate
+  - Ikigai
+  - connascence
+  - gustinsi
+  - openrewrite
+  - devpedia
+  - Doji
 ignorePaths:
   - node_modules
   - validation/node_modules

@@ -100,7 +100,7 @@ CI typically runs `poetry install`, `poetry run pytest`, and `poetry build`. Pub
 
 ## 5. Testing Frameworks
 
-- **Testing mindset:** prefer small, behavior-focused tests with descriptive names. Fixtures and parametrization replace heavy inheritance hierarchies. Integration tests stay close to the public interface; property-based approaches cover data-heavy
+- **Testing mindset:** prefer small, behaviour-focused tests with descriptive names. Fixtures and parametrization replace heavy inheritance hierarchies. Integration tests stay close to the public interface; property-based approaches cover data-heavy
   paths.
 
 | Tool         | Purpose                          | Why it matters                                  |
@@ -139,7 +139,7 @@ style that keeps intent clearest for each layer.
 
 ### 6.1 Object-Oriented Idioms
 
-Reach for OO when you need identity, lifecycle, or substitutable collaborators. Python favors composition over inheritance: keep behavior in focused methods, lean on `@dataclass` for value objects, and expose interfaces via `abc.ABC` or
+Reach for OO when you need identity, lifecycle, or substitutable collaborators. Python favors composition over inheritance: keep behaviour in focused methods, lean on `@dataclass` for value objects, and expose interfaces via `abc.ABC` or
 `typing.Protocol`.
 
 - Use `dataclasses`/`attrs` for concise domain models and value semantics.
@@ -252,7 +252,7 @@ except json.JSONDecodeError:
     print("tasks.json is corrupt — run the repair command.")
 ```
 
-Use imperative style for orchestration layers, CLI tooling (`typer`, `click`), and task runners (`invoke`, `nox`). Keep domain logic in pure functions; call them from these command surfaces so behavior remains testable.
+Use imperative style for orchestration layers, CLI tooling (`typer`, `click`), and task runners (`invoke`, `nox`). Keep domain logic in pure functions; call them from these command surfaces so behaviour remains testable.
 
 ### 6.4 Idiom Integration
 

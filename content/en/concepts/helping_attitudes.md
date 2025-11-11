@@ -186,7 +186,7 @@ your approach might be contributing to the resistance you’re facing?”_
 #### 4. Process-Oriented Inquiry
 
 Process-oriented inquiry focuses on the here-and-now, examining the dynamics of the interaction between the helper and the client. The helper draws
-attention to the immediate processes at play, such as emotions, behaviors, or reactions, both in the conversation and in the client’s situation.
+attention to the immediate processes at play, such as emotions, behaviours, or reactions, both in the conversation and in the client’s situation.
 This type of inquiry is often used to explore relational dynamics and can be particularly useful in group settings or when addressing interpersonal
 issues.
 

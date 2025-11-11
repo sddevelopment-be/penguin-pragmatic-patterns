@@ -13,7 +13,7 @@
     "lint:css": "stylelint \"../assets/styles/**/*.scss\"",
     "lint:js": "eslint \"../static/js/**/*.js\" \"../assets/**/*.js\" \"cypress/**/*.js\"",
     "lint:md": "remark --config remark-config.mjs --frail '../content/**/*.md'",
-    "lint:spell": "cspell --config cspell.config.yaml '../content/**/*.md' '../data/**/*.toml' '../README.md'",
+    "lint:spell": "cspell --config cspell.config.yaml '../content/en/**/*.md' '../data/**/*.toml' '../README.md'  --exclude '**/*_nl.toml' ",
     "lint": "bash scripts/run-lints.sh",
     "test:hugo": "bash scripts/run-hugo-tests.sh",
     "perf:lighthouse": "bash scripts/run-lighthouse.sh",

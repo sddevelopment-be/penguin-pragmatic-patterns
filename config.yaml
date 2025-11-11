@@ -247,7 +247,7 @@ languages:
     languageCode: en-US
     languageDirection: ""
     languageName: "English"
-    title: ""
+    title: "Pragmatic Penguin Patterns"
     weight: 0
   nl:
     contentDir: content/nl
@@ -255,7 +255,7 @@ languages:
     languageCode: nl-BE
     languageDirection: ""
     languageName: "Nederlands"
-    title: ""
+    title: "Pragmatic Penguin Patterns"
     weight: 1
     params:
       navbar:

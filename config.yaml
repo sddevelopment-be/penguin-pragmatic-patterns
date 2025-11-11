@@ -51,11 +51,11 @@ params:
     sizes: [400,600]
   hero:
     # Main hero title
-    title: Pragmatic Penguin Pattern Portfolio
+    title: Pragmatic Penguin Patterns
     # Hero subtitle (optional)
-    subtitle: For engineers, team leads, and knowledge workers who want to think clearly and act intentionally
+    subtitle: A practical knowledge base for technical professionals who value context over commandments
     # Button text
-    buttontext: Start Reading
+    buttontext: Explore the Library
     # Where the main hero button links to
     buttonlink: "#introduction"
     # Hero image (from static/images/___)
@@ -72,8 +72,6 @@ params:
 
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
-  - title: Approach
-    url: /about
   - title: Concepts
     url: /concepts/
   - title: Practices
@@ -100,52 +98,42 @@ params:
         url: /license/
 
   section1:
-    title: Making sense of advice
-    subtitle: the trouble with "best practices" is they never seem to work
+    title: Why this exists
+    subtitle: because knowing what to do matters less than knowing when to do it
     text: >
-      We tend to learn a great deal about a wide variety of topics. Yet, from time to time, we are stumped by how elegantly or easily
-      someone solves a certain problem. You are left wondering why you have not been tackling similar problems in the same way. It could have saved you
-      vast amounts of frustration if only you had known earlier. <br />
-      Why did you not know? Why did you not see the solution? Why did you not apply the same technique? 
+      You've probably encountered an elegant solution to a problem and thought: "Why didn't I see that sooner?" The reason is simpler than you'd expect: you simply didn't know it was an option. Maybe someone mentioned the approach once, but the context got lost in translation.
       <br /><br />
-      The answer is simple: you did not know it existed.  
-      <br />No one told you about it. No one shared their knowledge with you.  
-      <br />Or maybe they did, but you did not understand it. Or you did not see the value in it.
+      Technical work is full of advice: best practices, frameworks, methodologies, and patterns. The challenge isn't finding them. The challenge is understanding <em>when</em> they apply and <em>why</em> they matter in your specific situation.
       <br /><br />
-      Sharing knowledge can be challenging because people often speak different "languages" when it comes to ideas. 
-      Using a structured approach helps us better express and understand concepts, but how do we make sense of the countless frameworks and practices that exist?
+      This knowledge base offers something different: structured, searchable insights that explain not just <em>what</em> techniques exist, but <em>when</em> they're valuable and <em>what trade-offs</em> they involve. Think of it as a reference library built by practitioners, for practitioners. Whether you're debugging your first merge conflict or architecting systems for a distributed team, there is something for you here.
       <br /><br />
-      And even if we do understand them, how do we know when to apply them? After all, not every tool is right for every job. You are unique, your situation is unique, and so should be your approach.
-      <br /><br />
-      That's where we come in.<br /> 
-      This knowledge base will help you make sense of the vast amount of information out there, so you can focus on what matters most to you.
+      We don't prescribe solutions. We help you build judgment by showing how concepts, practices, and mental models apply across contexts. Your situation is unique. Your approach should be, too.
   section2:
-    title: Yet another framework?
-    subtitle: Not quite. Here's what makes us different.
+    title: What makes this different
+    subtitle: pattern-based knowledge, not prescriptive playbooks
     image: sense_making_meta_model
     features:
-    - title: Focus on practical use
-      text: Rather than stick to theory, we aim to help you put what you learn into effect as quickly as possible. By focussing on when techniques and ideas are valuable, you will understand when to apply an idea. And more importantly, when not to apply it.
-    - title: Terminology explained
-      text: The amount of jargon used when discussing specialized techniques and technology can be overwhelming to newcomers. This publication helps you get acquainted with them so you know what people are talking about.
-    - title: Resources & Background information
-      text: Recommended background reading, in case you want to dig deeper into certain topics. As with all content here, we focus on showing what is in it for you.
+    - title: Contextual guidance
+      text: Every practice and concept includes when to apply it, what forces enable or resist it, and what trade-offs you'll face. You'll understand not just the technique, but the situation it's built for.
+    - title: Jargon decoded
+      text: Technical conversations are full of shorthand. Our glossary and primers translate specialized terms into plain language, so you can follow discussions and contribute with confidence.
+    - title: Curated, not exhaustive
+      text: We don't catalog every framework. Instead, we share practical insights drawn from real work, backed by recommended resources when you want to dig deeper.
   section3:
-    title: Learn. Grow. Improve.
-    subtitle: discover new ideas and techniques to help you excel
+    title: Start exploring
+    subtitle: pick a path that matches where you are now
     text: >
-      Imagine the thrill of discovering new ideas and techniques that will help you excel at the things you do every day.
-      Whether you're already working in a technical role or just starting out, there's always more to learn and explore.
-      Either way, we've got something for you.  
-      <br />  
-      
-      In this knowledge base, you'll discover practical insights and valuable tips from experts who have dedicated themselves to mastering their craft.
-      By reading on, you'll gain a deeper understanding of the topics that interest you and learn new ways to take steps towards achieving your goals and
-      becoming the best you can be.    
-      <br />
-      <br />
-      
-      So why not give it a try? Dive in and see how far you can go.
+      Whether you're onboarding to a new role, leading a team through a transition, or just curious how experienced practitioners approach common challenges, you'll find structured guidance here.
+      <br /><br />
+      <strong>New to a specific technology?</strong> Explore <a href="/primers">Primers</a> to understand the philosophy and "point" of different programming languages and tools, then dive into <a href="/concepts">Concepts</a> that shape how experienced professionals think about problems.
+      <br /><br />
+      <strong>Looking for actionable techniques?</strong> Browse <a href="/practices">Practices</a> to find structured approaches you can apply immediately, complete with trade-off analysis and real-world context.
+      <br /><br />
+      <strong>Need to decode a term or framework?</strong> Check the <a href="/glossary">Glossary</a> for plain-language definitions, or visit <a href="/books">Bibliography</a> for recommended deep dives.
+      <br /><br />
+      <strong>Want to understand the methodology?</strong> Read the <a href="/about">Approach</a> page for details on pattern languages, the sense-making meta model, and how this library integrates with other frameworks.
+      <br /><br />
+      There's no required reading order. Jump in where your curiosity leads, and follow the links between related ideas.
     links:
       - text: Concepts
         link: "/concepts"
@@ -255,8 +243,6 @@ languages:
     weight: 1
     params:
       navbar:
-        - title: Aanpak
-          url: /nl/about
         - title: Concepten
           url: /nl/concepts/
         - title: Methodes

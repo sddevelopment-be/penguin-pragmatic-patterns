@@ -37,6 +37,10 @@ Any feedback or suggestions for changes can be submitted there.
 
 ### Changed
 
+- **Landing page redesign**: Revised hero section, Section 1 (Why this exists), Section 2 (What makes this different), and Section 3 (Start exploring) in `config.yaml` to clarify value proposition, emphasize contextual guidance over prescriptive rules, and provide explicit entry pathways for different reader personas (new professionals, experienced practitioners, cross-functional collaborators)
+- **Navigation simplification**: Removed "Approach" link from main navbar (English and Dutch) to reduce cognitive load for first-time visitors; preserved in footer and added as optional deep dive reference in landing page Section 3
+- **Approach page refinement**: Updated `content/en/about.md` with tightened prose (~30-40% reduction in wordage), persona-specific audience descriptions, streamlined pattern language explanation, and clarified sense-making meta model structure
+
 - Renamed `content/en/programming_primers/` directory to `content/en/primers/` for brevity and consistency
 - Updated all primer-related layouts from `layouts/programming_primers/` to `layouts/primers/`
 - Updated navigation and validation tests to reference new `primers` path

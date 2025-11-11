@@ -1,0 +1,212 @@
+# Contextive Glossary: Communication
+# Auto-generated from data/glossary.toml
+# Category: communication
+# Terms: 18
+#
+# This file provides IDE integration for ubiquitous language terms.
+# See https://docs.contextive.tech for more information.
+
+contexts:
+- name: Communication
+  domainVisionStatement: Effective communication and collaboration enable shared understanding
+    across teams, stakeholders, and communities.
+  meta:
+    👥 Owner: Patterns Team
+  terms:
+  - name: Asynchronous Communication
+    definition: Asynchronous communication refers to interactions where participants
+      engage in communication without requiring all parties to be present simultaneously.
+      This form of communication allows for flexibility in timing and location, enabling
+      individuals to send and receive messages at different times. Examples of asynchronous
+      communication include emails, text messages, and discussion boards.
+    examples:
+    - 'See: [Microsoft Architecure Pages: Asynchronous Message Based Communication](https://learn.microsoft.com/en-us/dotnet/architecture/microservices/architect-microservice-container-applications/asynchronous-message-based-communication)
+      for more details.'
+  - name: Bottom Line Up Front
+    definition: A communication strategy where the main conclusion or most important
+      point is stated at the beginning of the message. Common in military, executive,
+      and high-stakes contexts where fast clarity is critical.
+    aliases:
+    - start with why
+    - bottom line up front
+    - lead with impact
+    - BLUF
+    examples:
+    - 'See: [How to write Email with military precision](https://hbr.org/2016/11/how-to-write-email-with-military-precision)
+      for more details.'
+    - 'See: [BLUF: The military standard that can make your writing more powerful](https://www.animalz.co/blog/bottom-line-up-front/)
+      for more details.'
+  - name: Cold Reading
+    definition: A technique used to make high-probability guesses about someone’s
+      background or personality without prior knowledge, often by observing cues and
+      using general statements. Common in pseudoscience and performance (e.g. psychics,
+      mediums), cold reading exploits confirmation bias and the Barnum Effect to appear
+      insightful or prophetic.
+    aliases:
+    - psychic reading
+    - persuasive guessing
+    examples:
+    - 'See: [Cold Reading](https://en.wikipedia.org/wiki/Cold_reading) for more details.'
+  - name: Conversation
+    definition: A conversation is an interactive exchange where people share information,
+      perspectives, and emotions in real time. High-quality conversations balance
+      speaking and listening so all parties feel heard and can co-create new understanding.
+    aliases:
+    - dialogue
+    - discussion
+  - name: Empathy
+    definition: Empathy is the ability to perceive and appreciate another person’s
+      feelings, experiences, or perspectives. It requires curiosity and presence,
+      going beyond sympathy to connect with what someone else may be living through.
+    aliases:
+    - compassionate understanding
+  - name: Interpersonal Skills
+    definition: Interpersonal skills are the behaviours and techniques that enable
+      people to build rapport, coordinate work, and resolve friction. They include
+      active listening, feedback, and the conscious use of tone and body language.
+    aliases:
+    - people skills
+    - soft skills
+  - name: Jargon
+    definition: 'The specialized language of a trade, profession, or similar group,
+      especially when viewed as difficult to understand
+
+      by outsiders."_. Its goal is to make the exchange of information more efficient
+      by giving specific names to things that
+
+      are relevant to the in-group. It is said that the Inuit have over thirty words
+      to differentiate between different types
+
+      of snow. Other professions, such as software developers, strongly rely on metaphors
+      to refer to technical concepts.'
+    aliases:
+    - lingo
+  - name: Labeling Bias
+    definition: The tendency for people’s behavior or identity to be interpreted through
+      the lens of an assigned label, often reinforcing stereotypes and limiting individual
+      growth. Labeling bias can reduce cognitive agency by constraining how others
+      perceive and interact with the labeled person — regardless of nuance or change.
+    aliases:
+    - stereotype reinforcement
+    - identity bias
+    examples:
+    - 'See: [Labeling Theory](https://en.wikipedia.org/wiki/Labeling_theory) for more
+      details.'
+  - name: Manipulation
+    definition: 'The use of indirect, deceptive, or coercive tactics to influence
+      another person’s behavior, often serving the manipulator’s interests while masking
+      intent.
+
+      Manipulation may include guilt-tripping, gaslighting, passive-aggressive behavior,
+      or selective omission --- and typically exploits emotional or relational dynamics.'
+    aliases:
+    - emotional control
+    - covert influence
+  - name: Nonviolent Communication
+    definition: 'A structured approach to communication developed by Marshall Rosenberg
+      that fosters empathy, mutual understanding, and conflict resolution.
+
+      NVC separates observation from judgment, expresses feelings and needs, and makes
+      clear, respectful requests, rather than demands or accusations.'
+    aliases:
+    - NVC
+    - compassionate communication
+    examples:
+    - 'See: [Nonviolent Communication: A Language of Life](https://www.goodreads.com/book/show/71730.Nonviolent_Communication)
+      for more details.'
+    - 'See: [Center for Nonviolent Communication](https://www.cnvc.org/) for more
+      details.'
+  - name: Placating
+    definition: 'A conflict-avoidant behavior where someone attempts to appease others
+      or defuse tension by agreeing, apologizing, or giving in; often at the cost
+      of their own needs or honesty.
+
+      Placating can appear kind but may undermine trust, clarity, or long-term collaboration
+      when used manipulatively or habitually.'
+    aliases:
+    - appeasement
+    - passive compliance
+  - name: Relationships
+    definition: Relationships capture the ongoing connections between people or groups.
+      Healthy relationships feature trust, dependable communication, and mutual benefit;
+      fragile ones show misalignment or low psychological safety.
+    aliases:
+    - working relationships
+    - partnerships
+  - name: Team Dynamics
+    definition: 'The patterns of interaction, behavior, and influence between members
+      of a team.
+
+      Team dynamics shape how work is done, how decisions are made, and how conflict
+      or collaboration unfold over time.
+
+      Healthy dynamics foster trust, psychological safety, and effective coordination
+      --- while toxic dynamics can lead to misalignment,
+
+      disengagement, or performance breakdowns.'
+    aliases:
+    - group behavior
+    - team interaction patterns
+    - collaborative dynamics
+    - team culture
+    examples:
+    - 'See: [Team of Teams](https://www.goodreads.com/book/show/22529127-team-of-teams)
+      for more details.'
+    - 'See: [The Five Dysfunctions of a Team](https://www.goodreads.com/book/show/21343.The_Five_Dysfunctions_of_a_Team)
+      for more details.'
+    - 'See: [The Dream Team Nightmare](https://pragprog.com/titles/ptdream/the-dream-team-nightmare/)
+      for more details.'
+  - name: Team morale
+    definition: 'The collective emotional state, motivation, and confidence of a team
+      when pursuing shared goals.
+
+      High morale amplifies engagement, resilience, and willingness to support one
+      another, while low morale erodes focus and productivity.'
+    aliases:
+    - collective spirit
+    - group morale
+    examples:
+    - 'See: [The Importance of Team Morale](https://www.apa.org/news/press/releases/2022/05/workplace-well-being)
+      for more details.'
+    - 'See: [Boosting Team Morale](https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/rewiring-leadership-development)
+      for more details.'
+  - name: Understanding
+    definition: Understanding is the mental process of accurately grasping the meaning,
+      intent, or significance of information shared by others. It demands attention,
+      context, and clarification so that what is heard aligns with what was meant.
+    aliases:
+    - comprehension
+    - grasp
+  - name: conflict
+    definition: A state of tension or disagreement between individuals or groups,
+      often arising from misaligned goals, values, or interpretations. Conflict is
+      not inherently negative; when handled constructively, it can surface important
+      issues, improve decisions, and build trust. Effective conflict resolution involves
+      curiosity, structured dialogue, and a shared commitment to progress.
+    aliases:
+    - disagreement
+    - tension
+    - interpersonal conflict
+  - name: feedback culture
+    definition: A shared team or organizational norm that encourages timely, constructive,
+      and reciprocal feedback. A strong feedback culture supports psychological safety,
+      continuous improvement, and personal growth. It balances honesty with care and
+      treats feedback as a regular practice — not just a performance tool.
+    aliases:
+    - feedback loop
+    - constructive feedback
+    - feedback environment
+    examples:
+    - 'See: [Radical Candor by Kim Scott](https://www.radicalcandor.com/) for more
+      details.'
+  - name: objection
+    definition: 'An **objection** is an argument - related to a proposal, existing
+      agreement, or activity being conducted by one or more members of the organization
+      -
+
+      that reveals consequences or risks that are preferably avoided for the organization,
+      or that demonstrates worthwhile ways to improve the proposal, agreement, or
+      activity.'
+    examples:
+    - 'See: [Sociocracy 3.0](https://sociocracy30.org/resources/#se-practical-guide)
+      for more details.'

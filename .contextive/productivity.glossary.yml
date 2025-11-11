@@ -1,0 +1,308 @@
+# Contextive Glossary: Productivity
+# Auto-generated from data/glossary.toml
+# Category: productivity
+# Terms: 27
+#
+# This file provides IDE integration for ubiquitous language terms.
+# See https://docs.contextive.tech for more information.
+
+contexts:
+- name: Productivity
+  domainVisionStatement: Productivity practices help individuals and teams achieve
+    their goals efficiently, sustainably, and with minimal waste.
+  meta:
+    👥 Owner: Patterns Team
+  terms:
+  - name: Adaptability
+    definition: Adaptability is the capability to adjust plans, systems, or behaviour
+      when conditions shift. Organisations cultivate adaptability to stay resilient
+      in the face of new information or constraints.
+    aliases:
+    - flexibility
+    - resilience
+  - name: Analysis
+    definition: 'Analysis is the process of breaking down complex information or systems
+      into smaller, more manageable components in order to understand, interpret,
+
+      or evaluate them. It involves critical thinking, data interpretation, and systematic
+      exploration of elements or structures.'
+    aliases:
+    - examination
+    - dissection
+    - evaluation
+    examples:
+    - 'See: [Definition of Analysis](https://www.merriam-webster.com/dictionary/analysis)
+      for more details.'
+  - name: Assessments
+    definition: Assessments evaluate a person’s skills, behaviours, or potential against
+      defined criteria. They range from interviews and simulations to written tests,
+      providing comparable data to support hiring or development decisions.
+    aliases:
+    - candidate assessments
+    - evaluation exercises
+  - name: Cold Shelf
+    definition: 'A designated backlog or list where paused, deprioritised, or inactive
+      tasks are temporarily placed.
+
+      The Cold Shelf helps keep current focus areas clean and intentional, without
+      deleting or losing track of tasks that may regain relevance later.
+
+      It serves as a low-friction holding zone for items not currently in motion.'
+    aliases:
+    - paused tasks
+    - task freezer
+    - parking lot
+    - fridge
+  - name: Collaboration
+    definition: Collaboration is the process of working together as a team to achieve
+      common goals in a project. It involves effective communication, sharing of knowledge,
+      and coordination among team members, often facilitated by tools and practices
+      that support teamwork, such as version control systems, project management platforms,
+      and collaborative documentation.
+    examples:
+    - 'See: [Effective Collaboration in Project Management](https://www.pmi.org/learning/library/effective-collaboration-project-teams-11639)
+      for more details.'
+  - name: Continuous Improvement
+    definition: 'Continuous improvement is an ongoing effort to enhance products,
+      services, or processes by making small, incremental changes over time. It is
+      a
+
+      fundamental concept in quality management methodologies like Lean and Kaizen,
+      aiming to boost efficiency and reduce waste.'
+    aliases:
+    - incremental improvement
+    - process optimization
+    - Kaizen
+    examples:
+    - 'See: [Continuous Improvement Definition](https://asq.org/quality-resources/continuous-improvement)
+      for more details.'
+  - name: Efficiency
+    definition: 'Efficiency refers to the ability to achieve maximum output with minimum
+      input. It involves optimizing the use of resources (such as time, energy, and
+      materials)
+
+      to accomplish tasks in the most effective and economical manner, thereby reducing
+      waste and increasing overall productivity.'
+    aliases:
+    - Effectiveness
+    - Resource Optimization
+    examples:
+    - 'See: [The Effective Executive by Peter Drucker](https://www.amazon.com/Effective-Executive-Peter-F-Drucker/dp/0060833459)
+      for more details.'
+    - 'See: [The 4-Hour Workweek by Timothy Ferriss](https://www.amazon.com/4-Hour-Workweek-Escape-Live-Anywhere/dp/0307465357)
+      for more details.'
+    - 'See: [The Principles of Scientific Management by Frederick Taylor](https://www.gutenberg.org/ebooks/6435)
+      for more details.'
+    - 'See: [Harvard Business Review - Articles on Productivity](https://hbr.org/search?term=productivity+efficiency)
+      for more details.'
+  - name: Goals
+    definition: Goals express the outcomes a person or team intends to achieve. Good
+      goals clarify scope, success measures, and time horizons so effort can be coordinated
+      and progress evaluated.
+    aliases:
+    - objectives
+    - targets
+  - name: Goodhart's Law
+    definition: A principle stating that when a metric is used as a target for decision-making,
+      it tends to lose its effectiveness as a measure. Once people begin optimising
+      for the metric itself, they may distort behaviour in ways that undermine the
+      original goal.
+    aliases:
+    - metric manipulation
+    - KPI dysfunction
+    examples:
+    - 'See: [Goodhart''s Law](https://en.wikipedia.org/wiki/Goodhart%27s_law) for
+      more details.'
+  - name: Heuristic
+    definition: 'A heuristic is a problem-solving approach or technique that employs
+      practical, experience-based methods for decision-making, learning, and discovery.
+
+      The core idea is to simplify a complex problem by substituting an aspect of
+      the context with a decent-enough approximation, often ignoring some of the information
+      that is less relevant to the current decision-making process.
+
+      Heuristics are used in various fields, such as computer science, psychology,
+      and engineering, to find approximate solutions to complex problems quickly and
+      efficiently.
+
+
+      - __In Software:__ Heuristics are used to develop algorithms or processes that
+      find solutions to complex problems quickly and efficiently when exact methods
+      are impractical. They rely on rule-of-thumb strategies to achieve approximate
+      solutions.
+
+
+      - __In Psychology:__ Heuristics are mental shortcuts or simplified strategies
+      that humans use to make decisions and judgments quickly without having to consider
+      all possible information. These cognitive shortcuts help in managing the complexities
+      of the world but can sometimes lead to biases or errors in judgment.
+
+
+      - __In Engineering:__ Heuristics are practical methods used to solve complex
+      engineering problems by providing good-enough solutions. An example is substituting
+      the value of `π` (pi) with `22/7` (twenty-two divided by seven) for quick calculations,
+      rather than using its full, infinite decimal representation. This approximation
+      simplifies computations while maintaining sufficient accuracy for many engineering
+      applications.'
+    aliases:
+    - solutioning shortcut
+    - best practice
+  - name: Interviewing
+    definition: Interviewing is a structured conversation where an organisation explores
+      a candidate’s experience, judgement, and fit. Effective interviewing combines
+      preparation, open questions, and evidence-based evaluation to reduce bias.
+    aliases:
+    - candidate interviewing
+  - name: Key Performance Indicator
+    definition: Key Performance Indicators (KPIs) are quantifiable metrics used to
+      evaluate the success of an organization, project, or individual in achieving
+      specific objectives. KPIs are typically aligned with strategic goals and provide
+      a clear, measurable indication of performance. They help organizations track
+      progress, identify areas for improvement, and make informed decisions based
+      on data-driven insights.
+    aliases:
+    - KPI
+  - name: Knowledge Retention
+    definition: Knowledge retention refers to the practice of capturing, storing,
+      and managing information or knowledge within a project or organization to ensure
+      that it remains accessible and usable in the future. This process is crucial
+      for maintaining continuity, especially when team members leave or transition
+      between roles, ensuring that valuable insights and data are not lost.
+    examples:
+    - 'See: [Knowledge Retention Strategies](https://www.apqc.org/resource-library/resource-listing/knowledge-retention-strategies)
+      for more details.'
+  - name: Management by Objectives
+    definition: A management approach in which individual, team, and company objectives
+      are clearly defined and used to guide performance and alignment. Typically emphasizes
+      measurable outcomes, accountability, and strategic focus.
+    aliases:
+    - MbO
+    - goal alignment
+    examples:
+    - 'See: [The Practice of Management](/books/06a5cfd2-0204-4199-966e-8a7a4847742a)
+      for more details.'
+    - 'See: [What are Objectives and Key Results (OKRs)?](https://www.ibm.com/think/topics/okrs)
+      for more details.'
+  - name: Objectives and Key Results
+    definition: 'A goal-setting framework used to align individual and team efforts
+      with broader organisational priorities.
+
+      Each Objective defines a qualitative direction or ambition, while its associated
+      Key Results describe specific, measurable outcomes used to track progress.
+
+      OKRs encourage transparency, focus, and outcome-driven planning across all levels
+      of an organisation.'
+    aliases:
+    - OKRs
+    - goal alignment framework
+    - outcome tracking
+    examples:
+    - 'See: [What are Objectives and Key Results (OKRs)?](https://www.ibm.com/think/topics/okrs)
+      for more details.'
+    - 'See: [Measure What Matters](https://www.goodreads.com/book/show/39286958-measure-what-matters)
+      for more details.'
+  - name: Organizing
+    definition: Organizing arranges commitments, information, and resources so work
+      can advance without friction. It turns scattered intentions into structured
+      plans people can act on.
+    aliases:
+    - organisation
+    - arranging work
+  - name: Persona
+    definition: A fictional but research-based representation of a target audience
+      segment, capturing key characteristics such as demographics, goals, motivations,
+      and pain points. Personas help guide content development, ensuring that communication
+      is tailored to real-world user needs.
+    aliases:
+    - User Persona
+    - Customer Persona
+    examples:
+    - 'See: [Cooper: The Origin of Personas](https://urbanmobilitycourses.eu/wp-content/uploads/2020/08/cooper.com-The-origin-of-personas.pdf)
+      for more details.'
+  - name: Pivotting
+    definition: Pivotting is the deliberate act of changing direction when emerging
+      evidence shows the current trajectory will not deliver the desired outcome.
+      It keeps investments aligned with reality instead of sunk-cost momentum.
+    aliases:
+    - course correction
+    - strategic pivot
+  - name: Prioritization
+    definition: Prioritization is the process of arranging tasks, activities, or projects
+      in order of importance or urgency to ensure that the most critical and impactful
+      work is completed first. It is a key skill in productivity, helping individuals
+      and teams manage time and resources efficiently by focusing on what truly matters
+      and deferring or delegating less critical tasks.
+    aliases:
+    - Task Ranking
+    - Priority Setting
+    examples:
+    - 'See: [Essentialism: The Disciplined Pursuit of Less by Greg McKeown](https://www.amazon.com/Essentialism-Disciplined-Pursuit-Greg-McKeown/dp/0804137382)
+      for more details.'
+    - 'See: [The 7 Habits of Highly Effective People by Stephen R. Covey](https://www.amazon.com/Habits-Highly-Effective-People-Powerful/dp/0743269519)
+      for more details.'
+    - 'See: [Eat That Frog!: 21 Great Ways to Stop Procrastinating and Get More Done
+      in Less Time by Brian Tracy](https://www.amazon.com/Eat-That-Frog-Great-Procrastinating/dp/162656941X)
+      for more details.'
+  - name: Quantification
+    definition: The process of expressing outcomes, progress, or effects in measurable
+      or numerical terms. In communication and analysis, quantification supports clarity,
+      comparability, and credibility.
+    aliases:
+    - measurable impact
+    - numerical framing
+    examples:
+    - 'See: [How to Quantify Resume Accomplishments](https://www.indeed.com/career-advice/resumes-cover-letters/how-to-quantify-resume)
+      for more details.'
+  - name: Task Management
+    definition: Task management is the practice of capturing, prioritising, and tracking
+      work items from idea to completion. It ensures focus stays on the right commitments
+      and makes progress observable.
+    aliases:
+    - task tracking
+  - name: Time Management
+    definition: Time management coordinates activities within the limited hours available.
+      It blends planning, scheduling, and boundary-setting so important work receives
+      the attention it deserves.
+    aliases:
+    - calendar management
+  - name: Traceability
+    definition: Traceability is the ability to link project artifacts, such as requirements,
+      design elements, code, and test cases, to their corresponding outcomes or deliverables.
+      It ensures that every change or decision made during a project's lifecycle can
+      be traced back to its origin, providing transparency, accountability, and the
+      ability to verify that all requirements have been met.
+    aliases:
+    - Requirements Traceability
+    examples:
+    - 'See: [Requirements Traceability](https://www.incose.org/docs/default-source/enchantment/requirements-traceability.pdf)
+      for more details.'
+  - name: Workflow
+    definition: A workflow is the sequence of steps that transforms input into outcome.
+      Mapping workflows clarifies hand-offs, reveals bottlenecks, and guides improvement.
+    aliases:
+    - process flow
+  - name: Zibaldone
+    definition: An eclectic personal notebook or commonplace book used to collect
+      thoughts, quotes, observations, and ideas. Originating from the Italian word
+      for “heap of things,” a zibaldone is a private, unstructured record of personal
+      knowledge — often used as a thinking aid, reference archive, or creative incubator.
+    aliases:
+    - commonplace book
+    - idea journal
+    - thinking notebook
+    examples:
+    - 'See: [Zibaldone](https://en.wikipedia.org/wiki/Zibaldone) for more details.'
+  - name: metrics
+    definition: Quantitative indicators used to track performance, progress, or system
+      behavior. While metrics can support decision-making and alignment, they often
+      become counterproductive when used as proxies for complex goals — particularly
+      when incentives or evaluation criteria are tied too closely to them (see Goodhart’s
+      Law).
+    aliases:
+    - quantitative indicators
+    - performance metrics
+  - name: tracking
+    definition: 'Tracking is the practice of monitoring work, commitments, or metrics
+      over time. It creates visibility into progress and helps individuals and teams
+
+      adjust their plans based on real data rather than assumptions.'

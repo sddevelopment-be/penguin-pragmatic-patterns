@@ -243,8 +243,6 @@ languages:
     weight: 1
     params:
       navbar:
-        - title: Aanpak
-          url: /nl/about
         - title: Concepten
           url: /nl/concepts/
         - title: Methodes

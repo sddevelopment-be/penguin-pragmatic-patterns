@@ -8,6 +8,15 @@
 {{- $fontUrl      := printf "/css/open-sans.css?family=%s:%s&display=swap" $fontFace $fontSizes }}
 <link rel="icon" type="image/png" href="{{ "images/favicon.ico" | relURL }}" />
 
+{{- /* Preload hero image for LCP optimization */ -}}
+{{- if .IsHome }}
+  {{- with .Site.Params.section2 }}
+    {{- $image := index . "image" }}
+    {{- $imageFull := printf "images/%s.webp" $image | relURL }}
+    <link rel="preload" as="image" href="{{ $imageFull }}" type="image/webp" />
+  {{- end }}
+{{- end }}
+
 <link rel="stylesheet" type="text/css" href="{{ $fontUrl | relURL }}" />
 
 {{- with resources.GetMatch $sass }}

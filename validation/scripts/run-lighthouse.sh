@@ -82,9 +82,9 @@ npx wait-on "tcp:127.0.0.1:${REMOTE_DEBUGGING_PORT}" >/dev/null
 
 lighthouse "${TARGET_URL}" \
   --preset=desktop \
-  --only-categories=performance,accessibility \
-  --output=json \
-  --output-path "reports/lighthouse-desktop.json" \
+  --only-categories=performance,accessibility,seo,best-practices \
+  --output=json,html \
+  --output-path "reports/lighthouse-desktop" \
   --port="${REMOTE_DEBUGGING_PORT}" \
   --hostname=127.0.0.1 \
   --quiet

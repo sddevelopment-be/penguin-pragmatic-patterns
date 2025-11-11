@@ -46,6 +46,8 @@ Commands executed from `validation/` (Cypress skipped). Logs are stored under `v
 - Consolidated repeated colors, spacing, border widths, and breakpoints into `assets/styles/_settings.scss` (lines 4–53) and replaced raw literals across all domain SCSS bundles.
 - Adjusted `.stylelintrc.json` so `declaration-property-value-no-unknown` ignores SCSS shorthands instead of blocking them, and normalized the token file per Stylelint spacing rules.
 - `npm run lint:css` now reports zero violations (`validation/reports/lint-css-latest.log`), unblocking the broader lint workflow. CSpell has been removed from the default lint chain to avoid noisy failures until glossary/name allow-lists are curated.
+- Reintroduced a dedicated Sitespeed harness (`npm run perf:sitespeed`, `scripts/run-sitespeed.sh`) that builds to `public/`, serves via a throwaway HTTP server when targeting localhost, rewrites the config/budget files to match `BASE_URL`, and drops logs to `validation/reports/perf-sitespeed-latest.log`. `npm run test:smoke` now chains Lighthouse → Sitespeed → Cypress.
+- All perf scripts still depend on `hugo --gc --minify` succeeding. In this sandbox the run fails early with the Dart Sass permission error, so Lighthouse/Sitespeed emit `TOCSS-DART` failures in `reports/lighthouse-hugo-build.log` and `reports/sitespeed-hugo-build.log`. Re-run the perf scripts on a workstation where Hugo can execute Dart Sass (or pre-build `public/`) before comparing results against `docs/lighthouse/`.
 - Remaining unverified items: rerun full `npm run lint`, confirm ESLint/remark/cspell output, and ensure `validation/reports/npm-lint-latest.log` reflects the new pass/fail state.
 
 ### Next Actions (pending approval)

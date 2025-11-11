@@ -34,7 +34,8 @@ trap cleanup EXIT
 
 cd "$VALIDATION_DIR"
 
-wait-on "http://127.0.0.1:${PORT}"
+npx wait-on "http://127.0.0.1:${PORT}"
 
 npm_config_lighthouse_url="${BASE_URL}" npm run perf:lighthouse
+npm run perf:sitespeed
 npm run test:cypress

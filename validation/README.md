@@ -52,7 +52,7 @@ The install step pulls Cypress, linting packages, Lighthouse, Sitespeed, and hel
 | `npm run lint` | Runs Stylelint, ESLint, and remark-lint sequentially via `scripts/run-lints.sh` (writes `reports/npm-lint-latest.log`) |
 | `npm run test:hugo` | Executes `scripts/run-hugo-tests.sh` (`hugo --panicOnWarning` + `hugo check`) |
 | `npm run perf:lighthouse` | Builds + serves `public/` locally and runs a desktop Lighthouse audit via Chromium (`BASE_URL`, `PORT`, `CHROME_PATH` overridable) |
-| `npm run perf:sitespeed` | Sitespeed run using `validation/sitespeed.config.json` |
+| `npm run perf:sitespeed` | Sitespeed run using `validation/sitespeed.config.json` + `sitespeed.budgets.json` |
 | `npm run test:cypress` | Headless Cypress |
 | `npm run test:smoke` | Spins up a temporary Hugo server then runs Lighthouse, Sitespeed, and Cypress in sequence |
 
@@ -67,7 +67,9 @@ The script writes logs and reports to `validation/reports/`.
 
 > **Spell checking:** `npm run lint:spell` remains available for ad-hoc runs, but it is intentionally excluded from the default `npm run lint` chain until we finish curating allow-lists for glossary terms, personal names, and brand jargon. Capture any findings manually and feed new words into `cspell.config.yaml` once the glossary work is complete.
 
-> `npm run perf:lighthouse` spins up a temporary static server whenever local sockets are permitted; otherwise it falls back to auditing the generated `public/` files directly. Export `CHROME_PATH` (and optionally `LIGHTHOUSE_PORT`) if Chromium lives outside `/usr/bin/chromium` or you need a custom debugging port.
+> `npm run perf:lighthouse` spins up a temporary static server whenever local sockets are permitted; otherwise it falls back to auditing the generated `public/` files directly. Export `CHROME_PATH` (and optionally `LIGHTHOUSE_PORT`) if Chromium lives outside `/usr/bin/chromium` or you need a custom debugging port. Logs land in `reports/lighthouse-*.log`.
+
+> `npm run perf:sitespeed` follows the same pattern: it builds to `public/`, rewrites the config/budget files to match `BASE_URL`, starts a throwaway static server (when `BASE_URL` points to localhost), and then runs Sitespeed with budgets enforced. Results and HTML reports land under `reports/sitespeed/`, and the raw CLI output streams into `reports/perf-sitespeed-latest.log`. Set `BASE_URL` to any already-deployed environment to skip the local server.
 
 ## Running the Hugo Server
 

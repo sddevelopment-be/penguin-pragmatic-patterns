@@ -47,6 +47,8 @@ at the top level.
 * [Markdown](https://www.markdownguide.org/): Easy to use markup language, allowing the writer to focus on content rather than format
 * [HuGo Static site generator](https://gohugo.io): Static website generator, compiles markdown files and configuration into HTML pages 
   (including styling, and JavaScript if applicable)
+* [Contextive](https://github.com/dev-cycles/contextive): IDE integration for ubiquitous language - provides hover definitions and auto-complete 
+  for terminology directly in your editor (glossary files in `.contextive/`)
 
 ### Deployment system
 

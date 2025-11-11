@@ -12,16 +12,15 @@ This directory contains Contextive-compatible glossary files that enable IDE int
 
 ## File Structure
 
-This directory contains one YAML file per domain, following the pattern `<domain>.glossary.yml`:
+This directory contains **4 consolidated glossary files** organized by main category:
 
-- `software.glossary.yml` - Software development terms (66 terms)
-- `communication.glossary.yml` - Communication and collaboration terms (7 terms)
-- `productivity.glossary.yml` - Productivity and task management terms (8 terms)
-- `psychology.glossary.yml` - Psychology and behavioral terms (5 terms)
-- And 50+ other domain-specific files...
+- **`software.glossary.yml`** - Software development and architecture terms (83 terms)
+- **`communication.glossary.yml`** - Communication and collaboration terms (18 terms)
+- **`productivity.glossary.yml`** - Productivity and task management terms (27 terms)
+- **`learning.glossary.yml`** - Learning and professional growth terms (41 terms)
 
 Each file includes:
-- **Domain vision statement**: High-level description of the domain's purpose
+- **Domain vision statement**: High-level description of the category's purpose
 - **Metadata**: Ownership and maintenance information
 - **Terms**: Individual glossary entries with definitions, aliases, and usage examples
 
@@ -54,10 +53,19 @@ python3 src/scripts/ops/generate_contextive_glossary.py
 
 The script will:
 - Read all terminology from `data/glossary.toml`
-- Group terms by domain
-- Generate one YAML file per domain
+- Categorize terms into 4 main categories (Software, Communication, Productivity, Learning)
+- Generate one YAML file per category
 - Include domain vision statements and metadata
 - Convert references to usage examples
+
+## Categorization Logic
+
+Terms are automatically categorized based on their domain field:
+
+- **Software**: Development, architecture, engineering, code quality, security, systems
+- **Communication**: Collaboration, social interaction, team dynamics, behavioral patterns
+- **Productivity**: Management, planning, organization, strategy, decision-making
+- **Learning**: Knowledge acquisition, cognitive science, personal development, reasoning
 
 ## File Format
 
@@ -65,8 +73,8 @@ Each glossary file follows the Contextive YAML schema:
 
 ```yaml
 contexts:
-  - name: Domain Name
-    domainVisionStatement: Description of the domain's purpose
+  - name: Category Name
+    domainVisionStatement: Description of the category's purpose
     meta:
       "👥 Owner": Team Name
     terms:
@@ -84,6 +92,7 @@ contexts:
 - **Source of truth**: `data/glossary.toml`
 - **Generated files**: All `.contextive/*.yml` files
 - **Update process**: Edit TOML → Run script → Commit generated YAML
+- **File count**: 4 main category files (reduced from 54 domain-specific files)
 
 ## Learn More
 

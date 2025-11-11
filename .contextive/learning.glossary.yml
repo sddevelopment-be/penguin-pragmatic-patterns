@@ -1,7 +1,7 @@
 # Contextive Glossary: Learning
 # Auto-generated from data/glossary.toml
-# Domain: learning
-# Terms: 8
+# Category: learning
+# Terms: 41
 #
 # This file provides IDE integration for ubiquitous language terms.
 # See https://docs.contextive.tech for more information.
@@ -9,10 +9,192 @@
 contexts:
 - name: Learning
   domainVisionStatement: Learning and knowledge acquisition are essential for professional
-    growth and adaptation.
+    growth, adaptation, and continuous improvement.
   meta:
     👥 Owner: Patterns Team
   terms:
+  - name: Accountability
+    definition: 'Accountability refers to the obligation of an individual or organization
+      to take responsibility for their actions, decisions, and outcomes, and to
+
+      transparently report on them. It involves being answerable to stakeholders and
+      accepting the consequences, whether positive or negative, of one''s
+
+      performance or conduct.'
+    aliases:
+    - responsibility
+    - answerability
+    examples:
+    - 'See: [Definition of Accountability](https://www.merriam-webster.com/dictionary/accountability)
+      for more details.'
+  - name: Adaptive Thinking
+    definition: 'Adaptive thinking refers to the ability to adjust one''s thought
+      processes in response to changing circumstances, new information, or evolving
+
+      challenges. It involves flexibility, creativity, and the capacity to develop
+      new strategies or approaches to solve problems in dynamic environments.'
+    aliases:
+    - cognitive flexibility
+    - situational thinking
+  - name: Barnum Effect
+    definition: A cognitive bias in which individuals believe vague, general statements
+      about personality are highly accurate for them personally. Often exploited by
+      horoscopes, personality tests, and pseudoscientific diagnostics, the Barnum
+      Effect explains why people perceive such feedback as insightful even when it
+      applies to most others.
+    aliases:
+    - Forer Effect
+    - subjective validation
+    examples:
+    - 'See: [The Barnum Effect](https://en.wikipedia.org/wiki/Barnum_effect) for more
+      details.'
+    - 'See: [The Fallacy of Personal Validation: A Classroom Demonstration of Gullibility](https://psycnet.apa.org/doiLanding?doi=10.1037%2Fh0059240)
+      for more details.'
+  - name: Big Five Personality Traits
+    definition: 'A widely accepted model in personality psychology that describes
+      human personality through five broad dimensions:
+
+      Openness, Conscientiousness, Extraversion, Agreeableness, and Neuroticism (OCEAN).
+      Unlike many typologies, the Big Five is based on empirical research and sees
+      traits as spectrums rather than categories.'
+    aliases:
+    - OCEAN model
+    - Five Factor Model
+    examples:
+    - 'See: [Big Five Personality Traits](https://en.wikipedia.org/wiki/Big_Five_personality_traits)
+      for more details.'
+  - name: Blocking Wait
+    definition: Blocking wait refers to a situation where a process is paused or delayed
+      until a specific condition is met or an event occurs. During this time, the
+      process remains inactive and cannot proceed until the blocking condition is
+      resolved. Blocking waits can impact system performance and responsiveness, especially
+      in scenarios where multiple processes are waiting for the same resource or event,
+      or where the resolution of the delegated processing takes a significant amount
+      of time.
+  - name: Cognitive Bias
+    definition: 'A **cognitive bias** is an _“error in thinking”_ that affects how
+      we perceive the world, make decisions, and interact with others. Biases are
+
+      systematic patterns of deviation from norm or rationality in judgment, where
+      individuals create their own subjective reality from their perception of the
+
+      input. These biases often stem from the brain''s attempt to simplify information
+      processing, leading to errors in decision-making and judgment.'
+    aliases:
+    - error in thinking
+    - bias
+    - preconception
+  - name: Cognitive Load
+    definition: 'Cognitive load refers to the amount of mental effort required to
+      process information or complete a task. It can be influenced by factors such
+      as
+
+      task complexity, the individual''s working memory capacity, and the design of
+      learning materials or environments.
+
+      In knowledge work, cognitive load refers to the strain imposed by juggling too
+      many tasks, decisions, or pieces of information simultaneously.
+
+      High cognitive load reduces focus, increases errors, and slows down decision-making.'
+    aliases:
+    - mental load
+    - cognitive effort
+    examples:
+    - 'See: [Cognitive Load Theory](https://www.instructionaldesign.org/theories/cognitive-load/)
+      for more details.'
+  - name: Cognitive agency
+    definition: The capacity of a person or system to perceive, interpret, and act
+      based on knowledge, goals, and intent. In humans, cognitive agency involves
+      self-directed reasoning, planning, and decision-making. In organizational or
+      AI contexts, it refers to the ability to independently pursue objectives with
+      adaptive intelligence.
+    aliases:
+    - mental autonomy
+    - reasoning agency
+    examples:
+    - 'See: [Agency in Cognitive Science](https://en.wikipedia.org/wiki/Agency_(philosophy))
+      for more details.'
+    - 'See: [What Is Agency?](https://plato.stanford.edu/entries/agency/) for more
+      details.'
+  - name: Confirmation Bias
+    definition: The human tendency to seek, interpret, and recall information in ways
+      that confirm pre-existing beliefs or hypotheses. In impact reporting, this can
+      lead to selectively framing results to appear more favourable than they are.
+    aliases:
+    - selective reasoning
+    - motivated reasoning
+    examples:
+    - 'See: [Confirmation Bias](https://en.wikipedia.org/wiki/Confirmation_bias) for
+      more details.'
+  - name: Congruence
+    definition: 'The alignment between a person’s internal values, beliefs, and emotions,
+      and their external behavior, language, or decisions.
+
+      In team and leadership contexts, congruence builds trust by demonstrating integrity
+      and coherence.
+
+      A congruent person is perceived as authentic. They __“walk their talk”__ and
+      act in ways that reflect what they truly believe.'
+    aliases:
+    - authenticity
+    - alignment
+    - integrity
+    examples:
+    - 'See: [On Becoming a Person](https://www.goodreads.com/book/show/174879.On_Becoming_a_Person)
+      for more details.'
+    - 'See: [Dare to Lead](https://www.goodreads.com/book/show/40109367-dare-to-lead)
+      for more details.'
+    - 'See: [The 8th Habit: From Effectiveness to Greatness](https://www.goodreads.com/book/show/14596922)
+      for more details.'
+    - 'See: [Behind Closed Doors](https://www.goodreads.com/book/show/4100.Behind_Closed_Doors)
+      for more details.'
+  - name: Context
+    definition: '- The circumstances in which an event occurs; a setting.
+
+
+      - The part of a text or statement that surrounds a particular word or passage
+      and determines its meaning.'
+  - name: Decision-making
+    definition: Decision-making is the deliberate process of selecting a course of
+      action from several possibilities. It blends data, experience, and stakeholder
+      input to choose a path that advances shared objectives while managing risk.
+    aliases:
+    - decision taking
+    - choosing options
+  - name: Engineering
+    definition: Engineering is the application of an empirical, scientific approach
+      to finding efficient, economic solutions to practical problems.
+  - name: Entropy
+    definition: 'Entropy is a measure of the amount of disorder in a system. It is
+      a measure of the number of ways in which a system can be arranged,
+
+      often taken to be a measure of "disorder" (the higher the entropy, the higher
+      the disorder). The second law of thermodynamics teaches us that
+
+      any isolated system will inevitably tend towards a state of maximum entropy.
+
+
+      **Tip:** Next time someone asks you why your desk is a mess, you can tell them
+      that you are simply a victim of the laws of physics.'
+    aliases:
+    - chaos
+    - disorder
+    examples:
+    - 'See: [Entropy on wikipedia](https://en.wikipedia.org/wiki/Entropy) for more
+      details.'
+  - name: Evaluation
+    definition: Evaluation is a structured review of evidence, outcomes, and assumptions
+      to determine the merit or effectiveness of an initiative. It compares observed
+      results against intended goals to inform adjustments and next steps.
+    aliases:
+    - assessment
+    - appraisal
+  - name: File modifications
+    definition: 'Several text editors may be available to create and modify the content
+      of files stored on disk or other storage devices.
+
+      There may also be special commands to search contents of files or perform transformations
+      of the text.'
   - name: Gamification
     definition: 'Applying game design elements such as points, challenges, or levels
       to non-game contexts to encourage engagement, sustained motivation, and iterative
@@ -27,6 +209,22 @@ contexts:
       for more details.'
     - 'See: [Gamification at Work](https://hbr.org/2014/02/how-gamification-motivates-people)
       for more details.'
+  - name: Garbage collection
+    definition: 'The practice of reclaiming memory of objects that are no longer used.
+      Control over the memory is returned to the system,
+
+      rather than being allocated to a specific program/process.'
+    aliases:
+    - GC
+  - name: HEXACO Personality Model
+    definition: 'An extension of the Big Five model that adds a sixth factor: Honesty-Humility.
+      The HEXACO model captures traits across six domains: Honesty-Humility, Emotionality,
+      eXtraversion, Agreeableness, Conscientiousness, and Openness. It emphasizes
+      ethical behavior and social deviance more explicitly than OCEAN-based models.'
+    aliases:
+    - six-factor personality model
+    examples:
+    - 'See: [HEXACO Personality Inventory](https://hexaco.org/) for more details.'
   - name: Intermediate
     definition: 'Intermediate describes a level of knowledge or skill that falls between
       beginner and advanced.
@@ -36,6 +234,92 @@ contexts:
     aliases:
     - mid-level
     - intermediate level
+  - name: Interrupt Vector
+    definition: An array which contains the addresses of the interrupt service routines.
+  - name: Kernel mode
+    definition: 'One of two modes of operation of a computer system. Opposed to User
+      Mode.
+
+      When in kernel mode, privileged instructions can be executed. A mode bit, added
+      to the hardware, indicated the current
+
+      mode.'
+    aliases:
+    - root mode
+    - elevated access mode
+  - name: Maslow’s hierarchy of needs
+    definition: 'A motivational theory proposing that human needs are structured in
+      a five-level hierarchy: physiological needs, safety, love and belonging, esteem,
+      and self-actualization. The theory suggests that basic needs must be met before
+      individuals can pursue higher-level psychological growth and fulfilment. Often
+      used in education, coaching, and workplace wellbeing.'
+    aliases:
+    - Maslow’s pyramid
+    - needs hierarchy
+    - human motivation
+    examples:
+    - 'See: [A Theory of Human Motivation](https://psychclassics.yorku.ca/Maslow/motivation.htm)
+      for more details.'
+    - 'See: [Maslow’s Hierarchy of Needs](https://en.wikipedia.org/wiki/Maslow%27s_hierarchy_of_needs)
+      for more details.'
+  - name: Myers–Briggs Type Indicator
+    definition: 'A psychological framework based on Carl Jung''s theories of personality
+      types, categorising individuals along four dimensions: Extraversion–Introversion,
+      Sensing–Intuition, Thinking–Feeling, and Judging–Perceiving.
+
+      The resulting 16 personality types aim to describe cognitive preferences and
+      behavioural tendencies. Often used in team building, coaching, and self-awareness
+      contexts --- though its scientific validity is unconfirmed.
+
+
+      **Use with caution!** While the theory is widely popular, it can be dangerous
+      to use it as a definitive measure of personality. Personality indicators are
+      best used as a tool for self-reflection and understanding, rather than as a
+      rigid classification system.'
+    aliases:
+    - MBTI
+    - Jungian personality types
+    - Myers-Briggs
+    examples:
+    - 'See: [MBTI](https://en.wikipedia.org/wiki/Myers%E2%80%93Briggs_Type_Indicator)
+      for more details.'
+    - 'See: [16 Personalities Test](https://www.16personalities.com/) for more details.'
+    - 'See: [Take the MBTI® Instrument](https://www.myersbriggs.org/my-mbti-personality-type/take-the-mbti-instrument/)
+      for more details.'
+    - 'See: [How thousands of companies ended up using a bogus psychology test on
+      their staff](https://www.independent.co.uk/voices/myers-briggs-psychology-test-garbage-b2200663.html)
+      for more details.'
+    - 'See: [What You Don''t Know about This Personality Test Can Hurt You ](https://www.psychologytoday.com/us/blog/fulfillment-at-any-age/201401/what-you-dont-know-about-this-personality-test-can-hurt-you)
+      for more details.'
+    - 'See: [DISC Assessment](https://en.wikipedia.org/wiki/DISC_assessment) for more
+      details.'
+  - name: Offering
+    definition: 'An offering is a project, product or service provided by a business
+      to meet the needs of its customers. It can be tangible, such as a physical
+
+      product, or intangible, such as a service or software solution. Offerings are
+      designed to address specific customer needs or problems and are
+
+      typically marketed and sold to generate revenue. Businesses often differentiate
+      their offerings from competitors through unique features, quality,
+
+      pricing, or customer service. The success of an offering is often measured by
+      customer satisfaction, market share, and financial performance.'
+    aliases:
+    - deliverable
+    - solution
+  - name: Polymath
+    definition: 'A person with a wide range of knowledge or learning. The term is
+      often used to describe people who have excelled in multiple fields, and are
+      able to make significant contributions to each of them.
+
+      Many admired scholars, such as Aristotle, Galileo, Da Vinci, and Isaac Newton,
+      were considered "Polymaths" or "Renaissance men".'
+    aliases:
+    - Renaissance men
+    examples:
+    - 'See: [Polymath on wikipedia](https://en.wikipedia.org/wiki/Polymath) for more
+      details.'
   - name: Primer
     definition: 'A primer is an introductory educational resource that provides foundational
       knowledge and essential concepts for a particular subject.
@@ -45,6 +329,15 @@ contexts:
     aliases:
     - introduction
     - getting started guide
+  - name: Rebutability
+    definition: The quality of a claim or conclusion that makes it open to challenge
+      or disproof. Rebuttable statements are grounded in specific evidence or measurement,
+      making them falsifiable and useful in decision-making.
+    aliases:
+    - falsifiability
+    - challengeability
+    examples:
+    - 'Reference: Turn the Ship Around'
   - name: Reference
     definition: 'A reference is a comprehensive informational resource that provides
       detailed, systematic documentation about a topic.
@@ -54,6 +347,69 @@ contexts:
     aliases:
     - reference material
     - documentation
+  - name: Search space
+    definition: 'Search Space refers to the entire set of possible solutions or outcomes
+      that can be considered when solving a problem or making a decision.
+
+      It encompasses all potential approaches, methods, and pathways that can be considered
+      in the problem-solving process.
+
+
+      - __In Machine Learning and AI:__ The search space includes all possible models,
+      parameters, and hyperparameters that an algorithm can explore to identify the
+      best-performing model.
+
+
+      - __In Optimization Problems:__ The search space represents all potential solutions
+      that meet the constraints of the problem. Efficiently navigating this space
+      is crucial for finding the most effective solution without excessive computation.
+
+
+      - __In Heuristics and Algorithms:__ The search space is the domain through which
+      heuristic methods or algorithms iterate to find approximate or near-optimal
+      solutions, balancing between exploration (searching new areas) and exploitation
+      (refining known good solutions).
+
+
+      - __In Education:__ In the context of learning strategies, the search space
+      encompasses various study techniques, mnemonic devices, and cognitive tools
+      that learners might employ to understand and retain information.'
+    aliases:
+    - solution space
+    - exploration domain
+  - name: Selective Perception
+    definition: 'The tendency not to notice, and more quickly forget, events and data
+      that do not align with our expectations.
+
+      This bias is a common psychological phenomenon, and is often used to explain
+      why people tend to ignore or forget
+
+      information that contradicts their current beliefs or causes emotional discomfort.'
+    aliases:
+    - Situational blindness
+    - Perceptual defense
+  - name: Silver Bullet
+    definition: 'A simple, magical, solution to a complex problem. The term likely
+      originates from the use of silver weapons in Greek mythology,
+
+      as they were believed to symbolize purity of heart, and known to bestow divine
+      favour on the person wielding them.
+
+      Later in history, the use of silver bullets was popularized in folkloric tales
+      about werewolves, vampires, witches, and other monsters.
+
+      This trope made its way into modern times, where it is used to describe a method
+      that works without fail.'
+    aliases:
+    - Cure-all
+    - Panacea
+    examples:
+    - 'See: [Silver Bullet on wikipedia](https://en.wikipedia.org/wiki/Silver_bullet)
+      for more details.'
+    - 'See: [Ethymology Online](https://www.etymonline.com/word/silver%20bullet) for
+      more details.'
+    - 'See: [Phrase Finder](https://www.phrases.org.uk/meanings/silver-bullet.html)
+      for more details.'
   - name: Strategic Learning
     definition: Strategic Learning refers to the process of acquiring and applying
       knowledge in a way that aligns with long-term goals and objectives. It involves
@@ -80,6 +436,46 @@ contexts:
       reducing dependency on a select group of experts and promoting a
 
       broader understanding across teams.'
+  - name: Subject Matter Expert
+    definition: 'A Subject Matter Expert (SME) is an individual with deep knowledge
+      and expertise in a particular area, subject, or domain. SMEs are often called
+
+      upon to provide specialized insight and guidance in their area of expertise,
+      making them invaluable resources in project development, training, and
+
+      decision-making processes. They play a critical role in knowledge sharing, ensuring
+      that accurate and relevant information is communicated within
+
+      organizations.'
+    aliases:
+    - Domain Expert
+    - Specialist
+    - SME
+    examples:
+    - 'See: [The SME role explained](https://www.responsive.io/blog/sme-role/) for
+      more details.'
+  - name: Sunk-cost fallacy
+    definition: 'A psychological trick we play on ourselves, to justify additional
+      investment into a decision, even though there is evidence to suggest that future
+      costs will outweigh the expected benefit.
+
+      We do this because we feel that we have already invested too much into something
+      to back out now.
+
+      <br /><br />
+
+      Example: __"We already spent two months working on getting this software to
+      function properly, we are not going to stop now!"__ Even though little to no
+      progress has been made.'
+    aliases:
+    - 'Escalation of commitment '
+  - name: Synchronous Communication
+    definition: Synchronous communication refers to real-time interactions where participants
+      engage in immediate, simultaneous exchanges of information. This form of communication
+      requires all parties to be present and actively involved in the conversation,
+      enabling instant feedback and response. Examples of synchronous communication
+      include face-to-face meetings, phone calls, video conferences, and live chat
+      sessions.
   - name: Systems Thinking
     definition: Systems Thinking is an approach to understanding and solving complex
       problems by viewing them as parts of an interconnected whole rather than in
@@ -99,6 +495,25 @@ contexts:
       Problems, Avoiding Unintended Consequences, and Achieving Lasting Results by
       David Peter Stroh](https://www.amazon.com/Systems-Thinking-Social-Change-Consequences/dp/160358580X)
       for more details.'
+  - name: The Cobra Effect
+    definition: A specific manifestation of perverse incentives where an attempted
+      solution to a problem makes the problem worse. Originates from a colonial anecdote
+      where a bounty for dead cobras led people to breed them for profit.
+    aliases:
+    - Perverse Incentives
+    - incentive failure
+    examples:
+    - 'See: [The Cobra Effect](https://en.wikipedia.org/wiki/Perverse_incentive#The_Cobra_Effect)
+      for more details.'
+  - name: mentorship
+    definition: A developmental relationship in which a more experienced individual
+      supports the learning, confidence, and capability-building of a less experienced
+      peer. Mentorship can be formal or informal and often includes guidance, encouragement,
+      and honest reflection. It plays a key role in skill development, knowledge transfer,
+      and shaping professional identity.
+    aliases:
+    - mentoring
+    - coaching relationship
   - name: remembering
     definition: 'Remembering is the cognitive ability to recall previously stored
       information, experiences, or commitments. It underpins reflection, learning,

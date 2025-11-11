@@ -1,15 +1,15 @@
 # Contextive Glossary: Software
 # Auto-generated from data/glossary.toml
-# Domain: software
-# Terms: 66
+# Category: software
+# Terms: 83
 #
 # This file provides IDE integration for ubiquitous language terms.
 # See https://docs.contextive.tech for more information.
 
 contexts:
 - name: Software
-  domainVisionStatement: Professional software development aims to solve human problems
-    by leveraging technological solutions.
+  domainVisionStatement: Professional software development and architecture aim to
+    solve human problems by leveraging technological solutions and sound design principles.
   meta:
     👥 Owner: Patterns Team
   terms:
@@ -46,6 +46,11 @@ contexts:
     definition: 'Cancellation of a target thread that immediately terminates it.
 
       (e.g. Unix'' `kill -9 $PID` command)'
+  - name: Blade servers
+    definition: 'A single chassis with multiple processor boards, I/O boards, and
+      networking boards.
+
+      Each processor board boots independently and runs its own operating system.'
   - name: Bootstrap program
     definition: An initial program, usually stored on ROM or EEPROM memory, to initialize
       all aspects of the system.
@@ -81,6 +86,21 @@ contexts:
     examples:
     - 'See: [wikipedia article](https://en.wikipedia.org/wiki/Broken_windows_theory)
       for more details.'
+  - name: CPU registers
+    definition: 'Registers are special purpose physical memory used during runtime
+      execution of instruction sets. These registers are usually optimized for their
+
+      dedicated task. These registers vary in number and type, depending on the computer
+      architecture. They include `accumulators`, `index registers`, `stack pointers`,
+
+      and general-purpose registers,
+
+      plus any condition-code information (e.g. status codes). Along with the program
+      counter, the content of these registers must be saved when an
+
+      interrupt occurs, to allow the process to be continued correctly afterward.'
+    aliases:
+    - registry
   - name: CPU scheduling information
     definition: 'Information related to task-scheduling on the processor. Usually
       includes `process priority`, `pointers to scheduling queues`, as well as
@@ -99,6 +119,21 @@ contexts:
   - name: Cascading termination
     definition: Some systems terminate all the child processes when they terminate
       the parent process. This is called 'cascading termination'.
+  - name: Causal Loop Diagram
+    definition: A causal loop diagram is a visual representation of the feedback loops
+      within a system, illustrating how various elements interact and influence each
+      other over time. It consists of nodes (variables) and arrows (causal links)
+      that show the relationships between these variables, highlighting the reinforcing
+      and balancing feedback loops that drive system behavior. Causal loop diagrams
+      are used in systems thinking and dynamic modeling to understand complex systems,
+      identify leverage points, and predict system behavior under different conditions.
+    examples:
+    - 'See: [Guidelines for Drawing Causal Loop Diagram](https://www.cs.toronto.edu/~sme/SystemsThinking/GuidelinesforDrawingCausalLoopDiagrams.pdf)
+      for more details.'
+    - 'See: [Business Dynamics: Systems Thinking and Modeling for a Complex World](https://www.goodreads.com/book/show/39736248-business-dynamics)
+      for more details.'
+    - 'See: [Thinking in Systems: A Primer](https://www.goodreads.com/book/show/3828902-thinking-in-systems)
+      for more details.'
   - name: Clean Code
     definition: 'Clean code refers to code that is easy to understand, maintain, and
       extend. It is written in a way that clearly communicates its intent, making
@@ -115,6 +150,9 @@ contexts:
       for more details.'
     - 'See: [Clean Code: A Handbook of Agile Software Craftsmanship](https://www.goodreads.com/book/show/3735293-clean-code)
       for more details.'
+  - name: Clustered systems
+    definition: Two or more individual systems coupled together, with shared storage
+      and closely linked via a LAN or faster interconnect.
   - name: Code Review
     definition: 'Code review is a software development practice where developers review
       each other’s code to ensure high quality and alignment with project goals.
@@ -154,6 +192,31 @@ contexts:
       electronic-mail messages, to log in
 
       remotely or to transfer files from one machine to another.'
+  - name: Complexity
+    definition: 'Complexity refers to the state or quality of a system or environment
+      that has multiple interconnected and interdependent parts, making it difficult
+
+      to predict outcomes or behaviors. In a business or organizational context, it
+      often involves dealing with uncertainty, ambiguity, and dynamic
+
+      interactions.'
+    aliases:
+    - intricacy
+    - complicatedness
+  - name: Connascence
+    definition: A metric and conceptual model for evaluating how tightly two parts
+      of a system are coupled, based on the types of changes in one component that
+      would require changes in another. Lower degrees of connascence indicate better
+      modularity and maintainability, while higher degrees signal stronger and often
+      more brittle dependencies.
+    aliases:
+    - Code Coupling
+    - Change Affinity
+    examples:
+    - 'See: [Connascence by Meilir Page-Jones](http://www.connascence.io/) for more
+      details.'
+    - 'See: [Wikipedia: Connascence](https://en.wikipedia.org/wiki/Connascence_(software))
+      for more details.'
   - name: Context switching
     definition: 'In computer science: A state save of the current process and the
       state restore of a different process, when a swap occurs.'
@@ -332,6 +395,14 @@ contexts:
     aliases:
     - simplicity
     - graceful design
+  - name: Emotional Intelligence
+    definition: Emotional intelligence is the capacity to recognise, understand, and
+      manage your own emotions while responding effectively to the emotions of others.
+      It blends self-awareness, empathy, and regulation to maintain constructive relationships
+      under pressure.
+    aliases:
+    - EQ
+    - emotional maturity
   - name: Fail Early
     definition: The "fail early" principle emphasizes the importance of detecting
       failures at the earliest possible point in the delivery chain. This approach
@@ -478,12 +549,59 @@ contexts:
       to waiting state, or when a process terminates.
 
       In contrast, pre-emptive scheduling can interrupt a process while it is running.'
+  - name: Non-Repudiation
+    definition: Non-repudiation is a principle that ensures a party cannot deny the
+      authenticity of their signature or the sending and receiving of a message, often
+      achieved through digital signatures and cryptography. It provides proof of the
+      origin and integrity of data, making it crucial in legal and digital communications.
+  - name: Organizational Capability
+    definition: 'An organizational capability is a specific ability or capacity that
+      an organization possesses to perform a particular task or function. They are
+
+      realized by various elements of the organization, such as people, processes,
+      and technology. In the field of business, strategic thinking and planning delivers
+      strategies
+
+      and high-level goals that are often not directly implementable in the architecture
+      of an organization. Describing the organization as a set of capabilties,
+
+      enables organizations to reason about their goals and processes in a structured,
+      strategic, manner. This structure can later be used to ensure business capabilities
+      are assigned to organizational units, and people.'
+    aliases:
+    - Capability
+    examples:
+    - 'See: [ArchiMate Reference guide: Strategic Layer](https://pubs.opengroup.org/architecture/archimate32-doc/ch-Strategy-Layer.html)
+      for more details.'
+  - name: Orthogonality
+    definition: A design principle where components or concerns are independent of
+      one another, such that changes in one do not affect the others. Orthogonal systems
+      are easier to understand, test, and maintain, as each part can be modified or
+      replaced without unintended side effects on unrelated parts.
+    aliases:
+    - Design Independence
+    - Separation of Concerns
+    examples:
+    - 'See: [The Pragmatic Programmer](https://pragprog.com/titles/tpp20/the-pragmatic-programmer-20th-anniversary-edition/)
+      for more details.'
+    - 'See: [Wikipedia: Orthogonality in Programming](https://en.wikipedia.org/wiki/Orthogonality_(programming))
+      for more details.'
   - name: Programming
     definition: Programming is the act of designing and implementing instructions
       a computer can execute. It blends problem decomposition, abstraction, and tooling
       to turn ideas into working software.
     aliases:
     - software development
+  - name: Progressive Disclosure
+    definition: A content design and usability principle where information is presented
+      gradually, revealing complexity only when necessary. This approach improves
+      user comprehension by preventing cognitive overload, ensuring that users receive
+      only the most relevant details at each stage of interaction.
+    aliases:
+    - Incremental Information Disclosure
+    examples:
+    - 'See: [Nielsen Norman Group: Progressive Disclosure](https://www.nngroup.com/articles/progressive-disclosure/)
+      for more details.'
   - name: Python
     definition: 'Python is a high-level, general-purpose programming language that
       emphasizes code readability and developer productivity.
@@ -509,6 +627,13 @@ contexts:
     examples:
     - 'See: [Refactoring: Improving the Design of Existing Code](https://www.goodreads.com/book/show/18624706-refactoring)
       for more details.'
+  - name: Reflection
+    definition: Reflection is the deliberate act of reviewing experiences to extract
+      insight, validate assumptions, and adapt future behaviour. Regular reflection
+      strengthens learning loops and clarifies priorities.
+    aliases:
+    - self-reflection
+    - introspection
   - name: Release Management
     definition: Release management is the process of planning, scheduling, and controlling
       the build, testing, and deployment of software releases. It ensures that software
@@ -540,6 +665,47 @@ contexts:
     - Render time
     - Time to interactive
     - First input delay
+  - name: Segmentation
+    definition: The process of dividing a broader audience into distinct groups based
+      on shared characteristics such as expertise level, interests, or needs. In content
+      strategy, segmentation allows for more targeted communication, ensuring that
+      different user groups receive the most relevant information.
+    aliases:
+    - Audience Segmentation
+    - Market Segmentation
+    examples:
+    - 'See: [Wikipedia: market segmentation](https://en.wikipedia.org/wiki/Market_segmentation)
+      for more details.'
+  - name: Self-actualization
+    definition: The process of realising and expressing one's full potential, talents,
+      and creativity. Often considered the highest level of psychological development,
+      self-actualization occurs when basic needs have been met and individuals pursue
+      purpose, meaning, and personal growth. Associated with autonomy, authenticity,
+      and intrinsic motivation.
+    aliases:
+    - self-fulfilment
+    - personal growth
+    - realising potential
+    examples:
+    - 'See: [Maslow’s Hierarchy of Needs](https://en.wikipedia.org/wiki/Maslow%27s_hierarchy_of_needs)
+      for more details.'
+  - name: Shift Left
+    definition: The practice of moving testing, analysis, and defect detection earlier
+      in the lifecycle of automated processes. Rather than waiting for later stages
+      -- such as integration, deployment, or delivery -- to uncover issues, teams
+      integrate quality checks and automated testing right from the design and development
+      phases. This proactive approach minimizes the cost and complexity of fixing
+      defects, reduces the risk of operational issues, and ultimately contributes
+      to a more stable, high-quality product. It embodies a culture where continuous
+      feedback and early warning mechanisms, such as those provided by Canary, enable
+      swift remediation and improve overall process efficiency.
+  - name: Testing
+    definition: Testing exercises a system to discover whether it behaves as intended,
+      exposes defects, or regresses after change. Effective testing blends automation
+      and exploration to build confidence in releases.
+    aliases:
+    - quality testing
+    - software testing
   - name: Throughput
     definition: The amount of processes that are completed per unit of time.
   - name: Trade-off
@@ -557,6 +723,14 @@ contexts:
   - name: Turnaround time
     definition: The interval of time counted from the moment of submission of a process
       to the time of completion.
+  - name: Value Stream
+    definition: A Value Stream is a sequence of interrelated activities and processes
+      that collectively enable an organization to deliver its core products or services.
+      Drawing on concepts from frameworks such as ArchiMate and SAFe, it represents
+      the flow of value from the initial request or input through to the final delivery,
+      ensuring that every step contributes to the organization’s strategic objectives.
+      This holistic view helps identify inefficiencies, optimize workflows, and continuously
+      enhance the overall effectiveness of business operations.
   - name: Version Control
     definition: Version control is the practice of managing and tracking changes to
       software code, documents, and other project artifacts over time. It allows teams

@@ -2,15 +2,19 @@
 """
 Generate Contextive-compatible glossary files from TOML source.
 
-This script reads the glossary.toml file and generates separate YAML files
-for each domain in the .contextive/ directory. Each YAML file follows the
+This script reads the glossary.toml file and consolidates terms into 4 main
+category YAML files in the .contextive/ directory. Each YAML file follows the
 Contextive format for IDE integration with ubiquitous language support.
 
 Usage:
     python3 generate_contextive_glossary.py
 
 Output:
-    Creates .contextive/<domain>.glossary.yml files
+    Creates .contextive/<category>.glossary.yml files:
+    - software.glossary.yml (software development and architecture)
+    - communication.glossary.yml (communication and collaboration)
+    - productivity.glossary.yml (productivity and task management)
+    - learning.glossary.yml (learning and professional growth)
 """
 
 import tomllib
@@ -19,64 +23,72 @@ from collections import defaultdict
 import yaml
 
 
-# Domain vision statements for each context
+# Domain vision statements for each main category
 DOMAIN_VISION_STATEMENTS = {
-    "software": "Professional software development aims to solve human problems by leveraging technological solutions.",
-    "communication": "Effective communication enables collaboration and shared understanding across teams and stakeholders.",
-    "productivity": "Productivity practices help individuals and teams achieve their goals efficiently and sustainably.",
-    "hardware": "Hardware concepts encompass the physical components and infrastructure that enable computing systems.",
-    "learning": "Learning and knowledge acquisition are essential for professional growth and adaptation.",
-    "management": "Management practices guide effective leadership and organizational coordination.",
-    "psychology": "Understanding human behavior and cognition improves collaboration and decision-making.",
-    "strategy": "Strategic thinking enables long-term planning and alignment with organizational goals.",
-    "security": "Security practices protect systems, data, and users from threats and vulnerabilities.",
-    "quality assurance": "Quality assurance ensures that products and services meet required standards and expectations.",
+    "software": "Professional software development and architecture aim to solve human problems by leveraging technological solutions and sound design principles.",
+    "communication": "Effective communication and collaboration enable shared understanding across teams, stakeholders, and communities.",
+    "productivity": "Productivity practices help individuals and teams achieve their goals efficiently, sustainably, and with minimal waste.",
+    "learning": "Learning and knowledge acquisition are essential for professional growth, adaptation, and continuous improvement.",
 }
 
-# Default vision statement for domains not explicitly defined
-DEFAULT_VISION = "This domain encompasses specialized terminology and concepts used in professional practice."
 
-
-def normalize_domain(domain: str) -> str:
-    """Normalize domain name for consistency."""
+def categorize_domain(domain: str) -> str:
+    """Map any domain to one of the 4 main categories."""
     if not domain or domain.strip() == "":
-        return "general"
+        return "learning"  # Default for uncategorized terms
     
-    # Normalize common variations
     domain_lower = domain.lower().strip()
     
-    # Handle common typos and variations
-    normalization_map = {
-        "software architecure": "software architecture",
-        "problem soving": "problem solving",
-        "software engineering, code quality": "software engineering",
-        "software engineering, system design": "software engineering",
-        "user experience, content strategy": "user experience",
-        "user experience, technical communication": "user experience",
-        "marketing, technical communication": "technical communication",
-        "productivity, task management": "productivity",
-        "quality management, process improvement": "quality management",
-        "systems theory, decision-making, leadership": "systems theory",
-        "metrics and decision-making": "metrics",
-        "software development": "software",
-        "software architecture": "software",
-    }
+    # Software category: development, architecture, engineering, quality, security, systems
+    software_keywords = [
+        "software", "architecture", "engineering", "code", "system", "hardware",
+        "computer", "network", "security", "quality assurance", "development",
+        "technical", "programming", "api", "design pattern"
+    ]
     
-    return normalization_map.get(domain_lower, domain_lower)
+    # Communication category: collaboration, interaction, social, behavioral
+    communication_keywords = [
+        "communication", "collaboration", "social", "interpersonal", "conversation",
+        "cooperation", "team", "dynamics", "psychological", "behavioral economics"
+    ]
+    
+    # Productivity category: efficiency, management, organization, strategy
+    productivity_keywords = [
+        "productivity", "management", "project", "task", "efficiency", "planning",
+        "organization", "strategy", "process", "metrics", "measurement", "evaluation",
+        "decision-making", "problem solving", "talent acquisition", "enterprise"
+    ]
+    
+    # Learning category: education, knowledge, cognitive, personal development
+    learning_keywords = [
+        "learning", "knowledge", "education", "cognitive", "psychology", "personal development",
+        "professional growth", "reasoning", "evidence", "self-awareness", "thinking",
+        "analysis", "folklore", "history", "philosophy", "physics", "ethics"
+    ]
+    
+    # Check each category in priority order
+    for keyword in software_keywords:
+        if keyword in domain_lower:
+            return "software"
+    
+    for keyword in communication_keywords:
+        if keyword in domain_lower:
+            return "communication"
+    
+    for keyword in productivity_keywords:
+        if keyword in domain_lower:
+            return "productivity"
+    
+    for keyword in learning_keywords:
+        if keyword in domain_lower:
+            return "learning"
+    
+    # Default to learning for uncategorized
+    return "learning"
 
-
-def get_domain_vision_statement(domain: str) -> str:
-    """Get the vision statement for a domain."""
-    return DOMAIN_VISION_STATEMENTS.get(domain, DEFAULT_VISION)
-
-
-def sanitize_filename(domain: str) -> str:
-    """Convert domain name to a safe filename."""
-    # Replace spaces and special characters with underscores
-    safe_name = domain.replace(" ", "_").replace(",", "").replace("&", "and")
-    # Remove any remaining problematic characters
-    safe_name = "".join(c for c in safe_name if c.isalnum() or c in "._-")
-    return safe_name.lower()
+def get_domain_vision_statement(category: str) -> str:
+    """Get the vision statement for a main category."""
+    return DOMAIN_VISION_STATEMENTS.get(category, DOMAIN_VISION_STATEMENTS["learning"])
 
 
 def format_term_for_contextive(term: dict) -> dict:
@@ -116,30 +128,35 @@ def format_term_for_contextive(term: dict) -> dict:
 
 
 def generate_contextive_glossaries(toml_path: Path, output_dir: Path):
-    """Generate Contextive YAML files from TOML glossary."""
+    """Generate consolidated Contextive YAML files from TOML glossary."""
     # Read TOML file
     with open(toml_path, "rb") as f:
         data = tomllib.load(f)
     
-    # Group terms by domain
-    terms_by_domain = defaultdict(list)
+    # Group terms by main category (4 categories)
+    terms_by_category = defaultdict(list)
     for term in data.get("terminology", []):
-        domain = normalize_domain(term.get("domain", ""))
-        terms_by_domain[domain].append(term)
+        category = categorize_domain(term.get("domain", ""))
+        terms_by_category[category].append(term)
     
     # Create output directory if it doesn't exist
     output_dir.mkdir(parents=True, exist_ok=True)
     
-    # Generate a YAML file for each domain
-    for domain, terms in sorted(terms_by_domain.items()):
+    # Remove old glossary files
+    for old_file in output_dir.glob("*.glossary.yml"):
+        old_file.unlink()
+        print(f"Removed old file: {old_file.name}")
+    
+    # Generate a YAML file for each main category
+    for category, terms in sorted(terms_by_category.items()):
         # Create the context structure
-        context_name = domain.title() if domain != "general" else "General"
+        context_name = category.title()
         
         context = {
             "contexts": [
                 {
                     "name": context_name,
-                    "domainVisionStatement": get_domain_vision_statement(domain),
+                    "domainVisionStatement": get_domain_vision_statement(category),
                     "meta": {
                         "👥 Owner": "Patterns Team"
                     },
@@ -149,14 +166,14 @@ def generate_contextive_glossaries(toml_path: Path, output_dir: Path):
         }
         
         # Write to YAML file
-        filename = f"{sanitize_filename(domain)}.glossary.yml"
+        filename = f"{category}.glossary.yml"
         output_path = output_dir / filename
         
         with open(output_path, "w", encoding="utf-8") as f:
             # Add header comment
             f.write(f"# Contextive Glossary: {context_name}\n")
             f.write(f"# Auto-generated from data/glossary.toml\n")
-            f.write(f"# Domain: {domain}\n")
+            f.write(f"# Category: {category}\n")
             f.write(f"# Terms: {len(terms)}\n")
             f.write("#\n")
             f.write("# This file provides IDE integration for ubiquitous language terms.\n")
@@ -167,7 +184,7 @@ def generate_contextive_glossaries(toml_path: Path, output_dir: Path):
         
         print(f"Generated: {filename} ({len(terms)} terms)")
     
-    print(f"\nTotal: {len(terms_by_domain)} domain files generated in {output_dir}")
+    print(f"\nTotal: {len(terms_by_category)} category files generated in {output_dir}")
 
 
 def main():

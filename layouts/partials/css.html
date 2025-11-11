@@ -42,17 +42,50 @@
 <script type="text/javascript" src="{{ $toc }}"></script>
 
 {{- $scssBaseOpts := cond $inServerMode (dict "enableSourceMap" true "transpiler" "dartsass" "quietDeps" true) (dict "outputStyle" "compressed" "transpiler" "dartsass" "quietDeps" true) }}
-{{- $scssBundles := slice
-    (dict "source" "domains/custom.scss" "target" "css/custom.css")
-    (dict "source" "domains/patterns.scss" "target" "css/patterns.css")
-    (dict "source" "domains/glossary.scss" "target" "css/glossary.css")
-    (dict "source" "domains/recommendations.scss" "target" "css/recommendations.css")
-    (dict "source" "domains/images.scss" "target" "css/images.css")
-    (dict "source" "domains/quotes.scss" "target" "css/quotes.css")
-    (dict "source" "domains/taxonomies.scss" "target" "css/taxonomies.css")
-    (dict "source" "domains/toc.scss" "target" "css/toc.css")
-    (dict "source" "domains/ammerse.scss" "target" "css/ammerse.css")
-}}
+
+{{- /* Build list of stylesheets to load based on page type */ -}}
+{{- $scssBundles := slice (dict "source" "domains/custom.scss" "target" "css/custom.css") }}
+
+{{- /* Add patterns.scss for practices and concepts */ -}}
+{{- if or (in .RelPermalink "/practices/") (in .RelPermalink "/concepts/") }}
+  {{- $scssBundles = $scssBundles | append (dict "source" "domains/patterns.scss" "target" "css/patterns.css") }}
+  {{- $scssBundles = $scssBundles | append (dict "source" "domains/ammerse.scss" "target" "css/ammerse.css") }}
+{{- end }}
+
+{{- /* Add glossary.scss for glossary pages */ -}}
+{{- if in .RelPermalink "/glossary/" }}
+  {{- $scssBundles = $scssBundles | append (dict "source" "domains/glossary.scss" "target" "css/glossary.css") }}
+{{- end }}
+
+{{- /* Add recommendations.scss for books and tools */ -}}
+{{- if or (in .RelPermalink "/books/") (in .RelPermalink "/tools/") }}
+  {{- $scssBundles = $scssBundles | append (dict "source" "domains/recommendations.scss" "target" "css/recommendations.css") }}
+{{- end }}
+
+{{- /* Add images.scss, quotes.scss, toc.scss, and taxonomies.scss for most content pages */ -}}
+{{- if not .IsHome }}
+  {{- $scssBundles = $scssBundles | append (dict "source" "domains/images.scss" "target" "css/images.css") }}
+  {{- $scssBundles = $scssBundles | append (dict "source" "domains/quotes.scss" "target" "css/quotes.css") }}
+  {{- $scssBundles = $scssBundles | append (dict "source" "domains/toc.scss" "target" "css/toc.css") }}
+{{- end }}
+
+{{- /* Add taxonomies for category/tag pages */ -}}
+{{- if or (eq .Section "categories") (eq .Section "tags") }}
+  {{- $scssBundles = $scssBundles | append (dict "source" "domains/taxonomies.scss" "target" "css/taxonomies.scss") }}
+{{- end }}
+
+{{- /* Add all stylesheets on homepage to ensure no visual regressions */ -}}
+{{- if .IsHome }}
+  {{- $scssBundles = $scssBundles | append (dict "source" "domains/patterns.scss" "target" "css/patterns.css") }}
+  {{- $scssBundles = $scssBundles | append (dict "source" "domains/glossary.scss" "target" "css/glossary.css") }}
+  {{- $scssBundles = $scssBundles | append (dict "source" "domains/recommendations.scss" "target" "css/recommendations.css") }}
+  {{- $scssBundles = $scssBundles | append (dict "source" "domains/images.scss" "target" "css/images.css") }}
+  {{- $scssBundles = $scssBundles | append (dict "source" "domains/quotes.scss" "target" "css/quotes.css") }}
+  {{- $scssBundles = $scssBundles | append (dict "source" "domains/taxonomies.scss" "target" "css/taxonomies.css") }}
+  {{- $scssBundles = $scssBundles | append (dict "source" "domains/toc.scss" "target" "css/toc.css") }}
+  {{- $scssBundles = $scssBundles | append (dict "source" "domains/ammerse.scss" "target" "css/ammerse.css") }}
+{{- end }}
+
 {{- with .Site.Params.visualisations }}
   {{- if .alpha }}
     {{- $scssBundles = $scssBundles | append (dict "source" "domains/visualization.scss" "target" "css/visualization.css") }}

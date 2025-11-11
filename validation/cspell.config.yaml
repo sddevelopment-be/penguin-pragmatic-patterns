@@ -58,6 +58,7 @@ words:
   - openrewrite
   - devpedia
   - Doji
+  - practicingruby
 ignorePaths:
   - node_modules
   - validation/node_modules

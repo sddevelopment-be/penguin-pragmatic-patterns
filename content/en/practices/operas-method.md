@@ -173,7 +173,7 @@ While the OPERAS approach provides a structured method for tackling tasks and ac
 * **Overemphasis on Process Over Outcome:** Focusing too much on following the steps of the OPERAS model might cause you to lose sight of the
   end goal. This could lead to a situation where the process becomes more important than the actual outcome, causing inefficiency.
 * **Time-Consuming Reflection:** The Reflect and Adapt phases are crucial for learning, but they can also become time-consuming if overdone.
-  Spending too much time analyzing past actions may lead to delays in moving forward, especially in fast-paced environments.
+  Spending too much time analysing past actions may lead to delays in moving forward, especially in fast-paced environments.
 * **Paralysis by Analysis:** The Prepare and Reflect steps can sometimes lead to overthinking, where the fear of making mistakes or the need
   for perfection leads to procrastination or delays in execution.
 * **Difficulty in Application to Smaller Tasks:** For smaller, more straightforward tasks, the OPERAS model might feel cumbersome or excessive,

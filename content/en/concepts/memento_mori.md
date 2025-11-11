@@ -83,7 +83,7 @@ an appreciation of the present moment, though Buddhism also focuses on the cycle
 possessions and desires. Memento Mori closely aligns with the Stoic practice of negative visualization, where individuals are encouraged to contemplate potential
 misfortunes, including death. This practice aims to build resilience and gratitude for what one currently has, fostering a more virtuous and
 meaningful life. Christianity incorporates the inevitability of death into its teachings, urging followers to live virtuously and focus on their spiritual
-well-being. The concept of judgment and the afterlife further encourages ethical living and self-reflection, similar to the goals of Memento Mori.
+well-being. The concept of judgement and the afterlife further encourages ethical living and self-reflection, similar to the goals of Memento Mori.
 
 In contrast to Memento Mori, Epicureanism focuses on seeking pleasure and avoiding pain. While Memento Mori urges individuals to consider the
 long-term impact of their actions and live a meaningful life, Epicureanism prioritizes immediate gratification and the pursuit of personal

@@ -69,6 +69,12 @@
   {{- $scssBundles = $scssBundles | append (dict "source" "domains/toc.scss" "target" "css/toc.css") }}
 {{- end }}
 
+{{- /* Add patterns.scss for practices and concepts */ -}}
+{{- if (in .RelPermalink "/primers/") }}
+{{- $scssBundles = $scssBundles | append (dict "source" "domains/patterns.scss" "target" "css/patterns.css") }}
+{{- $scssBundles = $scssBundles | append (dict "source" "domains/ammerse.scss" "target" "css/ammerse.css") }}
+{{- end }}
+
 {{- /* Add taxonomies for category/tag pages */ -}}
 {{- if or (eq .Section "categories") (eq .Section "tags") }}
   {{- $scssBundles = $scssBundles | append (dict "source" "domains/taxonomies.scss" "target" "css/taxonomies.scss") }}

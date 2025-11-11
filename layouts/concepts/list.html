@@ -33,7 +33,7 @@
                     </h2>
                 </a>
             </div>
-                <div class="wrapped-columns pattern-container">
+                <div class="is-multiline is-centered-tablet-portrait">
                     {{ $patterns := slice  }}
                     {{ range where $pages ".Params.categories" "intersect" (slice $categoryTitle) }}
                     {{ $ctx := dict
@@ -45,6 +45,8 @@
                     "Categories" .Params.categories
                     "Tags" .Params.tags
                     "Image" .Params.image
+                    "Lastmod" .Params.Lastmod
+                    "ReadingTime" .Params.ReadingTime
                     }}
                     {{ $patterns = $patterns | append $ctx }}
                     {{ end }}

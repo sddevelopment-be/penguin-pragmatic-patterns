@@ -16,7 +16,7 @@ Software development is a young field compared to medicine, law, or woodworking.
 
 This creates a paradox: we have access to an overwhelming amount of advice, frameworks, and "best practices," yet we struggle to find common ground. The proverb "put two developers in a room, they'll soon generate three dissenting opinions" rings uncomfortably true.
 
-This knowledge base exists to help navigate that landscape. The premise is simple: __we don't prescribe solutions. We help you build judgment.__
+This knowledge base exists to help navigate that landscape. The premise is simple: __we don't prescribe solutions. We help you build judgement.__
 
 If you find a technique that works well for your context, use it. If it doesn't fit, understanding _why_ it doesn't fit is just as valuable as knowing the technique itself.
 
@@ -61,7 +61,7 @@ For deeper exploration of any topic, see the curated resources in the bibliograp
 
 Sharing knowledge effectively requires balancing signal and noise—conveying ideas clearly without burying them in jargon or abstraction. Different fields solve this differently: chess players share tactics through motifs, internet culture spreads ideas via memes, and software developers create formal models.
 
-A **pattern language** is a structured way to represent practical wisdom. Each pattern distills a recurring challenge and its context-dependent solution into a reusable form. Much like a dictionary, patterns in this library are referenced by name and include:
+A **pattern language** is a structured way to represent practical wisdom. Each pattern distils a recurring challenge and its context-dependent solution into a reusable form. Much like a dictionary, patterns in this library are referenced by name and include:
 - The type of problem they address
 - The context in which they work well
 - Trade-offs and forces at play

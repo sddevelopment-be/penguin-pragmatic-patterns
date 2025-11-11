@@ -133,8 +133,6 @@
         margin-bottom: $space-3xs;
         width: 100%;
         padding: $space-3xs;
-        margin-top: -0.7rem;
-        margin-left: -2.95rem;
     }
 
     .delay-1 {
@@ -283,14 +281,14 @@
     }
 }
 
-.pattern-tags {
+.tags {
     display: flex;
     flex-flow: row wrap;
     place-content: flex-start;
-    padding: 0 $space-gap-tight;
     max-width: 100%;
     margin-top: $space-gutter;
     margin-bottom: $space-2xs;
+    padding: 0 $space-gap-tight 0 $space-snug;
 }
 
 .summary-content a {
@@ -369,7 +367,7 @@
 
 .card-title-wrapper {
     display: flex;
-    flex-flow: row-reverse nowrap;
+    flex-flow: row nowrap;
     place-content: center space-between;
     gap: $space-3xs;
 }

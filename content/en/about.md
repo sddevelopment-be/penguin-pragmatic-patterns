@@ -61,7 +61,7 @@ For deeper exploration of any topic, see the curated resources in the bibliograp
 
 Sharing knowledge effectively requires balancing signal and noise—conveying ideas clearly without burying them in jargon or abstraction. Different fields solve this differently: chess players share tactics through motifs, internet culture spreads ideas via memes, and software developers create formal models.
 
-A **pattern language** is a structured way to represent practical wisdom. Each pattern distills a recurring challenge and its context-dependent solution into a reusable form. Much like a dictionary, patterns in this library are referenced by name and include:
+A **pattern language** is a structured way to represent practical wisdom. Each pattern distils a recurring challenge and its context-dependent solution into a reusable form. Much like a dictionary, patterns in this library are referenced by name and include:
 - The type of problem they address
 - The context in which they work well
 - Trade-offs and forces at play

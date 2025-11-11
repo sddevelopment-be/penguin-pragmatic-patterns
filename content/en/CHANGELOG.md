@@ -33,7 +33,7 @@ Any feedback or suggestions for changes can be submitted there.
 - Perl logo assets: `static/images/primers/perl_logo.webp` and thumbnail version for primer page display
 - Agent directive: `.github/AGENTS/directive_primer.md` documenting the process for creating language primers
 - Glossary entries for *Gamification* and *Team morale* to support new practice metadata
-- Glossary expansions supporting practice tagging: *Decision-making*, *Evaluation*, *Conversation*, *Emotional Intelligence*, *Empathy*, *Interpersonal Skills*, *Relationships*, *Understanding*, *Goals*, *Pivotting*, *Elegance*, *KISS*, *YAGNI*, *Interviewing*, *Assessments*
+- Glossary expansions supporting practice tagging: *Decision-making*, *Evaluation*, *Conversation*, *Emotional Intelligence*, *Empathy*, *Interpersonal Skills*, *Relationships*, *Understanding*, *Goals*, *Pivoting*, *Elegance*, *KISS*, *YAGNI*, *Interviewing*, *Assessments*
 
 ### Changed
 

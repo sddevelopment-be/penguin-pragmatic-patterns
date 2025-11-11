@@ -72,8 +72,6 @@ params:
 
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
-  - title: Approach
-    url: /about
   - title: Concepts
     url: /concepts/
   - title: Practices
@@ -132,6 +130,8 @@ params:
       <strong>Looking for actionable techniques?</strong> Browse <a href="/practices">Practices</a> to find structured approaches you can apply immediately, complete with trade-off analysis and real-world context.
       <br /><br />
       <strong>Need to decode a term or framework?</strong> Check the <a href="/glossary">Glossary</a> for plain-language definitions, or visit <a href="/books">Bibliography</a> for recommended deep dives.
+      <br /><br />
+      <strong>Want to understand the methodology?</strong> Read the <a href="/about">Approach</a> page for details on pattern languages, the sense-making meta model, and how this library integrates with other frameworks.
       <br /><br />
       There's no required reading order. Jump in where your curiosity leads, and follow the links between related ideas.
     links:

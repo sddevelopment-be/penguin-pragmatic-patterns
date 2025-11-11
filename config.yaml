@@ -101,11 +101,11 @@ params:
     title: Why this exists
     subtitle: because knowing what to do matters less than knowing when to do it
     text: >
-      You've probably encountered an elegant solution to a problem and thought: "Why didn't I see that sooner?" The reason is simpler than you'd expect—you didn't know it existed. Or maybe someone mentioned it, but the context got lost in translation.
+      You've probably encountered an elegant solution to a problem and thought: "Why didn't I see that sooner?" The reason is simpler than you'd expect: you simply didn't know it was an option. Maybe someone mentioned the approach once, but the context got lost in translation.
       <br /><br />
-      Technical work is full of advice: best practices, frameworks, methodologies, and patterns. The challenge isn't finding them—it's understanding <em>when</em> they apply and <em>why</em> they matter in your specific situation.
+      Technical work is full of advice: best practices, frameworks, methodologies, and patterns. The challenge isn't finding them. The challenge is understanding <em>when</em> they apply and <em>why</em> they matter in your specific situation.
       <br /><br />
-      This knowledge base offers something different: structured, searchable insights that explain not just <em>what</em> techniques exist, but <em>when</em> they're valuable and <em>what trade-offs</em> they involve. Think of it as a reference library built by practitioners, for practitioners—whether you're debugging your first merge conflict or architecting systems for a distributed team.
+      This knowledge base offers something different: structured, searchable insights that explain not just <em>what</em> techniques exist, but <em>when</em> they're valuable and <em>what trade-offs</em> they involve. Think of it as a reference library built by practitioners, for practitioners. Whether you're debugging your first merge conflict or architecting systems for a distributed team, there is something for you here.
       <br /><br />
       We don't prescribe solutions. We help you build judgment by showing how concepts, practices, and mental models apply across contexts. Your situation is unique. Your approach should be, too.
   section2:
@@ -125,7 +125,7 @@ params:
     text: >
       Whether you're onboarding to a new role, leading a team through a transition, or just curious how experienced practitioners approach common challenges, you'll find structured guidance here.
       <br /><br />
-      <strong>New to the field?</strong> Start with <a href="/primers">Primers</a> to build foundational understanding, then explore <a href="/concepts">Concepts</a> that shape how experienced professionals think about problems.
+      <strong>New to a specific technology?</strong> Explore <a href="/primers">Primers</a> to understand the philosophy and "point" of different programming languages and tools, then dive into <a href="/concepts">Concepts</a> that shape how experienced professionals think about problems.
       <br /><br />
       <strong>Looking for actionable techniques?</strong> Browse <a href="/practices">Practices</a> to find structured approaches you can apply immediately, complete with trade-off analysis and real-world context.
       <br /><br />

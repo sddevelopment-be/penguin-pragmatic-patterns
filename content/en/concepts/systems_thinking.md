@@ -40,7 +40,7 @@ situation.
 
 ## Key Components
 
-* **Building Blocks and Interactions:** By identifying and analyzing the fundamental components and their interactions within a system, we can
+* **Building Blocks and Interactions:** By identifying and analysing the fundamental components and their interactions within a system, we can
   reduce the level of detail needed to understand complex situations.
 * **Holistic View:** Systemic thinking promotes a broad perspective, helping individuals see the "big picture" and gain clarity amidst chaos.
 * **Mental Models:** Creating mental models or visual maps of systems helps to simplify and understand complex problems by highlighting key
@@ -77,7 +77,7 @@ Charting these factors on a graph gives us these main zones of complexity:
 
 {{<tip text=`
 Generally, the more complex a system is, the more we need to rely on Systems Thinking to understand and navigate it effectively. For simple and 
-complicated environments, linear and structured approaches are usually sufficient. Avoid the temptation of overanalyzing simple problems, you 
+complicated environments, linear and structured approaches are usually sufficient. Avoid the temptation of overanalysing simple problems, you 
 are likely to cause confusion and waste time.` >}}
 
 ## Background

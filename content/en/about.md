@@ -16,7 +16,7 @@ Software development is a young field compared to medicine, law, or woodworking.
 
 This creates a paradox: we have access to an overwhelming amount of advice, frameworks, and "best practices," yet we struggle to find common ground. The proverb "put two developers in a room, they'll soon generate three dissenting opinions" rings uncomfortably true.
 
-This knowledge base exists to help navigate that landscape. The premise is simple: __we don't prescribe solutions. We help you build judgment.__
+This knowledge base exists to help navigate that landscape. The premise is simple: __we don't prescribe solutions. We help you build judgement.__
 
 If you find a technique that works well for your context, use it. If it doesn't fit, understanding _why_ it doesn't fit is just as valuable as knowing the technique itself.
 

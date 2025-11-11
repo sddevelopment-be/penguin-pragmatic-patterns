@@ -236,7 +236,7 @@ persona—but it wasn’t long before the superficiality of his approach became 
 Clients who had once trusted Blaine began to notice the lack of substance behind his pitches. The buzzwords and manipulative tactics felt hollow,
 and his forced virtue signaling came across as insincere. Rather than building the deep trust and understanding that had once been his hallmark,
 Blaine’s new style began to erode the relationships he had spent years cultivating. At the same time, his colleagues grew increasingly wary of him,
-distancing themselves due to his cutthroat behavior and self-promotion.
+distancing themselves due to his cutthroat behaviour and self-promotion.
 
 As Blaine's sales numbers began to decline, he found himself increasingly isolated. The clients who once relied on him for genuine insights and
 reliable service started to pull away, seeking out partners who could offer real value rather than flashy talk. Within his own company, Blaine's

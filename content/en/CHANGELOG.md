@@ -136,7 +136,7 @@ Any feedback or suggestions for changes can be submitted there.
 - Fixed social media share meta tags
 - Issue with quotations not being displayed correctly in combination with pattern summary card
 - File size of images has been reduced to improve loading times
-- Issue with images with caption not being centered correctly
+- Issue with images with caption not being centred correctly
 
 ### Added
 

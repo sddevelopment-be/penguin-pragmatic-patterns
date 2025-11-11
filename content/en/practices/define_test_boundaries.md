@@ -14,7 +14,7 @@ Badly defined test boundaries can lead to tests that are too broad, too narrow, 
 difficult to maintain, provide little value, or break easily. We will learn how defining test boundaries based on the functionality and 
 responsibilities of a system, rather than its structural or architectural layers, leads to more meaningful, maintainable, 
 and effective tests. This approach reduces the brittleness of tests, makes them easier to maintain, and ensures 
-they focus on validating the system's intended behavior rather than its implementation details.
+they focus on validating the system's intended behaviour rather than its implementation details.
 """
 categories = [
     "software development",

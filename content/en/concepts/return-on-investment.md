@@ -81,7 +81,7 @@ significantly more complex to assess.
 
 #### Risk Assessment
 
-Risk assessment involves identifying, analyzing, and prioritizing potential risks associated with an investment. Unlike ROI, which primarily focuses
+Risk assessment involves identifying, analysing, and prioritizing potential risks associated with an investment. Unlike ROI, which primarily focuses
 on financial returns relative to costs, risk assessment provides a more comprehensive view of the uncertainties and potential downsides of an
 investment. This process involves evaluating the likelihood and impact of various risks, which can include market volatility, operational
 challenges, and external factors such as regulatory changes. By incorporating risk assessment, decision-makers can better understand the potential

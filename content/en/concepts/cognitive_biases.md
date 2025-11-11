@@ -7,7 +7,7 @@ summary="""
 Discover the concept of cognitive biases, systematic errors in thinking that influence how we perceive the world, 
 make decisions, and interact with others. This page explores the origins, key components, and practical applications of cognitive biases, 
 providing insights into social, memory, emotional, and decision-making biases. 
-Learn how understanding these biases can improve judgment and foster better personal and professional relationships.
+Learn how understanding these biases can improve judgement and foster better personal and professional relationships.
 """
 categories = [
     "learning"
@@ -33,8 +33,8 @@ image="concepts/banner_cognitive_bias"
 ## Definition
 
 A **cognitive bias** is an _“error in thinking”_ that affects how we perceive the world, make decisions, and interact with others. Biases are 
-systematic patterns of deviation from norm or rationality in judgment, where individuals create their own subjective reality from their perception of the
-input. These biases often stem from the brain's attempt to simplify information processing, leading to errors in decision-making and judgment.
+systematic patterns of deviation from norm or rationality in judgement, where individuals create their own subjective reality from their perception of the
+input. These biases often stem from the brain's attempt to simplify information processing, leading to errors in decision-making and judgement.
 
 ## Key Components
 
@@ -43,18 +43,18 @@ survived as a species not because we were the smartest or the strongest, but bec
 decisions based on incomplete information and act on them in ways that benefited our survival. This is why we have a tendency to avoid pain, seek
 pleasure, and make decisions based on emotion rather than reason. These shortcuts, or heuristics, were critically important in the past when we
 lived in a world of scarcity, danger, and uncertainty. However, in our modern, information-rich environment, they often lead to significant errors
-in judgment. Here is a non-exhaustive list of different types of biases that you are likely to encounter:
+in judgement. Here is a non-exhaustive list of different types of biases that you are likely to encounter:
 
 ### Social biases 
 
 These biases are based on how we perceive and interact with others. Examples include the halo effect (where our overall
-impression of a person influences our judgment of their specific traits), the bandwagon effect (where we adopt beliefs because others do), and
-the fundamental attribution error (where we overemphasize personal characteristics and ignore situational factors in judging others’ behavior).
+impression of a person influences our judgement of their specific traits), the bandwagon effect (where we adopt beliefs because others do), and
+the fundamental attribution error (where we overemphasize personal characteristics and ignore situational factors in judging others’ behaviour).
 Examples include:
 
-* **Halo Effect:** Our overall impression of a person influences our judgment of their specific traits.
+* **Halo Effect:** Our overall impression of a person influences our judgement of their specific traits.
 * **Bandwagon Effect:** We adopt beliefs because others do.
-* **Fundamental Attribution Error:** We overemphasize personal characteristics and ignore situational factors in judging others’ behavior.
+* **Fundamental Attribution Error:** We overemphasize personal characteristics and ignore situational factors in judging others’ behaviour.
 
 ### Memory biases
 
@@ -90,20 +90,20 @@ confirms our beliefs), and survivorship bias (where we focus on successful examp
 ### Origin
 
 The concept of cognitive biases has roots in psychology and behavioural economics. It gained prominence in the 1970s through the work of
-psychologists Amos Tversky and Daniel Kahneman, who identified and described many of these biases in their research on judgment and decision-making.
+psychologists Amos Tversky and Daniel Kahneman, who identified and described many of these biases in their research on judgement and decision-making.
 
 ### Application
 
 In practice, recognizing cognitive biases is crucial for improving decision-making in personal and professional contexts. By being aware of these
 biases, individuals and organizations can implement strategies to minimize their impact, such as seeking diverse perspectives, relying on
-data-driven decision-making, and practicing critical thinking.
+data-driven decision-making, and practising critical thinking.
 
 ### Comparisons
 
 #### Bias or Fallacy?
 
 Logical fallacies are errors in reasoning and argumentation. While cognitive biases are systematic patterns of
-deviation from norm or rationality in judgment, logical fallacies are specific errors in the structure of arguments. Both can lead to flawed
+deviation from norm or rationality in judgement, logical fallacies are specific errors in the structure of arguments. Both can lead to flawed
 conclusions, but they arise from different cognitive processes.
 
 #### Psychological Priming
@@ -111,7 +111,7 @@ conclusions, but they arise from different cognitive processes.
 Psychological priming involves the exposure to a stimulus influencing the response to a subsequent stimulus, often without conscious
 guidance or intention. Priming can shape perceptions, behaviours, and attitudes by activating certain associations in memory. For instance, if
 individuals are primed with words related to old age, they may walk more slowly afterward, demonstrating how subtle cues can affect behaviour. While
-cognitive biases are often unconscious errors in thinking that skew judgment, psychological priming is a process where exposure to certain stimuli
+cognitive biases are often unconscious errors in thinking that skew judgement, psychological priming is a process where exposure to certain stimuli
 can unconsciously influence subsequent responses. Both concepts illustrate the powerful, often hidden forces that shape human thought and behaviour,
 but they operate through different mechanisms: biases distort our decision-making processes, whereas priming subtly alters our reactions and
 behaviours based on prior stimuli.
@@ -127,7 +127,7 @@ behaviours based on prior stimuli.
     float="right"
     size="25%" >}}
 
-During World War II, the US Navy was analyzing the damage to returning fighter planes to determine where to add armour. Initially, they
+During World War II, the US Navy was analysing the damage to returning fighter planes to determine where to add armour. Initially, they
 considered reinforcing the areas most frequently hit by enemy fire, based on the damage observed on the planes that made it back.
 
 However, Abraham Wald, a statistician, pointed out that this approach was flawed due to survivorship bias. The planes that returned safely did so
@@ -161,7 +161,7 @@ the end of the world.
 
 These interpretations exemplify the fundamental attribution error, where people attributed the cause of the plague to internal, moral, or spiritual
 failings rather than external, situational factors. This bias led to a widespread misunderstanding of the disease and hindered effective responses
-to the crisis. By recognizing this error, we can learn to consider broader situational factors in our judgments, leading to more accurate and
+to the crisis. By recognizing this error, we can learn to consider broader situational factors in our judgements, leading to more accurate and
 compassionate understanding of events and behaviours.
 
 ### A Very Expensive Crater

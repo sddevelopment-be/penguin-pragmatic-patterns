@@ -71,7 +71,7 @@ Your colleagues and your future self will thank you.
 The concept of clean code has been emphasized by many influential figures in software development. Books like "The Clean Coder" by
 Robert "Uncle Bob" Martin, "Refactoring" by Martin Fowler and "The Pragmatic Programmer" by Andrew Hunt and David Thomas have highlighted the
 importance of writing clean, maintainable code. It was also mentioned in the "C++ Complete Reference" by Herbert Schildt, where he stated that
-"a program should be written for people to read, and only incidentally for machines to execute".
+"a program should be written for people to read—and only incidentally for machines to execute."
 
 ### Application
 

@@ -14,7 +14,7 @@ Software development is a young field compared to medicine, law, or woodworking.
   size="44%"
   float="right" >}}
 
-This creates a paradox: we have access to an overwhelming amount of advice, frameworks, and "best practices," yet we struggle to find common ground. The proverb "put two developers in a room, they'll soon generate three dissenting opinions" rings uncomfortably true.
+This creates a paradox: we have access to an overwhelming amount of advice, frameworks, and "best practices," yet we struggle to find common ground. The proverb "put two developers in a room—they'll soon generate three dissenting opinions" rings uncomfortably true.
 
 This knowledge base exists to help navigate that landscape. The premise is simple: __we don't prescribe solutions. We help you build judgement.__
 
@@ -101,7 +101,9 @@ We've created a **sense-making meta model** to help you integrate ideas from thi
 * **Behaviors**: Observable actions influenced by creeds and primary drivers.
 
 **Outcomes**:
-* **Effects**: Results of behaviors within the current context, governed by applicable fundamental laws (e.g., push a ball off a table on Earth → it falls due to gravity).
+* **Effects**: Results of behaviors within the current context, governed by applicable fundamental laws.
+
+For example: push a ball off a table on Earth—it falls due to gravity.
 
 This knowledge base focuses on **creeds and behaviors**—helping you understand and adjust how you act and react in different situations. Primary drivers (values, laws, context) are not explicitly covered. For those, explore frameworks like [AMMERSE](https://www.ammerse.org/), the [Agile Manifesto](https://agilemanifesto.org/), the [Cynefin framework](https://en.wikipedia.org/wiki/Cynefin_framework), or your personal ethical and philosophical foundations.
 

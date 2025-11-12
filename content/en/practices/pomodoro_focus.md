@@ -85,7 +85,7 @@ The following factors prevent effective application of the practice:
 
 ## Rationale
 
-__"The hardest part is getting started."__ Reducing the resistance to start a task can help practitioners to overcome the inertia.
+__"The hardest part is getting started"__—reducing the resistance to start a task helps practitioners overcome inertia.
 The pomodoro technique aims to achieve this by introducing the reassurance that the end is in sight.
 Rather than committing to fully complete an endeavour, a practitioner is committing to work on a certain task for a fixed period of time.
 

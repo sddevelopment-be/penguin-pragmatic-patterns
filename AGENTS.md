@@ -36,6 +36,20 @@ You can find this in [`sddevelopment-be/templates/agents/AGENTS.md`](https://git
 - Generated outputs reside under `public/` and `.hugo_build.lock`; avoid manual edits.
 - Repository templates are stored in `src/templates/`, reusable company-wide templates are stored in `sddevelopment-be/templates/`.
 - Raw ideas and temporary drafts are in `tmp/`; promote to `content/` when ready for publication.
-- Refer to `docs/references/.repo-structure.md` for detailed content/data structure and editorial rules.
-- Refer to `docs/references/.repo_overview.md` for project topology, authoring rules, recent additions, and quick lookups.
-- Refer to `docs/agents/references/OUT` for recent operational tracking notes.
+- Hugo version: 0.152.2 extended (CRITICAL: must use extended for SCSS support).
+
+## Documentation & Context Files
+
+- **Bootstrap Artefacts:**
+  - `docs/REPO_MAP.md` — High-level repository structure and directory purposes
+  - `docs/SURFACES.md` — Entry points, APIs, build commands, and integration surfaces
+  - `docs/CONTEXT_LINKS.md` — Agent instructions, context sources, and reference links
+  - `docs/WORKFLOWS.md` — Build processes, CI/CD pipelines, and testing infrastructure
+  - `docs/references/TODO_BOOTSTRAP.md` — Prioritized gaps and next steps for agents
+
+- **Detailed References:**
+  - `docs/references/.repo-structure.md` — Content/data structure and editorial rules
+  - `docs/references/.repo_overview.md` — Project topology, authoring rules, recent additions
+
+- **Agent Profiles:**
+  - `.github/agents/*.agent.md` — Specialized agent instructions (10 agents available)

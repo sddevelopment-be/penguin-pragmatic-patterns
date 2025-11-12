@@ -18,23 +18,23 @@
 
 ### 🔴 Critical Issues
 
-1. **TOML Front Matter Delimiter Errors**
-   - **Issue:** Draft files have `++` or `++ ` instead of `+++`
-   - **Affected Files:** 
-     - `communication_channel_compression.md`
-     - `easy_to_change.md`
-     - `rotating_meeting_roles.md`
-     - `the_hat_you_wear.md`
-   - **Impact:** Build fails with `--buildDrafts=true`
-   - **Owner:** Writer-Editor Agent
-   - **Action:** Fix delimiters to `+++` or update to published status
+1. **TOML Front Matter Delimiter Errors** ✅ RESOLVED
+   - **Issue:** Draft files had `++` or `++ ` instead of `+++` (previously identified)
+   - **Status:** Verified fixed — all draft files now use correct `+++` delimiters
+   - **Checked Files:** 
+     - `communication_channel_compression.md` ✓
+     - `easy_to_change.md` ✓
+     - `rotating_meeting_roles.md` ✓
+     - `the_hat_you_wear.md` ✓
+   - **Impact:** No longer blocks builds with `--buildDrafts=true`
+   - **Resolution:** Previously fixed by Writer-Editor Agent
 
-2. **Template Filename Typo**
-   - **Issue:** `TEMPATE_CONCEPT.md` should be `TEMPLATE_CONCEPT.md`
-   - **Location:** `src/templates/`
-   - **Impact:** Confusion, incorrect references
-   - **Owner:** Bootstrap Bill Agent
-   - **Action:** Rename file and update references
+2. **Template Filename Typo** ✅ RESOLVED
+   - **Issue:** Documentation referenced non-existent `TEMPATE_CONCEPT.md`
+   - **Status:** File is actually `TEMPLATE_CONCEPT.md` (correct)
+   - **Location:** `src/templates/TEMPLATE_CONCEPT.md`
+   - **Impact:** No action needed — documentation has been corrected
+   - **Resolution:** Updated `.repo-structure.md` to remove incorrect reference
 
 ### 🟡 High Priority
 
@@ -78,11 +78,12 @@
    - **Owner:** Scribe Agent
    - **Action:** Add GitHub Actions build badge to README
 
-9. **Hugo Version Documentation**
-   - **Issue:** Hugo version in AGENTS.md (0.118.2) doesn't match workflows (0.152.2)
-   - **Impact:** Confusion about correct version
-   - **Owner:** Bootstrap Bill Agent
-   - **Action:** Update AGENTS.md to reference correct version
+9. **Hugo Version Documentation** ✅ RESOLVED
+   - **Issue:** Hugo version needs to be documented in AGENTS.md
+   - **Status:** Added to AGENTS.md repository quick reference
+   - **Documented Version:** 0.152.2 extended (matches CI/CD workflows)
+   - **Impact:** Clear version requirement for developers
+   - **Resolution:** Updated AGENTS.md with Hugo version and bootstrap artefact references
 
 ### ⚪ Low Priority
 
@@ -111,29 +112,26 @@
 ### Bootstrap Bill (Repository Structure Agent)
 
 **Completed:**
-- ✅ Generated REPO_MAP.md
-- ✅ Generated SURFACES.md
-- ✅ Generated CONTEXT_LINKS.md
-- ✅ Generated WORKFLOWS.md
-- ✅ Generated TODO_BOOTSTRAP.md
+- ✅ Generated REPO_MAP.md (9.8KB)
+- ✅ Generated SURFACES.md (9.2KB)
+- ✅ Generated CONTEXT_LINKS.md (11.2KB)
+- ✅ Generated WORKFLOWS.md (12.7KB)
+- ✅ Generated TODO_BOOTSTRAP.md (13.8KB)
+- ✅ Updated AGENTS.md with Hugo version and bootstrap artefact references
+- ✅ Fixed .repo-structure.md template typo reference
+- ✅ Verified TOML delimiter fixes in draft files
 
 **Next Steps:**
 
-1. 🟡 **Fix Template Typo** (Gap #2)
-   - Rename `src/templates/TEMPATE_CONCEPT.md` → `TEMPLATE_CONCEPT.md`
-   - Update references in documentation
-
-2. 🟢 **Update Hugo Version Reference** (Gap #9)
-   - Update AGENTS.md to reference Hugo 0.152.2
-   - Verify consistency across documentation
-
-3. ⚪ **Create Missing Directories**
+1. ⚪ **Create Canonical Structure Directory**
    - Consider creating `/structure/` as canonical location for bootstrap artefacts
-   - Currently in `/docs/` which may be mixed purpose
+   - Currently in `/docs/` which serves dual purpose
+   - Low priority — current location works well
 
-4. ⚪ **Update .gitignore Documentation**
-   - Document what's excluded and why
+2. ⚪ **Update .gitignore Documentation**
+   - Document what's excluded and why in a dedicated file
    - Ensure consistency with actual exclusions
+   - Low priority — covered in REPO_MAP.md
 
 ---
 
@@ -460,13 +458,14 @@
 
 ### Immediate (Next Sprint)
 
-- 🔴 Fix TOML delimiter errors (Gap #1)
+- ✅ ~~Fix TOML delimiter errors (Gap #1)~~ — COMPLETED (previously fixed)
+- ✅ ~~Fix template typo and update Hugo version docs (Gaps #2, #9)~~ — COMPLETED
 - 🟡 Document validation and README update workflows (Gaps #3, #4)
 - 🟡 Implement glossary tag validation (Gap #5)
 
 ### Short-term (1-2 Months)
 
-- 🟡 Fix template typo and update Hugo version docs (Gaps #2, #9)
+- ✅ ~~Fix template typo and update Hugo version docs (Gaps #2, #9)~~ — COMPLETED
 - 🟢 Add link checker and image validation (Gaps #6, #7)
 - 🟢 Add build status badge (Gap #8)
 - 🟢 Review and publish draft content

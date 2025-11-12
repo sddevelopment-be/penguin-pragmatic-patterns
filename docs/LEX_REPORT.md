@@ -20,7 +20,7 @@ The English content in Penguin Pragmatic Patterns demonstrates **strong overall 
 
 **Areas for Attention:**
 - Occasional verbose sentences that could benefit from tightening
-- Minor inconsistencies in em-dash usage (some use `—` HTML entity, some use `--`)
+- Minor inconsistencies in em-dash usage (some use `—` HTML entity/Unicode, some use `--`)
 - Some paragraph blocks exceed optimal scanning length
 - Sporadic instances of passive voice where active would be clearer
 
@@ -32,7 +32,7 @@ The English content in Penguin Pragmatic Patterns demonstrates **strong overall 
 |----------|--------------|-------|
 | **Tone (calm/clear/sincere)** | ✓ | Strong adherence; welcoming without being patronizing |
 | **Rhythm (sentence variety & short paragraphs)** | ⚠️ | Good variety but some long paragraphs reduce scannability |
-| **Em-dash policy (sparse; `---` only)** | ⚠️ | Mixed usage; some files use HTML entities or double-dash `--` |
+| **Em-dash policy (sparse; `—` only)** | ⚠️ | Mixed usage; some files use HTML entities or double-dash `--` |
 | **Markdown hygiene** | ✓ | Clean semantic headings, good list hierarchy |
 | **Anti-fluff** | ✓ | Excellent; no hype, no "best practice" absolutism |
 | **Medium fit (Pattern format)** | ✓ | Well-aligned with pattern language conventions |
@@ -283,7 +283,7 @@ The English content in Penguin Pragmatic Patterns demonstrates **strong overall 
 **Content Quality:** ✓ Definitions are clear and properly scoped  
 
 **Recommendations:**
-- Standardize em-dash representation (suggest triple-dash `---` in descriptions for markdown compatibility)
+- Standardize em-dash representation (use `—` HTML entity/Unicode character in descriptions for consistent rendering)
 - Populate empty domain fields in glossary entries
 - Consider author-year citation format consistency in bibliography
 
@@ -335,7 +335,7 @@ The English content in Penguin Pragmatic Patterns demonstrates **strong overall 
 ## Recommendations Priority
 
 ### High Priority (Impact on Reader Experience)
-1. **Standardize em-dash usage** across all markdown files to `---`
+1. **Standardize em-dash usage** across all markdown files to `—` (HTML entity/Unicode)
 2. **Fix grammatical errors** (spacing, verb agreement) in async_communication.md
 3. **Complete empty link** in CONTRIBUTING.md
 4. **Split dense paragraphs** (>7 lines) in about.md sense-making section
@@ -365,7 +365,7 @@ The primary areas for improvement are **mechanical consistency** (em-dash usage,
 **Recommended Next Steps:**
 1. Review LEX_DELTAS.md for specific line-level suggestions
 2. Apply high-priority fixes (grammatical errors, empty links)
-3. Establish em-dash style guide entry (recommend `---` for markdown)
+3. Establish em-dash style guide entry (recommend `—` for HTML entity/Unicode)
 4. Consider paragraph-splitting pass on dense sections
 
 ---

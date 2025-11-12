@@ -482,7 +482,7 @@ Keep both sections but add: "For detailed workflow steps, see [Code Contribution
 **Rule:** Em-dash representation consistency  
 **Severity:** Low  
 
-**Observation:** Some entries use HTML entity `—` (e.g., lines 15-19 in Pragmatic Programmer description).
+**Observation:** Some entries use HTML entity/Unicode `—`, while others may use markdown variants. Standardize on `—` for consistency.
 
 **Before:**
 ```toml
@@ -503,16 +503,15 @@ Widely regarded as one of the definitive books on software development, _The Pra
 by Andy Hunt and Dave Thomas distills decades of pragmatic software craftsmanship.
 Presented in an approachable, conversational style, this revised edition remains essential reading for developers at any stage.
 
-The authors span coding techniques, architecture, project management, and career habits---weaving actionable advice with memorable anecdotes.
-Their guidance helps developers deliver elegant, maintainable code while staying adaptable---and keeping their sanity intact.
+The authors span coding techniques, architecture, project management, and career habits—weaving actionable advice with memorable anecdotes.
+Their guidance helps developers deliver elegant, maintainable code while staying adaptable—and keeping their sanity intact.
 """
 ```
 
 **Rationale:** 
-- If rendering as markdown, `---` is standard em-dash
+- If rendering as markdown, use `—` (HTML entity/Unicode) for consistent rendering
 - `<br /><br />` → blank line (markdown convention)
-- If rendering as HTML directly, keep current format
-- **Note:** Verify rendering context before applying this delta
+- **Note:** Standardize on `—` for em-dashes rather than `---` due to rendering inconsistencies
 
 ---
 

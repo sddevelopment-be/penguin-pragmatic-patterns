@@ -328,7 +328,7 @@ Per Operational Reference §4, documentation should:
 4. Maintain inclusive language for non-developers
 
 ### For Data Files (TOML)
-1. Standardize em-dash representation (suggest `---` for markdown compatibility)
+1. Standardize em-dash representation (use `—` HTML entity/Unicode for consistent rendering)
 2. Populate empty domain fields in glossary.toml
 3. Consider alphabetical sorting within files for manual navigation
 4. Maintain neutral, concise descriptions (current strength)

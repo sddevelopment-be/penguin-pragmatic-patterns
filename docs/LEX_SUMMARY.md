@@ -103,9 +103,9 @@ Four comprehensive documents have been generated in `/docs/`:
 
 3. **Em-dash Standardization (Mixed Representation)**
    - Some files use `--` (double-dash/en-dash)
-   - Some use `—` (HTML entity)
-   - Some use `---` (markdown standard)
-   - **Recommendation:** Standardize on `---` for markdown compatibility
+   - Some use `—` (HTML entity/Unicode)
+   - Some use `---` (markdown triple-dash)
+   - **Recommendation:** Standardize on `—` (HTML entity/Unicode character) for consistent rendering
 
 4. **Minor Passive Voice (10-15 Instances)**
    - "It has been shown" → "Research shows" (more active, clearer)
@@ -145,7 +145,7 @@ Four comprehensive documents have been generated in `/docs/`:
 **Impact:** Objective errors corrected; professionalism maintained
 
 ### 🟡 **Medium Priority (Batch Application)**
-1. Standardize em-dash representation to `---` across markdown files
+1. Standardize em-dash representation to `—` (HTML entity/Unicode) across markdown files
 2. Split dense paragraphs (>7 lines) in `about.md`, `mindmapping.md` Rationale
 3. Reduce passive voice in 6 identified instances (see LEX_DELTAS.md)
 4. Add "before/after" example to async communication mitigation strategies

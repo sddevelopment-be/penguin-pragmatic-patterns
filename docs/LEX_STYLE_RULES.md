@@ -110,7 +110,7 @@ This document distills the **writing style rules** observed and recommended for 
 
 **Rule:** Use em-dashes **sparingly** for emphasis or to set off contrasting clauses.
 
-**Representation:** Use **triple-dash `---`** in markdown files (renders as em-dash).
+**Representation:** Use **HTML entity or Unicode character `—`** in markdown files for consistent rendering across platforms.
 
 **✓ Correct:**
 ```markdown
@@ -121,6 +121,9 @@ The hardest part is getting started—reducing resistance helps you overcome ine
 ```markdown
 The hardest part is getting started--reducing resistance helps you overcome inertia.
 (Double-dash is en-dash, not em-dash)
+
+The hardest part is getting started---reducing resistance helps you overcome inertia.
+(Triple-dash markdown rendering can be inconsistent)
 ```
 
 **❌ Avoid Overuse:**

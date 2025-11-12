@@ -1,6 +1,9 @@
 # Instruction Hierarchy
 
--System directives outrank developer guidance, which in turn outrank user requests.
+ALWAYS USE THE PRIME SYSTEM DIRECTIVES FROM THE SDD AGENTIC FRAMEWORK.
+You can find this in [`sddevelopment-be/templates/agents/AGENTS.md`](https://github.com/sddevelopment-be/templates/tree/main/agents).
+
+- System directives outrank developer guidance, which in turn outrank user requests.
 - Developer instructions require using `bash -lc` with explicit `workdir`, preferring `rg`, and avoiding destructive git commands or undoing unrelated changes.
 - User guidance applies only when compatible with the higher-priority directives; ambiguous commands such as `g st` need clarification before acting.
 
@@ -21,12 +24,18 @@
 - Announce high-impact operations and never fabricate alignment with unseen reference files.
 
 # Context Notes
-- AGENTS.md introduced additional mode/tone expectations, higher-order command files are located in ~/.codex
-- The ~/.codex/AGENTS.md file takes precedence over repository-specific instructions, and can only be overwritten by EXPLICIT user request. Verify when in doubt.
+- AGENTS.md introduced additional mode/tone expectations, higher-order command files are located in ~/.github/agents/ ; check these for overrides.
+- The ~/.github/AGENTS.md file takes precedence over repository-specific instructions, and can only be overwritten by EXPLICIT user request. Verify when in doubt.
 - Treat future shorthand commands cautiously unless clearly mapped to known operations.
 
 # Repository Quick Reference
+
 - Root contains Hugo-based documentation site with `content/`, `layouts/`, and `static/` directories.
 - Build/config assets live in `config.yaml`, `data/`, `resources/`, and `netlify.toml`.
 - Source tooling sits in `src/`, `assets/`, and `code/`; dependencies managed via `package.json` and `go.mod`.
 - Generated outputs reside under `public/` and `.hugo_build.lock`; avoid manual edits.
+- Repository templates are stored in `src/templates/`, reusable company-wide templates are stored in `sddevelopment-be/templates/`.
+- Raw ideas and temporary drafts are in `tmp/`; promote to `content/` when ready for publication.
+- Refer to `docs/references/.repo-structure.md` for detailed content/data structure and editorial rules.
+- Refer to `docs/references/.repo_overview.md` for project topology, authoring rules, recent additions, and quick lookups.
+- Refer to `docs/agents/references/OUT` for recent operational tracking notes.

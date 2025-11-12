@@ -56,7 +56,7 @@ Create a _mind map_ that structure the core ideas of a certain domain or piece o
 As a spiders web, the mind map starts by putting a central concept or question at the centre of the page.
 You then attach words to this central theme, as they appear in your head.
 
-Make sure not to put too much effort into your mind map, the act of mapping is where the value lies.
+Don't over-invest in your mind map's appearance—the act of mapping is where the value lies.
 You will soon realize that as your understanding grows, your map will no longer be accurate.
 At this point, just create a new one. If you want to solidify your newfound knowledge, repeat this process until you are satisfied.
 

@@ -33,7 +33,7 @@ Following these guidelines helps maintainers and the community understand your r
 Before creating bug reports, please Check [the list of open issues](https://github.com/sddevelopment-be/penguin-pragmatic-patterns/issues) as 
 you might find out that you don't need to create one.
 When you are creating a bug report, please include as many details as possible.
-Fill out the [required template](../../.github/ISSUE_TEMPLATE/bug_report.md), the information it asks for helps us resolve issues faster.
+Please fill out the [required template](../../.github/ISSUE_TEMPLATE/bug_report.md)—the information it asks for helps us resolve issues faster.
 
 ### Proposing Patterns and Ideas
 

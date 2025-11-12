@@ -21,8 +21,8 @@ outputs = ['html', 'json']
 ammerse = [
   {name = "agile", delta = "0.25", rationale = "Slightly enhances agility by streamlining communication, allowing faster adaptation to changes, but the overall impact remains limited."},
   {name = "minimal", delta = "0.85", rationale = "Strongly supports minimalism by reducing unnecessary communication, which significantly outweighs the minimal upfront effort required."},
-  {name = "maintainable", delta = "0.55", rationale = "Enhances maintainability by promoting clear, structured communication that is easier tomaintain over time."},
-  {name = "environmental", delta = "0.35", rationale = "Positively contributes to a focused work environment, though it may require somecultural adaptation to fully integrate."},
+  {name = "maintainable", delta = "0.55", rationale = "Enhances maintainability by promoting clear, structured communication that is easier to maintain over time."},
+  {name = "environmental", delta = "0.35", rationale = "Positively contributes to a focused work environment, though it may require some cultural adaptation to fully integrate."},
   {name = "reachable", delta = "-0.05", rationale = "Little to no impact on reachability, as the practice does not directly influence the achievement of goals."},
   {name = "solvable", delta = "1", rationale = "Strongly supports problem-solving by reducing communication barriers, leading to faster and more effective resolutions."},
   {name = "extensible", delta = "0.5", rationale = "Generally extensible across different contexts, although consistent adoption and adaptationare required for it to be fully effective."}

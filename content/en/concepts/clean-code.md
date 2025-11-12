@@ -57,7 +57,7 @@ The main culprit for this confusion is often code that's simply hard to understa
 It lacks expressiveness or becomes overly verbose. One helpful metric to gauge the cleanliness of your code is humorously known as the 'WTFs per
 minute metric,' inspired by a well-known cartoon that has been recreated numerous times.
 
-Writing clean code does more than pleasing your colleagues; you are doing your future self a favour.
+Writing clean code does more than please your colleagues; you are doing your future self a favour.
 Projects inevitably evolve, and what was once insignificant can become critical to the application's success. When the code handling this
 functionality is messy, adapting to changing requirements can feel like a descent into chaos. So, do yourself a favour, and strive to keep your code
 comprehensible at a glance.

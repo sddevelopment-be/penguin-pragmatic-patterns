@@ -67,7 +67,7 @@ Whether you are contributing to the source code, or want to add your example fil
 please follow these steps:
 
 * [Fork this repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks)
-* [Clone your fork]() to your local machine
+* [Clone your fork](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) to your local machine
 - [Create a new branch](https://guides.github.com/introduction/flow/), and work on it
 - When your change is DONE (implemented, and tested), submit a [Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) using our 
   existing PR Templates

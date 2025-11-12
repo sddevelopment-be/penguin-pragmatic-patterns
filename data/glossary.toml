@@ -83,7 +83,7 @@ references = []
 [[terminology]]
 name = "Blocking Wait"
 abbreviation = ""
-domain = ""
+domain = "software"
 description = """
 Blocking wait refers to a situation where a process is paused or delayed until a specific condition is met or an event occurs. During this time, the process remains inactive and cannot proceed until the blocking condition is resolved. Blocking waits can impact system performance and responsiveness, especially in scenarios where multiple processes are waiting for the same resource or event, or where the resolution of the delegated processing takes a significant amount of time.
 """

@@ -95,7 +95,9 @@ The following factors prevent effective application of the practice:
 
 ## Rationale
 
-* The level of refinement of a codebase should make sense for the problem at hand
+* The level of refinement of a codebase should match the problem scope and expected lifespan.
+* Over-engineering introduces unnecessary complexity, making code harder to understand and maintain.
+* Premature optimization often targets problems that never materialize, wasting valuable development time.
 
 ## Application
 

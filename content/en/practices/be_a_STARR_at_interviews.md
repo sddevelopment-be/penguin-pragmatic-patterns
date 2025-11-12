@@ -37,7 +37,7 @@ related_practices = [
 ]
 further_exploration = [
   { type="raw", author="McKay B.; McKay K.", year="2017", title="The STAR Interview Method: How to Answer + Examples", site="biginterview.com", link="https://resources.biginterview.com/behavioral-interviews/star-interview-method/" },
-  { type="raw", author="Belludi, N.", year="2007", title="Use The STAR Technique to Ace Your Behavioral Interview", site="rightattitudes.com", link="https://www.rightattitudes.com/2008/07/15/star-technique-answer-interview-questions/"},
+  { type="raw", author="Belludi, N.", year="2007", title="Use The STAR Technique to Ace Your Behavioural Interview", site="rightattitudes.com", link="https://www.rightattitudes.com/2008/07/15/star-technique-answer-interview-questions/"},
   { type="raw",  author="Cook, S.", year="2009", title="Coaching for High Performance: How to Develop Exceptional Results Through Coaching", isbn="9781849280037", publisher="It Governance Ltd", link="https://www.goodreads.com/book/show/11013308-coaching-for-high-performance"}
 ]
 +++
@@ -81,7 +81,7 @@ The following factors support effective application of the practice:
 * **Relevant Experience:** When the candidate has significant professional experience to discuss.
 * **Structured Evaluation:** There is a structured process in place to assess responses consistently.
 * **Sufficient Time:** Enough time is allocated for thorough interviews.
-* **Behavioral Insight:** There is a need to assess thinking, behavioural, and social patterns.
+* **Behavioural Insight:** There is a need to assess thinking, behavioural, and social patterns.
 * **Candidate Comfort:** Candidates feel at ease during the interview. They are briefed on the STARR interview format before answering the
   questions, allowing them to better articulate their experiences and responses.
 

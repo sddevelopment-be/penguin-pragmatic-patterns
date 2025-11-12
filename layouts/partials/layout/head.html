@@ -1,7 +1,15 @@
 <meta charset="utf-8">
-<title>{{ or .Page.Title .Site.Title }}</title>
+{{- $siteTitle := cond (isset .Site "Title") .Site.Title "" -}}
+{{- $pageTitle := default "" .Title | plainify -}}
+<title>
+  {{- if or .IsHome (eq $pageTitle "") -}}
+    {{- $siteTitle -}}
+  {{- else -}}
+    {{- printf "%s | %s" $pageTitle $siteTitle -}}
+  {{- end -}}
+</title>
 {{ with $.Param "description" }}<meta name="description" content="{{ . }}">{{ end }}
-{{ with .Site.Author.name }}<meta name="author" content="{{ . }}">{{ end }}
+{{ with .Site.Params.author.name }}<meta name="author" content="{{ . }}">{{ end }}
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -16,4 +24,3 @@
 {{ partial "stylesheet.html" (dict "css" "js/reveal/reveal.css")  }}
 {{ partial "stylesheet.html" (dict "css" "js/reveal/theme/sdd.css" "id" "theme")  }}
 {{ partial "stylesheet.html" (dict "css" "js/reveal/plugin/highlight/monokai.css" )  }}
-

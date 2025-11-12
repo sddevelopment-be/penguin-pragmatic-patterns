@@ -1,7 +1,7 @@
 +++
 title = "Lewin's Leadership Styles"
 author = "Stijn Dejongh"
-description = "Lewin's Leadership Styles model outlines three primary approaches to leadership, each impacting group behavior and productivity in distinct ways."
+description = "Lewin's Leadership Styles model outlines three primary approaches to leadership, each impacting group behaviour and productivity in distinct ways."
 summary="""
 Explore Lewin's Leadership Styles—a model that categorizes leadership into Authoritarian, Participative, and Delegative styles, helping leaders
 adapt their approach to group dynamics for optimal productivity and satisfaction.

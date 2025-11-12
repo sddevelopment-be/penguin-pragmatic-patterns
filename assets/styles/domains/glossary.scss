@@ -1,0 +1,120 @@
+@use "../settings" as *;
+
+.terminology-wrapper {
+    margin-top: 2.25rem;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: $space-lg;
+
+}
+
+.glossary-term {
+    display: flex;
+    flex-flow: column wrap;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    padding: $space-lg $space-2xs;
+    margin-bottom: $space-lg;
+    background: $color-surface-light;
+    border-radius: $space-2xl;
+    max-width: 100%;
+    width: 100%;
+}
+
+.glossary-term .term-name {
+    border-bottom: 1px solid $brand-primary;
+    text-transform: capitalize;
+    color: $color-text-heavy;
+    font-size: $space-lg;
+    padding-bottom: $space-2xs;
+}
+
+.glossary-term .term-content {
+    padding: $space-sm;
+    width: 100%;
+    color: $color-text-ink;
+}
+
+.glossary-term .term-references .term-reference {
+    margin-left: 2.25rem;
+    padding-left: $space-sm;
+    list-style-type: disclosure-closed;
+}
+
+.glossary-term .term-content b {
+    color: $color-text-muted;
+    font-stretch: extra-condensed;
+    text-transform: uppercase;
+    font-weight: 350;
+    font-size: $space-sm;
+}
+
+.glossary-term .term-content .term-text {
+    margin-bottom: $space-sm;
+}
+
+.glossary-term .term-content .term-text p {
+    padding: $space-sm;
+    text-align: justify;
+}
+
+.glossary-term .term-content .term-abbreviation {
+    margin-bottom: $space-sm;
+}
+
+.term-alias {
+    font-weight: 200;
+    font-size: $space-snug;
+    padding: $space-2xs;
+    border: 1px solid #e1e1e1;
+    background: #e8e8e8;
+    border-radius: $space-2xs;
+}
+
+.glossary-inline {
+    display: inline;
+    position: relative;
+    cursor: help;
+}
+
+.glossary-inline summary {
+    display: inline;
+    font-weight: bold;
+    text-decoration: underline dotted;
+    cursor: help;
+    list-style: none;
+}
+
+.glossary-inline::-webkit-details-marker {
+    display: none;
+}
+
+.glossary-popover {
+    position: absolute;
+    top: 1.75em;
+    left: -2.5em;
+    z-index: 10;
+    background: $color-surface-light;
+    border: 1px solid $brand-primary;
+    border-radius: $space-2xs;
+    padding: $space-sm;
+    width: 42em;
+    box-shadow: 0 0 8px rgb(0 0 0 / 10%);
+    font-size: 0.875rem;
+}
+
+.glossary-popover-title {
+    font-weight: bold;
+    font-size: 0.9125rem;
+    margin-bottom: $space-3xs;
+}
+
+.glossary-inline[open] .glossary-popover {
+    display: block;
+}
+
+.glossary-popover a {
+    color: #007acc;
+    text-decoration: underline;
+}

@@ -28,7 +28,7 @@ further_exporlation = []
 ## Key Components
 
 > Breakdown of the concept into it's most important component ideas.
-> Start by a list of compontents, with a brief explanation of each.
+> Start by a list of components, with a brief explanation of each.
 > Further full-text explanation of the concept can be added bellow said bullet list.
 
 ## Background

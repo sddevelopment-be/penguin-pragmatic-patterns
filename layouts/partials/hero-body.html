@@ -24,7 +24,7 @@
                     <picture>
                         <source media="(max-width: 600px)" srcset="{{ $imageMobile}}" />
                         <source media="(min-width: 800px)" srcset="{{ $imageFull }}" />
-                        <img src="{{ $imageFull }}" alt="An image of a penguin using a laptop" loading="lazy" />
+                        <img src="{{ $imageFull }}" alt="An image of a penguin using a laptop" loading="lazy" decoding="async" width="512" height="512" />
                     </picture>
                 </figure>
             </div>

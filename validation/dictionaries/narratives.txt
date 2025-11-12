@@ -1,0 +1,8 @@
+homeworld
+Tatooine
+Naboo
+Skywalker
+Jedi
+Sith
+Mandalorian
+Holocron

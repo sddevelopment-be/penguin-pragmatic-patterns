@@ -1,0 +1,115 @@
+@use "../settings" as *;
+
+.img-gallery {
+    width: 90%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    overflow: auto;
+    text-align:  center;
+    margin-bottom: $space-lg;
+    margin-left: auto;
+    margin-right: auto;
+    clear: both;
+    border-radius: $space-sm;
+}
+
+.img-gallery figure {
+    background: $color-surface-haze;
+    margin-right: $space-2xs;
+    margin-left: $space-2xs;
+    margin-bottom: $space-lg;
+    clear: both;
+}
+
+.img-gallery figure img {
+    padding: $space-sm $space-sm 0;
+    max-width: 100%;
+    height: auto;
+    align-content: center;
+    display: block;
+    object-fit: contain;
+    margin: auto;
+}
+
+.img-gallery figcaption {
+    text-align: center;
+    color: $color-text-muted;
+    background: $color-surface-haze;
+    font-size: 0.975rem;
+    font-weight: 350;
+    font-style: oblique;
+    padding-bottom: $space-xs;
+}
+
+.content figure figcaption {
+    font-style: italic;
+    font-family: d-din, "Gill Sans", 'Open Sans', sans-serif;
+}
+
+.text-image {
+    max-height: 65rem;
+    max-width: 50rem;
+    text-align: center;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+}
+
+.text-image a {
+    object-fit: contain;
+    cursor: zoom-in;
+}
+
+.text-image a img {
+    max-height: 65rem;
+    max-width: 50rem;
+    width: 95%;
+}
+
+
+
+@media (width <= $breakpoint-tablet) {
+    .text-image {
+        max-width: 98%;
+        max-height: 480px;
+        margin-left: -$space-2xs;
+        margin-right: -$space-xs;
+    }
+
+    .text-image a img {
+        max-width: 100%;
+        max-height: 480px;
+    }
+}
+
+.center {
+    clear: both;
+    margin: $space-3xl auto $space-lg;
+}
+
+.left {
+    float: left;
+    clear: both;
+    padding: 0 $space-xl 0 $space-3xs;
+    margin: auto $space-sm $space-lg auto;
+}
+
+.right {
+    float: right;
+    clear: both;
+    padding: 0 $space-3xs 0 $space-xl;
+    margin: auto auto $space-lg $space-sm;
+}
+
+@media (width <= $breakpoint-tablet) {
+    .left {
+        float: none;
+        max-width: 100% !important;
+    }
+
+    .right {
+        float: none;
+        max-width: 100% !important;
+    }
+}

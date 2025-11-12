@@ -161,7 +161,7 @@ the [Cynefin framework](https://en.wikipedia.org/wiki/Cynefin_framework), or you
 ### Use of AMMERSE values
 
 As mentioned earlier, this knowledge base is designed to arm you with ideas and practices that can help you navigate the challenges of your
-daily life. Folowwing the [Sociocracy 3.0](https://sociocracy30.org/) philosophy, the practices are intended to be used as a flexible toolbox.\
+daily life. Following the [Sociocracy 3.0](https://sociocracy30.org/) philosophy, the practices are intended to be used as a flexible toolbox.\
 You are free to pick and choose the practices that resonate with you and modify them according to your needs and preferences. To help you out
 identifying the practices that might be useful to you, we have included an evaluation of the practices based on the [AMMERSE](https://www.ammerse.org/) values.
 

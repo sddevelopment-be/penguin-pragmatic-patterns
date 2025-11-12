@@ -67,7 +67,7 @@ Asynchronous communication refers to interactions where participants engage in c
 """
 aliases = []
 references = [
-    { title = "Microsoft Architecure Pages: Asynchronous Message Based Communication", link = "https://learn.microsoft.com/en-us/dotnet/architecture/microservices/architect-microservice-container-applications/asynchronous-message-based-communication" }
+    { title = "Microsoft Architecture Pages: Asynchronous Message Based Communication", link = "https://learn.microsoft.com/en-us/dotnet/architecture/microservices/architect-microservice-container-applications/asynchronous-message-based-communication" }
 ]
 
 [[terminology]]
@@ -974,7 +974,7 @@ This trope made its way into modern times, where it is used to describe a method
 aliases = ["Cure-all", "Panacea"]
 references = [
     { title = "Silver Bullet on wikipedia", link = "https://en.wikipedia.org/wiki/Silver_bullet" },
-    { title = "Ethymology Online", link = "https://www.etymonline.com/word/silver%20bullet" },
+    { title = "Etymology Online", link = "https://www.etymonline.com/word/silver%20bullet" },
     { title = "Phrase Finder", link = "https://www.phrases.org.uk/meanings/silver-bullet.html" }
 ]
 
@@ -1218,7 +1218,7 @@ references = [
 [[terminology]]
 name = "Value Stream"
 abbreviation = ""
-domain = "Software Architecure"
+domain = "Software Architecture"
 description = """
 A Value Stream is a sequence of interrelated activities and processes that collectively enable an organization to deliver its core products or services. Drawing on concepts from frameworks such as ArchiMate and SAFe, it represents the flow of value from the initial request or input through to the final delivery, ensuring that every step contributes to the organization’s strategic objectives. This holistic view helps identify inefficiencies, optimize workflows, and continuously enhance the overall effectiveness of business operations.
 """
@@ -1662,11 +1662,11 @@ aliases = ["flexibility", "resilience"]
 references = []
 
 [[terminology]]
-name = "Pivotting"
+name = "Pivoting"
 abbreviation = ""
 domain = "strategy"
 description = """
-Pivotting is the deliberate act of changing direction when emerging evidence shows the current trajectory will not deliver the desired outcome. It keeps investments aligned with reality instead of sunk-cost momentum.
+Pivoting is the deliberate act of changing direction when emerging evidence shows the current trajectory will not deliver the desired outcome. It keeps investments aligned with reality instead of sunk-cost momentum.
 """
 aliases = ["course correction", "strategic pivot"]
 references = []
@@ -1760,7 +1760,7 @@ references = [
     { title = "MBTI", author="Various Contributors", site="Wikipedia", year="2025", link = "https://en.wikipedia.org/wiki/Myers%E2%80%93Briggs_Type_Indicator" },
     { title = "16 Personalities Test", author="Analytics Limited", site="16 Personalities", year="2025", link = "https://www.16personalities.com/" },
     { title = "Take the MBTI® Instrument", year="2018", site="Myers & Briggs Foundation", link = "https://www.myersbriggs.org/my-mbti-personality-type/take-the-mbti-instrument/" },
-    { title="How thousands of companies ended up using a bogus psychology test on their staff", author="Edwards, J.", year="2022", site="The Independant", link="https://www.independent.co.uk/voices/myers-briggs-psychology-test-garbage-b2200663.html"},
+    { title="How thousands of companies ended up using a bogus psychology test on their staff", author="Edwards, J.", year="2022", site="The Independent", link="https://www.independent.co.uk/voices/myers-briggs-psychology-test-garbage-b2200663.html"},
     { title="What You Don't Know about This Personality Test Can Hurt You ", author="Whitbourne, S. K.", year="2014", site="Psychology Today", link="https://www.psychologytoday.com/us/blog/fulfillment-at-any-age/201401/what-you-dont-know-about-this-personality-test-can-hurt-you"},
     { title="DISC Assessment", author="Various Contributors", year="2014", site="Wikipedia", link="https://en.wikipedia.org/wiki/DISC_assessment"}
 ]

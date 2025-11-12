@@ -1,0 +1,213 @@
+@use "../settings" as *;
+
+.recommendation-wrapper {
+    margin-top: $space-4xl;
+}
+
+.no-card {
+    background: $color-surface-light;
+    border: 0 !important;
+    border-radius: 0 !important;
+    padding: $space-2xs $space-sm;
+    width: 100%;
+}
+
+.recommendation-item .recommendation-title {
+    border-bottom: 1px dashed $brand-primary;
+    text-transform: capitalize;
+    color: $color-text-heavy;
+    font-size: $space-lg;
+    padding: $space-2xs $space-3xl 1.45rem;
+    max-width: 98%;
+    display: flex;
+    flex-direction: column;
+    gap: $space-2xs;
+    justify-content: flex-start;
+
+    .recommendation-type {
+        border-bottom: none;
+        padding: $space-3xs $space-sm $space-3xs $space-3xs;
+        font-size: $space-sm;
+        text-transform: uppercase;
+        font-weight: 850;
+        max-width: 6.125em;
+        width: 6.125em;
+        color: $color-navy-muted;
+    }
+
+    h3 {
+        font-size: 1.45rem;
+        font-weight: 550;
+        color: $color-text-ink;
+        line-height: 1.25;
+    }
+
+    h4 {
+        padding-top: $space-2xs;
+        font-size: $space-lg;
+        font-weight: 40;
+        color: $color-text-ink;
+        line-height: 1.25;
+    }
+
+    .subtitle {
+        margin-bottom: $space-2xs;
+    }
+}
+
+.recommendation-item {
+    display: flex;
+    flex-flow: column wrap;
+    flex-grow: 1;
+    justify-content: space-evenly;
+    padding: $space-lg $space-2xs;
+    margin-bottom: $space-lg;
+    max-width: 100%;
+    width: 100%;
+    background: $color-surface-light;
+    border-radius: $space-2xl;
+    border-bottom: 1px solid #dcdcdc;
+    border-right: 1px solid #dcdcdc;
+}
+
+@media (width <= $breakpoint-tablet) {
+    .recommendation-item .recommendation-title {
+        padding: 0 $space-3xs;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+.recommendation-item .recommendation-content {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    max-width: 100%;
+    padding: $space-sm;
+    color: $color-text-ink;
+}
+
+.recommendation-item .recommendation-content .recommendation-image {
+    display: flex;
+    max-width: 10em;
+    place-content: center flex-start;
+    flex-flow: column nowrap;
+    padding: $space-sm;
+    margin: $space-3xs $space-xs;
+}
+
+.recommendation-item .recommendation-content .recommendation-image img {
+    max-width: 8em;
+    max-height: 14em;
+    border: 2px solid $brand-primary;
+}
+
+.recommendation-item .recommendation-content .recommendation-text {
+    display: flex;
+    flex-flow: column wrap;
+    place-content: flex-start flex-start;
+    padding: 0 $space-sm $space-sm;
+    max-width: 100%;
+    font-size: $space-card;
+}
+
+.recommendation-item .recommendation-content b {
+    color: #1f586f85;
+    font-stretch: extra-condensed;
+    text-transform: uppercase;
+    font-weight: 350;
+    font-size: $space-sm;
+}
+
+.recommendation-item .recommendation-content .recommendation-text .text-item {
+    margin: $space-gutter 0;
+}
+
+.recommendation-item .recommendation-content .recommendation-text .reference {
+    font-size: $space-cozy;
+}
+
+.permalink {
+    display: none;
+    font-size: $space-snug;
+    height: 100%;
+}
+
+.permalink a {
+    color: $color-earth-amber;
+}
+
+.permalink a:hover {
+    color: $brand-primary;
+}
+
+.recommendation-item .recommendation-content .recommendation-text .link {
+    font-size: $space-cozy;
+    word-break: break-all;
+}
+
+.recommendation-item .recommendation-content .recommendation-text .link a {
+    color: $color-amber-shadow;
+}
+
+.recommendation-item .recommendation-content .recommendation-text .link a:hover {
+    border-bottom: 1px solid $brand-primary;
+}
+
+@media (width <= $breakpoint-tablet) {
+    .recommendation-item .recommendation-content {
+        flex-direction: column;
+    }
+
+    .recommendation-item .recommendation-content .recommendation-image {
+        flex-direction: row;
+        justify-content: center;
+        margin: auto;
+    }
+}
+
+.recommendation-item .recommendation-content .recommendation-text .author {
+    font-size: $space-snug;
+}
+
+.recommendation-item .recommendation-content .recommendation-text .recommendation-tags {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start;
+    padding: 0 $space-gap-tight;
+    max-width: 100%;
+    margin-top: $space-gutter;
+}
+
+.recommendation-item .recommendation-content .recommendation-text .recommendation-tags .recommendation-tag {
+    display: block;
+    font-size: $space-sm;
+    font-weight: bold;
+    padding: $space-gap-tight $space-sm;
+    color: $color-earth-amber;
+    background: #f9d3b265;
+    text-transform: uppercase;
+    border-radius: $space-2xs;
+    margin: 0 $space-xs $space-xs 0;
+}
+
+.recommendation-item .recommendation-content .recommendation-text .recommendation-tags b {
+    display: block;
+    width: 100%;
+    margin: auto $space-sm $space-gap-narrow 0;
+}
+
+.recommendation-item .recommendation-content .recommendation-text .recommendation-tags .recommendation-tag a {
+    color: $color-earth-amber;
+}
+
+.recommendation-item .recommendation-content .recommendation-text .recommendation-tags .recommendation-tag a:hover {
+    color: $brand-primary;
+}
+
+.buttons {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

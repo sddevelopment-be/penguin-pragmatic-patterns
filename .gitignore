@@ -63,3 +63,5 @@ validation/cypress/videos/
 validation/cypress/screenshots/
 validation/.cypress/
 validation/node_modules/
+
+docs/lighthouse/*.json

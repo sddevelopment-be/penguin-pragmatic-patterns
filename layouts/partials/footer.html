@@ -47,8 +47,9 @@
                         <nav class="level is-mobile">
                             <div class="level-left">
                                 {{- range $socialMedia }}
-                                <a class="level-item" href="{{ .link }}" alt="link to {{ .icon }}">
-                                    <span class="icon"><i class="fa fa-{{ .icon }}"></i></span>
+                                <a class="level-item" href="{{ .link }}" aria-label="Visit {{ .icon }} profile">
+                                    <span class="icon" aria-hidden="true"><i class="fa fa-{{ .icon }}"></i></span>
+                                    <span class="visually-hidden">{{ printf "Open %s in a new tab" (humanize .icon) }}</span>
                                 </a>
                                 {{- end }}
                             </div>

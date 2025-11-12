@@ -37,7 +37,7 @@ further_exploration = [
   {type="biblio", id="45e61f6c-bc4e-44f8-ad6d-500fb8b01447" },
   {type="biblio", id="63d02dd1-135f-4e3e-af7b-b2e6f4dbb5e3" },
   {type="biblio", id="b6727fa2-6deb-4080-a440-9697ec3d20e3" },
-  {type="raw", title="What is Cognitive Behavioral Therapy? ", year="2017", author="Society of Clinical Psychology", site="apa.org", link="https://www.apa.org/ptsd-guideline/patients-and-families/cognitive-behavioral" },
+  {type="raw", title="What is Cognitive Behavioural Therapy? ", year="2017", author="Society of Clinical Psychology", site="apa.org", link="https://www.apa.org/ptsd-guideline/patients-and-families/cognitive-behavioural" },
 ]
 +++
 
@@ -121,8 +121,8 @@ ear. This role is effective for individuals who benefit from articulating their 
 often arrive at solutions on their own, without active involvement from the helper.
 
 This role is particularly useful when the person seeking help already has the knowledge and skills they need to solve their problem but feels stuck
-or overwhelmed. By having a "safe" and non-judgmental listener, they can process their emotions, vent frustrations, or explore ideas without
-interference or guidance. The helper serves as a passive, non-judgmental presence, just being there for the person without imposing expertise, advice, or
+or overwhelmed. By having a "safe" and non-judgemental listener, they can process their emotions, vent frustrations, or explore ideas without
+interference or guidance. The helper serves as a passive, non-judgemental presence, just being there for the person without imposing expertise, advice, or
 facilitation.
 
 #### Process Consultant
@@ -186,7 +186,7 @@ your approach might be contributing to the resistance you’re facing?”_
 #### 4. Process-Oriented Inquiry
 
 Process-oriented inquiry focuses on the here-and-now, examining the dynamics of the interaction between the helper and the client. The helper draws
-attention to the immediate processes at play, such as emotions, behaviors, or reactions, both in the conversation and in the client’s situation.
+attention to the immediate processes at play, such as emotions, behaviours, or reactions, both in the conversation and in the client’s situation.
 This type of inquiry is often used to explore relational dynamics and can be particularly useful in group settings or when addressing interpersonal
 issues.
 
@@ -232,8 +232,8 @@ For example:
   emphasizes the importance of knowing when to step back and allow the coachee to come to their own conclusions, which aligns with the Rubber Duck
   role.
 
-* **Therapy:** In therapy, the Rubber Duck role aligns with non-directive approaches like person-centered therapy, where the therapist offers
-  empathy and listening without solving the problem. On the other hand, cognitive-behavioral therapy (CBT) mirrors the Doctor role, where the
+* **Therapy:** In therapy, the Rubber Duck role aligns with non-directive approaches like person-centred therapy, where the therapist offers
+  empathy and listening without solving the problem. On the other hand, cognitive-behavioural therapy (CBT) mirrors the Doctor role, where the
   therapist actively diagnoses and prescribes interventions. Therapists, like helpers, must shift between roles, from simply listening, to guiding,
   to providing expert advice or solutions, depending on the situation and the client’s needs.
 

@@ -95,8 +95,14 @@
                         <a href="index.html" rel="noreferrer" target="_blank">HTML</a> /
                         {{ $formats := slice }}
                         {{ range $format := .Params.outputs }}
-                            {{ $toAdd := $format.Name }}
-                            {{ $formats = $formats | append $toAdd }}
+                            {{- $formatType := printf "%T" $format -}}
+                            {{- if hasPrefix $formatType "map" -}}
+                                {{- with index $format "Name" -}}
+                                    {{- $formats = $formats | append . -}}
+                                {{- end -}}
+                            {{- else -}}
+                                {{- $formats = $formats | append $format -}}
+                            {{- end -}}
                         {{ end }}
                         {{ if (in $formats "rss") }}
                             <a href="index.xml" rel="noreferrer" target="_blank">XML</a> /

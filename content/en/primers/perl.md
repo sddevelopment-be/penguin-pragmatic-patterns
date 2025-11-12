@@ -21,7 +21,7 @@ Perl values expressiveness and pragmatism over rigid orthodoxy. Larry Wall desig
 - **TIMTOWTDI (There's More Than One Way To Do It).** Perl trusts programmers to choose the approach that fits their problem best, whether that's procedural, object-oriented, or functional. This flexibility is a feature, not a bug.
 - **Text processing DNA.** Regular expressions are woven into the syntax, making pattern matching and text manipulation feel native rather than bolted on. If your domain involves logs, templates, or unstructured data, Perl speaks your language.
 - **Practical extraction and reporting.** The name itself—Practical Extraction and Report Language—signals Perl's roots in getting real work done: parsing files, generating reports, automating systems administration tasks.
-- **Contextual evaluation.** Variables change behavior based on context (scalar vs. list), and operators adapt their meaning based on what's around them. This makes Perl dense and powerful but requires careful attention to avoid surprises.
+- **Contextual evaluation.** Variables change behaviour based on context (scalar vs. list), and operators adapt their meaning based on what's around them. This makes Perl dense and powerful but requires careful attention to avoid surprises.
 - **"Make easy things easy and hard things possible."** Perl won't force ceremony on simple tasks, but it provides the power and flexibility to tackle complex problems when needed.
 
 Treat Perl as a Swiss Army knife for text processing, system automation, and rapid prototyping. It shines brightest when you need to wrangle data, automate workflows, or build tools that need to adapt to messy real-world inputs.

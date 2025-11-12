@@ -1,4 +1,6 @@
 {{ define "main" }}
+<main id="main-content" class="site-main" role="main" tabindex="-1">
+
 
 {{ if .Site.Params.hero }}
 {{ partial "hero.html" . }}
@@ -31,5 +33,7 @@
 {{ if .Site.Params.sidebar }}
 {{ partial "sidebar.html" . }}
 {{ end }}
+
+</main>
 
 {{ end }}

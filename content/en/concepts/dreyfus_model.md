@@ -23,7 +23,7 @@ image="concepts/banner_dreyfus"
 related_concepts = ["a49f917b-c560-462a-ac38-46515f6f62d0"]
 related_practices = ["8c3df901-eefa-4dd1-970a-c00cf3b55379"]
 further_exploration = [
-  {type="raw", author="Dreyfus, Stuart E; Dreyfus, Hubert L.", year="1980", title="A Five-Stage Model of the Mental Activities InvolvedinDirected Skill Acquisition", publisher="University of California", location='Berkeley', link="http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA084551&Location=U2&doc=GetTRDoc.pdf"},
+  {type="raw", author="Dreyfus, Stuart E; Dreyfus, Hubert L.", year="1980", title="A Five-Stage Model of the Mental Activities Involved in Directed Skill Acquisition", publisher="University of California", location='Berkeley', link="http://www.dtic.mil/cgi-bin/GetTRDoc?AD=ADA084551&Location=U2&doc=GetTRDoc.pdf"},
   {type="biblio", id="d22ee68e-2f19-4677-9123-2994cb111c0c"}, 
   {type="biblio", id="d33fc09e-39c6-411e-a70e-2ca98375abd6"}, 
   {type="biblio", id="f537c66d-38e8-40cc-aa94-81880f270475"}, 

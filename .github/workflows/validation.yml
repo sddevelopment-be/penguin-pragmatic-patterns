@@ -1,0 +1,80 @@
+name: Validation Pipeline
+
+on:
+  workflow_dispatch:
+    inputs:
+      target-url:
+        description: "Base URL to test (defaults to http://127.0.0.1:1313)"
+        required: false
+  # Uncomment when ready for automatic triggers
+  # push:
+  #   branches: [develop]
+  # pull_request:
+  #   branches: [main, develop]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: validation
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 25.1.0
+          cache: 'npm'
+          cache-dependency-path: validation/package-lock.json
+      - run: npm ci --legacy-peer-deps
+      - run: npm run lint
+
+  hugo-test:
+    runs-on: ubuntu-latest
+    needs: lint
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 25.1.0
+          cache: 'npm'
+          cache-dependency-path: validation/package-lock.json
+      - uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.118.2'
+          extended: true
+      - run: npm ci --legacy-peer-deps
+        working-directory: validation
+      - run: ./scripts/run-hugo-tests.sh
+        working-directory: validation
+
+  smoke:
+    runs-on: ubuntu-latest
+    needs: hugo-test
+    env:
+      BASE_URL: ${{ github.event.inputs.target-url || 'http://127.0.0.1:1313' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 25.1.0
+          cache: 'npm'
+          cache-dependency-path: validation/package-lock.json
+      - uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.118.2'
+          extended: true
+      - name: Install dependencies
+        run: npm ci --legacy-peer-deps
+        working-directory: validation
+      - name: Run smoke suite (Lighthouse + Sitespeed + Cypress)
+        run: ./scripts/run-smoke-tests.sh
+        working-directory: validation
+      - name: Upload reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: validation-reports
+          path: |
+            validation/reports
+            validation/lighthouse-*.json
+            validation/sitespeed-result*

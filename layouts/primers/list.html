@@ -1,4 +1,5 @@
 {{ define "main" }}
+<main id="main-content" class="site-main" role="main" tabindex="-1">
 {{ partial "navbar.html" . }}
 {{ partial "navbar-clone.html" . }}
 
@@ -35,13 +36,14 @@
                         <a href="{{ .RelPermalink }}" class="" title="In-depth description of {{ .Title }}"><h4>{{ .Title }}</h4></a>
                         {{ if .Draft }}<span class="tag is-warning is-light">Draft</span>{{ end }}
                         <h5 title="In-depth description of {{ .Title }}">{{ .Params.SubTitle }}</h5>
+                        <div class="tags">
+                            {{ range .Params.tags }}<span class="tag">{{ . }}</span>{{ end }}
+                        </div>
                     </div>
                 </div>
                 <div class="card-content">
                     <p>{{ .Summary }}</p>
-                    <div class="tags">
-                        {{ range .Params.tags }}<span class="tag">{{ . }}</span>{{ end }}
-                    </div>
+
                     <div class="meta is-size-7 has-text-grey">
                         Last updated {{ .Lastmod.Format "02 Jan 2006" }} · {{ .ReadingTime }} min read
                     </div>
@@ -55,5 +57,7 @@
 {{ if .Site.Params.footer }}
     {{ partial "footer.html" . }}
 {{ end }}
+
+</main>
 
 {{ end }}

@@ -1,0 +1,45 @@
+@use "../settings" as *;
+
+.tag-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    width: fit-content;
+    justify-content: center;
+}
+
+@media (width <= $breakpoint-tablet) {
+    .tag-wrapper {
+        flex-direction: column;
+    }
+}
+
+.tag-block {
+    border: 2px solid $brand-primary;
+    border-radius: $space-2xs;
+    display: block;
+    max-width: 20rem;
+    width: 100%;
+    height: fit-content;
+    margin: $space-cozy;
+    color: $color-earth-amber;
+    background: #f9d3b265;
+}
+
+.tag-name {
+    width: 85%;
+    color: $color-earth-amber;
+    display: inline-block;
+    padding: $space-2xs $space-lg;
+    background: #f9d3b285;
+}
+
+.tag-count {
+    padding: $space-2xs;
+    text-align: right;
+    display: inline-block;
+    width: 10%;
+}
+
+.tag-wrapper a:hover {
+    color: $brand-primary;
+}

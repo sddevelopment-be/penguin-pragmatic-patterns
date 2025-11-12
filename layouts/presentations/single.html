@@ -22,6 +22,7 @@
     {{- if fileExists (printf "layouts/partials/%s.html" $sectionHeadPartial) -}}{{ partial $sectionHeadPartial . }}{{- end }}
 </head>
 <body>
+<a class="skip-link" href="#main-content">Skip to main content</a>
 {{ if .Param "logo.src" }}
 <div class="slide-branding">
     {{ $logoLink := .Param "logo.link" }}
@@ -33,6 +34,7 @@
     {{ end }}
 </div>
 {{ end }}
+<main id="main-content" class="site-main" role="main" tabindex="-1">
 <div class="reveal">
     <div class="slides">
         {{- block "main" . -}}{{- end -}}
@@ -45,6 +47,7 @@
     {{- $sectionHeadPartial := printf "%s/reveal-hugo/end" (.Page.Section | default "home") -}}
     {{- if fileExists (printf "layouts/partials/%s.html" $sectionHeadPartial) -}}{{ partial $sectionHeadPartial . }}{{- end }}
 </div>
+</main>
 {{- partial "layout/javascript" . }}
 <!-- To insert markup before the closing body tag for all presentations,
      create layouts/partials/reveal-hugo/body.html -->

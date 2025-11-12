@@ -265,7 +265,7 @@ A: We have a path: Phase 3 includes evaluation of custom theme. Current upgrade 
 - Based on static file analysis + Lighthouse JSON
 
 ### Implementation Dependencies
-- Requires Hugo v0.118.2 extended (SCSS support)
+- Requires Hugo v0.152.2 extended (SCSS support)
 - Needs Dart Sass compatible with `math.div()`
 - Dependent on Bulma v1.0.2+ availability
 

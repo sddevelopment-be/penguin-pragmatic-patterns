@@ -9,15 +9,15 @@
 - **Size:** ~350 English pages, 21 Dutch pages, 40+ practices, 25+ concepts
 - **Languages:** Go modules (Hugo), Markdown, TOML, Bash scripts, PlantUML diagrams
 - **Deployment:** Dual environment - GitHub Pages (develop branch) and production (main branch via Netlify)
-- **Hugo Version:** 0.118.2 extended (CRITICAL: must use extended version for SCSS support)
+- **Hugo Version:** 0.152.2 extended (CRITICAL: must use extended version for SCSS support)
 
 ## Build & Development Workflow
 
 ### Prerequisites & Installation
 
-**ALWAYS install Hugo extended version 0.118.2** before any build operations:
+**ALWAYS install Hugo extended version 0.152.2** before any build operations:
 ```bash
-wget -O /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.118.2/hugo_extended_0.118.2_linux-amd64.deb
+wget -O /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.152.2/hugo_extended_0.152.2_linux-amd64.deb
 sudo dpkg -i /tmp/hugo.deb
 hugo version  # Verify: should show "extended"
 ```

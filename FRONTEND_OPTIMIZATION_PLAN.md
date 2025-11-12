@@ -39,7 +39,7 @@ This document outlines the comprehensive front-end optimization strategy based o
 
 ### Current Stack
 ```
-├── Hugo Static Site Generator (v0.118.2 extended)
+├── Hugo Static Site Generator (v0.152.2 extended)
 ├── hugo-fresh theme (v1.0.0) - via Hugo modules
 └── Bulma CSS Framework (v0.0.0-20230818164217)
 ```

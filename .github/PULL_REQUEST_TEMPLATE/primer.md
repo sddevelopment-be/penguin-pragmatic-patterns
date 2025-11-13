@@ -5,16 +5,39 @@
 **Family:** [programming-languages / markup-and-diagramming / toolchain-and-automation / architectural / algorithmic]  
 **Primer:** [Name of primer]
 
-## Checklist
+## Quality Checklist
 
+### Template Compliance
 - [ ] Follows the appropriate family template from `src/templates/primers/`
+- [ ] All required sections from template are present and complete
+- [ ] Front matter metadata properly formatted (if applicable)
+
+### Content Quality
 - [ ] Includes clear "when to use / trade-offs" section
-- [ ] Contains one diagram or code snippet (kept minimal)
+- [ ] Contains one diagram or code snippet (kept minimal and focused)
 - [ ] Links to 2-5 authoritative resources
-- [ ] Builds locally without errors
-- [ ] All links and diagrams render correctly
-- [ ] Matches tone from VISION.md (calm, precise, practical)
 - [ ] Avoids hype and overlong prose
+- [ ] Matches tone from VISION.md (calm, precise, practical)
+- [ ] Examples are immediately actionable
+- [ ] Can be read and understood in <60 minutes
+
+### Technical Validation
+- [ ] Builds locally without errors (`hugo --gc --minify --buildDrafts=false`)
+- [ ] All links functional and render correctly
+- [ ] All diagrams render correctly
+- [ ] Code examples tested and verified
+- [ ] Syntax highlighting works correctly (if applicable)
+
+### Integration & Navigation
+- [ ] Family index updated with new primer entry
+- [ ] Cross-links to related primers added (where applicable)
+- [ ] Navigation path from series overview validated
+- [ ] Metadata tags appropriate for discoverability
+
+### Accessibility & Localization
+- [ ] Diagrams include descriptive alt-text
+- [ ] Code examples have appropriate contrast
+- [ ] Content suitable for translation (no idioms that won't translate)
 
 ## Executive Summary
 

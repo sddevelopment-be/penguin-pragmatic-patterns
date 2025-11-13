@@ -194,344 +194,200 @@ This roadmap outlines a phased, agent-assisted approach to building the complete
 - ✅ Content structure in `content/en/primers/` (5 family directories)
 - ✅ Primer series index at `/primers/_index.md`
 - ✅ Vision document at `docs/collaboration/PRIMER_VISION.md`
-- ⬜ Implementation roadmap (this document)
-- ⬜ Quality checklist template for primer validation
-- ⬜ Build verification workflow for primer content
+- ✅ Build verification workflow (exists in `validation/` directory)
+- ✅ Implementation roadmap (this document)
+- ⬜ Template curation and alignment verification
+- ⬜ Quality checklist update (PR template enhancement)
 
 **Agent Assignments:**
-- **Project Planner:** Roadmap creation, milestone definition, dependency mapping
-- **Bootstrap Bill:** Infrastructure documentation, validation tooling setup
-- **Curator:** Template compliance audits, structural consistency checks
+- **Project Planner:** Roadmap creation, milestone definition, dependency mapping (✓)
+- **Curator:** Template compliance audits, structural consistency checks, quality checklist update
 
 **Dependencies:**
 - Hugo build system operational (✓)
 - Template alignment with vision document (✓)
 - Agent collaboration protocol established (✓)
+- Validation infrastructure in place (✓)
 
 **Validation Criteria:**
-- [ ] Hugo builds without errors: `hugo --gc --minify --buildDrafts=false`
-- [ ] All family index files render correctly
-- [ ] Templates match vision specifications
-- [ ] Roadmap approved by human maintainer
+- [x] Hugo builds without errors: `hugo --gc --minify --buildDrafts=false`
+- [x] All family index files render correctly
+- [x] Templates match vision specifications
+- [x] Roadmap approved by human maintainer
+- [ ] Template curation complete
+- [ ] Quality checklist updated in PR template
 
 **Duration Estimate:** 1–2 days (in-progress)
 
 ---
 
-### Phase 1: Programming Languages — Core Set
+### Phase 1: Split-Focus Primer Development
 
-**Objective:** Deliver foundational programming language primers covering major paradigms and ecosystems.
+**Objective:** Deliver initial primers across all families using a split-focus approach to establish baseline coverage and validate workflows.
 
-**Target Primers (Batch 1A: 4 primers):**
-1. Python (✓ existing — needs alignment check)
-2. Perl (✓ existing — needs alignment check)
-3. Rust (new — systems programming, modern safety)
-4. JavaScript/TypeScript (new — web ecosystem, dual-language treatment)
+**Rationale:** Rather than completing one family at a time, this approach provides:
+- Early validation of all template types
+- Immediate cross-family value for users
+- Faster feedback loops across different primer styles
+- Reduced risk of template misalignment discovered late
 
-**Target Primers (Batch 1B: 4 primers):**
-5. Go (new — concurrency, cloud-native)
-6. Java (new — enterprise, OOP foundation)
-7. Kotlin (new — modern JVM, mobile)
-8. C# (new — .NET ecosystem)
+**Target Primers (Initial Batch: 5 primers across families):**
+
+1. **Programming Languages:**
+   - **PowerShell** (new — Windows automation, scripting)
+   - **Java** (new — enterprise, OOP foundation)
+
+2. **Architectural:**
+   - **Three-Layer Architecture** (new — presentation-business-data separation)
+
+3. **Toolchain & Automation:**
+   - **Batch Scripting** (new — Windows automation fundamentals)
+
+4. **Markup & Diagramming:**
+   - **Markdown** (new — essential documentation format)
+   - **PlantUML** (new — existing diagram standard in repository)
+
+5. **Algorithmic:**
+   - _Deferred to Phase 2_ (low priority for initial rollout)
 
 **Agent Assignments:**
 - **Researcher:** Gather authoritative resources, ecosystem documentation, community norms
-- **Writer-Editor:** Draft primer content following TEMPLATE_PROGRAMMING_PRIMER.md
+- **Writer-Editor:** Draft primer content following family-specific templates
 - **Lexical Analyst:** Tone and voice alignment with operational style
 - **Curator:** Template compliance validation, cross-primer consistency
-- **Diagrammer:** Create ecosystem diagrams (toolchain flow, paradigm relationships)
+- **Diagrammer:** Create diagrams for architectural and diagramming primers
 
 **Work Streams:**
-1. **Research phase:** 1–2 days per batch
-   - Gather 5–7 authoritative references per language
+1. **Research phase:** 2–3 days
+   - Gather 5–7 authoritative references per primer
    - Document ecosystem conventions, style guides, canonical tooling
-   - Identify representative code examples
+   - Identify representative code examples and diagrams
    
-2. **Drafting phase:** 2–3 days per batch
+2. **Drafting phase:** 3–4 days
    - Populate template sections with factual, practical content
    - Include working code examples and quickstart commands
    - Link to official documentation and learning resources
    
-3. **Review phase:** 1 day per batch
-   - Lexical alignment pass
+3. **Review phase:** 1–2 days
+   - Lexical alignment pass across all primers
    - Curator structural validation
    - Build verification and link checking
    
-4. **Integration phase:** 0.5 days per batch
-   - Update family index with new primers
+4. **Integration phase:** 1 day
+   - Update family indexes with new primers
    - Cross-link related primers
-   - Publish to staging environment
+   - Validate in Hugo build
 
 **Dependencies:**
-- Phase 0 validation gates passed
+- Phase 0 completion (template curation and quality checklist)
 - Template refinements incorporated
-- Agent workflows tested with 1 pilot primer
+- PR template updated with quality criteria
 
 **Validation Criteria:**
-- [ ] All sections from TEMPLATE_PROGRAMMING_PRIMER.md present
+- [ ] All sections from family-specific templates present
 - [ ] 2–5 authoritative references per primer
-- [ ] Working quickstart commands verified
-- [ ] Hugo build passes
+- [ ] Working examples verified (code snippets, quickstart commands, diagrams)
+- [ ] Hugo build passes without errors
 - [ ] Lexical tone consistent with existing content
 - [ ] Cross-links functional
+- [ ] Quality checklist from PR template satisfied
 
-**Duration Estimate:** 2–3 weeks (2 batches × 1.5 weeks)
+**Duration Estimate:** 1.5–2 weeks
 
 ---
 
-### Phase 2: Markup & Diagramming — Communication Foundations
+### Phase 2: Family Expansion
 
-**Objective:** Enable reproducible documentation and visualization across the knowledge base.
+**Objective:** Build upon Phase 1 foundation by expanding coverage within each primer family, completing high-priority entries.
 
-**Target Primers (Batch 2A: 4 primers):**
-1. Markdown (essential — core documentation format)
-2. PlantUML (essential — existing diagram standard)
-3. Mermaid (high-value — GitHub integration)
-4. YAML (high-value — configuration literacy)
+**Target Primers:**
 
-**Target Primers (Batch 2B: 3 primers):**
-5. JSON (practical — data interchange)
-6. TOML (practical — Hugo configuration format)
-7. AsciiDoc (optional — advanced documentation)
+1. **Programming Languages (3 additional):**
+   - Python (✓ existing — alignment check and template update)
+   - Perl (✓ existing — alignment check and template update)
+   - Rust (new — systems programming, modern safety)
+
+2. **Markup & Diagramming (3 additional):**
+   - Mermaid (new — GitHub integration)
+   - YAML (new — configuration literacy)
+   - JSON (new — data interchange)
+
+3. **Toolchain & Automation (2 additional):**
+   - Docker (new — containerization)
+   - GitHub Actions (new — CI/CD in use)
+
+4. **Architectural (2 additional):**
+   - Ports and Adapters (new — hexagonal architecture)
+   - Service-Oriented Architecture (new — capability decomposition)
+
+5. **Algorithmic (Initial entries: 2 primers):**
+   - Search Algorithms (new — BFS, DFS, A*, Dijkstra)
+   - Sorting and Ordering (new — comparison sorts, topological sort)
 
 **Agent Assignments:**
-- **Researcher:** Identify canonical tools, syntax references, ecosystem conventions
-- **Writer-Editor:** Draft primers following TEMPLATE_MARKUP_AND_DIAGRAMMING.md
-- **Diagrammer:** Create comparison diagrams (when to use which format)
-- **Lexical Analyst:** Voice and clarity checks
-- **Curator:** Structural validation, template compliance
+- **Researcher:** Resource gathering and ecosystem documentation
+- **Writer-Editor:** Content drafting following family templates
+- **Architect:** Lead architectural primer development
+- **Diagrammer:** Diagrams for architectural and algorithm primers
+- **Lexical Analyst:** Voice consistency across expanded content
+- **Curator:** Cross-family consistency and template compliance
 
 **Work Streams:**
-1. **Research phase:** 1 day per batch
-   - Focus on practical usage patterns
-   - Identify common pitfalls and conventions
-   - Gather tooling recommendations
-   
-2. **Drafting phase:** 2 days per batch
-   - Populate templates with syntax examples
-   - Include tool integration guidance
-   - Demonstrate real-world use cases from the repository
-   
-3. **Review phase:** 1 day per batch
-   - Validate examples against repository usage
-   - Curator alignment check
-   - Build verification
-   
-4. **Integration phase:** 0.5 days per batch
-   - Update family index
-   - Cross-reference with programming primers
-   - Link from existing content using these formats
+Similar to Phase 1 with parallel tracks across families:
+1. Research phase: 2–3 days
+2. Drafting phase: 4–5 days (larger batch)
+3. Review phase: 2 days
+4. Integration phase: 1 day
 
 **Dependencies:**
-- Phase 1 Batch 1A completed (to establish rhythm)
-- Diagramming tools validated in repository
-- PlantUML examples from existing content cataloged
+- Phase 1 complete and validated
+- Lessons learned from split-focus approach incorporated
+- Template refinements based on Phase 1 feedback
 
 **Validation Criteria:**
-- [ ] Examples render correctly in Hugo
-- [ ] Syntax highlighting functional
-- [ ] Tool recommendations current and tested
-- [ ] Cross-references to repository usage examples
-- [ ] Family index updated
+- [ ] All family-specific template sections complete
+- [ ] Cross-family consistency maintained
+- [ ] Hugo build passes
+- [ ] Quality checklist satisfied for each primer
+- [ ] Existing Python/Perl primers updated to match template
 
-**Duration Estimate:** 1.5–2 weeks (2 batches × 1 week)
+**Duration Estimate:** 2–3 weeks
 
 ---
 
-### Phase 3: Toolchain & Automation — Delivery Literacy
+### Phase 3: Deep Coverage & Specialization
 
-**Objective:** Build competency in modern development workflows and reproducibility practices.
+**Objective:** Expand primer coverage to achieve comprehensive family coverage with specialized and advanced topics.
 
-**Target Primers (Batch 3A: 4 primers):**
-1. Shell Scripting (foundational — Bash automation)
-2. Make (foundational — build orchestration)
-3. Docker (high-impact — containerization)
-4. GitHub Actions (high-impact — CI/CD in use)
+**Target Primers (Additional entries across families):**
 
-**Target Primers (Batch 3B: 3 primers):**
-5. Task Runners (practical — npm scripts, just, task)
-6. Environment Management (practical — dotfiles, direnv)
-7. Liquibase/Flyway (specialized — database versioning)
+1. **Programming Languages:**
+   - Go, Kotlin, C#, JavaScript/TypeScript, C, Lisp, Prolog, Haskell
 
-**Agent Assignments:**
-- **Build Automation Agent:** Lead content creation for CI/CD and pipeline primers
-- **Researcher:** Tool comparisons, best practices, ecosystem evolution
-- **Writer-Editor:** Draft primers following TEMPLATE_TOOL_AND_AUTOMATION.md
-- **Architect:** Design workflow diagrams and integration patterns
-- **Curator:** Validation and consistency checks
+2. **Markup & Diagramming:**
+   - TOML, AsciiDoc, Graphviz DOT, D2, LaTeX
 
-**Work Streams:**
-1. **Research phase:** 1–2 days per batch
-   - Catalog existing repository automation (GitHub Actions workflows)
-   - Document tool trade-offs and selection criteria
-   - Identify reproducibility patterns
-   
-2. **Drafting phase:** 2–3 days per batch
-   - Create working examples from repository context
-   - Include quickstart scaffolds
-   - Document integration patterns
-   
-3. **Review phase:** 1 day per batch
-   - Build Automation Agent technical validation
-   - Architect pattern verification
-   - Curator structural check
-   
-4. **Integration phase:** 0.5 days per batch
-   - Link to repository workflows as examples
-   - Update family index
-   - Cross-reference with programming primers
+3. **Toolchain & Automation:**
+   - Shell Scripting, Make, Task Runners, Environment Management, Jenkins, Ansible, Terraform
 
-**Dependencies:**
-- Phase 1 Batch 1A completed (establishes agent workflow)
-- Repository CI/CD workflows documented
-- Template validated with one pilot primer
+4. **Architectural:**
+   - Big Ball of Mud, CQRS, Event-Based Architecture, Domain Split, Access Control Layer, DSL Design
 
-**Validation Criteria:**
-- [ ] Examples executable and tested
-- [ ] Integration with repository workflows documented
-- [ ] Trade-off sections complete
-- [ ] Quickstart commands verified
-- [ ] Cross-links to related primers functional
+5. **Algorithmic:**
+   - Recursion & Aggregation, Dynamic Programming, Greedy Methods, Graph Coloring, Geometric Algorithms, Stochastic Methods
 
-**Duration Estimate:** 2–3 weeks (2 batches × 1.5 weeks)
+**Approach:**
+- Continue split-focus batches of 4–6 primers
+- Prioritize based on user demand and strategic alignment
+- Maintain quality gates established in Phases 1–2
+
+**Duration Estimate:** Iterative, 2–3 week cycles per batch
 
 ---
 
-### Phase 4: Architectural Primers — System Shapes
+### Phase 4: Consolidation & Quality Assurance
 
-**Objective:** Provide rapid literacy in common architectural patterns and their evolution paths.
-
-**Target Primers (Batch 4A: 4 primers):**
-1. Big Ball of Mud (foundational — recognize emergent chaos)
-2. Three-Layer Architecture (foundational — presentation-business-data)
-3. Ports and Adapters (high-value — hexagonal architecture)
-4. Service-Oriented Architecture (high-value — capability decomposition)
-
-**Target Primers (Batch 4B: 5 primers):**
-5. CQRS (practical — read/write separation)
-6. Event-Based Architecture (practical — async patterns)
-7. Domain Split (practical — bounded contexts)
-8. Access Control Layer (specialized — security patterns)
-9. DSL Design (specialized — language as modeling)
-
-**Agent Assignments:**
-- **Architect:** Lead content creation, trade-off analysis, pattern evolution paths
-- **Researcher:** Historical context, case studies, authoritative references
-- **Diagrammer:** Create architectural diagrams (component, sequence, deployment)
-- **Writer-Editor:** Draft primers following TEMPLATE_ARCHITECTURAL.md
-- **Curator:** Pattern coherence across primers
-
-**Work Streams:**
-1. **Research phase:** 2 days per batch
-   - Identify canonical pattern definitions
-   - Gather evolution case studies
-   - Document common misapplications
-   
-2. **Drafting phase:** 3–4 days per batch
-   - Architect-led pattern documentation
-   - Trade-off narration and context analysis
-   - Evolution path mapping
-   
-3. **Diagramming phase:** 1–2 days per batch
-   - Create reference diagrams
-   - Illustrate pattern variations
-   - Show migration paths
-   
-4. **Review phase:** 1 day per batch
-   - Architect peer review
-   - Curator consistency validation
-   - Build verification
-   
-5. **Integration phase:** 0.5 days per batch
-   - Update family index
-   - Cross-link to related practices and concepts
-   - Link from existing architectural content
-
-**Dependencies:**
-- Phase 2 completed (diagramming primers available)
-- Architect agent workflow validated
-- Pattern catalog from existing content analyzed
-
-**Validation Criteria:**
-- [ ] Trade-off sections thorough and contextualized
-- [ ] Diagrams render and add clarity
-- [ ] Evolution paths documented
-- [ ] Links to 3–5 authoritative sources
-- [ ] Consistency with existing practices/concepts
-- [ ] Family index updated
-
-**Duration Estimate:** 3–4 weeks (2 batches × 2 weeks)
-
----
-
-### Phase 5: Algorithmic Primers — Problem-Shape Literacy
-
-**Objective:** Refresh algorithmic thinking with focus on design-relevant patterns and trade-offs.
-
-**Target Primers (Batch 5A: 4 primers):**
-1. Search Algorithms (foundational — BFS, DFS, A*, Dijkstra)
-2. Sorting and Ordering (foundational — comparison sorts, topological sort)
-3. Recursion and Aggregation (high-value — recursive patterns, divide-and-conquer)
-4. Dynamic Programming (high-value — optimization under constraints)
-
-**Target Primers (Batch 5B: 4 primers):**
-5. Greedy Methods (practical — local optimization)
-6. Graph Coloring (practical — constraint satisfaction)
-7. Geometric Algorithms (specialized — spatial reasoning)
-8. Stochastic Methods (specialized — Monte Carlo, simulated annealing)
-
-**Agent Assignments:**
-- **Researcher:** Algorithm taxonomy, canonical resources, complexity analysis
-- **Writer-Editor:** Draft primers following TEMPLATE_ALGORITHMIC.md
-- **Diagrammer:** Visualize algorithm flow and problem transformations
-- **Lexical Analyst:** Ensure clarity without losing precision
-- **Curator:** Mathematical notation consistency, structural validation
-
-**Work Streams:**
-1. **Research phase:** 1–2 days per batch
-   - Identify canonical algorithm references
-   - Document complexity classes
-   - Gather problem-to-algorithm mappings
-   
-2. **Drafting phase:** 2–3 days per batch
-   - Explain intuition before mechanics
-   - Provide pseudocode and complexity analysis
-   - Include design-relevant trade-offs
-   
-3. **Diagramming phase:** 1 day per batch
-   - Visualize problem transformations
-   - Illustrate decision trees or state spaces
-   
-4. **Review phase:** 1 day per batch
-   - Lexical clarity check (avoid academic jargon)
-   - Curator mathematical consistency
-   - Build verification
-   
-5. **Integration phase:** 0.5 days per batch
-   - Update family index
-   - Cross-reference with architectural primers
-   - Link from related practices
-
-**Dependencies:**
-- Phase 2 completed (diagramming literacy established)
-- Notation conventions defined
-- Template validated with pilot primer
-
-**Validation Criteria:**
-- [ ] Intuition-first explanations
-- [ ] Complexity analysis present
-- [ ] Trade-offs clearly articulated
-- [ ] Diagrams aid understanding
-- [ ] 2–5 authoritative references
-- [ ] Family index updated
-
-**Duration Estimate:** 3–4 weeks (2 batches × 2 weeks)
-
----
-
-### Phase 6: Consolidation & Quality Assurance
-
-**Objective:** Ensure structural integrity, cross-primer coherence, and publication readiness.
+**Objective:** Ensure structural integrity, cross-primer coherence, and publication readiness across all completed primers.
 
 **Activities:**
 1. **Comprehensive audit:** Curator-led review of all primers
@@ -551,16 +407,16 @@ This roadmap outlines a phased, agent-assisted approach to building the complete
 - **Build Automation Agent:** Performance optimization, CI/CD validation
 
 **Deliverables:**
-- ⬜ Audit report with corrections applied
-- ⬜ Cross-reference map and link verification
-- ⬜ Updated navigation structure
-- ⬜ Performance benchmark report
-- ⬜ Translation preparation package
-- ⬜ Accessibility compliance report
-- ⬜ Staging environment validated
+- Audit report with corrections applied
+- Cross-reference map and link verification
+- Updated navigation structure
+- Performance benchmark report
+- Translation preparation package
+- Accessibility compliance report
+- Staging environment validated
 
 **Dependencies:**
-- All Phase 1–5 primers completed
+- Sufficient primer coverage across families (minimum 2–3 per family)
 - Human review and approval of representative samples
 - Translation guidelines established
 
@@ -576,7 +432,7 @@ This roadmap outlines a phased, agent-assisted approach to building the complete
 
 ---
 
-### Phase 7: Expansion & Iteration (Future)
+### Phase 5: Continuous Expansion (Ongoing)
 
 **Objective:** Grow primer coverage based on usage feedback and strategic priorities.
 
@@ -605,25 +461,29 @@ This roadmap outlines a phased, agent-assisted approach to building the complete
 ### Dependency Map
 
 ```
-Phase 0 (Foundation)
+Phase 0 (Foundation & Infrastructure)
     ↓
-Phase 1 (Programming Languages Batch 1A) ← Establishes agent workflow
+Phase 1 (Split-Focus Initial Batch)
+    ├── PowerShell + Java primers
+    ├── Three-Layer Architecture primer
+    ├── Batch Scripting primer
+    └── Markdown + PlantUML primers
     ↓
-┌───┴───┬───────┬───────┐
-│       │       │       │
-Phase 1B Phase 2A Phase 3A (parallel start possible after 1A validation)
-│       │       │
-Phase 2B Phase 3B (sequential within families)
-│       │
-└───┬───┴───────┘
+Phase 2 (Family Expansion)
+    ├── Additional programming languages (Python/Perl updates, Rust)
+    ├── Additional markup/diagramming (Mermaid, YAML, JSON)
+    ├── Additional toolchain (Docker, GitHub Actions)
+    ├── Additional architectural (Ports & Adapters, SOA)
+    └── Initial algorithmic (Search, Sorting)
     ↓
-Phase 4 (Architectural) ← Requires diagramming primers from Phase 2
+Phase 3 (Deep Coverage & Specialization)
+    └── Iterative batches across all families
     ↓
-Phase 5 (Algorithmic) ← Requires diagramming literacy
+Phase 4 (Consolidation & Quality Assurance)
+    └── Cross-primer audit and optimization
     ↓
-Phase 6 (Consolidation) ← All content complete
-    ↓
-Phase 7 (Expansion) ← Continuous iteration
+Phase 5 (Continuous Expansion)
+    └── Ongoing based on feedback and demand
 ```
 
 ---
@@ -674,24 +534,28 @@ Phase 7 (Expansion) ← Continuous iteration
 
 ### Next Actions
 
-1. **Immediate (Human approval required):**
-   - Review and approve this roadmap
-   - Validate Phase 0 completion criteria
-   - Select pilot primer for Phase 1 workflow validation
+1. **Phase 0 Completion (In Progress):**
+   - [x] Roadmap approved by human maintainer
+   - [ ] Template curation complete (Curator)
+   - [ ] Quality checklist updated in PR template (Curator)
 
-2. **Phase 0 Completion (Project Planner + Bootstrap Bill):**
-   - Create quality checklist template
-   - Document build verification workflow
-   - Set up agent task tracking
+2. **Phase 1 Kickoff (Split-Focus Approach):**
+   - **PowerShell Primer:** Researcher gathers resources, Writer-Editor drafts content
+   - **Java Primer:** Researcher gathers resources, Writer-Editor drafts content
+   - **Three-Layer Architecture Primer:** Architect leads, Diagrammer creates diagrams
+   - **Batch Scripting Primer:** Researcher and Writer-Editor collaborate
+   - **Markdown Primer:** Writer-Editor drafts with repository examples
+   - **PlantUML Primer:** Diagrammer leads with Writer-Editor support
 
-3. **Phase 1 Kickoff (after approval):**
-   - Researcher: Begin resource gathering for Batch 1A (Python, Perl, Rust, JS/TS)
-   - Writer-Editor: Align existing Python/Perl primers to template
-   - Curator: Prepare validation checklist
+3. **Quality Gates:**
+   - Build verification after each primer completion
+   - Curator template compliance check
+   - Lexical tone alignment review
+   - Cross-linking validation
 
 ---
 
-**Roadmap Version:** 1.0  
+**Roadmap Version:** 2.0  
 **Last Updated:** 2025-11-13  
-**Status:** Pending human approval  
-**Next Review:** After Phase 0 completion
+**Status:** Phase 0 in progress, Phase 1 primers identified  
+**Next Review:** After Phase 1 batch completion

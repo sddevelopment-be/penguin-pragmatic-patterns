@@ -1,68 +1,70 @@
-# Automation Example Setup Instructions
+#!/bin/bash
+# Automation Example Setup Script
+# This script creates the automation-example directory structure and copies/anonymizes files
 
-## Automated Setup (RECOMMENDED)
+set -e  # Exit on error
 
-Two automation scripts have been created to set up the example directory. Run either one from the repository root:
+REPO_ROOT="$(git rev-parse --show-toplevel)"
+TARGET_DIR="$REPO_ROOT/src/automation-example"
 
-### Option 1: Bash Script
-```bash
-bash src/scripts/create_automation_example.sh
-```
+echo "Creating automation-example directory structure..."
+mkdir -p "$TARGET_DIR"/{agents,docs,templates}
 
-### Option 2: Python Script
-```bash
-python3 src/scripts/create_automation_example.py
-```
+echo "Copying and anonymizing agent files..."
 
-Both scripts will automatically:
-1. Create the `src/automation-example/` directory structure
-2. Copy all 15 agent configuration files from `.github/agents/`
-3. Copy 4 documentation templates from `docs/`
-4. Copy the agent template from `src/templates/`
-5. Anonymize all content by replacing:
-   - "SD Development" / "SDD" → "Generic Agent Framework" / "Generic"
-   - "Stijn Dejongh" / "Stijn" → "the author" / "the user"
-   - "sddevelopment-be" → "your-organization"
-   - URLs and domain references
-6. Generate a comprehensive README.md
+# Function to anonymize content
+anonymize() {
+    local file="$1"
+    sed -e 's/sddevelopment-be/your-organization/g' \
+        -e 's/SD Development/Generic Agent Framework/g' \
+        -e 's/SDD Agent/Agent/g' \
+        -e 's/SDD/Generic/g' \
+        -e 's/Stijn Dejongh/the author/g' \
+        -e 's/Stijn/the user/g' \
+        -e 's/@stijn-dejongh/the author/g' \
+        -e 's/stijn-dejongh/the-author/g' \
+        -e 's/https:\/\/github\.com\/sddevelopment-be\/templates/https:\/\/github\.com\/your-organization\/templates/g' \
+        -e 's/sddevelopment-be\.github\.io/your-organization.github.io/g' \
+        -e 's/patterns\.sddevelopment\.be/patterns.your-domain.com/g' \
+        -e 's/http:\/\/sddevelopment\.be\//https:\/\/your-website.com\//g' \
+        "$file"
+}
 
-## Manual Setup (If scripts cannot be run)
+# Copy and anonymize each agent file
+for agent_file in "$REPO_ROOT/.github/agents"/*.agent.md; do
+    filename=$(basename "$agent_file")
+    echo "  Processing $filename..."
+    mkdir -p "$TARGET_DIR/agents"
+    anonymize "$agent_file" > "$TARGET_DIR/agents/$filename"
+done
 
-If for any reason the automated scripts cannot be executed, create the following directory structure manually:
+# Copy and anonymize specialist-agents.json
+echo "  Processing specialist-agents.json..."
+anonymize "$REPO_ROOT/.github/agents/specialist-agents.json" > "$TARGET_DIR/agents/specialist-agents.json"
 
-```
-src/automation-example/
-├── README.md
-├── agents/
-│   ├── architect.agent.md
-│   ├── backend-dev.agent.md
-│   ├── bootstrap-bill.agent.md
-│   ├── build-automation.agent.md
-│   ├── curator.agent.md
-│   ├── diagrammer.agent.md
-│   ├── frontend.agent.md
-│   ├── lexical.agent.md
-│   ├── manager.agent.md
-│   ├── project-planner.agent.md
-│   ├── researcher.agent.md
-│   ├── scribe.agent.md
-│   ├── synthesizer.agent.md
-│   ├── translator.agent.md
-│   ├── writer-editor.agent.md
-│   └── specialist-agents.json
-├── docs/
-│   ├── REPO_MAP.md
-│   ├── SURFACES.md
-│   ├── CONTEXT_LINKS.md
-│   └── WORKFLOWS.md
-└── templates/
-    └── TEMPLATE_SPECIALIST_AGENT.agent.md
-```
+echo "Copying and anonymizing documentation files..."
 
-Then manually copy and anonymize each file using the patterns defined in the scripts.
+# Copy and anonymize doc files
+for doc_file in "$REPO_ROOT/docs"/REPO_MAP.md "$REPO_ROOT/docs"/SURFACES.md "$REPO_ROOT/docs"/CONTEXT_LINKS.md "$REPO_ROOT/docs"/WORKFLOWS.md; do
+    if [ -f "$doc_file" ]; then
+        filename=$(basename "$doc_file")
+        echo "  Processing $filename..."
+        mkdir -p "$TARGET_DIR/docs"
+        anonymize "$doc_file" > "$TARGET_DIR/docs/$filename"
+    fi
+done
 
----
+echo "Copying and anonymizing template files..."
 
+# Copy the agent template
+if [ -f "$REPO_ROOT/src/templates/TEMPLATE_SPECIALIST_AGENT.agent.md" ]; then
+    echo "  Processing TEMPLATE_SPECIALIST_AGENT.agent.md..."
+    mkdir -p "$TARGET_DIR/templates"
+    anonymize "$REPO_ROOT/src/templates/TEMPLATE_SPECIALIST_AGENT.agent.md" > "$TARGET_DIR/templates/TEMPLATE_SPECIALIST_AGENT.agent.md"
+fi
+
+echo "Creating README.md..."
+cat > "$TARGET_DIR/README.md" << 'EOF'
 # Agent Framework Example
 
 This directory contains a shareable repository template that illustrates the use of a generic agent-based automation framework in software projects. The framework enables multi-agent collaboration through specialized agent profiles and comprehensive documentation scaffolding.
@@ -273,4 +275,17 @@ For more information on agent-based development:
 
 ---
 
-**Note:** This is a generic framework template. All references to specific organizations, individuals, or projects should be replaced with your own project information when implementing.
+**Note:** This is a generic framework template. All references to specific organizations, individuals, or projects have been anonymized. Replace placeholders with your own project information when implementing.
+EOF
+
+echo ""
+echo "✅ Automation example created successfully at: $TARGET_DIR"
+echo ""
+echo "Directory structure:"
+tree -L 2 "$TARGET_DIR" || ls -la "$TARGET_DIR"
+
+echo ""
+echo "Next steps:"
+echo "1. Review the generated files in $TARGET_DIR"
+echo "2. Verify all personal/company information has been removed"
+echo "3. Commit the changes to the repository"

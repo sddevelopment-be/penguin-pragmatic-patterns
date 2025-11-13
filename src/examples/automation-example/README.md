@@ -1,68 +1,3 @@
-# Automation Example Setup Instructions
-
-## Automated Setup (RECOMMENDED)
-
-Two automation scripts have been created to set up the example directory. Run either one from the repository root:
-
-### Option 1: Bash Script
-```bash
-bash src/scripts/create_automation_example.sh
-```
-
-### Option 2: Python Script
-```bash
-python3 src/scripts/create_automation_example.py
-```
-
-Both scripts will automatically:
-1. Create the `src/automation-example/` directory structure
-2. Copy all 15 agent configuration files from `.github/agents/`
-3. Copy 4 documentation templates from `docs/`
-4. Copy the agent template from `src/templates/`
-5. Anonymize all content by replacing:
-   - "SD Development" / "SDD" → "Generic Agent Framework" / "Generic"
-   - "Stijn Dejongh" / "Stijn" → "the author" / "the user"
-   - "sddevelopment-be" → "your-organization"
-   - URLs and domain references
-6. Generate a comprehensive README.md
-
-## Manual Setup (If scripts cannot be run)
-
-If for any reason the automated scripts cannot be executed, create the following directory structure manually:
-
-```
-src/automation-example/
-├── README.md
-├── agents/
-│   ├── architect.agent.md
-│   ├── backend-dev.agent.md
-│   ├── bootstrap-bill.agent.md
-│   ├── build-automation.agent.md
-│   ├── curator.agent.md
-│   ├── diagrammer.agent.md
-│   ├── frontend.agent.md
-│   ├── lexical.agent.md
-│   ├── manager.agent.md
-│   ├── project-planner.agent.md
-│   ├── researcher.agent.md
-│   ├── scribe.agent.md
-│   ├── synthesizer.agent.md
-│   ├── translator.agent.md
-│   ├── writer-editor.agent.md
-│   └── specialist-agents.json
-├── docs/
-│   ├── REPO_MAP.md
-│   ├── SURFACES.md
-│   ├── CONTEXT_LINKS.md
-│   └── WORKFLOWS.md
-└── templates/
-    └── TEMPLATE_SPECIALIST_AGENT.agent.md
-```
-
-Then manually copy and anonymize each file using the patterns defined in the scripts.
-
----
-
 # Agent Framework Example
 
 This directory contains a shareable repository template that illustrates the use of a generic agent-based automation framework in software projects. The framework enables multi-agent collaboration through specialized agent profiles and comprehensive documentation scaffolding.
@@ -273,4 +208,4 @@ For more information on agent-based development:
 
 ---
 
-**Note:** This is a generic framework template. All references to specific organizations, individuals, or projects should be replaced with your own project information when implementing.
+**Note:** This is a generic framework template. All references to specific organizations, individuals, or projects have been anonymized. Replace placeholders with your own project information when implementing.

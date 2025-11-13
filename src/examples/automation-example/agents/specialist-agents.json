@@ -1,0 +1,155 @@
+{
+  "overview": "Specialist agent registry describing purpose, tooling, and collaboration focus for Generic's Copilot Custom Agents.",
+  "agents": [
+    {
+      "name": "architect",
+      "file": "agents/specialists/architect.agent.md",
+      "description": "Clarify complex systems with contextual trade-offs.",
+      "tools": ["read", "write", "search", "edit"],
+      "outline": [
+        "Purpose: analyze architectures and document decisions with systemic clarity.",
+        "Focus: system decomposition, trade-off narration, ADR or pattern outputs."
+      ]
+    },
+    {
+      "name": "backend-dev",
+      "file": "agents/specialists/backend-dev.agent.md",
+      "description": "Shape resilient service backends and integration surfaces for Generic deliverables.",
+      "tools": ["read", "write", "search", "edit", "MultiEdit", "Bash", "Grep"],
+      "outline": [
+        "Purpose: provide grounded backend implementations and contracts.",
+        "Focus: API/service design, persistence strategies, observability and failure budgets."
+      ]
+    },
+    {
+      "name": "bootstrap-bill",
+      "file": "agents/specialists/bootstrap-bill.agent.md",
+      "description": "Describe repository structure and generate scaffolding artefacts for efficient multi-agent collaboration.",
+      "tools": ["read", "write", "search", "edit", "Bash", "Grep"],
+      "outline": [
+        "Purpose: map repo topology and capture onboarding context.",
+        "Focus: directory scans, config detection, scaffolding manifests for sibling agents."
+      ]
+    },
+    {
+      "name": "build-automation",
+      "file": "agents/specialists/build-automation.agent.md",
+      "description": "Design reproducible build, test, and release pipelines for Generic repositories.",
+      "tools": ["read", "write", "search", "edit", "MultiEdit", "Bash", "Grep", "github", "yaml"],
+      "outline": [
+        "Purpose: guarantee deterministic CI/CD flows and artifact governance.",
+        "Focus: pipeline graphs, caching, release packaging, and runbooks."
+      ]
+    },
+    {
+      "name": "curator",
+      "file": "agents/specialists/curator.agent.md",
+      "description": "Maintain global structural and tonal integrity across artifacts.",
+      "tools": ["read", "write", "search", "edit"],
+      "outline": [
+        "Purpose: keep voice, hierarchy, and structure aligned with operational references.",
+        "Focus: cross-artifact reviews, tone corrections, and structural guidance."
+      ]
+    },
+    {
+      "name": "diagrammer",
+      "file": "agents/specialists/diagrammer.agent.md",
+      "description": "Transform conceptual structures into clear, semantically aligned visual representations.",
+      "tools": ["read", "write", "search", "edit"],
+      "outline": [
+        "Purpose: convert textual models into diagrams.",
+        "Focus: PlantUML/Mermaid snippets, semantic labeling, and visual consistency."
+      ]
+    },
+    {
+      "name": "frontend",
+      "file": "agents/specialists/frontend.agent.md",
+      "description": "Integrate design, technical architecture, and usability reasoning within coherent front-end systems.",
+      "tools": ["read", "write", "search", "edit", "MultiEdit", "Bash", "Grep"],
+      "outline": [
+        "Purpose: produce front-end ADRs and implementation scaffolds.",
+        "Focus: component architecture, DX/UX alignment, and integration testing hooks."
+      ]
+    },
+    {
+      "name": "lexical-analyst",
+      "file": "agents/specialists/lexical.agent.md",
+      "description": "Ensure writing adheres to Operational style rules with minimal, voice-preserving edits.",
+      "tools": ["read", "write", "search", "edit"],
+      "outline": [
+        "Purpose: police tone, punctuation, and rhythm against Operational rules.",
+        "Focus: micro-edits, lexical normalization, and reference cross-checks."
+      ]
+    },
+    {
+      "name": "coordinator-manager",
+      "file": "agents/specialists/manager.agent.md",
+      "description": "Coordinate multi-agent workflows, routing, and status tracking.",
+      "tools": ["read", "write", "search", "edit", "github", "custom-agent", "todo"],
+      "outline": [
+        "Purpose: orchestrate hand-offs and maintain status boards.",
+        "Focus: dependency ordering, assignment routing, and conflict avoidance."
+      ]
+    },
+    {
+      "name": "project-planner",
+      "file": "agents/specialists/project-planner.agent.md",
+      "description": "Translate strategic intent into executable plans, cadences, and checkpoints for Generic initiatives.",
+      "tools": ["read", "write", "search", "edit", "todo", "github"],
+      "outline": [
+        "Purpose: turn strategy into milestone-driven roadmaps.",
+        "Focus: dependency mapping, cadence design, and assumption tracking."
+      ]
+    },
+    {
+      "name": "researcher",
+      "file": "agents/specialists/researcher.agent.md",
+      "description": "Deliver grounded insights for systemic reasoning.",
+      "tools": ["read", "write", "search", "edit", "web"],
+      "outline": [
+        "Purpose: gather and vet external references for patterns or arguments.",
+        "Focus: multi-source synthesis, citation capture, and context framing."
+      ]
+    },
+    {
+      "name": "scribe",
+      "file": "agents/specialists/scribe.agent.md",
+      "description": "Maintain traceable documentation integrity.",
+      "tools": ["read", "write", "search", "edit"],
+      "outline": [
+        "Purpose: record meetings and agent exchanges neutrally.",
+        "Focus: timestamped summaries, note hygiene, and alignment logging."
+      ]
+    },
+    {
+      "name": "synthesizer",
+      "file": "agents/specialists/synthesizer.agent.md",
+      "description": "Integrate multi-agent outputs into coherent insight systems.",
+      "tools": ["read", "write", "search", "edit"],
+      "outline": [
+        "Purpose: merge drafts into cohesive artifacts.",
+        "Focus: resolve overlaps, surface gaps, and ensure narrative continuity."
+      ]
+    },
+    {
+      "name": "translator",
+      "file": "agents/specialists/translator.agent.md",
+      "description": "Preserve authorial tone and rhythm during cross-language translation.",
+      "tools": ["read", "write", "search", "edit", "glob", "MultiEdit"],
+      "outline": [
+        "Purpose: deliver bilingual outputs without tone drift.",
+        "Focus: lexical reference checks, side-by-side comparisons, and rhythm preservation."
+      ]
+    },
+    {
+      "name": "writing-editor",
+      "file": "agents/specialists/writer-editor.agent.md",
+      "description": "The Writing Editor agent exists to revise, refine, and align existing written content with strategic and operational documentation standards. It does not generate new factual content, but polishes and adapts text for tone, clarity, and rhetorical fit.",
+      "tools": ["read", "write", "search", "edit"],
+      "outline": [
+        "Purpose: polish existing text while preserving meaning.",
+        "Focus: line-by-line edits for clarity, tone alignment, and rhythmic consistency."
+      ]
+    }
+  ]
+}

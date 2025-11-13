@@ -1,6 +1,8 @@
 # Agent Framework Example
 
-This directory contains a shareable repository template that illustrates the use of a generic agent-based automation framework in software projects. The framework enables multi-agent collaboration through specialized agent profiles and comprehensive documentation scaffolding.
+> **Important:** All LLM-based agentic assistants, like humans, perform better when their "mental context" is limited and well-organized. Just as humans can experience cognitive overload when presented with too much information at once, AI agents work more effectively when given focused, structured guidance. This framework helps manage that context through layered documentation, clear specializations, and explicit boundaries.
+
+This directory contains a self-contained, copy-paste-ready repository template that illustrates the use of a generic agent-based automation framework in software projects. The framework enables multi-agent collaboration through specialized agent profiles and comprehensive documentation scaffolding.
 
 ## Purpose
 
@@ -40,6 +42,19 @@ This directory contains specialized agent profiles that define:
 **Configuration Registry:**
 - `specialist-agents.json` - Machine-readable agent registry with metadata
 
+**Context Documentation:**
+- `operational-reference.md` - Day-to-day operational practices and guidelines
+- `strategic-context.md` - Long-term strategy and architectural principles
+- `command-aliases.md` - Common commands, shortcuts, and conventions
+- `system-bootstrap.md` - Step-by-step setup and initialization procedures
+- `rehydrate.md` - Context recovery and session resumption procedures
+
+### Framework Configuration
+
+**Location:** Root level
+
+- `AGENTS.md` - Repository-specific agent configuration template with customization guidelines
+
 ### Documentation Templates
 
 **Location:** `docs/`
@@ -62,13 +77,22 @@ Standardized templates for content creation:
 
 ## Usage Scenarios
 
-### Scenario 1: New Project Setup
+### Scenario 1: New Project Setup (Quick Start)
 
-1. Copy the `agents/` directory to your project's `.github/agents/`
-2. Copy documentation templates to your project's `docs/` directory
-3. Customize agent profiles for your project's specific needs
-4. Update `specialist-agents.json` with your agent configurations
-5. Create repository-level `AGENTS.md` with project-specific constraints
+This framework is **self-contained and ready to use**. Simply copy the entire directory:
+
+1. Copy this entire `automation-example/` directory to your project root (or rename as needed)
+2. Customize `AGENTS.md` with your project-specific details (name, tech stack, constraints)
+3. Update agent profiles in `agents/` if you need project-specific modifications
+4. Update `docs/REPO_MAP.md`, `SURFACES.md`, and `WORKFLOWS.md` to match your repository structure
+5. Start using agents! All context files are already in place and cross-referenced.
+
+**That's it!** No external dependencies or separate repositories needed. The framework includes:
+- ✅ All agent profiles with self-contained context references
+- ✅ Complete operational and strategic documentation
+- ✅ Bootstrap and setup procedures
+- ✅ Documentation templates
+- ✅ Context recovery procedures
 
 ### Scenario 2: Adding a New Agent
 
@@ -107,13 +131,15 @@ This ensures safety and consistency across agent operations.
 
 ### Context Layers
 
-Agents load context from multiple layers:
-- **Global Principles** - Organization-wide protocols
-- **Operational Context** - Day-to-day operational rules
-- **Strategic Context** - Long-term strategic direction
-- **Command Aliases** - Shorthand command mappings
-- **System Bootstrap** - Initial setup procedures
-- **Localized Protocol** - Repository-specific rules
+Agents load context from multiple self-contained layers (all included in `agents/` directory):
+- **Framework Configuration** (`AGENTS.md`) - Repository-specific constraints and guidelines
+- **Operational Context** (`operational-reference.md`) - Day-to-day operational practices
+- **Strategic Context** (`strategic-context.md`) - Long-term strategic direction and principles
+- **Command Aliases** (`command-aliases.md`) - Shorthand command mappings and conventions
+- **System Bootstrap** (`system-bootstrap.md`) - Initial setup and initialization procedures
+- **Context Recovery** (`rehydrate.md`) - Session resumption and context restoration
+
+Each agent profile references these files locally - no external dependencies required!
 
 ### Agent Modes
 
@@ -170,25 +196,38 @@ The framework integrates with standard CI/CD workflows:
 
 ### Adapting to Your Project
 
-1. **Update Context Sources**
-   - Replace organization references with your project details
-   - Update URLs in agent profiles
-   - Customize operational and strategic context
+All context files are now self-contained in this directory. Customize them for your project:
 
-2. **Adjust Agent Specializations**
-   - Add or remove agents based on project needs
-   - Modify tool permissions per agent
+1. **Update Repository Configuration**
+   - Edit `AGENTS.md` with your project name, tech stack, and specific constraints
+   - Define your build commands, test procedures, and quality standards
+   - Set your communication preferences and collaboration protocols
+
+2. **Customize Context Documentation**
+   - Edit `agents/operational-reference.md` to match your team's practices
+   - Update `agents/strategic-context.md` with your project's vision and goals
+   - Modify `agents/command-aliases.md` to include project-specific shortcuts
+   - Adapt `agents/system-bootstrap.md` if you have custom setup procedures
+
+3. **Adjust Agent Specializations**
+   - Add or remove agents based on project needs (use `templates/TEMPLATE_SPECIALIST_AGENT.agent.md`)
+   - Modify tool permissions per agent in the agent profile files
    - Update mode defaults for your workflow
+   - All agent context references are already local - no external dependencies!
 
-3. **Configure Documentation Structure**
-   - Adapt `REPO_MAP.md` to your directory structure
-   - Update `SURFACES.md` with your build commands
-   - Customize `WORKFLOWS.md` for your CI/CD
+4. **Configure Documentation Structure**
+   - Adapt `docs/REPO_MAP.md` to your directory structure
+   - Update `docs/SURFACES.md` with your build commands
+   - Customize `docs/WORKFLOWS.md` for your CI/CD
 
-4. **Define Project Constraints**
-   - Create repository-level `AGENTS.md`
-   - Specify active constraints
-   - Document communication rules
+### Notes on Self-Containment
+
+This framework is designed to be **completely self-contained**:
+- ✅ No external repository dependencies
+- ✅ All context files included and cross-referenced locally
+- ✅ Agent profiles reference local files only
+- ✅ Ready to copy-paste into any project
+- ✅ No setup scripts required - everything is already in place
 
 ## License and Attribution
 
@@ -198,13 +237,27 @@ This framework example is provided as a template for agent-based automation. Whe
 - Adapt agent profiles to your specific needs
 - Maintain attribution to original framework concepts
 
-## Further Reading
+## Further Reading and Resources
 
-For more information on agent-based development:
+### Agent-Augmented Development Practices
+
+This framework is inspired by emerging best practices in agent-augmented development. For deeper exploration:
+
+**Agent Framework Documentation:**
+- **[AgentsMD.io](https://agentsmd.io/)** - Community-driven specifications and examples for agent configuration files. Explore different approaches to structuring agent profiles, context management, and multi-agent coordination patterns.
+
+**Augmented Coding Patterns:**
+- **[Augmented Coding Patterns Repository](https://lexler.github.io/augmented-coding-patterns/)** - A comprehensive collection of patterns for effective human-AI collaboration in software development.
+- **[Use Reference Documentation Pattern](https://lexler.github.io/augmented-coding-patterns/patterns/reference-docs/)** - Particularly relevant: This pattern explains how to create and maintain reference documentation that helps AI agents understand your codebase quickly without needing to parse everything from scratch. This framework implements many of these principles through files like `REPO_MAP.md`, `SURFACES.md`, and `WORKFLOWS.md`.
+
+### Additional Topics
+
+For more information on related concepts:
 - Multi-agent systems and collaboration patterns
 - CI/CD automation best practices
 - Documentation-driven development
 - Context management in AI systems
+- Prompt engineering for development workflows
 
 ---
 

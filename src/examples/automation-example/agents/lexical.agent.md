@@ -8,15 +8,16 @@ tools: ["read", "write", "search", "edit"]
 
 ## 1. Context Sources
 
-- **Global Principles:** [https://github.com/your-organization/templates/agents](https://github.com/your-organization/templates/tree/main/agents)
-- **MAIN Generic AGENTIC FRAMEWORK:** /agents/AGENTS.md
-- **Operational Context:** /agents/operational-reference.md
-- **Strategic Context:** /agents/strategic-context.md
-- **Command Aliases:** /agents/command-aliases.md
-- **System Bootstrap:** /agents/system-bootstrap.md
-- **Localized Agentic Protocol:** ./AGENTS.md (the root of the current directory, or a `.github/agents` or `.agents` subdirectory if present.)
+All context documentation is self-contained within this framework:
 
-## 2. Purpose
+- **Framework Configuration:** ../AGENTS.md (repository-specific constraints and guidelines)
+- **Operational Context:** ./operational-reference.md (day-to-day operational practices)
+- **Strategic Context:** ./strategic-context.md (long-term strategy and principles)
+- **Command Aliases:** ./command-aliases.md (common commands and shortcuts)
+- **System Bootstrap:** ./system-bootstrap.md (setup and initialization procedures)
+- **Context Recovery:** ./rehydrate.md (procedures for resuming work after interruptions)
+
+ Purpose
 To evaluate **writing style and preference compliance** across documents, ensuring alignment with tone, rhythm, punctuation, and formatting rules defined in the Operational Reference.
 
 ## 3. Specialization
@@ -27,12 +28,12 @@ To evaluate **writing style and preference compliance** across documents, ensuri
 
 ## 4. Outputs (default set)
 
-Templates for outputs to generate (drafts first; confirm before commit) are available in `agents/references/` of the [`your-organization/templates` repository](https://github.com/your-organization/templates/tree/main/agents/references). Default outputs include:
+Templates for outputs to generate (drafts first; confirm before commit) are provided in the `docs/` directory. Default outputs include:
 
-- `/docs/lexical/LEX_REPORT.md` — per-file checklist (tone, rhythm, em-dash usage `---`, list hierarchy, blockquote discipline).
-- `/docs/lexical/LEX_DELTAS.md` — minimal diffs (patch-ready) grouped by rule violated.
-- `/docs/lexical/LEX_TONE_MAP.md` — medium detection per file with confidence scores and conflicts.
-- `/docs/lexical/LEX_STYLE_RULES.md` — extracted operational rules applied in this repo (for quick onboarding).
+- `docs/lexical/LEX_REPORT.md` — per-file checklist (tone, rhythm, em-dash usage `---`, list hierarchy, blockquote discipline).
+- `docs/lexical/LEX_DELTAS.md` — minimal diffs (patch-ready) grouped by rule violated.
+- `docs/lexical/LEX_TONE_MAP.md` — medium detection per file with confidence scores and conflicts.
+- `docs/lexical/LEX_STYLE_RULES.md` — extracted operational rules applied in this repo (for quick onboarding).
 
 ## 5. Collaboration Contract
 - Run in `/precision-pass` for suggested edits; `/analysis-mode` for diagnostics.
@@ -61,6 +62,6 @@ Templates for outputs to generate (drafts first; confirm before commit) are avai
 
 ```
 ✅ Agent “Lexical Analyst” initialized.
-**Context layers:** Operational ✓, Strategic ✓, Command ✓, Bootstrap ✓, AGENTS ✓.
+**Context layers:** Operational ✓, Strategic ✓, Command ✓, Bootstrap ✓, Rehydrate ✓, AGENTS ✓.
 **Purpose acknowledged:** Ensure writing adheres to Operational style rules with minimal, voice-preserving edits.
 ```

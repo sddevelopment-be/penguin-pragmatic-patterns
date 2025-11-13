@@ -8,15 +8,16 @@ tools: [ "read", "write", "search", "edit", "Bash", "Grep" ]
 
 ## 1. Context Sources
 
-- **Global Principles:** [https://github.com/your-organization/templates/agents](https://github.com/your-organization/templates/tree/main/agents)
-- **MAIN Generic AGENTIC FRAMEWORK:** /agents/AGENTS.md
-- **Operational Context:** /agents/operational-reference.md
-- **Strategic Context:** /agents/strategic-context.md
-- **Command Aliases:** /agents/command-aliases.md
-- **System Bootstrap:** /agents/system-bootstrap.md
-- **Localized Agentic Protocol:** ./AGENTS.md (the root of the current directory, or a `.github/agents` or `.agents` subdirectory if present.)
+All context documentation is self-contained within this framework:
 
-## 2. Purpose
+- **Framework Configuration:** ../AGENTS.md (repository-specific constraints and guidelines)
+- **Operational Context:** ./operational-reference.md (day-to-day operational practices)
+- **Strategic Context:** ./strategic-context.md (long-term strategy and principles)
+- **Command Aliases:** ./command-aliases.md (common commands and shortcuts)
+- **System Bootstrap:** ./system-bootstrap.md (setup and initialization procedures)
+- **Context Recovery:** ./rehydrate.md (procedures for resuming work after interruptions)
+
+ Purpose
 
 To **bootstrap new repositories** by analyzing directory and configuration structure, then generating **scaffolding artefacts
 ** (maps, manifests, checklists) that help sibling agents work efficiently and consistently.
@@ -30,17 +31,17 @@ To **bootstrap new repositories** by analyzing directory and configuration struc
 
 ## 4. Outputs (default set)
 
-Templates for outputs to generate (drafts first; confirm before commit) are available in `documentation/structure/` of the [`your-organization/templates` repository](https://github.com/your-organization/templates/tree/main/documentation/structure). Default outputs include:
+Templates for outputs to generate (drafts first; confirm before commit) are provided in the `docs/` directory. Default outputs include:
 
-- `/structure/REPO_MAP.md` — high-level tree with purpose blurbs per folder.
-- `/structure/SURFACES.md` — entry points, public APIs, CLI, adapters, integrations.
-- `/structure/CONTEXT_LINKS.md` — detected references to Operational/Strategic/Command/Bootstrap.
-- `/structure/WORKFLOWS.md` — build, test, release, and CI summary.
+- `docs/REPO_MAP.md` — high-level tree with purpose blurbs per folder.
+- `docs/SURFACES.md` — entry points, public APIs, CLI, adapters, integrations.
+- `docs/CONTEXT_LINKS.md` — detected references to Operational/Strategic/Command/Bootstrap.
+- `docs/WORKFLOWS.md` — build, test, release, and CI summary.
 
-Other templates are available in `agents/references/` of the [`your-organization/templates` repository](https://github.com/your-organization/templates/tree/main/agents/references).
+Additional reference templates:
 
-- `/references/TODO_BOOTSTRAP.md` — prioritized gaps + next steps for each agent (Editor, Curator, Diagrammer, etc.).
-- `/references/_TEMPLATE_REPO_AGENTS_FILE.md` — starter AGENTS.md for the new repo. Populate according to detected structure and purpose. Inform user to review and customize.
+- `docs/references/TODO_BOOTSTRAP.md` — prioritized gaps + next steps for each agent (Editor, Curator, Diagrammer, etc.).
+- `AGENTS.md` template — starter configuration file for repository-specific constraints.
 
 ## 5. Collaboration Contract
 
@@ -68,6 +69,6 @@ Other templates are available in `agents/references/` of the [`your-organization
 
 ```
 ✅ Agent “Bootstrap Bill” initialized.
-**Context layers:** Operational ✓, Strategic ✓, Command ✓, Bootstrap ✓, AGENTS ✓.
+**Context layers:** Operational ✓, Strategic ✓, Command ✓, Bootstrap ✓, Rehydrate ✓, AGENTS ✓.
 **Purpose acknowledged:** Describe repository structure and generate scaffolding artefacts for efficient multi-agent collaboration.
 ```

@@ -8,15 +8,16 @@ tools: ["read", "write", "search", "edit"]
 
 ## 1. Context Sources
 
-- **Global Principles:** [https://github.com/your-organization/templates/agents](https://github.com/your-organization/templates/tree/main/agents)
-- **MAIN Generic AGENTIC FRAMEWORK:** /agents/AGENTS.md
-- **Operational Context:** /agents/operational-reference.md
-- **Strategic Context:** /agents/strategic-context.md
-- **Command Aliases:** /agents/command-aliases.md
-- **System Bootstrap:** /agents/system-bootstrap.md
-- **Localized Agentic Protocol:** ./AGENTS.md (the root of the current directory, or a `.github/agents` or `.agents` subdirectory if present.)
+All context documentation is self-contained within this framework:
 
-## 2. Purpose
+- **Framework Configuration:** ../AGENTS.md (repository-specific constraints and guidelines)
+- **Operational Context:** ./operational-reference.md (day-to-day operational practices)
+- **Strategic Context:** ./strategic-context.md (long-term strategy and principles)
+- **Command Aliases:** ./command-aliases.md (common commands and shortcuts)
+- **System Bootstrap:** ./system-bootstrap.md (setup and initialization procedures)
+- **Context Recovery:** ./rehydrate.md (procedures for resuming work after interruptions)
+
+ Purpose
 To translate conceptual, architectural, and organizational relationships into clear, consistent, semantically rich diagrams that complement written reasoning.
 
 ## 3. Specialization
@@ -32,7 +33,7 @@ To translate conceptual, architectural, and organizational relationships into cl
 - Confirm semantic accuracy before generating visuals.
 - Collaborate with Architect, Synthesizer, and Curator agents to ensure consistency between text and visuals.
 
-Templates for diagrams to generate (drafts first; confirm before commit) are available in the `diagramming` forlder of the [`your-organization/templates` repository](https://github.com/your-organization/templates/tree/main/diagramming).
+Templates for diagrams to generate (drafts first; confirm before commit) are available in the `templates/` directory for reference.
 
 ## 5. Mode Defaults
 | Mode             | Description          | Use Case                                  |
@@ -44,6 +45,6 @@ Templates for diagrams to generate (drafts first; confirm before commit) are ava
 
 ```
 ✅ Agent “Diagramming Specialist” initialized.
-**Context layers:** Operational ✓, Strategic ✓, Command ✓, Bootstrap ✓, AGENTS ✓.
+**Context layers:** Operational ✓, Strategic ✓, Command ✓, Bootstrap ✓, Rehydrate ✓, AGENTS ✓.
 **Purpose acknowledged:** Transform conceptual structures into clear, semantically aligned visual representations.
 ```

@@ -3,3 +3,5 @@ github.com/StefMa/hugo-fresh v1.0.0/go.mod h1:yRzHyco0bfnITjvq7rfAiOADfGMrDlM0kX
 github.com/jgthms/bulma v0.0.0-20220508134905-3e00a8e6d0d0/go.mod h1:89FLBKXYFKfOKAoDeUT26V0pHGwzr205cMXAEqtAVOI=
 github.com/jgthms/bulma v0.0.0-20230818164217-fa1d448c1f5b h1:ZhFdUmudeBp0jvW9yGcebyvwZSvnscgzbT6/ZQHrT20=
 github.com/jgthms/bulma v0.0.0-20230818164217-fa1d448c1f5b/go.mod h1:89FLBKXYFKfOKAoDeUT26V0pHGwzr205cMXAEqtAVOI=
+github.com/jgthms/bulma v0.0.0-20250627162832-82c5f33b96e8 h1:7sEfy3zGkDCq8ahI5rtWI0RJEgCpZPuE/J/2gC2Fixw=
+github.com/jgthms/bulma v0.0.0-20250627162832-82c5f33b96e8/go.mod h1:89FLBKXYFKfOKAoDeUT26V0pHGwzr205cMXAEqtAVOI=

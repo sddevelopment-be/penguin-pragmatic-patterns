@@ -1,10 +1,30 @@
 +++
-title = "Programming Language Primers"
-aliases = ["primers", "languages"]
-subtitle = "Get up to speed quickly in a new programming language, the hollistic way."
+title = "Primer Series"
+aliases = ["primers"]
+subtitle = "Fast, applied fluency across languages, tools, and architectural patterns."
 +++
 
-A collection of concise, pattern-informed guides for experienced developers learning new languages. Each primer moves beyond syntax to explore the philosophy, idioms, and ecosystem tooling that define real fluency. The series emphasizes practical
-understanding over memorization. These aim to teach how a language _'thinks'_, not just how it’s written. 
+## Overview
 
-The primers are designed for developers who already know how to code, but want to feel at home in a new ecosystem **quickly and sustainably**.
+**Purpose**: fast, applied fluency. Primers bring readers up to speed quickly through structure, examples, and minimal theory.
+
+**Tone**: calm, precise, practical. Prefer examples over abstractions. Avoid hype and overlong prose.
+
+---
+
+## Primer Families
+
+The Primer Series forms the applied layer of the Patterns ecosystem:
+
+| Family                                             | Teaches                      | Outcome             |
+|----------------------------------------------------|------------------------------|---------------------|
+| [**Programming Languages**](programming-languages) | Expression and idioms        | Cognitive fluency   |
+| [**Markup & Diagramming**](markup-and-diagramming) | Communication clarity        | Expressive fluency  |
+| [**Toolchain & Automation**](toolchain-and-automation) | Delivery and reproducibility | Operational fluency |
+| [**Architectural**](architectural)                 | Structural reasoning         | Systemic fluency    |
+| [**Algorithmic**](algorithmic)                     | Problem-solving literacy     | Analytical fluency  |
+
+Each family follows the same design philosophy:
+
+> **Short, structured, and practical.**  
+> Each primer can be read in under an hour and applied immediately.

@@ -33,7 +33,7 @@ To translate conceptual, architectural, and organizational relationships into cl
 - Confirm semantic accuracy before generating visuals.
 - Collaborate with Architect, Synthesizer, and Curator agents to ensure consistency between text and visuals.
 
-Templates for diagrams to generate (drafts first; confirm before commit) are available in the `diagramming` forlder of the [`your-organization/templates` repository](https://github.com/your-organization/templates/tree/main/diagramming).
+Templates for diagrams to generate (drafts first; confirm before commit) are available in the `templates/` directory for reference.
 
 ## 5. Mode Defaults
 | Mode             | Description          | Use Case                                  |

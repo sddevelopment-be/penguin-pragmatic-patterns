@@ -31,17 +31,17 @@ To **bootstrap new repositories** by analyzing directory and configuration struc
 
 ## 4. Outputs (default set)
 
-Templates for outputs to generate (drafts first; confirm before commit) are available in `documentation/structure/` of the [`your-organization/templates` repository](https://github.com/your-organization/templates/tree/main/documentation/structure). Default outputs include:
+Templates for outputs to generate (drafts first; confirm before commit) are provided in the `docs/` directory. Default outputs include:
 
-- `/structure/REPO_MAP.md` — high-level tree with purpose blurbs per folder.
-- `/structure/SURFACES.md` — entry points, public APIs, CLI, adapters, integrations.
-- `/structure/CONTEXT_LINKS.md` — detected references to Operational/Strategic/Command/Bootstrap.
-- `/structure/WORKFLOWS.md` — build, test, release, and CI summary.
+- `docs/REPO_MAP.md` — high-level tree with purpose blurbs per folder.
+- `docs/SURFACES.md` — entry points, public APIs, CLI, adapters, integrations.
+- `docs/CONTEXT_LINKS.md` — detected references to Operational/Strategic/Command/Bootstrap.
+- `docs/WORKFLOWS.md` — build, test, release, and CI summary.
 
-Other templates are available in `agents/references/` of the [`your-organization/templates` repository](https://github.com/your-organization/templates/tree/main/agents/references).
+Additional reference templates:
 
-- `/references/TODO_BOOTSTRAP.md` — prioritized gaps + next steps for each agent (Editor, Curator, Diagrammer, etc.).
-- `/references/_TEMPLATE_REPO_AGENTS_FILE.md` — starter AGENTS.md for the new repo. Populate according to detected structure and purpose. Inform user to review and customize.
+- `docs/references/TODO_BOOTSTRAP.md` — prioritized gaps + next steps for each agent (Editor, Curator, Diagrammer, etc.).
+- `AGENTS.md` template — starter configuration file for repository-specific constraints.
 
 ## 5. Collaboration Contract
 

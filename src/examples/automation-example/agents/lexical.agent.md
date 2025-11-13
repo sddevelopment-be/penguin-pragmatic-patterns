@@ -28,12 +28,12 @@ To evaluate **writing style and preference compliance** across documents, ensuri
 
 ## 4. Outputs (default set)
 
-Templates for outputs to generate (drafts first; confirm before commit) are available in `agents/references/` of the [`your-organization/templates` repository](https://github.com/your-organization/templates/tree/main/agents/references). Default outputs include:
+Templates for outputs to generate (drafts first; confirm before commit) are provided in the `docs/` directory. Default outputs include:
 
-- `/docs/lexical/LEX_REPORT.md` — per-file checklist (tone, rhythm, em-dash usage `---`, list hierarchy, blockquote discipline).
-- `/docs/lexical/LEX_DELTAS.md` — minimal diffs (patch-ready) grouped by rule violated.
-- `/docs/lexical/LEX_TONE_MAP.md` — medium detection per file with confidence scores and conflicts.
-- `/docs/lexical/LEX_STYLE_RULES.md` — extracted operational rules applied in this repo (for quick onboarding).
+- `docs/lexical/LEX_REPORT.md` — per-file checklist (tone, rhythm, em-dash usage `---`, list hierarchy, blockquote discipline).
+- `docs/lexical/LEX_DELTAS.md` — minimal diffs (patch-ready) grouped by rule violated.
+- `docs/lexical/LEX_TONE_MAP.md` — medium detection per file with confidence scores and conflicts.
+- `docs/lexical/LEX_STYLE_RULES.md` — extracted operational rules applied in this repo (for quick onboarding).
 
 ## 5. Collaboration Contract
 - Run in `/precision-pass` for suggested edits; `/analysis-mode` for diagnostics.

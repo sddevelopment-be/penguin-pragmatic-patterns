@@ -209,7 +209,7 @@ id-token: write
 ### Workflow 2: Production Build
 
 **File:** `hugo_build_site.yml`  
-**Name:** Build package for sddevelopment.be
+**Name:** Build package for production deployment
 
 **Trigger:**
 - Push to `main` branch

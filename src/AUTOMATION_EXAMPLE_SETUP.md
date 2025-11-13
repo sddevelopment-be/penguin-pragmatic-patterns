@@ -1,16 +1,38 @@
-# Agent Framework Example - IMPLEMENTATION NEEDED
+# Automation Example Setup Instructions
 
-## Current Status
+## Automated Setup (RECOMMENDED)
 
-Due to tool limitations (bash not available, create cannot make parent directories), the full directory structure could not be created automatically.
+Two automation scripts have been created to set up the example directory. Run either one from the repository root:
 
-## Required Manual Steps
+### Option 1: Bash Script
+```bash
+bash src/scripts/create_automation_example.sh
+```
 
-Please create the following directory structure manually:
+### Option 2: Python Script
+```bash
+python3 src/scripts/create_automation_example.py
+```
+
+Both scripts will automatically:
+1. Create the `src/automation-example/` directory structure
+2. Copy all 15 agent configuration files from `.github/agents/`
+3. Copy 4 documentation templates from `docs/`
+4. Copy the agent template from `src/templates/`
+5. Anonymize all content by replacing:
+   - "SD Development" / "SDD" → "Generic Agent Framework" / "Generic"
+   - "Stijn Dejongh" / "Stijn" → "the author" / "the user"
+   - "sddevelopment-be" → "your-organization"
+   - URLs and domain references
+6. Generate a comprehensive README.md
+
+## Manual Setup (If scripts cannot be run)
+
+If for any reason the automated scripts cannot be executed, create the following directory structure manually:
 
 ```
 src/automation-example/
-├── README.md (content provided below)
+├── README.md
 ├── agents/
 │   ├── architect.agent.md
 │   ├── backend-dev.agent.md
@@ -37,16 +59,7 @@ src/automation-example/
     └── TEMPLATE_SPECIALIST_AGENT.agent.md
 ```
 
-## Automation Instructions
-
-Run the following commands to create the structure:
-
-```bash
-cd /home/runner/work/penguin-pragmatic-patterns/penguin-pragmatic-patterns
-mkdir -p src/automation-example/{agents,docs,templates}
-```
-
-Then proceed with copying and anonymizing the files as outlined in the README content below.
+Then manually copy and anonymize each file using the patterns defined in the scripts.
 
 ---
 

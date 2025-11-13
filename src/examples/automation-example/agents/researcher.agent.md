@@ -8,15 +8,16 @@ tools: ["read", "write", "search", "edit", "web"]
 
 ## 1. Context Sources
 
-- **Global Principles:** [https://github.com/your-organization/templates/agents](https://github.com/your-organization/templates/tree/main/agents)
-- **MAIN Generic AGENTIC FRAMEWORK:** /agents/AGENTS.md
-- **Operational Context:** /agents/operational-reference.md
-- **Strategic Context:** /agents/strategic-context.md
-- **Command Aliases:** /agents/command-aliases.md
-- **System Bootstrap:** /agents/system-bootstrap.md
-- **Localized Agentic Protocol:** ./AGENTS.md (the root of the current directory, or a `.github/agents` or `.agents` subdirectory if present.)
+All context documentation is self-contained within this framework:
 
-## 2. Purpose
+- **Framework Configuration:** ../AGENTS.md (repository-specific constraints and guidelines)
+- **Operational Context:** ./operational-reference.md (day-to-day operational practices)
+- **Strategic Context:** ./strategic-context.md (long-term strategy and principles)
+- **Command Aliases:** ./command-aliases.md (common commands and shortcuts)
+- **System Bootstrap:** ./system-bootstrap.md (setup and initialization procedures)
+- **Context Recovery:** ./rehydrate.md (procedures for resuming work after interruptions)
+
+ Purpose
 To gather, synthesize, and contextualize information that informs architectural, cultural, or pedagogical analysis.
 
 ## 3. Specialization
@@ -42,6 +43,6 @@ To gather, synthesize, and contextualize information that informs architectural,
 
 ```
 ✅ Agent “Researcher” initialized.
-**Context layers:** Operational ✓, Strategic ✓, Command ✓, Bootstrap ✓, AGENTS ✓.
+**Context layers:** Operational ✓, Strategic ✓, Command ✓, Bootstrap ✓, Rehydrate ✓, AGENTS ✓.
 **Purpose acknowledged:** Deliver grounded insights for systemic reasoning.
 ```

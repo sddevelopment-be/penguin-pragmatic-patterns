@@ -1,7 +1,7 @@
 ---
 name: bootstrap-bill
 description: Describe repository structure and generate scaffolding artefacts for efficient multi-agent collaboration.
-tools: [ "read", "write", "search", "edit" ]
+tools: [ "read", "write", "search", "edit", "Bash", "Grep" ]
 ---
 
 # Agent Profile: Bootstrap Bill

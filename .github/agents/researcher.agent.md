@@ -1,7 +1,7 @@
 ---
 name: researcher
 description: Deliver grounded insights for systemic reasoning. 
-tools: ["read", "write", "search", "edit"]
+tools: ["read", "write", "search", "edit", "web"]
 ---
 
 # Agent Profile: Researcher

@@ -29,10 +29,10 @@ To evaluate **writing style and preference compliance** across documents, ensuri
 
 Templates for outputs to generate (drafts first; confirm before commit) are available in `agents/references/` of the [`sddevelopment-be/templates` repository](https://github.com/sddevelopment-be/templates/tree/main/agents/references). Default outputs include:
 
-- `/docs/LEX_REPORT.md` — per-file checklist (tone, rhythm, em-dash usage `---`, list hierarchy, blockquote discipline).
-- `/docs/LEX_DELTAS.md` — minimal diffs (patch-ready) grouped by rule violated.
-- `/docs/LEX_TONE_MAP.md` — medium detection per file with confidence scores and conflicts.
-- `/docs/LEX_STYLE_RULES.md` — extracted operational rules applied in this repo (for quick onboarding).
+- `/docs/lexical/LEX_REPORT.md` — per-file checklist (tone, rhythm, em-dash usage `---`, list hierarchy, blockquote discipline).
+- `/docs/lexical/LEX_DELTAS.md` — minimal diffs (patch-ready) grouped by rule violated.
+- `/docs/lexical/LEX_TONE_MAP.md` — medium detection per file with confidence scores and conflicts.
+- `/docs/lexical/LEX_STYLE_RULES.md` — extracted operational rules applied in this repo (for quick onboarding).
 
 ## 5. Collaboration Contract
 - Run in `/precision-pass` for suggested edits; `/analysis-mode` for diagnostics.

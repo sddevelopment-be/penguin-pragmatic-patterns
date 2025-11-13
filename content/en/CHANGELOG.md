@@ -29,6 +29,18 @@ Any feedback or suggestions for changes can be submitted there.
 
 ### Added
 
+- **Six new primers** across programming languages, architecture, toolchain, and markup families:
+  - **Programming Languages:**
+    - [Java Primer](/primers/programming-languages/java) — Enterprise platform covering JVM architecture, build tools (Maven/Gradle), testing frameworks (JUnit 5, Mockito), and programming idioms (OO, functional, imperative)
+    - [PowerShell Primer](/primers/programming-languages/powershell) — Task automation framework emphasizing object pipelines, cmdlet composition, module development, and cross-platform scripting
+  - **Architectural:**
+    - [Three-Layer Architecture Primer](/primers/architectural/three-layer-architecture) — Presentation–Business–Data separation pattern with structural diagrams, trade-offs, and evolution paths
+  - **Toolchain & Automation:**
+    - [Batch Scripting Primer](/primers/toolchain-and-automation/batch-scripting) — Windows command-line automation covering batch file syntax, limitations, and migration guidance to PowerShell
+  - **Markup & Diagramming:**
+    - [Markdown Primer](/primers/markup-and-diagramming/markdown) — Lightweight markup syntax for version-controlled documentation with CommonMark and GFM coverage
+    - [PlantUML Primer](/primers/markup-and-diagramming/plantuml) — Text-based diagramming for UML, C4 models, and architecture visualization integrated into documentation workflows
+- **Glossary expansions** for primer tagging: *Automation*, *Batch*, *Diagrams*, *Enterprise*, *Java*, *JVM*, *Layered*, *Markdown*, *Markup*, *Patterns*, *Perl*, *PlantUML*, *PowerShell*, *Scripting*, *UML*, *Windows*
 - New programming primer: [Perl Primer](/primers/perl) - Comprehensive guide to modern Perl development covering language philosophy, syntax, tooling (`perlbrew`, `cpanm`, `Carton`), testing frameworks, and programming idioms (OO with `Moose`, functional, imperative) using a TODO application domain
 - Perl logo assets: `static/images/primers/perl_logo.webp` and thumbnail version for primer page display
 - Agent directive: `.github/AGENTS/directive_primer.md` documenting the process for creating language primers

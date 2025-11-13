@@ -4,7 +4,7 @@ subtitle = "Task automation and configuration management through composable cmdl
 aliases = ["powershell-primer", "programming-languages/powershell"]
 author = "Stijn Dejongh"
 outputs = ['html', 'rss', 'json']
-draft = true
+date = "2025-11-13T22:00:00+00:00"
 tags = ["programming", "powershell", "primer", "reference", "automation", "windows"]
 summary = """
 PowerShell is a task automation framework combining a command-line shell and scripting language built on .NET. 

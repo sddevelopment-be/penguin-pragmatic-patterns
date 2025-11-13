@@ -4,7 +4,7 @@ subtitle = "Text-based diagramming for version-controlled architecture documenta
 aliases = ["plantuml-primer", "markup-and-diagramming/plantuml"]
 author = "Stijn Dejongh"
 outputs = ['html', 'rss', 'json']
-draft = true
+date = "2025-11-13T22:00:00+00:00"
 tags = ["documentation", "diagrams", "plantuml", "primer", "reference", "uml"]
 summary = """
 PlantUML generates diagrams from plain-text descriptions, enabling version-controlled visual documentation. 

@@ -4,7 +4,7 @@ subtitle = "Presentation–Business–Data separation for maintainable applicati
 aliases = ["three-layer-architecture", "architectural/three-layer"]
 author = "Stijn Dejongh"
 outputs = ['html', 'rss', 'json']
-draft = true
+date = "2025-11-13T22:00:00+00:00"
 tags = ["architecture", "patterns", "primer", "reference", "layered"]
 summary = """
 Three-Layer Architecture (also called Three-Tier) separates applications into presentation, business logic, and data access layers. 

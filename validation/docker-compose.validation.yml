@@ -1,0 +1,94 @@
+version: '3.8'
+
+services:
+  # Linting service - CSS, JS, Markdown validation
+  lint:
+    build:
+      context: ..
+      dockerfile: validation/Dockerfile.validation
+    volumes:
+      - ..:/workspace
+      - /workspace/node_modules
+      - /workspace/validation/node_modules
+    working_dir: /workspace/validation
+    command: npm run lint
+    networks:
+      - validation-network
+
+  # Hugo build test service
+  hugo-test:
+    build:
+      context: ..
+      dockerfile: validation/Dockerfile.validation
+    volumes:
+      - ..:/workspace
+      - /workspace/node_modules
+      - /workspace/validation/node_modules
+    working_dir: /workspace
+    command: bash -c "hugo --gc --minify --buildDrafts=false --panicOnWarning"
+    networks:
+      - validation-network
+
+  # Hugo server for testing (used by smoke tests)
+  hugo-server:
+    build:
+      context: ..
+      dockerfile: validation/Dockerfile.validation
+    volumes:
+      - ..:/workspace
+      - /workspace/node_modules
+      - /workspace/validation/node_modules
+    working_dir: /workspace
+    command: hugo server --bind 0.0.0.0 --port 1313 --baseURL http://hugo-server:1313 --buildDrafts=false
+    ports:
+      - "1313:1313"
+    networks:
+      - validation-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:1313"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  # Smoke tests (Lighthouse + Cypress) - depends on hugo-server
+  smoke:
+    build:
+      context: ..
+      dockerfile: validation/Dockerfile.validation
+    volumes:
+      - ..:/workspace
+      - /workspace/node_modules
+      - /workspace/validation/node_modules
+    working_dir: /workspace/validation
+    environment:
+      - BASE_URL=http://hugo-server:1313
+      - PORT=1313
+    command: bash -c "npx wait-on http://hugo-server:1313 && npm run test:cypress"
+    depends_on:
+      hugo-server:
+        condition: service_healthy
+    networks:
+      - validation-network
+
+  # Lighthouse performance testing
+  lighthouse:
+    build:
+      context: ..
+      dockerfile: validation/Dockerfile.validation
+    volumes:
+      - ..:/workspace
+      - /workspace/node_modules
+      - /workspace/validation/node_modules
+    working_dir: /workspace/validation
+    environment:
+      - npm_config_lighthouse_url=http://hugo-server:1313
+    command: bash -c "npx wait-on http://hugo-server:1313 && npm run perf:lighthouse"
+    depends_on:
+      hugo-server:
+        condition: service_healthy
+    networks:
+      - validation-network
+
+networks:
+  validation-network:
+    driver: bridge

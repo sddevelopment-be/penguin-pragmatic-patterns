@@ -9,7 +9,34 @@ A comprehensive Cypress-based testing framework for the Penguin Pragmatic Patter
 - Pattern pages have proper reference sections
 - All reference links are functional
 
-## Quick Setup
+## 🐳 Docker Quick Start (Recommended)
+
+**Run complete validation suite in containers:**
+```bash
+cd validation
+bash scripts/run-validation-docker.sh
+```
+
+**Run individual checks:**
+```bash
+# Linting only
+docker-compose -f docker-compose.validation.yml run --rm lint
+
+# Hugo build test
+docker-compose -f docker-compose.validation.yml run --rm hugo-test
+
+# Full smoke tests (Cypress + Lighthouse)
+docker-compose -f docker-compose.validation.yml up -d hugo-server
+docker-compose -f docker-compose.validation.yml run --rm smoke
+docker-compose -f docker-compose.validation.yml run --rm lighthouse
+docker-compose -f docker-compose.validation.yml down
+```
+
+📖 **Full Docker documentation:** [VALIDATION_DOCKER.md](VALIDATION_DOCKER.md)
+
+---
+
+## 💻 Local Setup (Alternative)
 
 1. **Install dependencies** (one time):
    ```bash
@@ -52,14 +79,21 @@ npm run test:firefox        # Run in Firefox
 
 ## Prerequisites
 
+### Option 1: Docker (Recommended)
+- Docker Engine 20.10+
+- Docker Compose 1.29+
+- See [VALIDATION_DOCKER.md](VALIDATION_DOCKER.md) for containerized setup
+
+### Option 2: Local Setup
 - Node.js 14+
-- Hugo extended 0.118.2
+- Hugo extended 0.152.2
 - Hugo server running on http://localhost:1313
 
 ## Notes
 
-- Tests are **NOT** integrated into CI/CD yet - this is intentional for validation
-- The Hugo server must be running before executing tests
+- Tests can run via Docker (recommended) or local setup
+- Docker setup replicates GitHub Actions environment exactly
+- The Hugo server must be running before executing tests (handled automatically in Docker)
 - Tests use localhost:1313 as configured in `cypress.config.js`
 - Cypress binary may need to be installed separately: `npx cypress install`
 

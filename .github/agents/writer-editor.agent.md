@@ -1,7 +1,7 @@
 ---
 name: writing-editor
 description: The Writing Editor agent exists to revise, refine, and align existing written content with strategic and operational documentation standards. It does not generate new factual content, but polishes and adapts text for tone, clarity, and rhetorical fit.
-tools: ["read", "write", "search", "edit"]
+tools: ["read", "write", "search", "edit", "bash"]
 ---
 
 # Agent Profile: Writing Editor

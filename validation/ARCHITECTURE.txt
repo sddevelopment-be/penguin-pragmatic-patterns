@@ -1,0 +1,218 @@
+```
+Docker Validation Architecture
+==============================
+
+┌─────────────────────────────────────────────────────────────────────┐
+│                      Validation Workflow Entry                       │
+│                 bash scripts/run-validation-docker.sh                │
+└────────────────────────────┬────────────────────────────────────────┘
+                             │
+                             ▼
+┌─────────────────────────────────────────────────────────────────────┐
+│                     docker-compose.validation.yml                    │
+│                      Service Orchestration Layer                     │
+└─────────────────────────────────────────────────────────────────────┘
+                             │
+        ┌────────────────────┼────────────────────┐
+        │                    │                    │
+        ▼                    ▼                    ▼
+┌──────────────┐    ┌──────────────┐    ┌──────────────┐
+│   Service:   │    │   Service:   │    │   Service:   │
+│     lint     │    │  hugo-test   │    │ hugo-server  │
+│              │    │              │    │              │
+│  Runs:       │    │  Runs:       │    │  Runs:       │
+│  • lint:css  │    │  • hugo --gc │    │  • hugo      │
+│  • lint:js   │    │  • --minify  │    │    server    │
+│  • lint:md   │    │  • --panic   │    │  • Port 1313 │
+│  • cspell    │    │  • check     │    │  • Health    │
+│              │    │    links     │    │    check     │
+└──────────────┘    └──────────────┘    └───────┬──────┘
+                                                 │
+                                    ┌────────────┴────────────┐
+                                    │                         │
+                                    ▼                         ▼
+                            ┌──────────────┐         ┌──────────────┐
+                            │   Service:   │         │   Service:   │
+                            │    smoke     │         │  lighthouse  │
+                            │              │         │              │
+                            │  Depends on: │         │  Depends on: │
+                            │  hugo-server │         │  hugo-server │
+                            │              │         │              │
+                            │  Runs:       │         │  Runs:       │
+                            │  • Cypress   │         │  • Lighthouse│
+                            │    E2E tests │         │    audit     │
+                            │  • Wait-on   │         │  • Generate  │
+                            │    health    │         │    reports   │
+                            └──────────────┘         └──────────────┘
+
+
+Base Container: Dockerfile.validation
+======================================
+
+┌─────────────────────────────────────────────────────────────┐
+│                    Ubuntu 24.04 LTS Base                     │
+└────────────────────────────┬────────────────────────────────┘
+                             │
+                             ▼
+┌─────────────────────────────────────────────────────────────┐
+│                   Install Node.js 25.1.0                     │
+│              curl -fsSL nodesource.com/setup_25.x            │
+└────────────────────────────┬────────────────────────────────┘
+                             │
+                             ▼
+┌─────────────────────────────────────────────────────────────┐
+│                 Install Hugo 0.152.2 Extended                │
+│         wget hugo_extended_0.152.2_linux-amd64.deb           │
+└────────────────────────────┬────────────────────────────────┘
+                             │
+                             ▼
+┌─────────────────────────────────────────────────────────────┐
+│              Install Validation Dependencies                 │
+│              npm ci --legacy-peer-deps                       │
+│         (stylelint, eslint, cypress, lighthouse, etc.)       │
+└────────────────────────────┬────────────────────────────────┘
+                             │
+                             ▼
+┌─────────────────────────────────────────────────────────────┐
+│                    Ready for Validation                      │
+│               All services use this image                    │
+└─────────────────────────────────────────────────────────────┘
+
+
+Network Architecture
+====================
+
+┌───────────────────────────────────────────────────────────────┐
+│                  validation-network (bridge)                  │
+│                                                               │
+│  ┌──────┐  ┌──────────┐  ┌────────────┐  ┌───────┐  ┌──────┐│
+│  │ lint │  │hugo-test │  │hugo-server │  │ smoke │  │light-││
+│  │      │  │          │  │            │  │       │  │house ││
+│  │      │  │          │  │  :1313     │  │       │  │      ││
+│  └──────┘  └──────────┘  └─────┬──────┘  └───┬───┘  └───┬──┘│
+│                                 │             │          │   │
+│                                 └─────────────┴──────────┘   │
+│                                   Health check required      │
+└───────────────────────────────────────────────────────────────┘
+                                    │
+                                    │ Port mapping
+                                    ▼
+                            Host: localhost:1313
+
+
+Execution Flow
+==============
+
+Start
+  │
+  ├─► Step 1: Run lint service
+  │     │
+  │     ├─ lint:css (stylelint)
+  │     ├─ lint:js (eslint)
+  │     ├─ lint:md (remark)
+  │     └─ Result: reports/npm-lint-latest.log
+  │
+  ├─► Step 2: Run hugo-test service
+  │     │
+  │     ├─ Build site (--gc --minify --panicOnWarning)
+  │     ├─ Check internal links
+  │     ├─ Check external links
+  │     └─ Result: Exit code 0 if successful
+  │
+  ├─► Step 3: Start hugo-server service (background)
+  │     │
+  │     ├─ Bind to 0.0.0.0:1313
+  │     ├─ Wait for health check (curl)
+  │     └─ Keep running for dependent services
+  │
+  ├─► Step 4: Run smoke service
+  │     │
+  │     ├─ Wait for hugo-server health
+  │     ├─ Run Cypress E2E tests
+  │     │   ├─ Main page loads
+  │     │   ├─ Navigation works
+  │     │   ├─ Footer present
+  │     │   └─ Links functional
+  │     └─ Result: cypress/videos/, cypress/screenshots/
+  │
+  └─► Step 5: Run lighthouse service
+        │
+        ├─ Wait for hugo-server health
+        ├─ Audit performance
+        ├─ Measure Core Web Vitals
+        └─ Result: reports/lighthouse-desktop.report.{html,json}
+
+
+Volume Mounts
+=============
+
+Host                                    Container
+────────────────────────────────────────────────────────────
+/workspace                           ← Repository root
+/workspace/validation                ← Validation directory
+/workspace/node_modules              ← Cached (performance)
+/workspace/validation/node_modules   ← Cached (performance)
+
+
+Reports Output
+==============
+
+validation/reports/
+├── npm-lint-latest.log              ← Linting results
+├── hugo-server.log                  ← Server logs
+├── lighthouse-desktop.report.html   ← Performance (visual)
+├── lighthouse-desktop.report.json   ← Performance (data)
+└── cypress/
+    ├── screenshots/                 ← Failed test screenshots
+    └── videos/                      ← Test execution recordings
+
+
+GitHub Actions Parity
+======================
+
+GitHub Actions Workflow          Docker Compose Service
+────────────────────────────────────────────────────────
+Job: lint                     →  Service: lint
+  - npm run lint:css               - npm run lint:css
+  - npm run lint:js                - npm run lint:js
+  - npm run lint:md                - npm run lint:md
+
+Job: hugo-test                →  Service: hugo-test
+  - hugo --gc --minify             - hugo --gc --minify
+  - hugo check --links             - hugo check --links
+
+Job: smoke                    →  Service: smoke + hugo-server
+  - Start hugo server              - docker-compose up hugo-server
+  - npx wait-on                    - npx wait-on
+  - npm run test:cypress           - npm run test:cypress
+
+Environment:                     Environment:
+  - Hugo: 0.152.2                  - Hugo: 0.152.2 ✓
+  - Node: 25.1.0                   - Node: 25.1.0 ✓
+  - Ubuntu: latest                 - Ubuntu: 24.04 ✓
+
+
+Usage Examples
+==============
+
+# Run everything
+bash scripts/run-validation-docker.sh
+
+# Individual services
+docker-compose -f docker-compose.validation.yml run --rm lint
+docker-compose -f docker-compose.validation.yml run --rm hugo-test
+
+# Development server
+docker-compose -f docker-compose.validation.yml up hugo-server
+# Access at http://localhost:1313
+
+# Full smoke test suite
+docker-compose -f docker-compose.validation.yml up -d hugo-server
+docker-compose -f docker-compose.validation.yml run --rm smoke
+docker-compose -f docker-compose.validation.yml run --rm lighthouse
+docker-compose -f docker-compose.validation.yml down
+
+# Cleanup
+docker-compose -f docker-compose.validation.yml down -v
+docker system prune
+```

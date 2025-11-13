@@ -33,7 +33,7 @@ Following these guidelines helps maintainers and the community understand your r
 Before creating bug reports, please Check [the list of open issues](https://github.com/sddevelopment-be/penguin-pragmatic-patterns/issues) as 
 you might find out that you don't need to create one.
 When you are creating a bug report, please include as many details as possible.
-Fill out the [required template](../../.github/ISSUE_TEMPLATE/bug_report.md), the information it asks for helps us resolve issues faster.
+Please fill out the [required template](../../.github/ISSUE_TEMPLATE/bug_report.md)—the information it asks for helps us resolve issues faster.
 
 ### Proposing Patterns and Ideas
 
@@ -46,30 +46,18 @@ as an attachment to the ticket you are creating.
 
 If you would like to contribute code, or write patterns, please follow these steps:
 
-1. Fork the repository
-2. Create a new branch, and work on it
-3. When your change is DONE (implemented, and tested), submit a Pull Request.
-4. After the review process is completed, your changes will be merged into our `develop` branch. 
-  It will get deployed automatically to the [public preview website](https://sddevelopment-be.github.io/penguin-pragmatic-patterns/).
+1. [Fork this repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks)
+2. [Clone your fork](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository) to your local machine
+3. [Create a new branch](https://guides.github.com/introduction/flow/), and work on it
+4. When your change is DONE (implemented, and tested), submit a [Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) using our existing PR Templates
+5. After the review process is completed, your changes will be merged into our `develop` branch and automatically deployed to the [public preview website](https://sddevelopment-be.github.io/penguin-pragmatic-patterns/).
 
 ### Running and building the project locally
 
-### Installation
+#### Installation
 
 * Install the HuGo static site generator: see the [official guide](https://gohugo.io/installation/)
 * Use `hugo server` to spawn a local webserver that dynamically updates to inspect your changes
 
 When your changes are done, launch a [Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) towards the `develop` branch of the base repository.
-
-### Submitting Changes
-
-Whether you are contributing to the source code, or want to add your example files (including themes) to the repository,
-please follow these steps:
-
-* [Fork this repository](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/about-forks)
-* [Clone your fork]() to your local machine
-- [Create a new branch](https://guides.github.com/introduction/flow/), and work on it
-- When your change is DONE (implemented, and tested), submit a [Pull Request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) using our 
-  existing PR Templates
-- After the review process is completed, your changes will be merged into our `develop` branch and automatically deployed to the [public preview website](https://sddevelopment-be.github.io/penguin-pragmatic-patterns/).
 

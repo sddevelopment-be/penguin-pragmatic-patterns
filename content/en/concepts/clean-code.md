@@ -57,7 +57,7 @@ The main culprit for this confusion is often code that's simply hard to understa
 It lacks expressiveness or becomes overly verbose. One helpful metric to gauge the cleanliness of your code is humorously known as the 'WTFs per
 minute metric,' inspired by a well-known cartoon that has been recreated numerous times.
 
-Writing clean code does more than pleasing your colleagues; you are doing your future self a favour.
+Writing clean code does more than please your colleagues; you are doing your future self a favour.
 Projects inevitably evolve, and what was once insignificant can become critical to the application's success. When the code handling this
 functionality is messy, adapting to changing requirements can feel like a descent into chaos. So, do yourself a favour, and strive to keep your code
 comprehensible at a glance.
@@ -71,7 +71,7 @@ Your colleagues and your future self will thank you.
 The concept of clean code has been emphasized by many influential figures in software development. Books like "The Clean Coder" by
 Robert "Uncle Bob" Martin, "Refactoring" by Martin Fowler and "The Pragmatic Programmer" by Andrew Hunt and David Thomas have highlighted the
 importance of writing clean, maintainable code. It was also mentioned in the "C++ Complete Reference" by Herbert Schildt, where he stated that
-"a program should be written for people to read, and only incidentally for machines to execute".
+"a program should be written for people to read—and only incidentally for machines to execute."
 
 ### Application
 

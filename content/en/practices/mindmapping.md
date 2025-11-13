@@ -56,7 +56,7 @@ Create a _mind map_ that structure the core ideas of a certain domain or piece o
 As a spiders web, the mind map starts by putting a central concept or question at the centre of the page.
 You then attach words to this central theme, as they appear in your head.
 
-Make sure not to put too much effort into your mind map, the act of mapping is where the value lies.
+Don't over-invest in your mind map's appearance—the act of mapping is where the value lies.
 You will soon realize that as your understanding grows, your map will no longer be accurate.
 At this point, just create a new one. If you want to solidify your newfound knowledge, repeat this process until you are satisfied.
 
@@ -81,11 +81,10 @@ The following factors prevent effective application of the practice:
 
 ## Rationale
 
-* Visualizations are a tremendous helps in remembering facts. Popular culture is filled with the idea of "mind palaces", which is a technique used
-  by people who display extraordinary capabilities or short-term memory storage.
-* We are good at thinking creatively, but our recollection is often times flawed. This leads us to forget about certain aspects
+* Visualizations are a tremendous help in remembering facts. Popular culture is filled with the idea of "mind palaces," a technique used by people who display extraordinary capabilities for short-term memory storage.
+* We are good at thinking creatively, but our recollection is often times flawed. This leads us to forget about certain aspects.
 * Not knowing what something relates to makes it harder to remember facts.
-* Humans prefer to think in structures, it has been shown that structuring a text or idea helps you refine the knowledge.
+* Humans prefer to think in structures. Research shows that structuring a text or idea helps you refine knowledge.
 
 ## Application
 

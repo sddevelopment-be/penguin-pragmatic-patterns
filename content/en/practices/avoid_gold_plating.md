@@ -47,9 +47,7 @@ further_exploration = [
 
 ## Problem statement
 
-Programmers tend to over-design simple things to make them more capable, clever, or beautiful than they need to be at that point in time. 
-In doing so, they often end up spending much more time and mental effort on a piece of software than is needed.  
-Or worse: they build in functionality or capabilities that will never be used.
+Programmers tend to over-design simple things to make them more capable, clever, or beautiful than needed. They often spend far more time and mental effort than necessary—or worse, build functionality that will never be used.
 
 ## Intent
 
@@ -97,7 +95,9 @@ The following factors prevent effective application of the practice:
 
 ## Rationale
 
-* The level of refinement of a codebase should make sense for the problem at hand
+* The level of refinement of a codebase should match the problem scope and expected lifespan.
+* Over-engineering introduces unnecessary complexity, making code harder to understand and maintain.
+* Premature optimization often targets problems that never materialize, wasting valuable development time.
 
 ## Application
 

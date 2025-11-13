@@ -46,7 +46,7 @@ You are distracted by various inputs from your environment, causing you to not f
 
 ## Intent
 
-* Your tasks get finished more often, or at least move to a point where (part of) the work can be considered  __"completed"__.
+* Your tasks get finished more often, or at least move to a point where (part of) the work can be considered **"completed"**.
 * Your days stop feeling like you are running all over the place without accomplishing much.
 * You feel less resistance to starting a task.
 
@@ -85,7 +85,7 @@ The following factors prevent effective application of the practice:
 
 ## Rationale
 
-__"The hardest part is getting started."__ Reducing the resistance to start a task can help practitioners to overcome the inertia.
+__"The hardest part is getting started"__—reducing the resistance to start a task helps practitioners overcome inertia.
 The pomodoro technique aims to achieve this by introducing the reassurance that the end is in sight.
 Rather than committing to fully complete an endeavour, a practitioner is committing to work on a certain task for a fixed period of time.
 

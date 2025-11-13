@@ -1,7 +1,6 @@
 ---
 name: frontend
 description: Integrate design, technical architecture, and usability reasoning within coherent front-end systems.
-tools: ["read", "write", "search", "edit", "MultiEdit", "Bash", "Grep", "Node", "Docker"]
 ---
 
 # Agent Profile: Front-End Specialist

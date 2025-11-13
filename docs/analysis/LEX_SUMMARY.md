@@ -21,7 +21,7 @@ This analysis evaluates the writing style, tone, and preferred phrasing across t
 
 Four comprehensive documents have been generated in `/docs/`:
 
-### 📊 [LEX_REPORT.md](./LEX_REPORT.md)
+### 📊 [LEX_REPORT.md](LEX_REPORT.md)
 **What:** Per-file evaluation against 7-point style checklist  
 **Use Case:** Understanding current state, identifying exemplar files  
 **Key Metrics:**
@@ -30,7 +30,7 @@ Four comprehensive documents have been generated in `/docs/`:
 - Anti-fluff Compliance: **98%** (No hype/flattery detected)
 - Files Analyzed: 40+ practices, 23+ concepts, 4 data files, 3 documentation files
 
-### 🔧 [LEX_DELTAS.md](./LEX_DELTAS.md)
+### 🔧 [LEX_DELTAS.md](LEX_DELTAS.md)
 **What:** Minimal patch-ready edits grouped by priority  
 **Use Case:** Applying specific improvements efficiently  
 **Key Counts:**
@@ -39,7 +39,7 @@ Four comprehensive documents have been generated in `/docs/`:
 - **Low Priority (8):** Concision, passive voice, polish (~30 min effort)
 - **Optional (3):** Structural refactors (~45 min effort)
 
-### 🗺️ [LEX_TONE_MAP.md](./LEX_TONE_MAP.md)
+### 🗺️ [LEX_TONE_MAP.md](LEX_TONE_MAP.md)
 **What:** Medium classification with confidence scores  
 **Use Case:** Understanding tone fit by content type  
 **Key Scores:**
@@ -48,7 +48,7 @@ Four comprehensive documents have been generated in `/docs/`:
 - Documentation Files: **86%** alignment
 - Data Files (TOML): **89%** alignment
 
-### 📖 [LEX_STYLE_RULES.md](./LEX_STYLE_RULES.md)
+### 📖 [LEX_STYLE_RULES.md](LEX_STYLE_RULES.md)
 **What:** Quick-reference style guide for contributors  
 **Use Case:** Onboarding, maintaining consistency  
 **Key Sections:**
@@ -176,17 +176,17 @@ Four comprehensive documents have been generated in `/docs/`:
 ## Usage Guide
 
 ### For Contributors
-1. **Before writing:** Read [LEX_STYLE_RULES.md](./LEX_STYLE_RULES.md) for tone guidelines and compliance checklist
+1. **Before writing:** Read [LEX_STYLE_RULES.md](LEX_STYLE_RULES.md) for tone guidelines and compliance checklist
 2. **During writing:** Reference exemplar files for structure and phrasing
 3. **Before submitting:** Self-check against anti-patterns list (hype, flattery, prescriptiveness)
 
 ### For Editors
-1. **Quick review:** Use [LEX_REPORT.md](./LEX_REPORT.md) to identify files needing attention
-2. **Apply fixes:** Work through [LEX_DELTAS.md](./LEX_DELTAS.md) by priority level
-3. **Validate tone:** Cross-reference [LEX_TONE_MAP.md](./LEX_TONE_MAP.md) for medium alignment
+1. **Quick review:** Use [LEX_REPORT.md](LEX_REPORT.md) to identify files needing attention
+2. **Apply fixes:** Work through [LEX_DELTAS.md](LEX_DELTAS.md) by priority level
+3. **Validate tone:** Cross-reference [LEX_TONE_MAP.md](LEX_TONE_MAP.md) for medium alignment
 
 ### For Maintainers
-1. **Onboarding:** Share [LEX_STYLE_RULES.md](./LEX_STYLE_RULES.md) with new contributors
+1. **Onboarding:** Share [LEX_STYLE_RULES.md](LEX_STYLE_RULES.md) with new contributors
 2. **Consistency checks:** Periodically audit new content against evaluation grid
 3. **Style evolution:** Update style rules when consensus shifts; document changes
 
@@ -238,7 +238,7 @@ This tone is **rare and valuable** in technical content, where extremes (overly 
 ## Next Steps
 
 ### Immediate Actions (5 minutes)
-1. Apply 4 high-priority grammatical fixes from [LEX_DELTAS.md](./LEX_DELTAS.md)
+1. Apply 4 high-priority grammatical fixes from [LEX_DELTAS.md](LEX_DELTAS.md)
 2. Commit with message: "Fix grammatical errors identified in lexical analysis"
 
 ### Short-Term (30 minutes)
@@ -247,7 +247,7 @@ This tone is **rare and valuable** in technical content, where extremes (overly 
 3. Add missing link URL in `CONTRIBUTING.md`
 
 ### Long-Term (Ongoing)
-1. Share [LEX_STYLE_RULES.md](./LEX_STYLE_RULES.md) with contributors
+1. Share [LEX_STYLE_RULES.md](LEX_STYLE_RULES.md) with contributors
 2. Reference exemplar files in contribution guidelines
 3. Periodically audit new content against evaluation grid
 4. Update style rules when conventions evolve
@@ -295,10 +295,10 @@ The Penguin Pragmatic Patterns repository has a **strong, consistent voice** tha
 
 | Document | Purpose | Primary Audience |
 |----------|---------|------------------|
-| [LEX_REPORT.md](./LEX_REPORT.md) | Per-file evaluation with scores | Editors, maintainers |
-| [LEX_DELTAS.md](./LEX_DELTAS.md) | Patch-ready edit suggestions | Editors |
-| [LEX_TONE_MAP.md](./LEX_TONE_MAP.md) | Medium alignment analysis | Content strategists |
-| [LEX_STYLE_RULES.md](./LEX_STYLE_RULES.md) | Quick-reference style guide | Contributors, new authors |
+| [LEX_REPORT.md](LEX_REPORT.md) | Per-file evaluation with scores | Editors, maintainers |
+| [LEX_DELTAS.md](LEX_DELTAS.md) | Patch-ready edit suggestions | Editors |
+| [LEX_TONE_MAP.md](LEX_TONE_MAP.md) | Medium alignment analysis | Content strategists |
+| [LEX_STYLE_RULES.md](LEX_STYLE_RULES.md) | Quick-reference style guide | Contributors, new authors |
 | **This Summary** | Executive overview | All stakeholders |
 
 ---

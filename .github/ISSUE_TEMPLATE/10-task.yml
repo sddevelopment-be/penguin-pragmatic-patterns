@@ -1,0 +1,11 @@
+name: Primer task
+description: Create or refine a primer
+title: "Draft: "
+labels: ["draft"]
+body:
+  - type: input
+    attributes: { label: Family, placeholder: programming-languages / architectural / ... }
+  - type: textarea
+    attributes: { label: Scope, description: one paragraph }
+  - type: textarea
+    attributes: { label: Acceptance criteria, description: list bullets }

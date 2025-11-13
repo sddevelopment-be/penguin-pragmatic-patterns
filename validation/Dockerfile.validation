@@ -1,0 +1,48 @@
+# Multi-stage Dockerfile for Penguin Pragmatic Patterns Validation
+# Supports Hugo 0.152.2 + Node.js 25.1.0 + all validation tools
+
+FROM ubuntu:24.04 AS base
+
+# Install system dependencies
+RUN apt-get update && apt-get install -y \
+    wget \
+    curl \
+    git \
+    ca-certificates \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install Node.js 25.1.0
+FROM base AS node-stage
+RUN curl -fsSL https://deb.nodesource.com/setup_25.x | bash - && \
+    apt-get install -y nodejs && \
+    node --version && npm --version
+
+# Install Hugo 0.152.2 extended
+FROM node-stage AS hugo-stage
+ARG HUGO_VERSION=0.152.2
+RUN wget -O /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb && \
+    dpkg -i /tmp/hugo.deb && \
+    rm /tmp/hugo.deb && \
+    hugo version
+
+# Final stage with all tools
+FROM hugo-stage AS validation
+
+WORKDIR /workspace
+
+# Copy package files for dependency installation
+COPY validation/package*.json ./validation/
+
+# Install validation dependencies
+WORKDIR /workspace/validation
+RUN npm ci --legacy-peer-deps
+
+# Copy the rest of the repository
+WORKDIR /workspace
+COPY . .
+
+# Set working directory to validation
+WORKDIR /workspace/validation
+
+# Default command: run lint checks
+CMD ["npm", "run", "lint"]

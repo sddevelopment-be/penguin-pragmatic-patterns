@@ -4,7 +4,7 @@
 
 set -e  # Exit on error
 
-REPO_ROOT="/home/runner/work/penguin-pragmatic-patterns/penguin-pragmatic-patterns"
+REPO_ROOT="$(git rev-parse --show-toplevel)"
 TARGET_DIR="$REPO_ROOT/src/automation-example"
 
 echo "Creating automation-example directory structure..."
@@ -34,6 +34,7 @@ anonymize() {
 for agent_file in "$REPO_ROOT/.github/agents"/*.agent.md; do
     filename=$(basename "$agent_file")
     echo "  Processing $filename..."
+    mkdir -p "$TARGET_DIR/agents"
     anonymize "$agent_file" > "$TARGET_DIR/agents/$filename"
 done
 
@@ -48,6 +49,7 @@ for doc_file in "$REPO_ROOT/docs"/REPO_MAP.md "$REPO_ROOT/docs"/SURFACES.md "$RE
     if [ -f "$doc_file" ]; then
         filename=$(basename "$doc_file")
         echo "  Processing $filename..."
+        mkdir -p "$TARGET_DIR/docs"
         anonymize "$doc_file" > "$TARGET_DIR/docs/$filename"
     fi
 done
@@ -57,6 +59,7 @@ echo "Copying and anonymizing template files..."
 # Copy the agent template
 if [ -f "$REPO_ROOT/src/templates/TEMPLATE_SPECIALIST_AGENT.agent.md" ]; then
     echo "  Processing TEMPLATE_SPECIALIST_AGENT.agent.md..."
+    mkdir -p "$TARGET_DIR/templates"
     anonymize "$REPO_ROOT/src/templates/TEMPLATE_SPECIALIST_AGENT.agent.md" > "$TARGET_DIR/templates/TEMPLATE_SPECIALIST_AGENT.agent.md"
 fi
 

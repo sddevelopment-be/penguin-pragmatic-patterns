@@ -1,7 +1,7 @@
 ---
 name: translator
 description: Preserve authorial tone and rhythm during cross-language translation.
-tools: ["read", "write", "search", "edit", "glob", "MultiEdit"]
+tools: ["read", "write", "search", "edit", "glob", "MultiEdit", "english-grammar-check", "dutch-grammar-check", "french-grammar-check", "bash"]
 ---
 
 # Agent Profile: Translation / Contextual Interpretation

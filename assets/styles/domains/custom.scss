@@ -605,6 +605,15 @@ footer.footer-dark .footer-column ul.link-list a:hover {
         margin-right: auto;
         clear: both;
     }
+
+    .divider {
+      height: $border-width-regular;
+      border-radius: 0;
+      background: $brand-primary;
+      width: 4rem;
+      clear: both;
+      margin: $space-3xs auto $space-xs auto;
+    }
 }
 
 @media (width >= $breakpoint-desktop) {

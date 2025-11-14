@@ -4,15 +4,11 @@ aliases = ["primers"]
 subtitle = "Fast, applied fluency across languages, tools, and architectural patterns."
 +++
 
-## Overview
-
-**Purpose**: fast, applied fluency. Primers bring you up to speed quickly through structure, examples, and minimal theory.
 Each primer can be read in under an hour and applied immediately. They prioritize practical knowledge over exhaustive coverage, focusing on what you need to get productive quickly while providing authoritative references for deeper exploration.
 
-## What Makes a Primer Different
-
 Unlike tutorials that walk you through step-by-step exercises or reference manuals that exhaustively document every feature, primers occupy a sweet spot:
-
+<br />
+<br />
 - **Practical orientation:** You learn the philosophy, idioms, and tooling needed for real work
 - **Structural consistency:** All primers follow family-specific templates, making navigation predictable
 - **Trade-off awareness:** Primers acknowledge limitations and appropriate use cases, not just strengths

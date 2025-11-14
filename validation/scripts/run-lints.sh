@@ -15,6 +15,7 @@ STEPS=(
   "lint:css"
   "lint:js"
   "lint:md"
+  "lint"
 )
 
 EXIT_CODE=0

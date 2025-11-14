@@ -250,7 +250,6 @@
 }
 
 .pattern-list .subtitle::after {
-    content: 'scroll for more >>';
     font-size: $space-gutter;
     font-weight: 650;
     color: $brand-primary;
@@ -272,10 +271,6 @@
 }
 
 @media (width <= $breakpoint-desktop) {
-    .pattern-list .subtitle::after {
-        content: 'swipe for more >>';
-    }
-
     .pattern-list {
         margin-top: $space-4xl;
     }

@@ -3,9 +3,9 @@
 <!-- 
   Multiple PR templates available:
   - Default (this template): General purpose
-  - Feature PR: Use ?template=PULL_REQUEST_TEMPLATE_FEATURE.md in PR URL
-  - Task PR: Use ?template=PULL_REQUEST_TEMPLATE_TASK.md in PR URL
-  - Documentation PR: Use ?template=PULL_REQUEST_TEMPLATE_DOCUMENTATION.md in PR URL
+  - Feature PR: Use ?template=02_FEATURE.md in PR URL
+  - Task PR: Use ?template=03_TASK.md in PR URL
+  - Documentation PR: Use ?template=01_DOCUMENTATION.md in PR URL
 -->
 
 ## Related Issues

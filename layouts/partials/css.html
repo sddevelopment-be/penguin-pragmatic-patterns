@@ -21,6 +21,10 @@
 
 {{- with resources.GetMatch $sass }}
   {{- $baseCSS := . | css.Sass $cssOpts }}
+  <!-- Disabled the parent theme's support for user agent color scheme preferences, see ADR-001-disable-bulma-prefers-color-scheme.md -->
+  {{- $stripPrefers := `(?s)@media\s+\(prefers-color-scheme:[^)]+\)\s+\{(?:[^{}]|\{[^{}]*\})*\}` }}
+  {{- $content := replaceRE $stripPrefers "" $baseCSS.Content }}
+  {{- $baseCSS = resources.FromString $cssTarget $content }}
   {{- if $inServerMode }}
     {{- $css := $baseCSS }}
     <link rel="preload" href="{{ $css.RelPermalink }}" as="style" onload="this.onload=null;this.rel='stylesheet'" />

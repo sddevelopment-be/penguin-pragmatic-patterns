@@ -34,7 +34,10 @@
                     {{if .Description }}<p><span class="item-title">description:</span>{{ .Description }}</p> {{end}}
                 </div>
                 <div class="meta is-size-7 has-text-grey">
-                    Last updated {{ .Lastmod.Format "02 Jan 2006" }} · {{ .ReadingTime }} min read
+                    {{ with (or .Lastmod .Date) -}}
+                        Last updated {{ .Format "02 Jan 2006" }} · 
+                    {{- end }}
+                    {{ .ReadingTime }} min read
                 </div>
                 <div class="card-stretch"></div>
             </div>

@@ -1,0 +1,209 @@
+name: Primer Feature
+description: Cohesive batch of primers delivering specific family coverage
+title: "Feature: Primer Batch - "
+labels: ["feature", "primer-series"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Primer Feature Template
+        A feature represents a cohesive batch of primers within one family or across families (split-focus approach).
+        Features deliver specific capability or coverage and map to roadmap phases.
+  
+  - type: input
+    id: epic
+    attributes:
+      label: Parent Epic
+      description: Link to the parent Primer Epic issue (e.g., #100)
+      placeholder: "#100"
+    validations:
+      required: false
+  
+  - type: dropdown
+    id: approach
+    attributes:
+      label: Batch Approach
+      description: Single-family or split-focus development?
+      options:
+        - "Split-Focus (multiple families)"
+        - "Single-Family (one family deep)"
+    validations:
+      required: true
+  
+  - type: dropdown
+    id: phase
+    attributes:
+      label: Roadmap Phase
+      description: Which phase does this batch belong to?
+      options:
+        - "Phase 0: Foundation & Infrastructure"
+        - "Phase 1: Split-Focus Initial Batch"
+        - "Phase 2: Family Expansion"
+        - "Phase 3: Deep Coverage"
+        - "Phase 4: Consolidation & QA"
+        - "Phase 5: Continuous Expansion"
+    validations:
+      required: false
+  
+  - type: textarea
+    id: objective
+    attributes:
+      label: Objective
+      description: What primers will be created and why?
+      placeholder: |
+        Develop initial primers across all five families using split-focus approach to:
+        - Validate all template types
+        - Provide immediate cross-family value
+        - Enable faster feedback loops
+    validations:
+      required: true
+  
+  - type: textarea
+    id: primers
+    attributes:
+      label: Primer List
+      description: Which specific primers are included in this batch?
+      placeholder: |
+        **Programming Languages:**
+        - [ ] PowerShell (Windows automation, scripting)
+        - [ ] Java (enterprise, OOP foundation)
+        
+        **Architectural:**
+        - [ ] Three-Layer Architecture (presentation-business-data)
+        
+        **Toolchain & Automation:**
+        - [ ] Batch Scripting (Windows automation)
+        
+        **Markup & Diagramming:**
+        - [ ] Markdown (essential documentation)
+        - [ ] PlantUML (existing diagram standard)
+    validations:
+      required: true
+  
+  - type: textarea
+    id: deliverables
+    attributes:
+      label: Deliverables
+      description: Concrete outputs expected from this feature
+      placeholder: |
+        - [ ] All primer markdown files created and validated
+        - [ ] Family index files updated
+        - [ ] Cross-links added between related primers
+        - [ ] Hugo build passes without errors
+        - [ ] All diagrams render correctly
+        - [ ] Quality checklist satisfied for each primer
+    validations:
+      required: true
+  
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance Criteria
+      description: How do we know this batch is complete and ready?
+      placeholder: |
+        - [ ] All sections from family templates present and complete
+        - [ ] 2-5 authoritative references per primer
+        - [ ] Working examples verified (code snippets, quickstart commands)
+        - [ ] Hugo build passes without errors
+        - [ ] Lexical tone consistent with existing content
+        - [ ] Cross-links functional
+        - [ ] Quality checklist from PR template satisfied
+    validations:
+      required: true
+  
+  - type: dropdown
+    id: effort
+    attributes:
+      label: Effort Estimate
+      description: Expected effort for the entire batch
+      options:
+        - "Low (1-2 days)"
+        - "Medium (3-4 days)"
+        - "Medium-High (5-7 days)"
+        - "High (1-2 weeks)"
+        - "Very High (2+ weeks)"
+    validations:
+      required: false
+  
+  - type: dropdown
+    id: collaboration
+    attributes:
+      label: Collaboration Type
+      description: How will this work be executed?
+      options:
+        - "agent-driven"
+        - "mixed-collaboration"
+        - "human-review-required"
+    validations:
+      required: false
+  
+  - type: textarea
+    id: agents
+    attributes:
+      label: Assigned Agents / Contributors
+      description: Which agents or team members will work on this batch?
+      placeholder: |
+        **Primary Agents:**
+        - Researcher (resource gathering)
+        - Writer-Editor (content drafting)
+        
+        **Supporting Agents:**
+        - Lexical Analyst (tone alignment)
+        - Curator (template compliance)
+        - Diagrammer (architectural diagrams)
+        
+        **Coordinator:**
+        - Coordinator Manager (work routing and status tracking)
+    validations:
+      required: false
+  
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependencies
+      description: What must be completed before this batch can start?
+      placeholder: |
+        - Template library validated (Phase 0)
+        - Quality checklist finalized
+        - Agent collaboration protocols established
+        - Hugo build system verified
+    validations:
+      required: false
+  
+  - type: textarea
+    id: workflow
+    attributes:
+      label: Workflow Steps
+      description: High-level workflow for completing this batch
+      placeholder: |
+        1. Research phase (2-3 days)
+           - Gather 5-7 authoritative references per primer
+           - Document ecosystem conventions
+        
+        2. Drafting phase (3-4 days)
+           - Populate template sections
+           - Include working examples
+           - Link to resources
+        
+        3. Review phase (1-2 days)
+           - Lexical alignment pass
+           - Curator structural validation
+           - Build verification
+        
+        4. Integration phase (1 day)
+           - Update family indexes
+           - Cross-link related primers
+           - Final Hugo build validation
+    validations:
+      required: false
+  
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional Notes
+      description: Any other relevant context or considerations
+      placeholder: |
+        See PRIMER_VISION.md for scope split recommendations
+        Quality standards defined in .github/PULL_REQUEST_TEMPLATE/primer.md
+    validations:
+      required: false

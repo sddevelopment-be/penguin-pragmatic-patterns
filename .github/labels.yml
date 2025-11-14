@@ -130,3 +130,65 @@
   color: '3434cc'
   description: 'Recommendations and Reviews of learning resources.'
   aliases: ['recommended-reads', 'reasource-review']
+
+# Primer series labels
+- name: 'primer-series'
+  color: 'FF6B6B'
+  description: 'All primer-related work'
+  aliases: ['primers']
+
+- name: 'primer-programming'
+  color: 'FFA07A'
+  description: 'Programming language primers'
+  aliases: ['primer-languages']
+
+- name: 'primer-markup'
+  color: 'FFD700'
+  description: 'Markup and diagramming primers'
+  aliases: ['primer-diagramming']
+
+- name: 'primer-toolchain'
+  color: '87CEEB'
+  description: 'Toolchain and automation primers'
+  aliases: ['primer-automation']
+
+- name: 'primer-architectural'
+  color: '9370DB'
+  description: 'Architectural primers'
+  aliases: ['primer-architecture']
+
+- name: 'primer-algorithmic'
+  color: '98FB98'
+  description: 'Algorithmic primers'
+  aliases: ['primer-algorithms']
+
+# Primer phase labels
+- name: 'primer-phase-0'
+  color: 'E0E0E0'
+  description: 'Phase 0: Foundation and infrastructure'
+  aliases: []
+
+- name: 'primer-phase-1'
+  color: 'B0E0E6'
+  description: 'Phase 1: Split-focus initial batch'
+  aliases: []
+
+- name: 'primer-phase-2'
+  color: 'ADD8E6'
+  description: 'Phase 2: Family expansion'
+  aliases: []
+
+- name: 'primer-phase-3'
+  color: '87CEEB'
+  description: 'Phase 3: Deep coverage and specialization'
+  aliases: []
+
+- name: 'primer-phase-4'
+  color: '4682B4'
+  description: 'Phase 4: Consolidation and quality assurance'
+  aliases: []
+
+- name: 'primer-phase-5'
+  color: '4169E1'
+  description: 'Phase 5: Continuous expansion'
+  aliases: []

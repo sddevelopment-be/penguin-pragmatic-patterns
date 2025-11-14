@@ -200,11 +200,10 @@ contexts:
     - 'See: [Radical Candor by Kim Scott](https://www.radicalcandor.com/) for more
       details.'
   - name: objection
-    definition: 'An **objection** is an argument - related to a proposal, existing
+    definition: 'An **objection** is an argument 
+      - related to a proposal, existing
       agreement, or activity being conducted by one or more members of the organization
-      -
-
-      that reveals consequences or risks that are preferably avoided for the organization,
+      - that reveals consequences or risks that are preferably avoided for the organization,
       or that demonstrates worthwhile ways to improve the proposal, agreement, or
       activity.'
     examples:

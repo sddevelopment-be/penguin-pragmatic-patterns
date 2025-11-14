@@ -11,6 +11,7 @@ PowerShell is a task automation framework combining a command-line shell and scr
 It emphasizes object-oriented pipelines over text streams, enabling composable automation through cmdlets that 
 pass structured data between commands.
 """
+draft = true
 +++
 
 ## 1. Language Philosophy

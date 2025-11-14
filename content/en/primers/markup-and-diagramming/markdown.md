@@ -11,37 +11,52 @@ Markdown is a plain-text formatting syntax designed for readability in both raw 
 It enables version-controlled documentation, README files, and static site content without requiring 
 specialized editors or complex markup languages.
 """
+further_exploration = [
+    { type="raw", year="?", title = "CommonMark Specification", link = "https://commonmark.org/", site="commonmark.org", author="CommonMark Community" },
+    { type="raw", year="?", title = "GitHub Flavored Markdown (GFM)", link = "https://github.github.com/gfm/", site="github.github.com", author="GitHub" },
+    { type="raw", title = "Markdown Guide", link = "https://www.markdownguide.org/", site="markdownguide.org", author="Matt Cone", year=2025 },
+    { type="raw", title = "Original Markdown Syntax", year=2002, author = "John Gruber", link = "https://daringfireball.net/projects/markdown/syntax", site="daringfireball.net" },
+]
+image = "primers/markdown_logo"
 +++
 
 ## 1. Purpose and Philosophy
 
-Markdown was created by John Gruber in 2004 with a clear goal: enable writers to create formatted documents using plain text that remains readable in its source form. It prioritizes simplicity and accessibility over feature completeness.
+> Simplicity and readability over feature completeness.
+
+Markdown was created by [John Gruber](https://daringfireball.net/projects/markdown/syntax#philosophy) in 2004 with a clear goal: enable writers to **create formatted documents using plain text that remains readable in its source form**. It prioritizes simplicity and accessibility over feature completeness.
 
 **Strengths:**
+
 - **Human-readable source:** Raw markdown is as legible as rendered output
 - **Version control friendly:** Plain text diffs cleanly in Git
 - **Universal adoption:** GitHub, GitLab, static site generators, documentation tools
 - **Minimal syntax:** Learn the basics in minutes
-- **Tool independence:** Edit with any text editor; render with countless tools
+- **Tool independence:** Edit with any text editor; render with countless tools (VS Code, Typora, static site generators, git hosting platforms)
+- **Extensible:** HTML embedding for advanced needs; many flavors/extensions ([GFM](https://github.github.com/gfm/), [MultiMarkdown](https://fletcherpenney.net/multimarkdown/), [Markua](https://markua.com/))
 
 **Limitations:**
-- **Inconsistent implementations:** CommonMark, GitHub Flavored Markdown (GFM), and others have variations
+
+- **Inconsistent implementations:** CommonMark, GitHub Flavored Markdown (GFM), and others have variations that can lead to rendering differences (especially with tables, task lists, images, and extensions)
 - **Limited semantic structure:** No native support for complex layouts or interactive elements
-- **Extensibility via HTML:** Power users embed HTML, breaking portability
+- **Extensibility via HTML:** Power users embed HTML, breaking portability and reading in pure markdown renderers
 - **Table complexity:** Advanced tables require extensions or workarounds
 
 **Use Markdown for:**
+
 - README files, CONTRIBUTING guides, changelogs
 - Static site content (Hugo, Jekyll, MkDocs)
 - Inline documentation in code repositories
 - Personal notes, Zettelkasten systems, wikis
 
 **Avoid Markdown for:**
-- Print-quality documents (use LaTeX or word processors)
+
+- Print-quality documents (use LaTeX, word processors, or HTML/CSS) unless converted, parsed through specialized tools
 - Complex layouts with precise formatting requirements
 - Interactive or dynamic content (unless combined with frameworks)
 
 **Authoritative References:**
+
 - [CommonMark Specification](https://commonmark.org/) — Standardized Markdown syntax
 - [GitHub Flavored Markdown (GFM)](https://github.github.com/gfm/) — GitHub's extended syntax
 - [Markdown Guide](https://www.markdownguide.org/) — Comprehensive reference and best practices
@@ -52,14 +67,19 @@ Markdown was created by John Gruber in 2004 with a clear goal: enable writers to
 **Minimal cheatsheet:**
 
 ### Headings
+
 ```markdown
 # Heading 1
+
 ## Heading 2
+
 ### Heading 3
+
 #### Heading 4
 ```
 
 ### Text Formatting
+
 ```markdown
 **Bold text**
 *Italic text*
@@ -69,19 +89,23 @@ Markdown was created by John Gruber in 2004 with a clear goal: enable writers to
 ```
 
 ### Lists
+
 ```markdown
 Unordered list:
+
 - Item 1
 - Item 2
-  - Nested item
+    - Nested item
 
 Ordered list:
+
 1. First item
 2. Second item
-   1. Nested item
+    1. Nested item
 ```
 
 ### Links and Images
+
 ```markdown
 [Link text](https://example.com)
 [Link with title](https://example.com "Optional title")
@@ -91,6 +115,7 @@ Ordered list:
 ```
 
 ### Code Blocks
+
 ````markdown
 ```python
 def hello():
@@ -99,6 +124,7 @@ def hello():
 ````
 
 ### Blockquotes
+
 ```markdown
 > This is a blockquote.
 > It can span multiple lines.
@@ -107,11 +133,13 @@ def hello():
 ```
 
 ### Horizontal Rule
+
 ```markdown
 ---
 ```
 
 ### Tables (GFM)
+
 ```markdown
 | Column 1 | Column 2 | Column 3 |
 |----------|----------|----------|
@@ -121,10 +149,11 @@ def hello():
 Alignment:
 | Left | Center | Right |
 |:-----|:------:|------:|
-| A    |   B    |     C |
+| A | B | C |
 ```
 
-### Task Lists (GFM)
+### Task Lists (GFM Extension)
+
 ```markdown
 - [x] Completed task
 - [ ] Pending task
@@ -132,7 +161,10 @@ Alignment:
 
 ## 3. Patterns and Idioms
 
+Here are some common usage patterns for using markdown effectively in documentation and READMEs.
+
 ### README Structure
+
 Most README files follow a consistent pattern:
 
 ```markdown
@@ -142,16 +174,16 @@ Brief one-sentence description.
 
 ## Installation
 
-```bash
+\```bash
 npm install project-name
-```
+\```
 
 ## Usage
 
-```javascript
+\```javascript
 const project = require('project-name');
 project.doSomething();
-```
+\```
 
 ## Contributing
 
@@ -160,9 +192,11 @@ See [CONTRIBUTING.md](CONTRIBUTING.md)
 ## License
 
 MIT License
+
 ```
 
 ### Documentation Organization
+
 ```markdown
 # Feature Name
 
@@ -183,6 +217,7 @@ Links to related docs
 ```
 
 ### Linking Within Repository
+
 ```markdown
 Relative links to other markdown files:
 [See the guide](docs/guide.md)
@@ -195,16 +230,33 @@ Cross-file heading links:
 ```
 
 ### Embedding Code Snippets
-```markdown
-Reference code in repository:
-See [example.py](src/example.py) for implementation.
 
 Inline snippet with highlighting:
+
 ```python
 # File: src/example.py
 def process_data(items):
     return [item.upper() for item in items]
 ```
+
+### Embedding ASCI DIagrams
+
+Wrapping Ascii diagrams in code blocks for proper rendering:
+
+```asciidoc
+  +---------+
+  |  Start  |
+  +---------+
+       |
+       v
+  +---------+
+  | Process |
+  +---------+
+       |
+       v
+  +---------+
+  |   End   |
+  +---------+
 ```
 
 ## 4. Tooling and Rendering
@@ -235,6 +287,7 @@ def process_data(items):
 ## 5. Integration
 
 ### Version Control
+
 ```bash
 # All markdown files are plain text, perfect for Git
 git add README.md
@@ -243,10 +296,11 @@ git diff HEAD~1 README.md  # Clean, readable diffs
 ```
 
 ### CI/CD Documentation Builds
+
 ```yaml
 # GitHub Actions example
 name: Build Docs
-on: [push]
+on: [ push ]
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -262,6 +316,9 @@ jobs:
 ```
 
 ### Auto-Generated Documentation
+
+Example usage of badges and links to generated docs in a README.md file:
+
 ```markdown
 <!-- Embed badges -->
 ![Build Status](https://github.com/user/repo/workflows/CI/badge.svg)
@@ -272,22 +329,24 @@ See [API Documentation](https://user.github.io/repo/api/)
 ```
 
 ### Documentation as Code
+
 ```markdown
 Store documentation alongside source:
 project/
 ├── src/
 ├── docs/
-│   ├── architecture.md
-│   ├── api-reference.md
-│   └── guides/
-│       ├── quickstart.md
-│       └── advanced.md
+│ ├── architecture.md
+│ ├── api-reference.md
+│ └── guides/
+│ ├── quickstart.md
+│ └── advanced.md
 └── README.md
 ```
 
 ## 6. Accessibility and Review
 
 ### Accessibility Practices
+
 - **Alt text for images:** Always provide meaningful descriptions
   ```markdown
   ![Architecture diagram showing three-layer separation](diagrams/architecture.png)
@@ -301,12 +360,14 @@ project/
 - **Table headers:** Ensure tables have proper header rows for screen readers
 
 ### Review and Versioning
+
 - **Preview before committing:** Use editor preview or local site build
 - **Lint for consistency:** Run markdownlint in pre-commit hooks
 - **Track changes with Git:** Markdown diffs are human-readable
 - **Version documentation with code:** Tag releases include corresponding docs
 
 ### Common Pitfalls
+
 - **Inconsistent spacing:** Blank lines around headings, code blocks vary by renderer
 - **HTML fallback abuse:** Embedding complex HTML reduces portability
 - **Broken relative links:** Test links in rendered context, not just source
@@ -314,81 +375,7 @@ project/
 
 ## 7. Example and Reference
 
-**Complete working example: Project README**
-
-```markdown
-# Task Manager
-
-A simple command-line task management tool written in Python.
-
-## Features
-
-- Add, list, and complete tasks
-- Persistent storage in JSON format
-- Filter by status and priority
-
-## Installation
-
-```bash
-pip install task-manager
-```
-
-## Usage
-
-```bash
-# Add a task
-task add "Write documentation"
-
-# List all tasks
-task list
-
-# Complete a task
-task complete 1
-
-# Filter by status
-task list --status pending
-```
-
-## Configuration
-
-Create `~/.taskrc`:
-
-```json
-{
-  "default_priority": "medium",
-  "storage_path": "~/.tasks.json"
-}
-```
-
-## Development
-
-```bash
-# Clone repository
-git clone https://github.com/user/task-manager
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run tests
-pytest
-
-# Lint code
-flake8 src/
-```
-
-## Contributing
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
-## License
-
-MIT License — see [LICENSE](LICENSE) for details.
-
-## References
-
-- [Task Management Best Practices](https://example.com)
-- [CLI Design Patterns](https://example.com)
-```
+A complete working example can be seen by downloading this file: [Project README](/attachments/EXAMPLE_README.md)
 
 **Best practices demonstrated:**
 - Clear hierarchy of headings
@@ -397,8 +384,3 @@ MIT License — see [LICENSE](LICENSE) for details.
 - Relative links to repository files
 - Consistent formatting throughout
 
-**Further Reading:**
-- [CommonMark Specification](https://commonmark.org/)
-- [Markdown Guide](https://www.markdownguide.org/)
-- [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)
-- [Markdown Style Guide](https://google.github.io/styleguide/docguide/style.html)

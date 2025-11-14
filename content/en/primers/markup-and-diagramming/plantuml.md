@@ -11,6 +11,7 @@ PlantUML generates diagrams from plain-text descriptions, enabling version-contr
 It supports UML diagrams, architectural sketches, and various other diagram types through a concise, 
 readable syntax that integrates seamlessly with development workflows.
 """
+draft = true
 +++
 
 ## 1. Purpose and Philosophy
@@ -18,6 +19,7 @@ readable syntax that integrates seamlessly with development workflows.
 PlantUML was created to solve a fundamental problem: visual diagrams in traditional tools (Visio, draw.io) don't version control well and drift from code. By describing diagrams as text, PlantUML treats diagrams like code—diffable, mergeable, and automatically renderable.
 
 **Strengths:**
+
 - **Version control friendly:** Plain text files in Git show meaningful diffs
 - **Consistency:** Automatic layout ensures uniform styling across diagrams
 - **Integration:** Renders in CI/CD, documentation sites, IDEs, and wikis
@@ -25,12 +27,14 @@ PlantUML was created to solve a fundamental problem: visual diagrams in traditio
 - **Toolchain independence:** Render via CLI, web service, or IDE plugins
 
 **Limitations:**
+
 - **Layout control:** Automatic layout sometimes produces suboptimal arrangements
 - **Learning curve:** Syntax is terse; advanced features require documentation lookups
 - **Rendering dependencies:** Requires Java runtime and Graphviz for some diagram types
 - **Visual tweaking:** Fine-grained positioning and styling is limited compared to WYSIWYG tools
 
 **Use PlantUML for:**
+
 - Architecture diagrams in documentation (C4 models, component diagrams)
 - Sequence diagrams for interaction flows
 - Class diagrams for domain modeling
@@ -38,11 +42,13 @@ PlantUML was created to solve a fundamental problem: visual diagrams in traditio
 - Any diagram that should evolve with code
 
 **Avoid PlantUML for:**
+
 - High-fidelity mockups or pixel-perfect layouts
 - Diagrams requiring frequent visual iteration (use draw.io for drafts, then migrate to PlantUML)
 - Presentations where manual layout control is critical
 
 **Authoritative References:**
+
 - [PlantUML Official Site](https://plantuml.com/) — Syntax reference, examples, online editor
 - [PlantUML Language Reference Guide](https://plantuml.com/guide) — Comprehensive syntax documentation
 - [Real World PlantUML](https://real-world-plantuml.com/) — Community-contributed examples
@@ -53,6 +59,7 @@ PlantUML was created to solve a fundamental problem: visual diagrams in traditio
 **Minimal cheatsheet:**
 
 ### Sequence Diagram
+
 ```plantuml
 @startuml
 actor User
@@ -70,6 +77,7 @@ UI --> User: Rendered page
 ```
 
 ### Component Diagram
+
 ```plantuml
 @startuml
 package "Presentation Layer" {
@@ -94,6 +102,7 @@ database "PostgreSQL" {
 ```
 
 ### Class Diagram
+
 ```plantuml
 @startuml
 class Task {
@@ -115,6 +124,7 @@ Task --> Status
 ```
 
 ### Deployment Diagram
+
 ```plantuml
 @startuml
 node "Web Server" {
@@ -135,6 +145,7 @@ node "Database Server" {
 ```
 
 ### C4 Context Diagram
+
 ```plantuml
 @startuml
 !include https://raw.githubusercontent.com/plantuml-stdlib/C4-PlantUML/master/C4_Context.puml
@@ -151,6 +162,7 @@ Rel(taskSystem, emailSystem, "Sends emails via")
 ## 3. Patterns and Idioms
 
 ### Documentation Structure
+
 Organize diagrams alongside code or in dedicated directories:
 
 ```
@@ -170,6 +182,7 @@ project/
 ```
 
 ### Common Styling Patterns
+
 ```plantuml
 @startuml
 ' Custom styling for consistent look
@@ -188,6 +201,7 @@ A --> B
 ```
 
 ### Including Shared Definitions
+
 ```plantuml
 @startuml
 ' common-styles.iuml
@@ -206,6 +220,7 @@ database "DB" DATABASE_COLOR
 ```
 
 ### Embedding Notes and Documentation
+
 ```plantuml
 @startuml
 class Task {
@@ -224,6 +239,7 @@ end note
 ## 4. Tooling and Rendering
 
 ### Command-Line Rendering
+
 ```bash
 # Install PlantUML (requires Java)
 # macOS:
@@ -249,27 +265,31 @@ plantuml -gui src/diagrams/
 ```
 
 ### IDE Integration
+
 - **VS Code:** [PlantUML Extension](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml)
-  - Live preview, syntax highlighting, export
+    - Live preview, syntax highlighting, export
 - **IntelliJ IDEA:** [PlantUML Integration Plugin](https://plugins.jetbrains.com/plugin/7017-plantuml-integration)
 - **Eclipse:** [PlantUML Plugin](https://plantuml.com/eclipse)
 - **Atom:** [PlantUML Viewer](https://atom.io/packages/plantuml-viewer)
 
 ### Online Editors
+
 - [PlantUML Online Server](https://www.plantuml.com/plantuml/uml/)
 - [PlantText](https://www.planttext.com/)
 
 ### Rendering Services
+
 ```markdown
 Embed in Markdown (GitHub, GitLab):
 ![Diagram](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/user/repo/main/diagram.puml)
 ```
 
 ### Build Integration
+
 ```yaml
 # GitHub Actions: Render PlantUML in CI
 name: Render Diagrams
-on: [push]
+on: [ push ]
 jobs:
   render:
     runs-on: ubuntu-latest
@@ -285,6 +305,7 @@ jobs:
 ## 5. Integration
 
 ### Hugo/Jekyll Static Sites
+
 ```bash
 # Pre-render diagrams in build pipeline
 #!/bin/bash
@@ -295,24 +316,27 @@ done
 
 ```markdown
 # Reference in markdown
+
 ![Architecture Diagram](images/architecture.svg)
 ```
 
 ### Documentation as Code
+
 ```markdown
 Keep diagrams next to code they document:
 
 project/
 ├── src/
-│   ├── domain/
-│   │   ├── task.py
-│   │   └── task-model.puml      # Domain model diagram
-│   └── api/
-│       ├── routes.py
-│       └── api-sequence.puml    # API interaction diagram
+│ ├── domain/
+│ │ ├── task.py
+│ │ └── task-model.puml # Domain model diagram
+│ └── api/
+│ ├── routes.py
+│ └── api-sequence.puml # API interaction diagram
 ```
 
 ### Version Control Workflow
+
 ```bash
 # Edit diagram
 vim docs/architecture.puml
@@ -326,6 +350,7 @@ git commit -m "Update architecture diagram"
 ```
 
 ### Automated Diagram Updates
+
 ```makefile
 # Makefile for diagram rendering
 DIAGRAMS := $(wildcard docs/**/*.puml)
@@ -345,6 +370,7 @@ clean:
 ## 6. Accessibility and Review
 
 ### Accessibility Practices
+
 - **Alt text in markdown:** Provide meaningful descriptions when embedding diagrams
   ```markdown
   ![Sequence diagram showing user login flow with authentication service](diagrams/login-sequence.svg)
@@ -354,6 +380,7 @@ clean:
 - **Descriptive labels:** Avoid abbreviations; spell out component names
 
 ### Review and Versioning
+
 - **Text diffs are readable:** Reviewers can see diagram changes in Git diffs
 - **Comments in diagrams:** Use `' single quote` for inline comments
   ```plantuml
@@ -376,6 +403,7 @@ clean:
   ```
 
 ### Common Pitfalls
+
 - **Graphviz dependency:** Some diagrams require Graphviz; install with PlantUML
 - **Large diagrams become unreadable:** Break into multiple smaller diagrams
 - **Layout quirks:** Use `skinparam linetype ortho` for cleaner orthogonal lines
@@ -447,11 +475,13 @@ end note
 ```
 
 **Render:**
+
 ```bash
 plantuml -tsvg architecture-layers.puml
 ```
 
 **Embed in documentation:**
+
 ```markdown
 # System Architecture
 
@@ -463,6 +493,7 @@ Each layer has clear responsibilities and dependencies flow downward only.
 ```
 
 **Best practices demonstrated:**
+
 - Descriptive title with version/date context
 - Consistent styling via skinparam
 - Clear layer boundaries with packages
@@ -471,6 +502,7 @@ Each layer has clear responsibilities and dependencies flow downward only.
 - SVG output for web rendering
 
 **Further Reading:**
+
 - [PlantUML Documentation](https://plantuml.com/)
 - [C4 Model with PlantUML](https://github.com/plantuml-stdlib/C4-PlantUML)
 - [Real World PlantUML Examples](https://real-world-plantuml.com/)

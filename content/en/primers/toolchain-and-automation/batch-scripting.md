@@ -11,6 +11,7 @@ Batch scripting uses .bat or .cmd files to automate Windows command-line tasks. 
 it remains the lowest-common-denominator automation tool on Windows systems, requiring no additional dependencies 
 or runtimes beyond the operating system itself.
 """
+draft = true
 +++
 
 ## 1. Philosophy and Context

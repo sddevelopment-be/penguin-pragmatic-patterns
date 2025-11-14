@@ -35,6 +35,17 @@
                 {{ .Content }}
             </div>
         </div>
+
+        <details class="content pattern related">
+            <summary>References and Related Patterns</summary>
+            <div class="related-content">
+                <h2>Further Exploration</h2>
+
+                {{ partial "references.html" . }}
+
+            </div>
+        </details>
+
     </div>
 
     {{ partial "sidebar.html" .}}

@@ -11,6 +11,7 @@ Java is a statically-typed, object-oriented language designed for portability, r
 It combines strict type safety with platform independence through the JVM, making it the foundation of enterprise systems, 
 Android development, and large-scale distributed applications.
 """
+draft = true
 +++
 
 ## 1. Language Philosophy
@@ -26,6 +27,7 @@ Java was created by Sun Microsystems (now Oracle) with an explicit goal: enable 
 Use Java for enterprise backends, Android applications, microservices, data processing pipelines, and any system where long-term maintainability and vendor-neutral portability matter.
 
 **Authoritative References:**
+
 - [Oracle Java Documentation](https://docs.oracle.com/en/java/) — Official language specification, API docs, tutorials
 - [OpenJDK Project](https://openjdk.org/) — Open-source reference implementation
 - [Java Language Specification](https://docs.oracle.com/javase/specs/) — Formal grammar and semantics
@@ -35,17 +37,18 @@ Use Java for enterprise backends, Android applications, microservices, data proc
 
 Java's syntax is deliberately verbose to prioritize clarity over brevity. Naming conventions are enforced by community consensus and tooling.
 
-| Element | Convention | Example |
-|---------|-----------|---------|
-| Classes | `PascalCase` | `TaskManager`, `UserRepository` |
-| Interfaces | `PascalCase`, often adjectives | `Runnable`, `Serializable`, `TaskProcessor` |
-| Methods | `camelCase`, verb-based | `getTasks()`, `markCompleted()`, `processQueue()` |
-| Variables | `camelCase` | `taskList`, `maxRetries` |
-| Constants | `UPPER_SNAKE_CASE` | `MAX_CONNECTIONS`, `DEFAULT_TIMEOUT` |
-| Packages | `lowercase.separated` | `com.example.tasks`, `org.patterns.domain` |
-| Enums | `PascalCase` (type), `UPPER_CASE` (values) | `Status.PENDING`, `Status.COMPLETED` |
+| Element    | Convention                                 | Example                                           |
+|------------|--------------------------------------------|---------------------------------------------------|
+| Classes    | `PascalCase`                               | `TaskManager`, `UserRepository`                   |
+| Interfaces | `PascalCase`, often adjectives             | `Runnable`, `Serializable`, `TaskProcessor`       |
+| Methods    | `camelCase`, verb-based                    | `getTasks()`, `markCompleted()`, `processQueue()` |
+| Variables  | `camelCase`                                | `taskList`, `maxRetries`                          |
+| Constants  | `UPPER_SNAKE_CASE`                         | `MAX_CONNECTIONS`, `DEFAULT_TIMEOUT`              |
+| Packages   | `lowercase.separated`                      | `com.example.tasks`, `org.patterns.domain`        |
+| Enums      | `PascalCase` (type), `UPPER_CASE` (values) | `Status.PENDING`, `Status.COMPLETED`              |
 
 **Style enforcement:**
+
 - [Checkstyle](https://checkstyle.org/) for coding standards
 - [SpotBugs](https://spotbugs.github.io/) for bug detection
 - [Google Java Format](https://github.com/google/google-java-format) or [Eclipse Formatter](https://www.eclipse.org/downloads/)
@@ -55,14 +58,15 @@ Java's syntax is deliberately verbose to prioritize clarity over brevity. Naming
 
 Java versions follow a time-based release model (every 6 months). Long-Term Support (LTS) releases (currently 8, 11, 17, 21) receive extended updates.
 
-| Tool/Concept | Role | Notes |
-|-------------|------|-------|
-| JDK (Java Development Kit) | Compiler, runtime, standard libraries | Use OpenJDK or vendor distributions (Temurin, Azul Zulu) |
-| Maven | Declarative build and dependency management | `pom.xml`-based, widely adopted |
-| Gradle | Flexible build automation with Groovy/Kotlin DSL | Faster incremental builds, Android standard |
-| jEnv / SDKMAN! | JDK version manager | Switch between Java versions per project |
+| Tool/Concept               | Role                                             | Notes                                                    |
+|----------------------------|--------------------------------------------------|----------------------------------------------------------|
+| JDK (Java Development Kit) | Compiler, runtime, standard libraries            | Use OpenJDK or vendor distributions (Temurin, Azul Zulu) |
+| Maven                      | Declarative build and dependency management      | `pom.xml`-based, widely adopted                          |
+| Gradle                     | Flexible build automation with Groovy/Kotlin DSL | Faster incremental builds, Android standard              |
+| jEnv / SDKMAN!             | JDK version manager                              | Switch between Java versions per project                 |
 
 Typical workflow with Maven:
+
 ```bash
 # Install SDKMAN (https://sdkman.io/)
 curl -s "https://get.sdkman.io" | bash
@@ -84,15 +88,16 @@ mvn clean install
 
 Java build tools manage compilation, testing, packaging (JARs/WARs), and dependency resolution.
 
-| Tool | Role | Notes |
-|------|------|-------|
-| Maven | Standard build lifecycle, plugin ecosystem | Opinionated structure (`src/main/java`, `src/test/java`) |
-| Gradle | Modern build automation, Kotlin/Groovy DSL | Faster builds, better for multi-module projects |
-| Ant | Legacy build tool | XML-based, largely replaced by Maven/Gradle |
-| jlink | Custom JRE creation (Java 9+) | Bundles minimal runtime with application |
-| jpackage | Native installer generation (Java 14+) | Creates platform-specific installers |
+| Tool     | Role                                       | Notes                                                    |
+|----------|--------------------------------------------|----------------------------------------------------------|
+| Maven    | Standard build lifecycle, plugin ecosystem | Opinionated structure (`src/main/java`, `src/test/java`) |
+| Gradle   | Modern build automation, Kotlin/Groovy DSL | Faster builds, better for multi-module projects          |
+| Ant      | Legacy build tool                          | XML-based, largely replaced by Maven/Gradle              |
+| jlink    | Custom JRE creation (Java 9+)              | Bundles minimal runtime with application                 |
+| jpackage | Native installer generation (Java 14+)     | Creates platform-specific installers                     |
 
 Maven standard project layout:
+
 ```
 myapp/
 ├── pom.xml                    # Build configuration
@@ -114,37 +119,40 @@ myapp/
 
 Java has mature testing ecosystems supporting unit, integration, and property-based testing.
 
-| Framework | Purpose | Notes |
-|-----------|---------|-------|
-| JUnit 5 | Unit and integration testing | De facto standard, annotation-based |
-| Mockito | Mocking framework | Test doubles for dependencies |
-| AssertJ | Fluent assertions | More readable than JUnit assertions |
-| TestContainers | Integration testing with Docker | Real databases/services in tests |
-| ArchUnit | Architecture testing | Enforce package dependencies, naming rules |
+| Framework      | Purpose                         | Notes                                      |
+|----------------|---------------------------------|--------------------------------------------|
+| JUnit 5        | Unit and integration testing    | De facto standard, annotation-based        |
+| Mockito        | Mocking framework               | Test doubles for dependencies              |
+| AssertJ        | Fluent assertions               | More readable than JUnit assertions        |
+| TestContainers | Integration testing with Docker | Real databases/services in tests           |
+| ArchUnit       | Architecture testing            | Enforce package dependencies, naming rules |
 
 Example JUnit 5 test:
+
 ```java
 import org.junit.jupiter.api.Test;
+
 import static org.assertj.core.api.Assertions.assertThat;
 
 class TaskManagerTest {
-    
-    @Test
-    void shouldMarkTaskAsCompleted() {
-        // Given
-        TaskManager manager = new TaskManager();
-        Task task = new Task("Deploy");
-        
-        // When
-        manager.complete(task);
-        
-        // Then
-        assertThat(task.getStatus()).isEqualTo(Status.COMPLETED);
-    }
+
+	@Test
+	void shouldMarkTaskAsCompleted() {
+		// Given
+		TaskManager manager = new TaskManager();
+		Task task = new Task("Deploy");
+
+		// When
+		manager.complete(task);
+
+		// Then
+		assertThat(task.getStatus()).isEqualTo(Status.COMPLETED);
+	}
 }
 ```
 
 Run tests:
+
 ```bash
 mvn test                  # Maven
 ./gradlew test            # Gradle
@@ -153,75 +161,78 @@ mvn test                  # Maven
 ## 6. Programming Idioms
 
 ### 6.1 Object-Oriented Idioms
+
 Java enforces OOP through classes, interfaces, and inheritance. Modern Java (8+) adds functional features while maintaining object-centric design.
 
 ```java
 // Encapsulation with immutability (modern approach)
 public final class Task {
-    private final String name;
-    private final Status status;
-    
-    public Task(String name) {
-        this.name = name;
-        this.status = Status.PENDING;
-    }
-    
-    public Task complete() {
-        return new Task(this.name, Status.COMPLETED);
-    }
-    
-    // Getters, equals, hashCode, toString
+	private final String name;
+	private final Status status;
+
+	public Task(String name) {
+		this.name = name;
+		this.status = Status.PENDING;
+	}
+
+	public Task complete() {
+		return new Task(this.name, Status.COMPLETED);
+	}
+
+	// Getters, equals, hashCode, toString
 }
 
 // Interface-based design
 public interface TaskRepository {
-    List<Task> findAll();
-    Optional<Task> findById(String id);
-    void save(Task task);
+	List<Task> findAll();
+
+	Optional<Task> findById(String id);
+
+	void save(Task task);
 }
 ```
 
 ### 6.2 Functional Programming Idioms
+
 Java 8+ introduced lambda expressions, streams, and Optional for functional-style programming.
 
 ```java
 // Stream-based transformation
-List<Task> completedTasks = tasks.stream()
-    .filter(task -> task.getStatus() == Status.COMPLETED)
-    .sorted(Comparator.comparing(Task::getName))
-    .collect(Collectors.toList());
+List<Task> completedTasks =
+		tasks.stream().filter(task -> task.getStatus() == Status.COMPLETED).sorted(Comparator.comparing(Task::getName)).collect(Collectors.toList());
 
 // Optional to avoid nulls
 Optional<Task> task = repository.findById("123");
-String name = task
-    .map(Task::getName)
-    .orElse("Unknown");
+String name = task.map(Task::getName).orElse("Unknown");
 ```
 
 ### 6.3 Imperative Programming Idioms
+
 Traditional control flow remains common for orchestration and business logic.
 
 ```java
 public void deployApplication(Config config) throws DeploymentException {
-    logger.info("Starting deployment");
-    
-    try {
-        validateConfig(config);
-        buildArtifacts();
-        runTests();
-        deployToEnvironment(config.getEnvironment());
-        
-        logger.info("Deployment successful");
-    } catch (ValidationException | BuildException e) {
-        logger.error("Deployment failed", e);
-        rollback();
-        throw new DeploymentException("Deployment aborted", e);
-    }
+	logger.info("Starting deployment");
+
+	try {
+		validateConfig(config);
+		buildArtifacts();
+		runTests();
+		deployToEnvironment(config.getEnvironment());
+
+		logger.info("Deployment successful");
+	} catch (ValidationException | BuildException e) {
+		logger.error("Deployment failed", e);
+		rollback();
+		throw new DeploymentException("Deployment aborted", e);
+	}
 }
 ```
 
 ### 6.4 Idiom Integration
+
 Modern Java combines OO structure with functional utilities:
+
 - Domain core: immutable value objects, rich entities
 - Service layer: interfaces with functional transformations
 - Infrastructure: imperative orchestration, error handling
@@ -229,6 +240,7 @@ Modern Java combines OO structure with functional utilities:
 ## 7. Workspace Bootstrap
 
 **Prerequisites:**
+
 - JDK 21 (or latest LTS)
 - Maven or Gradle
 - IDE (IntelliJ IDEA, Eclipse, VS Code with Java extensions)
@@ -256,23 +268,25 @@ curl https://start.spring.io/starter.zip \
 ```
 
 **Essential plugins (Maven pom.xml):**
+
 ```xml
+
 <build>
-    <plugins>
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-compiler-plugin</artifactId>
-            <version>3.11.0</version>
-            <configuration>
-                <release>21</release>
-            </configuration>
-        </plugin>
-        <plugin>
-            <groupId>org.apache.maven.plugins</groupId>
-            <artifactId>maven-surefire-plugin</artifactId>
-            <version>3.2.1</version>
-        </plugin>
-    </plugins>
+	<plugins>
+		<plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-compiler-plugin</artifactId>
+			<version>3.11.0</version>
+			<configuration>
+				<release>21</release>
+			</configuration>
+		</plugin>
+		<plugin>
+			<groupId>org.apache.maven.plugins</groupId>
+			<artifactId>maven-surefire-plugin</artifactId>
+			<version>3.2.1</version>
+		</plugin>
+	</plugins>
 </build>
 ```
 
@@ -330,6 +344,7 @@ java -jar target/myapp-1.0-SNAPSHOT.jar
 ```
 
 **Common validation points:**
+
 - [ ] JDK 21+ installed and on PATH
 - [ ] Maven or Gradle functioning
 - [ ] Project compiles without errors
@@ -340,18 +355,21 @@ java -jar target/myapp-1.0-SNAPSHOT.jar
 ## 10. Appendix
 
 **Official Documentation:**
+
 - [Oracle Java Documentation](https://docs.oracle.com/en/java/)
 - [Java Tutorials](https://docs.oracle.com/javase/tutorial/)
 - [Java Language Specification](https://docs.oracle.com/javase/specs/)
 - [OpenJDK](https://openjdk.org/)
 
 **Learning Resources:**
+
 - [Effective Java (Joshua Bloch)](https://www.oreilly.com/library/view/effective-java/9780134686097/) — Essential best practices
 - [Java Concurrency in Practice](https://jcip.net/) — Multithreading fundamentals
 - [Spring Framework Documentation](https://spring.io/projects/spring-framework) — Enterprise application development
 - [Modern Java in Action](https://www.manning.com/books/modern-java-in-action) — Java 8+ features
 
 **Common Pitfalls:**
+
 - **NullPointerException:** Use `Optional` and null-safe operators
 - **Version mismatches:** Lock JDK version per project with `.sdkmanrc` or `toolchains.xml`
 - **ClassNotFoundException:** Verify dependency scopes and packaging
@@ -359,6 +377,7 @@ java -jar target/myapp-1.0-SNAPSHOT.jar
 - **Encoding issues:** Always specify UTF-8 explicitly
 
 **IDE Configuration:**
+
 - [IntelliJ IDEA](https://www.jetbrains.com/idea/) — Industry standard for Java
 - [Eclipse](https://www.eclipse.org/downloads/) — Free, mature, extensive plugin ecosystem
 - [VS Code Java Extension Pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)

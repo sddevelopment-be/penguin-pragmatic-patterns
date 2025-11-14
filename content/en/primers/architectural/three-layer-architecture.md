@@ -10,6 +10,7 @@ summary = """
 Three-Layer Architecture (also called Three-Tier) separates applications into presentation, business logic, and data access layers. 
 This clear boundary structure promotes maintainability, testability, and enables independent evolution of UI, logic, and persistence concerns.
 """
+draft = true
 +++
 
 ## 1. Concept Overview

@@ -23,7 +23,7 @@ related_practices = [
 further_exploration = [
 	{ type = "raw", title = "Ikigai", link = "https://en.wikipedia.org/wiki/Ikigai", site = "Wikipedia", year="retr. 2025", author="various authors" },
 	{type="raw", author="Kedia, Surabhi", year="2020", title="Discovering Ikigai: The Japanese Concept of a Fulfilling Life", site="The Mindfool", link="https://themindfool.com/ikigai/"},
-	{type="raw", author="Japanese Governement", year="2022", title="Ikigai: The Japanese Secret to a Long and Happy Life", site="JapanGov", link="https://www.japan.go.jp/kizuna/2022/03/ikigai_japanese_secret_to_a_joyful_life.html"}
+	{type="raw", author="Japanese Government", year="2022", title="Ikigai: The Japanese Secret to a Long and Happy Life", site="JapanGov", link="https://www.japan.go.jp/kizuna/2022/03/ikigai_japanese_secret_to_a_joyful_life.html"}
 ]
 +++
 

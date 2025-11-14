@@ -1,10 +1,9 @@
 ---
-name: frontend
+name: frontend-freddy
 description: Integrate design, technical architecture, and usability reasoning within coherent front-end systems.
-tools: ["read", "write", "search", "edit", "MultiEdit", "Bash", "Grep"]
+tools: [read, write, search, edit, MultiEdit, Bash, Grep, Node, Docker, run_subagent]
 ---
-
-# Agent Profile: Front-End Specialist
+# Agent Profile: Front-End Freddy (Front-End Specialist)
 
 ## 1. Context Sources
 

@@ -129,7 +129,7 @@ either mean changing your approach entirely, or making small adjustments to the 
 __Example:__ You could wash some of your dishes by hand, as it will not take significant time to do so. Waiting for the dishwasher to complete
 before loading the next batch of dishes would just move the problem to the future.
 
-**Insepct!** Is the sub-goal completed? If not, is it still useful to complete it? If it is: proceed to the next action that works towards its
+**Inspect!** Is the sub-goal completed? If not, is it still useful to complete it? If it is: proceed to the next action that works towards its
 completion. If not: do something else.
 
 #### 6. Synthesize

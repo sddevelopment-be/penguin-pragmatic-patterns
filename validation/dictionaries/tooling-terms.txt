@@ -53,3 +53,5 @@ stdlib
 venvs
 hyperparameters
 pip-tools
+delegative
+logotherapy

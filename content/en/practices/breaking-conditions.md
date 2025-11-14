@@ -13,7 +13,7 @@ categories = [
     "productivity",
 ]
 tags = [
-    "goals", "pivotting"
+    "goals", "pivoting"
 ]
 outputs = ['html', 'json']
 uuid="49014706-77a2-4b8f-82de-75c16cac9c8c"

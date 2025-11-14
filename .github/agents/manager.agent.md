@@ -1,7 +1,7 @@
 ---
 name: manager-mike
 description: Coordinate multi-agent workflows, routing, and status tracking.
-tools: ["read", "write", "search", "edit", "github", "custom-agent", "todo"]
+tools: [read, write, search, edit, github, custom-agent, todo, run_subagent]
 ---
 
 # Agent Profile: Manager Mike (Coordinator / Router)

@@ -4,7 +4,7 @@ description: Design reproducible build, test, and release pipelines for SDD repo
 tools: ["read", "write", "search", "edit", "MultiEdit", "Bash", "Grep", "github", "yaml"]
 ---
 
-# Agent Profile: Build Automation
+# Agent Profile: DevOps Danny (Build Automation Specialist)
 
 ## 1. Context Sources
 

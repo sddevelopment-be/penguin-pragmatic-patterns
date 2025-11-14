@@ -69,7 +69,7 @@ The following factors prevent effective application of the practice:
 While the approach brings numerous benefits, it can also lead to several unexpected or undesired outcomes:
 
 {{< stub text=`how the situation changes after applying the pattern.  
-Try and focus on elements that are not immediatly apparent from the "intent" section.  
+Try and focus on elements that are not imediatly apparent from the "intent" section.  
 Be sure to highlight potential unintended effects.` >}}
 
 ### Mitigation strategies

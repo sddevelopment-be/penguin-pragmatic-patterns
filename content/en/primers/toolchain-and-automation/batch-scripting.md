@@ -17,7 +17,7 @@ or runtimes beyond the operating system itself.
 
 Batch scripting emerged from MS-DOS and carried forward into Windows as a simple automation layer. While modern alternatives like PowerShell offer more power, batch scripts remain relevant for minimal environments, legacy systems, and scenarios where dependency-free execution is critical.
 
-**What problem this automation layer solves:**
+**What problem this automation laNyer solves:**
 - Automate repetitive command-line tasks without installing additional runtimes
 - Provide simple orchestration for build processes, file operations, and system maintenance
 - Offer quick automation wins in restricted corporate environments

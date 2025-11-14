@@ -26,6 +26,26 @@ This directory contains templates for creating different types of issues in the 
 
 ### Legacy Templates (Maintained for Backward Compatibility)
 
+#### primer-epic.yml
+**Primer Epic** - Multi-phase primer series initiative
+- Use for: Strategic primer series development across families
+- Duration: Months to ongoing
+- Example: "Epic: Primer Series Implementation"
+
+#### primer-feature.yml
+**Primer Feature** - Cohesive batch of primers
+- Use for: Family-specific or split-focus primer batches
+- Duration: 1-3 weeks
+- Belongs to: A Primer Epic
+- Example: "Feature: Phase 1 - Programming Languages Batch"
+
+#### primer-task.yml
+**Primer Task** - Create a single primer
+- Use for: Individual primer creation (research → draft → review → integrate)
+- Duration: 2-8 hours
+- Belongs to: A Primer Feature
+- Example: "Task: Create PowerShell Primer"
+
 #### 10-task.yml
 Legacy primer task template - **Deprecated**, use 02-task.yml instead
 - Retained for existing primer-specific workflows
@@ -57,6 +77,14 @@ Epic (00-epic.yml)
     └── Task (02-task.yml)
 ```
 
+For primer-specific work, use specialized templates:
+
+```
+Primer Epic (primer-epic.yml)
+└── Primer Feature (primer-feature.yml)
+    └── Primer Task (primer-task.yml)
+```
+
 ## Recommended Labels
 
 ### Hierarchy Labels
@@ -75,6 +103,15 @@ Epic (00-epic.yml)
 - `type: bug` - Defects to fix
 - `type: maintenance` - Documentation and refactoring
 - `type: automation` - CI/CD and workflow improvements
+
+### Primer Labels
+- `primer-series` - All primer-related work
+- `primer-programming` - Programming language primers
+- `primer-markup` - Markup and diagramming primers
+- `primer-toolchain` - Toolchain and automation primers
+- `primer-architectural` - Architectural primers
+- `primer-algorithmic` - Algorithmic primers
+- `primer-phase-0` through `primer-phase-5` - Roadmap phase tracking
 
 ## Best Practices
 
@@ -102,6 +139,34 @@ Epic (00-epic.yml)
    - Hierarchy label (epic/feature/task)
    - Collaboration style (agent-driven, etc.)
    - Type classification (enhancement, bug, etc.)
+   - For primer work: Add `primer-series`, family label, and phase label
+
+## Primer-Specific Guidelines
+
+When working with primer issues:
+
+1. **Always use primer-specific templates** (primer-epic.yml, primer-feature.yml, primer-task.yml)
+   - These templates include primer-specific fields and validation criteria
+   - Reference PRIMER_VISION.md for scope split guidance
+
+2. **Label primer issues consistently:**
+   - Always include `primer-series` label
+   - Add appropriate family label (e.g., `primer-programming`)
+   - Add phase label for roadmap tracking (e.g., `primer-phase-1`)
+   - Add collaboration type (`agent-driven`, `mixed-collaboration`, etc.)
+
+3. **Follow batch sizing recommendations:**
+   - Features: 2-4 primers per batch for quality control
+   - Tasks: One primer per task (research → draft → review → integrate)
+
+4. **Link issues properly:**
+   - Primer Features reference Primer Epic
+   - Primer Tasks reference Primer Feature
+   - Maintain traceability from task to strategic goal
+
+5. **Use quality checklist:**
+   - Reference `.github/PULL_REQUEST_TEMPLATE/primer.md` for acceptance criteria
+   - Validate against family-specific templates in `src/templates/primers/`
 
 ## Creating Issues
 

@@ -150,6 +150,82 @@ Sits between coding and design — teaches problem-shape recognition and reasoni
 | **Geometry / Spatial**      | Line seeking, convex hull, nearest neighbour |
 | **Ordering & Dependencies** | Sorting algorithms, topological sort         |
 
+## Scope Split Recommendations
+
+When planning primer work, use this guidance to break initiatives into manageable pieces:
+
+### Epic-Level Scope
+**Use for:** The entire Primer Series initiative or major multi-family expansions
+- **Scope:** All families or comprehensive coverage across multiple phases
+- **Duration:** Months to ongoing
+- **Example:** "Primer Series Implementation" or "Primer Series Expansion 2025"
+- **Deliverables:** 20+ primers across families, infrastructure, templates, quality standards
+
+### Feature-Level Scope
+**Use for:** Family-specific batches or phase-level primer development
+- **Scope:** 2-4 primers within one family OR 4-9 primers across families (split-focus)
+- **Duration:** 1-3 weeks
+- **Example:** "Phase 1: Programming Languages Batch" or "Architectural Primers - Initial Set"
+- **Deliverables:** Batch of related primers, family index updates, cross-linking
+
+**Split-Focus vs. Single-Family:**
+- **Split-Focus (Recommended for early phases):** Develop 1-2 primers per family simultaneously
+  - **Advantages:** Validates all templates early, provides immediate cross-family value, faster feedback
+  - **Example:** PowerShell + Java + Three-Layer Architecture + Markdown + Batch Scripting
+- **Single-Family:** Develop multiple primers within one family
+  - **Advantages:** Deeper consistency within family, specialized agent focus
+  - **Example:** 4 programming language primers in one batch
+
+### Task-Level Scope
+**Use for:** Individual primer creation
+- **Scope:** One primer from research through integration
+- **Duration:** 2-8 hours (can be broken into sub-tasks if needed)
+- **Example:** "Create PowerShell Primer" or "Research and Draft Java Primer"
+- **Deliverables:** Single primer markdown file, updated family index entry
+
+**Task Breakdown (optional sub-tasks):**
+- Research: Gather authoritative resources (1-2 hours)
+- Draft: Populate template with content (2-3 hours)
+- Review: Lexical and quality validation (1-2 hours)
+- Integration: Update indexes and cross-links (30 minutes)
+
+### When to Use Each Level
+
+| Situation | Use | Example |
+|-----------|-----|---------|
+| Starting primer series | Epic | "Implement Primer Series" |
+| Planning a roadmap phase | Feature | "Phase 1: Split-Focus Development" |
+| Single family expansion | Feature | "Add 3 markup primers" |
+| Creating one primer | Task | "Create Markdown Primer" |
+| Research only | Task | "Research PowerShell ecosystem" |
+| Validation pass | Task | "Lexical review - Programming batch" |
+
+### Scope Boundaries
+
+**Include in Feature scope:**
+- The primer content files themselves
+- Family index updates
+- Initial cross-linking
+- Quality validation for the batch
+
+**Exclude from Feature scope (handle separately):**
+- Template changes (separate maintenance task)
+- New template creation (separate design feature)
+- Global navigation restructuring (separate infrastructure feature)
+- Translation work (separate localization feature)
+
+**Include in Task scope:**
+- Research and reference gathering
+- Content drafting
+- Diagram creation (if needed for that specific primer)
+- Local validation (builds, links work)
+
+**Exclude from Task scope:**
+- Template modifications
+- Other primers in the batch
+- Infrastructure changes
+- Global style changes
+
 ## Summary
 
 The Primer Series forms the applied layer of the Patterns ecosystem:
@@ -564,3 +640,379 @@ Phase 5 (Continuous Expansion)
 **Last Updated:** 2025-11-13  
 **Status:** Phase 0 in progress, Phase 1 primers identified  
 **Next Review:** After Phase 1 batch completion
+
+---
+
+## GITHUB ISSUE TRACKER APPROACH / TARGET OPERATING MODEL
+
+### Overview
+
+The Primer Series implementation uses GitHub's issue tracking system to enable structured collaboration between human contributors and specialized agentic workers. This approach provides traceability, delegation clarity, and progress monitoring across all phases.
+
+### Issue Hierarchy
+
+Primer work is organized using a three-tier hierarchy:
+
+```
+Epic: Primer Series Implementation
+└── Feature: [Family Name] Primer Development (e.g., Programming Languages Phase 1)
+    └── Task: Individual Primer Creation (e.g., PowerShell Primer)
+```
+
+**Epic Level:**
+- Represents the entire Primer Series initiative
+- Tracks strategic milestones across all families
+- Duration: Months to ongoing
+- Label: `epic`, `primer-series`
+- Owner: Project maintainer or strategic lead
+
+**Feature Level:**
+- Represents a cohesive batch of primers within a family or across families (split-focus)
+- Maps to roadmap phases (e.g., "Phase 1: Split-Focus Primer Development")
+- Includes scope definition, deliverables, and acceptance criteria
+- Duration: 1-3 weeks
+- Labels: `feature`, `primer-[family]`, collaboration type
+- Owner: Coordinator agent or human lead
+
+**Task Level:**
+- Represents creation of a single primer
+- Includes research, drafting, review, and integration steps
+- Clear completion criteria from quality checklist
+- Duration: 2-8 hours per task
+- Labels: `task`, `primer-[family]`, agent assignment
+- Owner: Assigned specialist agent or contributor
+
+### Issue Templates
+
+#### Primer Epic Template (primer-epic.yml)
+Used for: Top-level Primer Series tracking
+- Strategic goal and success metrics
+- Phase-level milestones
+- Family coverage targets
+- Quality standards reference
+
+#### Primer Feature Template (primer-feature.yml)
+Used for: Family-level or phase-level primer batches
+- Parent Epic reference
+- Objective: Which primers in which families
+- Scope: Clear boundaries (what's included/excluded)
+- Deliverables: Specific primer files and infrastructure
+- Acceptance criteria: Quality gates from PR template
+- Effort estimate: Batch sizing (2-4 primers recommended)
+- Agent assignments: Primary and supporting agents
+- Dependencies: Template readiness, prerequisite infrastructure
+
+#### Primer Task Template (primer-task.yml)
+Used for: Individual primer creation
+- Parent Feature reference
+- Task description: Specific primer to create
+- Implementation steps: Research → Draft → Review → Integrate
+- Acceptance criteria: Template compliance, build validation
+- Task type: Research, Documentation, or Integration
+- Effort estimate: XS-L (typically S or M)
+- Assigned agent: Researcher, Writer-Editor, Curator, etc.
+- Validation steps: Build check, link verification, quality checklist
+
+### Label Schema
+
+Primer-specific labels extend the existing hierarchy:
+
+**Family Labels:**
+- `primer-programming` - Programming language primers
+- `primer-markup` - Markup and diagramming primers
+- `primer-toolchain` - Toolchain and automation primers
+- `primer-architectural` - Architectural primers
+- `primer-algorithmic` - Algorithmic primers
+
+**Series Label:**
+- `primer-series` - All primer-related work
+
+**Collaboration Labels (existing):**
+- `agent-driven` - Primarily automated work
+- `human-review-required` - Requires human validation
+- `mixed-collaboration` - Collaborative agent + human work
+
+**Phase Labels:**
+- `primer-phase-0` - Foundation and infrastructure
+- `primer-phase-1` - Split-focus initial batch
+- `primer-phase-2` - Family expansion
+- `primer-phase-3` - Deep coverage
+- `primer-phase-4` - Consolidation
+
+### Workflow Integration
+
+**Issue Creation:**
+1. Maintainer creates Epic for overall Primer Series
+2. Coordinator agent or planner creates Features for each phase/batch
+3. Features are broken into Tasks by coordinator or automatically via planning agent
+4. Tasks are assigned to specialist agents based on skillset
+
+**Agent Assignment:**
+- Tasks labeled `agent-driven` are picked up by specialized agents
+- Coordinator agent monitors progress and routes work
+- Human maintainers review at Feature boundaries (quality gates)
+
+**Progress Tracking:**
+- Epic tracks overall completion percentage across families
+- Features track batch completion and quality validation
+- Tasks track individual primer status (research → draft → review → integrated)
+
+**Quality Gates:**
+- Each Feature has acceptance criteria from primer PR template
+- Tasks inherit validation requirements from Feature
+- Human review triggered at phase boundaries via `human-review-required` label
+
+### Agent Delegation Model
+
+**Issue-to-Agent Routing:**
+
+| Task Type | Primary Agent | Supporting Agents | Collaboration |
+|-----------|--------------|-------------------|---------------|
+| Research primer content | Researcher | - | Agent-driven |
+| Draft primer from template | Writer-Editor | Researcher | Agent-driven |
+| Create architectural diagrams | Diagrammer | Architect | Agent-driven |
+| Lexical tone review | Lexical Analyst | Writer-Editor | Agent-driven |
+| Template compliance audit | Curator | - | Agent-driven |
+| Cross-primer consistency | Synthesizer | Curator | Agent-driven |
+| Integration and navigation | Curator | Build Automation | Mixed |
+| Quality gate validation | Curator | Human maintainer | Human-review-required |
+| Translation preparation | Translator | Writer-Editor | Mixed |
+
+**Coordination Flow:**
+
+1. **Planning:** Project Planner creates Feature issues from roadmap phases
+2. **Decomposition:** Coordinator Manager breaks Features into Task issues
+3. **Assignment:** Tasks labeled with appropriate agent and collaboration type
+4. **Execution:** Specialist agents claim and complete assigned tasks
+5. **Review:** Curator validates outputs against templates
+6. **Integration:** Tasks linked to Feature, Feature to Epic
+7. **Validation:** Human review at Feature completion before next phase
+
+### Monitoring and Reporting
+
+**Status Tracking:**
+- Epic progress: % of families with minimum coverage
+- Feature progress: % of planned primers completed and validated
+- Task progress: Individual primer completion status
+
+**Agent Status Files:**
+- `docs/coordination/AGENT_STATUS.md` - Current agent assignments
+- `docs/coordination/WORKFLOW_LOG.md` - Chronological completion log
+- `docs/coordination/HANDOFFS.md` - Ready-for-next-step tracking
+
+**Quality Metrics:**
+- Template compliance rate (Curator validation)
+- Build success rate (CI/CD integration)
+- Cross-link integrity (Automated checks)
+- Lexical consistency score (Lexical Analyst)
+
+### Best Practices
+
+1. **Batch Sizing:** Keep Features to 2-4 primers for quality control
+2. **Agent Focus:** Assign tasks to single specialist agent to avoid conflicts
+3. **Clear Ownership:** Each issue has exactly one owner (agent or human)
+4. **Linked Hierarchy:** Always link Task → Feature → Epic
+5. **Label Discipline:** Use both hierarchy and family labels consistently
+6. **Quality First:** Validate each batch before advancing to next
+7. **Human Checkpoints:** Trigger human review at phase boundaries
+8. **Documentation:** Update status files as work progresses
+
+### Example Issue Chain
+
+```
+Epic #100: Primer Series Implementation
+  └── Feature #101: Phase 1 - Programming Languages Batch
+      ├── Task #102: Research PowerShell Primer [agent-driven, researcher]
+      ├── Task #103: Draft PowerShell Primer [agent-driven, writer-editor]
+      ├── Task #104: Research Java Primer [agent-driven, researcher]
+      ├── Task #105: Draft Java Primer [agent-driven, writer-editor]
+      └── Task #106: Lexical Review - Programming Batch [agent-driven, lexical-analyst]
+  └── Feature #107: Phase 1 - Architectural Batch
+      ├── Task #108: Research Three-Layer Architecture [agent-driven, researcher]
+      ├── Task #109: Create Architecture Diagrams [agent-driven, diagrammer]
+      └── Task #110: Draft Three-Layer Primer [mixed, writer-editor + architect]
+```
+
+---
+
+## SUGGESTED ACTIONS FOR AGENTS
+
+This section outlines which agents are best suited for primer-related work, their expected contributions, and efficiency considerations.
+
+### Agent Capability Matrix
+
+| Agent | Primary Role | Primer Tasks | Efficiency | Tools Required |
+|-------|-------------|--------------|-----------|----------------|
+| **Researcher** | Gather authoritative resources | Research phase for all primers | High - parallel across families | read, write, search, edit, web |
+| **Writer-Editor** | Draft and refine primer content | Drafting phase, content polish | High - follows templates well | read, write, search, edit, bash |
+| **Curator** | Template compliance and consistency | Quality validation, cross-primer audits | High - systematic validation | read, write, search, edit |
+| **Architect** | Architectural content expertise | Lead architectural primer development | Medium - specialized domain | read, write, search, edit |
+| **Diagrammer** | Visual representation creation | Diagrams for architectural and algorithm primers | Medium - specialized skill | read, write, search, edit |
+| **Lexical Analyst** | Tone and voice alignment | Final polish pass, voice consistency | High - rule-based validation | read, write, search, edit, markdown, grep |
+| **Synthesizer** | Cross-primer integration | Resolve overlaps, ensure narrative continuity | Medium - requires holistic view | read, write, search, edit |
+| **Coordinator Manager** | Work routing and status tracking | Feature decomposition, task assignment | High - orchestration specialist | read, write, search, edit, github, custom-agent, todo |
+| **Project Planner** | Roadmap to actionable plans | Phase planning, dependency mapping | High - strategic breakdown | read, write, search, edit, todo, github |
+| **Build Automation** | CI/CD integration validation | Hugo build verification, deployment checks | Medium - technical infrastructure | read, write, search, edit, MultiEdit, bash, grep, github, yaml |
+| **Translator** | Localization preparation | Dutch translation after consolidation | Low - deferred to Phase 4+ | read, write, search, edit, glob, MultiEdit |
+| **Scribe** | Documentation of agent workflows | Workflow logging, meeting notes | Medium - process documentation | read, write, search, edit, markdown |
+| **Backend Dev** | Not applicable | N/A | N/A | N/A |
+| **Frontend** | Not applicable | N/A | N/A | N/A |
+| **Bootstrap Bill** | Initial repository mapping | One-time scaffolding (Phase 0) | High - completed | read, write, search, edit, bash, grep |
+
+### Recommended Agent Workflows
+
+#### Phase 0: Foundation & Infrastructure
+**Primary Agents:** Curator, Project Planner, Bootstrap Bill
+- **Bootstrap Bill:** Generate repository scaffolding and context maps (completed)
+- **Project Planner:** Create roadmap and milestone structure (completed)
+- **Curator:** Template alignment and quality checklist update (in progress)
+
+**Efficiency:** High - one-time setup work, mostly complete
+
+#### Phase 1-3: Primer Development (Split-Focus and Expansion)
+**Primary Agents:** Researcher, Writer-Editor, Curator, Lexical Analyst
+**Supporting Agents:** Architect, Diagrammer, Coordinator Manager
+
+**Workflow per Primer:**
+1. **Research (Researcher):** 1-2 hours
+   - Gather 5-7 authoritative resources
+   - Document ecosystem conventions
+   - Identify code examples
+   - **Output:** Research notes with references
+
+2. **Drafting (Writer-Editor):** 2-3 hours
+   - Populate family-specific template
+   - Include code examples and quickstart
+   - Link to resources from research
+   - **Output:** Draft primer markdown file
+
+3. **Specialized Content (Architect or Diagrammer):** 1-2 hours (if needed)
+   - **Architect:** Lead architectural primer content
+   - **Diagrammer:** Create diagrams for architectural/algorithmic primers
+   - **Output:** Diagrams or specialized content sections
+
+4. **Lexical Review (Lexical Analyst):** 30-60 minutes
+   - Tone alignment with repository voice
+   - Consistent terminology
+   - Readability optimization
+   - **Output:** Refined primer with voice consistency
+
+5. **Quality Validation (Curator):** 30-45 minutes
+   - Template compliance check
+   - Cross-reference validation
+   - Metadata verification
+   - **Output:** Validation report and approval
+
+6. **Integration (Curator or Build Automation):** 30 minutes
+   - Update family indexes
+   - Add cross-links
+   - Verify Hugo build
+   - **Output:** Integrated primer in site
+
+**Batch Efficiency:** 
+- Sequential per primer: 5-9 hours
+- Parallel across 4 primers: 2-3 days with agent delegation
+- Batches of 2-4 primers recommended for quality control
+
+#### Phase 4: Consolidation & Quality Assurance
+**Primary Agents:** Curator, Synthesizer, Lexical Analyst, Build Automation
+**Supporting Agents:** Translator, Scribe
+
+**Workflow:**
+1. **Comprehensive Audit (Curator):** 3-5 hours
+   - Cross-primer structural validation
+   - Metadata consistency check
+   - Navigation verification
+
+2. **Integration Pass (Synthesizer):** 2-3 hours
+   - Resolve content overlaps
+   - Ensure narrative continuity
+   - Surface gaps
+
+3. **Final Polish (Lexical Analyst):** 2-3 hours
+   - Global tone pass
+   - Voice consistency across all primers
+
+4. **Build Validation (Build Automation):** 1-2 hours
+   - Performance optimization
+   - Link checking
+   - CI/CD integration
+
+5. **Translation Prep (Translator):** 3-4 hours
+   - Assess translation feasibility
+   - Prepare glossary
+   - Identify localization challenges
+
+**Efficiency:** High - systematic validation with clear checklists
+
+### Tool Configuration Assessment
+
+**Current Agent Tools (from specialist-agents.json):**
+
+✅ **Adequately Configured:**
+- Researcher: Has `web` tool for external research
+- Writer-Editor: Has `bash` for build validation
+- Curator: Has core editing tools for validation work
+- Lexical Analyst: Has `markdown` and `grep` for analysis
+- Build Automation: Has `bash`, `github`, `yaml` for CI/CD
+- Coordinator Manager: Has `github`, `custom-agent`, `todo` for orchestration
+
+⚠️ **Potential Enhancements (Optional):**
+- **Diagrammer:** Could benefit from `bash` tool to run PlantUML/Mermaid rendering locally
+- **Synthesizer:** Could benefit from `grep` tool for cross-file searches
+- **Scribe:** Could benefit from `todo` tool for tracking workflow steps
+
+**Recommendation:** Current tool configurations are sufficient for primer work. Optional enhancements can be added if agents report tooling gaps during execution.
+
+### Agent Delegation Strategy
+
+**For Maximum Efficiency:**
+
+1. **Parallelize by Family:**
+   - Assign different agents to different primer families simultaneously
+   - Example: Researcher works on Programming primers while another works on Architectural
+
+2. **Pipeline Stages:**
+   - Stagger work so Researcher completes batch → Writer-Editor starts batch → Curator validates batch
+   - Keeps agents continuously engaged without idle time
+
+3. **Specialized Agent Focus:**
+   - Architect leads architectural primers (higher quality than generic agent)
+   - Diagrammer handles all diagram creation (consistent visual style)
+   - Lexical Analyst does final pass across entire batch (global voice consistency)
+
+4. **Coordinator Oversight:**
+   - Coordinator Manager monitors progress and routes work
+   - Escalates blockers or quality issues to human maintainer
+   - Maintains status files for transparency
+
+5. **Quality Gates:**
+   - Human review at Feature completion (end of batch)
+   - Curator validates before integration
+   - Build Automation verifies technical correctness
+
+**Expected Throughput:**
+- Phase 1 (9 primers): 1.5-2 weeks with agent delegation
+- Phase 2 (11 primers): 2-3 weeks with parallel workflows
+- Phase 3 (variable): 2-3 week cycles per batch of 4-6 primers
+
+### Success Indicators
+
+**Agent Performance:**
+- Template compliance rate >95% (Curator validation)
+- Build success rate 100% (Build Automation)
+- Lexical consistency score >90% (Lexical Analyst)
+- Cross-reference integrity 100% (automated checks)
+
+**Workflow Efficiency:**
+- Task completion time within estimates
+- Minimal rework cycles (first draft quality)
+- Clear hand-offs between agents
+- Status files kept current
+
+**Collaboration Quality:**
+- Agent conflicts: 0 (Coordinator prevents overlapping edits)
+- Human intervention requests: <10% of tasks
+- Quality gate failures: <5% of features
+
+---

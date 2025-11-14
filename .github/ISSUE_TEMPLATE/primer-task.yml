@@ -1,0 +1,247 @@
+name: Primer Task
+description: Create a single primer from research through integration
+title: "Task: Create [Primer Name] Primer"
+labels: ["task", "primer-series"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Primer Task Template
+        A task represents creation of a single primer, including research, drafting, review, and integration.
+        Tasks should be completable in 2-8 hours and have clear validation criteria.
+  
+  - type: input
+    id: feature
+    attributes:
+      label: Parent Feature
+      description: Link to the parent Primer Feature/batch issue (e.g., #101)
+      placeholder: "#101"
+    validations:
+      required: false
+  
+  - type: dropdown
+    id: family
+    attributes:
+      label: Primer Family
+      description: Which primer family does this belong to?
+      options:
+        - "Programming Languages"
+        - "Markup & Diagramming"
+        - "Toolchain & Automation"
+        - "Architectural"
+        - "Algorithmic"
+    validations:
+      required: true
+  
+  - type: input
+    id: primer_name
+    attributes:
+      label: Primer Name
+      description: Name of the specific primer to create (e.g., "PowerShell", "Markdown", "Three-Layer Architecture")
+      placeholder: "PowerShell"
+    validations:
+      required: true
+  
+  - type: textarea
+    id: description
+    attributes:
+      label: Primer Description
+      description: What does this primer cover and why is it valuable?
+      placeholder: |
+        PowerShell primer covers Windows automation and scripting fundamentals.
+        Teaches philosophy, idioms, and meta-systems for effective system administration and task automation.
+        
+        **Target audience:** Developers and sysadmins working in Windows environments
+        **Key value:** Fast orientation to PowerShell's object-oriented pipeline and automation capabilities
+    validations:
+      required: true
+  
+  - type: textarea
+    id: template
+    attributes:
+      label: Template to Use
+      description: Which template applies to this primer?
+      value: |
+        Based on family selection, use appropriate template:
+        - Programming Languages → `src/templates/primers/TEMPLATE_PROGRAMMING_PRIMER.md`
+        - Markup & Diagramming → `src/templates/primers/TEMPLATE_MARKUP_AND_DIAGRAMMING.md`
+        - Toolchain & Automation → `src/templates/primers/TEMPLATE_TOOL_AND_AUTOMATION.md`
+        - Architectural → `src/templates/primers/TEMPLATE_ARCHITECTURAL.md`
+        - Algorithmic → `src/templates/primers/TEMPLATE_ALGORITHMIC.md`
+    validations:
+      required: false
+  
+  - type: textarea
+    id: steps
+    attributes:
+      label: Implementation Steps
+      description: Breakdown of work to complete this primer
+      value: |
+        1. **Research (1-2 hours)**
+           - Gather 5-7 authoritative resources (official docs, books, community standards)
+           - Document ecosystem conventions and style guides
+           - Identify representative code examples
+           - Note common trade-offs and when-to-use guidance
+        
+        2. **Drafting (2-3 hours)**
+           - Copy appropriate family template
+           - Populate all required sections
+           - Include working code examples and quickstart commands
+           - Add links to authoritative resources from research
+           - Create or identify diagram (if applicable)
+        
+        3. **Local Validation (30 minutes)**
+           - Run `hugo --gc --minify --buildDrafts=false` to verify build
+           - Check all links render correctly
+           - Verify code syntax highlighting
+           - Test diagram rendering (if applicable)
+        
+        4. **Quality Check (30 minutes)**
+           - Review against primer quality checklist
+           - Ensure tone matches repository voice (calm, precise, practical)
+           - Verify can be read and understood in <60 minutes
+           - Check for hype or overlong prose
+        
+        5. **Integration (30 minutes)**
+           - Update family index file with new primer entry
+           - Add cross-links to related primers (if applicable)
+           - Verify navigation path from series overview
+    validations:
+      required: false
+  
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance Criteria
+      description: How do we know this primer is complete?
+      value: |
+        **Template Compliance:**
+        - [ ] Follows appropriate family template
+        - [ ] All required sections present and complete
+        - [ ] Front matter metadata properly formatted
+        
+        **Content Quality:**
+        - [ ] Includes clear "when to use / trade-offs" section
+        - [ ] Contains one diagram or code snippet (minimal and focused)
+        - [ ] Links to 2-5 authoritative resources
+        - [ ] Avoids hype and overlong prose
+        - [ ] Matches repository tone (calm, precise, practical)
+        - [ ] Examples immediately actionable
+        - [ ] Readable in <60 minutes
+        
+        **Technical Validation:**
+        - [ ] Builds locally without errors
+        - [ ] All links functional
+        - [ ] Diagrams render correctly (if applicable)
+        - [ ] Code examples tested and verified
+        
+        **Integration:**
+        - [ ] Family index updated
+        - [ ] Cross-links added (where applicable)
+        - [ ] Navigation validated
+    validations:
+      required: false
+  
+  - type: dropdown
+    id: task_type
+    attributes:
+      label: Primary Task Type
+      description: What kind of work does this task primarily involve?
+      options:
+        - "Research"
+        - "Documentation"
+        - "Design"
+        - "Mixed (Research + Documentation)"
+    validations:
+      required: false
+  
+  - type: dropdown
+    id: effort
+    attributes:
+      label: Effort Estimate
+      description: Expected effort to complete all steps
+      options:
+        - "XS (< 2 hours)"
+        - "S (2-4 hours)"
+        - "M (4-8 hours)"
+        - "L (1-2 days)"
+    validations:
+      required: false
+  
+  - type: input
+    id: assignee
+    attributes:
+      label: Assigned Agent / Person
+      description: Who will complete this task?
+      placeholder: "Researcher (research phase) → Writer-Editor (drafting) → Curator (validation)"
+    validations:
+      required: false
+  
+  - type: dropdown
+    id: collaboration
+    attributes:
+      label: Collaboration Type
+      description: How will this work be executed?
+      options:
+        - "agent-driven"
+        - "mixed-collaboration"
+        - "human-review-required"
+    validations:
+      required: false
+  
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependencies
+      description: What must be in place before this task can start?
+      placeholder: |
+        - Family template validated
+        - Related primers completed (if cross-linking required)
+        - Research resources gathered (if drafting)
+    validations:
+      required: false
+  
+  - type: textarea
+    id: output
+    attributes:
+      label: Expected Output
+      description: What files/artifacts will be created?
+      placeholder: |
+        - `content/en/primers/[family]/[primer-name].md` - Main primer file
+        - Updated `content/en/primers/[family]/_index.md` - Family index entry
+        - Diagrams in `static/images/primers/` (if applicable)
+    validations:
+      required: false
+  
+  - type: textarea
+    id: validation
+    attributes:
+      label: Validation Steps
+      description: How to verify this primer was completed correctly
+      value: |
+        1. Run local build: `hugo --gc --minify --buildDrafts=false`
+        2. Check build output for errors (should be zero)
+        3. Navigate to primer in browser: http://localhost:1313/primers/[family]/[primer-name]/
+        4. Verify all sections render correctly
+        5. Click all links to ensure they work
+        6. Review against quality checklist from PR template
+        7. Verify family index includes new primer
+    validations:
+      required: false
+  
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional Notes
+      description: Any specific guidance or context for this primer
+      placeholder: |
+        Key resources to include:
+        - Official documentation
+        - Authoritative books
+        - Community style guides
+        
+        Special considerations:
+        - Cross-platform examples preferred
+        - Focus on 2024+ best practices
+    validations:
+      required: false

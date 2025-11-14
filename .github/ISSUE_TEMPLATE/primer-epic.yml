@@ -1,0 +1,114 @@
+name: Primer Epic
+description: Multi-phase primer series initiative
+title: "Epic: Primer Series - "
+labels: ["epic", "primer-series"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Primer Epic Template
+        An epic represents a strategic, multi-phase initiative to develop and maintain primer content.
+        This template is specifically designed for primer series work.
+  
+  - type: textarea
+    id: goal
+    attributes:
+      label: Strategic Goal
+      description: What is the overarching objective of this primer initiative?
+      placeholder: |
+        Establish comprehensive primer coverage across all five families, providing readers with fast, applied fluency in essential technical domains.
+    validations:
+      required: true
+  
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope
+      description: Which primer families and coverage levels are included?
+      placeholder: |
+        **Families:**
+        - Programming Languages: 15+ primers
+        - Markup & Diagramming: 7+ primers
+        - Toolchain & Automation: 7+ primers
+        - Architectural: 9+ primers
+        - Algorithmic: 8+ primers
+        
+        **Infrastructure:**
+        - Template library
+        - Quality validation tooling
+        - Agent workflows
+    validations:
+      required: true
+  
+  - type: textarea
+    id: phases
+    attributes:
+      label: Phases and Milestones
+      description: Break down the initiative into major phases
+      placeholder: |
+        - [ ] Phase 0: Foundation & Infrastructure
+        - [ ] Phase 1: Split-Focus Initial Batch (9 primers)
+        - [ ] Phase 2: Family Expansion (11 primers)
+        - [ ] Phase 3: Deep Coverage & Specialization
+        - [ ] Phase 4: Consolidation & Quality Assurance
+        - [ ] Phase 5: Continuous Expansion
+    validations:
+      required: true
+  
+  - type: textarea
+    id: success_metrics
+    attributes:
+      label: Success Metrics
+      description: How will we measure success of this epic?
+      placeholder: |
+        **Quantitative:**
+        - [ ] 35+ primers published across families
+        - [ ] 100% template compliance
+        - [ ] Zero broken links in primer network
+        - [ ] Hugo build time <2 seconds
+        
+        **Qualitative:**
+        - [ ] Primers readable in <60 minutes each
+        - [ ] Examples immediately actionable
+        - [ ] Consistent tone and voice
+        - [ ] Intuitive navigation
+    validations:
+      required: true
+  
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependencies and Prerequisites
+      description: What must be in place before this epic can succeed?
+      placeholder: |
+        - Hugo build system operational
+        - Template library complete and validated
+        - Agent collaboration framework established
+        - Quality standards defined
+    validations:
+      required: false
+  
+  - type: textarea
+    id: risks
+    attributes:
+      label: Risks and Mitigation
+      description: What could go wrong and how will we address it?
+      placeholder: |
+        **Risk:** Agent output quality variability
+        **Mitigation:** Pilot each phase with 1 primer, validate before batch scaling
+        
+        **Risk:** Template-content misalignment
+        **Mitigation:** Curator validation gate at each batch, feedback loop to templates
+    validations:
+      required: false
+  
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional Context
+      description: Any other relevant information about this epic
+      placeholder: |
+        Reference: docs/collaboration/PRIMER_VISION.md
+        Roadmap: See IMPLEMENTATION ROADMAP section
+    validations:
+      required: false

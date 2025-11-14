@@ -1052,6 +1052,222 @@ This vision document outlines a **cautious, test-driven, incremental approach** 
 
 ---
 
+## Appendix E: GitHub Issue Structure and Tracking
+
+### Issue Hierarchy Overview
+
+This epic should be tracked using a three-level hierarchy following SDD organizational standards:
+
+```
+Epic: Custom Theme Extraction (Pragmatic Penguin)
+├── Feature: Phase 0 - Foundation and Preparation
+│   ├── Task: Create theme directory structure
+│   ├── Task: Set up visual regression testing infrastructure
+│   ├── Task: Create baseline screenshots
+│   └── Task: Configure parallel build environment
+├── Feature: Phase 1 - Vendor and Isolate
+│   ├── Task: Clone hugo-fresh theme structure
+│   ├── Task: Update configuration to use local theme
+│   ├── Task: Verify Bulma compatibility
+│   └── Task: Run functional validation tests
+├── Feature: Phase 2 - Rebrand and Customize
+│   ├── Task: Rename theme references
+│   ├── Task: Reorganize theme assets
+│   ├── Task: Update configuration and documentation
+│   └── Task: Validate branding consistency
+├── Feature: Phase 3 - Migrate Custom Overrides
+│   ├── Task: Migrate P1 critical SCSS (custom.scss, patterns.scss)
+│   ├── Task: Migrate P2 important components (ammerse, glossary, taxonomies)
+│   ├── Task: Migrate P3 minor components (toc, quotes, recommendations)
+│   ├── Task: Migrate P4 minimal components (images, visualization)
+│   └── Task: Integration and refinement
+├── Feature: Phase 4 - Optimization and Enhancement
+│   ├── Task: CSS optimization and tree-shaking
+│   ├── Task: Image processing pipeline setup
+│   ├── Task: Asset bundling configuration
+│   └── Task: Performance validation and benchmarking
+└── Feature: Phase 5 - Repository Extraction
+    ├── Task: Create standalone theme repository
+    ├── Task: Configure Hugo module setup
+    ├── Task: Update main repository to use theme module
+    └── Task: Set up CI/CD for theme repository
+```
+
+### Recommended Labels by Work Type
+
+**Epic Level:**
+- `epic` - Primary classification
+- `type: enhancement` - Strategic improvement
+- `human-review-required` - Requires stakeholder approval at phase gates
+
+**Feature Level:**
+- `feature` - Primary classification
+- `agent-driven` OR `mixed-collaboration` - Based on primary executor
+- Risk level: Add appropriate risk indicator in description
+- Milestone: Associate with project milestone (e.g., "Theme Extraction v1.0")
+
+**Task Level:**
+- `task` - Primary classification
+- `agent-driven` - For tasks executed primarily by automated agents
+- `mixed-collaboration` - For tasks requiring human + agent collaboration
+- `human-review-required` - For validation tasks requiring human judgment
+
+### Issue Creation Recommendations
+
+**Epic Issue (Create First):**
+- Template: `.github/ISSUE_TEMPLATE/00-epic.yml`
+- Title: `Epic: Custom Theme Extraction - Pragmatic Penguin`
+- Goal: Extract hugo-fresh customizations into standalone, reusable SDD-branded theme
+- Tasks: Link to 5 feature issues (one per phase)
+
+**Feature Issues (Create per Phase):**
+- Template: `.github/ISSUE_TEMPLATE/01-feature.yml`
+- Title Format: `Feature: Phase X - [Phase Name]`
+- Example: `Feature: Phase 0 - Foundation and Preparation`
+- Parent Epic: Link to epic issue
+- Objective: Copy from vision document phase objectives
+- Deliverables: List concrete outputs from vision document
+- Acceptance Criteria: Copy validation section from vision document
+- Effort/Risk: Use estimates from vision document
+- Assigned Agents: Copy from vision document
+
+**Task Issues (Create as Needed):**
+- Template: `.github/ISSUE_TEMPLATE/02-task.yml`
+- Title Format: `Task: [Specific Work Item]`
+- Example: `Task: Set up visual regression testing infrastructure`
+- Parent Feature: Link to feature issue
+- Description: Detailed task description from vision document
+- Steps: Break down implementation if complex
+- Acceptance Criteria: Specific validation points
+- Validation Steps: How to verify completion
+
+### Milestone Strategy
+
+**Recommended Milestones:**
+1. **Theme Extraction - Planning** (Epic + initial features)
+2. **Theme Extraction - Foundation** (Phase 0 complete)
+3. **Theme Extraction - Core Implementation** (Phases 1-3 complete)
+4. **Theme Extraction - Optimization** (Phase 4 complete)
+5. **Theme Extraction - Launch** (Phase 5 complete, theme published)
+
+### Agent vs Human Work Separation
+
+**Agent-Driven Tasks (Label: `agent-driven`):**
+- File copying and directory structure creation
+- SCSS migration and compilation
+- Automated testing execution
+- Documentation generation from templates
+- Build configuration updates
+
+**Human-Review-Required Tasks (Label: `human-review-required`):**
+- Phase gate approvals
+- Visual regression validation (initial review)
+- Strategic decision points
+- Final acceptance testing
+- Documentation narrative review
+
+**Mixed-Collaboration Tasks (Label: `mixed-collaboration`):**
+- Custom component migration (agent executes, human validates)
+- Performance optimization (agent implements, human reviews trade-offs)
+- Configuration changes (agent proposes, human approves)
+- Documentation writing (agent drafts, human refines)
+
+### Issue Creation Workflow
+
+**Manual Creation (Recommended for Epic and Features):**
+1. Go to repository Issues tab
+2. Click "New Issue"
+3. Select appropriate template (Epic or Feature)
+4. Fill in all required fields from vision document
+5. Add labels according to recommendations above
+6. Assign to milestone if applicable
+7. Create issue
+
+**Automated Task Creation (If Supported):**
+- Tasks can be created programmatically if GitHub CLI or API is available
+- Consider creating tasks on-demand as features progress
+- Avoid creating all tasks upfront to maintain flexibility
+
+### Linking Strategy
+
+**Use GitHub Linking Syntax:**
+- In epic: List all feature issues with `- [ ] #123` checkbox syntax
+- In features: Reference parent epic with `Part of #[epic-number]`
+- In tasks: Reference parent feature with `Part of #[feature-number]`
+- Cross-reference: Use `Related to #[number]` for dependencies
+
+**Example Epic Task List:**
+```markdown
+## Features
+
+- [ ] #201 Phase 0 - Foundation and Preparation
+- [ ] #202 Phase 1 - Vendor and Isolate
+- [ ] #203 Phase 2 - Rebrand and Customize
+- [ ] #204 Phase 3 - Migrate Custom Overrides
+- [ ] #205 Phase 4 - Optimization and Enhancement
+- [ ] #206 Phase 5 - Repository Extraction
+```
+
+### Progress Tracking
+
+**Epic Level:**
+- Track overall initiative progress
+- Update as features complete
+- Use GitHub project board if available
+
+**Feature Level:**
+- Track task completion percentage
+- Update acceptance criteria checkboxes
+- Report blockers or scope changes
+
+**Task Level:**
+- Update with progress comments
+- Link to PRs that implement the task
+- Mark complete when all acceptance criteria met
+
+### Example Issue Creation Order
+
+**Week 1 (Planning):**
+1. Create Epic issue
+2. Create Feature issues for Phases 0-2
+3. Create initial tasks for Phase 0
+
+**As Work Progresses:**
+4. Create remaining Feature issues (Phases 3-5) when Phase 1 nearing completion
+5. Create tasks for next phase when current phase is 70% complete
+6. Maintain 1-2 phases ahead in planning
+
+### Vision Document Maintenance
+
+**Keep Vision as Source of Truth:**
+- Vision document remains in `docs/collaboration/` for lineage and traceability
+- Issues reference vision document sections
+- Update vision document if scope or approach changes
+- Version vision document (add "Last Updated" dates for major revisions)
+
+**Synchronization:**
+- Vision document is detailed reference
+- Issues are actionable work items
+- Issues can deviate from vision if needed (document in issue)
+- Major deviations should update vision document
+
+### Metrics and Reporting
+
+**Track These Metrics:**
+- Features completed / Total features
+- Tasks completed / Total tasks  
+- Effort spent vs. estimated
+- Risks encountered and mitigated
+- Scope changes and impact
+
+**Report At:**
+- Phase completion
+- Weekly standup (if applicable)
+- Epic completion
+- Retrospective
+
+---
+
 **Document Owner:** Project Planner  
 **Collaborating Agents:** Architect, Frontend, Bootstrap Bill, Build Automation  
 **Next Review:** After Phase 0 completion  

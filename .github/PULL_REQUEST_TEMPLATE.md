@@ -1,8 +1,40 @@
-# New Pull Request
+# Pull Request
 
-## Included issues
+<!-- 
+  Multiple PR templates available:
+  - Default (this template): General purpose
+  - Feature PR: Use ?template=PULL_REQUEST_TEMPLATE_FEATURE.md in PR URL
+  - Task PR: Use ?template=PULL_REQUEST_TEMPLATE_TASK.md in PR URL
+  - Documentation PR: Use ?template=PULL_REQUEST_TEMPLATE_DOCUMENTATION.md in PR URL
+-->
 
-## Description of changes
+## Related Issues
+
+Closes #[issue-number]
+
+## Description of Changes
+
+**What does this PR accomplish?**
+
+[Clear description of changes]
+
+## Changes Made
+
+- 
+
+## Testing
+
+- [ ] Tests added/updated
+- [ ] All tests pass
+- [ ] Manual testing completed
+
+## Validation
+
+- [ ] Build succeeds
+- [ ] No regressions introduced
+- [ ] Documentation updated (if needed)
+
+---
 
 # DCO agreement
 

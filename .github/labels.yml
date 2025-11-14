@@ -9,6 +9,43 @@
   description: 'Extra attention is needed'
   aliases: []
 
+# Work item hierarchy
+- name: 'epic'
+  color: '8B008B'
+  description: 'Multi-phase initiative with strategic value'
+  aliases: []
+
+- name: 'feature'
+  color: '0E8A16'
+  description: 'Cohesive set of tasks delivering specific capability'
+  aliases: []
+
+- name: 'task'
+  color: '1D76DB'
+  description: 'Discrete unit of work with clear completion criteria'
+  aliases: []
+
+- name: 'draft'
+  color: 'FBCA04'
+  description: 'Work in progress, not yet ready for review'
+  aliases: []
+
+# Agent-specific work
+- name: 'agent-driven'
+  color: '7057FF'
+  description: 'Work primarily executed by automated agents'
+  aliases: []
+
+- name: 'human-review-required'
+  color: 'D93F0B'
+  description: 'Requires human decision or validation'
+  aliases: []
+
+- name: 'mixed-collaboration'
+  color: 'BFD4F2'
+  description: 'Collaborative work between agents and humans'
+  aliases: []
+
 - name: 'status: pending'
   color: c5def5
   description: 'More info is needed before deciding what to do.'

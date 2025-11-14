@@ -4,7 +4,7 @@ subtitle = "Windows automation through command-line batch files"
 aliases = ["batch-scripting", "toolchain-and-automation/batch"]
 author = "Stijn Dejongh"
 outputs = ['html', 'rss', 'json']
-draft = true
+date = "2025-11-13T22:00:00+00:00"
 tags = ["automation", "windows", "scripting", "primer", "reference", "batch"]
 summary = """
 Batch scripting uses .bat or .cmd files to automate Windows command-line tasks. Despite its age and limitations, 

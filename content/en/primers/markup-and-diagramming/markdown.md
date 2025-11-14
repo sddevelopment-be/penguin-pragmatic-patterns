@@ -4,7 +4,7 @@ subtitle = "Lightweight markup for readable, version-controllable documentation"
 aliases = ["markdown-primer", "markup-and-diagramming/markdown"]
 author = "Stijn Dejongh"
 outputs = ['html', 'rss', 'json']
-draft = true
+date = "2025-11-13T22:00:00+00:00"
 tags = ["documentation", "markdown", "primer", "reference", "markup"]
 summary = """
 Markdown is a plain-text formatting syntax designed for readability in both raw and rendered form. 

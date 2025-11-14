@@ -4,7 +4,7 @@ subtitle = "Write once, run anywhere — enterprise platform for scalable, maint
 aliases = ["java-primer", "programming-languages/java"]
 author = "Stijn Dejongh"
 outputs = ['html', 'rss', 'json']
-draft = true
+date = "2025-11-13T22:00:00+00:00"
 tags = ["programming", "java", "primer", "reference", "enterprise", "jvm"]
 summary = """
 Java is a statically-typed, object-oriented language designed for portability, reliability, and long-term maintainability. 

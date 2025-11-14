@@ -1999,3 +1999,182 @@ Intermediate learners have grasped fundamental concepts and are ready to tackle 
 """
 aliases = ["mid-level", "intermediate level"]
 references = []
+
+[[terminology]]
+name = "Automation"
+domain = "software"
+description = """
+Automation refers to the use of technology to perform tasks with minimal human intervention.
+In software development, automation encompasses build processes, testing, deployment, and infrastructure management, reducing manual effort and improving consistency.
+"""
+aliases = ["task automation", "process automation"]
+references = []
+
+[[terminology]]
+name = "Batch"
+domain = "software"
+description = """
+Batch processing executes a series of non-interactive jobs or commands as a group, typically without user intervention.
+Batch scripts automate repetitive tasks by bundling commands together in executable files.
+"""
+aliases = ["batch processing", "batch scripting"]
+references = []
+
+[[terminology]]
+name = "Diagrams"
+domain = "documentation"
+description = """
+Diagrams are visual representations that communicate structure, relationships, or processes more efficiently than text alone.
+In software development, diagrams include UML models, architecture diagrams, data flow charts, and sequence diagrams.
+"""
+aliases = ["visual models", "technical drawings"]
+references = []
+
+[[terminology]]
+name = "Enterprise"
+domain = "software"
+description = """
+Enterprise software refers to applications and systems designed for large organizations, emphasizing scalability, reliability, integration, and long-term maintainability.
+Enterprise development often involves complex requirements, regulatory compliance, and multi-year support commitments.
+"""
+aliases = ["enterprise software", "enterprise systems"]
+references = []
+
+[[terminology]]
+name = "Java"
+domain = "software"
+description = """
+Java is a statically-typed, object-oriented programming language designed for platform independence through the Java Virtual Machine (JVM).
+Known for its "write once, run anywhere" philosophy, Java is widely used in enterprise systems, Android development, and large-scale distributed applications.
+"""
+aliases = ["Java programming language"]
+references = [
+    { title = "Oracle Java Documentation", link = "https://docs.oracle.com/en/java/" },
+    { title = "OpenJDK Project", link = "https://openjdk.org/" }
+]
+
+[[terminology]]
+name = "JVM"
+abbreviation = "Java Virtual Machine"
+domain = "software"
+description = """
+The Java Virtual Machine is a runtime environment that executes Java bytecode on any platform, providing platform independence.
+The JVM manages memory, security, and execution, allowing the same Java program to run on different operating systems without modification.
+"""
+aliases = ["Java Virtual Machine"]
+references = []
+
+[[terminology]]
+name = "Layered"
+domain = "architecture"
+description = """
+Layered architecture organizes software into horizontal layers with defined responsibilities and dependencies flowing in one direction.
+Common layering patterns include presentation, business logic, and data access layers, promoting separation of concerns and maintainability.
+"""
+aliases = ["layered architecture", "n-tier architecture"]
+references = []
+
+[[terminology]]
+name = "Markdown"
+domain = "documentation"
+description = """
+Markdown is a lightweight markup language that uses plain-text formatting syntax for creating formatted documents.
+Designed for readability in both raw and rendered form, Markdown is widely used for README files, documentation, and static site content.
+"""
+aliases = ["markdown syntax"]
+references = [
+    { title = "CommonMark Specification", link = "https://commonmark.org/" },
+    { title = "Original Markdown by John Gruber", link = "https://daringfireball.net/projects/markdown/" }
+]
+
+[[terminology]]
+name = "Markup"
+domain = "documentation"
+description = """
+Markup languages use tags, symbols, or syntax to annotate text and define structure, formatting, or semantics.
+Examples include HTML for web content, XML for data exchange, and lightweight markup languages like Markdown for documentation.
+"""
+aliases = ["markup language"]
+references = []
+
+[[terminology]]
+name = "Patterns"
+domain = "software"
+description = """
+Patterns are reusable solutions to commonly occurring problems in software design, architecture, or development practices.
+Design patterns capture proven approaches that can be adapted to specific contexts, improving communication and reducing reinvention.
+"""
+aliases = ["design patterns", "software patterns"]
+references = [
+    { title = "Design Patterns: Elements of Reusable Object-Oriented Software", link = "https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612" }
+]
+
+[[terminology]]
+name = "Perl"
+domain = "software"
+description = """
+Perl is a dynamic programming language known for powerful text processing capabilities and the motto "There's More Than One Way To Do It" (TIMTOWTDI).
+Originally designed for text manipulation and reporting, Perl evolved into a general-purpose language used for system administration, web development, and automation.
+"""
+aliases = ["Perl programming language"]
+references = [
+    { title = "Perl.org Official Site", link = "https://www.perl.org/" },
+    { title = "Modern Perl", link = "http://modernperlbooks.com/" }
+]
+
+[[terminology]]
+name = "PlantUML"
+domain = "documentation"
+description = """
+PlantUML is a text-based diagramming tool that generates UML diagrams from plain-text descriptions.
+It enables version-controlled diagrams that can be integrated into documentation pipelines and reviewed like code.
+"""
+aliases = ["PlantUML diagramming"]
+references = [
+    { title = "PlantUML Official Site", link = "https://plantuml.com/" }
+]
+
+[[terminology]]
+name = "PowerShell"
+domain = "software"
+description = """
+PowerShell is a task automation framework combining a command-line shell and scripting language built on .NET.
+Designed for system administration and configuration management, PowerShell uses object-oriented pipelines rather than text streams for composable automation.
+"""
+aliases = ["PowerShell scripting"]
+references = [
+    { title = "Microsoft PowerShell Documentation", link = "https://learn.microsoft.com/en-us/powershell/" }
+]
+
+[[terminology]]
+name = "Scripting"
+domain = "software"
+description = """
+Scripting involves writing small programs (scripts) to automate tasks, typically in interpreted languages.
+Scripts orchestrate other programs, manipulate files, or perform system administration tasks without requiring compilation.
+"""
+aliases = ["script programming", "automation scripting"]
+references = []
+
+[[terminology]]
+name = "UML"
+abbreviation = "Unified Modeling Language"
+domain = "software"
+description = """
+UML is a standardized visual modeling language for specifying, visualizing, and documenting software systems.
+It provides diagram types for representing structure (class diagrams, component diagrams) and behavior (sequence diagrams, state machines).
+"""
+aliases = ["Unified Modeling Language"]
+references = [
+    { title = "UML Official Site", link = "https://www.uml.org/" }
+]
+
+[[terminology]]
+name = "Windows"
+domain = "software"
+description = """
+Windows refers to Microsoft's family of operating systems used on personal computers, servers, and embedded devices.
+Windows-specific development often involves technologies like PowerShell, .NET Framework, and Windows-specific APIs.
+"""
+aliases = ["Microsoft Windows", "Windows OS"]
+references = []

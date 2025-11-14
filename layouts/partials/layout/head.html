@@ -20,7 +20,10 @@
     }
 </style>
 
-{{ partial "stylesheet.html" (dict "css" "js/reveal/reset.css")  }}
-{{ partial "stylesheet.html" (dict "css" "js/reveal/reveal.css")  }}
-{{ partial "stylesheet.html" (dict "css" "js/reveal/theme/sdd.css" "id" "theme")  }}
-{{ partial "stylesheet.html" (dict "css" "js/reveal/plugin/highlight/monokai.css" )  }}
+{{- $reveal_location := $.Param "reveal_hugo.reveal_cdn" | default "reveal-js" -}}
+{{- $reveal_dist := cond (hasSuffix $reveal_location "/dist") $reveal_location (printf "%s/dist" $reveal_location) -}}
+
+{{ partial "stylesheet.html" (dict "css" (printf "%s/reset.css" $reveal_dist))  }}
+{{ partial "stylesheet.html" (dict "css" (printf "%s/reveal.css" $reveal_dist))  }}
+{{ partial "stylesheet.html" (dict "css" (printf "%s/theme/sdd.css" $reveal_dist) "id" "theme")  }}
+{{ partial "stylesheet.html" (dict "css" (printf "%s/plugin/highlight/monokai.css" $reveal_dist) )  }}

@@ -9,14 +9,11 @@ window.addEventListener('DOMContentLoaded', () => {
     const observer = new IntersectionObserver(entries => {
         entries.forEach(entry => {
             const id = entry.target.getAttribute('id');
-            console.log(" ${entry} :: ${id} ");
             if (entry.intersectionRatio > 0) {
-                console.log(`nav li a[href="#${id}"] -- ACTIVE`);
                 clearActiveStatesInTableOfContents()
-                document.querySelector(`nav li a[href="#${id}"]`).parentElement.classList.add('active');
+                document.querySelector(`nav li a[href="#${id}"]`)?.parentElement.classList.add('active');
             } else {
-                console.log(`nav li a[href="#${id}"] -- INACTIVE`);
-                // document.querySelector(`nav li a[href="#${id}"]`).parentElement.classList.remove('active');
+                document.querySelector(`nav li a[href="#${id}"]`)?.parentElement?.classList?.remove('active');
             }
 
         });

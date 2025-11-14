@@ -6,22 +6,22 @@
     }
 </style>
 
-{{- $reveal := "js/reveal/reveal.js" | relURL }}
+{{- $reveal := "reveal-js/dist/reveal.js" | relURL }}
 <script type="text/javascript" src="{{ $reveal }}"></script>
 
-{{- $revealZoom := "js/reveal/plugin/zoom/zoom.js" | relURL }}
+{{- $revealZoom := "reveal-js/dist/plugin/zoom/zoom.js" | relURL }}
 <script type="text/javascript" src="{{ $revealZoom }}"></script>
-{{- $revealNotes := "js/reveal/plugin/notes/notes.js" | relURL }}
+{{- $revealNotes := "reveal-js/dist/plugin/notes/notes.js" | relURL }}
 <script type="text/javascript" src="{{ $revealNotes }}"></script>
-{{- $revealMarkdown := "js/reveal/plugin/markdown/markdown.js" | relURL }}
+{{- $revealMarkdown := "reveal-js/dist/plugin/markdown/markdown.js" | relURL }}
 <script type="text/javascript" src="{{ $revealMarkdown }}"></script>
-{{- $revealHighlight := "js/reveal/plugin/highlight/highlight.js" | relURL }}
+{{- $revealHighlight := "reveal-js/dist/plugin/highlight/highlight.js" | relURL }}
 <script type="text/javascript" src="{{ $revealHighlight }}"></script>
 
-{{ partial "stylesheet.html" (dict "css" "js/reveal/reset.css")  }}
-{{ partial "stylesheet.html" (dict "css" "js/reveal/reveal.css")  }}
-{{ partial "stylesheet.html" (dict "css" "js/reveal/theme/moon.css" "id" "theme")  }}
-{{ partial "stylesheet.html" (dict "css" "js/reveal/plugin/highlight/monokai.css" )  }}
+{{ partial "stylesheet.html" (dict "css" "reveal-js/dist/reset.css")  }}
+{{ partial "stylesheet.html" (dict "css" "reveal-js/dist/reveal.css")  }}
+{{ partial "stylesheet.html" (dict "css" "reveal-js/dist/theme/moon.css" "id" "theme")  }}
+{{ partial "stylesheet.html" (dict "css" "reveal-js/dist/plugin/highlight/monokai.css" )  }}
 
 <div class="reveal reveal-viewport embedded center" style="margin: 2.5rem auto; max-height: 90%; max-width: 90%">
     <div class="slides">

@@ -1,7 +1,7 @@
 ---
 name: lexical-analyst
 description: Ensure writing adheres to Operational style rules with minimal, voice-preserving edits.
-tools: ["read", "write", "search", "edit"]
+tools: ["read", "write", "search", "edit", "markdown", "Grep"]
 ---
 
 # Agent Profile: Lexical Analyst

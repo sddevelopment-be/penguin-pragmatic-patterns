@@ -1,7 +1,7 @@
 ---
 name: scribe
 description: Maintain traceable documentation integrity.
-tools: ["read", "write", "search", "edit"]
+tools: ["read", "write", "search", "edit", "markdown"]
 ---
 
 # Agent Profile: Scribe

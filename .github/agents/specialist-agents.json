@@ -75,7 +75,7 @@
       "name": "lexical-analyst",
       "file": "agents/specialists/lexical.agent.md",
       "description": "Ensure writing adheres to Operational style rules with minimal, voice-preserving edits.",
-      "tools": ["read", "write", "search", "edit"],
+      "tools": ["read", "write", "search", "edit", "markdown", "Grep"],
       "outline": [
         "Purpose: police tone, punctuation, and rhythm against Operational rules.",
         "Focus: micro-edits, lexical normalization, and reference cross-checks."
@@ -115,7 +115,7 @@
       "name": "scribe",
       "file": "agents/specialists/scribe.agent.md",
       "description": "Maintain traceable documentation integrity.",
-      "tools": ["read", "write", "search", "edit"],
+      "tools": ["read", "write", "search", "edit", "markdown"],
       "outline": [
         "Purpose: record meetings and agent exchanges neutrally.",
         "Focus: timestamped summaries, note hygiene, and alignment logging."

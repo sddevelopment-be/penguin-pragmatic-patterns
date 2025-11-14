@@ -49,6 +49,11 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
   --r-overlay-element-fg-color: 240, 240, 240;
 }
 
+#main-content {
+    width: 100%;
+    height: 96%;
+}
+
 .reveal-viewport {
   background: #fff;
   background-color: var(--r-background-color);

@@ -3,18 +3,14 @@
 <!-- Printing and PDF exports -->
 <!-- use Hugo to create the right path for the print stylesheet, then conditionally include it -->
 {{- $reveal_location := $.Param "reveal_hugo.reveal_cdn" | default "reveal-js" -}}
+{{- $reveal_dist := cond (hasSuffix $reveal_location "/dist") $reveal_location (printf "%s/dist" $reveal_location) -}}
+{{- $reveal_plugins := printf "%s/plugin" $reveal_dist -}}
 
-{{- $reveal := "js/reveal/reveal.js" | relURL }}
-<script type="text/javascript" src="{{ $reveal }}"></script>
-
-{{- $revealZoom := "js/reveal/plugin/zoom/zoom.js" | relURL }}
-<script type="text/javascript" src="{{ $revealZoom }}"></script>
-{{- $revealNotes := "js/reveal/plugin/notes/notes.js" | relURL }}
-<script type="text/javascript" src="{{ $revealNotes }}"></script>
-{{- $revealMarkdown := "js/reveal/plugin/markdown/markdown.js" | relURL }}
-<script type="text/javascript" src="{{ $revealMarkdown }}"></script>
-{{- $revealHighlight := "js/reveal/plugin/highlight/highlight.js" | relURL }}
-<script type="text/javascript" src="{{ $revealHighlight }}"></script>
+<script type="text/javascript" src="{{ printf "%s/reveal.js" $reveal_dist | relURL }}"></script>
+<script type="text/javascript" src="{{ printf "%s/zoom/zoom.js" $reveal_plugins | relURL }}"></script>
+<script type="text/javascript" src="{{ printf "%s/notes/notes.js" $reveal_plugins | relURL }}"></script>
+<script type="text/javascript" src="{{ printf "%s/markdown/markdown.js" $reveal_plugins | relURL }}"></script>
+<script type="text/javascript" src="{{ printf "%s/highlight/highlight.js" $reveal_plugins | relURL }}"></script>
 
 <!-- initialize Reveal.js -->
 <script type="text/javascript">

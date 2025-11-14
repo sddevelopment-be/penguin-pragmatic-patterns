@@ -62,6 +62,11 @@
   {{- $scssBundles = $scssBundles | append (dict "source" "domains/recommendations.scss" "target" "css/recommendations.css") }}
 {{- end }}
 
+{{- /* Add recommendations.scss for presentations */ -}}
+{{- if in .RelPermalink "/presentations/" }}
+{{- $scssBundles = $scssBundles | append (dict "source" "domains/recommendations.scss" "target" "css/recommendations.css") }}
+{{- end }}
+
 {{- /* Add images.scss, quotes.scss, toc.scss, and taxonomies.scss for most content pages */ -}}
 {{- if not .IsHome }}
   {{- $scssBundles = $scssBundles | append (dict "source" "domains/images.scss" "target" "css/images.css") }}
@@ -69,7 +74,7 @@
   {{- $scssBundles = $scssBundles | append (dict "source" "domains/toc.scss" "target" "css/toc.css") }}
 {{- end }}
 
-{{- /* Add patterns.scss for practices and concepts */ -}}
+{{- /* Add patterns.scss for primers */ -}}
 {{- if (in .RelPermalink "/primers/") }}
 {{- $scssBundles = $scssBundles | append (dict "source" "domains/patterns.scss" "target" "css/patterns.css") }}
 {{- $scssBundles = $scssBundles | append (dict "source" "domains/ammerse.scss" "target" "css/ammerse.css") }}

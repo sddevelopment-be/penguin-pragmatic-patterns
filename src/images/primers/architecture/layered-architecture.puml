@@ -1,0 +1,47 @@
+@startuml
+title Traceable Decisions: MVD Templates
+
+!include ../../../templates/plantuml/theme-sdd-minimal-class.puml
+
+package "Presentation Layer" as UI {
+  component "Web UI / API Controllers" as WebUI
+  component "Input Validation" as Validation
+}
+
+package "Business Logic Layer" as BLL {
+  component "Domain Services" as Services
+  component "Workflow Orchestration" as Workflow
+  component "Business Rules" as Rules
+}
+
+package "Data Access Layer" as DAL {
+  component "Repositories" as Repos
+  component "ORM / Query Builders" as ORM
+  component "Database" as DB
+}
+
+WebUI --> Services
+Validation --> Services
+Services --> Workflow
+Services --> Rules
+Workflow --> Repos
+Rules --> Repos
+Repos -right-> ORM
+ORM -right-> DB
+
+note top of UI
+  Handles user interaction,
+  routing, presentation logic
+end note
+
+note top of BLL
+  Encapsulates domain logic,
+  independent of UI and storage
+end note
+
+note top of DAL
+  Manages persistence,
+  isolates database details
+end note
+
+@enduml

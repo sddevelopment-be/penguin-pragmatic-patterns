@@ -1,0 +1,42 @@
+''
+'' Shared header for SD Development PlantUML diagrams:
+'' A minimal class diagram theme
+''
+'' Author: Stijn Dejongh
+'' Copyright (c) 2025, SD Development BV
+
+top to bottom direction
+
+!include ./puml-theme-bluegray.puml
+
+skinparam dpi 280
+
+skinparam maxMessageSize 184
+skinparam wrapWidth 204
+
+skinparam shadowing true
+
+<style>
+' had to override this here as the included theme was not working properly
+classDiagram {
+  class {
+      ' class name
+      header {
+        FontColor #dedede
+        FontSize 12
+        FontStyle bold
+      }
+  }
+}
+
+note {
+		FontSize 10
+		LineColor #999999
+		BackgroundColor #orange
+    FontColor #333333
+    BorderColor #999999
+}
+</style>
+
+hide stereotype
+hide circle

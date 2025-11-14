@@ -41,5 +41,19 @@
         </div>
     {{- end }}
 {{ else }}
-    No entries yet. Check back later!
+
+
+<div class="card pattern-card empty revealOnScroll delay-1" data-animation="fadeInLeft" >
+    <div class="card-title-wrapper">
+        <div class="card-title">
+            <a href="{{ .RelPermalink }}" class="" title="In-depth description of {{ .Title }}"><h4>No entries yet.</h4></a>
+            <div class="meta has-text-grey">
+                There are no entries to display in this category for now.
+                Please check back later.
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
 {{ end }}

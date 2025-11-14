@@ -1,66 +1,66 @@
 {{ define "main" }}
 <main id="main-content" class="site-main" role="main" tabindex="-1">
 
-{{ partial "navbar.html" . }}
-{{ partial "navbar-clone.html" . }}
+    {{ partial "navbar.html" . }}
+    {{ partial "navbar-clone.html" . }}
 
-{{ $titles := (slice "learning" "productivity" "communication" "software development")}}
-{{ $pages := .Pages}}
+    {{ $titles := (slice "learning" "productivity" "communication" "software development")}}
+    {{ $pages := .Pages}}
 
-{{ partial "title-section.html" . }}
+    {{ partial "title-section.html" . }}
 
-<section class="hero is-default section-feature-grey is-medium" id="practices">
-    <div class="hero-body">
-        <div class="container">
-            <div class="wide columns">
-                <div class="column is-10 is-offset-1 landing-caption vert-align">
-                    {{ .Content }}
+    <section class="hero is-default section-feature-grey is-medium" id="practices">
+        <div class="hero-body">
+            <div class="container">
+                <div class="wide columns">
+                    <div class="column is-10 is-offset-1 landing-caption vert-align">
+                        {{ .Content }}
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
     <section class="section section-feature-grey is-medium" id="practices">
-    <div class="container">
-        <div class="content-wrapper">
-        <div class="pattern-list">
-            {{ range $categoryTitle := $titles }}
-                <div class="column is-centered-tablet-portrait">
-                    <a id="{{ $categoryTitle | lower | urlize }}">
-                        <h2 class="subtitle">
-                            {{ $categoryTitle | upper }}
-                        </h2>
-                    </a>
-                </div>
-                <div class="is-multiline is-centered-tablet-portrait">
-                    {{ $patterns := slice  }}
-                    {{ range where $pages ".Params.categories" "intersect" (slice $categoryTitle) }}
-                    {{ $ctx := dict
+        <div class="container">
+            <div class="content-wrapper">
+                <div class="pattern-list">
+                    {{ range $categoryTitle := $titles }}
+                    <div class="column is-centered-tablet-portrait">
+                        <a id="{{ $categoryTitle | lower | urlize }}">
+                            <h2 class="subtitle">
+                                {{ $categoryTitle | upper }}
+                            </h2>
+                        </a>
+                    </div>
+                    <div class="is-multiline is-centered-tablet-portrait">
+                        {{ $patterns := slice }}
+                        {{ range where $pages ".Params.categories" "intersect" (slice $categoryTitle) }}
+                        {{ $ctx := dict
                         "Date" .Date
                         "Title" .Title
                         "SubTitle" .Params.subtitle
                         "Image" .Params.image
                         "RelPermalink" .RelPermalink
-                        "Description"  .Description
+                        "Description" .Description
                         "Problem" .Params.problem
                         "Categories" .Params.categories
                         "Tags" .Params.tags
                         "Lastmod" .Lastmod
                         "ReadingTime" .ReadingTime
-                    }}
-                    {{ $patterns = $patterns | append $ctx }}
+                        }}
+                        {{ $patterns = $patterns | append $ctx }}
+                        {{ end }}
+                        {{ partial "flex_cards.html" (dict "context" . "patterns" $patterns) }}
+                    </div>
                     {{ end }}
-                    {{ partial "flex_cards.html" (dict "context" . "patterns" $patterns) }}
                 </div>
-            {{ end }}
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-{{ if .Site.Params.footer }}
+    {{ if .Site.Params.footer }}
     {{ partial "footer.html" . }}
-{{ end }}
+    {{ end }}
 
 </main>
 

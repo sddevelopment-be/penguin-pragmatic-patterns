@@ -10,7 +10,7 @@
         <div class="container">
             <div class="columns">
                 <div class="column is-10 is-offset-1 landing-caption vert-align">
-                    {{ .Content }}
+                    {{ .Content | markdownify }}
                 </div>
             </div>
         </div>

@@ -58,6 +58,8 @@
             "Problem" .Params.problem
             "Categories" .Params.categories
             "Tags" .Params.tags
+            "Lastmod" .Params.Lastmod
+            "ReadingTime" .Params.ReadingTime
             "Ammerse" .Params.Ammerse
             }}
             {{ $patterns = $patterns | append $ctx }}
@@ -70,7 +72,7 @@
                     </h2>
                 </div>
                 <div class="pattern-list">
-                    <div class="wrapped-columns pattern-container">
+                    <div class="column is-centered-tablet-portrait">
 
                             {{ partial "flex_cards.html" (dict "context" . "patterns" $patterns) }}
                     </div>

@@ -15,6 +15,17 @@ tools: [ "read", "write", "search", "edit", "comment", "summarize", "bash" ]
 - **System Bootstrap and Rehydration:** .github/agents/guidelines/bootstrap.md and .github/agents/guidelines/rehydrate.md
 - **Localized Agentic Protocol:** AGENTS.md (root of repo or `.github/agents` / `.agents`).
 
+## Directive References (Externalized)
+
+| Code | Directive                     | Editorial Application                                   |
+|------|-------------------------------|---------------------------------------------------------|
+| 002  | Context Notes                 | Manage profile precedence & shorthand clarity           |
+| 004  | Documentation & Context Files | Retrieve style & audience references                    |
+| 006  | Version Governance            | Confirm alignment with current operational tone version |
+| 007  | Agent Declaration             | Authority confirmation before broad edit passes         |
+
+Invoke: `/require-directive <code>`.
+
 ## 2. Purpose
 
 Polish existing text—enhancing tone, clarity, and rhetorical fit—while preserving factual integrity and authorial rhythm. Provide minimal, well-rationalized edits.

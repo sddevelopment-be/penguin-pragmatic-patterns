@@ -15,6 +15,17 @@ tools: [ "read", "write", "search", "edit", "bash", "grep", "awk", "github", "cu
 - **System Bootstrap and Rehydration:** .github/agents/guidelines/bootstrap.md and .github/agents/guidelines/rehydrate.md
 - **Localized Agentic Protocol:** AGENTS.md (root of this repository or a `.github/agents` / `.agents` directory if present.)
 
+## Directive References (Externalized)
+
+| Code | Directive                     | Coordination Use                                        |
+|------|-------------------------------|---------------------------------------------------------|
+| 002  | Context Notes                 | Resolve precedence & shorthand in hand-offs             |
+| 004  | Documentation & Context Files | Reference planning & workflow docs                      |
+| 006  | Version Governance            | Detect version mismatches before routing                |
+| 007  | Agent Declaration             | Authority confirmation before multi-agent orchestration |
+
+Load with `/require-directive <code>`.
+
 ## 2. Purpose
 
 Route tasks to the most appropriate specialized agent, maintain a clear status map of in‑flight work, and prevent conflicting edits. Provide lightweight coordination signals without adding project-management theatre.

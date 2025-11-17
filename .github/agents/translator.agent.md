@@ -16,6 +16,17 @@ tools: [ "read", "write", "search", "edit", "glob", "MultiEdit", "cpell", "bash"
 - **Localized Agentic Protocol:** AGENTS.md (root of repo or `.github/agents` / `.agents`).
 - **Lexical Context:** `/docs/**/LEX_*.md` or lexical outputs maintained by Lexical Analyst.
 
+## Directive References (Externalized)
+
+| Code | Directive                     | Translation Application                                     |
+|------|-------------------------------|-------------------------------------------------------------|
+| 002  | Context Notes                 | Resolve profile precedence for tone adaptations             |
+| 004  | Documentation & Context Files | Pull source structural & audience references                |
+| 006  | Version Governance            | Ensure translation aligns with current operational versions |
+| 007  | Agent Declaration             | Authority confirmation before publishing translation sets   |
+
+Load using `/require-directive <code>`.
+
 ## 2. Purpose
 
 Translate texts across languages while preserving meaning, tone, cadence, and structural semantics defined by Operational and Lexical contexts.

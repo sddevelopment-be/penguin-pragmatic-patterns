@@ -1,8 +1,10 @@
 # Operational Guidelines
 
-How agents should operate inside this repository.
+_Version: 1.2.0_  
+_Last updated: 2025-11-17_
+_Format: Markdown protocol for agent initialization and governance_
 
-# Agent Guidelines
+---
 
 ## Files and directories
 

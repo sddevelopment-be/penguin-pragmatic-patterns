@@ -13,7 +13,7 @@ tools: [ "read", "search", "edit", "write" ]
 - **Strategic Context:** /agents/strategic-context.md
 - **Command Aliases:** /agents/command-aliases.md
 - **System Bootstrap:** /agents/system-bootstrap.md
-- **Localized Agentic Protocol:** ./AGENTS.md (the root of the current directory, or a `.github/agents` or `.agents` subdirectory if present.)
+- **Localized Agentic Protocol:** ./AGENTS.md (the root of the current repository, or a `.github/agents` or `.agents` subdirectory if present.)
 - **Writing Style Reference:** agents/specifics/writing_style.md
 
 ## 2. Purpose

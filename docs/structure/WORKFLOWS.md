@@ -10,16 +10,17 @@
 
 ### Build Environments
 
-| Environment | Branch | Trigger | Destination | URL |
-|-------------|--------|---------|-------------|-----|
-| **Development** | `develop` | Push | GitHub Pages | https://sddevelopment-be.github.io/penguin-pragmatic-patterns/ |
-| **Production** | `main` | Push | Netlify (via artifact) | https://patterns.sddevelopment.be |
+| Environment     | Branch    | Trigger | Destination            | URL                                                            |
+|-----------------|-----------|---------|------------------------|----------------------------------------------------------------|
+| **Development** | `develop` | Push    | GitHub Pages           | https://sddevelopment-be.github.io/penguin-pragmatic-patterns/ |
+| **Production**  | `main`    | Push    | Netlify (via artifact) | https://patterns.sddevelopment.be                              |
 
 ## Local Development Workflow
 
 ### Prerequisites
 
 **Required:**
+
 ```bash
 # Hugo extended version 0.152.2
 wget -O /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v0.152.2/hugo_extended_0.152.2_linux-amd64.deb
@@ -28,6 +29,7 @@ hugo version  # Verify: should show "extended"
 ```
 
 **Optional:**
+
 ```bash
 # Dart Sass (for advanced SCSS processing)
 sudo snap install dart-sass
@@ -45,6 +47,7 @@ hugo --gc --minify --buildDrafts=false
 ```
 
 **Details:**
+
 - Duration: ~900ms-1s
 - Output: `public/` directory (~59MB)
 - Generates: 352 EN pages, 21 NL pages, 703 static files
@@ -57,6 +60,7 @@ hugo --gc --minify --buildDrafts=true
 ```
 
 **Details:**
+
 - Includes draft content for testing
 - **Warning:** Some draft files have incomplete TOML front matter
 
@@ -67,6 +71,7 @@ hugo server --bind 0.0.0.0
 ```
 
 **Details:**
+
 - Starts on http://localhost:1313
 - Auto-reloads on file changes
 - Build time: ~170ms per rebuild
@@ -92,24 +97,28 @@ hugo mod clean
 **Problem:** Some draft practice files have `++ ` or `++` instead of `+++` delimiters
 
 **Affected Files:**
+
 - `communication_channel_compression.md`
 - `easy_to_change.md`
 - `rotating_meeting_roles.md`
 - `the_hat_you_wear.md`
 
 **Error Message:**
+
 ```
 invalid TOML delimiter
 EOF looking for end TOML front matter delimiter
 ```
 
 **Workaround:**
+
 - Use `--buildDrafts=false` for CI builds
 - OR fix delimiters to `+++` in affected files
 
 #### Issue 2: Missing JSON Layout Warning
 
 **Warning:**
+
 ```
 found no layout file for 'json' for kind 'section'
 ```
@@ -119,12 +128,14 @@ found no layout file for 'json' for kind 'section'
 ### Build Performance
 
 **Timing:**
+
 - Hugo module download: ~12 seconds (first time only)
 - Clean build: 900ms-1s
 - Incremental rebuild: 170-200ms
 - Hugo server startup: <1s
 
 **Resource Usage:**
+
 - Public directory: ~59MB
 - Total pages: 373 (352 EN + 21 NL)
 - Static files: ~703 files
@@ -139,10 +150,12 @@ found no layout file for 'json' for kind 'section'
 **Name:** Deploy Hugo site to Github Pages
 
 **Trigger:**
+
 - Push to `develop` branch
 - Manual workflow dispatch
 
 **Permissions:**
+
 ```yaml
 contents: read
 pages: write
@@ -188,8 +201,8 @@ id-token: write
    hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
    ```
    **Environment:**
-   - `HUGO_ENVIRONMENT=production`
-   - `HUGO_ENV=production`
+    - `HUGO_ENVIRONMENT=production`
+    - `HUGO_ENV=production`
 
 7. **Upload artifact**
    ```yaml
@@ -212,10 +225,12 @@ id-token: write
 **Name:** Build package for sddevelopment.be
 
 **Trigger:**
+
 - Push to `main` branch
 - Manual workflow dispatch
 
 **Permissions:**
+
 ```yaml
 contents: read
 pages: write
@@ -227,11 +242,13 @@ id-token: write
 **Steps:** (Similar to Workflow 1, differences below)
 
 **Build Command:**
+
 ```bash
 hugo --gc --minify --baseURL "$PRODUCTION_SITE_URL"
 ```
 
 **Upload Artifact:**
+
 ```yaml
 uses: actions/upload-artifact@master
 with:
@@ -282,6 +299,7 @@ with:
 **Dart Sass:** Installed via snap
 
 **Environment Variables:**
+
 - `HUGO_VERSION=0.152.2`
 - `HUGO_ENVIRONMENT=production`
 - `HUGO_ENV=production`
@@ -296,6 +314,7 @@ with:
 **Purpose:** Validate content structure, front matter, and data integrity
 
 **Checks:**
+
 - TOML front matter syntax
 - Tag existence in glossary
 - UUID uniqueness
@@ -311,11 +330,13 @@ with:
 **Tool:** ESLint  
 **Configuration:** `eslint.config.js`  
 **Dependencies:** `package.json`
+
 - `@eslint/js`
 - `@eslint/eslintrc`
 - `globals`
 
 **Run:**
+
 ```bash
 npm ci  # Install dependencies
 npx eslint .  # Run linter (inferred)
@@ -327,6 +348,7 @@ npx eslint .  # Run linter (inferred)
 **Configuration:** `.stylelintrc.json`
 
 **Run:**
+
 ```bash
 npx stylelint "**/*.css"  # (inferred)
 ```
@@ -334,12 +356,14 @@ npx stylelint "**/*.css"  # (inferred)
 ### Manual Testing
 
 **Content Preview:**
+
 ```bash
 hugo server --bind 0.0.0.0
 # Visit http://localhost:1313
 ```
 
 **Build Validation:**
+
 ```bash
 hugo --gc --minify --buildDrafts=false
 # Check for errors in build output
@@ -354,10 +378,12 @@ hugo --gc --minify --buildDrafts=false
 ### Release Strategy
 
 **Branching Model:**
+
 - `develop` — Development/preview branch → GitHub Pages
 - `main` — Production branch → Netlify
 
 **Release Process:**
+
 1. Work on feature branches
 2. Merge to `develop` for preview
 3. Test on GitHub Pages
@@ -370,6 +396,7 @@ hugo --gc --minify --buildDrafts=false
 ### Content Publishing
 
 **New Practice/Concept:**
+
 1. Create content in `content/en/practices/` or `content/en/concepts/`
 2. Use template from `src/templates/`
 3. Generate UUID with `uuidgen`
@@ -380,6 +407,7 @@ hugo --gc --minify --buildDrafts=false
 8. Merge to `main` for production
 
 **Book Entry:**
+
 1. Add entry to `data/bibliography.toml`
 2. Run `bash src/scripts/ops/generate_books.sh data/bibliography.toml`
 3. Commit generated page in `content/en/books/`
@@ -408,6 +436,7 @@ graph LR
 **Purpose:** Generate Markdown book pages from `data/bibliography.toml`
 
 **Usage:**
+
 ```bash
 bash src/scripts/ops/generate_books.sh data/bibliography.toml
 ```
@@ -448,12 +477,14 @@ bash src/scripts/ops/generate_books.sh data/bibliography.toml
 ### GitHub Actions Artifacts
 
 **1. github-pages** (from `hugo.yml`)
+
 - Path: `./public`
 - Size: ~59MB
 - Format: Static HTML/CSS/JS
 - Retention: GitHub Actions default (90 days)
 
 **2. patterns-site** (from `hugo_build_site.yml`)
+
 - Path: `./public`
 - Size: ~59MB
 - Format: Static HTML/CSS/JS
@@ -463,10 +494,12 @@ bash src/scripts/ops/generate_books.sh data/bibliography.toml
 ### Local Build Artifacts
 
 **Generated Directories:**
+
 - `/public/` — Hugo build output (gitignored)
 - `/resources/_gen/` — Hugo generated resources (gitignored)
 
 **Lock Files:**
+
 - `.hugo_build.lock` — Hugo build state (gitignored)
 
 ## Dependency Management
@@ -485,6 +518,7 @@ require (
 ```
 
 **Update:**
+
 ```bash
 hugo mod get -u
 hugo mod tidy
@@ -505,6 +539,7 @@ hugo mod tidy
 ```
 
 **Update:**
+
 ```bash
 npm update
 npm audit fix
@@ -514,49 +549,49 @@ npm audit fix
 
 ## Workflow Triggers Summary
 
-| Workflow | Trigger | Branch | Manual | Scheduled |
-|----------|---------|--------|--------|-----------|
-| `hugo.yml` | Push | `develop` | ✅ | ❌ |
-| `hugo_build_site.yml` | Push | `main` | ✅ | ❌ |
-| `cleanup.yml` | PR closed | N/A | ❌ | ❌ |
-| `update_readme.yml` | (Unknown) | (Unknown) | ⚠️ | ⚠️ |
-| `validation.yml` | (Unknown) | (Unknown) | ⚠️ | ⚠️ |
+| Workflow              | Trigger   | Branch    | Manual | Scheduled |
+|-----------------------|-----------|-----------|--------|-----------|
+| `hugo.yml`            | Push      | `develop` | ✅      | ❌         |
+| `hugo_build_site.yml` | Push      | `main`    | ✅      | ❌         |
+| `cleanup.yml`         | PR closed | N/A       | ❌      | ❌         |
+| `update_readme.yml`   | (Unknown) | (Unknown) | ⚠️     | ⚠️        |
+| `validation.yml`      | (Unknown) | (Unknown) | ⚠️     | ⚠️        |
 
 ## Future Workflow Enhancements
 
 ❗️ **Identified Gaps:**
 
 1. **Automated Testing:**
-   - No unit tests for scripts
-   - No integration tests for content generation
-   - No link checking automation
+    - No unit tests for scripts
+    - No integration tests for content generation
+    - No link checking automation
 
 2. **Content Validation:**
-   - Validation workflow exists but details unclear
-   - Could benefit from:
-     - Automated tag validation against glossary
-     - UUID uniqueness checks
-     - Front matter schema validation
-     - Image reference validation
+    - Validation workflow exists but details unclear
+    - Could benefit from:
+        - Automated tag validation against glossary
+        - UUID uniqueness checks
+        - Front matter schema validation
+        - Image reference validation
 
 3. **Release Management:**
-   - No explicit versioning or changelog automation
-   - Could implement semantic-release
-   - Could add release notes generation
+    - No explicit versioning or changelog automation
+    - Could implement semantic-release
+    - Could add release notes generation
 
 4. **Monitoring:**
-   - No uptime monitoring for production site
-   - No performance monitoring
-   - No client-side error tracking
+    - No uptime monitoring for production site
+    - No performance monitoring
+    - No client-side error tracking
 
 5. **Security:**
-   - No dependency vulnerability scanning
-   - No SAST/DAST security checks
+    - No dependency vulnerability scanning
+    - No SAST/DAST security checks
 
 6. **Performance:**
-   - No lighthouse CI
-   - No bundle size tracking
-   - No performance budgets
+    - No lighthouse CI
+    - No bundle size tracking
+    - No performance budgets
 
 ---
 

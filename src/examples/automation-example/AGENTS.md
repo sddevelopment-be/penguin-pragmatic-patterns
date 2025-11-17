@@ -327,7 +327,7 @@ Track significant changes to this configuration:
 - `agents/operational-reference.md` - Day-to-day operational practices
 - `agents/command-aliases.md` - Common commands and shortcuts
 - `agents/system-bootstrap.md` - Setup and initialization procedures
-- `agents/rehydrate.md` - Context recovery procedures
+- `agents/guidelines/rehydrate.md` - Context recovery procedures
 
 ---
 

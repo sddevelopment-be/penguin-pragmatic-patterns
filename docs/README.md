@@ -6,29 +6,34 @@ This directory contains bootstrap artefacts and reference documentation for the 
 
 **Purpose:** Provide machine-usable maps and minimal-friction entry points for agents
 
+### Main Repository Context
+
+- [VISION.md](VISION.md) — High-level project vision and scope
+- [specific_guidelines.md](specific_guidelines.md) — Repository-specific authoring and operational guidelines
+
 ### Core Structure Files
 
-1. **[REPO_MAP.md](REPO_MAP.md)** (9.8KB)
+1. **[REPO_MAP.md](../structure/REPO_MAP.md)** (9.8KB)
    - High-level directory tree with purpose blurbs
    - Key file counts and statistics
    - Directory access patterns for different roles
    - Build outputs and ignored files
 
-2. **[SURFACES.md](SURFACES.md)** (9.2KB)
+2. **[SURFACES.md](../structure/SURFACES.md)** (9.2KB)
    - Entry points and integration surfaces
    - Hugo build commands and requirements
    - CI/CD pipeline details
    - Content creation workflows
    - External dependencies
 
-3. **[CONTEXT_LINKS.md](CONTEXT_LINKS.md)** (11.2KB)
+3. **[CONTEXT_LINKS.md](structure/CONTEXT_LINKS.md)** (11.2KB)
    - Agent instructions and profiles
    - Context file hierarchy
    - Reference documentation locations
    - External framework links
    - Context update protocols
 
-4. **[WORKFLOWS.md](WORKFLOWS.md)** (12.7KB)
+4. **[WORKFLOWS.md](../structure/WORKFLOWS.md)** (12.7KB)
    - Build system overview
    - Local development workflow
    - CI/CD pipeline details
@@ -42,27 +47,27 @@ This directory contains bootstrap artefacts and reference documentation for the 
 
 ### Agent Context Files
 
-1. **[.repo_overview.md](references/.repo_overview.md)**
+1. **[.repo_overview.md](structure/.repo_overview.md)**
    - Project topology
    - Authoring rules
    - Recent additions and changes
    - Quick practice/concept lookups
    - Useful commands
 
-2. **[.repo-structure.md](references/.repo-structure.md)**
+2. **[.repo-structure.md](structure/.repo-structure.md)**
    - Detailed data directory structure
    - Content organization
    - Concepts directory conventions
    - Consistency tracking
 
-3. **[TODO_BOOTSTRAP.md](references/TODO_BOOTSTRAP.md)** (13.8KB)
+3. **[TODO_BOOTSTRAP.md](../work/logs/TODO_BOOTSTRAP.md)** (13.8KB)
    - Prioritized gaps and next steps
    - Agent-specific tasks
    - Workflow improvements
    - Timeline recommendations
    - Success metrics
 
-4. **[directive_primer.md](references/directive_primer.md)**
+4. **[directive_primer.md](templates/content/directive_primer.md)**
    - Directive and instruction guidance
 
 5. **[READER_PERSONAS/](references/READER_PERSONAS/)**
@@ -73,26 +78,26 @@ This directory contains bootstrap artefacts and reference documentation for the 
 ### For Human Developers
 
 **Getting Started:**
-1. Read [REPO_MAP.md](REPO_MAP.md) for overall structure
-2. Check [WORKFLOWS.md](WORKFLOWS.md) for build instructions
-3. Review [references/.repo_overview.md](references/.repo_overview.md) for authoring rules
+1. Read [REPO_MAP.md](../structure/REPO_MAP.md) for overall structure
+2. Check [WORKFLOWS.md](../structure/WORKFLOWS.md) for build instructions
+3. Review [references/.repo_overview.md](structure/.repo_overview.md) for authoring rules
 
 **Before Contributing:**
-1. Review [SURFACES.md](SURFACES.md) for integration points
-2. Check [TODO_BOOTSTRAP.md](references/TODO_BOOTSTRAP.md) for known gaps
+1. Review [SURFACES.md](../structure/SURFACES.md) for integration points
+2. Check [TODO_BOOTSTRAP.md](../work/logs/TODO_BOOTSTRAP.md) for known gaps
 3. Ensure tags exist in `data/glossary.toml`
 
 ### For Automated Agents
 
 **Initial Bootstrap:**
-1. Read [CONTEXT_LINKS.md](CONTEXT_LINKS.md) for context hierarchy
-2. Scan [REPO_MAP.md](REPO_MAP.md) for directory structure
-3. Check [TODO_BOOTSTRAP.md](references/TODO_BOOTSTRAP.md) for role-specific tasks
+1. Read [CONTEXT_LINKS.md](structure/CONTEXT_LINKS.md) for context hierarchy
+2. Scan [REPO_MAP.md](../structure/REPO_MAP.md) for directory structure
+3. Check [TODO_BOOTSTRAP.md](../work/logs/TODO_BOOTSTRAP.md) for role-specific tasks
 
 **Ongoing Work:**
-1. Reference [SURFACES.md](SURFACES.md) for build/test commands
-2. Consult [WORKFLOWS.md](WORKFLOWS.md) for CI/CD details
-3. Update [references/.repo_overview.md](references/.repo_overview.md) after changes
+1. Reference [SURFACES.md](../structure/SURFACES.md) for build/test commands
+2. Consult [WORKFLOWS.md](../structure/WORKFLOWS.md) for CI/CD details
+3. Update [references/.repo_overview.md](structure/.repo_overview.md) after changes
 
 ## File Update Guidelines
 

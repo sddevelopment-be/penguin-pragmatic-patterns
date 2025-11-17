@@ -1,7 +1,7 @@
 # Compiled class file
 *.class
 target
-out
+output
 node_modules
 
 .vscode
@@ -43,7 +43,7 @@ gradlew.*
 hs_err_pid*
 
 node_modules/**
-out/**
+output/**
 
 # Custom ignores
 old_source
@@ -56,7 +56,7 @@ SPELLCHECK_OUTPUT.*
 auto
 tmp
 
-OUT
+output
 
 # Cypress validation
 validation/cypress/videos/

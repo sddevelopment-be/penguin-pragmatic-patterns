@@ -69,7 +69,7 @@ They teach philosophy, idioms, and meta-systems, rather than syntax alone.
 Forms the foundation layer of technical fluency — the bridge between theoretical knowledge and real-world code.
 
 **Template:**
-[/templates/primers/TEMPLATE_PROGRAMMING_PRIMER.md](../../src/templates/primers/TEMPLATE_PROGRAMMING_PRIMER.md)
+[/templates/primers/TEMPLATE_PROGRAMMING_PRIMER.md](../templates/primers/TEMPLATE_PROGRAMMING_PRIMER.md)
 
 **Envisioned Contents:**
 Python, Rust, Perl, Go, Kotlin, Java, C#, JavaScript/TypeScript, Lisp, Prolog, Haskell, C, Eiffel, Smalltalk, Groovy

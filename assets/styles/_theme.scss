@@ -121,7 +121,7 @@
     --theme-bg-base-dark-secondary: #1a1f26;
     --theme-bg-base-dark-card: #161b22;
     --theme-bg-base-dark-dropdown: #0d1117;
-    --theme-bg-base-dark-empty: rgba(255 255 255 / 3%);
+    --theme-bg-base-dark-empty: rgb(255 255 255 / 3%);
     
     /* Dark theme - Base text colors */
     --theme-text-base-dark-primary: #e3e8ed;
@@ -137,17 +137,17 @@
     --theme-bg-primary: var(--theme-bg-base-dark-primary);
     --theme-bg-body: var(--theme-bg-base-dark-body);
     --theme-bg-secondary: var(--theme-bg-base-dark-secondary);
-    --theme-bg-tertiary: rgba(30 117 192 / 8%);
+    --theme-bg-tertiary: rgb(30 117 192 / 8%);
     --theme-bg-card: var(--theme-bg-base-dark-card);
     --theme-bg-card-gradient-start: var(--theme-bg-base-dark-card);
     --theme-bg-card-gradient-end: var(--theme-bg-base-dark-secondary);
-    --theme-bg-card-hover-start: rgba(30 117 192 / 15%);
-    --theme-bg-card-hover-end: rgba(243 146 0 / 10%);
-    --theme-bg-pattern-container: rgba(30 117 192 / 10%);
+    --theme-bg-card-hover-start: rgb(30 117 192 / 15%);
+    --theme-bg-card-hover-end: rgb(243 146 0 / 10%);
+    --theme-bg-pattern-container: rgb(30 117 192 / 10%);
     --theme-bg-empty-card: var(--theme-bg-base-dark-empty);
     --theme-bg-dropdown: var(--theme-bg-base-dark-secondary);
     --theme-bg-skip-link: var(--theme-bg-base-dark-body);
-    --theme-bg-tag: rgba(243 146 0 / 15%);
+    --theme-bg-tag: rgb(243 146 0 / 15%);
     --theme-bg-navbar-dropdown: var(--theme-bg-base-dark-dropdown);
     --theme-bg-related: var(--theme-bg-base-dark-card);
     
@@ -162,31 +162,31 @@
     --theme-text-card-title: var(--theme-text-base-dark-card-title);
     --theme-text-card-subtitle: var(--theme-text-base-dark-secondary);
     --theme-text-card-body: var(--theme-text-base-dark-card-body);
-    --theme-text-card-meta: rgba(176 184 192 / 70%);
+    --theme-text-card-meta: rgb(176 184 192 / 70%);
     --theme-text-summary-link: var(--theme-text-base-dark-secondary);
-    --theme-text-emphasis: rgba(30 117 192 / 80%);
+    --theme-text-emphasis: rgb(30 117 192 / 80%);
     --theme-text-h4: var(--theme-text-base-dark-muted);
     --theme-text-company-info: var(--theme-text-base-dark-muted);
-    --theme-text-icon: rgba(30 117 192 / 70%);
+    --theme-text-icon: rgb(30 117 192 / 70%);
     --theme-text-tag: var(--theme-brand-primary);
     
     /* Dark theme - Borders */
-    --theme-border-primary: rgba(30 117 192 / 30%);
-    --theme-border-hr: rgba(243 146 0 / 35%);
-    --theme-border-card: rgba(30 117 192 / 25%);
-    --theme-border-slate: rgba(30 117 192 / 20%);
+    --theme-border-primary: rgb(30 117 192 / 30%);
+    --theme-border-hr: rgb(243 146 0 / 35%);
+    --theme-border-card: rgb(30 117 192 / 25%);
+    --theme-border-slate: rgb(30 117 192 / 20%);
     --theme-scrollbar-track: var(--theme-bg-base-dark-secondary);
     --theme-scrollbar-thumb: var(--theme-brand-primary);
     
     /* Dark theme - Quote and accent colors */
-    --theme-quote-base-color: rgba(71 26 139 / 60%);
-    --theme-quote-base-footer: rgba(25 7 53 / 80%);
-    --theme-info-base-color: rgba(18 50 84 / 80%);
-    --theme-muted-base-border: rgba(206 206 206 / 30%);
-    --theme-muted-base-title: rgba(137 137 137 / 70%);
-    --theme-alias-base-border: rgba(225 225 225 / 20%);
-    --theme-alias-base-bg: rgba(232 232 232 / 15%);
+    --theme-quote-base-color: rgb(71 26 139 / 60%);
+    --theme-quote-base-footer: rgb(25 7 53 / 80%);
+    --theme-info-base-color: rgb(18 50 84 / 80%);
+    --theme-muted-base-border: rgb(206 206 206 / 30%);
+    --theme-muted-base-title: rgb(137 137 137 / 70%);
+    --theme-alias-base-border: rgb(225 225 225 / 20%);
+    --theme-alias-base-bg: rgb(232 232 232 / 15%);
     --theme-link-base-blue: var(--theme-brand-primary);
-    --theme-shadow-base: rgba(11 23 35 / 80%);
+    --theme-shadow-base: rgb(11 23 35 / 80%);
   }
 }

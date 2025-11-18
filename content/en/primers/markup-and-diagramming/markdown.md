@@ -11,6 +11,13 @@ Markdown is a plain-text formatting syntax designed for readability in both raw 
 It enables version-controlled documentation, README files, and static site content without requiring 
 specialized editors or complex markup languages.
 """
+further_exploration = [
+    { type = "raw", author = "Gruber, John", year = "2004", title = "Original Markdown Syntax", site = "Daring Fireball", link = "https://daringfireball.net/projects/markdown/syntax" },
+    { type = "raw", author = "CommonMark", year = "2024", title = "CommonMark Specification", site = "commonmark.org", link = "https://commonmark.org/" },
+    { type = "raw", author = "GitHub", year = "2024", title = "GitHub Flavored Markdown Spec", site = "GitHub", link = "https://github.github.com/gfm/" },
+    { type = "raw", author = "Google", year = "2024", title = "Markdown Style Guide", site = "Google Developer Documentation Style Guide", link = "https://google.github.io/styleguide/docguide/style.html" },
+    { type = "raw", author = "Markdown Guide", year = "2024", title = "Markdown Guide: Comprehensive Reference", site = "markdownguide.org", link = "https://www.markdownguide.org/" }
+]
 +++
 
 ## 1. Purpose and Philosophy
@@ -47,7 +54,31 @@ Markdown was created by John Gruber in 2004 with a clear goal: enable writers to
 - [Markdown Guide](https://www.markdownguide.org/) — Comprehensive reference and best practices
 - [Original Markdown Syntax by John Gruber](https://daringfireball.net/projects/markdown/syntax)
 
-## 2. Core Syntax
+## 2. Getting Started
+
+Writing markdown requires nothing more than a text editor. To get started quickly, choose an editor that suits your workflow:
+
+**For beginners:**
+- **[Notepad++](https://notepad-plus-plus.org/)** (Windows) — Lightweight, syntax highlighting, free
+- **TextEdit** (macOS) — Built-in, switch to plain text mode (Format → Make Plain Text)
+- **gedit** (Linux) — Simple, comes pre-installed on many distributions
+
+**For enhanced productivity:**
+- **[VS Code](https://code.visualstudio.com/)** — Live preview, extensions for linting and formatting, cross-platform
+- **[Typora](https://typora.io/)** — WYSIWYG markdown editor with instant preview
+- **[Obsidian](https://obsidian.md/)** — Note-taking with linking and graph views
+
+**Quick setup with VS Code:**
+1. Install VS Code from [code.visualstudio.com](https://code.visualstudio.com/)
+2. Install recommended extensions:
+   - "Markdown All in One" for shortcuts and preview
+   - "markdownlint" for style checking
+3. Open a `.md` file and press `Ctrl+K V` (or `Cmd+K V` on macOS) for side-by-side preview
+4. Start writing—autocomplete and syntax highlighting work out of the box
+
+Once you have an editor, create a file named `README.md`, write a few headings and lists following the syntax below, and preview the results. Most modern platforms (GitHub, GitLab, static site generators) will render markdown automatically.
+
+## 3. Core Syntax
 
 **Minimal cheatsheet:**
 
@@ -91,12 +122,15 @@ Ordered list:
 ```
 
 ### Code Blocks
-````markdown
+
+Fenced code blocks use triple backticks with an optional language identifier for syntax highlighting:
+
+{{< highlight markdown >}}
 ```python
 def hello():
     print("Hello, world!")
 ```
-````
+{{< /highlight >}}
 
 ### Blockquotes
 ```markdown
@@ -130,7 +164,7 @@ Alignment:
 - [ ] Pending task
 ```
 
-## 3. Patterns and Idioms
+## 4. Patterns and Idioms
 
 ### README Structure
 Most README files follow a consistent pattern:
@@ -195,7 +229,10 @@ Cross-file heading links:
 ```
 
 ### Embedding Code Snippets
-```markdown
+
+When documenting code in a repository, you can reference source files directly or include inline snippets with syntax highlighting. This helps readers understand implementation details without leaving the documentation.
+
+{{< highlight markdown >}}
 Reference code in repository:
 See [example.py](src/example.py) for implementation.
 
@@ -205,9 +242,11 @@ Inline snippet with highlighting:
 def process_data(items):
     return [item.upper() for item in items]
 ```
-```
+{{< /highlight >}}
 
-## 4. Tooling and Rendering
+## 5. Tooling and Rendering
+
+Beyond basic text editors, markdown benefits from specialized tools that provide validation, transformation, and publishing capabilities. These tools help maintain consistency and streamline documentation workflows.
 
 ### Editors
 - [VS Code](https://code.visualstudio.com/) with Markdown extensions (preview, linting)
@@ -216,23 +255,36 @@ def process_data(items):
 - [Zettlr](https://www.zettlr.com/) — Academic markdown editor
 
 ### Linters and Formatters
+
+Automated tools catch style inconsistencies and formatting errors before they reach production. Running these in pre-commit hooks or CI pipelines ensures documentation quality.
+
 - [markdownlint](https://github.com/DavidAnson/markdownlint) — Style checker and linter
 - [Prettier](https://prettier.io/) — Auto-formatter for markdown
 - [Remark](https://remark.js.org/) — Markdown processor with plugins
 
 ### Static Site Generators
+
+These tools transform markdown files into complete websites, handling navigation, theming, and asset management automatically.
+
 - [Hugo](https://gohugo.io/) — Fast static site generator (used by this site)
 - [Jekyll](https://jekyllrb.com/) — GitHub Pages default generator
 - [MkDocs](https://www.mkdocs.org/) — Documentation-focused generator
 - [Docusaurus](https://docusaurus.io/) — React-based documentation sites
+- [Docsify](https://docsify.js.org/) — Dynamic documentation site without static build step
+- [reveal.js](https://revealjs.com/) — Markdown-based presentation framework for creating HTML slideshows
 
 ### Rendering Libraries
+
+When building custom documentation tools or integrating markdown into applications, these libraries parse and convert markdown to HTML.
+
 - [marked](https://github.com/markedjs/marked) — JavaScript markdown parser
 - [markdown-it](https://github.com/markdown-it/markdown-it) — Extensible markdown parser
 - [Python-Markdown](https://python-markdown.github.io/) — Python implementation
 - [CommonMark](https://commonmark.org/help/) — Reference implementation
 
-## 5. Integration
+## 6. Integration
+
+Markdown's plain-text nature makes it ideal for integration with development workflows. Version control, automated builds, and documentation-as-code practices all benefit from treating docs like source code.
 
 ### Version Control
 ```bash
@@ -285,7 +337,7 @@ project/
 └── README.md
 ```
 
-## 6. Accessibility and Review
+## 7. Accessibility and Review
 
 ### Accessibility Practices
 - **Alt text for images:** Always provide meaningful descriptions
@@ -312,7 +364,7 @@ project/
 - **Broken relative links:** Test links in rendered context, not just source
 - **Forgotten fenced code blocks:** Backticks must match (three for blocks)
 
-## 7. Example and Reference
+## 8. Example and Reference
 
 **Complete working example: Project README**
 

@@ -1,7 +1,7 @@
 @use "../settings" as *;
 
 .pattern-container {
-    background-color: rgb(255 248 244 / 55%);
+    background-color: var(--theme-bg-pattern-container);
     border-top: 2px solid $brand-primary;
     margin-bottom: 3.5rem;
     padding: $space-card $space-sm;
@@ -11,7 +11,7 @@
     place-content: center flex-start;
     flex-basis: 340px;
     scroll-snap-type: x mandatory;
-    scrollbar-color: $brand-primary #fff;
+    scrollbar-color: var(--theme-scrollbar-thumb) var(--theme-scrollbar-track);
     scrollbar-width: thin;
 }
 
@@ -65,7 +65,7 @@
         place-content: center flex-start;
         flex-basis: 340px;
         scroll-snap-type: x mandatory;
-        scrollbar-color: $brand-primary #fff;
+        scrollbar-color: var(--theme-scrollbar-thumb) var(--theme-scrollbar-track);
         scrollbar-width: thin;
     }
 }
@@ -92,7 +92,7 @@
 
 .card-image img {
     border-radius: $space-xl;
-    border: 8px solid #fdf9f7;
+    border: 8px solid var(--theme-bg-card);
     max-width: 90%;
     width: auto;
     height: auto;
@@ -106,16 +106,16 @@
     width: calc(calc(100% / 3) - $space-lg);
     height: auto;
     margin: $space-gap-tight $space-xs $space-gap-tight $space-2xs;
-    background-image: linear-gradient($color-surface-light, #fdfdfd);
+    background-image: linear-gradient(var(--theme-bg-card-gradient-start), var(--theme-bg-card-gradient-end));
     border-radius: 3px;
-    border: 1px solid rgb(224 205 193 / 99%);
+    border: 1px solid var(--theme-border-card);
     padding: $space-card;
     scroll-snap-align: start;
 }
 
 .empty,
 .empty:hover {
-  background-image: linear-gradient(#6969690d, #6969690d, #6969690d, #5555550d) !important;
+  background-image: linear-gradient(var(--theme-bg-empty-card), var(--theme-bg-empty-card), var(--theme-bg-empty-card), var(--theme-bg-empty-card)) !important;
   border: 1px dashed #b0b0b0 !important;
   max-height: 8rem !important;
   min-height: 8rem !important;
@@ -139,7 +139,7 @@
     }
 
     .pattern-card:hover {
-        background-image: linear-gradient(#fbf1e9, #fdf1de, #fdf1de, #fbebd4, #fbf1e9);
+        background-image: linear-gradient(var(--theme-bg-card-hover-start), var(--theme-bg-card-hover-end), var(--theme-bg-card-hover-end), var(--theme-bg-card-hover-end), var(--theme-bg-card-hover-start));
         border: 1px solid $brand-primary;
     }
 
@@ -183,7 +183,7 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 1.2rem;
     font-weight: 600;
-    color: #1e1e3f;
+    color: var(--theme-text-card-title);
     padding: 0 $space-sm;
 }
 
@@ -191,7 +191,7 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 1rem;
     font-weight: 450;
-    color: #4a4a77;
+    color: var(--theme-text-card-subtitle);
     padding: 0 $space-sm;
     line-height: 1.25;
 }
@@ -209,7 +209,7 @@
 }
 
 .pattern-card .card-text {
-    color: #2c3e50;
+    color: var(--theme-text-card-body);
     padding-left: $space-2xs;
     font-size: 0.9rem;
     text-align: justify;
@@ -228,7 +228,7 @@
 }
 
 .pattern-card .card-text p .item-title {
-    color: #1f586f85;
+    color: var(--theme-text-card-meta);
     font-stretch: extra-condensed;
     text-transform: uppercase;
     font-weight: 350;
@@ -301,13 +301,13 @@
 }
 
 .summary-content a {
-    color: #363636;
+    color: var(--theme-text-summary-link);
     border-bottom: 1px dashed $brand-primary;
 }
 
 .summary-content a:hover {
-    color: $brand-primary !important;
-    border-bottom: 1px dashed #363636 !important;
+    color: var(--theme-brand-primary) !important;
+    border-bottom: 1px dashed var(--theme-text-summary-link) !important;
 }
 
 .pattern-tags .pattern-tag {
@@ -315,15 +315,15 @@
     font-size: $space-gutter;
     font-weight: bold;
     padding: $space-2xs 0.3rem;
-    color: $color-earth-amber;
-    background: #f9d3b265;
+    color: var(--theme-text-tag);
+    background: var(--theme-bg-tag);
     text-transform: uppercase;
     border-radius: $space-2xs;
     margin: 0 $space-xs $space-xs 0;
 }
 
 .pattern-tags .pattern-tag a {
-    color: $color-earth-amber;
+    color: var(--theme-text-tag);
 }
 
 .pattern-tags .pattern-tag a:hover {
@@ -342,7 +342,7 @@
 
 .fa-circle-info {
     font-size: $space-gutter;
-    color: #34626f;
+    color: var(--theme-text-icon);
     margin-right: $space-2xs;
     margin-left: $space-2xs;
 }
@@ -354,9 +354,9 @@
     flex-flow: column nowrap;
     place-content: normal flex-start;
     width: calc(calc(100% / 3) - $space-lg);
-    background-image: linear-gradient($color-surface-light, #fdfdfd);
+    background-image: linear-gradient(var(--theme-bg-card-gradient-start), var(--theme-bg-card-gradient-end));
     border-radius: 6px;
-    border: 1px solid rgb(224 205 193 / 99%);
+    border: 1px solid var(--theme-border-card);
     scroll-snap-align: start;
     margin: $space-2xs $space-2xs 3rem $space-hero;
 }
@@ -416,7 +416,7 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 1.2rem;
     font-weight: 600;
-    color: #1e1e3f;
+    color: var(--theme-text-card-title);
     padding: 0 $space-sm;
     text-align: center;
     justify-content: center;
@@ -425,7 +425,7 @@
 
 .pattern-summary .summary-title {
     padding: 0 $space-xs;
-    color: #1f586f85;
+    color: var(--theme-text-card-meta);
     font-stretch: extra-condensed;
     text-transform: uppercase;
     font-weight: 350;
@@ -494,7 +494,7 @@
         display: block;
         width: 100%;
         margin: 0;
-        background: linear-gradient(rgb(11 28 42 / 90%), rgb(1 13 24 / 95%)), url("/images/tiles.webp") repeat;
+        background: var(--theme-bg-dark-gradient);
         border: 0;
         border-bottom: 2px solid #030303;
         border-radius: 0;
@@ -505,10 +505,10 @@
         max-width: 100%;
         max-height: 9.5rem;
         height: 9.5rem;
-        background: $color-surface-deep;
+        background: var(--theme-bg-dark-primary);
         padding-top: $space-2xl;
-        border-top: 2px solid $color-slate;
-        border-bottom: 2px solid $color-slate;
+        border-top: 2px solid var(--theme-border-slate);
+        border-bottom: 2px solid var(--theme-border-slate);
         padding-bottom: $space-card;
         padding-right: 6.5rem;
         margin-bottom: $space-3xl;
@@ -516,11 +516,11 @@
 
 
         .title {
-            color: $color-surface-light;
+            color: var(--theme-text-light);
         }
 
         .subtitle {
-            color: $brand-primary;
+            color: var(--theme-brand-primary);
             font-weight: 300;
         }
 
@@ -547,7 +547,7 @@
 
     .pattern-summary .card-image img {
         border-radius: 6.75rem;
-        border: 4px solid $color-surface-deep;
+        border: 4px solid var(--theme-bg-dark-primary);
         max-width: 95%;
         width: auto;
         height: auto;
@@ -572,16 +572,16 @@
         max-width: 100%;
         padding: $space-sm $space-cozy $space-gap-narrow;
         border-left: 1px solid $brand-primary;
-        color: $color-surface-light;
+        color: var(--theme-text-light);
         font-weight: 650;
-        background: rgba($color-surface-deep, 0.52);
+        background: var(--theme-bg-dark-secondary);
     }
 
     .pattern-summary .summary-title {
         max-width: 100%;
         padding-left: $space-2xl;
         margin-top: -$space-sm;
-        color: $brand-primary;
+        color: var(--theme-brand-primary);
         font-weight: 500;
     }
 
@@ -602,18 +602,18 @@
         margin: $space-2xs $space-sm 0;
 
         a {
-            color: $color-surface-light;
+            color: var(--theme-text-light);
             border-bottom: 1px dashed $brand-primary;
         }
 
         a:hover {
-            color: $brand-primary;
-            border-bottom: 1px dashed $color-surface-light;
+            color: var(--theme-brand-primary);
+            border-bottom: 1px dashed var(--theme-text-light);
         }
 
         .fa-circle-info {
             font-size: $space-gutter;
-            color: $brand-primary;
+            color: var(--theme-brand-primary);
         }
     }
 
@@ -625,7 +625,7 @@
         width: 100%;
         height: $space-xs;
         display: block;
-        background: rgba($color-surface-deep, 0.52);
+        background: var(--theme-bg-dark-secondary);
     }
 
     .pattern-summary .summary-item .summary-formats {
@@ -651,25 +651,25 @@
         margin: 0;
         flex-shrink: 0;
         float: none;
-        background: linear-gradient(rgb(11 28 42 / 90%), rgb(1 13 24 / 95%)), url("/images/tiles.webp") repeat;
+        background: var(--theme-bg-dark-gradient);
         border: 0;
         border-bottom: 2px solid #030303;
         border-radius: 0;
     }
 
     .pattern-summary .title-wrapper {
-        background: $color-surface-deep;
+        background: var(--theme-bg-dark-primary);
         padding-bottom: $space-xl;
         padding-top: $space-2xl;
         margin-top: 0;
         margin-bottom: $space-xl;
 
         .title {
-            color: $color-surface-light;
+            color: var(--theme-text-light);
         }
 
         .subtitle {
-            color: $brand-primary;
+            color: var(--theme-brand-primary);
             font-weight: 300;
         }
     }
@@ -701,16 +701,16 @@
         border-top: 1px solid $brand-primary;
         border-right: 1px solid $brand-primary;
         border-radius: 0;
-        background: rgba($color-surface-deep, 0.52);
+        background: var(--theme-bg-dark-secondary);
 
         a {
-            color: $color-surface-light;
+            color: var(--theme-text-light);
             border-bottom: 1px dashed $brand-primary;
         }
 
         .fa-circle-info {
             font-size: $space-gutter;
-            color: $brand-primary;
+            color: var(--theme-brand-primary);
         }
     }
 
@@ -726,14 +726,14 @@
     .pattern-summary .summary-title {
         max-width: 100%;
         padding-left: $space-sm;
-        color: $brand-primary;
+        color: var(--theme-brand-primary);
         font-weight: 500;
     }
 
     .pattern-summary .summary-content {
         justify-content: start;
         padding: $space-sm $space-cozy $space-2xl;
-        color: $color-surface-light;
+        color: var(--theme-text-light);
         font-weight: 650;
         flex-grow: 1;
         max-width: 100%;
@@ -751,11 +751,11 @@
 .pattern-summary .pattern-tags .pattern-tag {
     padding: $space-xs $space-sm;
     text-align: right;
-    color: $color-surface-light;
-    background: $color-surface-deep;
+    color: var(--theme-text-light);
+    background: var(--theme-bg-dark-primary);
 
     a {
-        color: $color-surface-light;
+        color: var(--theme-text-light);
     }
 }
 
@@ -800,10 +800,10 @@
 
 .related {
     margin-top: $space-4xl;
-    background: $color-surface-light;
+    background: var(--theme-bg-related);
     padding: $space-2xs !important;
     border-radius: 6px;
-    border: 1px solid rgb(224 205 193 / 99%);
+    border: 1px solid var(--theme-border-card);
     clear: both;
 }
 
@@ -817,7 +817,7 @@
 }
 
 .related summary::marker {
-    color: $brand-primary;
+    color: var(--theme-brand-primary);
 }
 
 .related .related-content {
@@ -863,5 +863,5 @@
 }
 
 .dark-pattern {
-    background: linear-gradient(rgb(11 28 42 / 90%), rgb(1 13 24 / 95%)), url("/images/tiles.webp") repeat;
+    background: var(--theme-bg-dark-gradient);
 }

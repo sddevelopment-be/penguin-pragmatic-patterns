@@ -16,8 +16,8 @@
         width: auto;
         height: auto;
         padding: $space-sm 1rem;
-        background: #fff;
-        color: #000;
+        background: var(--theme-bg-skip-link);
+        color: var(--theme-text-skip-link);
     }
 }
 
@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar .navbar-item,
 .navbar .navbar-link {
-    color: $color-text-primary;
+    color: var(--theme-text-navbar);
     font-weight: 400;
 }
 
@@ -95,7 +95,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar.is-fresh .navbar-item.has-dropdown .navbar-link,
 .navbar.is-fresh .navbar-item.has-dropdown,
 .navbar.is-fresh .navbar-item.is-secondary {
-    color: #1f2933;
+    color: var(--theme-text-navbar);
     font-weight: 400;
 }
 
@@ -105,7 +105,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #navbar-clone .navbar-item,
 #navbar-clone .navbar-link {
-    color: $color-text-primary;
+    color: var(--theme-text-navbar);
     font-weight: 400;
 }
 
@@ -125,7 +125,7 @@ h1, h2, h3, h4, h5, h6 {
 
     .navbar.is-transparent .navbar-dropdown a.navbar-item:focus, .navbar.is-transparent .navbar-dropdown a.navbar-item:hover {
       color: $brand-primary;
-      background-color: #202e39 !important;
+      background-color: var(--theme-bg-navbar-dropdown) !important;
       font-weight: 600;
     }
 }
@@ -247,7 +247,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .content p::first-letter {
     font-size: $space-card;
-    color: #1c3337;
+    color: var(--theme-text-heading);
 }
 
 .content h1, h2, h3, h4 {
@@ -279,7 +279,7 @@ h1, h2, h3, h4, h5, h6 {
 .content h4 {
     font-size: 1.15em;
     margin-top: 2.125em;
-    color: #556975;
+    color: var(--theme-text-h4);
 }
 
 .content:not(.pattern) h5 {
@@ -341,7 +341,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .content em {
     font-style: italic;
-    color: $color-navy-muted;
+    color: var(--theme-text-emphasis);
     font-family: Georgia, serif;
     font-size: 0.975rem;
     font-kerning: auto;
@@ -397,7 +397,7 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 400;
     padding: 0 $space-2xs;
     font-size: $space-cozy;
-    color: #f29200;
+    color: var(--theme-brand-primary);
 }
 
 .container a {
@@ -405,7 +405,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .content a {
-  color: #b56f07;
+  color: var(--theme-text-link);
   font-weight: 600;
 }
 
@@ -414,7 +414,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .company-info {
-  color: #98a9c3;
+  color: var(--theme-text-company-info);
   font-size: $space-sm;
   font-weight: 450;
   line-height: 1.75;
@@ -423,7 +423,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .company-info a {
-  color: #98a9c3;
+  color: var(--theme-text-company-info);
 }
 
 .chapter {
@@ -440,12 +440,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .content a:hover {
-  color: $brand-primary;
+  color: var(--theme-text-link-hover);
   font-weight: 600;
 }
 
 .company-info a:hover {
-  color: $color-surface-light;
+  color: var(--theme-text-light);
 }
 
 .chapter a:hover {
@@ -560,14 +560,7 @@ footer {
 }
 
 footer.footer-dark {
-    background: linear-gradient(
-            rgb(1 13 24 / 95%),
-            rgb(1 13 24 / 85%),
-            rgb(1 13 24 / 95%),
-            rgb(1 13 24 / 95%),
-            rgb(1 13 24)
-        ),
-        url("/images/tiles.webp") repeat;
+    background: var(--theme-bg-footer-dark);
 }
 
 footer.footer-dark .footer-column ul.link-list a {
@@ -585,14 +578,14 @@ footer.footer-dark .footer-column ul.link-list a:hover {
     width: 100%;
     margin: 0;
     padding: 3rem 3rem $space-3xl;
-    background: linear-gradient(rgb(11 28 42 / 90%), rgb(1 13 24 / 95%)), url("/images/tiles.webp") repeat;
+    background: var(--theme-bg-dark-gradient);
     border: 0;
-    border-top: 2px solid $color-slate;
+    border-top: 2px solid var(--theme-border-slate);
     border-bottom: 4px solid #535353;
     border-radius: 0;
 
     .title {
-        color: $color-surface-light;
+        color: var(--theme-text-light);
         margin-left: auto;
         margin-right: auto;
         clear: both;
@@ -600,7 +593,7 @@ footer.footer-dark .footer-column ul.link-list a:hover {
     }
 
     .subtitle {
-        color: $brand-primary;
+        color: var(--theme-brand-primary);
         font-weight: 300;
         margin-left: auto;
         margin-right: auto;
@@ -610,7 +603,7 @@ footer.footer-dark .footer-column ul.link-list a:hover {
     .divider {
       height: $border-width-regular;
       border-radius: 0;
-      background: $brand-primary;
+      background: var(--theme-brand-primary);
       width: 4rem;
       clear: both;
       margin: $space-3xs auto $space-xs auto;

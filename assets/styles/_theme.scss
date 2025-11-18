@@ -1,0 +1,169 @@
+@use "settings" as *;
+
+/* CSS Custom Properties for Light and Dark Themes */
+:root {
+  /* Brand colors - consistent across themes */
+  --theme-brand-primary: #{$brand-primary};
+  --theme-brand-secondary: #{$brand-secondary};
+  --theme-brand-dark: #{$brand-dark};
+  
+  /* Light theme - Base colors */
+  --theme-bg-base-light: #{$color-surface-light};
+  --theme-bg-base-body: #fefefe;
+  --theme-bg-base-secondary: #fdfdfd;
+  --theme-bg-base-warm: rgb(255 248 244 / 55%);
+  --theme-bg-base-hover-warm-start: #fbf1e9;
+  --theme-bg-base-hover-warm-end: #fbebd4;
+  --theme-bg-base-empty: #6969690d;
+  --theme-bg-base-white: #fff;
+  --theme-bg-base-tag-light: #f9d3b265;
+  
+  /* Light theme - Semantic mappings */
+  --theme-bg-primary: var(--theme-bg-base-light);
+  --theme-bg-body: var(--theme-bg-base-body);
+  --theme-bg-secondary: var(--theme-bg-base-secondary);
+  --theme-bg-tertiary: var(--theme-bg-base-warm);
+  --theme-bg-card: var(--theme-bg-base-light);
+  --theme-bg-card-gradient-start: var(--theme-bg-base-light);
+  --theme-bg-card-gradient-end: var(--theme-bg-base-secondary);
+  --theme-bg-card-hover-start: var(--theme-bg-base-hover-warm-start);
+  --theme-bg-card-hover-end: var(--theme-bg-base-hover-warm-end);
+  --theme-bg-pattern-container: var(--theme-bg-base-warm);
+  --theme-bg-empty-card: var(--theme-bg-base-empty);
+  --theme-bg-dropdown: var(--theme-bg-base-body);
+  --theme-bg-skip-link: var(--theme-bg-base-white);
+  --theme-bg-tag: var(--theme-bg-base-tag-light);
+  --theme-bg-navbar-dropdown: transparent;
+  --theme-bg-related: var(--theme-bg-base-light);
+  
+  /* Dark theme backgrounds - specialty */
+  --theme-bg-dark-primary: #{$color-surface-deep};
+  --theme-bg-dark-secondary: rgba(#{$color-surface-deep}, 0.52);
+  --theme-bg-dark-gradient: linear-gradient(rgb(11 28 42 / 90%), rgb(1 13 24 / 95%)), url("/images/tiles.webp") repeat;
+  --theme-bg-footer-dark: linear-gradient(
+      rgb(1 13 24 / 95%),
+      rgb(1 13 24 / 85%),
+      rgb(1 13 24 / 95%),
+      rgb(1 13 24 / 95%),
+      rgb(1 13 24)
+    ),
+    url("/images/tiles.webp") repeat;
+  
+  /* Light theme - Text base colors */
+  --theme-text-base-primary: #{$color-text-primary};
+  --theme-text-base-muted: #{$color-text-muted};
+  --theme-text-base-heading: #1c3337;
+  --theme-text-base-link: #b56f07;
+  --theme-text-base-black: #000;
+  --theme-text-base-card-title: #1e1e3f;
+  --theme-text-base-card-subtitle: #4a4a77;
+  --theme-text-base-card-body: #2c3e50;
+  --theme-text-base-card-meta: #1f586f85;
+  --theme-text-base-summary-link: #363636;
+  --theme-text-base-h4: #556975;
+  --theme-text-base-company-info: #98a9c3;
+  --theme-text-base-icon: #34626f;
+  
+  /* Light theme - Text semantic mappings */
+  --theme-text-primary: var(--theme-text-base-primary);
+  --theme-text-secondary: var(--theme-text-base-muted);
+  --theme-text-heading: var(--theme-text-base-heading);
+  --theme-text-link: var(--theme-text-base-link);
+  --theme-text-link-hover: var(--theme-brand-primary);
+  --theme-text-navbar: var(--theme-text-base-primary);
+  --theme-text-skip-link: var(--theme-text-base-black);
+  --theme-text-card-title: var(--theme-text-base-card-title);
+  --theme-text-card-subtitle: var(--theme-text-base-card-subtitle);
+  --theme-text-card-body: var(--theme-text-base-card-body);
+  --theme-text-card-meta: var(--theme-text-base-card-meta);
+  --theme-text-summary-link: var(--theme-text-base-summary-link);
+  --theme-text-emphasis: #{$color-navy-muted};
+  --theme-text-h4: var(--theme-text-base-h4);
+  --theme-text-company-info: var(--theme-text-base-company-info);
+  --theme-text-icon: var(--theme-text-base-icon);
+  --theme-text-tag: #{$color-earth-amber};
+  --theme-text-light: #{$color-surface-light};
+  
+  /* Border and accent colors - base */
+  --theme-border-base-card: rgb(224 205 193 / 99%);
+  --theme-scrollbar-base-track: #fff;
+  
+  /* Border and accent colors - semantic */
+  --theme-border-primary: rgba(#{$brand-secondary}, 0.31);
+  --theme-border-hr: rgba(#{$brand-primary}, 0.27);
+  --theme-border-card: var(--theme-border-base-card);
+  --theme-border-slate: #{$color-slate};
+  --theme-scrollbar-track: var(--theme-scrollbar-base-track);
+  --theme-scrollbar-thumb: var(--theme-brand-primary);
+  
+  /* Shadow and overlay colors */
+  --theme-blocklink-debug: #fe0000;
+}
+
+/* Dark theme overrides */
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* Dark theme - Base background colors */
+    --theme-bg-base-dark-primary: #0f1419;
+    --theme-bg-base-dark-body: #0a0e13;
+    --theme-bg-base-dark-secondary: #1a1f26;
+    --theme-bg-base-dark-card: #161b22;
+    --theme-bg-base-dark-dropdown: #0d1117;
+    --theme-bg-base-dark-empty: rgba(255 255 255 / 3%);
+    
+    /* Dark theme - Base text colors */
+    --theme-text-base-dark-primary: #e3e8ed;
+    --theme-text-base-dark-secondary: #b0b8c0;
+    --theme-text-base-dark-heading: #f0f6fc;
+    --theme-text-base-dark-link-hover: #ffad33;
+    --theme-text-base-dark-card-title: #e8eef5;
+    --theme-text-base-dark-card-body: #d0d7de;
+    --theme-text-base-dark-muted: #8b949e;
+    --theme-text-base-white: #fff;
+    
+    /* Dark theme - Background semantic mappings */
+    --theme-bg-primary: var(--theme-bg-base-dark-primary);
+    --theme-bg-body: var(--theme-bg-base-dark-body);
+    --theme-bg-secondary: var(--theme-bg-base-dark-secondary);
+    --theme-bg-tertiary: rgba(30 117 192 / 8%);
+    --theme-bg-card: var(--theme-bg-base-dark-card);
+    --theme-bg-card-gradient-start: var(--theme-bg-base-dark-card);
+    --theme-bg-card-gradient-end: var(--theme-bg-base-dark-secondary);
+    --theme-bg-card-hover-start: rgba(30 117 192 / 15%);
+    --theme-bg-card-hover-end: rgba(243 146 0 / 10%);
+    --theme-bg-pattern-container: rgba(30 117 192 / 10%);
+    --theme-bg-empty-card: var(--theme-bg-base-dark-empty);
+    --theme-bg-dropdown: var(--theme-bg-base-dark-secondary);
+    --theme-bg-skip-link: var(--theme-bg-base-dark-body);
+    --theme-bg-tag: rgba(243 146 0 / 15%);
+    --theme-bg-navbar-dropdown: var(--theme-bg-base-dark-dropdown);
+    --theme-bg-related: var(--theme-bg-base-dark-card);
+    
+    /* Dark theme - Text semantic mappings */
+    --theme-text-primary: var(--theme-text-base-dark-primary);
+    --theme-text-secondary: var(--theme-text-base-dark-secondary);
+    --theme-text-heading: var(--theme-text-base-dark-heading);
+    --theme-text-link: var(--theme-brand-primary);
+    --theme-text-link-hover: var(--theme-text-base-dark-link-hover);
+    --theme-text-navbar: var(--theme-text-base-dark-primary);
+    --theme-text-skip-link: var(--theme-text-base-white);
+    --theme-text-card-title: var(--theme-text-base-dark-card-title);
+    --theme-text-card-subtitle: var(--theme-text-base-dark-secondary);
+    --theme-text-card-body: var(--theme-text-base-dark-card-body);
+    --theme-text-card-meta: rgba(176 184 192 / 70%);
+    --theme-text-summary-link: var(--theme-text-base-dark-secondary);
+    --theme-text-emphasis: rgba(30 117 192 / 80%);
+    --theme-text-h4: var(--theme-text-base-dark-muted);
+    --theme-text-company-info: var(--theme-text-base-dark-muted);
+    --theme-text-icon: rgba(30 117 192 / 70%);
+    --theme-text-tag: var(--theme-brand-primary);
+    
+    /* Dark theme - Borders */
+    --theme-border-primary: rgba(30 117 192 / 30%);
+    --theme-border-hr: rgba(243 146 0 / 35%);
+    --theme-border-card: rgba(30 117 192 / 25%);
+    --theme-border-slate: rgba(30 117 192 / 20%);
+    --theme-scrollbar-track: var(--theme-bg-base-dark-secondary);
+    --theme-scrollbar-thumb: var(--theme-brand-primary);
+  }
+}

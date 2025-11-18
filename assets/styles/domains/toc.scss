@@ -53,7 +53,7 @@ html {
         text-decoration: none;
         display: block;
         padding: .125rem $space-2xs;
-        color: #ccc;
+        color: var(--theme-text-secondary);
         transition: all 50ms ease-in-out; /* 💡 This small transition makes setting of the active state smooth */
     }
 
@@ -64,7 +64,7 @@ html {
     .active > a,
     .table-of-content-container a:hover {
         border-right: $border-width-regular solid $brand-primary;
-        background: linear-gradient(to left, rgba($brand-primary, 0.02) 15%, $color-surface-light 85%);
+        background: linear-gradient(to left, rgba($brand-primary, 0.02) 15%, var(--theme-bg-body) 85%);
         color: $brand-secondary;
     }
 

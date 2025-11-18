@@ -87,6 +87,17 @@
   /* Border and accent colors - base */
   --theme-border-base-card: rgb(224 205 193 / 99%);
   --theme-scrollbar-base-track: #fff;
+  --theme-quote-base-color: #471a8b;
+  --theme-quote-base-footer: #190735;
+  --theme-info-base-color: #123254;
+  --theme-muted-base-border: #cecece;
+  --theme-muted-base-title: #898989;
+  --theme-alias-base-border: #e1e1e1;
+  --theme-alias-base-bg: #e8e8e8;
+  --theme-link-base-blue: #007acc;
+  --theme-ammerse-base-neutral: #9e9e9e;
+  --theme-ammerse-base-negative: #cd0c1a;
+  --theme-ammerse-base-positive: #0786a6;
   
   /* Border and accent colors - semantic */
   --theme-border-primary: rgba(#{$brand-secondary}, 0.31);
@@ -98,6 +109,8 @@
   
   /* Shadow and overlay colors */
   --theme-blocklink-debug: #fe0000;
+  --theme-shadow-base: #0b1723;
+}
 }
 
 /* Dark theme overrides */
@@ -165,5 +178,16 @@
     --theme-border-slate: rgba(30 117 192 / 20%);
     --theme-scrollbar-track: var(--theme-bg-base-dark-secondary);
     --theme-scrollbar-thumb: var(--theme-brand-primary);
+    
+    /* Dark theme - Quote and accent colors */
+    --theme-quote-base-color: rgba(71 26 139 / 60%);
+    --theme-quote-base-footer: rgba(25 7 53 / 80%);
+    --theme-info-base-color: rgba(18 50 84 / 80%);
+    --theme-muted-base-border: rgba(206 206 206 / 30%);
+    --theme-muted-base-title: rgba(137 137 137 / 70%);
+    --theme-alias-base-border: rgba(225 225 225 / 20%);
+    --theme-alias-base-bg: rgba(232 232 232 / 15%);
+    --theme-link-base-blue: var(--theme-brand-primary);
+    --theme-shadow-base: rgba(11 23 35 / 80%);
   }
 }

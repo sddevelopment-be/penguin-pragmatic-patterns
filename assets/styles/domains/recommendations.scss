@@ -5,7 +5,7 @@
 }
 
 .no-card {
-    background: $color-surface-light;
+    background: var(--theme-bg-card);
     border: 0 !important;
     border-radius: 0 !important;
     padding: $space-2xs $space-sm;
@@ -64,10 +64,10 @@
     margin-bottom: $space-lg;
     max-width: 100%;
     width: 100%;
-    background: $color-surface-light;
+    background: var(--theme-bg-card);
     border-radius: $space-2xl;
-    border-bottom: 1px solid #dcdcdc;
-    border-right: 1px solid #dcdcdc;
+    border-bottom: 1px solid var(--theme-border-card);
+    border-right: 1px solid var(--theme-border-card);
 }
 
 @media (width <= $breakpoint-tablet) {
@@ -112,7 +112,7 @@
 }
 
 .recommendation-item .recommendation-content b {
-    color: #1f586f85;
+    color: var(--theme-text-card-meta);
     font-stretch: extra-condensed;
     text-transform: uppercase;
     font-weight: 350;
@@ -184,8 +184,8 @@
     font-size: $space-sm;
     font-weight: bold;
     padding: $space-gap-tight $space-sm;
-    color: $color-earth-amber;
-    background: #f9d3b265;
+    color: var(--theme-text-tag);
+    background: var(--theme-bg-tag);
     text-transform: uppercase;
     border-radius: $space-2xs;
     margin: 0 $space-xs $space-xs 0;

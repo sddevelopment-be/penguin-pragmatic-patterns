@@ -16,7 +16,7 @@
     justify-content: space-evenly;
     padding: $space-lg $space-2xs;
     margin-bottom: $space-lg;
-    background: $color-surface-light;
+    background: var(--theme-bg-card);
     border-radius: $space-2xl;
     max-width: 100%;
     width: 100%;
@@ -67,8 +67,8 @@
     font-weight: 200;
     font-size: $space-snug;
     padding: $space-2xs;
-    border: 1px solid #e1e1e1;
-    background: #e8e8e8;
+    border: 1px solid var(--theme-alias-base-border);
+    background: var(--theme-alias-base-bg);
     border-radius: $space-2xs;
 }
 
@@ -95,7 +95,7 @@
     top: 1.75em;
     left: -2.5em;
     z-index: 10;
-    background: $color-surface-light;
+    background: var(--theme-bg-card);
     border: 1px solid $brand-primary;
     border-radius: $space-2xs;
     padding: $space-sm;
@@ -115,6 +115,6 @@
 }
 
 .glossary-popover a {
-    color: #007acc;
+    color: var(--theme-link-base-blue);
     text-decoration: underline;
 }

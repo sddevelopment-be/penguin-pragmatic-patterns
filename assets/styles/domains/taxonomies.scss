@@ -21,16 +21,17 @@
     width: 100%;
     height: fit-content;
     margin: $space-cozy;
-    color: $color-earth-amber;
-    background: #f9d3b265;
+    color: var(--theme-text-tag);
+    background: var(--theme-bg-tag);
 }
 
 .tag-name {
     width: 85%;
-    color: $color-earth-amber;
+    color: var(--theme-text-tag);
     display: inline-block;
     padding: $space-2xs $space-lg;
-    background: #f9d3b285;
+    background: var(--theme-bg-tag);
+    opacity: 1.3;
 }
 
 .tag-count {

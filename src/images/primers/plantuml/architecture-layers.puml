@@ -1,0 +1,51 @@
+@startuml
+skinparam shadowing false
+skinparam componentStyle rectangle
+
+title Three-Layer Architecture\nTask Management System
+
+'skinparam linetype polyline
+!include ../../templates/plantuml/theme-sdd-minimal-class.puml
+
+package "Presentation Layer" as PL {
+  component "Web UI" as WebUI
+  component "REST API" as API
+}
+
+together {
+	package "Business Logic Layer" as BLL {
+	  component "Task Service" as TaskSvc
+	  component "User Service" as UserSvc
+	  component "Notification Service" as NotifSvc
+	}
+
+	package "Data Access Layer" as DAL {
+	  component "Task Repository" as TaskRepo
+	  component "User Repository" as UserRepo
+	  database "PostgreSQL" as DB
+	}
+
+}
+WebUI --> API
+API --> TaskSvc
+API --> UserSvc
+TaskSvc --> NotifSvc
+TaskSvc -down-> TaskRepo
+UserSvc -down-> UserRepo
+TaskRepo --> DB
+UserRepo --> DB
+
+note top of PL
+  Handles HTTP requests,\n  input validation,\n  session management
+end note
+
+note left of BLL
+  Domain logic,\n  business rules,\n  workflow orchestration
+end note
+
+note bottom of DAL
+  Persistence operations,\n  query optimization,\n  transaction management
+end note
+@enduml
+
+

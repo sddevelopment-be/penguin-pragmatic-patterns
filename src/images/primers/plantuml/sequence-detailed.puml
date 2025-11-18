@@ -1,0 +1,14 @@
+@startuml
+actor User
+participant "Web UI" as UI
+participant "API" as API
+database "Database" as DB
+
+User -> UI: Request page
+UI -> API: GET /tasks
+API -> DB: SELECT * FROM tasks
+DB --> API: Task list
+API --> UI: JSON response
+UI --> User: Rendered page
+@enduml
+

@@ -1,0 +1,18 @@
+@startuml
+class Task {
+  - id: UUID
+  - name: String
+  - status: Status
+  + complete(): void
+  + isPending(): boolean
+}
+
+enum Status {
+  PENDING
+  IN_PROGRESS
+  COMPLETED
+}
+
+Task --> Status
+@enduml
+

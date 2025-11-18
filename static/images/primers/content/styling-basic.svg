@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="151px" preserveAspectRatio="none" style="width:133px;height:151px;" version="1.1" viewBox="0 0 133 151" width="133px" zoomAndPan="magnify"><defs/><g><!--MD5=[770389ab9df153645bc6ef28055eb2b5]
+entity A--><rect fill="#ADD8E6" height="36.2969" style="stroke: #00008B; stroke-width: 1.5;" width="115" x="6.5" y="8"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="95" x="16.5" y="30.9951">Component A</text><!--MD5=[b2d39259b6aeabc16b394deeb0238426]
+entity B--><rect fill="#ADD8E6" height="36.2969" style="stroke: #00008B; stroke-width: 1.5;" width="116" x="6" y="104"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="96" x="16" y="126.9951">Component B</text><!--MD5=[5e2eec62a50b26b6b0db6c12e4ee289c]
+link A to B--><path d="M64,44.06 C64,44.06 64,98.7 64,98.7 " fill="none" id="A-&gt;B" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="64,103.7,68,94.7,64,98.7,60,94.7,64,103.7" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[7bc719e0a10d1c1f23d02940e9f224cf]
+@startuml
+skinparam shadowing false
+skinparam linetype ortho
+skinparam rectangle {
+    BackgroundColor LightBlue
+    BorderColor DarkBlue
+}
+
+rectangle "Component A" as A
+rectangle "Component B" as B
+
+A - -> B
+@enduml
+
+PlantUML version 1.2020.02(Sun Mar 01 11:22:07 CET 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 21.0.1+12-LTS
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

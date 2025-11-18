@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="90px" preserveAspectRatio="none" style="width:357px;height:90px;" version="1.1" viewBox="0 0 357 90" width="357px" zoomAndPan="magnify"><defs><filter height="300%" id="f1x4m6n7fz6yxt" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[b34797a66dc35cbf1d65f7e3ca75530e]
+class Task--><rect fill="#FEFECE" filter="url(#f1x4m6n7fz6yxt)" height="60.8047" id="Task" style="stroke: #A80036; stroke-width: 1.5;" width="86" x="6" y="13"/><ellipse cx="32.25" cy="29" fill="#ADD1B2" rx="11" ry="11" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M35.2188,34.6406 Q34.6406,34.9375 34,35.0781 Q33.3594,35.2344 32.6563,35.2344 Q30.1563,35.2344 28.8281,33.5938 Q27.5156,31.9375 27.5156,28.8125 Q27.5156,25.6875 28.8281,24.0313 Q30.1563,22.375 32.6563,22.375 Q33.3594,22.375 34,22.5313 Q34.6563,22.6875 35.2188,22.9844 L35.2188,25.7031 Q34.5938,25.125 34,24.8594 Q33.4063,24.5781 32.7813,24.5781 Q31.4375,24.5781 30.75,25.6563 Q30.0625,26.7188 30.0625,28.8125 Q30.0625,30.9063 30.75,31.9844 Q31.4375,33.0469 32.7813,33.0469 Q33.4063,33.0469 34,32.7813 Q34.5938,32.5 35.2188,31.9219 L35.2188,34.6406 Z "/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="29" x="48.75" y="33.1543">Task</text><line style="stroke: #A80036; stroke-width: 1.5;" x1="7" x2="91" y1="45" y2="45"/><line style="stroke: #A80036; stroke-width: 1.5;" x1="7" x2="91" y1="53" y2="53"/><ellipse cx="17" cy="64" fill="#84BE84" rx="3" ry="3" style="stroke: #038048; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="60" x="26" y="67.2104">complete()</text><path d="M127,8 L127,39.5 L92.1,43.5 L127,47.5 L127,78.5313 A0,0 0 0 0 127,78.5313 L345,78.5313 A0,0 0 0 0 345,78.5313 L345,18 L335,8 L127,8 A0,0 0 0 0 127,8 " fill="#FBFB77" filter="url(#f1x4m6n7fz6yxt)" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M335,8 L335,18 L345,18 L335,8 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="197" x="133" y="25.0669">Tasks transition from PENDING</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="191" x="133" y="40.1997">to COMPLETED via complete()</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="183" x="133" y="55.3325">method. Status changes are</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="73" x="133" y="70.4653">immutable.</text><!--MD5=[af62765e038b0ec4c0d8b3b3aaa6ff13]
+@startuml
+class Task {
+  + complete()
+}
+
+note right of Task
+  Tasks transition from PENDING
+  to COMPLETED via complete()
+  method. Status changes are
+  immutable.
+end note
+@enduml
+
+PlantUML version 1.2020.02(Sun Mar 01 11:22:07 CET 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 21.0.1+12-LTS
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

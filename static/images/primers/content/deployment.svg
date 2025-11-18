@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="419px" preserveAspectRatio="none" style="width:294px;height:419px;" version="1.1" viewBox="0 0 294 419" width="294px" zoomAndPan="magnify"><defs><filter height="300%" id="f1sxgxgw32njxs" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[efb5f6571720cd0fb549e42d7f5a3ea6]
+cluster Web Server--><polygon fill="#FFFFFF" filter="url(#f1sxgxgw32njxs)" points="69,34,79,24,238,24,238,106,228,116,69,116,69,34" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="228" x2="237" y1="34" y2="25"/><line style="stroke: #000000; stroke-width: 1.5;" x1="69" x2="228" y1="34" y2="34"/><line style="stroke: #000000; stroke-width: 1.5;" x1="228" x2="228" y1="34" y2="116"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="93" x="103" y="49.9951">Web Server</text><!--MD5=[c6dc40b35bb91b1de271f489a312aa22]
+cluster Application Server--><polygon fill="#FFFFFF" filter="url(#f1sxgxgw32njxs)" points="22,175,32,165,243,165,243,247,233,257,22,257,22,175" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="233" x2="242" y1="175" y2="166"/><line style="stroke: #000000; stroke-width: 1.5;" x1="22" x2="233" y1="175" y2="175"/><line style="stroke: #000000; stroke-width: 1.5;" x1="233" x2="233" y1="175" y2="257"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="145" x="56" y="190.9951">Application Server</text><!--MD5=[02c1bc129add0a5cdb06c1e6a5953271]
+cluster Database Server--><polygon fill="#FFFFFF" filter="url(#f1sxgxgw32njxs)" points="65,316,75,306,272,306,272,397,262,407,65,407,65,316" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="262" x2="271" y1="316" y2="307"/><line style="stroke: #000000; stroke-width: 1.5;" x1="65" x2="262" y1="316" y2="316"/><line style="stroke: #000000; stroke-width: 1.5;" x1="262" x2="262" y1="316" y2="407"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="131" x="99" y="331.9951">Database Server</text><!--MD5=[b7709df717efd9e6df0e9843c5de81db]
+entity Nginx--><rect fill="#FEFECE" filter="url(#f1sxgxgw32njxs)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="58" x="103" y="64"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="98" y="69"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="98" y="90.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="38" x="113" y="86.9951">Nginx</text><!--MD5=[e66df71b9af17bb7d4e9e42f296d09c7]
+entity Spring Boot App--><rect fill="#FEFECE" filter="url(#f1sxgxgw32njxs)" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="132" x="66" y="205"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="61" y="210"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="61" y="231.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="112" x="76" y="227.9951">Spring Boot App</text><!--MD5=[89112a84c8daddb34abf4f068893e892]
+entity PostgreSQL--><path d="M81.5,356 C81.5,346 132,346 132,346 C132,346 182.5,346 182.5,356 L182.5,381.2969 C182.5,391.2969 132,391.2969 132,391.2969 C132,391.2969 81.5,391.2969 81.5,381.2969 L81.5,356 " fill="#FEFECE" filter="url(#f1sxgxgw32njxs)" style="stroke: #000000; stroke-width: 1.5;"/><path d="M81.5,356 C81.5,366 132,366 132,366 C132,366 182.5,366 182.5,356 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="81" x="91.5" y="382.9951">PostgreSQL</text><!--MD5=[39122439e48346d066ddc48e08603700]
+link Nginx to Spring Boot App--><path d="M132,100.04 C132,125.05 132,171.73 132,199.52 " fill="none" id="Nginx-&gt;Spring Boot App" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="132,204.82,136,195.82,132,199.82,128,195.82,132,204.82" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="87" x="133" y="145.0669">reverse proxy</text><!--MD5=[f0e6ea297027b46da77f4a09c323177b]
+link Spring Boot App to PostgreSQL--><path d="M132,241.02 C132,265.63 132,311.36 132,340.57 " fill="none" id="Spring Boot App-&gt;PostgreSQL" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="132,345.82,136,336.82,132,340.82,128,336.82,132,345.82" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="31" x="133" y="286.0669">JDBC</text><!--MD5=[fee7940aa2bbb046c0e59904a0ddedfe]
+@startuml
+node "Web Server" {
+  [Nginx]
+}
+
+node "Application Server" {
+  [Spring Boot App]
+}
+
+node "Database Server" {
+  database "PostgreSQL"
+}
+
+[Nginx] - -> [Spring Boot App]: reverse proxy
+[Spring Boot App] - -> [PostgreSQL]: JDBC
+@enduml
+
+PlantUML version 1.2020.02(Sun Mar 01 11:22:07 CET 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 21.0.1+12-LTS
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

@@ -1,0 +1,21 @@
+@startuml
+package "Presentation Layer" {
+  [Web UI]
+  [REST API]
+}
+
+package "Business Logic" {
+  [Task Service]
+  [Workflow Engine]
+}
+
+database "PostgreSQL" {
+  [Tasks Table]
+}
+
+[Web UI] --> [REST API]
+[REST API] --> [Task Service]
+[Task Service] --> [Workflow Engine]
+[Task Service] --> [Tasks Table]
+@enduml
+

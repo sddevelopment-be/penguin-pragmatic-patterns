@@ -1,0 +1,13 @@
+@startuml
+
+!include ../../templates/plantuml/C4.puml
+!include ../../templates/plantuml/C4_Context.puml
+
+Person(user, "User", "Task manager user")
+System(taskSystem, "Task Management System", "Manages user tasks")
+System_Ext(emailSystem, "Email System", "Sends notifications")
+
+Rel(user, taskSystem, "Uses")
+Rel(taskSystem, emailSystem, "Sends emails via")
+
+@enduml

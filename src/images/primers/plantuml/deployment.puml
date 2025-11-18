@@ -1,0 +1,17 @@
+@startuml
+node "Web Server" {
+  [Nginx]
+}
+
+node "Application Server" {
+  [Spring Boot App]
+}
+
+node "Database Server" {
+  database "PostgreSQL"
+}
+
+[Nginx] --> [Spring Boot App]: reverse proxy
+[Spring Boot App] --> [PostgreSQL]: JDBC
+@enduml
+

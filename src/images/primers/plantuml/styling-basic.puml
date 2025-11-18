@@ -1,0 +1,14 @@
+@startuml
+skinparam shadowing false
+skinparam linetype ortho
+skinparam rectangle {
+    BackgroundColor LightBlue
+    BorderColor DarkBlue
+}
+
+rectangle "Component A" as A
+rectangle "Component B" as B
+
+A --> B
+@enduml
+

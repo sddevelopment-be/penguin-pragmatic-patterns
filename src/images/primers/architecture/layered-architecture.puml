@@ -1,7 +1,7 @@
 @startuml
 title Traceable Decisions: MVD Templates
 
-!include ../../../templates/plantuml/theme-sdd-minimal-class.puml
+!include ../../templates/plantuml/theme-sdd-minimal-class.puml
 
 package "Presentation Layer" as UI {
   component "Web UI / API Controllers" as WebUI

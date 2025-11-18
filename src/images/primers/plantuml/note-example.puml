@@ -1,0 +1,13 @@
+@startuml
+class Task {
+  + complete()
+}
+
+note right of Task
+  Tasks transition from PENDING
+  to COMPLETED via complete()
+  method. Status changes are
+  immutable.
+end note
+@enduml
+

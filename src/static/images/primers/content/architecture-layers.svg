@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="635px" preserveAspectRatio="none" style="width:1285px;height:635px;" version="1.1" viewBox="0 0 1285 635" width="1285px" zoomAndPan="magnify"><defs/><g><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="225" x="533.5" y="16.708">Three-Layer Architecture</text><text fill="#000000" font-family="sans-serif" font-size="18" lengthAdjust="spacingAndGlyphs" textLength="232" x="530" y="37.6611">Task Management System</text><!--MD5=[07046f7047c3af2a8e677678a8ab0193]
+cluster PL--><polygon fill="#FFFFFF" points="30,73.9063,186,73.9063,193,96.2031,196,96.2031,196,272.9063,30,272.9063,30,73.9063" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="30" x2="193" y1="96.2031" y2="96.2031"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="150" x="34" y="88.9014">Presentation Layer</text><!--MD5=[b57ef892144993c43f4572ee136114f6]
+cluster BLL--><polygon fill="#FFFFFF" points="32,312.9063,205,312.9063,212,335.2031,348,335.2031,348,518.9063,32,518.9063,32,312.9063" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="32" x2="212" y1="335.2031" y2="335.2031"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="167" x="36" y="327.9014">Business Logic Layer</text><!--MD5=[92cd0d4488c09d7d867f4c7c19b40c95]
+cluster DAL--><polygon fill="#FFFFFF" points="388,415.9063,540,415.9063,547,438.2031,752,438.2031,752,623.9063,388,623.9063,388,415.9063" style="stroke: #000000; stroke-width: 1.5;"/><line style="stroke: #000000; stroke-width: 1.5;" x1="388" x2="547" y1="438.2031" y2="438.2031"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="146" x="392" y="430.9014">Data Access Layer</text><!--MD5=[cda190aec85529d7ef2e1486252d4310]
+entity WebUI--><rect fill="#FEFECE" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="68" x="99" y="116.9063"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="94" y="121.9063"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="94" y="143.2031"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="48" x="109" y="139.9014">Web UI</text><!--MD5=[645d8587175d8f7ad110cd370775931d]
+entity API--><rect fill="#FEFECE" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="82" x="90" y="212.9063"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="85" y="217.9063"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="85" y="239.2031"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="62" x="100" y="235.9014">REST API</text><!--MD5=[e0088d29e686374b1bb041339b053a05]
+entity TaskSvc--><rect fill="#FEFECE" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="107" x="75.5" y="355.9063"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="70.5" y="360.9063"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="70.5" y="382.2031"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="87" x="85.5" y="378.9014">Task Service</text><!--MD5=[cfdc7ca7d1eceae384aaea9f57e9b7ae]
+entity UserSvc--><rect fill="#FEFECE" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="106" x="218" y="355.9063"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="213" y="360.9063"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="213" y="382.2031"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="86" x="228" y="378.9014">User Service</text><!--MD5=[2f8aa92ef402a409f3caf3e3933ee21e]
+entity NotifSvc--><rect fill="#FEFECE" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="150" x="76" y="458.9063"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="71" y="463.9063"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="71" y="485.2031"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="130" x="86" y="481.9014">Notification Service</text><!--MD5=[fdb1d84deddb3863188f999bd026da84]
+entity TaskRepo--><rect fill="#FEFECE" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="131" x="431.5" y="458.9063"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="426.5" y="463.9063"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="426.5" y="485.2031"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="111" x="441.5" y="481.9014">Task Repository</text><!--MD5=[4c773c7329bb2adf334e1bb95f268202]
+entity UserRepo--><rect fill="#FEFECE" height="36.2969" style="stroke: #A80036; stroke-width: 1.5;" width="130" x="598" y="458.9063"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="593" y="463.9063"/><rect fill="#FEFECE" height="5" style="stroke: #A80036; stroke-width: 1.5;" width="10" x="593" y="485.2031"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="110" x="608" y="481.9014">User Repository</text><!--MD5=[f9ba5bf973e7832d2ce5ed59077b93f7]
+entity DB--><path d="M529.5,564.9063 C529.5,554.9063 580,554.9063 580,554.9063 C580,554.9063 630.5,554.9063 630.5,564.9063 L630.5,590.2031 C630.5,600.2031 580,600.2031 580,600.2031 C580,600.2031 529.5,600.2031 529.5,590.2031 L529.5,564.9063 " fill="#FEFECE" style="stroke: #000000; stroke-width: 1.5;"/><path d="M529.5,564.9063 C529.5,574.9063 580,574.9063 580,574.9063 C580,574.9063 630.5,574.9063 630.5,564.9063 " fill="none" style="stroke: #000000; stroke-width: 1.5;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="81" x="539.5" y="591.9014">PostgreSQL</text><path d="M219.5,122.4063 L219.5,147.5391 L672.5,147.5391 L672.5,132.4063 L662.5,122.4063 L219.5,122.4063 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M662.5,122.4063 L662.5,132.4063 L672.5,132.4063 L662.5,122.4063 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="432" x="225.5" y="139.4731">Handles HTTP requests,\n  input validation,\n  session management</text><path d="M372.5,361.4063 L372.5,386.5391 L757.5,386.5391 L757.5,371.4063 L747.5,361.4063 L372.5,361.4063 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M747.5,361.4063 L747.5,371.4063 L757.5,371.4063 L747.5,361.4063 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="364" x="378.5" y="378.4731">Domain logic,\n  business rules,\n  workflow orchestration</text><path d="M776.5,464.4063 L776.5,489.5391 L1273.5,489.5391 L1273.5,474.4063 L1263.5,464.4063 L776.5,464.4063 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><path d="M1263.5,464.4063 L1263.5,474.4063 L1273.5,474.4063 L1263.5,464.4063 " fill="#FBFB77" style="stroke: #A80036; stroke-width: 1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="476" x="782.5" y="481.4731">Persistence operations,\n  query optimization,\n  transaction management</text><!--MD5=[66c61fe183fa3ffb18b073fc6fcb86d2]
+link WebUI to API--><path d="M133,152.9663 C133,152.9663 133,207.6063 133,207.6063 " fill="none" id="WebUI-&gt;API" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="133,212.6063,137,203.6063,133,207.6063,129,203.6063,133,212.6063" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[5a9b654fcd4212cb8ddeebde5af02de8]
+link API to TaskSvc--><path d="M131,249.0163 C131,249.0163 131,350.4863 131,350.4863 " fill="none" id="API-&gt;TaskSvc" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="131,355.4863,135,346.4863,131,350.4863,127,346.4863,131,355.4863" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[736211f294d9228eaaecdd0c4f99a3c1]
+link API to UserSvc--><path d="M172.14,230.9063 C219.01,230.9063 289.17,230.9063 289.17,230.9063 C289.17,230.9063 289.17,350.7963 289.17,350.7963 " fill="none" id="API-&gt;UserSvc" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="289.17,355.7963,293.17,346.7963,289.17,350.7963,285.17,346.7963,289.17,355.7963" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[48c449be423b2dd49e6f3d9ed94a8d2a]
+link TaskSvc to NotifSvc--><path d="M111.5,392.3162 C111.5,392.3162 111.5,453.6563 111.5,453.6563 " fill="none" id="TaskSvc-&gt;NotifSvc" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="111.5,458.6563,115.5,449.6563,111.5,453.6563,107.5,449.6563,111.5,458.6563" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[9de90a40bb98641e30f71ff88a61a01b]
+link TaskSvc to TaskRepo--><path d="M147,392.0363 C147,412.4763 147,442.9063 147,442.9063 C147,442.9063 497,442.9063 497,442.9063 C497,442.9063 497,453.7163 497,453.7163 " fill="none" id="TaskSvc-&gt;TaskRepo" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="497,458.7163,501,449.7163,497,453.7163,493,449.7163,497,458.7163" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[1858815abbc80fbcec29d76d9e3b48ba]
+link UserSvc to UserRepo--><path d="M275,392.0963 C275,407.0863 275,425.9063 275,425.9063 C275,425.9063 663,425.9063 663,425.9063 C663,425.9063 663,453.7863 663,453.7863 " fill="none" id="UserSvc-&gt;UserRepo" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="663,458.7863,667,449.7863,663,453.7863,659,449.7863,663,458.7863" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[60371057d0da04a18972f7542aeed990]
+link TaskRepo to DB--><path d="M546,495.3363 C546,495.3363 546,549.8663 546,549.8663 " fill="none" id="TaskRepo-&gt;DB" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="546,554.8663,550,545.8663,546,549.8663,542,545.8663,546,554.8663" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[d7aadd756634531d570725b29ab2da80]
+link UserRepo to DB--><path d="M614.25,495.3363 C614.25,495.3363 614.25,549.8663 614.25,549.8663 " fill="none" id="UserRepo-&gt;DB" style="stroke: #A80036; stroke-width: 1.0;"/><polygon fill="#A80036" points="614.25,554.8663,618.25,545.8663,614.25,549.8663,610.25,545.8663,614.25,554.8663" style="stroke: #A80036; stroke-width: 1.0;"/><!--MD5=[e43c9698706701529f25abf0256d6995]
+link PL to GMN22--><path d="M196.1905,182.9063 C196.8816,182.9063 197.5695,182.9063 198.2542,182.9063 C199.6235,182.9063 200.9797,182.9063 202.3215,182.9063 C205.005,182.9063 207.6304,182.9063 210.1861,182.9063 C215.2975,182.9063 220.1301,182.9063 224.5909,182.9063 C242.4344,182.9063 254.33,182.9063 254.33,182.9063 C254.33,182.9063 254.33,161.7362 254.33,147.5163 " fill="none" id="PL-GMN22" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><!--MD5=[ae755b8b01a9f55f78b7d4402ff5932d]
+link BLL to GMN25--><path d="M348.2574,408.9063 C348.6859,408.9063 349.1111,408.9063 349.5332,408.9063 C350.3774,408.9063 351.2087,408.9063 352.027,408.9063 C358.573,408.9063 364.2798,408.9063 368.9795,408.9063 C378.3789,408.9063 383.75,408.9063 383.75,408.9063 C383.75,408.9063 383.75,396.5662 383.75,386.5463 " fill="none" id="BLL-GMN25" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><!--MD5=[38c24fc55fcbb2173ccc20a06c666b89]
+link DAL to GMN28--><path d="M754.597,524.9063 C759.4679,524.9063 764.3243,524.9063 769.1616,524.9063 C788.5107,524.9063 807.5527,524.9063 825.9805,524.9063 C862.8359,524.9063 897.2344,524.9063 926.7188,524.9063 C985.6875,524.9063 1025,524.9063 1025,524.9063 C1025,524.9063 1025,503.7363 1025,489.5163 " fill="none" id="DAL-GMN28" style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 7.0,7.0;"/><!--MD5=[929ba85d75aa9d135156029e6b825029]
+@startuml
+skinparam shadowing false
+skinparam linetype ortho
+skinparam componentStyle rectangle
+
+title Three-Layer Architecture\nTask Management System
+
+package "Presentation Layer" as PL {
+  component "Web UI" as WebUI
+  component "REST API" as API
+}
+
+package "Business Logic Layer" as BLL {
+  component "Task Service" as TaskSvc
+  component "User Service" as UserSvc
+  component "Notification Service" as NotifSvc
+}
+
+package "Data Access Layer" as DAL {
+  component "Task Repository" as TaskRepo
+  component "User Repository" as UserRepo
+  database "PostgreSQL" as DB
+}
+
+WebUI - -> API
+API - -> TaskSvc
+API - -> UserSvc
+TaskSvc - -> NotifSvc
+TaskSvc - -> TaskRepo
+UserSvc - -> UserRepo
+TaskRepo - -> DB
+UserRepo - -> DB
+
+note right of PL
+  Handles HTTP requests,\n  input validation,\n  session management
+end note
+
+note right of BLL
+  Domain logic,\n  business rules,\n  workflow orchestration
+end note
+
+note right of DAL
+  Persistence operations,\n  query optimization,\n  transaction management
+end note
+@enduml
+
+PlantUML version 1.2020.02(Sun Mar 01 11:22:07 CET 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 21.0.1+12-LTS
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

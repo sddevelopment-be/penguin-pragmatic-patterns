@@ -19,6 +19,7 @@ further_exploration = [
     { type = "raw", author = "Ashley, Crashedmind", year = "2024", title = "Hitchhiker's Guide to PlantUML", site = "GitHub Pages", link = "https://crashedmind.github.io/PlantUMLHitchhikersGuide/" },
     { type = "raw", author = "ogom", year = "2024", title = "PlantUML Cheat Sheet", site = "GitHub Pages", link = "https://ogom.github.io/draw_uml/plantuml/" }
 ]
+image = "primers/plantuml_logo"
 +++
 
 ## 1. Purpose and Philosophy
@@ -131,6 +132,7 @@ API --> UI: JSON response
 UI --> User: Rendered page
 @enduml
 ```
+{{< image src="/images/primers/content/sequence-detailed.svg" alt="Rendered sequence diagram" caption="Rendered sequence diagram" >}}
 
 ### Component Diagram
 
@@ -156,6 +158,7 @@ database "PostgreSQL" {
 [Task Service] --> [Tasks Table]
 @enduml
 ```
+{{< image src="/images/primers/content/component.svg" alt="Rendered component diagram" caption="Rendered component diagram" >}}
 
 ### Class Diagram
 
@@ -178,6 +181,7 @@ enum Status {
 Task --> Status
 @enduml
 ```
+{{< image src="/images/primers/content/class.svg" alt="Rendered class diagram" caption="Rendered class diagram" >}}
 
 ### Deployment Diagram
 
@@ -199,6 +203,7 @@ node "Database Server" {
 [Spring Boot App] --> [PostgreSQL]: JDBC
 @enduml
 ```
+{{< image src="/images/primers/content/deployment.svg" alt="Rendered deployment diagram" caption="Rendered deployment diagram" >}}
 
 ### C4 Context Diagram
 
@@ -214,6 +219,7 @@ Rel(user, taskSystem, "Uses")
 Rel(taskSystem, emailSystem, "Sends emails via")
 @enduml
 ```
+{{< image src="/images/primers/content/c4-context.svg" alt="Rendered C4 context diagram" caption="Rendered C4 context diagram" >}}
 
 ## 4. Patterns and Idioms
 
@@ -255,6 +261,7 @@ rectangle "Component B" as B
 A --> B
 @enduml
 ```
+{{< image src="/images/primers/content/styling-basic.svg" alt="Rendered styling example" caption="Rendered styling example" >}}
 
 ### Including Shared Definitions
 
@@ -289,8 +296,8 @@ note right of Task
   method. Status changes are
   immutable.
 end note
-@enduml
 ```
+{{< image src="/images/primers/content/note-example.svg" alt="Rendered note example" caption="Rendered note example" >}}
 
 ## 5. Tooling and Rendering
 
@@ -536,6 +543,7 @@ end note
 
 @enduml
 ```
+{{< image src="/images/primers/content/architecture-layers.svg" alt="Rendered architecture layers example" caption="Rendered architecture layers example" >}}
 
 **Render:**
 ```bash
@@ -553,10 +561,6 @@ Our system uses a three-layer architecture to separate concerns:
 Each layer has clear responsibilities and dependencies flow downward only.
 ```
 
-**Best practices demonstrated:**
-- Descriptive title with version/date context
-- Consistent styling via skinparam
-- Clear layer boundaries with packages
-- Explanatory notes for each layer
-- Comments for maintainability
-- SVG output for web rendering
+**Applying custom styling to the example:**
+
+{{< image src="/images/primers/content/architecture-layers_STYLED.svg" alt="Custom theme applied to architecture layers example" caption="Custom theme applied to architecture layers example" >}}

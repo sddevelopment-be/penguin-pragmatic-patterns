@@ -1,0 +1,7 @@
+@startuml
+actor User
+participant "Auth Service" as Auth
+
+User -> Auth: Login request
+@enduml
+

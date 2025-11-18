@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="222px" preserveAspectRatio="none" style="width:197px;height:222px;" version="1.1" viewBox="0 0 197 222" width="197px" zoomAndPan="magnify"><defs><filter height="300%" id="f14y91apfu0xui" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="27" x2="27" y1="86.2969" y2="135.4297"/><line style="stroke: #A80036; stroke-width: 1.0; stroke-dasharray: 5.0,5.0;" x1="138" x2="138" y1="86.2969" y2="135.4297"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="32" x="8" y="82.9951">User</text><ellipse cx="27" cy="13" fill="#FEFECE" filter="url(#f14y91apfu0xui)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><path d="M27,21 L27,48 M14,29 L40,29 M27,48 L14,63 M27,48 L40,63 " fill="none" filter="url(#f14y91apfu0xui)" style="stroke: #A80036; stroke-width: 2.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="32" x="8" y="147.4248">User</text><ellipse cx="27" cy="160.7266" fill="#FEFECE" filter="url(#f14y91apfu0xui)" rx="8" ry="8" style="stroke: #A80036; stroke-width: 2.0;"/><path d="M27,168.7266 L27,195.7266 M14,176.7266 L40,176.7266 M27,195.7266 L14,210.7266 M27,195.7266 L40,210.7266 " fill="none" filter="url(#f14y91apfu0xui)" style="stroke: #A80036; stroke-width: 2.0;"/><rect fill="#FEFECE" filter="url(#f14y91apfu0xui)" height="30.2969" style="stroke: #A80036; stroke-width: 1.5;" width="100" x="86" y="51"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="86" x="93" y="70.9951">Auth Service</text><rect fill="#FEFECE" filter="url(#f14y91apfu0xui)" height="30.2969" style="stroke: #A80036; stroke-width: 1.5;" width="100" x="86" y="134.4297"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="86" x="93" y="154.4248">Auth Service</text><polygon fill="#A80036" points="126,113.4297,136,117.4297,126,121.4297,130,117.4297" style="stroke: #A80036; stroke-width: 1.0;"/><line style="stroke: #A80036; stroke-width: 1.0;" x1="27" x2="132" y1="117.4297" y2="117.4297"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="87" x="34" y="112.3638">Login request</text><!--MD5=[7df04c1d797198f5cab8cef405141073]
+@startuml
+actor User
+participant "Auth Service" as Auth
+
+User -> Auth: Login request
+@enduml
+
+PlantUML version 1.2020.02(Sun Mar 01 11:22:07 CET 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Java Version: 21.0.1+12-LTS
+Operating System: Linux
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

@@ -10,6 +10,9 @@
             <h1 class="title is-3 section-title">{{ .Title }}</h1>
             <h2 class="subtitle is-4 is-muted">{{ .Params.Subtitle }}</h2>
             <div class="divider spacer spacer-wide"></div>
+            <div class="meta is-size-7 has-text-grey">
+                Written by {{ .Params.author }} · {{ .Date.Format "02 Jan 2006" }} · {{ .ReadingTime }} min read
+            </div>
         </div>
         {{ if .Params.Image}}
         <div class="card-image">
@@ -19,9 +22,7 @@
             </picture>
         </div>
 
-        <div class="meta is-size-7 has-text-grey">
-            Written by {{ .Params.author }} · {{ .Date.Format "02 Jan 2006" }} · {{ .ReadingTime }} min read
-        </div>
+
 
         {{ end }}
     </div>

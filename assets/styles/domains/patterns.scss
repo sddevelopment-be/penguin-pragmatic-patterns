@@ -29,6 +29,11 @@
     }
 }
 
+.section-header {
+    margin-top: $space-3xl;
+    margin-bottom: $space-sm;
+}
+
 .primer {
     margin-bottom: $space-3xl !important;
 }
@@ -517,6 +522,10 @@
         .subtitle {
             color: $brand-primary;
             font-weight: 300;
+        }
+
+        .meta {
+          text-align: right;
         }
     }
 

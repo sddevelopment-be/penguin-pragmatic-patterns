@@ -11,7 +11,6 @@ Version control systems track changes to code over time, enabling collaboration,
 Branching strategies define how teams organize parallel development streams, with trade-offs between isolation, 
 integration frequency, and merge complexity.
 """
-draft = true
 +++
 
 ## 1. Philosophy and Context

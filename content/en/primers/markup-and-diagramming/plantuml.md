@@ -11,7 +11,14 @@ PlantUML generates diagrams from plain-text descriptions, enabling version-contr
 It supports UML diagrams, architectural sketches, and various other diagram types through a concise, 
 readable syntax that integrates seamlessly with development workflows.
 """
-draft = true
+further_exploration = [
+    { type = "raw", author = "PlantUML", year = "2024", title = "PlantUML Language Reference Guide", site = "plantuml.com", link = "https://plantuml.com/guide" },
+    { type = "raw", author = "PlantUML", year = "2024", title = "PlantUML Official Site", site = "plantuml.com", link = "https://plantuml.com/" },
+    { type = "raw", author = "Real World PlantUML", year = "2024", title = "Community-Contributed Examples", site = "real-world-plantuml.com", link = "https://real-world-plantuml.com/" },
+    { type = "raw", author = "PlantUML Stdlib", year = "2024", title = "C4-PlantUML: C4 Model Integration", site = "GitHub", link = "https://github.com/plantuml-stdlib/C4-PlantUML" },
+    { type = "raw", author = "Ashley, Crashedmind", year = "2024", title = "Hitchhiker's Guide to PlantUML", site = "GitHub Pages", link = "https://crashedmind.github.io/PlantUMLHitchhikersGuide/" },
+    { type = "raw", author = "ogom", year = "2024", title = "PlantUML Cheat Sheet", site = "GitHub Pages", link = "https://ogom.github.io/draw_uml/plantuml/" }
+]
 +++
 
 ## 1. Purpose and Philosophy
@@ -54,7 +61,56 @@ PlantUML was created to solve a fundamental problem: visual diagrams in traditio
 - [Real World PlantUML](https://real-world-plantuml.com/) — Community-contributed examples
 - [C4-PlantUML](https://github.com/plantuml-stdlib/C4-PlantUML) — C4 model integration
 
-## 2. Core Syntax
+## 2. Getting Started
+
+To begin creating PlantUML diagrams, you need a text editor and a way to render the diagrams. The quickest path is using an online editor or IDE plugin.
+
+**Quickest start (no installation):**
+1. Visit [PlantUML Online Server](https://www.plantuml.com/plantuml/uml/)
+2. Write your diagram syntax in the text area
+3. See the rendered diagram update in real-time
+4. Export to PNG or SVG when satisfied
+
+**Recommended local setup:**
+
+**Option A: VS Code (cross-platform):**
+1. Install [VS Code](https://code.visualstudio.com/)
+2. Install the [PlantUML extension](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml)
+3. Create a file with `.puml` extension
+4. Press `Alt+D` to preview the diagram
+5. The extension handles rendering automatically (uses online server by default)
+
+**Option B: Command-line with Java:**
+1. Install Java Runtime (JRE 8 or later)
+   - **macOS:** `brew install openjdk`
+   - **Ubuntu/Debian:** `sudo apt-get install default-jre`
+   - **Windows:** Download from [java.com](https://www.java.com/)
+2. Install PlantUML
+   - **macOS:** `brew install plantuml`
+   - **Ubuntu/Debian:** `sudo apt-get install plantuml`
+   - **Windows:** Download JAR from [plantuml.com/download](https://plantuml.com/download)
+3. Install Graphviz (required for some diagram types)
+   - **macOS:** `brew install graphviz`
+   - **Ubuntu/Debian:** `sudo apt-get install graphviz`
+   - **Windows:** Download from [graphviz.org](https://graphviz.org/download/)
+4. Render a diagram: `plantuml diagram.puml`
+
+**For IntelliJ IDEA users:**
+- Install the [PlantUML Integration plugin](https://plugins.jetbrains.com/plugin/7017-plantuml-integration)
+- Create `.puml` files and see live previews in the editor
+
+Once set up, create a simple sequence diagram to verify everything works:
+
+```plantuml
+@startuml
+Alice -> Bob: Hello
+Bob --> Alice: Hi there!
+@enduml
+```
+
+Save this as `test.puml` and render it to confirm your environment is ready.
+
+## 3. Core Syntax
 
 **Minimal cheatsheet:**
 
@@ -159,7 +215,7 @@ Rel(taskSystem, emailSystem, "Sends emails via")
 @enduml
 ```
 
-## 3. Patterns and Idioms
+## 4. Patterns and Idioms
 
 ### Documentation Structure
 
@@ -236,9 +292,13 @@ end note
 @enduml
 ```
 
-## 4. Tooling and Rendering
+## 5. Tooling and Rendering
+
+PlantUML offers multiple rendering approaches, from command-line tools for batch processing to IDE integrations for interactive development. Choose the setup that best fits your workflow.
 
 ### Command-Line Rendering
+
+The command-line interface is ideal for automation, batch processing, and CI/CD pipelines.
 
 ```bash
 # Install PlantUML (requires Java)
@@ -266,6 +326,8 @@ plantuml -gui src/diagrams/
 
 ### IDE Integration
 
+IDE plugins provide live previews, making it easy to iterate on diagrams while writing code or documentation.
+
 - **VS Code:** [PlantUML Extension](https://marketplace.visualstudio.com/items?itemName=jebbs.plantuml)
     - Live preview, syntax highlighting, export
 - **IntelliJ IDEA:** [PlantUML Integration Plugin](https://plugins.jetbrains.com/plugin/7017-plantuml-integration)
@@ -274,10 +336,14 @@ plantuml -gui src/diagrams/
 
 ### Online Editors
 
+For quick experimentation without installing anything, online editors render diagrams in your browser.
+
 - [PlantUML Online Server](https://www.plantuml.com/plantuml/uml/)
 - [PlantText](https://www.planttext.com/)
 
 ### Rendering Services
+
+You can embed diagrams dynamically in documentation by referencing source files through PlantUML's public rendering service.
 
 ```markdown
 Embed in Markdown (GitHub, GitLab):
@@ -286,10 +352,12 @@ Embed in Markdown (GitHub, GitLab):
 
 ### Build Integration
 
+Automate diagram rendering in continuous integration pipelines to keep visuals in sync with code changes.
+
 ```yaml
 # GitHub Actions: Render PlantUML in CI
 name: Render Diagrams
-on: [ push ]
+on: [push]
 jobs:
   render:
     runs-on: ubuntu-latest
@@ -302,7 +370,9 @@ jobs:
           message: "Auto-generated diagrams"
 ```
 
-## 5. Integration
+## 6. Integration
+
+PlantUML integrates naturally into documentation workflows, version control systems, and static site generators, treating diagrams as code artifacts.
 
 ### Hugo/Jekyll Static Sites
 
@@ -316,27 +386,24 @@ done
 
 ```markdown
 # Reference in markdown
-
 ![Architecture Diagram](images/architecture.svg)
 ```
 
 ### Documentation as Code
-
 ```markdown
 Keep diagrams next to code they document:
 
 project/
 ├── src/
-│ ├── domain/
-│ │ ├── task.py
-│ │ └── task-model.puml # Domain model diagram
-│ └── api/
-│ ├── routes.py
-│ └── api-sequence.puml # API interaction diagram
+│   ├── domain/
+│   │   ├── task.py
+│   │   └── task-model.puml      # Domain model diagram
+│   └── api/
+│       ├── routes.py
+│       └── api-sequence.puml    # API interaction diagram
 ```
 
 ### Version Control Workflow
-
 ```bash
 # Edit diagram
 vim docs/architecture.puml
@@ -350,7 +417,6 @@ git commit -m "Update architecture diagram"
 ```
 
 ### Automated Diagram Updates
-
 ```makefile
 # Makefile for diagram rendering
 DIAGRAMS := $(wildcard docs/**/*.puml)
@@ -367,10 +433,9 @@ clean:
 .PHONY: all clean
 ```
 
-## 6. Accessibility and Review
+## 7. Accessibility and Review
 
 ### Accessibility Practices
-
 - **Alt text in markdown:** Provide meaningful descriptions when embedding diagrams
   ```markdown
   ![Sequence diagram showing user login flow with authentication service](diagrams/login-sequence.svg)
@@ -380,7 +445,6 @@ clean:
 - **Descriptive labels:** Avoid abbreviations; spell out component names
 
 ### Review and Versioning
-
 - **Text diffs are readable:** Reviewers can see diagram changes in Git diffs
 - **Comments in diagrams:** Use `' single quote` for inline comments
   ```plantuml
@@ -403,14 +467,13 @@ clean:
   ```
 
 ### Common Pitfalls
-
 - **Graphviz dependency:** Some diagrams require Graphviz; install with PlantUML
 - **Large diagrams become unreadable:** Break into multiple smaller diagrams
 - **Layout quirks:** Use `skinparam linetype ortho` for cleaner orthogonal lines
 - **Color accessibility:** Avoid red-green combinations; test with colorblind simulators
 - **Over-detailing:** Keep diagrams high-level; excessive detail obscures intent
 
-## 7. Example and Reference
+## 8. Example and Reference
 
 **Complete working example: Three-Layer Architecture**
 
@@ -475,13 +538,11 @@ end note
 ```
 
 **Render:**
-
 ```bash
 plantuml -tsvg architecture-layers.puml
 ```
 
 **Embed in documentation:**
-
 ```markdown
 # System Architecture
 
@@ -493,18 +554,9 @@ Each layer has clear responsibilities and dependencies flow downward only.
 ```
 
 **Best practices demonstrated:**
-
 - Descriptive title with version/date context
 - Consistent styling via skinparam
 - Clear layer boundaries with packages
 - Explanatory notes for each layer
 - Comments for maintainability
 - SVG output for web rendering
-
-**Further Reading:**
-
-- [PlantUML Documentation](https://plantuml.com/)
-- [C4 Model with PlantUML](https://github.com/plantuml-stdlib/C4-PlantUML)
-- [Real World PlantUML Examples](https://real-world-plantuml.com/)
-- [Hitchhiker's Guide to PlantUML](https://crashedmind.github.io/PlantUMLHitchhikersGuide/)
-- [PlantUML Cheat Sheet](https://ogom.github.io/draw_uml/plantuml/)

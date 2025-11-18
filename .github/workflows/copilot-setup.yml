@@ -1,0 +1,65 @@
+name: Copilot Agent Setup
+
+# This workflow can be called by other workflows or run manually
+# It sets up the build environment for Copilot agents working on this repository
+on:
+  workflow_call:
+  workflow_dispatch:
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    env:
+      HUGO_VERSION: 0.152.2
+      DART_SASS_VERSION: 1.80.7
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+      
+      - name: Install Hugo CLI (Extended)
+        run: |
+          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb
+          sudo dpkg -i ${{ runner.temp }}/hugo.deb
+          hugo version
+      
+      - name: Install Dart Sass
+        run: |
+          curl -LJO https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz
+          tar -xzf dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz -C ${{ runner.temp }}
+          sudo ln -sf ${{ runner.temp }}/dart-sass/sass /usr/local/bin/sass
+          sass --version
+      
+      - name: Install Node.js dependencies
+        run: |
+          [[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || echo "No package-lock.json found, skipping npm ci"
+      
+      - name: Verify Hugo build
+        run: |
+          hugo --gc --minify --buildDrafts=false
+          echo "✓ Build successful - $(find public -type f | wc -l) files generated"
+      
+      - name: Test Hugo server
+        run: |
+          timeout 10 hugo server --bind 0.0.0.0 || echo "✓ Server test complete"
+      
+      - name: Display environment summary
+        run: |
+          echo "## Environment Setup Complete ✓" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Hugo version:** $(hugo version)" >> $GITHUB_STEP_SUMMARY
+          echo "**Dart Sass version:** $(sass --version)" >> $GITHUB_STEP_SUMMARY
+          echo "**Node.js version:** $(node --version 2>/dev/null || echo 'Not installed')" >> $GITHUB_STEP_SUMMARY
+          echo "**Build output:** $(find public -type f | wc -l) files in public/" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "### Quick Commands" >> $GITHUB_STEP_SUMMARY
+          echo "\`\`\`bash" >> $GITHUB_STEP_SUMMARY
+          echo "# Build site" >> $GITHUB_STEP_SUMMARY
+          echo "hugo --gc --minify --buildDrafts=false" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "# Start development server" >> $GITHUB_STEP_SUMMARY
+          echo "hugo server --bind 0.0.0.0" >> $GITHUB_STEP_SUMMARY
+          echo "\`\`\`" >> $GITHUB_STEP_SUMMARY

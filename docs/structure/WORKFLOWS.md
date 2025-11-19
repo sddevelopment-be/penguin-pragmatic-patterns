@@ -144,6 +144,44 @@ found no layout file for 'json' for kind 'section'
 
 **Location:** `.github/workflows/`
 
+### Reusable Setup Action (For Agents and Workflows)
+
+**Location:** `.github/actions/setup-hugo/`  
+**Type:** Composite Action
+
+A reusable GitHub Action that centralizes Hugo environment setup across all workflows.
+
+**Usage:**
+
+```yaml
+steps:
+  - name: Checkout
+    uses: actions/checkout@v4
+    with:
+      submodules: recursive
+      fetch-depth: 0
+  
+  - name: Setup Hugo Environment
+    uses: ./.github/actions/setup-hugo
+    with:
+      hugo-version: '0.152.2'  # Optional, this is the default
+```
+
+**What it does:**
+- ✅ Installs Hugo Extended v0.152.2
+- ✅ Installs Dart Sass (for SCSS compilation)
+- ✅ Installs Node.js dependencies (if package-lock.json exists)
+
+**Benefits for agents:**
+- Discoverable by file system scan (`.github/actions/setup-hugo/`)
+- Self-documenting via `action.yml` schema
+- Used in existing workflows as a reference pattern
+- Single source of truth for Hugo version
+
+**Documentation:**
+- See `.github/actions/setup-hugo/README.md` for complete usage
+- See `work/logs/COPILOT_WORKFLOW_IMPLEMENTATION.md` for implementation details
+
 ### Workflow 1: GitHub Pages Deployment
 
 **File:** `hugo.yml`  
@@ -166,37 +204,27 @@ id-token: write
 
 **Steps:**
 
-1. **Install Hugo CLI**
-   ```bash
-   wget -O ${{ runner.temp }}/hugo.deb \
-     https://github.com/gohugoio/hugo/releases/download/v0.152.2/hugo_extended_0.152.2_linux-amd64.deb
-   sudo dpkg -i ${{ runner.temp }}/hugo.deb
-   ```
-
-2. **Install Dart Sass**
-   ```bash
-   sudo snap install dart-sass
-   ```
-
-3. **Checkout**
+1. **Checkout**
    ```yaml
-   uses: actions/checkout@v3
+   uses: actions/checkout@v4
    with:
      submodules: recursive
      fetch-depth: 0
    ```
 
-4. **Setup Pages**
+2. **Setup Hugo Environment** (uses composite action)
+   ```yaml
+   uses: ./.github/actions/setup-hugo
+   with:
+     hugo-version: '0.152.2'
+   ```
+
+3. **Setup Pages**
    ```yaml
    uses: actions/configure-pages@v3
    ```
 
-5. **Install Node.js dependencies**
-   ```bash
-   [[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true
-   ```
-
-6. **Build with Hugo**
+4. **Build with Hugo**
    ```bash
    hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
    ```
@@ -204,7 +232,7 @@ id-token: write
     - `HUGO_ENVIRONMENT=production`
     - `HUGO_ENV=production`
 
-7. **Upload artifact**
+5. **Upload artifact**
    ```yaml
    uses: actions/upload-pages-artifact@v3
    with:
@@ -212,7 +240,7 @@ id-token: write
      name: github-pages
    ```
 
-8. **Deploy to GitHub Pages**
+6. **Deploy to GitHub Pages**
    ```yaml
    uses: actions/deploy-pages@v4
    ```
@@ -239,7 +267,12 @@ id-token: write
 
 **Concurrency:** `prod-deploy` group, no cancellation
 
-**Steps:** (Similar to Workflow 1, differences below)
+**Steps:**
+
+1. Checkout (with submodules)
+2. Setup Hugo Environment (uses `.github/actions/setup-hugo`)
+3. Build with Hugo
+4. Upload artifact
 
 **Build Command:**
 

@@ -1,0 +1,39 @@
+/* ==========================================================================
+Color variables - Integrated with theme system
+========================================================================== */
+
+// Map Fresh theme color variables to our CSS custom properties
+// This ensures Fresh theme components adapt to light/dark modes
+
+// Background colors - use theme variables
+$white: var(--theme-bg-base-white);
+$smoke-white: var(--theme-bg-primary);
+$grey-white: var(--theme-bg-secondary);
+$light-grey: var(--theme-bg-primary);
+$section-grey: var(--theme-bg-secondary);
+$fade-grey: var(--theme-bg-tertiary);
+
+// Brand colors - use our brand palette
+$primary: var(--theme-brand-primary);     // Orange #f39200
+$secondary: var(--theme-brand-secondary); // Blue #1e75c0
+$accent: var(--theme-brand-primary);      // Use primary for accent
+
+// Text colors - use theme text variables
+$title-grey: var(--theme-text-card-subtitle);
+$blue-grey: var(--theme-text-heading);
+$muted-grey: var(--theme-text-secondary);
+$light-blue-grey: var(--theme-text-company-info);
+$medium-grey: var(--theme-text-h4);
+$basaltic-grey: var(--theme-text-secondary);
+$placeholder: var(--theme-muted-base-border);
+$dark-grey: var(--theme-text-heading);
+
+// Border colors
+$border-grey: var(--theme-border-card);
+
+// Special purpose colors (kept as-is, rarely used)
+$purple: #7F00FF;
+$mint: #11FFBD;
+$bloody: #FC354C;
+$pinky: #ff00cc;
+$frost: #004e92;

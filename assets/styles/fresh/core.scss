@@ -1,0 +1,24 @@
+/* ==========================================================================
+Main SCSS file / Fresh (Updated to use @use instead of deprecated @import)
+========================================================================== */
+
+// Modern SCSS imports using @use (Dart Sass 3.0.0 compatible)
+// Import colors first with 'as *' to make variables globally available
+@use 'partials/colors' as *;
+
+// Import other partials (they will have access to color variables)
+@use 'partials/navbar';
+@use 'partials/dropdowns';
+@use 'partials/sections';
+@use 'partials/hero';
+@use 'partials/footer';
+@use 'partials/buttons';
+@use 'partials/cards';
+@use 'partials/forms';
+@use 'partials/animations';
+@use 'partials/sidebar';
+@use 'partials/testimonials';
+@use 'partials/responsive';
+@use 'partials/utils';
+
+

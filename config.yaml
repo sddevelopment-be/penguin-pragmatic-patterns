@@ -4,6 +4,25 @@ baseURL: "localhost:1313"
 module:
   imports:
     path: github.com/StefMa/hugo-fresh
+  mounts:
+    # Override entire Fresh theme with our dark-mode compatible version
+    - source: assets/styles/fresh
+      target: assets/fresh
+    # Keep all standard Hugo directories
+    - source: assets
+      target: assets
+    - source: static
+      target: static
+    - source: layouts
+      target: layouts
+    - source: data
+      target: data
+    - source: content
+      target: content
+    - source: i18n
+      target: i18n
+    - source: archetypes
+      target: archetypes
 
 assetDir: "assets"
 enableRobotsTXT: true

@@ -27,6 +27,15 @@ Any feedback or suggestions for changes can be submitted there.
 
 ## Unreleased
 
+### Fixed
+
+- **Dark mode inconsistencies**: Resolved hardcoded color values in recommendations section and navbar-clone that prevented proper dark theme rendering
+  - Navbar clone (`#navbar-clone`) now respects `prefers-color-scheme: dark` media query
+  - Recommendation cards, titles, and links now adapt text colors to dark mode
+  - Added 6 new CSS custom properties (`--theme-text-ink`, `--theme-text-heavy`, `--theme-text-navy-muted`, `--theme-text-earth-amber`, `--theme-text-amber-shadow`, `--theme-bg-navbar`) with light and dark theme mappings
+  - Removed 8 hardcoded SCSS color variables from `recommendations.scss`
+- **Enforced constraint**: All partial SCSS files now exclusively use CSS custom properties from `_theme.scss` with no explicit color overrides
+
 ### Added
 
 - **Six new primers** across programming languages, architecture, toolchain, and markup families:

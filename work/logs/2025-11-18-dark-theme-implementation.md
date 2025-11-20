@@ -325,12 +325,43 @@ hugo --gc --minify --buildDrafts=false
 ✅ **Dark mode media query** centralized in `_theme.scss`  
 ✅ **Test coverage** for dark mode consistency
 
+### Test Results
+
+**Cypress Test Suite:** `validation/cypress/e2e/dark-mode-consistency.cy.js`
+
+```bash
+npx cypress run --spec "cypress/e2e/dark-mode-consistency.cy.js" --browser chromium
+```
+
+**Results (2025-11-20):**
+- ✅ 6 tests passing
+- ⏸️ 2 tests pending (production-only CSS file validation)
+- ❌ 0 tests failing
+- ⏱️ Duration: 8 seconds
+
+**Passing Tests:**
+1. ✅ Navigation: Apply theme variables to main navbar
+2. ✅ Navigation: Apply theme variables to navbar clone
+3. ✅ Navigation: Dark background in navbar-clone in dark mode
+4. ✅ Recommendations: Use theme variables for recommendation section
+5. ✅ Recommendations: Use theme variables for recommendation text elements
+6. ✅ Light/Dark Mode: Display dark backgrounds when dark mode enabled
+
+**Pending Tests (Production Build Only):**
+- ⏸️ CSS file validation: Hardcoded SCSS color variables check
+- ⏸️ CSS file validation: CSS variables in recommendations check
+
+**Notes:**
+- Dark mode emulation implemented using Chrome DevTools Protocol
+- Tests validate actual rendered colors in dark mode
+- Production-only tests skipped because Hugo dev server serves CSS differently
+
 ### Next Steps
 
-1. Run Cypress test suite: `cd validation && npm run cypress:open`
+1. ✅ Run Cypress test suite - COMPLETE (6/6 passing)
 2. Manually verify dark mode on `/bibliography/` page
 3. Check navbar-clone behavior on scroll
-4. Update CHANGELOG with bug fixes
+4. ✅ Update CHANGELOG with bug fixes - COMPLETE
 
 ## Documentation Updates Needed
 

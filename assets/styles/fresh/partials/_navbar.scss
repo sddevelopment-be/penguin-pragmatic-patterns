@@ -107,7 +107,7 @@ Navbar
     top: 0;
     left: 0;
     width: 100%;
-    background: $white;
+    background: var(--theme-bg-navbar);
     transform: translateY(-100%);
     z-index: 100;
     box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.12);

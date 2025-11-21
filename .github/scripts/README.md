@@ -118,6 +118,8 @@ This caches the theme and other dependencies.
 
 ## For Copilot Agents
 
+### Quick Start
+
 When starting work on this repository:
 
 1. **Run the setup script first:**
@@ -136,3 +138,50 @@ When starting work on this repository:
    ```
 
 The setup script is idempotent—safe to run multiple times.
+
+### For Creating GitHub Workflows
+
+**Instead of duplicating setup code, use the composite action:**
+
+```yaml
+steps:
+  - name: Checkout
+    uses: actions/checkout@v4
+    with:
+      submodules: recursive
+  
+  - name: Setup Hugo Environment
+    uses: ./.github/actions/setup-hugo
+    # Automatically uses Hugo 0.152.2, Dart Sass, and npm deps
+  
+  - name: Build site
+    run: hugo --gc --minify
+```
+
+**Key points:**
+- ✅ Action is discoverable at `.github/actions/setup-hugo/action.yml`
+- ✅ Provides Hugo 0.152.2 extended by default
+- ✅ Handles Dart Sass and Node.js dependencies
+- ✅ See `.github/actions/setup-hugo/README.md` for full documentation
+
+### Discovery Methods
+
+Agents can find Hugo setup tools by:
+
+1. **File system scan:**
+   ```bash
+   ls -la .github/actions/  # Find: setup-hugo/
+   ls -la .github/scripts/  # Find: setup-copilot-env.sh
+   ```
+
+2. **Workflow analysis:**
+   ```bash
+   grep -r "setup-hugo" .github/workflows/
+   # Shows usage in hugo.yml and hugo_build_site.yml
+   ```
+
+3. **Documentation search:**
+   ```bash
+   find .github -name "README.md" -exec grep -l "Hugo" {} \;
+   # Finds this file and action README
+   ```

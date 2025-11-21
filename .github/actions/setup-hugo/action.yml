@@ -1,0 +1,59 @@
+name: 'Setup Hugo Build Environment'
+description: 'Install Hugo Extended and Dart Sass for building the site'
+inputs:
+  hugo-version:
+    description: 'Hugo version to install'
+    required: false
+    default: '0.152.2'
+  install-dart-sass:
+    description: 'Whether to install Dart Sass'
+    required: false
+    default: 'true'
+  install-node-deps:
+    description: 'Whether to install Node.js dependencies'
+    required: false
+    default: 'true'
+outputs:
+  hugo-version:
+    description: 'Hugo version that was installed'
+    value: ${{ steps.set-outputs.outputs.hugo-version }}
+  dart-sass-installed:
+    description: 'Whether Dart Sass was installed'
+    value: ${{ steps.set-outputs.outputs.dart-sass-installed }}
+
+runs:
+  using: 'composite'
+  steps:
+    - name: Install Hugo CLI (Extended)
+      shell: bash
+      run: |
+        HUGO_VERSION="${{ inputs.hugo-version }}"
+        wget -O /tmp/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb
+        sudo dpkg -i /tmp/hugo.deb
+        rm /tmp/hugo.deb
+        echo "✓ Hugo installed: $(hugo version)"
+    
+    - name: Install Dart Sass
+      if: inputs.install-dart-sass == 'true'
+      shell: bash
+      run: |
+        sudo snap install dart-sass
+        echo "✓ Dart Sass installed: $(sass --version)"
+    
+    - name: Install Node.js dependencies
+      if: inputs.install-node-deps == 'true'
+      shell: bash
+      run: |
+        if [[ -f package-lock.json ]] || [[ -f npm-shrinkwrap.json ]]; then
+          npm ci
+          echo "✓ Node.js dependencies installed"
+        else
+          echo "ℹ No package-lock.json found, skipping npm ci"
+        fi
+    
+    - name: Set outputs
+      id: set-outputs
+      shell: bash
+      run: |
+        echo "hugo-version=${{ inputs.hugo-version }}" >> $GITHUB_OUTPUT
+        echo "dart-sass-installed=${{ inputs.install-dart-sass }}" >> $GITHUB_OUTPUT

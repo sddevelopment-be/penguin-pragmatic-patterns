@@ -33,6 +33,7 @@
   --theme-bg-dropdown: var(--theme-bg-base-body);
   --theme-bg-skip-link: var(--theme-bg-base-white);
   --theme-bg-tag: var(--theme-bg-base-tag-light);
+  --theme-bg-navbar: var(--theme-bg-base-white);
   --theme-bg-navbar-dropdown: transparent;
   --theme-bg-related: var(--theme-bg-base-light);
   
@@ -63,7 +64,12 @@
   --theme-text-base-h4: #556975;
   --theme-text-base-company-info: #98a9c3;
   --theme-text-base-icon: #34626f;
-  
+  --theme-text-base-ink: #{$color-text-ink};
+  --theme-text-base-heavy: #{$color-text-heavy};
+  --theme-text-base-navy-muted: #{$color-navy-muted};
+  --theme-text-base-earth-amber: #{$color-earth-amber};
+  --theme-text-base-amber-shadow: #{$color-amber-shadow};
+
   /* Light theme - Text semantic mappings */
   --theme-text-primary: var(--theme-text-base-primary);
   --theme-text-secondary: var(--theme-text-base-muted);
@@ -83,7 +89,12 @@
   --theme-text-icon: var(--theme-text-base-icon);
   --theme-text-tag: #{$color-earth-amber};
   --theme-text-light: #{$color-surface-light};
-  
+  --theme-text-ink: var(--theme-text-base-ink);
+  --theme-text-heavy: var(--theme-text-base-heavy);
+  --theme-text-navy-muted: var(--theme-text-base-navy-muted);
+  --theme-text-earth-amber: var(--theme-text-base-earth-amber);
+  --theme-text-amber-shadow: var(--theme-text-base-amber-shadow);
+
   /* Border and accent colors - base */
   --theme-border-base-card: rgb(224 205 193 / 99%);
   --theme-scrollbar-base-track: #fff;
@@ -148,6 +159,7 @@
     --theme-bg-dropdown: var(--theme-bg-base-dark-secondary);
     --theme-bg-skip-link: var(--theme-bg-base-dark-body);
     --theme-bg-tag: rgb(243 146 0 / 15%);
+    --theme-bg-navbar: var(--theme-bg-base-dark-body);
     --theme-bg-navbar-dropdown: var(--theme-bg-base-dark-dropdown);
     --theme-bg-related: var(--theme-bg-base-dark-card);
     
@@ -169,7 +181,12 @@
     --theme-text-company-info: var(--theme-text-base-dark-muted);
     --theme-text-icon: rgb(30 117 192 / 70%);
     --theme-text-tag: var(--theme-brand-primary);
-    
+    --theme-text-ink: var(--theme-text-base-dark-card-body);
+    --theme-text-heavy: var(--theme-text-base-dark-heading);
+    --theme-text-navy-muted: rgb(30 117 192 / 80%);
+    --theme-text-earth-amber: var(--theme-brand-primary);
+    --theme-text-amber-shadow: var(--theme-text-base-dark-link-hover);
+
     /* Dark theme - Borders */
     --theme-border-primary: rgb(30 117 192 / 30%);
     --theme-border-hr: rgb(243 146 0 / 35%);

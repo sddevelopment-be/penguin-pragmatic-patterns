@@ -15,7 +15,7 @@
 .recommendation-item .recommendation-title {
     border-bottom: 1px dashed $brand-primary;
     text-transform: capitalize;
-    color: $color-text-heavy;
+    color: var(--theme-text-heavy);
     font-size: $space-lg;
     padding: $space-2xs $space-3xl 1.45rem;
     max-width: 98%;
@@ -32,13 +32,13 @@
         font-weight: 850;
         max-width: 6.125em;
         width: 6.125em;
-        color: $color-navy-muted;
+        color: var(--theme-text-navy-muted);
     }
 
     h3 {
         font-size: 1.45rem;
         font-weight: 550;
-        color: $color-text-ink;
+        color: var(--theme-text-ink);
         line-height: 1.25;
     }
 
@@ -46,7 +46,7 @@
         padding-top: $space-2xs;
         font-size: $space-lg;
         font-weight: 40;
-        color: $color-text-ink;
+        color: var(--theme-text-ink);
         line-height: 1.25;
     }
 
@@ -84,7 +84,7 @@
     justify-content: flex-start;
     max-width: 100%;
     padding: $space-sm;
-    color: $color-text-ink;
+    color: var(--theme-text-ink);
 }
 
 .recommendation-item .recommendation-content .recommendation-image {
@@ -134,7 +134,7 @@
 }
 
 .permalink a {
-    color: $color-earth-amber;
+    color: var(--theme-text-earth-amber);
 }
 
 .permalink a:hover {
@@ -147,7 +147,7 @@
 }
 
 .recommendation-item .recommendation-content .recommendation-text .link a {
-    color: $color-amber-shadow;
+    color: var(--theme-text-amber-shadow);
 }
 
 .recommendation-item .recommendation-content .recommendation-text .link a:hover {
@@ -198,7 +198,7 @@
 }
 
 .recommendation-item .recommendation-content .recommendation-text .recommendation-tags .recommendation-tag a {
-    color: $color-earth-amber;
+    color: var(--theme-text-earth-amber);
 }
 
 .recommendation-item .recommendation-content .recommendation-text .recommendation-tags .recommendation-tag a:hover {

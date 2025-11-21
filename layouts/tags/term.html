@@ -7,11 +7,7 @@
 {{ $tag := .Title | lower}}
 {{ $description := .Description}}
 
-{{ $fileToUse := "glossary" }}
-{{ if ne .Site.Language.Lang "en" }}
-    {{ $fileToUse = (printf "%s_%s" "glossary" .Site.Language.Lang ) }}
-{{ end }}
-{{ range $terminology := (sort (index .Site.Data $fileToUse).terminology "name" "asc" ) }}
+{{ range $terminology := (sort .Site.Data.glossary.terminology "name" "asc" ) }}
     {{ if eq ( $terminology.name | lower ) $tag }}
         {{ $description = $terminology.description }}
     {{ end }}

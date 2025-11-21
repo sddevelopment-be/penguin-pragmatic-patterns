@@ -1,0 +1,18 @@
+Start building sites … 
+hugo v0.152.2-6abdacad3f3fe944ea42177844469139e81feda6+extended linux/amd64 BuildDate=2025-10-24T15:31:49Z VendorInfo=gohugoio
+
+WARN  calling IsSet with unsupported type "ptr" (*page.siteWrapper) will always return false.
+WARN  found no layout file for "json" for kind "section": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+WARN  found no layout file for "json" for kind "page": You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+
+                  │ EN  
+──────────────────┼─────
+ Pages            │ 260 
+ Paginator pages  │   0 
+ Non-page files   │   0 
+ Static files     │ 706 
+ Processed images │   0 
+ Aliases          │  71 
+ Cleaned          │  22 
+
+Total in 1763 ms

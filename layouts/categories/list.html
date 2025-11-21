@@ -1,0 +1,28 @@
+{{ define "main" }}
+<main id="main-content" class="site-main" role="main" tabindex="-1">
+
+{{ partial "navbar.html" . }}
+{{ partial "navbar-clone.html" . }}
+
+{{ partial "title-section.html" . }}
+
+<section class="section section-feature-grey is-medium" id="categories">
+    <div>
+        <ul class="tag-wrapper">
+            {{ if .Data.Terms }}
+                {{ range .Data.Terms.Alphabetical }}
+                    <li class="tag-block"><a href="{{ .Page.RelPermalink }}" class="tag-name">{{ .Page.Title }}</a> <span class="tag-count">{{ .Count }}</span></li>
+                {{ end }}
+            {{ else }}
+                No categories found.
+            {{ end }}
+        </ul>
+    </div>
+</section>
+
+{{ if .Site.Params.footer }}
+    {{ partial "footer.html" . }}
+{{ end }}
+</main>
+{{ end }}
+

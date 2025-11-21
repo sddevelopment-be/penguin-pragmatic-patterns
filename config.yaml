@@ -257,44 +257,4 @@ services:
 
 copyright: © 2024 SD Development, BV.
 
-defaultContentLanguage: en
-defaultContentLanguageInSubdir: false
-languages:
-  en:
-    contentDir: content/en
-    disabled: false
-    languageCode: en-US
-    languageDirection: ""
-    languageName: "English"
-    title: "Pragmatic Penguin Patterns"
-    weight: 0
-  nl:
-    contentDir: content/nl
-    disabled: false
-    languageCode: nl-BE
-    languageDirection: ""
-    languageName: "Nederlands"
-    title: "Pragmatic Penguin Patterns"
-    weight: 1
-    params:
-      navbar:
-        - title: Concepten
-          url: /nl/concepts/
-        - title: Methodes
-          url: /nl/practices/
-        - title: Introducties
-          url: /nl/primers/
-        - title: Hulpmiddelen
-          sublinks:
-            - title: Woordenlijst
-              url: /nl/glossary/
-            - title: Bibliografie
-              url: /nl/books
-            - title: "Tools, Websites, Apps"
-              url: /nl/tools/
-        - title: Admin
-          sublinks:
-            - title: Aanpassingsoverzicht
-              url: /nl/changelog/
-            - title: Licentie
-              url: /nl/license/
+languageCode: en-US

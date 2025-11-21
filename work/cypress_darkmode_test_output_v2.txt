@@ -1,0 +1,137 @@
+
+(Cypress:42437): Gtk-WARNING **: 07:05:15.127: Theme parsing error: gtk.css:7086:257: Missing closing bracket for :not()
+
+DevTools listening on ws://127.0.0.1:35711/devtools/browser/a77a8701-9c7c-4f80-8676-71edbc2890f8
+
+(Cypress:42437): Gtk-WARNING **: 07:05:15.262: Theme parsing error: gtk.css:7086:257: Missing closing bracket for :not()
+
+====================================================================================================
+
+  (Run Starting)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Cypress:        15.6.0                                                                         │
+  │ Browser:        Chromium 142 (headless)                                                        │
+  │ Node Version:   v25.1.0 (/home/stijnd/.nvm/versions/node/v25.1.0/bin/node)                     │
+  │ Specs:          1 found (dark-mode-consistency.cy.js)                                          │
+  │ Searched:       cypress/e2e/dark-mode-consistency.cy.js                                        │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  dark-mode-consistency.cy.js                                                     (1 of 1)
+
+
+  Dark Mode Consistency
+    Navigation Elements
+      ✓ should apply theme variables to main navbar (1335ms)
+      ✓ should apply theme variables to navbar clone (634ms)
+      1) should match navbar and navbar-clone backgrounds
+    Recommendation Cards
+      ✓ should use theme variables for recommendation section (948ms)
+      ✓ should use theme variables for recommendation text elements (996ms)
+    No Hardcoded Color Overrides
+      2) should not contain hardcoded SCSS color variables in compiled CSS
+      3) should use CSS variables for all color properties in recommendations
+    Light/Dark Mode Toggle
+      4) should properly switch between light and dark themes
+
+
+  4 passing (8s)
+  4 failing
+
+  1) Dark Mode Consistency
+       Navigation Elements
+         should match navbar and navbar-clone backgrounds:
+
+      AssertionError: expected 'rgb(10, 14, 19)' to equal 'rgba(0, 0, 0, 0)'
+      + expected - actual
+
+      -'rgb(10, 14, 19)'
+      +'rgba(0, 0, 0, 0)'
+      
+      at Context.eval (webpack://validation/./cypress/e2e/dark-mode-consistency.cy.js:65:27)
+      at getRet (http://localhost:1313/__cypress/runner/cypress_runner.js:122341:20)
+      at tryCatcher (http://localhost:1313/__cypress/runner/cypress_runner.js:1777:23)
+      at Promise.attempt.Promise.try (http://localhost:1313/__cypress/runner/cypress_runner.js:4285:29)
+      at Context.thenFn (http://localhost:1313/__cypress/runner/cypress_runner.js:122352:66)
+      at Context.then (http://localhost:1313/__cypress/runner/cypress_runner.js:122603:21)
+
+  2) Dark Mode Consistency
+       No Hardcoded Color Overrides
+         should not contain hardcoded SCSS color variables in compiled CSS:
+     AssertionError: custom.min CSS file should exist: expected undefined to exist
+      at Object.proxyGetter [as get] (http://localhost:1313/__cypress/runner/cypress_runner.js:80741:22)
+      at Context.eval (webpack://validation/./cypress/e2e/dark-mode-consistency.cy.js:117:63)
+      at getRet (http://localhost:1313/__cypress/runner/cypress_runner.js:122341:20)
+
+  3) Dark Mode Consistency
+       No Hardcoded Color Overrides
+         should use CSS variables for all color properties in recommendations:
+     TypeError: Cannot read properties of undefined (reading 'href')
+      at Context.eval (webpack://validation/./cypress/e2e/dark-mode-consistency.cy.js:140:34)
+      at getRet (http://localhost:1313/__cypress/runner/cypress_runner.js:122341:20)
+      at tryCatcher (http://localhost:1313/__cypress/runner/cypress_runner.js:1777:23)
+      at Promise.attempt.Promise.try (http://localhost:1313/__cypress/runner/cypress_runner.js:4285:29)
+      at Context.thenFn (http://localhost:1313/__cypress/runner/cypress_runner.js:122352:66)
+      at Context.then (http://localhost:1313/__cypress/runner/cypress_runner.js:122603:21)
+      at wrapped (http://localhost:1313/__cypress/runner/cypress_runner.js:145681:19)
+      at <unknown> (http://localhost:1313/__cypress/runner/cypress_runner.js:151628:15)
+      at tryCatcher (http://localhost:1313/__cypress/runner/cypress_runner.js:1777:23)
+
+  4) Dark Mode Consistency
+       Light/Dark Mode Toggle
+         should properly switch between light and dark themes:
+     AssertionError: expected 'rgb(10, 14, 19)' to match /rgb\(254, 254, 254\)|rgb\(255, 255, 255\)/
+      at Context.eval (webpack://validation/./cypress/e2e/dark-mode-consistency.cy.js:182:27)
+      at getRet (http://localhost:1313/__cypress/runner/cypress_runner.js:122341:20)
+
+
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        8                                                                                │
+  │ Passing:      4                                                                                │
+  │ Failing:      4                                                                                │
+  │ Pending:      0                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  4                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     8 seconds                                                                        │
+  │ Spec Ran:     dark-mode-consistency.cy.js                                                      │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  -  /media/stijnd/DATA/development/projects/penguin-pragmatic-patterns/validation/cy     (1280x633)
+     press/screenshots/dark-mode-consistency.cy.js/Dark Mode Consistency -- Navigatio               
+     n Elements -- should match navbar and navbar-clone backgrounds (failed).png                    
+  -  /media/stijnd/DATA/development/projects/penguin-pragmatic-patterns/validation/cy     (1280x633)
+     press/screenshots/dark-mode-consistency.cy.js/Dark Mode Consistency -- No Hardco               
+     ded Color Overrides -- should not contain hardcoded SCSS color variables in comp               
+     iled CSS (failed).png                                                                          
+  -  /media/stijnd/DATA/development/projects/penguin-pragmatic-patterns/validation/cy     (1280x633)
+     press/screenshots/dark-mode-consistency.cy.js/Dark Mode Consistency -- No Hardco               
+     ded Color Overrides -- should use CSS variables for all color properties in reco               
+     mmendations (failed).png                                                                       
+  -  /media/stijnd/DATA/development/projects/penguin-pragmatic-patterns/validation/cy     (1280x633)
+     press/screenshots/dark-mode-consistency.cy.js/Dark Mode Consistency -- LightDark               
+      Mode Toggle -- should properly switch between light and dark themes (failed).pn               
+     g                                                                                              
+
+
+====================================================================================================
+
+  (Run Finished)
+
+
+       Spec                                              Tests  Passing  Failing  Pending  Skipped  
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ ✖  dark-mode-consistency.cy.js              00:08        8        4        4        -        - │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+    ✖  1 of 1 failed (100%)                     00:08        8        4        4        -        -  
+

@@ -1,0 +1,80 @@
+
+  (Run Starting)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Cypress:        15.6.0                                                                         │
+  │ Browser:        Chromium 142 (headless)                                                        │
+  │ Node Version:   v25.1.0 (/home/stijnd/.nvm/versions/node/v25.1.0/bin/node)                     │
+  │ Specs:          1 found (dark-mode-consistency.cy.js)                                          │
+  │ Searched:       cypress/e2e/dark-mode-consistency.cy.js                                        │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+────────────────────────────────────────────────────────────────────────────────────────────────────
+                                                                                                    
+  Running:  dark-mode-consistency.cy.js                                                     (1 of 1)
+
+
+  Dark Mode Consistency
+    Navigation Elements
+      ✓ should apply theme variables to main navbar (1888ms)
+      ✓ should apply theme variables to navbar clone (622ms)
+      ✓ should have dark background in navbar-clone in dark mode (606ms)
+    Recommendation Cards
+      ✓ should use theme variables for recommendation section (898ms)
+      ✓ should use theme variables for recommendation text elements (860ms)
+    No Hardcoded Color Overrides
+      - should not contain hardcoded SCSS color variables in compiled CSS (production only)
+      - should use CSS variables for all color properties in recommendations (production only)
+    Light/Dark Mode Toggle
+      1) should properly switch between light and dark themes
+
+
+  5 passing (17s)
+  2 pending
+  1 failing
+
+  1) Dark Mode Consistency
+       Light/Dark Mode Toggle
+         should properly switch between light and dark themes:
+     AssertionError: Timed out retrying after 10000ms: Light mode body background: expected 'rgb(10, 14, 19)' to match /rgb\(254, 254, 254\)|rgb\(255, 255, 255\)/
+      at Context.eval (webpack://validation/./cypress/e2e/dark-mode-consistency.cy.js:209:57)
+      at <unknown> (http://localhost:1313/__cypress/runner/cypress_runner.js:121762:17)
+
+
+
+
+  (Results)
+
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ Tests:        8                                                                                │
+  │ Passing:      5                                                                                │
+  │ Failing:      1                                                                                │
+  │ Pending:      2                                                                                │
+  │ Skipped:      0                                                                                │
+  │ Screenshots:  1                                                                                │
+  │ Video:        false                                                                            │
+  │ Duration:     17 seconds                                                                       │
+  │ Spec Ran:     dark-mode-consistency.cy.js                                                      │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+
+
+  (Screenshots)
+
+  -  /media/stijnd/DATA/development/projects/penguin-pragmatic-patterns/validation/cy     (1280x633)
+     press/screenshots/dark-mode-consistency.cy.js/Dark Mode Consistency -- LightDark               
+      Mode Toggle -- should properly switch between light and dark themes (failed).pn               
+     g                                                                                              
+
+
+====================================================================================================
+
+  (Run Finished)
+
+
+       Spec                                              Tests  Passing  Failing  Pending  Skipped  
+  ┌────────────────────────────────────────────────────────────────────────────────────────────────┐
+  │ ✖  dark-mode-consistency.cy.js              00:17        8        5        1        2        - │
+  └────────────────────────────────────────────────────────────────────────────────────────────────┘
+    ✖  1 of 1 failed (100%)                     00:17        8        5        1        2        -  
+

@@ -23,7 +23,7 @@
 }
 
 .glossary-term .term-name {
-    border-bottom: 1px solid $brand-primary;
+    border-bottom: 1px solid var(--theme-brand-secondary);
     text-transform: capitalize;
     color: $color-text-heavy;
     font-size: $space-lg;
@@ -33,7 +33,7 @@
 .glossary-term .term-content {
     padding: $space-sm;
     width: 100%;
-    color: $color-text-ink;
+    color: var(--bulma-text);
 }
 
 .glossary-term .term-references .term-reference {
@@ -43,7 +43,7 @@
 }
 
 .glossary-term .term-content b {
-    color: $color-text-muted;
+    color: var(--theme-text-card-meta);
     font-stretch: extra-condensed;
     text-transform: uppercase;
     font-weight: 350;

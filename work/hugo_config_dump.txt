@@ -1,0 +1,708 @@
+archetypedir = 'archetypes'
+assetdir = 'assets'
+baseurl = 'localhost:1313'
+cachedir = '/home/stijnd/.cache/hugo_cache'
+canonifyurls = true
+capitalizelisttitles = true
+contentdir = 'content/en'
+copyright = '© 2024 SD Development, BV.'
+datadir = 'data'
+defaultcontentlanguage = 'en'
+defaultoutputformat = 'html'
+enablerobotstxt = true
+environment = 'production'
+i18ndir = 'i18n'
+languagecode = 'en-US'
+layoutdir = 'layouts'
+pluralizelisttitles = true
+publishdir = 'public'
+resourcedir = 'resources'
+staticdir = ['static']
+summarylength = 70
+themesdir = 'themes'
+timeout = '60s'
+title = 'Pragmatic Penguin Patterns'
+titlecasestyle = 'AP'
+workingdir = '/media/stijnd/DATA/development/projects/penguin-pragmatic-patterns'
+
+[author]
+
+[build]
+  useresourcecachewhen = 'fallback'
+
+  [build.buildstats]
+
+  [[build.cachebusters]]
+    source = '(postcss|tailwind)\.config\.js'
+    target = '(css|styles|scss|sass)'
+
+[caches]
+  [caches.assets]
+    dir = ':resourceDir/_gen'
+    maxage = -1
+
+  [caches.getcsv]
+    dir = ':cacheDir/:project'
+    maxage = -1
+
+  [caches.getjson]
+    dir = ':cacheDir/:project'
+    maxage = -1
+
+  [caches.getresource]
+    dir = ':cacheDir/:project'
+    maxage = -1
+
+  [caches.images]
+    dir = ':resourceDir/_gen'
+    maxage = -1
+
+  [caches.misc]
+    dir = ':cacheDir/:project'
+    maxage = -1
+
+  [caches.modules]
+    dir = ':cacheDir/modules'
+    maxage = -1
+
+[contenttypes]
+  [contenttypes.'text/asciidoc']
+
+  [contenttypes.'text/html']
+
+  [contenttypes.'text/markdown']
+
+  [contenttypes.'text/org']
+
+  [contenttypes.'text/pandoc']
+
+  [contenttypes.'text/rst']
+
+[deployment]
+  invalidatecdn = true
+  maxdeletes = 256
+  workers = 10
+
+[frontmatter]
+  date = ['date', 'publishdate', 'pubdate', 'published', 'lastmod', 'modified']
+  expirydate = ['expirydate', 'unpublishdate']
+  lastmod = [':git', 'lastmod', 'modified', 'date', 'publishdate', 'pubdate', 'published']
+  publishdate = ['publishdate', 'pubdate', 'published', 'date']
+
+[httpcache]
+  respectcachecontrolnostoreinrequest = true
+
+  [httpcache.cache]
+    [httpcache.cache.for]
+      excludes = ['**']
+
+  [[httpcache.polls]]
+    disable = true
+    high = '0s'
+    low = '0s'
+
+    [httpcache.polls.for]
+      includes = ['**']
+
+[imaging]
+  bgcolor = '#ffffff'
+  hint = 'photo'
+  quality = 75
+  resamplefilter = 'box'
+
+[languages]
+  [languages.en]
+    languagecode = 'en-US'
+    languagename = 'English'
+    title = 'Pragmatic Penguin Patterns'
+
+  [languages.nl]
+    languagecode = 'nl-BE'
+    languagename = 'Nederlands'
+    title = 'Pragmatic Penguin Patterns'
+    weight = 1
+
+[markup]
+  defaultmarkdownhandler = 'goldmark'
+
+  [markup.asciidocext]
+    backend = 'html5'
+    failurelevel = 'fatal'
+    noheaderorfooter = true
+    safemode = 'unsafe'
+
+    [markup.asciidocext.attributes]
+
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionlist = true
+      linkify = true
+      linkifyprotocol = 'https'
+      strikethrough = true
+      table = true
+      tasklist = true
+
+      [markup.goldmark.extensions.cjk]
+        eastasianlinebreaksstyle = 'simple'
+
+      [markup.goldmark.extensions.extras]
+        [markup.goldmark.extensions.extras.delete]
+
+        [markup.goldmark.extensions.extras.insert]
+
+        [markup.goldmark.extensions.extras.mark]
+
+        [markup.goldmark.extensions.extras.subscript]
+
+        [markup.goldmark.extensions.extras.superscript]
+
+      [markup.goldmark.extensions.footnote]
+        backlinkhtml = '&#x21a9;&#xfe0e;'
+        enable = true
+
+      [markup.goldmark.extensions.passthrough]
+        [markup.goldmark.extensions.passthrough.delimiters]
+
+      [markup.goldmark.extensions.typographer]
+        apostrophe = '&rsquo;'
+        ellipsis = '&hellip;'
+        emdash = '&mdash;'
+        endash = '&ndash;'
+        leftanglequote = '&laquo;'
+        leftdoublequote = '&ldquo;'
+        leftsinglequote = '&lsquo;'
+        rightanglequote = '&raquo;'
+        rightdoublequote = '&rdquo;'
+        rightsinglequote = '&rsquo;'
+
+    [markup.goldmark.parser]
+      autoheadingid = true
+      autoidtype = 'github'
+      wrapstandaloneimagewithinparagraph = true
+
+      [markup.goldmark.parser.attribute]
+        title = true
+
+    [markup.goldmark.renderer]
+      unsafe = true
+
+    [markup.goldmark.renderhooks]
+      [markup.goldmark.renderhooks.image]
+        useembedded = 'fallback'
+
+      [markup.goldmark.renderhooks.link]
+        useembedded = 'fallback'
+
+  [markup.highlight]
+    codefences = true
+    guesssyntax = true
+    linenostart = 1
+    linenumbersintable = true
+    noclasses = true
+    style = 'catppuccin-frappe'
+    tabwidth = 2
+    wrapperclass = 'highlight'
+
+  [markup.tableofcontents]
+    endlevel = 3
+    startlevel = 2
+
+[mediatypes]
+  [mediatypes.'application/json']
+    suffixes = ['json']
+
+  [mediatypes.'application/manifest+json']
+    delimiter = '.'
+    suffixes = ['webmanifest']
+
+  [mediatypes.'application/octet-stream']
+    delimiter = '.'
+
+  [mediatypes.'application/pdf']
+    delimiter = '.'
+    suffixes = ['pdf']
+
+  [mediatypes.'application/rss+xml']
+    suffixes = ['rss']
+
+  [mediatypes.'application/toml']
+    delimiter = '.'
+    suffixes = ['toml']
+
+  [mediatypes.'application/wasm']
+    delimiter = '.'
+    suffixes = ['wasm']
+
+  [mediatypes.'application/xml']
+    suffixes = ['xml']
+
+  [mediatypes.'application/yaml']
+    suffixes = ['yaml', 'yml']
+
+  [mediatypes.'font/otf']
+    delimiter = '.'
+    suffixes = ['otf']
+
+  [mediatypes.'font/ttf']
+    delimiter = '.'
+    suffixes = ['ttf']
+
+  [mediatypes.'image/bmp']
+    delimiter = '.'
+    suffixes = ['bmp']
+
+  [mediatypes.'image/gif']
+    delimiter = '.'
+    suffixes = ['gif']
+
+  [mediatypes.'image/jpeg']
+    delimiter = '.'
+    suffixes = ['jpg', 'jpeg', 'jpe', 'jif', 'jfif']
+
+  [mediatypes.'image/png']
+    delimiter = '.'
+    suffixes = ['png']
+
+  [mediatypes.'image/svg+xml']
+    delimiter = '.'
+    suffixes = ['svg']
+
+  [mediatypes.'image/tiff']
+    delimiter = '.'
+    suffixes = ['tif', 'tiff']
+
+  [mediatypes.'image/webp']
+    delimiter = '.'
+    suffixes = ['webp']
+
+  [mediatypes.'text/asciidoc']
+    delimiter = '.'
+    suffixes = ['adoc', 'asciidoc', 'ad']
+
+  [mediatypes.'text/calendar']
+    delimiter = '.'
+    suffixes = ['ics']
+
+  [mediatypes.'text/css']
+    delimiter = '.'
+    suffixes = ['css']
+
+  [mediatypes.'text/csv']
+    delimiter = '.'
+    suffixes = ['csv']
+
+  [mediatypes.'text/enriched']
+    suffixes = ['enr']
+
+  [mediatypes.'text/html']
+    suffixes = ['asp', 'html', 'htm']
+
+  [mediatypes.'text/javascript']
+    delimiter = '.'
+    suffixes = ['js', 'jsm', 'mjs']
+
+  [mediatypes.'text/jsx']
+    delimiter = '.'
+    suffixes = ['jsx']
+
+  [mediatypes.'text/markdown']
+    delimiter = '.'
+    suffixes = ['md', 'mdown', 'markdown']
+
+  [mediatypes.'text/org']
+    delimiter = '.'
+    suffixes = ['org']
+
+  [mediatypes.'text/pandoc']
+    delimiter = '.'
+    suffixes = ['pandoc', 'pdc']
+
+  [mediatypes.'text/plain']
+    delimiter = '.'
+    suffixes = ['txt']
+
+  [mediatypes.'text/rst']
+    delimiter = '.'
+    suffixes = ['rst']
+
+  [mediatypes.'text/tsx']
+    delimiter = '.'
+    suffixes = ['tsx']
+
+  [mediatypes.'text/typescript']
+    delimiter = '.'
+    suffixes = ['ts']
+
+  [mediatypes.'text/x-gotmpl']
+    delimiter = '.'
+    suffixes = ['gotmpl']
+
+  [mediatypes.'text/x-sass']
+    delimiter = '.'
+    suffixes = ['sass']
+
+  [mediatypes.'text/x-scss']
+    delimiter = '.'
+    suffixes = ['scss']
+
+  [mediatypes.'video/3gpp']
+    delimiter = '.'
+    suffixes = ['3gpp', '3gp']
+
+  [mediatypes.'video/mp4']
+    delimiter = '.'
+    suffixes = ['mp4']
+
+  [mediatypes.'video/mpeg']
+    delimiter = '.'
+    suffixes = ['mpg', 'mpeg']
+
+  [mediatypes.'video/ogg']
+    delimiter = '.'
+    suffixes = ['ogv']
+
+  [mediatypes.'video/webm']
+    delimiter = '.'
+    suffixes = ['webm']
+
+  [mediatypes.'video/x-msvideo']
+    delimiter = '.'
+    suffixes = ['avi']
+
+[menus]
+
+[minify]
+  [minify.tdewolff]
+    [minify.tdewolff.css]
+
+    [minify.tdewolff.html]
+      keepdefaultattrvals = true
+      keepdocumenttags = true
+      keependtags = true
+      keepspecialcomments = true
+      templatedelims = ['', '']
+
+    [minify.tdewolff.js]
+      version = 2022
+
+    [minify.tdewolff.json]
+
+    [minify.tdewolff.svg]
+
+    [minify.tdewolff.xml]
+
+[module]
+  noproxy = 'none'
+  private = '*.*'
+  proxy = 'direct'
+  workspace = 'off'
+
+  [module.hugoversion]
+
+  [[module.imports]]
+    path = 'github.com/StefMa/hugo-fresh'
+
+  [[module.mounts]]
+    source = 'assets/styles/fresh'
+    target = 'assets/fresh'
+
+  [[module.mounts]]
+    source = 'assets'
+    target = 'assets'
+
+  [[module.mounts]]
+    source = 'static'
+    target = 'static'
+
+  [[module.mounts]]
+    source = 'layouts'
+    target = 'layouts'
+
+  [[module.mounts]]
+    source = 'data'
+    target = 'data'
+
+  [[module.mounts]]
+    source = 'content'
+    target = 'content'
+
+  [[module.mounts]]
+    source = 'i18n'
+    target = 'i18n'
+
+  [[module.mounts]]
+    source = 'archetypes'
+    target = 'archetypes'
+
+  [[module.mounts]]
+    source = 'package.json'
+    target = 'assets/_jsconfig/package.json'
+
+[outputformats]
+  [outputformats.404]
+    ishtml = true
+    mediatype = 'text/html'
+    notalternative = true
+    permalinkable = true
+    ugly = true
+
+  [outputformats.alias]
+    ishtml = true
+    mediatype = 'text/html'
+    ugly = true
+
+  [outputformats.amp]
+    basename = 'index'
+    ishtml = true
+    mediatype = 'text/html'
+    path = 'amp'
+    permalinkable = true
+    rel = 'amphtml'
+
+  [outputformats.calendar]
+    basename = 'index'
+    isplaintext = true
+    mediatype = 'text/calendar'
+    protocol = 'webcal://'
+    rel = 'alternate'
+
+  [outputformats.css]
+    basename = 'styles'
+    isplaintext = true
+    mediatype = 'text/css'
+    notalternative = true
+    rel = 'stylesheet'
+
+  [outputformats.csv]
+    basename = 'index'
+    isplaintext = true
+    mediatype = 'text/csv'
+    rel = 'alternate'
+
+  [outputformats.gotmpl]
+    isplaintext = true
+    mediatype = 'text/x-gotmpl'
+    notalternative = true
+
+  [outputformats.html]
+    basename = 'index'
+    ishtml = true
+    mediatype = 'text/html'
+    permalinkable = true
+    rel = 'canonical'
+    weight = 10
+
+  [outputformats.json]
+    basename = 'index'
+    isplaintext = true
+    mediatype = 'application/json'
+    rel = 'alternate'
+
+  [outputformats.markdown]
+    basename = 'index'
+    isplaintext = true
+    mediatype = 'text/markdown'
+    rel = 'alternate'
+
+  [outputformats.robots]
+    basename = 'robots'
+    isplaintext = true
+    mediatype = 'text/plain'
+    rel = 'alternate'
+    root = true
+
+  [outputformats.rss]
+    basename = 'index'
+    mediatype = 'application/rss+xml'
+    nougly = true
+    rel = 'alternate'
+
+  [outputformats.sitemap]
+    basename = 'sitemap'
+    mediatype = 'application/xml'
+    rel = 'sitemap'
+    ugly = true
+
+  [outputformats.sitemapindex]
+    basename = 'sitemap'
+    mediatype = 'application/xml'
+    rel = 'sitemap'
+    root = true
+    ugly = true
+
+  [outputformats.webappmanifest]
+    basename = 'manifest'
+    isplaintext = true
+    mediatype = 'application/manifest+json'
+    notalternative = true
+    rel = 'manifest'
+
+[outputs]
+  home = ['html', 'rss']
+  page = ['html']
+  rss = ['rss']
+  section = ['html', 'rss']
+  taxonomy = ['html', 'rss']
+  term = ['html', 'rss']
+
+[page]
+  nextprevinsectionsortorder = 'desc'
+  nextprevsortorder = 'desc'
+
+[pagination]
+  pagersize = 5
+  path = 'page'
+
+[params]
+  datadir = '/data'
+  description = 'Explore practical techniques, decision frameworks, concepts, and mindset shifts tailored for thoughtful professionals, knowledge workers, and teams.'
+  opengraph = true
+
+  [params.author]
+    email = 'stijn@sddevelopment.be'
+    name = 'Stijn Dejongh'
+
+  [params.comments]
+    category = 'Pattern Comments'
+    categoryid = 'DIC_kwDOFDEY1c4CBILi'
+    repo = 'sddevelopment-be/penguin-pragmatic-patterns'
+    repoid = 'MDEwOlJlcG9zaXRvcnkzMzg3NjE5NDE='
+    theme = 'light'
+
+  [params.font]
+    name = 'Open Sans'
+    sizes = [400, 600]
+
+  [params.footer]
+    logo = 'LOGO_BASE_SMALL.webp'
+    socialmediatitle = 'Socials'
+
+    [params.footer.quicklinks]
+      [params.footer.quicklinks.column1]
+        title = 'Main Content'
+
+        [[params.footer.quicklinks.column1.links]]
+          link = '/about'
+          text = 'Approach'
+
+        [[params.footer.quicklinks.column1.links]]
+          link = '/practices'
+          text = 'Practices'
+
+        [[params.footer.quicklinks.column1.links]]
+          link = '/concepts'
+          text = 'Concepts'
+
+        [[params.footer.quicklinks.column1.links]]
+          link = '/primers'
+          text = 'Primers'
+
+      [params.footer.quicklinks.column2]
+        title = 'Resources'
+
+        [[params.footer.quicklinks.column2.links]]
+          link = '/glossary'
+          text = 'Glossary'
+
+        [[params.footer.quicklinks.column2.links]]
+          link = '/books'
+          text = 'Bibliography'
+
+        [[params.footer.quicklinks.column2.links]]
+          link = '/tools'
+          text = 'Tools, Websites, Apps'
+
+        [[params.footer.quicklinks.column2.links]]
+          link = '/presentations'
+          text = 'Slide decks'
+
+      [params.footer.quicklinks.column3]
+        title = 'Admin'
+
+        [[params.footer.quicklinks.column3.links]]
+          link = '/contributing'
+          text = 'Contributing'
+
+        [[params.footer.quicklinks.column3.links]]
+          link = '/changelog'
+          text = 'Change Log'
+
+        [[params.footer.quicklinks.column3.links]]
+          link = '/license/'
+          text = 'License'
+
+    [[params.footer.socialmedia]]
+      icon = 'github'
+      link = 'https://github.com/sddevelopment-be/penguin-pragmatic-patterns'
+
+    [[params.footer.socialmedia]]
+      icon = 'linkedin'
+      link = 'https://www.linkedin.com/company/sddevelopment-be'
+
+  [params.hero]
+    buttonlink = '#introduction'
+    buttontext = 'Explore the Library'
+    image = 'pattern_portfolio.svg'
+    subtitle = 'A practical knowledge base for technical professionals who value context over commandments'
+    title = 'Pragmatic Penguin Patterns'
+
+  [[params.navbar]]
+    title = 'Concepts'
+    url = '/concepts/'
+
+  [[params.navbar]]
+    title = 'Practices'
+    url = '/practices/'
+
+  [[params.navbar]]
+    title = 'Primers'
+    url = '/primers/'
+
+  [[params.navbar]]
+    title = 'Resources'
+
+    [[params.navbar.sublinks]]
+      title = 'Glossary'
+      url = '/glossary/'
+
+    [[params.navbar.sublinks]]
+      title = 'Bibliography'
+      url = '/books'
+
+    [[params.navbar.sublinks]]
+      title = 'Tools, Websites, Apps'
+      url = '/tools/'
+
+    [[params.navbar.sublinks]]
+      title = 'Slidedecks'
+      url = '/presentations/'
+
+  [[params.navbar]]
+    title = 'Admin'
+
+    [[params.navbar.sublinks]]
+      title = 'Helping Out'
+      url = '/contributing/'
+
+    [[params.navbar.sublinks]]
+      title = 'Change Log'
+      url = '/changelog/'
+
+    [[params.navbar.sublinks]]
+      title = 'License'
+      url = '/license/'
+
+  [params.navbarlogo]
+    height = 28
+    image = 'logos/ppp_logo.webp'
+    link = '/'
+    width = 112
+
+  [params.section1]
+    subtitle = 'because knowing what to do matters less than knowing when to do it'
+    text = "You've probably encountered an elegant solution to a problem and thought: \"Why didn't I see that sooner?\" The reason is simpler than you'd expect: you simply didn't know it was an option. Maybe someone mentioned the approach once, but the context got lost in translation. <br /><br /> Technical work is full of advice: best practices, frameworks, methodologies, and patterns. The challenge isn't finding them. The challenge is understanding <em>when</em> they apply and <em>why</em> they matter in your specific situation. <br /><br /> This knowledge base offers something different: structured, searchable insights that explain not just <em>what</em> techniques exist, but <em>when</em> they're valuable and <em>what trade-offs</em> they involve. Think of it as a reference library built by practitioners, for practitioners. Whether you're debugging your first merge conflict or architecting systems for a distributed team, there is something for you here. <br /><br /> We don't prescribe solutions. We help you build judgment by showing how concepts, practices, and mental models apply across contexts. Your situation is unique. Your approach should be, too.\n"
+    title = 'Why this exists'
+
+  [params.section2]
+    image = 'sense_making_meta_model'
+    subtitle = 'pattern-based knowledge, not prescriptive p

@@ -90,7 +90,7 @@ h1, h2, h3, h4, h5, h6 {
 .navbar .navbar-item:hover,
 .navbar .navbar-link:focus,
 .navbar .navbar-link:hover {
-    color: $brand-primary;
+    color: $brand-secondary;
 }
 
 .navbar.is-fresh .navbar-item.has-dropdown .navbar-link,
@@ -116,7 +116,7 @@ h1, h2, h3, h4, h5, h6 {
 #navbar-clone .navbar-link:focus,
 #navbar-clone .navbar-link:active,
 #navbar-clone .navbar-link:hover {
-    color: $brand-primary !important;
+    color: $brand-secondary;
 }
 
 @media (width >= $breakpoint-desktop) {
@@ -125,7 +125,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     .navbar.is-transparent .navbar-dropdown a.navbar-item:focus, .navbar.is-transparent .navbar-dropdown a.navbar-item:hover {
-      color: $brand-primary;
+      color: $brand-secondary;
       background-color: var(--theme-bg-navbar-dropdown) !important;
       font-weight: 600;
     }
@@ -402,7 +402,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .container a {
-    color: $color-amber-shadow;
+  color: var(--theme-brand-primary);
 }
 
 .content a {
@@ -437,7 +437,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .container p a {
-  text-decoration: underline;
+
 }
 
 .content a:hover {
@@ -454,7 +454,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .container a:hover {
-  color: $brand-primary;
+  color: var(--theme-text-amber-shadow);
+  border-bottom: 1px solid var(--theme-brand-primary);
 }
 
 .content .reference a {
@@ -594,7 +595,7 @@ footer.footer-dark .footer-column ul.link-list a:hover {
     }
 
     .subtitle {
-        color: var(--theme-brand-primary);
+        color: var(--theme-brand-secondary);
         font-weight: 300;
         margin-left: auto;
         margin-right: auto;

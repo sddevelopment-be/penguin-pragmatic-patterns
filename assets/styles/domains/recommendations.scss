@@ -147,11 +147,12 @@
 }
 
 .recommendation-item .recommendation-content .recommendation-text .link a {
-    color: var(--theme-text-amber-shadow);
+    color: var(--theme-brand-primary);
 }
 
 .recommendation-item .recommendation-content .recommendation-text .link a:hover {
-    border-bottom: 1px solid $brand-primary;
+  color: var(--theme-text-amber-shadow);
+  border-bottom: 1px solid var(--theme-brand-primary);
 }
 
 @media (width <= $breakpoint-tablet) {
@@ -202,7 +203,7 @@
 }
 
 .recommendation-item .recommendation-content .recommendation-text .recommendation-tags .recommendation-tag a:hover {
-    color: $brand-primary;
+    color: var(--theme-brand-secondary);
 }
 
 .buttons {

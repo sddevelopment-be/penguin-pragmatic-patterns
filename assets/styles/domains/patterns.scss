@@ -139,8 +139,8 @@
     }
 
     .pattern-card:hover {
-        background-image: linear-gradient(var(--theme-bg-card-hover-start), var(--theme-bg-card-hover-end), var(--theme-bg-card-hover-end), var(--theme-bg-card-hover-end), var(--theme-bg-card-hover-start));
-        border: 1px solid $brand-primary;
+        background-image: linear-gradient(var(--theme-bg-card-hover-start), rgba(55, 150, 204, 0.055), rgba(55, 148, 204, 0.085), rgba(55, 148, 204, 0.055), var(--theme-bg-card-hover-start));
+        border: 1px solid var(--theme-text-amber-shadow);
     }
 
     .pattern-card .card-title {
@@ -410,6 +410,10 @@
 .card-title-wrapper .card-image img {
     border-radius: $space-4xl;
     overflow: hidden;
+}
+
+.card-title-wrapper .card-image a:hover{
+    border: none;
 }
 
 .pattern-summary .card-title-wrapper .card-title h4 {

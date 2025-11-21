@@ -16,7 +16,7 @@
   --theme-bg-base-hover-warm-end: #fbebd4;
   --theme-bg-base-empty: #6969690d;
   --theme-bg-base-white: #fff;
-  --theme-bg-base-tag-light: #f9d3b265;
+  --theme-bg-base-tag-light: #5b91bd65;
   
   /* Light theme - Semantic mappings */
   --theme-bg-primary: var(--theme-bg-base-light);
@@ -150,15 +150,15 @@
     --theme-bg-secondary: var(--theme-bg-base-dark-secondary);
     --theme-bg-tertiary: rgb(30 117 192 / 8%);
     --theme-bg-card: var(--theme-bg-base-dark-card);
-    --theme-bg-card-gradient-start: var(--theme-bg-base-dark-card);
-    --theme-bg-card-gradient-end: var(--theme-bg-base-dark-secondary);
-    --theme-bg-card-hover-start: rgb(30 117 192 / 15%);
-    --theme-bg-card-hover-end: rgb(243 146 0 / 10%);
+    --theme-bg-card-gradient-start: var(--theme-text-emphasis);
+    --theme-bg-card-gradient-end: var(--theme-navy-muted);
+    --theme-bg-card-hover-start: var(--theme-bg-base-dark-empty);
+    --theme-bg-card-hover-end: var(--theme-bg-base-dark-empty);
     --theme-bg-pattern-container: rgb(30 117 192 / 10%);
     --theme-bg-empty-card: var(--theme-bg-base-dark-empty);
     --theme-bg-dropdown: var(--theme-bg-base-dark-secondary);
     --theme-bg-skip-link: var(--theme-bg-base-dark-body);
-    --theme-bg-tag: rgb(243 146 0 / 15%);
+    --theme-bg-tag: rgb(9, 18, 30);
     --theme-bg-navbar: var(--theme-bg-base-dark-body);
     --theme-bg-navbar-dropdown: var(--theme-bg-base-dark-dropdown);
     --theme-bg-related: var(--theme-bg-base-dark-card);

@@ -30,6 +30,7 @@ Treat Python as a glue language with range: ideal for orchestration, data analys
 
 Python syntax stays intentionally boring so that structure—not punctuation—carries the meaning. Naming is the loudest signal of intent, so teams lean on consistent cases and docstrings.
 
+{{< bootstrap-table "bootstrap-table table-striped table-responsive " >}}
 | Element             | Convention                   | Example                                |
 |---------------------|------------------------------|----------------------------------------|
 | Variables/functions | `snake_case`                 | `pending_tasks`, `archive_completed()` |
@@ -39,6 +40,7 @@ Python syntax stays intentionally boring so that structure—not punctuation—c
 | Modules/files       | `lowercase_with_underscores` | `task_filters.py`                      |
 | Docstrings          | Triple quotes, summary first | `"""Calculate completion rate."""`     |
 | Type hints          | Optional but encouraged      | `def mark_done(task: Task) -> Task:`   |
+{{< /bootstrap-table >}}
 
 PEP 8 is the shared style contract. Enforce it automatically with [Black](https://black.readthedocs.io/en/stable/) for formatting and [Ruff](https://docs.astral.sh/ruff/) or `flake8` for linting. F-strings, assignment expressions, and type hints
 are idiomatic when they keep code expressive without obscuring intent.
@@ -47,12 +49,15 @@ are idiomatic when they keep code expressive without obscuring intent.
 
 Isolation is non-negotiable because Python versions, native extensions, and CLI tools evolve at their own pace. The modern kit keeps system Python untouched while giving each project a repeatable environment.
 
+{{< bootstrap-table "bootstrap-table table-striped table-responsive " >}}
 | Tool        | Role                                           | Why teams use it                               |
 |-------------|-----------------------------------------------|------------------------------------------------|
 | `pyenv`     | Install and switch between Python runtimes    | Keeps multiple 3.x versions side by side       |
 | `pipx`      | Isolated global CLI installer                 | Lets you install Poetry, Ruff, etc. safely     |
 | `poetry`    | Dependency manager + virtualenv + builder     | Single command surface for add/install/publish |
 | `venv`      | Standard library virtual environment module   | Lightweight fallback used under the hood       |
+{{< /bootstrap-table >}}
+
 
 Typical workflow:
 
@@ -72,12 +77,14 @@ or shell hooks if needed.
 
 Python build tooling is layered: the language runtime stays small while packaging tools evolve independently. Modern projects lean on the `pyproject.toml` standard so that formatters, linters, and build tools share one config surface.
 
+{{< bootstrap-table "bootstrap-table table-striped table-responsive " >}}
 | Tool         | Role                                      | Notes                                           |
 |--------------|-------------------------------------------|-------------------------------------------------|
 | `poetry`     | Build + publish projects via PEP 517 flow | Recommended default; wraps env + deps + build   |
 | `setuptools` | Legacy builder                            | Still common in older repos or corporate libs   |
 | `build`      | PEP 517 reference builder                 | What `poetry build` calls under the hood        |
 | `twine`      | Upload wheels/sdist to PyPI               | Used for manual or CI-driven publishing         |
+{{< /bootstrap-table >}}
 
 Reference layout:
 
@@ -103,12 +110,14 @@ CI typically runs `poetry install`, `poetry run pytest`, and `poetry build`. Pub
 - **Testing mindset:** prefer small, behaviour-focused tests with descriptive names. Fixtures and parametrization replace heavy inheritance hierarchies. Integration tests stay close to the public interface; property-based approaches cover data-heavy
   paths.
 
+{{< bootstrap-table "bootstrap-table table-striped table-responsive " >}}
 | Tool         | Purpose                          | Why it matters                                  |
 |--------------|----------------------------------|-------------------------------------------------|
 | `pytest`     | De facto testing framework       | Fixtures, parametrization, rich plugin ecosystem|
 | `unittest`   | Standard library xUnit           | Still used in legacy codebases                  |
 | `hypothesis` | Property-based testing           | Generates inputs to challenge invariants        |
 | `tox`        | Multi-environment orchestration  | Runs tests across Python versions or envs       |
+{{< /bootstrap-table >}}
 
 Canonical `pytest` example:
 
@@ -357,6 +366,7 @@ Stabilize the local environment before writing code so every collaborator can re
 
 Run these commands once the project scaffold is in place to ensure everything works end-to-end:
 
+{{< bootstrap-table "bootstrap-table table-striped table-responsive " >}}
 | Check              | Command                                            | Expected                               |
 |--------------------|----------------------------------------------------|----------------------------------------|
 | Python runtime     | `python -V`                                        | `Python 3.12.x` (from project `.venv`) |
@@ -368,6 +378,7 @@ Run these commands once the project scaffold is in place to ensure everything wo
 | Type checker       | `poetry run mypy`                                  | “Success: no issues found”             |
 | Pre-commit         | `pre-commit install && pre-commit run --all-files` | Hooks run cleanly                      |
 | CLI smoke test     | `poetry run python -m your_package.cli --help`     | Help text rendered                     |
+{{< /bootstrap-table >}}
 
 **Troubleshooting notes**
 

@@ -1,7 +1,7 @@
 @startuml
 title Traceable Decisions: MVD Templates
 
-!include ../../templates/plantuml/theme-sdd-minimal-class.puml
+!include ../templates/plantuml/theme-sdd-minimal-class.puml
 
 class "Design Vision" {
 }

@@ -1,7 +1,7 @@
 # Task: Source Distillation for Iteration 1
 
 Agent: researcher
-Status: assigned
+Status: done
 
 Deliverable:
 - Distilled notes for selected approaches and references covering:

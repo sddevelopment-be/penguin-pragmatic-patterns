@@ -23,6 +23,10 @@ This repository consumes the doctrine stack from an upstream source and keeps re
 - Primary local guideline file: `.doctrine-config/repository-guidelines.md`
 - Local overrides are additive and must not override General or Operational guidelines.
 
+## Content Templates
+
+- Repository content templates are available at `/media/stijnd/DATA/development/projects/penguin-pragmatic-patterns/docs/templates`.
+
 ## Required Runtime Notes
 
 - Create or update progress/work logs in `work/` as required by active directives.

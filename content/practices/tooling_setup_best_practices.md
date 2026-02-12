@@ -81,7 +81,7 @@ Tooling should be treated as operational infrastructure. Explicit selection and 
 
 ## Examples
 
-A team evaluates  against , measures significant speedups in frequent search tasks, documents a fallback path, and standardizes installation across CI and local environments.
+A team evaluates `rg` against `grep`, measures significant speedups in frequent search tasks, documents a fallback path, and standardizes installation across CI and local environments.
 
 ## Criticism & Clarifications
 

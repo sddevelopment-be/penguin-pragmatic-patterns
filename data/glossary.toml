@@ -2178,3 +2178,42 @@ Windows-specific development often involves technologies like PowerShell, .NET F
 """
 aliases = ["Microsoft Windows", "Windows OS"]
 references = []
+
+[[terminology]]
+name = "JavaScript"
+domain = "software development"
+description = """
+JavaScript is a high-level, dynamic programming language that powers interactive web experiences.
+Originally designed for browser scripting, JavaScript has evolved into a full-stack language through Node.js, enabling both client-side and server-side development with a unified language and ecosystem.
+"""
+aliases = ["JS", "ECMAScript"]
+references = [
+    { title = "MDN JavaScript Reference", link = "https://developer.mozilla.org/en-US/docs/Web/JavaScript" },
+    { title = "ECMAScript Language Specification", link = "https://tc39.es/ecma262/" }
+]
+
+[[terminology]]
+name = "Node.js"
+abbreviation = "Node"
+domain = "software development"
+description = """
+Node.js is a JavaScript runtime built on Chrome's V8 engine that brings JavaScript to the server.
+It uses an event-driven, non-blocking I/O model optimized for data-intensive real-time applications, enabling developers to use JavaScript across the entire application stack.
+"""
+aliases = ["Node", "NodeJS"]
+references = [
+    { title = "Node.js Official Documentation", link = "https://nodejs.org/docs/" },
+    { title = "Node.js Design Patterns", link = "https://www.nodejsdesignpatterns.com/" }
+]
+
+[[terminology]]
+name = "Event-driven"
+domain = "software architecture"
+description = """
+Event-driven architecture is a design paradigm where system components react to events (state changes or signals) rather than following a predetermined execution flow.
+In event-driven systems, components emit events when state changes occur and listen for events they care about, enabling loose coupling and asynchronous processing.
+"""
+aliases = ["event-driven architecture", "event-based programming"]
+references = [
+    { title = "Event-Driven Architecture", link = "https://en.wikipedia.org/wiki/Event-driven_architecture" }
+]

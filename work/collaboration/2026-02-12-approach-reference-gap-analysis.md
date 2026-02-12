@@ -66,9 +66,15 @@ Run one execution iteration focused on 4 draft artifacts (2 practices, 1 concept
 - Added `content/practices/trunk_based_development.md` (practice draft)
 - Added `content/concepts/living_glossary_practice.md` (concept draft)
 
+### Completed in Iteration 3
+
+- Added `content/practices/bounded_context_linguistic_discovery.md` (practice draft)
+- Added `content/practices/decision_first_development.md` (practice draft)
+- Enhanced `content/practices/locality_of_change.md` with expanded checklist and anti-pattern section
+- Added `content/concepts/language_first_architecture.md` (concept draft)
+
 ### Remaining Deferred Candidates
 
-- `decision-first-development`
 - `tooling-setup-best-practices`
 - `work-directory-orchestration`
 - `traceable-decisions-detailed-guide`

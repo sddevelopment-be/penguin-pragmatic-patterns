@@ -85,3 +85,20 @@ A team sees occasional conditional complexity in one service. Instead of introdu
 ## Criticism & Clarifications
 
 This practice is not anti-architecture. It is anti-premature architecture. When evidence indicates systemic pain, deliberate pattern adoption is still the correct move.
+
+### Decision checklist
+
+Before introducing architecture-level changes, verify:
+
+- [ ] Problem evidence exists in multiple real occurrences.
+- [ ] Impact is measured (frequency, cost, risk).
+- [ ] A do-nothing baseline was considered.
+- [ ] Simpler alternatives were evaluated first.
+- [ ] Change aligns with existing architectural principles.
+- [ ] Reversibility is acceptable if the intervention fails.
+
+### Anti-patterns
+
+- Gold plating for hypothetical future scenarios.
+- Premature abstraction before stable recurring patterns exist.
+- Complexity creep through many individually "small" additions.

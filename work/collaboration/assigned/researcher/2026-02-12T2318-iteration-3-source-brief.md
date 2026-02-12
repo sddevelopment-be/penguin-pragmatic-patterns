@@ -1,7 +1,7 @@
 # Task: Iteration 3 Source Brief
 
 Agent: researcher
-Status: assigned
+Status: done
 
 Prepare concise source extraction for:
 - bounded-context-linguistic-discovery

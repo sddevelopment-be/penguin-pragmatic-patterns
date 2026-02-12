@@ -229,3 +229,26 @@ When introducing **new concepts, terminology, or framework elements**, agents an
 **Maintained by:** Agentic Framework Core Team
 **Review Cycle:** Quarterly or as needed
 **Next Review:** 2026-05-01
+
+---
+
+## Pragmatic Penguins Local Overrides
+
+The following repository-specific customizations were migrated from the legacy `.github/agents` stack.
+
+### Hugo Repository Quick Reference
+
+- Core Hugo structure: `content/`, `layouts/`, `static/`
+- Build/config locations: `config.yaml`, `data/`, `resources/`, `netlify.toml`
+- Tooling/source locations: `src/`, `assets/`
+- Generated output (do not edit directly): `public/`, `.hugo_build.lock`
+- Template sources: `docs/templates/`
+
+### Styleguide Routing
+
+- Writing/style conventions are defined in `docs/styleguide/` for this repository.
+- Local doctrine overrides should prefer `docs/styleguide/` references over `docs/styleguides/`.
+
+### Runtime Constraint
+
+- Required Hugo runtime: `0.152.2` extended (SCSS support).

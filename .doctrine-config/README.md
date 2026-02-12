@@ -26,6 +26,9 @@ This directory contains **local doctrine configuration** that supplements or ove
 ├── README.md                    # This file
 ├── repository-guidelines.md     # Project-specific conventions (moved from specific_guidelines.md)
 ├── config.yaml                  # Local path overrides and settings
+├── directives/                  # Repository-specific directive extensions
+│   ├── README.md
+│   └── 003_repository_quick_reference.md
 ├── custom-agents/               # Repository-specific agent extensions
 │   └── README.md
 └── hooks/                       # Git hooks and automation scripts

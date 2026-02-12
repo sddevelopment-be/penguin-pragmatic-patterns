@@ -3,53 +3,51 @@
 
 version: "1.0.0"
 created: "2026-02-08"
-updated: "2026-02-08"
+updated: "2026-02-12"
 
 repository:
-  name: "quickstart_agent-augmented-development"
-  description: "Agent-augmented development framework quickstart and reference implementation"
-  version: "1.0.0"
-  type: "framework-repository"  # vs "application-repository"
+  name: "penguin-pragmatic-patterns"
+  description: "Pragmatic Penguins pattern library and publication site"
+  version: "unversioned"
+  type: "application-repository"  # vs "framework-repository"
 
 paths:
   # Core directories
   workspace_root: "work"              # Task orchestration workspace
   doc_root: "docs"                    # Documentation root
-  spec_root: "specifications"         # Specification files
+  spec_root: "docs/planning"          # Specification/planning artifacts
   output_root: "output"               # Generated artifacts
   
   # Framework-specific
-  doctrine_source: "doctrine"         # Framework source (canonical)
+  doctrine_source: ".github/agents"   # Symlink to upstream doctrine stack
   doctrine_config: ".doctrine-config" # Local config (this directory)
   
   # Distribution targets
   distributions:
-    github_copilot: ".github/instructions"
+    github_copilot: ".github"
     claude_desktop: ".claude"
     opencode: ".opencode"
-    cursor: ".cursor"                 # Future
-    codex: ".codex"                   # Future
+    codex: ".codex"
 
 tools:
   # Enabled AI coding assistants
   enabled:
     - github-copilot
-    - claude-desktop
-    - opencode
+    - codex
   
   # Planned/future integrations
   planned:
-    - cursor
-    - codex
+    - claude-desktop
+    - opencode
   
   # Export pipeline configuration
   exporters:
-    agents_source: "doctrine/agents"
-    approaches_source: "doctrine/approaches"
-    directives_source: "doctrine/directives"
-    tactics_source: "doctrine/tactics"
-    templates_source: "doctrine/templates"
-    guidelines_source: "doctrine/guidelines"
+    agents_source: ".github/agents/agents"
+    approaches_source: ".github/agents/approaches"
+    directives_source: ".github/agents/directives"
+    tactics_source: ".github/agents/tactics"
+    templates_source: ".github/agents/templates"
+    guidelines_source: ".github/agents/guidelines"
 
 overrides:
   # Commit behavior
@@ -96,9 +94,13 @@ quality_gates:
 
 custom:
   # Repository-specific settings
-  dogfooding: true                    # This repo dogfoods its own framework
-  template_source: true               # This repo is a template for others
+  dogfooding: false                   # This repo consumes the framework
+  template_source: false              # This repo is not a framework template
   
   # Special behaviors
   preserve_work_history: true         # Keep all work/ artifacts in git
   verbose_logging: true               # Detailed work logs for framework validation
+  hugo_version_required: "0.152.2 extended"
+  site_framework: "hugo"
+  content_root: "content"
+  theme_assets_root: "assets"

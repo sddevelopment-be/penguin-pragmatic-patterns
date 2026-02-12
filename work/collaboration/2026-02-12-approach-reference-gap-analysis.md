@@ -75,7 +75,8 @@ Run one execution iteration focused on 4 draft artifacts (2 practices, 1 concept
 
 ### Remaining Deferred Candidates
 
-- `tooling-setup-best-practices`
-- `work-directory-orchestration`
-- `traceable-decisions-detailed-guide`
-- refactoring trigger/escalation references as advanced architecture-primer content
+None.
+
+### Completion Status
+
+Mike's planned approach is complete for the currently identified scope.

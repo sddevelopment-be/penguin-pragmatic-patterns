@@ -111,6 +111,18 @@ Key considerations for separate versions:
 * If tone, depth, and technical level vary drastically, separate versions may be more effective.
 * If content can be modularised and structured progressively, a single document may still suffice with proper navigation (e.g., progressive disclosure, expandable deep dives).
 
+### 5. Audience Fit Validation Loop
+
+After drafting, run a short validation loop:
+
+1. Identify primary persona(s) for this artifact.
+2. Check each major section against persona goals and pain points.
+3. Mark sections as `shared` or `persona-specific`.
+4. Decide: keep one document with signposting, or split into variants.
+5. Capture fit notes in a work log so future revisions can reuse the rationale.
+
+Use the split option when a single document creates conflicting depth requirements that cannot be solved with structure alone.
+
 ## Contextual forces
 
 ### Enablers

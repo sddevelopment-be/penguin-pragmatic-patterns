@@ -66,6 +66,30 @@ with various stakeholders. The high-level documents should be readable by anyone
 challenges. As your team matures and develops other needs, you can add more detailed documents, such as functional requirements, technical
 designs, and drill-downs of particularly complicated aspects of the system.
 
+### Traceability chain
+
+A practical baseline is to make each major decision traceable through a simple chain:
+
+1. Strategic goal
+2. Specification (what needs to be built)
+3. Acceptance criteria/tests (how behavior is verified)
+4. ADR or decision note (why this technical direction was chosen)
+5. Implementation artifacts (code, config, docs)
+6. Work log (what happened during execution)
+
+The chain should be bidirectional where possible so readers can navigate from implementation back to intent.
+
+### Escalation guidance
+
+Escalate from local refactoring to architecture-level decisions only when repeated evidence shows local changes are not enough. Typical triggers:
+
+- recurring translation pain at system boundaries
+- repeated branching by client/type variation
+- persistent read/write model tension
+- repeated fragile conditionals across modules
+
+When these appear, capture the escalation rationale in an ADR and reference the relevant refactoring trigger map before introducing larger patterns.
+
 ## Contextual forces
 
 ### Enablers

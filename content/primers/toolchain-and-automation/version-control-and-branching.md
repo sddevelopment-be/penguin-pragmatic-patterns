@@ -311,6 +311,24 @@ git checkout -b feature/add-search-ui
 - [Git Branching Guidance (Microsoft)](https://learn.microsoft.com/en-us/azure/devops/repos/git/git-branching-guidance) — Enterprise-focused branching advice
 - [Ship/Show/Ask (Rouan Wilsenach)](https://martinfowler.com/articles/ship-show-ask.html) — Three strategies for code integration
 
+## 7. Trunk-Based Guardrails
+
+When adopting trunk-based development, apply these guardrails:
+
+- Keep branches short-lived (ideally same-day merge).
+- Prefer small, reviewable pull requests.
+- Require automated checks before merge.
+- Use feature flags for incomplete work instead of long-lived branches.
+- Rebase or merge with trunk frequently to prevent drift.
+- Timebox release/hotfix branches and merge back quickly.
+
+### Anti-patterns to watch
+
+- Branches open for multiple days without integration.
+- Large pull requests that mix unrelated concerns.
+- Manual-only verification for merge decisions.
+- Repeated conflict spikes caused by delayed integration.
+
 ---
 
 **Field Notes:**

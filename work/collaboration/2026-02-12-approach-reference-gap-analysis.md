@@ -48,3 +48,28 @@ Against local content inventories:
 ## Recommendation
 
 Run one execution iteration focused on 4 draft artifacts (2 practices, 1 concept, 1 primer), then run a curator pass and queue the deferred candidates for iteration 2.
+
+## Progress Update
+
+### Completed in Iteration 1
+
+- `locality_of_change.md` (practice draft)
+- `test_first_bug_fixing.md` (practice draft)
+- `ralph_wiggum_loop.md` (concept draft)
+- `specification-driven-development.md` (primer draft)
+
+### Completed in Iteration 2
+
+- Enhanced `content/practices/traceable_decisions.md` with traceability-chain and escalation guidance
+- Enhanced `content/practices/target_audience_personas.md` with audience fit validation loop
+- Enhanced `content/primers/toolchain-and-automation/version-control-and-branching.md` with trunk-based guardrails
+- Added `content/practices/trunk_based_development.md` (practice draft)
+- Added `content/concepts/living_glossary_practice.md` (concept draft)
+
+### Remaining Deferred Candidates
+
+- `decision-first-development`
+- `tooling-setup-best-practices`
+- `work-directory-orchestration`
+- `traceable-decisions-detailed-guide`
+- refactoring trigger/escalation references as advanced architecture-primer content

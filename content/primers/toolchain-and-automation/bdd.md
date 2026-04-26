@@ -1,6 +1,6 @@
 +++
 title = "Behaviour-Driven Development Primer"
-subtitle = "From shared examples to executable specifications and living documentation."
+subtitle = "From shared examples to executable specifications and living documentation"
 aliases = ["bdd-primer", "behaviour-driven-development", "toolchain-and-automation/bdd"]
 author = "Stijn Dejongh"
 outputs = ['html', 'rss', 'json']
@@ -21,6 +21,8 @@ further_exploration = [
     { type = "raw", author = "Serenity BDD Team", year = "2024", title = "Serenity BDD Documentation", site = "serenity-bdd.github.io", link = "https://serenity-bdd.github.io/docs/tutorials/first_test" },
     { type = "raw", author = "Selenium Project", year = "2024", title = "Selenium WebDriver Documentation", site = "selenium.dev", link = "https://www.selenium.dev/documentation/webdriver/" },
     { type = "raw", author = "SpecFlow Team", year = "2024", title = "SpecFlow Documentation", site = "specflow.org", link = "https://docs.specflow.org/" },
+    { type = "raw", author = "Reqnroll Community", year = "2024", title = "Reqnroll — BDD for .NET", site = "reqnroll.net", link = "https://reqnroll.net/" },
+    { type = "raw", author = "Wynne, Matt", year = "2015", title = "Introducing Example Mapping", site = "cucumber.io", link = "https://cucumber.io/blog/bdd/example-mapping-introduction/" },
     { type = "raw", author = "North, Dan", year = "2006", title = "Introducing BDD", site = "dannorth.net", link = "https://dannorth.net/introducing-bdd/" },
     { type = "raw", author = "Smart, John Ferguson", year = "2014", title = "BDD in Action", site = "Manning Publications", link = "https://www.manning.com/books/bdd-in-action" }
 ]
@@ -34,7 +36,18 @@ Behaviour-Driven Development (BDD) is a collaboration practice, not a testing me
 
 BDD operates through three cyclical phases:
 
-**Discovery** — Structured conversations (often called Example Mapping or Three Amigos sessions) where business analysts, developers, and testers explore concrete examples of how a feature should behave. No code is written here. The goal is shared understanding, not documentation.
+**Discovery** — Structured conversations where business analysts, developers, and testers explore concrete examples of how a feature should behave. No code is written here. The goal is shared understanding, not documentation.
+
+The most widely used Discovery technique is **Example Mapping** (invented by Matt Wynne). A session uses four types of index cards on a table:
+
+- 🟡 **Yellow** — the User Story being discussed
+- 🔵 **Blue** — Business Rules that constrain the story
+- 🟢 **Green** — concrete Examples that illustrate each rule
+- 🔴 **Red** — open Questions that cannot be answered in the room
+
+The team writes one card per rule and one card per example, arranging them so that each blue rule card has its green example cards beneath it. Red question cards are parked and resolved later. A session ends when there are no more unresolved rules and the examples are concrete enough to write Gherkin scenarios from. A well-shaped story typically has 3–8 rules; more than that is a signal to split the story.
+
+Example Mapping sessions are deliberately time-boxed to 25–30 minutes. If a session runs long, the story is not ready to implement.
 
 **Formulation** — Concrete examples are expressed as human-readable specifications in Gherkin syntax (`Given/When/Then`). These become the single source of truth for what the system must do.
 
@@ -232,12 +245,12 @@ Cucumber is the reference BDD framework. It executes `.feature` files and maps s
 | [Cucumber-JVM](https://github.com/cucumber/cucumber-jvm) | Java / Kotlin / Groovy | Integrates with JUnit 5 and TestNG |
 | [Cucumber.js](https://github.com/cucumber/cucumber-js) | JavaScript / TypeScript | Works with Playwright, WebdriverIO, or any async test runner |
 | [Cucumber-Ruby](https://github.com/cucumber/cucumber-ruby) | Ruby | Original implementation; also the basis for RSpec's `--format documentation` |
-| [SpecFlow](https://docs.specflow.org/) | C# / .NET | Microsoft ecosystem equivalent; deep Visual Studio integration |
+| [SpecFlow](https://docs.specflow.org/) / [Reqnroll](https://reqnroll.net/) | C# / .NET | SpecFlow was acquired by Tricentis in 2020; [Reqnroll](https://reqnroll.net/) is the active open-source community fork — prefer Reqnroll for new .NET projects |
 | [Behave](https://behave.readthedocs.io/) | Python | Pythonic implementation; integrates with Selenium and Playwright |
 | [Godog](https://github.com/cucumber/godog) | Go | Official Cucumber port for Go |
 {{< /bootstrap-table >}}
 
-**SpecFlow** is the .NET equivalent of Cucumber. It is particularly well-supported in the Microsoft ecosystem: step definitions are plain C# methods, and it integrates with MSTest, NUnit, and xUnit. SpecFlow+ (commercial tier) adds living documentation and analytics.
+**Reqnroll** is the recommended .NET BDD framework for new projects. It is a community-maintained open-source fork of SpecFlow, created after Tricentis acquired SpecFlow in 2020 and uncertainty arose around the project's open-source future. Reqnroll maintains API compatibility with SpecFlow, so migration from existing SpecFlow projects is straightforward. Step definitions are plain C# methods; it integrates with MSTest, NUnit, and xUnit, and supports living documentation via the companion Reqnroll.Plus packages.
 
 ### Selenium WebDriver — Browser Automation
 

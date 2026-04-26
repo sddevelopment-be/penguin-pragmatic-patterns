@@ -64,33 +64,21 @@
 | Authoritative quote at section 1 | BDD: Brooks. CSS/SCSS: Sass Guidelines. TypeScript: Handbook. CSS Frameworks: no quote (acceptable — frameworks comparison is descriptive, not philosophical) |
 | Consistent tone | Calm, precise, practical. No hype. Limitations acknowledged alongside strengths |
 
-### ⚠️ Open Style Decisions (Author's Call)
-
-These are not errors. Each represents a deliberate deviation from established primers that may be intentional or may warrant normalisation.
+### ⚠️ Open Style Decisions — Resolution Applied
 
 **Decision 1 — Missing `image` field in markup-and-diagramming primers**
 
-`css-sass.md` and `css-frameworks.md` are missing the `image` field. Established primers in the same family (`markdown.md`, `plantuml.md`) include `image = "primers/..."`. The toolchain and programming-language families do not use this field. Options:
-- Add placeholder `image` entries once logo assets exist
-- Accept the gap (consistent with toolchain/programming-language peers rather than markup peers)
-- Backfill existing markup primers to remove `image` requirement (breaking)
+`css-sass.md` and `css-frameworks.md` are missing the `image` field. No logo assets exist for these primers.
 
-*Recommendation:* Add image entries when logo assets are created. Low priority.
+*Resolution:* Deferred — image entries will be added when logo assets are created. Consistent with the toolchain/programming-language families which also omit the field.
 
-**Decision 2 — Subtitle trailing periods**
+**Decision 2 — Subtitle trailing periods** ✅ Fixed
 
-All four new primers end subtitles with a period. Established `markdown.md` does not. `python.md` has a period because its subtitle is a Zen of Python quote.
+All four new primers had trailing periods; established peers (`markdown.md`, `java.md`, `plantuml.md`) do not. Periods removed from all four subtitles to match the series convention.
 
-- New standard (with period): `"From shared examples to executable specifications and living documentation."`
-- Old standard (no period): `"Lightweight markup for readable, version-controllable documentation"`
+**Decision 3 — `css-sass.md` tag overlap with `css-frameworks.md`** ✅ Fixed
 
-*Recommendation:* Pick one convention and apply globally in a single consistency pass. The period form reads more complete as a sentence.
-
-**Decision 3 — `css-sass.md` tag overlap with `css-frameworks.md`**
-
-`css-sass.md` includes `tailwind` and `bootstrap` in its tags. These terms are topically owned by `css-frameworks.md`. Retaining them creates duplicate search hits. The css-sass primer section 6 is now only a 6-line cross-reference stub.
-
-*Recommendation:* Remove `tailwind` and `bootstrap` from `css-sass.md` tags. The `frontend` and `markup` tags are sufficient context.
+`tailwind` and `bootstrap` tags removed from `css-sass.md`. Tags now reflect the primer's actual scope: `css`, `scss`, `sass`, `frontend`, `styling`, `primer`, `reference`, `markup`.
 
 ---
 
@@ -144,7 +132,9 @@ All four new primers end subtitles with a period. Established `markdown.md` does
 **Gaps:**
 - Angular Router not covered — large omission but reasonable for a primer (routing deserves its own primer)
 - NgRx mentioned in `further_exploration` but not in idioms — correct; a full NgRx treatment would double the length
-- No mention of `inject()` in constructor patterns vs functional injection — section 6.1 uses `inject()` correctly but doesn't explain the Angular 14+ motivation
+
+**Gaps — Resolved:**
+- ✅ `inject()` motivation: Angular 14+ note added before the TaskService code example explaining why `inject()` is now recommended over constructor parameter injection
 
 **Verdict:** ✅ Publication-quality. One of the stronger primers in the series.
 
@@ -161,9 +151,10 @@ All four new primers end subtitles with a period. Established `markdown.md` does
 - Custom DSL section provides two concrete examples (Kotlin, Java) and a genuine trade-off table
 - Anti-pattern catalogue is practical (rubber stamp, imperative Gherkin, shared state, orphaned steps)
 
-**Gaps:**
-- Example Mapping (the Discovery technique) mentioned but not explained procedurally — a brief "how to run an Example Mapping session" would strengthen the Discovery section
-- No mention of Reqnroll (the community fork of SpecFlow after the Tricentis acquisition) — SpecFlow's future is uncertain; Reqnroll is now the recommended .NET path
+**Gaps — Resolved:**
+- ✅ Example Mapping: Discovery section expanded with full Example Mapping procedure (coloured cards, rules, examples, questions, 25-minute time-box)
+- ✅ Reqnroll: Added to Cucumber family table and expanded prose; now recommended over SpecFlow for new .NET projects; added to `further_exploration`
+- ✅ `inject()` motivation: Angular 14+ note added before the TaskService code example in section 6.1
 
 **Minor factual check:**
 - BDD attributed to Dan North in 2003, article linked is from 2006 — Dan North first used the term "behaviour" in tests around 2003 but the canonical public article is 2006. The primer correctly cites the 2006 article but saying "coined the term in 2003" is accurate (it predates the article).

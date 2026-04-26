@@ -1,11 +1,11 @@
 +++
 title = "CSS & SCSS Primer"
-subtitle = "Structured styling with cascade mastery, programmable authoring, and quality tooling."
+subtitle = "Structured styling with cascade mastery, programmable authoring, and quality tooling"
 aliases = ["css-primer", "scss-primer", "sass-primer", "markup-and-diagramming/css-scss"]
 author = "Stijn Dejongh"
 outputs = ['html', 'rss', 'json']
 date = "2026-04-26T12:00:00+00:00"
-tags = ["css", "scss", "sass", "frontend", "styling", "tailwind", "bootstrap", "primer", "reference", "markup"]
+tags = ["css", "scss", "sass", "frontend", "styling", "primer", "reference", "markup"]
 summary = """
 CSS describes what elements look like; SCSS makes that description programmable — adding
 variables, logic, modules, and reusable abstractions. Beyond authoring, the frontend styling

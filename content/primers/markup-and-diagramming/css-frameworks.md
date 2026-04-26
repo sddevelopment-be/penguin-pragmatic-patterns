@@ -1,6 +1,6 @@
 +++
 title = "CSS Frameworks Primer"
-subtitle = "Bootstrap, Tailwind CSS, and Materialize — choosing and using the right styling system."
+subtitle = "Bootstrap, Tailwind CSS, and Materialize — choosing and using the right styling system"
 aliases = ["css-frameworks-primer", "markup-and-diagramming/css-frameworks"]
 author = "Stijn Dejongh"
 outputs = ['html', 'rss', 'json']

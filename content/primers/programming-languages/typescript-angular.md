@@ -1,6 +1,6 @@
 +++
 title = "TypeScript & Angular Primer"
-subtitle = "Typed JavaScript at scale, with a batteries-included framework and reactive state via RxJS."
+subtitle = "Typed JavaScript at scale, with a batteries-included framework and reactive state via RxJS"
 aliases = ["typescript-primer", "angular-primer", "programming-languages/typescript-angular"]
 author = "Stijn Dejongh"
 outputs = ['html', 'rss', 'json']
@@ -381,6 +381,8 @@ export interface Task {
 export type CreateTaskDto = Omit<Task, 'id'>;
 ```
 
+Angular 14 introduced the `inject()` function as an alternative to constructor parameter injection. It can be called in any injection context (field initialiser, constructor body, factory function) and removes the need to list every dependency in the constructor signature. The Angular team now recommends `inject()` for new code; existing constructor-injection code continues to work.
+
 ```ts
 // task.service.ts
 import { Injectable, inject } from '@angular/core';
@@ -390,7 +392,7 @@ import { Task, CreateTaskDto } from './task.model';
 
 @Injectable({ providedIn: 'root' })
 export class TaskService {
-  private http = inject(HttpClient);
+  private http = inject(HttpClient);   // inject() — no constructor parameter needed
   private readonly baseUrl = '/api/tasks';
 
   getAll(): Observable<Task[]> {

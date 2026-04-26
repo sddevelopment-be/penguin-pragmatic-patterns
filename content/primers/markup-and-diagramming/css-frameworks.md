@@ -29,7 +29,7 @@ CSS frameworks trade authoring freedom for development speed. Instead of buildin
 
 **Three paradigms:**
 
-{{< bootstrap-table "bootstrap-table table-striped table-responsive" >}}
+{{< bootstrap-table "bootstrap-table table-striped table-responsive " >}}
 | Paradigm | Representative | Core idea |
 |---|---|---|
 | Component-based | Bootstrap | Pre-built components with semantic class names (`.btn`, `.card`, `.navbar`) |
@@ -416,7 +416,7 @@ ng add @angular/material
 
 ## 5. Framework Comparison
 
-{{< bootstrap-table "bootstrap-table table-striped table-responsive" >}}
+{{< bootstrap-table "bootstrap-table table-striped table-responsive " >}}
 | | Bootstrap v5 | Tailwind CSS | Materialize CSS |
 |---|---|---|---|
 | **Philosophy** | Component-based | Utility-first | Material Design system |
@@ -433,7 +433,7 @@ ng add @angular/material
 
 ### Decision Criteria
 
-{{< bootstrap-table "bootstrap-table table-striped table-responsive" >}}
+{{< bootstrap-table "bootstrap-table table-striped table-responsive " >}}
 | Situation | Recommended |
 |---|---|
 | Admin dashboard or internal tooling | Bootstrap — rich ready-made components, fast to wire up |

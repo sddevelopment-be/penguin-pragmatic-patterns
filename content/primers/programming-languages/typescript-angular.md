@@ -112,7 +112,7 @@ class Repository<T extends { id: number }> {
 
 ### Utility Types
 
-{{< bootstrap-table "bootstrap-table table-striped table-responsive" >}}
+{{< bootstrap-table "bootstrap-table table-striped table-responsive " >}}
 | Utility type | Produces | Common use |
 |---|---|---|
 | `Partial<T>` | All properties optional | PATCH request payloads |
@@ -125,7 +125,7 @@ class Repository<T extends { id: number }> {
 
 ### Angular Naming Conventions
 
-{{< bootstrap-table "bootstrap-table table-striped table-responsive" >}}
+{{< bootstrap-table "bootstrap-table table-striped table-responsive " >}}
 | Element | Convention | Example |
 |---|---|---|
 | Classes | `PascalCase` | `TaskService`, `AppComponent` |
@@ -177,7 +177,7 @@ The `package.json` `peerDependencies` on `@angular/*` packages must all use the 
 
 The Angular CLI (`ng`) manages the full project lifecycle:
 
-{{< bootstrap-table "bootstrap-table table-striped table-responsive" >}}
+{{< bootstrap-table "bootstrap-table table-striped table-responsive " >}}
 | Command | Purpose |
 |---|---|
 | `ng new <name>` | Scaffold a new application |
@@ -534,7 +534,7 @@ export class TaskFilterService {
 
 **Key operators:**
 
-{{< bootstrap-table "bootstrap-table table-striped table-responsive" >}}
+{{< bootstrap-table "bootstrap-table table-striped table-responsive " >}}
 | Operator | Behaviour | Common use |
 |---|---|---|
 | `map` | Transform each emitted value | Shape API responses |
@@ -617,7 +617,7 @@ readonly tasks = toSignal(this.taskService.getAll(), { initialValue: [] });
 readonly filter$ = toObservable(this.filterSignal);
 ```
 
-{{< bootstrap-table "bootstrap-table table-striped table-responsive" >}}
+{{< bootstrap-table "bootstrap-table table-striped table-responsive " >}}
 | | Signals | RxJS Observables |
 |---|---|---|
 | **Value** | Always holds current value | Emits over time; no inherent "current" |
@@ -741,7 +741,7 @@ Minimal repeatable steps for macOS, Ubuntu, and most Linux distributions.
 
 ## 9. First-Time Verification Checklist
 
-{{< bootstrap-table "bootstrap-table table-striped table-responsive" >}}
+{{< bootstrap-table "bootstrap-table table-striped table-responsive " >}}
 | Check | Command | Expected |
 |---|---|---|
 | Node version | `node -v` | LTS release matching Angular compatibility matrix |

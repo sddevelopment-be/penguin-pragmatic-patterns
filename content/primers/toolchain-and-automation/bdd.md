@@ -44,7 +44,7 @@ BDD operates through three cyclical phases:
 
 **BDD vs TDD vs traditional testing:**
 
-{{< bootstrap-table "bootstrap-table table-striped table-responsive" >}}
+{{< bootstrap-table "bootstrap-table table-striped table-responsive " >}}
 | Dimension | Traditional testing | TDD | BDD |
 |---|---|---|---|
 | **Primary audience** | QA teams | Developers | Business + development + QA together |
@@ -98,7 +98,7 @@ Feature: Task management
 
 **Keyword reference:**
 
-{{< bootstrap-table "bootstrap-table table-striped table-responsive" >}}
+{{< bootstrap-table "bootstrap-table table-striped table-responsive " >}}
 | Keyword | Purpose |
 |---|---|
 | `Feature:` | Names and describes the capability under test. One per file. |
@@ -226,7 +226,7 @@ Teams publish Cucumber reports to their CI pipeline or documentation sites. Tool
 
 Cucumber is the reference BDD framework. It executes `.feature` files and maps steps to code in the target language:
 
-{{< bootstrap-table "bootstrap-table table-striped table-responsive" >}}
+{{< bootstrap-table "bootstrap-table table-striped table-responsive " >}}
 | Tool | Language | Notes |
 |---|---|---|
 | [Cucumber-JVM](https://github.com/cucumber/cucumber-jvm) | Java / Kotlin / Groovy | Integrates with JUnit 5 and TestNG |
@@ -283,7 +283,7 @@ public class TaskPage {
 
 **Selenium vs Playwright:**
 
-{{< bootstrap-table "bootstrap-table table-striped table-responsive" >}}
+{{< bootstrap-table "bootstrap-table table-striped table-responsive " >}}
 | | Selenium WebDriver | Playwright |
 |---|---|---|
 | **Protocol** | W3C WebDriver (HTTP) | CDP + Playwright protocol (faster, more reliable) |
@@ -304,7 +304,7 @@ public class TaskPage {
 
 **The Screenplay Pattern** is Serenity's architectural model for test code. It replaces the Page Object Model with a more expressive, actor-centric design:
 
-{{< bootstrap-table "bootstrap-table table-striped table-responsive" >}}
+{{< bootstrap-table "bootstrap-table table-striped table-responsive " >}}
 | Concept | Role | Example |
 |---|---|---|
 | **Actor** | A persona who uses the system | `Actor alice = Actor.named("Alice")` |
@@ -422,7 +422,7 @@ GivenAUser.named("alice").withRole(ADMIN)
 
 **Trade-offs of a custom DSL vs Gherkin:**
 
-{{< bootstrap-table "bootstrap-table table-striped table-responsive" >}}
+{{< bootstrap-table "bootstrap-table table-striped table-responsive " >}}
 | | Gherkin + Cucumber | Custom DSL |
 |---|---|---|
 | **Non-technical readability** | High — product owners can read and write scenarios | Low — requires programming knowledge |
@@ -584,7 +584,7 @@ mvn serenity:aggregate
 
 **Common anti-patterns:**
 
-{{< bootstrap-table "bootstrap-table table-striped table-responsive" >}}
+{{< bootstrap-table "bootstrap-table table-striped table-responsive " >}}
 | Anti-pattern | Symptom | Fix |
 |---|---|---|
 | Feature files as rubber stamps | Scenarios written after code, not driving it | Start with Discovery — write scenarios before writing a line of implementation |

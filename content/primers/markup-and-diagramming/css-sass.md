@@ -44,7 +44,7 @@ Understanding CSS starts with three interlocking concepts:
 
 **Specificity** is a three-part score calculated per selector:
 
-{{< bootstrap-table "bootstrap-table table-striped table-responsive" >}}
+{{< bootstrap-table "bootstrap-table table-striped table-responsive " >}}
 | Selector type | Score | Example |
 |---|---|---|
 | Inline `style=""` | (1,0,0) | — |
@@ -325,7 +325,7 @@ Never nest BEM names beyond their semantic meaning. Elements don't require the f
 
 ITCSS (Inverted Triangle CSS) orders imports from lowest to highest specificity, working *with* the cascade rather than fighting it:
 
-{{< bootstrap-table "bootstrap-table table-striped table-responsive" >}}
+{{< bootstrap-table "bootstrap-table table-striped table-responsive " >}}
 | Layer | Purpose | Selector examples |
 |---|---|---|
 | Settings | Variables, config — no output | `$color-brand` |
@@ -516,7 +516,7 @@ Provide dark-mode-appropriate images using the `<picture>` element or CSS:
 
 **Common failure modes:**
 
-{{< bootstrap-table "bootstrap-table table-striped table-responsive" >}}
+{{< bootstrap-table "bootstrap-table table-striped table-responsive " >}}
 | Failure | Symptom | Fix |
 |---|---|---|
 | Hard-coded colours in components | White text on white background in light mode (or vice versa) | Replace all colour literals with CSS custom property tokens |
@@ -546,7 +546,7 @@ Mobile, tablet, and ultrawide desktop monitors are no longer edge cases — they
 
 **The realistic viewport landscape:**
 
-{{< bootstrap-table "bootstrap-table table-striped table-responsive" >}}
+{{< bootstrap-table "bootstrap-table table-striped table-responsive " >}}
 | Category | Typical widths | Example devices |
 |---|---|---|
 | Small mobile | 320–390 px | iPhone SE, budget Android |
@@ -635,7 +635,7 @@ Container queries are supported in all modern evergreen browsers (Chrome 105+, F
 
 **Testing across screen sizes:**
 
-{{< bootstrap-table "bootstrap-table table-striped table-responsive" >}}
+{{< bootstrap-table "bootstrap-table table-striped table-responsive " >}}
 | Tool | What to test | How |
 |---|---|---|
 | Chrome DevTools Device Mode | Any viewport size including custom | Toggle with Ctrl+Shift+M; enter exact px width |
@@ -666,7 +666,7 @@ This runs your entire test suite across all configured devices, surfacing layout
 
 **Common responsive failure modes:**
 
-{{< bootstrap-table "bootstrap-table table-striped table-responsive" >}}
+{{< bootstrap-table "bootstrap-table table-striped table-responsive " >}}
 | Failure | Symptom | Fix |
 |---|---|---|
 | Overflow on small screens | Horizontal scrollbar at 375 px | Use `overflow-x: hidden` on `body` or fix the offending element with `max-width: 100%` |
@@ -685,7 +685,7 @@ The only maintained SASS implementation is **Dart Sass**. Ruby Sass is retired; 
 
 ### CLI Tools
 
-{{< bootstrap-table "bootstrap-table table-striped table-responsive" >}}
+{{< bootstrap-table "bootstrap-table table-striped table-responsive " >}}
 | Tool | Role | Install |
 |---|---|---|
 | `sass` (Dart Sass) | Compile `.scss` to `.css` | `npm i -g sass` |
@@ -837,7 +837,7 @@ Frontend quality extends beyond code correctness — it includes how accessible 
 
 **WCAG 2.1 minimum contrast ratios (for AA compliance):**
 
-{{< bootstrap-table "bootstrap-table table-striped table-responsive" >}}
+{{< bootstrap-table "bootstrap-table table-striped table-responsive " >}}
 | Text type | Minimum (AA) | Enhanced (AAA) |
 |---|---|---|
 | Normal text (< 18pt) | 4.5:1 | 7:1 |
@@ -871,7 +871,7 @@ Frontend quality extends beyond code correctness — it includes how accessible 
 
 **Automated accessibility tools:**
 
-{{< bootstrap-table "bootstrap-table table-striped table-responsive" >}}
+{{< bootstrap-table "bootstrap-table table-striped table-responsive " >}}
 | Tool | What it checks | How to use |
 |---|---|---|
 | [axe DevTools](https://www.deque.com/axe/) | WCAG violations in rendered HTML | Browser extension; also `axe-core` for CI |
@@ -886,7 +886,7 @@ Automated tools catch roughly 30–40% of WCAG issues. Manual keyboard navigatio
 
 [Lighthouse](https://developer.chrome.com/docs/lighthouse/) is Google's open-source automated auditing tool built into Chrome DevTools. It scores pages across five categories:
 
-{{< bootstrap-table "bootstrap-table table-striped table-responsive" >}}
+{{< bootstrap-table "bootstrap-table table-striped table-responsive " >}}
 | Category | What it measures |
 |---|---|
 | **Performance** | Core Web Vitals (LCP, INP, CLS), FCP, TTFB |
@@ -911,7 +911,7 @@ npm install lighthouse
 
 **Core Web Vitals thresholds (Google's "good" targets):**
 
-{{< bootstrap-table "bootstrap-table table-striped table-responsive" >}}
+{{< bootstrap-table "bootstrap-table table-striped table-responsive " >}}
 | Metric | Good | Needs Improvement | Poor |
 |---|---|---|---|
 | LCP (Largest Contentful Paint) | ≤ 2.5s | 2.5–4.0s | > 4.0s |
@@ -937,7 +937,7 @@ Performance testing for frontend goes beyond Lighthouse (which measures a single
 
 **Key tools:**
 
-{{< bootstrap-table "bootstrap-table table-striped table-responsive" >}}
+{{< bootstrap-table "bootstrap-table table-striped table-responsive " >}}
 | Tool | Purpose | When to use |
 |---|---|---|
 | [Lighthouse](https://developer.chrome.com/docs/lighthouse/) | Page load performance, Core Web Vitals | Every build — CI integration |
@@ -1007,7 +1007,7 @@ test('page passes axe accessibility audit', async ({ page }) => {
 
 ### Common Pitfalls
 
-{{< bootstrap-table "bootstrap-table table-striped table-responsive" >}}
+{{< bootstrap-table "bootstrap-table table-striped table-responsive " >}}
 | Pitfall | Prevention |
 |---|---|
 | Specificity wars from inconsistent selector strategies | Adopt BEM; avoid IDs and element qualifiers in component styles |

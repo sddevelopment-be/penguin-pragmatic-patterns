@@ -76,6 +76,7 @@
   --theme-text-heading: var(--theme-text-base-heading);
   --theme-text-link: var(--theme-text-base-link);
   --theme-text-link-hover: var(--theme-brand-primary);
+  --theme-text-link-on-surface: var(--theme-brand-primary);
   --theme-text-navbar: var(--theme-text-base-primary);
   --theme-text-skip-link: var(--theme-text-base-black);
   --theme-text-card-title: var(--theme-text-base-card-title);
@@ -169,6 +170,8 @@
     --theme-text-heading: var(--theme-text-base-dark-heading);
     --theme-text-link: var(--theme-brand-primary);
     --theme-text-link-hover: var(--theme-text-base-dark-link-hover);
+    /* #5ba8e8 achieves 5.9:1 contrast on the dark section background (#1a1f26) */
+    --theme-text-link-on-surface: #5ba8e8;
     --theme-text-navbar: var(--theme-text-base-dark-primary);
     --theme-text-skip-link: var(--theme-text-base-white);
     --theme-text-card-title: var(--theme-text-base-dark-card-title);

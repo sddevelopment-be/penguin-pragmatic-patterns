@@ -90,7 +90,7 @@ Navbar
         left: 0;
         width: 100%;
         min-height: 4rem !important;
-        background: $white;
+        background: var(--theme-bg-navbar);
         box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.12);
         a {
             color: $blue-grey;

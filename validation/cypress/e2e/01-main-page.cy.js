@@ -16,18 +16,15 @@ describe('Main Page Loading', () => {
   })
 
   it('should display the main title', () => {
-    // Verify the main hero title is present
-    cy.contains('Pragmatic Penguin Pattern Portfolio').should('be.visible')
+    cy.contains('Why this exists').should('be.visible')
   })
 
   it('should display the subtitle', () => {
-    // Verify the subtitle is present
-    cy.contains('For engineers, team leads, and knowledge workers').should('be.visible')
+    cy.contains('because knowing what to do matters less than knowing when to do it').should('be.visible')
   })
 
-  it('should have a "Start Reading" button', () => {
-    // Check for the main CTA button
-    cy.contains('Start Reading').should('be.visible')
+  it('should have a "Start exploring" section', () => {
+    cy.contains('Start exploring').should('be.visible')
   })
 
   it('should load without console errors', () => {

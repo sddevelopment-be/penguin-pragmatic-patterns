@@ -32,7 +32,6 @@ describe('Navigation Bar and Footer Presence', () => {
     it('should have main navigation links', () => {
       // Verify presence of main navigation items from config
       getNavbar().within(() => {
-        cy.contains('Approach').should('be.visible')
         cy.contains('Concepts').should('be.visible')
         cy.contains('Practices').should('be.visible')
         cy.contains('Primers').should('be.visible')

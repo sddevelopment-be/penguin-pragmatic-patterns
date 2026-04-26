@@ -19,7 +19,6 @@ describe('Navigation Links Functionality', () => {
 
   describe('Main Navigation Links', () => {
     const mainNavLinks = [
-      { text: 'Approach', url: '/about' },
       { text: 'Concepts', url: '/concepts/' },
       { text: 'Practices', url: '/practices/' },
       { text: 'Primers', url: '/primers/' },

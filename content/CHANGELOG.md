@@ -27,6 +27,24 @@ Any feedback or suggestions for changes can be submitted there.
 
 ## Unreleased
 
+### Added
+
+- **Frontend Primer Series** — four new primers covering the frontend styling and application ecosystem:
+  - **[CSS & SCSS Primer](/primers/markup-and-diagramming/css-sass)** — CSS cascade, specificity, and inheritance mental model; SCSS module system (`@use`/`@forward`); BEM naming, ITCSS/7-1 architecture; responsive design from 320 px to ultrawide; light/dark/auto colour scheme implementation with CSS custom properties; quality tooling (Lighthouse, Playwright, Stylelint, axe-core). Sources: MDN, sass-lang.com, sass-guidelin.es, cssguidelin.es.
+  - **[CSS Frameworks Primer](/primers/markup-and-diagramming/css-frameworks)** — Comparison of Bootstrap v5 (component-based), Tailwind CSS (utility-first JIT), and Materialize CSS (Material Design), with installation guides, SCSS customisation examples, Angular integration, accessibility notes, and a decision matrix for choosing between them.
+  - **[TypeScript & Angular Primer](/primers/programming-languages/typescript-angular)** — TypeScript structural typing, utility types, generics, and decorator model; Angular 17+ standalone component architecture, dependency injection via `inject()`, smart/dumb component split, OnPush change detection; RxJS reactive patterns (`BehaviorSubject`, `switchMap`, `takeUntilDestroyed`, `async` pipe); Signals for synchronous state (`signal()`, `computed()`, `toSignal()`); testing with `TestBed`, `HttpTestingController`, and Playwright E2E.
+  - **[Behaviour-Driven Development Primer](/primers/toolchain-and-automation/bdd)** — BDD philosophy (Discovery → Formulation → Automation, Three Amigos); complete Gherkin syntax reference; step definitions in Java, Python (Behave), and TypeScript (Cucumber-JS); Selenium WebDriver with Page Object Model; Serenity BDD's Screenplay pattern (Actor/Ability/Task/Interaction/Question); custom DSL trade-offs; anti-pattern catalogue; full practical example.
+- **Security remediation plan** — `docs/dev/security-remediation-2026-04.md` documenting all 69 open Dependabot alerts by severity, package, and fix strategy, with agent responsibility assignments.
+
+### Fixed
+
+- **bootstrap-table shortcode class string** — 29 table instances across the four new primers used the shortcode without the canonical trailing space (`"bootstrap-table table-striped table-responsive"` → `"bootstrap-table table-striped table-responsive "`), causing potential rendering inconsistency with established primers.
+
+### Security
+
+- **npm (validation/)**: Upgraded `sitespeed.io` 38.6.0 → 39.5.0 resolving the critical `basic-ftp` path traversal vulnerability. Added `package.json` overrides to force fixed versions of `fast-xml-parser`, `minimatch`, `picomatch`, `node-forge`, `flatted`, `underscore`, `immutable`, `jws`, `glob`, `axios`, `follow-redirects`, `brace-expansion`, `ajv`, `js-yaml`, `lodash`, `markdown-it`, and `@eslint/plugin-kit`. Net result: 69 → 54 open alerts; **critical: 1 → 0; high: 36 → 18**. Remaining 54 alerts require unacceptable downgrades of `sitespeed.io` or `cypress`; accepted as acknowledged build-tool risk.
+- **Maven (src/examples/patterns-base/)**: Updated `assertj-core` 3.17.2 → 3.27.7 (resolves XXE vulnerability in `isXmlEqualTo`) and `commons-lang3` 3.11 → 3.18.0 (resolves uncontrolled recursion on long inputs). Both are `test` scope only.
+
 ### Fixed
 
 - **Dark mode inconsistencies**: Resolved hardcoded color values in recommendations section and navbar-clone that prevented proper dark theme rendering

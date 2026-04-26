@@ -30,6 +30,25 @@
   "config": {
     "lighthouse_url": "http://localhost:1313/"
   },
+  "overrides": {
+    "fast-xml-parser": ">=5.7.0",
+    "minimatch": ">=10.2.3",
+    "picomatch": ">=4.0.4",
+    "node-forge": ">=1.4.0",
+    "flatted": ">=3.4.2",
+    "underscore": ">=1.13.8",
+    "immutable": ">=5.1.5",
+    "jws": ">=3.2.3",
+    "glob": ">=11.1.0",
+    "axios": ">=1.15.0",
+    "follow-redirects": ">=1.15.12",
+    "brace-expansion": ">=5.0.5",
+    "ajv": ">=8.18.0",
+    "js-yaml": ">=4.1.1",
+    "lodash": ">=4.18.0",
+    "markdown-it": ">=14.1.1",
+    "@eslint/plugin-kit": ">=0.3.4"
+  },
   "devDependencies": {
     "cspell": "^9.3.0",
     "cypress": "^15.6.0",
@@ -44,7 +63,7 @@
     "remark-frontmatter": "^5.0.0",
     "remark-gfm": "^4.0.1",
     "remark-preset-lint-consistent": "^6.0.1",
-    "sitespeed.io": "^38.6.0",
+    "sitespeed.io": "^39.5.0",
     "stylelint": "^16.25.0",
     "stylelint-config-prettier": "^9.0.5",
     "stylelint-config-standard-scss": "^16.0.0",

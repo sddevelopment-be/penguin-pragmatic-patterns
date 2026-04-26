@@ -65,7 +65,6 @@ words:
   - slidedeck
   - holacracy
   - subfacet
-  - habbits
   - resumés
 ignorePaths:
   - node_modules

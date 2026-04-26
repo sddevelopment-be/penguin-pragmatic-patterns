@@ -1037,7 +1037,7 @@ domain = "Enterprise Architecture"
 description = """
 An organizational capability is a specific ability or capacity that an organization possesses to perform a particular task or function. They are
 realized by various elements of the organization, such as people, processes, and technology. In the field of business, strategic thinking and planning delivers strategies
-and high-level goals that are often not directly implementable in the architecture of an organization. Describing the organization as a set of capabilties,
+and high-level goals that are often not directly implementable in the architecture of an organization. Describing the organization as a set of capabilities,
 enables organizations to reason about their goals and processes in a structured, strategic, manner. This structure can later be used to ensure business capabilities are assigned to organizational units, and people.
 """
 aliases = ["Capability"]
@@ -1100,7 +1100,7 @@ aliases = ["solutioning shortcut", "best practice"]
 
 [[terminology]]
 name = "Search space"
-domain = "Problem Soving"
+domain = "Problem Solving"
 description = """
 Search Space refers to the entire set of possible solutions or outcomes that can be considered when solving a problem or making a decision.
 It encompasses all potential approaches, methods, and pathways that can be considered in the problem-solving process.

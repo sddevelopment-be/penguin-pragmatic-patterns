@@ -25,13 +25,19 @@ related_concepts = [
 related_practices = [
     "fe600488-e27b-4f62-9e2a-75b7bd1ee1a3",
     "336b0448-e78b-4428-83a5-d4d473afda63",
-    "e6cdeaa2-cc30-4928-95fd-f28ea7cb489d"
+    "e6cdeaa2-cc30-4928-95fd-f28ea7cb489d",
+    "60a19c38-3978-4eb5-ba67-8027b2a9d8d7"
 ]
 further_exploration = [
     {type="raw", author="North, D.", year="2006", title="Introducing BDD", site="dannorth.net", link="https://dannorth.net/introducing-bdd/"},
     {type="raw", author="Wynne, M.", year="2015", title="Introducing Example Mapping", site="cucumber.io", link="https://cucumber.io/blog/bdd/example-mapping-introduction/"},
-    {type="raw", author="Cucumber Team", year="2024", title="BDD with Cucumber", site="cucumber.io", link="https://cucumber.io/docs/bdd/"},
+    {type="raw", author="Brandolini, A.", year="2013", title="Introducing Event Storming", site="eventstorming.com", link="https://www.eventstorming.com/book/"},
+    {type="raw", author="Cucumber Team", year="2024", title="BDD with Cucumber — Gherkin Reference", site="cucumber.io", link="https://cucumber.io/docs/gherkin/reference/"},
     {type="raw", author="Smart, J.F.", year="2014", title="BDD in Action: Behaviour-Driven Development for the Whole Software Lifecycle", site="Manning Publications", link="https://www.manning.com/books/bdd-in-action"},
+    {type="raw", author="Serenity BDD Team", year="2024", title="Serenity BDD — Living Documentation and Screenplay Pattern", site="serenity-bdd.github.io", link="https://serenity-bdd.github.io/docs/tutorials/first_test"},
+    {type="raw", author="Selenium Project", year="2024", title="Selenium WebDriver Documentation", site="selenium.dev", link="https://www.selenium.dev/documentation/webdriver/"},
+    {type="raw", author="Microsoft", year="2024", title="Playwright — End-to-End Testing", site="playwright.dev", link="https://playwright.dev/"},
+    {type="raw", author="Dejongh, S.", year="2026", title="Behaviour-Driven Development Primer", site="Pragmatic Penguin Patterns", link="/primers/toolchain-and-automation/bdd/"},
     {type="biblio", id="2930d42d-e7cf-4ea5-a6f3-eceb5b9a5fc1"},
 ]
 +++
@@ -51,6 +57,26 @@ The central problem BDD addresses is deceptively simple: software teams routinel
 - **Formulation** — Translating discovered examples into plain-language specifications, typically written in Gherkin's `Given / When / Then` structure. These specifications belong to the product, not to a developer's test file.
 - **Automation** — Connecting the written specifications to executable test code. The specification runs against the system; a passing scenario is proof of behaviour, not just proof of code.
 - **Living Documentation** — Because the specifications run as tests, they cannot silently fall out of date. A feature file that describes a completed workflow is either green (the system behaves as described) or red (the system has diverged and someone must decide which is correct: the code or the spec).
+
+### Event Storming as a Discovery Companion
+
+BDD's Discovery phase — the conversation before anyone writes a specification — works best when the team has a map of the domain. [Event Storming]({{< ref "practices/event_storming" >}}) provides exactly that.
+
+Event Storming is a facilitated workshop in which domain experts and developers collaboratively map a business domain using colour-coded sticky notes. It operates at a wider angle than Example Mapping: where Example Mapping refines a single user story, Event Storming charts the entire territory first — surfacing domain events, commands, policies, and bounded contexts before any story is written.
+
+{{< image src="/images/concepts/event_storming_todo.png" alt="Event Storming diagram for a ToDo application showing domain events, commands, policies, actors, and a read model" size="100%" caption="Event Storming of a simple ToDo domain. Orange = domain events, blue = commands, yellow = aggregates, purple = policies, green = read models, pink = actors." >}}
+
+The three techniques nest naturally:
+
+{{< bootstrap-table "bootstrap-table table-striped table-responsive " >}}
+| Technique | Scope | Output | Feeds into |
+|---|---|---|---|
+| **Event Storming** | Entire domain | Domain map, bounded contexts, hotspot list | Example Mapping sessions, backlog |
+| **Example Mapping** | One user story | Concrete rules and examples | BDD Gherkin scenarios |
+| **BDD / Gherkin** | One scenario | Executable specification | Automated test suite |
+{{< /bootstrap-table >}}
+
+The domain events from an Event Storming session map almost directly onto BDD `Then` clauses. Commands become `When` clauses. Actors and aggregates fill in the `Given` context. The workshop does not replace BDD — it gives BDD something worth specifying.
 
 ### BDD and User Journeys
 

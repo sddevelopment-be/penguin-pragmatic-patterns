@@ -1,0 +1,69 @@
+@startuml event_storming_todo
+
+' Render from project root: plantuml -tpng -o static/images/concepts src/images/concepts/event_storming_todo.puml
+!include /home/stijnd/Documents/code/projects/penguin-pragmatic-patterns/docs/templates/plantuml/puml-theme-stickies.puml
+
+title "Event Storming: ToDo Application"
+
+left to right direction
+
+' ── ACTORS ──────────────────────────────────────────────────
+Sticky_Pink(actor_member, "Team\nMember")
+Sticky_Pink(actor_lead,   "Team\nLead")
+
+' ── FLOW 1 : Task Creation ──────────────────────────────────
+package "Task Creation" #transparent {
+  Sticky_Blue(cmd_create,   "Create\nTask")
+  Sticky(agg_task1,         "Task")
+  Sticky_Orange(evt_created,"Task\nCreated")
+  Sticky_Green(view_list,   "Task\nList")
+}
+
+' ── FLOW 2 : Task Assignment ────────────────────────────────
+package "Task Assignment" #transparent {
+  Sticky_Blue(cmd_assign,   "Assign\nTask")
+  Sticky(agg_task2,         "Task")
+  Sticky_Orange(evt_assigned,"Task\nAssigned")
+  Sticky_Purple(pol_notify, "When assigned:\nNotify member")
+  Sticky_Orange(evt_notified,"Notification\nSent")
+}
+
+' ── FLOW 3 : Task Completion ────────────────────────────────
+package "Task Completion" #transparent {
+  Sticky_Blue(cmd_complete, "Complete\nTask")
+  Sticky(agg_task3,         "Task")
+  Sticky_Orange(evt_completed,"Task\nCompleted")
+  Sticky_Purple(pol_check,  "When all done:\nClose project")
+  Sticky_Orange(evt_closed, "Project\nClosed")
+}
+
+' ── CONNECTIONS ─────────────────────────────────────────────
+actor_member --> cmd_create
+cmd_create    --> agg_task1
+agg_task1     --> evt_created
+evt_created   --> view_list
+
+actor_lead    --> cmd_assign
+cmd_assign    --> agg_task2
+agg_task2     --> evt_assigned
+evt_assigned  --> pol_notify
+pol_notify    --> evt_notified
+
+actor_member  --> cmd_complete
+cmd_complete  --> agg_task3
+agg_task3     --> evt_completed
+evt_completed --> pol_check
+pol_check     --> evt_closed
+
+' ── LEGEND ──────────────────────────────────────────────────
+legend bottom
+  |= Colour |= Meaning |
+  |<#DBA872> Orange | Domain Event |
+  |<#9EBDCC> Blue | Command |
+  |<#d6e7a9> Yellow | Aggregate / Entity |
+  |<#9B8EC8> Purple | Policy (reaction) |
+  |<#99DB84> Green | Read Model / View |
+  |<#C89DB6> Pink | Actor |
+endlegend
+
+@enduml

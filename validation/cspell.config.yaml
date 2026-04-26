@@ -59,6 +59,14 @@ words:
   - devpedia
   - Doji
   - practicingruby
+  - Rebutability
+  - challengeability
+  - deprioritised
+  - slidedeck
+  - holacracy
+  - subfacet
+  - habbits
+  - resumés
 ignorePaths:
   - node_modules
   - validation/node_modules

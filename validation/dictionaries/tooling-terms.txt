@@ -55,3 +55,12 @@ hyperparameters
 pip-tools
 delegative
 logotherapy
+solutioning
+layouting
+improv
+prag
+apprent
+butunclebob
+growsmethod
+theeducationgame
+agilemanifesto

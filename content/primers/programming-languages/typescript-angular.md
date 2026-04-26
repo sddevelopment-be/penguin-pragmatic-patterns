@@ -4,7 +4,7 @@ subtitle = "Typed JavaScript at scale, with a batteries-included framework and r
 aliases = ["typescript-primer", "angular-primer", "programming-languages/typescript-angular"]
 author = "Stijn Dejongh"
 outputs = ['html', 'rss', 'json']
-date = "2026-04-26T12:00:00+00:00"
+date = "2026-04-26T00:00:00+00:00"
 tags = ["typescript", "angular", "rxjs", "frontend", "primer", "reference", "intermediate"]
 summary = """
 TypeScript adds static types to JavaScript through structural (duck) typing and full type erasure

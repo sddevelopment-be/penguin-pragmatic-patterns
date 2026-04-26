@@ -4,7 +4,7 @@ subtitle = "Structured styling with cascade mastery, programmable authoring, and
 aliases = ["css-primer", "scss-primer", "sass-primer", "markup-and-diagramming/css-scss"]
 author = "Stijn Dejongh"
 outputs = ['html', 'rss', 'json']
-date = "2026-04-26T12:00:00+00:00"
+date = "2026-04-26T00:00:00+00:00"
 tags = ["css", "scss", "sass", "frontend", "styling", "primer", "reference", "markup"]
 summary = """
 CSS describes what elements look like; SCSS makes that description programmable — adding

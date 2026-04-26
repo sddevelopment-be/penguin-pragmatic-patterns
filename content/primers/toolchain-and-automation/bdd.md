@@ -4,7 +4,7 @@ subtitle = "From shared examples to executable specifications and living documen
 aliases = ["bdd-primer", "behaviour-driven-development", "toolchain-and-automation/bdd"]
 author = "Stijn Dejongh"
 outputs = ['html', 'rss', 'json']
-date = "2026-04-26T12:00:00+00:00"
+date = "2026-04-26T00:00:00+00:00"
 tags = ["bdd", "testing", "cucumber", "gherkin", "selenium", "serenity", "automation", "primer", "reference"]
 summary = """
 Behaviour-Driven Development is a collaboration practice that turns shared examples into
@@ -623,4 +623,4 @@ mvn serenity:aggregate
 **Related patterns and concepts:**
 
 - [Testing Pyramid]({{< ref "concepts/testing_pyramid" >}}) — BDD scenarios sit at the top of the pyramid; understanding the full pyramid contextualises where BDD fits
-- [Ports and Adapters]({{< ref "primers/architectural/ports-and-adapters" >}}) — BDD step definitions benefit from hexagonal architecture: step code calls application ports, not UI or DB directly, keeping scenarios fast and stable
+- **Ports and Adapters** (Hexagonal Architecture) — BDD step definitions benefit from this pattern: step code calls application ports rather than UI or database directly, keeping scenarios fast and implementation-independent
